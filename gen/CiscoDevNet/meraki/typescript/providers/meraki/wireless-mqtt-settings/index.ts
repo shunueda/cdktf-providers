@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,135 +10,135 @@ export interface WirelessMqttSettingsConfig extends cdktf.TerraformMetaArguments
   /**
   * Allowed MAC List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_allow_lists_macs WirelessMqttSettings#ble_allow_lists_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_allow_lists_macs WirelessMqttSettings#ble_allow_lists_macs}
   */
   readonly bleAllowListsMacs?: string[];
   /**
   * Allowed UUID List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_allow_lists_uuids WirelessMqttSettings#ble_allow_lists_uuids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_allow_lists_uuids WirelessMqttSettings#ble_allow_lists_uuids}
   */
   readonly bleAllowListsUuids?: string[];
   /**
   * BLE Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_enabled WirelessMqttSettings#ble_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_enabled WirelessMqttSettings#ble_enabled}
   */
   readonly bleEnabled?: boolean | cdktf.IResolvable;
   /**
   * BLE Flush frequency in seconds. Will be between 1 and 2147483647. Default is 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_flush_frequency WirelessMqttSettings#ble_flush_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_flush_frequency WirelessMqttSettings#ble_flush_frequency}
   */
   readonly bleFlushFrequency?: number;
   /**
   * BLE Hysteresis Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_hysteresis_enabled WirelessMqttSettings#ble_hysteresis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_hysteresis_enabled WirelessMqttSettings#ble_hysteresis_enabled}
   */
   readonly bleHysteresisEnabled?: boolean | cdktf.IResolvable;
   /**
   * BLE Threshold. Will be between 1 and 2147483647. Default is 1 second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_hysteresis_threshold WirelessMqttSettings#ble_hysteresis_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_hysteresis_threshold WirelessMqttSettings#ble_hysteresis_threshold}
   */
   readonly bleHysteresisThreshold?: number;
   /**
   * BLE type of clients to publish telemetry. Valid types are: All, iBeacon, Eddystone, Unknown
   *   - Choices: `All`, `Eddystone`, `iBeacon`, `Unknown`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#ble_type WirelessMqttSettings#ble_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#ble_type WirelessMqttSettings#ble_type}
   */
   readonly bleType?: string;
   /**
   * Broker Config Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#mqtt_broker_name WirelessMqttSettings#mqtt_broker_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#mqtt_broker_name WirelessMqttSettings#mqtt_broker_name}
   */
   readonly mqttBrokerName?: string;
   /**
   * MQTT Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#mqtt_enabled WirelessMqttSettings#mqtt_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#mqtt_enabled WirelessMqttSettings#mqtt_enabled}
   */
   readonly mqttEnabled?: boolean | cdktf.IResolvable;
   /**
   * Select fields to populate in MQTT messages. Valid types are: RSSI, AP MAC address, Client MAC address, Timestamp, Radio, Network ID, Beacon type, Raw payload, Client UUID, Client major value, Client minor value, Signal power, Band, Slot ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#mqtt_message_fields WirelessMqttSettings#mqtt_message_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#mqtt_message_fields WirelessMqttSettings#mqtt_message_fields}
   */
   readonly mqttMessageFields?: string[];
   /**
   * MQTT Publishing Frequency in seconds. Will be between 1 and 2147483647. Default is 1 second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#mqtt_publishing_frequency WirelessMqttSettings#mqtt_publishing_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#mqtt_publishing_frequency WirelessMqttSettings#mqtt_publishing_frequency}
   */
   readonly mqttPublishingFrequency?: number;
   /**
   * MQTT Publishing QoS. Valid types are: 0, 1, 2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#mqtt_publishing_qos WirelessMqttSettings#mqtt_publishing_qos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#mqtt_publishing_qos WirelessMqttSettings#mqtt_publishing_qos}
   */
   readonly mqttPublishingQos?: number;
   /**
   * MQTT Topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#mqtt_topic WirelessMqttSettings#mqtt_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#mqtt_topic WirelessMqttSettings#mqtt_topic}
   */
   readonly mqttTopic?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#network_id WirelessMqttSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#network_id WirelessMqttSettings#network_id}
   */
   readonly networkId: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#organization_id WirelessMqttSettings#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#organization_id WirelessMqttSettings#organization_id}
   */
   readonly organizationId: string;
   /**
   * Allowed MAC List
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#wifi_allow_lists_macs WirelessMqttSettings#wifi_allow_lists_macs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#wifi_allow_lists_macs WirelessMqttSettings#wifi_allow_lists_macs}
   */
   readonly wifiAllowListsMacs?: string[];
   /**
   * Wi-Fi Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#wifi_enabled WirelessMqttSettings#wifi_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#wifi_enabled WirelessMqttSettings#wifi_enabled}
   */
   readonly wifiEnabled?: boolean | cdktf.IResolvable;
   /**
   * Wi-Fi Flush frequency in seconds. Will be between 1 and 2147483647. Default is 60 seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#wifi_flush_frequency WirelessMqttSettings#wifi_flush_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#wifi_flush_frequency WirelessMqttSettings#wifi_flush_frequency}
   */
   readonly wifiFlushFrequency?: number;
   /**
   * Wi-Fi Hysteresis Enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#wifi_hysteresis_enabled WirelessMqttSettings#wifi_hysteresis_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#wifi_hysteresis_enabled WirelessMqttSettings#wifi_hysteresis_enabled}
   */
   readonly wifiHysteresisEnabled?: boolean | cdktf.IResolvable;
   /**
   * Wi-Fi Threshold. Will be between 1 and 2147483647. Default is 1 second
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#wifi_hysteresis_threshold WirelessMqttSettings#wifi_hysteresis_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#wifi_hysteresis_threshold WirelessMqttSettings#wifi_hysteresis_threshold}
   */
   readonly wifiHysteresisThreshold?: number;
   /**
   * Wi-Fi client type. Valid types are: Visible, Associated
   *   - Choices: `Associated`, `Visible`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#wifi_type WirelessMqttSettings#wifi_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#wifi_type WirelessMqttSettings#wifi_type}
   */
   readonly wifiType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings meraki_wireless_mqtt_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings meraki_wireless_mqtt_settings}
 */
 export class WirelessMqttSettings extends cdktf.TerraformResource {
 
@@ -154,7 +154,7 @@ export class WirelessMqttSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessMqttSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessMqttSettings to import
-  * @param importFromId The id of the existing WirelessMqttSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessMqttSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessMqttSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -166,7 +166,7 @@ export class WirelessMqttSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_mqtt_settings meraki_wireless_mqtt_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_mqtt_settings meraki_wireless_mqtt_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -177,8 +177,8 @@ export class WirelessMqttSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_mqtt_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

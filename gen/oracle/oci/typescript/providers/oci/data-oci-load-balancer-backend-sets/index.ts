@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLoadBalancerBackendSetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#id DataOciLoadBalancerBackendSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#id DataOciLoadBalancerBackendSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#load_balancer_id DataOciLoadBalancerBackendSets#load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#load_balancer_id DataOciLoadBalancerBackendSets#load_balancer_id}
   */
   readonly loadBalancerId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#filter DataOciLoadBalancerBackendSets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#filter DataOciLoadBalancerBackendSets#filter}
   */
   readonly filter?: DataOciLoadBalancerBackendSetsFilter[] | cdktf.IResolvable;
 }
@@ -677,15 +677,15 @@ export class DataOciLoadBalancerBackendSetsBackendsetsList extends cdktf.Complex
 }
 export interface DataOciLoadBalancerBackendSetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#name DataOciLoadBalancerBackendSets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#name DataOciLoadBalancerBackendSets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#regex DataOciLoadBalancerBackendSets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#regex DataOciLoadBalancerBackendSets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#values DataOciLoadBalancerBackendSets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#values DataOciLoadBalancerBackendSets#values}
   */
   readonly values: string[];
 }
@@ -853,7 +853,7 @@ export class DataOciLoadBalancerBackendSetsFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets oci_load_balancer_backend_sets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets oci_load_balancer_backend_sets}
 */
 export class DataOciLoadBalancerBackendSets extends cdktf.TerraformDataSource {
 
@@ -869,7 +869,7 @@ export class DataOciLoadBalancerBackendSets extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciLoadBalancerBackendSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLoadBalancerBackendSets to import
-  * @param importFromId The id of the existing DataOciLoadBalancerBackendSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLoadBalancerBackendSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLoadBalancerBackendSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -881,7 +881,7 @@ export class DataOciLoadBalancerBackendSets extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/load_balancer_backend_sets oci_load_balancer_backend_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/load_balancer_backend_sets oci_load_balancer_backend_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -892,8 +892,8 @@ export class DataOciLoadBalancerBackendSets extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_load_balancer_backend_sets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SwitchAlternateManagementInterfaceConfig extends cdktf.Terrafor
   /**
   * Boolean value to enable or disable AMI configuration. If enabled, VLAN and protocols must be set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#enabled SwitchAlternateManagementInterface#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#enabled SwitchAlternateManagementInterface#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#network_id SwitchAlternateManagementInterface#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#network_id SwitchAlternateManagementInterface#network_id}
   */
   readonly networkId: string;
   /**
   * Can be one or more of the following values: `radius`, `snmp` or `syslog`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#protocols SwitchAlternateManagementInterface#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#protocols SwitchAlternateManagementInterface#protocols}
   */
   readonly protocols?: string[];
   /**
   * Array of switch serial number and IP assignment. If parameter is present, it cannot have empty body. Note: switches parameter is not applicable for template networks, in other words, do not put `switches` in the body when updating template networks. Also, an empty `switches` array will remove all previous assignments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#switches SwitchAlternateManagementInterface#switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#switches SwitchAlternateManagementInterface#switches}
   */
   readonly switches?: SwitchAlternateManagementInterfaceSwitches[] | cdktf.IResolvable;
   /**
   * Alternate management VLAN, must be between 1 and 4094
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#vlan_id SwitchAlternateManagementInterface#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#vlan_id SwitchAlternateManagementInterface#vlan_id}
   */
   readonly vlanId?: number;
 }
@@ -42,25 +42,25 @@ export interface SwitchAlternateManagementInterfaceSwitches {
   /**
   * Switch alternative management IP. To remove a prior IP setting, provide an empty string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#alternate_management_ip SwitchAlternateManagementInterface#alternate_management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#alternate_management_ip SwitchAlternateManagementInterface#alternate_management_ip}
   */
   readonly alternateManagementIp: string;
   /**
   * Switch gateway must be in IP format. Only and must be specified for Polaris switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#gateway SwitchAlternateManagementInterface#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#gateway SwitchAlternateManagementInterface#gateway}
   */
   readonly gateway?: string;
   /**
   * Switch serial number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#serial SwitchAlternateManagementInterface#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#serial SwitchAlternateManagementInterface#serial}
   */
   readonly serial: string;
   /**
   * Switch subnet mask must be in IP format. Only and must be specified for Polaris switches
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#subnet_mask SwitchAlternateManagementInterface#subnet_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#subnet_mask SwitchAlternateManagementInterface#subnet_mask}
   */
   readonly subnetMask?: string;
 }
@@ -257,7 +257,7 @@ export class SwitchAlternateManagementInterfaceSwitchesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface meraki_switch_alternate_management_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface meraki_switch_alternate_management_interface}
 */
 export class SwitchAlternateManagementInterface extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class SwitchAlternateManagementInterface extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SwitchAlternateManagementInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchAlternateManagementInterface to import
-  * @param importFromId The id of the existing SwitchAlternateManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchAlternateManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchAlternateManagementInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class SwitchAlternateManagementInterface extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_alternate_management_interface meraki_switch_alternate_management_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_alternate_management_interface meraki_switch_alternate_management_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class SwitchAlternateManagementInterface extends cdktf.TerraformResource 
       terraformResourceType: 'meraki_switch_alternate_management_interface',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

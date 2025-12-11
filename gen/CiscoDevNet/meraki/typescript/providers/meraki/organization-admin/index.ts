@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,44 +11,44 @@ export interface OrganizationAdminConfig extends cdktf.TerraformMetaArguments {
   * No longer used as of Cisco SecureX end-of-life. Can be one of `Email`. The default is Email authentication.
   *   - Choices: `Email`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#authentication_method OrganizationAdmin#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#authentication_method OrganizationAdmin#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * The email of the dashboard administrator. This attribute can not be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#email OrganizationAdmin#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#email OrganizationAdmin#email}
   */
   readonly email: string;
   /**
   * The name of the dashboard administrator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#name OrganizationAdmin#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#name OrganizationAdmin#name}
   */
   readonly name: string;
   /**
   * The list of networks that the dashboard administrator has privileges on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#networks OrganizationAdmin#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#networks OrganizationAdmin#networks}
   */
   readonly networks?: OrganizationAdminNetworks[] | cdktf.IResolvable;
   /**
   * The privilege of the dashboard administrator on the organization. Can be one of `full`, `read-only`, `enterprise` or `none`
   *   - Choices: `enterprise`, `full`, `none`, `read-only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#org_access OrganizationAdmin#org_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#org_access OrganizationAdmin#org_access}
   */
   readonly orgAccess: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#organization_id OrganizationAdmin#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#organization_id OrganizationAdmin#organization_id}
   */
   readonly organizationId: string;
   /**
   * The list of tags that the dashboard administrator has privileges on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#tags OrganizationAdmin#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#tags OrganizationAdmin#tags}
   */
   readonly tags?: OrganizationAdminTags[] | cdktf.IResolvable;
 }
@@ -57,13 +57,13 @@ export interface OrganizationAdminNetworks {
   * The privilege of the dashboard administrator on the network. Can be one of `full`, `read-only`, `guest-ambassador` or `monitor-only`
   *   - Choices: `full`, `read-only`, `guest-ambassador`, `monitor-only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#access OrganizationAdmin#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#access OrganizationAdmin#access}
   */
   readonly access: string;
   /**
   * The network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#id OrganizationAdmin#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#id OrganizationAdmin#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -208,13 +208,13 @@ export interface OrganizationAdminTags {
   * The privilege of the dashboard administrator on the tag. Can be one of `full`, `read-only`, `guest-ambassador` or `monitor-only`
   *   - Choices: `full`, `guest-ambassador`, `monitor-only`, `read-only`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#access OrganizationAdmin#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#access OrganizationAdmin#access}
   */
   readonly access: string;
   /**
   * The name of the tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#tag OrganizationAdmin#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#tag OrganizationAdmin#tag}
   */
   readonly tag: string;
 }
@@ -353,7 +353,7 @@ export class OrganizationAdminTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin meraki_organization_admin}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin meraki_organization_admin}
 */
 export class OrganizationAdmin extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class OrganizationAdmin extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationAdmin resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAdmin to import
-  * @param importFromId The id of the existing OrganizationAdmin that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAdmin that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAdmin to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class OrganizationAdmin extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_admin meraki_organization_admin} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_admin meraki_organization_admin} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class OrganizationAdmin extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_admin',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

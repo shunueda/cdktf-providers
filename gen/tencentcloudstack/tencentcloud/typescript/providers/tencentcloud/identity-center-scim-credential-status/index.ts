@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IdentityCenterScimCredentialStatusConfig extends cdktf.Terrafor
   /**
   * SCIM key ID. scimcred-prefix and followed by 12 random digits/lowercase letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status#credential_id IdentityCenterScimCredentialStatus#credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status#credential_id IdentityCenterScimCredentialStatus#credential_id}
   */
   readonly credentialId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status#id IdentityCenterScimCredentialStatus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status#id IdentityCenterScimCredentialStatus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface IdentityCenterScimCredentialStatusConfig extends cdktf.Terrafor
   /**
   * SCIM key status. Enabled-enabled. Disabled-disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status#status IdentityCenterScimCredentialStatus#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status#status IdentityCenterScimCredentialStatus#status}
   */
   readonly status: string;
   /**
   * Space ID. z-prefix starts with 12 random digits/lowercase letters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status#zone_id IdentityCenterScimCredentialStatus#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status#zone_id IdentityCenterScimCredentialStatus#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status tencentcloud_identity_center_scim_credential_status}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status tencentcloud_identity_center_scim_credential_status}
 */
 export class IdentityCenterScimCredentialStatus extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class IdentityCenterScimCredentialStatus extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a IdentityCenterScimCredentialStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityCenterScimCredentialStatus to import
-  * @param importFromId The id of the existing IdentityCenterScimCredentialStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityCenterScimCredentialStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityCenterScimCredentialStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class IdentityCenterScimCredentialStatus extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/identity_center_scim_credential_status tencentcloud_identity_center_scim_credential_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/identity_center_scim_credential_status tencentcloud_identity_center_scim_credential_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class IdentityCenterScimCredentialStatus extends cdktf.TerraformResource 
       terraformResourceType: 'tencentcloud_identity_center_scim_credential_status',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

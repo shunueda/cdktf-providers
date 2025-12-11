@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface AiVisionProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#compartment_id AiVisionProject#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#compartment_id AiVisionProject#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#defined_tags AiVisionProject#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#defined_tags AiVisionProject#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#description AiVisionProject#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#description AiVisionProject#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#display_name AiVisionProject#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#display_name AiVisionProject#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#freeform_tags AiVisionProject#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#freeform_tags AiVisionProject#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#id AiVisionProject#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#id AiVisionProject#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,21 +37,21 @@ export interface AiVisionProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#timeouts AiVisionProject#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#timeouts AiVisionProject#timeouts}
   */
   readonly timeouts?: AiVisionProjectTimeouts;
 }
 export interface AiVisionProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#create AiVisionProject#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#create AiVisionProject#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#delete AiVisionProject#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#delete AiVisionProject#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#update AiVisionProject#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#update AiVisionProject#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class AiVisionProjectTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project oci_ai_vision_project}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project oci_ai_vision_project}
 */
 export class AiVisionProject extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class AiVisionProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiVisionProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiVisionProject to import
-  * @param importFromId The id of the existing AiVisionProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiVisionProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiVisionProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class AiVisionProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_project oci_ai_vision_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_project oci_ai_vision_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class AiVisionProject extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_vision_project',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

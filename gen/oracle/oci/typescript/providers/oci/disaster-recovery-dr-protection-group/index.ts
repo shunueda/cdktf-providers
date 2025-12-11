@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DisasterRecoveryDrProtectionGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#compartment_id DisasterRecoveryDrProtectionGroup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#compartment_id DisasterRecoveryDrProtectionGroup#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#defined_tags DisasterRecoveryDrProtectionGroup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#defined_tags DisasterRecoveryDrProtectionGroup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#disassociate_trigger DisasterRecoveryDrProtectionGroup#disassociate_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#disassociate_trigger DisasterRecoveryDrProtectionGroup#disassociate_trigger}
   */
   readonly disassociateTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#display_name DisasterRecoveryDrProtectionGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#display_name DisasterRecoveryDrProtectionGroup#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#freeform_tags DisasterRecoveryDrProtectionGroup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#freeform_tags DisasterRecoveryDrProtectionGroup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#id DisasterRecoveryDrProtectionGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#id DisasterRecoveryDrProtectionGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,39 +37,39 @@ export interface DisasterRecoveryDrProtectionGroupConfig extends cdktf.Terraform
   /**
   * association block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#association DisasterRecoveryDrProtectionGroup#association}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#association DisasterRecoveryDrProtectionGroup#association}
   */
   readonly association?: DisasterRecoveryDrProtectionGroupAssociation;
   /**
   * log_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#log_location DisasterRecoveryDrProtectionGroup#log_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#log_location DisasterRecoveryDrProtectionGroup#log_location}
   */
   readonly logLocation: DisasterRecoveryDrProtectionGroupLogLocation;
   /**
   * members block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#members DisasterRecoveryDrProtectionGroup#members}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#members DisasterRecoveryDrProtectionGroup#members}
   */
   readonly members?: DisasterRecoveryDrProtectionGroupMembers[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#timeouts DisasterRecoveryDrProtectionGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#timeouts DisasterRecoveryDrProtectionGroup#timeouts}
   */
   readonly timeouts?: DisasterRecoveryDrProtectionGroupTimeouts;
 }
 export interface DisasterRecoveryDrProtectionGroupAssociation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#peer_id DisasterRecoveryDrProtectionGroup#peer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#peer_id DisasterRecoveryDrProtectionGroup#peer_id}
   */
   readonly peerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#peer_region DisasterRecoveryDrProtectionGroup#peer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#peer_region DisasterRecoveryDrProtectionGroup#peer_region}
   */
   readonly peerRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#role DisasterRecoveryDrProtectionGroup#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#role DisasterRecoveryDrProtectionGroup#role}
   */
   readonly role: string;
 }
@@ -208,11 +208,11 @@ export class DisasterRecoveryDrProtectionGroupAssociationOutputReference extends
 }
 export interface DisasterRecoveryDrProtectionGroupLogLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}
   */
   readonly namespace: string;
 }
@@ -324,15 +324,15 @@ export class DisasterRecoveryDrProtectionGroupLogLocationOutputReference extends
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBackendSetMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_backend_set_name DisasterRecoveryDrProtectionGroup#destination_backend_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_backend_set_name DisasterRecoveryDrProtectionGroup#destination_backend_set_name}
   */
   readonly destinationBackendSetName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#is_backend_set_for_non_movable DisasterRecoveryDrProtectionGroup#is_backend_set_for_non_movable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#is_backend_set_for_non_movable DisasterRecoveryDrProtectionGroup#is_backend_set_for_non_movable}
   */
   readonly isBackendSetForNonMovable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_backend_set_name DisasterRecoveryDrProtectionGroup#source_backend_set_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_backend_set_name DisasterRecoveryDrProtectionGroup#source_backend_set_name}
   */
   readonly sourceBackendSetName?: string;
 }
@@ -506,27 +506,27 @@ export class DisasterRecoveryDrProtectionGroupMembersBackendSetMappingsList exte
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#backup_schedule DisasterRecoveryDrProtectionGroup#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#backup_schedule DisasterRecoveryDrProtectionGroup#backup_schedule}
   */
   readonly backupSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#exclude_namespaces DisasterRecoveryDrProtectionGroup#exclude_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#exclude_namespaces DisasterRecoveryDrProtectionGroup#exclude_namespaces}
   */
   readonly excludeNamespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#image_replication_vault_secret_id DisasterRecoveryDrProtectionGroup#image_replication_vault_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#image_replication_vault_secret_id DisasterRecoveryDrProtectionGroup#image_replication_vault_secret_id}
   */
   readonly imageReplicationVaultSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#max_number_of_backups_retained DisasterRecoveryDrProtectionGroup#max_number_of_backups_retained}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#max_number_of_backups_retained DisasterRecoveryDrProtectionGroup#max_number_of_backups_retained}
   */
   readonly maxNumberOfBackupsRetained?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#namespaces DisasterRecoveryDrProtectionGroup#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#namespaces DisasterRecoveryDrProtectionGroup#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#replicate_images DisasterRecoveryDrProtectionGroup#replicate_images}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#replicate_images DisasterRecoveryDrProtectionGroup#replicate_images}
   */
   readonly replicateImages?: string;
 }
@@ -755,11 +755,11 @@ export class DisasterRecoveryDrProtectionGroupMembersBackupConfigOutputReference
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBackupLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}
   */
   readonly namespace?: string;
 }
@@ -877,11 +877,11 @@ export class DisasterRecoveryDrProtectionGroupMembersBackupLocationOutputReferen
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperationsAttachments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_id DisasterRecoveryDrProtectionGroup#block_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_id DisasterRecoveryDrProtectionGroup#block_volume_id}
   */
   readonly blockVolumeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#volume_attachment_reference_instance_id DisasterRecoveryDrProtectionGroup#volume_attachment_reference_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#volume_attachment_reference_instance_id DisasterRecoveryDrProtectionGroup#volume_attachment_reference_instance_id}
   */
   readonly volumeAttachmentReferenceInstanceId?: string;
 }
@@ -1026,7 +1026,7 @@ export class DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOp
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperationsMounts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_point DisasterRecoveryDrProtectionGroup#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_point DisasterRecoveryDrProtectionGroup#mount_point}
   */
   readonly mountPoint?: string;
 }
@@ -1144,13 +1144,13 @@ export interface DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMou
   /**
   * attachments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#attachments DisasterRecoveryDrProtectionGroup#attachments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#attachments DisasterRecoveryDrProtectionGroup#attachments}
   */
   readonly attachments?: DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperationsAttachments[] | cdktf.IResolvable;
   /**
   * mounts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mounts DisasterRecoveryDrProtectionGroup#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mounts DisasterRecoveryDrProtectionGroup#mounts}
   */
   readonly mounts?: DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperationsMounts[] | cdktf.IResolvable;
 }
@@ -1263,7 +1263,7 @@ export class DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOp
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsAttachmentDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#volume_attachment_reference_instance_id DisasterRecoveryDrProtectionGroup#volume_attachment_reference_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#volume_attachment_reference_instance_id DisasterRecoveryDrProtectionGroup#volume_attachment_reference_instance_id}
   */
   readonly volumeAttachmentReferenceInstanceId?: string;
 }
@@ -1347,7 +1347,7 @@ export class DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsAttach
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsMountDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_point DisasterRecoveryDrProtectionGroup#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_point DisasterRecoveryDrProtectionGroup#mount_point}
   */
   readonly mountPoint?: string;
 }
@@ -1431,19 +1431,19 @@ export class DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsMountD
 }
 export interface DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_id DisasterRecoveryDrProtectionGroup#block_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_id DisasterRecoveryDrProtectionGroup#block_volume_id}
   */
   readonly blockVolumeId?: string;
   /**
   * attachment_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#attachment_details DisasterRecoveryDrProtectionGroup#attachment_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#attachment_details DisasterRecoveryDrProtectionGroup#attachment_details}
   */
   readonly attachmentDetails?: DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsAttachmentDetails;
   /**
   * mount_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_details DisasterRecoveryDrProtectionGroup#mount_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_details DisasterRecoveryDrProtectionGroup#mount_details}
   */
   readonly mountDetails?: DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsMountDetails;
 }
@@ -1617,11 +1617,11 @@ export class DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperationsList e
 }
 export interface DisasterRecoveryDrProtectionGroupMembersCommonDestinationKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#encryption_key_id DisasterRecoveryDrProtectionGroup#encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#encryption_key_id DisasterRecoveryDrProtectionGroup#encryption_key_id}
   */
   readonly encryptionKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#vault_id DisasterRecoveryDrProtectionGroup#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#vault_id DisasterRecoveryDrProtectionGroup#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -1734,11 +1734,11 @@ export class DisasterRecoveryDrProtectionGroupMembersCommonDestinationKeyOutputR
 }
 export interface DisasterRecoveryDrProtectionGroupMembersDbSystemAdminUserDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}
   */
   readonly passwordVaultSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#username DisasterRecoveryDrProtectionGroup#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#username DisasterRecoveryDrProtectionGroup#username}
   */
   readonly username?: string;
 }
@@ -1851,11 +1851,11 @@ export class DisasterRecoveryDrProtectionGroupMembersDbSystemAdminUserDetailsOut
 }
 export interface DisasterRecoveryDrProtectionGroupMembersDbSystemReplicationUserDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}
   */
   readonly passwordVaultSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#username DisasterRecoveryDrProtectionGroup#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#username DisasterRecoveryDrProtectionGroup#username}
   */
   readonly username?: string;
 }
@@ -1968,11 +1968,11 @@ export class DisasterRecoveryDrProtectionGroupMembersDbSystemReplicationUserDeta
 }
 export interface DisasterRecoveryDrProtectionGroupMembersDestinationEncryptionKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#encryption_key_id DisasterRecoveryDrProtectionGroup#encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#encryption_key_id DisasterRecoveryDrProtectionGroup#encryption_key_id}
   */
   readonly encryptionKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#vault_id DisasterRecoveryDrProtectionGroup#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#vault_id DisasterRecoveryDrProtectionGroup#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -2085,11 +2085,11 @@ export class DisasterRecoveryDrProtectionGroupMembersDestinationEncryptionKeyOut
 }
 export interface DisasterRecoveryDrProtectionGroupMembersExportMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_mount_target_id DisasterRecoveryDrProtectionGroup#destination_mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_mount_target_id DisasterRecoveryDrProtectionGroup#destination_mount_target_id}
   */
   readonly destinationMountTargetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#export_id DisasterRecoveryDrProtectionGroup#export_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#export_id DisasterRecoveryDrProtectionGroup#export_id}
   */
   readonly exportId?: string;
 }
@@ -2234,7 +2234,7 @@ export class DisasterRecoveryDrProtectionGroupMembersExportMappingsList extends 
 }
 export interface DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsMountDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_target_id DisasterRecoveryDrProtectionGroup#mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_target_id DisasterRecoveryDrProtectionGroup#mount_target_id}
   */
   readonly mountTargetId?: string;
 }
@@ -2318,7 +2318,7 @@ export class DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsMountDe
 }
 export interface DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsUnmountDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_target_id DisasterRecoveryDrProtectionGroup#mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_target_id DisasterRecoveryDrProtectionGroup#mount_target_id}
   */
   readonly mountTargetId?: string;
 }
@@ -2402,27 +2402,27 @@ export class DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsUnmount
 }
 export interface DisasterRecoveryDrProtectionGroupMembersFileSystemOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#export_path DisasterRecoveryDrProtectionGroup#export_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#export_path DisasterRecoveryDrProtectionGroup#export_path}
   */
   readonly exportPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_point DisasterRecoveryDrProtectionGroup#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_point DisasterRecoveryDrProtectionGroup#mount_point}
   */
   readonly mountPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_target_id DisasterRecoveryDrProtectionGroup#mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_target_id DisasterRecoveryDrProtectionGroup#mount_target_id}
   */
   readonly mountTargetId?: string;
   /**
   * mount_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#mount_details DisasterRecoveryDrProtectionGroup#mount_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#mount_details DisasterRecoveryDrProtectionGroup#mount_details}
   */
   readonly mountDetails?: DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsMountDetails;
   /**
   * unmount_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#unmount_details DisasterRecoveryDrProtectionGroup#unmount_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#unmount_details DisasterRecoveryDrProtectionGroup#unmount_details}
   */
   readonly unmountDetails?: DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsUnmountDetails;
 }
@@ -2654,11 +2654,11 @@ export class DisasterRecoveryDrProtectionGroupMembersFileSystemOperationsList ex
 }
 export interface DisasterRecoveryDrProtectionGroupMembersLoadBalancerMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_load_balancer_id}
   */
   readonly destinationLoadBalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_load_balancer_id DisasterRecoveryDrProtectionGroup#source_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_load_balancer_id DisasterRecoveryDrProtectionGroup#source_load_balancer_id}
   */
   readonly sourceLoadBalancerId?: string;
 }
@@ -2803,18 +2803,18 @@ export class DisasterRecoveryDrProtectionGroupMembersLoadBalancerMappingsList ex
 }
 export interface DisasterRecoveryDrProtectionGroupMembersManagedNodePoolConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#id DisasterRecoveryDrProtectionGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#id DisasterRecoveryDrProtectionGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#maximum DisasterRecoveryDrProtectionGroup#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#maximum DisasterRecoveryDrProtectionGroup#maximum}
   */
   readonly maximum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#minimum DisasterRecoveryDrProtectionGroup#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#minimum DisasterRecoveryDrProtectionGroup#minimum}
   */
   readonly minimum?: number;
 }
@@ -2988,11 +2988,11 @@ export class DisasterRecoveryDrProtectionGroupMembersManagedNodePoolConfigsList 
 }
 export interface DisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_network_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_network_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_network_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_network_load_balancer_id}
   */
   readonly destinationNetworkLoadBalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_network_load_balancer_id DisasterRecoveryDrProtectionGroup#source_network_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_network_load_balancer_id DisasterRecoveryDrProtectionGroup#source_network_load_balancer_id}
   */
   readonly sourceNetworkLoadBalancerId?: string;
 }
@@ -3137,11 +3137,11 @@ export class DisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappings
 }
 export interface DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsDestinationEncryptionKey {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#encryption_key_id DisasterRecoveryDrProtectionGroup#encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#encryption_key_id DisasterRecoveryDrProtectionGroup#encryption_key_id}
   */
   readonly encryptionKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#vault_id DisasterRecoveryDrProtectionGroup#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#vault_id DisasterRecoveryDrProtectionGroup#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -3254,13 +3254,13 @@ export class DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEn
 }
 export interface DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_volume_id DisasterRecoveryDrProtectionGroup#source_volume_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_volume_id DisasterRecoveryDrProtectionGroup#source_volume_id}
   */
   readonly sourceVolumeId?: string;
   /**
   * destination_encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_encryption_key DisasterRecoveryDrProtectionGroup#destination_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_encryption_key DisasterRecoveryDrProtectionGroup#destination_encryption_key}
   */
   readonly destinationEncryptionKey?: DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappingsDestinationEncryptionKey;
 }
@@ -3405,11 +3405,11 @@ export class DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEn
 }
 export interface DisasterRecoveryDrProtectionGroupMembersVaultMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_vault_id DisasterRecoveryDrProtectionGroup#destination_vault_id}
   */
   readonly destinationVaultId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_vault_id DisasterRecoveryDrProtectionGroup#source_vault_id}
   */
   readonly sourceVaultId?: string;
 }
@@ -3554,18 +3554,18 @@ export class DisasterRecoveryDrProtectionGroupMembersVaultMappingsList extends c
 }
 export interface DisasterRecoveryDrProtectionGroupMembersVirtualNodePoolConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#id DisasterRecoveryDrProtectionGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#id DisasterRecoveryDrProtectionGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#maximum DisasterRecoveryDrProtectionGroup#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#maximum DisasterRecoveryDrProtectionGroup#maximum}
   */
   readonly maximum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#minimum DisasterRecoveryDrProtectionGroup#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#minimum DisasterRecoveryDrProtectionGroup#minimum}
   */
   readonly minimum?: number;
 }
@@ -3739,15 +3739,15 @@ export class DisasterRecoveryDrProtectionGroupMembersVirtualNodePoolConfigsList 
 }
 export interface DisasterRecoveryDrProtectionGroupMembersVnicMapping {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_nsg_id_list DisasterRecoveryDrProtectionGroup#destination_nsg_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_nsg_id_list DisasterRecoveryDrProtectionGroup#destination_nsg_id_list}
   */
   readonly destinationNsgIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_subnet_id DisasterRecoveryDrProtectionGroup#destination_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_subnet_id DisasterRecoveryDrProtectionGroup#destination_subnet_id}
   */
   readonly destinationSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_vnic_id DisasterRecoveryDrProtectionGroup#source_vnic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_vnic_id DisasterRecoveryDrProtectionGroup#source_vnic_id}
   */
   readonly sourceVnicId?: string;
 }
@@ -3921,27 +3921,27 @@ export class DisasterRecoveryDrProtectionGroupMembersVnicMappingList extends cdk
 }
 export interface DisasterRecoveryDrProtectionGroupMembersVnicMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_nsg_id_list DisasterRecoveryDrProtectionGroup#destination_nsg_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_nsg_id_list DisasterRecoveryDrProtectionGroup#destination_nsg_id_list}
   */
   readonly destinationNsgIdList?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_primary_private_ip_address DisasterRecoveryDrProtectionGroup#destination_primary_private_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_primary_private_ip_address DisasterRecoveryDrProtectionGroup#destination_primary_private_ip_address}
   */
   readonly destinationPrimaryPrivateIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_primary_private_ip_hostname_label DisasterRecoveryDrProtectionGroup#destination_primary_private_ip_hostname_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_primary_private_ip_hostname_label DisasterRecoveryDrProtectionGroup#destination_primary_private_ip_hostname_label}
   */
   readonly destinationPrimaryPrivateIpHostnameLabel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_reserved_public_ip_id DisasterRecoveryDrProtectionGroup#destination_reserved_public_ip_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_reserved_public_ip_id DisasterRecoveryDrProtectionGroup#destination_reserved_public_ip_id}
   */
   readonly destinationReservedPublicIpId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_subnet_id DisasterRecoveryDrProtectionGroup#destination_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_subnet_id DisasterRecoveryDrProtectionGroup#destination_subnet_id}
   */
   readonly destinationSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_vnic_id DisasterRecoveryDrProtectionGroup#source_vnic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_vnic_id DisasterRecoveryDrProtectionGroup#source_vnic_id}
   */
   readonly sourceVnicId?: string;
 }
@@ -4202,209 +4202,209 @@ export class DisasterRecoveryDrProtectionGroupMembersVnicMappingsList extends cd
 }
 export interface DisasterRecoveryDrProtectionGroupMembers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#autonomous_database_standby_type_for_dr_drills DisasterRecoveryDrProtectionGroup#autonomous_database_standby_type_for_dr_drills}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#autonomous_database_standby_type_for_dr_drills DisasterRecoveryDrProtectionGroup#autonomous_database_standby_type_for_dr_drills}
   */
   readonly autonomousDatabaseStandbyTypeForDrDrills?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#bucket DisasterRecoveryDrProtectionGroup#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#connection_string_type DisasterRecoveryDrProtectionGroup#connection_string_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#connection_string_type DisasterRecoveryDrProtectionGroup#connection_string_type}
   */
   readonly connectionStringType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_availability_domain DisasterRecoveryDrProtectionGroup#destination_availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_availability_domain DisasterRecoveryDrProtectionGroup#destination_availability_domain}
   */
   readonly destinationAvailabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_backup_policy_id DisasterRecoveryDrProtectionGroup#destination_backup_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_backup_policy_id DisasterRecoveryDrProtectionGroup#destination_backup_policy_id}
   */
   readonly destinationBackupPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_capacity_reservation_id DisasterRecoveryDrProtectionGroup#destination_capacity_reservation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_capacity_reservation_id DisasterRecoveryDrProtectionGroup#destination_capacity_reservation_id}
   */
   readonly destinationCapacityReservationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_compartment_id DisasterRecoveryDrProtectionGroup#destination_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_compartment_id DisasterRecoveryDrProtectionGroup#destination_compartment_id}
   */
   readonly destinationCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_dedicated_vm_host_id DisasterRecoveryDrProtectionGroup#destination_dedicated_vm_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_dedicated_vm_host_id DisasterRecoveryDrProtectionGroup#destination_dedicated_vm_host_id}
   */
   readonly destinationDedicatedVmHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_load_balancer_id}
   */
   readonly destinationLoadBalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_network_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_network_load_balancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_network_load_balancer_id DisasterRecoveryDrProtectionGroup#destination_network_load_balancer_id}
   */
   readonly destinationNetworkLoadBalancerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_snapshot_policy_id DisasterRecoveryDrProtectionGroup#destination_snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_snapshot_policy_id DisasterRecoveryDrProtectionGroup#destination_snapshot_policy_id}
   */
   readonly destinationSnapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#gtid_reconciliation_timeout DisasterRecoveryDrProtectionGroup#gtid_reconciliation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#gtid_reconciliation_timeout DisasterRecoveryDrProtectionGroup#gtid_reconciliation_timeout}
   */
   readonly gtidReconciliationTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#is_continue_on_gtid_reconciliation_timeout DisasterRecoveryDrProtectionGroup#is_continue_on_gtid_reconciliation_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#is_continue_on_gtid_reconciliation_timeout DisasterRecoveryDrProtectionGroup#is_continue_on_gtid_reconciliation_timeout}
   */
   readonly isContinueOnGtidReconciliationTimeout?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#is_movable DisasterRecoveryDrProtectionGroup#is_movable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#is_movable DisasterRecoveryDrProtectionGroup#is_movable}
   */
   readonly isMovable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#is_retain_fault_domain DisasterRecoveryDrProtectionGroup#is_retain_fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#is_retain_fault_domain DisasterRecoveryDrProtectionGroup#is_retain_fault_domain}
   */
   readonly isRetainFaultDomain?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#is_start_stop_enabled DisasterRecoveryDrProtectionGroup#is_start_stop_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#is_start_stop_enabled DisasterRecoveryDrProtectionGroup#is_start_stop_enabled}
   */
   readonly isStartStopEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#jump_host_id DisasterRecoveryDrProtectionGroup#jump_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#jump_host_id DisasterRecoveryDrProtectionGroup#jump_host_id}
   */
   readonly jumpHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#member_id DisasterRecoveryDrProtectionGroup#member_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#member_id DisasterRecoveryDrProtectionGroup#member_id}
   */
   readonly memberId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#member_type DisasterRecoveryDrProtectionGroup#member_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#member_type DisasterRecoveryDrProtectionGroup#member_type}
   */
   readonly memberType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#namespace DisasterRecoveryDrProtectionGroup#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#password_vault_secret_id DisasterRecoveryDrProtectionGroup#password_vault_secret_id}
   */
   readonly passwordVaultSecretId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#peer_cluster_id DisasterRecoveryDrProtectionGroup#peer_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#peer_cluster_id DisasterRecoveryDrProtectionGroup#peer_cluster_id}
   */
   readonly peerClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#peer_db_system_id DisasterRecoveryDrProtectionGroup#peer_db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#peer_db_system_id DisasterRecoveryDrProtectionGroup#peer_db_system_id}
   */
   readonly peerDbSystemId?: string;
   /**
   * backend_set_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#backend_set_mappings DisasterRecoveryDrProtectionGroup#backend_set_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#backend_set_mappings DisasterRecoveryDrProtectionGroup#backend_set_mappings}
   */
   readonly backendSetMappings?: DisasterRecoveryDrProtectionGroupMembersBackendSetMappings[] | cdktf.IResolvable;
   /**
   * backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#backup_config DisasterRecoveryDrProtectionGroup#backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#backup_config DisasterRecoveryDrProtectionGroup#backup_config}
   */
   readonly backupConfig?: DisasterRecoveryDrProtectionGroupMembersBackupConfig;
   /**
   * backup_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#backup_location DisasterRecoveryDrProtectionGroup#backup_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#backup_location DisasterRecoveryDrProtectionGroup#backup_location}
   */
   readonly backupLocation?: DisasterRecoveryDrProtectionGroupMembersBackupLocation;
   /**
   * block_volume_attach_and_mount_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_attach_and_mount_operations DisasterRecoveryDrProtectionGroup#block_volume_attach_and_mount_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_attach_and_mount_operations DisasterRecoveryDrProtectionGroup#block_volume_attach_and_mount_operations}
   */
   readonly blockVolumeAttachAndMountOperations?: DisasterRecoveryDrProtectionGroupMembersBlockVolumeAttachAndMountOperations;
   /**
   * block_volume_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_operations DisasterRecoveryDrProtectionGroup#block_volume_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#block_volume_operations DisasterRecoveryDrProtectionGroup#block_volume_operations}
   */
   readonly blockVolumeOperations?: DisasterRecoveryDrProtectionGroupMembersBlockVolumeOperations[] | cdktf.IResolvable;
   /**
   * common_destination_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#common_destination_key DisasterRecoveryDrProtectionGroup#common_destination_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#common_destination_key DisasterRecoveryDrProtectionGroup#common_destination_key}
   */
   readonly commonDestinationKey?: DisasterRecoveryDrProtectionGroupMembersCommonDestinationKey;
   /**
   * db_system_admin_user_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#db_system_admin_user_details DisasterRecoveryDrProtectionGroup#db_system_admin_user_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#db_system_admin_user_details DisasterRecoveryDrProtectionGroup#db_system_admin_user_details}
   */
   readonly dbSystemAdminUserDetails?: DisasterRecoveryDrProtectionGroupMembersDbSystemAdminUserDetails;
   /**
   * db_system_replication_user_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#db_system_replication_user_details DisasterRecoveryDrProtectionGroup#db_system_replication_user_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#db_system_replication_user_details DisasterRecoveryDrProtectionGroup#db_system_replication_user_details}
   */
   readonly dbSystemReplicationUserDetails?: DisasterRecoveryDrProtectionGroupMembersDbSystemReplicationUserDetails;
   /**
   * destination_encryption_key block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#destination_encryption_key DisasterRecoveryDrProtectionGroup#destination_encryption_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#destination_encryption_key DisasterRecoveryDrProtectionGroup#destination_encryption_key}
   */
   readonly destinationEncryptionKey?: DisasterRecoveryDrProtectionGroupMembersDestinationEncryptionKey;
   /**
   * export_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#export_mappings DisasterRecoveryDrProtectionGroup#export_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#export_mappings DisasterRecoveryDrProtectionGroup#export_mappings}
   */
   readonly exportMappings?: DisasterRecoveryDrProtectionGroupMembersExportMappings[] | cdktf.IResolvable;
   /**
   * file_system_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#file_system_operations DisasterRecoveryDrProtectionGroup#file_system_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#file_system_operations DisasterRecoveryDrProtectionGroup#file_system_operations}
   */
   readonly fileSystemOperations?: DisasterRecoveryDrProtectionGroupMembersFileSystemOperations[] | cdktf.IResolvable;
   /**
   * load_balancer_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#load_balancer_mappings DisasterRecoveryDrProtectionGroup#load_balancer_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#load_balancer_mappings DisasterRecoveryDrProtectionGroup#load_balancer_mappings}
   */
   readonly loadBalancerMappings?: DisasterRecoveryDrProtectionGroupMembersLoadBalancerMappings[] | cdktf.IResolvable;
   /**
   * managed_node_pool_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#managed_node_pool_configs DisasterRecoveryDrProtectionGroup#managed_node_pool_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#managed_node_pool_configs DisasterRecoveryDrProtectionGroup#managed_node_pool_configs}
   */
   readonly managedNodePoolConfigs?: DisasterRecoveryDrProtectionGroupMembersManagedNodePoolConfigs[] | cdktf.IResolvable;
   /**
   * network_load_balancer_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#network_load_balancer_mappings DisasterRecoveryDrProtectionGroup#network_load_balancer_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#network_load_balancer_mappings DisasterRecoveryDrProtectionGroup#network_load_balancer_mappings}
   */
   readonly networkLoadBalancerMappings?: DisasterRecoveryDrProtectionGroupMembersNetworkLoadBalancerMappings[] | cdktf.IResolvable;
   /**
   * source_volume_to_destination_encryption_key_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#source_volume_to_destination_encryption_key_mappings DisasterRecoveryDrProtectionGroup#source_volume_to_destination_encryption_key_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#source_volume_to_destination_encryption_key_mappings DisasterRecoveryDrProtectionGroup#source_volume_to_destination_encryption_key_mappings}
   */
   readonly sourceVolumeToDestinationEncryptionKeyMappings?: DisasterRecoveryDrProtectionGroupMembersSourceVolumeToDestinationEncryptionKeyMappings[] | cdktf.IResolvable;
   /**
   * vault_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#vault_mappings DisasterRecoveryDrProtectionGroup#vault_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#vault_mappings DisasterRecoveryDrProtectionGroup#vault_mappings}
   */
   readonly vaultMappings?: DisasterRecoveryDrProtectionGroupMembersVaultMappings[] | cdktf.IResolvable;
   /**
   * virtual_node_pool_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#virtual_node_pool_configs DisasterRecoveryDrProtectionGroup#virtual_node_pool_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#virtual_node_pool_configs DisasterRecoveryDrProtectionGroup#virtual_node_pool_configs}
   */
   readonly virtualNodePoolConfigs?: DisasterRecoveryDrProtectionGroupMembersVirtualNodePoolConfigs[] | cdktf.IResolvable;
   /**
   * vnic_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#vnic_mapping DisasterRecoveryDrProtectionGroup#vnic_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#vnic_mapping DisasterRecoveryDrProtectionGroup#vnic_mapping}
   */
   readonly vnicMapping?: DisasterRecoveryDrProtectionGroupMembersVnicMapping[] | cdktf.IResolvable;
   /**
   * vnic_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#vnic_mappings DisasterRecoveryDrProtectionGroup#vnic_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#vnic_mappings DisasterRecoveryDrProtectionGroup#vnic_mappings}
   */
   readonly vnicMappings?: DisasterRecoveryDrProtectionGroupMembersVnicMappings[] | cdktf.IResolvable;
 }
@@ -5703,15 +5703,15 @@ export class DisasterRecoveryDrProtectionGroupMembersList extends cdktf.ComplexL
 }
 export interface DisasterRecoveryDrProtectionGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#create DisasterRecoveryDrProtectionGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#create DisasterRecoveryDrProtectionGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#delete DisasterRecoveryDrProtectionGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#delete DisasterRecoveryDrProtectionGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#update DisasterRecoveryDrProtectionGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#update DisasterRecoveryDrProtectionGroup#update}
   */
   readonly update?: string;
 }
@@ -5863,7 +5863,7 @@ export class DisasterRecoveryDrProtectionGroupTimeoutsOutputReference extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group}
 */
 export class DisasterRecoveryDrProtectionGroup extends cdktf.TerraformResource {
 
@@ -5879,7 +5879,7 @@ export class DisasterRecoveryDrProtectionGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DisasterRecoveryDrProtectionGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DisasterRecoveryDrProtectionGroup to import
-  * @param importFromId The id of the existing DisasterRecoveryDrProtectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DisasterRecoveryDrProtectionGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DisasterRecoveryDrProtectionGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5891,7 +5891,7 @@ export class DisasterRecoveryDrProtectionGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/disaster_recovery_dr_protection_group oci_disaster_recovery_dr_protection_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5902,8 +5902,8 @@ export class DisasterRecoveryDrProtectionGroup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_disaster_recovery_dr_protection_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

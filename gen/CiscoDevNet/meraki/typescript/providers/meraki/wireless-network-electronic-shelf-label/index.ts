@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface WirelessNetworkElectronicShelfLabelConfig extends cdktf.Terrafo
   /**
   * Turn ESL features on and off for this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label#enabled WirelessNetworkElectronicShelfLabel#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label#enabled WirelessNetworkElectronicShelfLabel#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Desired ESL hostname of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label#hostname WirelessNetworkElectronicShelfLabel#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label#hostname WirelessNetworkElectronicShelfLabel#hostname}
   */
   readonly hostname?: string;
   /**
   * Electronic shelf label mode of the network. Valid options are `Bluetooth`, `high frequency`
   *   - Choices: `Bluetooth`, `high frequency`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label#mode WirelessNetworkElectronicShelfLabel#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label#mode WirelessNetworkElectronicShelfLabel#mode}
   */
   readonly mode?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label#network_id WirelessNetworkElectronicShelfLabel#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label#network_id WirelessNetworkElectronicShelfLabel#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label meraki_wireless_network_electronic_shelf_label}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label meraki_wireless_network_electronic_shelf_label}
 */
 export class WirelessNetworkElectronicShelfLabel extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class WirelessNetworkElectronicShelfLabel extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WirelessNetworkElectronicShelfLabel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessNetworkElectronicShelfLabel to import
-  * @param importFromId The id of the existing WirelessNetworkElectronicShelfLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessNetworkElectronicShelfLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessNetworkElectronicShelfLabel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class WirelessNetworkElectronicShelfLabel extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_network_electronic_shelf_label meraki_wireless_network_electronic_shelf_label} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_network_electronic_shelf_label meraki_wireless_network_electronic_shelf_label} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class WirelessNetworkElectronicShelfLabel extends cdktf.TerraformResource
       terraformResourceType: 'meraki_wireless_network_electronic_shelf_label',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

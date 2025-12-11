@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,267 +10,267 @@ export interface NetworkGroupPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The maximum download limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#bandwidth_limit_down NetworkGroupPolicy#bandwidth_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#bandwidth_limit_down NetworkGroupPolicy#bandwidth_limit_down}
   */
   readonly bandwidthLimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#bandwidth_limit_up NetworkGroupPolicy#bandwidth_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#bandwidth_limit_up NetworkGroupPolicy#bandwidth_limit_up}
   */
   readonly bandwidthLimitUp?: number;
   /**
   * How bandwidth limits are enforced. Can be `network default`, `ignore` or `custom`.
   *   - Choices: `custom`, `ignore`, `network default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#bandwidth_settings NetworkGroupPolicy#bandwidth_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#bandwidth_settings NetworkGroupPolicy#bandwidth_settings}
   */
   readonly bandwidthSettings?: string;
   /**
   * A list of the Bonjour forwarding rules for your group policy. If `settings` is set to `custom`, at least one rule must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#bonjour_forwarding_rules NetworkGroupPolicy#bonjour_forwarding_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#bonjour_forwarding_rules NetworkGroupPolicy#bonjour_forwarding_rules}
   */
   readonly bonjourForwardingRules?: NetworkGroupPolicyBonjourForwardingRules[] | cdktf.IResolvable;
   /**
   * How Bonjour rules are applied. Can be `network default`, `ignore` or `custom`.
   *   - Choices: `custom`, `ignore`, `network default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#bonjour_forwarding_settings NetworkGroupPolicy#bonjour_forwarding_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#bonjour_forwarding_settings NetworkGroupPolicy#bonjour_forwarding_settings}
   */
   readonly bonjourForwardingSettings?: string;
   /**
   * A list of URL patterns that are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#content_filtering_allowed_url_patterns NetworkGroupPolicy#content_filtering_allowed_url_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#content_filtering_allowed_url_patterns NetworkGroupPolicy#content_filtering_allowed_url_patterns}
   */
   readonly contentFilteringAllowedUrlPatterns?: string[];
   /**
   * How URL patterns are applied. Can be `network default`, `append` or `override`.
   *   - Choices: `append`, `network default`, `override`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#content_filtering_allowed_url_patterns_settings NetworkGroupPolicy#content_filtering_allowed_url_patterns_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#content_filtering_allowed_url_patterns_settings NetworkGroupPolicy#content_filtering_allowed_url_patterns_settings}
   */
   readonly contentFilteringAllowedUrlPatternsSettings?: string;
   /**
   * A list of URL categories to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#content_filtering_blocked_url_categories NetworkGroupPolicy#content_filtering_blocked_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#content_filtering_blocked_url_categories NetworkGroupPolicy#content_filtering_blocked_url_categories}
   */
   readonly contentFilteringBlockedUrlCategories?: string[];
   /**
   * How URL categories are applied. Can be `network default`, `append` or `override`.
   *   - Choices: `append`, `network default`, `override`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#content_filtering_blocked_url_categories_settings NetworkGroupPolicy#content_filtering_blocked_url_categories_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#content_filtering_blocked_url_categories_settings NetworkGroupPolicy#content_filtering_blocked_url_categories_settings}
   */
   readonly contentFilteringBlockedUrlCategoriesSettings?: string;
   /**
   * A list of URL patterns that are blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#content_filtering_blocked_url_patterns NetworkGroupPolicy#content_filtering_blocked_url_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#content_filtering_blocked_url_patterns NetworkGroupPolicy#content_filtering_blocked_url_patterns}
   */
   readonly contentFilteringBlockedUrlPatterns?: string[];
   /**
   * How URL patterns are applied. Can be `network default`, `append` or `override`.
   *   - Choices: `append`, `network default`, `override`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#content_filtering_blocked_url_patterns_settings NetworkGroupPolicy#content_filtering_blocked_url_patterns_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#content_filtering_blocked_url_patterns_settings NetworkGroupPolicy#content_filtering_blocked_url_patterns_settings}
   */
   readonly contentFilteringBlockedUrlPatternsSettings?: string;
   /**
   * How firewall and traffic shaping rules are enforced. Can be `network default`, `ignore` or `custom`.
   *   - Choices: `custom`, `ignore`, `network default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#firewall_and_traffic_shaping_settings NetworkGroupPolicy#firewall_and_traffic_shaping_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#firewall_and_traffic_shaping_settings NetworkGroupPolicy#firewall_and_traffic_shaping_settings}
   */
   readonly firewallAndTrafficShapingSettings?: string;
   /**
   * If true, the system deletes the GP even if there are active clients using the GP. After deletion, active clients that were assigned to that Group Policy will be left without any policy applied. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#force_delete NetworkGroupPolicy#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#force_delete NetworkGroupPolicy#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
   * An ordered array of the L3 firewall rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#l3_firewall_rules NetworkGroupPolicy#l3_firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#l3_firewall_rules NetworkGroupPolicy#l3_firewall_rules}
   */
   readonly l3FirewallRules?: NetworkGroupPolicyL3FirewallRules[] | cdktf.IResolvable;
   /**
   * An ordered array of L7 firewall rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#l7_firewall_rules NetworkGroupPolicy#l7_firewall_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#l7_firewall_rules NetworkGroupPolicy#l7_firewall_rules}
   */
   readonly l7FirewallRules?: NetworkGroupPolicyL7FirewallRules[] | cdktf.IResolvable;
   /**
   * The name for your group policy. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#name NetworkGroupPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#name NetworkGroupPolicy#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#network_id NetworkGroupPolicy#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#network_id NetworkGroupPolicy#network_id}
   */
   readonly networkId: string;
   /**
   * Whether scheduling is enabled (true) or disabled (false). Defaults to false. If true, the schedule objects for each day of the week (monday - sunday) are parsed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_enabled NetworkGroupPolicy#scheduling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_enabled NetworkGroupPolicy#scheduling_enabled}
   */
   readonly schedulingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_friday_active NetworkGroupPolicy#scheduling_friday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_friday_active NetworkGroupPolicy#scheduling_friday_active}
   */
   readonly schedulingFridayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_friday_from NetworkGroupPolicy#scheduling_friday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_friday_from NetworkGroupPolicy#scheduling_friday_from}
   */
   readonly schedulingFridayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_friday_to NetworkGroupPolicy#scheduling_friday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_friday_to NetworkGroupPolicy#scheduling_friday_to}
   */
   readonly schedulingFridayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_monday_active NetworkGroupPolicy#scheduling_monday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_monday_active NetworkGroupPolicy#scheduling_monday_active}
   */
   readonly schedulingMondayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_monday_from NetworkGroupPolicy#scheduling_monday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_monday_from NetworkGroupPolicy#scheduling_monday_from}
   */
   readonly schedulingMondayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_monday_to NetworkGroupPolicy#scheduling_monday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_monday_to NetworkGroupPolicy#scheduling_monday_to}
   */
   readonly schedulingMondayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_saturday_active NetworkGroupPolicy#scheduling_saturday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_saturday_active NetworkGroupPolicy#scheduling_saturday_active}
   */
   readonly schedulingSaturdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_saturday_from NetworkGroupPolicy#scheduling_saturday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_saturday_from NetworkGroupPolicy#scheduling_saturday_from}
   */
   readonly schedulingSaturdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_saturday_to NetworkGroupPolicy#scheduling_saturday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_saturday_to NetworkGroupPolicy#scheduling_saturday_to}
   */
   readonly schedulingSaturdayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_sunday_active NetworkGroupPolicy#scheduling_sunday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_sunday_active NetworkGroupPolicy#scheduling_sunday_active}
   */
   readonly schedulingSundayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_sunday_from NetworkGroupPolicy#scheduling_sunday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_sunday_from NetworkGroupPolicy#scheduling_sunday_from}
   */
   readonly schedulingSundayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_sunday_to NetworkGroupPolicy#scheduling_sunday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_sunday_to NetworkGroupPolicy#scheduling_sunday_to}
   */
   readonly schedulingSundayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_thursday_active NetworkGroupPolicy#scheduling_thursday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_thursday_active NetworkGroupPolicy#scheduling_thursday_active}
   */
   readonly schedulingThursdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_thursday_from NetworkGroupPolicy#scheduling_thursday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_thursday_from NetworkGroupPolicy#scheduling_thursday_from}
   */
   readonly schedulingThursdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_thursday_to NetworkGroupPolicy#scheduling_thursday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_thursday_to NetworkGroupPolicy#scheduling_thursday_to}
   */
   readonly schedulingThursdayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_tuesday_active NetworkGroupPolicy#scheduling_tuesday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_tuesday_active NetworkGroupPolicy#scheduling_tuesday_active}
   */
   readonly schedulingTuesdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_tuesday_from NetworkGroupPolicy#scheduling_tuesday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_tuesday_from NetworkGroupPolicy#scheduling_tuesday_from}
   */
   readonly schedulingTuesdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_tuesday_to NetworkGroupPolicy#scheduling_tuesday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_tuesday_to NetworkGroupPolicy#scheduling_tuesday_to}
   */
   readonly schedulingTuesdayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_wednesday_active NetworkGroupPolicy#scheduling_wednesday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_wednesday_active NetworkGroupPolicy#scheduling_wednesday_active}
   */
   readonly schedulingWednesdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_wednesday_from NetworkGroupPolicy#scheduling_wednesday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_wednesday_from NetworkGroupPolicy#scheduling_wednesday_from}
   */
   readonly schedulingWednesdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#scheduling_wednesday_to NetworkGroupPolicy#scheduling_wednesday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#scheduling_wednesday_to NetworkGroupPolicy#scheduling_wednesday_to}
   */
   readonly schedulingWednesdayTo?: string;
   /**
   * Whether clients bound to your policy will bypass splash authorization or behave according to the network`s rules. Can be one of `network default` or `bypass`. Only available if your network has a wireless configuration.
   *   - Choices: `bypass`, `network default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#splash_auth_settings NetworkGroupPolicy#splash_auth_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#splash_auth_settings NetworkGroupPolicy#splash_auth_settings}
   */
   readonly splashAuthSettings?: string;
   /**
   * An array of traffic shaping rules. Rules are applied in the order that they are specified in. An empty list (or null) means no rules. Note that you are allowed a maximum of 8 rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#traffic_shaping_rules NetworkGroupPolicy#traffic_shaping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#traffic_shaping_rules NetworkGroupPolicy#traffic_shaping_rules}
   */
   readonly trafficShapingRules?: NetworkGroupPolicyTrafficShapingRules[] | cdktf.IResolvable;
   /**
   * How VLAN tagging is applied. Can be `network default`, `ignore` or `custom`.
   *   - Choices: `custom`, `ignore`, `network default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#vlan_tagging_settings NetworkGroupPolicy#vlan_tagging_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#vlan_tagging_settings NetworkGroupPolicy#vlan_tagging_settings}
   */
   readonly vlanTaggingSettings?: string;
   /**
   * The ID of the vlan you want to tag. This only applies if `settings` is set to `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#vlan_tagging_vlan_id NetworkGroupPolicy#vlan_tagging_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#vlan_tagging_vlan_id NetworkGroupPolicy#vlan_tagging_vlan_id}
   */
   readonly vlanTaggingVlanId?: string;
 }
@@ -278,19 +278,19 @@ export interface NetworkGroupPolicyBonjourForwardingRules {
   /**
   * A description for your Bonjour forwarding rule. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#description NetworkGroupPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#description NetworkGroupPolicy#description}
   */
   readonly description?: string;
   /**
   * A list of Bonjour services. At least one service must be specified. Available services are `All Services`, `AirPlay`, `AFP`, `BitTorrent`, `FTP`, `iChat`, `iTunes`, `Printers`, `Samba`, `Scanners` and `SSH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#services NetworkGroupPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#services NetworkGroupPolicy#services}
   */
   readonly services: string[];
   /**
   * The ID of the service VLAN. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#vlan_id NetworkGroupPolicy#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#vlan_id NetworkGroupPolicy#vlan_id}
   */
   readonly vlanId: string;
 }
@@ -460,31 +460,31 @@ export interface NetworkGroupPolicyL3FirewallRules {
   /**
   * Description of the rule (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#comment NetworkGroupPolicy#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#comment NetworkGroupPolicy#comment}
   */
   readonly comment?: string;
   /**
   * Destination IP address (in IP or CIDR notation), a fully-qualified domain name (FQDN, if your network supports it) or `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#dest_cidr NetworkGroupPolicy#dest_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#dest_cidr NetworkGroupPolicy#dest_cidr}
   */
   readonly destCidr: string;
   /**
   * Destination port (integer in the range 1-65535), a port range (e.g. 8080-9090), or `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#dest_port NetworkGroupPolicy#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#dest_port NetworkGroupPolicy#dest_port}
   */
   readonly destPort?: string;
   /**
   * `allow` or `deny` traffic specified by this rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#policy NetworkGroupPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#policy NetworkGroupPolicy#policy}
   */
   readonly policy: string;
   /**
   * The type of protocol (must be `tcp`, `udp`, `icmp`, `icmp6` or `any`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#protocol NetworkGroupPolicy#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#protocol NetworkGroupPolicy#protocol}
   */
   readonly protocol: string;
 }
@@ -710,20 +710,20 @@ export interface NetworkGroupPolicyL7FirewallRules {
   * The policy applied to matching traffic. Must be `deny`.
   *   - Choices: `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#policy NetworkGroupPolicy#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#policy NetworkGroupPolicy#policy}
   */
   readonly policy?: string;
   /**
   * Type of the L7 Rule. Must be `application`, `applicationCategory`, `host`, `port` or `ipRange`
   *   - Choices: `application`, `applicationCategory`, `host`, `ipRange`, `port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#type NetworkGroupPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#type NetworkGroupPolicy#type}
   */
   readonly type?: string;
   /**
   * The `value` of what you want to block. If `type` is `host`, `port` or `ipRange`, `value` must be a string matching either a hostname (e.g. somewhere.com), a port (e.g. 8080), or an IP range (e.g. 192.1.0.0/16). If `type` is `application` or `applicationCategory`, then `value` must be an ID for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#value NetworkGroupPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#value NetworkGroupPolicy#value}
   */
   readonly value?: string;
 }
@@ -900,13 +900,13 @@ export interface NetworkGroupPolicyTrafficShapingRulesDefinitions {
   * The type of definition. Can be one of `application`, `applicationCategory`, `host`, `port`, `ipRange` or `localNet`.
   *   - Choices: `application`, `applicationCategory`, `host`, `ipRange`, `localNet`, `port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#type NetworkGroupPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#type NetworkGroupPolicy#type}
   */
   readonly type: string;
   /**
   * If 'type' is `host`, `port`, `ipRange` or `localNet`, then 'value' must be a string, matching either a hostname (e.g. 'somesite.com'), a port (e.g. 8080), or an IP range ('192.1.0.0', '192.1.0.0/16', or '10.1.0.0/16:80'). `localNet` also supports CIDR notation, excluding custom ports. If 'type' is `application` or `applicationCategory`, then 'value' must be an application category or application ID (for a list of IDs for your network, use the trafficShaping/applicationCategories endpoint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#value NetworkGroupPolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#value NetworkGroupPolicy#value}
   */
   readonly value: string;
 }
@@ -1047,43 +1047,43 @@ export interface NetworkGroupPolicyTrafficShapingRules {
   /**
   * A list of objects describing the definitions of your traffic shaping rule. At least one definition is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#definitions NetworkGroupPolicy#definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#definitions NetworkGroupPolicy#definitions}
   */
   readonly definitions: NetworkGroupPolicyTrafficShapingRulesDefinitions[] | cdktf.IResolvable;
   /**
   * The DSCP tag applied by your rule. null means `Do not change DSCP tag`. For a list of possible tag values, use the trafficShaping/dscpTaggingOptions endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#dscp_tag_value NetworkGroupPolicy#dscp_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#dscp_tag_value NetworkGroupPolicy#dscp_tag_value}
   */
   readonly dscpTagValue?: number;
   /**
   * The PCP tag applied by your rule. Can be 0 (lowest priority) through 7 (highest priority). null means `Do not set PCP tag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#pcp_tag_value NetworkGroupPolicy#pcp_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#pcp_tag_value NetworkGroupPolicy#pcp_tag_value}
   */
   readonly pcpTagValue?: number;
   /**
   * The maximum download limit (integer, in Kbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#per_client_bandwidth_limits_bandwidth_limits_limit_down NetworkGroupPolicy#per_client_bandwidth_limits_bandwidth_limits_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#per_client_bandwidth_limits_bandwidth_limits_limit_down NetworkGroupPolicy#per_client_bandwidth_limits_bandwidth_limits_limit_down}
   */
   readonly perClientBandwidthLimitsBandwidthLimitsLimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#per_client_bandwidth_limits_bandwidth_limits_limit_up NetworkGroupPolicy#per_client_bandwidth_limits_bandwidth_limits_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#per_client_bandwidth_limits_bandwidth_limits_limit_up NetworkGroupPolicy#per_client_bandwidth_limits_bandwidth_limits_limit_up}
   */
   readonly perClientBandwidthLimitsBandwidthLimitsLimitUp?: number;
   /**
   * How bandwidth limits are applied by your rule. Can be one of `network default`, `ignore` or `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#per_client_bandwidth_limits_settings NetworkGroupPolicy#per_client_bandwidth_limits_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#per_client_bandwidth_limits_settings NetworkGroupPolicy#per_client_bandwidth_limits_settings}
   */
   readonly perClientBandwidthLimitsSettings?: string;
   /**
   * A string, indicating the priority level for packets bound to your rule. Can be `low`, `normal` or `high`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#priority NetworkGroupPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#priority NetworkGroupPolicy#priority}
   */
   readonly priority?: string;
 }
@@ -1370,7 +1370,7 @@ export class NetworkGroupPolicyTrafficShapingRulesList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy meraki_network_group_policy}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy meraki_network_group_policy}
 */
 export class NetworkGroupPolicy extends cdktf.TerraformResource {
 
@@ -1386,7 +1386,7 @@ export class NetworkGroupPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkGroupPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkGroupPolicy to import
-  * @param importFromId The id of the existing NetworkGroupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkGroupPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkGroupPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1398,7 +1398,7 @@ export class NetworkGroupPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_group_policy meraki_network_group_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_group_policy meraki_network_group_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1409,8 +1409,8 @@ export class NetworkGroupPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_group_policy',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

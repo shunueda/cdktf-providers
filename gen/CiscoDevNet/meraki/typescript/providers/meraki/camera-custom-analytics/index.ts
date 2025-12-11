@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CameraCustomAnalyticsConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of the custom analytics artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#artifact_id CameraCustomAnalytics#artifact_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#artifact_id CameraCustomAnalytics#artifact_id}
   */
   readonly artifactId?: string;
   /**
   * Enable custom analytics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#enabled CameraCustomAnalytics#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#enabled CameraCustomAnalytics#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Parameters for the custom analytics workload
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#parameters CameraCustomAnalytics#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#parameters CameraCustomAnalytics#parameters}
   */
   readonly parameters?: CameraCustomAnalyticsParameters[] | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#serial CameraCustomAnalytics#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#serial CameraCustomAnalytics#serial}
   */
   readonly serial: string;
 }
@@ -36,13 +36,13 @@ export interface CameraCustomAnalyticsParameters {
   /**
   * Name of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#name CameraCustomAnalytics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#name CameraCustomAnalytics#name}
   */
   readonly name: string;
   /**
   * Value of the parameter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#value CameraCustomAnalytics#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#value CameraCustomAnalytics#value}
   */
   readonly value: string;
 }
@@ -181,7 +181,7 @@ export class CameraCustomAnalyticsParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics meraki_camera_custom_analytics}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics meraki_camera_custom_analytics}
 */
 export class CameraCustomAnalytics extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class CameraCustomAnalytics extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraCustomAnalytics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraCustomAnalytics to import
-  * @param importFromId The id of the existing CameraCustomAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraCustomAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraCustomAnalytics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class CameraCustomAnalytics extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_custom_analytics meraki_camera_custom_analytics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_custom_analytics meraki_camera_custom_analytics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class CameraCustomAnalytics extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_custom_analytics',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

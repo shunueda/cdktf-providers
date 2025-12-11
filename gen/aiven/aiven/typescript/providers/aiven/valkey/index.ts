@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ValkeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#additional_disk_space Valkey#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#additional_disk_space Valkey#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#cloud_name Valkey#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#cloud_name Valkey#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#disk_space Valkey#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#disk_space Valkey#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#id Valkey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#id Valkey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface ValkeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#maintenance_window_dow Valkey#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#maintenance_window_dow Valkey#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#maintenance_window_time Valkey#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#maintenance_window_time Valkey#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#plan Valkey#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#plan Valkey#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#project Valkey#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#project Valkey#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#project_vpc_id Valkey#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#project_vpc_id Valkey#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#service_name Valkey#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#service_name Valkey#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#static_ips Valkey#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#static_ips Valkey#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#termination_protection Valkey#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#termination_protection Valkey#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#service_integrations Valkey#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#service_integrations Valkey#service_integrations}
   */
   readonly serviceIntegrations?: ValkeyServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#tag Valkey#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#tag Valkey#tag}
   */
   readonly tag?: ValkeyTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#tech_emails Valkey#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#tech_emails Valkey#tech_emails}
   */
   readonly techEmails?: ValkeyTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#timeouts Valkey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#timeouts Valkey#timeouts}
   */
   readonly timeouts?: ValkeyTimeouts;
   /**
   * valkey block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey Valkey#valkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey Valkey#valkey}
   */
   readonly valkey?: ValkeyValkey;
   /**
   * valkey_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_user_config Valkey#valkey_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_user_config Valkey#valkey_user_config}
   */
   readonly valkeyUserConfig?: ValkeyValkeyUserConfig;
 }
@@ -236,13 +236,13 @@ export interface ValkeyServiceIntegrations {
   /**
   * Type of the service integration. The possible value is `read_replica`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#integration_type Valkey#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#integration_type Valkey#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#source_service_name Valkey#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#source_service_name Valkey#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -383,13 +383,13 @@ export interface ValkeyTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#key Valkey#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#key Valkey#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#value Valkey#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#value Valkey#value}
   */
   readonly value: string;
 }
@@ -530,7 +530,7 @@ export interface ValkeyTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#email Valkey#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#email Valkey#email}
   */
   readonly email: string;
 }
@@ -643,23 +643,23 @@ export class ValkeyTechEmailsList extends cdktf.ComplexList {
 }
 export interface ValkeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#create Valkey#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#create Valkey#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#default Valkey#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#default Valkey#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#delete Valkey#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#delete Valkey#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#read Valkey#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#read Valkey#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#update Valkey#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#update Valkey#update}
   */
   readonly update?: string;
 }
@@ -871,13 +871,13 @@ export interface ValkeyValkey {
   /**
   * Valkey slave server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#slave_uris Valkey#slave_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#slave_uris Valkey#slave_uris}
   */
   readonly slaveUris?: string[];
   /**
   * Valkey server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#uris Valkey#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#uris Valkey#uris}
   */
   readonly uris?: string[];
 }
@@ -1002,13 +1002,13 @@ export interface ValkeyValkeyUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#description Valkey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#description Valkey#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#network Valkey#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#network Valkey#network}
   */
   readonly network: string;
 }
@@ -1152,55 +1152,55 @@ export interface ValkeyValkeyUserConfigMigration {
   /**
   * Database name for bootstrapping the initial connection. Example: `defaultdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#dbname Valkey#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#dbname Valkey#dbname}
   */
   readonly dbname?: string;
   /**
   * Hostname or IP address of the server where to migrate data from. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#host Valkey#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#host Valkey#host}
   */
   readonly host: string;
   /**
   * Comma-separated list of databases, which should be ignored during migration (supported by MySQL and PostgreSQL only at the moment). Example: `db1,db2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#ignore_dbs Valkey#ignore_dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#ignore_dbs Valkey#ignore_dbs}
   */
   readonly ignoreDbs?: string;
   /**
   * Comma-separated list of database roles, which should be ignored during migration (supported by PostgreSQL only at the moment). Example: `role1,role2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#ignore_roles Valkey#ignore_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#ignore_roles Valkey#ignore_roles}
   */
   readonly ignoreRoles?: string;
   /**
   * Enum: `dump`, `replication`. The migration method to be used (currently supported only by Redis, Dragonfly, MySQL and PostgreSQL service types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#method Valkey#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#method Valkey#method}
   */
   readonly method?: string;
   /**
   * Password for authentication with the server where to migrate data from. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#password Valkey#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#password Valkey#password}
   */
   readonly password?: string;
   /**
   * Port number of the server where to migrate data from. Example: `1234`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#port Valkey#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#port Valkey#port}
   */
   readonly port: number;
   /**
   * The server where to migrate data from is secured with SSL. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#ssl Valkey#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#ssl Valkey#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * User name for authentication with the server where to migrate data from. Example: `myname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#username Valkey#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#username Valkey#username}
   */
   readonly username?: string;
 }
@@ -1512,13 +1512,13 @@ export interface ValkeyValkeyUserConfigPrivateAccess {
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#prometheus Valkey#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#prometheus Valkey#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to valkey with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey Valkey#valkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey Valkey#valkey}
   */
   readonly valkey?: boolean | cdktf.IResolvable;
 }
@@ -1633,13 +1633,13 @@ export interface ValkeyValkeyUserConfigPrivatelinkAccess {
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#prometheus Valkey#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#prometheus Valkey#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Enable valkey.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey Valkey#valkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey Valkey#valkey}
   */
   readonly valkey?: boolean | cdktf.IResolvable;
 }
@@ -1754,13 +1754,13 @@ export interface ValkeyValkeyUserConfigPublicAccess {
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#prometheus Valkey#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#prometheus Valkey#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to valkey from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey Valkey#valkey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey Valkey#valkey}
   */
   readonly valkey?: boolean | cdktf.IResolvable;
 }
@@ -1875,175 +1875,175 @@ export interface ValkeyValkeyUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#additional_backup_regions Valkey#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#additional_backup_regions Valkey#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * The hour of day (in UTC) when backup for the service is started. New backup is only started if previous backup has already completed. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#backup_hour Valkey#backup_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#backup_hour Valkey#backup_hour}
   */
   readonly backupHour?: number;
   /**
   * The minute of an hour when backup for the service is started. New backup is only started if previous backup has already completed. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#backup_minute Valkey#backup_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#backup_minute Valkey#backup_minute}
   */
   readonly backupMinute?: number;
   /**
   * Register AAAA DNS records for the service, and allow IPv6 packets to service ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#enable_ipv6 Valkey#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#enable_ipv6 Valkey#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
   * When enabled, Valkey will create frequent local RDB snapshots. When disabled, Valkey will only take RDB snapshots when a backup is created, based on the backup schedule. This setting is ignored when `valkey_persistence` is set to `off`. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#frequent_snapshots Valkey#frequent_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#frequent_snapshots Valkey#frequent_snapshots}
   */
   readonly frequentSnapshots?: boolean | cdktf.IResolvable;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#ip_filter Valkey#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#ip_filter Valkey#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#ip_filter_string Valkey#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#ip_filter_string Valkey#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#project_to_fork_from Valkey#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#project_to_fork_from Valkey#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Name of the basebackup to restore in forked service. Example: `backup-20191112t091354293891z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#recovery_basebackup_name Valkey#recovery_basebackup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#recovery_basebackup_name Valkey#recovery_basebackup_name}
   */
   readonly recoveryBasebackupName?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#service_log Valkey#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#service_log Valkey#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#service_to_fork_from Valkey#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#service_to_fork_from Valkey#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#static_ips Valkey#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#static_ips Valkey#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * Enum: `allchannels`, `resetchannels`. Determines default pub/sub channels' ACL for new users if ACL is not supplied. When this option is not defined, all_channels is assumed to keep backward compatibility. This option doesn't affect Valkey configuration acl-pubsub-default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_acl_channels_default Valkey#valkey_acl_channels_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_acl_channels_default Valkey#valkey_acl_channels_default}
   */
   readonly valkeyAclChannelsDefault?: string;
   /**
   * Valkey reclaims expired keys both when accessed and in the background. The background process scans for expired keys to free memory. Increasing the active-expire-effort setting (default 1, max 10) uses more CPU to reclaim expired keys faster, reducing memory usage but potentially increasing latency. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_active_expire_effort Valkey#valkey_active_expire_effort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_active_expire_effort Valkey#valkey_active_expire_effort}
   */
   readonly valkeyActiveExpireEffort?: number;
   /**
   * Set Valkey IO thread count. Changing this will cause a restart of the Valkey service. Example: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_io_threads Valkey#valkey_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_io_threads Valkey#valkey_io_threads}
   */
   readonly valkeyIoThreads?: number;
   /**
   * LFU maxmemory-policy counter decay time in minutes. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_lfu_decay_time Valkey#valkey_lfu_decay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_lfu_decay_time Valkey#valkey_lfu_decay_time}
   */
   readonly valkeyLfuDecayTime?: number;
   /**
   * Counter logarithm factor for volatile-lfu and allkeys-lfu maxmemory-policies. Default: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_lfu_log_factor Valkey#valkey_lfu_log_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_lfu_log_factor Valkey#valkey_lfu_log_factor}
   */
   readonly valkeyLfuLogFactor?: number;
   /**
   * Enum: `allkeys-lfu`, `allkeys-lru`, `allkeys-random`, `noeviction`, `volatile-lfu`, `volatile-lru`, `volatile-random`, `volatile-ttl`. Valkey maxmemory-policy. Default: `noeviction`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_maxmemory_policy Valkey#valkey_maxmemory_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_maxmemory_policy Valkey#valkey_maxmemory_policy}
   */
   readonly valkeyMaxmemoryPolicy?: string;
   /**
   * Set notify-keyspace-events option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_notify_keyspace_events Valkey#valkey_notify_keyspace_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_notify_keyspace_events Valkey#valkey_notify_keyspace_events}
   */
   readonly valkeyNotifyKeyspaceEvents?: string;
   /**
   * Set number of Valkey databases. Changing this will cause a restart of the Valkey service. Example: `16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_number_of_databases Valkey#valkey_number_of_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_number_of_databases Valkey#valkey_number_of_databases}
   */
   readonly valkeyNumberOfDatabases?: number;
   /**
   * Enum: `off`, `rdb`. When persistence is `rdb`, Valkey does RDB dumps each 10 minutes if any key is changed. Also RDB dumps are done according to backup schedule for backup purposes. When persistence is `off`, no RDB dumps and backups are done, so data can be lost at any moment if service is restarted for any reason, or if service is powered off. Also service can't be forked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_persistence Valkey#valkey_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_persistence Valkey#valkey_persistence}
   */
   readonly valkeyPersistence?: string;
   /**
   * Set output buffer limit for pub / sub clients in MB. The value is the hard limit, the soft limit is 1/4 of the hard limit. When setting the limit, be mindful of the available memory in the selected service plan. Example: `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_pubsub_client_output_buffer_limit Valkey#valkey_pubsub_client_output_buffer_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_pubsub_client_output_buffer_limit Valkey#valkey_pubsub_client_output_buffer_limit}
   */
   readonly valkeyPubsubClientOutputBufferLimit?: number;
   /**
   * Require SSL to access Valkey. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_ssl Valkey#valkey_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_ssl Valkey#valkey_ssl}
   */
   readonly valkeySsl?: boolean | cdktf.IResolvable;
   /**
   * Valkey idle connection timeout in seconds. Default: `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#valkey_timeout Valkey#valkey_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#valkey_timeout Valkey#valkey_timeout}
   */
   readonly valkeyTimeout?: number;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#ip_filter_object Valkey#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#ip_filter_object Valkey#ip_filter_object}
   */
   readonly ipFilterObject?: ValkeyValkeyUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#migration Valkey#migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#migration Valkey#migration}
   */
   readonly migration?: ValkeyValkeyUserConfigMigration;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#private_access Valkey#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#private_access Valkey#private_access}
   */
   readonly privateAccess?: ValkeyValkeyUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#privatelink_access Valkey#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#privatelink_access Valkey#privatelink_access}
   */
   readonly privatelinkAccess?: ValkeyValkeyUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#public_access Valkey#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#public_access Valkey#public_access}
   */
   readonly publicAccess?: ValkeyValkeyUserConfigPublicAccess;
 }
@@ -2939,7 +2939,7 @@ export class ValkeyValkeyUserConfigOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey aiven_valkey}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey aiven_valkey}
 */
 export class Valkey extends cdktf.TerraformResource {
 
@@ -2955,7 +2955,7 @@ export class Valkey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Valkey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Valkey to import
-  * @param importFromId The id of the existing Valkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Valkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Valkey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2967,7 +2967,7 @@ export class Valkey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/valkey aiven_valkey} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/valkey aiven_valkey} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2978,8 +2978,8 @@ export class Valkey extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_valkey',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

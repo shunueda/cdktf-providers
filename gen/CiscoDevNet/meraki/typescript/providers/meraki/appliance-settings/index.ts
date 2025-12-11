@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,38 +11,38 @@ export interface ApplianceSettingsConfig extends cdktf.TerraformMetaArguments {
   * Client tracking method of a network
   *   - Choices: `IP address`, `MAC address`, `Unique client identifier`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings#client_tracking_method ApplianceSettings#client_tracking_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings#client_tracking_method ApplianceSettings#client_tracking_method}
   */
   readonly clientTrackingMethod?: string;
   /**
   * Deployment mode of a network
   *   - Choices: `passthrough`, `routed`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings#deployment_mode ApplianceSettings#deployment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings#deployment_mode ApplianceSettings#deployment_mode}
   */
   readonly deploymentMode?: string;
   /**
   * Dynamic DNS enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings#dynamic_dns_enabled ApplianceSettings#dynamic_dns_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings#dynamic_dns_enabled ApplianceSettings#dynamic_dns_enabled}
   */
   readonly dynamicDnsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Dynamic DNS url prefix. DDNS must be enabled to update
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings#dynamic_dns_prefix ApplianceSettings#dynamic_dns_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings#dynamic_dns_prefix ApplianceSettings#dynamic_dns_prefix}
   */
   readonly dynamicDnsPrefix?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings#network_id ApplianceSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings#network_id ApplianceSettings#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings meraki_appliance_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings meraki_appliance_settings}
 */
 export class ApplianceSettings extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class ApplianceSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceSettings to import
-  * @param importFromId The id of the existing ApplianceSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class ApplianceSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_settings meraki_appliance_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_settings meraki_appliance_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class ApplianceSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

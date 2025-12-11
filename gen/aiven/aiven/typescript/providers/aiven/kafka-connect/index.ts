@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KafkaConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#additional_disk_space KafkaConnect#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#additional_disk_space KafkaConnect#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#cloud_name KafkaConnect#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#cloud_name KafkaConnect#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#disk_space KafkaConnect#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#disk_space KafkaConnect#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#id KafkaConnect#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#id KafkaConnect#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface KafkaConnectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#maintenance_window_dow KafkaConnect#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#maintenance_window_dow KafkaConnect#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#maintenance_window_time KafkaConnect#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#maintenance_window_time KafkaConnect#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#plan KafkaConnect#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#plan KafkaConnect#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#project KafkaConnect#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#project KafkaConnect#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#project_vpc_id KafkaConnect#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#project_vpc_id KafkaConnect#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#service_name KafkaConnect#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#service_name KafkaConnect#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#static_ips KafkaConnect#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#static_ips KafkaConnect#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#termination_protection KafkaConnect#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#termination_protection KafkaConnect#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * kafka_connect_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#kafka_connect_user_config KafkaConnect#kafka_connect_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#kafka_connect_user_config KafkaConnect#kafka_connect_user_config}
   */
   readonly kafkaConnectUserConfig?: KafkaConnectKafkaConnectUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#service_integrations KafkaConnect#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#service_integrations KafkaConnect#service_integrations}
   */
   readonly serviceIntegrations?: KafkaConnectServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#tag KafkaConnect#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#tag KafkaConnect#tag}
   */
   readonly tag?: KafkaConnectTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#tech_emails KafkaConnect#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#tech_emails KafkaConnect#tech_emails}
   */
   readonly techEmails?: KafkaConnectTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#timeouts KafkaConnect#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#timeouts KafkaConnect#timeouts}
   */
   readonly timeouts?: KafkaConnectTimeouts;
 }
@@ -230,13 +230,13 @@ export interface KafkaConnectKafkaConnectUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#description KafkaConnect#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#description KafkaConnect#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#network KafkaConnect#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#network KafkaConnect#network}
   */
   readonly network: string;
 }
@@ -380,97 +380,97 @@ export interface KafkaConnectKafkaConnectUserConfigKafkaConnect {
   /**
   * Enum: `All`, `None`. Defines what client configurations can be overridden by the connector. Default is None.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#connector_client_config_override_policy KafkaConnect#connector_client_config_override_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#connector_client_config_override_policy KafkaConnect#connector_client_config_override_policy}
   */
   readonly connectorClientConfigOverridePolicy?: string;
   /**
   * Enum: `earliest`, `latest`. What to do when there is no initial offset in Kafka or if the current offset does not exist any more on the server. Default is earliest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#consumer_auto_offset_reset KafkaConnect#consumer_auto_offset_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#consumer_auto_offset_reset KafkaConnect#consumer_auto_offset_reset}
   */
   readonly consumerAutoOffsetReset?: string;
   /**
   * Records are fetched in batches by the consumer, and if the first record batch in the first non-empty partition of the fetch is larger than this value, the record batch will still be returned to ensure that the consumer can make progress. As such, this is not a absolute maximum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#consumer_fetch_max_bytes KafkaConnect#consumer_fetch_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#consumer_fetch_max_bytes KafkaConnect#consumer_fetch_max_bytes}
   */
   readonly consumerFetchMaxBytes?: number;
   /**
   * Enum: `read_committed`, `read_uncommitted`. Transaction read isolation level. read_uncommitted is the default, but read_committed can be used if consume-exactly-once behavior is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#consumer_isolation_level KafkaConnect#consumer_isolation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#consumer_isolation_level KafkaConnect#consumer_isolation_level}
   */
   readonly consumerIsolationLevel?: string;
   /**
   * Records are fetched in batches by the consumer.If the first record batch in the first non-empty partition of the fetch is larger than this limit, the batch will still be returned to ensure that the consumer can make progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#consumer_max_partition_fetch_bytes KafkaConnect#consumer_max_partition_fetch_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#consumer_max_partition_fetch_bytes KafkaConnect#consumer_max_partition_fetch_bytes}
   */
   readonly consumerMaxPartitionFetchBytes?: number;
   /**
   * The maximum delay in milliseconds between invocations of poll() when using consumer group management (defaults to 300000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#consumer_max_poll_interval_ms KafkaConnect#consumer_max_poll_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#consumer_max_poll_interval_ms KafkaConnect#consumer_max_poll_interval_ms}
   */
   readonly consumerMaxPollIntervalMs?: number;
   /**
   * The maximum number of records returned in a single call to poll() (defaults to 500).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#consumer_max_poll_records KafkaConnect#consumer_max_poll_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#consumer_max_poll_records KafkaConnect#consumer_max_poll_records}
   */
   readonly consumerMaxPollRecords?: number;
   /**
   * The interval at which to try committing offsets for tasks (defaults to 60000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#offset_flush_interval_ms KafkaConnect#offset_flush_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#offset_flush_interval_ms KafkaConnect#offset_flush_interval_ms}
   */
   readonly offsetFlushIntervalMs?: number;
   /**
   * Maximum number of milliseconds to wait for records to flush and partition offset data to be committed to offset storage before cancelling the process and restoring the offset data to be committed in a future attempt (defaults to 5000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#offset_flush_timeout_ms KafkaConnect#offset_flush_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#offset_flush_timeout_ms KafkaConnect#offset_flush_timeout_ms}
   */
   readonly offsetFlushTimeoutMs?: number;
   /**
   * This setting gives the upper bound of the batch size to be sent. If there are fewer than this many bytes accumulated for this partition, the producer will `linger` for the linger.ms time waiting for more records to show up. A batch size of zero will disable batching entirely (defaults to 16384).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#producer_batch_size KafkaConnect#producer_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#producer_batch_size KafkaConnect#producer_batch_size}
   */
   readonly producerBatchSize?: number;
   /**
   * The total bytes of memory the producer can use to buffer records waiting to be sent to the broker (defaults to 33554432).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#producer_buffer_memory KafkaConnect#producer_buffer_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#producer_buffer_memory KafkaConnect#producer_buffer_memory}
   */
   readonly producerBufferMemory?: number;
   /**
   * Enum: `gzip`, `lz4`, `none`, `snappy`, `zstd`. Specify the default compression type for producers. This configuration accepts the standard compression codecs (`gzip`, `snappy`, `lz4`, `zstd`). It additionally accepts `none` which is the default and equivalent to no compression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#producer_compression_type KafkaConnect#producer_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#producer_compression_type KafkaConnect#producer_compression_type}
   */
   readonly producerCompressionType?: string;
   /**
   * This setting gives the upper bound on the delay for batching: once there is batch.size worth of records for a partition it will be sent immediately regardless of this setting, however if there are fewer than this many bytes accumulated for this partition the producer will `linger` for the specified time waiting for more records to show up. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#producer_linger_ms KafkaConnect#producer_linger_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#producer_linger_ms KafkaConnect#producer_linger_ms}
   */
   readonly producerLingerMs?: number;
   /**
   * This setting will limit the number of record batches the producer will send in a single request to avoid sending huge requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#producer_max_request_size KafkaConnect#producer_max_request_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#producer_max_request_size KafkaConnect#producer_max_request_size}
   */
   readonly producerMaxRequestSize?: number;
   /**
   * The maximum delay that is scheduled in order to wait for the return of one or more departed workers before rebalancing and reassigning their connectors and tasks to the group. During this period the connectors and tasks of the departed workers remain unassigned. Defaults to 5 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#scheduled_rebalance_max_delay_ms KafkaConnect#scheduled_rebalance_max_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#scheduled_rebalance_max_delay_ms KafkaConnect#scheduled_rebalance_max_delay_ms}
   */
   readonly scheduledRebalanceMaxDelayMs?: number;
   /**
   * The timeout in milliseconds used to detect failures when using Kafka’s group management facilities (defaults to 10000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#session_timeout_ms KafkaConnect#session_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#session_timeout_ms KafkaConnect#session_timeout_ms}
   */
   readonly sessionTimeoutMs?: number;
 }
@@ -991,13 +991,13 @@ export interface KafkaConnectKafkaConnectUserConfigPluginVersions {
   /**
   * The name of the plugin. Example: `debezium-connector`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#plugin_name KafkaConnect#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#plugin_name KafkaConnect#plugin_name}
   */
   readonly pluginName: string;
   /**
   * The version of the plugin. Example: `2.5.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#version KafkaConnect#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#version KafkaConnect#version}
   */
   readonly version: string;
 }
@@ -1138,13 +1138,13 @@ export interface KafkaConnectKafkaConnectUserConfigPrivateAccess {
   /**
   * Allow clients to connect to kafka_connect with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#prometheus KafkaConnect#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#prometheus KafkaConnect#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -1259,19 +1259,19 @@ export interface KafkaConnectKafkaConnectUserConfigPrivatelinkAccess {
   /**
   * Enable jolokia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#jolokia KafkaConnect#jolokia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#jolokia KafkaConnect#jolokia}
   */
   readonly jolokia?: boolean | cdktf.IResolvable;
   /**
   * Enable kafka_connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#prometheus KafkaConnect#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#prometheus KafkaConnect#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -1415,13 +1415,13 @@ export interface KafkaConnectKafkaConnectUserConfigPublicAccess {
   /**
   * Allow clients to connect to kafka_connect from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#prometheus KafkaConnect#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#prometheus KafkaConnect#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -1536,25 +1536,25 @@ export interface KafkaConnectKafkaConnectUserConfigSecretProvidersAws {
   /**
   * Access key used to authenticate with aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#access_key KafkaConnect#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#access_key KafkaConnect#access_key}
   */
   readonly accessKey?: string;
   /**
   * Enum: `credentials`. Auth method of the vault secret provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#auth_method KafkaConnect#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#auth_method KafkaConnect#auth_method}
   */
   readonly authMethod: string;
   /**
   * Region used to lookup secrets with AWS SecretManager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#region KafkaConnect#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#region KafkaConnect#region}
   */
   readonly region: string;
   /**
   * Secret key used to authenticate with aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#secret_key KafkaConnect#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#secret_key KafkaConnect#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -1721,31 +1721,31 @@ export interface KafkaConnectKafkaConnectUserConfigSecretProvidersVault {
   /**
   * Address of the Vault server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#address KafkaConnect#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#address KafkaConnect#address}
   */
   readonly address: string;
   /**
   * Enum: `token`. Auth method of the vault secret provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#auth_method KafkaConnect#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#auth_method KafkaConnect#auth_method}
   */
   readonly authMethod: string;
   /**
   * Enum: `1`, `2`, and newer. KV Secrets Engine version of the Vault server instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#engine_version KafkaConnect#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#engine_version KafkaConnect#engine_version}
   */
   readonly engineVersion?: number;
   /**
   * Prefix path depth of the secrets Engine. Default is 1. If the secrets engine path has more than one segment it has to be increased to the number of segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#prefix_path_depth KafkaConnect#prefix_path_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#prefix_path_depth KafkaConnect#prefix_path_depth}
   */
   readonly prefixPathDepth?: number;
   /**
   * Token used to authenticate with vault and auth method `token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#token KafkaConnect#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#token KafkaConnect#token}
   */
   readonly token?: string;
 }
@@ -1941,19 +1941,19 @@ export interface KafkaConnectKafkaConnectUserConfigSecretProviders {
   /**
   * Name of the secret provider. Used to reference secrets in connector config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#name KafkaConnect#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#name KafkaConnect#name}
   */
   readonly name: string;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#aws KafkaConnect#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#aws KafkaConnect#aws}
   */
   readonly aws?: KafkaConnectKafkaConnectUserConfigSecretProvidersAws;
   /**
   * vault block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#vault KafkaConnect#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#vault KafkaConnect#vault}
   */
   readonly vault?: KafkaConnectKafkaConnectUserConfigSecretProvidersVault;
 }
@@ -2126,73 +2126,79 @@ export interface KafkaConnectKafkaConnectUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#additional_backup_regions KafkaConnect#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#additional_backup_regions KafkaConnect#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#ip_filter KafkaConnect#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#ip_filter KafkaConnect#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#ip_filter_string KafkaConnect#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#ip_filter_string KafkaConnect#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
+  * List of allowed URLs for SASL OAUTHBEARER authentication. Only HTTPS URLs are allowed for security reasons.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#sasl_oauthbearer_allowed_urls KafkaConnect#sasl_oauthbearer_allowed_urls}
+  */
+  readonly saslOauthbearerAllowedUrls?: string[];
+  /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#service_log KafkaConnect#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#service_log KafkaConnect#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#static_ips KafkaConnect#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#static_ips KafkaConnect#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#ip_filter_object KafkaConnect#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#ip_filter_object KafkaConnect#ip_filter_object}
   */
   readonly ipFilterObject?: KafkaConnectKafkaConnectUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * kafka_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#kafka_connect KafkaConnect#kafka_connect}
   */
   readonly kafkaConnect?: KafkaConnectKafkaConnectUserConfigKafkaConnect;
   /**
   * plugin_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#plugin_versions KafkaConnect#plugin_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#plugin_versions KafkaConnect#plugin_versions}
   */
   readonly pluginVersions?: KafkaConnectKafkaConnectUserConfigPluginVersions[] | cdktf.IResolvable;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#private_access KafkaConnect#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#private_access KafkaConnect#private_access}
   */
   readonly privateAccess?: KafkaConnectKafkaConnectUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#privatelink_access KafkaConnect#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#privatelink_access KafkaConnect#privatelink_access}
   */
   readonly privatelinkAccess?: KafkaConnectKafkaConnectUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#public_access KafkaConnect#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#public_access KafkaConnect#public_access}
   */
   readonly publicAccess?: KafkaConnectKafkaConnectUserConfigPublicAccess;
   /**
   * secret_providers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#secret_providers KafkaConnect#secret_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#secret_providers KafkaConnect#secret_providers}
   */
   readonly secretProviders?: KafkaConnectKafkaConnectUserConfigSecretProviders[] | cdktf.IResolvable;
 }
@@ -2206,6 +2212,7 @@ export function kafkaConnectKafkaConnectUserConfigToTerraform(struct?: KafkaConn
     additional_backup_regions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.additionalBackupRegions),
     ip_filter: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFilter),
     ip_filter_string: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFilterString),
+    sasl_oauthbearer_allowed_urls: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.saslOauthbearerAllowedUrls),
     service_log: cdktf.booleanToTerraform(struct!.serviceLog),
     static_ips: cdktf.booleanToTerraform(struct!.staticIps),
     ip_filter_object: cdktf.listMapper(kafkaConnectKafkaConnectUserConfigIpFilterObjectToTerraform, true)(struct!.ipFilterObject),
@@ -2241,6 +2248,12 @@ export function kafkaConnectKafkaConnectUserConfigToHclTerraform(struct?: KafkaC
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipFilterString),
       isBlock: false,
       type: "set",
+      storageClassType: "stringList",
+    },
+    sasl_oauthbearer_allowed_urls: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.saslOauthbearerAllowedUrls),
+      isBlock: false,
+      type: "list",
       storageClassType: "stringList",
     },
     service_log: {
@@ -2329,6 +2342,10 @@ export class KafkaConnectKafkaConnectUserConfigOutputReference extends cdktf.Com
       hasAnyValues = true;
       internalValueResult.ipFilterString = this._ipFilterString;
     }
+    if (this._saslOauthbearerAllowedUrls !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.saslOauthbearerAllowedUrls = this._saslOauthbearerAllowedUrls;
+    }
     if (this._serviceLog !== undefined) {
       hasAnyValues = true;
       internalValueResult.serviceLog = this._serviceLog;
@@ -2374,6 +2391,7 @@ export class KafkaConnectKafkaConnectUserConfigOutputReference extends cdktf.Com
       this._additionalBackupRegions = undefined;
       this._ipFilter = undefined;
       this._ipFilterString = undefined;
+      this._saslOauthbearerAllowedUrls = undefined;
       this._serviceLog = undefined;
       this._staticIps = undefined;
       this._ipFilterObject.internalValue = undefined;
@@ -2389,6 +2407,7 @@ export class KafkaConnectKafkaConnectUserConfigOutputReference extends cdktf.Com
       this._additionalBackupRegions = value.additionalBackupRegions;
       this._ipFilter = value.ipFilter;
       this._ipFilterString = value.ipFilterString;
+      this._saslOauthbearerAllowedUrls = value.saslOauthbearerAllowedUrls;
       this._serviceLog = value.serviceLog;
       this._staticIps = value.staticIps;
       this._ipFilterObject.internalValue = value.ipFilterObject;
@@ -2447,6 +2466,22 @@ export class KafkaConnectKafkaConnectUserConfigOutputReference extends cdktf.Com
   // Temporarily expose input value. Use with caution.
   public get ipFilterStringInput() {
     return this._ipFilterString;
+  }
+
+  // sasl_oauthbearer_allowed_urls - computed: false, optional: true, required: false
+  private _saslOauthbearerAllowedUrls?: string[]; 
+  public get saslOauthbearerAllowedUrls() {
+    return this.getListAttribute('sasl_oauthbearer_allowed_urls');
+  }
+  public set saslOauthbearerAllowedUrls(value: string[]) {
+    this._saslOauthbearerAllowedUrls = value;
+  }
+  public resetSaslOauthbearerAllowedUrls() {
+    this._saslOauthbearerAllowedUrls = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get saslOauthbearerAllowedUrlsInput() {
+    return this._saslOauthbearerAllowedUrls;
   }
 
   // service_log - computed: false, optional: true, required: false
@@ -2597,13 +2632,13 @@ export interface KafkaConnectServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#integration_type KafkaConnect#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#integration_type KafkaConnect#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#source_service_name KafkaConnect#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#source_service_name KafkaConnect#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -2744,13 +2779,13 @@ export interface KafkaConnectTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#key KafkaConnect#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#key KafkaConnect#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#value KafkaConnect#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#value KafkaConnect#value}
   */
   readonly value: string;
 }
@@ -2891,7 +2926,7 @@ export interface KafkaConnectTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#email KafkaConnect#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#email KafkaConnect#email}
   */
   readonly email: string;
 }
@@ -3004,23 +3039,23 @@ export class KafkaConnectTechEmailsList extends cdktf.ComplexList {
 }
 export interface KafkaConnectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#create KafkaConnect#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#create KafkaConnect#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#default KafkaConnect#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#default KafkaConnect#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#delete KafkaConnect#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#delete KafkaConnect#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#read KafkaConnect#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#read KafkaConnect#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#update KafkaConnect#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#update KafkaConnect#update}
   */
   readonly update?: string;
 }
@@ -3230,7 +3265,7 @@ export class KafkaConnectTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect aiven_kafka_connect}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect aiven_kafka_connect}
 */
 export class KafkaConnect extends cdktf.TerraformResource {
 
@@ -3246,7 +3281,7 @@ export class KafkaConnect extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaConnect resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaConnect to import
-  * @param importFromId The id of the existing KafkaConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaConnect that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaConnect to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3258,7 +3293,7 @@ export class KafkaConnect extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_connect aiven_kafka_connect} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_connect aiven_kafka_connect} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3269,8 +3304,8 @@ export class KafkaConnect extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_kafka_connect',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

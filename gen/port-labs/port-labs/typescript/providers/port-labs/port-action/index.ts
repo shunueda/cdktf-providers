@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface PortActionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether members can view the runs of this action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#allow_anyone_to_view_runs PortAction#allow_anyone_to_view_runs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#allow_anyone_to_view_runs PortAction#allow_anyone_to_view_runs}
   */
   readonly allowAnyoneToViewRuns?: boolean | cdktf.IResolvable;
   /**
   * The email notification of the approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#approval_email_notification PortAction#approval_email_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#approval_email_notification PortAction#approval_email_notification}
   */
   readonly approvalEmailNotification?: PortActionApprovalEmailNotification;
   /**
   * The webhook notification of the approval
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#approval_webhook_notification PortAction#approval_webhook_notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#approval_webhook_notification PortAction#approval_webhook_notification}
   */
   readonly approvalWebhookNotification?: PortActionApprovalWebhookNotification;
   /**
   * Automation trigger for the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#automation_trigger PortAction#automation_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#automation_trigger PortAction#automation_trigger}
   */
   readonly automationTrigger?: PortActionAutomationTrigger;
   /**
   * Azure DevOps invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#azure_method PortAction#azure_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#azure_method PortAction#azure_method}
   */
   readonly azureMethod?: PortActionAzureMethod;
   /**
   * The blueprint identifier the action relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint PortAction#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint PortAction#blueprint}
   */
   readonly blueprint?: string;
   /**
   * Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * GitHub invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#github_method PortAction#github_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#github_method PortAction#github_method}
   */
   readonly githubMethod?: PortActionGithubMethod;
   /**
   * Gitlab invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#gitlab_method PortAction#gitlab_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#gitlab_method PortAction#gitlab_method}
   */
   readonly gitlabMethod?: PortActionGitlabMethod;
   /**
   * Icon
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * Identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#identifier PortAction#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#identifier PortAction#identifier}
   */
   readonly identifier: string;
   /**
   * Kafka invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#kafka_method PortAction#kafka_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#kafka_method PortAction#kafka_method}
   */
   readonly kafkaMethod?: PortActionKafkaMethod;
   /**
   * Publish action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#publish PortAction#publish}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#publish PortAction#publish}
   */
   readonly publish?: boolean | cdktf.IResolvable;
   /**
   * Require approval before invoking the action. Can be one of "true", "false", "ANY" or "ALL"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required_approval PortAction#required_approval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required_approval PortAction#required_approval}
   */
   readonly requiredApproval?: string;
   /**
   * Self service trigger for the action. Note: you can define only one of `order_properties` and `steps`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#self_service_trigger PortAction#self_service_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#self_service_trigger PortAction#self_service_trigger}
   */
   readonly selfServiceTrigger?: PortActionSelfServiceTrigger;
   /**
   * Title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
   /**
   * Upsert Entity invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#upsert_entity_method PortAction#upsert_entity_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#upsert_entity_method PortAction#upsert_entity_method}
   */
   readonly upsertEntityMethod?: PortActionUpsertEntityMethod;
   /**
   * Webhook invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#webhook_method PortAction#webhook_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#webhook_method PortAction#webhook_method}
   */
   readonly webhookMethod?: PortActionWebhookMethod;
 }
@@ -179,13 +179,13 @@ export interface PortActionApprovalWebhookNotification {
   /**
   * The format to invoke the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#format PortAction#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#format PortAction#format}
   */
   readonly format?: string;
   /**
   * The URL to invoke the webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#url PortAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#url PortAction#url}
   */
   readonly url: string;
 }
@@ -307,7 +307,7 @@ export interface PortActionAutomationTriggerAnyEntityChangeEvent {
   /**
   * The blueprint identifier of the changed entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
 }
@@ -400,7 +400,7 @@ export interface PortActionAutomationTriggerAnyRunChangeEvent {
   /**
   * The action identifier of the changed run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#action_identifier PortAction#action_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#action_identifier PortAction#action_identifier}
   */
   readonly actionIdentifier: string;
 }
@@ -493,7 +493,7 @@ export interface PortActionAutomationTriggerEntityCreatedEvent {
   /**
   * The blueprint identifier of the created entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
 }
@@ -586,7 +586,7 @@ export interface PortActionAutomationTriggerEntityDeletedEvent {
   /**
   * The blueprint identifier of the deleted entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
 }
@@ -679,7 +679,7 @@ export interface PortActionAutomationTriggerEntityUpdatedEvent {
   /**
   * The blueprint identifier of the updated entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
 }
@@ -772,13 +772,13 @@ export interface PortActionAutomationTriggerJqCondition {
   /**
   * The combinator of the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#combinator PortAction#combinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#combinator PortAction#combinator}
   */
   readonly combinator?: string;
   /**
   * The jq expressions of the condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#expressions PortAction#expressions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#expressions PortAction#expressions}
   */
   readonly expressions: string[];
 }
@@ -900,7 +900,7 @@ export interface PortActionAutomationTriggerRunCreatedEvent {
   /**
   * The action identifier of the created run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#action_identifier PortAction#action_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#action_identifier PortAction#action_identifier}
   */
   readonly actionIdentifier: string;
 }
@@ -993,7 +993,7 @@ export interface PortActionAutomationTriggerRunUpdatedEvent {
   /**
   * The action identifier of the updated run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#action_identifier PortAction#action_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#action_identifier PortAction#action_identifier}
   */
   readonly actionIdentifier: string;
 }
@@ -1086,13 +1086,13 @@ export interface PortActionAutomationTriggerTimerPropertyExpiredEvent {
   /**
   * The blueprint identifier of the expired timer property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
   /**
   * The property identifier of the expired timer property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#property_identifier PortAction#property_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#property_identifier PortAction#property_identifier}
   */
   readonly propertyIdentifier: string;
 }
@@ -1211,55 +1211,55 @@ export interface PortActionAutomationTrigger {
   /**
   * Any entity change event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#any_entity_change_event PortAction#any_entity_change_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#any_entity_change_event PortAction#any_entity_change_event}
   */
   readonly anyEntityChangeEvent?: PortActionAutomationTriggerAnyEntityChangeEvent;
   /**
   * Any run change event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#any_run_change_event PortAction#any_run_change_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#any_run_change_event PortAction#any_run_change_event}
   */
   readonly anyRunChangeEvent?: PortActionAutomationTriggerAnyRunChangeEvent;
   /**
   * Entity created event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#entity_created_event PortAction#entity_created_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#entity_created_event PortAction#entity_created_event}
   */
   readonly entityCreatedEvent?: PortActionAutomationTriggerEntityCreatedEvent;
   /**
   * Entity deleted event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#entity_deleted_event PortAction#entity_deleted_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#entity_deleted_event PortAction#entity_deleted_event}
   */
   readonly entityDeletedEvent?: PortActionAutomationTriggerEntityDeletedEvent;
   /**
   * Entity updated event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#entity_updated_event PortAction#entity_updated_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#entity_updated_event PortAction#entity_updated_event}
   */
   readonly entityUpdatedEvent?: PortActionAutomationTriggerEntityUpdatedEvent;
   /**
   * JQ condition for automation trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#jq_condition PortAction#jq_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#jq_condition PortAction#jq_condition}
   */
   readonly jqCondition?: PortActionAutomationTriggerJqCondition;
   /**
   * Run created event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#run_created_event PortAction#run_created_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#run_created_event PortAction#run_created_event}
   */
   readonly runCreatedEvent?: PortActionAutomationTriggerRunCreatedEvent;
   /**
   * Run updated event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#run_updated_event PortAction#run_updated_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#run_updated_event PortAction#run_updated_event}
   */
   readonly runUpdatedEvent?: PortActionAutomationTriggerRunUpdatedEvent;
   /**
   * Timer property expired event trigger
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#timer_property_expired_event PortAction#timer_property_expired_event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#timer_property_expired_event PortAction#timer_property_expired_event}
   */
   readonly timerPropertyExpiredEvent?: PortActionAutomationTriggerTimerPropertyExpiredEvent;
 }
@@ -1587,19 +1587,19 @@ export interface PortActionAzureMethod {
   /**
   * Required when selecting type AZURE. The Azure org that the workflow belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#org PortAction#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#org PortAction#org}
   */
   readonly org: string;
   /**
   * The Azure Devops workflow [payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload) should be in `JSON` format, encoded as a string. Use [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode) to encode arrays or objects. Learn about how to [define the action payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#payload PortAction#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#payload PortAction#payload}
   */
   readonly payload?: string;
   /**
   * Required when selecting type AZURE. The Azure webhook that the workflow belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#webhook PortAction#webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#webhook PortAction#webhook}
   */
   readonly webhook: string;
 }
@@ -1747,31 +1747,31 @@ export interface PortActionGithubMethod {
   /**
   * Required when selecting type GITHUB. The GitHub org that the workflow belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#org PortAction#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#org PortAction#org}
   */
   readonly org: string;
   /**
   * Required when selecting type GITHUB. The GitHub repo that the workflow belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#repo PortAction#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#repo PortAction#repo}
   */
   readonly repo: string;
   /**
   * Report the workflow status when invoking the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#report_workflow_status PortAction#report_workflow_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#report_workflow_status PortAction#report_workflow_status}
   */
   readonly reportWorkflowStatus?: string;
   /**
   * The GitHub workflow that the action belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#workflow PortAction#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#workflow PortAction#workflow}
   */
   readonly workflow: string;
   /**
   * The GitHub [workflow inputs](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload) should be in `JSON` format, encoded as a string. Use [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode) to encode arrays or objects. Learn about how to [define the action payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#workflow_inputs PortAction#workflow_inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#workflow_inputs PortAction#workflow_inputs}
   */
   readonly workflowInputs?: string;
 }
@@ -1974,25 +1974,25 @@ export interface PortActionGitlabMethod {
   /**
   * The default ref of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default_ref PortAction#default_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default_ref PortAction#default_ref}
   */
   readonly defaultRef?: string;
   /**
   * Required when selecting type GITLAB. The GitLab group name that the workflow belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#group_name PortAction#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#group_name PortAction#group_name}
   */
   readonly groupName: string;
   /**
   * The Gitlab pipeline variables should be in `JSON` format, encoded as a string. Use [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode) to encode arrays or objects. Learn about how to [define the action payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#pipeline_variables PortAction#pipeline_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#pipeline_variables PortAction#pipeline_variables}
   */
   readonly pipelineVariables?: string;
   /**
   * Required when selecting type GITLAB. The GitLab project name that the workflow belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#project_name PortAction#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#project_name PortAction#project_name}
   */
   readonly projectName: string;
 }
@@ -2169,7 +2169,7 @@ export interface PortActionKafkaMethod {
   /**
   * The Kafka message [payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload) should be in `JSON` format, encoded as a string. Use [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode) to encode arrays or objects. Learn about how to [define the action payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#payload PortAction#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#payload PortAction#payload}
   */
   readonly payload?: string;
 }
@@ -2265,25 +2265,25 @@ export interface PortActionSelfServiceTriggerSteps {
   /**
   * The order of the properties in this step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#order PortAction#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#order PortAction#order}
   */
   readonly order: string[];
   /**
   * The step's title (max 25 characters)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title: string;
   /**
   * The visibility of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the step
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -2482,25 +2482,25 @@ export interface PortActionSelfServiceTriggerTitles {
   /**
   * The description of the action title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * The title of the action title
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title: string;
   /**
   * The visibility of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -2700,7 +2700,7 @@ export interface PortActionSelfServiceTriggerUserPropertiesArrayPropsBooleanItem
   /**
   * The default values for the boolean items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: Array<boolean | cdktf.IResolvable> | cdktf.IResolvable;
 }
@@ -2796,19 +2796,19 @@ export interface PortActionSelfServiceTriggerUserPropertiesArrayPropsNumberItems
   /**
   * The default values for the number items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: number[];
   /**
   * The enum of possible values for the number items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum PortAction#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum PortAction#enum}
   */
   readonly enum?: number[];
   /**
   * The jq query for the enum number items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
   */
   readonly enumJqQuery?: string;
 }
@@ -2962,7 +2962,7 @@ export interface PortActionSelfServiceTriggerUserPropertiesArrayPropsObjectItems
   /**
   * The default values for the object items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: { [key: string]: string }[] | cdktf.IResolvable;
 }
@@ -3058,13 +3058,13 @@ export interface PortActionSelfServiceTriggerUserPropertiesArrayPropsSort {
   /**
   * The order to sort the entities in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#order PortAction#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#order PortAction#order}
   */
   readonly order?: string;
   /**
   * The property to sort the entities by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#property PortAction#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#property PortAction#property}
   */
   readonly property: string;
 }
@@ -3186,37 +3186,37 @@ export interface PortActionSelfServiceTriggerUserPropertiesArrayPropsStringItems
   /**
   * The blueprint identifier related to each string item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint PortAction#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint PortAction#blueprint}
   */
   readonly blueprint?: string;
   /**
   * The dataset of the entity-format items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#dataset PortAction#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#dataset PortAction#dataset}
   */
   readonly dataset?: string;
   /**
   * The default value of the items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: string[];
   /**
   * The enum of possible values for the string items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum PortAction#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum PortAction#enum}
   */
   readonly enum?: string[];
   /**
   * The jq query for the enum of string items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
   */
   readonly enumJqQuery?: string;
   /**
   * The format of the string property, Accepted values include `date-time`, `url`, `email`, `ipv4`, `ipv6`, `yaml`, `entity`, `user`, `team`, `proto`, `markdown`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#format PortAction#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#format PortAction#format}
   */
   readonly format?: string;
 }
@@ -3457,115 +3457,115 @@ export interface PortActionSelfServiceTriggerUserPropertiesArrayProps {
   /**
   * An array of boolean items within the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#boolean_items PortAction#boolean_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#boolean_items PortAction#boolean_items}
   */
   readonly booleanItems?: PortActionSelfServiceTriggerUserPropertiesArrayPropsBooleanItems;
   /**
   * The default jq query of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
   */
   readonly defaultJqQuery?: string;
   /**
   * The properties that this property depends on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#depends_on PortAction#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#depends_on PortAction#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * The disabled state of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled PortAction#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled PortAction#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The disabled state jq query of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
   */
   readonly disabledJqQuery?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * The max items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#max_items PortAction#max_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#max_items PortAction#max_items}
   */
   readonly maxItems?: number;
   /**
   * The max items jq query of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#max_items_jq_query PortAction#max_items_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#max_items_jq_query PortAction#max_items_jq_query}
   */
   readonly maxItemsJqQuery?: string;
   /**
   * The min items of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#min_items PortAction#min_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#min_items PortAction#min_items}
   */
   readonly minItems?: number;
   /**
   * The min items jq query of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#min_items_jq_query PortAction#min_items_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#min_items_jq_query PortAction#min_items_jq_query}
   */
   readonly minItemsJqQuery?: string;
   /**
   * An array of number items within the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#number_items PortAction#number_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#number_items PortAction#number_items}
   */
   readonly numberItems?: PortActionSelfServiceTriggerUserPropertiesArrayPropsNumberItems;
   /**
   * An array of object items within the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#object_items PortAction#object_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#object_items PortAction#object_items}
   */
   readonly objectItems?: PortActionSelfServiceTriggerUserPropertiesArrayPropsObjectItems;
   /**
   * Whether the property is required, by default not required, this property can't be set at the same time if `required_jq_query` is set, and only supports true as value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required PortAction#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required PortAction#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * How to sort entities when in the self service action form in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#sort PortAction#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#sort PortAction#sort}
   */
   readonly sort?: PortActionSelfServiceTriggerUserPropertiesArrayPropsSort;
   /**
   * An array of string items within the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#string_items PortAction#string_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#string_items PortAction#string_items}
   */
   readonly stringItems?: PortActionSelfServiceTriggerUserPropertiesArrayPropsStringItems;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
   /**
   * The visibility of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the array property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -4203,67 +4203,67 @@ export interface PortActionSelfServiceTriggerUserPropertiesBooleanProps {
   /**
   * The default of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * The default jq query of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
   */
   readonly defaultJqQuery?: string;
   /**
   * The properties that this property depends on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#depends_on PortAction#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#depends_on PortAction#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * The disabled state of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled PortAction#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled PortAction#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The disabled state jq query of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
   */
   readonly disabledJqQuery?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * Whether the property is required, by default not required, this property can't be set at the same time if `required_jq_query` is set, and only supports true as value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required PortAction#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required PortAction#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
   /**
   * The visibility of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the boolean property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -4669,97 +4669,97 @@ export interface PortActionSelfServiceTriggerUserPropertiesNumberProps {
   /**
   * The default of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: number;
   /**
   * The default jq query of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
   */
   readonly defaultJqQuery?: string;
   /**
   * The properties that this property depends on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#depends_on PortAction#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#depends_on PortAction#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * The disabled state of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled PortAction#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled PortAction#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The disabled state jq query of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
   */
   readonly disabledJqQuery?: string;
   /**
   * The enum of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum PortAction#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum PortAction#enum}
   */
   readonly enum?: number[];
   /**
   * The enum colors of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum_colors PortAction#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum_colors PortAction#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The enum jq query of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
   */
   readonly enumJqQuery?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * The min of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#maximum PortAction#maximum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#maximum PortAction#maximum}
   */
   readonly maximum?: number;
   /**
   * The max of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#minimum PortAction#minimum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#minimum PortAction#minimum}
   */
   readonly minimum?: number;
   /**
   * Whether the property is required, by default not required, this property can't be set at the same time if `required_jq_query` is set, and only supports true as value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required PortAction#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required PortAction#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
   /**
   * The visibility of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the number property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -5310,73 +5310,73 @@ export interface PortActionSelfServiceTriggerUserPropertiesObjectProps {
   /**
   * The default of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: string;
   /**
   * The default jq query of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
   */
   readonly defaultJqQuery?: string;
   /**
   * The properties that this property depends on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#depends_on PortAction#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#depends_on PortAction#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * The disabled state of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled PortAction#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled PortAction#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The disabled state jq query of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
   */
   readonly disabledJqQuery?: string;
   /**
   * The algorithm to encrypt the property with. Accepted value: `aes256-gcm`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#encryption PortAction#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#encryption PortAction#encryption}
   */
   readonly encryption?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * Whether the property is required, by default not required, this property can't be set at the same time if `required_jq_query` is set, and only supports true as value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required PortAction#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required PortAction#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
   /**
   * The visibility of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the object property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -5875,25 +5875,25 @@ export interface PortActionSelfServiceTriggerUserPropertiesStringPropsDatasetRul
   /**
   * The blueprint identifier of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint PortAction#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint PortAction#blueprint}
   */
   readonly blueprint?: string;
   /**
   * The operator of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#operator PortAction#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#operator PortAction#operator}
   */
   readonly operator: string;
   /**
   * The property identifier of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#property PortAction#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#property PortAction#property}
   */
   readonly property?: string;
   /**
   * The value of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#value PortAction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#value PortAction#value}
   */
   readonly value?: PortActionSelfServiceTriggerUserPropertiesStringPropsDatasetRulesValue;
 }
@@ -6095,13 +6095,13 @@ export interface PortActionSelfServiceTriggerUserPropertiesStringPropsDataset {
   /**
   * The combinator of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#combinator PortAction#combinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#combinator PortAction#combinator}
   */
   readonly combinator: string;
   /**
   * The rules of the dataset
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#rules PortAction#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#rules PortAction#rules}
   */
   readonly rules: PortActionSelfServiceTriggerUserPropertiesStringPropsDatasetRules[] | cdktf.IResolvable;
 }
@@ -6220,13 +6220,13 @@ export interface PortActionSelfServiceTriggerUserPropertiesStringPropsSort {
   /**
   * The order to sort the entities in
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#order PortAction#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#order PortAction#order}
   */
   readonly order?: string;
   /**
   * The property to sort the entities by
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#property PortAction#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#property PortAction#property}
   */
   readonly property: string;
 }
@@ -6348,139 +6348,139 @@ export interface PortActionSelfServiceTriggerUserPropertiesStringProps {
   /**
   * The blueprint identifier the string property relates to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint PortAction#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint PortAction#blueprint}
   */
   readonly blueprint?: string;
   /**
   * The dataset of an the entity-format property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#dataset PortAction#dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#dataset PortAction#dataset}
   */
   readonly dataset?: PortActionSelfServiceTriggerUserPropertiesStringPropsDataset;
   /**
   * The default of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default PortAction#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default PortAction#default}
   */
   readonly default?: string;
   /**
   * The default jq query of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#default_jq_query PortAction#default_jq_query}
   */
   readonly defaultJqQuery?: string;
   /**
   * The properties that this property depends on
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#depends_on PortAction#depends_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#depends_on PortAction#depends_on}
   */
   readonly dependsOn?: string[];
   /**
   * The description of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#description PortAction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#description PortAction#description}
   */
   readonly description?: string;
   /**
   * The disabled state of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled PortAction#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled PortAction#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * The disabled state jq query of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#disabled_jq_query PortAction#disabled_jq_query}
   */
   readonly disabledJqQuery?: string;
   /**
   * The algorithm to encrypt the property with. Accepted value: `aes256-gcm`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#encryption PortAction#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#encryption PortAction#encryption}
   */
   readonly encryption?: string;
   /**
   * The enum of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum PortAction#enum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum PortAction#enum}
   */
   readonly enum?: string[];
   /**
   * The enum colors of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum_colors PortAction#enum_colors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum_colors PortAction#enum_colors}
   */
   readonly enumColors?: { [key: string]: string };
   /**
   * The enum jq query of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#enum_jq_query PortAction#enum_jq_query}
   */
   readonly enumJqQuery?: string;
   /**
   * The format of the string property, Accepted values include `date-time`, `url`, `email`, `ipv4`, `ipv6`, `yaml`, `entity`, `user`, `team`, `proto`, `markdown`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#format PortAction#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#format PortAction#format}
   */
   readonly format?: string;
   /**
   * The icon of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * The max length of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#max_length PortAction#max_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#max_length PortAction#max_length}
   */
   readonly maxLength?: number;
   /**
   * The min length of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#min_length PortAction#min_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#min_length PortAction#min_length}
   */
   readonly minLength?: number;
   /**
   * The pattern of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#pattern PortAction#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#pattern PortAction#pattern}
   */
   readonly pattern?: string;
   /**
   * The pattern jq query of the string property. This field accepts a JQ expression to dynamically generate either a regex pattern (as a string) or a list of allowed values (as an array). Cannot be used with `pattern`. Empty values are not allowed. Examples: `"if .env == \"prod\" then \"^[a-z]+$\" else \"^[a-zA-Z]+$\" end"` for dynamic regex patterns, or `"[\"value1\", \"value2\"]"` for a fixed list of allowed values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#pattern_jq_query PortAction#pattern_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#pattern_jq_query PortAction#pattern_jq_query}
   */
   readonly patternJqQuery?: string;
   /**
   * Whether the property is required, by default not required, this property can't be set at the same time if `required_jq_query` is set, and only supports true as value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required PortAction#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required PortAction#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * How to sort entities when in the self service action form in the UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#sort PortAction#sort}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#sort PortAction#sort}
   */
   readonly sort?: PortActionSelfServiceTriggerUserPropertiesStringPropsSort;
   /**
   * The title of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
   /**
   * The visibility of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible PortAction#visible}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible PortAction#visible}
   */
   readonly visible?: boolean | cdktf.IResolvable;
   /**
   * The visibility condition jq query of the string property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#visible_jq_query PortAction#visible_jq_query}
   */
   readonly visibleJqQuery?: string;
 }
@@ -7234,31 +7234,31 @@ export interface PortActionSelfServiceTriggerUserProperties {
   /**
   * The array property of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#array_props PortAction#array_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#array_props PortAction#array_props}
   */
   readonly arrayProps?: { [key: string]: PortActionSelfServiceTriggerUserPropertiesArrayProps } | cdktf.IResolvable;
   /**
   * The boolean property of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#boolean_props PortAction#boolean_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#boolean_props PortAction#boolean_props}
   */
   readonly booleanProps?: { [key: string]: PortActionSelfServiceTriggerUserPropertiesBooleanProps } | cdktf.IResolvable;
   /**
   * The number property of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#number_props PortAction#number_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#number_props PortAction#number_props}
   */
   readonly numberProps?: { [key: string]: PortActionSelfServiceTriggerUserPropertiesNumberProps } | cdktf.IResolvable;
   /**
   * The object property of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#object_props PortAction#object_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#object_props PortAction#object_props}
   */
   readonly objectProps?: { [key: string]: PortActionSelfServiceTriggerUserPropertiesObjectProps } | cdktf.IResolvable;
   /**
   * The string property of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#string_props PortAction#string_props}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#string_props PortAction#string_props}
   */
   readonly stringProps?: { [key: string]: PortActionSelfServiceTriggerUserPropertiesStringProps } | cdktf.IResolvable;
 }
@@ -7470,61 +7470,61 @@ export interface PortActionSelfServiceTrigger {
   /**
   * The text of the button that will be displayed in the self service action card
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#action_card_button_text PortAction#action_card_button_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#action_card_button_text PortAction#action_card_button_text}
   */
   readonly actionCardButtonText?: string;
   /**
   * The ID of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier?: string;
   /**
   * The `condition` field allows you to define rules using Port's [search & query syntax](https://docs.getport.io/search-and-query/#rules) to determine which entities the action will be available for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#condition PortAction#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#condition PortAction#condition}
   */
   readonly condition?: string;
   /**
   * The text of the button that will be displayed for executing the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#execute_action_button_text PortAction#execute_action_button_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#execute_action_button_text PortAction#execute_action_button_text}
   */
   readonly executeActionButtonText?: string;
   /**
   * The operation type of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#operation PortAction#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#operation PortAction#operation}
   */
   readonly operation: string;
   /**
   * Order properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#order_properties PortAction#order_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#order_properties PortAction#order_properties}
   */
   readonly orderProperties?: string[];
   /**
   * The required jq query of the property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#required_jq_query PortAction#required_jq_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#required_jq_query PortAction#required_jq_query}
   */
   readonly requiredJqQuery?: string;
   /**
   * The steps of the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#steps PortAction#steps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#steps PortAction#steps}
   */
   readonly steps?: PortActionSelfServiceTriggerSteps[] | cdktf.IResolvable;
   /**
   * action titles
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#titles PortAction#titles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#titles PortAction#titles}
   */
   readonly titles?: { [key: string]: PortActionSelfServiceTriggerTitles } | cdktf.IResolvable;
   /**
   * User properties
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#user_properties PortAction#user_properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#user_properties PortAction#user_properties}
   */
   readonly userProperties?: PortActionSelfServiceTriggerUserProperties;
 }
@@ -7878,37 +7878,37 @@ export interface PortActionUpsertEntityMethodMapping {
   /**
   * The icon of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#icon PortAction#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#icon PortAction#icon}
   */
   readonly icon?: string;
   /**
   * Required when selecting type Upsert Entity. The entity identifier for the upsert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#identifier PortAction#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#identifier PortAction#identifier}
   */
   readonly identifier?: string;
   /**
   * The properties of the entity (key-value object encoded to a string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#properties PortAction#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#properties PortAction#properties}
   */
   readonly properties?: string;
   /**
   * The relations of the entity (key-value object encoded to a string)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#relations PortAction#relations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#relations PortAction#relations}
   */
   readonly relations?: string;
   /**
   * The teams the entity belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#teams PortAction#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#teams PortAction#teams}
   */
   readonly teams?: string[];
   /**
   * Jq that returns the teams the entity belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#teams_jq PortAction#teams_jq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#teams_jq PortAction#teams_jq}
   */
   readonly teamsJq?: string;
 }
@@ -8149,19 +8149,19 @@ export interface PortActionUpsertEntityMethod {
   /**
   * Required when selecting type Upsert Entity. The blueprint identifier of the entity for the upsert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#blueprint_identifier PortAction#blueprint_identifier}
   */
   readonly blueprintIdentifier: string;
   /**
   * Upsert Entity invocation method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#mapping PortAction#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#mapping PortAction#mapping}
   */
   readonly mapping?: PortActionUpsertEntityMethodMapping;
   /**
   * The title of the entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#title PortAction#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#title PortAction#title}
   */
   readonly title?: string;
 }
@@ -8312,37 +8312,37 @@ export interface PortActionWebhookMethod {
   /**
   * Specifies whether to use an agent to invoke the action. This can be a boolean value (`'true''` or `'false'`) or a JQ if dynamic evaluation is needed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#agent PortAction#agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#agent PortAction#agent}
   */
   readonly agent?: string;
   /**
   * The Webhook body should be in `JSON` format, encoded as a string. Use [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode) to encode arrays or objects. Learn about how to [define the action payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#body PortAction#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#body PortAction#body}
   */
   readonly body?: string;
   /**
   * The HTTP headers for invoking the action. They should be encoded as a key-value object to a string using [jsonencode](https://developer.hashicorp.com/terraform/language/functions/jsonencode). Learn about how to [define the action payload](https://docs.getport.io/create-self-service-experiences/setup-backend/#define-the-actions-payload).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#headers PortAction#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#headers PortAction#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * The HTTP method to invoke the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#method PortAction#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#method PortAction#method}
   */
   readonly method?: string;
   /**
   * Synchronize the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#synchronized PortAction#synchronized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#synchronized PortAction#synchronized}
   */
   readonly synchronized?: string;
   /**
   * Required when selecting type WEBHOOK. The URL to invoke the action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#url PortAction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#url PortAction#url}
   */
   readonly url: string;
 }
@@ -8578,7 +8578,7 @@ export class PortActionWebhookMethodOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action port_action}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action port_action}
 */
 export class PortAction extends cdktf.TerraformResource {
 
@@ -8594,7 +8594,7 @@ export class PortAction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortAction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortAction to import
-  * @param importFromId The id of the existing PortAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortAction that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortAction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8606,7 +8606,7 @@ export class PortAction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_action port_action} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_action port_action} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8617,8 +8617,8 @@ export class PortAction extends cdktf.TerraformResource {
       terraformResourceType: 'port_action',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.17.2',
+        providerVersionConstraint: '2.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

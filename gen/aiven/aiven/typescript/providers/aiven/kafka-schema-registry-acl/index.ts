@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KafkaSchemaRegistryAclConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#id KafkaSchemaRegistryAcl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#id KafkaSchemaRegistryAcl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,59 +17,59 @@ export interface KafkaSchemaRegistryAclConfig extends cdktf.TerraformMetaArgumen
   /**
   * Kafka Schema Registry permission to grant. The possible values are `schema_registry_read` and `schema_registry_write`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#permission KafkaSchemaRegistryAcl#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#permission KafkaSchemaRegistryAcl#permission}
   */
   readonly permission: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#project KafkaSchemaRegistryAcl#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#project KafkaSchemaRegistryAcl#project}
   */
   readonly project: string;
   /**
   * Resource name pattern for the Schema Registry ACL entry. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#resource KafkaSchemaRegistryAcl#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#resource KafkaSchemaRegistryAcl#resource}
   */
   readonly resource: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#service_name KafkaSchemaRegistryAcl#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#service_name KafkaSchemaRegistryAcl#service_name}
   */
   readonly serviceName: string;
   /**
   * Username pattern for the ACL entry. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#username KafkaSchemaRegistryAcl#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#username KafkaSchemaRegistryAcl#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#timeouts KafkaSchemaRegistryAcl#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#timeouts KafkaSchemaRegistryAcl#timeouts}
   */
   readonly timeouts?: KafkaSchemaRegistryAclTimeouts;
 }
 export interface KafkaSchemaRegistryAclTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#create KafkaSchemaRegistryAcl#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#create KafkaSchemaRegistryAcl#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#default KafkaSchemaRegistryAcl#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#default KafkaSchemaRegistryAcl#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#delete KafkaSchemaRegistryAcl#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#delete KafkaSchemaRegistryAcl#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#read KafkaSchemaRegistryAcl#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#read KafkaSchemaRegistryAcl#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#update KafkaSchemaRegistryAcl#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#update KafkaSchemaRegistryAcl#update}
   */
   readonly update?: string;
 }
@@ -279,7 +279,7 @@ export class KafkaSchemaRegistryAclTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl aiven_kafka_schema_registry_acl}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl aiven_kafka_schema_registry_acl}
 */
 export class KafkaSchemaRegistryAcl extends cdktf.TerraformResource {
 
@@ -295,7 +295,7 @@ export class KafkaSchemaRegistryAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaSchemaRegistryAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaSchemaRegistryAcl to import
-  * @param importFromId The id of the existing KafkaSchemaRegistryAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaSchemaRegistryAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaSchemaRegistryAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class KafkaSchemaRegistryAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_schema_registry_acl aiven_kafka_schema_registry_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_schema_registry_acl aiven_kafka_schema_registry_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class KafkaSchemaRegistryAcl extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_kafka_schema_registry_acl',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface DifStackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#add_service_trigger DifStack#add_service_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#add_service_trigger DifStack#add_service_trigger}
   */
   readonly addServiceTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#compartment_id DifStack#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#compartment_id DifStack#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#defined_tags DifStack#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#defined_tags DifStack#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#deploy_artifacts_trigger DifStack#deploy_artifacts_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#deploy_artifacts_trigger DifStack#deploy_artifacts_trigger}
   */
   readonly deployArtifactsTrigger?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#display_name DifStack#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#display_name DifStack#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#freeform_tags DifStack#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#freeform_tags DifStack#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#id DifStack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#id DifStack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#notification_email DifStack#notification_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#notification_email DifStack#notification_email}
   */
   readonly notificationEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#services DifStack#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#services DifStack#services}
   */
   readonly services: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#stack_templates DifStack#stack_templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#stack_templates DifStack#stack_templates}
   */
   readonly stackTemplates: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * adb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#adb DifStack#adb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#adb DifStack#adb}
   */
   readonly adb?: DifStackAdb[] | cdktf.IResolvable;
   /**
   * dataflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#dataflow DifStack#dataflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#dataflow DifStack#dataflow}
   */
   readonly dataflow?: DifStackDataflow[] | cdktf.IResolvable;
   /**
   * genai block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#genai DifStack#genai}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#genai DifStack#genai}
   */
   readonly genai?: DifStackGenai[] | cdktf.IResolvable;
   /**
   * ggcs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#ggcs DifStack#ggcs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#ggcs DifStack#ggcs}
   */
   readonly ggcs?: DifStackGgcs[] | cdktf.IResolvable;
   /**
   * objectstorage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#objectstorage DifStack#objectstorage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#objectstorage DifStack#objectstorage}
   */
   readonly objectstorage?: DifStackObjectstorage[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#timeouts DifStack#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#timeouts DifStack#timeouts}
   */
   readonly timeouts?: DifStackTimeouts;
 }
@@ -471,15 +471,15 @@ export class DifStackServiceDetailsList extends cdktf.ComplexList {
 }
 export interface DifStackAdbDbCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#secret_id DifStack#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#secret_id DifStack#secret_id}
   */
   readonly secretId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#user_name DifStack#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#user_name DifStack#user_name}
   */
   readonly userName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#user_type DifStack#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#user_type DifStack#user_type}
   */
   readonly userType: string;
 }
@@ -644,53 +644,53 @@ export class DifStackAdbDbCredentialsList extends cdktf.ComplexList {
 }
 export interface DifStackAdb {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#admin_password_id DifStack#admin_password_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#admin_password_id DifStack#admin_password_id}
   */
   readonly adminPasswordId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#artifact_object_storage_path DifStack#artifact_object_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#artifact_object_storage_path DifStack#artifact_object_storage_path}
   */
   readonly artifactObjectStoragePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#data_storage_size_in_tbs DifStack#data_storage_size_in_tbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#data_storage_size_in_tbs DifStack#data_storage_size_in_tbs}
   */
   readonly dataStorageSizeInTbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#db_version DifStack#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#db_version DifStack#db_version}
   */
   readonly dbVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#db_workload DifStack#db_workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#db_workload DifStack#db_workload}
   */
   readonly dbWorkload: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#ecpu DifStack#ecpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#ecpu DifStack#ecpu}
   */
   readonly ecpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#is_mtls_connection_required DifStack#is_mtls_connection_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#is_mtls_connection_required DifStack#is_mtls_connection_required}
   */
   readonly isMtlsConnectionRequired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#is_public DifStack#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#is_public DifStack#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
   */
   readonly subnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#tools_public_access DifStack#tools_public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#tools_public_access DifStack#tools_public_access}
   */
   readonly toolsPublicAccess?: string;
   /**
   * db_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#db_credentials DifStack#db_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#db_credentials DifStack#db_credentials}
   */
   readonly dbCredentials?: DifStackAdbDbCredentials[] | cdktf.IResolvable;
 }
@@ -1107,11 +1107,11 @@ export class DifStackAdbList extends cdktf.ComplexList {
 }
 export interface DifStackDataflowConnectionsConnectionDetailsDifDependencies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#service_instance_id DifStack#service_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#service_instance_id DifStack#service_instance_id}
   */
   readonly serviceInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#service_type DifStack#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#service_type DifStack#service_type}
   */
   readonly serviceType: string;
 }
@@ -1250,13 +1250,13 @@ export class DifStackDataflowConnectionsConnectionDetailsDifDependenciesList ext
 }
 export interface DifStackDataflowConnectionsConnectionDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#domain_names DifStack#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#domain_names DifStack#domain_names}
   */
   readonly domainNames?: string[];
   /**
   * dif_dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
   */
   readonly difDependencies?: DifStackDataflowConnectionsConnectionDetailsDifDependencies[] | cdktf.IResolvable;
 }
@@ -1369,13 +1369,13 @@ export class DifStackDataflowConnectionsConnectionDetailsOutputReference extends
 }
 export interface DifStackDataflowConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
   */
   readonly subnetId: string;
   /**
   * connection_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#connection_details DifStack#connection_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#connection_details DifStack#connection_details}
   */
   readonly connectionDetails: DifStackDataflowConnectionsConnectionDetails;
 }
@@ -1482,11 +1482,11 @@ export class DifStackDataflowConnectionsOutputReference extends cdktf.ComplexObj
 }
 export interface DifStackDataflowDriverShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}
   */
   readonly memoryInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#ocpus DifStack#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#ocpus DifStack#ocpus}
   */
   readonly ocpus: number;
 }
@@ -1593,11 +1593,11 @@ export class DifStackDataflowDriverShapeConfigOutputReference extends cdktf.Comp
 }
 export interface DifStackDataflowExecutorShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#memory_in_gbs DifStack#memory_in_gbs}
   */
   readonly memoryInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#ocpus DifStack#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#ocpus DifStack#ocpus}
   */
   readonly ocpus: number;
 }
@@ -1704,61 +1704,61 @@ export class DifStackDataflowExecutorShapeConfigOutputReference extends cdktf.Co
 }
 export interface DifStackDataflow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#archive_uri DifStack#archive_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#archive_uri DifStack#archive_uri}
   */
   readonly archiveUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#driver_shape DifStack#driver_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#driver_shape DifStack#driver_shape}
   */
   readonly driverShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#execute DifStack#execute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#execute DifStack#execute}
   */
   readonly execute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#executor_shape DifStack#executor_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#executor_shape DifStack#executor_shape}
   */
   readonly executorShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#log_bucket_instance_id DifStack#log_bucket_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#log_bucket_instance_id DifStack#log_bucket_instance_id}
   */
   readonly logBucketInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#num_executors DifStack#num_executors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#num_executors DifStack#num_executors}
   */
   readonly numExecutors: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#private_endpoint_id DifStack#private_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#private_endpoint_id DifStack#private_endpoint_id}
   */
   readonly privateEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#spark_version DifStack#spark_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#spark_version DifStack#spark_version}
   */
   readonly sparkVersion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#warehouse_bucket_instance_id DifStack#warehouse_bucket_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#warehouse_bucket_instance_id DifStack#warehouse_bucket_instance_id}
   */
   readonly warehouseBucketInstanceId?: string;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#connections DifStack#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#connections DifStack#connections}
   */
   readonly connections?: DifStackDataflowConnections;
   /**
   * driver_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#driver_shape_config DifStack#driver_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#driver_shape_config DifStack#driver_shape_config}
   */
   readonly driverShapeConfig?: DifStackDataflowDriverShapeConfig;
   /**
   * executor_shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#executor_shape_config DifStack#executor_shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#executor_shape_config DifStack#executor_shape_config}
   */
   readonly executorShapeConfig?: DifStackDataflowExecutorShapeConfig;
 }
@@ -2204,11 +2204,11 @@ export class DifStackDataflowList extends cdktf.ComplexList {
 }
 export interface DifStackGenaiEndpoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#endpoint_name DifStack#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#endpoint_name DifStack#endpoint_name}
   */
   readonly endpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#is_content_moderation_enabled DifStack#is_content_moderation_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#is_content_moderation_enabled DifStack#is_content_moderation_enabled}
   */
   readonly isContentModerationEnabled: boolean | cdktf.IResolvable;
 }
@@ -2347,29 +2347,29 @@ export class DifStackGenaiEndpointsList extends cdktf.ComplexList {
 }
 export interface DifStackGenai {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#base_model DifStack#base_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#base_model DifStack#base_model}
   */
   readonly baseModel: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#cluster_type DifStack#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#cluster_type DifStack#cluster_type}
   */
   readonly clusterType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#oci_region DifStack#oci_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#oci_region DifStack#oci_region}
   */
   readonly ociRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#unit_count DifStack#unit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#unit_count DifStack#unit_count}
   */
   readonly unitCount: number;
   /**
   * endpoints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#endpoints DifStack#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#endpoints DifStack#endpoints}
   */
   readonly endpoints?: DifStackGenaiEndpoints[] | cdktf.IResolvable;
 }
@@ -2615,11 +2615,11 @@ export class DifStackGenaiList extends cdktf.ComplexList {
 }
 export interface DifStackGgcsConnectionsDifDependencies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#service_instance_id DifStack#service_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#service_instance_id DifStack#service_instance_id}
   */
   readonly serviceInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#service_type DifStack#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#service_type DifStack#service_type}
   */
   readonly serviceType: string;
 }
@@ -2758,21 +2758,21 @@ export class DifStackGgcsConnectionsDifDependenciesList extends cdktf.ComplexLis
 }
 export interface DifStackGgcsConnections {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#connection_id DifStack#connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#connection_id DifStack#connection_id}
   */
   readonly connectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#connection_name DifStack#connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#connection_name DifStack#connection_name}
   */
   readonly connectionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#gg_admin_secret_id DifStack#gg_admin_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#gg_admin_secret_id DifStack#gg_admin_secret_id}
   */
   readonly ggAdminSecretId?: string;
   /**
   * dif_dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#dif_dependencies DifStack#dif_dependencies}
   */
   readonly difDependencies?: DifStackGgcsConnectionsDifDependencies[] | cdktf.IResolvable;
 }
@@ -2972,23 +2972,23 @@ export class DifStackGgcsConnectionsList extends cdktf.ComplexList {
 }
 export interface DifStackGgcsSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#action DifStack#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#action DifStack#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#should_start_source_operations DifStack#should_start_source_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#should_start_source_operations DifStack#should_start_source_operations}
   */
   readonly shouldStartSourceOperations: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#source_id DifStack#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#source_id DifStack#source_id}
   */
   readonly sourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#target_connection_name DifStack#target_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#target_connection_name DifStack#target_connection_name}
   */
   readonly targetConnectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#target_uri DifStack#target_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#target_uri DifStack#target_uri}
   */
   readonly targetUri?: string;
 }
@@ -3211,23 +3211,23 @@ export class DifStackGgcsSourcesList extends cdktf.ComplexList {
 }
 export interface DifStackGgcsTargets {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#action DifStack#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#action DifStack#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#should_start_target_operations DifStack#should_start_target_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#should_start_target_operations DifStack#should_start_target_operations}
   */
   readonly shouldStartTargetOperations: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#source_connection_name DifStack#source_connection_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#source_connection_name DifStack#source_connection_name}
   */
   readonly sourceConnectionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#source_uri DifStack#source_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#source_uri DifStack#source_uri}
   */
   readonly sourceUri?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#target_id DifStack#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#target_id DifStack#target_id}
   */
   readonly targetId: string;
 }
@@ -3450,19 +3450,19 @@ export class DifStackGgcsTargetsList extends cdktf.ComplexList {
 }
 export interface DifStackGgcsUsers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#action DifStack#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#action DifStack#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#secret_id DifStack#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#secret_id DifStack#secret_id}
   */
   readonly secretId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#user_name DifStack#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#user_name DifStack#user_name}
   */
   readonly userName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#user_type DifStack#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#user_type DifStack#user_type}
   */
   readonly userType: string;
 }
@@ -3653,55 +3653,55 @@ export class DifStackGgcsUsersList extends cdktf.ComplexList {
 }
 export interface DifStackGgcs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#artifact_object_storage_path DifStack#artifact_object_storage_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#artifact_object_storage_path DifStack#artifact_object_storage_path}
   */
   readonly artifactObjectStoragePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#ocpu DifStack#ocpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#ocpu DifStack#ocpu}
   */
   readonly ocpu: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#ogg_version DifStack#ogg_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#ogg_version DifStack#ogg_version}
   */
   readonly oggVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#password_secret_id DifStack#password_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#password_secret_id DifStack#password_secret_id}
   */
   readonly passwordSecretId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#public_subnet_id DifStack#public_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#public_subnet_id DifStack#public_subnet_id}
   */
   readonly publicSubnetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#subnet_id DifStack#subnet_id}
   */
   readonly subnetId: string;
   /**
   * connections block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#connections DifStack#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#connections DifStack#connections}
   */
   readonly connections?: DifStackGgcsConnections[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#sources DifStack#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#sources DifStack#sources}
   */
   readonly sources?: DifStackGgcsSources[] | cdktf.IResolvable;
   /**
   * targets block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#targets DifStack#targets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#targets DifStack#targets}
   */
   readonly targets?: DifStackGgcsTargets[] | cdktf.IResolvable;
   /**
   * users block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#users DifStack#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#users DifStack#users}
   */
   readonly users?: DifStackGgcsUsers[] | cdktf.IResolvable;
 }
@@ -4095,19 +4095,19 @@ export class DifStackGgcsList extends cdktf.ComplexList {
 }
 export interface DifStackObjectstorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#auto_tiering DifStack#auto_tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#auto_tiering DifStack#auto_tiering}
   */
   readonly autoTiering?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#instance_id DifStack#instance_id}
   */
   readonly instanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#object_versioning DifStack#object_versioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#object_versioning DifStack#object_versioning}
   */
   readonly objectVersioning: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#storage_tier DifStack#storage_tier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#storage_tier DifStack#storage_tier}
   */
   readonly storageTier: string;
 }
@@ -4301,15 +4301,15 @@ export class DifStackObjectstorageList extends cdktf.ComplexList {
 }
 export interface DifStackTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#create DifStack#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#create DifStack#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#delete DifStack#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#delete DifStack#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#update DifStack#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#update DifStack#update}
   */
   readonly update?: string;
 }
@@ -4461,7 +4461,7 @@ export class DifStackTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack oci_dif_stack}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack oci_dif_stack}
 */
 export class DifStack extends cdktf.TerraformResource {
 
@@ -4477,7 +4477,7 @@ export class DifStack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DifStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DifStack to import
-  * @param importFromId The id of the existing DifStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DifStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DifStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4489,7 +4489,7 @@ export class DifStack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dif_stack oci_dif_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dif_stack oci_dif_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4500,8 +4500,8 @@ export class DifStack extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dif_stack',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

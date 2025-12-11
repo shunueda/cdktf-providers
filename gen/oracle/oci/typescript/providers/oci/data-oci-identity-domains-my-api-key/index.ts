@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsMyApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key#authorization DataOciIdentityDomainsMyApiKey#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key#authorization DataOciIdentityDomainsMyApiKey#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key#idcs_endpoint DataOciIdentityDomainsMyApiKey#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key#idcs_endpoint DataOciIdentityDomainsMyApiKey#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key#my_api_key_id DataOciIdentityDomainsMyApiKey#my_api_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key#my_api_key_id DataOciIdentityDomainsMyApiKey#my_api_key_id}
   */
   readonly myApiKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key#resource_type_schema_version DataOciIdentityDomainsMyApiKey#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key#resource_type_schema_version DataOciIdentityDomainsMyApiKey#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -486,7 +486,7 @@ export class DataOciIdentityDomainsMyApiKeyUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key oci_identity_domains_my_api_key}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key oci_identity_domains_my_api_key}
 */
 export class DataOciIdentityDomainsMyApiKey extends cdktf.TerraformDataSource {
 
@@ -502,7 +502,7 @@ export class DataOciIdentityDomainsMyApiKey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityDomainsMyApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsMyApiKey to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsMyApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsMyApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsMyApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -514,7 +514,7 @@ export class DataOciIdentityDomainsMyApiKey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_my_api_key oci_identity_domains_my_api_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_my_api_key oci_identity_domains_my_api_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -525,8 +525,8 @@ export class DataOciIdentityDomainsMyApiKey extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_domains_my_api_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

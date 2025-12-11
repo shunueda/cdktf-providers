@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface BreakglassaccessConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#id Breakglassaccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#id Breakglassaccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface BreakglassaccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#metadata Breakglassaccess#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#metadata Breakglassaccess#metadata}
   */
   readonly metadata?: BreakglassaccessMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#spec Breakglassaccess#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#spec Breakglassaccess#spec}
   */
   readonly spec?: BreakglassaccessSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#timeouts Breakglassaccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#timeouts Breakglassaccess#timeouts}
   */
   readonly timeouts?: BreakglassaccessTimeouts;
 }
@@ -37,7 +37,7 @@ export interface BreakglassaccessMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#id Breakglassaccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#id Breakglassaccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface BreakglassaccessMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#is_sso_user Breakglassaccess#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#is_sso_user Breakglassaccess#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#username Breakglassaccess#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#username Breakglassaccess#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface BreakglassaccessMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#id Breakglassaccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#id Breakglassaccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface BreakglassaccessMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#is_sso_user Breakglassaccess#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#is_sso_user Breakglassaccess#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#username Breakglassaccess#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#username Breakglassaccess#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface BreakglassaccessMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#annotations Breakglassaccess#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#annotations Breakglassaccess#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#description Breakglassaccess#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#description Breakglassaccess#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#display_name Breakglassaccess#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#display_name Breakglassaccess#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#labels Breakglassaccess#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#labels Breakglassaccess#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#name Breakglassaccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#name Breakglassaccess#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#project Breakglassaccess#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#project Breakglassaccess#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#created_by Breakglassaccess#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#created_by Breakglassaccess#created_by}
   */
   readonly createdBy?: BreakglassaccessMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#modified_by Breakglassaccess#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#modified_by Breakglassaccess#modified_by}
   */
   readonly modifiedBy?: BreakglassaccessMetadataModifiedBy;
 }
@@ -686,25 +686,25 @@ export interface BreakglassaccessSpecGroupsGroupExpiry {
   /**
   * Hours after which user access will expire
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#expiry Breakglassaccess#expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#expiry Breakglassaccess#expiry}
   */
   readonly expiry?: number;
   /**
   * Group Name which access will be added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#name Breakglassaccess#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#name Breakglassaccess#name}
   */
   readonly name?: string;
   /**
   * Time from when user access will be active
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#start_time Breakglassaccess#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#start_time Breakglassaccess#start_time}
   */
   readonly startTime?: string;
   /**
   * Timezone for the start time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#timezone Breakglassaccess#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#timezone Breakglassaccess#timezone}
   */
   readonly timezone?: string;
 }
@@ -909,13 +909,13 @@ export interface BreakglassaccessSpecGroups {
   /**
   * Type of the user(sso/local) for which access will be added
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#user_type Breakglassaccess#user_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#user_type Breakglassaccess#user_type}
   */
   readonly userType?: string;
   /**
   * group_expiry block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#group_expiry Breakglassaccess#group_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#group_expiry Breakglassaccess#group_expiry}
   */
   readonly groupExpiry?: BreakglassaccessSpecGroupsGroupExpiry[] | cdktf.IResolvable;
 }
@@ -1062,7 +1062,7 @@ export interface BreakglassaccessSpec {
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#groups Breakglassaccess#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#groups Breakglassaccess#groups}
   */
   readonly groups?: BreakglassaccessSpecGroups[] | cdktf.IResolvable;
 }
@@ -1146,15 +1146,15 @@ export class BreakglassaccessSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface BreakglassaccessTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#create Breakglassaccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#create Breakglassaccess#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#delete Breakglassaccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#delete Breakglassaccess#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#update Breakglassaccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#update Breakglassaccess#update}
   */
   readonly update?: string;
 }
@@ -1306,7 +1306,7 @@ export class BreakglassaccessTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess rafay_breakglassaccess}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess rafay_breakglassaccess}
 */
 export class Breakglassaccess extends cdktf.TerraformResource {
 
@@ -1322,7 +1322,7 @@ export class Breakglassaccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Breakglassaccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Breakglassaccess to import
-  * @param importFromId The id of the existing Breakglassaccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Breakglassaccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Breakglassaccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1334,7 +1334,7 @@ export class Breakglassaccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/breakglassaccess rafay_breakglassaccess} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/breakglassaccess rafay_breakglassaccess} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1345,8 +1345,8 @@ export class Breakglassaccess extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_breakglassaccess',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

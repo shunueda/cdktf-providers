@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDblmPatchManagementDatabasesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#compartment_id DataOciDblmPatchManagementDatabases#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#compartment_id DataOciDblmPatchManagementDatabases#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#database_release DataOciDblmPatchManagementDatabases#database_release}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#database_release DataOciDblmPatchManagementDatabases#database_release}
   */
   readonly databaseRelease?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#database_type DataOciDblmPatchManagementDatabases#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#database_type DataOciDblmPatchManagementDatabases#database_type}
   */
   readonly databaseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#display_name DataOciDblmPatchManagementDatabases#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#display_name DataOciDblmPatchManagementDatabases#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#drifter_patch_id DataOciDblmPatchManagementDatabases#drifter_patch_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#drifter_patch_id DataOciDblmPatchManagementDatabases#drifter_patch_id}
   */
   readonly drifterPatchId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#id DataOciDblmPatchManagementDatabases#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#id DataOciDblmPatchManagementDatabases#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#image_compliance DataOciDblmPatchManagementDatabases#image_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#image_compliance DataOciDblmPatchManagementDatabases#image_compliance}
   */
   readonly imageCompliance?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#image_id DataOciDblmPatchManagementDatabases#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#image_id DataOciDblmPatchManagementDatabases#image_id}
   */
   readonly imageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#severity_type DataOciDblmPatchManagementDatabases#severity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#severity_type DataOciDblmPatchManagementDatabases#severity_type}
   */
   readonly severityType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#state DataOciDblmPatchManagementDatabases#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#state DataOciDblmPatchManagementDatabases#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#filter DataOciDblmPatchManagementDatabases#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#filter DataOciDblmPatchManagementDatabases#filter}
   */
   readonly filter?: DataOciDblmPatchManagementDatabasesFilter[] | cdktf.IResolvable;
 }
@@ -808,15 +808,15 @@ export class DataOciDblmPatchManagementDatabasesPatchDatabasesCollectionList ext
 }
 export interface DataOciDblmPatchManagementDatabasesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#name DataOciDblmPatchManagementDatabases#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#name DataOciDblmPatchManagementDatabases#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#regex DataOciDblmPatchManagementDatabases#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#regex DataOciDblmPatchManagementDatabases#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#values DataOciDblmPatchManagementDatabases#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#values DataOciDblmPatchManagementDatabases#values}
   */
   readonly values: string[];
 }
@@ -984,7 +984,7 @@ export class DataOciDblmPatchManagementDatabasesFilterList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases oci_dblm_patch_management_databases}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases oci_dblm_patch_management_databases}
 */
 export class DataOciDblmPatchManagementDatabases extends cdktf.TerraformDataSource {
 
@@ -1000,7 +1000,7 @@ export class DataOciDblmPatchManagementDatabases extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataOciDblmPatchManagementDatabases resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDblmPatchManagementDatabases to import
-  * @param importFromId The id of the existing DataOciDblmPatchManagementDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDblmPatchManagementDatabases that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDblmPatchManagementDatabases to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1012,7 +1012,7 @@ export class DataOciDblmPatchManagementDatabases extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dblm_patch_management_databases oci_dblm_patch_management_databases} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dblm_patch_management_databases oci_dblm_patch_management_databases} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1023,8 +1023,8 @@ export class DataOciDblmPatchManagementDatabases extends cdktf.TerraformDataSour
       terraformResourceType: 'oci_dblm_patch_management_databases',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

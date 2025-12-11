@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_client_splash_authorization_status
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_client_splash_authorization_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataMerakiNetworkClientSplashAuthorizationStatusConfig extends 
   /**
   * Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_client_splash_authorization_status#client_id DataMerakiNetworkClientSplashAuthorizationStatus#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_client_splash_authorization_status#client_id DataMerakiNetworkClientSplashAuthorizationStatus#client_id}
   */
   readonly clientId: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_client_splash_authorization_status#network_id DataMerakiNetworkClientSplashAuthorizationStatus#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_client_splash_authorization_status#network_id DataMerakiNetworkClientSplashAuthorizationStatus#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status}
 */
 export class DataMerakiNetworkClientSplashAuthorizationStatus extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataMerakiNetworkClientSplashAuthorizationStatus extends cdktf.Terr
   * Generates CDKTF code for importing a DataMerakiNetworkClientSplashAuthorizationStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiNetworkClientSplashAuthorizationStatus to import
-  * @param importFromId The id of the existing DataMerakiNetworkClientSplashAuthorizationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_client_splash_authorization_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiNetworkClientSplashAuthorizationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_client_splash_authorization_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiNetworkClientSplashAuthorizationStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataMerakiNetworkClientSplashAuthorizationStatus extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataMerakiNetworkClientSplashAuthorizationStatus extends cdktf.Terr
       terraformResourceType: 'meraki_network_client_splash_authorization_status',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

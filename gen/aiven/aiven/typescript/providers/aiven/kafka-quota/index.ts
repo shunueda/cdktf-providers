@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -15,7 +15,7 @@ export interface KafkaQuotaConfig extends cdktf.TerraformMetaArguments {
   * All connections within a quota group share the same quota.
   * It is possible to set default quotas for each (user, client-id), user or client-id group by specifying 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#client_id KafkaQuota#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#client_id KafkaQuota#client_id}
   */
   readonly clientId?: string;
   /**
@@ -24,11 +24,11 @@ export interface KafkaQuotaConfig extends cdktf.TerraformMetaArguments {
   * Every distinct client group is allocated a specific quota, as defined by the cluster, on a per-broker basis.
   * Exceeding this limit results in client throttling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#consumer_byte_rate KafkaQuota#consumer_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#consumer_byte_rate KafkaQuota#consumer_byte_rate}
   */
   readonly consumerByteRate?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#id KafkaQuota#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#id KafkaQuota#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,13 +40,13 @@ export interface KafkaQuotaConfig extends cdktf.TerraformMetaArguments {
   * Every distinct client group is allocated a specific quota, as defined by the cluster, on a per-broker basis.
   * Exceeding this limit results in client throttling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#producer_byte_rate KafkaQuota#producer_byte_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#producer_byte_rate KafkaQuota#producer_byte_rate}
   */
   readonly producerByteRate?: number;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#project KafkaQuota#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#project KafkaQuota#project}
   */
   readonly project: string;
   /**
@@ -55,13 +55,13 @@ export interface KafkaQuotaConfig extends cdktf.TerraformMetaArguments {
   * Exceeding this limit triggers throttling.
   * The quota, expressed as a percentage, also indicates the total allowable CPU usage for the client groups sharing the quota.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#request_percentage KafkaQuota#request_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#request_percentage KafkaQuota#request_percentage}
   */
   readonly requestPercentage?: number;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#service_name KafkaQuota#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#service_name KafkaQuota#service_name}
   */
   readonly serviceName: string;
   /**
@@ -72,35 +72,35 @@ export interface KafkaQuotaConfig extends cdktf.TerraformMetaArguments {
   * All connections within a quota group share the same quota.
   * It is possible to set default quotas for each (user, client-id), user or client-id group by specifying 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#user KafkaQuota#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#user KafkaQuota#user}
   */
   readonly user?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#timeouts KafkaQuota#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#timeouts KafkaQuota#timeouts}
   */
   readonly timeouts?: KafkaQuotaTimeouts;
 }
 export interface KafkaQuotaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#create KafkaQuota#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#create KafkaQuota#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#default KafkaQuota#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#default KafkaQuota#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#delete KafkaQuota#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#delete KafkaQuota#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#read KafkaQuota#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#read KafkaQuota#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#update KafkaQuota#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#update KafkaQuota#update}
   */
   readonly update?: string;
 }
@@ -310,7 +310,7 @@ export class KafkaQuotaTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota aiven_kafka_quota}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota aiven_kafka_quota}
 */
 export class KafkaQuota extends cdktf.TerraformResource {
 
@@ -326,7 +326,7 @@ export class KafkaQuota extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaQuota resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaQuota to import
-  * @param importFromId The id of the existing KafkaQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaQuota that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaQuota to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -338,7 +338,7 @@ export class KafkaQuota extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_quota aiven_kafka_quota} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_quota aiven_kafka_quota} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -349,8 +349,8 @@ export class KafkaQuota extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_kafka_quota',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface CosBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable bucket acceleration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#acceleration_enable CosBucket#acceleration_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#acceleration_enable CosBucket#acceleration_enable}
   */
   readonly accelerationEnable?: boolean | cdktf.IResolvable;
   /**
   * The canned ACL to apply. Valid values: private, public-read, and public-read-write. Defaults to private.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#acl CosBucket#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#acl CosBucket#acl}
   */
   readonly acl?: string;
   /**
   * ACL XML body for multiple grant info. NOTE: this argument will overwrite `acl`. Check https://intl.cloud.tencent.com/document/product/436/7737 for more detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#acl_body CosBucket#acl_body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#acl_body CosBucket#acl_body}
   */
   readonly aclBody?: string;
   /**
   * The name of a bucket to be created. Bucket format should be [custom name]-[appid], for example `mycos-1258798060`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#bucket CosBucket#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#bucket CosBucket#bucket}
   */
   readonly bucket: string;
   /**
   * CDC cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#cdc_id CosBucket#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#cdc_id CosBucket#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Indicates whether to create a bucket of metadata acceleration. For more information, please refer to `https://www.tencentcloud.com/document/product/436/43305`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#chdfs_ofs CosBucket#chdfs_ofs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#chdfs_ofs CosBucket#chdfs_ofs}
   */
   readonly chdfsOfs?: boolean | cdktf.IResolvable;
   /**
   * Enable intelligent tiering. NOTE: When intelligent tiering configuration is enabled, it cannot be turned off or modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#enable_intelligent_tiering CosBucket#enable_intelligent_tiering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#enable_intelligent_tiering CosBucket#enable_intelligent_tiering}
   */
   readonly enableIntelligentTiering?: boolean | cdktf.IResolvable;
   /**
   * The server-side encryption algorithm to use. Valid values are `AES256`, `KMS` and `SM4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#encryption_algorithm CosBucket#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#encryption_algorithm CosBucket#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
   * Force cleanup all objects before delete bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#force_clean CosBucket#force_clean}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#force_clean CosBucket#force_clean}
   */
   readonly forceClean?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#id CosBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#id CosBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,97 +71,97 @@ export interface CosBucketConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specifies the limit of days for standard-tier data to low-frequency data in an intelligent tiered storage configuration, with optional days of 30, 60, 90. Default value is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#intelligent_tiering_days CosBucket#intelligent_tiering_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#intelligent_tiering_days CosBucket#intelligent_tiering_days}
   */
   readonly intelligentTieringDays?: number;
   /**
   * Specify the access limit for converting standard layer data into low-frequency layer data in the configuration. The default value is once, which can be used in combination with the number of days to achieve the conversion effect. For example, if the parameter is set to 1 and the number of access days is 30, it means that objects with less than one visit in 30 consecutive days will be reduced from the standard layer to the low frequency layer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#intelligent_tiering_request_frequent CosBucket#intelligent_tiering_request_frequent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#intelligent_tiering_request_frequent CosBucket#intelligent_tiering_request_frequent}
   */
   readonly intelligentTieringRequestFrequent?: number;
   /**
   * The KMS Master Key ID. This value is valid only when `encryption_algorithm` is set to KMS. Set kms id to the specified value. If not specified, the default kms id is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#kms_id CosBucket#kms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#kms_id CosBucket#kms_id}
   */
   readonly kmsId?: string;
   /**
   * Indicate the access log of this bucket to be saved or not. Default is `false`. If set `true`, the access log will be saved with `log_target_bucket`. To enable log, the full access of log service must be granted. [Full Access Role Policy](https://intl.cloud.tencent.com/document/product/436/16920).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#log_enable CosBucket#log_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#log_enable CosBucket#log_enable}
   */
   readonly logEnable?: boolean | cdktf.IResolvable;
   /**
   * The prefix log name which saves the access log of this bucket per 5 minutes. Eg. `MyLogPrefix/`. The log access file format is `log_target_bucket`/`log_prefix`{YYYY}/{MM}/{DD}/{time}_{random}_{index}.gz. Only valid when `log_enable` is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#log_prefix CosBucket#log_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#log_prefix CosBucket#log_prefix}
   */
   readonly logPrefix?: string;
   /**
   * The target bucket name which saves the access log of this bucket per 5 minutes. The log access file format is `log_target_bucket`/`log_prefix`{YYYY}/{MM}/{DD}/{time}_{random}_{index}.gz. Only valid when `log_enable` is `true`. User must have full access on this bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#log_target_bucket CosBucket#log_target_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#log_target_bucket CosBucket#log_target_bucket}
   */
   readonly logTargetBucket?: string;
   /**
   * Indicates whether to create a bucket of multi available zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#multi_az CosBucket#multi_az}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#multi_az CosBucket#multi_az}
   */
   readonly multiAz?: boolean | cdktf.IResolvable;
   /**
   * Request initiator identifier, format: `qcs::cam::uin/<owneruin>:uin/<subuin>`. NOTE: only `versioning_enable` is true can configure this argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#replica_role CosBucket#replica_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#replica_role CosBucket#replica_role}
   */
   readonly replicaRole?: string;
   /**
   * The tags of a bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#tags CosBucket#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#tags CosBucket#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * Enable bucket versioning. NOTE: The `multi_az` feature is true for the current bucket, cannot disable version control.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#versioning_enable CosBucket#versioning_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#versioning_enable CosBucket#versioning_enable}
   */
   readonly versioningEnable?: boolean | cdktf.IResolvable;
   /**
   * cors_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#cors_rules CosBucket#cors_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#cors_rules CosBucket#cors_rules}
   */
   readonly corsRules?: CosBucketCorsRules[] | cdktf.IResolvable;
   /**
   * lifecycle_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#lifecycle_rules CosBucket#lifecycle_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#lifecycle_rules CosBucket#lifecycle_rules}
   */
   readonly lifecycleRules?: CosBucketLifecycleRules[] | cdktf.IResolvable;
   /**
   * origin_domain_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#origin_domain_rules CosBucket#origin_domain_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#origin_domain_rules CosBucket#origin_domain_rules}
   */
   readonly originDomainRules?: CosBucketOriginDomainRules[] | cdktf.IResolvable;
   /**
   * origin_pull_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#origin_pull_rules CosBucket#origin_pull_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#origin_pull_rules CosBucket#origin_pull_rules}
   */
   readonly originPullRules?: CosBucketOriginPullRules[] | cdktf.IResolvable;
   /**
   * replica_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#replica_rules CosBucket#replica_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#replica_rules CosBucket#replica_rules}
   */
   readonly replicaRules?: CosBucketReplicaRules[] | cdktf.IResolvable;
   /**
   * website block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#website CosBucket#website}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#website CosBucket#website}
   */
   readonly website?: CosBucketWebsite;
 }
@@ -169,31 +169,31 @@ export interface CosBucketCorsRules {
   /**
   * Specifies which headers are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#allowed_headers CosBucket#allowed_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#allowed_headers CosBucket#allowed_headers}
   */
   readonly allowedHeaders: string[];
   /**
   * Specifies which methods are allowed. Can be `GET`, `PUT`, `POST`, `DELETE` or `HEAD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#allowed_methods CosBucket#allowed_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#allowed_methods CosBucket#allowed_methods}
   */
   readonly allowedMethods: string[];
   /**
   * Specifies which origins are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#allowed_origins CosBucket#allowed_origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#allowed_origins CosBucket#allowed_origins}
   */
   readonly allowedOrigins: string[];
   /**
   * Specifies expose header in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#expose_headers CosBucket#expose_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#expose_headers CosBucket#expose_headers}
   */
   readonly exposeHeaders?: string[];
   /**
   * Specifies time in seconds that browser can cache the response for a preflight request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#max_age_seconds CosBucket#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#max_age_seconds CosBucket#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
 }
@@ -418,7 +418,7 @@ export interface CosBucketLifecycleRulesAbortIncompleteMultipartUpload {
   /**
   * Specifies the number of days after the multipart upload starts that the upload must be completed. The maximum value is 3650.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#days_after_initiation CosBucket#days_after_initiation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#days_after_initiation CosBucket#days_after_initiation}
   */
   readonly daysAfterInitiation: number;
 }
@@ -501,19 +501,19 @@ export interface CosBucketLifecycleRulesExpiration {
   /**
   * Specifies the date after which you want the corresponding action to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#date CosBucket#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#date CosBucket#date}
   */
   readonly date?: string;
   /**
   * Specifies the number of days after object creation when the specific rule action takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#days CosBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#days CosBucket#days}
   */
   readonly days?: number;
   /**
   * Indicates whether the delete marker of an expired object will be removed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#delete_marker CosBucket#delete_marker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#delete_marker CosBucket#delete_marker}
   */
   readonly deleteMarker?: boolean | cdktf.IResolvable;
 }
@@ -657,7 +657,7 @@ export interface CosBucketLifecycleRulesNonCurrentExpiration {
   /**
   * Number of days after non current object creation when the specific rule action takes effect. The maximum value is 3650.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#non_current_days CosBucket#non_current_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#non_current_days CosBucket#non_current_days}
   */
   readonly nonCurrentDays?: number;
 }
@@ -743,13 +743,13 @@ export interface CosBucketLifecycleRulesNonCurrentTransition {
   /**
   * Number of days after non current object creation when the specific rule action takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#non_current_days CosBucket#non_current_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#non_current_days CosBucket#non_current_days}
   */
   readonly nonCurrentDays?: number;
   /**
   * Specifies the storage class to which you want the non current object to transition. Available values include `STANDARD_IA`, `MAZ_STANDARD_IA`, `INTELLIGENT_TIERING`, `MAZ_INTELLIGENT_TIERING`, `ARCHIVE`, `DEEP_ARCHIVE`. For more information, please refer to: https://cloud.tencent.com/document/product/436/33417.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#storage_class CosBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#storage_class CosBucket#storage_class}
   */
   readonly storageClass: string;
 }
@@ -893,19 +893,19 @@ export interface CosBucketLifecycleRulesTransition {
   /**
   * Specifies the date after which you want the corresponding action to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#date CosBucket#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#date CosBucket#date}
   */
   readonly date?: string;
   /**
   * Specifies the number of days after object creation when the specific rule action takes effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#days CosBucket#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#days CosBucket#days}
   */
   readonly days?: number;
   /**
   * Specifies the storage class to which you want the object to transition. Available values include `STANDARD_IA`, `MAZ_STANDARD_IA`, `INTELLIGENT_TIERING`, `MAZ_INTELLIGENT_TIERING`, `ARCHIVE`, `DEEP_ARCHIVE`. For more information, please refer to: https://cloud.tencent.com/document/product/436/33417.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#storage_class CosBucket#storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#storage_class CosBucket#storage_class}
   */
   readonly storageClass: string;
 }
@@ -1078,13 +1078,13 @@ export interface CosBucketLifecycleRules {
   /**
   * Object key prefix identifying one or more objects to which the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#filter_prefix CosBucket#filter_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#filter_prefix CosBucket#filter_prefix}
   */
   readonly filterPrefix?: string;
   /**
   * A unique identifier for the rule. It can be up to 255 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#id CosBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#id CosBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1093,31 +1093,31 @@ export interface CosBucketLifecycleRules {
   /**
   * abort_incomplete_multipart_upload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#abort_incomplete_multipart_upload CosBucket#abort_incomplete_multipart_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#abort_incomplete_multipart_upload CosBucket#abort_incomplete_multipart_upload}
   */
   readonly abortIncompleteMultipartUpload?: CosBucketLifecycleRulesAbortIncompleteMultipartUpload;
   /**
   * expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#expiration CosBucket#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#expiration CosBucket#expiration}
   */
   readonly expiration?: CosBucketLifecycleRulesExpiration;
   /**
   * non_current_expiration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#non_current_expiration CosBucket#non_current_expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#non_current_expiration CosBucket#non_current_expiration}
   */
   readonly nonCurrentExpiration?: CosBucketLifecycleRulesNonCurrentExpiration;
   /**
   * non_current_transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#non_current_transition CosBucket#non_current_transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#non_current_transition CosBucket#non_current_transition}
   */
   readonly nonCurrentTransition?: CosBucketLifecycleRulesNonCurrentTransition[] | cdktf.IResolvable;
   /**
   * transition block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#transition CosBucket#transition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#transition CosBucket#transition}
   */
   readonly transition?: CosBucketLifecycleRulesTransition[] | cdktf.IResolvable;
 }
@@ -1409,19 +1409,19 @@ export interface CosBucketOriginDomainRules {
   /**
   * Specify domain host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#domain CosBucket#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#domain CosBucket#domain}
   */
   readonly domain: string;
   /**
   * Domain status, default: `ENABLED`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#status CosBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#status CosBucket#status}
   */
   readonly status?: string;
   /**
   * Specify origin domain type, available values: `REST`, `WEBSITE`, `ACCELERATE`, default: `REST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#type CosBucket#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#type CosBucket#type}
   */
   readonly type?: string;
 }
@@ -1594,67 +1594,67 @@ export interface CosBucketOriginPullRules {
   /**
   * Back to source mode. Allow value: Proxy, Mirror, Redirect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#back_to_source_mode CosBucket#back_to_source_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#back_to_source_mode CosBucket#back_to_source_mode}
   */
   readonly backToSourceMode?: string;
   /**
   * Specifies the custom headers that you can add for COS to access your origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#custom_http_headers CosBucket#custom_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#custom_http_headers CosBucket#custom_http_headers}
   */
   readonly customHttpHeaders?: { [key: string]: string };
   /**
   * Specifies the pass through headers when accessing the origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#follow_http_headers CosBucket#follow_http_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#follow_http_headers CosBucket#follow_http_headers}
   */
   readonly followHttpHeaders?: string[];
   /**
   * Specifies whether to pass through COS request query string when accessing the origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#follow_query_string CosBucket#follow_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#follow_query_string CosBucket#follow_query_string}
   */
   readonly followQueryString?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether to follow 3XX redirect to another origin server to pull data from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#follow_redirection CosBucket#follow_redirection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#follow_redirection CosBucket#follow_redirection}
   */
   readonly followRedirection?: boolean | cdktf.IResolvable;
   /**
   * Allows only a domain name or IP address. You can optionally append a port number to the address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#host CosBucket#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#host CosBucket#host}
   */
   readonly host: string;
   /**
   * Redirect code. Effective when `back_to_source_mode` is `Redirect`. ex: 301, 302, 307. Default is 302.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#http_redirect_code CosBucket#http_redirect_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#http_redirect_code CosBucket#http_redirect_code}
   */
   readonly httpRedirectCode?: string;
   /**
   * Triggers the origin-pull rule when the requested file name matches this prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#prefix CosBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#prefix CosBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * Priority of origin-pull rules, do not set the same value for multiple rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#priority CosBucket#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#priority CosBucket#priority}
   */
   readonly priority: number;
   /**
   * the protocol used for COS to access the specified origin server. The available value include `HTTP`, `HTTPS` and `FOLLOW`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#protocol CosBucket#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#protocol CosBucket#protocol}
   */
   readonly protocol?: string;
   /**
   * If `true`, COS will not return 3XX status code when pulling data from an origin server. Current available zone: ap-beijing, ap-shanghai, ap-singapore, ap-mumbai.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#sync_back_to_source CosBucket#sync_back_to_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#sync_back_to_source CosBucket#sync_back_to_source}
   */
   readonly syncBackToSource?: boolean | cdktf.IResolvable;
 }
@@ -2056,19 +2056,19 @@ export interface CosBucketReplicaRules {
   /**
   * Destination bucket identifier, format: `qcs::cos:<region>::<bucketname-appid>`. NOTE: destination bucket must enable versioning.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#destination_bucket CosBucket#destination_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#destination_bucket CosBucket#destination_bucket}
   */
   readonly destinationBucket: string;
   /**
   * Storage class of destination, available values: `STANDARD`, `INTELLIGENT_TIERING`, `STANDARD_IA`. default is following current class of destination.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#destination_storage_class CosBucket#destination_storage_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#destination_storage_class CosBucket#destination_storage_class}
   */
   readonly destinationStorageClass?: string;
   /**
   * Name of a specific rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#id CosBucket#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#id CosBucket#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2077,13 +2077,13 @@ export interface CosBucketReplicaRules {
   /**
   * Prefix matching policy. Policies cannot overlap; otherwise, an error will be returned. To match the root directory, leave this parameter empty.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#prefix CosBucket#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#prefix CosBucket#prefix}
   */
   readonly prefix?: string;
   /**
   * Status identifier, available values: `Enabled`, `Disabled`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#status CosBucket#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#status CosBucket#status}
   */
   readonly status: string;
 }
@@ -2311,31 +2311,31 @@ export interface CosBucketWebsiteRoutingRulesRules {
   /**
   * Specifies the error code as the match condition for the routing rule. Valid values: only 4xx return codes, such as 403 or 404.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#condition_error_code CosBucket#condition_error_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#condition_error_code CosBucket#condition_error_code}
   */
   readonly conditionErrorCode?: string;
   /**
   * Specifies the object key prefix as the match condition for the routing rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#condition_prefix CosBucket#condition_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#condition_prefix CosBucket#condition_prefix}
   */
   readonly conditionPrefix?: string;
   /**
   * Specifies the target protocol for the routing rule. Only HTTPS is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#redirect_protocol CosBucket#redirect_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#redirect_protocol CosBucket#redirect_protocol}
   */
   readonly redirectProtocol?: string;
   /**
   * Specifies the target object key to replace the original object key in the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#redirect_replace_key CosBucket#redirect_replace_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#redirect_replace_key CosBucket#redirect_replace_key}
   */
   readonly redirectReplaceKey?: string;
   /**
   * Specifies the object key prefix to replace the original prefix in the request. You can set this parameter only if the condition is KeyPrefixEquals.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#redirect_replace_key_prefix CosBucket#redirect_replace_key_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#redirect_replace_key_prefix CosBucket#redirect_replace_key_prefix}
   */
   readonly redirectReplaceKeyPrefix?: string;
 }
@@ -2569,7 +2569,7 @@ export interface CosBucketWebsiteRoutingRules {
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#rules CosBucket#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#rules CosBucket#rules}
   */
   readonly rules: CosBucketWebsiteRoutingRulesRules[] | cdktf.IResolvable;
 }
@@ -2652,25 +2652,25 @@ export interface CosBucketWebsite {
   /**
   * An absolute path to the document to return in case of a 4XX error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#error_document CosBucket#error_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#error_document CosBucket#error_document}
   */
   readonly errorDocument?: string;
   /**
   * COS returns this index document when requests are made to the root domain or any of the subfolders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#index_document CosBucket#index_document}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#index_document CosBucket#index_document}
   */
   readonly indexDocument?: string;
   /**
   * Redirects all request configurations. Valid values: http, https. Default is `http`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#redirect_all_requests_to CosBucket#redirect_all_requests_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#redirect_all_requests_to CosBucket#redirect_all_requests_to}
   */
   readonly redirectAllRequestsTo?: string;
   /**
   * routing_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#routing_rules CosBucket#routing_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#routing_rules CosBucket#routing_rules}
   */
   readonly routingRules?: CosBucketWebsiteRoutingRules;
 }
@@ -2846,7 +2846,7 @@ export class CosBucketWebsiteOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket tencentcloud_cos_bucket}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket tencentcloud_cos_bucket}
 */
 export class CosBucket extends cdktf.TerraformResource {
 
@@ -2862,7 +2862,7 @@ export class CosBucket extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CosBucket resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CosBucket to import
-  * @param importFromId The id of the existing CosBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CosBucket that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CosBucket to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2874,7 +2874,7 @@ export class CosBucket extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cos_bucket tencentcloud_cos_bucket} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cos_bucket tencentcloud_cos_bucket} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2885,8 +2885,8 @@ export class CosBucket extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cos_bucket',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

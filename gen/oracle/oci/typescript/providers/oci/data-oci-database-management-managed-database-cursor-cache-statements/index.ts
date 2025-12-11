@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseCursorCacheStatementsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#id DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#id DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#limit DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#limit DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#managed_database_id DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#managed_database_id DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#opc_named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#opc_named_credential_id}
   */
   readonly opcNamedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#sql_text DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#sql_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#sql_text DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#sql_text}
   */
   readonly sqlText?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#filter DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#filter DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseCursorCacheStatementsFilter[] | cdktf.IResolvable;
 }
@@ -200,15 +200,15 @@ export class DataOciDatabaseManagementManagedDatabaseCursorCacheStatementsCursor
 }
 export interface DataOciDatabaseManagementManagedDatabaseCursorCacheStatementsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#name DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#name DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#regex DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#regex DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#values DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#values DataOciDatabaseManagementManagedDatabaseCursorCacheStatements#values}
   */
   readonly values: string[];
 }
@@ -376,7 +376,7 @@ export class DataOciDatabaseManagementManagedDatabaseCursorCacheStatementsFilter
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements oci_database_management_managed_database_cursor_cache_statements}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements oci_database_management_managed_database_cursor_cache_statements}
 */
 export class DataOciDatabaseManagementManagedDatabaseCursorCacheStatements extends cdktf.TerraformDataSource {
 
@@ -392,7 +392,7 @@ export class DataOciDatabaseManagementManagedDatabaseCursorCacheStatements exten
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseCursorCacheStatements resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseCursorCacheStatements to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseCursorCacheStatements that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseCursorCacheStatements that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseCursorCacheStatements to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class DataOciDatabaseManagementManagedDatabaseCursorCacheStatements exten
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_cursor_cache_statements oci_database_management_managed_database_cursor_cache_statements} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_cursor_cache_statements oci_database_management_managed_database_cursor_cache_statements} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class DataOciDatabaseManagementManagedDatabaseCursorCacheStatements exten
       terraformResourceType: 'oci_database_management_managed_database_cursor_cache_statements',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

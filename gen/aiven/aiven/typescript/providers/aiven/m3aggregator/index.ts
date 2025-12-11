@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface M3AggregatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#additional_disk_space M3Aggregator#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#additional_disk_space M3Aggregator#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#cloud_name M3Aggregator#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#cloud_name M3Aggregator#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#disk_space M3Aggregator#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#disk_space M3Aggregator#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#id M3Aggregator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#id M3Aggregator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface M3AggregatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#maintenance_window_dow M3Aggregator#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#maintenance_window_dow M3Aggregator#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#maintenance_window_time M3Aggregator#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#maintenance_window_time M3Aggregator#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#plan M3Aggregator#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#plan M3Aggregator#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#project M3Aggregator#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#project M3Aggregator#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#project_vpc_id M3Aggregator#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#project_vpc_id M3Aggregator#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#service_name M3Aggregator#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#service_name M3Aggregator#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#static_ips M3Aggregator#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#static_ips M3Aggregator#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#termination_protection M3Aggregator#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#termination_protection M3Aggregator#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * m3aggregator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#m3aggregator M3Aggregator#m3aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#m3aggregator M3Aggregator#m3aggregator}
   */
   readonly m3Aggregator?: M3AggregatorM3Aggregator;
   /**
   * m3aggregator_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#m3aggregator_user_config M3Aggregator#m3aggregator_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#m3aggregator_user_config M3Aggregator#m3aggregator_user_config}
   */
   readonly m3AggregatorUserConfig?: M3AggregatorM3AggregatorUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#service_integrations M3Aggregator#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#service_integrations M3Aggregator#service_integrations}
   */
   readonly serviceIntegrations?: M3AggregatorServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#tag M3Aggregator#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#tag M3Aggregator#tag}
   */
   readonly tag?: M3AggregatorTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#tech_emails M3Aggregator#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#tech_emails M3Aggregator#tech_emails}
   */
   readonly techEmails?: M3AggregatorTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#timeouts M3Aggregator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#timeouts M3Aggregator#timeouts}
   */
   readonly timeouts?: M3AggregatorTimeouts;
 }
@@ -236,7 +236,7 @@ export interface M3AggregatorM3Aggregator {
   /**
   * M3 Aggregator server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#uris M3Aggregator#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#uris M3Aggregator#uris}
   */
   readonly uris?: string[];
 }
@@ -327,13 +327,13 @@ export interface M3AggregatorM3AggregatorUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#description M3Aggregator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#description M3Aggregator#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#network M3Aggregator#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#network M3Aggregator#network}
   */
   readonly network: string;
 }
@@ -477,49 +477,49 @@ export interface M3AggregatorM3AggregatorUserConfig {
   /**
   * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. Example: `grafana.example.org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#custom_domain M3Aggregator#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#custom_domain M3Aggregator#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#ip_filter M3Aggregator#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#ip_filter M3Aggregator#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#ip_filter_string M3Aggregator#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#ip_filter_string M3Aggregator#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Enum: `1.1`, `1.2`, `1.5`, and newer. M3 major version (deprecated, use m3aggregator_version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#m3_version M3Aggregator#m3_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#m3_version M3Aggregator#m3_version}
   */
   readonly m3Version?: string;
   /**
   * Enum: `1.1`, `1.2`, `1.5`, and newer. M3 major version (the minimum compatible version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#m3aggregator_version M3Aggregator#m3aggregator_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#m3aggregator_version M3Aggregator#m3aggregator_version}
   */
   readonly m3AggregatorVersion?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#service_log M3Aggregator#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#service_log M3Aggregator#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#static_ips M3Aggregator#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#static_ips M3Aggregator#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#ip_filter_object M3Aggregator#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#ip_filter_object M3Aggregator#ip_filter_object}
   */
   readonly ipFilterObject?: M3AggregatorM3AggregatorUserConfigIpFilterObject[] | cdktf.IResolvable;
 }
@@ -808,13 +808,13 @@ export interface M3AggregatorServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#integration_type M3Aggregator#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#integration_type M3Aggregator#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#source_service_name M3Aggregator#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#source_service_name M3Aggregator#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -955,13 +955,13 @@ export interface M3AggregatorTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#key M3Aggregator#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#key M3Aggregator#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#value M3Aggregator#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#value M3Aggregator#value}
   */
   readonly value: string;
 }
@@ -1102,7 +1102,7 @@ export interface M3AggregatorTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#email M3Aggregator#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#email M3Aggregator#email}
   */
   readonly email: string;
 }
@@ -1215,23 +1215,23 @@ export class M3AggregatorTechEmailsList extends cdktf.ComplexList {
 }
 export interface M3AggregatorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#create M3Aggregator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#create M3Aggregator#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#default M3Aggregator#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#default M3Aggregator#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#delete M3Aggregator#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#delete M3Aggregator#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#read M3Aggregator#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#read M3Aggregator#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#update M3Aggregator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#update M3Aggregator#update}
   */
   readonly update?: string;
 }
@@ -1441,7 +1441,7 @@ export class M3AggregatorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator aiven_m3aggregator}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator aiven_m3aggregator}
 */
 export class M3Aggregator extends cdktf.TerraformResource {
 
@@ -1457,7 +1457,7 @@ export class M3Aggregator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a M3Aggregator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the M3Aggregator to import
-  * @param importFromId The id of the existing M3Aggregator that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing M3Aggregator that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the M3Aggregator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1469,7 +1469,7 @@ export class M3Aggregator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3aggregator aiven_m3aggregator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3aggregator aiven_m3aggregator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1480,8 +1480,8 @@ export class M3Aggregator extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_m3aggregator',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

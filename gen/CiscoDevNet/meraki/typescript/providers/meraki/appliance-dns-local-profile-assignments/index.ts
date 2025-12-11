@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceDnsLocalProfileAssignmentsConfig extends cdktf.Terrafo
   /**
   * List containing the network ID and Profile ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments#items ApplianceDnsLocalProfileAssignments#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments#items ApplianceDnsLocalProfileAssignments#items}
   */
   readonly items: ApplianceDnsLocalProfileAssignmentsItems[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments#organization_id ApplianceDnsLocalProfileAssignments#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments#organization_id ApplianceDnsLocalProfileAssignments#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,13 +24,13 @@ export interface ApplianceDnsLocalProfileAssignmentsItems {
   /**
   * ID of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments#network_id ApplianceDnsLocalProfileAssignments#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments#network_id ApplianceDnsLocalProfileAssignments#network_id}
   */
   readonly networkId: string;
   /**
   * ID of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments#profile_id ApplianceDnsLocalProfileAssignments#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments#profile_id ApplianceDnsLocalProfileAssignments#profile_id}
   */
   readonly profileId: string;
 }
@@ -174,7 +174,7 @@ export class ApplianceDnsLocalProfileAssignmentsItemsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments meraki_appliance_dns_local_profile_assignments}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments meraki_appliance_dns_local_profile_assignments}
 */
 export class ApplianceDnsLocalProfileAssignments extends cdktf.TerraformResource {
 
@@ -190,7 +190,7 @@ export class ApplianceDnsLocalProfileAssignments extends cdktf.TerraformResource
   * Generates CDKTF code for importing a ApplianceDnsLocalProfileAssignments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceDnsLocalProfileAssignments to import
-  * @param importFromId The id of the existing ApplianceDnsLocalProfileAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceDnsLocalProfileAssignments that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceDnsLocalProfileAssignments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -202,7 +202,7 @@ export class ApplianceDnsLocalProfileAssignments extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_dns_local_profile_assignments meraki_appliance_dns_local_profile_assignments} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_dns_local_profile_assignments meraki_appliance_dns_local_profile_assignments} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -213,8 +213,8 @@ export class ApplianceDnsLocalProfileAssignments extends cdktf.TerraformResource
       terraformResourceType: 'meraki_appliance_dns_local_profile_assignments',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

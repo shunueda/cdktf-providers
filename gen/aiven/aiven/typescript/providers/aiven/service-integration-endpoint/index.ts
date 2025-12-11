@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServiceIntegrationEndpointConfig extends cdktf.TerraformMetaArg
   /**
   * Name of the service integration endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#endpoint_name ServiceIntegrationEndpoint#endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#endpoint_name ServiceIntegrationEndpoint#endpoint_name}
   */
   readonly endpointName: string;
   /**
   * The type of service integration endpoint. The possible values are `autoscaler`, `datadog`, `external_aws_cloudwatch_logs`, `external_aws_cloudwatch_metrics`, `external_aws_s3`, `external_azure_blob_storage`, `external_clickhouse`, `external_elasticsearch_logs`, `external_google_cloud_bigquery`, `external_google_cloud_logging`, `external_kafka`, `external_mysql`, `external_opensearch_logs`, `external_postgresql`, `external_prometheus`, `external_redis`, `external_schema_registry`, `external_sumologic_logs`, `jolokia`, `prometheus` and `rsyslog`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#endpoint_type ServiceIntegrationEndpoint#endpoint_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#endpoint_type ServiceIntegrationEndpoint#endpoint_type}
   */
   readonly endpointType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#id ServiceIntegrationEndpoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#id ServiceIntegrationEndpoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,127 +29,127 @@ export interface ServiceIntegrationEndpointConfig extends cdktf.TerraformMetaArg
   /**
   * Project the service integration endpoint is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#project ServiceIntegrationEndpoint#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#project ServiceIntegrationEndpoint#project}
   */
   readonly project: string;
   /**
   * autoscaler_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#autoscaler_user_config ServiceIntegrationEndpoint#autoscaler_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#autoscaler_user_config ServiceIntegrationEndpoint#autoscaler_user_config}
   */
   readonly autoscalerUserConfig?: ServiceIntegrationEndpointAutoscalerUserConfig;
   /**
   * datadog_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#datadog_user_config ServiceIntegrationEndpoint#datadog_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#datadog_user_config ServiceIntegrationEndpoint#datadog_user_config}
   */
   readonly datadogUserConfig?: ServiceIntegrationEndpointDatadogUserConfig;
   /**
   * external_aws_cloudwatch_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_aws_cloudwatch_logs_user_config ServiceIntegrationEndpoint#external_aws_cloudwatch_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_aws_cloudwatch_logs_user_config ServiceIntegrationEndpoint#external_aws_cloudwatch_logs_user_config}
   */
   readonly externalAwsCloudwatchLogsUserConfig?: ServiceIntegrationEndpointExternalAwsCloudwatchLogsUserConfig;
   /**
   * external_aws_cloudwatch_metrics_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_aws_cloudwatch_metrics_user_config ServiceIntegrationEndpoint#external_aws_cloudwatch_metrics_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_aws_cloudwatch_metrics_user_config ServiceIntegrationEndpoint#external_aws_cloudwatch_metrics_user_config}
   */
   readonly externalAwsCloudwatchMetricsUserConfig?: ServiceIntegrationEndpointExternalAwsCloudwatchMetricsUserConfig;
   /**
   * external_aws_s3_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_aws_s3_user_config ServiceIntegrationEndpoint#external_aws_s3_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_aws_s3_user_config ServiceIntegrationEndpoint#external_aws_s3_user_config}
   */
   readonly externalAwsS3UserConfig?: ServiceIntegrationEndpointExternalAwsS3UserConfig;
   /**
   * external_azure_blob_storage_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_azure_blob_storage_user_config ServiceIntegrationEndpoint#external_azure_blob_storage_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_azure_blob_storage_user_config ServiceIntegrationEndpoint#external_azure_blob_storage_user_config}
   */
   readonly externalAzureBlobStorageUserConfig?: ServiceIntegrationEndpointExternalAzureBlobStorageUserConfig;
   /**
   * external_clickhouse_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_clickhouse_user_config ServiceIntegrationEndpoint#external_clickhouse_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_clickhouse_user_config ServiceIntegrationEndpoint#external_clickhouse_user_config}
   */
   readonly externalClickhouseUserConfig?: ServiceIntegrationEndpointExternalClickhouseUserConfig;
   /**
   * external_elasticsearch_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_elasticsearch_logs_user_config ServiceIntegrationEndpoint#external_elasticsearch_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_elasticsearch_logs_user_config ServiceIntegrationEndpoint#external_elasticsearch_logs_user_config}
   */
   readonly externalElasticsearchLogsUserConfig?: ServiceIntegrationEndpointExternalElasticsearchLogsUserConfig;
   /**
   * external_google_cloud_bigquery block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_google_cloud_bigquery ServiceIntegrationEndpoint#external_google_cloud_bigquery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_google_cloud_bigquery ServiceIntegrationEndpoint#external_google_cloud_bigquery}
   */
   readonly externalGoogleCloudBigquery?: ServiceIntegrationEndpointExternalGoogleCloudBigquery;
   /**
   * external_google_cloud_logging_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_google_cloud_logging_user_config ServiceIntegrationEndpoint#external_google_cloud_logging_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_google_cloud_logging_user_config ServiceIntegrationEndpoint#external_google_cloud_logging_user_config}
   */
   readonly externalGoogleCloudLoggingUserConfig?: ServiceIntegrationEndpointExternalGoogleCloudLoggingUserConfig;
   /**
   * external_kafka_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_kafka_user_config ServiceIntegrationEndpoint#external_kafka_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_kafka_user_config ServiceIntegrationEndpoint#external_kafka_user_config}
   */
   readonly externalKafkaUserConfig?: ServiceIntegrationEndpointExternalKafkaUserConfig;
   /**
   * external_mysql_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_mysql_user_config ServiceIntegrationEndpoint#external_mysql_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_mysql_user_config ServiceIntegrationEndpoint#external_mysql_user_config}
   */
   readonly externalMysqlUserConfig?: ServiceIntegrationEndpointExternalMysqlUserConfig;
   /**
   * external_opensearch_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_opensearch_logs_user_config ServiceIntegrationEndpoint#external_opensearch_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_opensearch_logs_user_config ServiceIntegrationEndpoint#external_opensearch_logs_user_config}
   */
   readonly externalOpensearchLogsUserConfig?: ServiceIntegrationEndpointExternalOpensearchLogsUserConfig;
   /**
   * external_postgresql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_postgresql ServiceIntegrationEndpoint#external_postgresql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_postgresql ServiceIntegrationEndpoint#external_postgresql}
   */
   readonly externalPostgresql?: ServiceIntegrationEndpointExternalPostgresql;
   /**
   * external_prometheus_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_prometheus_user_config ServiceIntegrationEndpoint#external_prometheus_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_prometheus_user_config ServiceIntegrationEndpoint#external_prometheus_user_config}
   */
   readonly externalPrometheusUserConfig?: ServiceIntegrationEndpointExternalPrometheusUserConfig;
   /**
   * external_schema_registry_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#external_schema_registry_user_config ServiceIntegrationEndpoint#external_schema_registry_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#external_schema_registry_user_config ServiceIntegrationEndpoint#external_schema_registry_user_config}
   */
   readonly externalSchemaRegistryUserConfig?: ServiceIntegrationEndpointExternalSchemaRegistryUserConfig;
   /**
   * jolokia_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#jolokia_user_config ServiceIntegrationEndpoint#jolokia_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#jolokia_user_config ServiceIntegrationEndpoint#jolokia_user_config}
   */
   readonly jolokiaUserConfig?: ServiceIntegrationEndpointJolokiaUserConfig;
   /**
   * prometheus_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#prometheus_user_config ServiceIntegrationEndpoint#prometheus_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#prometheus_user_config ServiceIntegrationEndpoint#prometheus_user_config}
   */
   readonly prometheusUserConfig?: ServiceIntegrationEndpointPrometheusUserConfig;
   /**
   * rsyslog_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#rsyslog_user_config ServiceIntegrationEndpoint#rsyslog_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#rsyslog_user_config ServiceIntegrationEndpoint#rsyslog_user_config}
   */
   readonly rsyslogUserConfig?: ServiceIntegrationEndpointRsyslogUserConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#timeouts ServiceIntegrationEndpoint#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#timeouts ServiceIntegrationEndpoint#timeouts}
   */
   readonly timeouts?: ServiceIntegrationEndpointTimeouts;
 }
@@ -157,13 +157,13 @@ export interface ServiceIntegrationEndpointAutoscalerUserConfigAutoscaling {
   /**
   * The maximum total disk size (in gb) to allow autoscaler to scale up to. Example: `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#cap_gb ServiceIntegrationEndpoint#cap_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#cap_gb ServiceIntegrationEndpoint#cap_gb}
   */
   readonly capGb: number;
   /**
   * Enum: `autoscale_disk`. Type of autoscale event.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#type ServiceIntegrationEndpoint#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#type ServiceIntegrationEndpoint#type}
   */
   readonly type: string;
 }
@@ -304,7 +304,7 @@ export interface ServiceIntegrationEndpointAutoscalerUserConfig {
   /**
   * autoscaling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#autoscaling ServiceIntegrationEndpoint#autoscaling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#autoscaling ServiceIntegrationEndpoint#autoscaling}
   */
   readonly autoscaling: ServiceIntegrationEndpointAutoscalerUserConfigAutoscaling[] | cdktf.IResolvable;
 }
@@ -387,13 +387,13 @@ export interface ServiceIntegrationEndpointDatadogUserConfigDatadogTags {
   /**
   * Optional tag explanation. Example: `Used to tag primary replica metrics`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#comment ServiceIntegrationEndpoint#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#comment ServiceIntegrationEndpoint#comment}
   */
   readonly comment?: string;
   /**
   * Tag format and usage are described here: https://docs.datadoghq.com/getting_started/tagging. Tags with prefix `aiven-` are reserved for Aiven. Example: `replica:primary`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#tag ServiceIntegrationEndpoint#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#tag ServiceIntegrationEndpoint#tag}
   */
   readonly tag: string;
 }
@@ -537,49 +537,49 @@ export interface ServiceIntegrationEndpointDatadogUserConfig {
   /**
   * Datadog API key. Example: `848f30907c15c55d601fe45487cce9b6`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#datadog_api_key ServiceIntegrationEndpoint#datadog_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#datadog_api_key ServiceIntegrationEndpoint#datadog_api_key}
   */
   readonly datadogApiKey: string;
   /**
   * Disable consumer group metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#disable_consumer_stats ServiceIntegrationEndpoint#disable_consumer_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#disable_consumer_stats ServiceIntegrationEndpoint#disable_consumer_stats}
   */
   readonly disableConsumerStats?: boolean | cdktf.IResolvable;
   /**
   * Extra tags prefix. Defaults to aiven.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#extra_tags_prefix ServiceIntegrationEndpoint#extra_tags_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#extra_tags_prefix ServiceIntegrationEndpoint#extra_tags_prefix}
   */
   readonly extraTagsPrefix?: string;
   /**
   * Number of separate instances to fetch kafka consumer statistics with. Example: `8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#kafka_consumer_check_instances ServiceIntegrationEndpoint#kafka_consumer_check_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#kafka_consumer_check_instances ServiceIntegrationEndpoint#kafka_consumer_check_instances}
   */
   readonly kafkaConsumerCheckInstances?: number;
   /**
   * Number of seconds that datadog will wait to get consumer statistics from brokers. Example: `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#kafka_consumer_stats_timeout ServiceIntegrationEndpoint#kafka_consumer_stats_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#kafka_consumer_stats_timeout ServiceIntegrationEndpoint#kafka_consumer_stats_timeout}
   */
   readonly kafkaConsumerStatsTimeout?: number;
   /**
   * Maximum number of partition contexts to send. Example: `32000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#max_partition_contexts ServiceIntegrationEndpoint#max_partition_contexts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#max_partition_contexts ServiceIntegrationEndpoint#max_partition_contexts}
   */
   readonly maxPartitionContexts?: number;
   /**
   * Enum: `ap1.datadoghq.com`, `datadoghq.com`, `datadoghq.eu`, `ddog-gov.com`, `us3.datadoghq.com`, `us5.datadoghq.com`. Datadog intake site. Defaults to datadoghq.com.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#site ServiceIntegrationEndpoint#site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#site ServiceIntegrationEndpoint#site}
   */
   readonly site?: string;
   /**
   * datadog_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#datadog_tags ServiceIntegrationEndpoint#datadog_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#datadog_tags ServiceIntegrationEndpoint#datadog_tags}
   */
   readonly datadogTags?: ServiceIntegrationEndpointDatadogUserConfigDatadogTags[] | cdktf.IResolvable;
 }
@@ -865,25 +865,25 @@ export interface ServiceIntegrationEndpointExternalAwsCloudwatchLogsUserConfig {
   /**
   * AWS access key. Required permissions are logs:CreateLogGroup, logs:CreateLogStream, logs:PutLogEvents and logs:DescribeLogStreams. Example: `AAAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#access_key ServiceIntegrationEndpoint#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#access_key ServiceIntegrationEndpoint#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS CloudWatch log group name. Example: `my-log-group`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#log_group_name ServiceIntegrationEndpoint#log_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#log_group_name ServiceIntegrationEndpoint#log_group_name}
   */
   readonly logGroupName?: string;
   /**
   * AWS region. Example: `us-east-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#region ServiceIntegrationEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#region ServiceIntegrationEndpoint#region}
   */
   readonly region: string;
   /**
   * AWS secret key. Example: `AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#secret_key ServiceIntegrationEndpoint#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#secret_key ServiceIntegrationEndpoint#secret_key}
   */
   readonly secretKey: string;
 }
@@ -1047,25 +1047,25 @@ export interface ServiceIntegrationEndpointExternalAwsCloudwatchMetricsUserConfi
   /**
   * AWS access key. Required permissions are cloudwatch:PutMetricData. Example: `AAAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#access_key ServiceIntegrationEndpoint#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#access_key ServiceIntegrationEndpoint#access_key}
   */
   readonly accessKey: string;
   /**
   * AWS CloudWatch Metrics Namespace. Example: `my-metrics-namespace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#namespace ServiceIntegrationEndpoint#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#namespace ServiceIntegrationEndpoint#namespace}
   */
   readonly namespace: string;
   /**
   * AWS region. Example: `us-east-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#region ServiceIntegrationEndpoint#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#region ServiceIntegrationEndpoint#region}
   */
   readonly region: string;
   /**
   * AWS secret key. Example: `AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#secret_key ServiceIntegrationEndpoint#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#secret_key ServiceIntegrationEndpoint#secret_key}
   */
   readonly secretKey: string;
 }
@@ -1226,19 +1226,19 @@ export interface ServiceIntegrationEndpointExternalAwsS3UserConfig {
   /**
   * Access Key Id. Example: `AAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#access_key_id ServiceIntegrationEndpoint#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#access_key_id ServiceIntegrationEndpoint#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * Secret Access Key. Example: `AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#secret_access_key ServiceIntegrationEndpoint#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#secret_access_key ServiceIntegrationEndpoint#secret_access_key}
   */
   readonly secretAccessKey: string;
   /**
   * S3-compatible bucket URL. Example: `https://mybucket.s3-myregion.amazonaws.com/mydataset/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
   */
   readonly url: string;
 }
@@ -1373,19 +1373,19 @@ export interface ServiceIntegrationEndpointExternalAzureBlobStorageUserConfig {
   /**
   * Blob path. Example: `path/to/blob/file.csv`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#blob_path ServiceIntegrationEndpoint#blob_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#blob_path ServiceIntegrationEndpoint#blob_path}
   */
   readonly blobPath?: string;
   /**
   * Azure Blob Storage connection string. Example: `AccountName=IDENT;AccountKey=SECRET`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#connection_string ServiceIntegrationEndpoint#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#connection_string ServiceIntegrationEndpoint#connection_string}
   */
   readonly connectionString: string;
   /**
   * Container. Example: `container-dev`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#container ServiceIntegrationEndpoint#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#container ServiceIntegrationEndpoint#container}
   */
   readonly container: string;
 }
@@ -1523,25 +1523,25 @@ export interface ServiceIntegrationEndpointExternalClickhouseUserConfig {
   /**
   * Hostname or IP address of the server. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#host ServiceIntegrationEndpoint#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#host ServiceIntegrationEndpoint#host}
   */
   readonly host: string;
   /**
   * Password. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#password ServiceIntegrationEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#password ServiceIntegrationEndpoint#password}
   */
   readonly password: string;
   /**
   * Secure TCP server port. Example: `9440`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
   */
   readonly port: number;
   /**
   * User name. Example: `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#username ServiceIntegrationEndpoint#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#username ServiceIntegrationEndpoint#username}
   */
   readonly username: string;
 }
@@ -1705,31 +1705,31 @@ export interface ServiceIntegrationEndpointExternalElasticsearchLogsUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ca ServiceIntegrationEndpoint#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ca ServiceIntegrationEndpoint#ca}
   */
   readonly ca?: string;
   /**
   * Maximum number of days of logs to keep. Default: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#index_days_max ServiceIntegrationEndpoint#index_days_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#index_days_max ServiceIntegrationEndpoint#index_days_max}
   */
   readonly indexDaysMax?: number;
   /**
   * Elasticsearch index prefix. Default: `logs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#index_prefix ServiceIntegrationEndpoint#index_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#index_prefix ServiceIntegrationEndpoint#index_prefix}
   */
   readonly indexPrefix: string;
   /**
   * Elasticsearch request timeout limit. Default: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#timeout ServiceIntegrationEndpoint#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#timeout ServiceIntegrationEndpoint#timeout}
   */
   readonly timeout?: number;
   /**
   * Elasticsearch connection URL. Example: `https://user:passwd@logs.example.com/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
   */
   readonly url: string;
 }
@@ -1925,13 +1925,13 @@ export interface ServiceIntegrationEndpointExternalGoogleCloudBigquery {
   /**
   * GCP project id. Example: `snappy-photon-12345`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#project_id ServiceIntegrationEndpoint#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#project_id ServiceIntegrationEndpoint#project_id}
   */
   readonly projectId: string;
   /**
   * This is a JSON object with the fields documented in https://cloud.google.com/iam/docs/creating-managing-service-account-keys. Example: `{"type": "service_account", ...`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#service_account_credentials ServiceIntegrationEndpoint#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#service_account_credentials ServiceIntegrationEndpoint#service_account_credentials}
   */
   readonly serviceAccountCredentials: string;
 }
@@ -2040,19 +2040,19 @@ export interface ServiceIntegrationEndpointExternalGoogleCloudLoggingUserConfig 
   /**
   * Google Cloud Logging log id. Example: `syslog`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#log_id ServiceIntegrationEndpoint#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#log_id ServiceIntegrationEndpoint#log_id}
   */
   readonly logId: string;
   /**
   * GCP project id. Example: `snappy-photon-12345`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#project_id ServiceIntegrationEndpoint#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#project_id ServiceIntegrationEndpoint#project_id}
   */
   readonly projectId: string;
   /**
   * This is a JSON object with the fields documented in https://cloud.google.com/iam/docs/creating-managing-service-account-keys. Example: `{"type": "service_account", ...`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#service_account_credentials ServiceIntegrationEndpoint#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#service_account_credentials ServiceIntegrationEndpoint#service_account_credentials}
   */
   readonly serviceAccountCredentials: string;
 }
@@ -2187,31 +2187,31 @@ export interface ServiceIntegrationEndpointExternalKafkaUserConfig {
   /**
   * Bootstrap servers. Example: `10.0.0.1:9092,10.0.0.2:9092`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#bootstrap_servers ServiceIntegrationEndpoint#bootstrap_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#bootstrap_servers ServiceIntegrationEndpoint#bootstrap_servers}
   */
   readonly bootstrapServers: string;
   /**
   * Enum: `PLAIN`, `SCRAM-SHA-256`, `SCRAM-SHA-512`. SASL mechanism used for connections to the Kafka server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#sasl_mechanism ServiceIntegrationEndpoint#sasl_mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#sasl_mechanism ServiceIntegrationEndpoint#sasl_mechanism}
   */
   readonly saslMechanism?: string;
   /**
   * Password for SASL PLAIN mechanism in the Kafka server. Example: `admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#sasl_plain_password ServiceIntegrationEndpoint#sasl_plain_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#sasl_plain_password ServiceIntegrationEndpoint#sasl_plain_password}
   */
   readonly saslPlainPassword?: string;
   /**
   * Username for SASL PLAIN mechanism in the Kafka server. Example: `admin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#sasl_plain_username ServiceIntegrationEndpoint#sasl_plain_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#sasl_plain_username ServiceIntegrationEndpoint#sasl_plain_username}
   */
   readonly saslPlainUsername?: string;
   /**
   * Enum: `PLAINTEXT`, `SASL_PLAINTEXT`, `SASL_SSL`, `SSL`. Security protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#security_protocol ServiceIntegrationEndpoint#security_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#security_protocol ServiceIntegrationEndpoint#security_protocol}
   */
   readonly securityProtocol: string;
   /**
@@ -2220,7 +2220,7 @@ export interface ServiceIntegrationEndpointExternalKafkaUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_ca_cert ServiceIntegrationEndpoint#ssl_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_ca_cert ServiceIntegrationEndpoint#ssl_ca_cert}
   */
   readonly sslCaCert?: string;
   /**
@@ -2229,7 +2229,7 @@ export interface ServiceIntegrationEndpointExternalKafkaUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_client_cert ServiceIntegrationEndpoint#ssl_client_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_client_cert ServiceIntegrationEndpoint#ssl_client_cert}
   */
   readonly sslClientCert?: string;
   /**
@@ -2238,13 +2238,13 @@ export interface ServiceIntegrationEndpointExternalKafkaUserConfig {
   * -----END PRIVATE KEY-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_client_key ServiceIntegrationEndpoint#ssl_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_client_key ServiceIntegrationEndpoint#ssl_client_key}
   */
   readonly sslClientKey?: string;
   /**
   * Enum: `https`. The endpoint identification algorithm to validate server hostname using server certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_endpoint_identification_algorithm ServiceIntegrationEndpoint#ssl_endpoint_identification_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_endpoint_identification_algorithm ServiceIntegrationEndpoint#ssl_endpoint_identification_algorithm}
   */
   readonly sslEndpointIdentificationAlgorithm?: string;
 }
@@ -2556,25 +2556,25 @@ export interface ServiceIntegrationEndpointExternalMysqlUserConfig {
   /**
   * Hostname or IP address of the server. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#host ServiceIntegrationEndpoint#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#host ServiceIntegrationEndpoint#host}
   */
   readonly host: string;
   /**
   * Password. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#password ServiceIntegrationEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#password ServiceIntegrationEndpoint#password}
   */
   readonly password: string;
   /**
   * Port number of the server. Example: `5432`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
   */
   readonly port: number;
   /**
   * Enum: `verify-full`. SSL Mode. Default: `verify-full`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_mode ServiceIntegrationEndpoint#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_mode ServiceIntegrationEndpoint#ssl_mode}
   */
   readonly sslMode?: string;
   /**
@@ -2583,13 +2583,13 @@ export interface ServiceIntegrationEndpointExternalMysqlUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_root_cert ServiceIntegrationEndpoint#ssl_root_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_root_cert ServiceIntegrationEndpoint#ssl_root_cert}
   */
   readonly sslRootCert?: string;
   /**
   * User name. Example: `myname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#username ServiceIntegrationEndpoint#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#username ServiceIntegrationEndpoint#username}
   */
   readonly username: string;
 }
@@ -2811,31 +2811,31 @@ export interface ServiceIntegrationEndpointExternalOpensearchLogsUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ca ServiceIntegrationEndpoint#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ca ServiceIntegrationEndpoint#ca}
   */
   readonly ca?: string;
   /**
   * Maximum number of days of logs to keep. Default: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#index_days_max ServiceIntegrationEndpoint#index_days_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#index_days_max ServiceIntegrationEndpoint#index_days_max}
   */
   readonly indexDaysMax?: number;
   /**
   * OpenSearch index prefix. Default: `logs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#index_prefix ServiceIntegrationEndpoint#index_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#index_prefix ServiceIntegrationEndpoint#index_prefix}
   */
   readonly indexPrefix: string;
   /**
   * OpenSearch request timeout limit. Default: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#timeout ServiceIntegrationEndpoint#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#timeout ServiceIntegrationEndpoint#timeout}
   */
   readonly timeout?: number;
   /**
   * OpenSearch connection URL. Example: `https://user:passwd@logs.example.com/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
   */
   readonly url: string;
 }
@@ -3031,25 +3031,25 @@ export interface ServiceIntegrationEndpointExternalPostgresql {
   /**
   * Default database. Example: `testdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#default_database ServiceIntegrationEndpoint#default_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#default_database ServiceIntegrationEndpoint#default_database}
   */
   readonly defaultDatabase?: string;
   /**
   * Hostname or IP address of the server. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#host ServiceIntegrationEndpoint#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#host ServiceIntegrationEndpoint#host}
   */
   readonly host: string;
   /**
   * Password. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#password ServiceIntegrationEndpoint#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#password ServiceIntegrationEndpoint#password}
   */
   readonly password?: string;
   /**
   * Port number of the server. Example: `5432`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
   */
   readonly port: number;
   /**
@@ -3058,7 +3058,7 @@ export interface ServiceIntegrationEndpointExternalPostgresql {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_client_certificate ServiceIntegrationEndpoint#ssl_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_client_certificate ServiceIntegrationEndpoint#ssl_client_certificate}
   */
   readonly sslClientCertificate?: string;
   /**
@@ -3066,13 +3066,13 @@ export interface ServiceIntegrationEndpointExternalPostgresql {
   * ...
   * -----END PRIVATE KEY-----`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_client_key ServiceIntegrationEndpoint#ssl_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_client_key ServiceIntegrationEndpoint#ssl_client_key}
   */
   readonly sslClientKey?: string;
   /**
   * Enum: `allow`, `disable`, `prefer`, `require`, `verify-ca`, `verify-full`. SSL mode to use for the connection. Please note that Aiven requires TLS for all connections to external PostgreSQL services. Default: `verify-full`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_mode ServiceIntegrationEndpoint#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_mode ServiceIntegrationEndpoint#ssl_mode}
   */
   readonly sslMode?: string;
   /**
@@ -3081,13 +3081,13 @@ export interface ServiceIntegrationEndpointExternalPostgresql {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ssl_root_cert ServiceIntegrationEndpoint#ssl_root_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ssl_root_cert ServiceIntegrationEndpoint#ssl_root_cert}
   */
   readonly sslRootCert?: string;
   /**
   * User name. Example: `myname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#username ServiceIntegrationEndpoint#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#username ServiceIntegrationEndpoint#username}
   */
   readonly username: string;
 }
@@ -3396,19 +3396,19 @@ export interface ServiceIntegrationEndpointExternalPrometheusUserConfig {
   /**
   * Prometheus basic authentication password. Example: `fhyFNBjj3R`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
   * Prometheus basic authentication username. Example: `prom4851`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
   * Prometheus enabled write endpoint. Example: `https://write.example.com/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#service_uri ServiceIntegrationEndpoint#service_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#service_uri ServiceIntegrationEndpoint#service_uri}
   */
   readonly serviceUri?: string;
 }
@@ -3552,25 +3552,25 @@ export interface ServiceIntegrationEndpointExternalSchemaRegistryUserConfig {
   /**
   * Enum: `basic`, `none`. Authentication method.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#authentication ServiceIntegrationEndpoint#authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#authentication ServiceIntegrationEndpoint#authentication}
   */
   readonly authentication: string;
   /**
   * Basic authentication password. Example: `Zm9vYg==`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
   * Basic authentication user name. Example: `avnadmin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
   * Schema Registry URL. Example: `https://schema-registry.kafka.company.com:28419`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#url ServiceIntegrationEndpoint#url}
   */
   readonly url: string;
 }
@@ -3737,13 +3737,13 @@ export interface ServiceIntegrationEndpointJolokiaUserConfig {
   /**
   * Jolokia basic authentication password. Example: `yhfBNFii4C`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
   * Jolokia basic authentication username. Example: `jol48k51`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
 }
@@ -3858,13 +3858,13 @@ export interface ServiceIntegrationEndpointPrometheusUserConfig {
   /**
   * Prometheus basic authentication password. Example: `fhyFNBjj3R`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_password ServiceIntegrationEndpoint#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
   * Prometheus basic authentication username. Example: `prom4851`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#basic_auth_username ServiceIntegrationEndpoint#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
 }
@@ -3982,7 +3982,7 @@ export interface ServiceIntegrationEndpointRsyslogUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#ca ServiceIntegrationEndpoint#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#ca ServiceIntegrationEndpoint#ca}
   */
   readonly ca?: string;
   /**
@@ -3991,13 +3991,13 @@ export interface ServiceIntegrationEndpointRsyslogUserConfig {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#cert ServiceIntegrationEndpoint#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#cert ServiceIntegrationEndpoint#cert}
   */
   readonly cert?: string;
   /**
   * Enum: `custom`, `rfc3164`, `rfc5424`. Message format. Default: `rfc5424`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#format ServiceIntegrationEndpoint#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#format ServiceIntegrationEndpoint#format}
   */
   readonly format: string;
   /**
@@ -4006,43 +4006,43 @@ export interface ServiceIntegrationEndpointRsyslogUserConfig {
   * -----END PRIVATE KEY-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#key ServiceIntegrationEndpoint#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#key ServiceIntegrationEndpoint#key}
   */
   readonly key?: string;
   /**
   * Custom syslog message format. Example: `<%pri%>%timestamp:::date-rfc3339% %HOSTNAME% %app-name% %msg%`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#logline ServiceIntegrationEndpoint#logline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#logline ServiceIntegrationEndpoint#logline}
   */
   readonly logline?: string;
   /**
   * Rsyslog max message size. Default: `8192`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#max_message_size ServiceIntegrationEndpoint#max_message_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#max_message_size ServiceIntegrationEndpoint#max_message_size}
   */
   readonly maxMessageSize?: number;
   /**
   * Rsyslog server port. Default: `514`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#port ServiceIntegrationEndpoint#port}
   */
   readonly port: number;
   /**
   * Structured data block for log message. Example: `TOKEN tag="LiteralValue"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#sd ServiceIntegrationEndpoint#sd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#sd ServiceIntegrationEndpoint#sd}
   */
   readonly sd?: string;
   /**
   * Rsyslog server IP address or hostname. Example: `logs.example.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#server ServiceIntegrationEndpoint#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#server ServiceIntegrationEndpoint#server}
   */
   readonly server: string;
   /**
   * Require TLS. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#tls ServiceIntegrationEndpoint#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#tls ServiceIntegrationEndpoint#tls}
   */
   readonly tls: boolean | cdktf.IResolvable;
 }
@@ -4375,23 +4375,23 @@ export class ServiceIntegrationEndpointRsyslogUserConfigOutputReference extends 
 }
 export interface ServiceIntegrationEndpointTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#create ServiceIntegrationEndpoint#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#create ServiceIntegrationEndpoint#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#default ServiceIntegrationEndpoint#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#default ServiceIntegrationEndpoint#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#delete ServiceIntegrationEndpoint#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#delete ServiceIntegrationEndpoint#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#read ServiceIntegrationEndpoint#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#read ServiceIntegrationEndpoint#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#update ServiceIntegrationEndpoint#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#update ServiceIntegrationEndpoint#update}
   */
   readonly update?: string;
 }
@@ -4601,7 +4601,7 @@ export class ServiceIntegrationEndpointTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint aiven_service_integration_endpoint}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint aiven_service_integration_endpoint}
 */
 export class ServiceIntegrationEndpoint extends cdktf.TerraformResource {
 
@@ -4617,7 +4617,7 @@ export class ServiceIntegrationEndpoint extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceIntegrationEndpoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceIntegrationEndpoint to import
-  * @param importFromId The id of the existing ServiceIntegrationEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceIntegrationEndpoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceIntegrationEndpoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4629,7 +4629,7 @@ export class ServiceIntegrationEndpoint extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration_endpoint aiven_service_integration_endpoint} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration_endpoint aiven_service_integration_endpoint} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4640,8 +4640,8 @@ export class ServiceIntegrationEndpoint extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_service_integration_endpoint',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

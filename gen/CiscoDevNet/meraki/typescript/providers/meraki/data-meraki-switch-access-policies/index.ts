@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_access_policies
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_access_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiSwitchAccessPoliciesConfig extends cdktf.TerraformMet
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_access_policies#network_id DataMerakiSwitchAccessPolicies#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_access_policies#network_id DataMerakiSwitchAccessPolicies#network_id}
   */
   readonly networkId: string;
 }
@@ -438,7 +438,7 @@ export class DataMerakiSwitchAccessPoliciesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_access_policies meraki_switch_access_policies}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_access_policies meraki_switch_access_policies}
 */
 export class DataMerakiSwitchAccessPolicies extends cdktf.TerraformDataSource {
 
@@ -454,7 +454,7 @@ export class DataMerakiSwitchAccessPolicies extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiSwitchAccessPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchAccessPolicies to import
-  * @param importFromId The id of the existing DataMerakiSwitchAccessPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_access_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchAccessPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_access_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchAccessPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class DataMerakiSwitchAccessPolicies extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_access_policies meraki_switch_access_policies} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_access_policies meraki_switch_access_policies} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class DataMerakiSwitchAccessPolicies extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_switch_access_policies',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

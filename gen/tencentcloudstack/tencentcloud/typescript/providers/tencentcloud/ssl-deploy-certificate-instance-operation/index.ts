@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SslDeployCertificateInstanceOperationConfig extends cdktf.Terra
   /**
   * ID of the certificate to be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation#certificate_id SslDeployCertificateInstanceOperation#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation#certificate_id SslDeployCertificateInstanceOperation#certificate_id}
   */
   readonly certificateId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation#id SslDeployCertificateInstanceOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation#id SslDeployCertificateInstanceOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface SslDeployCertificateInstanceOperationConfig extends cdktf.Terra
   /**
   * Need to deploy instance list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation#instance_id_list SslDeployCertificateInstanceOperation#instance_id_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation#instance_id_list SslDeployCertificateInstanceOperation#instance_id_list}
   */
   readonly instanceIdList: string[];
   /**
   * Deployed cloud resource type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation#resource_type SslDeployCertificateInstanceOperation#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation#resource_type SslDeployCertificateInstanceOperation#resource_type}
   */
   readonly resourceType?: string;
   /**
   * Deployment cloud resource status: Live: -1: The domain name is not associated with a certificate.1:  Domain name https is enabled.0:  Domain name https is closed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation#status SslDeployCertificateInstanceOperation#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation#status SslDeployCertificateInstanceOperation#status}
   */
   readonly status?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation tencentcloud_ssl_deploy_certificate_instance_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation tencentcloud_ssl_deploy_certificate_instance_operation}
 */
 export class SslDeployCertificateInstanceOperation extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class SslDeployCertificateInstanceOperation extends cdktf.TerraformResour
   * Generates CDKTF code for importing a SslDeployCertificateInstanceOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SslDeployCertificateInstanceOperation to import
-  * @param importFromId The id of the existing SslDeployCertificateInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SslDeployCertificateInstanceOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SslDeployCertificateInstanceOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class SslDeployCertificateInstanceOperation extends cdktf.TerraformResour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/ssl_deploy_certificate_instance_operation tencentcloud_ssl_deploy_certificate_instance_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/ssl_deploy_certificate_instance_operation tencentcloud_ssl_deploy_certificate_instance_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class SslDeployCertificateInstanceOperation extends cdktf.TerraformResour
       terraformResourceType: 'tencentcloud_ssl_deploy_certificate_instance_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

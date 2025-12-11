@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlChannelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#compartment_id MysqlChannel#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#compartment_id MysqlChannel#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#defined_tags MysqlChannel#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#defined_tags MysqlChannel#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#description MysqlChannel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#description MysqlChannel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#display_name MysqlChannel#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#display_name MysqlChannel#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#freeform_tags MysqlChannel#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#freeform_tags MysqlChannel#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#id MysqlChannel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#id MysqlChannel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#is_enabled MysqlChannel#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#is_enabled MysqlChannel#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#source MysqlChannel#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#source MysqlChannel#source}
   */
   readonly source: MysqlChannelSource;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#target MysqlChannel#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#target MysqlChannel#target}
   */
   readonly target: MysqlChannelTarget;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#timeouts MysqlChannel#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#timeouts MysqlChannel#timeouts}
   */
   readonly timeouts?: MysqlChannelTimeouts;
 }
 export interface MysqlChannelSourceAnonymousTransactionsHandling {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#last_configured_log_filename MysqlChannel#last_configured_log_filename}
   */
   readonly lastConfiguredLogFilename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#last_configured_log_offset MysqlChannel#last_configured_log_offset}
   */
   readonly lastConfiguredLogOffset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#policy MysqlChannel#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#policy MysqlChannel#policy}
   */
   readonly policy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#uuid MysqlChannel#uuid}
   */
   readonly uuid?: string;
 }
@@ -239,11 +239,11 @@ export class MysqlChannelSourceAnonymousTransactionsHandlingOutputReference exte
 }
 export interface MysqlChannelSourceSslCaCertificate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#certificate_type MysqlChannel#certificate_type}
   */
   readonly certificateType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#contents MysqlChannel#contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#contents MysqlChannel#contents}
   */
   readonly contents: string;
 }
@@ -350,39 +350,39 @@ export class MysqlChannelSourceSslCaCertificateOutputReference extends cdktf.Com
 }
 export interface MysqlChannelSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#hostname MysqlChannel#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#hostname MysqlChannel#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#password MysqlChannel#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#password MysqlChannel#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#port MysqlChannel#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#port MysqlChannel#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#source_type MysqlChannel#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#source_type MysqlChannel#source_type}
   */
   readonly sourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#ssl_mode MysqlChannel#ssl_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#ssl_mode MysqlChannel#ssl_mode}
   */
   readonly sslMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#username MysqlChannel#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#username MysqlChannel#username}
   */
   readonly username: string;
   /**
   * anonymous_transactions_handling block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#anonymous_transactions_handling MysqlChannel#anonymous_transactions_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#anonymous_transactions_handling MysqlChannel#anonymous_transactions_handling}
   */
   readonly anonymousTransactionsHandling?: MysqlChannelSourceAnonymousTransactionsHandling;
   /**
   * ssl_ca_certificate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#ssl_ca_certificate MysqlChannel#ssl_ca_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#ssl_ca_certificate MysqlChannel#ssl_ca_certificate}
   */
   readonly sslCaCertificate?: MysqlChannelSourceSslCaCertificate;
 }
@@ -654,11 +654,11 @@ export class MysqlChannelSourceOutputReference extends cdktf.ComplexObject {
 }
 export interface MysqlChannelTargetFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#type MysqlChannel#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#type MysqlChannel#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#value MysqlChannel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#value MysqlChannel#value}
   */
   readonly value: string;
 }
@@ -797,33 +797,33 @@ export class MysqlChannelTargetFiltersList extends cdktf.ComplexList {
 }
 export interface MysqlChannelTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#applier_username MysqlChannel#applier_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#applier_username MysqlChannel#applier_username}
   */
   readonly applierUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#channel_name MysqlChannel#channel_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#channel_name MysqlChannel#channel_name}
   */
   readonly channelName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#db_system_id MysqlChannel#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#db_system_id MysqlChannel#db_system_id}
   */
   readonly dbSystemId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#delay_in_seconds MysqlChannel#delay_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#delay_in_seconds MysqlChannel#delay_in_seconds}
   */
   readonly delayInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#tables_without_primary_key_handling MysqlChannel#tables_without_primary_key_handling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#tables_without_primary_key_handling MysqlChannel#tables_without_primary_key_handling}
   */
   readonly tablesWithoutPrimaryKeyHandling?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#target_type MysqlChannel#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#target_type MysqlChannel#target_type}
   */
   readonly targetType: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#filters MysqlChannel#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#filters MysqlChannel#filters}
   */
   readonly filters?: MysqlChannelTargetFilters[] | cdktf.IResolvable;
 }
@@ -1075,15 +1075,15 @@ export class MysqlChannelTargetOutputReference extends cdktf.ComplexObject {
 }
 export interface MysqlChannelTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#create MysqlChannel#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#create MysqlChannel#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#delete MysqlChannel#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#delete MysqlChannel#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#update MysqlChannel#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#update MysqlChannel#update}
   */
   readonly update?: string;
 }
@@ -1235,7 +1235,7 @@ export class MysqlChannelTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel oci_mysql_channel}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel oci_mysql_channel}
 */
 export class MysqlChannel extends cdktf.TerraformResource {
 
@@ -1251,7 +1251,7 @@ export class MysqlChannel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlChannel to import
-  * @param importFromId The id of the existing MysqlChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1263,7 +1263,7 @@ export class MysqlChannel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_channel oci_mysql_channel} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_channel oci_mysql_channel} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1274,8 +1274,8 @@ export class MysqlChannel extends cdktf.TerraformResource {
       terraformResourceType: 'oci_mysql_channel',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

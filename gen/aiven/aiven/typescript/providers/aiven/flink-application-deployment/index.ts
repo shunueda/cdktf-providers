@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FlinkApplicationDeploymentConfig extends cdktf.TerraformMetaArg
   /**
   * Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#application_id FlinkApplicationDeployment#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#application_id FlinkApplicationDeployment#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#id FlinkApplicationDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#id FlinkApplicationDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,65 +23,65 @@ export interface FlinkApplicationDeploymentConfig extends cdktf.TerraformMetaArg
   /**
   * The number of parallel instances for the task.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#parallelism FlinkApplicationDeployment#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#parallelism FlinkApplicationDeployment#parallelism}
   */
   readonly parallelism?: number;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#project FlinkApplicationDeployment#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#project FlinkApplicationDeployment#project}
   */
   readonly project: string;
   /**
   * Restart a Flink job if it fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#restart_enabled FlinkApplicationDeployment#restart_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#restart_enabled FlinkApplicationDeployment#restart_enabled}
   */
   readonly restartEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#service_name FlinkApplicationDeployment#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#service_name FlinkApplicationDeployment#service_name}
   */
   readonly serviceName: string;
   /**
   * The savepoint to deploy from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#starting_savepoint FlinkApplicationDeployment#starting_savepoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#starting_savepoint FlinkApplicationDeployment#starting_savepoint}
   */
   readonly startingSavepoint?: string;
   /**
   * Application version ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#version_id FlinkApplicationDeployment#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#version_id FlinkApplicationDeployment#version_id}
   */
   readonly versionId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#timeouts FlinkApplicationDeployment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#timeouts FlinkApplicationDeployment#timeouts}
   */
   readonly timeouts?: FlinkApplicationDeploymentTimeouts;
 }
 export interface FlinkApplicationDeploymentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#create FlinkApplicationDeployment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#create FlinkApplicationDeployment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#default FlinkApplicationDeployment#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#default FlinkApplicationDeployment#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#delete FlinkApplicationDeployment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#delete FlinkApplicationDeployment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#read FlinkApplicationDeployment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#read FlinkApplicationDeployment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#update FlinkApplicationDeployment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#update FlinkApplicationDeployment#update}
   */
   readonly update?: string;
 }
@@ -291,7 +291,7 @@ export class FlinkApplicationDeploymentTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment aiven_flink_application_deployment}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment aiven_flink_application_deployment}
 */
 export class FlinkApplicationDeployment extends cdktf.TerraformResource {
 
@@ -307,7 +307,7 @@ export class FlinkApplicationDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlinkApplicationDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlinkApplicationDeployment to import
-  * @param importFromId The id of the existing FlinkApplicationDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlinkApplicationDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlinkApplicationDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -319,7 +319,7 @@ export class FlinkApplicationDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_deployment aiven_flink_application_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_deployment aiven_flink_application_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -330,8 +330,8 @@ export class FlinkApplicationDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_flink_application_deployment',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

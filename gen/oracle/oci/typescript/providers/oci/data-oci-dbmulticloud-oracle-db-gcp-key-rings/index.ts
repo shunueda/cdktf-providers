@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDbmulticloudOracleDbGcpKeyRingsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#compartment_id DataOciDbmulticloudOracleDbGcpKeyRings#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#compartment_id DataOciDbmulticloudOracleDbGcpKeyRings#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#display_name DataOciDbmulticloudOracleDbGcpKeyRings#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#display_name DataOciDbmulticloudOracleDbGcpKeyRings#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#id DataOciDbmulticloudOracleDbGcpKeyRings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#id DataOciDbmulticloudOracleDbGcpKeyRings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#oracle_db_gcp_connector_id DataOciDbmulticloudOracleDbGcpKeyRings#oracle_db_gcp_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#oracle_db_gcp_connector_id DataOciDbmulticloudOracleDbGcpKeyRings#oracle_db_gcp_connector_id}
   */
   readonly oracleDbGcpConnectorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#oracle_db_gcp_key_ring_id DataOciDbmulticloudOracleDbGcpKeyRings#oracle_db_gcp_key_ring_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#oracle_db_gcp_key_ring_id DataOciDbmulticloudOracleDbGcpKeyRings#oracle_db_gcp_key_ring_id}
   */
   readonly oracleDbGcpKeyRingId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#state DataOciDbmulticloudOracleDbGcpKeyRings#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#state DataOciDbmulticloudOracleDbGcpKeyRings#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#filter DataOciDbmulticloudOracleDbGcpKeyRings#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#filter DataOciDbmulticloudOracleDbGcpKeyRings#filter}
   */
   readonly filter?: DataOciDbmulticloudOracleDbGcpKeyRingsFilter[] | cdktf.IResolvable;
 }
@@ -268,15 +268,15 @@ export class DataOciDbmulticloudOracleDbGcpKeyRingsOracleDbGcpKeyRingSummaryColl
 }
 export interface DataOciDbmulticloudOracleDbGcpKeyRingsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#name DataOciDbmulticloudOracleDbGcpKeyRings#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#name DataOciDbmulticloudOracleDbGcpKeyRings#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#regex DataOciDbmulticloudOracleDbGcpKeyRings#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#regex DataOciDbmulticloudOracleDbGcpKeyRings#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#values DataOciDbmulticloudOracleDbGcpKeyRings#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#values DataOciDbmulticloudOracleDbGcpKeyRings#values}
   */
   readonly values: string[];
 }
@@ -444,7 +444,7 @@ export class DataOciDbmulticloudOracleDbGcpKeyRingsFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings oci_dbmulticloud_oracle_db_gcp_key_rings}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings oci_dbmulticloud_oracle_db_gcp_key_rings}
 */
 export class DataOciDbmulticloudOracleDbGcpKeyRings extends cdktf.TerraformDataSource {
 
@@ -460,7 +460,7 @@ export class DataOciDbmulticloudOracleDbGcpKeyRings extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciDbmulticloudOracleDbGcpKeyRings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDbmulticloudOracleDbGcpKeyRings to import
-  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbGcpKeyRings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbGcpKeyRings that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDbmulticloudOracleDbGcpKeyRings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class DataOciDbmulticloudOracleDbGcpKeyRings extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings oci_dbmulticloud_oracle_db_gcp_key_rings} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_key_rings oci_dbmulticloud_oracle_db_gcp_key_rings} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class DataOciDbmulticloudOracleDbGcpKeyRings extends cdktf.TerraformDataS
       terraformResourceType: 'oci_dbmulticloud_oracle_db_gcp_key_rings',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

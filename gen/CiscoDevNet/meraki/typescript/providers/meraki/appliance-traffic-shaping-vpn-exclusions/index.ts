@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceTrafficShapingVpnExclusionsConfig extends cdktf.Terraf
   /**
   * Custom VPN exclusion rules. Pass an empty array to clear existing rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#custom ApplianceTrafficShapingVpnExclusions#custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#custom ApplianceTrafficShapingVpnExclusions#custom}
   */
   readonly custom?: ApplianceTrafficShapingVpnExclusionsCustom[] | cdktf.IResolvable;
   /**
   * Major Application based VPN exclusion rules. Pass an empty array to clear existing rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#major_applications ApplianceTrafficShapingVpnExclusions#major_applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#major_applications ApplianceTrafficShapingVpnExclusions#major_applications}
   */
   readonly majorApplications?: ApplianceTrafficShapingVpnExclusionsMajorApplications[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#network_id ApplianceTrafficShapingVpnExclusions#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#network_id ApplianceTrafficShapingVpnExclusions#network_id}
   */
   readonly networkId: string;
 }
@@ -30,20 +30,20 @@ export interface ApplianceTrafficShapingVpnExclusionsCustom {
   /**
   * Destination address; hostname required for DNS, IPv4 otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#destination ApplianceTrafficShapingVpnExclusions#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#destination ApplianceTrafficShapingVpnExclusions#destination}
   */
   readonly destination?: string;
   /**
   * Destination port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#port ApplianceTrafficShapingVpnExclusions#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#port ApplianceTrafficShapingVpnExclusions#port}
   */
   readonly port?: string;
   /**
   * Protocol.
   *   - Choices: `any`, `dns`, `icmp`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#protocol ApplianceTrafficShapingVpnExclusions#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#protocol ApplianceTrafficShapingVpnExclusions#protocol}
   */
   readonly protocol: string;
 }
@@ -216,7 +216,7 @@ export interface ApplianceTrafficShapingVpnExclusionsMajorApplications {
   /**
   * Application`s Meraki ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#id ApplianceTrafficShapingVpnExclusions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#id ApplianceTrafficShapingVpnExclusions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -226,7 +226,7 @@ export interface ApplianceTrafficShapingVpnExclusionsMajorApplications {
   * Application`s name.
   *   - Choices: `AWS`, `Box`, `Office 365 Sharepoint`, `Office 365 Suite`, `Oracle`, `SAP`, `Salesforce`, `Skype & Teams`, `Slack`, `Webex`, `Webex Calling`, `Webex Meetings`, `Zoom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#name ApplianceTrafficShapingVpnExclusions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#name ApplianceTrafficShapingVpnExclusions#name}
   */
   readonly name?: string;
 }
@@ -368,7 +368,7 @@ export class ApplianceTrafficShapingVpnExclusionsMajorApplicationsList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions}
 */
 export class ApplianceTrafficShapingVpnExclusions extends cdktf.TerraformResource {
 
@@ -384,7 +384,7 @@ export class ApplianceTrafficShapingVpnExclusions extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ApplianceTrafficShapingVpnExclusions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceTrafficShapingVpnExclusions to import
-  * @param importFromId The id of the existing ApplianceTrafficShapingVpnExclusions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceTrafficShapingVpnExclusions that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceTrafficShapingVpnExclusions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class ApplianceTrafficShapingVpnExclusions extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_vpn_exclusions meraki_appliance_traffic_shaping_vpn_exclusions} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class ApplianceTrafficShapingVpnExclusions extends cdktf.TerraformResourc
       terraformResourceType: 'meraki_appliance_traffic_shaping_vpn_exclusions',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

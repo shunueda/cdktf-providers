@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MpsProcessLiveStreamOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#id MpsProcessLiveStreamOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#id MpsProcessLiveStreamOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +17,67 @@ export interface MpsProcessLiveStreamOperationConfig extends cdktf.TerraformMeta
   /**
   * Target directory of a live stream processing output file, such as `/movie/201909/`. If this parameter is left empty, the `/` directory will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#output_dir MpsProcessLiveStreamOperation#output_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#output_dir MpsProcessLiveStreamOperation#output_dir}
   */
   readonly outputDir?: string;
   /**
   * The scheme ID.Note 1: About `OutputStorage` and `OutputDir`:If an output storage and directory are specified for a subtask of the scheme, those output settings will be applied.If an output storage and directory are not specified for the subtasks of a scheme, the output parameters passed in the `ProcessMedia` API will be applied.Note 2: If `TaskNotifyConfig` is specified, the specified settings will be used instead of the default callback settings of the scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#schedule_id MpsProcessLiveStreamOperation#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#schedule_id MpsProcessLiveStreamOperation#schedule_id}
   */
   readonly scheduleId?: number;
   /**
   * The source context which is used to pass through the user request information. The task flow status change callback will return the value of this field. It can contain up to 1,000 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#session_context MpsProcessLiveStreamOperation#session_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#session_context MpsProcessLiveStreamOperation#session_context}
   */
   readonly sessionContext?: string;
   /**
   * The ID used for deduplication. If there was a request with the same ID in the last seven days, the current request will return an error. The ID can contain up to 50 characters. If this parameter is left empty or an empty string is entered, no deduplication will be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#session_id MpsProcessLiveStreamOperation#session_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#session_id MpsProcessLiveStreamOperation#session_id}
   */
   readonly sessionId?: string;
   /**
   * Live stream URL, which must be a live stream file address. RTMP, HLS, and FLV are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#url MpsProcessLiveStreamOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#url MpsProcessLiveStreamOperation#url}
   */
   readonly url: string;
   /**
   * ai_analysis_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#ai_analysis_task MpsProcessLiveStreamOperation#ai_analysis_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#ai_analysis_task MpsProcessLiveStreamOperation#ai_analysis_task}
   */
   readonly aiAnalysisTask?: MpsProcessLiveStreamOperationAiAnalysisTask;
   /**
   * ai_content_review_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#ai_content_review_task MpsProcessLiveStreamOperation#ai_content_review_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#ai_content_review_task MpsProcessLiveStreamOperation#ai_content_review_task}
   */
   readonly aiContentReviewTask?: MpsProcessLiveStreamOperationAiContentReviewTask;
   /**
   * ai_quality_control_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#ai_quality_control_task MpsProcessLiveStreamOperation#ai_quality_control_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#ai_quality_control_task MpsProcessLiveStreamOperation#ai_quality_control_task}
   */
   readonly aiQualityControlTask?: MpsProcessLiveStreamOperationAiQualityControlTask;
   /**
   * ai_recognition_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#ai_recognition_task MpsProcessLiveStreamOperation#ai_recognition_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#ai_recognition_task MpsProcessLiveStreamOperation#ai_recognition_task}
   */
   readonly aiRecognitionTask?: MpsProcessLiveStreamOperationAiRecognitionTask;
   /**
   * output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#output_storage MpsProcessLiveStreamOperation#output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#output_storage MpsProcessLiveStreamOperation#output_storage}
   */
   readonly outputStorage?: MpsProcessLiveStreamOperationOutputStorage;
   /**
   * task_notify_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#task_notify_config MpsProcessLiveStreamOperation#task_notify_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#task_notify_config MpsProcessLiveStreamOperation#task_notify_config}
   */
   readonly taskNotifyConfig: MpsProcessLiveStreamOperationTaskNotifyConfig;
 }
@@ -85,13 +85,13 @@ export interface MpsProcessLiveStreamOperationAiAnalysisTask {
   /**
   * Video content analysis template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
   */
   readonly definition: number;
   /**
   * An extended parameter, whose value is a stringfied JSON.Note: This parameter is for customers with special requirements. It needs to be customized offline.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#extended_parameter MpsProcessLiveStreamOperation#extended_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#extended_parameter MpsProcessLiveStreamOperation#extended_parameter}
   */
   readonly extendedParameter?: string;
 }
@@ -203,7 +203,7 @@ export interface MpsProcessLiveStreamOperationAiContentReviewTask {
   /**
   * Video content audit template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
   */
   readonly definition: number;
 }
@@ -286,13 +286,13 @@ export interface MpsProcessLiveStreamOperationAiQualityControlTask {
   /**
   * The channel extension parameter, which is a serialized JSON string.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#channel_ext_para MpsProcessLiveStreamOperation#channel_ext_para}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#channel_ext_para MpsProcessLiveStreamOperation#channel_ext_para}
   */
   readonly channelExtPara?: string;
   /**
   * The ID of the quality control template.Note: This field may return null, indicating that no valid values can be obtained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
   */
   readonly definition?: number;
 }
@@ -407,7 +407,7 @@ export interface MpsProcessLiveStreamOperationAiRecognitionTask {
   /**
   * Intelligent video recognition template ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#definition MpsProcessLiveStreamOperation#definition}
   */
   readonly definition: number;
 }
@@ -490,13 +490,13 @@ export interface MpsProcessLiveStreamOperationOutputStorageCosOutputStorage {
   /**
   * The bucket to which the output file of media processing is saved, such as `TopRankVideo-125xxx88`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#bucket MpsProcessLiveStreamOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#bucket MpsProcessLiveStreamOperation#bucket}
   */
   readonly bucket?: string;
   /**
   * The region of the output bucket, such as `ap-chongqing`. If this parameter is left empty, the value of the upper layer will be inherited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#region MpsProcessLiveStreamOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#region MpsProcessLiveStreamOperation#region}
   */
   readonly region?: string;
 }
@@ -611,25 +611,25 @@ export interface MpsProcessLiveStreamOperationOutputStorageS3OutputStorage {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#s3_bucket MpsProcessLiveStreamOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#s3_bucket MpsProcessLiveStreamOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#s3_region MpsProcessLiveStreamOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#s3_region MpsProcessLiveStreamOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#s3_secret_id MpsProcessLiveStreamOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#s3_secret_id MpsProcessLiveStreamOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to upload files to the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#s3_secret_key MpsProcessLiveStreamOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#s3_secret_key MpsProcessLiveStreamOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -796,19 +796,19 @@ export interface MpsProcessLiveStreamOperationOutputStorage {
   /**
   * The storage type for a media processing output file. Valid values:`COS`: Tencent Cloud COS.`AWS-S3`: AWS S3. This type is only supported for AWS tasks, and the output bucket must be in the same region as the bucket of the source file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#type MpsProcessLiveStreamOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#type MpsProcessLiveStreamOperation#type}
   */
   readonly type: string;
   /**
   * cos_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#cos_output_storage MpsProcessLiveStreamOperation#cos_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#cos_output_storage MpsProcessLiveStreamOperation#cos_output_storage}
   */
   readonly cosOutputStorage?: MpsProcessLiveStreamOperationOutputStorageCosOutputStorage;
   /**
   * s3_output_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#s3_output_storage MpsProcessLiveStreamOperation#s3_output_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#s3_output_storage MpsProcessLiveStreamOperation#s3_output_storage}
   */
   readonly s3OutputStorage?: MpsProcessLiveStreamOperationOutputStorageS3OutputStorage;
 }
@@ -949,37 +949,37 @@ export interface MpsProcessLiveStreamOperationTaskNotifyConfig {
   /**
   * CMQ model. There are two types: `Queue` and `Topic`. Currently, only `Queue` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#cmq_model MpsProcessLiveStreamOperation#cmq_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#cmq_model MpsProcessLiveStreamOperation#cmq_model}
   */
   readonly cmqModel?: string;
   /**
   * CMQ region, such as `sh` and `bj`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#cmq_region MpsProcessLiveStreamOperation#cmq_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#cmq_region MpsProcessLiveStreamOperation#cmq_region}
   */
   readonly cmqRegion?: string;
   /**
   * The notification type, `CMQ` by default. If this parameter is set to `URL`, HTTP callbacks are sent to the URL specified by `NotifyUrl`.Note: If you do not pass this parameter or pass in an empty string, `CMQ` will be used. To use a different notification type, specify this parameter accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#notify_type MpsProcessLiveStreamOperation#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#notify_type MpsProcessLiveStreamOperation#notify_type}
   */
   readonly notifyType?: string;
   /**
   * HTTP callback URL, required if `NotifyType` is set to `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#notify_url MpsProcessLiveStreamOperation#notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#notify_url MpsProcessLiveStreamOperation#notify_url}
   */
   readonly notifyUrl?: string;
   /**
   * This parameter is valid when the model is `Queue`, indicating the name of the CMQ queue for receiving event notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#queue_name MpsProcessLiveStreamOperation#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#queue_name MpsProcessLiveStreamOperation#queue_name}
   */
   readonly queueName?: string;
   /**
   * This parameter is valid when the model is `Topic`, indicating the name of the CMQ topic for receiving event notifications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#topic_name MpsProcessLiveStreamOperation#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#topic_name MpsProcessLiveStreamOperation#topic_name}
   */
   readonly topicName?: string;
 }
@@ -1208,7 +1208,7 @@ export class MpsProcessLiveStreamOperationTaskNotifyConfigOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation tencentcloud_mps_process_live_stream_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation tencentcloud_mps_process_live_stream_operation}
 */
 export class MpsProcessLiveStreamOperation extends cdktf.TerraformResource {
 
@@ -1224,7 +1224,7 @@ export class MpsProcessLiveStreamOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsProcessLiveStreamOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsProcessLiveStreamOperation to import
-  * @param importFromId The id of the existing MpsProcessLiveStreamOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsProcessLiveStreamOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsProcessLiveStreamOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1236,7 +1236,7 @@ export class MpsProcessLiveStreamOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_process_live_stream_operation tencentcloud_mps_process_live_stream_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_process_live_stream_operation tencentcloud_mps_process_live_stream_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1247,8 +1247,8 @@ export class MpsProcessLiveStreamOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_process_live_stream_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,43 +20,43 @@ export interface ViolationsReportConfig extends cdktf.TerraformMetaArguments {
   *   - '30 12 ? * MON-FRI' = At 12:30 PM every weekday
   * Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#cron_schedule ViolationsReport#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#cron_schedule ViolationsReport#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Timezone for cron schedule. For valid timezone formats, see: [iana-timezones](https://timeapi.io/documentation/iana-timezones). Note: Requires Xray 3.130.0 or higher. Only used when cron_schedule is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#cron_schedule_timezone ViolationsReport#cron_schedule_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#cron_schedule_timezone ViolationsReport#cron_schedule_timezone}
   */
   readonly cronScheduleTimezone?: string;
   /**
   * List of email addresses to notify when report generation is complete. Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#emails ViolationsReport#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#emails ViolationsReport#emails}
   */
   readonly emails?: string[];
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#name ViolationsReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#name ViolationsReport#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#project_key ViolationsReport#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#project_key ViolationsReport#project_key}
   */
   readonly projectKey?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#filters ViolationsReport#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#filters ViolationsReport#filters}
   */
   readonly filters?: ViolationsReportFilters[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#resources ViolationsReport#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#resources ViolationsReport#resources}
   */
   readonly resources?: ViolationsReportResources[] | cdktf.IResolvable;
 }
@@ -64,7 +64,7 @@ export interface ViolationsReportFiltersCaFilter {
   /**
   * Allowed CA statuses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#allowed_ca_statuses ViolationsReport#allowed_ca_statuses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#allowed_ca_statuses ViolationsReport#allowed_ca_statuses}
   */
   readonly allowedCaStatuses?: string[];
 }
@@ -182,19 +182,19 @@ export interface ViolationsReportFiltersLicenseFilters {
   /**
   * Filter licenses by names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#license_names ViolationsReport#license_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#license_names ViolationsReport#license_names}
   */
   readonly licenseNames?: string[];
   /**
   * Filter licenses by patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#license_patterns ViolationsReport#license_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#license_patterns ViolationsReport#license_patterns}
   */
   readonly licensePatterns?: string[];
   /**
   * Unknown displays the components that Xray could not discover any licenses for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#unknown ViolationsReport#unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#unknown ViolationsReport#unknown}
   */
   readonly unknown?: boolean | cdktf.IResolvable;
 }
@@ -370,7 +370,7 @@ export interface ViolationsReportFiltersRuntimeFilter {
   /**
   * Time period to filter by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#time_period ViolationsReport#time_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#time_period ViolationsReport#time_period}
   */
   readonly timePeriod?: string;
 }
@@ -488,13 +488,13 @@ export interface ViolationsReportFiltersSecurityFiltersCvssScore {
   /**
   * Maximum CVSS score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#max_score ViolationsReport#max_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#max_score ViolationsReport#max_score}
   */
   readonly maxScore?: number;
   /**
   * Minimum CVSS score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#min_score ViolationsReport#min_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#min_score ViolationsReport#min_score}
   */
   readonly minScore?: number;
 }
@@ -641,13 +641,13 @@ export interface ViolationsReportFiltersSecurityFiltersPublished {
   /**
   * Published to date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#end ViolationsReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#end ViolationsReport#end}
   */
   readonly end?: string;
   /**
   * Published from date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#start ViolationsReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#start ViolationsReport#start}
   */
   readonly start?: string;
 }
@@ -794,37 +794,37 @@ export interface ViolationsReportFiltersSecurityFilters {
   /**
   * CVE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#cve ViolationsReport#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#cve ViolationsReport#cve}
   */
   readonly cve?: string;
   /**
   * Whether the issue has a fix or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#has_remediation ViolationsReport#has_remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#has_remediation ViolationsReport#has_remediation}
   */
   readonly hasRemediation?: boolean | cdktf.IResolvable;
   /**
   * Issue ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#issue_id ViolationsReport#issue_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#issue_id ViolationsReport#issue_id}
   */
   readonly issueId?: string;
   /**
   * Vulnerability Summary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#summary_contains ViolationsReport#summary_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#summary_contains ViolationsReport#summary_contains}
   */
   readonly summaryContains?: string;
   /**
   * cvss_score block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#cvss_score ViolationsReport#cvss_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#cvss_score ViolationsReport#cvss_score}
   */
   readonly cvssScore?: ViolationsReportFiltersSecurityFiltersCvssScore[] | cdktf.IResolvable;
   /**
   * published block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#published ViolationsReport#published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#published ViolationsReport#published}
   */
   readonly published?: ViolationsReportFiltersSecurityFiltersPublished[] | cdktf.IResolvable;
 }
@@ -1087,13 +1087,13 @@ export interface ViolationsReportFiltersUpdated {
   /**
   * Created to date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#end ViolationsReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#end ViolationsReport#end}
   */
   readonly end?: string;
   /**
   * Created from date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#start ViolationsReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#start ViolationsReport#start}
   */
   readonly start?: string;
 }
@@ -1240,79 +1240,79 @@ export interface ViolationsReportFilters {
   /**
   * Filter by artifact name, you can use (*) at the beginning or end of a substring as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#artifact ViolationsReport#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#artifact ViolationsReport#artifact}
   */
   readonly artifact?: string;
   /**
   * Filter by component name, you can use (*) at the beginning or end of a substring as a wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#component ViolationsReport#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#component ViolationsReport#component}
   */
   readonly component?: string;
   /**
   * Select Xray policies by name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#policy_names ViolationsReport#policy_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#policy_names ViolationsReport#policy_names}
   */
   readonly policyNames?: string[];
   /**
   * Risk/Severites levels. Allowed values: 'Low', 'Medium', 'High', 'Critical'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#severities ViolationsReport#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#severities ViolationsReport#severities}
   */
   readonly severities?: string[];
   /**
   * Violation type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#type ViolationsReport#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#type ViolationsReport#type}
   */
   readonly type?: string;
   /**
   * Violation status.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#violation_status ViolationsReport#violation_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#violation_status ViolationsReport#violation_status}
   */
   readonly violationStatus?: string;
   /**
   * Select Xray watch by names. Only one attribute - 'watch_names' or 'watch_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#watch_names ViolationsReport#watch_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#watch_names ViolationsReport#watch_names}
   */
   readonly watchNames?: string[];
   /**
   * Select Xray watch name by patterns. Only one attribute - 'watch_names' or 'watch_patterns' can be set..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#watch_patterns ViolationsReport#watch_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#watch_patterns ViolationsReport#watch_patterns}
   */
   readonly watchPatterns?: string[];
   /**
   * ca_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#ca_filter ViolationsReport#ca_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#ca_filter ViolationsReport#ca_filter}
   */
   readonly caFilter?: ViolationsReportFiltersCaFilter[] | cdktf.IResolvable;
   /**
   * license_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#license_filters ViolationsReport#license_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#license_filters ViolationsReport#license_filters}
   */
   readonly licenseFilters?: ViolationsReportFiltersLicenseFilters[] | cdktf.IResolvable;
   /**
   * runtime_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#runtime_filter ViolationsReport#runtime_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#runtime_filter ViolationsReport#runtime_filter}
   */
   readonly runtimeFilter?: ViolationsReportFiltersRuntimeFilter[] | cdktf.IResolvable;
   /**
   * security_filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#security_filters ViolationsReport#security_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#security_filters ViolationsReport#security_filters}
   */
   readonly securityFilters?: ViolationsReportFiltersSecurityFilters[] | cdktf.IResolvable;
   /**
   * updated block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#updated ViolationsReport#updated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#updated ViolationsReport#updated}
   */
   readonly updated?: ViolationsReportFiltersUpdated[] | cdktf.IResolvable;
 }
@@ -1778,25 +1778,25 @@ export interface ViolationsReportResourcesBuilds {
   /**
   * The list of exclude patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#exclude_patterns ViolationsReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#exclude_patterns ViolationsReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#include_patterns ViolationsReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#include_patterns ViolationsReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of build names. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#names ViolationsReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#names ViolationsReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest build versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -2001,31 +2001,31 @@ export interface ViolationsReportResourcesProjects {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#exclude_key_patterns ViolationsReport#exclude_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#exclude_key_patterns ViolationsReport#exclude_key_patterns}
   */
   readonly excludeKeyPatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#include_key_patterns ViolationsReport#include_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#include_key_patterns ViolationsReport#include_key_patterns}
   */
   readonly includeKeyPatterns?: string[];
   /**
   * The list of project keys. Note: Available from Xray version 3.130.0 and higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#keys ViolationsReport#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#keys ViolationsReport#keys}
   */
   readonly keys?: string[];
   /**
   * The list of project names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#names ViolationsReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#names ViolationsReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -2259,25 +2259,25 @@ export interface ViolationsReportResourcesReleaseBundles {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#exclude_patterns ViolationsReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#exclude_patterns ViolationsReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#include_patterns ViolationsReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#include_patterns ViolationsReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#names ViolationsReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#names ViolationsReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -2482,25 +2482,25 @@ export interface ViolationsReportResourcesReleaseBundlesV2 {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#exclude_patterns ViolationsReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#exclude_patterns ViolationsReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#include_patterns ViolationsReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#include_patterns ViolationsReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#names ViolationsReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#names ViolationsReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#number_of_latest_versions ViolationsReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -2705,19 +2705,19 @@ export interface ViolationsReportResourcesRepository {
   /**
   * Exclude path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#exclude_path_patterns ViolationsReport#exclude_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#exclude_path_patterns ViolationsReport#exclude_path_patterns}
   */
   readonly excludePathPatterns?: string[];
   /**
   * Include path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#include_path_patterns ViolationsReport#include_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#include_path_patterns ViolationsReport#include_path_patterns}
   */
   readonly includePathPatterns?: string[];
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#name ViolationsReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#name ViolationsReport#name}
   */
   readonly name: string;
 }
@@ -2890,31 +2890,31 @@ export interface ViolationsReportResources {
   /**
   * builds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#builds ViolationsReport#builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#builds ViolationsReport#builds}
   */
   readonly builds?: ViolationsReportResourcesBuilds[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#projects ViolationsReport#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#projects ViolationsReport#projects}
   */
   readonly projects?: ViolationsReportResourcesProjects[] | cdktf.IResolvable;
   /**
   * release_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#release_bundles ViolationsReport#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#release_bundles ViolationsReport#release_bundles}
   */
   readonly releaseBundles?: ViolationsReportResourcesReleaseBundles[] | cdktf.IResolvable;
   /**
   * release_bundles_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#release_bundles_v2 ViolationsReport#release_bundles_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#release_bundles_v2 ViolationsReport#release_bundles_v2}
   */
   readonly releaseBundlesV2?: ViolationsReportResourcesReleaseBundlesV2[] | cdktf.IResolvable;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#repository ViolationsReport#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#repository ViolationsReport#repository}
   */
   readonly repository?: ViolationsReportResourcesRepository[] | cdktf.IResolvable;
 }
@@ -3146,7 +3146,7 @@ export class ViolationsReportResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report xray_violations_report}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report xray_violations_report}
 */
 export class ViolationsReport extends cdktf.TerraformResource {
 
@@ -3162,7 +3162,7 @@ export class ViolationsReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ViolationsReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ViolationsReport to import
-  * @param importFromId The id of the existing ViolationsReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ViolationsReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ViolationsReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3174,7 +3174,7 @@ export class ViolationsReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/violations_report xray_violations_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/violations_report xray_violations_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3185,8 +3185,8 @@ export class ViolationsReport extends cdktf.TerraformResource {
       terraformResourceType: 'xray_violations_report',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

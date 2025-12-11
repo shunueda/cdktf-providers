@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CassandraConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#additional_disk_space Cassandra#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#additional_disk_space Cassandra#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#cloud_name Cassandra#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#cloud_name Cassandra#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#disk_space Cassandra#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#disk_space Cassandra#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#id Cassandra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#id Cassandra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface CassandraConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#maintenance_window_dow Cassandra#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#maintenance_window_dow Cassandra#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#maintenance_window_time Cassandra#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#maintenance_window_time Cassandra#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#plan Cassandra#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#plan Cassandra#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#project Cassandra#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#project Cassandra#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#project_vpc_id Cassandra#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#project_vpc_id Cassandra#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#service_name Cassandra#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#service_name Cassandra#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#static_ips Cassandra#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#static_ips Cassandra#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#termination_protection Cassandra#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#termination_protection Cassandra#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * cassandra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#cassandra Cassandra#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#cassandra Cassandra#cassandra}
   */
   readonly cassandra?: CassandraCassandra;
   /**
   * cassandra_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#cassandra_user_config Cassandra#cassandra_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#cassandra_user_config Cassandra#cassandra_user_config}
   */
   readonly cassandraUserConfig?: CassandraCassandraUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#service_integrations Cassandra#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#service_integrations Cassandra#service_integrations}
   */
   readonly serviceIntegrations?: CassandraServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#tag Cassandra#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#tag Cassandra#tag}
   */
   readonly tag?: CassandraTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#tech_emails Cassandra#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#tech_emails Cassandra#tech_emails}
   */
   readonly techEmails?: CassandraTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#timeouts Cassandra#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#timeouts Cassandra#timeouts}
   */
   readonly timeouts?: CassandraTimeouts;
 }
@@ -236,7 +236,7 @@ export interface CassandraCassandra {
   /**
   * Cassandra server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#uris Cassandra#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#uris Cassandra#uris}
   */
   readonly uris?: string[];
 }
@@ -322,31 +322,31 @@ export interface CassandraCassandraUserConfigCassandra {
   /**
   * Fail any multiple-partition batch exceeding this value. 50kb (10x warn threshold) by default. Example: `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#batch_size_fail_threshold_in_kb Cassandra#batch_size_fail_threshold_in_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#batch_size_fail_threshold_in_kb Cassandra#batch_size_fail_threshold_in_kb}
   */
   readonly batchSizeFailThresholdInKb?: number;
   /**
   * Log a warning message on any multiple-partition batch size exceeding this value.5kb per batch by default.Caution should be taken on increasing the size of this thresholdas it can lead to node instability. Example: `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#batch_size_warn_threshold_in_kb Cassandra#batch_size_warn_threshold_in_kb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#batch_size_warn_threshold_in_kb Cassandra#batch_size_warn_threshold_in_kb}
   */
   readonly batchSizeWarnThresholdInKb?: number;
   /**
   * Name of the datacenter to which nodes of this service belong. Can be set only when creating the service. Example: `my-service-google-west1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#datacenter Cassandra#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#datacenter Cassandra#datacenter}
   */
   readonly datacenter?: string;
   /**
   * How long the coordinator waits for read operations to complete before timing it out. 5 seconds by default. Example: `5000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#read_request_timeout_in_ms Cassandra#read_request_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#read_request_timeout_in_ms Cassandra#read_request_timeout_in_ms}
   */
   readonly readRequestTimeoutInMs?: number;
   /**
   * How long the coordinator waits for write requests to complete with at least one node in the local datacenter. 2 seconds by default. Example: `2000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#write_request_timeout_in_ms Cassandra#write_request_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#write_request_timeout_in_ms Cassandra#write_request_timeout_in_ms}
   */
   readonly writeRequestTimeoutInMs?: number;
 }
@@ -548,13 +548,13 @@ export interface CassandraCassandraUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#description Cassandra#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#description Cassandra#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#network Cassandra#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#network Cassandra#network}
   */
   readonly network: string;
 }
@@ -698,7 +698,7 @@ export interface CassandraCassandraUserConfigPrivateAccess {
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#prometheus Cassandra#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#prometheus Cassandra#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -784,7 +784,7 @@ export interface CassandraCassandraUserConfigPublicAccess {
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#prometheus Cassandra#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#prometheus Cassandra#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -870,97 +870,97 @@ export interface CassandraCassandraUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#additional_backup_regions Cassandra#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#additional_backup_regions Cassandra#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * The hour of day (in UTC) when backup for the service is started. New backup is only started if previous backup has already completed. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#backup_hour Cassandra#backup_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#backup_hour Cassandra#backup_hour}
   */
   readonly backupHour?: number;
   /**
   * The minute of an hour when backup for the service is started. New backup is only started if previous backup has already completed. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#backup_minute Cassandra#backup_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#backup_minute Cassandra#backup_minute}
   */
   readonly backupMinute?: number;
   /**
   * Enum: `3`, `4`, `4.1`, and newer. Cassandra version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#cassandra_version Cassandra#cassandra_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#cassandra_version Cassandra#cassandra_version}
   */
   readonly cassandraVersion?: string;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#ip_filter Cassandra#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#ip_filter Cassandra#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#ip_filter_string Cassandra#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#ip_filter_string Cassandra#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Sets the service into migration mode enabling the sstableloader utility to be used to upload Cassandra data files. Available only on service create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#migrate_sstableloader Cassandra#migrate_sstableloader}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#migrate_sstableloader Cassandra#migrate_sstableloader}
   */
   readonly migrateSstableloader?: boolean | cdktf.IResolvable;
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#project_to_fork_from Cassandra#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#project_to_fork_from Cassandra#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#service_log Cassandra#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#service_log Cassandra#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#service_to_fork_from Cassandra#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#service_to_fork_from Cassandra#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * When bootstrapping, instead of creating a new Cassandra cluster try to join an existing one from another service. Can only be set on service creation. Example: `my-test-cassandra`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#service_to_join_with Cassandra#service_to_join_with}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#service_to_join_with Cassandra#service_to_join_with}
   */
   readonly serviceToJoinWith?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#static_ips Cassandra#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#static_ips Cassandra#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * cassandra block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#cassandra Cassandra#cassandra}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#cassandra Cassandra#cassandra}
   */
   readonly cassandra?: CassandraCassandraUserConfigCassandra;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#ip_filter_object Cassandra#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#ip_filter_object Cassandra#ip_filter_object}
   */
   readonly ipFilterObject?: CassandraCassandraUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#private_access Cassandra#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#private_access Cassandra#private_access}
   */
   readonly privateAccess?: CassandraCassandraUserConfigPrivateAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#public_access Cassandra#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#public_access Cassandra#public_access}
   */
   readonly publicAccess?: CassandraCassandraUserConfigPublicAccess;
 }
@@ -1481,13 +1481,13 @@ export interface CassandraServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#integration_type Cassandra#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#integration_type Cassandra#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#source_service_name Cassandra#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#source_service_name Cassandra#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -1628,13 +1628,13 @@ export interface CassandraTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#key Cassandra#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#key Cassandra#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#value Cassandra#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#value Cassandra#value}
   */
   readonly value: string;
 }
@@ -1775,7 +1775,7 @@ export interface CassandraTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#email Cassandra#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#email Cassandra#email}
   */
   readonly email: string;
 }
@@ -1888,23 +1888,23 @@ export class CassandraTechEmailsList extends cdktf.ComplexList {
 }
 export interface CassandraTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#create Cassandra#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#create Cassandra#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#default Cassandra#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#default Cassandra#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#delete Cassandra#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#delete Cassandra#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#read Cassandra#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#read Cassandra#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#update Cassandra#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#update Cassandra#update}
   */
   readonly update?: string;
 }
@@ -2114,7 +2114,7 @@ export class CassandraTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra aiven_cassandra}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra aiven_cassandra}
 */
 export class Cassandra extends cdktf.TerraformResource {
 
@@ -2130,7 +2130,7 @@ export class Cassandra extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cassandra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cassandra to import
-  * @param importFromId The id of the existing Cassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cassandra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2142,7 +2142,7 @@ export class Cassandra extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/cassandra aiven_cassandra} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/cassandra aiven_cassandra} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2153,8 +2153,8 @@ export class Cassandra extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_cassandra',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

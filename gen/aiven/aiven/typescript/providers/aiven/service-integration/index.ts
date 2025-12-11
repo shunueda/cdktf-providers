@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ServiceIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Destination endpoint for the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#destination_endpoint_id ServiceIntegration#destination_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#destination_endpoint_id ServiceIntegration#destination_endpoint_id}
   */
   readonly destinationEndpointId?: string;
   /**
   * Destination service for the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#destination_service_name ServiceIntegration#destination_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#destination_service_name ServiceIntegration#destination_service_name}
   */
   readonly destinationServiceName?: string;
   /**
   * Destination service project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#destination_service_project ServiceIntegration#destination_service_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#destination_service_project ServiceIntegration#destination_service_project}
   */
   readonly destinationServiceProject?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#id ServiceIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#id ServiceIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,127 +35,127 @@ export interface ServiceIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Type of the service integration. The possible values are `alertmanager`, `autoscaler`, `caching`, `cassandra_cross_service_cluster`, `clickhouse_credentials`, `clickhouse_kafka`, `clickhouse_postgresql`, `dashboard`, `datadog`, `datasource`, `disaster_recovery`, `external_aws_cloudwatch_logs`, `external_aws_cloudwatch_metrics`, `external_elasticsearch_logs`, `external_google_cloud_logging`, `external_opensearch_logs`, `flink`, `flink_external_bigquery`, `flink_external_kafka`, `flink_external_postgresql`, `internal_connectivity`, `jolokia`, `kafka_connect`, `kafka_connect_postgresql`, `kafka_logs`, `kafka_mirrormaker`, `logs`, `m3aggregator`, `m3coordinator`, `metrics`, `opensearch_cross_cluster_replication`, `opensearch_cross_cluster_search`, `prometheus`, `read_replica`, `rsyslog`, `schema_registry_proxy`, `stresstester`, `thanos_distributed_query`, `thanos_migrate`, `thanoscompactor`, `thanosquery`, `thanosruler`, `thanosstore`, `vector` and `vmalert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#integration_type ServiceIntegration#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#integration_type ServiceIntegration#integration_type}
   */
   readonly integrationType: string;
   /**
   * Project the integration belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#project ServiceIntegration#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#project ServiceIntegration#project}
   */
   readonly project: string;
   /**
   * Source endpoint for the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#source_endpoint_id ServiceIntegration#source_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#source_endpoint_id ServiceIntegration#source_endpoint_id}
   */
   readonly sourceEndpointId?: string;
   /**
   * Source service for the integration (if any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#source_service_name ServiceIntegration#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#source_service_name ServiceIntegration#source_service_name}
   */
   readonly sourceServiceName?: string;
   /**
   * Source service project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#source_service_project ServiceIntegration#source_service_project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#source_service_project ServiceIntegration#source_service_project}
   */
   readonly sourceServiceProject?: string;
   /**
   * clickhouse_credentials_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#clickhouse_credentials_user_config ServiceIntegration#clickhouse_credentials_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#clickhouse_credentials_user_config ServiceIntegration#clickhouse_credentials_user_config}
   */
   readonly clickhouseCredentialsUserConfig?: ServiceIntegrationClickhouseCredentialsUserConfig;
   /**
   * clickhouse_kafka_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#clickhouse_kafka_user_config ServiceIntegration#clickhouse_kafka_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#clickhouse_kafka_user_config ServiceIntegration#clickhouse_kafka_user_config}
   */
   readonly clickhouseKafkaUserConfig?: ServiceIntegrationClickhouseKafkaUserConfig;
   /**
   * clickhouse_postgresql_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#clickhouse_postgresql_user_config ServiceIntegration#clickhouse_postgresql_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#clickhouse_postgresql_user_config ServiceIntegration#clickhouse_postgresql_user_config}
   */
   readonly clickhousePostgresqlUserConfig?: ServiceIntegrationClickhousePostgresqlUserConfig;
   /**
   * datadog_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#datadog_user_config ServiceIntegration#datadog_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#datadog_user_config ServiceIntegration#datadog_user_config}
   */
   readonly datadogUserConfig?: ServiceIntegrationDatadogUserConfig;
   /**
   * external_aws_cloudwatch_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#external_aws_cloudwatch_logs_user_config ServiceIntegration#external_aws_cloudwatch_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#external_aws_cloudwatch_logs_user_config ServiceIntegration#external_aws_cloudwatch_logs_user_config}
   */
   readonly externalAwsCloudwatchLogsUserConfig?: ServiceIntegrationExternalAwsCloudwatchLogsUserConfig;
   /**
   * external_aws_cloudwatch_metrics_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#external_aws_cloudwatch_metrics_user_config ServiceIntegration#external_aws_cloudwatch_metrics_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#external_aws_cloudwatch_metrics_user_config ServiceIntegration#external_aws_cloudwatch_metrics_user_config}
   */
   readonly externalAwsCloudwatchMetricsUserConfig?: ServiceIntegrationExternalAwsCloudwatchMetricsUserConfig;
   /**
   * external_elasticsearch_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#external_elasticsearch_logs_user_config ServiceIntegration#external_elasticsearch_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#external_elasticsearch_logs_user_config ServiceIntegration#external_elasticsearch_logs_user_config}
   */
   readonly externalElasticsearchLogsUserConfig?: ServiceIntegrationExternalElasticsearchLogsUserConfig;
   /**
   * external_opensearch_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#external_opensearch_logs_user_config ServiceIntegration#external_opensearch_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#external_opensearch_logs_user_config ServiceIntegration#external_opensearch_logs_user_config}
   */
   readonly externalOpensearchLogsUserConfig?: ServiceIntegrationExternalOpensearchLogsUserConfig;
   /**
   * flink_external_postgresql_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#flink_external_postgresql_user_config ServiceIntegration#flink_external_postgresql_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#flink_external_postgresql_user_config ServiceIntegration#flink_external_postgresql_user_config}
   */
   readonly flinkExternalPostgresqlUserConfig?: ServiceIntegrationFlinkExternalPostgresqlUserConfig;
   /**
   * kafka_connect_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_connect_user_config ServiceIntegration#kafka_connect_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_connect_user_config ServiceIntegration#kafka_connect_user_config}
   */
   readonly kafkaConnectUserConfig?: ServiceIntegrationKafkaConnectUserConfig;
   /**
   * kafka_logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_logs_user_config ServiceIntegration#kafka_logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_logs_user_config ServiceIntegration#kafka_logs_user_config}
   */
   readonly kafkaLogsUserConfig?: ServiceIntegrationKafkaLogsUserConfig;
   /**
   * kafka_mirrormaker_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_mirrormaker_user_config ServiceIntegration#kafka_mirrormaker_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_mirrormaker_user_config ServiceIntegration#kafka_mirrormaker_user_config}
   */
   readonly kafkaMirrormakerUserConfig?: ServiceIntegrationKafkaMirrormakerUserConfig;
   /**
   * logs_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#logs_user_config ServiceIntegration#logs_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#logs_user_config ServiceIntegration#logs_user_config}
   */
   readonly logsUserConfig?: ServiceIntegrationLogsUserConfig;
   /**
   * metrics_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#metrics_user_config ServiceIntegration#metrics_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#metrics_user_config ServiceIntegration#metrics_user_config}
   */
   readonly metricsUserConfig?: ServiceIntegrationMetricsUserConfig;
   /**
   * prometheus_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#prometheus_user_config ServiceIntegration#prometheus_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#prometheus_user_config ServiceIntegration#prometheus_user_config}
   */
   readonly prometheusUserConfig?: ServiceIntegrationPrometheusUserConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#timeouts ServiceIntegration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#timeouts ServiceIntegration#timeouts}
   */
   readonly timeouts?: ServiceIntegrationTimeouts;
 }
@@ -163,7 +163,7 @@ export interface ServiceIntegrationClickhouseCredentialsUserConfigGrants {
   /**
   * User or role to assign the grant to. Example: `alice`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#user ServiceIntegration#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#user ServiceIntegration#user}
   */
   readonly user: string;
 }
@@ -278,7 +278,7 @@ export interface ServiceIntegrationClickhouseCredentialsUserConfig {
   /**
   * grants block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#grants ServiceIntegration#grants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#grants ServiceIntegration#grants}
   */
   readonly grants?: ServiceIntegrationClickhouseCredentialsUserConfigGrants[] | cdktf.IResolvable;
 }
@@ -364,13 +364,13 @@ export interface ServiceIntegrationClickhouseKafkaUserConfigTablesColumns {
   /**
   * The name of the column in the ClickHouse table. This should match the field names in your Kafka message format. Example: `key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#name ServiceIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#name ServiceIntegration#name}
   */
   readonly name: string;
   /**
   * The ClickHouse data type for this column. Must be a valid ClickHouse data type that can handle the data format. Example: `UInt64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#type ServiceIntegration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#type ServiceIntegration#type}
   */
   readonly type: string;
 }
@@ -511,7 +511,7 @@ export interface ServiceIntegrationClickhouseKafkaUserConfigTablesTopics {
   /**
   * The name of the Kafka topic to read messages from or write messages to. The topic must exist in the Kafka cluster. Example: `topic_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#name ServiceIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#name ServiceIntegration#name}
   */
   readonly name: string;
 }
@@ -626,139 +626,139 @@ export interface ServiceIntegrationClickhouseKafkaUserConfigTables {
   /**
   * Enum: `beginning`, `earliest`, `end`, `largest`, `latest`, `smallest`. Determines where to start reading from Kafka when no offset is stored or the stored offset is out of range. `earliest` starts from the beginning, `latest` starts from the end. Default: `earliest`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#auto_offset_reset ServiceIntegration#auto_offset_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#auto_offset_reset ServiceIntegration#auto_offset_reset}
   */
   readonly autoOffsetReset?: string;
   /**
   * Enum: `Avro`, `AvroConfluent`, `CSV`, `JSONAsString`, `JSONCompactEachRow`, `JSONCompactStringsEachRow`, `JSONEachRow`, `JSONStringsEachRow`, `MsgPack`, `Parquet`, `RawBLOB`, `TSKV`, `TSV`, `TabSeparated`. The format of the messages in the Kafka topics. Determines how ClickHouse parses and serializes the data (e.g., JSON, CSV, Avro). Default: `JSONEachRow`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#data_format ServiceIntegration#data_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#data_format ServiceIntegration#data_format}
   */
   readonly dataFormat: string;
   /**
   * Enum: `basic`, `best_effort`, `best_effort_us`. Specifies how ClickHouse should parse DateTime values from text-based input formats. `basic` uses simple parsing, `best_effort` attempts more flexible parsing. Default: `basic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#date_time_input_format ServiceIntegration#date_time_input_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#date_time_input_format ServiceIntegration#date_time_input_format}
   */
   readonly dateTimeInputFormat?: string;
   /**
   * The Kafka consumer group name. Multiple consumers with the same group name will share the workload and maintain offset positions. Default: `clickhouse`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#group_name ServiceIntegration#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#group_name ServiceIntegration#group_name}
   */
   readonly groupName: string;
   /**
   * Enum: `default`, `stream`. Defines how ClickHouse should handle errors when processing Kafka messages. `default` stops on errors, `stream` continues processing and logs errors. Default: `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#handle_error_mode ServiceIntegration#handle_error_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#handle_error_mode ServiceIntegration#handle_error_mode}
   */
   readonly handleErrorMode?: string;
   /**
   * Maximum number of rows to collect before flushing data between Kafka and ClickHouse. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#max_block_size ServiceIntegration#max_block_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#max_block_size ServiceIntegration#max_block_size}
   */
   readonly maxBlockSize?: number;
   /**
   * Maximum number of rows that can be processed from a single Kafka message for row-based formats. Useful for controlling memory usage. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#max_rows_per_message ServiceIntegration#max_rows_per_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#max_rows_per_message ServiceIntegration#max_rows_per_message}
   */
   readonly maxRowsPerMessage?: number;
   /**
   * The name of the ClickHouse table to be created. This table can consume data from and write data to the specified Kafka topics. Example: `events`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#name ServiceIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#name ServiceIntegration#name}
   */
   readonly name: string;
   /**
   * Number of Kafka consumers to run per table per replica. Increasing this can improve throughput but may increase resource usage. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#num_consumers ServiceIntegration#num_consumers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#num_consumers ServiceIntegration#num_consumers}
   */
   readonly numConsumers?: number;
   /**
   * Maximum number of messages to fetch in a single Kafka poll operation for reading. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#poll_max_batch_size ServiceIntegration#poll_max_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#poll_max_batch_size ServiceIntegration#poll_max_batch_size}
   */
   readonly pollMaxBatchSize?: number;
   /**
   * Timeout in milliseconds for a single poll from Kafka. Takes the value of the stream_flush_interval_ms server setting by default (500ms). Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#poll_max_timeout_ms ServiceIntegration#poll_max_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#poll_max_timeout_ms ServiceIntegration#poll_max_timeout_ms}
   */
   readonly pollMaxTimeoutMs?: number;
   /**
   * The maximum number of messages in a batch sent to Kafka. If the number of messages exceeds this value, the batch is sent. Default: `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_batch_num_messages ServiceIntegration#producer_batch_num_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_batch_num_messages ServiceIntegration#producer_batch_num_messages}
   */
   readonly producerBatchNumMessages?: number;
   /**
   * The maximum size in bytes of a batch of messages sent to Kafka. If the batch size is exceeded, the batch is sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_batch_size ServiceIntegration#producer_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_batch_size ServiceIntegration#producer_batch_size}
   */
   readonly producerBatchSize?: number;
   /**
   * Enum: `gzip`, `lz4`, `none`, `snappy`, `zstd`. The compression codec to use when sending a batch of messages to Kafka. Default: `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_compression_codec ServiceIntegration#producer_compression_codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_compression_codec ServiceIntegration#producer_compression_codec}
   */
   readonly producerCompressionCodec?: string;
   /**
   * The compression level to use when sending a batch of messages to Kafka. Usable range is algorithm-dependent: [0-9] for gzip; [0-12] for lz4; only 0 for snappy; -1 = codec-dependent default compression level. Default: `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_compression_level ServiceIntegration#producer_compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_compression_level ServiceIntegration#producer_compression_level}
   */
   readonly producerCompressionLevel?: number;
   /**
   * The time in milliseconds to wait for additional messages before sending a batch. If the time is exceeded, the batch is sent. Default: `5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_linger_ms ServiceIntegration#producer_linger_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_linger_ms ServiceIntegration#producer_linger_ms}
   */
   readonly producerLingerMs?: number;
   /**
   * The maximum size of the buffer in kilobytes before sending.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_queue_buffering_max_kbytes ServiceIntegration#producer_queue_buffering_max_kbytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_queue_buffering_max_kbytes ServiceIntegration#producer_queue_buffering_max_kbytes}
   */
   readonly producerQueueBufferingMaxKbytes?: number;
   /**
   * The maximum number of messages to buffer before sending. Default: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_queue_buffering_max_messages ServiceIntegration#producer_queue_buffering_max_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_queue_buffering_max_messages ServiceIntegration#producer_queue_buffering_max_messages}
   */
   readonly producerQueueBufferingMaxMessages?: number;
   /**
   * The number of acknowledgements the leader broker must receive from ISR brokers before responding to the request: 0=Broker does not send any response/ack to client, -1 will block until message is committed by all in sync replicas (ISRs). Default: `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_request_required_acks ServiceIntegration#producer_request_required_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_request_required_acks ServiceIntegration#producer_request_required_acks}
   */
   readonly producerRequestRequiredAcks?: number;
   /**
   * Number of broken messages to skip before stopping processing when reading from Kafka. Useful for handling corrupted data without failing the entire integration. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#skip_broken_messages ServiceIntegration#skip_broken_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#skip_broken_messages ServiceIntegration#skip_broken_messages}
   */
   readonly skipBrokenMessages?: number;
   /**
   * When enabled, each consumer runs in its own thread, providing better isolation and potentially better performance for high-throughput scenarios. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#thread_per_consumer ServiceIntegration#thread_per_consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#thread_per_consumer ServiceIntegration#thread_per_consumer}
   */
   readonly threadPerConsumer?: boolean | cdktf.IResolvable;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#columns ServiceIntegration#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#columns ServiceIntegration#columns}
   */
   readonly columns: ServiceIntegrationClickhouseKafkaUserConfigTablesColumns[] | cdktf.IResolvable;
   /**
   * topics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#topics ServiceIntegration#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#topics ServiceIntegration#topics}
   */
   readonly topics: ServiceIntegrationClickhouseKafkaUserConfigTablesTopics[] | cdktf.IResolvable;
 }
@@ -1499,7 +1499,7 @@ export interface ServiceIntegrationClickhouseKafkaUserConfig {
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#tables ServiceIntegration#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#tables ServiceIntegration#tables}
   */
   readonly tables?: ServiceIntegrationClickhouseKafkaUserConfigTables[] | cdktf.IResolvable;
 }
@@ -1585,13 +1585,13 @@ export interface ServiceIntegrationClickhousePostgresqlUserConfigDatabases {
   /**
   * PostgreSQL database to expose. Default: `defaultdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#database ServiceIntegration#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#database ServiceIntegration#database}
   */
   readonly database?: string;
   /**
   * PostgreSQL schema to expose. Default: `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#schema ServiceIntegration#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#schema ServiceIntegration#schema}
   */
   readonly schema?: string;
 }
@@ -1738,7 +1738,7 @@ export interface ServiceIntegrationClickhousePostgresqlUserConfig {
   /**
   * databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#databases ServiceIntegration#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#databases ServiceIntegration#databases}
   */
   readonly databases?: ServiceIntegrationClickhousePostgresqlUserConfigDatabases[] | cdktf.IResolvable;
 }
@@ -1824,13 +1824,13 @@ export interface ServiceIntegrationDatadogUserConfigDatadogTags {
   /**
   * Optional tag explanation. Example: `Used to tag primary replica metrics`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#comment ServiceIntegration#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#comment ServiceIntegration#comment}
   */
   readonly comment?: string;
   /**
   * Tag format and usage are described here: https://docs.datadoghq.com/getting_started/tagging. Tags with prefix `aiven-` are reserved for Aiven. Example: `replica:primary`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#tag ServiceIntegration#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#tag ServiceIntegration#tag}
   */
   readonly tag: string;
 }
@@ -1974,25 +1974,25 @@ export interface ServiceIntegrationDatadogUserConfigOpensearch {
   /**
   * Enable Datadog Opensearch Cluster Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#cluster_stats_enabled ServiceIntegration#cluster_stats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#cluster_stats_enabled ServiceIntegration#cluster_stats_enabled}
   */
   readonly clusterStatsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Datadog Opensearch Index Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#index_stats_enabled ServiceIntegration#index_stats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#index_stats_enabled ServiceIntegration#index_stats_enabled}
   */
   readonly indexStatsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Datadog Opensearch Pending Task Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#pending_task_stats_enabled ServiceIntegration#pending_task_stats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#pending_task_stats_enabled ServiceIntegration#pending_task_stats_enabled}
   */
   readonly pendingTaskStatsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Datadog Opensearch Primary Shard Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#pshard_stats_enabled ServiceIntegration#pshard_stats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#pshard_stats_enabled ServiceIntegration#pshard_stats_enabled}
   */
   readonly pshardStatsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2165,7 +2165,7 @@ export interface ServiceIntegrationDatadogUserConfigRedis {
   /**
   * Enable command_stats option in the agent's configuration. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#command_stats_enabled ServiceIntegration#command_stats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#command_stats_enabled ServiceIntegration#command_stats_enabled}
   */
   readonly commandStatsEnabled?: boolean | cdktf.IResolvable;
 }
@@ -2251,73 +2251,73 @@ export interface ServiceIntegrationDatadogUserConfig {
   /**
   * Enable Datadog Database Monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#datadog_dbm_enabled ServiceIntegration#datadog_dbm_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#datadog_dbm_enabled ServiceIntegration#datadog_dbm_enabled}
   */
   readonly datadogDbmEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable Datadog PgBouncer Metric Tracking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#datadog_pgbouncer_enabled ServiceIntegration#datadog_pgbouncer_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#datadog_pgbouncer_enabled ServiceIntegration#datadog_pgbouncer_enabled}
   */
   readonly datadogPgbouncerEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of custom metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#exclude_consumer_groups ServiceIntegration#exclude_consumer_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#exclude_consumer_groups ServiceIntegration#exclude_consumer_groups}
   */
   readonly excludeConsumerGroups?: string[];
   /**
   * List of topics to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#exclude_topics ServiceIntegration#exclude_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#exclude_topics ServiceIntegration#exclude_topics}
   */
   readonly excludeTopics?: string[];
   /**
   * List of custom metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#include_consumer_groups ServiceIntegration#include_consumer_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#include_consumer_groups ServiceIntegration#include_consumer_groups}
   */
   readonly includeConsumerGroups?: string[];
   /**
   * List of topics to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#include_topics ServiceIntegration#include_topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#include_topics ServiceIntegration#include_topics}
   */
   readonly includeTopics?: string[];
   /**
   * List of custom metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_custom_metrics ServiceIntegration#kafka_custom_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_custom_metrics ServiceIntegration#kafka_custom_metrics}
   */
   readonly kafkaCustomMetrics?: string[];
   /**
   * Maximum number of JMX metrics to send. Example: `2000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#max_jmx_metrics ServiceIntegration#max_jmx_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#max_jmx_metrics ServiceIntegration#max_jmx_metrics}
   */
   readonly maxJmxMetrics?: number;
   /**
   * List of custom metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#mirrormaker_custom_metrics ServiceIntegration#mirrormaker_custom_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#mirrormaker_custom_metrics ServiceIntegration#mirrormaker_custom_metrics}
   */
   readonly mirrormakerCustomMetrics?: string[];
   /**
   * datadog_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#datadog_tags ServiceIntegration#datadog_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#datadog_tags ServiceIntegration#datadog_tags}
   */
   readonly datadogTags?: ServiceIntegrationDatadogUserConfigDatadogTags[] | cdktf.IResolvable;
   /**
   * opensearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#opensearch ServiceIntegration#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#opensearch ServiceIntegration#opensearch}
   */
   readonly opensearch?: ServiceIntegrationDatadogUserConfigOpensearch;
   /**
   * redis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#redis ServiceIntegration#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#redis ServiceIntegration#redis}
   */
   readonly redis?: ServiceIntegrationDatadogUserConfigRedis;
 }
@@ -2722,7 +2722,7 @@ export interface ServiceIntegrationExternalAwsCloudwatchLogsUserConfig {
   /**
   * The list of logging fields that will be sent to the integration logging service. The MESSAGE and timestamp fields are always sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
   */
   readonly selectedLogFields?: string[];
 }
@@ -2808,13 +2808,13 @@ export interface ServiceIntegrationExternalAwsCloudwatchMetricsUserConfigDropped
   /**
   * Identifier of a value in the metric. Example: `used`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#field ServiceIntegration#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#field ServiceIntegration#field}
   */
   readonly field: string;
   /**
   * Identifier of the metric. Example: `java.lang:Memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#metric ServiceIntegration#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#metric ServiceIntegration#metric}
   */
   readonly metric: string;
 }
@@ -2955,13 +2955,13 @@ export interface ServiceIntegrationExternalAwsCloudwatchMetricsUserConfigExtraMe
   /**
   * Identifier of a value in the metric. Example: `used`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#field ServiceIntegration#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#field ServiceIntegration#field}
   */
   readonly field: string;
   /**
   * Identifier of the metric. Example: `java.lang:Memory`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#metric ServiceIntegration#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#metric ServiceIntegration#metric}
   */
   readonly metric: string;
 }
@@ -3102,13 +3102,13 @@ export interface ServiceIntegrationExternalAwsCloudwatchMetricsUserConfig {
   /**
   * dropped_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#dropped_metrics ServiceIntegration#dropped_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#dropped_metrics ServiceIntegration#dropped_metrics}
   */
   readonly droppedMetrics?: ServiceIntegrationExternalAwsCloudwatchMetricsUserConfigDroppedMetrics[] | cdktf.IResolvable;
   /**
   * extra_metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#extra_metrics ServiceIntegration#extra_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#extra_metrics ServiceIntegration#extra_metrics}
   */
   readonly extraMetrics?: ServiceIntegrationExternalAwsCloudwatchMetricsUserConfigExtraMetrics[] | cdktf.IResolvable;
 }
@@ -3223,7 +3223,7 @@ export interface ServiceIntegrationExternalElasticsearchLogsUserConfig {
   /**
   * The list of logging fields that will be sent to the integration logging service. The MESSAGE and timestamp fields are always sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
   */
   readonly selectedLogFields?: string[];
 }
@@ -3309,7 +3309,7 @@ export interface ServiceIntegrationExternalOpensearchLogsUserConfig {
   /**
   * The list of logging fields that will be sent to the integration logging service. The MESSAGE and timestamp fields are always sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
   */
   readonly selectedLogFields?: string[];
 }
@@ -3395,7 +3395,7 @@ export interface ServiceIntegrationFlinkExternalPostgresqlUserConfig {
   /**
   * Enum: `unspecified`. If stringtype is set to unspecified, parameters will be sent to the server as untyped values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#stringtype ServiceIntegration#stringtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#stringtype ServiceIntegration#stringtype}
   */
   readonly stringtype?: string;
 }
@@ -3481,25 +3481,25 @@ export interface ServiceIntegrationKafkaConnectUserConfigKafkaConnect {
   /**
   * The name of the topic where connector and task configuration data are stored.This must be the same for all workers with the same group_id. Example: `__connect_configs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#config_storage_topic ServiceIntegration#config_storage_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#config_storage_topic ServiceIntegration#config_storage_topic}
   */
   readonly configStorageTopic?: string;
   /**
   * A unique string that identifies the Connect cluster group this worker belongs to. Example: `connect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#group_id ServiceIntegration#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#group_id ServiceIntegration#group_id}
   */
   readonly groupId?: string;
   /**
   * The name of the topic where connector and task configuration offsets are stored.This must be the same for all workers with the same group_id. Example: `__connect_offsets`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#offset_storage_topic ServiceIntegration#offset_storage_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#offset_storage_topic ServiceIntegration#offset_storage_topic}
   */
   readonly offsetStorageTopic?: string;
   /**
   * The name of the topic where connector and task configuration status updates are stored.This must be the same for all workers with the same group_id. Example: `__connect_status`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#status_storage_topic ServiceIntegration#status_storage_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#status_storage_topic ServiceIntegration#status_storage_topic}
   */
   readonly statusStorageTopic?: string;
 }
@@ -3672,7 +3672,7 @@ export interface ServiceIntegrationKafkaConnectUserConfig {
   /**
   * kafka_connect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_connect ServiceIntegration#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_connect ServiceIntegration#kafka_connect}
   */
   readonly kafkaConnect?: ServiceIntegrationKafkaConnectUserConfigKafkaConnect;
 }
@@ -3758,13 +3758,13 @@ export interface ServiceIntegrationKafkaLogsUserConfig {
   /**
   * Topic name. Example: `mytopic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_topic ServiceIntegration#kafka_topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_topic ServiceIntegration#kafka_topic}
   */
   readonly kafkaTopic: string;
   /**
   * The list of logging fields that will be sent to the integration logging service. The MESSAGE and timestamp fields are always sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
   */
   readonly selectedLogFields?: string[];
 }
@@ -3876,49 +3876,49 @@ export interface ServiceIntegrationKafkaMirrormakerUserConfigKafkaMirrormaker {
   /**
   * Enum: `earliest`, `latest`. Set where consumer starts to consume data. Value `earliest`: Start replication from the earliest offset. Value `latest`: Start replication from the latest offset. Default is `earliest`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#consumer_auto_offset_reset ServiceIntegration#consumer_auto_offset_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#consumer_auto_offset_reset ServiceIntegration#consumer_auto_offset_reset}
   */
   readonly consumerAutoOffsetReset?: string;
   /**
   * The minimum amount of data the server should return for a fetch request. Example: `1024`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#consumer_fetch_min_bytes ServiceIntegration#consumer_fetch_min_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#consumer_fetch_min_bytes ServiceIntegration#consumer_fetch_min_bytes}
   */
   readonly consumerFetchMinBytes?: number;
   /**
   * Set consumer max.poll.records. The default is 500. Example: `500`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#consumer_max_poll_records ServiceIntegration#consumer_max_poll_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#consumer_max_poll_records ServiceIntegration#consumer_max_poll_records}
   */
   readonly consumerMaxPollRecords?: number;
   /**
   * The batch size in bytes producer will attempt to collect before publishing to broker. Example: `1024`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_batch_size ServiceIntegration#producer_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_batch_size ServiceIntegration#producer_batch_size}
   */
   readonly producerBatchSize?: number;
   /**
   * The amount of bytes producer can use for buffering data before publishing to broker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_buffer_memory ServiceIntegration#producer_buffer_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_buffer_memory ServiceIntegration#producer_buffer_memory}
   */
   readonly producerBufferMemory?: number;
   /**
   * Enum: `gzip`, `lz4`, `none`, `snappy`, `zstd`. Specify the default compression type for producers. This configuration accepts the standard compression codecs (`gzip`, `snappy`, `lz4`, `zstd`). It additionally accepts `none` which is the default and equivalent to no compression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_compression_type ServiceIntegration#producer_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_compression_type ServiceIntegration#producer_compression_type}
   */
   readonly producerCompressionType?: string;
   /**
   * The linger time (ms) for waiting new data to arrive for publishing. Example: `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_linger_ms ServiceIntegration#producer_linger_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_linger_ms ServiceIntegration#producer_linger_ms}
   */
   readonly producerLingerMs?: number;
   /**
   * The maximum request size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#producer_max_request_size ServiceIntegration#producer_max_request_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#producer_max_request_size ServiceIntegration#producer_max_request_size}
   */
   readonly producerMaxRequestSize?: number;
 }
@@ -4207,13 +4207,13 @@ export interface ServiceIntegrationKafkaMirrormakerUserConfig {
   /**
   * The alias under which the Kafka cluster is known to MirrorMaker. Can contain the following symbols: ASCII alphanumerics, `.`, `_`, and `-`. Example: `kafka-abc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#cluster_alias ServiceIntegration#cluster_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#cluster_alias ServiceIntegration#cluster_alias}
   */
   readonly clusterAlias?: string;
   /**
   * kafka_mirrormaker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#kafka_mirrormaker ServiceIntegration#kafka_mirrormaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#kafka_mirrormaker ServiceIntegration#kafka_mirrormaker}
   */
   readonly kafkaMirrormaker?: ServiceIntegrationKafkaMirrormakerUserConfigKafkaMirrormaker;
 }
@@ -4328,19 +4328,19 @@ export interface ServiceIntegrationLogsUserConfig {
   /**
   * Elasticsearch index retention limit. Default: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#elasticsearch_index_days_max ServiceIntegration#elasticsearch_index_days_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#elasticsearch_index_days_max ServiceIntegration#elasticsearch_index_days_max}
   */
   readonly elasticsearchIndexDaysMax?: number;
   /**
   * Elasticsearch index prefix. Default: `logs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#elasticsearch_index_prefix ServiceIntegration#elasticsearch_index_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#elasticsearch_index_prefix ServiceIntegration#elasticsearch_index_prefix}
   */
   readonly elasticsearchIndexPrefix?: string;
   /**
   * The list of logging fields that will be sent to the integration logging service. The MESSAGE and timestamp fields are always sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#selected_log_fields ServiceIntegration#selected_log_fields}
   */
   readonly selectedLogFields?: string[];
 }
@@ -4484,85 +4484,85 @@ export interface ServiceIntegrationMetricsUserConfigSourceMysqlTelegraf {
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.EVENT_WAITS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_event_waits ServiceIntegration#gather_event_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_event_waits ServiceIntegration#gather_event_waits}
   */
   readonly gatherEventWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.FILE_SUMMARY_BY_EVENT_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_file_events_stats ServiceIntegration#gather_file_events_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_file_events_stats ServiceIntegration#gather_file_events_stats}
   */
   readonly gatherFileEventsStats?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.TABLE_IO_WAITS_SUMMARY_BY_INDEX_USAGE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_index_io_waits ServiceIntegration#gather_index_io_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_index_io_waits ServiceIntegration#gather_index_io_waits}
   */
   readonly gatherIndexIoWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather auto_increment columns and max values from information schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_info_schema_auto_inc ServiceIntegration#gather_info_schema_auto_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_info_schema_auto_inc ServiceIntegration#gather_info_schema_auto_inc}
   */
   readonly gatherInfoSchemaAutoInc?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from INFORMATION_SCHEMA.INNODB_METRICS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_innodb_metrics ServiceIntegration#gather_innodb_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_innodb_metrics ServiceIntegration#gather_innodb_metrics}
   */
   readonly gatherInnodbMetrics?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.EVENTS_STATEMENTS_SUMMARY_BY_DIGEST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_perf_events_statements ServiceIntegration#gather_perf_events_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_perf_events_statements ServiceIntegration#gather_perf_events_statements}
   */
   readonly gatherPerfEventsStatements?: boolean | cdktf.IResolvable;
   /**
   * Gather thread state counts from INFORMATION_SCHEMA.PROCESSLIST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_process_list ServiceIntegration#gather_process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_process_list ServiceIntegration#gather_process_list}
   */
   readonly gatherProcessList?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from SHOW SLAVE STATUS command output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_slave_status ServiceIntegration#gather_slave_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_slave_status ServiceIntegration#gather_slave_status}
   */
   readonly gatherSlaveStatus?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.TABLE_IO_WAITS_SUMMARY_BY_TABLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_table_io_waits ServiceIntegration#gather_table_io_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_table_io_waits ServiceIntegration#gather_table_io_waits}
   */
   readonly gatherTableIoWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.TABLE_LOCK_WAITS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_table_lock_waits ServiceIntegration#gather_table_lock_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_table_lock_waits ServiceIntegration#gather_table_lock_waits}
   */
   readonly gatherTableLockWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from INFORMATION_SCHEMA.TABLES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_table_schema ServiceIntegration#gather_table_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_table_schema ServiceIntegration#gather_table_schema}
   */
   readonly gatherTableSchema?: boolean | cdktf.IResolvable;
   /**
   * Truncates digest text from perf_events_statements into this many characters. Example: `120`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#perf_events_statements_digest_text_limit ServiceIntegration#perf_events_statements_digest_text_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#perf_events_statements_digest_text_limit ServiceIntegration#perf_events_statements_digest_text_limit}
   */
   readonly perfEventsStatementsDigestTextLimit?: number;
   /**
   * Limits metrics from perf_events_statements. Example: `250`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#perf_events_statements_limit ServiceIntegration#perf_events_statements_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#perf_events_statements_limit ServiceIntegration#perf_events_statements_limit}
   */
   readonly perfEventsStatementsLimit?: number;
   /**
   * Only include perf_events_statements whose last seen is less than this many seconds. Example: `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#perf_events_statements_time_limit ServiceIntegration#perf_events_statements_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#perf_events_statements_time_limit ServiceIntegration#perf_events_statements_time_limit}
   */
   readonly perfEventsStatementsTimeLimit?: number;
 }
@@ -5025,7 +5025,7 @@ export interface ServiceIntegrationMetricsUserConfigSourceMysql {
   /**
   * telegraf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#telegraf ServiceIntegration#telegraf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#telegraf ServiceIntegration#telegraf}
   */
   readonly telegraf?: ServiceIntegrationMetricsUserConfigSourceMysqlTelegraf;
 }
@@ -5111,31 +5111,31 @@ export interface ServiceIntegrationMetricsUserConfig {
   /**
   * Name of the database where to store metric datapoints. Only affects PostgreSQL destinations. Defaults to `metrics`. Note that this must be the same for all metrics integrations that write data to the same PostgreSQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#database ServiceIntegration#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#database ServiceIntegration#database}
   */
   readonly database?: string;
   /**
   * Number of days to keep old metrics. Only affects PostgreSQL destinations. Set to 0 for no automatic cleanup. Defaults to 30 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#retention_days ServiceIntegration#retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#retention_days ServiceIntegration#retention_days}
   */
   readonly retentionDays?: number;
   /**
   * Name of a user that can be used to read metrics. This will be used for Grafana integration (if enabled) to prevent Grafana users from making undesired changes. Only affects PostgreSQL destinations. Defaults to `metrics_reader`. Note that this must be the same for all metrics integrations that write data to the same PostgreSQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#ro_username ServiceIntegration#ro_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#ro_username ServiceIntegration#ro_username}
   */
   readonly roUsername?: string;
   /**
   * Name of the user used to write metrics. Only affects PostgreSQL destinations. Defaults to `metrics_writer`. Note that this must be the same for all metrics integrations that write data to the same PostgreSQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#username ServiceIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#username ServiceIntegration#username}
   */
   readonly username?: string;
   /**
   * source_mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#source_mysql ServiceIntegration#source_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#source_mysql ServiceIntegration#source_mysql}
   */
   readonly sourceMysql?: ServiceIntegrationMetricsUserConfigSourceMysql;
 }
@@ -5337,85 +5337,85 @@ export interface ServiceIntegrationPrometheusUserConfigSourceMysqlTelegraf {
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.EVENT_WAITS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_event_waits ServiceIntegration#gather_event_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_event_waits ServiceIntegration#gather_event_waits}
   */
   readonly gatherEventWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.FILE_SUMMARY_BY_EVENT_NAME.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_file_events_stats ServiceIntegration#gather_file_events_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_file_events_stats ServiceIntegration#gather_file_events_stats}
   */
   readonly gatherFileEventsStats?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.TABLE_IO_WAITS_SUMMARY_BY_INDEX_USAGE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_index_io_waits ServiceIntegration#gather_index_io_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_index_io_waits ServiceIntegration#gather_index_io_waits}
   */
   readonly gatherIndexIoWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather auto_increment columns and max values from information schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_info_schema_auto_inc ServiceIntegration#gather_info_schema_auto_inc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_info_schema_auto_inc ServiceIntegration#gather_info_schema_auto_inc}
   */
   readonly gatherInfoSchemaAutoInc?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from INFORMATION_SCHEMA.INNODB_METRICS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_innodb_metrics ServiceIntegration#gather_innodb_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_innodb_metrics ServiceIntegration#gather_innodb_metrics}
   */
   readonly gatherInnodbMetrics?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.EVENTS_STATEMENTS_SUMMARY_BY_DIGEST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_perf_events_statements ServiceIntegration#gather_perf_events_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_perf_events_statements ServiceIntegration#gather_perf_events_statements}
   */
   readonly gatherPerfEventsStatements?: boolean | cdktf.IResolvable;
   /**
   * Gather thread state counts from INFORMATION_SCHEMA.PROCESSLIST.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_process_list ServiceIntegration#gather_process_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_process_list ServiceIntegration#gather_process_list}
   */
   readonly gatherProcessList?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from SHOW SLAVE STATUS command output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_slave_status ServiceIntegration#gather_slave_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_slave_status ServiceIntegration#gather_slave_status}
   */
   readonly gatherSlaveStatus?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.TABLE_IO_WAITS_SUMMARY_BY_TABLE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_table_io_waits ServiceIntegration#gather_table_io_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_table_io_waits ServiceIntegration#gather_table_io_waits}
   */
   readonly gatherTableIoWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from PERFORMANCE_SCHEMA.TABLE_LOCK_WAITS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_table_lock_waits ServiceIntegration#gather_table_lock_waits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_table_lock_waits ServiceIntegration#gather_table_lock_waits}
   */
   readonly gatherTableLockWaits?: boolean | cdktf.IResolvable;
   /**
   * Gather metrics from INFORMATION_SCHEMA.TABLES.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#gather_table_schema ServiceIntegration#gather_table_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#gather_table_schema ServiceIntegration#gather_table_schema}
   */
   readonly gatherTableSchema?: boolean | cdktf.IResolvable;
   /**
   * Truncates digest text from perf_events_statements into this many characters. Example: `120`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#perf_events_statements_digest_text_limit ServiceIntegration#perf_events_statements_digest_text_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#perf_events_statements_digest_text_limit ServiceIntegration#perf_events_statements_digest_text_limit}
   */
   readonly perfEventsStatementsDigestTextLimit?: number;
   /**
   * Limits metrics from perf_events_statements. Example: `250`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#perf_events_statements_limit ServiceIntegration#perf_events_statements_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#perf_events_statements_limit ServiceIntegration#perf_events_statements_limit}
   */
   readonly perfEventsStatementsLimit?: number;
   /**
   * Only include perf_events_statements whose last seen is less than this many seconds. Example: `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#perf_events_statements_time_limit ServiceIntegration#perf_events_statements_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#perf_events_statements_time_limit ServiceIntegration#perf_events_statements_time_limit}
   */
   readonly perfEventsStatementsTimeLimit?: number;
 }
@@ -5878,7 +5878,7 @@ export interface ServiceIntegrationPrometheusUserConfigSourceMysql {
   /**
   * telegraf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#telegraf ServiceIntegration#telegraf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#telegraf ServiceIntegration#telegraf}
   */
   readonly telegraf?: ServiceIntegrationPrometheusUserConfigSourceMysqlTelegraf;
 }
@@ -5964,7 +5964,7 @@ export interface ServiceIntegrationPrometheusUserConfig {
   /**
   * source_mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#source_mysql ServiceIntegration#source_mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#source_mysql ServiceIntegration#source_mysql}
   */
   readonly sourceMysql?: ServiceIntegrationPrometheusUserConfigSourceMysql;
 }
@@ -6048,23 +6048,23 @@ export class ServiceIntegrationPrometheusUserConfigOutputReference extends cdktf
 }
 export interface ServiceIntegrationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#create ServiceIntegration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#create ServiceIntegration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#default ServiceIntegration#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#default ServiceIntegration#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#delete ServiceIntegration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#delete ServiceIntegration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#read ServiceIntegration#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#read ServiceIntegration#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#update ServiceIntegration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#update ServiceIntegration#update}
   */
   readonly update?: string;
 }
@@ -6274,7 +6274,7 @@ export class ServiceIntegrationTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration aiven_service_integration}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration aiven_service_integration}
 */
 export class ServiceIntegration extends cdktf.TerraformResource {
 
@@ -6290,7 +6290,7 @@ export class ServiceIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceIntegration to import
-  * @param importFromId The id of the existing ServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6302,7 +6302,7 @@ export class ServiceIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/service_integration aiven_service_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/service_integration aiven_service_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6313,8 +6313,8 @@ export class ServiceIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_service_integration',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

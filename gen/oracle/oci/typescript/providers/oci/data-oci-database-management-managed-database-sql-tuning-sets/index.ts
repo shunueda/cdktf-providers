@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseSqlTuningSetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#id DataOciDatabaseManagementManagedDatabaseSqlTuningSets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#id DataOciDatabaseManagementManagedDatabaseSqlTuningSets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningSets#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#managed_database_id DataOciDatabaseManagementManagedDatabaseSqlTuningSets#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#name_contains DataOciDatabaseManagementManagedDatabaseSqlTuningSets#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#name_contains DataOciDatabaseManagementManagedDatabaseSqlTuningSets#name_contains}
   */
   readonly nameContains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningSets#opc_named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseSqlTuningSets#opc_named_credential_id}
   */
   readonly opcNamedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#owner DataOciDatabaseManagementManagedDatabaseSqlTuningSets#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#owner DataOciDatabaseManagementManagedDatabaseSqlTuningSets#owner}
   */
   readonly owner?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#filter DataOciDatabaseManagementManagedDatabaseSqlTuningSets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#filter DataOciDatabaseManagementManagedDatabaseSqlTuningSets#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseSqlTuningSetsFilter[] | cdktf.IResolvable;
 }
@@ -235,15 +235,15 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningSetsSqlTuningSetCo
 }
 export interface DataOciDatabaseManagementManagedDatabaseSqlTuningSetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#name DataOciDatabaseManagementManagedDatabaseSqlTuningSets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#name DataOciDatabaseManagementManagedDatabaseSqlTuningSets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#regex DataOciDatabaseManagementManagedDatabaseSqlTuningSets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#regex DataOciDatabaseManagementManagedDatabaseSqlTuningSets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#values DataOciDatabaseManagementManagedDatabaseSqlTuningSets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#values DataOciDatabaseManagementManagedDatabaseSqlTuningSets#values}
   */
   readonly values: string[];
 }
@@ -411,7 +411,7 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningSetsFilterList ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets oci_database_management_managed_database_sql_tuning_sets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets oci_database_management_managed_database_sql_tuning_sets}
 */
 export class DataOciDatabaseManagementManagedDatabaseSqlTuningSets extends cdktf.TerraformDataSource {
 
@@ -427,7 +427,7 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningSets extends cdktf
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseSqlTuningSets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseSqlTuningSets to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseSqlTuningSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseSqlTuningSets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseSqlTuningSets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -439,7 +439,7 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningSets extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_sql_tuning_sets oci_database_management_managed_database_sql_tuning_sets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_sql_tuning_sets oci_database_management_managed_database_sql_tuning_sets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -450,8 +450,8 @@ export class DataOciDatabaseManagementManagedDatabaseSqlTuningSets extends cdktf
       terraformResourceType: 'oci_database_management_managed_database_sql_tuning_sets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

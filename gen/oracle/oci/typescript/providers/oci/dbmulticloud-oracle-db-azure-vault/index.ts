@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface DbmulticloudOracleDbAzureVaultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#azure_vault_id DbmulticloudOracleDbAzureVault#azure_vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#azure_vault_id DbmulticloudOracleDbAzureVault#azure_vault_id}
   */
   readonly azureVaultId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#compartment_id DbmulticloudOracleDbAzureVault#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#compartment_id DbmulticloudOracleDbAzureVault#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#defined_tags DbmulticloudOracleDbAzureVault#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#defined_tags DbmulticloudOracleDbAzureVault#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#display_name DbmulticloudOracleDbAzureVault#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#display_name DbmulticloudOracleDbAzureVault#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#freeform_tags DbmulticloudOracleDbAzureVault#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#freeform_tags DbmulticloudOracleDbAzureVault#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#id DbmulticloudOracleDbAzureVault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#id DbmulticloudOracleDbAzureVault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#location DbmulticloudOracleDbAzureVault#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#location DbmulticloudOracleDbAzureVault#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_resource_group DbmulticloudOracleDbAzureVault#oracle_db_azure_resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_azure_resource_group DbmulticloudOracleDbAzureVault#oracle_db_azure_resource_group}
   */
   readonly oracleDbAzureResourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_connector_id DbmulticloudOracleDbAzureVault#oracle_db_connector_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#oracle_db_connector_id DbmulticloudOracleDbAzureVault#oracle_db_connector_id}
   */
   readonly oracleDbConnectorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#properties DbmulticloudOracleDbAzureVault#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#properties DbmulticloudOracleDbAzureVault#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#type DbmulticloudOracleDbAzureVault#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#type DbmulticloudOracleDbAzureVault#type}
   */
   readonly type?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#timeouts DbmulticloudOracleDbAzureVault#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#timeouts DbmulticloudOracleDbAzureVault#timeouts}
   */
   readonly timeouts?: DbmulticloudOracleDbAzureVaultTimeouts;
 }
 export interface DbmulticloudOracleDbAzureVaultTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#create DbmulticloudOracleDbAzureVault#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#create DbmulticloudOracleDbAzureVault#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#delete DbmulticloudOracleDbAzureVault#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#delete DbmulticloudOracleDbAzureVault#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#update DbmulticloudOracleDbAzureVault#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#update DbmulticloudOracleDbAzureVault#update}
   */
   readonly update?: string;
 }
@@ -223,7 +223,7 @@ export class DbmulticloudOracleDbAzureVaultTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault oci_dbmulticloud_oracle_db_azure_vault}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault oci_dbmulticloud_oracle_db_azure_vault}
 */
 export class DbmulticloudOracleDbAzureVault extends cdktf.TerraformResource {
 
@@ -239,7 +239,7 @@ export class DbmulticloudOracleDbAzureVault extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbmulticloudOracleDbAzureVault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbmulticloudOracleDbAzureVault to import
-  * @param importFromId The id of the existing DbmulticloudOracleDbAzureVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbmulticloudOracleDbAzureVault that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbmulticloudOracleDbAzureVault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -251,7 +251,7 @@ export class DbmulticloudOracleDbAzureVault extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/dbmulticloud_oracle_db_azure_vault oci_dbmulticloud_oracle_db_azure_vault} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/dbmulticloud_oracle_db_azure_vault oci_dbmulticloud_oracle_db_azure_vault} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -262,8 +262,8 @@ export class DbmulticloudOracleDbAzureVault extends cdktf.TerraformResource {
       terraformResourceType: 'oci_dbmulticloud_oracle_db_azure_vault',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

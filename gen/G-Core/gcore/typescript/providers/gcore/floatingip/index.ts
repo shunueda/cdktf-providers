@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface FloatingipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#fixed_ip_address Floatingip#fixed_ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#fixed_ip_address Floatingip#fixed_ip_address}
   */
   readonly fixedIpAddress?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#id Floatingip#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#id Floatingip#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#metadata_map Floatingip#metadata_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#metadata_map Floatingip#metadata_map}
   */
   readonly metadataMap?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#port_id Floatingip#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#port_id Floatingip#port_id}
   */
   readonly portId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#project_id Floatingip#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#project_id Floatingip#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#project_name Floatingip#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#project_name Floatingip#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#region_id Floatingip#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#region_id Floatingip#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#region_name Floatingip#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#region_name Floatingip#region_name}
   */
   readonly regionName?: string;
   /**
   * Tags to associate with the floating IP. Tags are key-value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#tags Floatingip#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#tags Floatingip#tags}
   */
   readonly tags?: { [key: string]: string };
 }
@@ -136,7 +136,7 @@ export class FloatingipMetadataReadOnlyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip gcore_floatingip}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip gcore_floatingip}
 */
 export class Floatingip extends cdktf.TerraformResource {
 
@@ -152,7 +152,7 @@ export class Floatingip extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Floatingip resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Floatingip to import
-  * @param importFromId The id of the existing Floatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Floatingip that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Floatingip to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -164,7 +164,7 @@ export class Floatingip extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/floatingip gcore_floatingip} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/floatingip gcore_floatingip} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -175,8 +175,8 @@ export class Floatingip extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_floatingip',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

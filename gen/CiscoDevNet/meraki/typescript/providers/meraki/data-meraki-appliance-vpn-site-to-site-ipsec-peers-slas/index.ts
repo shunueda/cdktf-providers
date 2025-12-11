@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceVpnSiteToSiteIpsecPeersSlasConfig extends cd
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas#organization_id DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas#organization_id DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas#organization_id}
   */
   readonly organizationId: string;
 }
@@ -96,7 +96,7 @@ export class DataMerakiApplianceVpnSiteToSiteIpsecPeersSlasItemsList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas meraki_appliance_vpn_site_to_site_ipsec_peers_slas}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas meraki_appliance_vpn_site_to_site_ipsec_peers_slas}
 */
 export class DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas extends cdktf.Terraf
   * Generates CDKTF code for importing a DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas to import
-  * @param importFromId The id of the existing DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas meraki_appliance_vpn_site_to_site_ipsec_peers_slas} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_vpn_site_to_site_ipsec_peers_slas meraki_appliance_vpn_site_to_site_ipsec_peers_slas} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataMerakiApplianceVpnSiteToSiteIpsecPeersSlas extends cdktf.Terraf
       terraformResourceType: 'meraki_appliance_vpn_site_to_site_ipsec_peers_slas',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

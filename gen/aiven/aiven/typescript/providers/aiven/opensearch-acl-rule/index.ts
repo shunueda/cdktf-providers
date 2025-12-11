@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface OpensearchAclRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#id OpensearchAclRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#id OpensearchAclRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,59 +17,59 @@ export interface OpensearchAclRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The index pattern for this ACL rule. Maximum length: `249`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#index OpensearchAclRule#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#index OpensearchAclRule#index}
   */
   readonly index: string;
   /**
   * The permissions for this ACL rule. The possible values are `admin`, `deny`, `read`, `readwrite` and `write`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#permission OpensearchAclRule#permission}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#permission OpensearchAclRule#permission}
   */
   readonly permission: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#project OpensearchAclRule#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#project OpensearchAclRule#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#service_name OpensearchAclRule#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#service_name OpensearchAclRule#service_name}
   */
   readonly serviceName: string;
   /**
   * The username for the OpenSearch user this ACL rule applies to. Maximum length: `40`. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#username OpensearchAclRule#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#username OpensearchAclRule#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#timeouts OpensearchAclRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#timeouts OpensearchAclRule#timeouts}
   */
   readonly timeouts?: OpensearchAclRuleTimeouts;
 }
 export interface OpensearchAclRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#create OpensearchAclRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#create OpensearchAclRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#default OpensearchAclRule#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#default OpensearchAclRule#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#delete OpensearchAclRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#delete OpensearchAclRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#read OpensearchAclRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#read OpensearchAclRule#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#update OpensearchAclRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#update OpensearchAclRule#update}
   */
   readonly update?: string;
 }
@@ -279,7 +279,7 @@ export class OpensearchAclRuleTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule aiven_opensearch_acl_rule}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule aiven_opensearch_acl_rule}
 */
 export class OpensearchAclRule extends cdktf.TerraformResource {
 
@@ -295,7 +295,7 @@ export class OpensearchAclRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchAclRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchAclRule to import
-  * @param importFromId The id of the existing OpensearchAclRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchAclRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchAclRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class OpensearchAclRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_acl_rule aiven_opensearch_acl_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_acl_rule aiven_opensearch_acl_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class OpensearchAclRule extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_opensearch_acl_rule',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

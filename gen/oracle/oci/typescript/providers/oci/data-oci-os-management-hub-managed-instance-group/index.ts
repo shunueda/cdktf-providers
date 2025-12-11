@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_managed_instance_group
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOsManagementHubManagedInstanceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_managed_instance_group#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroup#managed_instance_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_group#managed_instance_group_id DataOciOsManagementHubManagedInstanceGroup#managed_instance_group_id}
   */
   readonly managedInstanceGroupId: string;
 }
@@ -189,7 +189,7 @@ export class DataOciOsManagementHubManagedInstanceGroupSoftwareSourcesList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_managed_instance_group oci_os_management_hub_managed_instance_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_group oci_os_management_hub_managed_instance_group}
 */
 export class DataOciOsManagementHubManagedInstanceGroup extends cdktf.TerraformDataSource {
 
@@ -205,7 +205,7 @@ export class DataOciOsManagementHubManagedInstanceGroup extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciOsManagementHubManagedInstanceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOsManagementHubManagedInstanceGroup to import
-  * @param importFromId The id of the existing DataOciOsManagementHubManagedInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_managed_instance_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOsManagementHubManagedInstanceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOsManagementHubManagedInstanceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class DataOciOsManagementHubManagedInstanceGroup extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/os_management_hub_managed_instance_group oci_os_management_hub_managed_instance_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/os_management_hub_managed_instance_group oci_os_management_hub_managed_instance_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class DataOciOsManagementHubManagedInstanceGroup extends cdktf.TerraformD
       terraformResourceType: 'oci_os_management_hub_managed_instance_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiWirelessSsidIdentityPskConfig extends cdktf.Terraform
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk#id DataMerakiWirelessSsidIdentityPsk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk#id DataMerakiWirelessSsidIdentityPsk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,25 +19,25 @@ export interface DataMerakiWirelessSsidIdentityPskConfig extends cdktf.Terraform
   /**
   * The name of the Identity PSK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk#name DataMerakiWirelessSsidIdentityPsk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk#name DataMerakiWirelessSsidIdentityPsk#name}
   */
   readonly name?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk#network_id DataMerakiWirelessSsidIdentityPsk#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk#network_id DataMerakiWirelessSsidIdentityPsk#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk#number DataMerakiWirelessSsidIdentityPsk#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk#number DataMerakiWirelessSsidIdentityPsk#number}
   */
   readonly number: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk}
 */
 export class DataMerakiWirelessSsidIdentityPsk extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataMerakiWirelessSsidIdentityPsk extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataMerakiWirelessSsidIdentityPsk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessSsidIdentityPsk to import
-  * @param importFromId The id of the existing DataMerakiWirelessSsidIdentityPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessSsidIdentityPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessSsidIdentityPsk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataMerakiWirelessSsidIdentityPsk extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataMerakiWirelessSsidIdentityPsk extends cdktf.TerraformDataSource
       terraformResourceType: 'meraki_wireless_ssid_identity_psk',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

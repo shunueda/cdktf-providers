@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWedataDataSourcesConfig extends cdktf.Terraform
   /**
   * Creator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#creator DataTencentcloudWedataDataSources#creator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#creator DataTencentcloudWedataDataSources#creator}
   */
   readonly creator?: string;
   /**
   * Data source display name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#display_name DataTencentcloudWedataDataSources#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#display_name DataTencentcloudWedataDataSources#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#id DataTencentcloudWedataDataSources#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#id DataTencentcloudWedataDataSources#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudWedataDataSourcesConfig extends cdktf.Terraform
   /**
   * Data source name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#name DataTencentcloudWedataDataSources#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#name DataTencentcloudWedataDataSources#name}
   */
   readonly name?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#project_id DataTencentcloudWedataDataSources#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#project_id DataTencentcloudWedataDataSources#project_id}
   */
   readonly projectId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#result_output_file DataTencentcloudWedataDataSources#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#result_output_file DataTencentcloudWedataDataSources#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
@@ -103,7 +103,7 @@ export interface DataTencentcloudWedataDataSourcesConfig extends cdktf.Terraform
   * - SSH
   * - BLOB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#type DataTencentcloudWedataDataSources#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#type DataTencentcloudWedataDataSources#type}
   */
   readonly type?: string[];
 }
@@ -249,7 +249,7 @@ export class DataTencentcloudWedataDataSourcesItemsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources tencentcloud_wedata_data_sources}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources tencentcloud_wedata_data_sources}
 */
 export class DataTencentcloudWedataDataSources extends cdktf.TerraformDataSource {
 
@@ -265,7 +265,7 @@ export class DataTencentcloudWedataDataSources extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataTencentcloudWedataDataSources resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataDataSources to import
-  * @param importFromId The id of the existing DataTencentcloudWedataDataSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataDataSources that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataDataSources to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -277,7 +277,7 @@ export class DataTencentcloudWedataDataSources extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_data_sources tencentcloud_wedata_data_sources} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_data_sources tencentcloud_wedata_data_sources} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -288,8 +288,8 @@ export class DataTencentcloudWedataDataSources extends cdktf.TerraformDataSource
       terraformResourceType: 'tencentcloud_wedata_data_sources',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

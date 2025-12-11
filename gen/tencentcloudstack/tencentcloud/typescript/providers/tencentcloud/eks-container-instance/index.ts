@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface EksContainerInstanceConfig extends cdktf.TerraformMetaArguments
   /**
   * Indicates whether to create EIP instead of specify existing EIPs. Conflict with `existed_eip_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#auto_create_eip EksContainerInstance#auto_create_eip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#auto_create_eip EksContainerInstance#auto_create_eip}
   */
   readonly autoCreateEip?: boolean | cdktf.IResolvable;
   /**
   * CAM role name authorized to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#cam_role_name EksContainerInstance#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#cam_role_name EksContainerInstance#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * The number of CPU cores. Check https://intl.cloud.tencent.com/document/product/457/34057 for specification references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#cpu EksContainerInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#cpu EksContainerInstance#cpu}
   */
   readonly cpu: number;
   /**
   * Type of cpu, which can set to `intel` or `amd`. It also support backup list like `amd,intel` which indicates using `intel` when `amd` sold out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#cpu_type EksContainerInstance#cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#cpu_type EksContainerInstance#cpu_type}
   */
   readonly cpuType?: string;
   /**
   * Map of DNS config options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#dns_config_options EksContainerInstance#dns_config_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#dns_config_options EksContainerInstance#dns_config_options}
   */
   readonly dnsConfigOptions?: { [key: string]: string };
   /**
   * IP Addresses of DNS Servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#dns_names_servers EksContainerInstance#dns_names_servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#dns_names_servers EksContainerInstance#dns_names_servers}
   */
   readonly dnsNamesServers?: string[];
   /**
   * List of DNS Search Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#dns_searches EksContainerInstance#dns_searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#dns_searches EksContainerInstance#dns_searches}
   */
   readonly dnsSearches?: string[];
   /**
   * Indicates weather the EIP release or not after instance deleted. Conflict with `existed_eip_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#eip_delete_policy EksContainerInstance#eip_delete_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#eip_delete_policy EksContainerInstance#eip_delete_policy}
   */
   readonly eipDeletePolicy?: boolean | cdktf.IResolvable;
   /**
   * Maximum outgoing bandwidth to the public network, measured in Mbps (Mega bits per second). Conflict with `existed_eip_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#eip_max_bandwidth_out EksContainerInstance#eip_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#eip_max_bandwidth_out EksContainerInstance#eip_max_bandwidth_out}
   */
   readonly eipMaxBandwidthOut?: number;
   /**
   * EIP service provider. Default is `BGP`, values `CMCC`,`CTCC`,`CUCC` are available for whitelist customer. Conflict with `existed_eip_ids`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#eip_service_provider EksContainerInstance#eip_service_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#eip_service_provider EksContainerInstance#eip_service_provider}
   */
   readonly eipServiceProvider?: string;
   /**
   * Existed EIP ID List which used to bind container instance. Conflict with `auto_create_eip` and auto create EIP options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#existed_eip_ids EksContainerInstance#existed_eip_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#existed_eip_ids EksContainerInstance#existed_eip_ids}
   */
   readonly existedEipIds?: string[];
   /**
   * Count of GPU. Check https://intl.cloud.tencent.com/document/product/457/34057 for specification references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#gpu_count EksContainerInstance#gpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#gpu_count EksContainerInstance#gpu_count}
   */
   readonly gpuCount?: number;
   /**
   * Type of GPU. Check https://intl.cloud.tencent.com/document/product/457/34057 for specification references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#gpu_type EksContainerInstance#gpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#gpu_type EksContainerInstance#gpu_type}
   */
   readonly gpuType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#id EksContainerInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#id EksContainerInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,67 +95,67 @@ export interface EksContainerInstanceConfig extends cdktf.TerraformMetaArguments
   /**
   * Memory size. Check https://intl.cloud.tencent.com/document/product/457/34057 for specification references.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#memory EksContainerInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#memory EksContainerInstance#memory}
   */
   readonly memory: number;
   /**
   * Name of EKS container instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
   /**
   * Container instance restart policy. Available values: `Always`, `Never`, `OnFailure`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#restart_policy EksContainerInstance#restart_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#restart_policy EksContainerInstance#restart_policy}
   */
   readonly restartPolicy?: string;
   /**
   * List of security group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#security_groups EksContainerInstance#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#security_groups EksContainerInstance#security_groups}
   */
   readonly securityGroups: string[];
   /**
   * Subnet ID of container instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#subnet_id EksContainerInstance#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#subnet_id EksContainerInstance#subnet_id}
   */
   readonly subnetId: string;
   /**
   * VPC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#vpc_id EksContainerInstance#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#vpc_id EksContainerInstance#vpc_id}
   */
   readonly vpcId: string;
   /**
   * cbs_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#cbs_volume EksContainerInstance#cbs_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#cbs_volume EksContainerInstance#cbs_volume}
   */
   readonly cbsVolume?: EksContainerInstanceCbsVolume[] | cdktf.IResolvable;
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#container EksContainerInstance#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#container EksContainerInstance#container}
   */
   readonly container: EksContainerInstanceContainer[] | cdktf.IResolvable;
   /**
   * image_registry_credential block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#image_registry_credential EksContainerInstance#image_registry_credential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#image_registry_credential EksContainerInstance#image_registry_credential}
   */
   readonly imageRegistryCredential?: EksContainerInstanceImageRegistryCredential[] | cdktf.IResolvable;
   /**
   * init_container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#init_container EksContainerInstance#init_container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#init_container EksContainerInstance#init_container}
   */
   readonly initContainer?: EksContainerInstanceInitContainer[] | cdktf.IResolvable;
   /**
   * nfs_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#nfs_volume EksContainerInstance#nfs_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#nfs_volume EksContainerInstance#nfs_volume}
   */
   readonly nfsVolume?: EksContainerInstanceNfsVolume[] | cdktf.IResolvable;
 }
@@ -163,13 +163,13 @@ export interface EksContainerInstanceCbsVolume {
   /**
   * ID of CBS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#disk_id EksContainerInstance#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#disk_id EksContainerInstance#disk_id}
   */
   readonly diskId: string;
   /**
   * Name of CBS volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
 }
@@ -310,62 +310,62 @@ export interface EksContainerInstanceContainerLivenessProbe {
   /**
   * List of execution commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#exec_commands EksContainerInstance#exec_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#exec_commands EksContainerInstance#exec_commands}
   */
   readonly execCommands?: string[];
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded.Default: `3`. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#failure_threshold EksContainerInstance#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#failure_threshold EksContainerInstance#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HttpGet detection path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#http_get_path EksContainerInstance#http_get_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#http_get_path EksContainerInstance#http_get_path}
   */
   readonly httpGetPath?: string;
   /**
   * HttpGet detection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#http_get_port EksContainerInstance#http_get_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#http_get_port EksContainerInstance#http_get_port}
   */
   readonly httpGetPort?: number;
   /**
   * HttpGet detection scheme. Available values: `HTTP`, `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#http_get_scheme EksContainerInstance#http_get_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#http_get_scheme EksContainerInstance#http_get_scheme}
   */
   readonly httpGetScheme?: string;
   /**
   * Number of seconds after the container has started before probes are initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#init_delay_seconds EksContainerInstance#init_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#init_delay_seconds EksContainerInstance#init_delay_seconds}
   */
   readonly initDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#period_seconds EksContainerInstance#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#period_seconds EksContainerInstance#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Default: `1`. Must be 1 for liveness. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#success_threshold EksContainerInstance#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#success_threshold EksContainerInstance#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCP Socket detection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#tcp_socket_port EksContainerInstance#tcp_socket_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#tcp_socket_port EksContainerInstance#tcp_socket_port}
   */
   readonly tcpSocketPort?: number;
   /**
   * Number of seconds after which the probe times out.
   * Defaults to 1 second. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#timeout_seconds EksContainerInstance#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#timeout_seconds EksContainerInstance#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -712,62 +712,62 @@ export interface EksContainerInstanceContainerReadinessProbe {
   /**
   * List of execution commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#exec_commands EksContainerInstance#exec_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#exec_commands EksContainerInstance#exec_commands}
   */
   readonly execCommands?: string[];
   /**
   * Minimum consecutive failures for the probe to be considered failed after having succeeded.Default: `3`. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#failure_threshold EksContainerInstance#failure_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#failure_threshold EksContainerInstance#failure_threshold}
   */
   readonly failureThreshold?: number;
   /**
   * HttpGet detection path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#http_get_path EksContainerInstance#http_get_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#http_get_path EksContainerInstance#http_get_path}
   */
   readonly httpGetPath?: string;
   /**
   * HttpGet detection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#http_get_port EksContainerInstance#http_get_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#http_get_port EksContainerInstance#http_get_port}
   */
   readonly httpGetPort?: number;
   /**
   * HttpGet detection scheme. Available values: `HTTP`, `HTTPS`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#http_get_scheme EksContainerInstance#http_get_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#http_get_scheme EksContainerInstance#http_get_scheme}
   */
   readonly httpGetScheme?: string;
   /**
   * Number of seconds after the container has started before probes are initiated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#init_delay_seconds EksContainerInstance#init_delay_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#init_delay_seconds EksContainerInstance#init_delay_seconds}
   */
   readonly initDelaySeconds?: number;
   /**
   * How often (in seconds) to perform the probe. Default to 10 seconds. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#period_seconds EksContainerInstance#period_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#period_seconds EksContainerInstance#period_seconds}
   */
   readonly periodSeconds?: number;
   /**
   * Minimum consecutive successes for the probe to be considered successful after having failed. Default: `1`. Must be 1 for liveness. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#success_threshold EksContainerInstance#success_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#success_threshold EksContainerInstance#success_threshold}
   */
   readonly successThreshold?: number;
   /**
   * TCP Socket detection port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#tcp_socket_port EksContainerInstance#tcp_socket_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#tcp_socket_port EksContainerInstance#tcp_socket_port}
   */
   readonly tcpSocketPort?: number;
   /**
   * Number of seconds after which the probe times out.
   * Defaults to 1 second. Minimum value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#timeout_seconds EksContainerInstance#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#timeout_seconds EksContainerInstance#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
 }
@@ -1114,37 +1114,37 @@ export interface EksContainerInstanceContainerVolumeMount {
   /**
   * Volume mount propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#mount_propagation EksContainerInstance#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#mount_propagation EksContainerInstance#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * Volume name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
   /**
   * Volume mount path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#path EksContainerInstance#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#path EksContainerInstance#path}
   */
   readonly path: string;
   /**
   * Whether the volume is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#read_only EksContainerInstance#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#read_only EksContainerInstance#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Volume mount sub-path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#sub_path EksContainerInstance#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#sub_path EksContainerInstance#sub_path}
   */
   readonly subPath?: string;
   /**
   * Volume mount sub-path expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#sub_path_expr EksContainerInstance#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#sub_path_expr EksContainerInstance#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -1401,67 +1401,67 @@ export interface EksContainerInstanceContainer {
   /**
   * Container launch argument list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#args EksContainerInstance#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#args EksContainerInstance#args}
   */
   readonly args?: string[];
   /**
   * Container launch command list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#commands EksContainerInstance#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#commands EksContainerInstance#commands}
   */
   readonly commands?: string[];
   /**
   * Number of cpu core of container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#cpu EksContainerInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#cpu EksContainerInstance#cpu}
   */
   readonly cpu?: number;
   /**
   * Map of environment variables of container OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#env_vars EksContainerInstance#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#env_vars EksContainerInstance#env_vars}
   */
   readonly envVars?: { [key: string]: string };
   /**
   * Image of Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#image EksContainerInstance#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#image EksContainerInstance#image}
   */
   readonly image: string;
   /**
   * Memory size of container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#memory EksContainerInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#memory EksContainerInstance#memory}
   */
   readonly memory?: number;
   /**
   * Name of Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
   /**
   * Container working directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#working_dir EksContainerInstance#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#working_dir EksContainerInstance#working_dir}
   */
   readonly workingDir?: string;
   /**
   * liveness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#liveness_probe EksContainerInstance#liveness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#liveness_probe EksContainerInstance#liveness_probe}
   */
   readonly livenessProbe?: EksContainerInstanceContainerLivenessProbe;
   /**
   * readiness_probe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#readiness_probe EksContainerInstance#readiness_probe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#readiness_probe EksContainerInstance#readiness_probe}
   */
   readonly readinessProbe?: EksContainerInstanceContainerReadinessProbe;
   /**
   * volume_mount block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#volume_mount EksContainerInstance#volume_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#volume_mount EksContainerInstance#volume_mount}
   */
   readonly volumeMount?: EksContainerInstanceContainerVolumeMount[] | cdktf.IResolvable;
 }
@@ -1863,25 +1863,25 @@ export interface EksContainerInstanceImageRegistryCredential {
   /**
   * Name of credential.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name?: string;
   /**
   * Password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#password EksContainerInstance#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#password EksContainerInstance#password}
   */
   readonly password?: string;
   /**
   * Address of image registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#server EksContainerInstance#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#server EksContainerInstance#server}
   */
   readonly server?: string;
   /**
   * Username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#username EksContainerInstance#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#username EksContainerInstance#username}
   */
   readonly username?: string;
 }
@@ -2086,37 +2086,37 @@ export interface EksContainerInstanceInitContainerVolumeMount {
   /**
   * Volume mount propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#mount_propagation EksContainerInstance#mount_propagation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#mount_propagation EksContainerInstance#mount_propagation}
   */
   readonly mountPropagation?: string;
   /**
   * Volume name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
   /**
   * Volume mount path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#path EksContainerInstance#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#path EksContainerInstance#path}
   */
   readonly path: string;
   /**
   * Whether the volume is read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#read_only EksContainerInstance#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#read_only EksContainerInstance#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * Volume mount sub-path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#sub_path EksContainerInstance#sub_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#sub_path EksContainerInstance#sub_path}
   */
   readonly subPath?: string;
   /**
   * Volume mount sub-path expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#sub_path_expr EksContainerInstance#sub_path_expr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#sub_path_expr EksContainerInstance#sub_path_expr}
   */
   readonly subPathExpr?: string;
 }
@@ -2373,55 +2373,55 @@ export interface EksContainerInstanceInitContainer {
   /**
   * Container launch argument list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#args EksContainerInstance#args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#args EksContainerInstance#args}
   */
   readonly args?: string[];
   /**
   * Container launch command list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#commands EksContainerInstance#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#commands EksContainerInstance#commands}
   */
   readonly commands?: string[];
   /**
   * Number of cpu core of container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#cpu EksContainerInstance#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#cpu EksContainerInstance#cpu}
   */
   readonly cpu?: number;
   /**
   * Map of environment variables of container OS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#env_vars EksContainerInstance#env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#env_vars EksContainerInstance#env_vars}
   */
   readonly envVars?: { [key: string]: string };
   /**
   * Image of Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#image EksContainerInstance#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#image EksContainerInstance#image}
   */
   readonly image: string;
   /**
   * Memory size of container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#memory EksContainerInstance#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#memory EksContainerInstance#memory}
   */
   readonly memory?: number;
   /**
   * Name of Container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
   /**
   * Container working directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#working_dir EksContainerInstance#working_dir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#working_dir EksContainerInstance#working_dir}
   */
   readonly workingDir?: string;
   /**
   * volume_mount block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#volume_mount EksContainerInstance#volume_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#volume_mount EksContainerInstance#volume_mount}
   */
   readonly volumeMount?: EksContainerInstanceInitContainerVolumeMount[] | cdktf.IResolvable;
 }
@@ -2765,25 +2765,25 @@ export interface EksContainerInstanceNfsVolume {
   /**
   * Name of NFS volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#name EksContainerInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#name EksContainerInstance#name}
   */
   readonly name: string;
   /**
   * NFS volume path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#path EksContainerInstance#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#path EksContainerInstance#path}
   */
   readonly path: string;
   /**
   * Indicates whether the volume is read only. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#read_only EksContainerInstance#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#read_only EksContainerInstance#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * NFS server address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#server EksContainerInstance#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#server EksContainerInstance#server}
   */
   readonly server: string;
 }
@@ -2977,7 +2977,7 @@ export class EksContainerInstanceNfsVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance tencentcloud_eks_container_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance tencentcloud_eks_container_instance}
 */
 export class EksContainerInstance extends cdktf.TerraformResource {
 
@@ -2993,7 +2993,7 @@ export class EksContainerInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EksContainerInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EksContainerInstance to import
-  * @param importFromId The id of the existing EksContainerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EksContainerInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EksContainerInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3005,7 +3005,7 @@ export class EksContainerInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eks_container_instance tencentcloud_eks_container_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eks_container_instance tencentcloud_eks_container_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3016,8 +3016,8 @@ export class EksContainerInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_eks_container_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

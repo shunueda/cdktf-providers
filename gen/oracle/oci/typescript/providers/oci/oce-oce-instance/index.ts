@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,98 +8,98 @@ import * as cdktf from 'cdktf';
 
 export interface OceOceInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#add_on_features OceOceInstance#add_on_features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#add_on_features OceOceInstance#add_on_features}
   */
   readonly addOnFeatures?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#admin_email OceOceInstance#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#admin_email OceOceInstance#admin_email}
   */
   readonly adminEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#compartment_id OceOceInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#compartment_id OceOceInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#defined_tags OceOceInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#defined_tags OceOceInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#description OceOceInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#description OceOceInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#dr_region OceOceInstance#dr_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#dr_region OceOceInstance#dr_region}
   */
   readonly drRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#freeform_tags OceOceInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#freeform_tags OceOceInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#id OceOceInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#id OceOceInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#idcs_access_token OceOceInstance#idcs_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#idcs_access_token OceOceInstance#idcs_access_token}
   */
   readonly idcsAccessToken: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#instance_access_type OceOceInstance#instance_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#instance_access_type OceOceInstance#instance_access_type}
   */
   readonly instanceAccessType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#instance_license_type OceOceInstance#instance_license_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#instance_license_type OceOceInstance#instance_license_type}
   */
   readonly instanceLicenseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#instance_usage_type OceOceInstance#instance_usage_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#instance_usage_type OceOceInstance#instance_usage_type}
   */
   readonly instanceUsageType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#name OceOceInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#name OceOceInstance#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#object_storage_namespace OceOceInstance#object_storage_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#object_storage_namespace OceOceInstance#object_storage_namespace}
   */
   readonly objectStorageNamespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#tenancy_id OceOceInstance#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#tenancy_id OceOceInstance#tenancy_id}
   */
   readonly tenancyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#tenancy_name OceOceInstance#tenancy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#tenancy_name OceOceInstance#tenancy_name}
   */
   readonly tenancyName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#upgrade_schedule OceOceInstance#upgrade_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#upgrade_schedule OceOceInstance#upgrade_schedule}
   */
   readonly upgradeSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#waf_primary_domain OceOceInstance#waf_primary_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#waf_primary_domain OceOceInstance#waf_primary_domain}
   */
   readonly wafPrimaryDomain?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#timeouts OceOceInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#timeouts OceOceInstance#timeouts}
   */
   readonly timeouts?: OceOceInstanceTimeouts;
 }
 export interface OceOceInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#create OceOceInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#create OceOceInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#delete OceOceInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#delete OceOceInstance#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#update OceOceInstance#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#update OceOceInstance#update}
   */
   readonly update?: string;
 }
@@ -251,7 +251,7 @@ export class OceOceInstanceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance oci_oce_oce_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance oci_oce_oce_instance}
 */
 export class OceOceInstance extends cdktf.TerraformResource {
 
@@ -267,7 +267,7 @@ export class OceOceInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OceOceInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OceOceInstance to import
-  * @param importFromId The id of the existing OceOceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OceOceInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OceOceInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class OceOceInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/oce_oce_instance oci_oce_oce_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/oce_oce_instance oci_oce_oce_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class OceOceInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_oce_oce_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWedataResourceGroupMetricsConfig extends cdktf.
   /**
   * Usage trend end time (milliseconds), default to current time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#end_time DataTencentcloudWedataResourceGroupMetrics#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#end_time DataTencentcloudWedataResourceGroupMetrics#end_time}
   */
   readonly endTime?: number;
   /**
   * Metric collection granularity, unit in minutes, default 1 minute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#granularity DataTencentcloudWedataResourceGroupMetrics#granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#granularity DataTencentcloudWedataResourceGroupMetrics#granularity}
   */
   readonly granularity?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#id DataTencentcloudWedataResourceGroupMetrics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#id DataTencentcloudWedataResourceGroupMetrics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,25 +33,25 @@ export interface DataTencentcloudWedataResourceGroupMetricsConfig extends cdktf.
   * - task --- Task metrics
   * - system --- System metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#metric_type DataTencentcloudWedataResourceGroupMetrics#metric_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#metric_type DataTencentcloudWedataResourceGroupMetrics#metric_type}
   */
   readonly metricType?: string;
   /**
   * Execution resource group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#resource_group_id DataTencentcloudWedataResourceGroupMetrics#resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#resource_group_id DataTencentcloudWedataResourceGroupMetrics#resource_group_id}
   */
   readonly resourceGroupId: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#result_output_file DataTencentcloudWedataResourceGroupMetrics#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#result_output_file DataTencentcloudWedataResourceGroupMetrics#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Usage trend start time (milliseconds), default to the last hour.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#start_time DataTencentcloudWedataResourceGroupMetrics#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#start_time DataTencentcloudWedataResourceGroupMetrics#start_time}
   */
   readonly startTime?: number;
 }
@@ -329,7 +329,7 @@ export class DataTencentcloudWedataResourceGroupMetricsDataList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics tencentcloud_wedata_resource_group_metrics}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics tencentcloud_wedata_resource_group_metrics}
 */
 export class DataTencentcloudWedataResourceGroupMetrics extends cdktf.TerraformDataSource {
 
@@ -345,7 +345,7 @@ export class DataTencentcloudWedataResourceGroupMetrics extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataTencentcloudWedataResourceGroupMetrics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataResourceGroupMetrics to import
-  * @param importFromId The id of the existing DataTencentcloudWedataResourceGroupMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataResourceGroupMetrics that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataResourceGroupMetrics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +357,7 @@ export class DataTencentcloudWedataResourceGroupMetrics extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_group_metrics tencentcloud_wedata_resource_group_metrics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_group_metrics tencentcloud_wedata_resource_group_metrics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,8 +368,8 @@ export class DataTencentcloudWedataResourceGroupMetrics extends cdktf.TerraformD
       terraformResourceType: 'tencentcloud_wedata_resource_group_metrics',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

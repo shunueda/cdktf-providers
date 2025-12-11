@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RedisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#additional_disk_space Redis#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#additional_disk_space Redis#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#cloud_name Redis#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#cloud_name Redis#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#disk_space Redis#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#disk_space Redis#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#id Redis#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#id Redis#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface RedisConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#maintenance_window_dow Redis#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#maintenance_window_dow Redis#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#maintenance_window_time Redis#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#maintenance_window_time Redis#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#plan Redis#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#plan Redis#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#project Redis#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#project Redis#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#project_vpc_id Redis#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#project_vpc_id Redis#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#service_name Redis#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#service_name Redis#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#static_ips Redis#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#static_ips Redis#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#termination_protection Redis#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#termination_protection Redis#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * redis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis Redis#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis Redis#redis}
   */
   readonly redis?: RedisRedis;
   /**
   * redis_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_user_config Redis#redis_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_user_config Redis#redis_user_config}
   */
   readonly redisUserConfig?: RedisRedisUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#service_integrations Redis#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#service_integrations Redis#service_integrations}
   */
   readonly serviceIntegrations?: RedisServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#tag Redis#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#tag Redis#tag}
   */
   readonly tag?: RedisTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#tech_emails Redis#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#tech_emails Redis#tech_emails}
   */
   readonly techEmails?: RedisTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#timeouts Redis#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#timeouts Redis#timeouts}
   */
   readonly timeouts?: RedisTimeouts;
 }
@@ -236,13 +236,13 @@ export interface RedisRedis {
   /**
   * Redis slave server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#slave_uris Redis#slave_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#slave_uris Redis#slave_uris}
   */
   readonly slaveUris?: string[];
   /**
   * Redis server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#uris Redis#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#uris Redis#uris}
   */
   readonly uris?: string[];
 }
@@ -367,13 +367,13 @@ export interface RedisRedisUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#description Redis#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#description Redis#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#network Redis#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#network Redis#network}
   */
   readonly network: string;
 }
@@ -517,55 +517,55 @@ export interface RedisRedisUserConfigMigration {
   /**
   * Database name for bootstrapping the initial connection. Example: `defaultdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#dbname Redis#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#dbname Redis#dbname}
   */
   readonly dbname?: string;
   /**
   * Hostname or IP address of the server where to migrate data from. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#host Redis#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#host Redis#host}
   */
   readonly host: string;
   /**
   * Comma-separated list of databases, which should be ignored during migration (supported by MySQL and PostgreSQL only at the moment). Example: `db1,db2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#ignore_dbs Redis#ignore_dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#ignore_dbs Redis#ignore_dbs}
   */
   readonly ignoreDbs?: string;
   /**
   * Comma-separated list of database roles, which should be ignored during migration (supported by PostgreSQL only at the moment). Example: `role1,role2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#ignore_roles Redis#ignore_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#ignore_roles Redis#ignore_roles}
   */
   readonly ignoreRoles?: string;
   /**
   * Enum: `dump`, `replication`. The migration method to be used (currently supported only by Redis, Dragonfly, MySQL and PostgreSQL service types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#method Redis#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#method Redis#method}
   */
   readonly method?: string;
   /**
   * Password for authentication with the server where to migrate data from. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#password Redis#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#password Redis#password}
   */
   readonly password?: string;
   /**
   * Port number of the server where to migrate data from. Example: `1234`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#port Redis#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#port Redis#port}
   */
   readonly port: number;
   /**
   * The server where to migrate data from is secured with SSL. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#ssl Redis#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#ssl Redis#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * User name for authentication with the server where to migrate data from. Example: `myname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#username Redis#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#username Redis#username}
   */
   readonly username?: string;
 }
@@ -877,13 +877,13 @@ export interface RedisRedisUserConfigPrivateAccess {
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#prometheus Redis#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#prometheus Redis#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to redis with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis Redis#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis Redis#redis}
   */
   readonly redis?: boolean | cdktf.IResolvable;
 }
@@ -998,13 +998,13 @@ export interface RedisRedisUserConfigPrivatelinkAccess {
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#prometheus Redis#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#prometheus Redis#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Enable redis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis Redis#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis Redis#redis}
   */
   readonly redis?: boolean | cdktf.IResolvable;
 }
@@ -1119,13 +1119,13 @@ export interface RedisRedisUserConfigPublicAccess {
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#prometheus Redis#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#prometheus Redis#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to redis from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis Redis#redis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis Redis#redis}
   */
   readonly redis?: boolean | cdktf.IResolvable;
 }
@@ -1240,163 +1240,163 @@ export interface RedisRedisUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#additional_backup_regions Redis#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#additional_backup_regions Redis#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * The hour of day (in UTC) when backup for the service is started. New backup is only started if previous backup has already completed. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#backup_hour Redis#backup_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#backup_hour Redis#backup_hour}
   */
   readonly backupHour?: number;
   /**
   * The minute of an hour when backup for the service is started. New backup is only started if previous backup has already completed. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#backup_minute Redis#backup_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#backup_minute Redis#backup_minute}
   */
   readonly backupMinute?: number;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#ip_filter Redis#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#ip_filter Redis#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#ip_filter_string Redis#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#ip_filter_string Redis#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#project_to_fork_from Redis#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#project_to_fork_from Redis#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Name of the basebackup to restore in forked service. Example: `backup-20191112t091354293891z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#recovery_basebackup_name Redis#recovery_basebackup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#recovery_basebackup_name Redis#recovery_basebackup_name}
   */
   readonly recoveryBasebackupName?: string;
   /**
   * Enum: `allchannels`, `resetchannels`. Determines default pub/sub channels' ACL for new users if ACL is not supplied. When this option is not defined, all_channels is assumed to keep backward compatibility. This option doesn't affect Redis configuration acl-pubsub-default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_acl_channels_default Redis#redis_acl_channels_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_acl_channels_default Redis#redis_acl_channels_default}
   */
   readonly redisAclChannelsDefault?: string;
   /**
   * Set Redis IO thread count. Changing this will cause a restart of the Redis service. Example: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_io_threads Redis#redis_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_io_threads Redis#redis_io_threads}
   */
   readonly redisIoThreads?: number;
   /**
   * LFU maxmemory-policy counter decay time in minutes. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_lfu_decay_time Redis#redis_lfu_decay_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_lfu_decay_time Redis#redis_lfu_decay_time}
   */
   readonly redisLfuDecayTime?: number;
   /**
   * Counter logarithm factor for volatile-lfu and allkeys-lfu maxmemory-policies. Default: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_lfu_log_factor Redis#redis_lfu_log_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_lfu_log_factor Redis#redis_lfu_log_factor}
   */
   readonly redisLfuLogFactor?: number;
   /**
   * Enum: `allkeys-lfu`, `allkeys-lru`, `allkeys-random`, `noeviction`, `volatile-lfu`, `volatile-lru`, `volatile-random`, `volatile-ttl`. Redis maxmemory-policy. Default: `noeviction`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_maxmemory_policy Redis#redis_maxmemory_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_maxmemory_policy Redis#redis_maxmemory_policy}
   */
   readonly redisMaxmemoryPolicy?: string;
   /**
   * Set notify-keyspace-events option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_notify_keyspace_events Redis#redis_notify_keyspace_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_notify_keyspace_events Redis#redis_notify_keyspace_events}
   */
   readonly redisNotifyKeyspaceEvents?: string;
   /**
   * Set number of Redis databases. Changing this will cause a restart of the Redis service. Example: `16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_number_of_databases Redis#redis_number_of_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_number_of_databases Redis#redis_number_of_databases}
   */
   readonly redisNumberOfDatabases?: number;
   /**
   * Enum: `off`, `rdb`. When persistence is `rdb`, Redis does RDB dumps each 10 minutes if any key is changed. Also RDB dumps are done according to the backup schedule for backup purposes. When persistence is `off`, no RDB dumps or backups are done, so data can be lost at any moment if the service is restarted for any reason, or if the service is powered off. Also, the service can't be forked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_persistence Redis#redis_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_persistence Redis#redis_persistence}
   */
   readonly redisPersistence?: string;
   /**
   * Set output buffer limit for pub / sub clients in MB. The value is the hard limit, the soft limit is 1/4 of the hard limit. When setting the limit, be mindful of the available memory in the selected service plan. Example: `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_pubsub_client_output_buffer_limit Redis#redis_pubsub_client_output_buffer_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_pubsub_client_output_buffer_limit Redis#redis_pubsub_client_output_buffer_limit}
   */
   readonly redisPubsubClientOutputBufferLimit?: number;
   /**
   * Require SSL to access Redis. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_ssl Redis#redis_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_ssl Redis#redis_ssl}
   */
   readonly redisSsl?: boolean | cdktf.IResolvable;
   /**
   * Redis idle connection timeout in seconds. Default: `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_timeout Redis#redis_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_timeout Redis#redis_timeout}
   */
   readonly redisTimeout?: number;
   /**
   * Enum: `7.0`, and newer. Redis major version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#redis_version Redis#redis_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#redis_version Redis#redis_version}
   */
   readonly redisVersion?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#service_log Redis#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#service_log Redis#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#service_to_fork_from Redis#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#service_to_fork_from Redis#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#static_ips Redis#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#static_ips Redis#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#ip_filter_object Redis#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#ip_filter_object Redis#ip_filter_object}
   */
   readonly ipFilterObject?: RedisRedisUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#migration Redis#migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#migration Redis#migration}
   */
   readonly migration?: RedisRedisUserConfigMigration;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#private_access Redis#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#private_access Redis#private_access}
   */
   readonly privateAccess?: RedisRedisUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#privatelink_access Redis#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#privatelink_access Redis#privatelink_access}
   */
   readonly privatelinkAccess?: RedisRedisUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#public_access Redis#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#public_access Redis#public_access}
   */
   readonly publicAccess?: RedisRedisUserConfigPublicAccess;
 }
@@ -2236,13 +2236,13 @@ export interface RedisServiceIntegrations {
   /**
   * Type of the service integration. The possible value is `read_replica`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#integration_type Redis#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#integration_type Redis#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#source_service_name Redis#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#source_service_name Redis#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -2383,13 +2383,13 @@ export interface RedisTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#key Redis#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#key Redis#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#value Redis#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#value Redis#value}
   */
   readonly value: string;
 }
@@ -2530,7 +2530,7 @@ export interface RedisTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#email Redis#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#email Redis#email}
   */
   readonly email: string;
 }
@@ -2643,23 +2643,23 @@ export class RedisTechEmailsList extends cdktf.ComplexList {
 }
 export interface RedisTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#create Redis#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#create Redis#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#default Redis#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#default Redis#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#delete Redis#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#delete Redis#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#read Redis#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#read Redis#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#update Redis#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#update Redis#update}
   */
   readonly update?: string;
 }
@@ -2869,7 +2869,7 @@ export class RedisTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis aiven_redis}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis aiven_redis}
 */
 export class Redis extends cdktf.TerraformResource {
 
@@ -2885,7 +2885,7 @@ export class Redis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Redis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Redis to import
-  * @param importFromId The id of the existing Redis that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Redis that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Redis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2897,7 +2897,7 @@ export class Redis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/redis aiven_redis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/redis aiven_redis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2908,8 +2908,8 @@ export class Redis extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_redis',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,18 +8,18 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#security_policy_deployment_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState#security_policy_deployment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#security_policy_deployment_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState#security_policy_deployment_id}
   */
   readonly securityPolicyDeploymentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#security_policy_entry_state_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState#security_policy_entry_state_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#security_policy_entry_state_id DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState#security_policy_entry_state_id}
   */
   readonly securityPolicyEntryStateId: string;
 }
@@ -120,7 +120,7 @@ export class DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryStateEntr
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state oci_data_safe_security_policy_deployment_security_policy_entry_state}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state oci_data_safe_security_policy_deployment_security_policy_entry_state}
 */
 export class DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState extends cdktf.TerraformDataSource {
 
@@ -136,7 +136,7 @@ export class DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState ext
   * Generates CDKTF code for importing a DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState to import
-  * @param importFromId The id of the existing DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState ext
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state oci_data_safe_security_policy_deployment_security_policy_entry_state} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_policy_deployment_security_policy_entry_state oci_data_safe_security_policy_deployment_security_policy_entry_state} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class DataOciDataSafeSecurityPolicyDeploymentSecurityPolicyEntryState ext
       terraformResourceType: 'oci_data_safe_security_policy_deployment_security_policy_entry_state',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

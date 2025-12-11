@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAivenServiceComponentConfig extends cdktf.TerraformMetaArgu
   /**
   * Service component name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#component DataAivenServiceComponent#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#component DataAivenServiceComponent#component}
   */
   readonly component: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#id DataAivenServiceComponent#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#id DataAivenServiceComponent#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface DataAivenServiceComponentConfig extends cdktf.TerraformMetaArgu
   /**
   * Kafka authentication method. This is a value specific to the 'kafka' service component. The possible values are `certificate` and `sasl`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#kafka_authentication_method DataAivenServiceComponent#kafka_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#kafka_authentication_method DataAivenServiceComponent#kafka_authentication_method}
   */
   readonly kafkaAuthenticationMethod?: string;
   /**
   * Project name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#project DataAivenServiceComponent#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#project DataAivenServiceComponent#project}
   */
   readonly project: string;
   /**
   * Network access route. The possible values are `dynamic`, `private`, `privatelink` and `public`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#route DataAivenServiceComponent#route}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#route DataAivenServiceComponent#route}
   */
   readonly route?: string;
   /**
   * Service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#service_name DataAivenServiceComponent#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#service_name DataAivenServiceComponent#service_name}
   */
   readonly serviceName?: string;
   /**
   * Whether the endpoint is encrypted or accepts plaintext. By default endpoints are always encrypted and this property is only included for service components that may disable encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#ssl DataAivenServiceComponent#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#ssl DataAivenServiceComponent#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
-  * DNS usage name. The possible values are `disaster_recovery`, `primary` and `replica`.
+  * DNS usage name. The possible values are `disaster_recovery`, `ha_replica`, `primary` and `replica`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#usage DataAivenServiceComponent#usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#usage DataAivenServiceComponent#usage}
   */
   readonly usage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component aiven_service_component}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component aiven_service_component}
 */
 export class DataAivenServiceComponent extends cdktf.TerraformDataSource {
 
@@ -75,7 +75,7 @@ export class DataAivenServiceComponent extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAivenServiceComponent resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenServiceComponent to import
-  * @param importFromId The id of the existing DataAivenServiceComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenServiceComponent that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenServiceComponent to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class DataAivenServiceComponent extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_component aiven_service_component} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_component aiven_service_component} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class DataAivenServiceComponent extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_service_component',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

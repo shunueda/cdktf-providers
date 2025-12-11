@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciNetworkFirewallNetworkFirewallPolicyNatRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule#nat_rule_name DataOciNetworkFirewallNetworkFirewallPolicyNatRule#nat_rule_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule#nat_rule_name DataOciNetworkFirewallNetworkFirewallPolicyNatRule#nat_rule_name}
   */
   readonly natRuleName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule#network_firewall_policy_id DataOciNetworkFirewallNetworkFirewallPolicyNatRule#network_firewall_policy_id}
   */
   readonly networkFirewallPolicyId: string;
 }
@@ -183,7 +183,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyNatRulePositionList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule}
 */
 export class DataOciNetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.Te
   * Generates CDKTF code for importing a DataOciNetworkFirewallNetworkFirewallPolicyNatRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciNetworkFirewallNetworkFirewallPolicyNatRule to import
-  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyNatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciNetworkFirewallNetworkFirewallPolicyNatRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciNetworkFirewallNetworkFirewallPolicyNatRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/network_firewall_network_firewall_policy_nat_rule oci_network_firewall_network_firewall_policy_nat_rule} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataOciNetworkFirewallNetworkFirewallPolicyNatRule extends cdktf.Te
       terraformResourceType: 'oci_network_firewall_network_firewall_policy_nat_rule',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WirelessSsidDeviceTypeGroupPoliciesConfig extends cdktf.Terrafo
   /**
   * List of device type policies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#device_type_policies WirelessSsidDeviceTypeGroupPolicies#device_type_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#device_type_policies WirelessSsidDeviceTypeGroupPolicies#device_type_policies}
   */
   readonly deviceTypePolicies?: WirelessSsidDeviceTypeGroupPoliciesDeviceTypePolicies[] | cdktf.IResolvable;
   /**
   * If true, the SSID device type group policies are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#enabled WirelessSsidDeviceTypeGroupPolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#enabled WirelessSsidDeviceTypeGroupPolicies#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#network_id WirelessSsidDeviceTypeGroupPolicies#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#network_id WirelessSsidDeviceTypeGroupPolicies#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#number WirelessSsidDeviceTypeGroupPolicies#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#number WirelessSsidDeviceTypeGroupPolicies#number}
   */
   readonly number: string;
 }
@@ -37,20 +37,20 @@ export interface WirelessSsidDeviceTypeGroupPoliciesDeviceTypePolicies {
   * The device policy. Can be one of `Allowed`, `Blocked` or `Group policy`
   *   - Choices: `Allowed`, `Blocked`, `Group policy`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#device_policy WirelessSsidDeviceTypeGroupPolicies#device_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#device_policy WirelessSsidDeviceTypeGroupPolicies#device_policy}
   */
   readonly devicePolicy: string;
   /**
   * The device type. Can be one of `Android`, `BlackBerry`, `Chrome OS`, `iPad`, `iPhone`, `iPod`, `Mac OS X`, `Windows`, `Windows Phone`, `B&N Nook` or `Other OS`
   *   - Choices: `Android`, `B&N Nook`, `BlackBerry`, `Chrome OS`, `Mac OS X`, `Other OS`, `Windows`, `Windows Phone`, `iPad`, `iPhone`, `iPod`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#device_type WirelessSsidDeviceTypeGroupPolicies#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#device_type WirelessSsidDeviceTypeGroupPolicies#device_type}
   */
   readonly deviceType: string;
   /**
   * ID of the group policy object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#group_policy_id WirelessSsidDeviceTypeGroupPolicies#group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#group_policy_id WirelessSsidDeviceTypeGroupPolicies#group_policy_id}
   */
   readonly groupPolicyId?: number;
 }
@@ -218,7 +218,7 @@ export class WirelessSsidDeviceTypeGroupPoliciesDeviceTypePoliciesList extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies meraki_wireless_ssid_device_type_group_policies}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies meraki_wireless_ssid_device_type_group_policies}
 */
 export class WirelessSsidDeviceTypeGroupPolicies extends cdktf.TerraformResource {
 
@@ -234,7 +234,7 @@ export class WirelessSsidDeviceTypeGroupPolicies extends cdktf.TerraformResource
   * Generates CDKTF code for importing a WirelessSsidDeviceTypeGroupPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidDeviceTypeGroupPolicies to import
-  * @param importFromId The id of the existing WirelessSsidDeviceTypeGroupPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidDeviceTypeGroupPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidDeviceTypeGroupPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class WirelessSsidDeviceTypeGroupPolicies extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_device_type_group_policies meraki_wireless_ssid_device_type_group_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_device_type_group_policies meraki_wireless_ssid_device_type_group_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class WirelessSsidDeviceTypeGroupPolicies extends cdktf.TerraformResource
       terraformResourceType: 'meraki_wireless_ssid_device_type_group_policies',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

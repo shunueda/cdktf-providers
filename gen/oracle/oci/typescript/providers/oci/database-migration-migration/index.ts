@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,126 +8,126 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseMigrationMigrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#bulk_include_exclude_data DatabaseMigrationMigration#bulk_include_exclude_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#bulk_include_exclude_data DatabaseMigrationMigration#bulk_include_exclude_data}
   */
   readonly bulkIncludeExcludeData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#compartment_id DatabaseMigrationMigration#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#compartment_id DatabaseMigrationMigration#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#database_combination DatabaseMigrationMigration#database_combination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#database_combination DatabaseMigrationMigration#database_combination}
   */
   readonly databaseCombination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#defined_tags DatabaseMigrationMigration#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#defined_tags DatabaseMigrationMigration#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#description DatabaseMigrationMigration#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#description DatabaseMigrationMigration#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#display_name DatabaseMigrationMigration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#display_name DatabaseMigrationMigration#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#freeform_tags DatabaseMigrationMigration#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#freeform_tags DatabaseMigrationMigration#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#id DatabaseMigrationMigration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#id DatabaseMigrationMigration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#source_container_database_connection_id DatabaseMigrationMigration#source_container_database_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#source_container_database_connection_id DatabaseMigrationMigration#source_container_database_connection_id}
   */
   readonly sourceContainerDatabaseConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#source_database_connection_id DatabaseMigrationMigration#source_database_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#source_database_connection_id DatabaseMigrationMigration#source_database_connection_id}
   */
   readonly sourceDatabaseConnectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#source_standby_database_connection_id DatabaseMigrationMigration#source_standby_database_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#source_standby_database_connection_id DatabaseMigrationMigration#source_standby_database_connection_id}
   */
   readonly sourceStandbyDatabaseConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#target_database_connection_id DatabaseMigrationMigration#target_database_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#target_database_connection_id DatabaseMigrationMigration#target_database_connection_id}
   */
   readonly targetDatabaseConnectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
   */
   readonly type: string;
   /**
   * advanced_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#advanced_parameters DatabaseMigrationMigration#advanced_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#advanced_parameters DatabaseMigrationMigration#advanced_parameters}
   */
   readonly advancedParameters?: DatabaseMigrationMigrationAdvancedParameters[] | cdktf.IResolvable;
   /**
   * advisor_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#advisor_settings DatabaseMigrationMigration#advisor_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#advisor_settings DatabaseMigrationMigration#advisor_settings}
   */
   readonly advisorSettings?: DatabaseMigrationMigrationAdvisorSettings;
   /**
   * data_transfer_medium_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#data_transfer_medium_details DatabaseMigrationMigration#data_transfer_medium_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#data_transfer_medium_details DatabaseMigrationMigration#data_transfer_medium_details}
   */
   readonly dataTransferMediumDetails?: DatabaseMigrationMigrationDataTransferMediumDetails;
   /**
   * exclude_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#exclude_objects DatabaseMigrationMigration#exclude_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#exclude_objects DatabaseMigrationMigration#exclude_objects}
   */
   readonly excludeObjects?: DatabaseMigrationMigrationExcludeObjects[] | cdktf.IResolvable;
   /**
   * ggs_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#ggs_details DatabaseMigrationMigration#ggs_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#ggs_details DatabaseMigrationMigration#ggs_details}
   */
   readonly ggsDetails?: DatabaseMigrationMigrationGgsDetails;
   /**
   * hub_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#hub_details DatabaseMigrationMigration#hub_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#hub_details DatabaseMigrationMigration#hub_details}
   */
   readonly hubDetails?: DatabaseMigrationMigrationHubDetails;
   /**
   * include_objects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#include_objects DatabaseMigrationMigration#include_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#include_objects DatabaseMigrationMigration#include_objects}
   */
   readonly includeObjects?: DatabaseMigrationMigrationIncludeObjects[] | cdktf.IResolvable;
   /**
   * initial_load_settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#initial_load_settings DatabaseMigrationMigration#initial_load_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#initial_load_settings DatabaseMigrationMigration#initial_load_settings}
   */
   readonly initialLoadSettings?: DatabaseMigrationMigrationInitialLoadSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#timeouts DatabaseMigrationMigration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#timeouts DatabaseMigrationMigration#timeouts}
   */
   readonly timeouts?: DatabaseMigrationMigrationTimeouts;
 }
 export interface DatabaseMigrationMigrationAdvancedParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#data_type DatabaseMigrationMigration#data_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#data_type DatabaseMigrationMigration#data_type}
   */
   readonly dataType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#value DatabaseMigrationMigration#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#value DatabaseMigrationMigration#value}
   */
   readonly value?: string;
 }
@@ -301,11 +301,11 @@ export class DatabaseMigrationMigrationAdvancedParametersList extends cdktf.Comp
 }
 export interface DatabaseMigrationMigrationAdvisorSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_ignore_errors DatabaseMigrationMigration#is_ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_ignore_errors DatabaseMigrationMigration#is_ignore_errors}
   */
   readonly isIgnoreErrors?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_skip_advisor DatabaseMigrationMigration#is_skip_advisor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_skip_advisor DatabaseMigrationMigration#is_skip_advisor}
   */
   readonly isSkipAdvisor?: boolean | cdktf.IResolvable;
 }
@@ -418,11 +418,11 @@ export class DatabaseMigrationMigrationAdvisorSettingsOutputReference extends cd
 }
 export interface DatabaseMigrationMigrationDataTransferMediumDetailsObjectStorageBucket {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#bucket DatabaseMigrationMigration#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#bucket DatabaseMigrationMigration#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#namespace DatabaseMigrationMigration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#namespace DatabaseMigrationMigration#namespace}
   */
   readonly namespace?: string;
 }
@@ -535,15 +535,15 @@ export class DatabaseMigrationMigrationDataTransferMediumDetailsObjectStorageBuc
 }
 export interface DatabaseMigrationMigrationDataTransferMediumDetailsSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}
   */
   readonly ociHome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}
   */
   readonly walletLocation?: string;
 }
@@ -682,15 +682,15 @@ export class DatabaseMigrationMigrationDataTransferMediumDetailsSourceOutputRefe
 }
 export interface DatabaseMigrationMigrationDataTransferMediumDetailsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#kind DatabaseMigrationMigration#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#oci_home DatabaseMigrationMigration#oci_home}
   */
   readonly ociHome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#wallet_location DatabaseMigrationMigration#wallet_location}
   */
   readonly walletLocation?: string;
 }
@@ -829,45 +829,45 @@ export class DatabaseMigrationMigrationDataTransferMediumDetailsTargetOutputRefe
 }
 export interface DatabaseMigrationMigrationDataTransferMediumDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#access_key_id DatabaseMigrationMigration#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#access_key_id DatabaseMigrationMigration#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#region DatabaseMigrationMigration#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#region DatabaseMigrationMigration#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#secret_access_key DatabaseMigrationMigration#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#secret_access_key DatabaseMigrationMigration#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#shared_storage_mount_target_id DatabaseMigrationMigration#shared_storage_mount_target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#shared_storage_mount_target_id DatabaseMigrationMigration#shared_storage_mount_target_id}
   */
   readonly sharedStorageMountTargetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
   */
   readonly type: string;
   /**
   * object_storage_bucket block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#object_storage_bucket DatabaseMigrationMigration#object_storage_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#object_storage_bucket DatabaseMigrationMigration#object_storage_bucket}
   */
   readonly objectStorageBucket?: DatabaseMigrationMigrationDataTransferMediumDetailsObjectStorageBucket;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#source DatabaseMigrationMigration#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#source DatabaseMigrationMigration#source}
   */
   readonly source?: DatabaseMigrationMigrationDataTransferMediumDetailsSource;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#target DatabaseMigrationMigration#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#target DatabaseMigrationMigration#target}
   */
   readonly target?: DatabaseMigrationMigrationDataTransferMediumDetailsTarget;
 }
@@ -1180,23 +1180,23 @@ export class DatabaseMigrationMigrationDataTransferMediumDetailsOutputReference 
 }
 export interface DatabaseMigrationMigrationExcludeObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_omit_excluded_table_from_replication DatabaseMigrationMigration#is_omit_excluded_table_from_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_omit_excluded_table_from_replication DatabaseMigrationMigration#is_omit_excluded_table_from_replication}
   */
   readonly isOmitExcludedTableFromReplication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#object DatabaseMigrationMigration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#object DatabaseMigrationMigration#object}
   */
   readonly object: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#owner DatabaseMigrationMigration#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#owner DatabaseMigrationMigration#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#schema DatabaseMigrationMigration#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#schema DatabaseMigrationMigration#schema}
   */
   readonly schema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
   */
   readonly type?: string;
 }
@@ -1505,11 +1505,11 @@ export class DatabaseMigrationMigrationGgsDetailsGgsDeploymentList extends cdktf
 }
 export interface DatabaseMigrationMigrationGgsDetailsExtract {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#long_trans_duration DatabaseMigrationMigration#long_trans_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#long_trans_duration DatabaseMigrationMigration#long_trans_duration}
   */
   readonly longTransDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
   */
   readonly performanceProfile?: string;
 }
@@ -1622,7 +1622,7 @@ export class DatabaseMigrationMigrationGgsDetailsExtractOutputReference extends 
 }
 export interface DatabaseMigrationMigrationGgsDetailsReplicat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
   */
   readonly performanceProfile?: string;
 }
@@ -1706,19 +1706,19 @@ export class DatabaseMigrationMigrationGgsDetailsReplicatOutputReference extends
 }
 export interface DatabaseMigrationMigrationGgsDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}
   */
   readonly acceptableLag?: number;
   /**
   * extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
   */
   readonly extract?: DatabaseMigrationMigrationGgsDetailsExtract;
   /**
   * replicat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
   */
   readonly replicat?: DatabaseMigrationMigrationGgsDetailsReplicat;
 }
@@ -1866,11 +1866,11 @@ export class DatabaseMigrationMigrationGgsDetailsOutputReference extends cdktf.C
 }
 export interface DatabaseMigrationMigrationHubDetailsExtract {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#long_trans_duration DatabaseMigrationMigration#long_trans_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#long_trans_duration DatabaseMigrationMigration#long_trans_duration}
   */
   readonly longTransDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
   */
   readonly performanceProfile?: string;
 }
@@ -1983,7 +1983,7 @@ export class DatabaseMigrationMigrationHubDetailsExtractOutputReference extends 
 }
 export interface DatabaseMigrationMigrationHubDetailsReplicat {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#performance_profile DatabaseMigrationMigration#performance_profile}
   */
   readonly performanceProfile?: string;
 }
@@ -2067,11 +2067,11 @@ export class DatabaseMigrationMigrationHubDetailsReplicatOutputReference extends
 }
 export interface DatabaseMigrationMigrationHubDetailsRestAdminCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#password DatabaseMigrationMigration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#password DatabaseMigrationMigration#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#username DatabaseMigrationMigration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#username DatabaseMigrationMigration#username}
   */
   readonly username: string;
 }
@@ -2178,41 +2178,41 @@ export class DatabaseMigrationMigrationHubDetailsRestAdminCredentialsOutputRefer
 }
 export interface DatabaseMigrationMigrationHubDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#acceptable_lag DatabaseMigrationMigration#acceptable_lag}
   */
   readonly acceptableLag?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#compute_id DatabaseMigrationMigration#compute_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#compute_id DatabaseMigrationMigration#compute_id}
   */
   readonly computeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#key_id DatabaseMigrationMigration#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#key_id DatabaseMigrationMigration#key_id}
   */
   readonly keyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#url DatabaseMigrationMigration#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#url DatabaseMigrationMigration#url}
   */
   readonly url: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#vault_id DatabaseMigrationMigration#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#vault_id DatabaseMigrationMigration#vault_id}
   */
   readonly vaultId: string;
   /**
   * extract block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#extract DatabaseMigrationMigration#extract}
   */
   readonly extract?: DatabaseMigrationMigrationHubDetailsExtract;
   /**
   * replicat block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#replicat DatabaseMigrationMigration#replicat}
   */
   readonly replicat?: DatabaseMigrationMigrationHubDetailsReplicat;
   /**
   * rest_admin_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#rest_admin_credentials DatabaseMigrationMigration#rest_admin_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#rest_admin_credentials DatabaseMigrationMigration#rest_admin_credentials}
   */
   readonly restAdminCredentials: DatabaseMigrationMigrationHubDetailsRestAdminCredentials;
 }
@@ -2487,23 +2487,23 @@ export class DatabaseMigrationMigrationHubDetailsOutputReference extends cdktf.C
 }
 export interface DatabaseMigrationMigrationIncludeObjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_omit_excluded_table_from_replication DatabaseMigrationMigration#is_omit_excluded_table_from_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_omit_excluded_table_from_replication DatabaseMigrationMigration#is_omit_excluded_table_from_replication}
   */
   readonly isOmitExcludedTableFromReplication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#object DatabaseMigrationMigration#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#object DatabaseMigrationMigration#object}
   */
   readonly object: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#owner DatabaseMigrationMigration#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#owner DatabaseMigrationMigration#owner}
   */
   readonly owner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#schema DatabaseMigrationMigration#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#schema DatabaseMigrationMigration#schema}
   */
   readonly schema?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
   */
   readonly type?: string;
 }
@@ -2732,27 +2732,27 @@ export class DatabaseMigrationMigrationIncludeObjectsList extends cdktf.ComplexL
 }
 export interface DatabaseMigrationMigrationInitialLoadSettingsDataPumpParameters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#estimate DatabaseMigrationMigration#estimate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#estimate DatabaseMigrationMigration#estimate}
   */
   readonly estimate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#exclude_parameters DatabaseMigrationMigration#exclude_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#exclude_parameters DatabaseMigrationMigration#exclude_parameters}
   */
   readonly excludeParameters?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#export_parallelism_degree DatabaseMigrationMigration#export_parallelism_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#export_parallelism_degree DatabaseMigrationMigration#export_parallelism_degree}
   */
   readonly exportParallelismDegree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#import_parallelism_degree DatabaseMigrationMigration#import_parallelism_degree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#import_parallelism_degree DatabaseMigrationMigration#import_parallelism_degree}
   */
   readonly importParallelismDegree?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_cluster DatabaseMigrationMigration#is_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_cluster DatabaseMigrationMigration#is_cluster}
   */
   readonly isCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#table_exists_action DatabaseMigrationMigration#table_exists_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#table_exists_action DatabaseMigrationMigration#table_exists_action}
   */
   readonly tableExistsAction?: string;
 }
@@ -2981,11 +2981,11 @@ export class DatabaseMigrationMigrationInitialLoadSettingsDataPumpParametersOutp
 }
 export interface DatabaseMigrationMigrationInitialLoadSettingsExportDirectoryObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#path DatabaseMigrationMigration#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#path DatabaseMigrationMigration#path}
   */
   readonly path?: string;
 }
@@ -3098,11 +3098,11 @@ export class DatabaseMigrationMigrationInitialLoadSettingsExportDirectoryObjectO
 }
 export interface DatabaseMigrationMigrationInitialLoadSettingsImportDirectoryObject {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#name DatabaseMigrationMigration#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#path DatabaseMigrationMigration#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#path DatabaseMigrationMigration#path}
   */
   readonly path?: string;
 }
@@ -3215,15 +3215,15 @@ export class DatabaseMigrationMigrationInitialLoadSettingsImportDirectoryObjectO
 }
 export interface DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#new_value DatabaseMigrationMigration#new_value}
   */
   readonly newValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#old_value DatabaseMigrationMigration#old_value}
   */
   readonly oldValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#type DatabaseMigrationMigration#type}
   */
   readonly type?: string;
 }
@@ -3397,27 +3397,27 @@ export class DatabaseMigrationMigrationInitialLoadSettingsMetadataRemapsList ext
 }
 export interface DatabaseMigrationMigrationInitialLoadSettingsTablespaceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#block_size_in_kbs DatabaseMigrationMigration#block_size_in_kbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#block_size_in_kbs DatabaseMigrationMigration#block_size_in_kbs}
   */
   readonly blockSizeInKbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#extend_size_in_mbs DatabaseMigrationMigration#extend_size_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#extend_size_in_mbs DatabaseMigrationMigration#extend_size_in_mbs}
   */
   readonly extendSizeInMbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_auto_create DatabaseMigrationMigration#is_auto_create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_auto_create DatabaseMigrationMigration#is_auto_create}
   */
   readonly isAutoCreate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_big_file DatabaseMigrationMigration#is_big_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_big_file DatabaseMigrationMigration#is_big_file}
   */
   readonly isBigFile?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#remap_target DatabaseMigrationMigration#remap_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#remap_target DatabaseMigrationMigration#remap_target}
   */
   readonly remapTarget?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#target_type DatabaseMigrationMigration#target_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#target_type DatabaseMigrationMigration#target_type}
   */
   readonly targetType: string;
 }
@@ -3643,61 +3643,61 @@ export class DatabaseMigrationMigrationInitialLoadSettingsTablespaceDetailsOutpu
 }
 export interface DatabaseMigrationMigrationInitialLoadSettings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#compatibility DatabaseMigrationMigration#compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#compatibility DatabaseMigrationMigration#compatibility}
   */
   readonly compatibility?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#handle_grant_errors DatabaseMigrationMigration#handle_grant_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#handle_grant_errors DatabaseMigrationMigration#handle_grant_errors}
   */
   readonly handleGrantErrors?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_consistent DatabaseMigrationMigration#is_consistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_consistent DatabaseMigrationMigration#is_consistent}
   */
   readonly isConsistent?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_ignore_existing_objects DatabaseMigrationMigration#is_ignore_existing_objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_ignore_existing_objects DatabaseMigrationMigration#is_ignore_existing_objects}
   */
   readonly isIgnoreExistingObjects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#is_tz_utc DatabaseMigrationMigration#is_tz_utc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#is_tz_utc DatabaseMigrationMigration#is_tz_utc}
   */
   readonly isTzUtc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#job_mode DatabaseMigrationMigration#job_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#job_mode DatabaseMigrationMigration#job_mode}
   */
   readonly jobMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#primary_key_compatibility DatabaseMigrationMigration#primary_key_compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#primary_key_compatibility DatabaseMigrationMigration#primary_key_compatibility}
   */
   readonly primaryKeyCompatibility?: string;
   /**
   * data_pump_parameters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#data_pump_parameters DatabaseMigrationMigration#data_pump_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#data_pump_parameters DatabaseMigrationMigration#data_pump_parameters}
   */
   readonly dataPumpParameters?: DatabaseMigrationMigrationInitialLoadSettingsDataPumpParameters;
   /**
   * export_directory_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#export_directory_object DatabaseMigrationMigration#export_directory_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#export_directory_object DatabaseMigrationMigration#export_directory_object}
   */
   readonly exportDirectoryObject?: DatabaseMigrationMigrationInitialLoadSettingsExportDirectoryObject;
   /**
   * import_directory_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#import_directory_object DatabaseMigrationMigration#import_directory_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#import_directory_object DatabaseMigrationMigration#import_directory_object}
   */
   readonly importDirectoryObject?: DatabaseMigrationMigrationInitialLoadSettingsImportDirectoryObject;
   /**
   * metadata_remaps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#metadata_remaps DatabaseMigrationMigration#metadata_remaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#metadata_remaps DatabaseMigrationMigration#metadata_remaps}
   */
   readonly metadataRemaps?: DatabaseMigrationMigrationInitialLoadSettingsMetadataRemaps[] | cdktf.IResolvable;
   /**
   * tablespace_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#tablespace_details DatabaseMigrationMigration#tablespace_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#tablespace_details DatabaseMigrationMigration#tablespace_details}
   */
   readonly tablespaceDetails?: DatabaseMigrationMigrationInitialLoadSettingsTablespaceDetails;
 }
@@ -4097,15 +4097,15 @@ export class DatabaseMigrationMigrationInitialLoadSettingsOutputReference extend
 }
 export interface DatabaseMigrationMigrationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#create DatabaseMigrationMigration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#create DatabaseMigrationMigration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#delete DatabaseMigrationMigration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#delete DatabaseMigrationMigration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#update DatabaseMigrationMigration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#update DatabaseMigrationMigration#update}
   */
   readonly update?: string;
 }
@@ -4257,7 +4257,7 @@ export class DatabaseMigrationMigrationTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration oci_database_migration_migration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration oci_database_migration_migration}
 */
 export class DatabaseMigrationMigration extends cdktf.TerraformResource {
 
@@ -4273,7 +4273,7 @@ export class DatabaseMigrationMigration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseMigrationMigration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseMigrationMigration to import
-  * @param importFromId The id of the existing DatabaseMigrationMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseMigrationMigration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseMigrationMigration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4285,7 +4285,7 @@ export class DatabaseMigrationMigration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_migration_migration oci_database_migration_migration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_migration_migration oci_database_migration_migration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4296,8 +4296,8 @@ export class DatabaseMigrationMigration extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_migration_migration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,30 +8,30 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeSecurityAssessmentTemplateBaselineComparisonConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#category DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#category DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#comparison_security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#comparison_security_assessment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#comparison_security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#comparison_security_assessment_id}
   */
   readonly comparisonSecurityAssessmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#finding_key DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#finding_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#finding_key DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#finding_key}
   */
   readonly findingKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#security_assessment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#security_assessment_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#security_assessment_id}
   */
   readonly securityAssessmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#target_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#target_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#target_id DataOciDataSafeSecurityAssessmentTemplateBaselineComparison#target_id}
   */
   readonly targetId?: string;
 }
@@ -2963,7 +2963,7 @@ export class DataOciDataSafeSecurityAssessmentTemplateBaselineComparisonUserAcco
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison oci_data_safe_security_assessment_template_baseline_comparison}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison oci_data_safe_security_assessment_template_baseline_comparison}
 */
 export class DataOciDataSafeSecurityAssessmentTemplateBaselineComparison extends cdktf.TerraformDataSource {
 
@@ -2979,7 +2979,7 @@ export class DataOciDataSafeSecurityAssessmentTemplateBaselineComparison extends
   * Generates CDKTF code for importing a DataOciDataSafeSecurityAssessmentTemplateBaselineComparison resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeSecurityAssessmentTemplateBaselineComparison to import
-  * @param importFromId The id of the existing DataOciDataSafeSecurityAssessmentTemplateBaselineComparison that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeSecurityAssessmentTemplateBaselineComparison that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeSecurityAssessmentTemplateBaselineComparison to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2991,7 +2991,7 @@ export class DataOciDataSafeSecurityAssessmentTemplateBaselineComparison extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison oci_data_safe_security_assessment_template_baseline_comparison} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_security_assessment_template_baseline_comparison oci_data_safe_security_assessment_template_baseline_comparison} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3002,8 +3002,8 @@ export class DataOciDataSafeSecurityAssessmentTemplateBaselineComparison extends
       terraformResourceType: 'oci_data_safe_security_assessment_template_baseline_comparison',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

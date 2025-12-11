@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCloudMigrationsTargetAssetsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#display_name DataOciCloudMigrationsTargetAssets#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#display_name DataOciCloudMigrationsTargetAssets#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#id DataOciCloudMigrationsTargetAssets#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#id DataOciCloudMigrationsTargetAssets#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#migration_plan_id DataOciCloudMigrationsTargetAssets#migration_plan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#migration_plan_id DataOciCloudMigrationsTargetAssets#migration_plan_id}
   */
   readonly migrationPlanId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#state DataOciCloudMigrationsTargetAssets#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#state DataOciCloudMigrationsTargetAssets#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#target_asset_id DataOciCloudMigrationsTargetAssets#target_asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#target_asset_id DataOciCloudMigrationsTargetAssets#target_asset_id}
   */
   readonly targetAssetId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#filter DataOciCloudMigrationsTargetAssets#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#filter DataOciCloudMigrationsTargetAssets#filter}
   */
   readonly filter?: DataOciCloudMigrationsTargetAssetsFilter[] | cdktf.IResolvable;
 }
@@ -3693,15 +3693,15 @@ export class DataOciCloudMigrationsTargetAssetsTargetAssetCollectionList extends
 }
 export interface DataOciCloudMigrationsTargetAssetsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#name DataOciCloudMigrationsTargetAssets#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#name DataOciCloudMigrationsTargetAssets#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#regex DataOciCloudMigrationsTargetAssets#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#regex DataOciCloudMigrationsTargetAssets#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#values DataOciCloudMigrationsTargetAssets#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#values DataOciCloudMigrationsTargetAssets#values}
   */
   readonly values: string[];
 }
@@ -3869,7 +3869,7 @@ export class DataOciCloudMigrationsTargetAssetsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets oci_cloud_migrations_target_assets}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets oci_cloud_migrations_target_assets}
 */
 export class DataOciCloudMigrationsTargetAssets extends cdktf.TerraformDataSource {
 
@@ -3885,7 +3885,7 @@ export class DataOciCloudMigrationsTargetAssets extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciCloudMigrationsTargetAssets resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCloudMigrationsTargetAssets to import
-  * @param importFromId The id of the existing DataOciCloudMigrationsTargetAssets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCloudMigrationsTargetAssets that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCloudMigrationsTargetAssets to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3897,7 +3897,7 @@ export class DataOciCloudMigrationsTargetAssets extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/cloud_migrations_target_assets oci_cloud_migrations_target_assets} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/cloud_migrations_target_assets oci_cloud_migrations_target_assets} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3908,8 +3908,8 @@ export class DataOciCloudMigrationsTargetAssets extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_cloud_migrations_target_assets',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SensorMqttBrokersConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers#items SensorMqttBrokers#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers#items SensorMqttBrokers#items}
   */
   readonly items: SensorMqttBrokersItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers#network_id SensorMqttBrokers#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers#network_id SensorMqttBrokers#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers#organization_id SensorMqttBrokers#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers#organization_id SensorMqttBrokers#organization_id}
   */
   readonly organizationId: string;
 }
@@ -30,13 +30,13 @@ export interface SensorMqttBrokersItems {
   /**
   * Set to true to enable MQTT broker for sensor network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers#enabled SensorMqttBrokers#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers#enabled SensorMqttBrokers#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * MQTT Broker ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers#mqtt_broker_id SensorMqttBrokers#mqtt_broker_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers#mqtt_broker_id SensorMqttBrokers#mqtt_broker_id}
   */
   readonly mqttBrokerId: string;
 }
@@ -175,7 +175,7 @@ export class SensorMqttBrokersItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers meraki_sensor_mqtt_brokers}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers meraki_sensor_mqtt_brokers}
 */
 export class SensorMqttBrokers extends cdktf.TerraformResource {
 
@@ -191,7 +191,7 @@ export class SensorMqttBrokers extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensorMqttBrokers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensorMqttBrokers to import
-  * @param importFromId The id of the existing SensorMqttBrokers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensorMqttBrokers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensorMqttBrokers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -203,7 +203,7 @@ export class SensorMqttBrokers extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_mqtt_brokers meraki_sensor_mqtt_brokers} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_mqtt_brokers meraki_sensor_mqtt_brokers} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -214,8 +214,8 @@ export class SensorMqttBrokers extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_sensor_mqtt_brokers',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

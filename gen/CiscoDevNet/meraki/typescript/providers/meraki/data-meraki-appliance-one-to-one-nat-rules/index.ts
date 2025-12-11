@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_one_to_one_nat_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_one_to_one_nat_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceOneToOneNatRulesConfig extends cdktf.Terrafo
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_one_to_one_nat_rules#network_id DataMerakiApplianceOneToOneNatRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_one_to_one_nat_rules#network_id DataMerakiApplianceOneToOneNatRules#network_id}
   */
   readonly networkId: string;
 }
@@ -197,7 +197,7 @@ export class DataMerakiApplianceOneToOneNatRulesRulesList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules}
 */
 export class DataMerakiApplianceOneToOneNatRules extends cdktf.TerraformDataSource {
 
@@ -213,7 +213,7 @@ export class DataMerakiApplianceOneToOneNatRules extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataMerakiApplianceOneToOneNatRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceOneToOneNatRules to import
-  * @param importFromId The id of the existing DataMerakiApplianceOneToOneNatRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_one_to_one_nat_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceOneToOneNatRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_one_to_one_nat_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceOneToOneNatRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -225,7 +225,7 @@ export class DataMerakiApplianceOneToOneNatRules extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -236,8 +236,8 @@ export class DataMerakiApplianceOneToOneNatRules extends cdktf.TerraformDataSour
       terraformResourceType: 'meraki_appliance_one_to_one_nat_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

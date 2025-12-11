@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TeoSecurityIpGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group#id TeoSecurityIpGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group#id TeoSecurityIpGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface TeoSecurityIpGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group#zone_id TeoSecurityIpGroup#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group#zone_id TeoSecurityIpGroup#zone_id}
   */
   readonly zoneId: string;
   /**
   * ip_group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group#ip_group TeoSecurityIpGroup#ip_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group#ip_group TeoSecurityIpGroup#ip_group}
   */
   readonly ipGroup: TeoSecurityIpGroupIpGroup;
 }
@@ -31,13 +31,13 @@ export interface TeoSecurityIpGroupIpGroup {
   /**
   * IP group content. Only supports IP and IP mask.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group#content TeoSecurityIpGroup#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group#content TeoSecurityIpGroup#content}
   */
   readonly content: string[];
   /**
   * Group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group#name TeoSecurityIpGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group#name TeoSecurityIpGroup#name}
   */
   readonly name: string;
 }
@@ -149,7 +149,7 @@ export class TeoSecurityIpGroupIpGroupOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group tencentcloud_teo_security_ip_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group tencentcloud_teo_security_ip_group}
 */
 export class TeoSecurityIpGroup extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class TeoSecurityIpGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoSecurityIpGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoSecurityIpGroup to import
-  * @param importFromId The id of the existing TeoSecurityIpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoSecurityIpGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoSecurityIpGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class TeoSecurityIpGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_security_ip_group tencentcloud_teo_security_ip_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_security_ip_group tencentcloud_teo_security_ip_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class TeoSecurityIpGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_security_ip_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

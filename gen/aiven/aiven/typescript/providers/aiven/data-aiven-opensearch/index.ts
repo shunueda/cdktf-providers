@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAivenOpensearchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch#id DataAivenOpensearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch#id DataAivenOpensearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataAivenOpensearchConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch#project DataAivenOpensearch#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch#project DataAivenOpensearch#project}
   */
   readonly project: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch#service_name DataAivenOpensearch#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch#service_name DataAivenOpensearch#service_name}
   */
   readonly serviceName: string;
 }
@@ -835,6 +835,121 @@ export class DataAivenOpensearchOpensearchUserConfigIpFilterObjectList extends c
   */
   public get(index: number): DataAivenOpensearchOpensearchUserConfigIpFilterObjectOutputReference {
     return new DataAivenOpensearchOpensearchUserConfigIpFilterObjectOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataAivenOpensearchOpensearchUserConfigJwt {
+}
+
+export function dataAivenOpensearchOpensearchUserConfigJwtToTerraform(struct?: DataAivenOpensearchOpensearchUserConfigJwt): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataAivenOpensearchOpensearchUserConfigJwtToHclTerraform(struct?: DataAivenOpensearchOpensearchUserConfigJwt): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataAivenOpensearchOpensearchUserConfigJwtOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataAivenOpensearchOpensearchUserConfigJwt | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataAivenOpensearchOpensearchUserConfigJwt | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // enabled - computed: true, optional: false, required: false
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+
+  // jwt_clock_skew_tolerance_seconds - computed: true, optional: false, required: false
+  public get jwtClockSkewToleranceSeconds() {
+    return this.getNumberAttribute('jwt_clock_skew_tolerance_seconds');
+  }
+
+  // jwt_header - computed: true, optional: false, required: false
+  public get jwtHeader() {
+    return this.getStringAttribute('jwt_header');
+  }
+
+  // jwt_url_parameter - computed: true, optional: false, required: false
+  public get jwtUrlParameter() {
+    return this.getStringAttribute('jwt_url_parameter');
+  }
+
+  // required_audience - computed: true, optional: false, required: false
+  public get requiredAudience() {
+    return this.getStringAttribute('required_audience');
+  }
+
+  // required_issuer - computed: true, optional: false, required: false
+  public get requiredIssuer() {
+    return this.getStringAttribute('required_issuer');
+  }
+
+  // roles_key - computed: true, optional: false, required: false
+  public get rolesKey() {
+    return this.getStringAttribute('roles_key');
+  }
+
+  // signing_key - computed: true, optional: false, required: false
+  public get signingKey() {
+    return this.getStringAttribute('signing_key');
+  }
+
+  // subject_key - computed: true, optional: false, required: false
+  public get subjectKey() {
+    return this.getStringAttribute('subject_key');
+  }
+}
+
+export class DataAivenOpensearchOpensearchUserConfigJwtList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataAivenOpensearchOpensearchUserConfigJwtOutputReference {
+    return new DataAivenOpensearchOpensearchUserConfigJwtOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
 export interface DataAivenOpensearchOpensearchUserConfigOpenid {
@@ -3175,6 +3290,21 @@ export class DataAivenOpensearchOpensearchUserConfigOpensearchOutputReference ex
     return this.getNumberAttribute('knn_memory_circuit_breaker_limit');
   }
 
+  // ml_commons_model_access_control_enabled - computed: true, optional: false, required: false
+  public get mlCommonsModelAccessControlEnabled() {
+    return this.getBooleanAttribute('ml_commons_model_access_control_enabled');
+  }
+
+  // ml_commons_native_memory_threshold - computed: true, optional: false, required: false
+  public get mlCommonsNativeMemoryThreshold() {
+    return this.getNumberAttribute('ml_commons_native_memory_threshold');
+  }
+
+  // ml_commons_only_run_on_ml_node - computed: true, optional: false, required: false
+  public get mlCommonsOnlyRunOnMlNode() {
+    return this.getBooleanAttribute('ml_commons_only_run_on_ml_node');
+  }
+
   // node_search_cache_size - computed: true, optional: false, required: false
   public get nodeSearchCacheSize() {
     return this.getStringAttribute('node_search_cache_size');
@@ -4011,6 +4141,12 @@ export class DataAivenOpensearchOpensearchUserConfigOutputReference extends cdkt
     return cdktf.Fn.tolist(this.getListAttribute('ip_filter_string'));
   }
 
+  // jwt - computed: true, optional: false, required: false
+  private _jwt = new DataAivenOpensearchOpensearchUserConfigJwtList(this, "jwt", false);
+  public get jwt() {
+    return this._jwt;
+  }
+
   // keep_index_refresh_interval - computed: true, optional: false, required: false
   public get keepIndexRefreshInterval() {
     return this.getBooleanAttribute('keep_index_refresh_interval');
@@ -4355,7 +4491,7 @@ export class DataAivenOpensearchTechEmailsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch aiven_opensearch}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch aiven_opensearch}
 */
 export class DataAivenOpensearch extends cdktf.TerraformDataSource {
 
@@ -4371,7 +4507,7 @@ export class DataAivenOpensearch extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAivenOpensearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenOpensearch to import
-  * @param importFromId The id of the existing DataAivenOpensearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenOpensearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenOpensearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4383,7 +4519,7 @@ export class DataAivenOpensearch extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch aiven_opensearch} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch aiven_opensearch} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4394,8 +4530,8 @@ export class DataAivenOpensearch extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_opensearch',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

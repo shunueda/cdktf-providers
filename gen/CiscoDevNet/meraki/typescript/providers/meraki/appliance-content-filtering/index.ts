@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface ApplianceContentFilteringConfig extends cdktf.TerraformMetaArgu
   /**
   * A list of URL patterns that are allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering#allowed_url_patterns ApplianceContentFiltering#allowed_url_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering#allowed_url_patterns ApplianceContentFiltering#allowed_url_patterns}
   */
   readonly allowedUrlPatterns?: string[];
   /**
   * A list of URL categories to block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering#blocked_url_categories ApplianceContentFiltering#blocked_url_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering#blocked_url_categories ApplianceContentFiltering#blocked_url_categories}
   */
   readonly blockedUrlCategories?: string[];
   /**
   * A list of URL patterns that are blocked
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering#blocked_url_patterns ApplianceContentFiltering#blocked_url_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering#blocked_url_patterns ApplianceContentFiltering#blocked_url_patterns}
   */
   readonly blockedUrlPatterns?: string[];
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering#network_id ApplianceContentFiltering#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering#network_id ApplianceContentFiltering#network_id}
   */
   readonly networkId: string;
   /**
   * URL category list size which is either `topSites` or `fullList`
   *   - Choices: `fullList`, `topSites`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering#url_category_list_size ApplianceContentFiltering#url_category_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering#url_category_list_size ApplianceContentFiltering#url_category_list_size}
   */
   readonly urlCategoryListSize?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering meraki_appliance_content_filtering}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering meraki_appliance_content_filtering}
 */
 export class ApplianceContentFiltering extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApplianceContentFiltering extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceContentFiltering resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceContentFiltering to import
-  * @param importFromId The id of the existing ApplianceContentFiltering that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceContentFiltering that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceContentFiltering to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApplianceContentFiltering extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_content_filtering meraki_appliance_content_filtering} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_content_filtering meraki_appliance_content_filtering} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApplianceContentFiltering extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_content_filtering',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,28 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDelegateAccessControlDelegationSubscriptionsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#compartment_id DataOciDelegateAccessControlDelegationSubscriptions#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#compartment_id DataOciDelegateAccessControlDelegationSubscriptions#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#display_name DataOciDelegateAccessControlDelegationSubscriptions#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#display_name DataOciDelegateAccessControlDelegationSubscriptions#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#id DataOciDelegateAccessControlDelegationSubscriptions#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#id DataOciDelegateAccessControlDelegationSubscriptions#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#state DataOciDelegateAccessControlDelegationSubscriptions#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#state DataOciDelegateAccessControlDelegationSubscriptions#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#filter DataOciDelegateAccessControlDelegationSubscriptions#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#filter DataOciDelegateAccessControlDelegationSubscriptions#filter}
   */
   readonly filter?: DataOciDelegateAccessControlDelegationSubscriptionsFilter[] | cdktf.IResolvable;
 }
@@ -249,15 +249,15 @@ export class DataOciDelegateAccessControlDelegationSubscriptionsDelegationSubscr
 }
 export interface DataOciDelegateAccessControlDelegationSubscriptionsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#name DataOciDelegateAccessControlDelegationSubscriptions#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#name DataOciDelegateAccessControlDelegationSubscriptions#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#regex DataOciDelegateAccessControlDelegationSubscriptions#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#regex DataOciDelegateAccessControlDelegationSubscriptions#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#values DataOciDelegateAccessControlDelegationSubscriptions#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#values DataOciDelegateAccessControlDelegationSubscriptions#values}
   */
   readonly values: string[];
 }
@@ -425,7 +425,7 @@ export class DataOciDelegateAccessControlDelegationSubscriptionsFilterList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions oci_delegate_access_control_delegation_subscriptions}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions oci_delegate_access_control_delegation_subscriptions}
 */
 export class DataOciDelegateAccessControlDelegationSubscriptions extends cdktf.TerraformDataSource {
 
@@ -441,7 +441,7 @@ export class DataOciDelegateAccessControlDelegationSubscriptions extends cdktf.T
   * Generates CDKTF code for importing a DataOciDelegateAccessControlDelegationSubscriptions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDelegateAccessControlDelegationSubscriptions to import
-  * @param importFromId The id of the existing DataOciDelegateAccessControlDelegationSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDelegateAccessControlDelegationSubscriptions that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDelegateAccessControlDelegationSubscriptions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -453,7 +453,7 @@ export class DataOciDelegateAccessControlDelegationSubscriptions extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/delegate_access_control_delegation_subscriptions oci_delegate_access_control_delegation_subscriptions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/delegate_access_control_delegation_subscriptions oci_delegate_access_control_delegation_subscriptions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -464,8 +464,8 @@ export class DataOciDelegateAccessControlDelegationSubscriptions extends cdktf.T
       terraformResourceType: 'oci_delegate_access_control_delegation_subscriptions',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

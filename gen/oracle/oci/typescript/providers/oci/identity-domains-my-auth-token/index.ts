@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface IdentityDomainsMyAuthTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#authorization IdentityDomainsMyAuthToken#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#authorization IdentityDomainsMyAuthToken#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#description IdentityDomainsMyAuthToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#description IdentityDomainsMyAuthToken#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#expires_on IdentityDomainsMyAuthToken#expires_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#expires_on IdentityDomainsMyAuthToken#expires_on}
   */
   readonly expiresOn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#idcs_endpoint IdentityDomainsMyAuthToken#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#idcs_endpoint IdentityDomainsMyAuthToken#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#ocid IdentityDomainsMyAuthToken#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#ocid IdentityDomainsMyAuthToken#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#resource_type_schema_version IdentityDomainsMyAuthToken#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#resource_type_schema_version IdentityDomainsMyAuthToken#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#schemas IdentityDomainsMyAuthToken#schemas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#schemas IdentityDomainsMyAuthToken#schemas}
   */
   readonly schemas: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#status IdentityDomainsMyAuthToken#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#status IdentityDomainsMyAuthToken#status}
   */
   readonly status?: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#tags IdentityDomainsMyAuthToken#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#tags IdentityDomainsMyAuthToken#tags}
   */
   readonly tags?: IdentityDomainsMyAuthTokenTags[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#timeouts IdentityDomainsMyAuthToken#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#timeouts IdentityDomainsMyAuthToken#timeouts}
   */
   readonly timeouts?: IdentityDomainsMyAuthTokenTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#user IdentityDomainsMyAuthToken#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#user IdentityDomainsMyAuthToken#user}
   */
   readonly user?: IdentityDomainsMyAuthTokenUser;
 }
@@ -345,11 +345,11 @@ export class IdentityDomainsMyAuthTokenMetaList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsMyAuthTokenTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#key IdentityDomainsMyAuthToken#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#key IdentityDomainsMyAuthToken#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}
   */
   readonly value: string;
 }
@@ -488,15 +488,15 @@ export class IdentityDomainsMyAuthTokenTagsList extends cdktf.ComplexList {
 }
 export interface IdentityDomainsMyAuthTokenTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#create IdentityDomainsMyAuthToken#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#create IdentityDomainsMyAuthToken#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#delete IdentityDomainsMyAuthToken#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#delete IdentityDomainsMyAuthToken#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#update IdentityDomainsMyAuthToken#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#update IdentityDomainsMyAuthToken#update}
   */
   readonly update?: string;
 }
@@ -648,11 +648,11 @@ export class IdentityDomainsMyAuthTokenTimeoutsOutputReference extends cdktf.Com
 }
 export interface IdentityDomainsMyAuthTokenUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#ocid IdentityDomainsMyAuthToken#ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#ocid IdentityDomainsMyAuthToken#ocid}
   */
   readonly ocid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#value IdentityDomainsMyAuthToken#value}
   */
   readonly value?: string;
 }
@@ -780,7 +780,7 @@ export class IdentityDomainsMyAuthTokenUserOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token oci_identity_domains_my_auth_token}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token oci_identity_domains_my_auth_token}
 */
 export class IdentityDomainsMyAuthToken extends cdktf.TerraformResource {
 
@@ -796,7 +796,7 @@ export class IdentityDomainsMyAuthToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IdentityDomainsMyAuthToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IdentityDomainsMyAuthToken to import
-  * @param importFromId The id of the existing IdentityDomainsMyAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IdentityDomainsMyAuthToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IdentityDomainsMyAuthToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -808,7 +808,7 @@ export class IdentityDomainsMyAuthToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/identity_domains_my_auth_token oci_identity_domains_my_auth_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/identity_domains_my_auth_token oci_identity_domains_my_auth_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -819,8 +819,8 @@ export class IdentityDomainsMyAuthToken extends cdktf.TerraformResource {
       terraformResourceType: 'oci_identity_domains_my_auth_token',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

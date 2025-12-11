@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMulticloudNetworkAnchorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor#external_location DataOciMulticloudNetworkAnchor#external_location}
   */
   readonly externalLocation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor#network_anchor_id DataOciMulticloudNetworkAnchor#network_anchor_id}
   */
   readonly networkAnchorId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor#should_fetch_vcn_name DataOciMulticloudNetworkAnchor#should_fetch_vcn_name}
+  */
+  readonly shouldFetchVcnName?: boolean | cdktf.IResolvable;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor#subscription_id DataOciMulticloudNetworkAnchor#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor#subscription_service_name DataOciMulticloudNetworkAnchor#subscription_service_name}
   */
   readonly subscriptionServiceName: string;
 }
@@ -78,6 +82,12 @@ export class DataOciMulticloudNetworkAnchorCloudServiceProviderMetadataItemOutpu
   // cidr_blocks - computed: true, optional: false, required: false
   public get cidrBlocks() {
     return this.getListAttribute('cidr_blocks');
+  }
+
+  // csp_additional_properties - computed: true, optional: false, required: false
+  private _cspAdditionalProperties = new cdktf.StringMap(this, "csp_additional_properties");
+  public get cspAdditionalProperties() {
+    return this._cspAdditionalProperties;
   }
 
   // dns_forwarding_config - computed: true, optional: false, required: false
@@ -349,6 +359,11 @@ export class DataOciMulticloudNetworkAnchorOciMetadataItemVcnOutputReference ext
   public get vcnId() {
     return this.getStringAttribute('vcn_id');
   }
+
+  // vcn_name - computed: true, optional: false, required: false
+  public get vcnName() {
+    return this.getStringAttribute('vcn_name');
+  }
 }
 
 export class DataOciMulticloudNetworkAnchorOciMetadataItemVcnList extends cdktf.ComplexList {
@@ -479,7 +494,7 @@ export class DataOciMulticloudNetworkAnchorOciMetadataItemList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor}
 */
 export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
 
@@ -495,7 +510,7 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMulticloudNetworkAnchor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMulticloudNetworkAnchor to import
-  * @param importFromId The id of the existing DataOciMulticloudNetworkAnchor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMulticloudNetworkAnchor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMulticloudNetworkAnchor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +522,7 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_network_anchor oci_multicloud_network_anchor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +533,8 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_multicloud_network_anchor',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -531,6 +546,7 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
     });
     this._externalLocation = config.externalLocation;
     this._networkAnchorId = config.networkAnchorId;
+    this._shouldFetchVcnName = config.shouldFetchVcnName;
     this._subscriptionId = config.subscriptionId;
     this._subscriptionServiceName = config.subscriptionServiceName;
   }
@@ -632,6 +648,22 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
     return this.getStringAttribute('setup_mode');
   }
 
+  // should_fetch_vcn_name - computed: false, optional: true, required: false
+  private _shouldFetchVcnName?: boolean | cdktf.IResolvable; 
+  public get shouldFetchVcnName() {
+    return this.getBooleanAttribute('should_fetch_vcn_name');
+  }
+  public set shouldFetchVcnName(value: boolean | cdktf.IResolvable) {
+    this._shouldFetchVcnName = value;
+  }
+  public resetShouldFetchVcnName() {
+    this._shouldFetchVcnName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldFetchVcnNameInput() {
+    return this._shouldFetchVcnName;
+  }
+
   // subscription_id - computed: false, optional: false, required: true
   private _subscriptionId?: string; 
   public get subscriptionId() {
@@ -658,6 +690,11 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
     return this._subscriptionServiceName;
   }
 
+  // subscription_type - computed: true, optional: false, required: false
+  public get subscriptionType() {
+    return this.getStringAttribute('subscription_type');
+  }
+
   // system_tags - computed: true, optional: false, required: false
   private _systemTags = new cdktf.StringMap(this, "system_tags");
   public get systemTags() {
@@ -682,6 +719,7 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
     return {
       external_location: cdktf.stringToTerraform(this._externalLocation),
       network_anchor_id: cdktf.stringToTerraform(this._networkAnchorId),
+      should_fetch_vcn_name: cdktf.booleanToTerraform(this._shouldFetchVcnName),
       subscription_id: cdktf.stringToTerraform(this._subscriptionId),
       subscription_service_name: cdktf.stringToTerraform(this._subscriptionServiceName),
     };
@@ -700,6 +738,12 @@ export class DataOciMulticloudNetworkAnchor extends cdktf.TerraformDataSource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      should_fetch_vcn_name: {
+        value: cdktf.booleanToHclTerraform(this._shouldFetchVcnName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       subscription_id: {
         value: cdktf.stringToHclTerraform(this._subscriptionId),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface FlinkApplicationVersionConfig extends cdktf.TerraformMetaArgume
   /**
   * Application ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#application_id FlinkApplicationVersion#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#application_id FlinkApplicationVersion#application_id}
   */
   readonly applicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#id FlinkApplicationVersion#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#id FlinkApplicationVersion#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface FlinkApplicationVersionConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#project FlinkApplicationVersion#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#project FlinkApplicationVersion#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#service_name FlinkApplicationVersion#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#service_name FlinkApplicationVersion#service_name}
   */
   readonly serviceName: string;
   /**
   * Job SQL statement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#statement FlinkApplicationVersion#statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#statement FlinkApplicationVersion#statement}
   */
   readonly statement: string;
   /**
   * sink block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#sink FlinkApplicationVersion#sink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#sink FlinkApplicationVersion#sink}
   */
   readonly sink?: FlinkApplicationVersionSink[] | cdktf.IResolvable;
   /**
   * sinks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#sinks FlinkApplicationVersion#sinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#sinks FlinkApplicationVersion#sinks}
   */
   readonly sinks?: FlinkApplicationVersionSinks[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#source FlinkApplicationVersion#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#source FlinkApplicationVersion#source}
   */
   readonly source?: FlinkApplicationVersionSource[] | cdktf.IResolvable;
   /**
   * sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#sources FlinkApplicationVersion#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#sources FlinkApplicationVersion#sources}
   */
   readonly sources?: FlinkApplicationVersionSources[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#timeouts FlinkApplicationVersion#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#timeouts FlinkApplicationVersion#timeouts}
   */
   readonly timeouts?: FlinkApplicationVersionTimeouts;
 }
@@ -73,13 +73,13 @@ export interface FlinkApplicationVersionSink {
   /**
   * The [CREATE TABLE statement](https://nightlies.apache.org/flink/flink-docs-stable/docs/dev/table/sql/create/#create-table).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
   */
   readonly createTable: string;
   /**
   * The ID of the service integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
   */
   readonly integrationId?: string;
 }
@@ -223,13 +223,13 @@ export interface FlinkApplicationVersionSinks {
   /**
   * The CREATE TABLE statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
   */
   readonly createTable: string;
   /**
   * The integration ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
   */
   readonly integrationId?: string;
 }
@@ -373,13 +373,13 @@ export interface FlinkApplicationVersionSource {
   /**
   * The [CREATE TABLE statement](https://nightlies.apache.org/flink/flink-docs-stable/docs/dev/table/sql/create/#create-table).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
   */
   readonly createTable: string;
   /**
   * TThe ID of the service integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
   */
   readonly integrationId?: string;
 }
@@ -523,13 +523,13 @@ export interface FlinkApplicationVersionSources {
   /**
   * The CREATE TABLE statement
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#create_table FlinkApplicationVersion#create_table}
   */
   readonly createTable: string;
   /**
   * The integration ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#integration_id FlinkApplicationVersion#integration_id}
   */
   readonly integrationId?: string;
 }
@@ -671,23 +671,23 @@ export class FlinkApplicationVersionSourcesList extends cdktf.ComplexList {
 }
 export interface FlinkApplicationVersionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#create FlinkApplicationVersion#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#create FlinkApplicationVersion#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#default FlinkApplicationVersion#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#default FlinkApplicationVersion#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#delete FlinkApplicationVersion#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#delete FlinkApplicationVersion#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#read FlinkApplicationVersion#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#read FlinkApplicationVersion#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#update FlinkApplicationVersion#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#update FlinkApplicationVersion#update}
   */
   readonly update?: string;
 }
@@ -897,7 +897,7 @@ export class FlinkApplicationVersionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version aiven_flink_application_version}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version aiven_flink_application_version}
 */
 export class FlinkApplicationVersion extends cdktf.TerraformResource {
 
@@ -913,7 +913,7 @@ export class FlinkApplicationVersion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FlinkApplicationVersion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FlinkApplicationVersion to import
-  * @param importFromId The id of the existing FlinkApplicationVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FlinkApplicationVersion that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FlinkApplicationVersion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -925,7 +925,7 @@ export class FlinkApplicationVersion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/flink_application_version aiven_flink_application_version} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/flink_application_version aiven_flink_application_version} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -936,8 +936,8 @@ export class FlinkApplicationVersion extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_flink_application_version',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

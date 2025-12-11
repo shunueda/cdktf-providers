@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KafkaMirrormakerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#additional_disk_space KafkaMirrormaker#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#additional_disk_space KafkaMirrormaker#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#cloud_name KafkaMirrormaker#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#cloud_name KafkaMirrormaker#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#disk_space KafkaMirrormaker#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#disk_space KafkaMirrormaker#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#id KafkaMirrormaker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#id KafkaMirrormaker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,79 +35,79 @@ export interface KafkaMirrormakerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#maintenance_window_dow KafkaMirrormaker#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#maintenance_window_dow KafkaMirrormaker#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#maintenance_window_time KafkaMirrormaker#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#maintenance_window_time KafkaMirrormaker#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#plan KafkaMirrormaker#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#plan KafkaMirrormaker#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#project KafkaMirrormaker#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#project KafkaMirrormaker#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#project_vpc_id KafkaMirrormaker#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#project_vpc_id KafkaMirrormaker#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#service_name KafkaMirrormaker#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#service_name KafkaMirrormaker#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#static_ips KafkaMirrormaker#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#static_ips KafkaMirrormaker#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#termination_protection KafkaMirrormaker#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#termination_protection KafkaMirrormaker#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * kafka_mirrormaker_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#kafka_mirrormaker_user_config KafkaMirrormaker#kafka_mirrormaker_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#kafka_mirrormaker_user_config KafkaMirrormaker#kafka_mirrormaker_user_config}
   */
   readonly kafkaMirrormakerUserConfig?: KafkaMirrormakerKafkaMirrormakerUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#service_integrations KafkaMirrormaker#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#service_integrations KafkaMirrormaker#service_integrations}
   */
   readonly serviceIntegrations?: KafkaMirrormakerServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#tag KafkaMirrormaker#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#tag KafkaMirrormaker#tag}
   */
   readonly tag?: KafkaMirrormakerTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#tech_emails KafkaMirrormaker#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#tech_emails KafkaMirrormaker#tech_emails}
   */
   readonly techEmails?: KafkaMirrormakerTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#timeouts KafkaMirrormaker#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#timeouts KafkaMirrormaker#timeouts}
   */
   readonly timeouts?: KafkaMirrormakerTimeouts;
 }
@@ -230,13 +230,13 @@ export interface KafkaMirrormakerKafkaMirrormakerUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#description KafkaMirrormaker#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#description KafkaMirrormaker#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#network KafkaMirrormaker#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#network KafkaMirrormaker#network}
   */
   readonly network: string;
 }
@@ -380,85 +380,85 @@ export interface KafkaMirrormakerKafkaMirrormakerUserConfigKafkaMirrormaker {
   /**
   * Timeout for administrative tasks, e.g. detecting new topics, loading of consumer group and offsets. Defaults to 60000 milliseconds (1 minute).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#admin_timeout_ms KafkaMirrormaker#admin_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#admin_timeout_ms KafkaMirrormaker#admin_timeout_ms}
   */
   readonly adminTimeoutMs?: number;
   /**
   * Whether to emit consumer group offset checkpoints to target cluster periodically (default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#emit_checkpoints_enabled KafkaMirrormaker#emit_checkpoints_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#emit_checkpoints_enabled KafkaMirrormaker#emit_checkpoints_enabled}
   */
   readonly emitCheckpointsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency at which consumer group offset checkpoints are emitted (default: 60, every minute). Example: `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#emit_checkpoints_interval_seconds KafkaMirrormaker#emit_checkpoints_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#emit_checkpoints_interval_seconds KafkaMirrormaker#emit_checkpoints_interval_seconds}
   */
   readonly emitCheckpointsIntervalSeconds?: number;
   /**
   * Consumer groups to replicate. Supports comma-separated group IDs and regexes. Example: `.*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#groups KafkaMirrormaker#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#groups KafkaMirrormaker#groups}
   */
   readonly groups?: string;
   /**
   * Exclude groups. Supports comma-separated group IDs and regexes. Excludes take precedence over includes. Example: `console-consumer-.*,connect-.*,__.*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#groups_exclude KafkaMirrormaker#groups_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#groups_exclude KafkaMirrormaker#groups_exclude}
   */
   readonly groupsExclude?: string;
   /**
   * How out-of-sync a remote partition can be before it is resynced. Example: `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#offset_lag_max KafkaMirrormaker#offset_lag_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#offset_lag_max KafkaMirrormaker#offset_lag_max}
   */
   readonly offsetLagMax?: number;
   /**
   * Whether to periodically check for new consumer groups. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#refresh_groups_enabled KafkaMirrormaker#refresh_groups_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#refresh_groups_enabled KafkaMirrormaker#refresh_groups_enabled}
   */
   readonly refreshGroupsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency of consumer group refresh in seconds. Defaults to 600 seconds (10 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#refresh_groups_interval_seconds KafkaMirrormaker#refresh_groups_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#refresh_groups_interval_seconds KafkaMirrormaker#refresh_groups_interval_seconds}
   */
   readonly refreshGroupsIntervalSeconds?: number;
   /**
   * Whether to periodically check for new topics and partitions. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#refresh_topics_enabled KafkaMirrormaker#refresh_topics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#refresh_topics_enabled KafkaMirrormaker#refresh_topics_enabled}
   */
   readonly refreshTopicsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency of topic and partitions refresh in seconds. Defaults to 600 seconds (10 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#refresh_topics_interval_seconds KafkaMirrormaker#refresh_topics_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#refresh_topics_interval_seconds KafkaMirrormaker#refresh_topics_interval_seconds}
   */
   readonly refreshTopicsIntervalSeconds?: number;
   /**
   * Whether to periodically write the translated offsets of replicated consumer groups (in the source cluster) to __consumer_offsets topic in target cluster, as long as no active consumers in that group are connected to the target cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#sync_group_offsets_enabled KafkaMirrormaker#sync_group_offsets_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#sync_group_offsets_enabled KafkaMirrormaker#sync_group_offsets_enabled}
   */
   readonly syncGroupOffsetsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency at which consumer group offsets are synced (default: 60, every minute). Example: `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#sync_group_offsets_interval_seconds KafkaMirrormaker#sync_group_offsets_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#sync_group_offsets_interval_seconds KafkaMirrormaker#sync_group_offsets_interval_seconds}
   */
   readonly syncGroupOffsetsIntervalSeconds?: number;
   /**
   * Whether to periodically configure remote topics to match their corresponding upstream topics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#sync_topic_configs_enabled KafkaMirrormaker#sync_topic_configs_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#sync_topic_configs_enabled KafkaMirrormaker#sync_topic_configs_enabled}
   */
   readonly syncTopicConfigsEnabled?: boolean | cdktf.IResolvable;
   /**
   * `tasks.max` is set to this multiplied by the number of CPUs in the service. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#tasks_max_per_cpu KafkaMirrormaker#tasks_max_per_cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#tasks_max_per_cpu KafkaMirrormaker#tasks_max_per_cpu}
   */
   readonly tasksMaxPerCpu?: number;
 }
@@ -921,43 +921,49 @@ export interface KafkaMirrormakerKafkaMirrormakerUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#additional_backup_regions KafkaMirrormaker#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#additional_backup_regions KafkaMirrormaker#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#ip_filter KafkaMirrormaker#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#ip_filter KafkaMirrormaker#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#ip_filter_string KafkaMirrormaker#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#ip_filter_string KafkaMirrormaker#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
+  * List of allowed URLs for SASL OAUTHBEARER authentication. Only HTTPS URLs are allowed for security reasons.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#sasl_oauthbearer_allowed_urls KafkaMirrormaker#sasl_oauthbearer_allowed_urls}
+  */
+  readonly saslOauthbearerAllowedUrls?: string[];
+  /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#service_log KafkaMirrormaker#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#service_log KafkaMirrormaker#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#static_ips KafkaMirrormaker#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#static_ips KafkaMirrormaker#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#ip_filter_object KafkaMirrormaker#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#ip_filter_object KafkaMirrormaker#ip_filter_object}
   */
   readonly ipFilterObject?: KafkaMirrormakerKafkaMirrormakerUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * kafka_mirrormaker block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#kafka_mirrormaker KafkaMirrormaker#kafka_mirrormaker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#kafka_mirrormaker KafkaMirrormaker#kafka_mirrormaker}
   */
   readonly kafkaMirrormaker?: KafkaMirrormakerKafkaMirrormakerUserConfigKafkaMirrormaker;
 }
@@ -971,6 +977,7 @@ export function kafkaMirrormakerKafkaMirrormakerUserConfigToTerraform(struct?: K
     additional_backup_regions: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.additionalBackupRegions),
     ip_filter: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFilter),
     ip_filter_string: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFilterString),
+    sasl_oauthbearer_allowed_urls: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.saslOauthbearerAllowedUrls),
     service_log: cdktf.booleanToTerraform(struct!.serviceLog),
     static_ips: cdktf.booleanToTerraform(struct!.staticIps),
     ip_filter_object: cdktf.listMapper(kafkaMirrormakerKafkaMirrormakerUserConfigIpFilterObjectToTerraform, true)(struct!.ipFilterObject),
@@ -1001,6 +1008,12 @@ export function kafkaMirrormakerKafkaMirrormakerUserConfigToHclTerraform(struct?
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.ipFilterString),
       isBlock: false,
       type: "set",
+      storageClassType: "stringList",
+    },
+    sasl_oauthbearer_allowed_urls: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.saslOauthbearerAllowedUrls),
+      isBlock: false,
+      type: "list",
       storageClassType: "stringList",
     },
     service_log: {
@@ -1059,6 +1072,10 @@ export class KafkaMirrormakerKafkaMirrormakerUserConfigOutputReference extends c
       hasAnyValues = true;
       internalValueResult.ipFilterString = this._ipFilterString;
     }
+    if (this._saslOauthbearerAllowedUrls !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.saslOauthbearerAllowedUrls = this._saslOauthbearerAllowedUrls;
+    }
     if (this._serviceLog !== undefined) {
       hasAnyValues = true;
       internalValueResult.serviceLog = this._serviceLog;
@@ -1084,6 +1101,7 @@ export class KafkaMirrormakerKafkaMirrormakerUserConfigOutputReference extends c
       this._additionalBackupRegions = undefined;
       this._ipFilter = undefined;
       this._ipFilterString = undefined;
+      this._saslOauthbearerAllowedUrls = undefined;
       this._serviceLog = undefined;
       this._staticIps = undefined;
       this._ipFilterObject.internalValue = undefined;
@@ -1094,6 +1112,7 @@ export class KafkaMirrormakerKafkaMirrormakerUserConfigOutputReference extends c
       this._additionalBackupRegions = value.additionalBackupRegions;
       this._ipFilter = value.ipFilter;
       this._ipFilterString = value.ipFilterString;
+      this._saslOauthbearerAllowedUrls = value.saslOauthbearerAllowedUrls;
       this._serviceLog = value.serviceLog;
       this._staticIps = value.staticIps;
       this._ipFilterObject.internalValue = value.ipFilterObject;
@@ -1147,6 +1166,22 @@ export class KafkaMirrormakerKafkaMirrormakerUserConfigOutputReference extends c
   // Temporarily expose input value. Use with caution.
   public get ipFilterStringInput() {
     return this._ipFilterString;
+  }
+
+  // sasl_oauthbearer_allowed_urls - computed: false, optional: true, required: false
+  private _saslOauthbearerAllowedUrls?: string[]; 
+  public get saslOauthbearerAllowedUrls() {
+    return this.getListAttribute('sasl_oauthbearer_allowed_urls');
+  }
+  public set saslOauthbearerAllowedUrls(value: string[]) {
+    this._saslOauthbearerAllowedUrls = value;
+  }
+  public resetSaslOauthbearerAllowedUrls() {
+    this._saslOauthbearerAllowedUrls = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get saslOauthbearerAllowedUrlsInput() {
+    return this._saslOauthbearerAllowedUrls;
   }
 
   // service_log - computed: false, optional: true, required: false
@@ -1217,13 +1252,13 @@ export interface KafkaMirrormakerServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#integration_type KafkaMirrormaker#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#integration_type KafkaMirrormaker#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#source_service_name KafkaMirrormaker#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#source_service_name KafkaMirrormaker#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -1364,13 +1399,13 @@ export interface KafkaMirrormakerTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#key KafkaMirrormaker#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#key KafkaMirrormaker#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#value KafkaMirrormaker#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#value KafkaMirrormaker#value}
   */
   readonly value: string;
 }
@@ -1511,7 +1546,7 @@ export interface KafkaMirrormakerTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#email KafkaMirrormaker#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#email KafkaMirrormaker#email}
   */
   readonly email: string;
 }
@@ -1624,23 +1659,23 @@ export class KafkaMirrormakerTechEmailsList extends cdktf.ComplexList {
 }
 export interface KafkaMirrormakerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#create KafkaMirrormaker#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#create KafkaMirrormaker#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#default KafkaMirrormaker#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#default KafkaMirrormaker#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#delete KafkaMirrormaker#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#delete KafkaMirrormaker#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#read KafkaMirrormaker#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#read KafkaMirrormaker#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#update KafkaMirrormaker#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#update KafkaMirrormaker#update}
   */
   readonly update?: string;
 }
@@ -1850,7 +1885,7 @@ export class KafkaMirrormakerTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker aiven_kafka_mirrormaker}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker aiven_kafka_mirrormaker}
 */
 export class KafkaMirrormaker extends cdktf.TerraformResource {
 
@@ -1866,7 +1901,7 @@ export class KafkaMirrormaker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KafkaMirrormaker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KafkaMirrormaker to import
-  * @param importFromId The id of the existing KafkaMirrormaker that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KafkaMirrormaker that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KafkaMirrormaker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1878,7 +1913,7 @@ export class KafkaMirrormaker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka_mirrormaker aiven_kafka_mirrormaker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka_mirrormaker aiven_kafka_mirrormaker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1889,8 +1924,8 @@ export class KafkaMirrormaker extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_kafka_mirrormaker',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

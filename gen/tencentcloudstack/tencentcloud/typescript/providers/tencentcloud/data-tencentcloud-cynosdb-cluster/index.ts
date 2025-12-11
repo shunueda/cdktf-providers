@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudCynosdbClusterConfig extends cdktf.TerraformMet
   /**
   * Cluster ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#cluster_id DataTencentcloudCynosdbCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#cluster_id DataTencentcloudCynosdbCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#database DataTencentcloudCynosdbCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#database DataTencentcloudCynosdbCluster#database}
   */
   readonly database?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#id DataTencentcloudCynosdbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#id DataTencentcloudCynosdbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface DataTencentcloudCynosdbClusterConfig extends cdktf.TerraformMet
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#result_output_file DataTencentcloudCynosdbCluster#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#result_output_file DataTencentcloudCynosdbCluster#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Data Table Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#table DataTencentcloudCynosdbCluster#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#table DataTencentcloudCynosdbCluster#table}
   */
   readonly table?: string;
   /**
   * Data table type: view: only return view, base_ Table: only returns the basic table, all: returns the view and table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#table_type DataTencentcloudCynosdbCluster#table_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#table_type DataTencentcloudCynosdbCluster#table_type}
   */
   readonly tableType?: string;
 }
@@ -127,7 +127,7 @@ export class DataTencentcloudCynosdbClusterTablesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster tencentcloud_cynosdb_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster tencentcloud_cynosdb_cluster}
 */
 export class DataTencentcloudCynosdbCluster extends cdktf.TerraformDataSource {
 
@@ -143,7 +143,7 @@ export class DataTencentcloudCynosdbCluster extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudCynosdbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudCynosdbCluster to import
-  * @param importFromId The id of the existing DataTencentcloudCynosdbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudCynosdbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudCynosdbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -155,7 +155,7 @@ export class DataTencentcloudCynosdbCluster extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cynosdb_cluster tencentcloud_cynosdb_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cynosdb_cluster tencentcloud_cynosdb_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -166,8 +166,8 @@ export class DataTencentcloudCynosdbCluster extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_cynosdb_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseSchedulingPolicySchedulingWindowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#compartment_id DatabaseSchedulingPolicySchedulingWindow#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#compartment_id DatabaseSchedulingPolicySchedulingWindow#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#defined_tags DatabaseSchedulingPolicySchedulingWindow#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#defined_tags DatabaseSchedulingPolicySchedulingWindow#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#freeform_tags DatabaseSchedulingPolicySchedulingWindow#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#freeform_tags DatabaseSchedulingPolicySchedulingWindow#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#id DatabaseSchedulingPolicySchedulingWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#id DatabaseSchedulingPolicySchedulingWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#scheduling_policy_id DatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#scheduling_policy_id DatabaseSchedulingPolicySchedulingWindow#scheduling_policy_id}
   */
   readonly schedulingPolicyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#timeouts DatabaseSchedulingPolicySchedulingWindow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#timeouts DatabaseSchedulingPolicySchedulingWindow#timeouts}
   */
   readonly timeouts?: DatabaseSchedulingPolicySchedulingWindowTimeouts;
   /**
   * window_preference block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#window_preference DatabaseSchedulingPolicySchedulingWindow#window_preference}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#window_preference DatabaseSchedulingPolicySchedulingWindow#window_preference}
   */
   readonly windowPreference: DatabaseSchedulingPolicySchedulingWindowWindowPreference;
 }
 export interface DatabaseSchedulingPolicySchedulingWindowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#create DatabaseSchedulingPolicySchedulingWindow#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#create DatabaseSchedulingPolicySchedulingWindow#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#delete DatabaseSchedulingPolicySchedulingWindow#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#delete DatabaseSchedulingPolicySchedulingWindow#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#update DatabaseSchedulingPolicySchedulingWindow#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#update DatabaseSchedulingPolicySchedulingWindow#update}
   */
   readonly update?: string;
 }
@@ -205,7 +205,7 @@ export class DatabaseSchedulingPolicySchedulingWindowTimeoutsOutputReference ext
 }
 export interface DatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}
   */
   readonly name: string;
 }
@@ -318,7 +318,7 @@ export class DatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeekL
 }
 export interface DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#name DatabaseSchedulingPolicySchedulingWindow#name}
   */
   readonly name: string;
 }
@@ -431,31 +431,31 @@ export class DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonthsList 
 }
 export interface DatabaseSchedulingPolicySchedulingWindowWindowPreference {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#duration DatabaseSchedulingPolicySchedulingWindow#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#duration DatabaseSchedulingPolicySchedulingWindow#duration}
   */
   readonly duration: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#is_enforced_duration DatabaseSchedulingPolicySchedulingWindow#is_enforced_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#is_enforced_duration DatabaseSchedulingPolicySchedulingWindow#is_enforced_duration}
   */
   readonly isEnforcedDuration: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#start_time DatabaseSchedulingPolicySchedulingWindow#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#start_time DatabaseSchedulingPolicySchedulingWindow#start_time}
   */
   readonly startTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#weeks_of_month DatabaseSchedulingPolicySchedulingWindow#weeks_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#weeks_of_month DatabaseSchedulingPolicySchedulingWindow#weeks_of_month}
   */
   readonly weeksOfMonth: number[];
   /**
   * days_of_week block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#days_of_week DatabaseSchedulingPolicySchedulingWindow#days_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#days_of_week DatabaseSchedulingPolicySchedulingWindow#days_of_week}
   */
   readonly daysOfWeek: DatabaseSchedulingPolicySchedulingWindowWindowPreferenceDaysOfWeek[] | cdktf.IResolvable;
   /**
   * months block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#months DatabaseSchedulingPolicySchedulingWindow#months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#months DatabaseSchedulingPolicySchedulingWindow#months}
   */
   readonly months: DatabaseSchedulingPolicySchedulingWindowWindowPreferenceMonths[] | cdktf.IResolvable;
 }
@@ -666,7 +666,7 @@ export class DatabaseSchedulingPolicySchedulingWindowWindowPreferenceOutputRefer
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window}
 */
 export class DatabaseSchedulingPolicySchedulingWindow extends cdktf.TerraformResource {
 
@@ -682,7 +682,7 @@ export class DatabaseSchedulingPolicySchedulingWindow extends cdktf.TerraformRes
   * Generates CDKTF code for importing a DatabaseSchedulingPolicySchedulingWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseSchedulingPolicySchedulingWindow to import
-  * @param importFromId The id of the existing DatabaseSchedulingPolicySchedulingWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseSchedulingPolicySchedulingWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseSchedulingPolicySchedulingWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -694,7 +694,7 @@ export class DatabaseSchedulingPolicySchedulingWindow extends cdktf.TerraformRes
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_scheduling_policy_scheduling_window oci_database_scheduling_policy_scheduling_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -705,8 +705,8 @@ export class DatabaseSchedulingPolicySchedulingWindow extends cdktf.TerraformRes
       terraformResourceType: 'oci_database_scheduling_policy_scheduling_window',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

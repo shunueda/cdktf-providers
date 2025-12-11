@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GaapGlobalDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#alias GaapGlobalDomain#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#alias GaapGlobalDomain#alias}
   */
   readonly alias?: string;
   /**
   * Domain name default entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#default_value GaapGlobalDomain#default_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#default_value GaapGlobalDomain#default_value}
   */
   readonly defaultValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#id GaapGlobalDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#id GaapGlobalDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface GaapGlobalDomainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain Name Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#project_id GaapGlobalDomain#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#project_id GaapGlobalDomain#project_id}
   */
   readonly projectId: number;
   /**
   * Global domain statue. Available values: open and close, default is open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#status GaapGlobalDomain#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#status GaapGlobalDomain#status}
   */
   readonly status?: string;
   /**
   * Instance tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#tags GaapGlobalDomain#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#tags GaapGlobalDomain#tags}
   */
   readonly tags?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain tencentcloud_gaap_global_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain tencentcloud_gaap_global_domain}
 */
 export class GaapGlobalDomain extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class GaapGlobalDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapGlobalDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapGlobalDomain to import
-  * @param importFromId The id of the existing GaapGlobalDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapGlobalDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapGlobalDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class GaapGlobalDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_global_domain tencentcloud_gaap_global_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_global_domain tencentcloud_gaap_global_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class GaapGlobalDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_global_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

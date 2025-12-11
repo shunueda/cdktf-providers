@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceOneToOneNatRulesConfig extends cdktf.TerraformMetaArgu
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#network_id ApplianceOneToOneNatRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#network_id ApplianceOneToOneNatRules#network_id}
   */
   readonly networkId: string;
   /**
   * An array of 1:1 nat rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#rules ApplianceOneToOneNatRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#rules ApplianceOneToOneNatRules#rules}
   */
   readonly rules: ApplianceOneToOneNatRulesRules[] | cdktf.IResolvable;
 }
@@ -24,20 +24,20 @@ export interface ApplianceOneToOneNatRulesRulesAllowedInbound {
   /**
   * An array of ranges of WAN IP addresses that are allowed to make inbound connections on the specified ports or port ranges, or `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#allowed_ips ApplianceOneToOneNatRules#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#allowed_ips ApplianceOneToOneNatRules#allowed_ips}
   */
   readonly allowedIps?: string[];
   /**
   * An array of ports or port ranges that will be forwarded to the host on the LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#destination_ports ApplianceOneToOneNatRules#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#destination_ports ApplianceOneToOneNatRules#destination_ports}
   */
   readonly destinationPorts?: string[];
   /**
   * Either of the following: `tcp`, `udp`, `icmp-ping` or `any`
   *   - Choices: `any`, `icmp-ping`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#protocol ApplianceOneToOneNatRules#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#protocol ApplianceOneToOneNatRules#protocol}
   */
   readonly protocol?: string;
 }
@@ -213,32 +213,32 @@ export interface ApplianceOneToOneNatRulesRules {
   /**
   * The ports this mapping will provide access on, and the remote IPs that will be allowed access to the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#allowed_inbound ApplianceOneToOneNatRules#allowed_inbound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#allowed_inbound ApplianceOneToOneNatRules#allowed_inbound}
   */
   readonly allowedInbound?: ApplianceOneToOneNatRulesRulesAllowedInbound[] | cdktf.IResolvable;
   /**
   * The IP address of the server or device that hosts the internal resource that you wish to make available on the WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#lan_ip ApplianceOneToOneNatRules#lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#lan_ip ApplianceOneToOneNatRules#lan_ip}
   */
   readonly lanIp: string;
   /**
   * A descriptive name for the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#name ApplianceOneToOneNatRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#name ApplianceOneToOneNatRules#name}
   */
   readonly name?: string;
   /**
   * The IP address that will be used to access the internal resource from the WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#public_ip ApplianceOneToOneNatRules#public_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#public_ip ApplianceOneToOneNatRules#public_ip}
   */
   readonly publicIp: string;
   /**
   * The physical WAN interface on which the traffic will arrive (`internet1` or, if available, `internet2`)
   *   - Choices: `internet1`, `internet2`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#uplink ApplianceOneToOneNatRules#uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#uplink ApplianceOneToOneNatRules#uplink}
   */
   readonly uplink?: string;
 }
@@ -464,7 +464,7 @@ export class ApplianceOneToOneNatRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules}
 */
 export class ApplianceOneToOneNatRules extends cdktf.TerraformResource {
 
@@ -480,7 +480,7 @@ export class ApplianceOneToOneNatRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceOneToOneNatRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceOneToOneNatRules to import
-  * @param importFromId The id of the existing ApplianceOneToOneNatRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceOneToOneNatRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceOneToOneNatRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -492,7 +492,7 @@ export class ApplianceOneToOneNatRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_one_to_one_nat_rules meraki_appliance_one_to_one_nat_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -503,8 +503,8 @@ export class ApplianceOneToOneNatRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_one_to_one_nat_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

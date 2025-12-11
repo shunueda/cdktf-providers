@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WaapCustomPageSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of domain IDs associated with this custom page set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#domains WaapCustomPageSet#domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#domains WaapCustomPageSet#domains}
   */
   readonly domains?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#id WaapCustomPageSet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#id WaapCustomPageSet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,43 +23,43 @@ export interface WaapCustomPageSetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the custom page set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#name WaapCustomPageSet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#name WaapCustomPageSet#name}
   */
   readonly name: string;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#block WaapCustomPageSet#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#block WaapCustomPageSet#block}
   */
   readonly block?: WaapCustomPageSetBlock;
   /**
   * block_csrf block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#block_csrf WaapCustomPageSet#block_csrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#block_csrf WaapCustomPageSet#block_csrf}
   */
   readonly blockCsrf?: WaapCustomPageSetBlockCsrf;
   /**
   * captcha block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#captcha WaapCustomPageSet#captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#captcha WaapCustomPageSet#captcha}
   */
   readonly captcha?: WaapCustomPageSetCaptcha;
   /**
   * cookie_disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#cookie_disabled WaapCustomPageSet#cookie_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#cookie_disabled WaapCustomPageSet#cookie_disabled}
   */
   readonly cookieDisabled?: WaapCustomPageSetCookieDisabled;
   /**
   * handshake block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#handshake WaapCustomPageSet#handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#handshake WaapCustomPageSet#handshake}
   */
   readonly handshake?: WaapCustomPageSetHandshake;
   /**
   * javascript_disabled block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#javascript_disabled WaapCustomPageSet#javascript_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#javascript_disabled WaapCustomPageSet#javascript_disabled}
   */
   readonly javascriptDisabled?: WaapCustomPageSetJavascriptDisabled;
 }
@@ -67,31 +67,31 @@ export interface WaapCustomPageSetBlock {
   /**
   * Indicates whether the custom custom page is active or inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The text to display in the header of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
   */
   readonly header?: string;
   /**
   * A base64 encoded image of the logo to present. Supported image types are JPEG, PNG and JPG, size is limited to width 450px, height 130px. This should be a base 64 encoding of the full HTML img tag compatible image, with the header included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
   */
   readonly logo?: string;
   /**
   * The text to display in the body of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
   */
   readonly text?: string;
   /**
   * The text to display in the title of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
   */
   readonly title?: string;
 }
@@ -290,31 +290,31 @@ export interface WaapCustomPageSetBlockCsrf {
   /**
   * Indicates whether the custom custom page is active or inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The text to display in the header of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
   */
   readonly header?: string;
   /**
   * A base64 encoded image of the logo to present. Supported image types are JPEG, PNG and JPG, size is limited to width 450px, height 130px. This should be a base 64 encoding of the full HTML img tag compatible image, with the header included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
   */
   readonly logo?: string;
   /**
   * The text to display in the body of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
   */
   readonly text?: string;
   /**
   * The text to display in the title of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
   */
   readonly title?: string;
 }
@@ -513,37 +513,37 @@ export interface WaapCustomPageSetCaptcha {
   /**
   * Indicates whether the custom custom page is active or inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Error message.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#error WaapCustomPageSet#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#error WaapCustomPageSet#error}
   */
   readonly error?: string;
   /**
   * The text to display in the header of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
   */
   readonly header?: string;
   /**
   * A base64 encoded image of the logo to present. Supported image types are JPEG, PNG and JPG, size is limited to width 450px, height 130px. This should be a base 64 encoding of the full HTML img tag compatible image, with the header included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
   */
   readonly logo?: string;
   /**
   * The text to display in the body of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
   */
   readonly text?: string;
   /**
   * The text to display in the title of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
   */
   readonly title?: string;
 }
@@ -771,19 +771,19 @@ export interface WaapCustomPageSetCookieDisabled {
   /**
   * Indicates whether the custom custom page is active or inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The text to display in the header of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
   */
   readonly header?: string;
   /**
   * The text to display in the body of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
   */
   readonly text?: string;
 }
@@ -924,25 +924,25 @@ export interface WaapCustomPageSetHandshake {
   /**
   * Indicates whether the custom custom page is active or inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The text to display in the header of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
   */
   readonly header?: string;
   /**
   * A base64 encoded image of the logo to present. Supported image types are JPEG, PNG and JPG, size is limited to width 450px, height 130px. This should be a base 64 encoding of the full HTML img tag compatible image, with the header included.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#logo WaapCustomPageSet#logo}
   */
   readonly logo?: string;
   /**
   * The text to display in the title of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#title WaapCustomPageSet#title}
   */
   readonly title?: string;
 }
@@ -1112,19 +1112,19 @@ export interface WaapCustomPageSetJavascriptDisabled {
   /**
   * Indicates whether the custom custom page is active or inactive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#enabled WaapCustomPageSet#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The text to display in the header of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#header WaapCustomPageSet#header}
   */
   readonly header?: string;
   /**
   * The text to display in the body of the custom page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#text WaapCustomPageSet#text}
   */
   readonly text?: string;
 }
@@ -1263,7 +1263,7 @@ export class WaapCustomPageSetJavascriptDisabledOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set gcore_waap_custom_page_set}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set gcore_waap_custom_page_set}
 */
 export class WaapCustomPageSet extends cdktf.TerraformResource {
 
@@ -1279,7 +1279,7 @@ export class WaapCustomPageSet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapCustomPageSet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapCustomPageSet to import
-  * @param importFromId The id of the existing WaapCustomPageSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapCustomPageSet that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapCustomPageSet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1291,7 +1291,7 @@ export class WaapCustomPageSet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_page_set gcore_waap_custom_page_set} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_page_set gcore_waap_custom_page_set} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1302,8 +1302,8 @@ export class WaapCustomPageSet extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_custom_page_set',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

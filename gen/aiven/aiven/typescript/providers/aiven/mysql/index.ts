@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface MysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#additional_disk_space Mysql#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#additional_disk_space Mysql#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#cloud_name Mysql#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#cloud_name Mysql#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#disk_space Mysql#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#disk_space Mysql#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#id Mysql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#id Mysql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface MysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#maintenance_window_dow Mysql#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#maintenance_window_dow Mysql#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#maintenance_window_time Mysql#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#maintenance_window_time Mysql#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#plan Mysql#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#plan Mysql#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#project Mysql#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#project Mysql#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#project_vpc_id Mysql#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#project_vpc_id Mysql#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#service_name Mysql#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#service_name Mysql#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#static_ips Mysql#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#static_ips Mysql#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#termination_protection Mysql#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#termination_protection Mysql#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql Mysql#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql Mysql#mysql}
   */
   readonly mysql?: MysqlMysql;
   /**
   * mysql_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql_user_config Mysql#mysql_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql_user_config Mysql#mysql_user_config}
   */
   readonly mysqlUserConfig?: MysqlMysqlUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#service_integrations Mysql#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#service_integrations Mysql#service_integrations}
   */
   readonly serviceIntegrations?: MysqlServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#tag Mysql#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#tag Mysql#tag}
   */
   readonly tag?: MysqlTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#tech_emails Mysql#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#tech_emails Mysql#tech_emails}
   */
   readonly techEmails?: MysqlTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#timeouts Mysql#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#timeouts Mysql#timeouts}
   */
   readonly timeouts?: MysqlTimeouts;
 }
@@ -347,25 +347,25 @@ export interface MysqlMysql {
   /**
   * MySQL standby connection URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#standby_uris Mysql#standby_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#standby_uris Mysql#standby_uris}
   */
   readonly standbyUris?: string[];
   /**
   * MySQL syncing connection URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#syncing_uris Mysql#syncing_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#syncing_uris Mysql#syncing_uris}
   */
   readonly syncingUris?: string[];
   /**
   * MySQL connection URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#uris Mysql#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#uris Mysql#uris}
   */
   readonly uris?: string[];
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#params Mysql#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#params Mysql#params}
   */
   readonly params?: MysqlMysqlParams[] | cdktf.IResolvable;
 }
@@ -543,13 +543,13 @@ export interface MysqlMysqlUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#description Mysql#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#description Mysql#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#network Mysql#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#network Mysql#network}
   */
   readonly network: string;
 }
@@ -693,55 +693,61 @@ export interface MysqlMysqlUserConfigMigration {
   /**
   * Database name for bootstrapping the initial connection. Example: `defaultdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#dbname Mysql#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#dbname Mysql#dbname}
   */
   readonly dbname?: string;
   /**
+  * Enum: `mydumper`, `mysqldump`. Experimental! Tool to use for database dump and restore during migration. Default: mysqldump.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#dump_tool Mysql#dump_tool}
+  */
+  readonly dumpTool?: string;
+  /**
   * Hostname or IP address of the server where to migrate data from. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#host Mysql#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#host Mysql#host}
   */
   readonly host: string;
   /**
   * Comma-separated list of databases, which should be ignored during migration (supported by MySQL and PostgreSQL only at the moment). Example: `db1,db2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#ignore_dbs Mysql#ignore_dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#ignore_dbs Mysql#ignore_dbs}
   */
   readonly ignoreDbs?: string;
   /**
   * Comma-separated list of database roles, which should be ignored during migration (supported by PostgreSQL only at the moment). Example: `role1,role2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#ignore_roles Mysql#ignore_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#ignore_roles Mysql#ignore_roles}
   */
   readonly ignoreRoles?: string;
   /**
   * Enum: `dump`, `replication`. The migration method to be used (currently supported only by Redis, Dragonfly, MySQL and PostgreSQL service types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#method Mysql#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#method Mysql#method}
   */
   readonly method?: string;
   /**
   * Password for authentication with the server where to migrate data from. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#password Mysql#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#password Mysql#password}
   */
   readonly password?: string;
   /**
   * Port number of the server where to migrate data from. Example: `1234`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#port Mysql#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#port Mysql#port}
   */
   readonly port: number;
   /**
   * The server where to migrate data from is secured with SSL. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#ssl Mysql#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#ssl Mysql#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * User name for authentication with the server where to migrate data from. Example: `myname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#username Mysql#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#username Mysql#username}
   */
   readonly username?: string;
 }
@@ -753,6 +759,7 @@ export function mysqlMysqlUserConfigMigrationToTerraform(struct?: MysqlMysqlUser
   }
   return {
     dbname: cdktf.stringToTerraform(struct!.dbname),
+    dump_tool: cdktf.stringToTerraform(struct!.dumpTool),
     host: cdktf.stringToTerraform(struct!.host),
     ignore_dbs: cdktf.stringToTerraform(struct!.ignoreDbs),
     ignore_roles: cdktf.stringToTerraform(struct!.ignoreRoles),
@@ -773,6 +780,12 @@ export function mysqlMysqlUserConfigMigrationToHclTerraform(struct?: MysqlMysqlU
   const attrs = {
     dbname: {
       value: cdktf.stringToHclTerraform(struct!.dbname),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    dump_tool: {
+      value: cdktf.stringToHclTerraform(struct!.dumpTool),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -849,6 +862,10 @@ export class MysqlMysqlUserConfigMigrationOutputReference extends cdktf.ComplexO
       hasAnyValues = true;
       internalValueResult.dbname = this._dbname;
     }
+    if (this._dumpTool !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.dumpTool = this._dumpTool;
+    }
     if (this._host !== undefined) {
       hasAnyValues = true;
       internalValueResult.host = this._host;
@@ -888,6 +905,7 @@ export class MysqlMysqlUserConfigMigrationOutputReference extends cdktf.ComplexO
     if (value === undefined) {
       this.isEmptyObject = false;
       this._dbname = undefined;
+      this._dumpTool = undefined;
       this._host = undefined;
       this._ignoreDbs = undefined;
       this._ignoreRoles = undefined;
@@ -900,6 +918,7 @@ export class MysqlMysqlUserConfigMigrationOutputReference extends cdktf.ComplexO
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this._dbname = value.dbname;
+      this._dumpTool = value.dumpTool;
       this._host = value.host;
       this._ignoreDbs = value.ignoreDbs;
       this._ignoreRoles = value.ignoreRoles;
@@ -925,6 +944,22 @@ export class MysqlMysqlUserConfigMigrationOutputReference extends cdktf.ComplexO
   // Temporarily expose input value. Use with caution.
   public get dbnameInput() {
     return this._dbname;
+  }
+
+  // dump_tool - computed: false, optional: true, required: false
+  private _dumpTool?: string; 
+  public get dumpTool() {
+    return this.getStringAttribute('dump_tool');
+  }
+  public set dumpTool(value: string) {
+    this._dumpTool = value;
+  }
+  public resetDumpTool() {
+    this._dumpTool = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get dumpToolInput() {
+    return this._dumpTool;
   }
 
   // host - computed: false, optional: false, required: true
@@ -1053,187 +1088,187 @@ export interface MysqlMysqlUserConfigMysql {
   /**
   * The number of seconds that the mysqld server waits for a connect packet before responding with Bad handshake. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#connect_timeout Mysql#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#connect_timeout Mysql#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * Default server time zone as an offset from UTC (from -12:00 to +12:00), a time zone name, or `SYSTEM` to use the MySQL server default. Example: `+03:00`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#default_time_zone Mysql#default_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#default_time_zone Mysql#default_time_zone}
   */
   readonly defaultTimeZone?: string;
   /**
   * The maximum permitted result length in bytes for the GROUP_CONCAT() function. Example: `1024`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#group_concat_max_len Mysql#group_concat_max_len}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#group_concat_max_len Mysql#group_concat_max_len}
   */
   readonly groupConcatMaxLen?: number;
   /**
   * The time, in seconds, before cached statistics expire. Example: `86400`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#information_schema_stats_expiry Mysql#information_schema_stats_expiry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#information_schema_stats_expiry Mysql#information_schema_stats_expiry}
   */
   readonly informationSchemaStatsExpiry?: number;
   /**
   * Maximum size for the InnoDB change buffer, as a percentage of the total size of the buffer pool. Default is 25. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_change_buffer_max_size Mysql#innodb_change_buffer_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_change_buffer_max_size Mysql#innodb_change_buffer_max_size}
   */
   readonly innodbChangeBufferMaxSize?: number;
   /**
   * Specifies whether flushing a page from the InnoDB buffer pool also flushes other dirty pages in the same extent (default is 1): 0 - dirty pages in the same extent are not flushed, 1 - flush contiguous dirty pages in the same extent, 2 - flush dirty pages in the same extent. Example: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_flush_neighbors Mysql#innodb_flush_neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_flush_neighbors Mysql#innodb_flush_neighbors}
   */
   readonly innodbFlushNeighbors?: number;
   /**
   * Minimum length of words that are stored in an InnoDB FULLTEXT index. Changing this parameter will lead to a restart of the MySQL service. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_ft_min_token_size Mysql#innodb_ft_min_token_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_ft_min_token_size Mysql#innodb_ft_min_token_size}
   */
   readonly innodbFtMinTokenSize?: number;
   /**
   * This option is used to specify your own InnoDB FULLTEXT index stopword list for all InnoDB tables. Example: `db_name/table_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_ft_server_stopword_table Mysql#innodb_ft_server_stopword_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_ft_server_stopword_table Mysql#innodb_ft_server_stopword_table}
   */
   readonly innodbFtServerStopwordTable?: string;
   /**
   * The length of time in seconds an InnoDB transaction waits for a row lock before giving up. Default is 120. Example: `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_lock_wait_timeout Mysql#innodb_lock_wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_lock_wait_timeout Mysql#innodb_lock_wait_timeout}
   */
   readonly innodbLockWaitTimeout?: number;
   /**
   * The size in bytes of the buffer that InnoDB uses to write to the log files on disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_log_buffer_size Mysql#innodb_log_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_log_buffer_size Mysql#innodb_log_buffer_size}
   */
   readonly innodbLogBufferSize?: number;
   /**
   * The upper limit in bytes on the size of the temporary log files used during online DDL operations for InnoDB tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_online_alter_log_max_size Mysql#innodb_online_alter_log_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_online_alter_log_max_size Mysql#innodb_online_alter_log_max_size}
   */
   readonly innodbOnlineAlterLogMaxSize?: number;
   /**
   * When enabled, information about all deadlocks in InnoDB user transactions is recorded in the error log. Disabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_print_all_deadlocks Mysql#innodb_print_all_deadlocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_print_all_deadlocks Mysql#innodb_print_all_deadlocks}
   */
   readonly innodbPrintAllDeadlocks?: boolean | cdktf.IResolvable;
   /**
   * The number of I/O threads for read operations in InnoDB. Default is 4. Changing this parameter will lead to a restart of the MySQL service. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_read_io_threads Mysql#innodb_read_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_read_io_threads Mysql#innodb_read_io_threads}
   */
   readonly innodbReadIoThreads?: number;
   /**
   * When enabled a transaction timeout causes InnoDB to abort and roll back the entire transaction. Changing this parameter will lead to a restart of the MySQL service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_rollback_on_timeout Mysql#innodb_rollback_on_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_rollback_on_timeout Mysql#innodb_rollback_on_timeout}
   */
   readonly innodbRollbackOnTimeout?: boolean | cdktf.IResolvable;
   /**
   * Defines the maximum number of threads permitted inside of InnoDB. Default is 0 (infinite concurrency - no limit). Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_thread_concurrency Mysql#innodb_thread_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_thread_concurrency Mysql#innodb_thread_concurrency}
   */
   readonly innodbThreadConcurrency?: number;
   /**
   * The number of I/O threads for write operations in InnoDB. Default is 4. Changing this parameter will lead to a restart of the MySQL service. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#innodb_write_io_threads Mysql#innodb_write_io_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#innodb_write_io_threads Mysql#innodb_write_io_threads}
   */
   readonly innodbWriteIoThreads?: number;
   /**
   * The number of seconds the server waits for activity on an interactive connection before closing it. Example: `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#interactive_timeout Mysql#interactive_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#interactive_timeout Mysql#interactive_timeout}
   */
   readonly interactiveTimeout?: number;
   /**
   * Enum: `MEMORY`, `TempTable`. The storage engine for in-memory internal temporary tables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#internal_tmp_mem_storage_engine Mysql#internal_tmp_mem_storage_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#internal_tmp_mem_storage_engine Mysql#internal_tmp_mem_storage_engine}
   */
   readonly internalTmpMemStorageEngine?: string;
   /**
   * Enum: `INSIGHTS`, `INSIGHTS,TABLE`, `NONE`, `TABLE`. The slow log output destination when slow_query_log is ON. To enable MySQL AI Insights, choose INSIGHTS. To use MySQL AI Insights and the mysql.slow_log table at the same time, choose INSIGHTS,TABLE. To only use the mysql.slow_log table, choose TABLE. To silence slow logs, choose NONE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#log_output Mysql#log_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#log_output Mysql#log_output}
   */
   readonly logOutput?: string;
   /**
   * The slow_query_logs work as SQL statements that take more than long_query_time seconds to execute. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#long_query_time Mysql#long_query_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#long_query_time Mysql#long_query_time}
   */
   readonly longQueryTime?: number;
   /**
   * Size of the largest message in bytes that can be received by the server. Default is 67108864 (64M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#max_allowed_packet Mysql#max_allowed_packet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#max_allowed_packet Mysql#max_allowed_packet}
   */
   readonly maxAllowedPacket?: number;
   /**
   * Limits the size of internal in-memory tables. Also set tmp_table_size. Default is 16777216 (16M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#max_heap_table_size Mysql#max_heap_table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#max_heap_table_size Mysql#max_heap_table_size}
   */
   readonly maxHeapTableSize?: number;
   /**
   * Start sizes of connection buffer and result buffer. Default is 16384 (16K). Changing this parameter will lead to a restart of the MySQL service. Example: `16384`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#net_buffer_length Mysql#net_buffer_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#net_buffer_length Mysql#net_buffer_length}
   */
   readonly netBufferLength?: number;
   /**
   * The number of seconds to wait for more data from a connection before aborting the read. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#net_read_timeout Mysql#net_read_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#net_read_timeout Mysql#net_read_timeout}
   */
   readonly netReadTimeout?: number;
   /**
   * The number of seconds to wait for a block to be written to a connection before aborting the write. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#net_write_timeout Mysql#net_write_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#net_write_timeout Mysql#net_write_timeout}
   */
   readonly netWriteTimeout?: number;
   /**
   * Slow query log enables capturing of slow queries. Setting slow_query_log to false also truncates the mysql.slow_log table.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#slow_query_log Mysql#slow_query_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#slow_query_log Mysql#slow_query_log}
   */
   readonly slowQueryLog?: boolean | cdktf.IResolvable;
   /**
   * Sort buffer size in bytes for ORDER BY optimization. Default is 262144 (256K). Example: `262144`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#sort_buffer_size Mysql#sort_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#sort_buffer_size Mysql#sort_buffer_size}
   */
   readonly sortBufferSize?: number;
   /**
   * Global SQL mode. Set to empty to use MySQL server defaults. When creating a new service and not setting this field Aiven default SQL mode (strict, SQL standard compliant) will be assigned. Example: `ANSI,TRADITIONAL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#sql_mode Mysql#sql_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#sql_mode Mysql#sql_mode}
   */
   readonly sqlMode?: string;
   /**
   * Require primary key to be defined for new tables or old tables modified with ALTER TABLE and fail if missing. It is recommended to always have primary keys because various functionality may break if any large table is missing them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#sql_require_primary_key Mysql#sql_require_primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#sql_require_primary_key Mysql#sql_require_primary_key}
   */
   readonly sqlRequirePrimaryKey?: boolean | cdktf.IResolvable;
   /**
   * Limits the size of internal in-memory tables. Also set max_heap_table_size. Default is 16777216 (16M).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#tmp_table_size Mysql#tmp_table_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#tmp_table_size Mysql#tmp_table_size}
   */
   readonly tmpTableSize?: number;
   /**
   * The number of seconds the server waits for activity on a noninteractive connection before closing it. Example: `28800`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#wait_timeout Mysql#wait_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#wait_timeout Mysql#wait_timeout}
   */
   readonly waitTimeout?: number;
 }
@@ -2189,13 +2224,13 @@ export interface MysqlMysqlUserConfigMysqlIncrementalBackup {
   /**
   * Enable periodic incremental backups. When enabled, full_backup_week_schedule must be set. Incremental backups only store changes since the last backup, making them faster and more storage-efficient than full backups. This is particularly useful for large databases where daily full backups would be too time-consuming or expensive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#enabled Mysql#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#enabled Mysql#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Comma-separated list of days of the week when full backups should be created. Valid values: mon, tue, wed, thu, fri, sat, sun. Example: `sun,wed`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#full_backup_week_schedule Mysql#full_backup_week_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#full_backup_week_schedule Mysql#full_backup_week_schedule}
   */
   readonly fullBackupWeekSchedule?: string;
 }
@@ -2307,19 +2342,19 @@ export interface MysqlMysqlUserConfigPrivateAccess {
   /**
   * Allow clients to connect to mysql with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql Mysql#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql Mysql#mysql}
   */
   readonly mysql?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to mysqlx with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysqlx Mysql#mysqlx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysqlx Mysql#mysqlx}
   */
   readonly mysqlx?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#prometheus Mysql#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#prometheus Mysql#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -2463,19 +2498,19 @@ export interface MysqlMysqlUserConfigPrivatelinkAccess {
   /**
   * Enable mysql.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql Mysql#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql Mysql#mysql}
   */
   readonly mysql?: boolean | cdktf.IResolvable;
   /**
   * Enable mysqlx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysqlx Mysql#mysqlx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysqlx Mysql#mysqlx}
   */
   readonly mysqlx?: boolean | cdktf.IResolvable;
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#prometheus Mysql#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#prometheus Mysql#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -2619,19 +2654,19 @@ export interface MysqlMysqlUserConfigPublicAccess {
   /**
   * Allow clients to connect to mysql from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql Mysql#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql Mysql#mysql}
   */
   readonly mysql?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to mysqlx from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysqlx Mysql#mysqlx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysqlx Mysql#mysqlx}
   */
   readonly mysqlx?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#prometheus Mysql#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#prometheus Mysql#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -2775,127 +2810,127 @@ export interface MysqlMysqlUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#additional_backup_regions Mysql#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#additional_backup_regions Mysql#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Custom password for admin user. Defaults to random string. This must be set only when a new service is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#admin_password Mysql#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#admin_password Mysql#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Custom username for admin user. This must be set only when a new service is being created. Example: `avnadmin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#admin_username Mysql#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#admin_username Mysql#admin_username}
   */
   readonly adminUsername?: string;
   /**
-  * The hour of day (in UTC) when backup for the service is started. New backup is only started if previous backup has already completed. Example: `3`.
+  * The hour of day (in UTC) when backup for the service is started. New backup is only started if previous backup has already completed. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#backup_hour Mysql#backup_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#backup_hour Mysql#backup_hour}
   */
   readonly backupHour?: number;
   /**
-  * The minute of an hour when backup for the service is started. New backup is only started if previous backup has already completed. Example: `30`.
+  * The minute of an hour when backup for the service is started. New backup is only started if previous backup has already completed. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#backup_minute Mysql#backup_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#backup_minute Mysql#backup_minute}
   */
   readonly backupMinute?: number;
   /**
   * The minimum amount of time in seconds to keep binlog entries before deletion. This may be extended for services that require binlog entries for longer than the default for example if using the MySQL Debezium Kafka connector. Example: `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#binlog_retention_period Mysql#binlog_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#binlog_retention_period Mysql#binlog_retention_period}
   */
   readonly binlogRetentionPeriod?: number;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#ip_filter Mysql#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#ip_filter Mysql#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#ip_filter_string Mysql#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#ip_filter_string Mysql#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Enum: `8`, and newer. MySQL major version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql_version Mysql#mysql_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql_version Mysql#mysql_version}
   */
   readonly mysqlVersion?: string;
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#project_to_fork_from Mysql#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#project_to_fork_from Mysql#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Recovery target time when forking a service. This has effect only when a new service is being created. Example: `2019-01-01 23:34:45`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#recovery_target_time Mysql#recovery_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#recovery_target_time Mysql#recovery_target_time}
   */
   readonly recoveryTargetTime?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#service_log Mysql#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#service_log Mysql#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#service_to_fork_from Mysql#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#service_to_fork_from Mysql#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#static_ips Mysql#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#static_ips Mysql#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#ip_filter_object Mysql#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#ip_filter_object Mysql#ip_filter_object}
   */
   readonly ipFilterObject?: MysqlMysqlUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#migration Mysql#migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#migration Mysql#migration}
   */
   readonly migration?: MysqlMysqlUserConfigMigration;
   /**
   * mysql block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql Mysql#mysql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql Mysql#mysql}
   */
   readonly mysql?: MysqlMysqlUserConfigMysql;
   /**
   * mysql_incremental_backup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#mysql_incremental_backup Mysql#mysql_incremental_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#mysql_incremental_backup Mysql#mysql_incremental_backup}
   */
   readonly mysqlIncrementalBackup?: MysqlMysqlUserConfigMysqlIncrementalBackup;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#private_access Mysql#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#private_access Mysql#private_access}
   */
   readonly privateAccess?: MysqlMysqlUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#privatelink_access Mysql#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#privatelink_access Mysql#privatelink_access}
   */
   readonly privatelinkAccess?: MysqlMysqlUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#public_access Mysql#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#public_access Mysql#public_access}
   */
   readonly publicAccess?: MysqlMysqlUserConfigPublicAccess;
 }
@@ -3561,13 +3596,13 @@ export interface MysqlServiceIntegrations {
   /**
   * Type of the service integration. The possible value is `read_replica`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#integration_type Mysql#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#integration_type Mysql#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#source_service_name Mysql#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#source_service_name Mysql#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -3708,13 +3743,13 @@ export interface MysqlTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#key Mysql#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#key Mysql#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#value Mysql#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#value Mysql#value}
   */
   readonly value: string;
 }
@@ -3855,7 +3890,7 @@ export interface MysqlTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#email Mysql#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#email Mysql#email}
   */
   readonly email: string;
 }
@@ -3968,23 +4003,23 @@ export class MysqlTechEmailsList extends cdktf.ComplexList {
 }
 export interface MysqlTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#create Mysql#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#create Mysql#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#default Mysql#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#default Mysql#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#delete Mysql#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#delete Mysql#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#read Mysql#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#read Mysql#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#update Mysql#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#update Mysql#update}
   */
   readonly update?: string;
 }
@@ -4194,7 +4229,7 @@ export class MysqlTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql aiven_mysql}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql aiven_mysql}
 */
 export class Mysql extends cdktf.TerraformResource {
 
@@ -4210,7 +4245,7 @@ export class Mysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Mysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Mysql to import
-  * @param importFromId The id of the existing Mysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Mysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Mysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4222,7 +4257,7 @@ export class Mysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mysql aiven_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mysql aiven_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4233,8 +4268,8 @@ export class Mysql extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_mysql',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WirelessRfProfilesConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#items WirelessRfProfiles#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#items WirelessRfProfiles#items}
   */
   readonly items: WirelessRfProfilesItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#network_id WirelessRfProfiles#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#network_id WirelessRfProfiles#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#organization_id WirelessRfProfiles#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#organization_id WirelessRfProfiles#organization_id}
   */
   readonly organizationId: string;
 }
@@ -30,13 +30,13 @@ export interface WirelessRfProfilesItemsFlexRadiosByModel {
   /**
   * Band to use for each flex radio. For example, [`6`] will set the AP`s first flex radio to 6 GHz
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#bands WirelessRfProfiles#bands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#bands WirelessRfProfiles#bands}
   */
   readonly bands?: string[];
   /**
   * Model of the AP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#model WirelessRfProfiles#model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#model WirelessRfProfiles#model}
   */
   readonly model?: string;
 }
@@ -184,552 +184,552 @@ export interface WirelessRfProfilesItems {
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`. Defaults to dual.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#ap_band_settings_band_operation_mode WirelessRfProfiles#ap_band_settings_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#ap_band_settings_band_operation_mode WirelessRfProfiles#ap_band_settings_band_operation_mode}
   */
   readonly apBandSettingsBandOperationMode?: string;
   /**
   * Steers client to most open band. Can be either true or false. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#ap_band_settings_band_steering_enabled WirelessRfProfiles#ap_band_settings_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#ap_band_settings_band_steering_enabled WirelessRfProfiles#ap_band_settings_band_steering_enabled}
   */
   readonly apBandSettingsBandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#ap_band_settings_bands_enabled WirelessRfProfiles#ap_band_settings_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#ap_band_settings_bands_enabled WirelessRfProfiles#ap_band_settings_bands_enabled}
   */
   readonly apBandSettingsBandsEnabled?: string[];
   /**
   * Band selection can be set to either `ssid` or `ap`. This param is required on creation.
   *   - Choices: `ap`, `ssid`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#band_selection_type WirelessRfProfiles#band_selection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#band_selection_type WirelessRfProfiles#band_selection_type}
   */
   readonly bandSelectionType: string;
   /**
   * Steers client to best available access point. Can be either true or false. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#client_balancing_enabled WirelessRfProfiles#client_balancing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#client_balancing_enabled WirelessRfProfiles#client_balancing_enabled}
   */
   readonly clientBalancingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Sets channel width (MHz) for 5Ghz band. Can be one of `auto`, `20`, `40` or `80`. Defaults to auto.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#five_ghz_settings_channel_width WirelessRfProfiles#five_ghz_settings_channel_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#five_ghz_settings_channel_width WirelessRfProfiles#five_ghz_settings_channel_width}
   */
   readonly fiveGhzSettingsChannelWidth?: string;
   /**
   * Sets max power (dBm) of 5Ghz band. Can be integer between 2 and 30. Defaults to 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#five_ghz_settings_max_power WirelessRfProfiles#five_ghz_settings_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#five_ghz_settings_max_power WirelessRfProfiles#five_ghz_settings_max_power}
   */
   readonly fiveGhzSettingsMaxPower?: number;
   /**
   * Sets min bitrate (Mbps) of 5Ghz band. Can be one of `6`, `9`, `12`, `18`, `24`, `36`, `48` or `54`. Defaults to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#five_ghz_settings_min_bitrate WirelessRfProfiles#five_ghz_settings_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#five_ghz_settings_min_bitrate WirelessRfProfiles#five_ghz_settings_min_bitrate}
   */
   readonly fiveGhzSettingsMinBitrate?: number;
   /**
   * Sets min power (dBm) of 5Ghz band. Can be integer between 2 and 30. Defaults to 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#five_ghz_settings_min_power WirelessRfProfiles#five_ghz_settings_min_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#five_ghz_settings_min_power WirelessRfProfiles#five_ghz_settings_min_power}
   */
   readonly fiveGhzSettingsMinPower?: number;
   /**
   * The RX-SOP level controls the sensitivity of the radio. It is strongly recommended to use RX-SOP only after consulting a wireless expert. RX-SOP can be configured in the range of -65 to -95 (dBm). A value of null will reset this to the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#five_ghz_settings_rxsop WirelessRfProfiles#five_ghz_settings_rxsop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#five_ghz_settings_rxsop WirelessRfProfiles#five_ghz_settings_rxsop}
   */
   readonly fiveGhzSettingsRxsop?: number;
   /**
   * Sets valid auto channels for 5Ghz band. Can be one of `36`, `40`, `44`, `48`, `52`, `56`, `60`, `64`, `100`, `104`, `108`, `112`, `116`, `120`, `124`, `128`, `132`, `136`, `140`, `144`, `149`, `153`, `157`, `161` or `165`.Defaults to [36, 40, 44, 48, 52, 56, 60, 64, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 149, 153, 157, 161, 165].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#five_ghz_settings_valid_auto_channels WirelessRfProfiles#five_ghz_settings_valid_auto_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#five_ghz_settings_valid_auto_channels WirelessRfProfiles#five_ghz_settings_valid_auto_channels}
   */
   readonly fiveGhzSettingsValidAutoChannels?: number[];
   /**
   * Flex radios by model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#flex_radios_by_model WirelessRfProfiles#flex_radios_by_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#flex_radios_by_model WirelessRfProfiles#flex_radios_by_model}
   */
   readonly flexRadiosByModel?: WirelessRfProfilesItemsFlexRadiosByModel[] | cdktf.IResolvable;
   /**
   * Set this profile as the default indoor rf profile. If the profile ID is one of `indoor` or `outdoor`, then a new profile will be created from the respective ID and set as the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#is_indoor_default WirelessRfProfiles#is_indoor_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#is_indoor_default WirelessRfProfiles#is_indoor_default}
   */
   readonly isIndoorDefault?: boolean | cdktf.IResolvable;
   /**
   * Set this profile as the default outdoor rf profile. If the profile ID is one of `indoor` or `outdoor`, then a new profile will be created from the respective ID and set as the default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#is_outdoor_default WirelessRfProfiles#is_outdoor_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#is_outdoor_default WirelessRfProfiles#is_outdoor_default}
   */
   readonly isOutdoorDefault?: boolean | cdktf.IResolvable;
   /**
   * Minimum bitrate can be set to either `band` or `ssid`. Defaults to band.
   *   - Choices: `band`, `ssid`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#min_bitrate_type WirelessRfProfiles#min_bitrate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#min_bitrate_type WirelessRfProfiles#min_bitrate_type}
   */
   readonly minBitrateType?: string;
   /**
   * The name of the new profile. Must be unique. This param is required on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#name WirelessRfProfiles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#name WirelessRfProfiles#name}
   */
   readonly name: string;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_band_operation_mode WirelessRfProfiles#per_ssid_settings_0_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_band_operation_mode WirelessRfProfiles#per_ssid_settings_0_band_operation_mode}
   */
   readonly perSsidSettings0BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_band_steering_enabled WirelessRfProfiles#per_ssid_settings_0_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_band_steering_enabled WirelessRfProfiles#per_ssid_settings_0_band_steering_enabled}
   */
   readonly perSsidSettings0BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_bands_enabled WirelessRfProfiles#per_ssid_settings_0_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_bands_enabled WirelessRfProfiles#per_ssid_settings_0_bands_enabled}
   */
   readonly perSsidSettings0BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_min_bitrate WirelessRfProfiles#per_ssid_settings_0_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_0_min_bitrate WirelessRfProfiles#per_ssid_settings_0_min_bitrate}
   */
   readonly perSsidSettings0MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_band_operation_mode WirelessRfProfiles#per_ssid_settings_10_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_band_operation_mode WirelessRfProfiles#per_ssid_settings_10_band_operation_mode}
   */
   readonly perSsidSettings10BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_band_steering_enabled WirelessRfProfiles#per_ssid_settings_10_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_band_steering_enabled WirelessRfProfiles#per_ssid_settings_10_band_steering_enabled}
   */
   readonly perSsidSettings10BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_bands_enabled WirelessRfProfiles#per_ssid_settings_10_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_bands_enabled WirelessRfProfiles#per_ssid_settings_10_bands_enabled}
   */
   readonly perSsidSettings10BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_min_bitrate WirelessRfProfiles#per_ssid_settings_10_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_10_min_bitrate WirelessRfProfiles#per_ssid_settings_10_min_bitrate}
   */
   readonly perSsidSettings10MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_band_operation_mode WirelessRfProfiles#per_ssid_settings_11_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_band_operation_mode WirelessRfProfiles#per_ssid_settings_11_band_operation_mode}
   */
   readonly perSsidSettings11BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_band_steering_enabled WirelessRfProfiles#per_ssid_settings_11_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_band_steering_enabled WirelessRfProfiles#per_ssid_settings_11_band_steering_enabled}
   */
   readonly perSsidSettings11BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_bands_enabled WirelessRfProfiles#per_ssid_settings_11_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_bands_enabled WirelessRfProfiles#per_ssid_settings_11_bands_enabled}
   */
   readonly perSsidSettings11BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_min_bitrate WirelessRfProfiles#per_ssid_settings_11_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_11_min_bitrate WirelessRfProfiles#per_ssid_settings_11_min_bitrate}
   */
   readonly perSsidSettings11MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_band_operation_mode WirelessRfProfiles#per_ssid_settings_12_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_band_operation_mode WirelessRfProfiles#per_ssid_settings_12_band_operation_mode}
   */
   readonly perSsidSettings12BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_band_steering_enabled WirelessRfProfiles#per_ssid_settings_12_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_band_steering_enabled WirelessRfProfiles#per_ssid_settings_12_band_steering_enabled}
   */
   readonly perSsidSettings12BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_bands_enabled WirelessRfProfiles#per_ssid_settings_12_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_bands_enabled WirelessRfProfiles#per_ssid_settings_12_bands_enabled}
   */
   readonly perSsidSettings12BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_min_bitrate WirelessRfProfiles#per_ssid_settings_12_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_12_min_bitrate WirelessRfProfiles#per_ssid_settings_12_min_bitrate}
   */
   readonly perSsidSettings12MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_band_operation_mode WirelessRfProfiles#per_ssid_settings_13_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_band_operation_mode WirelessRfProfiles#per_ssid_settings_13_band_operation_mode}
   */
   readonly perSsidSettings13BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_band_steering_enabled WirelessRfProfiles#per_ssid_settings_13_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_band_steering_enabled WirelessRfProfiles#per_ssid_settings_13_band_steering_enabled}
   */
   readonly perSsidSettings13BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_bands_enabled WirelessRfProfiles#per_ssid_settings_13_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_bands_enabled WirelessRfProfiles#per_ssid_settings_13_bands_enabled}
   */
   readonly perSsidSettings13BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_min_bitrate WirelessRfProfiles#per_ssid_settings_13_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_13_min_bitrate WirelessRfProfiles#per_ssid_settings_13_min_bitrate}
   */
   readonly perSsidSettings13MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_band_operation_mode WirelessRfProfiles#per_ssid_settings_14_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_band_operation_mode WirelessRfProfiles#per_ssid_settings_14_band_operation_mode}
   */
   readonly perSsidSettings14BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_band_steering_enabled WirelessRfProfiles#per_ssid_settings_14_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_band_steering_enabled WirelessRfProfiles#per_ssid_settings_14_band_steering_enabled}
   */
   readonly perSsidSettings14BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_bands_enabled WirelessRfProfiles#per_ssid_settings_14_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_bands_enabled WirelessRfProfiles#per_ssid_settings_14_bands_enabled}
   */
   readonly perSsidSettings14BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_min_bitrate WirelessRfProfiles#per_ssid_settings_14_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_14_min_bitrate WirelessRfProfiles#per_ssid_settings_14_min_bitrate}
   */
   readonly perSsidSettings14MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_band_operation_mode WirelessRfProfiles#per_ssid_settings_1_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_band_operation_mode WirelessRfProfiles#per_ssid_settings_1_band_operation_mode}
   */
   readonly perSsidSettings1BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_band_steering_enabled WirelessRfProfiles#per_ssid_settings_1_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_band_steering_enabled WirelessRfProfiles#per_ssid_settings_1_band_steering_enabled}
   */
   readonly perSsidSettings1BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_bands_enabled WirelessRfProfiles#per_ssid_settings_1_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_bands_enabled WirelessRfProfiles#per_ssid_settings_1_bands_enabled}
   */
   readonly perSsidSettings1BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_min_bitrate WirelessRfProfiles#per_ssid_settings_1_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_1_min_bitrate WirelessRfProfiles#per_ssid_settings_1_min_bitrate}
   */
   readonly perSsidSettings1MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_band_operation_mode WirelessRfProfiles#per_ssid_settings_2_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_band_operation_mode WirelessRfProfiles#per_ssid_settings_2_band_operation_mode}
   */
   readonly perSsidSettings2BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_band_steering_enabled WirelessRfProfiles#per_ssid_settings_2_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_band_steering_enabled WirelessRfProfiles#per_ssid_settings_2_band_steering_enabled}
   */
   readonly perSsidSettings2BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_bands_enabled WirelessRfProfiles#per_ssid_settings_2_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_bands_enabled WirelessRfProfiles#per_ssid_settings_2_bands_enabled}
   */
   readonly perSsidSettings2BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_min_bitrate WirelessRfProfiles#per_ssid_settings_2_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_2_min_bitrate WirelessRfProfiles#per_ssid_settings_2_min_bitrate}
   */
   readonly perSsidSettings2MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_band_operation_mode WirelessRfProfiles#per_ssid_settings_3_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_band_operation_mode WirelessRfProfiles#per_ssid_settings_3_band_operation_mode}
   */
   readonly perSsidSettings3BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_band_steering_enabled WirelessRfProfiles#per_ssid_settings_3_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_band_steering_enabled WirelessRfProfiles#per_ssid_settings_3_band_steering_enabled}
   */
   readonly perSsidSettings3BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_bands_enabled WirelessRfProfiles#per_ssid_settings_3_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_bands_enabled WirelessRfProfiles#per_ssid_settings_3_bands_enabled}
   */
   readonly perSsidSettings3BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_min_bitrate WirelessRfProfiles#per_ssid_settings_3_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_3_min_bitrate WirelessRfProfiles#per_ssid_settings_3_min_bitrate}
   */
   readonly perSsidSettings3MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_band_operation_mode WirelessRfProfiles#per_ssid_settings_4_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_band_operation_mode WirelessRfProfiles#per_ssid_settings_4_band_operation_mode}
   */
   readonly perSsidSettings4BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_band_steering_enabled WirelessRfProfiles#per_ssid_settings_4_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_band_steering_enabled WirelessRfProfiles#per_ssid_settings_4_band_steering_enabled}
   */
   readonly perSsidSettings4BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_bands_enabled WirelessRfProfiles#per_ssid_settings_4_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_bands_enabled WirelessRfProfiles#per_ssid_settings_4_bands_enabled}
   */
   readonly perSsidSettings4BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_min_bitrate WirelessRfProfiles#per_ssid_settings_4_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_4_min_bitrate WirelessRfProfiles#per_ssid_settings_4_min_bitrate}
   */
   readonly perSsidSettings4MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_band_operation_mode WirelessRfProfiles#per_ssid_settings_5_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_band_operation_mode WirelessRfProfiles#per_ssid_settings_5_band_operation_mode}
   */
   readonly perSsidSettings5BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_band_steering_enabled WirelessRfProfiles#per_ssid_settings_5_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_band_steering_enabled WirelessRfProfiles#per_ssid_settings_5_band_steering_enabled}
   */
   readonly perSsidSettings5BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_bands_enabled WirelessRfProfiles#per_ssid_settings_5_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_bands_enabled WirelessRfProfiles#per_ssid_settings_5_bands_enabled}
   */
   readonly perSsidSettings5BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_min_bitrate WirelessRfProfiles#per_ssid_settings_5_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_5_min_bitrate WirelessRfProfiles#per_ssid_settings_5_min_bitrate}
   */
   readonly perSsidSettings5MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_band_operation_mode WirelessRfProfiles#per_ssid_settings_6_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_band_operation_mode WirelessRfProfiles#per_ssid_settings_6_band_operation_mode}
   */
   readonly perSsidSettings6BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_band_steering_enabled WirelessRfProfiles#per_ssid_settings_6_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_band_steering_enabled WirelessRfProfiles#per_ssid_settings_6_band_steering_enabled}
   */
   readonly perSsidSettings6BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_bands_enabled WirelessRfProfiles#per_ssid_settings_6_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_bands_enabled WirelessRfProfiles#per_ssid_settings_6_bands_enabled}
   */
   readonly perSsidSettings6BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_min_bitrate WirelessRfProfiles#per_ssid_settings_6_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_6_min_bitrate WirelessRfProfiles#per_ssid_settings_6_min_bitrate}
   */
   readonly perSsidSettings6MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_band_operation_mode WirelessRfProfiles#per_ssid_settings_7_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_band_operation_mode WirelessRfProfiles#per_ssid_settings_7_band_operation_mode}
   */
   readonly perSsidSettings7BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_band_steering_enabled WirelessRfProfiles#per_ssid_settings_7_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_band_steering_enabled WirelessRfProfiles#per_ssid_settings_7_band_steering_enabled}
   */
   readonly perSsidSettings7BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_bands_enabled WirelessRfProfiles#per_ssid_settings_7_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_bands_enabled WirelessRfProfiles#per_ssid_settings_7_bands_enabled}
   */
   readonly perSsidSettings7BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_min_bitrate WirelessRfProfiles#per_ssid_settings_7_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_7_min_bitrate WirelessRfProfiles#per_ssid_settings_7_min_bitrate}
   */
   readonly perSsidSettings7MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_band_operation_mode WirelessRfProfiles#per_ssid_settings_8_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_band_operation_mode WirelessRfProfiles#per_ssid_settings_8_band_operation_mode}
   */
   readonly perSsidSettings8BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_band_steering_enabled WirelessRfProfiles#per_ssid_settings_8_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_band_steering_enabled WirelessRfProfiles#per_ssid_settings_8_band_steering_enabled}
   */
   readonly perSsidSettings8BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_bands_enabled WirelessRfProfiles#per_ssid_settings_8_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_bands_enabled WirelessRfProfiles#per_ssid_settings_8_bands_enabled}
   */
   readonly perSsidSettings8BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_min_bitrate WirelessRfProfiles#per_ssid_settings_8_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_8_min_bitrate WirelessRfProfiles#per_ssid_settings_8_min_bitrate}
   */
   readonly perSsidSettings8MinBitrate?: number;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_band_operation_mode WirelessRfProfiles#per_ssid_settings_9_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_band_operation_mode WirelessRfProfiles#per_ssid_settings_9_band_operation_mode}
   */
   readonly perSsidSettings9BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_band_steering_enabled WirelessRfProfiles#per_ssid_settings_9_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_band_steering_enabled WirelessRfProfiles#per_ssid_settings_9_band_steering_enabled}
   */
   readonly perSsidSettings9BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * List of enabled bands. Can include ['2.4', '5', '6', 'disabled']
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_bands_enabled WirelessRfProfiles#per_ssid_settings_9_bands_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_bands_enabled WirelessRfProfiles#per_ssid_settings_9_bands_enabled}
   */
   readonly perSsidSettings9BandsEnabled?: string[];
   /**
   * Sets min bitrate (Mbps) of this SSID. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_min_bitrate WirelessRfProfiles#per_ssid_settings_9_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#per_ssid_settings_9_min_bitrate WirelessRfProfiles#per_ssid_settings_9_min_bitrate}
   */
   readonly perSsidSettings9MinBitrate?: number;
   /**
   * Sets channel width (MHz) for 6Ghz band. Can be one of `0`, `20`, `40`, `80` or `160`. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#six_ghz_settings_channel_width WirelessRfProfiles#six_ghz_settings_channel_width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#six_ghz_settings_channel_width WirelessRfProfiles#six_ghz_settings_channel_width}
   */
   readonly sixGhzSettingsChannelWidth?: string;
   /**
   * Sets max power (dBm) of 6Ghz band. Can be integer between 2 and 30. Defaults to 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#six_ghz_settings_max_power WirelessRfProfiles#six_ghz_settings_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#six_ghz_settings_max_power WirelessRfProfiles#six_ghz_settings_max_power}
   */
   readonly sixGhzSettingsMaxPower?: number;
   /**
   * Sets min bitrate (Mbps) of 6Ghz band. Can be one of `6`, `9`, `12`, `18`, `24`, `36`, `48` or `54`. Defaults to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#six_ghz_settings_min_bitrate WirelessRfProfiles#six_ghz_settings_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#six_ghz_settings_min_bitrate WirelessRfProfiles#six_ghz_settings_min_bitrate}
   */
   readonly sixGhzSettingsMinBitrate?: number;
   /**
   * Sets min power (dBm) of 6Ghz band. Can be integer between 2 and 30. Defaults to 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#six_ghz_settings_min_power WirelessRfProfiles#six_ghz_settings_min_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#six_ghz_settings_min_power WirelessRfProfiles#six_ghz_settings_min_power}
   */
   readonly sixGhzSettingsMinPower?: number;
   /**
   * The RX-SOP level controls the sensitivity of the radio. It is strongly recommended to use RX-SOP only after consulting a wireless expert. RX-SOP can be configured in the range of -65 to -95 (dBm). A value of null will reset this to the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#six_ghz_settings_rxsop WirelessRfProfiles#six_ghz_settings_rxsop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#six_ghz_settings_rxsop WirelessRfProfiles#six_ghz_settings_rxsop}
   */
   readonly sixGhzSettingsRxsop?: number;
   /**
   * Sets valid auto channels for 6Ghz band. Can be one of `1`, `5`, `9`, `13`, `17`, `21`, `25`, `29`, `33`, `37`, `41`, `45`, `49`, `53`, `57`, `61`, `65`, `69`, `73`, `77`, `81`, `85`, `89`, `93`, `97`, `101`, `105`, `109`, `113`, `117`, `121`, `125`, `129`, `133`, `137`, `141`, `145`, `149`, `153`, `157`, `161`, `165`, `169`, `173`, `177`, `181`, `185`, `189`, `193`, `197`, `201`, `205`, `209`, `213`, `217`, `221`, `225`, `229` or `233`.Defaults to [1, 5, 9, 13, 17, 21, 25, 29, 33, 37, 41, 45, 49, 53, 57, 61, 65, 69, 73, 77, 81, 85, 89, 93, 97, 101, 105, 109, 113, 117, 121, 125, 129, 133, 137, 141, 145, 149, 153, 157, 161, 165, 169, 173, 177, 181, 185, 189, 193, 197, 201, 205, 209, 213, 217, 221, 225, 229, 233].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#six_ghz_settings_valid_auto_channels WirelessRfProfiles#six_ghz_settings_valid_auto_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#six_ghz_settings_valid_auto_channels WirelessRfProfiles#six_ghz_settings_valid_auto_channels}
   */
   readonly sixGhzSettingsValidAutoChannels?: number[];
   /**
   * Toggle for radio transmission. When false, radios will not transmit at all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#transmission_enabled WirelessRfProfiles#transmission_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#transmission_enabled WirelessRfProfiles#transmission_enabled}
   */
   readonly transmissionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Determines whether ax radio on 2.4Ghz band is on or off. Can be either true or false. If false, we highly recommend disabling band steering. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_ax_enabled WirelessRfProfiles#two_four_ghz_settings_ax_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_ax_enabled WirelessRfProfiles#two_four_ghz_settings_ax_enabled}
   */
   readonly twoFourGhzSettingsAxEnabled?: boolean | cdktf.IResolvable;
   /**
   * Sets max power (dBm) of 2.4Ghz band. Can be integer between 2 and 30. Defaults to 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_max_power WirelessRfProfiles#two_four_ghz_settings_max_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_max_power WirelessRfProfiles#two_four_ghz_settings_max_power}
   */
   readonly twoFourGhzSettingsMaxPower?: number;
   /**
   * Sets min bitrate (Mbps) of 2.4Ghz band. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`. Defaults to 11.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_min_bitrate WirelessRfProfiles#two_four_ghz_settings_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_min_bitrate WirelessRfProfiles#two_four_ghz_settings_min_bitrate}
   */
   readonly twoFourGhzSettingsMinBitrate?: number;
   /**
   * Sets min power (dBm) of 2.4Ghz band. Can be integer between 2 and 30. Defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_min_power WirelessRfProfiles#two_four_ghz_settings_min_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_min_power WirelessRfProfiles#two_four_ghz_settings_min_power}
   */
   readonly twoFourGhzSettingsMinPower?: number;
   /**
   * The RX-SOP level controls the sensitivity of the radio. It is strongly recommended to use RX-SOP only after consulting a wireless expert. RX-SOP can be configured in the range of -65 to -95 (dBm). A value of null will reset this to the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_rxsop WirelessRfProfiles#two_four_ghz_settings_rxsop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_rxsop WirelessRfProfiles#two_four_ghz_settings_rxsop}
   */
   readonly twoFourGhzSettingsRxsop?: number;
   /**
   * Sets valid auto channels for 2.4Ghz band. Can be one of `1`, `6` or `11`. Defaults to [1, 6, 11].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_valid_auto_channels WirelessRfProfiles#two_four_ghz_settings_valid_auto_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#two_four_ghz_settings_valid_auto_channels WirelessRfProfiles#two_four_ghz_settings_valid_auto_channels}
   */
   readonly twoFourGhzSettingsValidAutoChannels?: number[];
 }
@@ -3396,7 +3396,7 @@ export class WirelessRfProfilesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles meraki_wireless_rf_profiles}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles meraki_wireless_rf_profiles}
 */
 export class WirelessRfProfiles extends cdktf.TerraformResource {
 
@@ -3412,7 +3412,7 @@ export class WirelessRfProfiles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessRfProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessRfProfiles to import
-  * @param importFromId The id of the existing WirelessRfProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessRfProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessRfProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3424,7 +3424,7 @@ export class WirelessRfProfiles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_rf_profiles meraki_wireless_rf_profiles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_rf_profiles meraki_wireless_rf_profiles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3435,8 +3435,8 @@ export class WirelessRfProfiles extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_rf_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

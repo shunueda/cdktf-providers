@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMonitorStatisticDataConfig extends cdktf.Terraf
   /**
   * GroupBy by the specified dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#group_bys DataTencentcloudMonitorStatisticData#group_bys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#group_bys DataTencentcloudMonitorStatisticData#group_bys}
   */
   readonly groupBys?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#id DataTencentcloudMonitorStatisticData#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#id DataTencentcloudMonitorStatisticData#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface DataTencentcloudMonitorStatisticDataConfig extends cdktf.Terraf
   /**
   * Metric name list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#metric_names DataTencentcloudMonitorStatisticData#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#metric_names DataTencentcloudMonitorStatisticData#metric_names}
   */
   readonly metricNames: string[];
   /**
   * Module, whose value is fixed at monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#module DataTencentcloudMonitorStatisticData#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#module DataTencentcloudMonitorStatisticData#module}
   */
   readonly module: string;
   /**
   * Namespace. Valid values: QCE, TKE2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#namespace DataTencentcloudMonitorStatisticData#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#namespace DataTencentcloudMonitorStatisticData#namespace}
   */
   readonly namespace: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#result_output_file DataTencentcloudMonitorStatisticData#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#result_output_file DataTencentcloudMonitorStatisticData#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#conditions DataTencentcloudMonitorStatisticData#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#conditions DataTencentcloudMonitorStatisticData#conditions}
   */
   readonly conditions?: DataTencentcloudMonitorStatisticDataConditions[] | cdktf.IResolvable;
 }
@@ -378,19 +378,19 @@ export interface DataTencentcloudMonitorStatisticDataConditions {
   /**
   * Dimension.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#key DataTencentcloudMonitorStatisticData#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#key DataTencentcloudMonitorStatisticData#key}
   */
   readonly key: string;
   /**
   * Operator. Valid values: eq (equal to), ne (not equal to), in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#operator DataTencentcloudMonitorStatisticData#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#operator DataTencentcloudMonitorStatisticData#operator}
   */
   readonly operator: string;
   /**
   * Dimension value. If Operator is eq or ne, only the first element will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#value DataTencentcloudMonitorStatisticData#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#value DataTencentcloudMonitorStatisticData#value}
   */
   readonly value: string[];
 }
@@ -555,7 +555,7 @@ export class DataTencentcloudMonitorStatisticDataConditionsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data tencentcloud_monitor_statistic_data}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data tencentcloud_monitor_statistic_data}
 */
 export class DataTencentcloudMonitorStatisticData extends cdktf.TerraformDataSource {
 
@@ -571,7 +571,7 @@ export class DataTencentcloudMonitorStatisticData extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataTencentcloudMonitorStatisticData resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorStatisticData to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorStatisticData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorStatisticData that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorStatisticData to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -583,7 +583,7 @@ export class DataTencentcloudMonitorStatisticData extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_statistic_data tencentcloud_monitor_statistic_data} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_statistic_data tencentcloud_monitor_statistic_data} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -594,8 +594,8 @@ export class DataTencentcloudMonitorStatisticData extends cdktf.TerraformDataSou
       terraformResourceType: 'tencentcloud_monitor_statistic_data',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

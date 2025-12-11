@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreComputeHostsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#availability_domain DataOciCoreComputeHosts#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#availability_domain DataOciCoreComputeHosts#availability_domain}
   */
   readonly availabilityDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#compartment_id DataOciCoreComputeHosts#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#compartment_id DataOciCoreComputeHosts#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#compute_host_group_id DataOciCoreComputeHosts#compute_host_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#compute_host_group_id DataOciCoreComputeHosts#compute_host_group_id}
   */
   readonly computeHostGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#compute_host_health DataOciCoreComputeHosts#compute_host_health}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#compute_host_health DataOciCoreComputeHosts#compute_host_health}
   */
   readonly computeHostHealth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#compute_host_in_subtree DataOciCoreComputeHosts#compute_host_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#compute_host_in_subtree DataOciCoreComputeHosts#compute_host_in_subtree}
   */
   readonly computeHostInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#compute_host_lifecycle_state DataOciCoreComputeHosts#compute_host_lifecycle_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#compute_host_lifecycle_state DataOciCoreComputeHosts#compute_host_lifecycle_state}
   */
   readonly computeHostLifecycleState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#display_name DataOciCoreComputeHosts#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#display_name DataOciCoreComputeHosts#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#id DataOciCoreComputeHosts#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#id DataOciCoreComputeHosts#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#network_resource_id DataOciCoreComputeHosts#network_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#network_resource_id DataOciCoreComputeHosts#network_resource_id}
   */
   readonly networkResourceId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#filter DataOciCoreComputeHosts#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#filter DataOciCoreComputeHosts#filter}
   */
   readonly filter?: DataOciCoreComputeHostsFilter[] | cdktf.IResolvable;
 }
@@ -303,15 +303,15 @@ export class DataOciCoreComputeHostsComputeHostCollectionList extends cdktf.Comp
 }
 export interface DataOciCoreComputeHostsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#name DataOciCoreComputeHosts#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#name DataOciCoreComputeHosts#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#regex DataOciCoreComputeHosts#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#regex DataOciCoreComputeHosts#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#values DataOciCoreComputeHosts#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#values DataOciCoreComputeHosts#values}
   */
   readonly values: string[];
 }
@@ -479,7 +479,7 @@ export class DataOciCoreComputeHostsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts oci_core_compute_hosts}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts oci_core_compute_hosts}
 */
 export class DataOciCoreComputeHosts extends cdktf.TerraformDataSource {
 
@@ -495,7 +495,7 @@ export class DataOciCoreComputeHosts extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciCoreComputeHosts resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreComputeHosts to import
-  * @param importFromId The id of the existing DataOciCoreComputeHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreComputeHosts that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreComputeHosts to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -507,7 +507,7 @@ export class DataOciCoreComputeHosts extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_compute_hosts oci_core_compute_hosts} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_compute_hosts oci_core_compute_hosts} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -518,8 +518,8 @@ export class DataOciCoreComputeHosts extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_core_compute_hosts',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

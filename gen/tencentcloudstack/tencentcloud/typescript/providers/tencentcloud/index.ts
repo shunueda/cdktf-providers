@@ -241,6 +241,7 @@ export * as clsTopic from './cls-topic';
 export * as clsWebCallback from './cls-web-callback';
 export * as containerCluster from './container-cluster';
 export * as containerClusterInstance from './container-cluster-instance';
+export * as controlcenterAccountFactoryBaselineConfig from './controlcenter-account-factory-baseline-config';
 export * as cosBatch from './cos-batch';
 export * as cosBucket from './cos-bucket';
 export * as cosBucketDomainCertificateAttachment from './cos-bucket-domain-certificate-attachment';
@@ -1331,6 +1332,7 @@ export * as dataTencentcloudClsShipperTasks from './data-tencentcloud-cls-shippe
 export * as dataTencentcloudClsTopics from './data-tencentcloud-cls-topics';
 export * as dataTencentcloudContainerClusterInstances from './data-tencentcloud-container-cluster-instances';
 export * as dataTencentcloudContainerClusters from './data-tencentcloud-container-clusters';
+export * as dataTencentcloudControlcenterAccountFactoryBaselineItems from './data-tencentcloud-controlcenter-account-factory-baseline-items';
 export * as dataTencentcloudCosBatchs from './data-tencentcloud-cos-batchs';
 export * as dataTencentcloudCosBucketInventorys from './data-tencentcloud-cos-bucket-inventorys';
 export * as dataTencentcloudCosBucketMultipartUploads from './data-tencentcloud-cos-bucket-multipart-uploads';

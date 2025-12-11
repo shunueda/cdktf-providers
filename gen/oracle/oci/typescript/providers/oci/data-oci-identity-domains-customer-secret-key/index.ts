@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsCustomerSecretKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#attribute_sets DataOciIdentityDomainsCustomerSecretKey#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#attribute_sets DataOciIdentityDomainsCustomerSecretKey#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#attributes DataOciIdentityDomainsCustomerSecretKey#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#attributes DataOciIdentityDomainsCustomerSecretKey#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#authorization DataOciIdentityDomainsCustomerSecretKey#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#authorization DataOciIdentityDomainsCustomerSecretKey#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#customer_secret_key_id DataOciIdentityDomainsCustomerSecretKey#customer_secret_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#customer_secret_key_id DataOciIdentityDomainsCustomerSecretKey#customer_secret_key_id}
   */
   readonly customerSecretKeyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#idcs_endpoint DataOciIdentityDomainsCustomerSecretKey#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#idcs_endpoint DataOciIdentityDomainsCustomerSecretKey#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsCustomerSecretKey#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#resource_type_schema_version DataOciIdentityDomainsCustomerSecretKey#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -569,7 +569,7 @@ export class DataOciIdentityDomainsCustomerSecretKeyUserList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key oci_identity_domains_customer_secret_key}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key oci_identity_domains_customer_secret_key}
 */
 export class DataOciIdentityDomainsCustomerSecretKey extends cdktf.TerraformDataSource {
 
@@ -585,7 +585,7 @@ export class DataOciIdentityDomainsCustomerSecretKey extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciIdentityDomainsCustomerSecretKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsCustomerSecretKey to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsCustomerSecretKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsCustomerSecretKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsCustomerSecretKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class DataOciIdentityDomainsCustomerSecretKey extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_customer_secret_key oci_identity_domains_customer_secret_key} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_customer_secret_key oci_identity_domains_customer_secret_key} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class DataOciIdentityDomainsCustomerSecretKey extends cdktf.TerraformData
       terraformResourceType: 'oci_identity_domains_customer_secret_key',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

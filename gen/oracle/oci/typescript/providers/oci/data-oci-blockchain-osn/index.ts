@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/blockchain_osn
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/blockchain_osn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciBlockchainOsnConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/blockchain_osn#blockchain_platform_id DataOciBlockchainOsn#blockchain_platform_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/blockchain_osn#blockchain_platform_id DataOciBlockchainOsn#blockchain_platform_id}
   */
   readonly blockchainPlatformId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/blockchain_osn#osn_id DataOciBlockchainOsn#osn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/blockchain_osn#osn_id DataOciBlockchainOsn#osn_id}
   */
   readonly osnId: string;
 }
@@ -93,7 +93,7 @@ export class DataOciBlockchainOsnOcpuAllocationParamList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/blockchain_osn oci_blockchain_osn}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/blockchain_osn oci_blockchain_osn}
 */
 export class DataOciBlockchainOsn extends cdktf.TerraformDataSource {
 
@@ -109,7 +109,7 @@ export class DataOciBlockchainOsn extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciBlockchainOsn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciBlockchainOsn to import
-  * @param importFromId The id of the existing DataOciBlockchainOsn that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/blockchain_osn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciBlockchainOsn that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/blockchain_osn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciBlockchainOsn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -121,7 +121,7 @@ export class DataOciBlockchainOsn extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/blockchain_osn oci_blockchain_osn} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/blockchain_osn oci_blockchain_osn} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -132,8 +132,8 @@ export class DataOciBlockchainOsn extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_blockchain_osn',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

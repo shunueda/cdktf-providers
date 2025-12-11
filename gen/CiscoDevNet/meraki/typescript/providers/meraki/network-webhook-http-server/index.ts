@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface NetworkWebhookHttpServerConfig extends cdktf.TerraformMetaArgum
   /**
   * A name for easy reference to the HTTP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#name NetworkWebhookHttpServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#name NetworkWebhookHttpServer#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#network_id NetworkWebhookHttpServer#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#network_id NetworkWebhookHttpServer#network_id}
   */
   readonly networkId: string;
   /**
   * The name of the payload template.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#payload_template_name NetworkWebhookHttpServer#payload_template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#payload_template_name NetworkWebhookHttpServer#payload_template_name}
   */
   readonly payloadTemplateName?: string;
   /**
   * The ID of the payload template. Defaults to `wpt_00001` for the Meraki template. For Meraki-included templates: for the Webex (included) template use `wpt_00002`; for the Slack (included) template use `wpt_00003`; for the Microsoft Teams (included) template use `wpt_00004`; for the ServiceNow (included) template use `wpt_00006`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#payload_template_payload_template_id NetworkWebhookHttpServer#payload_template_payload_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#payload_template_payload_template_id NetworkWebhookHttpServer#payload_template_payload_template_id}
   */
   readonly payloadTemplatePayloadTemplateId?: string;
   /**
   * A shared secret that will be included in POSTs sent to the HTTP server. This secret can be used to verify that the request was sent by Meraki.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#shared_secret NetworkWebhookHttpServer#shared_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#shared_secret NetworkWebhookHttpServer#shared_secret}
   */
   readonly sharedSecret?: string;
   /**
   * The URL of the HTTP server. Once set, cannot be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#url NetworkWebhookHttpServer#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#url NetworkWebhookHttpServer#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server meraki_network_webhook_http_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server meraki_network_webhook_http_server}
 */
 export class NetworkWebhookHttpServer extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class NetworkWebhookHttpServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkWebhookHttpServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkWebhookHttpServer to import
-  * @param importFromId The id of the existing NetworkWebhookHttpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkWebhookHttpServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkWebhookHttpServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class NetworkWebhookHttpServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_webhook_http_server meraki_network_webhook_http_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_webhook_http_server meraki_network_webhook_http_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class NetworkWebhookHttpServer extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_webhook_http_server',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

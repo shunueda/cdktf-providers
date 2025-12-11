@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DevopsBuildRunConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#build_pipeline_id DevopsBuildRun#build_pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#build_pipeline_id DevopsBuildRun#build_pipeline_id}
   */
   readonly buildPipelineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#defined_tags DevopsBuildRun#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#defined_tags DevopsBuildRun#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#display_name DevopsBuildRun#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#display_name DevopsBuildRun#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#freeform_tags DevopsBuildRun#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#freeform_tags DevopsBuildRun#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#id DevopsBuildRun#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#id DevopsBuildRun#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,19 +33,19 @@ export interface DevopsBuildRunConfig extends cdktf.TerraformMetaArguments {
   /**
   * build_run_arguments block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#build_run_arguments DevopsBuildRun#build_run_arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#build_run_arguments DevopsBuildRun#build_run_arguments}
   */
   readonly buildRunArguments?: DevopsBuildRunBuildRunArguments;
   /**
   * commit_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#commit_info DevopsBuildRun#commit_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#commit_info DevopsBuildRun#commit_info}
   */
   readonly commitInfo?: DevopsBuildRunCommitInfo;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#timeouts DevopsBuildRun#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#timeouts DevopsBuildRun#timeouts}
   */
   readonly timeouts?: DevopsBuildRunTimeouts;
 }
@@ -1567,11 +1567,11 @@ export class DevopsBuildRunBuildRunSourceList extends cdktf.ComplexList {
 }
 export interface DevopsBuildRunBuildRunArgumentsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#name DevopsBuildRun#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#name DevopsBuildRun#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#value DevopsBuildRun#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#value DevopsBuildRun#value}
   */
   readonly value: string;
 }
@@ -1712,7 +1712,7 @@ export interface DevopsBuildRunBuildRunArguments {
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#items DevopsBuildRun#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#items DevopsBuildRun#items}
   */
   readonly items: DevopsBuildRunBuildRunArgumentsItems[] | cdktf.IResolvable;
 }
@@ -1793,15 +1793,15 @@ export class DevopsBuildRunBuildRunArgumentsOutputReference extends cdktf.Comple
 }
 export interface DevopsBuildRunCommitInfo {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#commit_hash DevopsBuildRun#commit_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#commit_hash DevopsBuildRun#commit_hash}
   */
   readonly commitHash: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#repository_branch DevopsBuildRun#repository_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#repository_branch DevopsBuildRun#repository_branch}
   */
   readonly repositoryBranch: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#repository_url DevopsBuildRun#repository_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#repository_url DevopsBuildRun#repository_url}
   */
   readonly repositoryUrl: string;
 }
@@ -1934,15 +1934,15 @@ export class DevopsBuildRunCommitInfoOutputReference extends cdktf.ComplexObject
 }
 export interface DevopsBuildRunTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#create DevopsBuildRun#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#create DevopsBuildRun#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#delete DevopsBuildRun#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#delete DevopsBuildRun#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#update DevopsBuildRun#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#update DevopsBuildRun#update}
   */
   readonly update?: string;
 }
@@ -2094,7 +2094,7 @@ export class DevopsBuildRunTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run oci_devops_build_run}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run oci_devops_build_run}
 */
 export class DevopsBuildRun extends cdktf.TerraformResource {
 
@@ -2110,7 +2110,7 @@ export class DevopsBuildRun extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DevopsBuildRun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DevopsBuildRun to import
-  * @param importFromId The id of the existing DevopsBuildRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DevopsBuildRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DevopsBuildRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2122,7 +2122,7 @@ export class DevopsBuildRun extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/devops_build_run oci_devops_build_run} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/devops_build_run oci_devops_build_run} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2133,8 +2133,8 @@ export class DevopsBuildRun extends cdktf.TerraformResource {
       terraformResourceType: 'oci_devops_build_run',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

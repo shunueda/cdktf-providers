@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,30 +10,30 @@ export interface DataInstaclustrKafkaClusterAclsV2Config extends cdktf.Terraform
   /**
   * UUID of the Kafka cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#cluster_id DataInstaclustrKafkaClusterAclsV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#cluster_id DataInstaclustrKafkaClusterAclsV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#id DataInstaclustrKafkaClusterAclsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#id DataInstaclustrKafkaClusterAclsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#kafka_cluster_id DataInstaclustrKafkaClusterAclsV2#kafka_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#kafka_cluster_id DataInstaclustrKafkaClusterAclsV2#kafka_cluster_id}
   */
   readonly kafkaClusterId: string;
   /**
   * acl_lists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#acl_lists DataInstaclustrKafkaClusterAclsV2#acl_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#acl_lists DataInstaclustrKafkaClusterAclsV2#acl_lists}
   */
   readonly aclLists?: DataInstaclustrKafkaClusterAclsV2AclLists[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#filter DataInstaclustrKafkaClusterAclsV2#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#filter DataInstaclustrKafkaClusterAclsV2#filter}
   */
   readonly filter?: DataInstaclustrKafkaClusterAclsV2Filter[] | cdktf.IResolvable;
 }
@@ -41,43 +41,43 @@ export interface DataInstaclustrKafkaClusterAclsV2AclListsAcl {
   /**
   * The IP address to which this ACL applies. It takes any string including the wildcard `*` for all IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#host DataInstaclustrKafkaClusterAclsV2#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#host DataInstaclustrKafkaClusterAclsV2#host}
   */
   readonly host?: string;
   /**
   * The operation that will be allowed or denied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#operation DataInstaclustrKafkaClusterAclsV2#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#operation DataInstaclustrKafkaClusterAclsV2#operation}
   */
   readonly operation?: string;
   /**
   * Indicates the resource-pattern-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#pattern_type DataInstaclustrKafkaClusterAclsV2#pattern_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#pattern_type DataInstaclustrKafkaClusterAclsV2#pattern_type}
   */
   readonly patternType?: string;
   /**
   * Specifies whether to allow or deny the operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#permission_type DataInstaclustrKafkaClusterAclsV2#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#permission_type DataInstaclustrKafkaClusterAclsV2#permission_type}
   */
   readonly permissionType?: string;
   /**
   * Specifies the users(s) for which this ACL applies and can include the wildcard `*`. Valid values must start with "User:" including the wildcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#principal DataInstaclustrKafkaClusterAclsV2#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#principal DataInstaclustrKafkaClusterAclsV2#principal}
   */
   readonly principal?: string;
   /**
   * Any string that fits the resource name, e.g. topic name if the resource type is TOPIC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#resource_name DataInstaclustrKafkaClusterAclsV2#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#resource_name DataInstaclustrKafkaClusterAclsV2#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Specifies the type of resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#resource_type DataInstaclustrKafkaClusterAclsV2#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#resource_type DataInstaclustrKafkaClusterAclsV2#resource_type}
   */
   readonly resourceType?: string;
 }
@@ -369,14 +369,14 @@ export interface DataInstaclustrKafkaClusterAclsV2AclLists {
   /**
   * UUID of the Kafka cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#cluster_id DataInstaclustrKafkaClusterAclsV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#cluster_id DataInstaclustrKafkaClusterAclsV2#cluster_id}
   */
   readonly clusterId?: string;
   /**
   * Instaclustr identifier for the ACL list for a principal. The value of this property has the form: [clusterId]_[principalUserQuery]
   * The user query is the principal value without the leading `User:`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#id DataInstaclustrKafkaClusterAclsV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#id DataInstaclustrKafkaClusterAclsV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -385,13 +385,13 @@ export interface DataInstaclustrKafkaClusterAclsV2AclLists {
   /**
   * This is the principal without the `User:` prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#user_query DataInstaclustrKafkaClusterAclsV2#user_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#user_query DataInstaclustrKafkaClusterAclsV2#user_query}
   */
   readonly userQuery?: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#acl DataInstaclustrKafkaClusterAclsV2#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#acl DataInstaclustrKafkaClusterAclsV2#acl}
   */
   readonly acl?: DataInstaclustrKafkaClusterAclsV2AclListsAcl[] | cdktf.IResolvable;
 }
@@ -594,11 +594,11 @@ export class DataInstaclustrKafkaClusterAclsV2AclListsList extends cdktf.Complex
 }
 export interface DataInstaclustrKafkaClusterAclsV2Filter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#name DataInstaclustrKafkaClusterAclsV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#name DataInstaclustrKafkaClusterAclsV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#values DataInstaclustrKafkaClusterAclsV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#values DataInstaclustrKafkaClusterAclsV2#values}
   */
   readonly values: string[];
 }
@@ -737,7 +737,7 @@ export class DataInstaclustrKafkaClusterAclsV2FilterList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2 instaclustr_kafka_cluster_acls_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2 instaclustr_kafka_cluster_acls_v2}
 */
 export class DataInstaclustrKafkaClusterAclsV2 extends cdktf.TerraformDataSource {
 
@@ -753,7 +753,7 @@ export class DataInstaclustrKafkaClusterAclsV2 extends cdktf.TerraformDataSource
   * Generates CDKTF code for importing a DataInstaclustrKafkaClusterAclsV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataInstaclustrKafkaClusterAclsV2 to import
-  * @param importFromId The id of the existing DataInstaclustrKafkaClusterAclsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataInstaclustrKafkaClusterAclsV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataInstaclustrKafkaClusterAclsV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -765,7 +765,7 @@ export class DataInstaclustrKafkaClusterAclsV2 extends cdktf.TerraformDataSource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/data-sources/kafka_cluster_acls_v2 instaclustr_kafka_cluster_acls_v2} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/data-sources/kafka_cluster_acls_v2 instaclustr_kafka_cluster_acls_v2} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -776,8 +776,8 @@ export class DataInstaclustrKafkaClusterAclsV2 extends cdktf.TerraformDataSource
       terraformResourceType: 'instaclustr_kafka_cluster_acls_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.34',
-        providerVersionConstraint: '2.1.34'
+        providerVersion: '2.1.35',
+        providerVersionConstraint: '2.1.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

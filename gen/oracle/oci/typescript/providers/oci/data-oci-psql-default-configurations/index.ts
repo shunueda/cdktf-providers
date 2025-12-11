@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciPsqlDefaultConfigurationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#configuration_id DataOciPsqlDefaultConfigurations#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#configuration_id DataOciPsqlDefaultConfigurations#configuration_id}
   */
   readonly configurationId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#db_version DataOciPsqlDefaultConfigurations#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#db_version DataOciPsqlDefaultConfigurations#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#display_name DataOciPsqlDefaultConfigurations#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#display_name DataOciPsqlDefaultConfigurations#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#id DataOciPsqlDefaultConfigurations#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#id DataOciPsqlDefaultConfigurations#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#instance_memory_size_in_gbs DataOciPsqlDefaultConfigurations#instance_memory_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#instance_memory_size_in_gbs DataOciPsqlDefaultConfigurations#instance_memory_size_in_gbs}
   */
   readonly instanceMemorySizeInGbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#instance_ocpu_count DataOciPsqlDefaultConfigurations#instance_ocpu_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#instance_ocpu_count DataOciPsqlDefaultConfigurations#instance_ocpu_count}
   */
   readonly instanceOcpuCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#shape DataOciPsqlDefaultConfigurations#shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#shape DataOciPsqlDefaultConfigurations#shape}
   */
   readonly shape?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#state DataOciPsqlDefaultConfigurations#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#state DataOciPsqlDefaultConfigurations#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#filter DataOciPsqlDefaultConfigurations#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#filter DataOciPsqlDefaultConfigurations#filter}
   */
   readonly filter?: DataOciPsqlDefaultConfigurationsFilter[] | cdktf.IResolvable;
 }
@@ -444,15 +444,15 @@ export class DataOciPsqlDefaultConfigurationsDefaultConfigurationCollectionList 
 }
 export interface DataOciPsqlDefaultConfigurationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#name DataOciPsqlDefaultConfigurations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#name DataOciPsqlDefaultConfigurations#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#regex DataOciPsqlDefaultConfigurations#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#regex DataOciPsqlDefaultConfigurations#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#values DataOciPsqlDefaultConfigurations#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#values DataOciPsqlDefaultConfigurations#values}
   */
   readonly values: string[];
 }
@@ -620,7 +620,7 @@ export class DataOciPsqlDefaultConfigurationsFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations oci_psql_default_configurations}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations oci_psql_default_configurations}
 */
 export class DataOciPsqlDefaultConfigurations extends cdktf.TerraformDataSource {
 
@@ -636,7 +636,7 @@ export class DataOciPsqlDefaultConfigurations extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciPsqlDefaultConfigurations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciPsqlDefaultConfigurations to import
-  * @param importFromId The id of the existing DataOciPsqlDefaultConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciPsqlDefaultConfigurations that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciPsqlDefaultConfigurations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -648,7 +648,7 @@ export class DataOciPsqlDefaultConfigurations extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psql_default_configurations oci_psql_default_configurations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psql_default_configurations oci_psql_default_configurations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -659,8 +659,8 @@ export class DataOciPsqlDefaultConfigurations extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_psql_default_configurations',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

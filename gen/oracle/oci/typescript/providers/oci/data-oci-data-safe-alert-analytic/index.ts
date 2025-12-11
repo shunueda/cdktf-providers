@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeAlertAnalyticConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#access_level DataOciDataSafeAlertAnalytic#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#access_level DataOciDataSafeAlertAnalytic#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#compartment_id DataOciDataSafeAlertAnalytic#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#compartment_id DataOciDataSafeAlertAnalytic#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#compartment_id_in_subtree DataOciDataSafeAlertAnalytic#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#compartment_id_in_subtree DataOciDataSafeAlertAnalytic#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#group_by DataOciDataSafeAlertAnalytic#group_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#group_by DataOciDataSafeAlertAnalytic#group_by}
   */
   readonly groupBy?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#id DataOciDataSafeAlertAnalytic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#id DataOciDataSafeAlertAnalytic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#query_time_zone DataOciDataSafeAlertAnalytic#query_time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#query_time_zone DataOciDataSafeAlertAnalytic#query_time_zone}
   */
   readonly queryTimeZone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#scim_query DataOciDataSafeAlertAnalytic#scim_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#scim_query DataOciDataSafeAlertAnalytic#scim_query}
   */
   readonly scimQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#summary_field DataOciDataSafeAlertAnalytic#summary_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#summary_field DataOciDataSafeAlertAnalytic#summary_field}
   */
   readonly summaryField?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#time_ended DataOciDataSafeAlertAnalytic#time_ended}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#time_ended DataOciDataSafeAlertAnalytic#time_ended}
   */
   readonly timeEnded?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#time_started DataOciDataSafeAlertAnalytic#time_started}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#time_started DataOciDataSafeAlertAnalytic#time_started}
   */
   readonly timeStarted?: string;
 }
@@ -225,7 +225,7 @@ export class DataOciDataSafeAlertAnalyticItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic oci_data_safe_alert_analytic}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic oci_data_safe_alert_analytic}
 */
 export class DataOciDataSafeAlertAnalytic extends cdktf.TerraformDataSource {
 
@@ -241,7 +241,7 @@ export class DataOciDataSafeAlertAnalytic extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDataSafeAlertAnalytic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeAlertAnalytic to import
-  * @param importFromId The id of the existing DataOciDataSafeAlertAnalytic that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeAlertAnalytic that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeAlertAnalytic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class DataOciDataSafeAlertAnalytic extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_alert_analytic oci_data_safe_alert_analytic} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_alert_analytic oci_data_safe_alert_analytic} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class DataOciDataSafeAlertAnalytic extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_data_safe_alert_analytic',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

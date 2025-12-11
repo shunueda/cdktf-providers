@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,19 +8,19 @@ import * as cdktf from 'cdktf';
 
 export interface GroupassociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#add_users Groupassociation#add_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#add_users Groupassociation#add_users}
   */
   readonly addUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#custom_roles Groupassociation#custom_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#custom_roles Groupassociation#custom_roles}
   */
   readonly customRoles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#group Groupassociation#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#group Groupassociation#group}
   */
   readonly group: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#id Groupassociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#id Groupassociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface GroupassociationConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDP users vs Local users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#idp_user Groupassociation#idp_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#idp_user Groupassociation#idp_user}
   */
   readonly idpUser?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#namespaces Groupassociation#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#namespaces Groupassociation#namespaces}
   */
   readonly namespaces?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#project Groupassociation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#project Groupassociation#project}
   */
   readonly project?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#remove_users Groupassociation#remove_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#remove_users Groupassociation#remove_users}
   */
   readonly removeUsers?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#roles Groupassociation#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#roles Groupassociation#roles}
   */
   readonly roles?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#timeouts Groupassociation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#timeouts Groupassociation#timeouts}
   */
   readonly timeouts?: GroupassociationTimeouts;
 }
 export interface GroupassociationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#create Groupassociation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#create Groupassociation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#delete Groupassociation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#delete Groupassociation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#update Groupassociation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#update Groupassociation#update}
   */
   readonly update?: string;
 }
@@ -217,7 +217,7 @@ export class GroupassociationTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation rafay_groupassociation}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation rafay_groupassociation}
 */
 export class Groupassociation extends cdktf.TerraformResource {
 
@@ -233,7 +233,7 @@ export class Groupassociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Groupassociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Groupassociation to import
-  * @param importFromId The id of the existing Groupassociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Groupassociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Groupassociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -245,7 +245,7 @@ export class Groupassociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/groupassociation rafay_groupassociation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/groupassociation rafay_groupassociation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -256,8 +256,8 @@ export class Groupassociation extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_groupassociation',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

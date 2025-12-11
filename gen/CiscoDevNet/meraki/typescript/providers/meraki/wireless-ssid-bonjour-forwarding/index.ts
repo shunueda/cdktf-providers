@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WirelessSsidBonjourForwardingConfig extends cdktf.TerraformMeta
   /**
   * If true, Bonjour forwarding is enabled on this SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#enabled WirelessSsidBonjourForwarding#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#enabled WirelessSsidBonjourForwarding#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * If true, Bonjour forwarding exception is enabled on this SSID. Exception is required to enable L2 isolation and Bonjour forwarding to work together.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#exception_enabled WirelessSsidBonjourForwarding#exception_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#exception_enabled WirelessSsidBonjourForwarding#exception_enabled}
   */
   readonly exceptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#network_id WirelessSsidBonjourForwarding#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#network_id WirelessSsidBonjourForwarding#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#number WirelessSsidBonjourForwarding#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#number WirelessSsidBonjourForwarding#number}
   */
   readonly number: string;
   /**
   * List of bonjour forwarding rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#rules WirelessSsidBonjourForwarding#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#rules WirelessSsidBonjourForwarding#rules}
   */
   readonly rules?: WirelessSsidBonjourForwardingRules[] | cdktf.IResolvable;
 }
@@ -42,19 +42,19 @@ export interface WirelessSsidBonjourForwardingRules {
   /**
   * A description for your Bonjour forwarding rule. Optional.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#description WirelessSsidBonjourForwarding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#description WirelessSsidBonjourForwarding#description}
   */
   readonly description?: string;
   /**
   * A list of Bonjour services. At least one service must be specified. Available services are `All Services`, `AirPlay`, `AFP`, `BitTorrent`, `FTP`, `iChat`, `iTunes`, `Printers`, `Samba`, `Scanners` and `SSH`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#services WirelessSsidBonjourForwarding#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#services WirelessSsidBonjourForwarding#services}
   */
   readonly services: string[];
   /**
   * The ID of the service VLAN. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#vlan_id WirelessSsidBonjourForwarding#vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#vlan_id WirelessSsidBonjourForwarding#vlan_id}
   */
   readonly vlanId: string;
 }
@@ -222,7 +222,7 @@ export class WirelessSsidBonjourForwardingRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding}
 */
 export class WirelessSsidBonjourForwarding extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class WirelessSsidBonjourForwarding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidBonjourForwarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidBonjourForwarding to import
-  * @param importFromId The id of the existing WirelessSsidBonjourForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidBonjourForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidBonjourForwarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class WirelessSsidBonjourForwarding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_bonjour_forwarding meraki_wireless_ssid_bonjour_forwarding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class WirelessSsidBonjourForwarding extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_bonjour_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/iot_digital_twin_instance
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIotDigitalTwinInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/iot_digital_twin_instance#digital_twin_instance_id DataOciIotDigitalTwinInstance#digital_twin_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_instance#digital_twin_instance_id DataOciIotDigitalTwinInstance#digital_twin_instance_id}
   */
   readonly digitalTwinInstanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/iot_digital_twin_instance oci_iot_digital_twin_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_instance oci_iot_digital_twin_instance}
 */
 export class DataOciIotDigitalTwinInstance extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciIotDigitalTwinInstance extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIotDigitalTwinInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIotDigitalTwinInstance to import
-  * @param importFromId The id of the existing DataOciIotDigitalTwinInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/iot_digital_twin_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIotDigitalTwinInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIotDigitalTwinInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciIotDigitalTwinInstance extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/iot_digital_twin_instance oci_iot_digital_twin_instance} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/iot_digital_twin_instance oci_iot_digital_twin_instance} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciIotDigitalTwinInstance extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_iot_digital_twin_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

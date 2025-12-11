@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeSensitiveTypeGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#access_level DataOciDataSafeSensitiveTypeGroups#access_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#access_level DataOciDataSafeSensitiveTypeGroups#access_level}
   */
   readonly accessLevel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id DataOciDataSafeSensitiveTypeGroups#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id DataOciDataSafeSensitiveTypeGroups#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id_in_subtree DataOciDataSafeSensitiveTypeGroups#compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#compartment_id_in_subtree DataOciDataSafeSensitiveTypeGroups#compartment_id_in_subtree}
   */
   readonly compartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#display_name DataOciDataSafeSensitiveTypeGroups#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#display_name DataOciDataSafeSensitiveTypeGroups#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#id DataOciDataSafeSensitiveTypeGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#id DataOciDataSafeSensitiveTypeGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroups#sensitive_type_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#sensitive_type_group_id DataOciDataSafeSensitiveTypeGroups#sensitive_type_group_id}
   */
   readonly sensitiveTypeGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#state DataOciDataSafeSensitiveTypeGroups#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#state DataOciDataSafeSensitiveTypeGroups#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_greater_than_or_equal_to DataOciDataSafeSensitiveTypeGroups#time_created_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_greater_than_or_equal_to DataOciDataSafeSensitiveTypeGroups#time_created_greater_than_or_equal_to}
   */
   readonly timeCreatedGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_less_than DataOciDataSafeSensitiveTypeGroups#time_created_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#time_created_less_than DataOciDataSafeSensitiveTypeGroups#time_created_less_than}
   */
   readonly timeCreatedLessThan?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#filter DataOciDataSafeSensitiveTypeGroups#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#filter DataOciDataSafeSensitiveTypeGroups#filter}
   */
   readonly filter?: DataOciDataSafeSensitiveTypeGroupsFilter[] | cdktf.IResolvable;
 }
@@ -259,15 +259,15 @@ export class DataOciDataSafeSensitiveTypeGroupsSensitiveTypeGroupCollectionList 
 }
 export interface DataOciDataSafeSensitiveTypeGroupsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#name DataOciDataSafeSensitiveTypeGroups#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#name DataOciDataSafeSensitiveTypeGroups#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#regex DataOciDataSafeSensitiveTypeGroups#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#regex DataOciDataSafeSensitiveTypeGroups#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#values DataOciDataSafeSensitiveTypeGroups#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#values DataOciDataSafeSensitiveTypeGroups#values}
   */
   readonly values: string[];
 }
@@ -435,7 +435,7 @@ export class DataOciDataSafeSensitiveTypeGroupsFilterList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups oci_data_safe_sensitive_type_groups}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups oci_data_safe_sensitive_type_groups}
 */
 export class DataOciDataSafeSensitiveTypeGroups extends cdktf.TerraformDataSource {
 
@@ -451,7 +451,7 @@ export class DataOciDataSafeSensitiveTypeGroups extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciDataSafeSensitiveTypeGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeSensitiveTypeGroups to import
-  * @param importFromId The id of the existing DataOciDataSafeSensitiveTypeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeSensitiveTypeGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeSensitiveTypeGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class DataOciDataSafeSensitiveTypeGroups extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_sensitive_type_groups oci_data_safe_sensitive_type_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_sensitive_type_groups oci_data_safe_sensitive_type_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class DataOciDataSafeSensitiveTypeGroups extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_data_safe_sensitive_type_groups',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MariadbEncryptAttributesConfig extends cdktf.TerraformMetaArgum
   /**
   * whether to enable data encryption, it is not supported to turn it off after it is turned on. The optional values: 0-disable, 1-enable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes#encrypt_enabled MariadbEncryptAttributes#encrypt_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes#encrypt_enabled MariadbEncryptAttributes#encrypt_enabled}
   */
   readonly encryptEnabled: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes#id MariadbEncryptAttributes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes#id MariadbEncryptAttributes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface MariadbEncryptAttributesConfig extends cdktf.TerraformMetaArgum
   /**
   * instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes#instance_id MariadbEncryptAttributes#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes#instance_id MariadbEncryptAttributes#instance_id}
   */
   readonly instanceId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes tencentcloud_mariadb_encrypt_attributes}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes tencentcloud_mariadb_encrypt_attributes}
 */
 export class MariadbEncryptAttributes extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class MariadbEncryptAttributes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MariadbEncryptAttributes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MariadbEncryptAttributes to import
-  * @param importFromId The id of the existing MariadbEncryptAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MariadbEncryptAttributes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MariadbEncryptAttributes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class MariadbEncryptAttributes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mariadb_encrypt_attributes tencentcloud_mariadb_encrypt_attributes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mariadb_encrypt_attributes tencentcloud_mariadb_encrypt_attributes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class MariadbEncryptAttributes extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mariadb_encrypt_attributes',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

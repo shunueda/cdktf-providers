@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface CoreDedicatedVmHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#availability_domain CoreDedicatedVmHost#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#availability_domain CoreDedicatedVmHost#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#capacity_config CoreDedicatedVmHost#capacity_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#capacity_config CoreDedicatedVmHost#capacity_config}
   */
   readonly capacityConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#compartment_id CoreDedicatedVmHost#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#compartment_id CoreDedicatedVmHost#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#dedicated_vm_host_shape CoreDedicatedVmHost#dedicated_vm_host_shape}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#dedicated_vm_host_shape CoreDedicatedVmHost#dedicated_vm_host_shape}
   */
   readonly dedicatedVmHostShape: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#defined_tags CoreDedicatedVmHost#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#defined_tags CoreDedicatedVmHost#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#display_name CoreDedicatedVmHost#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#display_name CoreDedicatedVmHost#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#fault_domain CoreDedicatedVmHost#fault_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#fault_domain CoreDedicatedVmHost#fault_domain}
   */
   readonly faultDomain?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#freeform_tags CoreDedicatedVmHost#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#freeform_tags CoreDedicatedVmHost#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#id CoreDedicatedVmHost#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#id CoreDedicatedVmHost#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#is_memory_encryption_enabled CoreDedicatedVmHost#is_memory_encryption_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#is_memory_encryption_enabled CoreDedicatedVmHost#is_memory_encryption_enabled}
   */
   readonly isMemoryEncryptionEnabled?: boolean | cdktf.IResolvable;
   /**
   * placement_constraint_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#placement_constraint_details CoreDedicatedVmHost#placement_constraint_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#placement_constraint_details CoreDedicatedVmHost#placement_constraint_details}
   */
   readonly placementConstraintDetails?: CoreDedicatedVmHostPlacementConstraintDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#timeouts CoreDedicatedVmHost#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#timeouts CoreDedicatedVmHost#timeouts}
   */
   readonly timeouts?: CoreDedicatedVmHostTimeouts;
 }
@@ -165,11 +165,11 @@ export class CoreDedicatedVmHostCapacityBinsList extends cdktf.ComplexList {
 }
 export interface CoreDedicatedVmHostPlacementConstraintDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#compute_bare_metal_host_id CoreDedicatedVmHost#compute_bare_metal_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#compute_bare_metal_host_id CoreDedicatedVmHost#compute_bare_metal_host_id}
   */
   readonly computeBareMetalHostId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#type CoreDedicatedVmHost#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#type CoreDedicatedVmHost#type}
   */
   readonly type: string;
 }
@@ -279,15 +279,15 @@ export class CoreDedicatedVmHostPlacementConstraintDetailsOutputReference extend
 }
 export interface CoreDedicatedVmHostTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#create CoreDedicatedVmHost#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#create CoreDedicatedVmHost#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#delete CoreDedicatedVmHost#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#delete CoreDedicatedVmHost#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#update CoreDedicatedVmHost#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#update CoreDedicatedVmHost#update}
   */
   readonly update?: string;
 }
@@ -439,7 +439,7 @@ export class CoreDedicatedVmHostTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host}
 */
 export class CoreDedicatedVmHost extends cdktf.TerraformResource {
 
@@ -455,7 +455,7 @@ export class CoreDedicatedVmHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreDedicatedVmHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreDedicatedVmHost to import
-  * @param importFromId The id of the existing CoreDedicatedVmHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreDedicatedVmHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreDedicatedVmHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class CoreDedicatedVmHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_dedicated_vm_host oci_core_dedicated_vm_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class CoreDedicatedVmHost extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_dedicated_vm_host',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

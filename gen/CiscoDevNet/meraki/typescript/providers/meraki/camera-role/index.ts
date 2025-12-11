@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CameraRoleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Device tag on which this specified permission is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#applied_on_devices CameraRole#applied_on_devices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#applied_on_devices CameraRole#applied_on_devices}
   */
   readonly appliedOnDevices?: CameraRoleAppliedOnDevices[] | cdktf.IResolvable;
   /**
   * Network tag on which this specified permission is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#applied_on_networks CameraRole#applied_on_networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#applied_on_networks CameraRole#applied_on_networks}
   */
   readonly appliedOnNetworks?: CameraRoleAppliedOnNetworks[] | cdktf.IResolvable;
   /**
   * Permissions to be applied org wide.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#applied_org_wide CameraRole#applied_org_wide}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#applied_org_wide CameraRole#applied_org_wide}
   */
   readonly appliedOrgWide?: CameraRoleAppliedOrgWide[] | cdktf.IResolvable;
   /**
   * The name of the new role. Must be unique. This parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#name CameraRole#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#name CameraRole#name}
   */
   readonly name: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#organization_id CameraRole#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#organization_id CameraRole#organization_id}
   */
   readonly organizationId: string;
 }
@@ -42,7 +42,7 @@ export interface CameraRoleAppliedOnDevices {
   /**
   * Device id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#id CameraRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#id CameraRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,25 +51,25 @@ export interface CameraRoleAppliedOnDevices {
   /**
   * Network id scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#in_networks_with_id CameraRole#in_networks_with_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#in_networks_with_id CameraRole#in_networks_with_id}
   */
   readonly inNetworksWithId?: string;
   /**
   * Network tag scope
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#in_networks_with_tag CameraRole#in_networks_with_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#in_networks_with_tag CameraRole#in_networks_with_tag}
   */
   readonly inNetworksWithTag?: string;
   /**
   * Permission scope id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#permission_scope_id CameraRole#permission_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#permission_scope_id CameraRole#permission_scope_id}
   */
   readonly permissionScopeId: string;
   /**
   * Device tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#tag CameraRole#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#tag CameraRole#tag}
   */
   readonly tag?: string;
 }
@@ -300,7 +300,7 @@ export interface CameraRoleAppliedOnNetworks {
   /**
   * Network id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#id CameraRole#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#id CameraRole#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -309,13 +309,13 @@ export interface CameraRoleAppliedOnNetworks {
   /**
   * Permission scope id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#permission_scope_id CameraRole#permission_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#permission_scope_id CameraRole#permission_scope_id}
   */
   readonly permissionScopeId: string;
   /**
   * Network tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#tag CameraRole#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#tag CameraRole#tag}
   */
   readonly tag?: string;
 }
@@ -488,7 +488,7 @@ export interface CameraRoleAppliedOrgWide {
   /**
   * Permission scope id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#permission_scope_id CameraRole#permission_scope_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#permission_scope_id CameraRole#permission_scope_id}
   */
   readonly permissionScopeId: string;
 }
@@ -601,7 +601,7 @@ export class CameraRoleAppliedOrgWideList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role meraki_camera_role}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role meraki_camera_role}
 */
 export class CameraRole extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class CameraRole extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraRole resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraRole to import
-  * @param importFromId The id of the existing CameraRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraRole that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraRole to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class CameraRole extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_role meraki_camera_role} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_role meraki_camera_role} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class CameraRole extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_role',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

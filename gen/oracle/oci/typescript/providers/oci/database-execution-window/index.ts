@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExecutionWindowConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#compartment_id DatabaseExecutionWindow#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#compartment_id DatabaseExecutionWindow#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#defined_tags DatabaseExecutionWindow#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#defined_tags DatabaseExecutionWindow#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#execution_resource_id DatabaseExecutionWindow#execution_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#execution_resource_id DatabaseExecutionWindow#execution_resource_id}
   */
   readonly executionResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#freeform_tags DatabaseExecutionWindow#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#freeform_tags DatabaseExecutionWindow#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#id DatabaseExecutionWindow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#id DatabaseExecutionWindow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#is_enforced_duration DatabaseExecutionWindow#is_enforced_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#is_enforced_duration DatabaseExecutionWindow#is_enforced_duration}
   */
   readonly isEnforcedDuration?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#time_scheduled DatabaseExecutionWindow#time_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#time_scheduled DatabaseExecutionWindow#time_scheduled}
   */
   readonly timeScheduled: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#window_duration_in_mins DatabaseExecutionWindow#window_duration_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#window_duration_in_mins DatabaseExecutionWindow#window_duration_in_mins}
   */
   readonly windowDurationInMins: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#timeouts DatabaseExecutionWindow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#timeouts DatabaseExecutionWindow#timeouts}
   */
   readonly timeouts?: DatabaseExecutionWindowTimeouts;
 }
 export interface DatabaseExecutionWindowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#create DatabaseExecutionWindow#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#create DatabaseExecutionWindow#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#delete DatabaseExecutionWindow#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#delete DatabaseExecutionWindow#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#update DatabaseExecutionWindow#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#update DatabaseExecutionWindow#update}
   */
   readonly update?: string;
 }
@@ -211,7 +211,7 @@ export class DatabaseExecutionWindowTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window oci_database_execution_window}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window oci_database_execution_window}
 */
 export class DatabaseExecutionWindow extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class DatabaseExecutionWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseExecutionWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExecutionWindow to import
-  * @param importFromId The id of the existing DatabaseExecutionWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExecutionWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExecutionWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class DatabaseExecutionWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_execution_window oci_database_execution_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_execution_window oci_database_execution_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class DatabaseExecutionWindow extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_execution_window',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

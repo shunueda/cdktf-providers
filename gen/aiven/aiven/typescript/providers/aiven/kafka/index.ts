@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface KafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#additional_disk_space Kafka#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#additional_disk_space Kafka#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#cloud_name Kafka#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#cloud_name Kafka#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Create a default wildcard Kafka ACL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#default_acl Kafka#default_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#default_acl Kafka#default_acl}
   */
   readonly defaultAcl?: boolean | cdktf.IResolvable;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#disk_space Kafka#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#disk_space Kafka#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#id Kafka#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#id Kafka#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,91 +41,91 @@ export interface KafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Switch the service to use [Karapace](https://aiven.io/docs/products/kafka/karapace) for schema registry and REST proxy. This attribute is deprecated, use `schema_registry` and `kafka_rest` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#karapace Kafka#karapace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#karapace Kafka#karapace}
   */
   readonly karapace?: boolean | cdktf.IResolvable;
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#maintenance_window_dow Kafka#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#maintenance_window_dow Kafka#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#maintenance_window_time Kafka#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#maintenance_window_time Kafka#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#plan Kafka#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#plan Kafka#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#project Kafka#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#project Kafka#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#project_vpc_id Kafka#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#project_vpc_id Kafka#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#service_name Kafka#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#service_name Kafka#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#static_ips Kafka#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#static_ips Kafka#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#termination_protection Kafka#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#termination_protection Kafka#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka Kafka#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka Kafka#kafka}
   */
   readonly kafka?: KafkaKafka;
   /**
   * kafka_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_user_config Kafka#kafka_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_user_config Kafka#kafka_user_config}
   */
   readonly kafkaUserConfig?: KafkaKafkaUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#service_integrations Kafka#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#service_integrations Kafka#service_integrations}
   */
   readonly serviceIntegrations?: KafkaServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#tag Kafka#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#tag Kafka#tag}
   */
   readonly tag?: KafkaTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#tech_emails Kafka#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#tech_emails Kafka#tech_emails}
   */
   readonly techEmails?: KafkaTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#timeouts Kafka#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#timeouts Kafka#timeouts}
   */
   readonly timeouts?: KafkaTimeouts;
 }
@@ -248,7 +248,7 @@ export interface KafkaKafka {
   /**
   * Kafka server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#uris Kafka#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#uris Kafka#uris}
   */
   readonly uris?: string[];
 }
@@ -359,7 +359,7 @@ export interface KafkaKafkaUserConfigFollowerFetching {
   /**
   * Whether to enable the follower fetching functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#enabled Kafka#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#enabled Kafka#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -445,13 +445,13 @@ export interface KafkaKafkaUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#description Kafka#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#description Kafka#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#network Kafka#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#network Kafka#network}
   */
   readonly network: string;
 }
@@ -595,289 +595,289 @@ export interface KafkaKafkaUserConfigKafka {
   /**
   * Enable auto-creation of topics. (Default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#auto_create_topics_enable Kafka#auto_create_topics_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#auto_create_topics_enable Kafka#auto_create_topics_enable}
   */
   readonly autoCreateTopicsEnable?: boolean | cdktf.IResolvable;
   /**
   * Enum: `gzip`, `lz4`, `producer`, `snappy`, `uncompressed`, `zstd`. Specify the final compression type for a given topic. This configuration accepts the standard compression codecs (`gzip`, `snappy`, `lz4`, `zstd`). It additionally accepts `uncompressed` which is equivalent to no compression; and `producer` which means retain the original compression codec set by the producer.(Default: producer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#compression_type Kafka#compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#compression_type Kafka#compression_type}
   */
   readonly compressionType?: string;
   /**
   * Idle connections timeout: the server socket processor threads close the connections that idle for longer than this. (Default: 600000 ms (10 minutes)). Example: `540000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#connections_max_idle_ms Kafka#connections_max_idle_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#connections_max_idle_ms Kafka#connections_max_idle_ms}
   */
   readonly connectionsMaxIdleMs?: number;
   /**
   * Replication factor for auto-created topics (Default: 3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#default_replication_factor Kafka#default_replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#default_replication_factor Kafka#default_replication_factor}
   */
   readonly defaultReplicationFactor?: number;
   /**
   * The amount of time, in milliseconds, the group coordinator will wait for more consumers to join a new group before performing the first rebalance. A longer delay means potentially fewer rebalances, but increases the time until processing begins. The default value for this is 3 seconds. During development and testing it might be desirable to set this to 0 in order to not delay test execution time. (Default: 3000 ms (3 seconds)). Example: `3000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#group_initial_rebalance_delay_ms Kafka#group_initial_rebalance_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#group_initial_rebalance_delay_ms Kafka#group_initial_rebalance_delay_ms}
   */
   readonly groupInitialRebalanceDelayMs?: number;
   /**
   * The maximum allowed session timeout for registered consumers. Longer timeouts give consumers more time to process messages in between heartbeats at the cost of a longer time to detect failures. Default: 1800000 ms (30 minutes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#group_max_session_timeout_ms Kafka#group_max_session_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#group_max_session_timeout_ms Kafka#group_max_session_timeout_ms}
   */
   readonly groupMaxSessionTimeoutMs?: number;
   /**
   * The minimum allowed session timeout for registered consumers. Longer timeouts give consumers more time to process messages in between heartbeats at the cost of a longer time to detect failures. (Default: 6000 ms (6 seconds)). Example: `6000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#group_min_session_timeout_ms Kafka#group_min_session_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#group_min_session_timeout_ms Kafka#group_min_session_timeout_ms}
   */
   readonly groupMinSessionTimeoutMs?: number;
   /**
   * How long are delete records retained? (Default: 86400000 (1 day)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_cleaner_delete_retention_ms Kafka#log_cleaner_delete_retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_cleaner_delete_retention_ms Kafka#log_cleaner_delete_retention_ms}
   */
   readonly logCleanerDeleteRetentionMs?: number;
   /**
   * The maximum amount of time message will remain uncompacted. Only applicable for logs that are being compacted. (Default: 9223372036854775807 ms (Long.MAX_VALUE)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_cleaner_max_compaction_lag_ms Kafka#log_cleaner_max_compaction_lag_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_cleaner_max_compaction_lag_ms Kafka#log_cleaner_max_compaction_lag_ms}
   */
   readonly logCleanerMaxCompactionLagMs?: number;
   /**
   * Controls log compactor frequency. Larger value means more frequent compactions but also more space wasted for logs. Consider setting log.cleaner.max.compaction.lag.ms to enforce compactions sooner, instead of setting a very high value for this option. (Default: 0.5). Example: `0.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_cleaner_min_cleanable_ratio Kafka#log_cleaner_min_cleanable_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_cleaner_min_cleanable_ratio Kafka#log_cleaner_min_cleanable_ratio}
   */
   readonly logCleanerMinCleanableRatio?: number;
   /**
   * The minimum time a message will remain uncompacted in the log. Only applicable for logs that are being compacted. (Default: 0 ms).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_cleaner_min_compaction_lag_ms Kafka#log_cleaner_min_compaction_lag_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_cleaner_min_compaction_lag_ms Kafka#log_cleaner_min_compaction_lag_ms}
   */
   readonly logCleanerMinCompactionLagMs?: number;
   /**
   * Enum: `compact`, `compact,delete`, `delete`. The default cleanup policy for segments beyond the retention window (Default: delete).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_cleanup_policy Kafka#log_cleanup_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_cleanup_policy Kafka#log_cleanup_policy}
   */
   readonly logCleanupPolicy?: string;
   /**
   * The number of messages accumulated on a log partition before messages are flushed to disk (Default: 9223372036854775807 (Long.MAX_VALUE)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_flush_interval_messages Kafka#log_flush_interval_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_flush_interval_messages Kafka#log_flush_interval_messages}
   */
   readonly logFlushIntervalMessages?: number;
   /**
   * The maximum time in ms that a message in any topic is kept in memory (page-cache) before flushed to disk. If not set, the value in log.flush.scheduler.interval.ms is used (Default: null).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_flush_interval_ms Kafka#log_flush_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_flush_interval_ms Kafka#log_flush_interval_ms}
   */
   readonly logFlushIntervalMs?: number;
   /**
   * The interval with which Kafka adds an entry to the offset index (Default: 4096 bytes (4 kibibytes)). Example: `4096`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_index_interval_bytes Kafka#log_index_interval_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_index_interval_bytes Kafka#log_index_interval_bytes}
   */
   readonly logIndexIntervalBytes?: number;
   /**
   * The maximum size in bytes of the offset index (Default: 10485760 (10 mebibytes)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_index_size_max_bytes Kafka#log_index_size_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_index_size_max_bytes Kafka#log_index_size_max_bytes}
   */
   readonly logIndexSizeMaxBytes?: number;
   /**
   * The maximum size of local log segments that can grow for a partition before it gets eligible for deletion. If set to -2, the value of log.retention.bytes is used. The effective value should always be less than or equal to log.retention.bytes value. (Default: -2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_local_retention_bytes Kafka#log_local_retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_local_retention_bytes Kafka#log_local_retention_bytes}
   */
   readonly logLocalRetentionBytes?: number;
   /**
   * The number of milliseconds to keep the local log segments before it gets eligible for deletion. If set to -2, the value of log.retention.ms is used. The effective value should always be less than or equal to log.retention.ms value. (Default: -2).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_local_retention_ms Kafka#log_local_retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_local_retention_ms Kafka#log_local_retention_ms}
   */
   readonly logLocalRetentionMs?: number;
   /**
   * This configuration controls whether down-conversion of message formats is enabled to satisfy consume requests. (Default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_message_downconversion_enable Kafka#log_message_downconversion_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_message_downconversion_enable Kafka#log_message_downconversion_enable}
   */
   readonly logMessageDownconversionEnable?: boolean | cdktf.IResolvable;
   /**
   * The maximum difference allowed between the timestamp when a broker receives a message and the timestamp specified in the message. If message.timestamp.type=CreateTime, a message will be rejected if the difference in timestamp exceeds this threshold. Applies only for messages with timestamps later than the broker's timestamp. (Default: 9223372036854775807 (Long.MAX_VALUE)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_message_timestamp_after_max_ms Kafka#log_message_timestamp_after_max_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_message_timestamp_after_max_ms Kafka#log_message_timestamp_after_max_ms}
   */
   readonly logMessageTimestampAfterMaxMs?: number;
   /**
   * The maximum difference allowed between the timestamp when a broker receives a message and the timestamp specified in the message. If message.timestamp.type=CreateTime, a message will be rejected if the difference in timestamp exceeds this threshold. Applies only for messages with timestamps earlier than the broker's timestamp. (Default: 9223372036854775807 (Long.MAX_VALUE)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_message_timestamp_before_max_ms Kafka#log_message_timestamp_before_max_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_message_timestamp_before_max_ms Kafka#log_message_timestamp_before_max_ms}
   */
   readonly logMessageTimestampBeforeMaxMs?: number;
   /**
   * The maximum difference allowed between the timestamp when a broker receives a message and the timestamp specified in the message (Default: 9223372036854775807 (Long.MAX_VALUE)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_message_timestamp_difference_max_ms Kafka#log_message_timestamp_difference_max_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_message_timestamp_difference_max_ms Kafka#log_message_timestamp_difference_max_ms}
   */
   readonly logMessageTimestampDifferenceMaxMs?: number;
   /**
   * Enum: `CreateTime`, `LogAppendTime`. Define whether the timestamp in the message is message create time or log append time. (Default: CreateTime).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_message_timestamp_type Kafka#log_message_timestamp_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_message_timestamp_type Kafka#log_message_timestamp_type}
   */
   readonly logMessageTimestampType?: string;
   /**
   * Should pre allocate file when create new segment? (Default: false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_preallocate Kafka#log_preallocate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_preallocate Kafka#log_preallocate}
   */
   readonly logPreallocate?: boolean | cdktf.IResolvable;
   /**
   * The maximum size of the log before deleting messages (Default: -1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_retention_bytes Kafka#log_retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_retention_bytes Kafka#log_retention_bytes}
   */
   readonly logRetentionBytes?: number;
   /**
-  * The number of hours to keep a log file before deleting it (Default: 168 hours (1 week)).
+  * The number of hours to keep a log file before deleting it. Use -1 for unlimited retention or 1 or higher. Setting 0 is invalid and prevents Kafka from starting. (Default: 168 hours, or 1 week).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_retention_hours Kafka#log_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_retention_hours Kafka#log_retention_hours}
   */
   readonly logRetentionHours?: number;
   /**
   * The number of milliseconds to keep a log file before deleting it (in milliseconds), If not set, the value in log.retention.minutes is used. If set to -1, no time limit is applied. (Default: null, log.retention.hours applies).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_retention_ms Kafka#log_retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_retention_ms Kafka#log_retention_ms}
   */
   readonly logRetentionMs?: number;
   /**
   * The maximum jitter to subtract from logRollTimeMillis (in milliseconds). If not set, the value in log.roll.jitter.hours is used (Default: null).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_roll_jitter_ms Kafka#log_roll_jitter_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_roll_jitter_ms Kafka#log_roll_jitter_ms}
   */
   readonly logRollJitterMs?: number;
   /**
   * The maximum time before a new log segment is rolled out (in milliseconds). (Default: null, log.roll.hours applies (Default: 168, 7 days)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_roll_ms Kafka#log_roll_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_roll_ms Kafka#log_roll_ms}
   */
   readonly logRollMs?: number;
   /**
   * The maximum size of a single log file (Default: 1073741824 bytes (1 gibibyte)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_segment_bytes Kafka#log_segment_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_segment_bytes Kafka#log_segment_bytes}
   */
   readonly logSegmentBytes?: number;
   /**
   * The amount of time to wait before deleting a file from the filesystem (Default: 60000 ms (1 minute)). Example: `60000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#log_segment_delete_delay_ms Kafka#log_segment_delete_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#log_segment_delete_delay_ms Kafka#log_segment_delete_delay_ms}
   */
   readonly logSegmentDeleteDelayMs?: number;
   /**
   * The maximum number of connections allowed from each ip address (Default: 2147483647).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#max_connections_per_ip Kafka#max_connections_per_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#max_connections_per_ip Kafka#max_connections_per_ip}
   */
   readonly maxConnectionsPerIp?: number;
   /**
   * The maximum number of incremental fetch sessions that the broker will maintain. (Default: 1000). Example: `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#max_incremental_fetch_session_cache_slots Kafka#max_incremental_fetch_session_cache_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#max_incremental_fetch_session_cache_slots Kafka#max_incremental_fetch_session_cache_slots}
   */
   readonly maxIncrementalFetchSessionCacheSlots?: number;
   /**
   * The maximum size of message that the server can receive. (Default: 1048588 bytes (1 mebibyte + 12 bytes)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#message_max_bytes Kafka#message_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#message_max_bytes Kafka#message_max_bytes}
   */
   readonly messageMaxBytes?: number;
   /**
   * When a producer sets acks to `all` (or `-1`), min.insync.replicas specifies the minimum number of replicas that must acknowledge a write for the write to be considered successful. (Default: 1). Example: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#min_insync_replicas Kafka#min_insync_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#min_insync_replicas Kafka#min_insync_replicas}
   */
   readonly minInsyncReplicas?: number;
   /**
   * Number of partitions for auto-created topics (Default: 1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#num_partitions Kafka#num_partitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#num_partitions Kafka#num_partitions}
   */
   readonly numPartitions?: number;
   /**
   * Log retention window in minutes for offsets topic (Default: 10080 minutes (7 days)). Example: `10080`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#offsets_retention_minutes Kafka#offsets_retention_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#offsets_retention_minutes Kafka#offsets_retention_minutes}
   */
   readonly offsetsRetentionMinutes?: number;
   /**
   * The purge interval (in number of requests) of the producer request purgatory (Default: 1000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_purgatory_purge_interval_requests Kafka#producer_purgatory_purge_interval_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_purgatory_purge_interval_requests Kafka#producer_purgatory_purge_interval_requests}
   */
   readonly producerPurgatoryPurgeIntervalRequests?: number;
   /**
   * The number of bytes of messages to attempt to fetch for each partition . This is not an absolute maximum, if the first record batch in the first non-empty partition of the fetch is larger than this value, the record batch will still be returned to ensure that progress can be made. (Default: 1048576 bytes (1 mebibytes)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#replica_fetch_max_bytes Kafka#replica_fetch_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#replica_fetch_max_bytes Kafka#replica_fetch_max_bytes}
   */
   readonly replicaFetchMaxBytes?: number;
   /**
   * Maximum bytes expected for the entire fetch response. Records are fetched in batches, and if the first record batch in the first non-empty partition of the fetch is larger than this value, the record batch will still be returned to ensure that progress can be made. As such, this is not an absolute maximum. (Default: 10485760 bytes (10 mebibytes)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#replica_fetch_response_max_bytes Kafka#replica_fetch_response_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#replica_fetch_response_max_bytes Kafka#replica_fetch_response_max_bytes}
   */
   readonly replicaFetchResponseMaxBytes?: number;
   /**
   * The (optional) comma-delimited setting for the broker to use to verify that the JWT was issued for one of the expected audiences. (Default: null).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#sasl_oauthbearer_expected_audience Kafka#sasl_oauthbearer_expected_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#sasl_oauthbearer_expected_audience Kafka#sasl_oauthbearer_expected_audience}
   */
   readonly saslOauthbearerExpectedAudience?: string;
   /**
   * Optional setting for the broker to use to verify that the JWT was created by the expected issuer.(Default: null).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#sasl_oauthbearer_expected_issuer Kafka#sasl_oauthbearer_expected_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#sasl_oauthbearer_expected_issuer Kafka#sasl_oauthbearer_expected_issuer}
   */
   readonly saslOauthbearerExpectedIssuer?: string;
   /**
   * OIDC JWKS endpoint URL. By setting this the SASL SSL OAuth2/OIDC authentication is enabled. See also other options for SASL OAuth2/OIDC. (Default: null).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#sasl_oauthbearer_jwks_endpoint_url Kafka#sasl_oauthbearer_jwks_endpoint_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#sasl_oauthbearer_jwks_endpoint_url Kafka#sasl_oauthbearer_jwks_endpoint_url}
   */
   readonly saslOauthbearerJwksEndpointUrl?: string;
   /**
   * Name of the scope from which to extract the subject claim from the JWT.(Default: sub).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#sasl_oauthbearer_sub_claim_name Kafka#sasl_oauthbearer_sub_claim_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#sasl_oauthbearer_sub_claim_name Kafka#sasl_oauthbearer_sub_claim_name}
   */
   readonly saslOauthbearerSubClaimName?: string;
   /**
   * The maximum number of bytes in a socket request (Default: 104857600 bytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#socket_request_max_bytes Kafka#socket_request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#socket_request_max_bytes Kafka#socket_request_max_bytes}
   */
   readonly socketRequestMaxBytes?: number;
   /**
   * Enable verification that checks that the partition has been added to the transaction before writing transactional records to the partition. (Default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#transaction_partition_verification_enable Kafka#transaction_partition_verification_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#transaction_partition_verification_enable Kafka#transaction_partition_verification_enable}
   */
   readonly transactionPartitionVerificationEnable?: boolean | cdktf.IResolvable;
   /**
   * The interval at which to remove transactions that have expired due to transactional.id.expiration.ms passing (Default: 3600000 ms (1 hour)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#transaction_remove_expired_transaction_cleanup_interval_ms Kafka#transaction_remove_expired_transaction_cleanup_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#transaction_remove_expired_transaction_cleanup_interval_ms Kafka#transaction_remove_expired_transaction_cleanup_interval_ms}
   */
   readonly transactionRemoveExpiredTransactionCleanupIntervalMs?: number;
   /**
   * The transaction topic segment bytes should be kept relatively small in order to facilitate faster log compaction and cache loads (Default: 104857600 bytes (100 mebibytes)).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#transaction_state_log_segment_bytes Kafka#transaction_state_log_segment_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#transaction_state_log_segment_bytes Kafka#transaction_state_log_segment_bytes}
   */
   readonly transactionStateLogSegmentBytes?: number;
 }
@@ -2326,13 +2326,13 @@ export interface KafkaKafkaUserConfigKafkaAuthenticationMethods {
   /**
   * Enable certificate/SSL authentication. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#certificate Kafka#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#certificate Kafka#certificate}
   */
   readonly certificate?: boolean | cdktf.IResolvable;
   /**
   * Enable SASL authentication. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#sasl Kafka#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#sasl Kafka#sasl}
   */
   readonly sasl?: boolean | cdktf.IResolvable;
 }
@@ -2447,97 +2447,97 @@ export interface KafkaKafkaUserConfigKafkaConnectConfig {
   /**
   * Enum: `All`, `None`. Defines what client configurations can be overridden by the connector. Default is None.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#connector_client_config_override_policy Kafka#connector_client_config_override_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#connector_client_config_override_policy Kafka#connector_client_config_override_policy}
   */
   readonly connectorClientConfigOverridePolicy?: string;
   /**
   * Enum: `earliest`, `latest`. What to do when there is no initial offset in Kafka or if the current offset does not exist any more on the server. Default is earliest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_auto_offset_reset Kafka#consumer_auto_offset_reset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_auto_offset_reset Kafka#consumer_auto_offset_reset}
   */
   readonly consumerAutoOffsetReset?: string;
   /**
   * Records are fetched in batches by the consumer, and if the first record batch in the first non-empty partition of the fetch is larger than this value, the record batch will still be returned to ensure that the consumer can make progress. As such, this is not a absolute maximum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_fetch_max_bytes Kafka#consumer_fetch_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_fetch_max_bytes Kafka#consumer_fetch_max_bytes}
   */
   readonly consumerFetchMaxBytes?: number;
   /**
   * Enum: `read_committed`, `read_uncommitted`. Transaction read isolation level. read_uncommitted is the default, but read_committed can be used if consume-exactly-once behavior is desired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_isolation_level Kafka#consumer_isolation_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_isolation_level Kafka#consumer_isolation_level}
   */
   readonly consumerIsolationLevel?: string;
   /**
   * Records are fetched in batches by the consumer.If the first record batch in the first non-empty partition of the fetch is larger than this limit, the batch will still be returned to ensure that the consumer can make progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_max_partition_fetch_bytes Kafka#consumer_max_partition_fetch_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_max_partition_fetch_bytes Kafka#consumer_max_partition_fetch_bytes}
   */
   readonly consumerMaxPartitionFetchBytes?: number;
   /**
   * The maximum delay in milliseconds between invocations of poll() when using consumer group management (defaults to 300000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_max_poll_interval_ms Kafka#consumer_max_poll_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_max_poll_interval_ms Kafka#consumer_max_poll_interval_ms}
   */
   readonly consumerMaxPollIntervalMs?: number;
   /**
   * The maximum number of records returned in a single call to poll() (defaults to 500).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_max_poll_records Kafka#consumer_max_poll_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_max_poll_records Kafka#consumer_max_poll_records}
   */
   readonly consumerMaxPollRecords?: number;
   /**
   * The interval at which to try committing offsets for tasks (defaults to 60000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#offset_flush_interval_ms Kafka#offset_flush_interval_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#offset_flush_interval_ms Kafka#offset_flush_interval_ms}
   */
   readonly offsetFlushIntervalMs?: number;
   /**
   * Maximum number of milliseconds to wait for records to flush and partition offset data to be committed to offset storage before cancelling the process and restoring the offset data to be committed in a future attempt (defaults to 5000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#offset_flush_timeout_ms Kafka#offset_flush_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#offset_flush_timeout_ms Kafka#offset_flush_timeout_ms}
   */
   readonly offsetFlushTimeoutMs?: number;
   /**
   * This setting gives the upper bound of the batch size to be sent. If there are fewer than this many bytes accumulated for this partition, the producer will `linger` for the linger.ms time waiting for more records to show up. A batch size of zero will disable batching entirely (defaults to 16384).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_batch_size Kafka#producer_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_batch_size Kafka#producer_batch_size}
   */
   readonly producerBatchSize?: number;
   /**
   * The total bytes of memory the producer can use to buffer records waiting to be sent to the broker (defaults to 33554432).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_buffer_memory Kafka#producer_buffer_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_buffer_memory Kafka#producer_buffer_memory}
   */
   readonly producerBufferMemory?: number;
   /**
   * Enum: `gzip`, `lz4`, `none`, `snappy`, `zstd`. Specify the default compression type for producers. This configuration accepts the standard compression codecs (`gzip`, `snappy`, `lz4`, `zstd`). It additionally accepts `none` which is the default and equivalent to no compression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_compression_type Kafka#producer_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_compression_type Kafka#producer_compression_type}
   */
   readonly producerCompressionType?: string;
   /**
   * This setting gives the upper bound on the delay for batching: once there is batch.size worth of records for a partition it will be sent immediately regardless of this setting, however if there are fewer than this many bytes accumulated for this partition the producer will `linger` for the specified time waiting for more records to show up. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_linger_ms Kafka#producer_linger_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_linger_ms Kafka#producer_linger_ms}
   */
   readonly producerLingerMs?: number;
   /**
   * This setting will limit the number of record batches the producer will send in a single request to avoid sending huge requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_max_request_size Kafka#producer_max_request_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_max_request_size Kafka#producer_max_request_size}
   */
   readonly producerMaxRequestSize?: number;
   /**
   * The maximum delay that is scheduled in order to wait for the return of one or more departed workers before rebalancing and reassigning their connectors and tasks to the group. During this period the connectors and tasks of the departed workers remain unassigned. Defaults to 5 minutes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#scheduled_rebalance_max_delay_ms Kafka#scheduled_rebalance_max_delay_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#scheduled_rebalance_max_delay_ms Kafka#scheduled_rebalance_max_delay_ms}
   */
   readonly scheduledRebalanceMaxDelayMs?: number;
   /**
   * The timeout in milliseconds used to detect failures when using Kafka’s group management facilities (defaults to 10000).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#session_timeout_ms Kafka#session_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#session_timeout_ms Kafka#session_timeout_ms}
   */
   readonly sessionTimeoutMs?: number;
 }
@@ -3058,13 +3058,13 @@ export interface KafkaKafkaUserConfigKafkaConnectPluginVersions {
   /**
   * The name of the plugin. Example: `debezium-connector`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#plugin_name Kafka#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#plugin_name Kafka#plugin_name}
   */
   readonly pluginName: string;
   /**
   * The version of the plugin. Example: `2.5.0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#version Kafka#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#version Kafka#version}
   */
   readonly version: string;
 }
@@ -3205,25 +3205,25 @@ export interface KafkaKafkaUserConfigKafkaConnectSecretProvidersAws {
   /**
   * Access key used to authenticate with aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#access_key Kafka#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#access_key Kafka#access_key}
   */
   readonly accessKey?: string;
   /**
   * Enum: `credentials`. Auth method of the vault secret provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#auth_method Kafka#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#auth_method Kafka#auth_method}
   */
   readonly authMethod: string;
   /**
   * Region used to lookup secrets with AWS SecretManager.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#region Kafka#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#region Kafka#region}
   */
   readonly region: string;
   /**
   * Secret key used to authenticate with aws.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#secret_key Kafka#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#secret_key Kafka#secret_key}
   */
   readonly secretKey?: string;
 }
@@ -3390,31 +3390,31 @@ export interface KafkaKafkaUserConfigKafkaConnectSecretProvidersVault {
   /**
   * Address of the Vault server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#address Kafka#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#address Kafka#address}
   */
   readonly address: string;
   /**
   * Enum: `token`. Auth method of the vault secret provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#auth_method Kafka#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#auth_method Kafka#auth_method}
   */
   readonly authMethod: string;
   /**
   * Enum: `1`, `2`, and newer. KV Secrets Engine version of the Vault server instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#engine_version Kafka#engine_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#engine_version Kafka#engine_version}
   */
   readonly engineVersion?: number;
   /**
   * Prefix path depth of the secrets Engine. Default is 1. If the secrets engine path has more than one segment it has to be increased to the number of segments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#prefix_path_depth Kafka#prefix_path_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#prefix_path_depth Kafka#prefix_path_depth}
   */
   readonly prefixPathDepth?: number;
   /**
   * Token used to authenticate with vault and auth method `token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#token Kafka#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#token Kafka#token}
   */
   readonly token?: string;
 }
@@ -3610,19 +3610,19 @@ export interface KafkaKafkaUserConfigKafkaConnectSecretProviders {
   /**
   * Name of the secret provider. Used to reference secrets in connector config.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#name Kafka#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#name Kafka#name}
   */
   readonly name: string;
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#aws Kafka#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#aws Kafka#aws}
   */
   readonly aws?: KafkaKafkaUserConfigKafkaConnectSecretProvidersAws;
   /**
   * vault block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#vault Kafka#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#vault Kafka#vault}
   */
   readonly vault?: KafkaKafkaUserConfigKafkaConnectSecretProvidersVault;
 }
@@ -3795,7 +3795,7 @@ export interface KafkaKafkaUserConfigKafkaDiskless {
   /**
   * Whether to enable the Diskless functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#enabled Kafka#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#enabled Kafka#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -3878,67 +3878,67 @@ export interface KafkaKafkaUserConfigKafkaRestConfig {
   /**
   * If true the consumer's offset will be periodically committed to Kafka in the background. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_enable_auto_commit Kafka#consumer_enable_auto_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_enable_auto_commit Kafka#consumer_enable_auto_commit}
   */
   readonly consumerEnableAutoCommit?: boolean | cdktf.IResolvable;
   /**
   * Specifies the maximum duration (in seconds) a client can remain idle before it is deleted. If a consumer is inactive, it will exit the consumer group, and its state will be discarded. A value of 0 (default) indicates that the consumer will not be disconnected automatically due to inactivity. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_idle_disconnect_timeout Kafka#consumer_idle_disconnect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_idle_disconnect_timeout Kafka#consumer_idle_disconnect_timeout}
   */
   readonly consumerIdleDisconnectTimeout?: number;
   /**
   * Maximum number of bytes in unencoded message keys and values by a single request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_request_max_bytes Kafka#consumer_request_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_request_max_bytes Kafka#consumer_request_max_bytes}
   */
   readonly consumerRequestMaxBytes?: number;
   /**
   * Enum: `1000`, `15000`, `30000`. The maximum total time to wait for messages for a request if the maximum number of messages has not yet been reached. Default: `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#consumer_request_timeout_ms Kafka#consumer_request_timeout_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#consumer_request_timeout_ms Kafka#consumer_request_timeout_ms}
   */
   readonly consumerRequestTimeoutMs?: number;
   /**
   * Enum: `record_name`, `topic_name`, `topic_record_name`. Name strategy to use when selecting subject for storing schemas. Default: `topic_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#name_strategy Kafka#name_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#name_strategy Kafka#name_strategy}
   */
   readonly nameStrategy?: string;
   /**
   * If true, validate that given schema is registered under expected subject name by the used name strategy when producing messages. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#name_strategy_validation Kafka#name_strategy_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#name_strategy_validation Kafka#name_strategy_validation}
   */
   readonly nameStrategyValidation?: boolean | cdktf.IResolvable;
   /**
   * Enum: `-1`, `0`, `1`, `all`. The number of acknowledgments the producer requires the leader to have received before considering a request complete. If set to `all` or `-1`, the leader will wait for the full set of in-sync replicas to acknowledge the record. Default: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_acks Kafka#producer_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_acks Kafka#producer_acks}
   */
   readonly producerAcks?: string;
   /**
   * Enum: `gzip`, `lz4`, `none`, `snappy`, `zstd`. Specify the default compression type for producers. This configuration accepts the standard compression codecs (`gzip`, `snappy`, `lz4`, `zstd`). It additionally accepts `none` which is the default and equivalent to no compression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_compression_type Kafka#producer_compression_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_compression_type Kafka#producer_compression_type}
   */
   readonly producerCompressionType?: string;
   /**
   * Wait for up to the given delay to allow batching records together. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_linger_ms Kafka#producer_linger_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_linger_ms Kafka#producer_linger_ms}
   */
   readonly producerLingerMs?: number;
   /**
   * The maximum size of a request in bytes. Note that Kafka broker can also cap the record batch size.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#producer_max_request_size Kafka#producer_max_request_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#producer_max_request_size Kafka#producer_max_request_size}
   */
   readonly producerMaxRequestSize?: number;
   /**
   * Maximum number of SimpleConsumers that can be instantiated per broker. Default: `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#simpleconsumer_pool_size_max Kafka#simpleconsumer_pool_size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#simpleconsumer_pool_size_max Kafka#simpleconsumer_pool_size_max}
   */
   readonly simpleconsumerPoolSizeMax?: number;
 }
@@ -4314,19 +4314,19 @@ export interface KafkaKafkaUserConfigKafkaSaslMechanisms {
   /**
   * Enable PLAIN mechanism. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#plain Kafka#plain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#plain Kafka#plain}
   */
   readonly plain?: boolean | cdktf.IResolvable;
   /**
   * Enable SCRAM-SHA-256 mechanism. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#scram_sha_256 Kafka#scram_sha_256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#scram_sha_256 Kafka#scram_sha_256}
   */
   readonly scramSha256?: boolean | cdktf.IResolvable;
   /**
   * Enable SCRAM-SHA-512 mechanism. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#scram_sha_512 Kafka#scram_sha_512}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#scram_sha_512 Kafka#scram_sha_512}
   */
   readonly scramSha512?: boolean | cdktf.IResolvable;
 }
@@ -4470,31 +4470,31 @@ export interface KafkaKafkaUserConfigPrivateAccess {
   /**
   * Allow clients to connect to kafka with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka Kafka#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka Kafka#kafka}
   */
   readonly kafka?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to kafka_connect with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to kafka_rest with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
   */
   readonly kafkaRest?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#prometheus Kafka#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#prometheus Kafka#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to schema_registry with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#schema_registry Kafka#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#schema_registry Kafka#schema_registry}
   */
   readonly schemaRegistry?: boolean | cdktf.IResolvable;
 }
@@ -4696,37 +4696,37 @@ export interface KafkaKafkaUserConfigPrivatelinkAccess {
   /**
   * Enable jolokia.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#jolokia Kafka#jolokia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#jolokia Kafka#jolokia}
   */
   readonly jolokia?: boolean | cdktf.IResolvable;
   /**
   * Enable kafka.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka Kafka#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka Kafka#kafka}
   */
   readonly kafka?: boolean | cdktf.IResolvable;
   /**
   * Enable kafka_connect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Enable kafka_rest.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
   */
   readonly kafkaRest?: boolean | cdktf.IResolvable;
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#prometheus Kafka#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#prometheus Kafka#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Enable schema_registry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#schema_registry Kafka#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#schema_registry Kafka#schema_registry}
   */
   readonly schemaRegistry?: boolean | cdktf.IResolvable;
 }
@@ -4957,31 +4957,31 @@ export interface KafkaKafkaUserConfigPublicAccess {
   /**
   * Allow clients to connect to kafka from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka Kafka#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka Kafka#kafka}
   */
   readonly kafka?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to kafka_connect from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to kafka_rest from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
   */
   readonly kafkaRest?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#prometheus Kafka#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#prometheus Kafka#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to schema_registry from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#schema_registry Kafka#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#schema_registry Kafka#schema_registry}
   */
   readonly schemaRegistry?: boolean | cdktf.IResolvable;
 }
@@ -5183,25 +5183,25 @@ export interface KafkaKafkaUserConfigSchemaRegistryConfig {
   /**
   * If true, Karapace / Schema Registry on the service nodes can participate in leader election. It might be needed to disable this when the schemas topic is replicated to a secondary cluster and Karapace / Schema Registry there must not participate in leader election. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#leader_eligibility Kafka#leader_eligibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#leader_eligibility Kafka#leader_eligibility}
   */
   readonly leaderEligibility?: boolean | cdktf.IResolvable;
   /**
   * If enabled, kafka errors which can be retried or custom errors specified for the service will not be raised, instead, a warning log is emitted. This will denoise issue tracking systems, i.e. sentry. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#retriable_errors_silenced Kafka#retriable_errors_silenced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#retriable_errors_silenced Kafka#retriable_errors_silenced}
   */
   readonly retriableErrorsSilenced?: boolean | cdktf.IResolvable;
   /**
   * If enabled, causes the Karapace schema-registry service to shutdown when there are invalid schema records in the `_schemas` topic. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#schema_reader_strict_mode Kafka#schema_reader_strict_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#schema_reader_strict_mode Kafka#schema_reader_strict_mode}
   */
   readonly schemaReaderStrictMode?: boolean | cdktf.IResolvable;
   /**
   * The durable single partition topic that acts as the durable log for the data. This topic must be compacted to avoid losing data due to retention policy. Please note that changing this configuration in an existing Schema Registry / Karapace setup leads to previous schemas being inaccessible, data encoded with them potentially unreadable and schema ID sequence put out of order. It's only possible to do the switch while Schema Registry / Karapace is disabled. Defaults to `_schemas`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#topic_name Kafka#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#topic_name Kafka#topic_name}
   */
   readonly topicName?: string;
 }
@@ -5374,13 +5374,13 @@ export interface KafkaKafkaUserConfigSingleZone {
   /**
   * The availability zone to use for the service. This is only used when enabled is set to true. If not set the service will be allocated in random AZ.The AZ is not guaranteed, and the service may be allocated in a different AZ if the selected AZ is not available. Zones will not be validated and invalid zones will be ignored, falling back to random AZ selection. Common availability zones include: AWS (euc1-az1, euc1-az2, euc1-az3), GCP (europe-west1-a, europe-west1-b, europe-west1-c), Azure (germanywestcentral/1, germanywestcentral/2, germanywestcentral/3). Example: `euc1-az1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#availability_zone Kafka#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#availability_zone Kafka#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Whether to allocate nodes on the same Availability Zone or spread across zones available. By default service nodes are spread across different AZs. The single AZ support is best-effort and may temporarily allocate nodes in different AZs e.g. in case of capacity limitations in one AZ.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#enabled Kafka#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#enabled Kafka#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -5495,7 +5495,7 @@ export interface KafkaKafkaUserConfigTieredStorageLocalCache {
   /**
   * Local cache size in bytes. Example: `1073741824`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#size Kafka#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#size Kafka#size}
   */
   readonly size?: number;
 }
@@ -5581,13 +5581,13 @@ export interface KafkaKafkaUserConfigTieredStorage {
   /**
   * Whether to enable the tiered storage functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#enabled Kafka#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#enabled Kafka#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * local_cache block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#local_cache Kafka#local_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#local_cache Kafka#local_cache}
   */
   readonly localCache?: KafkaKafkaUserConfigTieredStorageLocalCache;
 }
@@ -5702,175 +5702,187 @@ export interface KafkaKafkaUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#additional_backup_regions Kafka#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#additional_backup_regions Kafka#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Allow access to read Kafka topic messages in the Aiven Console and REST API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#aiven_kafka_topic_messages Kafka#aiven_kafka_topic_messages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#aiven_kafka_topic_messages Kafka#aiven_kafka_topic_messages}
   */
   readonly aivenKafkaTopicMessages?: boolean | cdktf.IResolvable;
   /**
-  * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. Example: `grafana.example.org`.
+  * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. When you set a custom domain for a service deployed in a VPC, the service certificate is only created for the public-* hostname and the custom domain. Example: `grafana.example.org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#custom_domain Kafka#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#custom_domain Kafka#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#ip_filter Kafka#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#ip_filter Kafka#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#ip_filter_string Kafka#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#ip_filter_string Kafka#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Enable Kafka Connect service. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect Kafka#kafka_connect}
   */
   readonly kafkaConnect?: boolean | cdktf.IResolvable;
   /**
   * Enable Kafka-REST service. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_rest Kafka#kafka_rest}
   */
   readonly kafkaRest?: boolean | cdktf.IResolvable;
   /**
   * Enable authorization in Kafka-REST service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_rest_authorization Kafka#kafka_rest_authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_rest_authorization Kafka#kafka_rest_authorization}
   */
   readonly kafkaRestAuthorization?: boolean | cdktf.IResolvable;
   /**
-  * Enum: `3.1`, `3.2`, `3.3`, `3.4`, `3.5`, `3.6`, `3.7`, `3.8`, `3.9`, `4.0`, and newer. Kafka major version.
+  * Enum: `3.1`, `3.2`, `3.3`, `3.4`, `3.5`, `3.6`, `3.7`, `3.8`, `3.9`, `4.0`, `4.1`, and newer. Kafka major version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_version Kafka#kafka_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_version Kafka#kafka_version}
   */
   readonly kafkaVersion?: string;
   /**
-  * Use Letsencrypt CA for Kafka SASL via Privatelink.
+  * Use a Let's Encrypt certificate authority (CA) for Kafka SASL authentication. (Default: False).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#letsencrypt_sasl_privatelink Kafka#letsencrypt_sasl_privatelink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#letsencrypt_sasl Kafka#letsencrypt_sasl}
+  */
+  readonly letsencryptSasl?: boolean | cdktf.IResolvable;
+  /**
+  * Use a Let's Encrypt certificate authority (CA) for Kafka SASL authentication via Privatelink. (Default: False).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#letsencrypt_sasl_privatelink Kafka#letsencrypt_sasl_privatelink}
   */
   readonly letsencryptSaslPrivatelink?: boolean | cdktf.IResolvable;
   /**
+  * List of allowed URLs for SASL OAUTHBEARER authentication. Only HTTPS URLs are allowed for security reasons.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#sasl_oauthbearer_allowed_urls Kafka#sasl_oauthbearer_allowed_urls}
+  */
+  readonly saslOauthbearerAllowedUrls?: string[];
+  /**
   * Enable Schema-Registry service. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#schema_registry Kafka#schema_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#schema_registry Kafka#schema_registry}
   */
   readonly schemaRegistry?: boolean | cdktf.IResolvable;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#service_log Kafka#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#service_log Kafka#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#static_ips Kafka#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#static_ips Kafka#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * follower_fetching block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#follower_fetching Kafka#follower_fetching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#follower_fetching Kafka#follower_fetching}
   */
   readonly followerFetching?: KafkaKafkaUserConfigFollowerFetching;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#ip_filter_object Kafka#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#ip_filter_object Kafka#ip_filter_object}
   */
   readonly ipFilterObject?: KafkaKafkaUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * kafka block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka Kafka#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka Kafka#kafka}
   */
   readonly kafka?: KafkaKafkaUserConfigKafka;
   /**
   * kafka_authentication_methods block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_authentication_methods Kafka#kafka_authentication_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_authentication_methods Kafka#kafka_authentication_methods}
   */
   readonly kafkaAuthenticationMethods?: KafkaKafkaUserConfigKafkaAuthenticationMethods;
   /**
   * kafka_connect_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect_config Kafka#kafka_connect_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect_config Kafka#kafka_connect_config}
   */
   readonly kafkaConnectConfig?: KafkaKafkaUserConfigKafkaConnectConfig;
   /**
   * kafka_connect_plugin_versions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect_plugin_versions Kafka#kafka_connect_plugin_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect_plugin_versions Kafka#kafka_connect_plugin_versions}
   */
   readonly kafkaConnectPluginVersions?: KafkaKafkaUserConfigKafkaConnectPluginVersions[] | cdktf.IResolvable;
   /**
   * kafka_connect_secret_providers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_connect_secret_providers Kafka#kafka_connect_secret_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_connect_secret_providers Kafka#kafka_connect_secret_providers}
   */
   readonly kafkaConnectSecretProviders?: KafkaKafkaUserConfigKafkaConnectSecretProviders[] | cdktf.IResolvable;
   /**
   * kafka_diskless block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_diskless Kafka#kafka_diskless}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_diskless Kafka#kafka_diskless}
   */
   readonly kafkaDiskless?: KafkaKafkaUserConfigKafkaDiskless;
   /**
   * kafka_rest_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_rest_config Kafka#kafka_rest_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_rest_config Kafka#kafka_rest_config}
   */
   readonly kafkaRestConfig?: KafkaKafkaUserConfigKafkaRestConfig;
   /**
   * kafka_sasl_mechanisms block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#kafka_sasl_mechanisms Kafka#kafka_sasl_mechanisms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#kafka_sasl_mechanisms Kafka#kafka_sasl_mechanisms}
   */
   readonly kafkaSaslMechanisms?: KafkaKafkaUserConfigKafkaSaslMechanisms;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#private_access Kafka#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#private_access Kafka#private_access}
   */
   readonly privateAccess?: KafkaKafkaUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#privatelink_access Kafka#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#privatelink_access Kafka#privatelink_access}
   */
   readonly privatelinkAccess?: KafkaKafkaUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#public_access Kafka#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#public_access Kafka#public_access}
   */
   readonly publicAccess?: KafkaKafkaUserConfigPublicAccess;
   /**
   * schema_registry_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#schema_registry_config Kafka#schema_registry_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#schema_registry_config Kafka#schema_registry_config}
   */
   readonly schemaRegistryConfig?: KafkaKafkaUserConfigSchemaRegistryConfig;
   /**
   * single_zone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#single_zone Kafka#single_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#single_zone Kafka#single_zone}
   */
   readonly singleZone?: KafkaKafkaUserConfigSingleZone;
   /**
   * tiered_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#tiered_storage Kafka#tiered_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#tiered_storage Kafka#tiered_storage}
   */
   readonly tieredStorage?: KafkaKafkaUserConfigTieredStorage;
 }
@@ -5890,7 +5902,9 @@ export function kafkaKafkaUserConfigToTerraform(struct?: KafkaKafkaUserConfigOut
     kafka_rest: cdktf.booleanToTerraform(struct!.kafkaRest),
     kafka_rest_authorization: cdktf.booleanToTerraform(struct!.kafkaRestAuthorization),
     kafka_version: cdktf.stringToTerraform(struct!.kafkaVersion),
+    letsencrypt_sasl: cdktf.booleanToTerraform(struct!.letsencryptSasl),
     letsencrypt_sasl_privatelink: cdktf.booleanToTerraform(struct!.letsencryptSaslPrivatelink),
+    sasl_oauthbearer_allowed_urls: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.saslOauthbearerAllowedUrls),
     schema_registry: cdktf.booleanToTerraform(struct!.schemaRegistry),
     service_log: cdktf.booleanToTerraform(struct!.serviceLog),
     static_ips: cdktf.booleanToTerraform(struct!.staticIps),
@@ -5974,11 +5988,23 @@ export function kafkaKafkaUserConfigToHclTerraform(struct?: KafkaKafkaUserConfig
       type: "simple",
       storageClassType: "string",
     },
+    letsencrypt_sasl: {
+      value: cdktf.booleanToHclTerraform(struct!.letsencryptSasl),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
     letsencrypt_sasl_privatelink: {
       value: cdktf.booleanToHclTerraform(struct!.letsencryptSaslPrivatelink),
       isBlock: false,
       type: "simple",
       storageClassType: "boolean",
+    },
+    sasl_oauthbearer_allowed_urls: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.saslOauthbearerAllowedUrls),
+      isBlock: false,
+      type: "list",
+      storageClassType: "stringList",
     },
     schema_registry: {
       value: cdktf.booleanToHclTerraform(struct!.schemaRegistry),
@@ -6150,9 +6176,17 @@ export class KafkaKafkaUserConfigOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.kafkaVersion = this._kafkaVersion;
     }
+    if (this._letsencryptSasl !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.letsencryptSasl = this._letsencryptSasl;
+    }
     if (this._letsencryptSaslPrivatelink !== undefined) {
       hasAnyValues = true;
       internalValueResult.letsencryptSaslPrivatelink = this._letsencryptSaslPrivatelink;
+    }
+    if (this._saslOauthbearerAllowedUrls !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.saslOauthbearerAllowedUrls = this._saslOauthbearerAllowedUrls;
     }
     if (this._schemaRegistry !== undefined) {
       hasAnyValues = true;
@@ -6245,7 +6279,9 @@ export class KafkaKafkaUserConfigOutputReference extends cdktf.ComplexObject {
       this._kafkaRest = undefined;
       this._kafkaRestAuthorization = undefined;
       this._kafkaVersion = undefined;
+      this._letsencryptSasl = undefined;
       this._letsencryptSaslPrivatelink = undefined;
+      this._saslOauthbearerAllowedUrls = undefined;
       this._schemaRegistry = undefined;
       this._serviceLog = undefined;
       this._staticIps = undefined;
@@ -6277,7 +6313,9 @@ export class KafkaKafkaUserConfigOutputReference extends cdktf.ComplexObject {
       this._kafkaRest = value.kafkaRest;
       this._kafkaRestAuthorization = value.kafkaRestAuthorization;
       this._kafkaVersion = value.kafkaVersion;
+      this._letsencryptSasl = value.letsencryptSasl;
       this._letsencryptSaslPrivatelink = value.letsencryptSaslPrivatelink;
+      this._saslOauthbearerAllowedUrls = value.saslOauthbearerAllowedUrls;
       this._schemaRegistry = value.schemaRegistry;
       this._serviceLog = value.serviceLog;
       this._staticIps = value.staticIps;
@@ -6444,6 +6482,22 @@ export class KafkaKafkaUserConfigOutputReference extends cdktf.ComplexObject {
     return this._kafkaVersion;
   }
 
+  // letsencrypt_sasl - computed: false, optional: true, required: false
+  private _letsencryptSasl?: boolean | cdktf.IResolvable; 
+  public get letsencryptSasl() {
+    return this.getBooleanAttribute('letsencrypt_sasl');
+  }
+  public set letsencryptSasl(value: boolean | cdktf.IResolvable) {
+    this._letsencryptSasl = value;
+  }
+  public resetLetsencryptSasl() {
+    this._letsencryptSasl = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get letsencryptSaslInput() {
+    return this._letsencryptSasl;
+  }
+
   // letsencrypt_sasl_privatelink - computed: false, optional: true, required: false
   private _letsencryptSaslPrivatelink?: boolean | cdktf.IResolvable; 
   public get letsencryptSaslPrivatelink() {
@@ -6458,6 +6512,22 @@ export class KafkaKafkaUserConfigOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get letsencryptSaslPrivatelinkInput() {
     return this._letsencryptSaslPrivatelink;
+  }
+
+  // sasl_oauthbearer_allowed_urls - computed: false, optional: true, required: false
+  private _saslOauthbearerAllowedUrls?: string[]; 
+  public get saslOauthbearerAllowedUrls() {
+    return this.getListAttribute('sasl_oauthbearer_allowed_urls');
+  }
+  public set saslOauthbearerAllowedUrls(value: string[]) {
+    this._saslOauthbearerAllowedUrls = value;
+  }
+  public resetSaslOauthbearerAllowedUrls() {
+    this._saslOauthbearerAllowedUrls = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get saslOauthbearerAllowedUrlsInput() {
+    return this._saslOauthbearerAllowedUrls;
   }
 
   // schema_registry - computed: false, optional: true, required: false
@@ -6768,13 +6838,13 @@ export interface KafkaServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#integration_type Kafka#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#integration_type Kafka#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#source_service_name Kafka#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#source_service_name Kafka#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -6915,13 +6985,13 @@ export interface KafkaTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#key Kafka#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#key Kafka#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#value Kafka#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#value Kafka#value}
   */
   readonly value: string;
 }
@@ -7062,7 +7132,7 @@ export interface KafkaTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#email Kafka#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#email Kafka#email}
   */
   readonly email: string;
 }
@@ -7175,23 +7245,23 @@ export class KafkaTechEmailsList extends cdktf.ComplexList {
 }
 export interface KafkaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#create Kafka#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#create Kafka#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#default Kafka#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#default Kafka#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#delete Kafka#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#delete Kafka#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#read Kafka#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#read Kafka#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#update Kafka#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#update Kafka#update}
   */
   readonly update?: string;
 }
@@ -7401,7 +7471,7 @@ export class KafkaTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka aiven_kafka}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka aiven_kafka}
 */
 export class Kafka extends cdktf.TerraformResource {
 
@@ -7417,7 +7487,7 @@ export class Kafka extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Kafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Kafka to import
-  * @param importFromId The id of the existing Kafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Kafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Kafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7429,7 +7499,7 @@ export class Kafka extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/kafka aiven_kafka} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/kafka aiven_kafka} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7440,8 +7510,8 @@ export class Kafka extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_kafka',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

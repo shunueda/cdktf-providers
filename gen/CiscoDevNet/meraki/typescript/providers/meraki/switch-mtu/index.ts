@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SwitchMtuConfig extends cdktf.TerraformMetaArguments {
   /**
   * MTU size for the entire network. Default value is 9578.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#default_mtu_size SwitchMtu#default_mtu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#default_mtu_size SwitchMtu#default_mtu_size}
   */
   readonly defaultMtuSize?: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#network_id SwitchMtu#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#network_id SwitchMtu#network_id}
   */
   readonly networkId: string;
   /**
   * Override MTU size for individual switches or switch templates. An empty array will clear overrides.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#overrides SwitchMtu#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#overrides SwitchMtu#overrides}
   */
   readonly overrides?: SwitchMtuOverrides[] | cdktf.IResolvable;
 }
@@ -30,19 +30,19 @@ export interface SwitchMtuOverrides {
   /**
   * MTU size for the switches or switch templates.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#mtu_size SwitchMtu#mtu_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#mtu_size SwitchMtu#mtu_size}
   */
   readonly mtuSize: number;
   /**
   * List of switch template IDs. Applicable only for template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#switch_profiles SwitchMtu#switch_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#switch_profiles SwitchMtu#switch_profiles}
   */
   readonly switchProfiles?: string[];
   /**
   * List of switch serials. Applicable only for switch network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#switches SwitchMtu#switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#switches SwitchMtu#switches}
   */
   readonly switches?: string[];
 }
@@ -213,7 +213,7 @@ export class SwitchMtuOverridesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu meraki_switch_mtu}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu meraki_switch_mtu}
 */
 export class SwitchMtu extends cdktf.TerraformResource {
 
@@ -229,7 +229,7 @@ export class SwitchMtu extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchMtu resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchMtu to import
-  * @param importFromId The id of the existing SwitchMtu that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchMtu that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchMtu to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -241,7 +241,7 @@ export class SwitchMtu extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_mtu meraki_switch_mtu} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_mtu meraki_switch_mtu} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -252,8 +252,8 @@ export class SwitchMtu extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_mtu',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

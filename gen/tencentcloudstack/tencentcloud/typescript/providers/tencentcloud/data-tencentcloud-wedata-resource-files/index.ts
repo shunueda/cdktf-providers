@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataTencentcloudWedataResourceFilesConfig extends cdktf.Terrafo
   /**
   * Create time range. specifies the termination time in yyyy-MM-dd HH:MM:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#create_time_end DataTencentcloudWedataResourceFiles#create_time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#create_time_end DataTencentcloudWedataResourceFiles#create_time_end}
   */
   readonly createTimeEnd?: string;
   /**
   * Create time range. specifies the start time in yyyy-MM-dd HH:MM:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#create_time_start DataTencentcloudWedataResourceFiles#create_time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#create_time_start DataTencentcloudWedataResourceFiles#create_time_start}
   */
   readonly createTimeStart?: string;
   /**
   * Creator ID. obtain through the DescribeCurrentUserInfo API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#create_user_uin DataTencentcloudWedataResourceFiles#create_user_uin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#create_user_uin DataTencentcloudWedataResourceFiles#create_user_uin}
   */
   readonly createUserUin?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#id DataTencentcloudWedataResourceFiles#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#id DataTencentcloudWedataResourceFiles#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface DataTencentcloudWedataResourceFilesConfig extends cdktf.Terrafo
   /**
   * Update time range. specifies the end time in yyyy-MM-dd HH:MM:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#modify_time_end DataTencentcloudWedataResourceFiles#modify_time_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#modify_time_end DataTencentcloudWedataResourceFiles#modify_time_end}
   */
   readonly modifyTimeEnd?: string;
   /**
   * Update time range. specifies the start time in yyyy-MM-dd HH:MM:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#modify_time_start DataTencentcloudWedataResourceFiles#modify_time_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#modify_time_start DataTencentcloudWedataResourceFiles#modify_time_start}
   */
   readonly modifyTimeStart?: string;
   /**
   * Specifies the path of the file's parent folder (for example /a/b/c, querying resource files under the folder c).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#parent_folder_path DataTencentcloudWedataResourceFiles#parent_folder_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#parent_folder_path DataTencentcloudWedataResourceFiles#parent_folder_path}
   */
   readonly parentFolderPath?: string;
   /**
   * Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#project_id DataTencentcloudWedataResourceFiles#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#project_id DataTencentcloudWedataResourceFiles#project_id}
   */
   readonly projectId: string;
   /**
   * Resource file name (fuzzy search keyword).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#resource_name DataTencentcloudWedataResourceFiles#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#resource_name DataTencentcloudWedataResourceFiles#resource_name}
   */
   readonly resourceName?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#result_output_file DataTencentcloudWedataResourceFiles#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#result_output_file DataTencentcloudWedataResourceFiles#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -161,7 +161,7 @@ export class DataTencentcloudWedataResourceFilesDataList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files tencentcloud_wedata_resource_files}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files tencentcloud_wedata_resource_files}
 */
 export class DataTencentcloudWedataResourceFiles extends cdktf.TerraformDataSource {
 
@@ -177,7 +177,7 @@ export class DataTencentcloudWedataResourceFiles extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudWedataResourceFiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWedataResourceFiles to import
-  * @param importFromId The id of the existing DataTencentcloudWedataResourceFiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWedataResourceFiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWedataResourceFiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DataTencentcloudWedataResourceFiles extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/wedata_resource_files tencentcloud_wedata_resource_files} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/wedata_resource_files tencentcloud_wedata_resource_files} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DataTencentcloudWedataResourceFiles extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_wedata_resource_files',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

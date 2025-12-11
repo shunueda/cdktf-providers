@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceTrafficShapingRulesConfig extends cdktf.TerraformMetaA
   /**
   * Whether default traffic shaping rules are enabled (true) or disabled (false). There are 4 default rules, which can be seen on your network`s traffic shaping page. Note that default rules count against the rule limit of 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#default_rules_enabled ApplianceTrafficShapingRules#default_rules_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#default_rules_enabled ApplianceTrafficShapingRules#default_rules_enabled}
   */
   readonly defaultRulesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#network_id ApplianceTrafficShapingRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#network_id ApplianceTrafficShapingRules#network_id}
   */
   readonly networkId: string;
   /**
   * An array of traffic shaping rules. Rules are applied in the order that they are specified in. An empty list (or null) means no rules. Note that you are allowed a maximum of 8 rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#rules ApplianceTrafficShapingRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#rules ApplianceTrafficShapingRules#rules}
   */
   readonly rules?: ApplianceTrafficShapingRulesRules[] | cdktf.IResolvable;
 }
@@ -31,13 +31,13 @@ export interface ApplianceTrafficShapingRulesRulesDefinitions {
   * The type of definition. Can be one of `application`, `applicationCategory`, `host`, `port`, `ipRange` or `localNet`.
   *   - Choices: `application`, `applicationCategory`, `host`, `ipRange`, `localNet`, `port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#type ApplianceTrafficShapingRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#type ApplianceTrafficShapingRules#type}
   */
   readonly type: string;
   /**
   * If 'type' is `host`, `port`, `ipRange` or `localNet`, then 'value' must be a string, matching either a hostname (e.g. 'somesite.com'), a port (e.g. 8080), or an IP range ('192.1.0.0', '192.1.0.0/16', or '10.1.0.0/16:80'). `localNet` also supports CIDR notation, excluding custom ports. If 'type' is `application` or `applicationCategory`, then 'value' must be an application category or application ID (for a list of IDs for your network, use the trafficShaping/applicationCategories endpoint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#value ApplianceTrafficShapingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#value ApplianceTrafficShapingRules#value}
   */
   readonly value: string;
 }
@@ -178,37 +178,37 @@ export interface ApplianceTrafficShapingRulesRules {
   /**
   * A list of objects describing the definitions of your traffic shaping rule. At least one definition is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#definitions ApplianceTrafficShapingRules#definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#definitions ApplianceTrafficShapingRules#definitions}
   */
   readonly definitions: ApplianceTrafficShapingRulesRulesDefinitions[] | cdktf.IResolvable;
   /**
   * The DSCP tag applied by your rule. null means `Do not change DSCP tag`. For a list of possible tag values, use the trafficShaping/dscpTaggingOptions endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#dscp_tag_value ApplianceTrafficShapingRules#dscp_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#dscp_tag_value ApplianceTrafficShapingRules#dscp_tag_value}
   */
   readonly dscpTagValue?: number;
   /**
   * The maximum download limit (integer, in Kbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#per_client_bandwidth_limit_down ApplianceTrafficShapingRules#per_client_bandwidth_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#per_client_bandwidth_limit_down ApplianceTrafficShapingRules#per_client_bandwidth_limit_down}
   */
   readonly perClientBandwidthLimitDown?: number;
   /**
   * How bandwidth limits are applied by your rule. Can be one of `network default`, `ignore` or `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#per_client_bandwidth_limit_settings ApplianceTrafficShapingRules#per_client_bandwidth_limit_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#per_client_bandwidth_limit_settings ApplianceTrafficShapingRules#per_client_bandwidth_limit_settings}
   */
   readonly perClientBandwidthLimitSettings?: string;
   /**
   * The maximum upload limit (integer, in Kbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#per_client_bandwidth_limit_up ApplianceTrafficShapingRules#per_client_bandwidth_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#per_client_bandwidth_limit_up ApplianceTrafficShapingRules#per_client_bandwidth_limit_up}
   */
   readonly perClientBandwidthLimitUp?: number;
   /**
   * A string, indicating the priority level for packets bound to your rule. Can be `low`, `normal` or `high`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#priority ApplianceTrafficShapingRules#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#priority ApplianceTrafficShapingRules#priority}
   */
   readonly priority?: string;
 }
@@ -466,7 +466,7 @@ export class ApplianceTrafficShapingRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules meraki_appliance_traffic_shaping_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules meraki_appliance_traffic_shaping_rules}
 */
 export class ApplianceTrafficShapingRules extends cdktf.TerraformResource {
 
@@ -482,7 +482,7 @@ export class ApplianceTrafficShapingRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceTrafficShapingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceTrafficShapingRules to import
-  * @param importFromId The id of the existing ApplianceTrafficShapingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceTrafficShapingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceTrafficShapingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -494,7 +494,7 @@ export class ApplianceTrafficShapingRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_rules meraki_appliance_traffic_shaping_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_rules meraki_appliance_traffic_shaping_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -505,8 +505,8 @@ export class ApplianceTrafficShapingRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_traffic_shaping_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

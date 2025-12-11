@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bastion_bastion
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bastion_bastion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciBastionBastionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bastion_bastion#bastion_id DataOciBastionBastion#bastion_id}
   */
   readonly bastionId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bastion_bastion oci_bastion_bastion}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bastion_bastion oci_bastion_bastion}
 */
 export class DataOciBastionBastion extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciBastionBastion extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciBastionBastion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciBastionBastion to import
-  * @param importFromId The id of the existing DataOciBastionBastion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bastion_bastion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciBastionBastion that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bastion_bastion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciBastionBastion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciBastionBastion extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/bastion_bastion oci_bastion_bastion} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/bastion_bastion oci_bastion_bastion} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciBastionBastion extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_bastion_bastion',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

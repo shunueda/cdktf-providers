@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_early_access_features_opt_ins
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_early_access_features_opt_ins
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiOrganizationEarlyAccessFeaturesOptInsConfig extends c
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_early_access_features_opt_ins#organization_id DataMerakiOrganizationEarlyAccessFeaturesOptIns#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_early_access_features_opt_ins#organization_id DataMerakiOrganizationEarlyAccessFeaturesOptIns#organization_id}
   */
   readonly organizationId: string;
 }
@@ -101,7 +101,7 @@ export class DataMerakiOrganizationEarlyAccessFeaturesOptInsItemsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_early_access_features_opt_ins meraki_organization_early_access_features_opt_ins}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_early_access_features_opt_ins meraki_organization_early_access_features_opt_ins}
 */
 export class DataMerakiOrganizationEarlyAccessFeaturesOptIns extends cdktf.TerraformDataSource {
 
@@ -117,7 +117,7 @@ export class DataMerakiOrganizationEarlyAccessFeaturesOptIns extends cdktf.Terra
   * Generates CDKTF code for importing a DataMerakiOrganizationEarlyAccessFeaturesOptIns resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiOrganizationEarlyAccessFeaturesOptIns to import
-  * @param importFromId The id of the existing DataMerakiOrganizationEarlyAccessFeaturesOptIns that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_early_access_features_opt_ins#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiOrganizationEarlyAccessFeaturesOptIns that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_early_access_features_opt_ins#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiOrganizationEarlyAccessFeaturesOptIns to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DataMerakiOrganizationEarlyAccessFeaturesOptIns extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_early_access_features_opt_ins meraki_organization_early_access_features_opt_ins} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_early_access_features_opt_ins meraki_organization_early_access_features_opt_ins} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DataMerakiOrganizationEarlyAccessFeaturesOptIns extends cdktf.Terra
       terraformResourceType: 'meraki_organization_early_access_features_opt_ins',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

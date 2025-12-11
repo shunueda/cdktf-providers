@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SwitchRoutingMulticastConfig extends cdktf.TerraformMetaArgumen
   /**
   * Flood unknown multicast traffic setting for entire network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#default_settings_flood_unknown_multicast_traffic_enabled SwitchRoutingMulticast#default_settings_flood_unknown_multicast_traffic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#default_settings_flood_unknown_multicast_traffic_enabled SwitchRoutingMulticast#default_settings_flood_unknown_multicast_traffic_enabled}
   */
   readonly defaultSettingsFloodUnknownMulticastTrafficEnabled?: boolean | cdktf.IResolvable;
   /**
   * IGMP snooping setting for entire network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#default_settings_igmp_snooping_enabled SwitchRoutingMulticast#default_settings_igmp_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#default_settings_igmp_snooping_enabled SwitchRoutingMulticast#default_settings_igmp_snooping_enabled}
   */
   readonly defaultSettingsIgmpSnoopingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#network_id SwitchRoutingMulticast#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#network_id SwitchRoutingMulticast#network_id}
   */
   readonly networkId: string;
   /**
   * Array of paired switches/stacks/profiles and corresponding multicast settings. An empty array will clear the multicast settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#overrides SwitchRoutingMulticast#overrides}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#overrides SwitchRoutingMulticast#overrides}
   */
   readonly overrides?: SwitchRoutingMulticastOverrides[] | cdktf.IResolvable;
 }
@@ -36,31 +36,31 @@ export interface SwitchRoutingMulticastOverrides {
   /**
   * Flood unknown multicast traffic setting for switches, switch stacks or switch templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#flood_unknown_multicast_traffic_enabled SwitchRoutingMulticast#flood_unknown_multicast_traffic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#flood_unknown_multicast_traffic_enabled SwitchRoutingMulticast#flood_unknown_multicast_traffic_enabled}
   */
   readonly floodUnknownMulticastTrafficEnabled: boolean | cdktf.IResolvable;
   /**
   * IGMP snooping setting for switches, switch stacks or switch templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#igmp_snooping_enabled SwitchRoutingMulticast#igmp_snooping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#igmp_snooping_enabled SwitchRoutingMulticast#igmp_snooping_enabled}
   */
   readonly igmpSnoopingEnabled: boolean | cdktf.IResolvable;
   /**
   * List of switch stack ids for non-template network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#stacks SwitchRoutingMulticast#stacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#stacks SwitchRoutingMulticast#stacks}
   */
   readonly stacks?: string[];
   /**
   * List of switch templates ids for template network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#switch_profiles SwitchRoutingMulticast#switch_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#switch_profiles SwitchRoutingMulticast#switch_profiles}
   */
   readonly switchProfiles?: string[];
   /**
   * List of switch serials for non-template network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#switches SwitchRoutingMulticast#switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#switches SwitchRoutingMulticast#switches}
   */
   readonly switches?: string[];
 }
@@ -286,7 +286,7 @@ export class SwitchRoutingMulticastOverridesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast meraki_switch_routing_multicast}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast meraki_switch_routing_multicast}
 */
 export class SwitchRoutingMulticast extends cdktf.TerraformResource {
 
@@ -302,7 +302,7 @@ export class SwitchRoutingMulticast extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchRoutingMulticast resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchRoutingMulticast to import
-  * @param importFromId The id of the existing SwitchRoutingMulticast that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchRoutingMulticast that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchRoutingMulticast to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -314,7 +314,7 @@ export class SwitchRoutingMulticast extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_multicast meraki_switch_routing_multicast} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_multicast meraki_switch_routing_multicast} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -325,8 +325,8 @@ export class SwitchRoutingMulticast extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_routing_multicast',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

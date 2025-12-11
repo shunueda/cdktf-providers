@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface AiVisionStreamGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#compartment_id AiVisionStreamGroup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#compartment_id AiVisionStreamGroup#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#defined_tags AiVisionStreamGroup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#defined_tags AiVisionStreamGroup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#display_name AiVisionStreamGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#display_name AiVisionStreamGroup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#freeform_tags AiVisionStreamGroup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#freeform_tags AiVisionStreamGroup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#id AiVisionStreamGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#id AiVisionStreamGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#is_enabled AiVisionStreamGroup#is_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#is_enabled AiVisionStreamGroup#is_enabled}
   */
   readonly isEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#stream_source_ids AiVisionStreamGroup#stream_source_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#stream_source_ids AiVisionStreamGroup#stream_source_ids}
   */
   readonly streamSourceIds?: string[];
   /**
   * stream_overlaps block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#stream_overlaps AiVisionStreamGroup#stream_overlaps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#stream_overlaps AiVisionStreamGroup#stream_overlaps}
   */
   readonly streamOverlaps?: AiVisionStreamGroupStreamOverlaps[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#timeouts AiVisionStreamGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#timeouts AiVisionStreamGroup#timeouts}
   */
   readonly timeouts?: AiVisionStreamGroupTimeouts;
 }
 export interface AiVisionStreamGroupStreamOverlaps {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#overlapping_streams AiVisionStreamGroup#overlapping_streams}
   */
   readonly overlappingStreams?: string[];
 }
@@ -169,15 +169,15 @@ export class AiVisionStreamGroupStreamOverlapsList extends cdktf.ComplexList {
 }
 export interface AiVisionStreamGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#create AiVisionStreamGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#create AiVisionStreamGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#delete AiVisionStreamGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#delete AiVisionStreamGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#update AiVisionStreamGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#update AiVisionStreamGroup#update}
   */
   readonly update?: string;
 }
@@ -329,7 +329,7 @@ export class AiVisionStreamGroupTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group oci_ai_vision_stream_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group oci_ai_vision_stream_group}
 */
 export class AiVisionStreamGroup extends cdktf.TerraformResource {
 
@@ -345,7 +345,7 @@ export class AiVisionStreamGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiVisionStreamGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiVisionStreamGroup to import
-  * @param importFromId The id of the existing AiVisionStreamGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiVisionStreamGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiVisionStreamGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -357,7 +357,7 @@ export class AiVisionStreamGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_group oci_ai_vision_stream_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_group oci_ai_vision_stream_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -368,8 +368,8 @@ export class AiVisionStreamGroup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_vision_stream_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

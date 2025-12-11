@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ClbRedirectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of CLB instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#clb_id ClbRedirection#clb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#clb_id ClbRedirection#clb_id}
   */
   readonly clbId: string;
   /**
   * Indicates whether delete all auto redirection. Default is `false`. It will take effect only when this redirection is auto-rewrite and this auto-rewrite auto redirected more than one rules. All the auto-rewrite relations will be deleted when this parameter set true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#delete_all_auto_rewrite ClbRedirection#delete_all_auto_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#delete_all_auto_rewrite ClbRedirection#delete_all_auto_rewrite}
   */
   readonly deleteAllAutoRewrite?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#id ClbRedirection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#id ClbRedirection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface ClbRedirectionConfig extends cdktf.TerraformMetaArguments {
   /**
   * Indicates whether automatic forwarding is enable, default is `false`. If enabled, the source listener and location should be empty, the target listener must be https protocol and port is 443.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#is_auto_rewrite ClbRedirection#is_auto_rewrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#is_auto_rewrite ClbRedirection#is_auto_rewrite}
   */
   readonly isAutoRewrite?: boolean | cdktf.IResolvable;
   /**
   * ID of source listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#source_listener_id ClbRedirection#source_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#source_listener_id ClbRedirection#source_listener_id}
   */
   readonly sourceListenerId?: string;
   /**
   * Rule ID of source listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#source_rule_id ClbRedirection#source_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#source_rule_id ClbRedirection#source_rule_id}
   */
   readonly sourceRuleId?: string;
   /**
   * ID of source listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#target_listener_id ClbRedirection#target_listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#target_listener_id ClbRedirection#target_listener_id}
   */
   readonly targetListenerId: string;
   /**
   * Rule ID of target listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#target_rule_id ClbRedirection#target_rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#target_rule_id ClbRedirection#target_rule_id}
   */
   readonly targetRuleId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection tencentcloud_clb_redirection}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection tencentcloud_clb_redirection}
 */
 export class ClbRedirection extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class ClbRedirection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClbRedirection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClbRedirection to import
-  * @param importFromId The id of the existing ClbRedirection that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClbRedirection that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClbRedirection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class ClbRedirection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/clb_redirection tencentcloud_clb_redirection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/clb_redirection tencentcloud_clb_redirection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class ClbRedirection extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_clb_redirection',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_gcore_subnet`
 
-Refer to the Terraform Registry for docs: [`data_gcore_subnet`](https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/subnet).
+Refer to the Terraform Registry for docs: [`data_gcore_subnet`](https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/subnet).

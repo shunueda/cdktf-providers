@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudPostgresqlDedicatedClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters#id DataTencentcloudPostgresqlDedicatedClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters#id DataTencentcloudPostgresqlDedicatedClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataTencentcloudPostgresqlDedicatedClustersConfig extends cdktf
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters#result_output_file DataTencentcloudPostgresqlDedicatedClusters#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters#result_output_file DataTencentcloudPostgresqlDedicatedClusters#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters#filters DataTencentcloudPostgresqlDedicatedClusters#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters#filters DataTencentcloudPostgresqlDedicatedClusters#filters}
   */
   readonly filters?: DataTencentcloudPostgresqlDedicatedClustersFilters[] | cdktf.IResolvable;
 }
@@ -156,13 +156,13 @@ export interface DataTencentcloudPostgresqlDedicatedClustersFilters {
   /**
   * Filter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters#name DataTencentcloudPostgresqlDedicatedClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters#name DataTencentcloudPostgresqlDedicatedClusters#name}
   */
   readonly name?: string;
   /**
   * Filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters#values DataTencentcloudPostgresqlDedicatedClusters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters#values DataTencentcloudPostgresqlDedicatedClusters#values}
   */
   readonly values?: string[];
 }
@@ -307,7 +307,7 @@ export class DataTencentcloudPostgresqlDedicatedClustersFiltersList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters tencentcloud_postgresql_dedicated_clusters}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters tencentcloud_postgresql_dedicated_clusters}
 */
 export class DataTencentcloudPostgresqlDedicatedClusters extends cdktf.TerraformDataSource {
 
@@ -323,7 +323,7 @@ export class DataTencentcloudPostgresqlDedicatedClusters extends cdktf.Terraform
   * Generates CDKTF code for importing a DataTencentcloudPostgresqlDedicatedClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudPostgresqlDedicatedClusters to import
-  * @param importFromId The id of the existing DataTencentcloudPostgresqlDedicatedClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudPostgresqlDedicatedClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudPostgresqlDedicatedClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -335,7 +335,7 @@ export class DataTencentcloudPostgresqlDedicatedClusters extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/postgresql_dedicated_clusters tencentcloud_postgresql_dedicated_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/postgresql_dedicated_clusters tencentcloud_postgresql_dedicated_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -346,8 +346,8 @@ export class DataTencentcloudPostgresqlDedicatedClusters extends cdktf.Terraform
       terraformResourceType: 'tencentcloud_postgresql_dedicated_clusters',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

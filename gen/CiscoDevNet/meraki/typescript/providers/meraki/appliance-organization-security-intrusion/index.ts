@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceOrganizationSecurityIntrusionConfig extends cdktf.Terr
   /**
   * Sets a list of specific SNORT signatures to allow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion#allowed_rules ApplianceOrganizationSecurityIntrusion#allowed_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion#allowed_rules ApplianceOrganizationSecurityIntrusion#allowed_rules}
   */
   readonly allowedRules: ApplianceOrganizationSecurityIntrusionAllowedRules[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion#organization_id ApplianceOrganizationSecurityIntrusion#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion#organization_id ApplianceOrganizationSecurityIntrusion#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,13 +24,13 @@ export interface ApplianceOrganizationSecurityIntrusionAllowedRules {
   /**
   * Message is optional and is ignored on a PUT call. It is allowed in order for PUT to be compatible with GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion#message ApplianceOrganizationSecurityIntrusion#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion#message ApplianceOrganizationSecurityIntrusion#message}
   */
   readonly message?: string;
   /**
   * A rule identifier of the format meraki:intrusion/snort/GID//SID/. gid and sid can be obtained from either https://www.snort.org/rule-docs or as ruleIds from the security events in /organization/[orgId]/securityEvents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion#rule_id ApplianceOrganizationSecurityIntrusion#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion#rule_id ApplianceOrganizationSecurityIntrusion#rule_id}
   */
   readonly ruleId: string;
 }
@@ -172,7 +172,7 @@ export class ApplianceOrganizationSecurityIntrusionAllowedRulesList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion meraki_appliance_organization_security_intrusion}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion meraki_appliance_organization_security_intrusion}
 */
 export class ApplianceOrganizationSecurityIntrusion extends cdktf.TerraformResource {
 
@@ -188,7 +188,7 @@ export class ApplianceOrganizationSecurityIntrusion extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ApplianceOrganizationSecurityIntrusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceOrganizationSecurityIntrusion to import
-  * @param importFromId The id of the existing ApplianceOrganizationSecurityIntrusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceOrganizationSecurityIntrusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceOrganizationSecurityIntrusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -200,7 +200,7 @@ export class ApplianceOrganizationSecurityIntrusion extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_organization_security_intrusion meraki_appliance_organization_security_intrusion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_organization_security_intrusion meraki_appliance_organization_security_intrusion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -211,8 +211,8 @@ export class ApplianceOrganizationSecurityIntrusion extends cdktf.TerraformResou
       terraformResourceType: 'meraki_appliance_organization_security_intrusion',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

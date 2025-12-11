@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciWlmsWlsDomainServerInstalledPatchesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#id DataOciWlmsWlsDomainServerInstalledPatches#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#id DataOciWlmsWlsDomainServerInstalledPatches#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#server_id DataOciWlmsWlsDomainServerInstalledPatches#server_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#server_id DataOciWlmsWlsDomainServerInstalledPatches#server_id}
   */
   readonly serverId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#wls_domain_id DataOciWlmsWlsDomainServerInstalledPatches#wls_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#wls_domain_id DataOciWlmsWlsDomainServerInstalledPatches#wls_domain_id}
   */
   readonly wlsDomainId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#filter DataOciWlmsWlsDomainServerInstalledPatches#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#filter DataOciWlmsWlsDomainServerInstalledPatches#filter}
   */
   readonly filter?: DataOciWlmsWlsDomainServerInstalledPatchesFilter[] | cdktf.IResolvable;
 }
@@ -192,15 +192,15 @@ export class DataOciWlmsWlsDomainServerInstalledPatchesInstalledPatchCollectionL
 }
 export interface DataOciWlmsWlsDomainServerInstalledPatchesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#name DataOciWlmsWlsDomainServerInstalledPatches#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#name DataOciWlmsWlsDomainServerInstalledPatches#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#regex DataOciWlmsWlsDomainServerInstalledPatches#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#regex DataOciWlmsWlsDomainServerInstalledPatches#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#values DataOciWlmsWlsDomainServerInstalledPatches#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#values DataOciWlmsWlsDomainServerInstalledPatches#values}
   */
   readonly values: string[];
 }
@@ -368,7 +368,7 @@ export class DataOciWlmsWlsDomainServerInstalledPatchesFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches oci_wlms_wls_domain_server_installed_patches}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches oci_wlms_wls_domain_server_installed_patches}
 */
 export class DataOciWlmsWlsDomainServerInstalledPatches extends cdktf.TerraformDataSource {
 
@@ -384,7 +384,7 @@ export class DataOciWlmsWlsDomainServerInstalledPatches extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciWlmsWlsDomainServerInstalledPatches resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciWlmsWlsDomainServerInstalledPatches to import
-  * @param importFromId The id of the existing DataOciWlmsWlsDomainServerInstalledPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciWlmsWlsDomainServerInstalledPatches that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciWlmsWlsDomainServerInstalledPatches to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -396,7 +396,7 @@ export class DataOciWlmsWlsDomainServerInstalledPatches extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/wlms_wls_domain_server_installed_patches oci_wlms_wls_domain_server_installed_patches} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/wlms_wls_domain_server_installed_patches oci_wlms_wls_domain_server_installed_patches} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -407,8 +407,8 @@ export class DataOciWlmsWlsDomainServerInstalledPatches extends cdktf.TerraformD
       terraformResourceType: 'oci_wlms_wls_domain_server_installed_patches',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

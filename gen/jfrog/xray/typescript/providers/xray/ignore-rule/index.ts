@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface IgnoreRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of specific CVEs to ignore. Omit to apply to all. Should set to 'any' when 'vulnerabilities' is set to 'any'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#cves IgnoreRule#cves}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#cves IgnoreRule#cves}
   */
   readonly cves?: string[];
   /**
   * List of Docker layer SHA256 hashes to ignore. Omit to apply to all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#docker_layers IgnoreRule#docker_layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#docker_layers IgnoreRule#docker_layers}
   */
   readonly dockerLayers?: string[];
   /**
   * The Ignore Rule will be active until the expiration date. At that date it will automatically get deleted. The rule with the expiration date less than current day, will error out. Vaule assumes to be in local timezone. Ensure client and server time zones match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#expiration_date IgnoreRule#expiration_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#expiration_date IgnoreRule#expiration_date}
   */
   readonly expirationDate?: string;
   /**
   * List of specific licenses to ignore. Omit to apply to all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#licenses IgnoreRule#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#licenses IgnoreRule#licenses}
   */
   readonly licenses?: string[];
   /**
   * Notes of the ignore rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#notes IgnoreRule#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#notes IgnoreRule#notes}
   */
   readonly notes: string;
   /**
   * Operational risk to ignore. Only accept 'any'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#operational_risk IgnoreRule#operational_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#operational_risk IgnoreRule#operational_risk}
   */
   readonly operationalRisk?: string[];
   /**
   * List of specific policies to ignore. Omit to apply to all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#policies IgnoreRule#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#policies IgnoreRule#policies}
   */
   readonly policies?: string[];
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#project_key IgnoreRule#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#project_key IgnoreRule#project_key}
   */
   readonly projectKey?: string;
   /**
   * List of specific vulnerabilities to ignore. Omit to apply to all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#vulnerabilities IgnoreRule#vulnerabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#vulnerabilities IgnoreRule#vulnerabilities}
   */
   readonly vulnerabilities?: string[];
   /**
   * List of specific watches to ignore. Omit to apply to all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#watches IgnoreRule#watches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#watches IgnoreRule#watches}
   */
   readonly watches?: string[];
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#artifact IgnoreRule#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#artifact IgnoreRule#artifact}
   */
   readonly artifact?: IgnoreRuleArtifact[] | cdktf.IResolvable;
   /**
   * build block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#build IgnoreRule#build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#build IgnoreRule#build}
   */
   readonly buildAttribute?: IgnoreRuleBuild[] | cdktf.IResolvable;
   /**
   * component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#component IgnoreRule#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#component IgnoreRule#component}
   */
   readonly component?: IgnoreRuleComponent[] | cdktf.IResolvable;
   /**
   * exposures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#exposures IgnoreRule#exposures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#exposures IgnoreRule#exposures}
   */
   readonly exposures?: IgnoreRuleExposures;
   /**
   * release_bundle block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#release_bundle IgnoreRule#release_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#release_bundle IgnoreRule#release_bundle}
   */
   readonly releaseBundle?: IgnoreRuleReleaseBundle[] | cdktf.IResolvable;
   /**
   * release_bundles_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#release_bundles_v2 IgnoreRule#release_bundles_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#release_bundles_v2 IgnoreRule#release_bundles_v2}
   */
   readonly releaseBundlesV2?: IgnoreRuleReleaseBundlesV2[] | cdktf.IResolvable;
 }
@@ -108,19 +108,19 @@ export interface IgnoreRuleArtifact {
   /**
   * Name of the artifact. Wildcards are not supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#name IgnoreRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#name IgnoreRule#name}
   */
   readonly name: string;
   /**
   * Path of the artifact. Must end with a '/'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#path IgnoreRule#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#path IgnoreRule#path}
   */
   readonly path?: string;
   /**
   * Version of the artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#version IgnoreRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#version IgnoreRule#version}
   */
   readonly version?: string;
 }
@@ -293,13 +293,13 @@ export interface IgnoreRuleBuild {
   /**
   * Name of the build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#name IgnoreRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#name IgnoreRule#name}
   */
   readonly name: string;
   /**
   * Version of the build
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#version IgnoreRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#version IgnoreRule#version}
   */
   readonly version?: string;
 }
@@ -443,13 +443,13 @@ export interface IgnoreRuleComponent {
   /**
   * Name of the component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#name IgnoreRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#name IgnoreRule#name}
   */
   readonly name: string;
   /**
   * Version of the component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#version IgnoreRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#version IgnoreRule#version}
   */
   readonly version?: string;
 }
@@ -593,19 +593,19 @@ export interface IgnoreRuleExposures {
   /**
   * Ignores all violations of the specific exposures category. Include one or more exposure categories: 'secrets', 'services', 'applications', or 'iac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#categories IgnoreRule#categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#categories IgnoreRule#categories}
   */
   readonly categories?: string[];
   /**
   * Path of the artifact. Must start with a '/'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#file_path IgnoreRule#file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#file_path IgnoreRule#file_path}
   */
   readonly filePath?: string[];
   /**
   * Ignores all violations for the specific scanner. Scanner IDs must start with 'EXP-' followed by a number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#scanners IgnoreRule#scanners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#scanners IgnoreRule#scanners}
   */
   readonly scanners?: string[];
 }
@@ -759,13 +759,13 @@ export interface IgnoreRuleReleaseBundle {
   /**
   * Name of the release bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#name IgnoreRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#name IgnoreRule#name}
   */
   readonly name: string;
   /**
   * Version of the release bundle
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#version IgnoreRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#version IgnoreRule#version}
   */
   readonly version?: string;
 }
@@ -909,13 +909,13 @@ export interface IgnoreRuleReleaseBundlesV2 {
   /**
   * Name of the release bundle v2. Must start with 'releaseBundleV2://'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#name IgnoreRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#name IgnoreRule#name}
   */
   readonly name: string;
   /**
   * Version of the release bundle v2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#version IgnoreRule#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#version IgnoreRule#version}
   */
   readonly version?: string;
 }
@@ -1057,7 +1057,7 @@ export class IgnoreRuleReleaseBundlesV2List extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule xray_ignore_rule}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule xray_ignore_rule}
 */
 export class IgnoreRule extends cdktf.TerraformResource {
 
@@ -1073,7 +1073,7 @@ export class IgnoreRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IgnoreRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IgnoreRule to import
-  * @param importFromId The id of the existing IgnoreRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IgnoreRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IgnoreRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1085,7 +1085,7 @@ export class IgnoreRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/ignore_rule xray_ignore_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/ignore_rule xray_ignore_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1096,8 +1096,8 @@ export class IgnoreRule extends cdktf.TerraformResource {
       terraformResourceType: 'xray_ignore_rule',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

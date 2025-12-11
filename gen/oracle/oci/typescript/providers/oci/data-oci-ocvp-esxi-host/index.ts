@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_esxi_host
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_esxi_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOcvpEsxiHostConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_esxi_host#esxi_host_id DataOciOcvpEsxiHost#esxi_host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_esxi_host#esxi_host_id DataOciOcvpEsxiHost#esxi_host_id}
   */
   readonly esxiHostId: string;
 }
@@ -109,7 +109,7 @@ export class DataOciOcvpEsxiHostDatastoreAttachmentsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_esxi_host oci_ocvp_esxi_host}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_esxi_host oci_ocvp_esxi_host}
 */
 export class DataOciOcvpEsxiHost extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataOciOcvpEsxiHost extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciOcvpEsxiHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOcvpEsxiHost to import
-  * @param importFromId The id of the existing DataOciOcvpEsxiHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_esxi_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOcvpEsxiHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_esxi_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOcvpEsxiHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataOciOcvpEsxiHost extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_esxi_host oci_ocvp_esxi_host} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_esxi_host oci_ocvp_esxi_host} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DataOciOcvpEsxiHost extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_ocvp_esxi_host',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -335,6 +335,12 @@ export class DataOciOcvpEsxiHost extends cdktf.TerraformDataSource {
   // swap_billing_host_id - computed: true, optional: false, required: false
   public get swapBillingHostId() {
     return this.getStringAttribute('swap_billing_host_id');
+  }
+
+  // system_tags - computed: true, optional: false, required: false
+  private _systemTags = new cdktf.StringMap(this, "system_tags");
+  public get systemTags() {
+    return this._systemTags;
   }
 
   // time_created - computed: true, optional: false, required: false

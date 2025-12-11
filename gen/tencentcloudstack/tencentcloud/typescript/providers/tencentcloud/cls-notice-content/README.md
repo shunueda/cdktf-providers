@@ -1,3 +1,3 @@
 # `tencentcloud_cls_notice_content`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cls_notice_content`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_notice_content).
+Refer to the Terraform Registry for docs: [`tencentcloud_cls_notice_content`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_notice_content).

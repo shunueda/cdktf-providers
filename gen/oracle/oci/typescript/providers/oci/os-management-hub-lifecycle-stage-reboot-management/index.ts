@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubLifecycleStageRebootManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#id OsManagementHubLifecycleStageRebootManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#id OsManagementHubLifecycleStageRebootManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#lifecycle_stage_id OsManagementHubLifecycleStageRebootManagement#lifecycle_stage_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#lifecycle_stage_id OsManagementHubLifecycleStageRebootManagement#lifecycle_stage_id}
   */
   readonly lifecycleStageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#reboot_timeout_in_mins OsManagementHubLifecycleStageRebootManagement#reboot_timeout_in_mins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#reboot_timeout_in_mins OsManagementHubLifecycleStageRebootManagement#reboot_timeout_in_mins}
   */
   readonly rebootTimeoutInMins?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#timeouts OsManagementHubLifecycleStageRebootManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#timeouts OsManagementHubLifecycleStageRebootManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubLifecycleStageRebootManagementTimeouts;
   /**
   * work_request_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#work_request_details OsManagementHubLifecycleStageRebootManagement#work_request_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#work_request_details OsManagementHubLifecycleStageRebootManagement#work_request_details}
   */
   readonly workRequestDetails?: OsManagementHubLifecycleStageRebootManagementWorkRequestDetails;
 }
 export interface OsManagementHubLifecycleStageRebootManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#create OsManagementHubLifecycleStageRebootManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#create OsManagementHubLifecycleStageRebootManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#delete OsManagementHubLifecycleStageRebootManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#delete OsManagementHubLifecycleStageRebootManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#update OsManagementHubLifecycleStageRebootManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#update OsManagementHubLifecycleStageRebootManagement#update}
   */
   readonly update?: string;
 }
@@ -197,11 +197,11 @@ export class OsManagementHubLifecycleStageRebootManagementTimeoutsOutputReferenc
 }
 export interface OsManagementHubLifecycleStageRebootManagementWorkRequestDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#description OsManagementHubLifecycleStageRebootManagement#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#description OsManagementHubLifecycleStageRebootManagement#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#display_name OsManagementHubLifecycleStageRebootManagement#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#display_name OsManagementHubLifecycleStageRebootManagement#display_name}
   */
   readonly displayName?: string;
 }
@@ -314,7 +314,7 @@ export class OsManagementHubLifecycleStageRebootManagementWorkRequestDetailsOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management oci_os_management_hub_lifecycle_stage_reboot_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management oci_os_management_hub_lifecycle_stage_reboot_management}
 */
 export class OsManagementHubLifecycleStageRebootManagement extends cdktf.TerraformResource {
 
@@ -330,7 +330,7 @@ export class OsManagementHubLifecycleStageRebootManagement extends cdktf.Terrafo
   * Generates CDKTF code for importing a OsManagementHubLifecycleStageRebootManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubLifecycleStageRebootManagement to import
-  * @param importFromId The id of the existing OsManagementHubLifecycleStageRebootManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubLifecycleStageRebootManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubLifecycleStageRebootManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -342,7 +342,7 @@ export class OsManagementHubLifecycleStageRebootManagement extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management oci_os_management_hub_lifecycle_stage_reboot_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_lifecycle_stage_reboot_management oci_os_management_hub_lifecycle_stage_reboot_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -353,8 +353,8 @@ export class OsManagementHubLifecycleStageRebootManagement extends cdktf.Terrafo
       terraformResourceType: 'oci_os_management_hub_lifecycle_stage_reboot_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

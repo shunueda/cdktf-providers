@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#metadata Project#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#metadata Project#metadata}
   */
   readonly metadata?: ProjectMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#spec Project#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#spec Project#spec}
   */
   readonly spec?: ProjectSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#timeouts Project#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#timeouts Project#timeouts}
   */
   readonly timeouts?: ProjectTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ProjectMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ProjectMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#is_sso_user Project#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#is_sso_user Project#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#username Project#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#username Project#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ProjectMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#id Project#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#id Project#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ProjectMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#is_sso_user Project#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#is_sso_user Project#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#username Project#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#username Project#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ProjectMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#annotations Project#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#annotations Project#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#display_name Project#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#display_name Project#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#labels Project#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#labels Project#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#project Project#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#project Project#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#created_by Project#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#created_by Project#created_by}
   */
   readonly createdBy?: ProjectMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#modified_by Project#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#modified_by Project#modified_by}
   */
   readonly modifiedBy?: ProjectMetadataModifiedBy;
 }
@@ -686,103 +686,103 @@ export interface ProjectSpecClusterResourceQuota {
   /**
   * The maximum number of ConfigMaps that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#config_maps Project#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#config_maps Project#config_maps}
   */
   readonly configMaps?: string;
   /**
   * The maximum amount of CPU (in millicores) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#cpu_limits Project#cpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#cpu_limits Project#cpu_limits}
   */
   readonly cpuLimits?: string;
   /**
   * The minimum amount of CPU (in millicores) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#cpu_requests Project#cpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#cpu_requests Project#cpu_requests}
   */
   readonly cpuRequests?: string;
   /**
   * The maximum amount of ephemeral storage (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#ephemeral_storage_limits Project#ephemeral_storage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#ephemeral_storage_limits Project#ephemeral_storage_limits}
   */
   readonly ephemeralStorageLimits?: string;
   /**
   * The minimum amount of ephemeral storage (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#ephemeral_storage_requests Project#ephemeral_storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#ephemeral_storage_requests Project#ephemeral_storage_requests}
   */
   readonly ephemeralStorageRequests?: string;
   /**
   * The maximum number of GPUs allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#gpu_limits Project#gpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#gpu_limits Project#gpu_limits}
   */
   readonly gpuLimits?: string;
   /**
   * The minimum number of GPUs guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#gpu_requests Project#gpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#gpu_requests Project#gpu_requests}
   */
   readonly gpuRequests?: string;
   /**
   * The maximum amount of memory (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#memory_limits Project#memory_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#memory_limits Project#memory_limits}
   */
   readonly memoryLimits?: string;
   /**
   * The minimum amount of memory (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#memory_requests Project#memory_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#memory_requests Project#memory_requests}
   */
   readonly memoryRequests?: string;
   /**
   * The maximum number of persistent volume claims that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#persistent_volume_claims Project#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#persistent_volume_claims Project#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: string;
   /**
   * The maximum number of pods that can exist in the project/namespace in a non-terminal state(i.e., pods with a state of .status.phase in (Failed, Succeeded) equal to true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#pods Project#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#pods Project#pods}
   */
   readonly pods?: string;
   /**
   * The maximum number of replication controllers that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#replication_controllers Project#replication_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#replication_controllers Project#replication_controllers}
   */
   readonly replicationControllers?: string;
   /**
   * The maximum number of secrets that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#secrets Project#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#secrets Project#secrets}
   */
   readonly secrets?: string;
   /**
   * The maximum number of services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#services Project#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#services Project#services}
   */
   readonly services?: string;
   /**
   * The maximum number of load balancers services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#services_load_balancers Project#services_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#services_load_balancers Project#services_load_balancers}
   */
   readonly servicesLoadBalancers?: string;
   /**
   * The maximum number of node port services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#services_node_ports Project#services_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#services_node_ports Project#services_node_ports}
   */
   readonly servicesNodePorts?: string;
   /**
   * The minimum amount of storage (in gigabytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#storage_requests Project#storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#storage_requests Project#storage_requests}
   */
   readonly storageRequests?: string;
 }
@@ -1332,103 +1332,103 @@ export interface ProjectSpecDefaultClusterNamespaceQuota {
   /**
   * The maximum number of ConfigMaps that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#config_maps Project#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#config_maps Project#config_maps}
   */
   readonly configMaps?: string;
   /**
   * The maximum amount of CPU (in millicores) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#cpu_limits Project#cpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#cpu_limits Project#cpu_limits}
   */
   readonly cpuLimits?: string;
   /**
   * The minimum amount of CPU (in millicores) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#cpu_requests Project#cpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#cpu_requests Project#cpu_requests}
   */
   readonly cpuRequests?: string;
   /**
   * The maximum amount of ephemeral storage (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#ephemeral_storage_limits Project#ephemeral_storage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#ephemeral_storage_limits Project#ephemeral_storage_limits}
   */
   readonly ephemeralStorageLimits?: string;
   /**
   * The minimum amount of ephemeral storage (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#ephemeral_storage_requests Project#ephemeral_storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#ephemeral_storage_requests Project#ephemeral_storage_requests}
   */
   readonly ephemeralStorageRequests?: string;
   /**
   * The maximum number of GPUs allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#gpu_limits Project#gpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#gpu_limits Project#gpu_limits}
   */
   readonly gpuLimits?: string;
   /**
   * The minimum number of GPUs guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#gpu_requests Project#gpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#gpu_requests Project#gpu_requests}
   */
   readonly gpuRequests?: string;
   /**
   * The maximum amount of memory (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#memory_limits Project#memory_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#memory_limits Project#memory_limits}
   */
   readonly memoryLimits?: string;
   /**
   * The minimum amount of memory (in bytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#memory_requests Project#memory_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#memory_requests Project#memory_requests}
   */
   readonly memoryRequests?: string;
   /**
   * The maximum number of persistent volume claims that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#persistent_volume_claims Project#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#persistent_volume_claims Project#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: string;
   /**
   * The maximum number of pods that can exist in the project/namespace in a non-terminal state(i.e., pods with a state of .status.phase in (Failed, Succeeded) equal to true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#pods Project#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#pods Project#pods}
   */
   readonly pods?: string;
   /**
   * The maximum number of replication controllers that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#replication_controllers Project#replication_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#replication_controllers Project#replication_controllers}
   */
   readonly replicationControllers?: string;
   /**
   * The maximum number of secrets that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#secrets Project#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#secrets Project#secrets}
   */
   readonly secrets?: string;
   /**
   * The maximum number of services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#services Project#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#services Project#services}
   */
   readonly services?: string;
   /**
   * The maximum number of load balancers services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#services_load_balancers Project#services_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#services_load_balancers Project#services_load_balancers}
   */
   readonly servicesLoadBalancers?: string;
   /**
   * The maximum number of node port services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#services_node_ports Project#services_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#services_node_ports Project#services_node_ports}
   */
   readonly servicesNodePorts?: string;
   /**
   * The minimum amount of storage (in gigabytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#storage_requests Project#storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#storage_requests Project#storage_requests}
   */
   readonly storageRequests?: string;
 }
@@ -1976,7 +1976,7 @@ export class ProjectSpecDefaultClusterNamespaceQuotaOutputReference extends cdkt
 }
 export interface ProjectSpecDriftWebhook {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#enabled Project#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#enabled Project#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -2062,37 +2062,37 @@ export interface ProjectSpec {
   /**
   * flag to indicate if this is the default project in the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#default Project#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#default Project#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * profile quota
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#profile_quota Project#profile_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#profile_quota Project#profile_quota}
   */
   readonly profileQuota?: { [key: string]: string };
   /**
   * namespaces excluded from sync
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#sync_excluded_namespaces Project#sync_excluded_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#sync_excluded_namespaces Project#sync_excluded_namespaces}
   */
   readonly syncExcludedNamespaces?: string[];
   /**
   * cluster_resource_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#cluster_resource_quota Project#cluster_resource_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#cluster_resource_quota Project#cluster_resource_quota}
   */
   readonly clusterResourceQuota?: ProjectSpecClusterResourceQuota;
   /**
   * default_cluster_namespace_quota block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#default_cluster_namespace_quota Project#default_cluster_namespace_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#default_cluster_namespace_quota Project#default_cluster_namespace_quota}
   */
   readonly defaultClusterNamespaceQuota?: ProjectSpecDefaultClusterNamespaceQuota;
   /**
   * drift_webhook block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#drift_webhook Project#drift_webhook}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#drift_webhook Project#drift_webhook}
   */
   readonly driftWebhook?: ProjectSpecDriftWebhook;
 }
@@ -2321,15 +2321,15 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface ProjectTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#create Project#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#create Project#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#delete Project#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#delete Project#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#update Project#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#update Project#update}
   */
   readonly update?: string;
 }
@@ -2481,7 +2481,7 @@ export class ProjectTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project rafay_project}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project rafay_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -2497,7 +2497,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2509,7 +2509,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project rafay_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project rafay_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2520,8 +2520,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_project',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

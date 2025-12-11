@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMulticloudExternalLocationsMetadataConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#compartment_id DataOciMulticloudExternalLocationsMetadata#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#cluster_placement_group_id DataOciMulticloudExternalLocationsMetadata#cluster_placement_group_id}
   */
-  readonly compartmentId: string;
+  readonly clusterPlacementGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#entity_type DataOciMulticloudExternalLocationsMetadata#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#compartment_id DataOciMulticloudExternalLocationsMetadata#compartment_id}
+  */
+  readonly compartmentId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#entity_type DataOciMulticloudExternalLocationsMetadata#entity_type}
   */
   readonly entityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#id DataOciMulticloudExternalLocationsMetadata#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#external_location DataOciMulticloudExternalLocationsMetadata#external_location}
+  */
+  readonly externalLocation?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#id DataOciMulticloudExternalLocationsMetadata#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#limit DataOciMulticloudExternalLocationsMetadata#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#limit DataOciMulticloudExternalLocationsMetadata#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#linked_compartment_id DataOciMulticloudExternalLocationsMetadata#linked_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#linked_compartment_id DataOciMulticloudExternalLocationsMetadata#linked_compartment_id}
   */
   readonly linkedCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#subscription_id DataOciMulticloudExternalLocationsMetadata#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#logical_zone DataOciMulticloudExternalLocationsMetadata#logical_zone}
+  */
+  readonly logicalZone?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#subscription_id DataOciMulticloudExternalLocationsMetadata#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#subscription_service_name DataOciMulticloudExternalLocationsMetadata#subscription_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#subscription_service_name DataOciMulticloudExternalLocationsMetadata#subscription_service_name}
   */
   readonly subscriptionServiceName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#filter DataOciMulticloudExternalLocationsMetadata#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#filter DataOciMulticloudExternalLocationsMetadata#filter}
   */
   readonly filter?: DataOciMulticloudExternalLocationsMetadataFilter[] | cdktf.IResolvable;
 }
@@ -181,6 +193,11 @@ export class DataOciMulticloudExternalLocationsMetadataExternalLocationsMetadatu
     return this.getStringAttribute('csp_logical_az');
   }
 
+  // csp_logical_az_display_name - computed: true, optional: false, required: false
+  public get cspLogicalAzDisplayName() {
+    return this.getStringAttribute('csp_logical_az_display_name');
+  }
+
   // csp_physical_az - computed: true, optional: false, required: false
   public get cspPhysicalAz() {
     return this.getStringAttribute('csp_physical_az');
@@ -282,6 +299,11 @@ export class DataOciMulticloudExternalLocationsMetadataExternalLocationsMetadatu
     }
   }
 
+  // cluster_placement_group_id - computed: true, optional: false, required: false
+  public get clusterPlacementGroupId() {
+    return this.getStringAttribute('cluster_placement_group_id');
+  }
+
   // cpg_id - computed: true, optional: false, required: false
   public get cpgId() {
     return this.getStringAttribute('cpg_id');
@@ -318,6 +340,21 @@ export class DataOciMulticloudExternalLocationsMetadataExternalLocationsMetadatu
   // oci_region - computed: true, optional: false, required: false
   public get ociRegion() {
     return this.getStringAttribute('oci_region');
+  }
+
+  // partner_cloud_account_name - computed: true, optional: false, required: false
+  public get partnerCloudAccountName() {
+    return this.getStringAttribute('partner_cloud_account_name');
+  }
+
+  // partner_cloud_account_url - computed: true, optional: false, required: false
+  public get partnerCloudAccountUrl() {
+    return this.getStringAttribute('partner_cloud_account_url');
+  }
+
+  // partner_cloud_name - computed: true, optional: false, required: false
+  public get partnerCloudName() {
+    return this.getStringAttribute('partner_cloud_name');
   }
 
   // system_tags - computed: true, optional: false, required: false
@@ -423,15 +460,15 @@ export class DataOciMulticloudExternalLocationsMetadataExternalLocationsMetadatu
 }
 export interface DataOciMulticloudExternalLocationsMetadataFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#name DataOciMulticloudExternalLocationsMetadata#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#name DataOciMulticloudExternalLocationsMetadata#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#regex DataOciMulticloudExternalLocationsMetadata#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#regex DataOciMulticloudExternalLocationsMetadata#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#values DataOciMulticloudExternalLocationsMetadata#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#values DataOciMulticloudExternalLocationsMetadata#values}
   */
   readonly values: string[];
 }
@@ -599,7 +636,7 @@ export class DataOciMulticloudExternalLocationsMetadataFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata oci_multicloud_external_locations_metadata}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata oci_multicloud_external_locations_metadata}
 */
 export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformDataSource {
 
@@ -615,7 +652,7 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciMulticloudExternalLocationsMetadata resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMulticloudExternalLocationsMetadata to import
-  * @param importFromId The id of the existing DataOciMulticloudExternalLocationsMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMulticloudExternalLocationsMetadata that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMulticloudExternalLocationsMetadata to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -627,7 +664,7 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_external_locations_metadata oci_multicloud_external_locations_metadata} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_external_locations_metadata oci_multicloud_external_locations_metadata} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -638,8 +675,8 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
       terraformResourceType: 'oci_multicloud_external_locations_metadata',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -649,11 +686,14 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
       connection: config.connection,
       forEach: config.forEach
     });
+    this._clusterPlacementGroupId = config.clusterPlacementGroupId;
     this._compartmentId = config.compartmentId;
     this._entityType = config.entityType;
+    this._externalLocation = config.externalLocation;
     this._id = config.id;
     this._limit = config.limit;
     this._linkedCompartmentId = config.linkedCompartmentId;
+    this._logicalZone = config.logicalZone;
     this._subscriptionId = config.subscriptionId;
     this._subscriptionServiceName = config.subscriptionServiceName;
     this._filter.internalValue = config.filter;
@@ -663,13 +703,32 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
   // ATTRIBUTES
   // ==========
 
-  // compartment_id - computed: false, optional: false, required: true
+  // cluster_placement_group_id - computed: false, optional: true, required: false
+  private _clusterPlacementGroupId?: string; 
+  public get clusterPlacementGroupId() {
+    return this.getStringAttribute('cluster_placement_group_id');
+  }
+  public set clusterPlacementGroupId(value: string) {
+    this._clusterPlacementGroupId = value;
+  }
+  public resetClusterPlacementGroupId() {
+    this._clusterPlacementGroupId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get clusterPlacementGroupIdInput() {
+    return this._clusterPlacementGroupId;
+  }
+
+  // compartment_id - computed: false, optional: true, required: false
   private _compartmentId?: string; 
   public get compartmentId() {
     return this.getStringAttribute('compartment_id');
   }
   public set compartmentId(value: string) {
     this._compartmentId = value;
+  }
+  public resetCompartmentId() {
+    this._compartmentId = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get compartmentIdInput() {
@@ -690,6 +749,22 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
   // Temporarily expose input value. Use with caution.
   public get entityTypeInput() {
     return this._entityType;
+  }
+
+  // external_location - computed: false, optional: true, required: false
+  private _externalLocation?: string; 
+  public get externalLocation() {
+    return this.getStringAttribute('external_location');
+  }
+  public set externalLocation(value: string) {
+    this._externalLocation = value;
+  }
+  public resetExternalLocation() {
+    this._externalLocation = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get externalLocationInput() {
+    return this._externalLocation;
   }
 
   // external_locations_metadatum_collection - computed: true, optional: false, required: false
@@ -746,6 +821,22 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
     return this._linkedCompartmentId;
   }
 
+  // logical_zone - computed: false, optional: true, required: false
+  private _logicalZone?: string; 
+  public get logicalZone() {
+    return this.getStringAttribute('logical_zone');
+  }
+  public set logicalZone(value: string) {
+    this._logicalZone = value;
+  }
+  public resetLogicalZone() {
+    this._logicalZone = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get logicalZoneInput() {
+    return this._logicalZone;
+  }
+
   // subscription_id - computed: false, optional: false, required: true
   private _subscriptionId?: string; 
   public get subscriptionId() {
@@ -794,11 +885,14 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      cluster_placement_group_id: cdktf.stringToTerraform(this._clusterPlacementGroupId),
       compartment_id: cdktf.stringToTerraform(this._compartmentId),
       entity_type: cdktf.stringToTerraform(this._entityType),
+      external_location: cdktf.stringToTerraform(this._externalLocation),
       id: cdktf.stringToTerraform(this._id),
       limit: cdktf.numberToTerraform(this._limit),
       linked_compartment_id: cdktf.stringToTerraform(this._linkedCompartmentId),
+      logical_zone: cdktf.stringToTerraform(this._logicalZone),
       subscription_id: cdktf.stringToTerraform(this._subscriptionId),
       subscription_service_name: cdktf.stringToTerraform(this._subscriptionServiceName),
       filter: cdktf.listMapper(dataOciMulticloudExternalLocationsMetadataFilterToTerraform, true)(this._filter.internalValue),
@@ -807,6 +901,12 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      cluster_placement_group_id: {
+        value: cdktf.stringToHclTerraform(this._clusterPlacementGroupId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       compartment_id: {
         value: cdktf.stringToHclTerraform(this._compartmentId),
         isBlock: false,
@@ -815,6 +915,12 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
       },
       entity_type: {
         value: cdktf.stringToHclTerraform(this._entityType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      external_location: {
+        value: cdktf.stringToHclTerraform(this._externalLocation),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -833,6 +939,12 @@ export class DataOciMulticloudExternalLocationsMetadata extends cdktf.TerraformD
       },
       linked_compartment_id: {
         value: cdktf.stringToHclTerraform(this._linkedCompartmentId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      logical_zone: {
+        value: cdktf.stringToHclTerraform(this._logicalZone),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

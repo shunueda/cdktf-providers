@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WafDomainPostActionConfigConfig extends cdktf.TerraformMetaArgu
   /**
   * Domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config#domain WafDomainPostActionConfig#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config#domain WafDomainPostActionConfig#domain}
   */
   readonly domain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config#id WafDomainPostActionConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config#id WafDomainPostActionConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface WafDomainPostActionConfigConfig extends cdktf.TerraformMetaArgu
   /**
   * 0- Disable shipping, 1- Enable shipping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config#post_ckafka_action WafDomainPostActionConfig#post_ckafka_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config#post_ckafka_action WafDomainPostActionConfig#post_ckafka_action}
   */
   readonly postCkafkaAction: number;
   /**
   * 0- Disable shipping, 1- Enable shipping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config#post_cls_action WafDomainPostActionConfig#post_cls_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config#post_cls_action WafDomainPostActionConfig#post_cls_action}
   */
   readonly postClsAction: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config tencentcloud_waf_domain_post_action_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config tencentcloud_waf_domain_post_action_config}
 */
 export class WafDomainPostActionConfig extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class WafDomainPostActionConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafDomainPostActionConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafDomainPostActionConfig to import
-  * @param importFromId The id of the existing WafDomainPostActionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafDomainPostActionConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafDomainPostActionConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class WafDomainPostActionConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/waf_domain_post_action_config tencentcloud_waf_domain_post_action_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/waf_domain_post_action_config tencentcloud_waf_domain_post_action_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class WafDomainPostActionConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_waf_domain_post_action_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

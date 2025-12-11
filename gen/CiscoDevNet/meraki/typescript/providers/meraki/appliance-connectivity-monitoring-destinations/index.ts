@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceConnectivityMonitoringDestinationsConfig extends cdktf
   /**
   * The list of connectivity monitoring destinations. Is set to Google DNS (8.8.8.8) when the resource is not created and gets reset to it on resource deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations#destinations ApplianceConnectivityMonitoringDestinations#destinations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations#destinations ApplianceConnectivityMonitoringDestinations#destinations}
   */
   readonly destinations: ApplianceConnectivityMonitoringDestinationsDestinations[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations#network_id ApplianceConnectivityMonitoringDestinations#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations#network_id ApplianceConnectivityMonitoringDestinations#network_id}
   */
   readonly networkId: string;
 }
@@ -24,19 +24,19 @@ export interface ApplianceConnectivityMonitoringDestinationsDestinations {
   /**
   * Boolean indicating whether this is the default testing destination (true) or not (false). Defaults to false. Only one default is allowed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations#default ApplianceConnectivityMonitoringDestinations#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations#default ApplianceConnectivityMonitoringDestinations#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Description of the testing destination. Optional, defaults to null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations#description ApplianceConnectivityMonitoringDestinations#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations#description ApplianceConnectivityMonitoringDestinations#description}
   */
   readonly description?: string;
   /**
   * The IP address to test connectivity with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations#ip ApplianceConnectivityMonitoringDestinations#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations#ip ApplianceConnectivityMonitoringDestinations#ip}
   */
   readonly ip: string;
 }
@@ -207,7 +207,7 @@ export class ApplianceConnectivityMonitoringDestinationsDestinationsList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations meraki_appliance_connectivity_monitoring_destinations}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations meraki_appliance_connectivity_monitoring_destinations}
 */
 export class ApplianceConnectivityMonitoringDestinations extends cdktf.TerraformResource {
 
@@ -223,7 +223,7 @@ export class ApplianceConnectivityMonitoringDestinations extends cdktf.Terraform
   * Generates CDKTF code for importing a ApplianceConnectivityMonitoringDestinations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceConnectivityMonitoringDestinations to import
-  * @param importFromId The id of the existing ApplianceConnectivityMonitoringDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceConnectivityMonitoringDestinations that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceConnectivityMonitoringDestinations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -235,7 +235,7 @@ export class ApplianceConnectivityMonitoringDestinations extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_connectivity_monitoring_destinations meraki_appliance_connectivity_monitoring_destinations} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_connectivity_monitoring_destinations meraki_appliance_connectivity_monitoring_destinations} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -246,8 +246,8 @@ export class ApplianceConnectivityMonitoringDestinations extends cdktf.Terraform
       terraformResourceType: 'meraki_appliance_connectivity_monitoring_destinations',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

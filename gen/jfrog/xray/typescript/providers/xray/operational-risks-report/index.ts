@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,43 +20,43 @@ export interface OperationalRisksReportConfig extends cdktf.TerraformMetaArgumen
   *   - '30 12 ? * MON-FRI' = At 12:30 PM every weekday
   * Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#cron_schedule OperationalRisksReport#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#cron_schedule OperationalRisksReport#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Timezone for cron schedule. For valid timezone formats, see: [iana-timezones](https://timeapi.io/documentation/iana-timezones). Note: Requires Xray 3.130.0 or higher. Only used when cron_schedule is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#cron_schedule_timezone OperationalRisksReport#cron_schedule_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#cron_schedule_timezone OperationalRisksReport#cron_schedule_timezone}
   */
   readonly cronScheduleTimezone?: string;
   /**
   * List of email addresses to notify when report generation is complete. Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#emails OperationalRisksReport#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#emails OperationalRisksReport#emails}
   */
   readonly emails?: string[];
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#name OperationalRisksReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#name OperationalRisksReport#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#project_key OperationalRisksReport#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#project_key OperationalRisksReport#project_key}
   */
   readonly projectKey?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#filters OperationalRisksReport#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#filters OperationalRisksReport#filters}
   */
   readonly filters?: OperationalRisksReportFilters[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#resources OperationalRisksReport#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#resources OperationalRisksReport#resources}
   */
   readonly resources?: OperationalRisksReportResources[] | cdktf.IResolvable;
 }
@@ -64,13 +64,13 @@ export interface OperationalRisksReportFiltersScanDate {
   /**
   * Scan end date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#end OperationalRisksReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#end OperationalRisksReport#end}
   */
   readonly end?: string;
   /**
   * Scan start date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#start OperationalRisksReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#start OperationalRisksReport#start}
   */
   readonly start?: string;
 }
@@ -217,25 +217,25 @@ export interface OperationalRisksReportFilters {
   /**
   * Artifact name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#artifact OperationalRisksReport#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#artifact OperationalRisksReport#artifact}
   */
   readonly artifact?: string;
   /**
   * Artifact's component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#component OperationalRisksReport#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#component OperationalRisksReport#component}
   */
   readonly component?: string;
   /**
   * Operational risk level. Allowed values: 'None', 'Low', 'Medium', 'High'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#risks OperationalRisksReport#risks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#risks OperationalRisksReport#risks}
   */
   readonly risks?: string[];
   /**
   * scan_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#scan_date OperationalRisksReport#scan_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#scan_date OperationalRisksReport#scan_date}
   */
   readonly scanDate?: OperationalRisksReportFiltersScanDate[] | cdktf.IResolvable;
 }
@@ -440,25 +440,25 @@ export interface OperationalRisksReportResourcesBuilds {
   /**
   * The list of exclude patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#exclude_patterns OperationalRisksReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#exclude_patterns OperationalRisksReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#include_patterns OperationalRisksReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#include_patterns OperationalRisksReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of build names. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#names OperationalRisksReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#names OperationalRisksReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest build versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -663,31 +663,31 @@ export interface OperationalRisksReportResourcesProjects {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#exclude_key_patterns OperationalRisksReport#exclude_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#exclude_key_patterns OperationalRisksReport#exclude_key_patterns}
   */
   readonly excludeKeyPatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#include_key_patterns OperationalRisksReport#include_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#include_key_patterns OperationalRisksReport#include_key_patterns}
   */
   readonly includeKeyPatterns?: string[];
   /**
   * The list of project keys. Note: Available from Xray version 3.130.0 and higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#keys OperationalRisksReport#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#keys OperationalRisksReport#keys}
   */
   readonly keys?: string[];
   /**
   * The list of project names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#names OperationalRisksReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#names OperationalRisksReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -921,25 +921,25 @@ export interface OperationalRisksReportResourcesReleaseBundles {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#exclude_patterns OperationalRisksReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#exclude_patterns OperationalRisksReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#include_patterns OperationalRisksReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#include_patterns OperationalRisksReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#names OperationalRisksReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#names OperationalRisksReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1144,25 +1144,25 @@ export interface OperationalRisksReportResourcesReleaseBundlesV2 {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#exclude_patterns OperationalRisksReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#exclude_patterns OperationalRisksReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#include_patterns OperationalRisksReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#include_patterns OperationalRisksReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#names OperationalRisksReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#names OperationalRisksReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#number_of_latest_versions OperationalRisksReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1367,19 +1367,19 @@ export interface OperationalRisksReportResourcesRepository {
   /**
   * Exclude path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#exclude_path_patterns OperationalRisksReport#exclude_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#exclude_path_patterns OperationalRisksReport#exclude_path_patterns}
   */
   readonly excludePathPatterns?: string[];
   /**
   * Include path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#include_path_patterns OperationalRisksReport#include_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#include_path_patterns OperationalRisksReport#include_path_patterns}
   */
   readonly includePathPatterns?: string[];
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#name OperationalRisksReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#name OperationalRisksReport#name}
   */
   readonly name: string;
 }
@@ -1552,31 +1552,31 @@ export interface OperationalRisksReportResources {
   /**
   * builds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#builds OperationalRisksReport#builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#builds OperationalRisksReport#builds}
   */
   readonly builds?: OperationalRisksReportResourcesBuilds[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#projects OperationalRisksReport#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#projects OperationalRisksReport#projects}
   */
   readonly projects?: OperationalRisksReportResourcesProjects[] | cdktf.IResolvable;
   /**
   * release_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#release_bundles OperationalRisksReport#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#release_bundles OperationalRisksReport#release_bundles}
   */
   readonly releaseBundles?: OperationalRisksReportResourcesReleaseBundles[] | cdktf.IResolvable;
   /**
   * release_bundles_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#release_bundles_v2 OperationalRisksReport#release_bundles_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#release_bundles_v2 OperationalRisksReport#release_bundles_v2}
   */
   readonly releaseBundlesV2?: OperationalRisksReportResourcesReleaseBundlesV2[] | cdktf.IResolvable;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#repository OperationalRisksReport#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#repository OperationalRisksReport#repository}
   */
   readonly repository?: OperationalRisksReportResourcesRepository[] | cdktf.IResolvable;
 }
@@ -1808,7 +1808,7 @@ export class OperationalRisksReportResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report xray_operational_risks_report}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report xray_operational_risks_report}
 */
 export class OperationalRisksReport extends cdktf.TerraformResource {
 
@@ -1824,7 +1824,7 @@ export class OperationalRisksReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OperationalRisksReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OperationalRisksReport to import
-  * @param importFromId The id of the existing OperationalRisksReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OperationalRisksReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OperationalRisksReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1836,7 +1836,7 @@ export class OperationalRisksReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risks_report xray_operational_risks_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/operational_risks_report xray_operational_risks_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1847,8 +1847,8 @@ export class OperationalRisksReport extends cdktf.TerraformResource {
       terraformResourceType: 'xray_operational_risks_report',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

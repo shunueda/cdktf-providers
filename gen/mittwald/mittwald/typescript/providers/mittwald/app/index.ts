@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface AppConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#app App#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#app App#app}
   */
   readonly app: string;
   /**
@@ -20,7 +20,7 @@ export interface AppConfig extends cdktf.TerraformMetaArguments {
   * 
   *     This is only necessary if the specific app is not implicitly linked to a database by the backend. This is the case for apps like WordPress or TYPO3, which are always linked to a database. In these cases, you can (or should, even) omit the `databases` attribute. You can still retrieve the linked databases from the observed state, but you should not manage them manually.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#databases App#databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#databases App#databases}
   */
   readonly databases?: AppDatabases[] | cdktf.IResolvable;
   /**
@@ -30,43 +30,43 @@ export interface AppConfig extends cdktf.TerraformMetaArguments {
   * 
   *     If you specify dependencies, you must specify the exact version of the dependency. To select a version using a semantic versioning constraint, use the `mittwald_systemsoftware` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#dependencies App#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#dependencies App#dependencies}
   */
   readonly dependencies?: { [key: string]: AppDependencies } | cdktf.IResolvable;
   /**
   * The description of the app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#description App#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#description App#description}
   */
   readonly description: string;
   /**
   * The document root of the app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#document_root App#document_root}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#document_root App#document_root}
   */
   readonly documentRoot?: string;
   /**
   * The ID of the project the app belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#project_id App#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#project_id App#project_id}
   */
   readonly projectId: string;
   /**
   * The update policy of the app; one of `none`, `patchLevel` or `all`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#update_policy App#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#update_policy App#update_policy}
   */
   readonly updatePolicy: string;
   /**
   * The user inputs of the app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#user_inputs App#user_inputs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#user_inputs App#user_inputs}
   */
   readonly userInputs?: { [key: string]: string };
   /**
   * The desired version of the app
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#version App#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#version App#version}
   */
   readonly version: string;
 }
@@ -74,7 +74,7 @@ export interface AppDatabases {
   /**
   * The ID of the database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#id App#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#id App#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,19 +83,19 @@ export interface AppDatabases {
   /**
   * The kind of the database; one of `mysql` or `redis`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#kind App#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#kind App#kind}
   */
   readonly kind: string;
   /**
   * The purpose of the database; use 'primary' for the primary data storage, or 'cache' for a cache database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#purpose App#purpose}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#purpose App#purpose}
   */
   readonly purpose: string;
   /**
   * The ID of the database user that the app should use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#user_id App#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#user_id App#user_id}
   */
   readonly userId: string;
 }
@@ -288,13 +288,13 @@ export interface AppDependencies {
   /**
   * The update policy of the dependency; one of `none`, `patchLevel` or `all`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#update_policy App#update_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#update_policy App#update_policy}
   */
   readonly updatePolicy: string;
   /**
   * The version of the dependency; please take note that this must be an *exact* version string; to select a version using a semantic versioning constraint, use the `mittwald_systemsoftware` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#version App#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#version App#version}
   */
   readonly version: string;
 }
@@ -431,7 +431,7 @@ export class AppDependenciesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app mittwald_app}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app mittwald_app}
 */
 export class App extends cdktf.TerraformResource {
 
@@ -447,7 +447,7 @@ export class App extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a App resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the App to import
-  * @param importFromId The id of the existing App that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing App that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the App to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -459,7 +459,7 @@ export class App extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/app mittwald_app} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/app mittwald_app} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -470,8 +470,8 @@ export class App extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_app',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5',
-        providerVersionConstraint: '1.4.5'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

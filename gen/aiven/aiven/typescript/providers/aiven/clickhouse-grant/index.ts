@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ClickhouseGrantConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#id ClickhouseGrant#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#id ClickhouseGrant#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface ClickhouseGrantConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#project ClickhouseGrant#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#project ClickhouseGrant#project}
   */
   readonly project: string;
   /**
   * The role to grant privileges or roles to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#role ClickhouseGrant#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#role ClickhouseGrant#role}
   */
   readonly role?: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#service_name ClickhouseGrant#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#service_name ClickhouseGrant#service_name}
   */
   readonly serviceName: string;
   /**
   * The user to grant privileges or roles to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#user ClickhouseGrant#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#user ClickhouseGrant#user}
   */
   readonly user?: string;
   /**
   * privilege_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#privilege_grant ClickhouseGrant#privilege_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#privilege_grant ClickhouseGrant#privilege_grant}
   */
   readonly privilegeGrant?: ClickhouseGrantPrivilegeGrant[] | cdktf.IResolvable;
   /**
   * role_grant block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#role_grant ClickhouseGrant#role_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#role_grant ClickhouseGrant#role_grant}
   */
   readonly roleGrant?: ClickhouseGrantRoleGrant[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#timeouts ClickhouseGrant#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#timeouts ClickhouseGrant#timeouts}
   */
   readonly timeouts?: ClickhouseGrantTimeouts;
 }
@@ -61,31 +61,31 @@ export interface ClickhouseGrantPrivilegeGrant {
   /**
   * The column to grant access to. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#column ClickhouseGrant#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#column ClickhouseGrant#column}
   */
   readonly column?: string;
   /**
   * The database to grant access to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#database ClickhouseGrant#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#database ClickhouseGrant#database}
   */
   readonly database: string;
   /**
   * The privileges to grant. For example: `INSERT`, `SELECT`, `CREATE TABLE`. A complete list is available in the [ClickHouse documentation](https://clickhouse.com/docs/en/sql-reference/statements/grant). Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#privilege ClickhouseGrant#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#privilege ClickhouseGrant#privilege}
   */
   readonly privilege?: string;
   /**
   * The table to grant access to. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#table ClickhouseGrant#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#table ClickhouseGrant#table}
   */
   readonly table?: string;
   /**
   * Allow grantees to grant their privileges to other grantees. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#with_grant ClickhouseGrant#with_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#with_grant ClickhouseGrant#with_grant}
   */
   readonly withGrant?: boolean | cdktf.IResolvable;
 }
@@ -316,7 +316,7 @@ export interface ClickhouseGrantRoleGrant {
   /**
   * The roles to grant. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#role ClickhouseGrant#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#role ClickhouseGrant#role}
   */
   readonly role?: string;
 }
@@ -432,23 +432,23 @@ export class ClickhouseGrantRoleGrantList extends cdktf.ComplexList {
 }
 export interface ClickhouseGrantTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#create ClickhouseGrant#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#create ClickhouseGrant#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#default ClickhouseGrant#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#default ClickhouseGrant#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#delete ClickhouseGrant#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#delete ClickhouseGrant#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#read ClickhouseGrant#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#read ClickhouseGrant#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#update ClickhouseGrant#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#update ClickhouseGrant#update}
   */
   readonly update?: string;
 }
@@ -658,7 +658,7 @@ export class ClickhouseGrantTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant aiven_clickhouse_grant}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant aiven_clickhouse_grant}
 */
 export class ClickhouseGrant extends cdktf.TerraformResource {
 
@@ -674,7 +674,7 @@ export class ClickhouseGrant extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseGrant resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseGrant to import
-  * @param importFromId The id of the existing ClickhouseGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseGrant that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseGrant to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -686,7 +686,7 @@ export class ClickhouseGrant extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_grant aiven_clickhouse_grant} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_grant aiven_clickhouse_grant} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -697,8 +697,8 @@ export class ClickhouseGrant extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_clickhouse_grant',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface BdsBdsInstanceIdentityConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#activate_iam_user_sync_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_iam_user_sync_configuration_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#activate_iam_user_sync_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_iam_user_sync_configuration_trigger}
   */
   readonly activateIamUserSyncConfigurationTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#activate_upst_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_upst_configuration_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#activate_upst_configuration_trigger BdsBdsInstanceIdentityConfiguration#activate_upst_configuration_trigger}
   */
   readonly activateUpstConfigurationTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#bds_instance_id BdsBdsInstanceIdentityConfiguration#bds_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#bds_instance_id BdsBdsInstanceIdentityConfiguration#bds_instance_id}
   */
   readonly bdsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#cluster_admin_password BdsBdsInstanceIdentityConfiguration#cluster_admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#cluster_admin_password BdsBdsInstanceIdentityConfiguration#cluster_admin_password}
   */
   readonly clusterAdminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#confidential_application_id BdsBdsInstanceIdentityConfiguration#confidential_application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#confidential_application_id BdsBdsInstanceIdentityConfiguration#confidential_application_id}
   */
   readonly confidentialApplicationId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#display_name BdsBdsInstanceIdentityConfiguration#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#display_name BdsBdsInstanceIdentityConfiguration#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#id BdsBdsInstanceIdentityConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#id BdsBdsInstanceIdentityConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#identity_domain_id BdsBdsInstanceIdentityConfiguration#identity_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#identity_domain_id BdsBdsInstanceIdentityConfiguration#identity_domain_id}
   */
   readonly identityDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#refresh_confidential_application_trigger BdsBdsInstanceIdentityConfiguration#refresh_confidential_application_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#refresh_confidential_application_trigger BdsBdsInstanceIdentityConfiguration#refresh_confidential_application_trigger}
   */
   readonly refreshConfidentialApplicationTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#refresh_upst_token_exchange_keytab_trigger BdsBdsInstanceIdentityConfiguration#refresh_upst_token_exchange_keytab_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#refresh_upst_token_exchange_keytab_trigger BdsBdsInstanceIdentityConfiguration#refresh_upst_token_exchange_keytab_trigger}
   */
   readonly refreshUpstTokenExchangeKeytabTrigger?: string;
   /**
   * iam_user_sync_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#iam_user_sync_configuration_details BdsBdsInstanceIdentityConfiguration#iam_user_sync_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#iam_user_sync_configuration_details BdsBdsInstanceIdentityConfiguration#iam_user_sync_configuration_details}
   */
   readonly iamUserSyncConfigurationDetails?: BdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#timeouts BdsBdsInstanceIdentityConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#timeouts BdsBdsInstanceIdentityConfiguration#timeouts}
   */
   readonly timeouts?: BdsBdsInstanceIdentityConfigurationTimeouts;
   /**
   * upst_configuration_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#upst_configuration_details BdsBdsInstanceIdentityConfiguration#upst_configuration_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#upst_configuration_details BdsBdsInstanceIdentityConfiguration#upst_configuration_details}
   */
   readonly upstConfigurationDetails?: BdsBdsInstanceIdentityConfigurationUpstConfigurationDetails;
 }
@@ -276,7 +276,7 @@ export class BdsBdsInstanceIdentityConfigurationUpstConfigurationList extends cd
 }
 export interface BdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#is_posix_attributes_addition_required BdsBdsInstanceIdentityConfiguration#is_posix_attributes_addition_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#is_posix_attributes_addition_required BdsBdsInstanceIdentityConfiguration#is_posix_attributes_addition_required}
   */
   readonly isPosixAttributesAdditionRequired?: boolean | cdktf.IResolvable;
 }
@@ -360,15 +360,15 @@ export class BdsBdsInstanceIdentityConfigurationIamUserSyncConfigurationDetailsO
 }
 export interface BdsBdsInstanceIdentityConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#create BdsBdsInstanceIdentityConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#create BdsBdsInstanceIdentityConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#delete BdsBdsInstanceIdentityConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#delete BdsBdsInstanceIdentityConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#update BdsBdsInstanceIdentityConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#update BdsBdsInstanceIdentityConfiguration#update}
   */
   readonly update?: string;
 }
@@ -520,11 +520,11 @@ export class BdsBdsInstanceIdentityConfigurationTimeoutsOutputReference extends 
 }
 export interface BdsBdsInstanceIdentityConfigurationUpstConfigurationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#master_encryption_key_id BdsBdsInstanceIdentityConfiguration#master_encryption_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#master_encryption_key_id BdsBdsInstanceIdentityConfiguration#master_encryption_key_id}
   */
   readonly masterEncryptionKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#vault_id BdsBdsInstanceIdentityConfiguration#vault_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#vault_id BdsBdsInstanceIdentityConfiguration#vault_id}
   */
   readonly vaultId?: string;
 }
@@ -637,7 +637,7 @@ export class BdsBdsInstanceIdentityConfigurationUpstConfigurationDetailsOutputRe
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration oci_bds_bds_instance_identity_configuration}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration oci_bds_bds_instance_identity_configuration}
 */
 export class BdsBdsInstanceIdentityConfiguration extends cdktf.TerraformResource {
 
@@ -653,7 +653,7 @@ export class BdsBdsInstanceIdentityConfiguration extends cdktf.TerraformResource
   * Generates CDKTF code for importing a BdsBdsInstanceIdentityConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BdsBdsInstanceIdentityConfiguration to import
-  * @param importFromId The id of the existing BdsBdsInstanceIdentityConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BdsBdsInstanceIdentityConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BdsBdsInstanceIdentityConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -665,7 +665,7 @@ export class BdsBdsInstanceIdentityConfiguration extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/bds_bds_instance_identity_configuration oci_bds_bds_instance_identity_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/bds_bds_instance_identity_configuration oci_bds_bds_instance_identity_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -676,8 +676,8 @@ export class BdsBdsInstanceIdentityConfiguration extends cdktf.TerraformResource
       terraformResourceType: 'oci_bds_bds_instance_identity_configuration',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

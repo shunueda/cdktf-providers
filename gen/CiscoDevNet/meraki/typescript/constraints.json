@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "meraki": "1.8.0"
+    "meraki": "1.9.0"
   }
 }

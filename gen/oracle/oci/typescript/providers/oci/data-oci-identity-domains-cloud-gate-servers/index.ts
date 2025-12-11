@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsCloudGateServersAConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#attribute_sets DataOciIdentityDomainsCloudGateServersA#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#attribute_sets DataOciIdentityDomainsCloudGateServersA#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#attributes DataOciIdentityDomainsCloudGateServersA#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#attributes DataOciIdentityDomainsCloudGateServersA#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#authorization DataOciIdentityDomainsCloudGateServersA#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#authorization DataOciIdentityDomainsCloudGateServersA#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#cloud_gate_server_count DataOciIdentityDomainsCloudGateServersA#cloud_gate_server_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#cloud_gate_server_count DataOciIdentityDomainsCloudGateServersA#cloud_gate_server_count}
   */
   readonly cloudGateServerCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#cloud_gate_server_filter DataOciIdentityDomainsCloudGateServersA#cloud_gate_server_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#cloud_gate_server_filter DataOciIdentityDomainsCloudGateServersA#cloud_gate_server_filter}
   */
   readonly cloudGateServerFilter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#compartment_id DataOciIdentityDomainsCloudGateServersA#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#compartment_id DataOciIdentityDomainsCloudGateServersA#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#id DataOciIdentityDomainsCloudGateServersA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#id DataOciIdentityDomainsCloudGateServersA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#idcs_endpoint DataOciIdentityDomainsCloudGateServersA#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#idcs_endpoint DataOciIdentityDomainsCloudGateServersA#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#resource_type_schema_version DataOciIdentityDomainsCloudGateServersA#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#resource_type_schema_version DataOciIdentityDomainsCloudGateServersA#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#sort_by DataOciIdentityDomainsCloudGateServersA#sort_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#sort_by DataOciIdentityDomainsCloudGateServersA#sort_by}
   */
   readonly sortBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#sort_order DataOciIdentityDomainsCloudGateServersA#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#sort_order DataOciIdentityDomainsCloudGateServersA#sort_order}
   */
   readonly sortOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#start_index DataOciIdentityDomainsCloudGateServersA#start_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#start_index DataOciIdentityDomainsCloudGateServersA#start_index}
   */
   readonly startIndex?: number;
 }
@@ -711,7 +711,7 @@ export class DataOciIdentityDomainsCloudGateServersCloudGateServersList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers oci_identity_domains_cloud_gate_servers}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers oci_identity_domains_cloud_gate_servers}
 */
 export class DataOciIdentityDomainsCloudGateServersA extends cdktf.TerraformDataSource {
 
@@ -727,7 +727,7 @@ export class DataOciIdentityDomainsCloudGateServersA extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataOciIdentityDomainsCloudGateServersA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsCloudGateServersA to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsCloudGateServersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsCloudGateServersA that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsCloudGateServersA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -739,7 +739,7 @@ export class DataOciIdentityDomainsCloudGateServersA extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_cloud_gate_servers oci_identity_domains_cloud_gate_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_cloud_gate_servers oci_identity_domains_cloud_gate_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -750,8 +750,8 @@ export class DataOciIdentityDomainsCloudGateServersA extends cdktf.TerraformData
       terraformResourceType: 'oci_identity_domains_cloud_gate_servers',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

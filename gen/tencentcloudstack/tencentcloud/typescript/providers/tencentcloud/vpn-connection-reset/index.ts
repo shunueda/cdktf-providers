@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface VpnConnectionResetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset#id VpnConnectionReset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset#id VpnConnectionReset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface VpnConnectionResetConfig extends cdktf.TerraformMetaArguments {
   /**
   * VPN CONNECTION INSTANCE ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset#vpn_connection_id VpnConnectionReset#vpn_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset#vpn_connection_id VpnConnectionReset#vpn_connection_id}
   */
   readonly vpnConnectionId: string;
   /**
   * VPN GATEWAY INSTANCE ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset#vpn_gateway_id VpnConnectionReset#vpn_gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset#vpn_gateway_id VpnConnectionReset#vpn_gateway_id}
   */
   readonly vpnGatewayId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset tencentcloud_vpn_connection_reset}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset tencentcloud_vpn_connection_reset}
 */
 export class VpnConnectionReset extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class VpnConnectionReset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnConnectionReset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnConnectionReset to import
-  * @param importFromId The id of the existing VpnConnectionReset that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnConnectionReset that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnConnectionReset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class VpnConnectionReset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/vpn_connection_reset tencentcloud_vpn_connection_reset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/vpn_connection_reset tencentcloud_vpn_connection_reset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class VpnConnectionReset extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_vpn_connection_reset',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

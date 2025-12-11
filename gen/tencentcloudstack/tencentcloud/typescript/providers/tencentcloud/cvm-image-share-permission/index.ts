@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface CvmImageSharePermissionConfig extends cdktf.TerraformMetaArgume
   /**
   * List of account IDs with which an image is shared.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission#account_ids CvmImageSharePermission#account_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission#account_ids CvmImageSharePermission#account_ids}
   */
   readonly accountIds: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission#id CvmImageSharePermission#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission#id CvmImageSharePermission#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface CvmImageSharePermissionConfig extends cdktf.TerraformMetaArgume
   /**
   * Image ID such as `img-gvbnzy6f`. You can only specify an image in the NORMAL state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission#image_id CvmImageSharePermission#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission#image_id CvmImageSharePermission#image_id}
   */
   readonly imageId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission tencentcloud_cvm_image_share_permission}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission tencentcloud_cvm_image_share_permission}
 */
 export class CvmImageSharePermission extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class CvmImageSharePermission extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CvmImageSharePermission resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CvmImageSharePermission to import
-  * @param importFromId The id of the existing CvmImageSharePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CvmImageSharePermission that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CvmImageSharePermission to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class CvmImageSharePermission extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cvm_image_share_permission tencentcloud_cvm_image_share_permission} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cvm_image_share_permission tencentcloud_cvm_image_share_permission} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class CvmImageSharePermission extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cvm_image_share_permission',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

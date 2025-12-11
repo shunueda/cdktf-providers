@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciContainerengineNodePoolsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#cluster_id DataOciContainerengineNodePools#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#cluster_id DataOciContainerengineNodePools#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#compartment_id DataOciContainerengineNodePools#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#compartment_id DataOciContainerengineNodePools#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#id DataOciContainerengineNodePools#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#id DataOciContainerengineNodePools#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#name DataOciContainerengineNodePools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#name DataOciContainerengineNodePools#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#state DataOciContainerengineNodePools#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#state DataOciContainerengineNodePools#state}
   */
   readonly state?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#filter DataOciContainerengineNodePools#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#filter DataOciContainerengineNodePools#filter}
   */
   readonly filter?: DataOciContainerengineNodePoolsFilter[] | cdktf.IResolvable;
 }
@@ -1434,15 +1434,15 @@ export class DataOciContainerengineNodePoolsNodePoolsList extends cdktf.ComplexL
 }
 export interface DataOciContainerengineNodePoolsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#name DataOciContainerengineNodePools#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#name DataOciContainerengineNodePools#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#regex DataOciContainerengineNodePools#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#regex DataOciContainerengineNodePools#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#values DataOciContainerengineNodePools#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#values DataOciContainerengineNodePools#values}
   */
   readonly values: string[];
 }
@@ -1610,7 +1610,7 @@ export class DataOciContainerengineNodePoolsFilterList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools oci_containerengine_node_pools}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools oci_containerengine_node_pools}
 */
 export class DataOciContainerengineNodePools extends cdktf.TerraformDataSource {
 
@@ -1626,7 +1626,7 @@ export class DataOciContainerengineNodePools extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciContainerengineNodePools resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciContainerengineNodePools to import
-  * @param importFromId The id of the existing DataOciContainerengineNodePools that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciContainerengineNodePools that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciContainerengineNodePools to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1638,7 +1638,7 @@ export class DataOciContainerengineNodePools extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/containerengine_node_pools oci_containerengine_node_pools} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/containerengine_node_pools oci_containerengine_node_pools} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1649,8 +1649,8 @@ export class DataOciContainerengineNodePools extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_containerengine_node_pools',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

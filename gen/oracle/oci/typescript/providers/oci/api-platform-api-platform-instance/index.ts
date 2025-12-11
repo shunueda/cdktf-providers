@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface ApiPlatformApiPlatformInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#compartment_id ApiPlatformApiPlatformInstance#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#compartment_id ApiPlatformApiPlatformInstance#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#defined_tags ApiPlatformApiPlatformInstance#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#defined_tags ApiPlatformApiPlatformInstance#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#description ApiPlatformApiPlatformInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#description ApiPlatformApiPlatformInstance#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#freeform_tags ApiPlatformApiPlatformInstance#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#freeform_tags ApiPlatformApiPlatformInstance#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#id ApiPlatformApiPlatformInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#id ApiPlatformApiPlatformInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#name ApiPlatformApiPlatformInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#name ApiPlatformApiPlatformInstance#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#timeouts ApiPlatformApiPlatformInstance#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#timeouts ApiPlatformApiPlatformInstance#timeouts}
   */
   readonly timeouts?: ApiPlatformApiPlatformInstanceTimeouts;
 }
@@ -198,11 +198,11 @@ export class ApiPlatformApiPlatformInstanceUrisList extends cdktf.ComplexList {
 }
 export interface ApiPlatformApiPlatformInstanceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#create ApiPlatformApiPlatformInstance#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#delete ApiPlatformApiPlatformInstance#delete}
   */
   readonly delete?: string;
 }
@@ -325,7 +325,7 @@ export class ApiPlatformApiPlatformInstanceTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance oci_api_platform_api_platform_instance}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance oci_api_platform_api_platform_instance}
 */
 export class ApiPlatformApiPlatformInstance extends cdktf.TerraformResource {
 
@@ -341,7 +341,7 @@ export class ApiPlatformApiPlatformInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiPlatformApiPlatformInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiPlatformApiPlatformInstance to import
-  * @param importFromId The id of the existing ApiPlatformApiPlatformInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiPlatformApiPlatformInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiPlatformApiPlatformInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -353,7 +353,7 @@ export class ApiPlatformApiPlatformInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/api_platform_api_platform_instance oci_api_platform_api_platform_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/api_platform_api_platform_instance oci_api_platform_api_platform_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -364,8 +364,8 @@ export class ApiPlatformApiPlatformInstance extends cdktf.TerraformResource {
       terraformResourceType: 'oci_api_platform_api_platform_instance',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

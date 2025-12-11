@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataTencentcloudGaapLayer4ListenersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#id DataTencentcloudGaapLayer4Listeners#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#id DataTencentcloudGaapLayer4Listeners#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface DataTencentcloudGaapLayer4ListenersConfig extends cdktf.Terrafo
   /**
   * ID of the layer4 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#listener_id DataTencentcloudGaapLayer4Listeners#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#listener_id DataTencentcloudGaapLayer4Listeners#listener_id}
   */
   readonly listenerId?: string;
   /**
   * Name of the layer4 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#listener_name DataTencentcloudGaapLayer4Listeners#listener_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#listener_name DataTencentcloudGaapLayer4Listeners#listener_name}
   */
   readonly listenerName?: string;
   /**
   * Port of the layer4 listener to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#port DataTencentcloudGaapLayer4Listeners#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#port DataTencentcloudGaapLayer4Listeners#port}
   */
   readonly port?: number;
   /**
   * Protocol of the layer4 listener to be queried. Valid values: `TCP` and `UDP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#protocol DataTencentcloudGaapLayer4Listeners#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#protocol DataTencentcloudGaapLayer4Listeners#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the GAAP proxy to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#proxy_id DataTencentcloudGaapLayer4Listeners#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#proxy_id DataTencentcloudGaapLayer4Listeners#proxy_id}
   */
   readonly proxyId?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#result_output_file DataTencentcloudGaapLayer4Listeners#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#result_output_file DataTencentcloudGaapLayer4Listeners#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -183,7 +183,7 @@ export class DataTencentcloudGaapLayer4ListenersListenersList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners tencentcloud_gaap_layer4_listeners}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners tencentcloud_gaap_layer4_listeners}
 */
 export class DataTencentcloudGaapLayer4Listeners extends cdktf.TerraformDataSource {
 
@@ -199,7 +199,7 @@ export class DataTencentcloudGaapLayer4Listeners extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudGaapLayer4Listeners resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudGaapLayer4Listeners to import
-  * @param importFromId The id of the existing DataTencentcloudGaapLayer4Listeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudGaapLayer4Listeners that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudGaapLayer4Listeners to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -211,7 +211,7 @@ export class DataTencentcloudGaapLayer4Listeners extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/gaap_layer4_listeners tencentcloud_gaap_layer4_listeners} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/gaap_layer4_listeners tencentcloud_gaap_layer4_listeners} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -222,8 +222,8 @@ export class DataTencentcloudGaapLayer4Listeners extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_gaap_layer4_listeners',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

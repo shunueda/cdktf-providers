@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_discovery_jobs_result
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_discovery_jobs_result
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeDiscoveryJobsResultConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_discovery_jobs_result#discovery_job_id DataOciDataSafeDiscoveryJobsResult#discovery_job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_discovery_jobs_result#discovery_job_id DataOciDataSafeDiscoveryJobsResult#discovery_job_id}
   */
   readonly discoveryJobId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_discovery_jobs_result#result_key DataOciDataSafeDiscoveryJobsResult#result_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_discovery_jobs_result#result_key DataOciDataSafeDiscoveryJobsResult#result_key}
   */
   readonly resultKey: string;
 }
@@ -198,7 +198,7 @@ export class DataOciDataSafeDiscoveryJobsResultModifiedAttributesList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_discovery_jobs_result oci_data_safe_discovery_jobs_result}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_discovery_jobs_result oci_data_safe_discovery_jobs_result}
 */
 export class DataOciDataSafeDiscoveryJobsResult extends cdktf.TerraformDataSource {
 
@@ -214,7 +214,7 @@ export class DataOciDataSafeDiscoveryJobsResult extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciDataSafeDiscoveryJobsResult resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeDiscoveryJobsResult to import
-  * @param importFromId The id of the existing DataOciDataSafeDiscoveryJobsResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_discovery_jobs_result#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeDiscoveryJobsResult that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_discovery_jobs_result#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeDiscoveryJobsResult to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class DataOciDataSafeDiscoveryJobsResult extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_discovery_jobs_result oci_data_safe_discovery_jobs_result} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_discovery_jobs_result oci_data_safe_discovery_jobs_result} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class DataOciDataSafeDiscoveryJobsResult extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_data_safe_discovery_jobs_result',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

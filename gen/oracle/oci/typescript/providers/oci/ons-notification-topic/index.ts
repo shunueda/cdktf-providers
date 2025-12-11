@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface OnsNotificationTopicConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#compartment_id OnsNotificationTopic#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#compartment_id OnsNotificationTopic#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#defined_tags OnsNotificationTopic#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#defined_tags OnsNotificationTopic#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#description OnsNotificationTopic#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#description OnsNotificationTopic#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#freeform_tags OnsNotificationTopic#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#freeform_tags OnsNotificationTopic#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#id OnsNotificationTopic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#id OnsNotificationTopic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#name OnsNotificationTopic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#name OnsNotificationTopic#name}
   */
   readonly name: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#timeouts OnsNotificationTopic#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#timeouts OnsNotificationTopic#timeouts}
   */
   readonly timeouts?: OnsNotificationTopicTimeouts;
 }
 export interface OnsNotificationTopicTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#create OnsNotificationTopic#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#create OnsNotificationTopic#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#delete OnsNotificationTopic#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#delete OnsNotificationTopic#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#update OnsNotificationTopic#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#update OnsNotificationTopic#update}
   */
   readonly update?: string;
 }
@@ -203,7 +203,7 @@ export class OnsNotificationTopicTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic oci_ons_notification_topic}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic oci_ons_notification_topic}
 */
 export class OnsNotificationTopic extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class OnsNotificationTopic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OnsNotificationTopic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OnsNotificationTopic to import
-  * @param importFromId The id of the existing OnsNotificationTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OnsNotificationTopic that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OnsNotificationTopic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class OnsNotificationTopic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ons_notification_topic oci_ons_notification_topic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ons_notification_topic oci_ons_notification_topic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class OnsNotificationTopic extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ons_notification_topic',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciTenantmanagercontrolplaneDomainGovernancesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#compartment_id DataOciTenantmanagercontrolplaneDomainGovernances#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#compartment_id DataOciTenantmanagercontrolplaneDomainGovernances#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#domain_governance_id DataOciTenantmanagercontrolplaneDomainGovernances#domain_governance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#domain_governance_id DataOciTenantmanagercontrolplaneDomainGovernances#domain_governance_id}
   */
   readonly domainGovernanceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#domain_id DataOciTenantmanagercontrolplaneDomainGovernances#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#domain_id DataOciTenantmanagercontrolplaneDomainGovernances#domain_id}
   */
   readonly domainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#id DataOciTenantmanagercontrolplaneDomainGovernances#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#id DataOciTenantmanagercontrolplaneDomainGovernances#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#name DataOciTenantmanagercontrolplaneDomainGovernances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#name DataOciTenantmanagercontrolplaneDomainGovernances#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#state DataOciTenantmanagercontrolplaneDomainGovernances#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#state DataOciTenantmanagercontrolplaneDomainGovernances#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#filter DataOciTenantmanagercontrolplaneDomainGovernances#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#filter DataOciTenantmanagercontrolplaneDomainGovernances#filter}
   */
   readonly filter?: DataOciTenantmanagercontrolplaneDomainGovernancesFilter[] | cdktf.IResolvable;
 }
@@ -262,15 +262,15 @@ export class DataOciTenantmanagercontrolplaneDomainGovernancesDomainGovernanceCo
 }
 export interface DataOciTenantmanagercontrolplaneDomainGovernancesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#name DataOciTenantmanagercontrolplaneDomainGovernances#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#name DataOciTenantmanagercontrolplaneDomainGovernances#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#regex DataOciTenantmanagercontrolplaneDomainGovernances#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#regex DataOciTenantmanagercontrolplaneDomainGovernances#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#values DataOciTenantmanagercontrolplaneDomainGovernances#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#values DataOciTenantmanagercontrolplaneDomainGovernances#values}
   */
   readonly values: string[];
 }
@@ -438,7 +438,7 @@ export class DataOciTenantmanagercontrolplaneDomainGovernancesFilterList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances oci_tenantmanagercontrolplane_domain_governances}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances oci_tenantmanagercontrolplane_domain_governances}
 */
 export class DataOciTenantmanagercontrolplaneDomainGovernances extends cdktf.TerraformDataSource {
 
@@ -454,7 +454,7 @@ export class DataOciTenantmanagercontrolplaneDomainGovernances extends cdktf.Ter
   * Generates CDKTF code for importing a DataOciTenantmanagercontrolplaneDomainGovernances resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciTenantmanagercontrolplaneDomainGovernances to import
-  * @param importFromId The id of the existing DataOciTenantmanagercontrolplaneDomainGovernances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciTenantmanagercontrolplaneDomainGovernances that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciTenantmanagercontrolplaneDomainGovernances to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -466,7 +466,7 @@ export class DataOciTenantmanagercontrolplaneDomainGovernances extends cdktf.Ter
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_domain_governances oci_tenantmanagercontrolplane_domain_governances} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_domain_governances oci_tenantmanagercontrolplane_domain_governances} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -477,8 +477,8 @@ export class DataOciTenantmanagercontrolplaneDomainGovernances extends cdktf.Ter
       terraformResourceType: 'oci_tenantmanagercontrolplane_domain_governances',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_job
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_job#job_id DataOciDatascienceJob#job_id}
   */
   readonly jobId: string;
 }
@@ -1440,7 +1440,7 @@ export class DataOciDatascienceJobJobStorageMountConfigurationDetailsListStructL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_job oci_datascience_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_job oci_datascience_job}
 */
 export class DataOciDatascienceJob extends cdktf.TerraformDataSource {
 
@@ -1456,7 +1456,7 @@ export class DataOciDatascienceJob extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatascienceJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceJob to import
-  * @param importFromId The id of the existing DataOciDatascienceJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1468,7 +1468,7 @@ export class DataOciDatascienceJob extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_job oci_datascience_job} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_job oci_datascience_job} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1479,8 +1479,8 @@ export class DataOciDatascienceJob extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_datascience_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

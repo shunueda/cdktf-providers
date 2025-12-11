@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CfwVpcInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cloud networking id, suitable for cloud networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#ccn_id CfwVpcInstance#ccn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#ccn_id CfwVpcInstance#ccn_id}
   */
   readonly ccnId?: string;
   /**
   * auto Automatically select the firewall network segment; 10.10.10.0/24 The firewall network segment entered by the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#fw_vpc_cidr CfwVpcInstance#fw_vpc_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#fw_vpc_cidr CfwVpcInstance#fw_vpc_cidr}
   */
   readonly fwVpcCidr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#id CfwVpcInstance#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#id CfwVpcInstance#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface CfwVpcInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Mode 0: private network mode; 1: CCN cloud networking mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#mode CfwVpcInstance#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#mode CfwVpcInstance#mode}
   */
   readonly mode: number;
   /**
   * VPC firewall (group) name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#name CfwVpcInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#name CfwVpcInstance#name}
   */
   readonly name: string;
   /**
   * Switch mode of firewall instance. 1: Single point intercommunication; 2: Multi-point communication; 4: Custom Routing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#switch_mode CfwVpcInstance#switch_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#switch_mode CfwVpcInstance#switch_mode}
   */
   readonly switchMode: number;
   /**
   * vpc_fw_instances block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#vpc_fw_instances CfwVpcInstance#vpc_fw_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#vpc_fw_instances CfwVpcInstance#vpc_fw_instances}
   */
   readonly vpcFwInstances: CfwVpcInstanceVpcFwInstances[] | cdktf.IResolvable;
 }
@@ -55,25 +55,25 @@ export interface CfwVpcInstanceVpcFwInstancesFwDeploy {
   /**
   * Off-site disaster recovery 1: use off-site disaster recovery; 0: do not use off-site disaster recovery; if it is empty, off-site disaster recovery will not be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#cross_a_zone CfwVpcInstance#cross_a_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#cross_a_zone CfwVpcInstance#cross_a_zone}
   */
   readonly crossAZone?: number;
   /**
   * Firewall Deployment Region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#deploy_region CfwVpcInstance#deploy_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#deploy_region CfwVpcInstance#deploy_region}
   */
   readonly deployRegion: string;
   /**
   * Bandwidth, unit: Mbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#width CfwVpcInstance#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#width CfwVpcInstance#width}
   */
   readonly width: number;
   /**
   * Zone list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#zone_set CfwVpcInstance#zone_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#zone_set CfwVpcInstance#zone_set}
   */
   readonly zoneSet: string[];
 }
@@ -237,19 +237,19 @@ export interface CfwVpcInstanceVpcFwInstances {
   /**
   * Firewall instance name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#name CfwVpcInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#name CfwVpcInstance#name}
   */
   readonly name: string;
   /**
   * List of VpcIds accessed in private network mode; only used in private network mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#vpc_ids CfwVpcInstance#vpc_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#vpc_ids CfwVpcInstance#vpc_ids}
   */
   readonly vpcIds?: string[];
   /**
   * fw_deploy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#fw_deploy CfwVpcInstance#fw_deploy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#fw_deploy CfwVpcInstance#fw_deploy}
   */
   readonly fwDeploy: CfwVpcInstanceVpcFwInstancesFwDeploy;
 }
@@ -422,7 +422,7 @@ export class CfwVpcInstanceVpcFwInstancesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance tencentcloud_cfw_vpc_instance}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance tencentcloud_cfw_vpc_instance}
 */
 export class CfwVpcInstance extends cdktf.TerraformResource {
 
@@ -438,7 +438,7 @@ export class CfwVpcInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CfwVpcInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CfwVpcInstance to import
-  * @param importFromId The id of the existing CfwVpcInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CfwVpcInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CfwVpcInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -450,7 +450,7 @@ export class CfwVpcInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_vpc_instance tencentcloud_cfw_vpc_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_vpc_instance tencentcloud_cfw_vpc_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -461,8 +461,8 @@ export class CfwVpcInstance extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cfw_vpc_instance',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

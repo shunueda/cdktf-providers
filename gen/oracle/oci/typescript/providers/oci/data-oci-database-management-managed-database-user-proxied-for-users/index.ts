@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#managed_database_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#managed_database_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#opc_named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#opc_named_credential_id}
   */
   readonly opcNamedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#user_name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#user_name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#user_name}
   */
   readonly userName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#filter DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#filter DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersFilter[] | cdktf.IResolvable;
 }
@@ -200,15 +200,15 @@ export class DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersProxiedF
 }
 export interface DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#name DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#regex DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#regex DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#values DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#values DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers#values}
   */
   readonly values: string[];
 }
@@ -376,7 +376,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserProxiedForUsersFilterLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users oci_database_management_managed_database_user_proxied_for_users}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users oci_database_management_managed_database_user_proxied_for_users}
 */
 export class DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers extends cdktf.TerraformDataSource {
 
@@ -392,7 +392,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers extends
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers extends
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_database_user_proxied_for_users oci_database_management_managed_database_user_proxied_for_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_database_user_proxied_for_users oci_database_management_managed_database_user_proxied_for_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class DataOciDatabaseManagementManagedDatabaseUserProxiedForUsers extends
       terraformResourceType: 'oci_database_management_managed_database_user_proxied_for_users',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

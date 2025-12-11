@@ -241,6 +241,7 @@ Object.defineProperty(exports, 'clsTopic', { get: function () { return require('
 Object.defineProperty(exports, 'clsWebCallback', { get: function () { return require('./cls-web-callback'); } });
 Object.defineProperty(exports, 'containerCluster', { get: function () { return require('./container-cluster'); } });
 Object.defineProperty(exports, 'containerClusterInstance', { get: function () { return require('./container-cluster-instance'); } });
+Object.defineProperty(exports, 'controlcenterAccountFactoryBaselineConfig', { get: function () { return require('./controlcenter-account-factory-baseline-config'); } });
 Object.defineProperty(exports, 'cosBatch', { get: function () { return require('./cos-batch'); } });
 Object.defineProperty(exports, 'cosBucket', { get: function () { return require('./cos-bucket'); } });
 Object.defineProperty(exports, 'cosBucketDomainCertificateAttachment', { get: function () { return require('./cos-bucket-domain-certificate-attachment'); } });
@@ -1331,6 +1332,7 @@ Object.defineProperty(exports, 'dataTencentcloudClsShipperTasks', { get: functio
 Object.defineProperty(exports, 'dataTencentcloudClsTopics', { get: function () { return require('./data-tencentcloud-cls-topics'); } });
 Object.defineProperty(exports, 'dataTencentcloudContainerClusterInstances', { get: function () { return require('./data-tencentcloud-container-cluster-instances'); } });
 Object.defineProperty(exports, 'dataTencentcloudContainerClusters', { get: function () { return require('./data-tencentcloud-container-clusters'); } });
+Object.defineProperty(exports, 'dataTencentcloudControlcenterAccountFactoryBaselineItems', { get: function () { return require('./data-tencentcloud-controlcenter-account-factory-baseline-items'); } });
 Object.defineProperty(exports, 'dataTencentcloudCosBatchs', { get: function () { return require('./data-tencentcloud-cos-batchs'); } });
 Object.defineProperty(exports, 'dataTencentcloudCosBucketInventorys', { get: function () { return require('./data-tencentcloud-cos-bucket-inventorys'); } });
 Object.defineProperty(exports, 'dataTencentcloudCosBucketMultipartUploads', { get: function () { return require('./data-tencentcloud-cos-bucket-multipart-uploads'); } });

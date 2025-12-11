@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generative_ai_dedicated_ai_cluster
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_dedicated_ai_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGenerativeAiDedicatedAiClusterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generative_ai_dedicated_ai_cluster#dedicated_ai_cluster_id DataOciGenerativeAiDedicatedAiCluster#dedicated_ai_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_dedicated_ai_cluster#dedicated_ai_cluster_id DataOciGenerativeAiDedicatedAiCluster#dedicated_ai_cluster_id}
   */
   readonly dedicatedAiClusterId: string;
 }
@@ -99,7 +99,7 @@ export class DataOciGenerativeAiDedicatedAiClusterCapacityList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generative_ai_dedicated_ai_cluster oci_generative_ai_dedicated_ai_cluster}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_dedicated_ai_cluster oci_generative_ai_dedicated_ai_cluster}
 */
 export class DataOciGenerativeAiDedicatedAiCluster extends cdktf.TerraformDataSource {
 
@@ -115,7 +115,7 @@ export class DataOciGenerativeAiDedicatedAiCluster extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataOciGenerativeAiDedicatedAiCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGenerativeAiDedicatedAiCluster to import
-  * @param importFromId The id of the existing DataOciGenerativeAiDedicatedAiCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generative_ai_dedicated_ai_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGenerativeAiDedicatedAiCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_dedicated_ai_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGenerativeAiDedicatedAiCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -127,7 +127,7 @@ export class DataOciGenerativeAiDedicatedAiCluster extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/generative_ai_dedicated_ai_cluster oci_generative_ai_dedicated_ai_cluster} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/generative_ai_dedicated_ai_cluster oci_generative_ai_dedicated_ai_cluster} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -138,8 +138,8 @@ export class DataOciGenerativeAiDedicatedAiCluster extends cdktf.TerraformDataSo
       terraformResourceType: 'oci_generative_ai_dedicated_ai_cluster',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

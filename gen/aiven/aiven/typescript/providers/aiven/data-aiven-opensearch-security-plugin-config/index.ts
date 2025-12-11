@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAivenOpensearchSecurityPluginConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config#id DataAivenOpensearchSecurityPluginConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config#id DataAivenOpensearchSecurityPluginConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataAivenOpensearchSecurityPluginConfigConfig extends cdktf.Ter
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config#project DataAivenOpensearchSecurityPluginConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config#project DataAivenOpensearchSecurityPluginConfig#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config#service_name DataAivenOpensearchSecurityPluginConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config#service_name DataAivenOpensearchSecurityPluginConfig#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config}
 */
 export class DataAivenOpensearchSecurityPluginConfig extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAivenOpensearchSecurityPluginConfig extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataAivenOpensearchSecurityPluginConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenOpensearchSecurityPluginConfig to import
-  * @param importFromId The id of the existing DataAivenOpensearchSecurityPluginConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenOpensearchSecurityPluginConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenOpensearchSecurityPluginConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAivenOpensearchSecurityPluginConfig extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAivenOpensearchSecurityPluginConfig extends cdktf.TerraformData
       terraformResourceType: 'aiven_opensearch_security_plugin_config',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

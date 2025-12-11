@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectTagsAssociationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#id ProjectTagsAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#id ProjectTagsAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface ProjectTagsAssociationConfig extends cdktf.TerraformMetaArgumen
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#metadata ProjectTagsAssociation#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#metadata ProjectTagsAssociation#metadata}
   */
   readonly metadata?: ProjectTagsAssociationMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#spec ProjectTagsAssociation#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#spec ProjectTagsAssociation#spec}
   */
   readonly spec?: ProjectTagsAssociationSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#timeouts ProjectTagsAssociation#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#timeouts ProjectTagsAssociation#timeouts}
   */
   readonly timeouts?: ProjectTagsAssociationTimeouts;
 }
@@ -37,7 +37,7 @@ export interface ProjectTagsAssociationMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#id ProjectTagsAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#id ProjectTagsAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface ProjectTagsAssociationMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#is_sso_user ProjectTagsAssociation#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#is_sso_user ProjectTagsAssociation#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#username ProjectTagsAssociation#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#username ProjectTagsAssociation#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface ProjectTagsAssociationMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#id ProjectTagsAssociation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#id ProjectTagsAssociation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface ProjectTagsAssociationMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#is_sso_user ProjectTagsAssociation#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#is_sso_user ProjectTagsAssociation#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#username ProjectTagsAssociation#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#username ProjectTagsAssociation#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface ProjectTagsAssociationMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#annotations ProjectTagsAssociation#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#annotations ProjectTagsAssociation#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#description ProjectTagsAssociation#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#description ProjectTagsAssociation#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#display_name ProjectTagsAssociation#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#display_name ProjectTagsAssociation#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#labels ProjectTagsAssociation#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#labels ProjectTagsAssociation#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#name ProjectTagsAssociation#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#name ProjectTagsAssociation#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#project ProjectTagsAssociation#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#project ProjectTagsAssociation#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#created_by ProjectTagsAssociation#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#created_by ProjectTagsAssociation#created_by}
   */
   readonly createdBy?: ProjectTagsAssociationMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#modified_by ProjectTagsAssociation#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#modified_by ProjectTagsAssociation#modified_by}
   */
   readonly modifiedBy?: ProjectTagsAssociationMetadataModifiedBy;
 }
@@ -686,25 +686,25 @@ export interface ProjectTagsAssociationSpecAssociations {
   /**
   * List of names of resources to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#resource ProjectTagsAssociation#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#resource ProjectTagsAssociation#resource}
   */
   readonly resource?: string;
   /**
   * tag association key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#tag_key ProjectTagsAssociation#tag_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#tag_key ProjectTagsAssociation#tag_key}
   */
   readonly tagKey?: string;
   /**
   * tag association type i.e. <Cost, K8s>
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#tag_type ProjectTagsAssociation#tag_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#tag_type ProjectTagsAssociation#tag_type}
   */
   readonly tagType?: string;
   /**
   * tag association value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#tag_value ProjectTagsAssociation#tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#tag_value ProjectTagsAssociation#tag_value}
   */
   readonly tagValue?: string;
 }
@@ -909,7 +909,7 @@ export interface ProjectTagsAssociationSpec {
   /**
   * associations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#associations ProjectTagsAssociation#associations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#associations ProjectTagsAssociation#associations}
   */
   readonly associations?: ProjectTagsAssociationSpecAssociations[] | cdktf.IResolvable;
 }
@@ -993,15 +993,15 @@ export class ProjectTagsAssociationSpecOutputReference extends cdktf.ComplexObje
 }
 export interface ProjectTagsAssociationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#create ProjectTagsAssociation#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#create ProjectTagsAssociation#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#delete ProjectTagsAssociation#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#delete ProjectTagsAssociation#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#update ProjectTagsAssociation#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#update ProjectTagsAssociation#update}
   */
   readonly update?: string;
 }
@@ -1153,7 +1153,7 @@ export class ProjectTagsAssociationTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association rafay_project_tags_association}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association rafay_project_tags_association}
 */
 export class ProjectTagsAssociation extends cdktf.TerraformResource {
 
@@ -1169,7 +1169,7 @@ export class ProjectTagsAssociation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProjectTagsAssociation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProjectTagsAssociation to import
-  * @param importFromId The id of the existing ProjectTagsAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProjectTagsAssociation that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProjectTagsAssociation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1181,7 +1181,7 @@ export class ProjectTagsAssociation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/project_tags_association rafay_project_tags_association} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/project_tags_association rafay_project_tags_association} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1192,8 +1192,8 @@ export class ProjectTagsAssociation extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_project_tags_association',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

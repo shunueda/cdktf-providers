@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface CronjobConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the app the cronjob belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#app_id Cronjob#app_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#app_id Cronjob#app_id}
   */
   readonly appId: string;
   /**
   * Description for your cronjob
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#description Cronjob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#description Cronjob#description}
   */
   readonly description: string;
   /**
   * Models the action to be executed by the cron job. Exactly one of `url` or `command` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#destination Cronjob#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#destination Cronjob#destination}
   */
   readonly destination: CronjobDestination;
   /**
   * The email address to send the cron job's output to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#email Cronjob#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#email Cronjob#email}
   */
   readonly email?: string;
   /**
   * The interval of the cron job; this should be a cron expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#interval Cronjob#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#interval Cronjob#interval}
   */
   readonly interval: string;
   /**
   * The ID of the project the cronjob belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#project_id Cronjob#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#project_id Cronjob#project_id}
   */
   readonly projectId: string;
 }
@@ -48,19 +48,19 @@ export interface CronjobDestinationCommand {
   /**
   * The interpreter to use for the command. Must be a valid path to an executable within the project environment (typically, `/bin/bash` or `/usr/bin/php` should work).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#interpreter Cronjob#interpreter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#interpreter Cronjob#interpreter}
   */
   readonly interpreter: string;
   /**
   * A list of parameters to pass to the command. Each parameter must be a valid string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#parameters Cronjob#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#parameters Cronjob#parameters}
   */
   readonly parameters?: string[];
   /**
   * The path to the file to run. Must be a valid path to an executable file within the project environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#path Cronjob#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#path Cronjob#path}
   */
   readonly path: string;
 }
@@ -206,13 +206,13 @@ export class CronjobDestinationCommandOutputReference extends cdktf.ComplexObjec
 }
 export interface CronjobDestination {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#command Cronjob#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#command Cronjob#command}
   */
   readonly command?: CronjobDestinationCommand;
   /**
   * The URL that should be requested by the cron job
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#url Cronjob#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#url Cronjob#url}
   */
   readonly url?: string;
 }
@@ -335,7 +335,7 @@ export class CronjobDestinationOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob mittwald_cronjob}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob mittwald_cronjob}
 */
 export class Cronjob extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class Cronjob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Cronjob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Cronjob to import
-  * @param importFromId The id of the existing Cronjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Cronjob that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Cronjob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class Cronjob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/cronjob mittwald_cronjob} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/cronjob mittwald_cronjob} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class Cronjob extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_cronjob',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5',
-        providerVersionConstraint: '1.4.5'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

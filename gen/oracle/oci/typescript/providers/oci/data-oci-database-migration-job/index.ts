@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_migration_job
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_migration_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseMigrationJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_migration_job#job_id DataOciDatabaseMigrationJob#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_migration_job#job_id DataOciDatabaseMigrationJob#job_id}
   */
   readonly jobId: string;
 }
@@ -685,7 +685,7 @@ export class DataOciDatabaseMigrationJobUnsupportedObjectsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_migration_job oci_database_migration_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_migration_job oci_database_migration_job}
 */
 export class DataOciDatabaseMigrationJob extends cdktf.TerraformDataSource {
 
@@ -701,7 +701,7 @@ export class DataOciDatabaseMigrationJob extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatabaseMigrationJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseMigrationJob to import
-  * @param importFromId The id of the existing DataOciDatabaseMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_migration_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseMigrationJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_migration_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseMigrationJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -713,7 +713,7 @@ export class DataOciDatabaseMigrationJob extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_migration_job oci_database_migration_job} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_migration_job oci_database_migration_job} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -724,8 +724,8 @@ export class DataOciDatabaseMigrationJob extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_database_migration_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

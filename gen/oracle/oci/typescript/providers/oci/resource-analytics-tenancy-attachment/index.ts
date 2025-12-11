@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceAnalyticsTenancyAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#description ResourceAnalyticsTenancyAttachment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#description ResourceAnalyticsTenancyAttachment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#id ResourceAnalyticsTenancyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#id ResourceAnalyticsTenancyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#resource_analytics_instance_id ResourceAnalyticsTenancyAttachment#resource_analytics_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#resource_analytics_instance_id ResourceAnalyticsTenancyAttachment#resource_analytics_instance_id}
   */
   readonly resourceAnalyticsInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#tenancy_id ResourceAnalyticsTenancyAttachment#tenancy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#tenancy_id ResourceAnalyticsTenancyAttachment#tenancy_id}
   */
   readonly tenancyId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#timeouts ResourceAnalyticsTenancyAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#timeouts ResourceAnalyticsTenancyAttachment#timeouts}
   */
   readonly timeouts?: ResourceAnalyticsTenancyAttachmentTimeouts;
 }
 export interface ResourceAnalyticsTenancyAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#create ResourceAnalyticsTenancyAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#create ResourceAnalyticsTenancyAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#delete ResourceAnalyticsTenancyAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#delete ResourceAnalyticsTenancyAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#read ResourceAnalyticsTenancyAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#read ResourceAnalyticsTenancyAttachment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#update ResourceAnalyticsTenancyAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#update ResourceAnalyticsTenancyAttachment#update}
   */
   readonly update?: string;
 }
@@ -228,7 +228,7 @@ export class ResourceAnalyticsTenancyAttachmentTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment oci_resource_analytics_tenancy_attachment}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment oci_resource_analytics_tenancy_attachment}
 */
 export class ResourceAnalyticsTenancyAttachment extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class ResourceAnalyticsTenancyAttachment extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ResourceAnalyticsTenancyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAnalyticsTenancyAttachment to import
-  * @param importFromId The id of the existing ResourceAnalyticsTenancyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAnalyticsTenancyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAnalyticsTenancyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class ResourceAnalyticsTenancyAttachment extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_tenancy_attachment oci_resource_analytics_tenancy_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_tenancy_attachment oci_resource_analytics_tenancy_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class ResourceAnalyticsTenancyAttachment extends cdktf.TerraformResource 
       terraformResourceType: 'oci_resource_analytics_tenancy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

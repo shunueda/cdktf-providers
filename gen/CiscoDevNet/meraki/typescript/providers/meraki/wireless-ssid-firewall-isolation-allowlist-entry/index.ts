@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface WirelessSsidFirewallIsolationAllowlistEntryConfig extends cdktf
   /**
   * L2 Isolation mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#client_mac WirelessSsidFirewallIsolationAllowlistEntry#client_mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#client_mac WirelessSsidFirewallIsolationAllowlistEntry#client_mac}
   */
   readonly clientMac: string;
   /**
   * The description of mac address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#description WirelessSsidFirewallIsolationAllowlistEntry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#description WirelessSsidFirewallIsolationAllowlistEntry#description}
   */
   readonly description?: string;
   /**
   * The ID of network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#network_id WirelessSsidFirewallIsolationAllowlistEntry#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#network_id WirelessSsidFirewallIsolationAllowlistEntry#network_id}
   */
   readonly networkId: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#organization_id WirelessSsidFirewallIsolationAllowlistEntry#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#organization_id WirelessSsidFirewallIsolationAllowlistEntry#organization_id}
   */
   readonly organizationId: string;
   /**
   * The number of SSID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#ssid_number WirelessSsidFirewallIsolationAllowlistEntry#ssid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#ssid_number WirelessSsidFirewallIsolationAllowlistEntry#ssid_number}
   */
   readonly ssidNumber: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry meraki_wireless_ssid_firewall_isolation_allowlist_entry}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry meraki_wireless_ssid_firewall_isolation_allowlist_entry}
 */
 export class WirelessSsidFirewallIsolationAllowlistEntry extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class WirelessSsidFirewallIsolationAllowlistEntry extends cdktf.Terraform
   * Generates CDKTF code for importing a WirelessSsidFirewallIsolationAllowlistEntry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidFirewallIsolationAllowlistEntry to import
-  * @param importFromId The id of the existing WirelessSsidFirewallIsolationAllowlistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidFirewallIsolationAllowlistEntry that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidFirewallIsolationAllowlistEntry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class WirelessSsidFirewallIsolationAllowlistEntry extends cdktf.Terraform
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry meraki_wireless_ssid_firewall_isolation_allowlist_entry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_firewall_isolation_allowlist_entry meraki_wireless_ssid_firewall_isolation_allowlist_entry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class WirelessSsidFirewallIsolationAllowlistEntry extends cdktf.Terraform
       terraformResourceType: 'meraki_wireless_ssid_firewall_isolation_allowlist_entry',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

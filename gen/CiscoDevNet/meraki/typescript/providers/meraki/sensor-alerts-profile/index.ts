@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface SensorAlertsProfileConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of conditions that will cause the profile to send an alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#conditions SensorAlertsProfile#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#conditions SensorAlertsProfile#conditions}
   */
   readonly conditions: SensorAlertsProfileConditions[] | cdktf.IResolvable;
   /**
   * Include dashboard link to sensor in messages (default: true).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#include_sensor_url SensorAlertsProfile#include_sensor_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#include_sensor_url SensorAlertsProfile#include_sensor_url}
   */
   readonly includeSensorUrl?: boolean | cdktf.IResolvable;
   /**
   * A custom message that will appear in email and text message alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#message SensorAlertsProfile#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#message SensorAlertsProfile#message}
   */
   readonly message?: string;
   /**
   * Name of the sensor alert profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#name SensorAlertsProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#name SensorAlertsProfile#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#network_id SensorAlertsProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#network_id SensorAlertsProfile#network_id}
   */
   readonly networkId: string;
   /**
   * A list of emails that will receive information about the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#recipients_emails SensorAlertsProfile#recipients_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#recipients_emails SensorAlertsProfile#recipients_emails}
   */
   readonly recipientsEmails?: string[];
   /**
   * A list of webhook endpoint IDs that will receive information about the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#recipients_http_server_ids SensorAlertsProfile#recipients_http_server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#recipients_http_server_ids SensorAlertsProfile#recipients_http_server_ids}
   */
   readonly recipientsHttpServerIds?: string[];
   /**
   * A list of SMS numbers that will receive information about the alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#recipients_sms_numbers SensorAlertsProfile#recipients_sms_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#recipients_sms_numbers SensorAlertsProfile#recipients_sms_numbers}
   */
   readonly recipientsSmsNumbers?: string[];
   /**
   * ID of the sensor schedule to use with the alert profile. If not defined, the alert profile will be active at all times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#schedule_id SensorAlertsProfile#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#schedule_id SensorAlertsProfile#schedule_id}
   */
   readonly scheduleId?: string;
   /**
   * List of device serials assigned to this sensor alert profile.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#serials SensorAlertsProfile#serials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#serials SensorAlertsProfile#serials}
   */
   readonly serials?: string[];
 }
@@ -73,171 +73,171 @@ export interface SensorAlertsProfileConditions {
   * If `above`, an alert will be sent when a sensor reads above the threshold. If `below`, an alert will be sent when a sensor reads below the threshold. Only applicable for temperature, humidity, realPower, apparentPower, powerFactor, voltage, current, and frequency thresholds.
   *   - Choices: `above`, `below`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#direction SensorAlertsProfile#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#direction SensorAlertsProfile#direction}
   */
   readonly direction: string;
   /**
   * Length of time in seconds that the triggering state must persist before an alert is sent. Available options are 0 seconds, 1 minute, 2 minutes, 3 minutes, 4 minutes, 5 minutes, 10 minutes, 15 minutes, 30 minutes, 1 hour, 1 hour and 30 minutes, 2 hours, 4 hours, and 8 hours. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#duration SensorAlertsProfile#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#duration SensorAlertsProfile#duration}
   */
   readonly duration?: number;
   /**
   * The type of sensor metric that will be monitored for changes.
   *   - Choices: `apparentPower`, `co2`, `current`, `door`, `frequency`, `humidity`, `indoorAirQuality`, `noise`, `pm25`, `powerFactor`, `realPower`, `temperature`, `tvoc`, `upstreamPower`, `voltage`, `water`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#metric SensorAlertsProfile#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#metric SensorAlertsProfile#metric}
   */
   readonly metric: string;
   /**
   * Alerting threshold in volt-amps. Must be between 0 and 3750.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_apparent_power_draw SensorAlertsProfile#threshold_apparent_power_draw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_apparent_power_draw SensorAlertsProfile#threshold_apparent_power_draw}
   */
   readonly thresholdApparentPowerDraw?: number;
   /**
   * Alerting threshold as CO2 parts per million.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_co2_concentration SensorAlertsProfile#threshold_co2_concentration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_co2_concentration SensorAlertsProfile#threshold_co2_concentration}
   */
   readonly thresholdCo2Concentration?: number;
   /**
   * Alerting threshold as a qualitative CO2 level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_co2_quality SensorAlertsProfile#threshold_co2_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_co2_quality SensorAlertsProfile#threshold_co2_quality}
   */
   readonly thresholdCo2Quality?: string;
   /**
   * Alerting threshold in amps. Must be between 0 and 15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_current_draw SensorAlertsProfile#threshold_current_draw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_current_draw SensorAlertsProfile#threshold_current_draw}
   */
   readonly thresholdCurrentDraw?: number;
   /**
   * Alerting threshold for a door open event. Must be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_door_open SensorAlertsProfile#threshold_door_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_door_open SensorAlertsProfile#threshold_door_open}
   */
   readonly thresholdDoorOpen?: boolean | cdktf.IResolvable;
   /**
   * Alerting threshold in hertz. Must be between 0 and 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_frequency_level SensorAlertsProfile#threshold_frequency_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_frequency_level SensorAlertsProfile#threshold_frequency_level}
   */
   readonly thresholdFrequencyLevel?: number;
   /**
   * Alerting threshold as a qualitative humidity level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_humidity_quality SensorAlertsProfile#threshold_humidity_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_humidity_quality SensorAlertsProfile#threshold_humidity_quality}
   */
   readonly thresholdHumidityQuality?: string;
   /**
   * Alerting threshold in %RH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_humidity_relative_percentage SensorAlertsProfile#threshold_humidity_relative_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_humidity_relative_percentage SensorAlertsProfile#threshold_humidity_relative_percentage}
   */
   readonly thresholdHumidityRelativePercentage?: number;
   /**
   * Alerting threshold as a qualitative indoor air quality level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_indoor_air_quality_quality SensorAlertsProfile#threshold_indoor_air_quality_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_indoor_air_quality_quality SensorAlertsProfile#threshold_indoor_air_quality_quality}
   */
   readonly thresholdIndoorAirQualityQuality?: string;
   /**
   * Alerting threshold as indoor air quality score.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_indoor_air_quality_score SensorAlertsProfile#threshold_indoor_air_quality_score}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_indoor_air_quality_score SensorAlertsProfile#threshold_indoor_air_quality_score}
   */
   readonly thresholdIndoorAirQualityScore?: number;
   /**
   * Alerting threshold as adjusted decibels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_noise_ambient_level SensorAlertsProfile#threshold_noise_ambient_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_noise_ambient_level SensorAlertsProfile#threshold_noise_ambient_level}
   */
   readonly thresholdNoiseAmbientLevel?: number;
   /**
   * Alerting threshold as a qualitative ambient noise level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_noise_ambient_quality SensorAlertsProfile#threshold_noise_ambient_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_noise_ambient_quality SensorAlertsProfile#threshold_noise_ambient_quality}
   */
   readonly thresholdNoiseAmbientQuality?: string;
   /**
   * Alerting threshold as PM2.5 parts per million.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_pm25_concentration SensorAlertsProfile#threshold_pm25_concentration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_pm25_concentration SensorAlertsProfile#threshold_pm25_concentration}
   */
   readonly thresholdPm25Concentration?: number;
   /**
   * Alerting threshold as a qualitative PM2.5 level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_pm25_quality SensorAlertsProfile#threshold_pm25_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_pm25_quality SensorAlertsProfile#threshold_pm25_quality}
   */
   readonly thresholdPm25Quality?: string;
   /**
   * Alerting threshold as the ratio of active power to apparent power. Must be between 0 and 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_power_factor_percentage SensorAlertsProfile#threshold_power_factor_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_power_factor_percentage SensorAlertsProfile#threshold_power_factor_percentage}
   */
   readonly thresholdPowerFactorPercentage?: number;
   /**
   * Alerting threshold in watts. Must be between 0 and 3750.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_real_power_draw SensorAlertsProfile#threshold_real_power_draw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_real_power_draw SensorAlertsProfile#threshold_real_power_draw}
   */
   readonly thresholdRealPowerDraw?: number;
   /**
   * Alerting threshold in degrees Celsius.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_temperature_celsius SensorAlertsProfile#threshold_temperature_celsius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_temperature_celsius SensorAlertsProfile#threshold_temperature_celsius}
   */
   readonly thresholdTemperatureCelsius?: number;
   /**
   * Alerting threshold in degrees Fahrenheit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_temperature_fahrenheit SensorAlertsProfile#threshold_temperature_fahrenheit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_temperature_fahrenheit SensorAlertsProfile#threshold_temperature_fahrenheit}
   */
   readonly thresholdTemperatureFahrenheit?: number;
   /**
   * Alerting threshold as a qualitative temperature level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_temperature_quality SensorAlertsProfile#threshold_temperature_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_temperature_quality SensorAlertsProfile#threshold_temperature_quality}
   */
   readonly thresholdTemperatureQuality?: string;
   /**
   * Alerting threshold as TVOC micrograms per cubic meter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_tvoc_concentration SensorAlertsProfile#threshold_tvoc_concentration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_tvoc_concentration SensorAlertsProfile#threshold_tvoc_concentration}
   */
   readonly thresholdTvocConcentration?: number;
   /**
   * Alerting threshold as a qualitative TVOC level.
   *   - Choices: `fair`, `good`, `inadequate`, `poor`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_tvoc_quality SensorAlertsProfile#threshold_tvoc_quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_tvoc_quality SensorAlertsProfile#threshold_tvoc_quality}
   */
   readonly thresholdTvocQuality?: string;
   /**
   * Alerting threshold for an upstream power event. Must be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_upstream_power_outage_detected SensorAlertsProfile#threshold_upstream_power_outage_detected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_upstream_power_outage_detected SensorAlertsProfile#threshold_upstream_power_outage_detected}
   */
   readonly thresholdUpstreamPowerOutageDetected?: boolean | cdktf.IResolvable;
   /**
   * Alerting threshold in volts. Must be between 0 and 250.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_voltage_level SensorAlertsProfile#threshold_voltage_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_voltage_level SensorAlertsProfile#threshold_voltage_level}
   */
   readonly thresholdVoltageLevel?: number;
   /**
   * Alerting threshold for a water detection event. Must be set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#threshold_water_present SensorAlertsProfile#threshold_water_present}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#threshold_water_present SensorAlertsProfile#threshold_water_present}
   */
   readonly thresholdWaterPresent?: boolean | cdktf.IResolvable;
 }
@@ -1101,7 +1101,7 @@ export class SensorAlertsProfileConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile meraki_sensor_alerts_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile meraki_sensor_alerts_profile}
 */
 export class SensorAlertsProfile extends cdktf.TerraformResource {
 
@@ -1117,7 +1117,7 @@ export class SensorAlertsProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SensorAlertsProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SensorAlertsProfile to import
-  * @param importFromId The id of the existing SensorAlertsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SensorAlertsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SensorAlertsProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1129,7 +1129,7 @@ export class SensorAlertsProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/sensor_alerts_profile meraki_sensor_alerts_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/sensor_alerts_profile meraki_sensor_alerts_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1140,8 +1140,8 @@ export class SensorAlertsProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_sensor_alerts_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

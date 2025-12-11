@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_alternate_management_interface
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_alternate_management_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiWirelessAlternateManagementInterfaceConfig extends cd
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_alternate_management_interface#network_id DataMerakiWirelessAlternateManagementInterface#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_alternate_management_interface#network_id DataMerakiWirelessAlternateManagementInterface#network_id}
   */
   readonly networkId: string;
 }
@@ -116,7 +116,7 @@ export class DataMerakiWirelessAlternateManagementInterfaceAccessPointsList exte
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface}
 */
 export class DataMerakiWirelessAlternateManagementInterface extends cdktf.TerraformDataSource {
 
@@ -132,7 +132,7 @@ export class DataMerakiWirelessAlternateManagementInterface extends cdktf.Terraf
   * Generates CDKTF code for importing a DataMerakiWirelessAlternateManagementInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessAlternateManagementInterface to import
-  * @param importFromId The id of the existing DataMerakiWirelessAlternateManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_alternate_management_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessAlternateManagementInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_alternate_management_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessAlternateManagementInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class DataMerakiWirelessAlternateManagementInterface extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_alternate_management_interface meraki_wireless_alternate_management_interface} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +155,8 @@ export class DataMerakiWirelessAlternateManagementInterface extends cdktf.Terraf
       terraformResourceType: 'meraki_wireless_alternate_management_interface',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

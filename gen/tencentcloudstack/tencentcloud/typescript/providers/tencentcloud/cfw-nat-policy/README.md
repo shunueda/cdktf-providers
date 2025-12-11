@@ -1,3 +1,3 @@
 # `tencentcloud_cfw_nat_policy`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_cfw_nat_policy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cfw_nat_policy).
+Refer to the Terraform Registry for docs: [`tencentcloud_cfw_nat_policy`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cfw_nat_policy).

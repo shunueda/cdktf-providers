@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceRfProfilesConfig extends cdktf.TerraformMetaArguments 
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#items ApplianceRfProfiles#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#items ApplianceRfProfiles#items}
   */
   readonly items: ApplianceRfProfilesItems[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#network_id ApplianceRfProfiles#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#network_id ApplianceRfProfiles#network_id}
   */
   readonly networkId: string;
   /**
   * The organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#organization_id ApplianceRfProfiles#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#organization_id ApplianceRfProfiles#organization_id}
   */
   readonly organizationId: string;
 }
@@ -30,83 +30,83 @@ export interface ApplianceRfProfilesItems {
   /**
   * Determines whether ax radio on 5Ghz band is on or off. Can be either true or false. If false, we highly recommend disabling band steering. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#five_ghz_settings_ax_enabled ApplianceRfProfiles#five_ghz_settings_ax_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#five_ghz_settings_ax_enabled ApplianceRfProfiles#five_ghz_settings_ax_enabled}
   */
   readonly fiveGhzSettingsAxEnabled?: boolean | cdktf.IResolvable;
   /**
   * Sets min bitrate (Mbps) of 5Ghz band. Can be one of `6`, `9`, `12`, `18`, `24`, `36`, `48` or `54`. Defaults to 12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#five_ghz_settings_min_bitrate ApplianceRfProfiles#five_ghz_settings_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#five_ghz_settings_min_bitrate ApplianceRfProfiles#five_ghz_settings_min_bitrate}
   */
   readonly fiveGhzSettingsMinBitrate?: number;
   /**
   * The name of the new profile. Must be unique. This param is required on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#name ApplianceRfProfiles#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#name ApplianceRfProfiles#name}
   */
   readonly name: string;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_1_band_operation_mode ApplianceRfProfiles#per_ssid_settings_1_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_1_band_operation_mode ApplianceRfProfiles#per_ssid_settings_1_band_operation_mode}
   */
   readonly perSsidSettings1BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_1_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_1_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_1_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_1_band_steering_enabled}
   */
   readonly perSsidSettings1BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_2_band_operation_mode ApplianceRfProfiles#per_ssid_settings_2_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_2_band_operation_mode ApplianceRfProfiles#per_ssid_settings_2_band_operation_mode}
   */
   readonly perSsidSettings2BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_2_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_2_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_2_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_2_band_steering_enabled}
   */
   readonly perSsidSettings2BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_3_band_operation_mode ApplianceRfProfiles#per_ssid_settings_3_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_3_band_operation_mode ApplianceRfProfiles#per_ssid_settings_3_band_operation_mode}
   */
   readonly perSsidSettings3BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_3_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_3_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_3_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_3_band_steering_enabled}
   */
   readonly perSsidSettings3BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * Choice between `dual`, `2.4ghz`, `5ghz`, `6ghz` or `multi`.
   *   - Choices: `2.4ghz`, `5ghz`, `6ghz`, `dual`, `multi`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_4_band_operation_mode ApplianceRfProfiles#per_ssid_settings_4_band_operation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_4_band_operation_mode ApplianceRfProfiles#per_ssid_settings_4_band_operation_mode}
   */
   readonly perSsidSettings4BandOperationMode?: string;
   /**
   * Steers client to most open band between 2.4 GHz and 5 GHz. Can be either true or false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#per_ssid_settings_4_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_4_band_steering_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#per_ssid_settings_4_band_steering_enabled ApplianceRfProfiles#per_ssid_settings_4_band_steering_enabled}
   */
   readonly perSsidSettings4BandSteeringEnabled?: boolean | cdktf.IResolvable;
   /**
   * Determines whether ax radio on 2.4Ghz band is on or off. Can be either true or false. If false, we highly recommend disabling band steering. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#two_four_ghz_settings_ax_enabled ApplianceRfProfiles#two_four_ghz_settings_ax_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#two_four_ghz_settings_ax_enabled ApplianceRfProfiles#two_four_ghz_settings_ax_enabled}
   */
   readonly twoFourGhzSettingsAxEnabled?: boolean | cdktf.IResolvable;
   /**
   * Sets min bitrate (Mbps) of 2.4Ghz band. Can be one of `1`, `2`, `5.5`, `6`, `9`, `11`, `12`, `18`, `24`, `36`, `48` or `54`. Defaults to 11.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#two_four_ghz_settings_min_bitrate ApplianceRfProfiles#two_four_ghz_settings_min_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#two_four_ghz_settings_min_bitrate ApplianceRfProfiles#two_four_ghz_settings_min_bitrate}
   */
   readonly twoFourGhzSettingsMinBitrate?: number;
 }
@@ -572,7 +572,7 @@ export class ApplianceRfProfilesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles meraki_appliance_rf_profiles}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles meraki_appliance_rf_profiles}
 */
 export class ApplianceRfProfiles extends cdktf.TerraformResource {
 
@@ -588,7 +588,7 @@ export class ApplianceRfProfiles extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceRfProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceRfProfiles to import
-  * @param importFromId The id of the existing ApplianceRfProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceRfProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceRfProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -600,7 +600,7 @@ export class ApplianceRfProfiles extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_rf_profiles meraki_appliance_rf_profiles} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_rf_profiles meraki_appliance_rf_profiles} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -611,8 +611,8 @@ export class ApplianceRfProfiles extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_rf_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

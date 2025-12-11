@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface MpsAnimatedGraphicsTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * Template description information, length limit: 256 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#comment MpsAnimatedGraphicsTemplate#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#comment MpsAnimatedGraphicsTemplate#comment}
   */
   readonly comment?: string;
   /**
   * Animation format, the values are gif and webp. Default is gif.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#format MpsAnimatedGraphicsTemplate#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#format MpsAnimatedGraphicsTemplate#format}
   */
   readonly format?: string;
   /**
   * Frame rate, value range: [1, 30], unit: Hz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#fps MpsAnimatedGraphicsTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#fps MpsAnimatedGraphicsTemplate#fps}
   */
   readonly fps: number;
   /**
   * The maximum value of the animation height (or short side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#height MpsAnimatedGraphicsTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#height MpsAnimatedGraphicsTemplate#height}
   */
   readonly height?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#id MpsAnimatedGraphicsTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#id MpsAnimatedGraphicsTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface MpsAnimatedGraphicsTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * Rotation diagram template name, length limit: 64 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#name MpsAnimatedGraphicsTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#name MpsAnimatedGraphicsTemplate#name}
   */
   readonly name?: string;
   /**
   * Image quality, value range: [1, 100], default value is 75.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#quality MpsAnimatedGraphicsTemplate#quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#quality MpsAnimatedGraphicsTemplate#quality}
   */
   readonly quality?: number;
   /**
   * Adaptive resolution, optional value:open: At this time, Width represents the long side of the video, Height represents the short side of the video.close: At this point, Width represents the width of the video, and Height represents the height of the video.Default value: open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#resolution_adaptive MpsAnimatedGraphicsTemplate#resolution_adaptive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#resolution_adaptive MpsAnimatedGraphicsTemplate#resolution_adaptive}
   */
   readonly resolutionAdaptive?: string;
   /**
   * The maximum value of the animation width (or long side), value range: 0 and [128, 4096], unit: px.When Width and Height are both 0, the resolution is the same.When Width is 0 and Height is not 0, Width is scaled proportionally.When Width is not 0 and Height is 0, Height is scaled proportionally.When both Width and Height are not 0, the resolution is specified by the user.Default value: 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#width MpsAnimatedGraphicsTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#width MpsAnimatedGraphicsTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template tencentcloud_mps_animated_graphics_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template tencentcloud_mps_animated_graphics_template}
 */
 export class MpsAnimatedGraphicsTemplate extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class MpsAnimatedGraphicsTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsAnimatedGraphicsTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsAnimatedGraphicsTemplate to import
-  * @param importFromId The id of the existing MpsAnimatedGraphicsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsAnimatedGraphicsTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsAnimatedGraphicsTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class MpsAnimatedGraphicsTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_animated_graphics_template tencentcloud_mps_animated_graphics_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_animated_graphics_template tencentcloud_mps_animated_graphics_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class MpsAnimatedGraphicsTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_animated_graphics_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

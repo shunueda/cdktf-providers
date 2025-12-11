@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface OrganizationApplicationUserTokenConfig extends cdktf.TerraformM
   /**
   * Description. Maximum length: `1000`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#description OrganizationApplicationUserToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#description OrganizationApplicationUserToken#description}
   */
   readonly description?: string;
   /**
   * Extend token expiration time when token is used. Only applicable if max_age_seconds is specified. The default value is `false`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#extend_when_used OrganizationApplicationUserToken#extend_when_used}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#extend_when_used OrganizationApplicationUserToken#extend_when_used}
   */
   readonly extendWhenUsed?: boolean | cdktf.IResolvable;
   /**
   * List of allowed IP ranges. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#ip_allowlist OrganizationApplicationUserToken#ip_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#ip_allowlist OrganizationApplicationUserToken#ip_allowlist}
   */
   readonly ipAllowlist?: string[];
   /**
   * Time the token remains valid since creation (or since last use if extend_when_used is true). Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#max_age_seconds OrganizationApplicationUserToken#max_age_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#max_age_seconds OrganizationApplicationUserToken#max_age_seconds}
   */
   readonly maxAgeSeconds?: number;
   /**
   * ID of an organization. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#organization_id OrganizationApplicationUserToken#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#organization_id OrganizationApplicationUserToken#organization_id}
   */
   readonly organizationId: string;
   /**
   * Scopes this token is restricted to if specified. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#scopes OrganizationApplicationUserToken#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#scopes OrganizationApplicationUserToken#scopes}
   */
   readonly scopes?: string[];
   /**
   * User ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#user_id OrganizationApplicationUserToken#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#user_id OrganizationApplicationUserToken#user_id}
   */
   readonly userId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#timeouts OrganizationApplicationUserToken#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#timeouts OrganizationApplicationUserToken#timeouts}
   */
   readonly timeouts?: OrganizationApplicationUserTokenTimeouts;
 }
@@ -60,25 +60,25 @@ export interface OrganizationApplicationUserTokenTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#create OrganizationApplicationUserToken#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#create OrganizationApplicationUserToken#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#delete OrganizationApplicationUserToken#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#delete OrganizationApplicationUserToken#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#read OrganizationApplicationUserToken#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#read OrganizationApplicationUserToken#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#update OrganizationApplicationUserToken#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#update OrganizationApplicationUserToken#update}
   */
   readonly update?: string;
 }
@@ -259,7 +259,7 @@ export class OrganizationApplicationUserTokenTimeoutsOutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token aiven_organization_application_user_token}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token aiven_organization_application_user_token}
 */
 export class OrganizationApplicationUserToken extends cdktf.TerraformResource {
 
@@ -275,7 +275,7 @@ export class OrganizationApplicationUserToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationApplicationUserToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationApplicationUserToken to import
-  * @param importFromId The id of the existing OrganizationApplicationUserToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationApplicationUserToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationApplicationUserToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -287,7 +287,7 @@ export class OrganizationApplicationUserToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/organization_application_user_token aiven_organization_application_user_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_application_user_token aiven_organization_application_user_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -298,8 +298,8 @@ export class OrganizationApplicationUserToken extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_organization_application_user_token',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

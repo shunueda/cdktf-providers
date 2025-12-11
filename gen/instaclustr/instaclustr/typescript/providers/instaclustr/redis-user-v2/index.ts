@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2
+// https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RedisUserV2Config extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Redis cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#cluster_id RedisUserV2#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#cluster_id RedisUserV2#cluster_id}
   */
   readonly clusterId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#id RedisUserV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#id RedisUserV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface RedisUserV2Config extends cdktf.TerraformMetaArguments {
   /**
   * Permissions initially granted to Redis user upon creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#initial_permissions RedisUserV2#initial_permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#initial_permissions RedisUserV2#initial_permissions}
   */
   readonly initialPermissions: string;
   /**
   * Password for the Redis user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#password RedisUserV2#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#password RedisUserV2#password}
   */
   readonly password: string;
   /**
   * Username of the Redis user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#username RedisUserV2#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#username RedisUserV2#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#timeouts RedisUserV2#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#timeouts RedisUserV2#timeouts}
   */
   readonly timeouts?: RedisUserV2Timeouts;
 }
 export interface RedisUserV2Timeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#default RedisUserV2#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#default RedisUserV2#default}
   */
   readonly default?: string;
 }
@@ -141,7 +141,7 @@ export class RedisUserV2TimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2 instaclustr_redis_user_v2}
+* Represents a {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2 instaclustr_redis_user_v2}
 */
 export class RedisUserV2 extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class RedisUserV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisUserV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisUserV2 to import
-  * @param importFromId The id of the existing RedisUserV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisUserV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisUserV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class RedisUserV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.34/docs/resources/redis_user_v2 instaclustr_redis_user_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/instaclustr/instaclustr/2.1.35/docs/resources/redis_user_v2 instaclustr_redis_user_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class RedisUserV2 extends cdktf.TerraformResource {
       terraformResourceType: 'instaclustr_redis_user_v2',
       terraformGeneratorMetadata: {
         providerName: 'instaclustr',
-        providerVersion: '2.1.34',
-        providerVersionConstraint: '2.1.34'
+        providerVersion: '2.1.35',
+        providerVersionConstraint: '2.1.35'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

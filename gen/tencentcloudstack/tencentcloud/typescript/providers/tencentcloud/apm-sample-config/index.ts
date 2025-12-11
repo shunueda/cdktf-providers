@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ApmSampleConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#id ApmSampleConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#id ApmSampleConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface ApmSampleConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Business system ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#instance_id ApmSampleConfig#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#instance_id ApmSampleConfig#instance_id}
   */
   readonly instanceId: string;
   /**
   * API name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#operation_name ApmSampleConfig#operation_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#operation_name ApmSampleConfig#operation_name}
   */
   readonly operationName?: string;
   /**
   * 0: exact match (default); 1: prefix match; 2: suffix match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#operation_type ApmSampleConfig#operation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#operation_type ApmSampleConfig#operation_type}
   */
   readonly operationType?: number;
   /**
   * Sampling rule name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#sample_name ApmSampleConfig#sample_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#sample_name ApmSampleConfig#sample_name}
   */
   readonly sampleName: string;
   /**
   * Sampling rate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#sample_rate ApmSampleConfig#sample_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#sample_rate ApmSampleConfig#sample_rate}
   */
   readonly sampleRate: number;
   /**
   * Application name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#service_name ApmSampleConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#service_name ApmSampleConfig#service_name}
   */
   readonly serviceName: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#tags ApmSampleConfig#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#tags ApmSampleConfig#tags}
   */
   readonly tags?: ApmSampleConfigTags[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface ApmSampleConfigTags {
   /**
   * Key value definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#key ApmSampleConfig#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#key ApmSampleConfig#key}
   */
   readonly key: string;
   /**
   * Value definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#value ApmSampleConfig#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#value ApmSampleConfig#value}
   */
   readonly value: string;
 }
@@ -206,7 +206,7 @@ export class ApmSampleConfigTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config tencentcloud_apm_sample_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config tencentcloud_apm_sample_config}
 */
 export class ApmSampleConfig extends cdktf.TerraformResource {
 
@@ -222,7 +222,7 @@ export class ApmSampleConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApmSampleConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApmSampleConfig to import
-  * @param importFromId The id of the existing ApmSampleConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApmSampleConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApmSampleConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -234,7 +234,7 @@ export class ApmSampleConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/apm_sample_config tencentcloud_apm_sample_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/apm_sample_config tencentcloud_apm_sample_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -245,8 +245,8 @@ export class ApmSampleConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_apm_sample_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

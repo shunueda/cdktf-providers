@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -20,43 +20,43 @@ export interface ExposuresReportConfig extends cdktf.TerraformMetaArguments {
   *   - '30 12 ? * MON-FRI' = At 12:30 PM every weekday
   * Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#cron_schedule ExposuresReport#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#cron_schedule ExposuresReport#cron_schedule}
   */
   readonly cronSchedule?: string;
   /**
   * Timezone for cron schedule. For valid timezone formats, see: [iana-timezones](https://timeapi.io/documentation/iana-timezones). Note: Requires Xray 3.130.0 or higher. Only used when cron_schedule is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#cron_schedule_timezone ExposuresReport#cron_schedule_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#cron_schedule_timezone ExposuresReport#cron_schedule_timezone}
   */
   readonly cronScheduleTimezone?: string;
   /**
   * List of email addresses to notify when report generation is complete. Note: Requires Xray 3.130.0 or higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#emails ExposuresReport#emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#emails ExposuresReport#emails}
   */
   readonly emails?: string[];
   /**
   * Name of the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#name ExposuresReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#name ExposuresReport#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#project_key ExposuresReport#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#project_key ExposuresReport#project_key}
   */
   readonly projectKey?: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#filters ExposuresReport#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#filters ExposuresReport#filters}
   */
   readonly filters?: ExposuresReportFilters[] | cdktf.IResolvable;
   /**
   * resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#resources ExposuresReport#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#resources ExposuresReport#resources}
   */
   readonly resources?: ExposuresReportResources[] | cdktf.IResolvable;
 }
@@ -64,13 +64,13 @@ export interface ExposuresReportFiltersScanDate {
   /**
   * Scan to date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#end ExposuresReport#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#end ExposuresReport#end}
   */
   readonly end?: string;
   /**
   * Scan from date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#start ExposuresReport#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#start ExposuresReport#start}
   */
   readonly start?: string;
 }
@@ -217,19 +217,19 @@ export interface ExposuresReportFilters {
   /**
   * The exposure category. Must be one of: 'secrets', 'services', 'applications', 'iac'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#category ExposuresReport#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#category ExposuresReport#category}
   */
   readonly category: string;
   /**
   * Filter by impacted artifact name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#impacted_artifact ExposuresReport#impacted_artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#impacted_artifact ExposuresReport#impacted_artifact}
   */
   readonly impactedArtifact?: string;
   /**
   * scan_date block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#scan_date ExposuresReport#scan_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#scan_date ExposuresReport#scan_date}
   */
   readonly scanDate?: ExposuresReportFiltersScanDate[] | cdktf.IResolvable;
 }
@@ -402,25 +402,25 @@ export interface ExposuresReportResourcesBuilds {
   /**
   * The list of exclude patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#exclude_patterns ExposuresReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#exclude_patterns ExposuresReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#include_patterns ExposuresReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#include_patterns ExposuresReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of build names. Only one of 'names' or '*_patterns' can be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#names ExposuresReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#names ExposuresReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest build versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -625,31 +625,31 @@ export interface ExposuresReportResourcesProjects {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#exclude_key_patterns ExposuresReport#exclude_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#exclude_key_patterns ExposuresReport#exclude_key_patterns}
   */
   readonly excludeKeyPatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#include_key_patterns ExposuresReport#include_key_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#include_key_patterns ExposuresReport#include_key_patterns}
   */
   readonly includeKeyPatterns?: string[];
   /**
   * The list of project keys. Note: Available from Xray version 3.130.0 and higher.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#keys ExposuresReport#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#keys ExposuresReport#keys}
   */
   readonly keys?: string[];
   /**
   * The list of project names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#names ExposuresReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#names ExposuresReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -883,25 +883,25 @@ export interface ExposuresReportResourcesReleaseBundles {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#exclude_patterns ExposuresReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#exclude_patterns ExposuresReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#include_patterns ExposuresReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#include_patterns ExposuresReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#names ExposuresReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#names ExposuresReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1106,25 +1106,25 @@ export interface ExposuresReportResourcesReleaseBundlesV2 {
   /**
   * The list of exclude patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#exclude_patterns ExposuresReport#exclude_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#exclude_patterns ExposuresReport#exclude_patterns}
   */
   readonly excludePatterns?: string[];
   /**
   * The list of include patterns
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#include_patterns ExposuresReport#include_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#include_patterns ExposuresReport#include_patterns}
   */
   readonly includePatterns?: string[];
   /**
   * The list of release bundles names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#names ExposuresReport#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#names ExposuresReport#names}
   */
   readonly names?: string[];
   /**
   * The number of latest release bundle versions to include to the report.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#number_of_latest_versions ExposuresReport#number_of_latest_versions}
   */
   readonly numberOfLatestVersions?: number;
 }
@@ -1329,19 +1329,19 @@ export interface ExposuresReportResourcesRepository {
   /**
   * Exclude path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#exclude_path_patterns ExposuresReport#exclude_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#exclude_path_patterns ExposuresReport#exclude_path_patterns}
   */
   readonly excludePathPatterns?: string[];
   /**
   * Include path patterns.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#include_path_patterns ExposuresReport#include_path_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#include_path_patterns ExposuresReport#include_path_patterns}
   */
   readonly includePathPatterns?: string[];
   /**
   * Repository name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#name ExposuresReport#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#name ExposuresReport#name}
   */
   readonly name: string;
 }
@@ -1514,31 +1514,31 @@ export interface ExposuresReportResources {
   /**
   * builds block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#builds ExposuresReport#builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#builds ExposuresReport#builds}
   */
   readonly builds?: ExposuresReportResourcesBuilds[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#projects ExposuresReport#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#projects ExposuresReport#projects}
   */
   readonly projects?: ExposuresReportResourcesProjects[] | cdktf.IResolvable;
   /**
   * release_bundles block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#release_bundles ExposuresReport#release_bundles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#release_bundles ExposuresReport#release_bundles}
   */
   readonly releaseBundles?: ExposuresReportResourcesReleaseBundles[] | cdktf.IResolvable;
   /**
   * release_bundles_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#release_bundles_v2 ExposuresReport#release_bundles_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#release_bundles_v2 ExposuresReport#release_bundles_v2}
   */
   readonly releaseBundlesV2?: ExposuresReportResourcesReleaseBundlesV2[] | cdktf.IResolvable;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#repository ExposuresReport#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#repository ExposuresReport#repository}
   */
   readonly repository?: ExposuresReportResourcesRepository[] | cdktf.IResolvable;
 }
@@ -1770,7 +1770,7 @@ export class ExposuresReportResourcesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report xray_exposures_report}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report xray_exposures_report}
 */
 export class ExposuresReport extends cdktf.TerraformResource {
 
@@ -1786,7 +1786,7 @@ export class ExposuresReport extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ExposuresReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ExposuresReport to import
-  * @param importFromId The id of the existing ExposuresReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ExposuresReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ExposuresReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1798,7 +1798,7 @@ export class ExposuresReport extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/exposures_report xray_exposures_report} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/exposures_report xray_exposures_report} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1809,8 +1809,8 @@ export class ExposuresReport extends cdktf.TerraformResource {
       terraformResourceType: 'xray_exposures_report',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseExternalNonContainerDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#compartment_id DatabaseExternalNonContainerDatabase#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#compartment_id DatabaseExternalNonContainerDatabase#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#defined_tags DatabaseExternalNonContainerDatabase#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#defined_tags DatabaseExternalNonContainerDatabase#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#display_name DatabaseExternalNonContainerDatabase#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#display_name DatabaseExternalNonContainerDatabase#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#freeform_tags DatabaseExternalNonContainerDatabase#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#freeform_tags DatabaseExternalNonContainerDatabase#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#id DatabaseExternalNonContainerDatabase#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#id DatabaseExternalNonContainerDatabase#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface DatabaseExternalNonContainerDatabaseConfig extends cdktf.Terraf
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#timeouts DatabaseExternalNonContainerDatabase#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#timeouts DatabaseExternalNonContainerDatabase#timeouts}
   */
   readonly timeouts?: DatabaseExternalNonContainerDatabaseTimeouts;
 }
@@ -284,15 +284,15 @@ export class DatabaseExternalNonContainerDatabaseStackMonitoringConfigList exten
 }
 export interface DatabaseExternalNonContainerDatabaseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#create DatabaseExternalNonContainerDatabase#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#create DatabaseExternalNonContainerDatabase#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#delete DatabaseExternalNonContainerDatabase#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#delete DatabaseExternalNonContainerDatabase#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#update DatabaseExternalNonContainerDatabase#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#update DatabaseExternalNonContainerDatabase#update}
   */
   readonly update?: string;
 }
@@ -444,7 +444,7 @@ export class DatabaseExternalNonContainerDatabaseTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database oci_database_external_non_container_database}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database oci_database_external_non_container_database}
 */
 export class DatabaseExternalNonContainerDatabase extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class DatabaseExternalNonContainerDatabase extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a DatabaseExternalNonContainerDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseExternalNonContainerDatabase to import
-  * @param importFromId The id of the existing DatabaseExternalNonContainerDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseExternalNonContainerDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseExternalNonContainerDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class DatabaseExternalNonContainerDatabase extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_external_non_container_database oci_database_external_non_container_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_external_non_container_database oci_database_external_non_container_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class DatabaseExternalNonContainerDatabase extends cdktf.TerraformResourc
       terraformResourceType: 'oci_database_external_non_container_database',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

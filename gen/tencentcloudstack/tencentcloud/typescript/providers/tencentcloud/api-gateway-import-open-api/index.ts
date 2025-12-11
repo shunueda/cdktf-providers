@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ApiGatewayImportOpenApiConfig extends cdktf.TerraformMetaArgume
   /**
   * OpenAPI body content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api#content ApiGatewayImportOpenApi#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api#content ApiGatewayImportOpenApi#content}
   */
   readonly content: string;
   /**
   * The Content version defaults to OpenAPI and currently only supports OpenAPI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api#content_version ApiGatewayImportOpenApi#content_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api#content_version ApiGatewayImportOpenApi#content_version}
   */
   readonly contentVersion?: string;
   /**
   * The Content format can only be YAML or JSON, and the default is YAML.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api#encode_type ApiGatewayImportOpenApi#encode_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api#encode_type ApiGatewayImportOpenApi#encode_type}
   */
   readonly encodeType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api#id ApiGatewayImportOpenApi#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api#id ApiGatewayImportOpenApi#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,7 +35,7 @@ export interface ApiGatewayImportOpenApiConfig extends cdktf.TerraformMetaArgume
   /**
   * The unique ID of the service where the API is located.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api#service_id ApiGatewayImportOpenApi#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api#service_id ApiGatewayImportOpenApi#service_id}
   */
   readonly serviceId: string;
 }
@@ -871,7 +871,7 @@ export class ApiGatewayImportOpenApiServiceTsfLoadBalanceConfList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api tencentcloud_api_gateway_import_open_api}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api tencentcloud_api_gateway_import_open_api}
 */
 export class ApiGatewayImportOpenApi extends cdktf.TerraformResource {
 
@@ -887,7 +887,7 @@ export class ApiGatewayImportOpenApi extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayImportOpenApi resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayImportOpenApi to import
-  * @param importFromId The id of the existing ApiGatewayImportOpenApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayImportOpenApi that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayImportOpenApi to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -899,7 +899,7 @@ export class ApiGatewayImportOpenApi extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_import_open_api tencentcloud_api_gateway_import_open_api} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_import_open_api tencentcloud_api_gateway_import_open_api} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -910,8 +910,8 @@ export class ApiGatewayImportOpenApi extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_import_open_api',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

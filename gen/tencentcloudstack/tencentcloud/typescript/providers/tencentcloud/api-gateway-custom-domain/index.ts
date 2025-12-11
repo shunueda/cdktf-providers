@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApiGatewayCustomDomainConfig extends cdktf.TerraformMetaArgumen
   /**
   * Unique certificate ID of the custom domain name to be bound. You can choose to upload for the `protocol` attribute value `https` or `http&https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#certificate_id ApiGatewayCustomDomain#certificate_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#certificate_id ApiGatewayCustomDomain#certificate_id}
   */
   readonly certificateId?: string;
   /**
   * Default domain name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#default_domain ApiGatewayCustomDomain#default_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#default_domain ApiGatewayCustomDomain#default_domain}
   */
   readonly defaultDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#id ApiGatewayCustomDomain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#id ApiGatewayCustomDomain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface ApiGatewayCustomDomainConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether the default path mapping is used. The default value is `true`. When it is `false`, it means custom path mapping. In this case, the `path_mappings` attribute is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#is_default_mapping ApiGatewayCustomDomain#is_default_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#is_default_mapping ApiGatewayCustomDomain#is_default_mapping}
   */
   readonly isDefaultMapping?: boolean | cdktf.IResolvable;
   /**
   * Whether to force HTTP requests to jump to HTTPS, default to false. When the parameter is true, the API gateway will redirect all HTTP protocol requests using the custom domain name to the HTTPS protocol for forwarding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#is_forced_https ApiGatewayCustomDomain#is_forced_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#is_forced_https ApiGatewayCustomDomain#is_forced_https}
   */
   readonly isForcedHttps?: boolean | cdktf.IResolvable;
   /**
   * Network type. Valid values: `OUTER`, `INNER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#net_type ApiGatewayCustomDomain#net_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#net_type ApiGatewayCustomDomain#net_type}
   */
   readonly netType: string;
   /**
   * Custom domain name path mapping. The data format is: `path#environment`. Optional values for the environment are `test`, `prepub`, and `release`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#path_mappings ApiGatewayCustomDomain#path_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#path_mappings ApiGatewayCustomDomain#path_mappings}
   */
   readonly pathMappings?: string[];
   /**
   * Protocol supported by service. Valid values: `http`, `https`, `http&https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#protocol ApiGatewayCustomDomain#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#protocol ApiGatewayCustomDomain#protocol}
   */
   readonly protocol: string;
   /**
   * Unique service ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#service_id ApiGatewayCustomDomain#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#service_id ApiGatewayCustomDomain#service_id}
   */
   readonly serviceId: string;
   /**
   * Custom domain name to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#sub_domain ApiGatewayCustomDomain#sub_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#sub_domain ApiGatewayCustomDomain#sub_domain}
   */
   readonly subDomain: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain tencentcloud_api_gateway_custom_domain}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain tencentcloud_api_gateway_custom_domain}
 */
 export class ApiGatewayCustomDomain extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ApiGatewayCustomDomain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayCustomDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayCustomDomain to import
-  * @param importFromId The id of the existing ApiGatewayCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayCustomDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayCustomDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ApiGatewayCustomDomain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_custom_domain tencentcloud_api_gateway_custom_domain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_custom_domain tencentcloud_api_gateway_custom_domain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ApiGatewayCustomDomain extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_custom_domain',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

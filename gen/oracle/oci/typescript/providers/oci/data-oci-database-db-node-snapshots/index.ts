@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseDbNodeSnapshotsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#cluster_id DataOciDatabaseDbNodeSnapshots#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#cluster_id DataOciDatabaseDbNodeSnapshots#cluster_id}
   */
   readonly clusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#compartment_id DataOciDatabaseDbNodeSnapshots#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#compartment_id DataOciDatabaseDbNodeSnapshots#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#id DataOciDatabaseDbNodeSnapshots#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#id DataOciDatabaseDbNodeSnapshots#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#name DataOciDatabaseDbNodeSnapshots#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#name DataOciDatabaseDbNodeSnapshots#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#source_dbnode_id DataOciDatabaseDbNodeSnapshots#source_dbnode_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#source_dbnode_id DataOciDatabaseDbNodeSnapshots#source_dbnode_id}
   */
   readonly sourceDbnodeId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#state DataOciDatabaseDbNodeSnapshots#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#state DataOciDatabaseDbNodeSnapshots#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#filter DataOciDatabaseDbNodeSnapshots#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#filter DataOciDatabaseDbNodeSnapshots#filter}
   */
   readonly filter?: DataOciDatabaseDbNodeSnapshotsFilter[] | cdktf.IResolvable;
 }
@@ -353,15 +353,15 @@ export class DataOciDatabaseDbNodeSnapshotsDbnodeSnapshotsList extends cdktf.Com
 }
 export interface DataOciDatabaseDbNodeSnapshotsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#name DataOciDatabaseDbNodeSnapshots#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#name DataOciDatabaseDbNodeSnapshots#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#regex DataOciDatabaseDbNodeSnapshots#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#regex DataOciDatabaseDbNodeSnapshots#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#values DataOciDatabaseDbNodeSnapshots#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#values DataOciDatabaseDbNodeSnapshots#values}
   */
   readonly values: string[];
 }
@@ -529,7 +529,7 @@ export class DataOciDatabaseDbNodeSnapshotsFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots oci_database_db_node_snapshots}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots oci_database_db_node_snapshots}
 */
 export class DataOciDatabaseDbNodeSnapshots extends cdktf.TerraformDataSource {
 
@@ -545,7 +545,7 @@ export class DataOciDatabaseDbNodeSnapshots extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDatabaseDbNodeSnapshots resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseDbNodeSnapshots to import
-  * @param importFromId The id of the existing DataOciDatabaseDbNodeSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseDbNodeSnapshots that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseDbNodeSnapshots to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -557,7 +557,7 @@ export class DataOciDatabaseDbNodeSnapshots extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_db_node_snapshots oci_database_db_node_snapshots} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_db_node_snapshots oci_database_db_node_snapshots} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -568,8 +568,8 @@ export class DataOciDatabaseDbNodeSnapshots extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_database_db_node_snapshots',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

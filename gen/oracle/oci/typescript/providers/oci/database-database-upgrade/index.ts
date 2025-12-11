@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseDatabaseUpgradeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#action DatabaseDatabaseUpgrade#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#action DatabaseDatabaseUpgrade#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#database_id DatabaseDatabaseUpgrade#database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#database_id DatabaseDatabaseUpgrade#database_id}
   */
   readonly databaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#id DatabaseDatabaseUpgrade#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#id DatabaseDatabaseUpgrade#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DatabaseDatabaseUpgradeConfig extends cdktf.TerraformMetaArgume
   /**
   * database_upgrade_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#database_upgrade_source_details DatabaseDatabaseUpgrade#database_upgrade_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#database_upgrade_source_details DatabaseDatabaseUpgrade#database_upgrade_source_details}
   */
   readonly databaseUpgradeSourceDetails?: DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#timeouts DatabaseDatabaseUpgrade#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#timeouts DatabaseDatabaseUpgrade#timeouts}
   */
   readonly timeouts?: DatabaseDatabaseUpgradeTimeouts;
 }
@@ -580,19 +580,19 @@ export class DatabaseDatabaseUpgradeDbBackupConfigList extends cdktf.ComplexList
 }
 export interface DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#database_software_image_id DatabaseDatabaseUpgrade#database_software_image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#database_software_image_id DatabaseDatabaseUpgrade#database_software_image_id}
   */
   readonly databaseSoftwareImageId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#db_version DatabaseDatabaseUpgrade#db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#db_version DatabaseDatabaseUpgrade#db_version}
   */
   readonly dbVersion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#options DatabaseDatabaseUpgrade#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#options DatabaseDatabaseUpgrade#options}
   */
   readonly options?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#source DatabaseDatabaseUpgrade#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#source DatabaseDatabaseUpgrade#source}
   */
   readonly source?: string;
 }
@@ -763,15 +763,15 @@ export class DatabaseDatabaseUpgradeDatabaseUpgradeSourceDetailsOutputReference 
 }
 export interface DatabaseDatabaseUpgradeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#create DatabaseDatabaseUpgrade#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#create DatabaseDatabaseUpgrade#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#delete DatabaseDatabaseUpgrade#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#delete DatabaseDatabaseUpgrade#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#update DatabaseDatabaseUpgrade#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#update DatabaseDatabaseUpgrade#update}
   */
   readonly update?: string;
 }
@@ -923,7 +923,7 @@ export class DatabaseDatabaseUpgradeTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade oci_database_database_upgrade}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade oci_database_database_upgrade}
 */
 export class DatabaseDatabaseUpgrade extends cdktf.TerraformResource {
 
@@ -939,7 +939,7 @@ export class DatabaseDatabaseUpgrade extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabaseDatabaseUpgrade resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseDatabaseUpgrade to import
-  * @param importFromId The id of the existing DatabaseDatabaseUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseDatabaseUpgrade that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseDatabaseUpgrade to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -951,7 +951,7 @@ export class DatabaseDatabaseUpgrade extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_database_upgrade oci_database_database_upgrade} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_database_upgrade oci_database_database_upgrade} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -962,8 +962,8 @@ export class DatabaseDatabaseUpgrade extends cdktf.TerraformResource {
       terraformResourceType: 'oci_database_database_upgrade',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

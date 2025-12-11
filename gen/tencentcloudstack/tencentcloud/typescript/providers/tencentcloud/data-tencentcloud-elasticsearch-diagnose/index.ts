@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudElasticsearchDiagnoseConfig extends cdktf.Terra
   /**
   * Report date, format 20210301.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose#date DataTencentcloudElasticsearchDiagnose#date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose#date DataTencentcloudElasticsearchDiagnose#date}
   */
   readonly date?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose#id DataTencentcloudElasticsearchDiagnose#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose#id DataTencentcloudElasticsearchDiagnose#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudElasticsearchDiagnoseConfig extends cdktf.Terra
   /**
   * Instance id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose#instance_id DataTencentcloudElasticsearchDiagnose#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose#instance_id DataTencentcloudElasticsearchDiagnose#instance_id}
   */
   readonly instanceId: string;
   /**
   * Number of copies returned in the report. Default value 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose#limit DataTencentcloudElasticsearchDiagnose#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose#limit DataTencentcloudElasticsearchDiagnose#limit}
   */
   readonly limit?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose#result_output_file DataTencentcloudElasticsearchDiagnose#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose#result_output_file DataTencentcloudElasticsearchDiagnose#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -768,7 +768,7 @@ export class DataTencentcloudElasticsearchDiagnoseDiagnoseResultsList extends cd
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose}
 */
 export class DataTencentcloudElasticsearchDiagnose extends cdktf.TerraformDataSource {
 
@@ -784,7 +784,7 @@ export class DataTencentcloudElasticsearchDiagnose extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataTencentcloudElasticsearchDiagnose resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudElasticsearchDiagnose to import
-  * @param importFromId The id of the existing DataTencentcloudElasticsearchDiagnose that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudElasticsearchDiagnose that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudElasticsearchDiagnose to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -796,7 +796,7 @@ export class DataTencentcloudElasticsearchDiagnose extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/elasticsearch_diagnose tencentcloud_elasticsearch_diagnose} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -807,8 +807,8 @@ export class DataTencentcloudElasticsearchDiagnose extends cdktf.TerraformDataSo
       terraformResourceType: 'tencentcloud_elasticsearch_diagnose',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

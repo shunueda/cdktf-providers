@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,62 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseAutonomousContainerDatabaseAddStandbyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#autonomous_container_database_id DatabaseAutonomousContainerDatabaseAddStandby#autonomous_container_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#autonomous_container_database_id DatabaseAutonomousContainerDatabaseAddStandby#autonomous_container_database_id}
   */
   readonly autonomousContainerDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#fast_start_fail_over_lag_limit_in_seconds DatabaseAutonomousContainerDatabaseAddStandby#fast_start_fail_over_lag_limit_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#fast_start_fail_over_lag_limit_in_seconds DatabaseAutonomousContainerDatabaseAddStandby#fast_start_fail_over_lag_limit_in_seconds}
   */
   readonly fastStartFailOverLagLimitInSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#is_automatic_failover_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_automatic_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#is_automatic_failover_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_automatic_failover_enabled}
   */
   readonly isAutomaticFailoverEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_compartment_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_compartment_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_compartment_id}
   */
   readonly peerAutonomousContainerDatabaseCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_display_name DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_display_name DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_display_name}
   */
   readonly peerAutonomousContainerDatabaseDisplayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_vm_cluster_id}
   */
   readonly peerAutonomousVmClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#peer_cloud_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_cloud_autonomous_vm_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#peer_cloud_autonomous_vm_cluster_id DatabaseAutonomousContainerDatabaseAddStandby#peer_cloud_autonomous_vm_cluster_id}
   */
   readonly peerCloudAutonomousVmClusterId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#peer_db_unique_name DatabaseAutonomousContainerDatabaseAddStandby#peer_db_unique_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#peer_db_unique_name DatabaseAutonomousContainerDatabaseAddStandby#peer_db_unique_name}
   */
   readonly peerDbUniqueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#protection_mode DatabaseAutonomousContainerDatabaseAddStandby#protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#protection_mode DatabaseAutonomousContainerDatabaseAddStandby#protection_mode}
   */
   readonly protectionMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#standby_maintenance_buffer_in_days DatabaseAutonomousContainerDatabaseAddStandby#standby_maintenance_buffer_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#standby_maintenance_buffer_in_days DatabaseAutonomousContainerDatabaseAddStandby#standby_maintenance_buffer_in_days}
   */
   readonly standbyMaintenanceBufferInDays?: number;
   /**
   * peer_autonomous_container_database_backup_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_backup_config DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_backup_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#peer_autonomous_container_database_backup_config DatabaseAutonomousContainerDatabaseAddStandby#peer_autonomous_container_database_backup_config}
   */
   readonly peerAutonomousContainerDatabaseBackupConfig?: DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#timeouts DatabaseAutonomousContainerDatabaseAddStandby#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#timeouts DatabaseAutonomousContainerDatabaseAddStandby#timeouts}
   */
   readonly timeouts?: DatabaseAutonomousContainerDatabaseAddStandbyTimeouts;
 }
@@ -938,38 +938,38 @@ export class DatabaseAutonomousContainerDatabaseAddStandbyMaintenanceWindowList 
 }
 export interface DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfigBackupDestinationDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#backup_retention_policy_on_terminate DatabaseAutonomousContainerDatabaseAddStandby#backup_retention_policy_on_terminate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#backup_retention_policy_on_terminate DatabaseAutonomousContainerDatabaseAddStandby#backup_retention_policy_on_terminate}
   */
   readonly backupRetentionPolicyOnTerminate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#dbrs_policy_id DatabaseAutonomousContainerDatabaseAddStandby#dbrs_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#dbrs_policy_id DatabaseAutonomousContainerDatabaseAddStandby#dbrs_policy_id}
   */
   readonly dbrsPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#id DatabaseAutonomousContainerDatabaseAddStandby#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#internet_proxy DatabaseAutonomousContainerDatabaseAddStandby#internet_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#internet_proxy DatabaseAutonomousContainerDatabaseAddStandby#internet_proxy}
   */
   readonly internetProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#is_retention_lock_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_retention_lock_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#is_retention_lock_enabled DatabaseAutonomousContainerDatabaseAddStandby#is_retention_lock_enabled}
   */
   readonly isRetentionLockEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#type DatabaseAutonomousContainerDatabaseAddStandby#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#type DatabaseAutonomousContainerDatabaseAddStandby#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#vpc_password DatabaseAutonomousContainerDatabaseAddStandby#vpc_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#vpc_password DatabaseAutonomousContainerDatabaseAddStandby#vpc_password}
   */
   readonly vpcPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#vpc_user DatabaseAutonomousContainerDatabaseAddStandby#vpc_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#vpc_user DatabaseAutonomousContainerDatabaseAddStandby#vpc_user}
   */
   readonly vpcUser?: string;
 }
@@ -1285,13 +1285,13 @@ export class DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContaine
 }
 export interface DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#recovery_window_in_days DatabaseAutonomousContainerDatabaseAddStandby#recovery_window_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#recovery_window_in_days DatabaseAutonomousContainerDatabaseAddStandby#recovery_window_in_days}
   */
   readonly recoveryWindowInDays?: number;
   /**
   * backup_destination_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#backup_destination_details DatabaseAutonomousContainerDatabaseAddStandby#backup_destination_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#backup_destination_details DatabaseAutonomousContainerDatabaseAddStandby#backup_destination_details}
   */
   readonly backupDestinationDetails?: DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContainerDatabaseBackupConfigBackupDestinationDetails[] | cdktf.IResolvable;
 }
@@ -1404,15 +1404,15 @@ export class DatabaseAutonomousContainerDatabaseAddStandbyPeerAutonomousContaine
 }
 export interface DatabaseAutonomousContainerDatabaseAddStandbyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#create DatabaseAutonomousContainerDatabaseAddStandby#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#create DatabaseAutonomousContainerDatabaseAddStandby#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#delete DatabaseAutonomousContainerDatabaseAddStandby#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#delete DatabaseAutonomousContainerDatabaseAddStandby#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#update DatabaseAutonomousContainerDatabaseAddStandby#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#update DatabaseAutonomousContainerDatabaseAddStandby#update}
   */
   readonly update?: string;
 }
@@ -1564,7 +1564,7 @@ export class DatabaseAutonomousContainerDatabaseAddStandbyTimeoutsOutputReferenc
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby oci_database_autonomous_container_database_add_standby}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby oci_database_autonomous_container_database_add_standby}
 */
 export class DatabaseAutonomousContainerDatabaseAddStandby extends cdktf.TerraformResource {
 
@@ -1580,7 +1580,7 @@ export class DatabaseAutonomousContainerDatabaseAddStandby extends cdktf.Terrafo
   * Generates CDKTF code for importing a DatabaseAutonomousContainerDatabaseAddStandby resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseAutonomousContainerDatabaseAddStandby to import
-  * @param importFromId The id of the existing DatabaseAutonomousContainerDatabaseAddStandby that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseAutonomousContainerDatabaseAddStandby that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseAutonomousContainerDatabaseAddStandby to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1592,7 +1592,7 @@ export class DatabaseAutonomousContainerDatabaseAddStandby extends cdktf.Terrafo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_autonomous_container_database_add_standby oci_database_autonomous_container_database_add_standby} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_autonomous_container_database_add_standby oci_database_autonomous_container_database_add_standby} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1603,8 +1603,8 @@ export class DatabaseAutonomousContainerDatabaseAddStandby extends cdktf.Terrafo
       terraformResourceType: 'oci_database_autonomous_container_database_add_standby',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

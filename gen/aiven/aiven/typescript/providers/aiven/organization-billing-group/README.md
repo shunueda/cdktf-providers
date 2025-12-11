@@ -1,0 +1,3 @@
+# `aiven_organization_billing_group`
+
+Refer to the Terraform Registry for docs: [`aiven_organization_billing_group`](https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/organization_billing_group).

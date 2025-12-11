@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApplianceVpnBgpConfig extends cdktf.TerraformMetaArguments {
   /**
   * An Autonomous System Number (ASN) is required if you are to run BGP and peer with another BGP Speaker outside of the Auto VPN domain. This ASN will be applied to the entire Auto VPN domain. The entire 4-byte ASN range is supported. So, the ASN must be an integer between 1 and 4294967295. When absent, this field is not updated. If no value exists then it defaults to 64512.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#as_number ApplianceVpnBgp#as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#as_number ApplianceVpnBgp#as_number}
   */
   readonly asNumber?: number;
   /**
   * Boolean value to enable or disable the BGP configuration. When BGP is enabled, the asNumber (ASN) will be autopopulated with the preconfigured ASN at other Hubs or a default value if there is no ASN configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#enabled ApplianceVpnBgp#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#enabled ApplianceVpnBgp#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The iBGP holdtimer in seconds. The iBGP holdtimer must be an integer between 12 and 240. When absent, this field is not updated. If no value exists then it defaults to 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#ibgp_hold_timer ApplianceVpnBgp#ibgp_hold_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#ibgp_hold_timer ApplianceVpnBgp#ibgp_hold_timer}
   */
   readonly ibgpHoldTimer?: number;
   /**
   * List of BGP neighbors. This list replaces the existing set of neighbors. When absent, this field is not updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#neighbors ApplianceVpnBgp#neighbors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#neighbors ApplianceVpnBgp#neighbors}
   */
   readonly neighbors?: ApplianceVpnBgpNeighbors[] | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#network_id ApplianceVpnBgp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#network_id ApplianceVpnBgp#network_id}
   */
   readonly networkId: string;
 }
@@ -42,85 +42,85 @@ export interface ApplianceVpnBgpNeighbors {
   /**
   * When this feature is on, the Meraki device will advertise routes learned from other Autonomous Systems, thereby allowing traffic between Autonomous Systems to transit this AS. When absent, it defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#allow_transit ApplianceVpnBgp#allow_transit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#allow_transit ApplianceVpnBgp#allow_transit}
   */
   readonly allowTransit?: boolean | cdktf.IResolvable;
   /**
   * Password to configure MD5 authentication between BGP peers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#authentication_password ApplianceVpnBgp#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#authentication_password ApplianceVpnBgp#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * The eBGP hold timer in seconds for each neighbor. The eBGP hold timer must be an integer between 12 and 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#ebgp_hold_timer ApplianceVpnBgp#ebgp_hold_timer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#ebgp_hold_timer ApplianceVpnBgp#ebgp_hold_timer}
   */
   readonly ebgpHoldTimer: number;
   /**
   * Configure this if the neighbor is not adjacent. The eBGP multi-hop must be an integer between 1 and 255.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#ebgp_multihop ApplianceVpnBgp#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#ebgp_multihop ApplianceVpnBgp#ebgp_multihop}
   */
   readonly ebgpMultihop: number;
   /**
   * The IPv4 address of the neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#ip ApplianceVpnBgp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#ip ApplianceVpnBgp#ip}
   */
   readonly ip: string;
   /**
   * The IPv6 address of the neighbor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#ipv6_address ApplianceVpnBgp#ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#ipv6_address ApplianceVpnBgp#ipv6_address}
   */
   readonly ipv6Address?: string;
   /**
   * Configures the local metric associated with routes received from the remote peer. Routes from peers with lower metrics are will be preferred. Must be an integer between 0 and 4294967295. MED is 6th in the decision tree when identical routes from multiple peers exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#multi_exit_discriminator ApplianceVpnBgp#multi_exit_discriminator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#multi_exit_discriminator ApplianceVpnBgp#multi_exit_discriminator}
   */
   readonly multiExitDiscriminator?: number;
   /**
   * The IPv4 address of the remote BGP peer that will establish a TCP session with the local MX.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#next_hop_ip ApplianceVpnBgp#next_hop_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#next_hop_ip ApplianceVpnBgp#next_hop_ip}
   */
   readonly nextHopIp?: string;
   /**
   * Prepends the AS_PATH BGP Attribute associated with routes received from the remote peer. Configurable value of ASNs to prepend. Length of the array may not exceed 10, and each ASN in the array must be an integer between 1 and 4294967295. AS_PATH is 4th in the decision tree when identical routes from multiple peers exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#path_prepend ApplianceVpnBgp#path_prepend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#path_prepend ApplianceVpnBgp#path_prepend}
   */
   readonly pathPrepend?: number[];
   /**
   * The receive limit is the maximum number of routes that can be received from any BGP peer. The receive limit must be an integer between 0 and 2147483647. When absent, it defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#receive_limit ApplianceVpnBgp#receive_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#receive_limit ApplianceVpnBgp#receive_limit}
   */
   readonly receiveLimit?: number;
   /**
   * Remote ASN of the neighbor. The remote ASN must be an integer between 1 and 4294967295.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#remote_as_number ApplianceVpnBgp#remote_as_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#remote_as_number ApplianceVpnBgp#remote_as_number}
   */
   readonly remoteAsNumber: number;
   /**
   * The output interface for peering with the remote BGP peer. Valid values are: `wan1`, `wan2` or `vlan{VLAN ID}`(e.g. `vlan123`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#source_interface ApplianceVpnBgp#source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#source_interface ApplianceVpnBgp#source_interface}
   */
   readonly sourceInterface?: string;
   /**
   * Boolean value to enable or disable BGP TTL security.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#ttl_security_enabled ApplianceVpnBgp#ttl_security_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#ttl_security_enabled ApplianceVpnBgp#ttl_security_enabled}
   */
   readonly ttlSecurityEnabled?: boolean | cdktf.IResolvable;
   /**
   * Sets the local weight for routes received from the remote peer. Routes from peers with higher weights will be preferred. Must be an integer between 0 and 49.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#weight ApplianceVpnBgp#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#weight ApplianceVpnBgp#weight}
   */
   readonly weight?: number;
 }
@@ -601,7 +601,7 @@ export class ApplianceVpnBgpNeighborsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp meraki_appliance_vpn_bgp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp meraki_appliance_vpn_bgp}
 */
 export class ApplianceVpnBgp extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class ApplianceVpnBgp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceVpnBgp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceVpnBgp to import
-  * @param importFromId The id of the existing ApplianceVpnBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceVpnBgp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceVpnBgp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class ApplianceVpnBgp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vpn_bgp meraki_appliance_vpn_bgp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vpn_bgp meraki_appliance_vpn_bgp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class ApplianceVpnBgp extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_vpn_bgp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

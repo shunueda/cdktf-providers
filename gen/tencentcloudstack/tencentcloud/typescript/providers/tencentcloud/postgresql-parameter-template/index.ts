@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PostgresqlParameterTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * Database engine, such as postgresql, mssql_compatible.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#db_engine PostgresqlParameterTemplate#db_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#db_engine PostgresqlParameterTemplate#db_engine}
   */
   readonly dbEngine: string;
   /**
   * The major database version number, such as 11, 12, 13.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#db_major_version PostgresqlParameterTemplate#db_major_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#db_major_version PostgresqlParameterTemplate#db_major_version}
   */
   readonly dbMajorVersion: string;
   /**
   * The set of parameters that need to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#delete_param_set PostgresqlParameterTemplate#delete_param_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#delete_param_set PostgresqlParameterTemplate#delete_param_set}
   */
   readonly deleteParamSet?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#id PostgresqlParameterTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#id PostgresqlParameterTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface PostgresqlParameterTemplateConfig extends cdktf.TerraformMetaAr
   /**
   * Parameter template description, which can contain 1-60 letters, digits, and symbols (-_./()+=:@).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#template_description PostgresqlParameterTemplate#template_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#template_description PostgresqlParameterTemplate#template_description}
   */
   readonly templateDescription?: string;
   /**
   * Template name, which can contain 1-60 letters, digits, and symbols (-_./()+=:@).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#template_name PostgresqlParameterTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#template_name PostgresqlParameterTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * modify_param_entry_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#modify_param_entry_set PostgresqlParameterTemplate#modify_param_entry_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#modify_param_entry_set PostgresqlParameterTemplate#modify_param_entry_set}
   */
   readonly modifyParamEntrySet?: PostgresqlParameterTemplateModifyParamEntrySet[] | cdktf.IResolvable;
 }
@@ -55,13 +55,13 @@ export interface PostgresqlParameterTemplateModifyParamEntrySet {
   /**
   * Modify the parameter value. The input parameters are passed in the form of strings, for example: decimal `0.1`, integer `1000`, enumeration `replica`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#expected_value PostgresqlParameterTemplate#expected_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#expected_value PostgresqlParameterTemplate#expected_value}
   */
   readonly expectedValue: string;
   /**
   * The parameter name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#name PostgresqlParameterTemplate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#name PostgresqlParameterTemplate#name}
   */
   readonly name: string;
 }
@@ -200,7 +200,7 @@ export class PostgresqlParameterTemplateModifyParamEntrySetList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template tencentcloud_postgresql_parameter_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template tencentcloud_postgresql_parameter_template}
 */
 export class PostgresqlParameterTemplate extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class PostgresqlParameterTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresqlParameterTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlParameterTemplate to import
-  * @param importFromId The id of the existing PostgresqlParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlParameterTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlParameterTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class PostgresqlParameterTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_parameter_template tencentcloud_postgresql_parameter_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_parameter_template tencentcloud_postgresql_parameter_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class PostgresqlParameterTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_postgresql_parameter_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

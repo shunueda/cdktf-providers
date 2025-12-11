@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataTencentcloudMonitorAlarmHistoryConfig extends cdktf.Terrafo
   /**
   * Alarm levels.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#alarm_levels DataTencentcloudMonitorAlarmHistory#alarm_levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#alarm_levels DataTencentcloudMonitorAlarmHistory#alarm_levels}
   */
   readonly alarmLevels?: string[];
   /**
   * Filter by alarm object. Fuzzy search with string is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#alarm_object DataTencentcloudMonitorAlarmHistory#alarm_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#alarm_object DataTencentcloudMonitorAlarmHistory#alarm_object}
   */
   readonly alarmObject?: string;
   /**
   * Filter by alarm status. Valid values: ALARM (not resolved), OK (resolved), NO_CONF (expired), NO_DATA (insufficient data). If this parameter is left empty, all will be queried by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#alarm_status DataTencentcloudMonitorAlarmHistory#alarm_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#alarm_status DataTencentcloudMonitorAlarmHistory#alarm_status}
   */
   readonly alarmStatus?: string[];
   /**
   * Fuzzy search by alarm content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#content DataTencentcloudMonitorAlarmHistory#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#content DataTencentcloudMonitorAlarmHistory#content}
   */
   readonly content?: string;
   /**
   * End time, which is the current timestamp and the time when the alarm FirstOccurTime first occurs. An alarm record can be searched only if its FirstOccurTime is earlier than the EndTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#end_time DataTencentcloudMonitorAlarmHistory#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#end_time DataTencentcloudMonitorAlarmHistory#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#id DataTencentcloudMonitorAlarmHistory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#id DataTencentcloudMonitorAlarmHistory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,79 +47,79 @@ export interface DataTencentcloudMonitorAlarmHistoryConfig extends cdktf.Terrafo
   /**
   * Filter by instance group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#instance_group_ids DataTencentcloudMonitorAlarmHistory#instance_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#instance_group_ids DataTencentcloudMonitorAlarmHistory#instance_group_ids}
   */
   readonly instanceGroupIds?: number[];
   /**
   * Filter by metric name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#metric_names DataTencentcloudMonitorAlarmHistory#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#metric_names DataTencentcloudMonitorAlarmHistory#metric_names}
   */
   readonly metricNames?: string[];
   /**
   * Value fixed at monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#module DataTencentcloudMonitorAlarmHistory#module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#module DataTencentcloudMonitorAlarmHistory#module}
   */
   readonly module: string;
   /**
   * Filter by monitor type. Valid values: MT_QCE (Tencent Cloud service monitoring), MT_TAW (application performance monitoring), MT_RUM (frontend performance monitoring), MT_PROBE (cloud automated testing). If this parameter is left empty, all types will be queried by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#monitor_types DataTencentcloudMonitorAlarmHistory#monitor_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#monitor_types DataTencentcloudMonitorAlarmHistory#monitor_types}
   */
   readonly monitorTypes?: string[];
   /**
   * Sort by the first occurrence time in descending order by default. Valid values: ASC (ascending), DESC (descending).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#order DataTencentcloudMonitorAlarmHistory#order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#order DataTencentcloudMonitorAlarmHistory#order}
   */
   readonly order?: string;
   /**
   * Search by alarm policy ID list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#policy_ids DataTencentcloudMonitorAlarmHistory#policy_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#policy_ids DataTencentcloudMonitorAlarmHistory#policy_ids}
   */
   readonly policyIds?: string[];
   /**
   * Fuzzy search by policy name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#policy_name DataTencentcloudMonitorAlarmHistory#policy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#policy_name DataTencentcloudMonitorAlarmHistory#policy_name}
   */
   readonly policyName?: string;
   /**
   * Filter by project ID. Valid values: -1 (no project), 0 (default project).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#project_ids DataTencentcloudMonitorAlarmHistory#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#project_ids DataTencentcloudMonitorAlarmHistory#project_ids}
   */
   readonly projectIds?: number[];
   /**
   * Search by recipient group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#receiver_groups DataTencentcloudMonitorAlarmHistory#receiver_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#receiver_groups DataTencentcloudMonitorAlarmHistory#receiver_groups}
   */
   readonly receiverGroups?: number[];
   /**
   * Search by recipient.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#receiver_uids DataTencentcloudMonitorAlarmHistory#receiver_uids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#receiver_uids DataTencentcloudMonitorAlarmHistory#receiver_uids}
   */
   readonly receiverUids?: number[];
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#result_output_file DataTencentcloudMonitorAlarmHistory#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#result_output_file DataTencentcloudMonitorAlarmHistory#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Start time, which is the timestamp one day ago by default and the time when the alarm FirstOccurTime first occurs. An alarm record can be searched only if its FirstOccurTime is later than the StartTime.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#start_time DataTencentcloudMonitorAlarmHistory#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#start_time DataTencentcloudMonitorAlarmHistory#start_time}
   */
   readonly startTime?: number;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#namespaces DataTencentcloudMonitorAlarmHistory#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#namespaces DataTencentcloudMonitorAlarmHistory#namespaces}
   */
   readonly namespaces?: DataTencentcloudMonitorAlarmHistoryNamespaces[] | cdktf.IResolvable;
 }
@@ -499,13 +499,13 @@ export interface DataTencentcloudMonitorAlarmHistoryNamespaces {
   /**
   * Monitor type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#monitor_type DataTencentcloudMonitorAlarmHistory#monitor_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#monitor_type DataTencentcloudMonitorAlarmHistory#monitor_type}
   */
   readonly monitorType: string;
   /**
   * Policy type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#namespace DataTencentcloudMonitorAlarmHistory#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#namespace DataTencentcloudMonitorAlarmHistory#namespace}
   */
   readonly namespace: string;
 }
@@ -644,7 +644,7 @@ export class DataTencentcloudMonitorAlarmHistoryNamespacesList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history tencentcloud_monitor_alarm_history}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history tencentcloud_monitor_alarm_history}
 */
 export class DataTencentcloudMonitorAlarmHistory extends cdktf.TerraformDataSource {
 
@@ -660,7 +660,7 @@ export class DataTencentcloudMonitorAlarmHistory extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudMonitorAlarmHistory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMonitorAlarmHistory to import
-  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmHistory that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMonitorAlarmHistory that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMonitorAlarmHistory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -672,7 +672,7 @@ export class DataTencentcloudMonitorAlarmHistory extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/monitor_alarm_history tencentcloud_monitor_alarm_history} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/monitor_alarm_history tencentcloud_monitor_alarm_history} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -683,8 +683,8 @@ export class DataTencentcloudMonitorAlarmHistory extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_monitor_alarm_history',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

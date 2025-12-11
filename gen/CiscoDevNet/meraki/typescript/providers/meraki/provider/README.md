@@ -1,3 +1,3 @@
 # `provider`
 
-Refer to the Terraform Registry for docs: [`meraki`](https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs).
+Refer to the Terraform Registry for docs: [`meraki`](https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs).

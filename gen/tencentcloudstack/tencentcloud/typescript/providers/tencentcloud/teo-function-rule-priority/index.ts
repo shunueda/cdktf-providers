@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoFunctionRulePriorityConfig extends cdktf.TerraformMetaArgume
   /**
   * ID of the Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority#function_id TeoFunctionRulePriority#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority#function_id TeoFunctionRulePriority#function_id}
   */
   readonly functionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority#id TeoFunctionRulePriority#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority#id TeoFunctionRulePriority#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TeoFunctionRulePriorityConfig extends cdktf.TerraformMetaArgume
   /**
   * he list of rule IDs. It is required to include all rule IDs after adjusting their priorities. The execution order of multiple rules follows a top-down sequence. If not specified, the original priority order will be maintained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority#rule_ids TeoFunctionRulePriority#rule_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority#rule_ids TeoFunctionRulePriority#rule_ids}
   */
   readonly ruleIds: string[];
   /**
   * ID of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority#zone_id TeoFunctionRulePriority#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority#zone_id TeoFunctionRulePriority#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority tencentcloud_teo_function_rule_priority}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority tencentcloud_teo_function_rule_priority}
 */
 export class TeoFunctionRulePriority extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class TeoFunctionRulePriority extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoFunctionRulePriority resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoFunctionRulePriority to import
-  * @param importFromId The id of the existing TeoFunctionRulePriority that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoFunctionRulePriority that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoFunctionRulePriority to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class TeoFunctionRulePriority extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule_priority tencentcloud_teo_function_rule_priority} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule_priority tencentcloud_teo_function_rule_priority} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class TeoFunctionRulePriority extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_function_rule_priority',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

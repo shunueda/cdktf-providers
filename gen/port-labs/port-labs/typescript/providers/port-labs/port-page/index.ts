@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface PortPageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The identifier of the page/folder after which the page should be placed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#after PortPage#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#after PortPage#after}
   */
   readonly after?: string;
   /**
   * The blueprint for which the page is created, relevant only for pages of type "blueprint-entities"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#blueprint PortPage#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#blueprint PortPage#blueprint}
   */
   readonly blueprint?: string;
   /**
   * The page description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#description PortPage#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#description PortPage#description}
   */
   readonly description?: string;
   /**
   * The icon of the page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#icon PortPage#icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#icon PortPage#icon}
   */
   readonly icon?: string;
   /**
   * The Identifier of the page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#identifier PortPage#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#identifier PortPage#identifier}
   */
   readonly identifier: string;
   /**
   * Whether the page is locked, if true, viewers will not be able to edit the page widgets and filters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#locked PortPage#locked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#locked PortPage#locked}
   */
   readonly locked?: boolean | cdktf.IResolvable;
   /**
   * The page filters. Each filter is a JSON object with 'identifier' (string), 'title' (string), and 'query' (object with 'combinator' and 'rules' array). The rules array can contain any filter type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#page_filters PortPage#page_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#page_filters PortPage#page_filters}
   */
   readonly pageFilters?: string[];
   /**
   * The identifier of the folder in which the page is in, default is the root of the sidebar
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#parent PortPage#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#parent PortPage#parent}
   */
   readonly parent?: string;
   /**
   * The title of the page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#title PortPage#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#title PortPage#title}
   */
   readonly title?: string;
   /**
   * The type of the page, can be one of "blueprint-entities", "dashboard" or "home"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#type PortPage#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#type PortPage#type}
   */
   readonly type: string;
   /**
   * The widgets of the page
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#widgets PortPage#widgets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#widgets PortPage#widgets}
   */
   readonly widgets?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page port_page}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page port_page}
 */
 export class PortPage extends cdktf.TerraformResource {
 
@@ -92,7 +92,7 @@ export class PortPage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortPage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortPage to import
-  * @param importFromId The id of the existing PortPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortPage that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortPage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class PortPage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_page port_page} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_page port_page} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class PortPage extends cdktf.TerraformResource {
       terraformResourceType: 'port_page',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.17.2',
+        providerVersionConstraint: '2.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

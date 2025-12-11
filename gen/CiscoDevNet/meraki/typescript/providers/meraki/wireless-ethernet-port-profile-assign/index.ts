@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WirelessEthernetPortProfileAssignConfig extends cdktf.Terraform
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign#network_id WirelessEthernetPortProfileAssign#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign#network_id WirelessEthernetPortProfileAssign#network_id}
   */
   readonly networkId: string;
   /**
   * AP profile ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign#profile_id WirelessEthernetPortProfileAssign#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign#profile_id WirelessEthernetPortProfileAssign#profile_id}
   */
   readonly profileId: string;
   /**
   * List of AP serials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign#serials WirelessEthernetPortProfileAssign#serials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign#serials WirelessEthernetPortProfileAssign#serials}
   */
   readonly serials: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign meraki_wireless_ethernet_port_profile_assign}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign meraki_wireless_ethernet_port_profile_assign}
 */
 export class WirelessEthernetPortProfileAssign extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class WirelessEthernetPortProfileAssign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessEthernetPortProfileAssign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessEthernetPortProfileAssign to import
-  * @param importFromId The id of the existing WirelessEthernetPortProfileAssign that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessEthernetPortProfileAssign that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessEthernetPortProfileAssign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class WirelessEthernetPortProfileAssign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile_assign meraki_wireless_ethernet_port_profile_assign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile_assign meraki_wireless_ethernet_port_profile_assign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class WirelessEthernetPortProfileAssign extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ethernet_port_profile_assign',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

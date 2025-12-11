@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseManagementManagedDatabasesUserProxyUsersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#id DataOciDatabaseManagementManagedDatabasesUserProxyUsers#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#id DataOciDatabaseManagementManagedDatabasesUserProxyUsers#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#managed_database_id DataOciDatabaseManagementManagedDatabasesUserProxyUsers#managed_database_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#managed_database_id DataOciDatabaseManagementManagedDatabasesUserProxyUsers#managed_database_id}
   */
   readonly managedDatabaseId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#name DataOciDatabaseManagementManagedDatabasesUserProxyUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#name DataOciDatabaseManagementManagedDatabasesUserProxyUsers#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabasesUserProxyUsers#opc_named_credential_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#opc_named_credential_id DataOciDatabaseManagementManagedDatabasesUserProxyUsers#opc_named_credential_id}
   */
   readonly opcNamedCredentialId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#user_name DataOciDatabaseManagementManagedDatabasesUserProxyUsers#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#user_name DataOciDatabaseManagementManagedDatabasesUserProxyUsers#user_name}
   */
   readonly userName: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#filter DataOciDatabaseManagementManagedDatabasesUserProxyUsers#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#filter DataOciDatabaseManagementManagedDatabasesUserProxyUsers#filter}
   */
   readonly filter?: DataOciDatabaseManagementManagedDatabasesUserProxyUsersFilter[] | cdktf.IResolvable;
 }
@@ -200,15 +200,15 @@ export class DataOciDatabaseManagementManagedDatabasesUserProxyUsersProxyUserCol
 }
 export interface DataOciDatabaseManagementManagedDatabasesUserProxyUsersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#name DataOciDatabaseManagementManagedDatabasesUserProxyUsers#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#name DataOciDatabaseManagementManagedDatabasesUserProxyUsers#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#regex DataOciDatabaseManagementManagedDatabasesUserProxyUsers#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#regex DataOciDatabaseManagementManagedDatabasesUserProxyUsers#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#values DataOciDatabaseManagementManagedDatabasesUserProxyUsers#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#values DataOciDatabaseManagementManagedDatabasesUserProxyUsers#values}
   */
   readonly values: string[];
 }
@@ -376,7 +376,7 @@ export class DataOciDatabaseManagementManagedDatabasesUserProxyUsersFilterList e
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users oci_database_management_managed_databases_user_proxy_users}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users oci_database_management_managed_databases_user_proxy_users}
 */
 export class DataOciDatabaseManagementManagedDatabasesUserProxyUsers extends cdktf.TerraformDataSource {
 
@@ -392,7 +392,7 @@ export class DataOciDatabaseManagementManagedDatabasesUserProxyUsers extends cdk
   * Generates CDKTF code for importing a DataOciDatabaseManagementManagedDatabasesUserProxyUsers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseManagementManagedDatabasesUserProxyUsers to import
-  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabasesUserProxyUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseManagementManagedDatabasesUserProxyUsers that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseManagementManagedDatabasesUserProxyUsers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -404,7 +404,7 @@ export class DataOciDatabaseManagementManagedDatabasesUserProxyUsers extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_management_managed_databases_user_proxy_users oci_database_management_managed_databases_user_proxy_users} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_management_managed_databases_user_proxy_users oci_database_management_managed_databases_user_proxy_users} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -415,8 +415,8 @@ export class DataOciDatabaseManagementManagedDatabasesUserProxyUsers extends cdk
       terraformResourceType: 'oci_database_management_managed_databases_user_proxy_users',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

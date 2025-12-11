@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDbmulticloudOracleDbGcpIdentityConnectorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#compartment_id DataOciDbmulticloudOracleDbGcpIdentityConnectors#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#compartment_id DataOciDbmulticloudOracleDbGcpIdentityConnectors#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#display_name DataOciDbmulticloudOracleDbGcpIdentityConnectors#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#display_name DataOciDbmulticloudOracleDbGcpIdentityConnectors#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#id DataOciDbmulticloudOracleDbGcpIdentityConnectors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#id DataOciDbmulticloudOracleDbGcpIdentityConnectors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#resource_id DataOciDbmulticloudOracleDbGcpIdentityConnectors#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#resource_id DataOciDbmulticloudOracleDbGcpIdentityConnectors#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#state DataOciDbmulticloudOracleDbGcpIdentityConnectors#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#state DataOciDbmulticloudOracleDbGcpIdentityConnectors#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#filter DataOciDbmulticloudOracleDbGcpIdentityConnectors#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#filter DataOciDbmulticloudOracleDbGcpIdentityConnectors#filter}
   */
   readonly filter?: DataOciDbmulticloudOracleDbGcpIdentityConnectorsFilter[] | cdktf.IResolvable;
 }
@@ -374,15 +374,15 @@ export class DataOciDbmulticloudOracleDbGcpIdentityConnectorsOracleDbGcpIdentity
 }
 export interface DataOciDbmulticloudOracleDbGcpIdentityConnectorsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#name DataOciDbmulticloudOracleDbGcpIdentityConnectors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#name DataOciDbmulticloudOracleDbGcpIdentityConnectors#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#regex DataOciDbmulticloudOracleDbGcpIdentityConnectors#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#regex DataOciDbmulticloudOracleDbGcpIdentityConnectors#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#values DataOciDbmulticloudOracleDbGcpIdentityConnectors#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#values DataOciDbmulticloudOracleDbGcpIdentityConnectors#values}
   */
   readonly values: string[];
 }
@@ -550,7 +550,7 @@ export class DataOciDbmulticloudOracleDbGcpIdentityConnectorsFilterList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors oci_dbmulticloud_oracle_db_gcp_identity_connectors}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors oci_dbmulticloud_oracle_db_gcp_identity_connectors}
 */
 export class DataOciDbmulticloudOracleDbGcpIdentityConnectors extends cdktf.TerraformDataSource {
 
@@ -566,7 +566,7 @@ export class DataOciDbmulticloudOracleDbGcpIdentityConnectors extends cdktf.Terr
   * Generates CDKTF code for importing a DataOciDbmulticloudOracleDbGcpIdentityConnectors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDbmulticloudOracleDbGcpIdentityConnectors to import
-  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbGcpIdentityConnectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDbmulticloudOracleDbGcpIdentityConnectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDbmulticloudOracleDbGcpIdentityConnectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -578,7 +578,7 @@ export class DataOciDbmulticloudOracleDbGcpIdentityConnectors extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors oci_dbmulticloud_oracle_db_gcp_identity_connectors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dbmulticloud_oracle_db_gcp_identity_connectors oci_dbmulticloud_oracle_db_gcp_identity_connectors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -589,8 +589,8 @@ export class DataOciDbmulticloudOracleDbGcpIdentityConnectors extends cdktf.Terr
       terraformResourceType: 'oci_dbmulticloud_oracle_db_gcp_identity_connectors',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

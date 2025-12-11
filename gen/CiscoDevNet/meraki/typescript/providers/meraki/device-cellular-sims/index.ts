@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DeviceCellularSimsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#serial DeviceCellularSims#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#serial DeviceCellularSims#serial}
   */
   readonly serial: string;
   /**
   * Failover to secondary SIM (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#sim_failover_enabled DeviceCellularSims#sim_failover_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#sim_failover_enabled DeviceCellularSims#sim_failover_enabled}
   */
   readonly simFailoverEnabled?: boolean | cdktf.IResolvable;
   /**
   * Failover timeout in seconds (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#sim_failover_timeout DeviceCellularSims#sim_failover_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#sim_failover_timeout DeviceCellularSims#sim_failover_timeout}
   */
   readonly simFailoverTimeout?: number;
   /**
   * Specifies the ordering of all SIMs for an MG: primary, secondary, and not-in-use (when applicable). It`s required for devices with 3 or more SIMs and can be used in place of `isPrimary` for dual-SIM devices. To indicate eSIM, use `sim3`. Sim failover will occur only between primary and secondary sim slots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#sim_ordering DeviceCellularSims#sim_ordering}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#sim_ordering DeviceCellularSims#sim_ordering}
   */
   readonly simOrdering?: string[];
   /**
   * List of SIMs. If a SIM was previously configured and not specified in this request, it will remain unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#sims DeviceCellularSims#sims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#sims DeviceCellularSims#sims}
   */
   readonly sims?: DeviceCellularSimsSims[] | cdktf.IResolvable;
 }
@@ -42,32 +42,32 @@ export interface DeviceCellularSimsSimsApns {
   /**
   * IP versions to support (permitted values include `ipv4`, `ipv6`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#allowed_ip_types DeviceCellularSims#allowed_ip_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#allowed_ip_types DeviceCellularSims#allowed_ip_types}
   */
   readonly allowedIpTypes: string[];
   /**
   * APN password, if type is set (if APN password is not supplied, the password is left unchanged).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#authentication_password DeviceCellularSims#authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#authentication_password DeviceCellularSims#authentication_password}
   */
   readonly authenticationPassword?: string;
   /**
   * APN auth type.
   *   - Choices: `chap`, `none`, `pap`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#authentication_type DeviceCellularSims#authentication_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#authentication_type DeviceCellularSims#authentication_type}
   */
   readonly authenticationType?: string;
   /**
   * APN username, if type is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#authentication_username DeviceCellularSims#authentication_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#authentication_username DeviceCellularSims#authentication_username}
   */
   readonly authenticationUsername?: string;
   /**
   * APN name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#name DeviceCellularSims#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#name DeviceCellularSims#name}
   */
   readonly name: string;
 }
@@ -295,25 +295,25 @@ export interface DeviceCellularSimsSims {
   /**
   * APN configurations. If empty, the default APN will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#apns DeviceCellularSims#apns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#apns DeviceCellularSims#apns}
   */
   readonly apns?: DeviceCellularSimsSimsApns[] | cdktf.IResolvable;
   /**
   * If true, this SIM is activated on platform bootup. It must be true on single-SIM devices and is a required field for dual-SIM MGs unless it is being configured using `simOrdering`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#is_primary DeviceCellularSims#is_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#is_primary DeviceCellularSims#is_primary}
   */
   readonly isPrimary?: boolean | cdktf.IResolvable;
   /**
   * Priority of SIM slot being configured. Use a value between 1 and total number of SIMs available. The value must be unique for each SIM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#sim_order DeviceCellularSims#sim_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#sim_order DeviceCellularSims#sim_order}
   */
   readonly simOrder?: number;
   /**
   * SIM slot being configured. Must be `sim1` on single-sim devices. Use `sim3` for eSIM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#slot DeviceCellularSims#slot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#slot DeviceCellularSims#slot}
   */
   readonly slot: string;
 }
@@ -513,7 +513,7 @@ export class DeviceCellularSimsSimsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims meraki_device_cellular_sims}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims meraki_device_cellular_sims}
 */
 export class DeviceCellularSims extends cdktf.TerraformResource {
 
@@ -529,7 +529,7 @@ export class DeviceCellularSims extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DeviceCellularSims resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DeviceCellularSims to import
-  * @param importFromId The id of the existing DeviceCellularSims that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DeviceCellularSims that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DeviceCellularSims to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -541,7 +541,7 @@ export class DeviceCellularSims extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/device_cellular_sims meraki_device_cellular_sims} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/device_cellular_sims meraki_device_cellular_sims} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -552,8 +552,8 @@ export class DeviceCellularSims extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_device_cellular_sims',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

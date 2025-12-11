@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace
+// https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface NamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Active Cluster Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#active_cluster_name Namespace#active_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#active_cluster_name Namespace#active_cluster_name}
   */
   readonly activeClusterName?: string;
   /**
   * Namespace Description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#description Namespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#description Namespace#description}
   */
   readonly description?: string;
   /**
   * History Archival State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#history_archival_state Namespace#history_archival_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#history_archival_state Namespace#history_archival_state}
   */
   readonly historyArchivalState?: string;
   /**
   * History Archival URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#history_archival_uri Namespace#history_archival_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#history_archival_uri Namespace#history_archival_uri}
   */
   readonly historyArchivalUri?: string;
   /**
   * Namespace is Global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#is_global_namespace Namespace#is_global_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#is_global_namespace Namespace#is_global_namespace}
   */
   readonly isGlobalNamespace?: boolean | cdktf.IResolvable;
   /**
   * Namespace name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#name Namespace#name}
   */
   readonly name: string;
   /**
   * Namespace Owner Email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#owner_email Namespace#owner_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#owner_email Namespace#owner_email}
   */
   readonly ownerEmail: string;
   /**
   * Workflow Execution retention
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#retention Namespace#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#retention Namespace#retention}
   */
   readonly retention?: number;
   /**
   * Visibility Archival State
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#visibility_archival_state Namespace#visibility_archival_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#visibility_archival_state Namespace#visibility_archival_state}
   */
   readonly visibilityArchivalState?: string;
   /**
   * Visibility Archival URI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#visibility_archival_uri Namespace#visibility_archival_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#visibility_archival_uri Namespace#visibility_archival_uri}
   */
   readonly visibilityArchivalUri?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace temporal_namespace}
+* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace temporal_namespace}
 */
 export class Namespace extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class Namespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Namespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Namespace to import
-  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Namespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class Namespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/namespace temporal_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/namespace temporal_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class Namespace extends cdktf.TerraformResource {
       terraformResourceType: 'temporal_namespace',
       terraformGeneratorMetadata: {
         providerName: 'temporal',
-        providerVersion: '0.14.0',
-        providerVersionConstraint: '0.14.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

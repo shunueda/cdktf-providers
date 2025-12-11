@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CatalogLabelsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set of catalog labels to manage. At least one label is required. Maximum of 500 labels can be created in a single operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#labels CatalogLabels#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#labels CatalogLabels#labels}
   */
   readonly labels?: CatalogLabelsLabels[] | cdktf.IResolvable;
   /**
   * Set of package assignments. Assigns labels to packages. Note: Only one label per package is supported by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#package_assignments CatalogLabels#package_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#package_assignments CatalogLabels#package_assignments}
   */
   readonly packageAssignments?: CatalogLabelsPackageAssignments[] | cdktf.IResolvable;
   /**
   * Set of package version assignments. Assigns labels to specific package versions. Note: Only one label per package version is supported by the API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#version_assignments CatalogLabels#version_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#version_assignments CatalogLabels#version_assignments}
   */
   readonly versionAssignments?: CatalogLabelsVersionAssignments[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface CatalogLabelsLabels {
   /**
   * Description of the catalog label. Must have at most 300 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#description CatalogLabels#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#description CatalogLabels#description}
   */
   readonly description: string;
   /**
   * The name of the catalog label. Must be unique and have at most 15 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#name CatalogLabels#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#name CatalogLabels#name}
   */
   readonly name: string;
 }
@@ -177,19 +177,19 @@ export interface CatalogLabelsPackageAssignments {
   /**
   * Label name to assign to the package. API supports only 1 label per assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#label_name CatalogLabels#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#label_name CatalogLabels#label_name}
   */
   readonly labelName: string;
   /**
   * Name of the package to assign labels to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#package_name CatalogLabels#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#package_name CatalogLabels#package_name}
   */
   readonly packageName: string;
   /**
   * Type of the package (e.g., npm, maven, docker, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#package_type CatalogLabels#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#package_type CatalogLabels#package_type}
   */
   readonly packageType: string;
 }
@@ -356,25 +356,25 @@ export interface CatalogLabelsVersionAssignments {
   /**
   * Label name to assign to the package version. API supports only 1 label per assignment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#label_name CatalogLabels#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#label_name CatalogLabels#label_name}
   */
   readonly labelName: string;
   /**
   * Name of the package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#package_name CatalogLabels#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#package_name CatalogLabels#package_name}
   */
   readonly packageName: string;
   /**
   * Type of the package (e.g., npm, maven, docker, etc.).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#package_type CatalogLabels#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#package_type CatalogLabels#package_type}
   */
   readonly packageType: string;
   /**
   * List of versions for bulk assignment with the same label. Must contain at least one non-empty version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#versions CatalogLabels#versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#versions CatalogLabels#versions}
   */
   readonly versions: string[];
 }
@@ -565,7 +565,7 @@ export class CatalogLabelsVersionAssignmentsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels xray_catalog_labels}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels xray_catalog_labels}
 */
 export class CatalogLabels extends cdktf.TerraformResource {
 
@@ -581,7 +581,7 @@ export class CatalogLabels extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CatalogLabels resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CatalogLabels to import
-  * @param importFromId The id of the existing CatalogLabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CatalogLabels that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CatalogLabels to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -593,7 +593,7 @@ export class CatalogLabels extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/catalog_labels xray_catalog_labels} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/catalog_labels xray_catalog_labels} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -604,8 +604,8 @@ export class CatalogLabels extends cdktf.TerraformResource {
       terraformResourceType: 'xray_catalog_labels',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

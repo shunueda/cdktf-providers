@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApmTracesScheduledQueriesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#apm_domain_id DataOciApmTracesScheduledQueries#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#apm_domain_id DataOciApmTracesScheduledQueries#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#display_name DataOciApmTracesScheduledQueries#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#display_name DataOciApmTracesScheduledQueries#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#id DataOciApmTracesScheduledQueries#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#id DataOciApmTracesScheduledQueries#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,7 +25,7 @@ export interface DataOciApmTracesScheduledQueriesConfig extends cdktf.TerraformM
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#filter DataOciApmTracesScheduledQueries#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#filter DataOciApmTracesScheduledQueries#filter}
   */
   readonly filter?: DataOciApmTracesScheduledQueriesFilter[] | cdktf.IResolvable;
 }
@@ -634,15 +634,15 @@ export class DataOciApmTracesScheduledQueriesScheduledQueryCollectionList extend
 }
 export interface DataOciApmTracesScheduledQueriesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#name DataOciApmTracesScheduledQueries#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#name DataOciApmTracesScheduledQueries#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#regex DataOciApmTracesScheduledQueries#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#regex DataOciApmTracesScheduledQueries#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#values DataOciApmTracesScheduledQueries#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#values DataOciApmTracesScheduledQueries#values}
   */
   readonly values: string[];
 }
@@ -810,7 +810,7 @@ export class DataOciApmTracesScheduledQueriesFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries oci_apm_traces_scheduled_queries}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries oci_apm_traces_scheduled_queries}
 */
 export class DataOciApmTracesScheduledQueries extends cdktf.TerraformDataSource {
 
@@ -826,7 +826,7 @@ export class DataOciApmTracesScheduledQueries extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciApmTracesScheduledQueries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApmTracesScheduledQueries to import
-  * @param importFromId The id of the existing DataOciApmTracesScheduledQueries that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApmTracesScheduledQueries that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApmTracesScheduledQueries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -838,7 +838,7 @@ export class DataOciApmTracesScheduledQueries extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_traces_scheduled_queries oci_apm_traces_scheduled_queries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_traces_scheduled_queries oci_apm_traces_scheduled_queries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -849,8 +849,8 @@ export class DataOciApmTracesScheduledQueries extends cdktf.TerraformDataSource 
       terraformResourceType: 'oci_apm_traces_scheduled_queries',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface MysqlMysqlBackupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#backup_type MysqlMysqlBackup#backup_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#backup_type MysqlMysqlBackup#backup_type}
   */
   readonly backupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#db_system_id MysqlMysqlBackup#db_system_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#db_system_id MysqlMysqlBackup#db_system_id}
   */
   readonly dbSystemId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#defined_tags MysqlMysqlBackup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#defined_tags MysqlMysqlBackup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#description MysqlMysqlBackup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#description MysqlMysqlBackup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#display_name MysqlMysqlBackup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#display_name MysqlMysqlBackup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#freeform_tags MysqlMysqlBackup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#freeform_tags MysqlMysqlBackup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#id MysqlMysqlBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#id MysqlMysqlBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#retention_in_days MysqlMysqlBackup#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#retention_in_days MysqlMysqlBackup#retention_in_days}
   */
   readonly retentionInDays?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#soft_delete MysqlMysqlBackup#soft_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#soft_delete MysqlMysqlBackup#soft_delete}
   */
   readonly softDelete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#validate_trigger MysqlMysqlBackup#validate_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#validate_trigger MysqlMysqlBackup#validate_trigger}
   */
   readonly validateTrigger?: number;
   /**
   * db_system_snapshot_summary block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#db_system_snapshot_summary MysqlMysqlBackup#db_system_snapshot_summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#db_system_snapshot_summary MysqlMysqlBackup#db_system_snapshot_summary}
   */
   readonly dbSystemSnapshotSummary?: MysqlMysqlBackupDbSystemSnapshotSummary[] | cdktf.IResolvable;
   /**
   * encrypt_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#encrypt_data MysqlMysqlBackup#encrypt_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#encrypt_data MysqlMysqlBackup#encrypt_data}
   */
   readonly encryptData?: MysqlMysqlBackupEncryptData;
   /**
   * source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#source_details MysqlMysqlBackup#source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#source_details MysqlMysqlBackup#source_details}
   */
   readonly sourceDetails?: MysqlMysqlBackupSourceDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#timeouts MysqlMysqlBackup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#timeouts MysqlMysqlBackup#timeouts}
   */
   readonly timeouts?: MysqlMysqlBackupTimeouts;
   /**
   * validate_backup_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#validate_backup_details MysqlMysqlBackup#validate_backup_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#validate_backup_details MysqlMysqlBackup#validate_backup_details}
   */
   readonly validateBackupDetails?: MysqlMysqlBackupValidateBackupDetails[] | cdktf.IResolvable;
 }
@@ -1509,18 +1509,18 @@ export class MysqlMysqlBackupDbSystemSnapshotList extends cdktf.ComplexList {
 }
 export interface MysqlMysqlBackupDbSystemSnapshotSummary {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#display_name MysqlMysqlBackup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#display_name MysqlMysqlBackup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#id MysqlMysqlBackup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#id MysqlMysqlBackup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#region MysqlMysqlBackup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#region MysqlMysqlBackup#region}
   */
   readonly region?: string;
 }
@@ -1694,11 +1694,11 @@ export class MysqlMysqlBackupDbSystemSnapshotSummaryList extends cdktf.ComplexLi
 }
 export interface MysqlMysqlBackupEncryptData {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#key_generation_type MysqlMysqlBackup#key_generation_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#key_generation_type MysqlMysqlBackup#key_generation_type}
   */
   readonly keyGenerationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#key_id MysqlMysqlBackup#key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#key_id MysqlMysqlBackup#key_id}
   */
   readonly keyId?: string;
 }
@@ -1808,15 +1808,15 @@ export class MysqlMysqlBackupEncryptDataOutputReference extends cdktf.ComplexObj
 }
 export interface MysqlMysqlBackupSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#backup_id MysqlMysqlBackup#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#backup_id MysqlMysqlBackup#backup_id}
   */
   readonly backupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#compartment_id MysqlMysqlBackup#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#region MysqlMysqlBackup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#region MysqlMysqlBackup#region}
   */
   readonly region: string;
 }
@@ -1949,15 +1949,15 @@ export class MysqlMysqlBackupSourceDetailsOutputReference extends cdktf.ComplexO
 }
 export interface MysqlMysqlBackupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#create MysqlMysqlBackup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#create MysqlMysqlBackup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#delete MysqlMysqlBackup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#delete MysqlMysqlBackup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#update MysqlMysqlBackup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#update MysqlMysqlBackup#update}
   */
   readonly update?: string;
 }
@@ -2109,7 +2109,7 @@ export class MysqlMysqlBackupTimeoutsOutputReference extends cdktf.ComplexObject
 }
 export interface MysqlMysqlBackupValidateBackupDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#is_prepared_backup_required MysqlMysqlBackup#is_prepared_backup_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#is_prepared_backup_required MysqlMysqlBackup#is_prepared_backup_required}
   */
   readonly isPreparedBackupRequired: boolean | cdktf.IResolvable;
 }
@@ -2222,7 +2222,7 @@ export class MysqlMysqlBackupValidateBackupDetailsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup oci_mysql_mysql_backup}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup oci_mysql_mysql_backup}
 */
 export class MysqlMysqlBackup extends cdktf.TerraformResource {
 
@@ -2238,7 +2238,7 @@ export class MysqlMysqlBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MysqlMysqlBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MysqlMysqlBackup to import
-  * @param importFromId The id of the existing MysqlMysqlBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MysqlMysqlBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MysqlMysqlBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2250,7 +2250,7 @@ export class MysqlMysqlBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/mysql_mysql_backup oci_mysql_mysql_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/mysql_mysql_backup oci_mysql_mysql_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2261,8 +2261,8 @@ export class MysqlMysqlBackup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_mysql_mysql_backup',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

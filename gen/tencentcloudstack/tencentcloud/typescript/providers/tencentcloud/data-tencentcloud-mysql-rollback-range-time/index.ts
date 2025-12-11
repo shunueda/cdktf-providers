@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataTencentcloudMysqlRollbackRangeTimeConfig extends cdktf.Terr
   /**
   * If the clone instance is not in the same region as the source instance, fill in the region where the clone instance is located, for example: ap-guangzhou.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time#backup_region DataTencentcloudMysqlRollbackRangeTime#backup_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time#backup_region DataTencentcloudMysqlRollbackRangeTime#backup_region}
   */
   readonly backupRegion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time#id DataTencentcloudMysqlRollbackRangeTime#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time#id DataTencentcloudMysqlRollbackRangeTime#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataTencentcloudMysqlRollbackRangeTimeConfig extends cdktf.Terr
   /**
   * A list of instance IDs, the format of a single instance ID is: cdb-c1nl9rpv. Same instance ID as displayed in the ApsaraDB for Console page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time#instance_ids DataTencentcloudMysqlRollbackRangeTime#instance_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time#instance_ids DataTencentcloudMysqlRollbackRangeTime#instance_ids}
   */
   readonly instanceIds: string[];
   /**
   * Whether the clone instance is in the same zone as the source instance, yes: `false`, no: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time#is_remote_zone DataTencentcloudMysqlRollbackRangeTime#is_remote_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time#is_remote_zone DataTencentcloudMysqlRollbackRangeTime#is_remote_zone}
   */
   readonly isRemoteZone?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time#result_output_file DataTencentcloudMysqlRollbackRangeTime#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time#result_output_file DataTencentcloudMysqlRollbackRangeTime#result_output_file}
   */
   readonly resultOutputFile?: string;
 }
@@ -212,7 +212,7 @@ export class DataTencentcloudMysqlRollbackRangeTimeItemsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time tencentcloud_mysql_rollback_range_time}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time tencentcloud_mysql_rollback_range_time}
 */
 export class DataTencentcloudMysqlRollbackRangeTime extends cdktf.TerraformDataSource {
 
@@ -228,7 +228,7 @@ export class DataTencentcloudMysqlRollbackRangeTime extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataTencentcloudMysqlRollbackRangeTime resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudMysqlRollbackRangeTime to import
-  * @param importFromId The id of the existing DataTencentcloudMysqlRollbackRangeTime that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudMysqlRollbackRangeTime that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudMysqlRollbackRangeTime to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class DataTencentcloudMysqlRollbackRangeTime extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/mysql_rollback_range_time tencentcloud_mysql_rollback_range_time} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/mysql_rollback_range_time tencentcloud_mysql_rollback_range_time} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class DataTencentcloudMysqlRollbackRangeTime extends cdktf.TerraformDataS
       terraformResourceType: 'tencentcloud_mysql_rollback_range_time',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

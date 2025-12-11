@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SwitchStpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#network_id SwitchStp#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#network_id SwitchStp#network_id}
   */
   readonly networkId: string;
   /**
   * The spanning tree protocol status in network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#rstp_enabled SwitchStp#rstp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#rstp_enabled SwitchStp#rstp_enabled}
   */
   readonly rstpEnabled?: boolean | cdktf.IResolvable;
   /**
   * STP bridge priority for switches/stacks or switch templates. An empty array will clear the STP bridge priority settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#stp_bridge_priority SwitchStp#stp_bridge_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#stp_bridge_priority SwitchStp#stp_bridge_priority}
   */
   readonly stpBridgePriority?: SwitchStpStpBridgePriority[] | cdktf.IResolvable;
 }
@@ -30,25 +30,25 @@ export interface SwitchStpStpBridgePriority {
   /**
   * List of stack IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#stacks SwitchStp#stacks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#stacks SwitchStp#stacks}
   */
   readonly stacks?: string[];
   /**
   * STP priority for switch, stacks, or switch templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#stp_priority SwitchStp#stp_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#stp_priority SwitchStp#stp_priority}
   */
   readonly stpPriority: number;
   /**
   * List of switch template IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#switch_profiles SwitchStp#switch_profiles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#switch_profiles SwitchStp#switch_profiles}
   */
   readonly switchProfiles?: string[];
   /**
   * List of switch serial numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#switches SwitchStp#switches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#switches SwitchStp#switches}
   */
   readonly switches?: string[];
 }
@@ -248,7 +248,7 @@ export class SwitchStpStpBridgePriorityList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp meraki_switch_stp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp meraki_switch_stp}
 */
 export class SwitchStp extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class SwitchStp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchStp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchStp to import
-  * @param importFromId The id of the existing SwitchStp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchStp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchStp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class SwitchStp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_stp meraki_switch_stp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_stp meraki_switch_stp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class SwitchStp extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_stp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

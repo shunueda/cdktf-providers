@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface MksClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * api version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#api_version MksCluster#api_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#api_version MksCluster#api_version}
   */
   readonly apiVersion?: string;
   /**
   * kind
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#kind MksCluster#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#kind MksCluster#kind}
   */
   readonly kind?: string;
   /**
   * metadata of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#metadata MksCluster#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#metadata MksCluster#metadata}
   */
   readonly metadata: MksClusterMetadata;
   /**
   * cluster specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#spec MksCluster#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#spec MksCluster#spec}
   */
   readonly spec: MksClusterSpec;
 }
@@ -36,31 +36,31 @@ export interface MksClusterMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#annotations MksCluster#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#annotations MksCluster#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#description MksCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#description MksCluster#description}
   */
   readonly description?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#labels MksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#labels MksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#name MksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#name MksCluster#name}
   */
   readonly name: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#project MksCluster#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#project MksCluster#project}
   */
   readonly project: string;
 }
@@ -264,13 +264,13 @@ export class MksClusterMetadataOutputReference extends cdktf.ComplexObject {
 }
 export interface MksClusterSpecBlueprint {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#name MksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#name MksCluster#name}
   */
   readonly name: string;
   /**
   * Version of the blueprint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#version MksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#version MksCluster#version}
   */
   readonly version?: string;
 }
@@ -392,25 +392,25 @@ export interface MksClusterSpecConfigClusterSsh {
   /**
   * Provide ssh passphrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#passphrase MksCluster#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#passphrase MksCluster#passphrase}
   */
   readonly passphrase?: string;
   /**
   * Provide ssh port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#port MksCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#port MksCluster#port}
   */
   readonly port?: string;
   /**
   * Provide local path to the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#private_key_path MksCluster#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#private_key_path MksCluster#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * Provide the ssh username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#username MksCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#username MksCluster#username}
   */
   readonly username?: string;
 }
@@ -593,7 +593,7 @@ export interface MksClusterSpecConfigKubernetesUpgradeParams {
   /**
   * It can be number or percentage
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#worker_concurrency MksCluster#worker_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#worker_concurrency MksCluster#worker_concurrency}
   */
   readonly workerConcurrency: string;
 }
@@ -684,13 +684,13 @@ export class MksClusterSpecConfigKubernetesUpgradeParamsOutputReference extends 
 }
 export interface MksClusterSpecConfigKubernetesUpgrade {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#params MksCluster#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#params MksCluster#params}
   */
   readonly params: MksClusterSpecConfigKubernetesUpgradeParams;
   /**
   * Kubernetes upgrade strategy for worker nodes and Valid options are: concurrent/sequential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#strategy MksCluster#strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#strategy MksCluster#strategy}
   */
   readonly strategy: string;
 }
@@ -809,13 +809,13 @@ export interface MksClusterSpecConfigNetworkCni {
   /**
   * Provide the CNI name, e.g., Calico or Cilium
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#name MksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#name MksCluster#name}
   */
   readonly name: string;
   /**
   * Provide the CNI version, e.g., 3.26.1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#version MksCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#version MksCluster#version}
   */
   readonly version?: string;
 }
@@ -937,13 +937,13 @@ export interface MksClusterSpecConfigNetworkIpv6 {
   /**
   * Kubernetes pod subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#pod_subnet MksCluster#pod_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#pod_subnet MksCluster#pod_subnet}
   */
   readonly podSubnet?: string;
   /**
   * Kubernetes service subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#service_subnet MksCluster#service_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#service_subnet MksCluster#service_subnet}
   */
   readonly serviceSubnet?: string;
 }
@@ -1068,23 +1068,23 @@ export interface MksClusterSpecConfigNetwork {
   /**
   * MKS Cluster CNI Specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#cni MksCluster#cni}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#cni MksCluster#cni}
   */
   readonly cni: MksClusterSpecConfigNetworkCni;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#ipv6 MksCluster#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#ipv6 MksCluster#ipv6}
   */
   readonly ipv6?: MksClusterSpecConfigNetworkIpv6;
   /**
   * Kubernetes pod subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#pod_subnet MksCluster#pod_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#pod_subnet MksCluster#pod_subnet}
   */
   readonly podSubnet: string;
   /**
   * Kubernetes service subnet
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#service_subnet MksCluster#service_subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#service_subnet MksCluster#service_subnet}
   */
   readonly serviceSubnet: string;
 }
@@ -1258,31 +1258,31 @@ export interface MksClusterSpecConfigNodesSsh {
   /**
   * Use this to override node level ssh details
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#ip_address MksCluster#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#ip_address MksCluster#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * SSH Passphrase
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#passphrase MksCluster#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#passphrase MksCluster#passphrase}
   */
   readonly passphrase?: string;
   /**
   * SSH Port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#port MksCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#port MksCluster#port}
   */
   readonly port?: string;
   /**
   * Specify Path to SSH private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#private_key_path MksCluster#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#private_key_path MksCluster#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * SSH Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#username MksCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#username MksCluster#username}
   */
   readonly username?: string;
 }
@@ -1492,15 +1492,15 @@ export class MksClusterSpecConfigNodesSshOutputReference extends cdktf.ComplexOb
 }
 export interface MksClusterSpecConfigNodesTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#effect MksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#effect MksCluster#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#key MksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#key MksCluster#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#value MksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#value MksCluster#value}
   */
   readonly value?: string;
 }
@@ -1670,61 +1670,61 @@ export interface MksClusterSpecConfigNodes {
   /**
   * System Architecture of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#arch MksCluster#arch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#arch MksCluster#arch}
   */
   readonly arch: string;
   /**
   * Hostname of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#hostname MksCluster#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#hostname MksCluster#hostname}
   */
   readonly hostname: string;
   /**
   * Interface to be used on the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#interface MksCluster#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#interface MksCluster#interface}
   */
   readonly interface?: string;
   /**
   * node kubelet extra args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#kubelet_extra_args MksCluster#kubelet_extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#kubelet_extra_args MksCluster#kubelet_extra_args}
   */
   readonly kubeletExtraArgs?: { [key: string]: string };
   /**
   * labels to be added to the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#labels MksCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#labels MksCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * OS of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#operating_system MksCluster#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#operating_system MksCluster#operating_system}
   */
   readonly operatingSystem: string;
   /**
   * Private ip address of the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#private_ip MksCluster#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#private_ip MksCluster#private_ip}
   */
   readonly privateIp: string;
   /**
   * Valid roles are: 'ControlPlane', 'Worker', 'Storage'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#roles MksCluster#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#roles MksCluster#roles}
   */
   readonly roles: string[];
   /**
   * MKS Node SSH definition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#ssh MksCluster#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#ssh MksCluster#ssh}
   */
   readonly ssh?: MksClusterSpecConfigNodesSsh;
   /**
   * taints to be added to the node
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#taints MksCluster#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#taints MksCluster#taints}
   */
   readonly taints?: MksClusterSpecConfigNodesTaints[] | cdktf.IResolvable;
 }
@@ -2086,71 +2086,71 @@ export interface MksClusterSpecConfig {
   /**
   * Auto approves incoming nodes by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#auto_approve_nodes MksCluster#auto_approve_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#auto_approve_nodes MksCluster#auto_approve_nodes}
   */
   readonly autoApproveNodes?: boolean | cdktf.IResolvable;
   /**
   * SSH config for all the nodes within the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#cluster_ssh MksCluster#cluster_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#cluster_ssh MksCluster#cluster_ssh}
   */
   readonly clusterSsh?: MksClusterSpecConfigClusterSsh;
   /**
   * Select this option for preventing scheduling of user workloads on Control Plane nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#dedicated_control_plane MksCluster#dedicated_control_plane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#dedicated_control_plane MksCluster#dedicated_control_plane}
   */
   readonly dedicatedControlPlane?: boolean | cdktf.IResolvable;
   /**
   * Select this option for highly available control plane. Minimum three control plane nodes are required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#high_availability MksCluster#high_availability}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#high_availability MksCluster#high_availability}
   */
   readonly highAvailability?: boolean | cdktf.IResolvable;
   /**
   * Installer TTL Configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#installer_ttl MksCluster#installer_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#installer_ttl MksCluster#installer_ttl}
   */
   readonly installerTtl?: number;
   /**
   * cluster kubelet extra args
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#kubelet_extra_args MksCluster#kubelet_extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#kubelet_extra_args MksCluster#kubelet_extra_args}
   */
   readonly kubeletExtraArgs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#kubernetes_upgrade MksCluster#kubernetes_upgrade}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#kubernetes_upgrade MksCluster#kubernetes_upgrade}
   */
   readonly kubernetesUpgrade?: MksClusterSpecConfigKubernetesUpgrade;
   /**
   * Kubernetes version of the Control Plane
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#kubernetes_version MksCluster#kubernetes_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#kubernetes_version MksCluster#kubernetes_version}
   */
   readonly kubernetesVersion: string;
   /**
   * The data center location where the cluster nodes will be launched
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#location MksCluster#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#location MksCluster#location}
   */
   readonly location?: string;
   /**
   * MKS Cluster Network Specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#network MksCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#network MksCluster#network}
   */
   readonly network: MksClusterSpecConfigNetwork;
   /**
   * holds node configuration for the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#nodes MksCluster#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#nodes MksCluster#nodes}
   */
   readonly nodes: { [key: string]: MksClusterSpecConfigNodes } | cdktf.IResolvable;
   /**
   * Platform version configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#platform_version MksCluster#platform_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#platform_version MksCluster#platform_version}
   */
   readonly platformVersion?: string;
 }
@@ -2554,31 +2554,31 @@ export class MksClusterSpecConfigOutputReference extends cdktf.ComplexObject {
 }
 export interface MksClusterSpecProxy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#allow_insecure_bootstrap MksCluster#allow_insecure_bootstrap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#allow_insecure_bootstrap MksCluster#allow_insecure_bootstrap}
   */
   readonly allowInsecureBootstrap?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#bootstrap_ca MksCluster#bootstrap_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#bootstrap_ca MksCluster#bootstrap_ca}
   */
   readonly bootstrapCa?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#enabled MksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#enabled MksCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#http_proxy MksCluster#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#http_proxy MksCluster#http_proxy}
   */
   readonly httpProxy: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#https_proxy MksCluster#https_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#https_proxy MksCluster#https_proxy}
   */
   readonly httpsProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#no_proxy MksCluster#no_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#no_proxy MksCluster#no_proxy}
   */
   readonly noProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#proxy_auth MksCluster#proxy_auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#proxy_auth MksCluster#proxy_auth}
   */
   readonly proxyAuth?: string;
 }
@@ -2840,7 +2840,7 @@ export class MksClusterSpecProxyOutputReference extends cdktf.ComplexObject {
 }
 export interface MksClusterSpecSharingProjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#name MksCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#name MksCluster#name}
   */
   readonly name: string;
 }
@@ -2953,11 +2953,11 @@ export class MksClusterSpecSharingProjectsList extends cdktf.ComplexList {
 }
 export interface MksClusterSpecSharing {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#enabled MksCluster#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#enabled MksCluster#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#projects MksCluster#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#projects MksCluster#projects}
   */
   readonly projects: MksClusterSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -3074,23 +3074,23 @@ export class MksClusterSpecSharingOutputReference extends cdktf.ComplexObject {
 }
 export interface MksClusterSpecSystemComponentsPlacementDaemonSetOverrideDaemonSetTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#effect MksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#effect MksCluster#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#key MksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#key MksCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#operator MksCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#operator MksCluster#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#toleration_seconds MksCluster#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#toleration_seconds MksCluster#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#value MksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#value MksCluster#value}
   */
   readonly value?: string;
 }
@@ -3322,11 +3322,11 @@ export class MksClusterSpecSystemComponentsPlacementDaemonSetOverrideDaemonSetTo
 }
 export interface MksClusterSpecSystemComponentsPlacementDaemonSetOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#daemon_set_tolerations MksCluster#daemon_set_tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#daemon_set_tolerations MksCluster#daemon_set_tolerations}
   */
   readonly daemonSetTolerations?: MksClusterSpecSystemComponentsPlacementDaemonSetOverrideDaemonSetTolerations[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#node_selection_enabled MksCluster#node_selection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#node_selection_enabled MksCluster#node_selection_enabled}
   */
   readonly nodeSelectionEnabled?: boolean | cdktf.IResolvable;
 }
@@ -3449,23 +3449,23 @@ export class MksClusterSpecSystemComponentsPlacementDaemonSetOverrideOutputRefer
 }
 export interface MksClusterSpecSystemComponentsPlacementTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#effect MksCluster#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#effect MksCluster#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#key MksCluster#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#key MksCluster#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#operator MksCluster#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#operator MksCluster#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#toleration_seconds MksCluster#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#toleration_seconds MksCluster#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#value MksCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#value MksCluster#value}
   */
   readonly value?: string;
 }
@@ -3697,15 +3697,15 @@ export class MksClusterSpecSystemComponentsPlacementTolerationsList extends cdkt
 }
 export interface MksClusterSpecSystemComponentsPlacement {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#daemon_set_override MksCluster#daemon_set_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#daemon_set_override MksCluster#daemon_set_override}
   */
   readonly daemonSetOverride?: MksClusterSpecSystemComponentsPlacementDaemonSetOverride;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#node_selector MksCluster#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#node_selector MksCluster#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#tolerations MksCluster#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#tolerations MksCluster#tolerations}
   */
   readonly tolerations?: MksClusterSpecSystemComponentsPlacementTolerations[] | cdktf.IResolvable;
 }
@@ -3857,37 +3857,37 @@ export class MksClusterSpecSystemComponentsPlacementOutputReference extends cdkt
 }
 export interface MksClusterSpec {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#blueprint MksCluster#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#blueprint MksCluster#blueprint}
   */
   readonly blueprint: MksClusterSpecBlueprint;
   /**
   * The credentials to be used to ssh into the  Clusster Nodes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#cloud_credentials MksCluster#cloud_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#cloud_credentials MksCluster#cloud_credentials}
   */
   readonly cloudCredentials?: string;
   /**
   * MKS V3 cluster specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#config MksCluster#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#config MksCluster#config}
   */
   readonly config: MksClusterSpecConfig;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#proxy MksCluster#proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#proxy MksCluster#proxy}
   */
   readonly proxy?: MksClusterSpecProxy;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#sharing MksCluster#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#sharing MksCluster#sharing}
   */
   readonly sharing?: MksClusterSpecSharing;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#system_components_placement MksCluster#system_components_placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#system_components_placement MksCluster#system_components_placement}
   */
   readonly systemComponentsPlacement?: MksClusterSpecSystemComponentsPlacement;
   /**
   * The type of the cluster this spec corresponds to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#type MksCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#type MksCluster#type}
   */
   readonly type?: string;
 }
@@ -4149,7 +4149,7 @@ export class MksClusterSpecOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster rafay_mks_cluster}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster rafay_mks_cluster}
 */
 export class MksCluster extends cdktf.TerraformResource {
 
@@ -4165,7 +4165,7 @@ export class MksCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MksCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MksCluster to import
-  * @param importFromId The id of the existing MksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MksCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MksCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4177,7 +4177,7 @@ export class MksCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/mks_cluster rafay_mks_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/mks_cluster rafay_mks_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4188,8 +4188,8 @@ export class MksCluster extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_mks_cluster',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

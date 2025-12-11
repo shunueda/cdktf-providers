@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/capacity_management_occ_availability_catalog
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/capacity_management_occ_availability_catalog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCapacityManagementOccAvailabilityCatalogConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/capacity_management_occ_availability_catalog#occ_availability_catalog_id DataOciCapacityManagementOccAvailabilityCatalog#occ_availability_catalog_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/capacity_management_occ_availability_catalog#occ_availability_catalog_id DataOciCapacityManagementOccAvailabilityCatalog#occ_availability_catalog_id}
   */
   readonly occAvailabilityCatalogId: string;
 }
@@ -220,7 +220,7 @@ export class DataOciCapacityManagementOccAvailabilityCatalogMetadataDetailsList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/capacity_management_occ_availability_catalog oci_capacity_management_occ_availability_catalog}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/capacity_management_occ_availability_catalog oci_capacity_management_occ_availability_catalog}
 */
 export class DataOciCapacityManagementOccAvailabilityCatalog extends cdktf.TerraformDataSource {
 
@@ -236,7 +236,7 @@ export class DataOciCapacityManagementOccAvailabilityCatalog extends cdktf.Terra
   * Generates CDKTF code for importing a DataOciCapacityManagementOccAvailabilityCatalog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCapacityManagementOccAvailabilityCatalog to import
-  * @param importFromId The id of the existing DataOciCapacityManagementOccAvailabilityCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/capacity_management_occ_availability_catalog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCapacityManagementOccAvailabilityCatalog that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/capacity_management_occ_availability_catalog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCapacityManagementOccAvailabilityCatalog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -248,7 +248,7 @@ export class DataOciCapacityManagementOccAvailabilityCatalog extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/capacity_management_occ_availability_catalog oci_capacity_management_occ_availability_catalog} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/capacity_management_occ_availability_catalog oci_capacity_management_occ_availability_catalog} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -259,8 +259,8 @@ export class DataOciCapacityManagementOccAvailabilityCatalog extends cdktf.Terra
       terraformResourceType: 'oci_capacity_management_occ_availability_catalog',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DasbResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatic renewal. 1 is auto renew flag, 0 is not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#auto_renew_flag DasbResource#auto_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#auto_renew_flag DasbResource#auto_renew_flag}
   */
   readonly autoRenewFlag: number;
   /**
   * Subnet segments that require service activation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#cidr_block DasbResource#cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#cidr_block DasbResource#cidr_block}
   */
   readonly cidrBlock: string;
   /**
   * Deploy region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#deploy_region DasbResource#deploy_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#deploy_region DasbResource#deploy_region}
   */
   readonly deployRegion: string;
   /**
   * Deploy zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#deploy_zone DasbResource#deploy_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#deploy_zone DasbResource#deploy_zone}
   */
   readonly deployZone: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#id DasbResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#id DasbResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,55 +41,55 @@ export interface DasbResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of bandwidth expansion packets (4M), The set value is an integer multiple of 4.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#package_bandwidth DasbResource#package_bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#package_bandwidth DasbResource#package_bandwidth}
   */
   readonly packageBandwidth?: number;
   /**
   * Resource type.Value:standard/pro.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#resource_edition DasbResource#resource_edition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#resource_edition DasbResource#resource_edition}
   */
   readonly resourceEdition: string;
   /**
   * Number of resource nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#resource_node DasbResource#resource_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#resource_node DasbResource#resource_node}
   */
   readonly resourceNode: number;
   /**
   * Deploy resource subnetId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#subnet_id DasbResource#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#subnet_id DasbResource#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Billing time. This field is mandatory, with a minimum value of 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#time_span DasbResource#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#time_span DasbResource#time_span}
   */
   readonly timeSpan?: number;
   /**
   * Billing cycle, only support m: month. This field is mandatory, fill in m.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#time_unit DasbResource#time_unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#time_unit DasbResource#time_unit}
   */
   readonly timeUnit?: string;
   /**
   * The network segment corresponding to the VPC that requires service activation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#vpc_cidr_block DasbResource#vpc_cidr_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#vpc_cidr_block DasbResource#vpc_cidr_block}
   */
   readonly vpcCidrBlock: string;
   /**
   * Deploy resource vpcId.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#vpc_id DasbResource#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#vpc_id DasbResource#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource tencentcloud_dasb_resource}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource tencentcloud_dasb_resource}
 */
 export class DasbResource extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class DasbResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbResource to import
-  * @param importFromId The id of the existing DasbResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class DasbResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_resource tencentcloud_dasb_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_resource tencentcloud_dasb_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class DasbResource extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_resource',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

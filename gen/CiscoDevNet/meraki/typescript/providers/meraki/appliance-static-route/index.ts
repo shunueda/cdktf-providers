@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ApplianceStaticRouteConfig extends cdktf.TerraformMetaArguments
   /**
   * Gateway IP address (next hop)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route#gateway_ip ApplianceStaticRoute#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route#gateway_ip ApplianceStaticRoute#gateway_ip}
   */
   readonly gatewayIp: string;
   /**
   * Gateway VLAN ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route#gateway_vlan_id ApplianceStaticRoute#gateway_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route#gateway_vlan_id ApplianceStaticRoute#gateway_vlan_id}
   */
   readonly gatewayVlanId?: string;
   /**
   * Name of the route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route#name ApplianceStaticRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route#name ApplianceStaticRoute#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route#network_id ApplianceStaticRoute#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route#network_id ApplianceStaticRoute#network_id}
   */
   readonly networkId: string;
   /**
   * Subnet of the route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route#subnet ApplianceStaticRoute#subnet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route#subnet ApplianceStaticRoute#subnet}
   */
   readonly subnet: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route meraki_appliance_static_route}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route meraki_appliance_static_route}
 */
 export class ApplianceStaticRoute extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class ApplianceStaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceStaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceStaticRoute to import
-  * @param importFromId The id of the existing ApplianceStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceStaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class ApplianceStaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_static_route meraki_appliance_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_static_route meraki_appliance_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class ApplianceStaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_static_route',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

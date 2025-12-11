@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface OrganizationSnmpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#organization_id OrganizationSnmp#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#organization_id OrganizationSnmp#organization_id}
   */
   readonly organizationId: string;
   /**
   * The list of IPv4 addresses that are allowed to access the SNMP server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#peer_ips OrganizationSnmp#peer_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#peer_ips OrganizationSnmp#peer_ips}
   */
   readonly peerIps?: string[];
   /**
   * Boolean indicating whether SNMP version 2c is enabled for the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#v2c_enabled OrganizationSnmp#v2c_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#v2c_enabled OrganizationSnmp#v2c_enabled}
   */
   readonly v2CEnabled?: boolean | cdktf.IResolvable;
   /**
   * The SNMP version 3 authentication mode. Can be either `MD5` or `SHA`.
   *   - Choices: `MD5`, `SHA`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#v3_auth_mode OrganizationSnmp#v3_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#v3_auth_mode OrganizationSnmp#v3_auth_mode}
   */
   readonly v3AuthMode?: string;
   /**
   * The SNMP version 3 authentication password. Must be at least 8 characters if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#v3_auth_pass OrganizationSnmp#v3_auth_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#v3_auth_pass OrganizationSnmp#v3_auth_pass}
   */
   readonly v3AuthPass?: string;
   /**
   * Boolean indicating whether SNMP version 3 is enabled for the organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#v3_enabled OrganizationSnmp#v3_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#v3_enabled OrganizationSnmp#v3_enabled}
   */
   readonly v3Enabled?: boolean | cdktf.IResolvable;
   /**
   * The SNMP version 3 privacy mode. Can be either `DES` or `AES128`.
   *   - Choices: `AES128`, `DES`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#v3_priv_mode OrganizationSnmp#v3_priv_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#v3_priv_mode OrganizationSnmp#v3_priv_mode}
   */
   readonly v3PrivMode?: string;
   /**
   * The SNMP version 3 privacy password. Must be at least 8 characters if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#v3_priv_pass OrganizationSnmp#v3_priv_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#v3_priv_pass OrganizationSnmp#v3_priv_pass}
   */
   readonly v3PrivPass?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp meraki_organization_snmp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp meraki_organization_snmp}
 */
 export class OrganizationSnmp extends cdktf.TerraformResource {
 
@@ -76,7 +76,7 @@ export class OrganizationSnmp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationSnmp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationSnmp to import
-  * @param importFromId The id of the existing OrganizationSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationSnmp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationSnmp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -88,7 +88,7 @@ export class OrganizationSnmp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_snmp meraki_organization_snmp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_snmp meraki_organization_snmp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -99,8 +99,8 @@ export class OrganizationSnmp extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_snmp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

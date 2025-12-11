@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DasbBindDeviceAccountPasswordConfig extends cdktf.TerraformMeta
   /**
   * Host account ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password#device_account_id DasbBindDeviceAccountPassword#device_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password#device_account_id DasbBindDeviceAccountPassword#device_account_id}
   */
   readonly deviceAccountId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password#id DasbBindDeviceAccountPassword#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password#id DasbBindDeviceAccountPassword#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DasbBindDeviceAccountPasswordConfig extends cdktf.TerraformMeta
   /**
   * Host account password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password#password DasbBindDeviceAccountPassword#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password#password DasbBindDeviceAccountPassword#password}
   */
   readonly password: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password tencentcloud_dasb_bind_device_account_password}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password tencentcloud_dasb_bind_device_account_password}
 */
 export class DasbBindDeviceAccountPassword extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DasbBindDeviceAccountPassword extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DasbBindDeviceAccountPassword resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DasbBindDeviceAccountPassword to import
-  * @param importFromId The id of the existing DasbBindDeviceAccountPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DasbBindDeviceAccountPassword that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DasbBindDeviceAccountPassword to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DasbBindDeviceAccountPassword extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dasb_bind_device_account_password tencentcloud_dasb_bind_device_account_password} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dasb_bind_device_account_password tencentcloud_dasb_bind_device_account_password} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DasbBindDeviceAccountPassword extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dasb_bind_device_account_password',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

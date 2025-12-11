@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface IotDigitalTwinRelationshipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#content IotDigitalTwinRelationship#content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#content IotDigitalTwinRelationship#content}
   */
   readonly content?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#content_path IotDigitalTwinRelationship#content_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#content_path IotDigitalTwinRelationship#content_path}
   */
   readonly contentPath: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#defined_tags IotDigitalTwinRelationship#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#defined_tags IotDigitalTwinRelationship#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#description IotDigitalTwinRelationship#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#description IotDigitalTwinRelationship#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#display_name IotDigitalTwinRelationship#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#display_name IotDigitalTwinRelationship#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#freeform_tags IotDigitalTwinRelationship#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#freeform_tags IotDigitalTwinRelationship#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#id IotDigitalTwinRelationship#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#id IotDigitalTwinRelationship#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#iot_domain_id IotDigitalTwinRelationship#iot_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#iot_domain_id IotDigitalTwinRelationship#iot_domain_id}
   */
   readonly iotDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#source_digital_twin_instance_id IotDigitalTwinRelationship#source_digital_twin_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#source_digital_twin_instance_id IotDigitalTwinRelationship#source_digital_twin_instance_id}
   */
   readonly sourceDigitalTwinInstanceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#target_digital_twin_instance_id IotDigitalTwinRelationship#target_digital_twin_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#target_digital_twin_instance_id IotDigitalTwinRelationship#target_digital_twin_instance_id}
   */
   readonly targetDigitalTwinInstanceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#timeouts IotDigitalTwinRelationship#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#timeouts IotDigitalTwinRelationship#timeouts}
   */
   readonly timeouts?: IotDigitalTwinRelationshipTimeouts;
 }
 export interface IotDigitalTwinRelationshipTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#create IotDigitalTwinRelationship#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#create IotDigitalTwinRelationship#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#delete IotDigitalTwinRelationship#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#delete IotDigitalTwinRelationship#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#update IotDigitalTwinRelationship#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#update IotDigitalTwinRelationship#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class IotDigitalTwinRelationshipTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship oci_iot_digital_twin_relationship}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship oci_iot_digital_twin_relationship}
 */
 export class IotDigitalTwinRelationship extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class IotDigitalTwinRelationship extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IotDigitalTwinRelationship resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IotDigitalTwinRelationship to import
-  * @param importFromId The id of the existing IotDigitalTwinRelationship that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IotDigitalTwinRelationship that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IotDigitalTwinRelationship to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class IotDigitalTwinRelationship extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/iot_digital_twin_relationship oci_iot_digital_twin_relationship} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/iot_digital_twin_relationship oci_iot_digital_twin_relationship} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class IotDigitalTwinRelationship extends cdktf.TerraformResource {
       terraformResourceType: 'oci_iot_digital_twin_relationship',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

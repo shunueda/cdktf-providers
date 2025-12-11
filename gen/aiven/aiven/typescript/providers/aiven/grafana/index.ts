@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GrafanaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#additional_disk_space Grafana#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#additional_disk_space Grafana#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#cloud_name Grafana#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#cloud_name Grafana#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#disk_space Grafana#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#disk_space Grafana#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#id Grafana#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#id Grafana#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface GrafanaConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#maintenance_window_dow Grafana#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#maintenance_window_dow Grafana#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#maintenance_window_time Grafana#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#maintenance_window_time Grafana#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#plan Grafana#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#plan Grafana#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#project Grafana#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#project Grafana#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#project_vpc_id Grafana#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#project_vpc_id Grafana#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#service_name Grafana#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#service_name Grafana#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#static_ips Grafana#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#static_ips Grafana#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#termination_protection Grafana#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#termination_protection Grafana#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * grafana block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#grafana Grafana#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#grafana Grafana#grafana}
   */
   readonly grafana?: GrafanaGrafana;
   /**
   * grafana_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#grafana_user_config Grafana#grafana_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#grafana_user_config Grafana#grafana_user_config}
   */
   readonly grafanaUserConfig?: GrafanaGrafanaUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#service_integrations Grafana#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#service_integrations Grafana#service_integrations}
   */
   readonly serviceIntegrations?: GrafanaServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#tag Grafana#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#tag Grafana#tag}
   */
   readonly tag?: GrafanaTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#tech_emails Grafana#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#tech_emails Grafana#tech_emails}
   */
   readonly techEmails?: GrafanaTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#timeouts Grafana#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#timeouts Grafana#timeouts}
   */
   readonly timeouts?: GrafanaTimeouts;
 }
@@ -236,7 +236,7 @@ export interface GrafanaGrafana {
   /**
   * Grafana server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#uris Grafana#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#uris Grafana#uris}
   */
   readonly uris?: string[];
 }
@@ -322,43 +322,43 @@ export interface GrafanaGrafanaUserConfigAuthAzuread {
   /**
   * Automatically sign-up users on successful sign-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
   */
   readonly allowSignUp?: boolean | cdktf.IResolvable;
   /**
   * Allowed domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_domains Grafana#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_domains Grafana#allowed_domains}
   */
   readonly allowedDomains?: string[];
   /**
   * Require users to belong to one of given groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_groups Grafana#allowed_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_groups Grafana#allowed_groups}
   */
   readonly allowedGroups?: string[];
   /**
   * Authorization URL. Example: `https://login.microsoftonline.com/<AZURE_TENANT_ID>/oauth2/v2.0/authorize`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_url Grafana#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_url Grafana#auth_url}
   */
   readonly authUrl: string;
   /**
   * Client ID from provider. Example: `b1ba0bf54a4c2c0a1c29`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_id Grafana#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_id Grafana#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from provider. Example: `bfa6gea4f129076761dcba8ce5e1e406bd83af7b`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_secret Grafana#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_secret Grafana#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Token URL. Example: `https://login.microsoftonline.com/<AZURE_TENANT_ID>/oauth2/v2.0/token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#token_url Grafana#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#token_url Grafana#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -606,73 +606,73 @@ export interface GrafanaGrafanaUserConfigAuthGenericOauth {
   /**
   * Automatically sign-up users on successful sign-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
   */
   readonly allowSignUp?: boolean | cdktf.IResolvable;
   /**
   * Allowed domains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_domains Grafana#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_domains Grafana#allowed_domains}
   */
   readonly allowedDomains?: string[];
   /**
   * Require user to be member of one of the listed organizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_organizations Grafana#allowed_organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_organizations Grafana#allowed_organizations}
   */
   readonly allowedOrganizations?: string[];
   /**
   * API URL. Example: `https://yourprovider.com/api`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#api_url Grafana#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#api_url Grafana#api_url}
   */
   readonly apiUrl: string;
   /**
   * Authorization URL. Example: `https://yourprovider.com/oauth/authorize`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_url Grafana#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_url Grafana#auth_url}
   */
   readonly authUrl: string;
   /**
   * Allow users to bypass the login screen and automatically log in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auto_login Grafana#auto_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auto_login Grafana#auto_login}
   */
   readonly autoLogin?: boolean | cdktf.IResolvable;
   /**
   * Client ID from provider. Example: `b1ba0bf54a4c2c0a1c29`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_id Grafana#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_id Grafana#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from provider. Example: `bfa6gea4f129076761dcba8ce5e1e406bd83af7b`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_secret Grafana#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_secret Grafana#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Name of the OAuth integration. Example: `My authentication`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#name Grafana#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#name Grafana#name}
   */
   readonly name?: string;
   /**
   * OAuth scopes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#scopes Grafana#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#scopes Grafana#scopes}
   */
   readonly scopes?: string[];
   /**
   * Token URL. Example: `https://yourprovider.com/oauth/token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#token_url Grafana#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#token_url Grafana#token_url}
   */
   readonly tokenUrl: string;
   /**
   * Set to true to use refresh token and check access token expiration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#use_refresh_token Grafana#use_refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#use_refresh_token Grafana#use_refresh_token}
   */
   readonly useRefreshToken?: boolean | cdktf.IResolvable;
 }
@@ -1062,43 +1062,43 @@ export interface GrafanaGrafanaUserConfigAuthGithub {
   /**
   * Automatically sign-up users on successful sign-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
   */
   readonly allowSignUp?: boolean | cdktf.IResolvable;
   /**
   * Require users to belong to one of given organizations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_organizations Grafana#allowed_organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_organizations Grafana#allowed_organizations}
   */
   readonly allowedOrganizations?: string[];
   /**
   * Allow users to bypass the login screen and automatically log in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auto_login Grafana#auto_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auto_login Grafana#auto_login}
   */
   readonly autoLogin?: boolean | cdktf.IResolvable;
   /**
   * Client ID from provider. Example: `b1ba0bf54a4c2c0a1c29`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_id Grafana#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_id Grafana#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from provider. Example: `bfa6gea4f129076761dcba8ce5e1e406bd83af7b`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_secret Grafana#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_secret Grafana#client_secret}
   */
   readonly clientSecret: string;
   /**
   * Stop automatically syncing user roles.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#skip_org_role_sync Grafana#skip_org_role_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#skip_org_role_sync Grafana#skip_org_role_sync}
   */
   readonly skipOrgRoleSync?: boolean | cdktf.IResolvable;
   /**
   * Require users to belong to one of given team IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#team_ids Grafana#team_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#team_ids Grafana#team_ids}
   */
   readonly teamIds?: number[];
 }
@@ -1352,43 +1352,43 @@ export interface GrafanaGrafanaUserConfigAuthGitlab {
   /**
   * Automatically sign-up users on successful sign-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
   */
   readonly allowSignUp?: boolean | cdktf.IResolvable;
   /**
   * Require users to belong to one of given groups.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_groups Grafana#allowed_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_groups Grafana#allowed_groups}
   */
   readonly allowedGroups: string[];
   /**
   * This only needs to be set when using self hosted GitLab. Example: `https://gitlab.com/api/v4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#api_url Grafana#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#api_url Grafana#api_url}
   */
   readonly apiUrl?: string;
   /**
   * This only needs to be set when using self hosted GitLab. Example: `https://gitlab.com/oauth/authorize`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_url Grafana#auth_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_url Grafana#auth_url}
   */
   readonly authUrl?: string;
   /**
   * Client ID from provider. Example: `b1ba0bf54a4c2c0a1c29`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_id Grafana#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_id Grafana#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from provider. Example: `bfa6gea4f129076761dcba8ce5e1e406bd83af7b`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_secret Grafana#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_secret Grafana#client_secret}
   */
   readonly clientSecret: string;
   /**
   * This only needs to be set when using self hosted GitLab. Example: `https://gitlab.com/oauth/token`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#token_url Grafana#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#token_url Grafana#token_url}
   */
   readonly tokenUrl?: string;
 }
@@ -1639,25 +1639,25 @@ export interface GrafanaGrafanaUserConfigAuthGoogle {
   /**
   * Automatically sign-up users on successful sign-in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allow_sign_up Grafana#allow_sign_up}
   */
   readonly allowSignUp?: boolean | cdktf.IResolvable;
   /**
   * Domains allowed to sign-in to this Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allowed_domains Grafana#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allowed_domains Grafana#allowed_domains}
   */
   readonly allowedDomains: string[];
   /**
   * Client ID from provider. Example: `b1ba0bf54a4c2c0a1c29`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_id Grafana#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_id Grafana#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from provider. Example: `bfa6gea4f129076761dcba8ce5e1e406bd83af7b`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#client_secret Grafana#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#client_secret Grafana#client_secret}
   */
   readonly clientSecret: string;
 }
@@ -1821,49 +1821,49 @@ export interface GrafanaGrafanaUserConfigDateFormats {
   /**
   * Default time zone for user preferences. Value `browser` uses browser local time zone. Example: `Europe/Helsinki`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#default_timezone Grafana#default_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#default_timezone Grafana#default_timezone}
   */
   readonly defaultTimezone?: string;
   /**
   * Moment.js style format string for cases where full date is shown. Example: `YYYY MM DD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#full_date Grafana#full_date}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#full_date Grafana#full_date}
   */
   readonly fullDate?: string;
   /**
   * Moment.js style format string used when a time requiring day accuracy is shown. Example: `MM/DD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#interval_day Grafana#interval_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#interval_day Grafana#interval_day}
   */
   readonly intervalDay?: string;
   /**
   * Moment.js style format string used when a time requiring hour accuracy is shown. Example: `MM/DD HH:mm`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#interval_hour Grafana#interval_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#interval_hour Grafana#interval_hour}
   */
   readonly intervalHour?: string;
   /**
   * Moment.js style format string used when a time requiring minute accuracy is shown. Example: `HH:mm`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#interval_minute Grafana#interval_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#interval_minute Grafana#interval_minute}
   */
   readonly intervalMinute?: string;
   /**
   * Moment.js style format string used when a time requiring month accuracy is shown. Example: `YYYY-MM`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#interval_month Grafana#interval_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#interval_month Grafana#interval_month}
   */
   readonly intervalMonth?: string;
   /**
   * Moment.js style format string used when a time requiring second accuracy is shown. Example: `HH:mm:ss`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#interval_second Grafana#interval_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#interval_second Grafana#interval_second}
   */
   readonly intervalSecond?: string;
   /**
   * Moment.js style format string used when a time requiring year accuracy is shown. Example: `YYYY`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#interval_year Grafana#interval_year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#interval_year Grafana#interval_year}
   */
   readonly intervalYear?: string;
 }
@@ -2152,25 +2152,25 @@ export interface GrafanaGrafanaUserConfigExternalImageStorage {
   /**
   * S3 access key. Requires permissions to the S3 bucket for the s3:PutObject and s3:PutObjectAcl actions. Example: `AAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#access_key Grafana#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#access_key Grafana#access_key}
   */
   readonly accessKey: string;
   /**
   * Bucket URL for S3. Example: `https://grafana.s3-ap-southeast-2.amazonaws.com/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#bucket_url Grafana#bucket_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#bucket_url Grafana#bucket_url}
   */
   readonly bucketUrl: string;
   /**
   * Enum: `s3`. External image store provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#provider Grafana#provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#provider Grafana#provider}
   */
   readonly provider: string;
   /**
   * S3 secret key. Example: `AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#secret_key Grafana#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#secret_key Grafana#secret_key}
   */
   readonly secretKey: string;
 }
@@ -2331,13 +2331,13 @@ export interface GrafanaGrafanaUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#description Grafana#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#description Grafana#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#network Grafana#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#network Grafana#network}
   */
   readonly network: string;
 }
@@ -2481,7 +2481,7 @@ export interface GrafanaGrafanaUserConfigPrivateAccess {
   /**
   * Allow clients to connect to grafana with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#grafana Grafana#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#grafana Grafana#grafana}
   */
   readonly grafana?: boolean | cdktf.IResolvable;
 }
@@ -2567,7 +2567,7 @@ export interface GrafanaGrafanaUserConfigPrivatelinkAccess {
   /**
   * Enable grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#grafana Grafana#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#grafana Grafana#grafana}
   */
   readonly grafana?: boolean | cdktf.IResolvable;
 }
@@ -2653,7 +2653,7 @@ export interface GrafanaGrafanaUserConfigPublicAccess {
   /**
   * Allow clients to connect to grafana from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#grafana Grafana#grafana}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#grafana Grafana#grafana}
   */
   readonly grafana?: boolean | cdktf.IResolvable;
 }
@@ -2739,49 +2739,49 @@ export interface GrafanaGrafanaUserConfigSmtpServer {
   /**
   * Address used for sending emails. Example: `yourgrafanauser@yourdomain.example.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#from_address Grafana#from_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#from_address Grafana#from_address}
   */
   readonly fromAddress: string;
   /**
   * Name used in outgoing emails, defaults to Grafana.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#from_name Grafana#from_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#from_name Grafana#from_name}
   */
   readonly fromName?: string;
   /**
   * Server hostname or IP. Example: `smtp.example.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#host Grafana#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#host Grafana#host}
   */
   readonly host: string;
   /**
   * Password for SMTP authentication. Example: `ein0eemeev5eeth3Ahfu`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#password Grafana#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#password Grafana#password}
   */
   readonly password?: string;
   /**
   * SMTP server port. Example: `25`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#port Grafana#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#port Grafana#port}
   */
   readonly port: number;
   /**
   * Skip verifying server certificate. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#skip_verify Grafana#skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#skip_verify Grafana#skip_verify}
   */
   readonly skipVerify?: boolean | cdktf.IResolvable;
   /**
   * Enum: `MandatoryStartTLS`, `NoStartTLS`, `OpportunisticStartTLS`. Either OpportunisticStartTLS, MandatoryStartTLS or NoStartTLS. Default is OpportunisticStartTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#starttls_policy Grafana#starttls_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#starttls_policy Grafana#starttls_policy}
   */
   readonly starttlsPolicy?: string;
   /**
   * Username for SMTP authentication. Example: `smtpuser`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#username Grafana#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#username Grafana#username}
   */
   readonly username?: string;
 }
@@ -3061,265 +3061,265 @@ export interface GrafanaGrafanaUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#additional_backup_regions Grafana#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#additional_backup_regions Grafana#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Setting has no effect with Grafana 11 and onward. Enable or disable Grafana legacy alerting functionality. This should not be enabled with unified_alerting_enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#alerting_enabled Grafana#alerting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#alerting_enabled Grafana#alerting_enabled}
   */
   readonly alertingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enum: `alerting`, `keep_state`. Default error or timeout setting for new alerting rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#alerting_error_or_timeout Grafana#alerting_error_or_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#alerting_error_or_timeout Grafana#alerting_error_or_timeout}
   */
   readonly alertingErrorOrTimeout?: string;
   /**
   * Max number of alert annotations that Grafana stores. 0 (default) keeps all alert annotations. Example: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#alerting_max_annotations_to_keep Grafana#alerting_max_annotations_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#alerting_max_annotations_to_keep Grafana#alerting_max_annotations_to_keep}
   */
   readonly alertingMaxAnnotationsToKeep?: number;
   /**
   * Enum: `alerting`, `keep_state`, `no_data`, `ok`. Default value for 'no data or null values' for new alerting rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#alerting_nodata_or_nullvalues Grafana#alerting_nodata_or_nullvalues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#alerting_nodata_or_nullvalues Grafana#alerting_nodata_or_nullvalues}
   */
   readonly alertingNodataOrNullvalues?: string;
   /**
   * Allow embedding Grafana dashboards with iframe/frame/object/embed tags. Disabled by default to limit impact of clickjacking.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#allow_embedding Grafana#allow_embedding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#allow_embedding Grafana#allow_embedding}
   */
   readonly allowEmbedding?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable basic authentication form, used by Grafana built-in login.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_basic_enabled Grafana#auth_basic_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_basic_enabled Grafana#auth_basic_enabled}
   */
   readonly authBasicEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enum: `lax`, `none`, `strict`. Cookie SameSite attribute: `strict` prevents sending cookie for cross-site requests, effectively disabling direct linking from other sites to Grafana. `lax` is the default value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#cookie_samesite Grafana#cookie_samesite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#cookie_samesite Grafana#cookie_samesite}
   */
   readonly cookieSamesite?: string;
   /**
-  * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. Example: `grafana.example.org`.
+  * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. When you set a custom domain for a service deployed in a VPC, the service certificate is only created for the public-* hostname and the custom domain. Example: `grafana.example.org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#custom_domain Grafana#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#custom_domain Grafana#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Enable browsing of dashboards in grid (pictures) mode. This feature is new in Grafana 9 and is quite resource intensive. It may cause low-end plans to work more slowly while the dashboard previews are rendering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#dashboard_previews_enabled Grafana#dashboard_previews_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#dashboard_previews_enabled Grafana#dashboard_previews_enabled}
   */
   readonly dashboardPreviewsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable use of the Grafana Scenes Library as the dashboard engine. i.e. the `dashboardScene` feature flag. Upstream blog post at https://grafana.com/blog/2024/10/31/grafana-dashboards-are-now-powered-by-scenes-big-changes-same-ui/.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#dashboard_scenes_enabled Grafana#dashboard_scenes_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#dashboard_scenes_enabled Grafana#dashboard_scenes_enabled}
   */
   readonly dashboardScenesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Signed sequence of decimal numbers, followed by a unit suffix (ms, s, m, h, d), e.g. 30s, 1h. Example: `5s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#dashboards_min_refresh_interval Grafana#dashboards_min_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#dashboards_min_refresh_interval Grafana#dashboards_min_refresh_interval}
   */
   readonly dashboardsMinRefreshInterval?: string;
   /**
   * Dashboard versions to keep per dashboard. Example: `20`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#dashboards_versions_to_keep Grafana#dashboards_versions_to_keep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#dashboards_versions_to_keep Grafana#dashboards_versions_to_keep}
   */
   readonly dashboardsVersionsToKeep?: number;
   /**
   * Send `X-Grafana-User` header to data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#dataproxy_send_user_header Grafana#dataproxy_send_user_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#dataproxy_send_user_header Grafana#dataproxy_send_user_header}
   */
   readonly dataproxySendUserHeader?: boolean | cdktf.IResolvable;
   /**
   * Timeout for data proxy requests in seconds. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#dataproxy_timeout Grafana#dataproxy_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#dataproxy_timeout Grafana#dataproxy_timeout}
   */
   readonly dataproxyTimeout?: number;
   /**
   * Set to true to disable gravatar. Defaults to false (gravatar is enabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#disable_gravatar Grafana#disable_gravatar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#disable_gravatar Grafana#disable_gravatar}
   */
   readonly disableGravatar?: boolean | cdktf.IResolvable;
   /**
   * Editors can manage folders, teams and dashboards created by them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#editors_can_admin Grafana#editors_can_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#editors_can_admin Grafana#editors_can_admin}
   */
   readonly editorsCanAdmin?: boolean | cdktf.IResolvable;
   /**
   * Google Analytics ID. Example: `UA-123456-4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#google_analytics_ua_id Grafana#google_analytics_ua_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#google_analytics_ua_id Grafana#google_analytics_ua_id}
   */
   readonly googleAnalyticsUaId?: string;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#ip_filter Grafana#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#ip_filter Grafana#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#ip_filter_string Grafana#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#ip_filter_string Grafana#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Enable Grafana's /metrics endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#metrics_enabled Grafana#metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#metrics_enabled Grafana#metrics_enabled}
   */
   readonly metricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enforce user lookup based on email instead of the unique ID provided by the IdP. This setup introduces significant security risks, such as potential phishing, spoofing, and other data breaches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#oauth_allow_insecure_email_lookup Grafana#oauth_allow_insecure_email_lookup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#oauth_allow_insecure_email_lookup Grafana#oauth_allow_insecure_email_lookup}
   */
   readonly oauthAllowInsecureEmailLookup?: boolean | cdktf.IResolvable;
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#project_to_fork_from Grafana#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#project_to_fork_from Grafana#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Name of the basebackup to restore in forked service. Example: `backup-20191112t091354293891z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#recovery_basebackup_name Grafana#recovery_basebackup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#recovery_basebackup_name Grafana#recovery_basebackup_name}
   */
   readonly recoveryBasebackupName?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#service_log Grafana#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#service_log Grafana#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#service_to_fork_from Grafana#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#service_to_fork_from Grafana#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#static_ips Grafana#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#static_ips Grafana#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable Grafana unified alerting functionality. By default this is enabled and any legacy alerts will be migrated on upgrade to Grafana 9+. To stay on legacy alerting, set unified_alerting_enabled to false and alerting_enabled to true. See https://grafana.com/docs/grafana/latest/alerting/ for more details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#unified_alerting_enabled Grafana#unified_alerting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#unified_alerting_enabled Grafana#unified_alerting_enabled}
   */
   readonly unifiedAlertingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Auto-assign new users on signup to main organization. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#user_auto_assign_org Grafana#user_auto_assign_org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#user_auto_assign_org Grafana#user_auto_assign_org}
   */
   readonly userAutoAssignOrg?: boolean | cdktf.IResolvable;
   /**
   * Enum: `Admin`, `Editor`, `Viewer`. Set role for new signups. Defaults to Viewer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#user_auto_assign_org_role Grafana#user_auto_assign_org_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#user_auto_assign_org_role Grafana#user_auto_assign_org_role}
   */
   readonly userAutoAssignOrgRole?: string;
   /**
   * Users with view-only permission can edit but not save dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#viewers_can_edit Grafana#viewers_can_edit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#viewers_can_edit Grafana#viewers_can_edit}
   */
   readonly viewersCanEdit?: boolean | cdktf.IResolvable;
   /**
   * Setting to enable/disable Write-Ahead Logging. The default value is false (disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#wal Grafana#wal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#wal Grafana#wal}
   */
   readonly wal?: boolean | cdktf.IResolvable;
   /**
   * auth_azuread block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_azuread Grafana#auth_azuread}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_azuread Grafana#auth_azuread}
   */
   readonly authAzuread?: GrafanaGrafanaUserConfigAuthAzuread;
   /**
   * auth_generic_oauth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_generic_oauth Grafana#auth_generic_oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_generic_oauth Grafana#auth_generic_oauth}
   */
   readonly authGenericOauth?: GrafanaGrafanaUserConfigAuthGenericOauth;
   /**
   * auth_github block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_github Grafana#auth_github}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_github Grafana#auth_github}
   */
   readonly authGithub?: GrafanaGrafanaUserConfigAuthGithub;
   /**
   * auth_gitlab block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_gitlab Grafana#auth_gitlab}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_gitlab Grafana#auth_gitlab}
   */
   readonly authGitlab?: GrafanaGrafanaUserConfigAuthGitlab;
   /**
   * auth_google block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#auth_google Grafana#auth_google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#auth_google Grafana#auth_google}
   */
   readonly authGoogle?: GrafanaGrafanaUserConfigAuthGoogle;
   /**
   * date_formats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#date_formats Grafana#date_formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#date_formats Grafana#date_formats}
   */
   readonly dateFormats?: GrafanaGrafanaUserConfigDateFormats;
   /**
   * external_image_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#external_image_storage Grafana#external_image_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#external_image_storage Grafana#external_image_storage}
   */
   readonly externalImageStorage?: GrafanaGrafanaUserConfigExternalImageStorage;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#ip_filter_object Grafana#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#ip_filter_object Grafana#ip_filter_object}
   */
   readonly ipFilterObject?: GrafanaGrafanaUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#private_access Grafana#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#private_access Grafana#private_access}
   */
   readonly privateAccess?: GrafanaGrafanaUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#privatelink_access Grafana#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#privatelink_access Grafana#privatelink_access}
   */
   readonly privatelinkAccess?: GrafanaGrafanaUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#public_access Grafana#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#public_access Grafana#public_access}
   */
   readonly publicAccess?: GrafanaGrafanaUserConfigPublicAccess;
   /**
   * smtp_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#smtp_server Grafana#smtp_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#smtp_server Grafana#smtp_server}
   */
   readonly smtpServer?: GrafanaGrafanaUserConfigSmtpServer;
 }
@@ -4652,13 +4652,13 @@ export interface GrafanaServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#integration_type Grafana#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#integration_type Grafana#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#source_service_name Grafana#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#source_service_name Grafana#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -4799,13 +4799,13 @@ export interface GrafanaTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#key Grafana#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#key Grafana#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#value Grafana#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#value Grafana#value}
   */
   readonly value: string;
 }
@@ -4946,7 +4946,7 @@ export interface GrafanaTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#email Grafana#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#email Grafana#email}
   */
   readonly email: string;
 }
@@ -5059,23 +5059,23 @@ export class GrafanaTechEmailsList extends cdktf.ComplexList {
 }
 export interface GrafanaTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#create Grafana#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#create Grafana#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#default Grafana#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#default Grafana#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#delete Grafana#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#delete Grafana#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#read Grafana#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#read Grafana#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#update Grafana#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#update Grafana#update}
   */
   readonly update?: string;
 }
@@ -5285,7 +5285,7 @@ export class GrafanaTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana aiven_grafana}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana aiven_grafana}
 */
 export class Grafana extends cdktf.TerraformResource {
 
@@ -5301,7 +5301,7 @@ export class Grafana extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Grafana resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Grafana to import
-  * @param importFromId The id of the existing Grafana that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Grafana that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Grafana to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5313,7 +5313,7 @@ export class Grafana extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/grafana aiven_grafana} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/grafana aiven_grafana} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5324,8 +5324,8 @@ export class Grafana extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_grafana',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

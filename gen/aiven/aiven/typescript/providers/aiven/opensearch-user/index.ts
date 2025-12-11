@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,62 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface OpensearchUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#id OpensearchUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#id OpensearchUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * The OpenSearch service user's password.
+  * The password of the service user (auto-generated if not provided). Must be 8-256 characters if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#password OpensearchUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#password OpensearchUser#password}
   */
   readonly password?: string;
   /**
+  * The password of the service user (write-only, not stored in state). Must be used with `password_wo_version`. Must be 8-256 characters.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#password_wo OpensearchUser#password_wo}
+  */
+  readonly passwordWo?: string;
+  /**
+  * Version number for `password_wo`. Increment this to rotate the password. Must be >= 1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#password_wo_version OpensearchUser#password_wo_version}
+  */
+  readonly passwordWoVersion?: number;
+  /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#project OpensearchUser#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#project OpensearchUser#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#service_name OpensearchUser#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#service_name OpensearchUser#service_name}
   */
   readonly serviceName: string;
   /**
   * Name of the OpenSearch service user. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#username OpensearchUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#username OpensearchUser#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#timeouts OpensearchUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#timeouts OpensearchUser#timeouts}
   */
   readonly timeouts?: OpensearchUserTimeouts;
 }
 export interface OpensearchUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#create OpensearchUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#create OpensearchUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#default OpensearchUser#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#default OpensearchUser#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#delete OpensearchUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#delete OpensearchUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#read OpensearchUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#read OpensearchUser#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#update OpensearchUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#update OpensearchUser#update}
   */
   readonly update?: string;
 }
@@ -273,7 +285,7 @@ export class OpensearchUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user aiven_opensearch_user}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user aiven_opensearch_user}
 */
 export class OpensearchUser extends cdktf.TerraformResource {
 
@@ -289,7 +301,7 @@ export class OpensearchUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchUser to import
-  * @param importFromId The id of the existing OpensearchUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +313,7 @@ export class OpensearchUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_user aiven_opensearch_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_user aiven_opensearch_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +324,8 @@ export class OpensearchUser extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_opensearch_user',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -325,6 +337,8 @@ export class OpensearchUser extends cdktf.TerraformResource {
     });
     this._id = config.id;
     this._password = config.password;
+    this._passwordWo = config.passwordWo;
+    this._passwordWoVersion = config.passwordWoVersion;
     this._project = config.project;
     this._serviceName = config.serviceName;
     this._username = config.username;
@@ -365,6 +379,38 @@ export class OpensearchUser extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get passwordInput() {
     return this._password;
+  }
+
+  // password_wo - computed: false, optional: true, required: false
+  private _passwordWo?: string; 
+  public get passwordWo() {
+    return this.getStringAttribute('password_wo');
+  }
+  public set passwordWo(value: string) {
+    this._passwordWo = value;
+  }
+  public resetPasswordWo() {
+    this._passwordWo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordWoInput() {
+    return this._passwordWo;
+  }
+
+  // password_wo_version - computed: false, optional: true, required: false
+  private _passwordWoVersion?: number; 
+  public get passwordWoVersion() {
+    return this.getNumberAttribute('password_wo_version');
+  }
+  public set passwordWoVersion(value: number) {
+    this._passwordWoVersion = value;
+  }
+  public resetPasswordWoVersion() {
+    this._passwordWoVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordWoVersionInput() {
+    return this._passwordWoVersion;
   }
 
   // project - computed: false, optional: false, required: true
@@ -435,6 +481,8 @@ export class OpensearchUser extends cdktf.TerraformResource {
     return {
       id: cdktf.stringToTerraform(this._id),
       password: cdktf.stringToTerraform(this._password),
+      password_wo: cdktf.stringToTerraform(this._passwordWo),
+      password_wo_version: cdktf.numberToTerraform(this._passwordWoVersion),
       project: cdktf.stringToTerraform(this._project),
       service_name: cdktf.stringToTerraform(this._serviceName),
       username: cdktf.stringToTerraform(this._username),
@@ -455,6 +503,18 @@ export class OpensearchUser extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      password_wo: {
+        value: cdktf.stringToHclTerraform(this._passwordWo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      password_wo_version: {
+        value: cdktf.numberToHclTerraform(this._passwordWoVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       project: {
         value: cdktf.stringToHclTerraform(this._project),

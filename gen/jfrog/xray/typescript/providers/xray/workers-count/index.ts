@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,85 +10,85 @@ export interface WorkersCountConfig extends cdktf.TerraformMetaArguments {
   /**
   * analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#analysis WorkersCount#analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#analysis WorkersCount#analysis}
   */
   readonly analysis?: WorkersCountAnalysis[] | cdktf.IResolvable;
   /**
   * impact_analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#impact_analysis WorkersCount#impact_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#impact_analysis WorkersCount#impact_analysis}
   */
   readonly impactAnalysis?: WorkersCountImpactAnalysis[] | cdktf.IResolvable;
   /**
   * index block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#index WorkersCount#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#index WorkersCount#index}
   */
   readonly index?: WorkersCountIndex[] | cdktf.IResolvable;
   /**
   * migration_sbom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#migration_sbom WorkersCount#migration_sbom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#migration_sbom WorkersCount#migration_sbom}
   */
   readonly migrationSbom?: WorkersCountMigrationSbom[] | cdktf.IResolvable;
   /**
   * notification block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#notification WorkersCount#notification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#notification WorkersCount#notification}
   */
   readonly notification?: WorkersCountNotification[] | cdktf.IResolvable;
   /**
   * panoramic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#panoramic WorkersCount#panoramic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#panoramic WorkersCount#panoramic}
   */
   readonly panoramic?: WorkersCountPanoramic[] | cdktf.IResolvable;
   /**
   * persist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#persist WorkersCount#persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#persist WorkersCount#persist}
   */
   readonly persist?: WorkersCountPersist[] | cdktf.IResolvable;
   /**
   * policy_enforcer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#policy_enforcer WorkersCount#policy_enforcer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#policy_enforcer WorkersCount#policy_enforcer}
   */
   readonly policyEnforcer?: WorkersCountPolicyEnforcer[] | cdktf.IResolvable;
   /**
   * sbom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#sbom WorkersCount#sbom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#sbom WorkersCount#sbom}
   */
   readonly sbom?: WorkersCountSbom[] | cdktf.IResolvable;
   /**
   * sbom_deleter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#sbom_deleter WorkersCount#sbom_deleter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#sbom_deleter WorkersCount#sbom_deleter}
   */
   readonly sbomDeleter?: WorkersCountSbomDeleter[] | cdktf.IResolvable;
   /**
   * sbom_dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#sbom_dependencies WorkersCount#sbom_dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#sbom_dependencies WorkersCount#sbom_dependencies}
   */
   readonly sbomDependencies?: WorkersCountSbomDependencies[] | cdktf.IResolvable;
   /**
   * sbom_enricher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#sbom_enricher WorkersCount#sbom_enricher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#sbom_enricher WorkersCount#sbom_enricher}
   */
   readonly sbomEnricher?: WorkersCountSbomEnricher[] | cdktf.IResolvable;
   /**
   * sbom_impact_analysis block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#sbom_impact_analysis WorkersCount#sbom_impact_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#sbom_impact_analysis WorkersCount#sbom_impact_analysis}
   */
   readonly sbomImpactAnalysis?: WorkersCountSbomImpactAnalysis[] | cdktf.IResolvable;
   /**
   * user_catalog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#user_catalog WorkersCount#user_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#user_catalog WorkersCount#user_catalog}
   */
   readonly userCatalog?: WorkersCountUserCatalog[] | cdktf.IResolvable;
 }
@@ -96,13 +96,13 @@ export interface WorkersCountAnalysis {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -243,7 +243,7 @@ export interface WorkersCountImpactAnalysis {
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -358,13 +358,13 @@ export interface WorkersCountIndex {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -505,13 +505,13 @@ export interface WorkersCountMigrationSbom {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -652,7 +652,7 @@ export interface WorkersCountNotification {
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -767,7 +767,7 @@ export interface WorkersCountPanoramic {
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -882,13 +882,13 @@ export interface WorkersCountPersist {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1029,13 +1029,13 @@ export interface WorkersCountPolicyEnforcer {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1176,13 +1176,13 @@ export interface WorkersCountSbom {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1323,13 +1323,13 @@ export interface WorkersCountSbomDeleter {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1470,13 +1470,13 @@ export interface WorkersCountSbomDependencies {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1617,13 +1617,13 @@ export interface WorkersCountSbomEnricher {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1764,13 +1764,13 @@ export interface WorkersCountSbomImpactAnalysis {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -1911,13 +1911,13 @@ export interface WorkersCountUserCatalog {
   /**
   * Number of workers for existing content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#existing_content WorkersCount#existing_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#existing_content WorkersCount#existing_content}
   */
   readonly existingContent: number;
   /**
   * Number of workers for new content
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#new_content WorkersCount#new_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#new_content WorkersCount#new_content}
   */
   readonly newContent: number;
 }
@@ -2056,7 +2056,7 @@ export class WorkersCountUserCatalogList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count xray_workers_count}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count xray_workers_count}
 */
 export class WorkersCount extends cdktf.TerraformResource {
 
@@ -2072,7 +2072,7 @@ export class WorkersCount extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkersCount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkersCount to import
-  * @param importFromId The id of the existing WorkersCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkersCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkersCount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2084,7 +2084,7 @@ export class WorkersCount extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/workers_count xray_workers_count} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/workers_count xray_workers_count} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2095,8 +2095,8 @@ export class WorkersCount extends cdktf.TerraformResource {
       terraformResourceType: 'xray_workers_count',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

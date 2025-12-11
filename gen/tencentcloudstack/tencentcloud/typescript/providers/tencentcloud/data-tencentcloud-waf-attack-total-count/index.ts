@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudWafAttackTotalCountConfig extends cdktf.Terrafo
   /**
   * Query domain name, all domain use all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#domain DataTencentcloudWafAttackTotalCount#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#domain DataTencentcloudWafAttackTotalCount#domain}
   */
   readonly domain: string;
   /**
   * End time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#end_time DataTencentcloudWafAttackTotalCount#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#end_time DataTencentcloudWafAttackTotalCount#end_time}
   */
   readonly endTime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#id DataTencentcloudWafAttackTotalCount#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#id DataTencentcloudWafAttackTotalCount#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataTencentcloudWafAttackTotalCountConfig extends cdktf.Terrafo
   /**
   * Query conditions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#query_string DataTencentcloudWafAttackTotalCount#query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#query_string DataTencentcloudWafAttackTotalCount#query_string}
   */
   readonly queryString?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#result_output_file DataTencentcloudWafAttackTotalCount#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#result_output_file DataTencentcloudWafAttackTotalCount#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Begin time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#start_time DataTencentcloudWafAttackTotalCount#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#start_time DataTencentcloudWafAttackTotalCount#start_time}
   */
   readonly startTime: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count tencentcloud_waf_attack_total_count}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count tencentcloud_waf_attack_total_count}
 */
 export class DataTencentcloudWafAttackTotalCount extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataTencentcloudWafAttackTotalCount extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataTencentcloudWafAttackTotalCount resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudWafAttackTotalCount to import
-  * @param importFromId The id of the existing DataTencentcloudWafAttackTotalCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudWafAttackTotalCount that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudWafAttackTotalCount to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataTencentcloudWafAttackTotalCount extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/waf_attack_total_count tencentcloud_waf_attack_total_count} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/waf_attack_total_count tencentcloud_waf_attack_total_count} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataTencentcloudWafAttackTotalCount extends cdktf.TerraformDataSour
       terraformResourceType: 'tencentcloud_waf_attack_total_count',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

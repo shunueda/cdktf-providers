@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TsfApiGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * authentication type. secret: key authentication; none: no authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#auth_type TsfApiGroup#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#auth_type TsfApiGroup#auth_type}
   */
   readonly authType?: string;
   /**
   * remarks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#description TsfApiGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#description TsfApiGroup#description}
   */
   readonly description?: string;
   /**
   * gateway entity ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#gateway_instance_id TsfApiGroup#gateway_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#gateway_instance_id TsfApiGroup#gateway_instance_id}
   */
   readonly gatewayInstanceId?: string;
   /**
   * grouping context.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#group_context TsfApiGroup#group_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#group_context TsfApiGroup#group_context}
   */
   readonly groupContext: string;
   /**
   * group name, cannot contain Chinese.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#group_name TsfApiGroup#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#group_name TsfApiGroup#group_name}
   */
   readonly groupName: string;
   /**
   * grouping type, default ms. ms: microservice grouping; external: external Api grouping.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#group_type TsfApiGroup#group_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#group_type TsfApiGroup#group_type}
   */
   readonly groupType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#id TsfApiGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#id TsfApiGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface TsfApiGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * namespace parameter key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#namespace_name_key TsfApiGroup#namespace_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#namespace_name_key TsfApiGroup#namespace_name_key}
   */
   readonly namespaceNameKey?: string;
   /**
   * namespace parameter position, path, header or query, the default is path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#namespace_name_key_position TsfApiGroup#namespace_name_key_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#namespace_name_key_position TsfApiGroup#namespace_name_key_position}
   */
   readonly namespaceNameKeyPosition?: string;
   /**
   * microservice name parameter key value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#service_name_key TsfApiGroup#service_name_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#service_name_key TsfApiGroup#service_name_key}
   */
   readonly serviceNameKey?: string;
   /**
   * microservice name parameter position, path, header or query, the default is path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#service_name_key_position TsfApiGroup#service_name_key_position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#service_name_key_position TsfApiGroup#service_name_key_position}
   */
   readonly serviceNameKeyPosition?: string;
 }
@@ -182,7 +182,7 @@ export class TsfApiGroupBindedGatewayDeployGroupsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group tencentcloud_tsf_api_group}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group tencentcloud_tsf_api_group}
 */
 export class TsfApiGroup extends cdktf.TerraformResource {
 
@@ -198,7 +198,7 @@ export class TsfApiGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TsfApiGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TsfApiGroup to import
-  * @param importFromId The id of the existing TsfApiGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TsfApiGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TsfApiGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -210,7 +210,7 @@ export class TsfApiGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tsf_api_group tencentcloud_tsf_api_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tsf_api_group tencentcloud_tsf_api_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -221,8 +221,8 @@ export class TsfApiGroup extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tsf_api_group',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

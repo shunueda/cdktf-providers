@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_domain
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_domain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciEmailEmailDomainConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_domain#email_domain_id DataOciEmailEmailDomain#email_domain_id}
   */
   readonly emailDomainId: string;
 }
@@ -109,7 +109,7 @@ export class DataOciEmailEmailDomainLocksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_domain oci_email_email_domain}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_domain oci_email_email_domain}
 */
 export class DataOciEmailEmailDomain extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataOciEmailEmailDomain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciEmailEmailDomain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciEmailEmailDomain to import
-  * @param importFromId The id of the existing DataOciEmailEmailDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_domain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciEmailEmailDomain that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_domain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciEmailEmailDomain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataOciEmailEmailDomain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_domain oci_email_email_domain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_domain oci_email_email_domain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DataOciEmailEmailDomain extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_email_email_domain',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

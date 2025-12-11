@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiWirelessSsidFirewallIsolationAllowlistEntriesConfig e
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries#organization_id DataMerakiWirelessSsidFirewallIsolationAllowlistEntries#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries#organization_id DataMerakiWirelessSsidFirewallIsolationAllowlistEntries#organization_id}
   */
   readonly organizationId: string;
 }
@@ -111,7 +111,7 @@ export class DataMerakiWirelessSsidFirewallIsolationAllowlistEntriesItemsList ex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries meraki_wireless_ssid_firewall_isolation_allowlist_entries}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries meraki_wireless_ssid_firewall_isolation_allowlist_entries}
 */
 export class DataMerakiWirelessSsidFirewallIsolationAllowlistEntries extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataMerakiWirelessSsidFirewallIsolationAllowlistEntries extends cdk
   * Generates CDKTF code for importing a DataMerakiWirelessSsidFirewallIsolationAllowlistEntries resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessSsidFirewallIsolationAllowlistEntries to import
-  * @param importFromId The id of the existing DataMerakiWirelessSsidFirewallIsolationAllowlistEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessSsidFirewallIsolationAllowlistEntries that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessSsidFirewallIsolationAllowlistEntries to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataMerakiWirelessSsidFirewallIsolationAllowlistEntries extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries meraki_wireless_ssid_firewall_isolation_allowlist_entries} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_firewall_isolation_allowlist_entries meraki_wireless_ssid_firewall_isolation_allowlist_entries} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataMerakiWirelessSsidFirewallIsolationAllowlistEntries extends cdk
       terraformResourceType: 'meraki_wireless_ssid_firewall_isolation_allowlist_entries',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

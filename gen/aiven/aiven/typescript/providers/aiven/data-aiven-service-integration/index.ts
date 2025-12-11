@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAivenServiceIntegrationConfig extends cdktf.TerraformMetaAr
   /**
   * Destination service for the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration#destination_service_name DataAivenServiceIntegration#destination_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration#destination_service_name DataAivenServiceIntegration#destination_service_name}
   */
   readonly destinationServiceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration#id DataAivenServiceIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration#id DataAivenServiceIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataAivenServiceIntegrationConfig extends cdktf.TerraformMetaAr
   /**
   * Type of the service integration. The possible values are `alertmanager`, `autoscaler`, `caching`, `cassandra_cross_service_cluster`, `clickhouse_credentials`, `clickhouse_kafka`, `clickhouse_postgresql`, `dashboard`, `datadog`, `datasource`, `disaster_recovery`, `external_aws_cloudwatch_logs`, `external_aws_cloudwatch_metrics`, `external_elasticsearch_logs`, `external_google_cloud_logging`, `external_opensearch_logs`, `flink`, `flink_external_bigquery`, `flink_external_kafka`, `flink_external_postgresql`, `internal_connectivity`, `jolokia`, `kafka_connect`, `kafka_connect_postgresql`, `kafka_logs`, `kafka_mirrormaker`, `logs`, `m3aggregator`, `m3coordinator`, `metrics`, `opensearch_cross_cluster_replication`, `opensearch_cross_cluster_search`, `prometheus`, `read_replica`, `rsyslog`, `schema_registry_proxy`, `stresstester`, `thanos_distributed_query`, `thanos_migrate`, `thanoscompactor`, `thanosquery`, `thanosruler`, `thanosstore`, `vector` and `vmalert`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration#integration_type DataAivenServiceIntegration#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration#integration_type DataAivenServiceIntegration#integration_type}
   */
   readonly integrationType: string;
   /**
   * Project the integration belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration#project DataAivenServiceIntegration#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration#project DataAivenServiceIntegration#project}
   */
   readonly project: string;
   /**
   * Source service for the integration (if any)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration#source_service_name DataAivenServiceIntegration#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration#source_service_name DataAivenServiceIntegration#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -2812,7 +2812,7 @@ export class DataAivenServiceIntegrationPrometheusUserConfigList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration aiven_service_integration}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration aiven_service_integration}
 */
 export class DataAivenServiceIntegration extends cdktf.TerraformDataSource {
 
@@ -2828,7 +2828,7 @@ export class DataAivenServiceIntegration extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAivenServiceIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenServiceIntegration to import
-  * @param importFromId The id of the existing DataAivenServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenServiceIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenServiceIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2840,7 +2840,7 @@ export class DataAivenServiceIntegration extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/service_integration aiven_service_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/service_integration aiven_service_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2851,8 +2851,8 @@ export class DataAivenServiceIntegration extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_service_integration',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

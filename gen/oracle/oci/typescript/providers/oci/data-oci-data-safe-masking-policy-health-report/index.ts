@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_health_report
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_masking_policy_health_report
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataSafeMaskingPolicyHealthReportConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_health_report#id DataOciDataSafeMaskingPolicyHealthReport#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_masking_policy_health_report#id DataOciDataSafeMaskingPolicyHealthReport#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_health_report#masking_policy_health_report_id DataOciDataSafeMaskingPolicyHealthReport#masking_policy_health_report_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_masking_policy_health_report#masking_policy_health_report_id DataOciDataSafeMaskingPolicyHealthReport#masking_policy_health_report_id}
   */
   readonly maskingPolicyHealthReportId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_health_report oci_data_safe_masking_policy_health_report}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_masking_policy_health_report oci_data_safe_masking_policy_health_report}
 */
 export class DataOciDataSafeMaskingPolicyHealthReport extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataOciDataSafeMaskingPolicyHealthReport extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataOciDataSafeMaskingPolicyHealthReport resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataSafeMaskingPolicyHealthReport to import
-  * @param importFromId The id of the existing DataOciDataSafeMaskingPolicyHealthReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_health_report#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataSafeMaskingPolicyHealthReport that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_masking_policy_health_report#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataSafeMaskingPolicyHealthReport to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataOciDataSafeMaskingPolicyHealthReport extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/data_safe_masking_policy_health_report oci_data_safe_masking_policy_health_report} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/data_safe_masking_policy_health_report oci_data_safe_masking_policy_health_report} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataOciDataSafeMaskingPolicyHealthReport extends cdktf.TerraformDat
       terraformResourceType: 'oci_data_safe_masking_policy_health_report',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

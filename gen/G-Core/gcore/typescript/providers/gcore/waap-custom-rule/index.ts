@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface WaapCustomRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description assigned to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#description WaapCustomRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#description WaapCustomRule#description}
   */
   readonly description?: string;
   /**
   * The WAAP domain ID for which the Custom Rule is configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#domain_id WaapCustomRule#domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#domain_id WaapCustomRule#domain_id}
   */
   readonly domainId: number;
   /**
   * Whether the rule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#enabled WaapCustomRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#enabled WaapCustomRule#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#id WaapCustomRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#id WaapCustomRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,19 +35,19 @@ export interface WaapCustomRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name assigned to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#name WaapCustomRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#name WaapCustomRule#name}
   */
   readonly name: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#action WaapCustomRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#action WaapCustomRule#action}
   */
   readonly action: WaapCustomRuleAction;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#conditions WaapCustomRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#conditions WaapCustomRule#conditions}
   */
   readonly conditions: WaapCustomRuleConditions;
 }
@@ -55,13 +55,13 @@ export interface WaapCustomRuleActionBlock {
   /**
   * How long a rule's block action will apply to subsequent requests. Can be specified in seconds or by using a numeral followed by 's', 'm', 'h', or 'd' to represent time format (seconds, minutes, hours, or days). Example: 12h. Must match the pattern ^[0-9]*[smhd]?$
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#action_duration WaapCustomRule#action_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#action_duration WaapCustomRule#action_duration}
   */
   readonly actionDuration?: string;
   /**
   * A custom HTTP status code that the WAAP returns if a rule blocks a request. It must be one of these values {403, 405, 418, 429}. Default is 403.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#status_code WaapCustomRule#status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#status_code WaapCustomRule#status_code}
   */
   readonly statusCode?: number;
 }
@@ -176,7 +176,7 @@ export interface WaapCustomRuleActionTag {
   /**
   * The list of user defined tags to tag the request with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
   */
   readonly tags: string[];
 }
@@ -259,37 +259,37 @@ export interface WaapCustomRuleAction {
   /**
   * The WAAP allows the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#allow WaapCustomRule#allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#allow WaapCustomRule#allow}
   */
   readonly allow?: boolean | cdktf.IResolvable;
   /**
   * The WAAP requires the user to solve a CAPTCHA challenge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#captcha WaapCustomRule#captcha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#captcha WaapCustomRule#captcha}
   */
   readonly captcha?: boolean | cdktf.IResolvable;
   /**
   * The WAAP performs automatic browser validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#handshake WaapCustomRule#handshake}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#handshake WaapCustomRule#handshake}
   */
   readonly handshake?: boolean | cdktf.IResolvable;
   /**
   * The WAAP monitors the request but took no action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#monitor WaapCustomRule#monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#monitor WaapCustomRule#monitor}
   */
   readonly monitor?: boolean | cdktf.IResolvable;
   /**
   * block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#block WaapCustomRule#block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#block WaapCustomRule#block}
   */
   readonly block?: WaapCustomRuleActionBlock;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#tag WaapCustomRule#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#tag WaapCustomRule#tag}
   */
   readonly tag?: WaapCustomRuleActionTag;
 }
@@ -520,13 +520,13 @@ export interface WaapCustomRuleConditionsContentType {
   /**
   * The list of content types to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#content_type WaapCustomRule#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#content_type WaapCustomRule#content_type}
   */
   readonly contentType: string[];
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -670,13 +670,13 @@ export interface WaapCustomRuleConditionsCountry {
   /**
   * A list of ISO 3166-1 alpha-2 formatted strings representing the countries to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#country_code WaapCustomRule#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#country_code WaapCustomRule#country_code}
   */
   readonly countryCode: string[];
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -820,13 +820,13 @@ export interface WaapCustomRuleConditionsFileExtension {
   /**
   * The list of file extensions to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#file_extension WaapCustomRule#file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#file_extension WaapCustomRule#file_extension}
   */
   readonly fileExtension: string[];
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -970,25 +970,25 @@ export interface WaapCustomRuleConditionsHeader {
   /**
   * The request header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#header WaapCustomRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#header WaapCustomRule#header}
   */
   readonly header: string;
   /**
   * The type of matching condition. Valid values are 'Exact', 'Contains'. Default is 'Contains'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
   */
   readonly matchType?: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The request header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#value WaapCustomRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#value WaapCustomRule#value}
   */
   readonly value: string;
 }
@@ -1187,13 +1187,13 @@ export interface WaapCustomRuleConditionsHeaderExists {
   /**
   * The request header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#header WaapCustomRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#header WaapCustomRule#header}
   */
   readonly header: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -1337,13 +1337,13 @@ export interface WaapCustomRuleConditionsHttpMethod {
   /**
   * The HTTP method to match against. Valid values are 'CONNECT', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'PATCH', 'POST', 'PUT', and 'TRACE'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#http_method WaapCustomRule#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#http_method WaapCustomRule#http_method}
   */
   readonly httpMethod: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -1487,13 +1487,13 @@ export interface WaapCustomRuleConditionsIp {
   /**
   * A single IPv4 or IPv6 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#ip_address WaapCustomRule#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#ip_address WaapCustomRule#ip_address}
   */
   readonly ipAddress: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -1637,19 +1637,19 @@ export interface WaapCustomRuleConditionsIpRange {
   /**
   * The lower bound IPv4 or IPv6 address to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#lower_bound WaapCustomRule#lower_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#lower_bound WaapCustomRule#lower_bound}
   */
   readonly lowerBound: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The upper bound IPv4 or IPv6 address to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#upper_bound WaapCustomRule#upper_bound}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#upper_bound WaapCustomRule#upper_bound}
   */
   readonly upperBound: string;
 }
@@ -1819,13 +1819,13 @@ export interface WaapCustomRuleConditionsOrganization {
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The organization to match against.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#organization WaapCustomRule#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#organization WaapCustomRule#organization}
   */
   readonly organization: string;
 }
@@ -1969,13 +1969,13 @@ export interface WaapCustomRuleConditionsOwnerTypes {
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * Match the type of organization that owns the IP address making an incoming request. Valid values are 'COMMERCIAL', 'EDUCATIONAL', 'GOVERNMENT', 'HOSTING_SERVICES', 'ISP', 'MOBILE_NETWORK', 'NETWORK', and 'RESERVED'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#owner_types WaapCustomRule#owner_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#owner_types WaapCustomRule#owner_types}
   */
   readonly ownerTypes: string[];
 }
@@ -2119,37 +2119,37 @@ export interface WaapCustomRuleConditionsRequestRate {
   /**
   * Possible HTTP request methods that can trigger a request rate condition. Valid values are 'CONNECT', 'DELETE', 'GET', 'HEAD', 'OPTIONS', 'PATCH', 'POST', 'PUT', and 'TRACE'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#http_methods WaapCustomRule#http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#http_methods WaapCustomRule#http_methods}
   */
   readonly httpMethods?: string[];
   /**
   * A list of source IPs that can trigger a request rate condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#ips WaapCustomRule#ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#ips WaapCustomRule#ips}
   */
   readonly ips?: string[];
   /**
   * A regular expression matching the URL path of the incoming request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#path_pattern WaapCustomRule#path_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#path_pattern WaapCustomRule#path_pattern}
   */
   readonly pathPattern: string;
   /**
   * The number of incoming requests over the given time that can trigger a request rate condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#requests WaapCustomRule#requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#requests WaapCustomRule#requests}
   */
   readonly requests: number;
   /**
   * The number of seconds that the WAAP measures incoming requests over before triggering a request rate condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#time WaapCustomRule#time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#time WaapCustomRule#time}
   */
   readonly time: number;
   /**
   * A user-defined tag that can be included in incoming requests and used to trigger a request rate condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#user_defined_tag WaapCustomRule#user_defined_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#user_defined_tag WaapCustomRule#user_defined_tag}
   */
   readonly userDefinedTag?: string;
 }
@@ -2403,25 +2403,25 @@ export interface WaapCustomRuleConditionsResponseHeader {
   /**
   * The request header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#header WaapCustomRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#header WaapCustomRule#header}
   */
   readonly header: string;
   /**
   * The type of matching condition. Valid values are 'Exact', 'Contains'. Default is 'Contains'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
   */
   readonly matchType?: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The request header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#value WaapCustomRule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#value WaapCustomRule#value}
   */
   readonly value: string;
 }
@@ -2620,13 +2620,13 @@ export interface WaapCustomRuleConditionsResponseHeaderExists {
   /**
   * The request header name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#header WaapCustomRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#header WaapCustomRule#header}
   */
   readonly header: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
 }
@@ -2770,13 +2770,13 @@ export interface WaapCustomRuleConditionsSessionRequestCount {
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The number of dynamic requests in the session.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#request_count WaapCustomRule#request_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#request_count WaapCustomRule#request_count}
   */
   readonly requestCount: number;
 }
@@ -2920,13 +2920,13 @@ export interface WaapCustomRuleConditionsTags {
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * A list of tags to match against the request tags. Tags can be obtained from the API endpoint /v1/tags or you can use the gcore_waap_tag data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
   */
   readonly tags: string[];
 }
@@ -3070,19 +3070,19 @@ export interface WaapCustomRuleConditionsUrl {
   /**
   * The type of matching condition. Valid values are 'Exact', 'Contains', and 'Regex'. Default is 'Contains'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
   */
   readonly matchType?: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The URL to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#url WaapCustomRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#url WaapCustomRule#url}
   */
   readonly url: string;
 }
@@ -3255,19 +3255,19 @@ export interface WaapCustomRuleConditionsUserAgent {
   /**
   * The type of matching condition. Valid values are 'Exact', 'Contains'. Default is 'Contains'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#match_type WaapCustomRule#match_type}
   */
   readonly matchType?: string;
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * The user agent value to match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#user_agent WaapCustomRule#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#user_agent WaapCustomRule#user_agent}
   */
   readonly userAgent: string;
 }
@@ -3440,13 +3440,13 @@ export interface WaapCustomRuleConditionsUserDefinedTags {
   /**
   * Whether or not to apply a boolean NOT operation to the rule's condition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#negation WaapCustomRule#negation}
   */
   readonly negation?: boolean | cdktf.IResolvable;
   /**
   * A list of user-defined tags to match against the request tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
   */
   readonly tags: string[];
 }
@@ -3590,109 +3590,109 @@ export interface WaapCustomRuleConditions {
   /**
   * content_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#content_type WaapCustomRule#content_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#content_type WaapCustomRule#content_type}
   */
   readonly contentType?: WaapCustomRuleConditionsContentType[] | cdktf.IResolvable;
   /**
   * country block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#country WaapCustomRule#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#country WaapCustomRule#country}
   */
   readonly country?: WaapCustomRuleConditionsCountry[] | cdktf.IResolvable;
   /**
   * file_extension block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#file_extension WaapCustomRule#file_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#file_extension WaapCustomRule#file_extension}
   */
   readonly fileExtension?: WaapCustomRuleConditionsFileExtension[] | cdktf.IResolvable;
   /**
   * header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#header WaapCustomRule#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#header WaapCustomRule#header}
   */
   readonly header?: WaapCustomRuleConditionsHeader[] | cdktf.IResolvable;
   /**
   * header_exists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#header_exists WaapCustomRule#header_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#header_exists WaapCustomRule#header_exists}
   */
   readonly headerExists?: WaapCustomRuleConditionsHeaderExists[] | cdktf.IResolvable;
   /**
   * http_method block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#http_method WaapCustomRule#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#http_method WaapCustomRule#http_method}
   */
   readonly httpMethod?: WaapCustomRuleConditionsHttpMethod[] | cdktf.IResolvable;
   /**
   * ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#ip WaapCustomRule#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#ip WaapCustomRule#ip}
   */
   readonly ip?: WaapCustomRuleConditionsIp[] | cdktf.IResolvable;
   /**
   * ip_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#ip_range WaapCustomRule#ip_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#ip_range WaapCustomRule#ip_range}
   */
   readonly ipRange?: WaapCustomRuleConditionsIpRange[] | cdktf.IResolvable;
   /**
   * organization block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#organization WaapCustomRule#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#organization WaapCustomRule#organization}
   */
   readonly organization?: WaapCustomRuleConditionsOrganization[] | cdktf.IResolvable;
   /**
   * owner_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#owner_types WaapCustomRule#owner_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#owner_types WaapCustomRule#owner_types}
   */
   readonly ownerTypes?: WaapCustomRuleConditionsOwnerTypes[] | cdktf.IResolvable;
   /**
   * request_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#request_rate WaapCustomRule#request_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#request_rate WaapCustomRule#request_rate}
   */
   readonly requestRate?: WaapCustomRuleConditionsRequestRate[] | cdktf.IResolvable;
   /**
   * response_header block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#response_header WaapCustomRule#response_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#response_header WaapCustomRule#response_header}
   */
   readonly responseHeader?: WaapCustomRuleConditionsResponseHeader[] | cdktf.IResolvable;
   /**
   * response_header_exists block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#response_header_exists WaapCustomRule#response_header_exists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#response_header_exists WaapCustomRule#response_header_exists}
   */
   readonly responseHeaderExists?: WaapCustomRuleConditionsResponseHeaderExists[] | cdktf.IResolvable;
   /**
   * session_request_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#session_request_count WaapCustomRule#session_request_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#session_request_count WaapCustomRule#session_request_count}
   */
   readonly sessionRequestCount?: WaapCustomRuleConditionsSessionRequestCount[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#tags WaapCustomRule#tags}
   */
   readonly tags?: WaapCustomRuleConditionsTags[] | cdktf.IResolvable;
   /**
   * url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#url WaapCustomRule#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#url WaapCustomRule#url}
   */
   readonly url?: WaapCustomRuleConditionsUrl[] | cdktf.IResolvable;
   /**
   * user_agent block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#user_agent WaapCustomRule#user_agent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#user_agent WaapCustomRule#user_agent}
   */
   readonly userAgent?: WaapCustomRuleConditionsUserAgent[] | cdktf.IResolvable;
   /**
   * user_defined_tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#user_defined_tags WaapCustomRule#user_defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#user_defined_tags WaapCustomRule#user_defined_tags}
   */
   readonly userDefinedTags?: WaapCustomRuleConditionsUserDefinedTags[] | cdktf.IResolvable;
 }
@@ -4269,7 +4269,7 @@ export class WaapCustomRuleConditionsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule gcore_waap_custom_rule}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule gcore_waap_custom_rule}
 */
 export class WaapCustomRule extends cdktf.TerraformResource {
 
@@ -4285,7 +4285,7 @@ export class WaapCustomRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WaapCustomRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WaapCustomRule to import
-  * @param importFromId The id of the existing WaapCustomRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WaapCustomRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WaapCustomRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -4297,7 +4297,7 @@ export class WaapCustomRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/waap_custom_rule gcore_waap_custom_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/waap_custom_rule gcore_waap_custom_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -4308,8 +4308,8 @@ export class WaapCustomRule extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_waap_custom_rule',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

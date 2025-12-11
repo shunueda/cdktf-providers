@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule
+// https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Action to execute on schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#action Schedule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#action Schedule#action}
   */
   readonly action: ScheduleAction;
   /**
   * Non-indexed key-value pairs for metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#memo Schedule#memo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#memo Schedule#memo}
   */
   readonly memo?: { [key: string]: string };
   /**
   * Namespace where the schedule resides
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#namespace Schedule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#namespace Schedule#namespace}
   */
   readonly namespace: string;
   /**
   * Schedule policy configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#policy_config Schedule#policy_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#policy_config Schedule#policy_config}
   */
   readonly policyConfig: SchedulePolicyConfig;
   /**
   * Unique identifier for the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#schedule_id Schedule#schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#schedule_id Schedule#schedule_id}
   */
   readonly scheduleId: string;
   /**
   * Schedule specification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#spec Schedule#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#spec Schedule#spec}
   */
   readonly spec: ScheduleSpec;
   /**
   * Schedule state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#state Schedule#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#state Schedule#state}
   */
   readonly state: ScheduleState;
 }
@@ -54,43 +54,43 @@ export interface ScheduleActionWorkflow {
   /**
   * Execution timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#execution_timeout Schedule#execution_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#execution_timeout Schedule#execution_timeout}
   */
   readonly executionTimeout?: string;
   /**
   * Workflow input (JSON)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#input Schedule#input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#input Schedule#input}
   */
   readonly input?: string;
   /**
   * Run timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#run_timeout Schedule#run_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#run_timeout Schedule#run_timeout}
   */
   readonly runTimeout?: string;
   /**
   * Task Queue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#task_queue Schedule#task_queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#task_queue Schedule#task_queue}
   */
   readonly taskQueue: string;
   /**
   * Task timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#task_timeout Schedule#task_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#task_timeout Schedule#task_timeout}
   */
   readonly taskTimeout?: string;
   /**
   * Workflow ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#workflow_id Schedule#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#workflow_id Schedule#workflow_id}
   */
   readonly workflowId: string;
   /**
   * Workflow Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#workflow_type Schedule#workflow_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#workflow_type Schedule#workflow_type}
   */
   readonly workflowType: string;
 }
@@ -351,7 +351,7 @@ export interface ScheduleAction {
   /**
   * Workflow action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#workflow Schedule#workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#workflow Schedule#workflow}
   */
   readonly workflow: ScheduleActionWorkflow;
 }
@@ -444,19 +444,19 @@ export interface SchedulePolicyConfig {
   /**
   * Maximum catch-up time for when the Service is unavailable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#catchup_window Schedule#catchup_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#catchup_window Schedule#catchup_window}
   */
   readonly catchupWindow?: string;
   /**
   * Policy for handling overlapping Workflow Executions. Accepted values: Skip, BufferOne, BufferAll, CancelOther, TerminateOther, AllowAll
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#overlap_policy Schedule#overlap_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#overlap_policy Schedule#overlap_policy}
   */
   readonly overlapPolicy?: string;
   /**
   * Pause the schedule on action failure
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#pause_on_failure Schedule#pause_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#pause_on_failure Schedule#pause_on_failure}
   */
   readonly pauseOnFailure?: boolean | cdktf.IResolvable;
 }
@@ -610,31 +610,31 @@ export interface ScheduleSpecCalendarItems {
   /**
   * Optional comment describing this calendar entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#comment Schedule#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#comment Schedule#comment}
   */
   readonly comment?: string;
   /**
   * Day of month specification (e.g., '1', '1,15', '1-31')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#day_of_month Schedule#day_of_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#day_of_month Schedule#day_of_month}
   */
   readonly dayOfMonth?: string;
   /**
   * Day of week specification in numeric format (e.g., '1', '1-6', '1,3,5')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#day_of_week Schedule#day_of_week}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#day_of_week Schedule#day_of_week}
   */
   readonly dayOfWeek?: string;
   /**
   * Hour specification (e.g., '9', '9-17', '11-14')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#hour Schedule#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#hour Schedule#hour}
   */
   readonly hour?: string;
   /**
   * Minute specification (e.g., '0', '0,30', '* /15', '*')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#minute Schedule#minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#minute Schedule#minute}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -642,19 +642,19 @@ export interface ScheduleSpecCalendarItems {
   /**
   * Month specification in numeric format (e.g., '1', '1,2,9', '1-12')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#month Schedule#month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#month Schedule#month}
   */
   readonly month?: string;
   /**
   * Second specification (e.g., '0', '0,30', '*')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#second Schedule#second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#second Schedule#second}
   */
   readonly second?: string;
   /**
   * Year specification (e.g., '2022', '2022-2025')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#year Schedule#year}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#year Schedule#year}
   */
   readonly year?: string;
 }
@@ -975,13 +975,13 @@ export interface ScheduleSpecIntervals {
   /**
   * Duration of the interval (e.g., '24h', '7d')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#every Schedule#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#every Schedule#every}
   */
   readonly every: string;
   /**
   * Offset from the interval (e.g., '1h')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#offset Schedule#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#offset Schedule#offset}
   */
   readonly offset?: string;
 }
@@ -1125,43 +1125,43 @@ export interface ScheduleSpec {
   /**
   * Calendar expressions for schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#calendar_items Schedule#calendar_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#calendar_items Schedule#calendar_items}
   */
   readonly calendarItems?: ScheduleSpecCalendarItems[] | cdktf.IResolvable;
   /**
   * Traditional cron expressions (e.g. '15 8 * * *')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#cron_items Schedule#cron_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#cron_items Schedule#cron_items}
   */
   readonly cronItems?: string[];
   /**
   * End time of the schedule (RFC3339)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#end_time Schedule#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#end_time Schedule#end_time}
   */
   readonly endTime?: string;
   /**
   * Time intervals for schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#intervals Schedule#intervals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#intervals Schedule#intervals}
   */
   readonly intervals?: ScheduleSpecIntervals[] | cdktf.IResolvable;
   /**
   * Jitter duration to add randomness to scheduled times
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#jitter Schedule#jitter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#jitter Schedule#jitter}
   */
   readonly jitter?: string;
   /**
   * Start time of the schedule (RFC3339)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#start_time Schedule#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#start_time Schedule#start_time}
   */
   readonly startTime?: string;
   /**
   * Time zone for the schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#time_zone Schedule#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#time_zone Schedule#time_zone}
   */
   readonly timeZone?: string;
 }
@@ -1431,25 +1431,25 @@ export interface ScheduleState {
   /**
   * Whether the schedule is limited to a specific number of actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#limited_actions Schedule#limited_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#limited_actions Schedule#limited_actions}
   */
   readonly limitedActions?: boolean | cdktf.IResolvable;
   /**
   * Initial notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#notes Schedule#notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#notes Schedule#notes}
   */
   readonly notes?: string;
   /**
   * Pause the Schedule immediately on creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#paused Schedule#paused}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#paused Schedule#paused}
   */
   readonly paused?: boolean | cdktf.IResolvable;
   /**
   * Total allowed actions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#remaining_actions Schedule#remaining_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#remaining_actions Schedule#remaining_actions}
   */
   readonly remainingActions?: number;
 }
@@ -1630,7 +1630,7 @@ export class ScheduleStateOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule temporal_schedule}
+* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule temporal_schedule}
 */
 export class Schedule extends cdktf.TerraformResource {
 
@@ -1646,7 +1646,7 @@ export class Schedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Schedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Schedule to import
-  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Schedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Schedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1658,7 +1658,7 @@ export class Schedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/schedule temporal_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/schedule temporal_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1669,8 +1669,8 @@ export class Schedule extends cdktf.TerraformResource {
       terraformResourceType: 'temporal_schedule',
       terraformGeneratorMetadata: {
         providerName: 'temporal',
-        providerVersion: '0.14.0',
-        providerVersionConstraint: '0.14.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface GovernanceAccessConfig extends cdktf.TerraformMetaArguments {
   /**
   * Label to describe the access. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#access_name GovernanceAccess#access_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#access_name GovernanceAccess#access_name}
   */
   readonly accessName: string;
   /**
   * An enumeration. The possible value is `KAFKA`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#access_type GovernanceAccess#access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#access_type GovernanceAccess#access_type}
   */
   readonly accessType: string;
   /**
   * ID of an organization. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#organization_id GovernanceAccess#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#organization_id GovernanceAccess#organization_id}
   */
   readonly organizationId: string;
   /**
   * The ID of the group that will own the access. Maximum length: `36`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#owner_user_group_id GovernanceAccess#owner_user_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#owner_user_group_id GovernanceAccess#owner_user_group_id}
   */
   readonly ownerUserGroupId?: string;
   /**
   * access_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#access_data GovernanceAccess#access_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#access_data GovernanceAccess#access_data}
   */
   readonly accessData?: GovernanceAccessAccessData[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#timeouts GovernanceAccess#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#timeouts GovernanceAccess#timeouts}
   */
   readonly timeouts?: GovernanceAccessTimeouts;
 }
@@ -48,31 +48,31 @@ export interface GovernanceAccessAccessDataAcls {
   /**
   * The IP address from which a principal is allowed or denied access to the resource. Use `*` for all hosts. Maximum length: `256`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#host GovernanceAccess#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#host GovernanceAccess#host}
   */
   readonly host?: string;
   /**
   * An enumeration. The possible values are `Read` and `Write`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#operation GovernanceAccess#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#operation GovernanceAccess#operation}
   */
   readonly operation: string;
   /**
   * An enumeration. The possible value is `ALLOW`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#permission_type GovernanceAccess#permission_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#permission_type GovernanceAccess#permission_type}
   */
   readonly permissionType: string;
   /**
   * Acl resource name. Maximum length: `256`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#resource_name GovernanceAccess#resource_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#resource_name GovernanceAccess#resource_name}
   */
   readonly resourceName: string;
   /**
   * An enumeration. The possible value is `Topic`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#resource_type GovernanceAccess#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#resource_type GovernanceAccess#resource_type}
   */
   readonly resourceType: string;
 }
@@ -309,25 +309,25 @@ export interface GovernanceAccessAccessData {
   /**
   * Project name. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#project GovernanceAccess#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#project GovernanceAccess#project}
   */
   readonly project: string;
   /**
   * Service name. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#service_name GovernanceAccess#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#service_name GovernanceAccess#service_name}
   */
   readonly serviceName: string;
   /**
   * The service username assigned to the access. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#username GovernanceAccess#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#username GovernanceAccess#username}
   */
   readonly username?: string;
   /**
   * acls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#acls GovernanceAccess#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#acls GovernanceAccess#acls}
   */
   readonly acls?: GovernanceAccessAccessDataAcls[] | cdktf.IResolvable;
 }
@@ -526,25 +526,25 @@ export interface GovernanceAccessTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#create GovernanceAccess#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#create GovernanceAccess#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#delete GovernanceAccess#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#delete GovernanceAccess#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#read GovernanceAccess#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#read GovernanceAccess#read}
   */
   readonly read?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#update GovernanceAccess#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#update GovernanceAccess#update}
   */
   readonly update?: string;
 }
@@ -725,7 +725,7 @@ export class GovernanceAccessTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access aiven_governance_access}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access aiven_governance_access}
 */
 export class GovernanceAccess extends cdktf.TerraformResource {
 
@@ -741,7 +741,7 @@ export class GovernanceAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GovernanceAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GovernanceAccess to import
-  * @param importFromId The id of the existing GovernanceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GovernanceAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GovernanceAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -753,7 +753,7 @@ export class GovernanceAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/governance_access aiven_governance_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/governance_access aiven_governance_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -764,8 +764,8 @@ export class GovernanceAccess extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_governance_access',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

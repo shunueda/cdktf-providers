@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataRafayCredentialsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials#id DataRafayCredentials#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials#id DataRafayCredentials#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataRafayCredentialsConfig extends cdktf.TerraformMetaArguments
   /**
   * Project name from where credentials to be listed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials#projectname DataRafayCredentials#projectname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials#projectname DataRafayCredentials#projectname}
   */
   readonly projectname: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials#timeouts DataRafayCredentials#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials#timeouts DataRafayCredentials#timeouts}
   */
   readonly timeouts?: DataRafayCredentialsTimeouts;
 }
@@ -114,7 +114,7 @@ export class DataRafayCredentialsCredentialsList extends cdktf.ComplexList {
 }
 export interface DataRafayCredentialsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials#read DataRafayCredentials#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials#read DataRafayCredentials#read}
   */
   readonly read?: string;
 }
@@ -208,7 +208,7 @@ export class DataRafayCredentialsTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials rafay_credentials}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials rafay_credentials}
 */
 export class DataRafayCredentials extends cdktf.TerraformDataSource {
 
@@ -224,7 +224,7 @@ export class DataRafayCredentials extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataRafayCredentials resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataRafayCredentials to import
-  * @param importFromId The id of the existing DataRafayCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataRafayCredentials that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataRafayCredentials to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -236,7 +236,7 @@ export class DataRafayCredentials extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/data-sources/credentials rafay_credentials} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/data-sources/credentials rafay_credentials} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -247,8 +247,8 @@ export class DataRafayCredentials extends cdktf.TerraformDataSource {
       terraformResourceType: 'rafay_credentials',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TseCngwRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * destination port for Layer 4 matching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#destination_ports TseCngwRoute#destination_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#destination_ports TseCngwRoute#destination_ports}
   */
   readonly destinationPorts?: number[];
   /**
   * whether to enable forced HTTPS, no longer use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#force_https TseCngwRoute#force_https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#force_https TseCngwRoute#force_https}
   */
   readonly forceHttps?: boolean | cdktf.IResolvable;
   /**
   * gateway ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#gateway_id TseCngwRoute#gateway_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#gateway_id TseCngwRoute#gateway_id}
   */
   readonly gatewayId: string;
   /**
   * host list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#hosts TseCngwRoute#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#hosts TseCngwRoute#hosts}
   */
   readonly hosts?: string[];
   /**
   * https redirection status code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#https_redirect_status_code TseCngwRoute#https_redirect_status_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#https_redirect_status_code TseCngwRoute#https_redirect_status_code}
   */
   readonly httpsRedirectStatusCode?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#id TseCngwRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#id TseCngwRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,49 +47,49 @@ export interface TseCngwRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * route methods. Reference value:`GET`,`POST`,`DELETE`,`PUT`,`OPTIONS`,`PATCH`,`HEAD`,`ANY`,`TRACE`,`COPY`,`MOVE`,`PROPFIND`,`PROPPATCH`,`MKCOL`,`LOCK`,`UNLOCK`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#methods TseCngwRoute#methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#methods TseCngwRoute#methods}
   */
   readonly methods?: string[];
   /**
   * path list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#paths TseCngwRoute#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#paths TseCngwRoute#paths}
   */
   readonly paths?: string[];
   /**
   * whether to keep the host when forwarding to the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#preserve_host TseCngwRoute#preserve_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#preserve_host TseCngwRoute#preserve_host}
   */
   readonly preserveHost?: boolean | cdktf.IResolvable;
   /**
   * the protocol list of route.Reference value:`https`,`http`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#protocols TseCngwRoute#protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#protocols TseCngwRoute#protocols}
   */
   readonly protocols?: string[];
   /**
   * the name of the route, unique in the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#route_name TseCngwRoute#route_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#route_name TseCngwRoute#route_name}
   */
   readonly routeName?: string;
   /**
   * ID of the service which the route belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#service_id TseCngwRoute#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#service_id TseCngwRoute#service_id}
   */
   readonly serviceId: string;
   /**
   * whether to strip path when forwarding to the backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#strip_path TseCngwRoute#strip_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#strip_path TseCngwRoute#strip_path}
   */
   readonly stripPath?: boolean | cdktf.IResolvable;
   /**
   * headers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#headers TseCngwRoute#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#headers TseCngwRoute#headers}
   */
   readonly headers?: TseCngwRouteHeaders[] | cdktf.IResolvable;
 }
@@ -97,13 +97,13 @@ export interface TseCngwRouteHeaders {
   /**
   * key of header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#key TseCngwRoute#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#key TseCngwRoute#key}
   */
   readonly key?: string;
   /**
   * value of header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#value TseCngwRoute#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#value TseCngwRoute#value}
   */
   readonly value?: string;
 }
@@ -248,7 +248,7 @@ export class TseCngwRouteHeadersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route tencentcloud_tse_cngw_route}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route tencentcloud_tse_cngw_route}
 */
 export class TseCngwRoute extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class TseCngwRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TseCngwRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TseCngwRoute to import
-  * @param importFromId The id of the existing TseCngwRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TseCngwRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TseCngwRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class TseCngwRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/tse_cngw_route tencentcloud_tse_cngw_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/tse_cngw_route tencentcloud_tse_cngw_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class TseCngwRoute extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_tse_cngw_route',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

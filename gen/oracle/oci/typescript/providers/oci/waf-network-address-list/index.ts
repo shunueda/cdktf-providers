@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,64 +8,64 @@ import * as cdktf from 'cdktf';
 
 export interface WafNetworkAddressListConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#addresses WafNetworkAddressList#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#addresses WafNetworkAddressList#addresses}
   */
   readonly addresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#compartment_id WafNetworkAddressList#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#compartment_id WafNetworkAddressList#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#defined_tags WafNetworkAddressList#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#defined_tags WafNetworkAddressList#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#display_name WafNetworkAddressList#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#display_name WafNetworkAddressList#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#freeform_tags WafNetworkAddressList#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#freeform_tags WafNetworkAddressList#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#id WafNetworkAddressList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#id WafNetworkAddressList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#system_tags WafNetworkAddressList#system_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#system_tags WafNetworkAddressList#system_tags}
   */
   readonly systemTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#type WafNetworkAddressList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#type WafNetworkAddressList#type}
   */
   readonly type: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#timeouts WafNetworkAddressList#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#timeouts WafNetworkAddressList#timeouts}
   */
   readonly timeouts?: WafNetworkAddressListTimeouts;
   /**
   * vcn_addresses block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#vcn_addresses WafNetworkAddressList#vcn_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#vcn_addresses WafNetworkAddressList#vcn_addresses}
   */
   readonly vcnAddresses?: WafNetworkAddressListVcnAddresses[] | cdktf.IResolvable;
 }
 export interface WafNetworkAddressListTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#create WafNetworkAddressList#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#create WafNetworkAddressList#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#delete WafNetworkAddressList#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#delete WafNetworkAddressList#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#update WafNetworkAddressList#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#update WafNetworkAddressList#update}
   */
   readonly update?: string;
 }
@@ -217,11 +217,11 @@ export class WafNetworkAddressListTimeoutsOutputReference extends cdktf.ComplexO
 }
 export interface WafNetworkAddressListVcnAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#addresses WafNetworkAddressList#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#addresses WafNetworkAddressList#addresses}
   */
   readonly addresses?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#vcn_id WafNetworkAddressList#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#vcn_id WafNetworkAddressList#vcn_id}
   */
   readonly vcnId?: string;
 }
@@ -366,7 +366,7 @@ export class WafNetworkAddressListVcnAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list oci_waf_network_address_list}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list oci_waf_network_address_list}
 */
 export class WafNetworkAddressList extends cdktf.TerraformResource {
 
@@ -382,7 +382,7 @@ export class WafNetworkAddressList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WafNetworkAddressList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WafNetworkAddressList to import
-  * @param importFromId The id of the existing WafNetworkAddressList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WafNetworkAddressList that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WafNetworkAddressList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -394,7 +394,7 @@ export class WafNetworkAddressList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/waf_network_address_list oci_waf_network_address_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/waf_network_address_list oci_waf_network_address_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -405,8 +405,8 @@ export class WafNetworkAddressList extends cdktf.TerraformResource {
       terraformResourceType: 'oci_waf_network_address_list',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

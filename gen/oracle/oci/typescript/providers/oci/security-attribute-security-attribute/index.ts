@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SecurityAttributeSecurityAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#description SecurityAttributeSecurityAttribute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#description SecurityAttributeSecurityAttribute#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#id SecurityAttributeSecurityAttribute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#id SecurityAttributeSecurityAttribute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#is_retired SecurityAttributeSecurityAttribute#is_retired}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#is_retired SecurityAttributeSecurityAttribute#is_retired}
   */
   readonly isRetired?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#name SecurityAttributeSecurityAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#name SecurityAttributeSecurityAttribute#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#security_attribute_namespace_id SecurityAttributeSecurityAttribute#security_attribute_namespace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#security_attribute_namespace_id SecurityAttributeSecurityAttribute#security_attribute_namespace_id}
   */
   readonly securityAttributeNamespaceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#timeouts SecurityAttributeSecurityAttribute#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#timeouts SecurityAttributeSecurityAttribute#timeouts}
   */
   readonly timeouts?: SecurityAttributeSecurityAttributeTimeouts;
   /**
   * validator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#validator SecurityAttributeSecurityAttribute#validator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#validator SecurityAttributeSecurityAttribute#validator}
   */
   readonly validator?: SecurityAttributeSecurityAttributeValidator;
 }
 export interface SecurityAttributeSecurityAttributeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#create SecurityAttributeSecurityAttribute#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#create SecurityAttributeSecurityAttribute#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#delete SecurityAttributeSecurityAttribute#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#delete SecurityAttributeSecurityAttribute#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#update SecurityAttributeSecurityAttribute#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#update SecurityAttributeSecurityAttribute#update}
   */
   readonly update?: string;
 }
@@ -205,11 +205,11 @@ export class SecurityAttributeSecurityAttributeTimeoutsOutputReference extends c
 }
 export interface SecurityAttributeSecurityAttributeValidator {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#validator_type SecurityAttributeSecurityAttribute#validator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#validator_type SecurityAttributeSecurityAttribute#validator_type}
   */
   readonly validatorType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#values SecurityAttributeSecurityAttribute#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#values SecurityAttributeSecurityAttribute#values}
   */
   readonly values?: string[];
 }
@@ -319,7 +319,7 @@ export class SecurityAttributeSecurityAttributeValidatorOutputReference extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute oci_security_attribute_security_attribute}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute oci_security_attribute_security_attribute}
 */
 export class SecurityAttributeSecurityAttribute extends cdktf.TerraformResource {
 
@@ -335,7 +335,7 @@ export class SecurityAttributeSecurityAttribute extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SecurityAttributeSecurityAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityAttributeSecurityAttribute to import
-  * @param importFromId The id of the existing SecurityAttributeSecurityAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityAttributeSecurityAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityAttributeSecurityAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -347,7 +347,7 @@ export class SecurityAttributeSecurityAttribute extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/security_attribute_security_attribute oci_security_attribute_security_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/security_attribute_security_attribute oci_security_attribute_security_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -358,8 +358,8 @@ export class SecurityAttributeSecurityAttribute extends cdktf.TerraformResource 
       terraformResourceType: 'oci_security_attribute_security_attribute',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

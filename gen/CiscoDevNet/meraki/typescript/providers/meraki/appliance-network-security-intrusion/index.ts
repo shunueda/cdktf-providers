@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,44 +11,44 @@ export interface ApplianceNetworkSecurityIntrusionConfig extends cdktf.Terraform
   * Set the detection ruleset `connectivity`/`balanced`/`security` (optional - omitting will leave current config unchanged). Default value is `balanced` if none currently saved
   *   - Choices: `balanced`, `connectivity`, `security`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#ids_rulesets ApplianceNetworkSecurityIntrusion#ids_rulesets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#ids_rulesets ApplianceNetworkSecurityIntrusion#ids_rulesets}
   */
   readonly idsRulesets?: string;
   /**
   * Set mode to `disabled`/`detection`/`prevention` (optional - omitting will leave current config unchanged)
   *   - Choices: `detection`, `disabled`, `prevention`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#mode ApplianceNetworkSecurityIntrusion#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#mode ApplianceNetworkSecurityIntrusion#mode}
   */
   readonly mode?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#network_id ApplianceNetworkSecurityIntrusion#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#network_id ApplianceNetworkSecurityIntrusion#network_id}
   */
   readonly networkId: string;
   /**
   * list of IP addresses or subnets being excluded from protection (required if `useDefault` is false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#protected_networks_excluded_cidr ApplianceNetworkSecurityIntrusion#protected_networks_excluded_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#protected_networks_excluded_cidr ApplianceNetworkSecurityIntrusion#protected_networks_excluded_cidr}
   */
   readonly protectedNetworksExcludedCidr?: string[];
   /**
   * list of IP addresses or subnets being protected (required if `useDefault` is false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#protected_networks_included_cidr ApplianceNetworkSecurityIntrusion#protected_networks_included_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#protected_networks_included_cidr ApplianceNetworkSecurityIntrusion#protected_networks_included_cidr}
   */
   readonly protectedNetworksIncludedCidr?: string[];
   /**
   * true/false whether to use special IPv4 addresses: https://tools.ietf.org/html/rfc5735 (required). Default value is true if none currently saved
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#protected_networks_use_default ApplianceNetworkSecurityIntrusion#protected_networks_use_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#protected_networks_use_default ApplianceNetworkSecurityIntrusion#protected_networks_use_default}
   */
   readonly protectedNetworksUseDefault?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion}
 */
 export class ApplianceNetworkSecurityIntrusion extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class ApplianceNetworkSecurityIntrusion extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceNetworkSecurityIntrusion resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceNetworkSecurityIntrusion to import
-  * @param importFromId The id of the existing ApplianceNetworkSecurityIntrusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceNetworkSecurityIntrusion that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceNetworkSecurityIntrusion to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class ApplianceNetworkSecurityIntrusion extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_network_security_intrusion meraki_appliance_network_security_intrusion} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class ApplianceNetworkSecurityIntrusion extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_network_security_intrusion',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

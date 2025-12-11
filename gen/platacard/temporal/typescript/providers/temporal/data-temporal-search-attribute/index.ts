@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/data-sources/search_attribute
+// https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/data-sources/search_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataTemporalSearchAttributeConfig extends cdktf.TerraformMetaAr
   /**
   * Search Attribute Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/data-sources/search_attribute#name DataTemporalSearchAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/data-sources/search_attribute#name DataTemporalSearchAttribute#name}
   */
   readonly name: string;
   /**
   * Namespace with which the Search Attribute is associated. If this is not provided, 'default' will be used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/data-sources/search_attribute#namespace DataTemporalSearchAttribute#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/data-sources/search_attribute#namespace DataTemporalSearchAttribute#namespace}
   */
   readonly namespace?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/data-sources/search_attribute temporal_search_attribute}
+* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/data-sources/search_attribute temporal_search_attribute}
 */
 export class DataTemporalSearchAttribute extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataTemporalSearchAttribute extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTemporalSearchAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTemporalSearchAttribute to import
-  * @param importFromId The id of the existing DataTemporalSearchAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/data-sources/search_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTemporalSearchAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/data-sources/search_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTemporalSearchAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataTemporalSearchAttribute extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/data-sources/search_attribute temporal_search_attribute} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/data-sources/search_attribute temporal_search_attribute} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataTemporalSearchAttribute extends cdktf.TerraformDataSource {
       terraformResourceType: 'temporal_search_attribute',
       terraformGeneratorMetadata: {
         providerName: 'temporal',
-        providerVersion: '0.14.0',
-        providerVersionConstraint: '0.14.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

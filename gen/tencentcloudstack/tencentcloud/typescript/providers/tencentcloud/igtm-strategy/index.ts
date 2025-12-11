@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IgtmStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#id IgtmStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#id IgtmStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,43 +17,43 @@ export interface IgtmStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#instance_id IgtmStrategy#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#instance_id IgtmStrategy#instance_id}
   */
   readonly instanceId: string;
   /**
   * Whether to enable policy forced retention of default lines disabled, enabled, default is disabled and only one policy can be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#keep_domain_records IgtmStrategy#keep_domain_records}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#keep_domain_records IgtmStrategy#keep_domain_records}
   */
   readonly keepDomainRecords?: string;
   /**
   * Strategy name, cannot be duplicated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#strategy_name IgtmStrategy#strategy_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#strategy_name IgtmStrategy#strategy_name}
   */
   readonly strategyName: string;
   /**
   * Policy scheduling mode: AUTO default switching; STOP only pause without switching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#switch_pool_type IgtmStrategy#switch_pool_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#switch_pool_type IgtmStrategy#switch_pool_type}
   */
   readonly switchPoolType?: string;
   /**
   * fallback_address_pool_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#fallback_address_pool_set IgtmStrategy#fallback_address_pool_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#fallback_address_pool_set IgtmStrategy#fallback_address_pool_set}
   */
   readonly fallbackAddressPoolSet: IgtmStrategyFallbackAddressPoolSet[] | cdktf.IResolvable;
   /**
   * main_address_pool_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#main_address_pool_set IgtmStrategy#main_address_pool_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#main_address_pool_set IgtmStrategy#main_address_pool_set}
   */
   readonly mainAddressPoolSet: IgtmStrategyMainAddressPoolSet[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#source IgtmStrategy#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#source IgtmStrategy#source}
   */
   readonly source: IgtmStrategySource[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface IgtmStrategyFallbackAddressPoolSetAddressPools {
   /**
   * Address pool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#pool_id IgtmStrategy#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#pool_id IgtmStrategy#pool_id}
   */
   readonly poolId: number;
   /**
   * Weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#weight IgtmStrategy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#weight IgtmStrategy#weight}
   */
   readonly weight?: number;
 }
@@ -211,25 +211,25 @@ export interface IgtmStrategyFallbackAddressPoolSet {
   /**
   * Address pool set ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#main_address_pool_id IgtmStrategy#main_address_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#main_address_pool_id IgtmStrategy#main_address_pool_id}
   */
   readonly mainAddressPoolId?: number;
   /**
   * Switch threshold, cannot exceed the total number of addresses in the main set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#min_survive_num IgtmStrategy#min_survive_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#min_survive_num IgtmStrategy#min_survive_num}
   */
   readonly minSurviveNum?: number;
   /**
   * Switch strategy: ALL resolves all addresses; WEIGHT: load balancing. When ALL, the weight value of resolved addresses is 1; when WEIGHT, weight is address pool weight * address weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#traffic_strategy IgtmStrategy#traffic_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#traffic_strategy IgtmStrategy#traffic_strategy}
   */
   readonly trafficStrategy?: string;
   /**
   * address_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#address_pools IgtmStrategy#address_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#address_pools IgtmStrategy#address_pools}
   */
   readonly addressPools: IgtmStrategyFallbackAddressPoolSetAddressPools[] | cdktf.IResolvable;
 }
@@ -431,13 +431,13 @@ export interface IgtmStrategyMainAddressPoolSetAddressPools {
   /**
   * Address pool ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#pool_id IgtmStrategy#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#pool_id IgtmStrategy#pool_id}
   */
   readonly poolId: number;
   /**
   * Weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#weight IgtmStrategy#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#weight IgtmStrategy#weight}
   */
   readonly weight?: number;
 }
@@ -581,25 +581,25 @@ export interface IgtmStrategyMainAddressPoolSet {
   /**
   * Address pool set ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#main_address_pool_id IgtmStrategy#main_address_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#main_address_pool_id IgtmStrategy#main_address_pool_id}
   */
   readonly mainAddressPoolId?: number;
   /**
   * Switch threshold, cannot exceed the total number of addresses in the main set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#min_survive_num IgtmStrategy#min_survive_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#min_survive_num IgtmStrategy#min_survive_num}
   */
   readonly minSurviveNum?: number;
   /**
   * Switch strategy: ALL resolves all addresses; WEIGHT: load balancing. When ALL, the weight value of resolved addresses is 1; when WEIGHT, weight is address pool weight * address weight.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#traffic_strategy IgtmStrategy#traffic_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#traffic_strategy IgtmStrategy#traffic_strategy}
   */
   readonly trafficStrategy?: string;
   /**
   * address_pools block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#address_pools IgtmStrategy#address_pools}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#address_pools IgtmStrategy#address_pools}
   */
   readonly addressPools: IgtmStrategyMainAddressPoolSetAddressPools[] | cdktf.IResolvable;
 }
@@ -801,13 +801,13 @@ export interface IgtmStrategySource {
   /**
   * Resolution request source line ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#dns_line_id IgtmStrategy#dns_line_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#dns_line_id IgtmStrategy#dns_line_id}
   */
   readonly dnsLineId: number;
   /**
   * Resolution request source line name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#name IgtmStrategy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#name IgtmStrategy#name}
   */
   readonly name?: string;
 }
@@ -949,7 +949,7 @@ export class IgtmStrategySourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy tencentcloud_igtm_strategy}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy tencentcloud_igtm_strategy}
 */
 export class IgtmStrategy extends cdktf.TerraformResource {
 
@@ -965,7 +965,7 @@ export class IgtmStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IgtmStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IgtmStrategy to import
-  * @param importFromId The id of the existing IgtmStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IgtmStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IgtmStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -977,7 +977,7 @@ export class IgtmStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/igtm_strategy tencentcloud_igtm_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/igtm_strategy tencentcloud_igtm_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -988,8 +988,8 @@ export class IgtmStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_igtm_strategy',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

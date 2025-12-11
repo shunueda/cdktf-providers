@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciTenantmanagercontrolplaneSubscriptionMappingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#subscription_mapping_id DataOciTenantmanagercontrolplaneSubscriptionMapping#subscription_mapping_id}
   */
   readonly subscriptionMappingId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping}
 */
 export class DataOciTenantmanagercontrolplaneSubscriptionMapping extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataOciTenantmanagercontrolplaneSubscriptionMapping extends cdktf.T
   * Generates CDKTF code for importing a DataOciTenantmanagercontrolplaneSubscriptionMapping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciTenantmanagercontrolplaneSubscriptionMapping to import
-  * @param importFromId The id of the existing DataOciTenantmanagercontrolplaneSubscriptionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciTenantmanagercontrolplaneSubscriptionMapping that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciTenantmanagercontrolplaneSubscriptionMapping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataOciTenantmanagercontrolplaneSubscriptionMapping extends cdktf.T
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/tenantmanagercontrolplane_subscription_mapping oci_tenantmanagercontrolplane_subscription_mapping} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataOciTenantmanagercontrolplaneSubscriptionMapping extends cdktf.T
       terraformResourceType: 'oci_tenantmanagercontrolplane_subscription_mapping',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

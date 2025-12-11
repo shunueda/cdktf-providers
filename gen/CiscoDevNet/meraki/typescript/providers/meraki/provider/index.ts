@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface MerakiProviderConfig {
   /**
   * Meraki Dashboard API key. This can also be set as the MERAKI_API_KEY environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#api_key MerakiProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#api_key MerakiProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Base URL to be used. The default value is `https://api.meraki.com/api/v1`. This can also be set as the MERAKI_BASE_URL environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#base_url MerakiProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#base_url MerakiProvider#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Timeout for a single HTTPS request made to REST API before it is retried. This can also be set as the MERAKI_REQ_TIMEOUT environment variable. A string like `"1s"` means one second. Defaults to `"5s"`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#req_timeout MerakiProvider#req_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#req_timeout MerakiProvider#req_timeout}
   */
   readonly reqTimeout?: string;
   /**
   * Number of requests per second. This can also be set as the MERAKI_REQUESTS_PER_SECOND environment variable. Defaults to `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#requests_per_second MerakiProvider#requests_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#requests_per_second MerakiProvider#requests_per_second}
   */
   readonly requestsPerSecond?: number;
   /**
   * Number of retries for REST API calls. This can also be set as the MERAKI_RETRIES environment variable. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#retries MerakiProvider#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#retries MerakiProvider#retries}
   */
   readonly retries?: number;
   /**
   * A list of HTTP error codes to retry on. This can also be set as the MERAKI_RETRY_ON_ERROR_CODES environment variable using a comma separated list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#retry_on_error_codes MerakiProvider#retry_on_error_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#retry_on_error_codes MerakiProvider#retry_on_error_codes}
   */
   readonly retryOnErrorCodes?: number[];
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#alias MerakiProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#alias MerakiProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs meraki}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs meraki}
 */
 export class MerakiProvider extends cdktf.TerraformProvider {
 
@@ -68,7 +68,7 @@ export class MerakiProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a MerakiProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MerakiProvider to import
-  * @param importFromId The id of the existing MerakiProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MerakiProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MerakiProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class MerakiProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs meraki} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs meraki} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class MerakiProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'meraki',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       terraformProviderSource: 'CiscoDevNet/meraki'
     });

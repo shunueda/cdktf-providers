@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface CssLiveTranscodeTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * default aac, not support now.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#acodec CssLiveTranscodeTemplate#acodec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#acodec CssLiveTranscodeTemplate#acodec}
   */
   readonly acodec?: string;
   /**
   * high speed mode adapt bitrate, support 0 - 0.5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#adapt_bitrate_percent CssLiveTranscodeTemplate#adapt_bitrate_percent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#adapt_bitrate_percent CssLiveTranscodeTemplate#adapt_bitrate_percent}
   */
   readonly adaptBitratePercent?: number;
   /**
   * enable high speed mode, default 0, 1 for enable, 0 for no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#ai_trans_code CssLiveTranscodeTemplate#ai_trans_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#ai_trans_code CssLiveTranscodeTemplate#ai_trans_code}
   */
   readonly aiTransCode?: number;
   /**
   * default 0, range 0 - 500.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#audio_bitrate CssLiveTranscodeTemplate#audio_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#audio_bitrate CssLiveTranscodeTemplate#audio_bitrate}
   */
   readonly audioBitrate?: number;
   /**
   * base on origin bitrate if origin bitrate is lower than the setting bitrate. default 0, 1 for yes, 0 for no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#bitrate_to_orig CssLiveTranscodeTemplate#bitrate_to_orig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#bitrate_to_orig CssLiveTranscodeTemplate#bitrate_to_orig}
   */
   readonly bitrateToOrig?: number;
   /**
   * template desc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#description CssLiveTranscodeTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#description CssLiveTranscodeTemplate#description}
   */
   readonly description?: string;
   /**
   * DRM tracks, support AUDIO/SD/HD/UHD1/UHD2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#drm_tracks CssLiveTranscodeTemplate#drm_tracks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#drm_tracks CssLiveTranscodeTemplate#drm_tracks}
   */
   readonly drmTracks?: string;
   /**
   * DRM type, support fairplay/normalaes/widevine.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#drm_type CssLiveTranscodeTemplate#drm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#drm_type CssLiveTranscodeTemplate#drm_type}
   */
   readonly drmType?: string;
   /**
   * video fps, default 0, range 0 - 60.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#fps CssLiveTranscodeTemplate#fps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#fps CssLiveTranscodeTemplate#fps}
   */
   readonly fps?: number;
   /**
   * base on origin fps if origin fps is lower than the setting fps. default 0, 1 for yes, 0 for no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#fps_to_orig CssLiveTranscodeTemplate#fps_to_orig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#fps_to_orig CssLiveTranscodeTemplate#fps_to_orig}
   */
   readonly fpsToOrig?: number;
   /**
   * gop of the video, second, default origin of the video, range 2 - 6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#gop CssLiveTranscodeTemplate#gop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#gop CssLiveTranscodeTemplate#gop}
   */
   readonly gop?: number;
   /**
   * template height, default 0, range 0 - 3000, must be pow of 2, needed while AiTransCode = 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#height CssLiveTranscodeTemplate#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#height CssLiveTranscodeTemplate#height}
   */
   readonly height?: number;
   /**
   * base on origin height if origin height is lower than the setting height. default 0, 1 for yes, 0 for no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#height_to_orig CssLiveTranscodeTemplate#height_to_orig}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#height_to_orig CssLiveTranscodeTemplate#height_to_orig}
   */
   readonly heightToOrig?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#id CssLiveTranscodeTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#id CssLiveTranscodeTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,61 +95,61 @@ export interface CssLiveTranscodeTemplateConfig extends cdktf.TerraformMetaArgum
   /**
   * keep audio or not, default 1 for yes, 0 for no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#need_audio CssLiveTranscodeTemplate#need_audio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#need_audio CssLiveTranscodeTemplate#need_audio}
   */
   readonly needAudio?: number;
   /**
   * keep video or not, default 1 for yes, 0 for no.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#need_video CssLiveTranscodeTemplate#need_video}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#need_video CssLiveTranscodeTemplate#need_video}
   */
   readonly needVideo?: number;
   /**
   * quality of the video, default baseline, support baseline/main/high.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#profile CssLiveTranscodeTemplate#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#profile CssLiveTranscodeTemplate#profile}
   */
   readonly profile?: string;
   /**
   * roate degree, default 0, support 0/90/180/270.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#rotate CssLiveTranscodeTemplate#rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#rotate CssLiveTranscodeTemplate#rotate}
   */
   readonly rotate?: number;
   /**
   * let the short edge as the height.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#short_edge_as_height CssLiveTranscodeTemplate#short_edge_as_height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#short_edge_as_height CssLiveTranscodeTemplate#short_edge_as_height}
   */
   readonly shortEdgeAsHeight?: number;
   /**
   * template name, only support 0-9 and a-z.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#template_name CssLiveTranscodeTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#template_name CssLiveTranscodeTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * video codec, default origin, support h264/h265/origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#vcodec CssLiveTranscodeTemplate#vcodec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#vcodec CssLiveTranscodeTemplate#vcodec}
   */
   readonly vcodec?: string;
   /**
   * video bitrate, 0 for origin, range 0kbps - 8000kbps.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#video_bitrate CssLiveTranscodeTemplate#video_bitrate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#video_bitrate CssLiveTranscodeTemplate#video_bitrate}
   */
   readonly videoBitrate: number;
   /**
   * template width, default 0, range 0 - 3000, must be pow of 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#width CssLiveTranscodeTemplate#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#width CssLiveTranscodeTemplate#width}
   */
   readonly width?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template tencentcloud_css_live_transcode_template}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template tencentcloud_css_live_transcode_template}
 */
 export class CssLiveTranscodeTemplate extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class CssLiveTranscodeTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssLiveTranscodeTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssLiveTranscodeTemplate to import
-  * @param importFromId The id of the existing CssLiveTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssLiveTranscodeTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssLiveTranscodeTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class CssLiveTranscodeTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_live_transcode_template tencentcloud_css_live_transcode_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_live_transcode_template tencentcloud_css_live_transcode_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class CssLiveTranscodeTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_live_transcode_template',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

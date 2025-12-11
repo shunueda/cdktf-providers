@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_netflow
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_netflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiNetworkNetflowConfig extends cdktf.TerraformMetaArgum
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_netflow#network_id DataMerakiNetworkNetflow#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_netflow#network_id DataMerakiNetworkNetflow#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_netflow meraki_network_netflow}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_netflow meraki_network_netflow}
 */
 export class DataMerakiNetworkNetflow extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataMerakiNetworkNetflow extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiNetworkNetflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiNetworkNetflow to import
-  * @param importFromId The id of the existing DataMerakiNetworkNetflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_netflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiNetworkNetflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_netflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiNetworkNetflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataMerakiNetworkNetflow extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_netflow meraki_network_netflow} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_netflow meraki_network_netflow} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataMerakiNetworkNetflow extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_network_netflow',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

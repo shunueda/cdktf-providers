@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface OsManagementHubProfileDetachSoftwareSourcesManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#id OsManagementHubProfileDetachSoftwareSourcesManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#id OsManagementHubProfileDetachSoftwareSourcesManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#profile_id OsManagementHubProfileDetachSoftwareSourcesManagement#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#profile_id OsManagementHubProfileDetachSoftwareSourcesManagement#profile_id}
   */
   readonly profileId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#software_sources OsManagementHubProfileDetachSoftwareSourcesManagement#software_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#software_sources OsManagementHubProfileDetachSoftwareSourcesManagement#software_sources}
   */
   readonly softwareSources: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#timeouts OsManagementHubProfileDetachSoftwareSourcesManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#timeouts OsManagementHubProfileDetachSoftwareSourcesManagement#timeouts}
   */
   readonly timeouts?: OsManagementHubProfileDetachSoftwareSourcesManagementTimeouts;
 }
 export interface OsManagementHubProfileDetachSoftwareSourcesManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#create OsManagementHubProfileDetachSoftwareSourcesManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#create OsManagementHubProfileDetachSoftwareSourcesManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#delete OsManagementHubProfileDetachSoftwareSourcesManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#delete OsManagementHubProfileDetachSoftwareSourcesManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#update OsManagementHubProfileDetachSoftwareSourcesManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#update OsManagementHubProfileDetachSoftwareSourcesManagement#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class OsManagementHubProfileDetachSoftwareSourcesManagementTimeoutsOutput
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management oci_os_management_hub_profile_detach_software_sources_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management oci_os_management_hub_profile_detach_software_sources_management}
 */
 export class OsManagementHubProfileDetachSoftwareSourcesManagement extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class OsManagementHubProfileDetachSoftwareSourcesManagement extends cdktf
   * Generates CDKTF code for importing a OsManagementHubProfileDetachSoftwareSourcesManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OsManagementHubProfileDetachSoftwareSourcesManagement to import
-  * @param importFromId The id of the existing OsManagementHubProfileDetachSoftwareSourcesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OsManagementHubProfileDetachSoftwareSourcesManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OsManagementHubProfileDetachSoftwareSourcesManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class OsManagementHubProfileDetachSoftwareSourcesManagement extends cdktf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/os_management_hub_profile_detach_software_sources_management oci_os_management_hub_profile_detach_software_sources_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/os_management_hub_profile_detach_software_sources_management oci_os_management_hub_profile_detach_software_sources_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class OsManagementHubProfileDetachSoftwareSourcesManagement extends cdktf
       terraformResourceType: 'oci_os_management_hub_profile_detach_software_sources_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

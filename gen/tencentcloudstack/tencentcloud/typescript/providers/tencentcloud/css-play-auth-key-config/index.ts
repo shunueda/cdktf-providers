@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface CssPlayAuthKeyConfigConfig extends cdktf.TerraformMetaArguments
   /**
   * Alternate key for authentication. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#auth_back_key CssPlayAuthKeyConfig#auth_back_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#auth_back_key CssPlayAuthKeyConfig#auth_back_key}
   */
   readonly authBackKey?: string;
   /**
   * Valid time, unit: second. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#auth_delta CssPlayAuthKeyConfig#auth_delta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#auth_delta CssPlayAuthKeyConfig#auth_delta}
   */
   readonly authDelta?: number;
   /**
   * Authentication key. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#auth_key CssPlayAuthKeyConfig#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#auth_key CssPlayAuthKeyConfig#auth_key}
   */
   readonly authKey?: string;
   /**
   * Domain Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#domain_name CssPlayAuthKeyConfig#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#domain_name CssPlayAuthKeyConfig#domain_name}
   */
   readonly domainName: string;
   /**
   * Enable or not, 0: Close, 1: Enable. No transfer means that the current value is not modified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#enable CssPlayAuthKeyConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#enable CssPlayAuthKeyConfig#enable}
   */
   readonly enable?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#id CssPlayAuthKeyConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#id CssPlayAuthKeyConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,7 +47,7 @@ export interface CssPlayAuthKeyConfigConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config tencentcloud_css_play_auth_key_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config tencentcloud_css_play_auth_key_config}
 */
 export class CssPlayAuthKeyConfig extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class CssPlayAuthKeyConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CssPlayAuthKeyConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CssPlayAuthKeyConfig to import
-  * @param importFromId The id of the existing CssPlayAuthKeyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CssPlayAuthKeyConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CssPlayAuthKeyConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class CssPlayAuthKeyConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/css_play_auth_key_config tencentcloud_css_play_auth_key_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/css_play_auth_key_config tencentcloud_css_play_auth_key_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class CssPlayAuthKeyConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_css_play_auth_key_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

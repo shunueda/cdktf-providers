@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface PgConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#additional_disk_space Pg#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#additional_disk_space Pg#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#cloud_name Pg#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#cloud_name Pg#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#disk_space Pg#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#disk_space Pg#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#id Pg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#id Pg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface PgConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#maintenance_window_dow Pg#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#maintenance_window_dow Pg#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#maintenance_window_time Pg#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#maintenance_window_time Pg#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#plan Pg#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#plan Pg#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#project Pg#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#project Pg#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#project_vpc_id Pg#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#project_vpc_id Pg#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#service_name Pg#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#service_name Pg#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#static_ips Pg#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#static_ips Pg#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#termination_protection Pg#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#termination_protection Pg#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * pg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg Pg#pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg Pg#pg}
   */
   readonly pg?: PgPg;
   /**
   * pg_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_user_config Pg#pg_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_user_config Pg#pg_user_config}
   */
   readonly pgUserConfig?: PgPgUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#service_integrations Pg#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#service_integrations Pg#service_integrations}
   */
   readonly serviceIntegrations?: PgServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#tag Pg#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#tag Pg#tag}
   */
   readonly tag?: PgTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#tech_emails Pg#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#tech_emails Pg#tech_emails}
   */
   readonly techEmails?: PgTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#timeouts Pg#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#timeouts Pg#timeouts}
   */
   readonly timeouts?: PgTimeouts;
 }
@@ -347,31 +347,31 @@ export interface PgPg {
   /**
   * PostgreSQL standby connection URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#standby_uris Pg#standby_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#standby_uris Pg#standby_uris}
   */
   readonly standbyUris?: string[];
   /**
   * PostgreSQL syncing connection URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#syncing_uris Pg#syncing_uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#syncing_uris Pg#syncing_uris}
   */
   readonly syncingUris?: string[];
   /**
   * PostgreSQL primary connection URI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#uri Pg#uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#uri Pg#uri}
   */
   readonly uri?: string;
   /**
   * PostgreSQL primary connection URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#uris Pg#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#uris Pg#uris}
   */
   readonly uris?: string[];
   /**
   * params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#params Pg#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#params Pg#params}
   */
   readonly params?: PgPgParams[] | cdktf.IResolvable;
 }
@@ -618,13 +618,13 @@ export interface PgPgUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#description Pg#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#description Pg#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#network Pg#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#network Pg#network}
   */
   readonly network: string;
 }
@@ -768,55 +768,55 @@ export interface PgPgUserConfigMigration {
   /**
   * Database name for bootstrapping the initial connection. Example: `defaultdb`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#dbname Pg#dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#dbname Pg#dbname}
   */
   readonly dbname?: string;
   /**
   * Hostname or IP address of the server where to migrate data from. Example: `my.server.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#host Pg#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#host Pg#host}
   */
   readonly host: string;
   /**
   * Comma-separated list of databases, which should be ignored during migration (supported by MySQL and PostgreSQL only at the moment). Example: `db1,db2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ignore_dbs Pg#ignore_dbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ignore_dbs Pg#ignore_dbs}
   */
   readonly ignoreDbs?: string;
   /**
   * Comma-separated list of database roles, which should be ignored during migration (supported by PostgreSQL only at the moment). Example: `role1,role2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ignore_roles Pg#ignore_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ignore_roles Pg#ignore_roles}
   */
   readonly ignoreRoles?: string;
   /**
   * Enum: `dump`, `replication`. The migration method to be used (currently supported only by Redis, Dragonfly, MySQL and PostgreSQL service types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#method Pg#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#method Pg#method}
   */
   readonly method?: string;
   /**
   * Password for authentication with the server where to migrate data from. Example: `jjKk45Nnd`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#password Pg#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#password Pg#password}
   */
   readonly password?: string;
   /**
   * Port number of the server where to migrate data from. Example: `1234`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#port Pg#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#port Pg#port}
   */
   readonly port: number;
   /**
   * The server where to migrate data from is secured with SSL. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ssl Pg#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ssl Pg#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * User name for authentication with the server where to migrate data from. Example: `myname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#username Pg#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#username Pg#username}
   */
   readonly username?: string;
 }
@@ -1128,313 +1128,343 @@ export interface PgPgUserConfigPg {
   /**
   * Specifies a fraction of the table size to add to autovacuum_analyze_threshold when deciding whether to trigger an ANALYZE (e.g. `0.2` for 20% of the table size). The default is `0.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_analyze_scale_factor Pg#autovacuum_analyze_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_analyze_scale_factor Pg#autovacuum_analyze_scale_factor}
   */
   readonly autovacuumAnalyzeScaleFactor?: number;
   /**
   * Specifies the minimum number of inserted, updated or deleted tuples needed to trigger an ANALYZE in any one table. The default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_analyze_threshold Pg#autovacuum_analyze_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_analyze_threshold Pg#autovacuum_analyze_threshold}
   */
   readonly autovacuumAnalyzeThreshold?: number;
   /**
   * Specifies the maximum age (in transactions) that a table's pg_class.relfrozenxid field can attain before a VACUUM operation is forced to prevent transaction ID wraparound within the table. The system launches autovacuum processes to prevent wraparound even when autovacuum is otherwise disabled. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_freeze_max_age Pg#autovacuum_freeze_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_freeze_max_age Pg#autovacuum_freeze_max_age}
   */
   readonly autovacuumFreezeMaxAge?: number;
   /**
   * Specifies the maximum number of autovacuum processes (other than the autovacuum launcher) that may be running at any one time. The default is `3`. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_max_workers Pg#autovacuum_max_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_max_workers Pg#autovacuum_max_workers}
   */
   readonly autovacuumMaxWorkers?: number;
   /**
   * Specifies the minimum delay between autovacuum runs on any given database. The delay is measured in seconds. The default is `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_naptime Pg#autovacuum_naptime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_naptime Pg#autovacuum_naptime}
   */
   readonly autovacuumNaptime?: number;
   /**
   * Specifies the cost delay value that will be used in automatic VACUUM operations. If `-1` is specified, the regular vacuum_cost_delay value will be used. The default is `2` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_vacuum_cost_delay Pg#autovacuum_vacuum_cost_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_vacuum_cost_delay Pg#autovacuum_vacuum_cost_delay}
   */
   readonly autovacuumVacuumCostDelay?: number;
   /**
   * Specifies the cost limit value that will be used in automatic VACUUM operations. If `-1` is specified, the regular vacuum_cost_limit value will be used. The default is `-1` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_vacuum_cost_limit Pg#autovacuum_vacuum_cost_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_vacuum_cost_limit Pg#autovacuum_vacuum_cost_limit}
   */
   readonly autovacuumVacuumCostLimit?: number;
   /**
   * Specifies a fraction of the table size to add to autovacuum_vacuum_threshold when deciding whether to trigger a VACUUM (e.g. `0.2` for 20% of the table size). The default is `0.2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_vacuum_scale_factor Pg#autovacuum_vacuum_scale_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_vacuum_scale_factor Pg#autovacuum_vacuum_scale_factor}
   */
   readonly autovacuumVacuumScaleFactor?: number;
   /**
   * Specifies the minimum number of updated or deleted tuples needed to trigger a VACUUM in any one table. The default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autovacuum_vacuum_threshold Pg#autovacuum_vacuum_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autovacuum_vacuum_threshold Pg#autovacuum_vacuum_threshold}
   */
   readonly autovacuumVacuumThreshold?: number;
   /**
   * Specifies the delay between activity rounds for the background writer in milliseconds. The default is `200`. Example: `200`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#bgwriter_delay Pg#bgwriter_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#bgwriter_delay Pg#bgwriter_delay}
   */
   readonly bgwriterDelay?: number;
   /**
   * Whenever more than bgwriter_flush_after bytes have been written by the background writer, attempt to force the OS to issue these writes to the underlying storage. Specified in kilobytes. Setting of 0 disables forced writeback. The default is `512`. Example: `512`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#bgwriter_flush_after Pg#bgwriter_flush_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#bgwriter_flush_after Pg#bgwriter_flush_after}
   */
   readonly bgwriterFlushAfter?: number;
   /**
   * In each round, no more than this many buffers will be written by the background writer. Setting this to zero disables background writing. The default is `100`. Example: `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#bgwriter_lru_maxpages Pg#bgwriter_lru_maxpages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#bgwriter_lru_maxpages Pg#bgwriter_lru_maxpages}
   */
   readonly bgwriterLruMaxpages?: number;
   /**
   * The average recent need for new buffers is multiplied by bgwriter_lru_multiplier to arrive at an estimate of the number that will be needed during the next round, (up to bgwriter_lru_maxpages). 1.0 represents a “just in time” policy of writing exactly the number of buffers predicted to be needed. Larger values provide some cushion against spikes in demand, while smaller values intentionally leave writes to be done by server processes. The default is `2.0`. Example: `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#bgwriter_lru_multiplier Pg#bgwriter_lru_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#bgwriter_lru_multiplier Pg#bgwriter_lru_multiplier}
   */
   readonly bgwriterLruMultiplier?: number;
   /**
   * This is the amount of time, in milliseconds, to wait on a lock before checking to see if there is a deadlock condition. The default is `1000` (upstream default). Example: `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#deadlock_timeout Pg#deadlock_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#deadlock_timeout Pg#deadlock_timeout}
   */
   readonly deadlockTimeout?: number;
   /**
   * Enum: `lz4`, `pglz`. Specifies the default TOAST compression method for values of compressible columns. The default is `lz4`. Only available for PostgreSQL 14+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#default_toast_compression Pg#default_toast_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#default_toast_compression Pg#default_toast_compression}
   */
   readonly defaultToastCompression?: string;
   /**
   * Time out sessions with open transactions after this number of milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#idle_in_transaction_session_timeout Pg#idle_in_transaction_session_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#idle_in_transaction_session_timeout Pg#idle_in_transaction_session_timeout}
   */
   readonly idleInTransactionSessionTimeout?: number;
   /**
+  * EXPERIMENTAL: Controls the largest I/O size in operations that combine I/O in 8kB units. Version 17 and up only. Default: `16`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#io_combine_limit Pg#io_combine_limit}
+  */
+  readonly ioCombineLimit?: number;
+  /**
+  * EXPERIMENTAL: Controls the largest I/O size in operations that combine I/O in 8kB units, and silently limits the user-settable parameter io_combine_limit. Version 18 and up only. Changing this parameter causes a service restart. Default: `16`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#io_max_combine_limit Pg#io_max_combine_limit}
+  */
+  readonly ioMaxCombineLimit?: number;
+  /**
+  * EXPERIMENTAL: Controls the maximum number of I/O operations that one process can execute simultaneously. Version 18 and up only. Changing this parameter causes a service restart. Default: `-1`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#io_max_concurrency Pg#io_max_concurrency}
+  */
+  readonly ioMaxConcurrency?: number;
+  /**
+  * Enum: `io_uring`, `sync`, `worker`. EXPERIMENTAL: Controls the maximum number of I/O operations that one process can execute simultaneously. Version 18 and up only. Changing this parameter causes a service restart. Default: `worker`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#io_method Pg#io_method}
+  */
+  readonly ioMethod?: string;
+  /**
+  * EXPERIMENTAL: Number of IO worker processes, for io_method=worker. Version 18 and up only. Changing this parameter causes a service restart. Default: `3`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#io_workers Pg#io_workers}
+  */
+  readonly ioWorkers?: number;
+  /**
   * Controls system-wide use of Just-in-Time Compilation (JIT).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#jit Pg#jit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#jit Pg#jit}
   */
   readonly jit?: boolean | cdktf.IResolvable;
   /**
   * Causes each action executed by autovacuum to be logged if it ran for at least the specified number of milliseconds. Setting this to zero logs all autovacuum actions. Minus-one disables logging autovacuum actions. The default is `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_autovacuum_min_duration Pg#log_autovacuum_min_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_autovacuum_min_duration Pg#log_autovacuum_min_duration}
   */
   readonly logAutovacuumMinDuration?: number;
   /**
   * Enum: `DEFAULT`, `TERSE`, `VERBOSE`. Controls the amount of detail written in the server log for each message that is logged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_error_verbosity Pg#log_error_verbosity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_error_verbosity Pg#log_error_verbosity}
   */
   readonly logErrorVerbosity?: string;
   /**
   * Enum: `'%m [%p] %q[user=%u,db=%d,app=%a] '`, `'%t [%p]: [%l-1] user=%u,db=%d,app=%a,client=%h '`, `'pid=%p,user=%u,db=%d,app=%a,client=%h '`, `'pid=%p,user=%u,db=%d,app=%a,client=%h,txid=%x,qid=%Q '`. Choose from one of the available log formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_line_prefix Pg#log_line_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_line_prefix Pg#log_line_prefix}
   */
   readonly logLinePrefix?: string;
   /**
   * Log statements that take more than this number of milliseconds to run, -1 disables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_min_duration_statement Pg#log_min_duration_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_min_duration_statement Pg#log_min_duration_statement}
   */
   readonly logMinDurationStatement?: number;
   /**
   * Log statements for each temporary file created larger than this number of kilobytes, -1 disables.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_temp_files Pg#log_temp_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_temp_files Pg#log_temp_files}
   */
   readonly logTempFiles?: number;
   /**
   * Sets the PostgreSQL maximum number of concurrent connections to the database server. This is a limited-release parameter. Contact your account team to confirm your eligibility. You cannot decrease this parameter value when set. For services with a read replica, first increase the read replica's value. After the change is applied to the replica, you can increase the primary service's value. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_connections Pg#max_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_connections Pg#max_connections}
   */
   readonly maxConnections?: number;
   /**
   * PostgreSQL maximum number of files that can be open per process. The default is `1000` (upstream default). Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_files_per_process Pg#max_files_per_process}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_files_per_process Pg#max_files_per_process}
   */
   readonly maxFilesPerProcess?: number;
   /**
   * PostgreSQL maximum locks per transaction. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_locks_per_transaction Pg#max_locks_per_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_locks_per_transaction Pg#max_locks_per_transaction}
   */
   readonly maxLocksPerTransaction?: number;
   /**
   * PostgreSQL maximum logical replication workers (taken from the pool of max_parallel_workers). The default is `4` (upstream default). Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_logical_replication_workers Pg#max_logical_replication_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_logical_replication_workers Pg#max_logical_replication_workers}
   */
   readonly maxLogicalReplicationWorkers?: number;
   /**
   * Sets the maximum number of workers that the system can support for parallel queries. The default is `8` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_parallel_workers Pg#max_parallel_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_parallel_workers Pg#max_parallel_workers}
   */
   readonly maxParallelWorkers?: number;
   /**
   * Sets the maximum number of workers that can be started by a single Gather or Gather Merge node. The default is `2` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_parallel_workers_per_gather Pg#max_parallel_workers_per_gather}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_parallel_workers_per_gather Pg#max_parallel_workers_per_gather}
   */
   readonly maxParallelWorkersPerGather?: number;
   /**
   * PostgreSQL maximum predicate locks per transaction. The default is `64` (upstream default). Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_pred_locks_per_transaction Pg#max_pred_locks_per_transaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_pred_locks_per_transaction Pg#max_pred_locks_per_transaction}
   */
   readonly maxPredLocksPerTransaction?: number;
   /**
   * PostgreSQL maximum prepared transactions. The default is `0`. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_prepared_transactions Pg#max_prepared_transactions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_prepared_transactions Pg#max_prepared_transactions}
   */
   readonly maxPreparedTransactions?: number;
   /**
   * PostgreSQL maximum replication slots. The default is `20`. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_replication_slots Pg#max_replication_slots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_replication_slots Pg#max_replication_slots}
   */
   readonly maxReplicationSlots?: number;
   /**
   * PostgreSQL maximum WAL size (MB) reserved for replication slots. If `-1` is specified, replication slots may retain an unlimited amount of WAL files. The default is `-1` (upstream default). wal_keep_size minimum WAL size setting takes precedence over this.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_slot_wal_keep_size Pg#max_slot_wal_keep_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_slot_wal_keep_size Pg#max_slot_wal_keep_size}
   */
   readonly maxSlotWalKeepSize?: number;
   /**
   * Maximum depth of the stack in bytes. The default is `2097152` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_stack_depth Pg#max_stack_depth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_stack_depth Pg#max_stack_depth}
   */
   readonly maxStackDepth?: number;
   /**
   * Max standby archive delay in milliseconds. The default is `30000` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_standby_archive_delay Pg#max_standby_archive_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_standby_archive_delay Pg#max_standby_archive_delay}
   */
   readonly maxStandbyArchiveDelay?: number;
   /**
   * Max standby streaming delay in milliseconds. The default is `30000` (upstream default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_standby_streaming_delay Pg#max_standby_streaming_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_standby_streaming_delay Pg#max_standby_streaming_delay}
   */
   readonly maxStandbyStreamingDelay?: number;
   /**
   * Maximum number of synchronization workers per subscription. The default is `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_sync_workers_per_subscription Pg#max_sync_workers_per_subscription}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_sync_workers_per_subscription Pg#max_sync_workers_per_subscription}
   */
   readonly maxSyncWorkersPerSubscription?: number;
   /**
   * PostgreSQL maximum WAL senders. The default is `20`. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_wal_senders Pg#max_wal_senders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_wal_senders Pg#max_wal_senders}
   */
   readonly maxWalSenders?: number;
   /**
   * Sets the maximum number of background processes that the system can support. The default is `8`. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_worker_processes Pg#max_worker_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_worker_processes Pg#max_worker_processes}
   */
   readonly maxWorkerProcesses?: number;
   /**
   * Enum: `md5`, `scram-sha-256`. Chooses the algorithm for encrypting passwords.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#password_encryption Pg#password_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#password_encryption Pg#password_encryption}
   */
   readonly passwordEncryption?: string;
   /**
   * Sets the time interval in seconds to run pg_partman's scheduled tasks. The default is `3600`. Example: `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_partman_bgw__dot__interval Pg#pg_partman_bgw__dot__interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_partman_bgw__dot__interval Pg#pg_partman_bgw__dot__interval}
   */
   readonly pgPartmanBgwDotInterval?: number;
   /**
   * Controls which role to use for pg_partman's scheduled background tasks. Example: `myrolename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_partman_bgw__dot__role Pg#pg_partman_bgw__dot__role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_partman_bgw__dot__role Pg#pg_partman_bgw__dot__role}
   */
   readonly pgPartmanBgwDotRole?: string;
   /**
   * Enables or disables query plan monitoring. Changing this parameter causes a service restart. Only available for PostgreSQL 13+.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_stat_monitor__dot__pgsm_enable_query_plan Pg#pg_stat_monitor__dot__pgsm_enable_query_plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_stat_monitor__dot__pgsm_enable_query_plan Pg#pg_stat_monitor__dot__pgsm_enable_query_plan}
   */
   readonly pgStatMonitorDotPgsmEnableQueryPlan?: boolean | cdktf.IResolvable;
   /**
   * Sets the maximum number of buckets. Changing this parameter causes a service restart. Only available for PostgreSQL 13+. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_stat_monitor__dot__pgsm_max_buckets Pg#pg_stat_monitor__dot__pgsm_max_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_stat_monitor__dot__pgsm_max_buckets Pg#pg_stat_monitor__dot__pgsm_max_buckets}
   */
   readonly pgStatMonitorDotPgsmMaxBuckets?: number;
   /**
   * Enum: `all`, `none`, `top`. Controls which statements are counted. Specify top to track top-level statements (those issued directly by clients), all to also track nested statements (such as statements invoked within functions), or none to disable statement statistics collection. The default is `top`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_stat_statements__dot__track Pg#pg_stat_statements__dot__track}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_stat_statements__dot__track Pg#pg_stat_statements__dot__track}
   */
   readonly pgStatStatementsDotTrack?: string;
   /**
   * PostgreSQL temporary file limit in KiB, -1 for unlimited.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#temp_file_limit Pg#temp_file_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#temp_file_limit Pg#temp_file_limit}
   */
   readonly tempFileLimit?: number;
   /**
   * PostgreSQL service timezone. Example: `Europe/Helsinki`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#timezone Pg#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#timezone Pg#timezone}
   */
   readonly timezone?: string;
   /**
   * Specifies the number of bytes reserved to track the currently executing command for each active session. Changing this parameter causes a service restart. Example: `1024`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#track_activity_query_size Pg#track_activity_query_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#track_activity_query_size Pg#track_activity_query_size}
   */
   readonly trackActivityQuerySize?: number;
   /**
   * Enum: `off`, `on`. Record commit time of transactions. Changing this parameter causes a service restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#track_commit_timestamp Pg#track_commit_timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#track_commit_timestamp Pg#track_commit_timestamp}
   */
   readonly trackCommitTimestamp?: string;
   /**
   * Enum: `all`, `none`, `pl`. Enables tracking of function call counts and time used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#track_functions Pg#track_functions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#track_functions Pg#track_functions}
   */
   readonly trackFunctions?: string;
   /**
   * Enum: `off`, `on`. Enables timing of database I/O calls. The default is `off`. When on, it will repeatedly query the operating system for the current time, which may cause significant overhead on some platforms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#track_io_timing Pg#track_io_timing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#track_io_timing Pg#track_io_timing}
   */
   readonly trackIoTiming?: string;
   /**
   * Terminate replication connections that are inactive for longer than this amount of time, in milliseconds. Setting this value to zero disables the timeout. Example: `60000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#wal_sender_timeout Pg#wal_sender_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#wal_sender_timeout Pg#wal_sender_timeout}
   */
   readonly walSenderTimeout?: number;
   /**
   * WAL flush interval in milliseconds. The default is `200`. Setting this parameter to a lower value may negatively impact performance. Example: `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#wal_writer_delay Pg#wal_writer_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#wal_writer_delay Pg#wal_writer_delay}
   */
   readonly walWriterDelay?: number;
 }
@@ -1461,6 +1491,11 @@ export function pgPgUserConfigPgToTerraform(struct?: PgPgUserConfigPgOutputRefer
     deadlock_timeout: cdktf.numberToTerraform(struct!.deadlockTimeout),
     default_toast_compression: cdktf.stringToTerraform(struct!.defaultToastCompression),
     idle_in_transaction_session_timeout: cdktf.numberToTerraform(struct!.idleInTransactionSessionTimeout),
+    io_combine_limit: cdktf.numberToTerraform(struct!.ioCombineLimit),
+    io_max_combine_limit: cdktf.numberToTerraform(struct!.ioMaxCombineLimit),
+    io_max_concurrency: cdktf.numberToTerraform(struct!.ioMaxConcurrency),
+    io_method: cdktf.stringToTerraform(struct!.ioMethod),
+    io_workers: cdktf.numberToTerraform(struct!.ioWorkers),
     jit: cdktf.booleanToTerraform(struct!.jit),
     log_autovacuum_min_duration: cdktf.numberToTerraform(struct!.logAutovacuumMinDuration),
     log_error_verbosity: cdktf.stringToTerraform(struct!.logErrorVerbosity),
@@ -1599,6 +1634,36 @@ export function pgPgUserConfigPgToHclTerraform(struct?: PgPgUserConfigPgOutputRe
     },
     idle_in_transaction_session_timeout: {
       value: cdktf.numberToHclTerraform(struct!.idleInTransactionSessionTimeout),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    io_combine_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ioCombineLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    io_max_combine_limit: {
+      value: cdktf.numberToHclTerraform(struct!.ioMaxCombineLimit),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    io_max_concurrency: {
+      value: cdktf.numberToHclTerraform(struct!.ioMaxConcurrency),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    io_method: {
+      value: cdktf.stringToHclTerraform(struct!.ioMethod),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    io_workers: {
+      value: cdktf.numberToHclTerraform(struct!.ioWorkers),
       isBlock: false,
       type: "simple",
       storageClassType: "number",
@@ -1903,6 +1968,26 @@ export class PgPgUserConfigPgOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.idleInTransactionSessionTimeout = this._idleInTransactionSessionTimeout;
     }
+    if (this._ioCombineLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ioCombineLimit = this._ioCombineLimit;
+    }
+    if (this._ioMaxCombineLimit !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ioMaxCombineLimit = this._ioMaxCombineLimit;
+    }
+    if (this._ioMaxConcurrency !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ioMaxConcurrency = this._ioMaxConcurrency;
+    }
+    if (this._ioMethod !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ioMethod = this._ioMethod;
+    }
+    if (this._ioWorkers !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ioWorkers = this._ioWorkers;
+    }
     if (this._jit !== undefined) {
       hasAnyValues = true;
       internalValueResult.jit = this._jit;
@@ -2069,6 +2154,11 @@ export class PgPgUserConfigPgOutputReference extends cdktf.ComplexObject {
       this._deadlockTimeout = undefined;
       this._defaultToastCompression = undefined;
       this._idleInTransactionSessionTimeout = undefined;
+      this._ioCombineLimit = undefined;
+      this._ioMaxCombineLimit = undefined;
+      this._ioMaxConcurrency = undefined;
+      this._ioMethod = undefined;
+      this._ioWorkers = undefined;
       this._jit = undefined;
       this._logAutovacuumMinDuration = undefined;
       this._logErrorVerbosity = undefined;
@@ -2124,6 +2214,11 @@ export class PgPgUserConfigPgOutputReference extends cdktf.ComplexObject {
       this._deadlockTimeout = value.deadlockTimeout;
       this._defaultToastCompression = value.defaultToastCompression;
       this._idleInTransactionSessionTimeout = value.idleInTransactionSessionTimeout;
+      this._ioCombineLimit = value.ioCombineLimit;
+      this._ioMaxCombineLimit = value.ioMaxCombineLimit;
+      this._ioMaxConcurrency = value.ioMaxConcurrency;
+      this._ioMethod = value.ioMethod;
+      this._ioWorkers = value.ioWorkers;
       this._jit = value.jit;
       this._logAutovacuumMinDuration = value.logAutovacuumMinDuration;
       this._logErrorVerbosity = value.logErrorVerbosity;
@@ -2417,6 +2512,86 @@ export class PgPgUserConfigPgOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get idleInTransactionSessionTimeoutInput() {
     return this._idleInTransactionSessionTimeout;
+  }
+
+  // io_combine_limit - computed: false, optional: true, required: false
+  private _ioCombineLimit?: number; 
+  public get ioCombineLimit() {
+    return this.getNumberAttribute('io_combine_limit');
+  }
+  public set ioCombineLimit(value: number) {
+    this._ioCombineLimit = value;
+  }
+  public resetIoCombineLimit() {
+    this._ioCombineLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ioCombineLimitInput() {
+    return this._ioCombineLimit;
+  }
+
+  // io_max_combine_limit - computed: false, optional: true, required: false
+  private _ioMaxCombineLimit?: number; 
+  public get ioMaxCombineLimit() {
+    return this.getNumberAttribute('io_max_combine_limit');
+  }
+  public set ioMaxCombineLimit(value: number) {
+    this._ioMaxCombineLimit = value;
+  }
+  public resetIoMaxCombineLimit() {
+    this._ioMaxCombineLimit = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ioMaxCombineLimitInput() {
+    return this._ioMaxCombineLimit;
+  }
+
+  // io_max_concurrency - computed: false, optional: true, required: false
+  private _ioMaxConcurrency?: number; 
+  public get ioMaxConcurrency() {
+    return this.getNumberAttribute('io_max_concurrency');
+  }
+  public set ioMaxConcurrency(value: number) {
+    this._ioMaxConcurrency = value;
+  }
+  public resetIoMaxConcurrency() {
+    this._ioMaxConcurrency = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ioMaxConcurrencyInput() {
+    return this._ioMaxConcurrency;
+  }
+
+  // io_method - computed: false, optional: true, required: false
+  private _ioMethod?: string; 
+  public get ioMethod() {
+    return this.getStringAttribute('io_method');
+  }
+  public set ioMethod(value: string) {
+    this._ioMethod = value;
+  }
+  public resetIoMethod() {
+    this._ioMethod = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ioMethodInput() {
+    return this._ioMethod;
+  }
+
+  // io_workers - computed: false, optional: true, required: false
+  private _ioWorkers?: number; 
+  public get ioWorkers() {
+    return this.getNumberAttribute('io_workers');
+  }
+  public set ioWorkers(value: number) {
+    this._ioWorkers = value;
+  }
+  public resetIoWorkers() {
+    this._ioWorkers = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ioWorkersInput() {
+    return this._ioWorkers;
   }
 
   // jit - computed: false, optional: true, required: false
@@ -2999,31 +3174,31 @@ export interface PgPgUserConfigPgQualstats {
   /**
   * Enable / Disable pg_qualstats. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#enabled Pg#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#enabled Pg#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Error estimation num threshold to save quals. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#min_err_estimate_num Pg#min_err_estimate_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#min_err_estimate_num Pg#min_err_estimate_num}
   */
   readonly minErrEstimateNum?: number;
   /**
   * Error estimation ratio threshold to save quals. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#min_err_estimate_ratio Pg#min_err_estimate_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#min_err_estimate_ratio Pg#min_err_estimate_ratio}
   */
   readonly minErrEstimateRatio?: number;
   /**
   * Enable / Disable pg_qualstats constants tracking. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#track_constants Pg#track_constants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#track_constants Pg#track_constants}
   */
   readonly trackConstants?: boolean | cdktf.IResolvable;
   /**
   * Track quals on system catalogs too. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#track_pg_catalog Pg#track_pg_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#track_pg_catalog Pg#track_pg_catalog}
   */
   readonly trackPgCatalog?: boolean | cdktf.IResolvable;
 }
@@ -3225,85 +3400,85 @@ export interface PgPgUserConfigPgaudit {
   /**
   * Enable pgaudit extension. When enabled, pgaudit extension will be automatically installed.Otherwise, extension will be uninstalled but auditing configurations will be preserved. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#feature_enabled Pg#feature_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#feature_enabled Pg#feature_enabled}
   */
   readonly featureEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies which classes of statements will be logged by session audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log Pg#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log Pg#log}
   */
   readonly log?: string[];
   /**
   * Specifies that session logging should be enabled in the case where all relations in a statement are in pg_catalog. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_catalog Pg#log_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_catalog Pg#log_catalog}
   */
   readonly logCatalog?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether log messages will be visible to a client process such as psql. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_client Pg#log_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_client Pg#log_client}
   */
   readonly logClient?: boolean | cdktf.IResolvable;
   /**
   * Enum: `debug1`, `debug2`, `debug3`, `debug4`, `debug5`, `info`, `log`, `notice`, `warning`. Specifies the log level that will be used for log entries. Default: `log`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_level Pg#log_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_level Pg#log_level}
   */
   readonly logLevel?: string;
   /**
   * Crop parameters representation and whole statements if they exceed this threshold. A (default) value of -1 disable the truncation. Default: `-1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_max_string_length Pg#log_max_string_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_max_string_length Pg#log_max_string_length}
   */
   readonly logMaxStringLength?: number;
   /**
   * This GUC allows to turn off logging nested statements, that is, statements that are executed as part of another ExecutorRun. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_nested_statements Pg#log_nested_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_nested_statements Pg#log_nested_statements}
   */
   readonly logNestedStatements?: boolean | cdktf.IResolvable;
   /**
   * Specifies that audit logging should include the parameters that were passed with the statement. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_parameter Pg#log_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_parameter Pg#log_parameter}
   */
   readonly logParameter?: boolean | cdktf.IResolvable;
   /**
   * Specifies that parameter values longer than this setting (in bytes) should not be logged, but replaced with <long param suppressed>. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_parameter_max_size Pg#log_parameter_max_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_parameter_max_size Pg#log_parameter_max_size}
   */
   readonly logParameterMaxSize?: number;
   /**
   * Specifies whether session audit logging should create a separate log entry for each relation (TABLE, VIEW, etc.) referenced in a SELECT or DML statement. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_relation Pg#log_relation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_relation Pg#log_relation}
   */
   readonly logRelation?: boolean | cdktf.IResolvable;
   /**
   * Log Rows. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_rows Pg#log_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_rows Pg#log_rows}
   */
   readonly logRows?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether logging will include the statement text and parameters (if enabled). Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_statement Pg#log_statement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_statement Pg#log_statement}
   */
   readonly logStatement?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether logging will include the statement text and parameters with the first log entry for a statement/substatement combination or with every entry. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#log_statement_once Pg#log_statement_once}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#log_statement_once Pg#log_statement_once}
   */
   readonly logStatementOnce?: boolean | cdktf.IResolvable;
   /**
   * Specifies the master role to use for object audit logging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#role Pg#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#role Pg#role}
   */
   readonly role?: string;
 }
@@ -3766,61 +3941,61 @@ export interface PgPgUserConfigPgbouncer {
   /**
   * If the automatically created database pools have been unused this many seconds, they are freed. If 0 then timeout is disabled. (seconds). Default: `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autodb_idle_timeout Pg#autodb_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autodb_idle_timeout Pg#autodb_idle_timeout}
   */
   readonly autodbIdleTimeout?: number;
   /**
   * Do not allow more than this many server connections per database (regardless of user). Setting it to 0 means unlimited. Example: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autodb_max_db_connections Pg#autodb_max_db_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autodb_max_db_connections Pg#autodb_max_db_connections}
   */
   readonly autodbMaxDbConnections?: number;
   /**
   * Enum: `session`, `statement`, `transaction`. PGBouncer pool mode. Default: `transaction`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autodb_pool_mode Pg#autodb_pool_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autodb_pool_mode Pg#autodb_pool_mode}
   */
   readonly autodbPoolMode?: string;
   /**
   * If non-zero then create automatically a pool of that size per user when a pool doesn't exist. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#autodb_pool_size Pg#autodb_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#autodb_pool_size Pg#autodb_pool_size}
   */
   readonly autodbPoolSize?: number;
   /**
   * List of parameters to ignore when given in startup packet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ignore_startup_parameters Pg#ignore_startup_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ignore_startup_parameters Pg#ignore_startup_parameters}
   */
   readonly ignoreStartupParameters?: string[];
   /**
   * PgBouncer tracks protocol-level named prepared statements related commands sent by the client in transaction and statement pooling modes when max_prepared_statements is set to a non-zero value. Setting it to 0 disables prepared statements. max_prepared_statements defaults to 100, and its maximum is 3000. Default: `100`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_prepared_statements Pg#max_prepared_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_prepared_statements Pg#max_prepared_statements}
   */
   readonly maxPreparedStatements?: number;
   /**
   * Add more server connections to pool if below this number. Improves behavior when usual load comes suddenly back after period of total inactivity. The value is effectively capped at the pool size. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#min_pool_size Pg#min_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#min_pool_size Pg#min_pool_size}
   */
   readonly minPoolSize?: number;
   /**
   * If a server connection has been idle more than this many seconds it will be dropped. If 0 then timeout is disabled. (seconds). Default: `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#server_idle_timeout Pg#server_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#server_idle_timeout Pg#server_idle_timeout}
   */
   readonly serverIdleTimeout?: number;
   /**
   * The pooler will close an unused server connection that has been connected longer than this. (seconds). Default: `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#server_lifetime Pg#server_lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#server_lifetime Pg#server_lifetime}
   */
   readonly serverLifetime?: number;
   /**
   * Run server_reset_query (DISCARD ALL) in all pooling modes. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#server_reset_query_always Pg#server_reset_query_always}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#server_reset_query_always Pg#server_reset_query_always}
   */
   readonly serverResetQueryAlways?: boolean | cdktf.IResolvable;
 }
@@ -4167,7 +4342,7 @@ export interface PgPgUserConfigPglookout {
   /**
   * Number of seconds of master unavailability before triggering database failover to standby. Default: `60`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_failover_replication_time_lag Pg#max_failover_replication_time_lag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_failover_replication_time_lag Pg#max_failover_replication_time_lag}
   */
   readonly maxFailoverReplicationTimeLag?: number;
 }
@@ -4253,19 +4428,19 @@ export interface PgPgUserConfigPrivateAccess {
   /**
   * Allow clients to connect to pg with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg Pg#pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg Pg#pg}
   */
   readonly pg?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to pgbouncer with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pgbouncer Pg#pgbouncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pgbouncer Pg#pgbouncer}
   */
   readonly pgbouncer?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#prometheus Pg#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#prometheus Pg#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -4409,19 +4584,19 @@ export interface PgPgUserConfigPrivatelinkAccess {
   /**
   * Enable pg.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg Pg#pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg Pg#pg}
   */
   readonly pg?: boolean | cdktf.IResolvable;
   /**
   * Enable pgbouncer.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pgbouncer Pg#pgbouncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pgbouncer Pg#pgbouncer}
   */
   readonly pgbouncer?: boolean | cdktf.IResolvable;
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#prometheus Pg#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#prometheus Pg#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -4565,19 +4740,19 @@ export interface PgPgUserConfigPublicAccess {
   /**
   * Allow clients to connect to pg from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg Pg#pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg Pg#pg}
   */
   readonly pg?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to pgbouncer from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pgbouncer Pg#pgbouncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pgbouncer Pg#pgbouncer}
   */
   readonly pgbouncer?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#prometheus Pg#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#prometheus Pg#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -4721,7 +4896,7 @@ export interface PgPgUserConfigTimescaledb {
   /**
   * The number of background workers for timescaledb operations. You should configure this setting to the sum of your number of databases and the total number of concurrent background workers you want running at any given point in time. Changing this parameter causes a service restart. Default: `16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#max_background_workers Pg#max_background_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#max_background_workers Pg#max_background_workers}
   */
   readonly maxBackgroundWorkers?: number;
 }
@@ -4807,199 +4982,205 @@ export interface PgPgUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#additional_backup_regions Pg#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#additional_backup_regions Pg#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Custom password for admin user. Defaults to random string. This must be set only when a new service is being created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#admin_password Pg#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#admin_password Pg#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * Custom username for admin user. This must be set only when a new service is being created. Example: `avnadmin`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#admin_username Pg#admin_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#admin_username Pg#admin_username}
   */
   readonly adminUsername?: string;
   /**
   * The hour of day (in UTC) when backup for the service is started. New backup is only started if previous backup has already completed. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#backup_hour Pg#backup_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#backup_hour Pg#backup_hour}
   */
   readonly backupHour?: number;
   /**
   * The minute of an hour when backup for the service is started. New backup is only started if previous backup has already completed. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#backup_minute Pg#backup_minute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#backup_minute Pg#backup_minute}
   */
   readonly backupMinute?: number;
   /**
+  * Creates a dedicated read-only DNS that automatically falls back to the primary if standby nodes are unavailable. It switches back when a standby recovers. Default: `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#enable_ha_replica_dns Pg#enable_ha_replica_dns}
+  */
+  readonly enableHaReplicaDns?: boolean | cdktf.IResolvable;
+  /**
   * Register AAAA DNS records for the service, and allow IPv6 packets to service ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#enable_ipv6 Pg#enable_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#enable_ipv6 Pg#enable_ipv6}
   */
   readonly enableIpv6?: boolean | cdktf.IResolvable;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ip_filter Pg#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ip_filter Pg#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ip_filter_string Pg#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ip_filter_string Pg#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Number of nodes for the service. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#node_count Pg#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#node_count Pg#node_count}
   */
   readonly nodeCount?: number;
   /**
   * Should the service which is being forked be a read replica (deprecated, use read_replica service integration instead).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_read_replica Pg#pg_read_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_read_replica Pg#pg_read_replica}
   */
   readonly pgReadReplica?: boolean | cdktf.IResolvable;
   /**
   * Name of the PG Service from which to fork (deprecated, use service_to_fork_from). This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_service_to_fork_from Pg#pg_service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_service_to_fork_from Pg#pg_service_to_fork_from}
   */
   readonly pgServiceToForkFrom?: string;
   /**
   * Enable the pg_stat_monitor extension. Changing this parameter causes a service restart. When this extension is enabled, pg_stat_statements results for utility commands are unreliable. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_stat_monitor_enable Pg#pg_stat_monitor_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_stat_monitor_enable Pg#pg_stat_monitor_enable}
   */
   readonly pgStatMonitorEnable?: boolean | cdktf.IResolvable;
   /**
   * Enum: `10`, `11`, `12`, `13`, `14`, `15`, `16`, `17`, `18`, and newer. PostgreSQL major version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_version Pg#pg_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_version Pg#pg_version}
   */
   readonly pgVersion?: string;
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#project_to_fork_from Pg#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#project_to_fork_from Pg#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Recovery target time when forking a service. This has effect only when a new service is being created. Example: `2019-01-01 23:34:45`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#recovery_target_time Pg#recovery_target_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#recovery_target_time Pg#recovery_target_time}
   */
   readonly recoveryTargetTime?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#service_log Pg#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#service_log Pg#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#service_to_fork_from Pg#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#service_to_fork_from Pg#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Percentage of total RAM that the database server uses for shared memory buffers. Valid range is 20-60 (float), which corresponds to 20% - 60%. This setting adjusts the shared_buffers configuration value. Changing this parameter causes a service restart. Example: `41.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#shared_buffers_percentage Pg#shared_buffers_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#shared_buffers_percentage Pg#shared_buffers_percentage}
   */
   readonly sharedBuffersPercentage?: number;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#static_ips Pg#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#static_ips Pg#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * Enum: `off`, `quorum`. Synchronous replication type. Note that the service plan also needs to support synchronous replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#synchronous_replication Pg#synchronous_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#synchronous_replication Pg#synchronous_replication}
   */
   readonly synchronousReplication?: string;
   /**
   * Enum: `aiven`, `timescale`. Variant of the PostgreSQL service, may affect the features that are exposed by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#variant Pg#variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#variant Pg#variant}
   */
   readonly variant?: string;
   /**
   * Sets the maximum amount of memory to be used by a query operation (such as a sort or hash table) before writing to temporary disk files, in MB. The default is 1MB + 0.075% of total RAM (up to 32MB). Example: `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#work_mem Pg#work_mem}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#work_mem Pg#work_mem}
   */
   readonly workMem?: number;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#ip_filter_object Pg#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#ip_filter_object Pg#ip_filter_object}
   */
   readonly ipFilterObject?: PgPgUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#migration Pg#migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#migration Pg#migration}
   */
   readonly migration?: PgPgUserConfigMigration;
   /**
   * pg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg Pg#pg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg Pg#pg}
   */
   readonly pg?: PgPgUserConfigPg;
   /**
   * pg_qualstats block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pg_qualstats Pg#pg_qualstats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pg_qualstats Pg#pg_qualstats}
   */
   readonly pgQualstats?: PgPgUserConfigPgQualstats;
   /**
   * pgaudit block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pgaudit Pg#pgaudit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pgaudit Pg#pgaudit}
   */
   readonly pgaudit?: PgPgUserConfigPgaudit;
   /**
   * pgbouncer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pgbouncer Pg#pgbouncer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pgbouncer Pg#pgbouncer}
   */
   readonly pgbouncer?: PgPgUserConfigPgbouncer;
   /**
   * pglookout block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#pglookout Pg#pglookout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#pglookout Pg#pglookout}
   */
   readonly pglookout?: PgPgUserConfigPglookout;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#private_access Pg#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#private_access Pg#private_access}
   */
   readonly privateAccess?: PgPgUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#privatelink_access Pg#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#privatelink_access Pg#privatelink_access}
   */
   readonly privatelinkAccess?: PgPgUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#public_access Pg#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#public_access Pg#public_access}
   */
   readonly publicAccess?: PgPgUserConfigPublicAccess;
   /**
   * timescaledb block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#timescaledb Pg#timescaledb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#timescaledb Pg#timescaledb}
   */
   readonly timescaledb?: PgPgUserConfigTimescaledb;
 }
@@ -5015,6 +5196,7 @@ export function pgPgUserConfigToTerraform(struct?: PgPgUserConfigOutputReference
     admin_username: cdktf.stringToTerraform(struct!.adminUsername),
     backup_hour: cdktf.numberToTerraform(struct!.backupHour),
     backup_minute: cdktf.numberToTerraform(struct!.backupMinute),
+    enable_ha_replica_dns: cdktf.booleanToTerraform(struct!.enableHaReplicaDns),
     enable_ipv6: cdktf.booleanToTerraform(struct!.enableIpv6),
     ip_filter: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFilter),
     ip_filter_string: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.ipFilterString),
@@ -5082,6 +5264,12 @@ export function pgPgUserConfigToHclTerraform(struct?: PgPgUserConfigOutputRefere
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    enable_ha_replica_dns: {
+      value: cdktf.booleanToHclTerraform(struct!.enableHaReplicaDns),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     enable_ipv6: {
       value: cdktf.booleanToHclTerraform(struct!.enableIpv6),
@@ -5291,6 +5479,10 @@ export class PgPgUserConfigOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.backupMinute = this._backupMinute;
     }
+    if (this._enableHaReplicaDns !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enableHaReplicaDns = this._enableHaReplicaDns;
+    }
     if (this._enableIpv6 !== undefined) {
       hasAnyValues = true;
       internalValueResult.enableIpv6 = this._enableIpv6;
@@ -5414,6 +5606,7 @@ export class PgPgUserConfigOutputReference extends cdktf.ComplexObject {
       this._adminUsername = undefined;
       this._backupHour = undefined;
       this._backupMinute = undefined;
+      this._enableHaReplicaDns = undefined;
       this._enableIpv6 = undefined;
       this._ipFilter = undefined;
       this._ipFilterString = undefined;
@@ -5450,6 +5643,7 @@ export class PgPgUserConfigOutputReference extends cdktf.ComplexObject {
       this._adminUsername = value.adminUsername;
       this._backupHour = value.backupHour;
       this._backupMinute = value.backupMinute;
+      this._enableHaReplicaDns = value.enableHaReplicaDns;
       this._enableIpv6 = value.enableIpv6;
       this._ipFilter = value.ipFilter;
       this._ipFilterString = value.ipFilterString;
@@ -5559,6 +5753,22 @@ export class PgPgUserConfigOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get backupMinuteInput() {
     return this._backupMinute;
+  }
+
+  // enable_ha_replica_dns - computed: false, optional: true, required: false
+  private _enableHaReplicaDns?: boolean | cdktf.IResolvable; 
+  public get enableHaReplicaDns() {
+    return this.getBooleanAttribute('enable_ha_replica_dns');
+  }
+  public set enableHaReplicaDns(value: boolean | cdktf.IResolvable) {
+    this._enableHaReplicaDns = value;
+  }
+  public resetEnableHaReplicaDns() {
+    this._enableHaReplicaDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enableHaReplicaDnsInput() {
+    return this._enableHaReplicaDns;
   }
 
   // enable_ipv6 - computed: false, optional: true, required: false
@@ -6013,13 +6223,13 @@ export interface PgServiceIntegrations {
   /**
   * Type of the service integration. The possible values are `read_replica` and `disaster_recovery`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#integration_type Pg#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#integration_type Pg#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#source_service_name Pg#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#source_service_name Pg#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -6160,13 +6370,13 @@ export interface PgTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#key Pg#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#key Pg#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#value Pg#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#value Pg#value}
   */
   readonly value: string;
 }
@@ -6307,7 +6517,7 @@ export interface PgTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#email Pg#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#email Pg#email}
   */
   readonly email: string;
 }
@@ -6420,23 +6630,23 @@ export class PgTechEmailsList extends cdktf.ComplexList {
 }
 export interface PgTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#create Pg#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#create Pg#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#default Pg#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#default Pg#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#delete Pg#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#delete Pg#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#read Pg#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#read Pg#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#update Pg#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#update Pg#update}
   */
   readonly update?: string;
 }
@@ -6646,7 +6856,7 @@ export class PgTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg aiven_pg}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg aiven_pg}
 */
 export class Pg extends cdktf.TerraformResource {
 
@@ -6662,7 +6872,7 @@ export class Pg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Pg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Pg to import
-  * @param importFromId The id of the existing Pg that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Pg that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Pg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -6674,7 +6884,7 @@ export class Pg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/pg aiven_pg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/pg aiven_pg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -6685,8 +6895,8 @@ export class Pg extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_pg',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

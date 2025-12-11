@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface FaasFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#code_text FaasFunction#code_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#code_text FaasFunction#code_text}
   */
   readonly codeText: string;
   /**
   * Function dependencies to install
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#dependencies FaasFunction#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#dependencies FaasFunction#dependencies}
   */
   readonly dependencies?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#description FaasFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#description FaasFunction#description}
   */
   readonly description?: string;
   /**
   * Set to true if function is disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#disabled FaasFunction#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#disabled FaasFunction#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable api key authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#enable_api_key FaasFunction#enable_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#enable_api_key FaasFunction#enable_api_key}
   */
   readonly enableApiKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#envs FaasFunction#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#envs FaasFunction#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#flavor FaasFunction#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#flavor FaasFunction#flavor}
   */
   readonly flavor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#id FaasFunction#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#id FaasFunction#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -51,65 +51,65 @@ export interface FaasFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of used api keys
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#keys FaasFunction#keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#keys FaasFunction#keys}
   */
   readonly keys?: string[];
   /**
   * Main startup method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#main_method FaasFunction#main_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#main_method FaasFunction#main_method}
   */
   readonly mainMethod: string;
   /**
   * Autoscaling max number of instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#max_instances FaasFunction#max_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#max_instances FaasFunction#max_instances}
   */
   readonly maxInstances: number;
   /**
   * Autoscaling min number of instances
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#min_instances FaasFunction#min_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#min_instances FaasFunction#min_instances}
   */
   readonly minInstances: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#name FaasFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#name FaasFunction#name}
   */
   readonly name: string;
   /**
   * Namespace of the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#namespace FaasFunction#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#namespace FaasFunction#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#project_id FaasFunction#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#project_id FaasFunction#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#project_name FaasFunction#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#project_name FaasFunction#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#region_id FaasFunction#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#region_id FaasFunction#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#region_name FaasFunction#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#region_name FaasFunction#region_name}
   */
   readonly regionName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#runtime FaasFunction#runtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#runtime FaasFunction#runtime}
   */
   readonly runtime: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#timeout FaasFunction#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#timeout FaasFunction#timeout}
   */
   readonly timeout: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function gcore_faas_function}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function gcore_faas_function}
 */
 export class FaasFunction extends cdktf.TerraformResource {
 
@@ -125,7 +125,7 @@ export class FaasFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FaasFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FaasFunction to import
-  * @param importFromId The id of the existing FaasFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FaasFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FaasFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class FaasFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/faas_function gcore_faas_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/faas_function gcore_faas_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class FaasFunction extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_faas_function',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

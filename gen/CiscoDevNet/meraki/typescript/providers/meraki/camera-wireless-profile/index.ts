@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,56 +10,56 @@ export interface CameraWirelessProfileConfig extends cdktf.TerraformMetaArgument
   /**
   * The password of the identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#identity_password CameraWirelessProfile#identity_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#identity_password CameraWirelessProfile#identity_password}
   */
   readonly identityPassword?: string;
   /**
   * The username of the identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#identity_username CameraWirelessProfile#identity_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#identity_username CameraWirelessProfile#identity_username}
   */
   readonly identityUsername?: string;
   /**
   * The name of the camera wireless profile. This parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#name CameraWirelessProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#name CameraWirelessProfile#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#network_id CameraWirelessProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#network_id CameraWirelessProfile#network_id}
   */
   readonly networkId: string;
   /**
   * The auth mode of the SSID. It can be set to (`psk`, `8021x-radius`).
   *   - Choices: `8021x-radius`, `psk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#ssid_auth_mode CameraWirelessProfile#ssid_auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#ssid_auth_mode CameraWirelessProfile#ssid_auth_mode}
   */
   readonly ssidAuthMode: string;
   /**
   * The encryption mode of the SSID. It can be set to (`wpa`, `wpa-eap`). With `wpa` mode, the authMode should be `psk` and with `wpa-eap` the authMode should be `8021x-radius`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#ssid_encryption_mode CameraWirelessProfile#ssid_encryption_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#ssid_encryption_mode CameraWirelessProfile#ssid_encryption_mode}
   */
   readonly ssidEncryptionMode?: string;
   /**
   * The name of the SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#ssid_name CameraWirelessProfile#ssid_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#ssid_name CameraWirelessProfile#ssid_name}
   */
   readonly ssidName: string;
   /**
   * The pre-shared key of the SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#ssid_psk CameraWirelessProfile#ssid_psk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#ssid_psk CameraWirelessProfile#ssid_psk}
   */
   readonly ssidPsk?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile meraki_camera_wireless_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile meraki_camera_wireless_profile}
 */
 export class CameraWirelessProfile extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class CameraWirelessProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraWirelessProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraWirelessProfile to import
-  * @param importFromId The id of the existing CameraWirelessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraWirelessProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraWirelessProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class CameraWirelessProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_wireless_profile meraki_camera_wireless_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_wireless_profile meraki_camera_wireless_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class CameraWirelessProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_wireless_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

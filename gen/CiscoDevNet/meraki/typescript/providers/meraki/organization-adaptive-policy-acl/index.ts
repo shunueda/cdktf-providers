@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,32 +10,32 @@ export interface OrganizationAdaptivePolicyAclConfig extends cdktf.TerraformMeta
   /**
   * Description of the adaptive policy ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#description OrganizationAdaptivePolicyAcl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#description OrganizationAdaptivePolicyAcl#description}
   */
   readonly description?: string;
   /**
   * IP version of adpative policy ACL. One of: `any`, `ipv4` or `ipv6`
   *   - Choices: `any`, `ipv4`, `ipv6`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#ip_version OrganizationAdaptivePolicyAcl#ip_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#ip_version OrganizationAdaptivePolicyAcl#ip_version}
   */
   readonly ipVersion: string;
   /**
   * Name of the adaptive policy ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#name OrganizationAdaptivePolicyAcl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#name OrganizationAdaptivePolicyAcl#name}
   */
   readonly name: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#organization_id OrganizationAdaptivePolicyAcl#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#organization_id OrganizationAdaptivePolicyAcl#organization_id}
   */
   readonly organizationId: string;
   /**
   * An ordered array of the adaptive policy ACL rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#rules OrganizationAdaptivePolicyAcl#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#rules OrganizationAdaptivePolicyAcl#rules}
   */
   readonly rules: OrganizationAdaptivePolicyAclRules[] | cdktf.IResolvable;
 }
@@ -43,39 +43,39 @@ export interface OrganizationAdaptivePolicyAclRules {
   /**
   * Destination port. Must be in the format of single port: `1`, port list: `1,2` or port range: `1-10`, and in the range of 1-65535, or `any`. Default is `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#dst_port OrganizationAdaptivePolicyAcl#dst_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#dst_port OrganizationAdaptivePolicyAcl#dst_port}
   */
   readonly dstPort?: string;
   /**
   * If enabled, when this rule is hit an entry will be logged to the event log
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#log OrganizationAdaptivePolicyAcl#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#log OrganizationAdaptivePolicyAcl#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * `allow` or `deny` traffic specified by this rule.
   *   - Choices: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#policy OrganizationAdaptivePolicyAcl#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#policy OrganizationAdaptivePolicyAcl#policy}
   */
   readonly policy: string;
   /**
   * The type of protocol (must be `tcp`, `udp`, `icmp` or `any`).
   *   - Choices: `any`, `icmp`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#protocol OrganizationAdaptivePolicyAcl#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#protocol OrganizationAdaptivePolicyAcl#protocol}
   */
   readonly protocol: string;
   /**
   * Source port. Must be in the format of single port: `1`, port list: `1,2` or port range: `1-10`, and in the range of 1-65535, or `any`. Default is `any`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#src_port OrganizationAdaptivePolicyAcl#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#src_port OrganizationAdaptivePolicyAcl#src_port}
   */
   readonly srcPort?: string;
   /**
   * If enabled, means TCP connection with this node must be established.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#tcp_established OrganizationAdaptivePolicyAcl#tcp_established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#tcp_established OrganizationAdaptivePolicyAcl#tcp_established}
   */
   readonly tcpEstablished?: boolean | cdktf.IResolvable;
 }
@@ -330,7 +330,7 @@ export class OrganizationAdaptivePolicyAclRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl meraki_organization_adaptive_policy_acl}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl meraki_organization_adaptive_policy_acl}
 */
 export class OrganizationAdaptivePolicyAcl extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class OrganizationAdaptivePolicyAcl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationAdaptivePolicyAcl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAdaptivePolicyAcl to import
-  * @param importFromId The id of the existing OrganizationAdaptivePolicyAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAdaptivePolicyAcl that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAdaptivePolicyAcl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class OrganizationAdaptivePolicyAcl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policy_acl meraki_organization_adaptive_policy_acl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policy_acl meraki_organization_adaptive_policy_acl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class OrganizationAdaptivePolicyAcl extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_adaptive_policy_acl',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

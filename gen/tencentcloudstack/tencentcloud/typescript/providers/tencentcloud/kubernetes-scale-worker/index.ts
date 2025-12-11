@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface KubernetesScaleWorkerConfig extends cdktf.TerraformMetaArgument
   /**
   * ID of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#cluster_id KubernetesScaleWorker#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#cluster_id KubernetesScaleWorker#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Used to save results of CVMs creation error messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#create_result_output_file KubernetesScaleWorker#create_result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#create_result_output_file KubernetesScaleWorker#create_result_output_file}
   */
   readonly createResultOutputFile?: string;
   /**
   * Indicate to set desired pod number in current node. Valid when the cluster enable customized pod cidr.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#desired_pod_num KubernetesScaleWorker#desired_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#desired_pod_num KubernetesScaleWorker#desired_pod_num}
   */
   readonly desiredPodNum?: number;
   /**
   * Docker graph path. Default is `/var/lib/docker`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#docker_graph_path KubernetesScaleWorker#docker_graph_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#docker_graph_path KubernetesScaleWorker#docker_graph_path}
   */
   readonly dockerGraphPath?: string;
   /**
   * Custom parameter information related to the node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#extra_args KubernetesScaleWorker#extra_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#extra_args KubernetesScaleWorker#extra_args}
   */
   readonly extraArgs?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#id KubernetesScaleWorker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#id KubernetesScaleWorker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface KubernetesScaleWorkerConfig extends cdktf.TerraformMetaArgument
   /**
   * Labels of kubernetes scale worker created nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#labels KubernetesScaleWorker#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#labels KubernetesScaleWorker#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Mount target. Default is not mounting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#mount_target KubernetesScaleWorker#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#mount_target KubernetesScaleWorker#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Base64-encoded user script, executed before initializing the node, currently only effective for adding existing nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#pre_start_user_script KubernetesScaleWorker#pre_start_user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#pre_start_user_script KubernetesScaleWorker#pre_start_user_script}
   */
   readonly preStartUserScript?: string;
   /**
   * Set whether the added node participates in scheduling. The default value is 0, which means participating in scheduling; non-0 means not participating in scheduling. After the node initialization is completed, you can execute kubectl uncordon nodename to join the node in scheduling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#unschedulable KubernetesScaleWorker#unschedulable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#unschedulable KubernetesScaleWorker#unschedulable}
   */
   readonly unschedulable?: number;
   /**
   * Base64 encoded user script, this script will be executed after the k8s component is run. The user needs to ensure that the script is reentrant and retry logic. The script and its generated log files can be viewed in the /data/ccs_userscript/ path of the node, if required. The node needs to be initialized before it can be added to the schedule. It can be used with the unschedulable parameter. After the final initialization of userScript is completed, add the kubectl uncordon nodename --kubeconfig=/root/.kube/config command to add the node to the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#user_script KubernetesScaleWorker#user_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#user_script KubernetesScaleWorker#user_script}
   */
   readonly userScript?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#data_disk KubernetesScaleWorker#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#data_disk KubernetesScaleWorker#data_disk}
   */
   readonly dataDisk?: KubernetesScaleWorkerDataDisk[] | cdktf.IResolvable;
   /**
   * gpu_args block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#gpu_args KubernetesScaleWorker#gpu_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#gpu_args KubernetesScaleWorker#gpu_args}
   */
   readonly gpuArgs?: KubernetesScaleWorkerGpuArgs;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#taints KubernetesScaleWorker#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#taints KubernetesScaleWorker#taints}
   */
   readonly taints?: KubernetesScaleWorkerTaints[] | cdktf.IResolvable;
   /**
   * worker_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#worker_config KubernetesScaleWorker#worker_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#worker_config KubernetesScaleWorker#worker_config}
   */
   readonly workerConfig: KubernetesScaleWorkerWorkerConfig;
 }
@@ -198,37 +198,37 @@ export interface KubernetesScaleWorkerDataDisk {
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#auto_format_and_mount KubernetesScaleWorker#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#auto_format_and_mount KubernetesScaleWorker#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disk_partition KubernetesScaleWorker#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disk_partition KubernetesScaleWorker#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disk_size KubernetesScaleWorker#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disk_size KubernetesScaleWorker#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk, available values: `CLOUD_PREMIUM` and `CLOUD_SSD` and `CLOUD_HSSD` and `CLOUD_TSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disk_type KubernetesScaleWorker#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disk_type KubernetesScaleWorker#disk_type}
   */
   readonly diskType?: string;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#file_system KubernetesScaleWorker#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#file_system KubernetesScaleWorker#file_system}
   */
   readonly fileSystem?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#mount_target KubernetesScaleWorker#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#mount_target KubernetesScaleWorker#mount_target}
   */
   readonly mountTarget?: string;
 }
@@ -491,31 +491,31 @@ export interface KubernetesScaleWorkerGpuArgs {
   /**
   * CUDA  version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#cuda KubernetesScaleWorker#cuda}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#cuda KubernetesScaleWorker#cuda}
   */
   readonly cuda?: { [key: string]: string };
   /**
   * cuDNN version. Format like: `{ version: String, name: String, doc_name: String, dev_name: String }`. `version`: cuDNN version; `name`: cuDNN name; `doc_name`: Doc name of cuDNN; `dev_name`: Dev name of cuDNN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#cudnn KubernetesScaleWorker#cudnn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#cudnn KubernetesScaleWorker#cudnn}
   */
   readonly cudnn?: { [key: string]: string };
   /**
   * Custom GPU driver. Format like: `{address: String}`. `address`: URL of custom GPU driver address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#custom_driver KubernetesScaleWorker#custom_driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#custom_driver KubernetesScaleWorker#custom_driver}
   */
   readonly customDriver?: { [key: string]: string };
   /**
   * GPU driver version. Format like: `{ version: String, name: String }`. `version`: Version of GPU driver or CUDA; `name`: Name of GPU driver or CUDA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#driver KubernetesScaleWorker#driver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#driver KubernetesScaleWorker#driver}
   */
   readonly driver?: { [key: string]: string };
   /**
   * Whether to enable MIG.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#mig_enable KubernetesScaleWorker#mig_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#mig_enable KubernetesScaleWorker#mig_enable}
   */
   readonly migEnable?: boolean | cdktf.IResolvable;
 }
@@ -717,19 +717,19 @@ export interface KubernetesScaleWorkerTaints {
   /**
   * Effect of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#effect KubernetesScaleWorker#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#effect KubernetesScaleWorker#effect}
   */
   readonly effect?: string;
   /**
   * Key of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#key KubernetesScaleWorker#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#key KubernetesScaleWorker#key}
   */
   readonly key?: string;
   /**
   * Value of the taint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#value KubernetesScaleWorker#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#value KubernetesScaleWorker#value}
   */
   readonly value?: string;
 }
@@ -905,55 +905,55 @@ export interface KubernetesScaleWorkerWorkerConfigDataDisk {
   /**
   * Indicate whether to auto format and mount or not. Default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#auto_format_and_mount KubernetesScaleWorker#auto_format_and_mount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#auto_format_and_mount KubernetesScaleWorker#auto_format_and_mount}
   */
   readonly autoFormatAndMount?: boolean | cdktf.IResolvable;
   /**
   * The name of the device or partition to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disk_partition KubernetesScaleWorker#disk_partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disk_partition KubernetesScaleWorker#disk_partition}
   */
   readonly diskPartition?: string;
   /**
   * Volume of disk in GB. Default is `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disk_size KubernetesScaleWorker#disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disk_size KubernetesScaleWorker#disk_size}
   */
   readonly diskSize?: number;
   /**
   * Types of disk, available values: `CLOUD_PREMIUM` and `CLOUD_SSD` and `CLOUD_HSSD` and `CLOUD_TSSD`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disk_type KubernetesScaleWorker#disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disk_type KubernetesScaleWorker#disk_type}
   */
   readonly diskType?: string;
   /**
   * Indicates whether to encrypt data disk, default `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#encrypt KubernetesScaleWorker#encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#encrypt KubernetesScaleWorker#encrypt}
   */
   readonly encrypt?: boolean | cdktf.IResolvable;
   /**
   * File system, e.g. `ext3/ext4/xfs`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#file_system KubernetesScaleWorker#file_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#file_system KubernetesScaleWorker#file_system}
   */
   readonly fileSystem?: string;
   /**
   * ID of the custom CMK in the format of UUID or `kms-abcd1234`. This parameter is used to encrypt cloud disks.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#kms_key_id KubernetesScaleWorker#kms_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#kms_key_id KubernetesScaleWorker#kms_key_id}
   */
   readonly kmsKeyId?: string;
   /**
   * Mount target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#mount_target KubernetesScaleWorker#mount_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#mount_target KubernetesScaleWorker#mount_target}
   */
   readonly mountTarget?: string;
   /**
   * Data disk snapshot ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#snapshot_id KubernetesScaleWorker#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#snapshot_id KubernetesScaleWorker#snapshot_id}
   */
   readonly snapshotId?: string;
 }
@@ -1303,13 +1303,13 @@ export interface KubernetesScaleWorkerWorkerConfigTags {
   /**
   * Tag key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#key KubernetesScaleWorker#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#key KubernetesScaleWorker#key}
   */
   readonly key: string;
   /**
   * Tag value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#value KubernetesScaleWorker#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#value KubernetesScaleWorker#value}
   */
   readonly value: string;
 }
@@ -1450,175 +1450,175 @@ export interface KubernetesScaleWorkerWorkerConfig {
   /**
   * Indicates which availability zone will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#availability_zone KubernetesScaleWorker#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#availability_zone KubernetesScaleWorker#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * bandwidth package id. if user is standard user, then the bandwidth_package_id is needed, or default has bandwidth_package_id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#bandwidth_package_id KubernetesScaleWorker#bandwidth_package_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#bandwidth_package_id KubernetesScaleWorker#bandwidth_package_id}
   */
   readonly bandwidthPackageId?: string;
   /**
   * CAM role name authorized to access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#cam_role_name KubernetesScaleWorker#cam_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#cam_role_name KubernetesScaleWorker#cam_role_name}
   */
   readonly camRoleName?: string;
   /**
   * CDC ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#cdc_id KubernetesScaleWorker#cdc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#cdc_id KubernetesScaleWorker#cdc_id}
   */
   readonly cdcId?: string;
   /**
   * Number of cvm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#count KubernetesScaleWorker#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#count KubernetesScaleWorker#count}
   */
   readonly count?: number;
   /**
   * Indicate to set desired pod number in node. valid when enable_customized_pod_cidr=true, and it override `[globe_]desired_pod_num` for current node. Either all the fields `desired_pod_num` or none.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#desired_pod_num KubernetesScaleWorker#desired_pod_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#desired_pod_num KubernetesScaleWorker#desired_pod_num}
   */
   readonly desiredPodNum?: number;
   /**
   * Disaster recover groups to which a CVM instance belongs. Only support maximum 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#disaster_recover_group_ids KubernetesScaleWorker#disaster_recover_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#disaster_recover_group_ids KubernetesScaleWorker#disaster_recover_group_ids}
   */
   readonly disasterRecoverGroupIds?: string[];
   /**
   * To specify whether to enable cloud monitor service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#enhanced_monitor_service KubernetesScaleWorker#enhanced_monitor_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#enhanced_monitor_service KubernetesScaleWorker#enhanced_monitor_service}
   */
   readonly enhancedMonitorService?: boolean | cdktf.IResolvable;
   /**
   * To specify whether to enable cloud security service. Default is TRUE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#enhanced_security_service KubernetesScaleWorker#enhanced_security_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#enhanced_security_service KubernetesScaleWorker#enhanced_security_service}
   */
   readonly enhancedSecurityService?: boolean | cdktf.IResolvable;
   /**
   * The host name of the attached instance. Dot (.) and dash (-) cannot be used as the first and last characters of HostName and cannot be used consecutively. Windows example: The length of the name character is [2, 15], letters (capitalization is not restricted), numbers and dashes (-) are allowed, dots (.) are not supported, and not all numbers are allowed. Examples of other types (Linux, etc.): The character length is [2, 60], and multiple dots are allowed. There is a segment between the dots. Each segment allows letters (with no limitation on capitalization), numbers and dashes (-).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#hostname KubernetesScaleWorker#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#hostname KubernetesScaleWorker#hostname}
   */
   readonly hostname?: string;
   /**
   * Id of cvm hpc cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#hpc_cluster_id KubernetesScaleWorker#hpc_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#hpc_cluster_id KubernetesScaleWorker#hpc_cluster_id}
   */
   readonly hpcClusterId?: string;
   /**
   * The valid image id, format of img-xxx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#img_id KubernetesScaleWorker#img_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#img_id KubernetesScaleWorker#img_id}
   */
   readonly imgId?: string;
   /**
   * The charge type of instance. Valid values are `PREPAID`, `POSTPAID_BY_HOUR`, `SPOTPAID`, `CDCPAID`. The default is `POSTPAID_BY_HOUR`. Note: TencentCloud International only supports `POSTPAID_BY_HOUR`, `PREPAID` instance will not terminated after cluster deleted, and may not allow to delete before expired.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#instance_charge_type KubernetesScaleWorker#instance_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#instance_charge_type KubernetesScaleWorker#instance_charge_type}
   */
   readonly instanceChargeType?: string;
   /**
   * The tenancy (time unit is month) of the prepaid instance. NOTE: it only works when instance_charge_type is set to `PREPAID`. Valid values are `1`, `2`, `3`, `4`, `5`, `6`, `7`, `8`, `9`, `10`, `11`, `12`, `24`, `36`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#instance_charge_type_prepaid_period KubernetesScaleWorker#instance_charge_type_prepaid_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#instance_charge_type_prepaid_period KubernetesScaleWorker#instance_charge_type_prepaid_period}
   */
   readonly instanceChargeTypePrepaidPeriod?: number;
   /**
   * Auto renewal flag. Valid values: `NOTIFY_AND_AUTO_RENEW`: notify upon expiration and renew automatically, `NOTIFY_AND_MANUAL_RENEW`: notify upon expiration but do not renew automatically, `DISABLE_NOTIFY_AND_MANUAL_RENEW`: neither notify upon expiration nor renew automatically. Default value: `NOTIFY_AND_MANUAL_RENEW`. If this parameter is specified as `NOTIFY_AND_AUTO_RENEW`, the instance will be automatically renewed on a monthly basis if the account balance is sufficient. NOTE: it only works when instance_charge_type is set to `PREPAID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#instance_charge_type_prepaid_renew_flag KubernetesScaleWorker#instance_charge_type_prepaid_renew_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#instance_charge_type_prepaid_renew_flag KubernetesScaleWorker#instance_charge_type_prepaid_renew_flag}
   */
   readonly instanceChargeTypePrepaidRenewFlag?: string;
   /**
   * Name of the CVMs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#instance_name KubernetesScaleWorker#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#instance_name KubernetesScaleWorker#instance_name}
   */
   readonly instanceName?: string;
   /**
   * Specified types of CVM instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#instance_type KubernetesScaleWorker#instance_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#instance_type KubernetesScaleWorker#instance_type}
   */
   readonly instanceType: string;
   /**
   * Charge types for network traffic. Available values include `TRAFFIC_POSTPAID_BY_HOUR`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#internet_charge_type KubernetesScaleWorker#internet_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#internet_charge_type KubernetesScaleWorker#internet_charge_type}
   */
   readonly internetChargeType?: string;
   /**
   * Max bandwidth of Internet access in Mbps. Default is 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#internet_max_bandwidth_out KubernetesScaleWorker#internet_max_bandwidth_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#internet_max_bandwidth_out KubernetesScaleWorker#internet_max_bandwidth_out}
   */
   readonly internetMaxBandwidthOut?: number;
   /**
   * ID list of keys, should be set if `password` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#key_ids KubernetesScaleWorker#key_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#key_ids KubernetesScaleWorker#key_ids}
   */
   readonly keyIds?: string[];
   /**
   * Password to access, should be set if `key_ids` not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#password KubernetesScaleWorker#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#password KubernetesScaleWorker#password}
   */
   readonly password?: string;
   /**
   * Specify whether to assign an Internet IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#public_ip_assigned KubernetesScaleWorker#public_ip_assigned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#public_ip_assigned KubernetesScaleWorker#public_ip_assigned}
   */
   readonly publicIpAssigned?: boolean | cdktf.IResolvable;
   /**
   * Security groups to which a CVM instance belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#security_group_ids KubernetesScaleWorker#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#security_group_ids KubernetesScaleWorker#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * Private network ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#subnet_id KubernetesScaleWorker#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#subnet_id KubernetesScaleWorker#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Volume of system disk in GB. Default is `50`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#system_disk_size KubernetesScaleWorker#system_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#system_disk_size KubernetesScaleWorker#system_disk_size}
   */
   readonly systemDiskSize?: number;
   /**
   * System disk type. For more information on limits of system disk types, see [Storage Overview](https://intl.cloud.tencent.com/document/product/213/4952). Valid values: `LOCAL_BASIC`: local disk, `LOCAL_SSD`: local SSD disk, `CLOUD_SSD`: SSD, `CLOUD_PREMIUM`: Premium Cloud Storage. NOTE: `CLOUD_BASIC`, `LOCAL_BASIC` and `LOCAL_SSD` are deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#system_disk_type KubernetesScaleWorker#system_disk_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#system_disk_type KubernetesScaleWorker#system_disk_type}
   */
   readonly systemDiskType?: string;
   /**
   * User data provided to instances, needs to be encoded in base64, and the maximum supported data size is 16KB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#user_data KubernetesScaleWorker#user_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#user_data KubernetesScaleWorker#user_data}
   */
   readonly userData?: string;
   /**
   * data_disk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#data_disk KubernetesScaleWorker#data_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#data_disk KubernetesScaleWorker#data_disk}
   */
   readonly dataDisk?: KubernetesScaleWorkerWorkerConfigDataDisk[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#tags KubernetesScaleWorker#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#tags KubernetesScaleWorker#tags}
   */
   readonly tags?: KubernetesScaleWorkerWorkerConfigTags[] | cdktf.IResolvable;
 }
@@ -2508,7 +2508,7 @@ export class KubernetesScaleWorkerWorkerConfigOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker tencentcloud_kubernetes_scale_worker}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker tencentcloud_kubernetes_scale_worker}
 */
 export class KubernetesScaleWorker extends cdktf.TerraformResource {
 
@@ -2524,7 +2524,7 @@ export class KubernetesScaleWorker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesScaleWorker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesScaleWorker to import
-  * @param importFromId The id of the existing KubernetesScaleWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesScaleWorker that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesScaleWorker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2536,7 +2536,7 @@ export class KubernetesScaleWorker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/kubernetes_scale_worker tencentcloud_kubernetes_scale_worker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/kubernetes_scale_worker tencentcloud_kubernetes_scale_worker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2547,8 +2547,8 @@ export class KubernetesScaleWorker extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_kubernetes_scale_worker',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

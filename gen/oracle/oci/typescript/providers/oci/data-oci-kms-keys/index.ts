@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciKmsKeysConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#algorithm DataOciKmsKeys#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#algorithm DataOciKmsKeys#algorithm}
   */
   readonly algorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#compartment_id DataOciKmsKeys#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#compartment_id DataOciKmsKeys#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#curve_id DataOciKmsKeys#curve_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#curve_id DataOciKmsKeys#curve_id}
   */
   readonly curveId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#id DataOciKmsKeys#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#id DataOciKmsKeys#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#length DataOciKmsKeys#length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#length DataOciKmsKeys#length}
   */
   readonly length?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#management_endpoint DataOciKmsKeys#management_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#management_endpoint DataOciKmsKeys#management_endpoint}
   */
   readonly managementEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#protection_mode DataOciKmsKeys#protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#protection_mode DataOciKmsKeys#protection_mode}
   */
   readonly protectionMode?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#filter DataOciKmsKeys#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#filter DataOciKmsKeys#filter}
   */
   readonly filter?: DataOciKmsKeysFilter[] | cdktf.IResolvable;
 }
@@ -841,15 +841,15 @@ export class DataOciKmsKeysKeysList extends cdktf.ComplexList {
 }
 export interface DataOciKmsKeysFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#name DataOciKmsKeys#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#name DataOciKmsKeys#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#regex DataOciKmsKeys#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#regex DataOciKmsKeys#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#values DataOciKmsKeys#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#values DataOciKmsKeys#values}
   */
   readonly values: string[];
 }
@@ -1017,7 +1017,7 @@ export class DataOciKmsKeysFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys oci_kms_keys}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys oci_kms_keys}
 */
 export class DataOciKmsKeys extends cdktf.TerraformDataSource {
 
@@ -1033,7 +1033,7 @@ export class DataOciKmsKeys extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciKmsKeys resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciKmsKeys to import
-  * @param importFromId The id of the existing DataOciKmsKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciKmsKeys that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciKmsKeys to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1045,7 +1045,7 @@ export class DataOciKmsKeys extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/kms_keys oci_kms_keys} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/kms_keys oci_kms_keys} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1056,8 +1056,8 @@ export class DataOciKmsKeys extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_kms_keys',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

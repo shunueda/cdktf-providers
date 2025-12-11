@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAivenM3DbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db#id DataAivenM3Db#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db#id DataAivenM3Db#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataAivenM3DbConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db#project DataAivenM3Db#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db#project DataAivenM3Db#project}
   */
   readonly project: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db#service_name DataAivenM3Db#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db#service_name DataAivenM3Db#service_name}
   */
   readonly serviceName: string;
 }
@@ -1752,7 +1752,7 @@ export class DataAivenM3DbTechEmailsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db aiven_m3db}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db aiven_m3db}
 */
 export class DataAivenM3Db extends cdktf.TerraformDataSource {
 
@@ -1768,7 +1768,7 @@ export class DataAivenM3Db extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAivenM3Db resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenM3Db to import
-  * @param importFromId The id of the existing DataAivenM3Db that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenM3Db that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenM3Db to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1780,7 +1780,7 @@ export class DataAivenM3Db extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/m3db aiven_m3db} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/m3db aiven_m3db} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1791,8 +1791,8 @@ export class DataAivenM3Db extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_m3db',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

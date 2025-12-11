@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface CustomIssueConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of custom issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#description CustomIssue#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#description CustomIssue#description}
   */
   readonly description: string;
   /**
   * Name of the custom issue. It must not begin with 'xray' (case insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#name CustomIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#name CustomIssue#name}
   */
   readonly name: string;
   /**
   * Package Type of custom issue. Valid values are: alpine, bower, cargo, composer, conan, conda, cran, debian, docker, generic, go, gradle, huggingface, ivy, maven, npm, nuget, oci, pypi, rpm, rubygems, sbt, terraformbe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#package_type CustomIssue#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#package_type CustomIssue#package_type}
   */
   readonly packageType: string;
   /**
   * Provider of custom issue. It must not be 'jfrog' (case insensitive)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#provider_name CustomIssue#provider_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#provider_name CustomIssue#provider_name}
   */
   readonly providerName: string;
   /**
   * Severity of custom issue. Valid values: Critical, High, Medium, Low, Information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#severity CustomIssue#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#severity CustomIssue#severity}
   */
   readonly severity: string;
   /**
   * Summary of custom issue
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#summary CustomIssue#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#summary CustomIssue#summary}
   */
   readonly summary: string;
   /**
   * Type of custom issue. Valid values: other, performance, security, versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#type CustomIssue#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#type CustomIssue#type}
   */
   readonly type: string;
   /**
   * component block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#component CustomIssue#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#component CustomIssue#component}
   */
   readonly component?: CustomIssueComponent[] | cdktf.IResolvable;
   /**
   * cve block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#cve CustomIssue#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#cve CustomIssue#cve}
   */
   readonly cve?: CustomIssueCve[] | cdktf.IResolvable;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#source CustomIssue#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#source CustomIssue#source}
   */
   readonly source?: CustomIssueSource[] | cdktf.IResolvable;
 }
@@ -72,13 +72,13 @@ export interface CustomIssueComponentVulnerableRanges {
   /**
   * List of fixed versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#fixed_versions CustomIssue#fixed_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#fixed_versions CustomIssue#fixed_versions}
   */
   readonly fixedVersions?: string[];
   /**
   * List of vulnerable versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#vulnerable_versions CustomIssue#vulnerable_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#vulnerable_versions CustomIssue#vulnerable_versions}
   */
   readonly vulnerableVersions?: string[];
 }
@@ -225,13 +225,13 @@ export interface CustomIssueComponent {
   /**
   * List of fixed versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#fixed_versions CustomIssue#fixed_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#fixed_versions CustomIssue#fixed_versions}
   */
   readonly fixedVersions?: string[];
   /**
   * ID of the component
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#id CustomIssue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#id CustomIssue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -240,13 +240,13 @@ export interface CustomIssueComponent {
   /**
   * List of vulnerable versions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#vulnerable_versions CustomIssue#vulnerable_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#vulnerable_versions CustomIssue#vulnerable_versions}
   */
   readonly vulnerableVersions?: string[];
   /**
   * vulnerable_ranges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#vulnerable_ranges CustomIssue#vulnerable_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#vulnerable_ranges CustomIssue#vulnerable_ranges}
   */
   readonly vulnerableRanges?: CustomIssueComponentVulnerableRanges[] | cdktf.IResolvable;
 }
@@ -448,19 +448,19 @@ export interface CustomIssueCve {
   /**
   * CVE ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#cve CustomIssue#cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#cve CustomIssue#cve}
   */
   readonly cve?: string;
   /**
   * CVSS v2 score
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#cvss_v2 CustomIssue#cvss_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#cvss_v2 CustomIssue#cvss_v2}
   */
   readonly cvssV2?: string;
   /**
   * CVSS v3 score
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#cvss_v3 CustomIssue#cvss_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#cvss_v3 CustomIssue#cvss_v3}
   */
   readonly cvssV3?: string;
 }
@@ -636,7 +636,7 @@ export interface CustomIssueSource {
   /**
   * ID of the source, e.g. CVE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#id CustomIssue#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#id CustomIssue#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -645,13 +645,13 @@ export interface CustomIssueSource {
   /**
   * Name of the source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#name CustomIssue#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#name CustomIssue#name}
   */
   readonly name?: string;
   /**
   * URL of the source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#url CustomIssue#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#url CustomIssue#url}
   */
   readonly url?: string;
 }
@@ -822,7 +822,7 @@ export class CustomIssueSourceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue xray_custom_issue}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue xray_custom_issue}
 */
 export class CustomIssue extends cdktf.TerraformResource {
 
@@ -838,7 +838,7 @@ export class CustomIssue extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomIssue resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomIssue to import
-  * @param importFromId The id of the existing CustomIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomIssue that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomIssue to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -850,7 +850,7 @@ export class CustomIssue extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/custom_issue xray_custom_issue} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/custom_issue xray_custom_issue} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -861,8 +861,8 @@ export class CustomIssue extends cdktf.TerraformResource {
       terraformResourceType: 'xray_custom_issue',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

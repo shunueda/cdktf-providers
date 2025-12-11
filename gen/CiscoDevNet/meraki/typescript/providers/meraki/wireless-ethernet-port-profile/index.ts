@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface WirelessEthernetPortProfileConfig extends cdktf.TerraformMetaAr
   /**
   * AP port profile name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#name WirelessEthernetPortProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#name WirelessEthernetPortProfile#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#network_id WirelessEthernetPortProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#network_id WirelessEthernetPortProfile#network_id}
   */
   readonly networkId: string;
   /**
   * AP ports configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#ports WirelessEthernetPortProfile#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#ports WirelessEthernetPortProfile#ports}
   */
   readonly ports: WirelessEthernetPortProfilePorts[] | cdktf.IResolvable;
   /**
   * AP usb ports configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#usb_ports WirelessEthernetPortProfile#usb_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#usb_ports WirelessEthernetPortProfile#usb_ports}
   */
   readonly usbPorts?: WirelessEthernetPortProfileUsbPorts[] | cdktf.IResolvable;
 }
@@ -36,25 +36,25 @@ export interface WirelessEthernetPortProfilePorts {
   /**
   * AP port enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#enabled WirelessEthernetPortProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#enabled WirelessEthernetPortProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * AP port name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#name WirelessEthernetPortProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#name WirelessEthernetPortProfile#name}
   */
   readonly name: string;
   /**
   * AP port PSK Group ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#psk_group_id WirelessEthernetPortProfile#psk_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#psk_group_id WirelessEthernetPortProfile#psk_group_id}
   */
   readonly pskGroupId?: string;
   /**
   * AP port ssid number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#ssid WirelessEthernetPortProfile#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#ssid WirelessEthernetPortProfile#ssid}
   */
   readonly ssid?: number;
 }
@@ -256,19 +256,19 @@ export interface WirelessEthernetPortProfileUsbPorts {
   /**
   * AP usb port enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#enabled WirelessEthernetPortProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#enabled WirelessEthernetPortProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * AP usb port name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#name WirelessEthernetPortProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#name WirelessEthernetPortProfile#name}
   */
   readonly name: string;
   /**
   * AP usb port ssid number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#ssid WirelessEthernetPortProfile#ssid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#ssid WirelessEthernetPortProfile#ssid}
   */
   readonly ssid?: number;
 }
@@ -439,7 +439,7 @@ export class WirelessEthernetPortProfileUsbPortsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile meraki_wireless_ethernet_port_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile meraki_wireless_ethernet_port_profile}
 */
 export class WirelessEthernetPortProfile extends cdktf.TerraformResource {
 
@@ -455,7 +455,7 @@ export class WirelessEthernetPortProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessEthernetPortProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessEthernetPortProfile to import
-  * @param importFromId The id of the existing WirelessEthernetPortProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessEthernetPortProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessEthernetPortProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -467,7 +467,7 @@ export class WirelessEthernetPortProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ethernet_port_profile meraki_wireless_ethernet_port_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ethernet_port_profile meraki_wireless_ethernet_port_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -478,8 +478,8 @@ export class WirelessEthernetPortProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ethernet_port_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AccountAuthenticationConfig extends cdktf.TerraformMetaArgument
   /**
   * The unique id of the account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#account_id AccountAuthentication#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#account_id AccountAuthentication#account_id}
   */
   readonly accountId: string;
   /**
   * Team ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#auto_join_team_id AccountAuthentication#auto_join_team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#auto_join_team_id AccountAuthentication#auto_join_team_id}
   */
   readonly autoJoinTeamId?: string;
   /**
   * Status of account authentication method. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#enabled AccountAuthentication#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#enabled AccountAuthentication#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#id AccountAuthentication#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#id AccountAuthentication#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface AccountAuthenticationConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the account authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#name AccountAuthentication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#name AccountAuthentication#name}
   */
   readonly name: string;
   /**
   * SAML Certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_certificate AccountAuthentication#saml_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_certificate AccountAuthentication#saml_certificate}
   */
   readonly samlCertificate?: string;
   /**
   * Digest algorithm. This is an advanced option that typically does not need to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_digest_algorithm AccountAuthentication#saml_digest_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_digest_algorithm AccountAuthentication#saml_digest_algorithm}
   */
   readonly samlDigestAlgorithm?: string;
   /**
   * SAML Entity id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_entity_id AccountAuthentication#saml_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_entity_id AccountAuthentication#saml_entity_id}
   */
   readonly samlEntityId?: string;
   /**
   * Set to 'true' to enable IdP initiated login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_idp_login_allowed AccountAuthentication#saml_idp_login_allowed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_idp_login_allowed AccountAuthentication#saml_idp_login_allowed}
   */
   readonly samlIdpLoginAllowed?: boolean | cdktf.IResolvable;
   /**
   * SAML Idp URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_idp_url AccountAuthentication#saml_idp_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_idp_url AccountAuthentication#saml_idp_url}
   */
   readonly samlIdpUrl?: string;
   /**
   * Signature algorithm. This is an advanced option that typically does not need to be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_signature_algorithm AccountAuthentication#saml_signature_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_signature_algorithm AccountAuthentication#saml_signature_algorithm}
   */
   readonly samlSignatureAlgorithm?: string;
   /**
   * SAML server variant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_variant AccountAuthentication#saml_variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_variant AccountAuthentication#saml_variant}
   */
   readonly samlVariant?: string;
   /**
   * The account authentication type. The possible values are `internal` and `saml`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#type AccountAuthentication#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#type AccountAuthentication#type}
   */
   readonly type: string;
   /**
   * saml_field_mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#saml_field_mapping AccountAuthentication#saml_field_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#saml_field_mapping AccountAuthentication#saml_field_mapping}
   */
   readonly samlFieldMapping?: AccountAuthenticationSamlFieldMapping;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#timeouts AccountAuthentication#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#timeouts AccountAuthentication#timeouts}
   */
   readonly timeouts?: AccountAuthenticationTimeouts;
 }
@@ -103,31 +103,31 @@ export interface AccountAuthenticationSamlFieldMapping {
   /**
   * Field name for user email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#email AccountAuthentication#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#email AccountAuthentication#email}
   */
   readonly email?: string;
   /**
   * Field name for user's first name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#first_name AccountAuthentication#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#first_name AccountAuthentication#first_name}
   */
   readonly firstName?: string;
   /**
   * Field name for user's identity. This field must always exist in responses, and must be immutable and unique. Contents of this field are used to identify the user. Using user ID (such as unix user id) is highly recommended, as email address may change, requiring relinking user to Aiven user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#identity AccountAuthentication#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#identity AccountAuthentication#identity}
   */
   readonly identity?: string;
   /**
   * Field name for user's last name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#last_name AccountAuthentication#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#last_name AccountAuthentication#last_name}
   */
   readonly lastName?: string;
   /**
   * Field name for user's full name. If specified, first_name and last_name mappings are ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#real_name AccountAuthentication#real_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#real_name AccountAuthentication#real_name}
   */
   readonly realName?: string;
 }
@@ -327,23 +327,23 @@ export class AccountAuthenticationSamlFieldMappingOutputReference extends cdktf.
 }
 export interface AccountAuthenticationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#create AccountAuthentication#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#create AccountAuthentication#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#default AccountAuthentication#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#default AccountAuthentication#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#delete AccountAuthentication#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#delete AccountAuthentication#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#read AccountAuthentication#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#read AccountAuthentication#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#update AccountAuthentication#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#update AccountAuthentication#update}
   */
   readonly update?: string;
 }
@@ -553,7 +553,7 @@ export class AccountAuthenticationTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication aiven_account_authentication}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication aiven_account_authentication}
 */
 export class AccountAuthentication extends cdktf.TerraformResource {
 
@@ -569,7 +569,7 @@ export class AccountAuthentication extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountAuthentication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountAuthentication to import
-  * @param importFromId The id of the existing AccountAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountAuthentication that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountAuthentication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -581,7 +581,7 @@ export class AccountAuthentication extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/account_authentication aiven_account_authentication} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/account_authentication aiven_account_authentication} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -592,8 +592,8 @@ export class AccountAuthentication extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_account_authentication',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

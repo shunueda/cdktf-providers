@@ -1,3 +1,3 @@
 # `data_tencentcloud_cdh_instances`
 
-Refer to the Terraform Registry for docs: [`data_tencentcloud_cdh_instances`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/cdh_instances).
+Refer to the Terraform Registry for docs: [`data_tencentcloud_cdh_instances`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/cdh_instances).

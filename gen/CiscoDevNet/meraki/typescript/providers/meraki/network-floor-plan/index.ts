@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface NetworkFloorPlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Latitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#bottom_left_corner_lat NetworkFloorPlan#bottom_left_corner_lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#bottom_left_corner_lat NetworkFloorPlan#bottom_left_corner_lat}
   */
   readonly bottomLeftCornerLat?: number;
   /**
   * Longitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#bottom_left_corner_lng NetworkFloorPlan#bottom_left_corner_lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#bottom_left_corner_lng NetworkFloorPlan#bottom_left_corner_lng}
   */
   readonly bottomLeftCornerLng?: number;
   /**
   * Latitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#bottom_right_corner_lat NetworkFloorPlan#bottom_right_corner_lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#bottom_right_corner_lat NetworkFloorPlan#bottom_right_corner_lat}
   */
   readonly bottomRightCornerLat?: number;
   /**
   * Longitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#bottom_right_corner_lng NetworkFloorPlan#bottom_right_corner_lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#bottom_right_corner_lng NetworkFloorPlan#bottom_right_corner_lng}
   */
   readonly bottomRightCornerLng?: number;
   /**
   * Latitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#center_lat NetworkFloorPlan#center_lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#center_lat NetworkFloorPlan#center_lat}
   */
   readonly centerLat?: number;
   /**
   * Longitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#center_lng NetworkFloorPlan#center_lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#center_lng NetworkFloorPlan#center_lng}
   */
   readonly centerLng?: number;
   /**
   * The floor number of the floors within the building
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#floor_number NetworkFloorPlan#floor_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#floor_number NetworkFloorPlan#floor_number}
   */
   readonly floorNumber?: number;
   /**
   * The file contents (a base 64 encoded string) of your image. Supported formats are PNG, GIF, and JPG. Note that all images are saved as PNG files, regardless of the format they are uploaded in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#image_contents NetworkFloorPlan#image_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#image_contents NetworkFloorPlan#image_contents}
   */
   readonly imageContents: string;
   /**
   * The name of your floor plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#name NetworkFloorPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#name NetworkFloorPlan#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#network_id NetworkFloorPlan#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#network_id NetworkFloorPlan#network_id}
   */
   readonly networkId: string;
   /**
   * Latitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#top_left_corner_lat NetworkFloorPlan#top_left_corner_lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#top_left_corner_lat NetworkFloorPlan#top_left_corner_lat}
   */
   readonly topLeftCornerLat?: number;
   /**
   * Longitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#top_left_corner_lng NetworkFloorPlan#top_left_corner_lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#top_left_corner_lng NetworkFloorPlan#top_left_corner_lng}
   */
   readonly topLeftCornerLng?: number;
   /**
   * Latitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#top_right_corner_lat NetworkFloorPlan#top_right_corner_lat}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#top_right_corner_lat NetworkFloorPlan#top_right_corner_lat}
   */
   readonly topRightCornerLat?: number;
   /**
   * Longitude
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#top_right_corner_lng NetworkFloorPlan#top_right_corner_lng}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#top_right_corner_lng NetworkFloorPlan#top_right_corner_lng}
   */
   readonly topRightCornerLng?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan meraki_network_floor_plan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan meraki_network_floor_plan}
 */
 export class NetworkFloorPlan extends cdktf.TerraformResource {
 
@@ -110,7 +110,7 @@ export class NetworkFloorPlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkFloorPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkFloorPlan to import
-  * @param importFromId The id of the existing NetworkFloorPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkFloorPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkFloorPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class NetworkFloorPlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_floor_plan meraki_network_floor_plan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_floor_plan meraki_network_floor_plan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class NetworkFloorPlan extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_floor_plan',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

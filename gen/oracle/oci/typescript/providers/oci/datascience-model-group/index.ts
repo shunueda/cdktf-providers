@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,80 +8,80 @@ import * as cdktf from 'cdktf';
 
 export interface DatascienceModelGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#compartment_id DatascienceModelGroup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#compartment_id DatascienceModelGroup#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#create_type DatascienceModelGroup#create_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#create_type DatascienceModelGroup#create_type}
   */
   readonly createType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#defined_tags DatascienceModelGroup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#defined_tags DatascienceModelGroup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#display_name DatascienceModelGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#display_name DatascienceModelGroup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#freeform_tags DatascienceModelGroup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#freeform_tags DatascienceModelGroup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#id DatascienceModelGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#id DatascienceModelGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_group_version_history_id DatascienceModelGroup#model_group_version_history_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_group_version_history_id DatascienceModelGroup#model_group_version_history_id}
   */
   readonly modelGroupVersionHistoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#project_id DatascienceModelGroup#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#project_id DatascienceModelGroup#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#version_label DatascienceModelGroup#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#version_label DatascienceModelGroup#version_label}
   */
   readonly versionLabel?: string;
   /**
   * member_model_entries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#member_model_entries DatascienceModelGroup#member_model_entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#member_model_entries DatascienceModelGroup#member_model_entries}
   */
   readonly memberModelEntries?: DatascienceModelGroupMemberModelEntries;
   /**
   * model_group_clone_source_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_group_clone_source_details DatascienceModelGroup#model_group_clone_source_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_group_clone_source_details DatascienceModelGroup#model_group_clone_source_details}
   */
   readonly modelGroupCloneSourceDetails?: DatascienceModelGroupModelGroupCloneSourceDetails;
   /**
   * model_group_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_group_details DatascienceModelGroup#model_group_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_group_details DatascienceModelGroup#model_group_details}
   */
   readonly modelGroupDetails?: DatascienceModelGroupModelGroupDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#timeouts DatascienceModelGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#timeouts DatascienceModelGroup#timeouts}
   */
   readonly timeouts?: DatascienceModelGroupTimeouts;
 }
 export interface DatascienceModelGroupMemberModelEntriesMemberModelDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}
   */
   readonly inferenceKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}
   */
   readonly modelId?: string;
 }
@@ -228,7 +228,7 @@ export interface DatascienceModelGroupMemberModelEntries {
   /**
   * member_model_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#member_model_details DatascienceModelGroup#member_model_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#member_model_details DatascienceModelGroup#member_model_details}
   */
   readonly memberModelDetails?: DatascienceModelGroupMemberModelEntriesMemberModelDetails[] | cdktf.IResolvable;
 }
@@ -312,19 +312,19 @@ export class DatascienceModelGroupMemberModelEntriesOutputReference extends cdkt
 }
 export interface DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetailsCustomMetadataListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#category DatascienceModelGroup#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#category DatascienceModelGroup#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#key DatascienceModelGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#key DatascienceModelGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#value DatascienceModelGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#value DatascienceModelGroup#value}
   */
   readonly value?: string;
 }
@@ -527,17 +527,17 @@ export class DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDe
 }
 export interface DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}
   */
   readonly baseModelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}
   */
   readonly type: string;
   /**
   * custom_metadata_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
   */
   readonly customMetadataList?: DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetailsCustomMetadataListStruct[] | cdktf.IResolvable;
 }
@@ -676,33 +676,33 @@ export class DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDe
 }
 export interface DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#defined_tags DatascienceModelGroup#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#defined_tags DatascienceModelGroup#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#display_name DatascienceModelGroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#display_name DatascienceModelGroup#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#freeform_tags DatascienceModelGroup#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#freeform_tags DatascienceModelGroup#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_group_version_history_id DatascienceModelGroup#model_group_version_history_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_group_version_history_id DatascienceModelGroup#model_group_version_history_id}
   */
   readonly modelGroupVersionHistoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#version_label DatascienceModelGroup#version_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#version_label DatascienceModelGroup#version_label}
   */
   readonly versionLabel?: string;
   /**
   * model_group_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_group_details DatascienceModelGroup#model_group_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_group_details DatascienceModelGroup#model_group_details}
   */
   readonly modelGroupDetails?: DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetailsModelGroupDetails;
 }
@@ -960,11 +960,11 @@ export class DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDe
 }
 export interface DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItemsValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#inference_key DatascienceModelGroup#inference_key}
   */
   readonly inferenceKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_id DatascienceModelGroup#model_id}
   */
   readonly modelId: string;
 }
@@ -1106,13 +1106,13 @@ export class DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMem
 }
 export interface DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItems {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#operation DatascienceModelGroup#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#operation DatascienceModelGroup#operation}
   */
   readonly operation: string;
   /**
   * values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#values DatascienceModelGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#values DatascienceModelGroup#values}
   */
   readonly values: DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItemsValues[] | cdktf.IResolvable;
 }
@@ -1253,7 +1253,7 @@ export interface DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGrou
   /**
   * items block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#items DatascienceModelGroup#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#items DatascienceModelGroup#items}
   */
   readonly items?: DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetailsItems[] | cdktf.IResolvable;
 }
@@ -1337,23 +1337,23 @@ export class DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMem
 }
 export interface DatascienceModelGroupModelGroupCloneSourceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#model_group_clone_source_type DatascienceModelGroup#model_group_clone_source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#model_group_clone_source_type DatascienceModelGroup#model_group_clone_source_type}
   */
   readonly modelGroupCloneSourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#source_id DatascienceModelGroup#source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#source_id DatascienceModelGroup#source_id}
   */
   readonly sourceId: string;
   /**
   * modify_model_group_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#modify_model_group_details DatascienceModelGroup#modify_model_group_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#modify_model_group_details DatascienceModelGroup#modify_model_group_details}
   */
   readonly modifyModelGroupDetails?: DatascienceModelGroupModelGroupCloneSourceDetailsModifyModelGroupDetails;
   /**
   * patch_model_group_member_model_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#patch_model_group_member_model_details DatascienceModelGroup#patch_model_group_member_model_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#patch_model_group_member_model_details DatascienceModelGroup#patch_model_group_member_model_details}
   */
   readonly patchModelGroupMemberModelDetails?: DatascienceModelGroupModelGroupCloneSourceDetailsPatchModelGroupMemberModelDetails;
 }
@@ -1518,19 +1518,19 @@ export class DatascienceModelGroupModelGroupCloneSourceDetailsOutputReference ex
 }
 export interface DatascienceModelGroupModelGroupDetailsCustomMetadataListStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#category DatascienceModelGroup#category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#category DatascienceModelGroup#category}
   */
   readonly category?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#description DatascienceModelGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#key DatascienceModelGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#key DatascienceModelGroup#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#value DatascienceModelGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#value DatascienceModelGroup#value}
   */
   readonly value?: string;
 }
@@ -1733,17 +1733,17 @@ export class DatascienceModelGroupModelGroupDetailsCustomMetadataListStructList 
 }
 export interface DatascienceModelGroupModelGroupDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#base_model_id DatascienceModelGroup#base_model_id}
   */
   readonly baseModelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#type DatascienceModelGroup#type}
   */
   readonly type: string;
   /**
   * custom_metadata_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#custom_metadata_list DatascienceModelGroup#custom_metadata_list}
   */
   readonly customMetadataList?: DatascienceModelGroupModelGroupDetailsCustomMetadataListStruct[] | cdktf.IResolvable;
 }
@@ -1882,15 +1882,15 @@ export class DatascienceModelGroupModelGroupDetailsOutputReference extends cdktf
 }
 export interface DatascienceModelGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#create DatascienceModelGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#create DatascienceModelGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#delete DatascienceModelGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#delete DatascienceModelGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#update DatascienceModelGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#update DatascienceModelGroup#update}
   */
   readonly update?: string;
 }
@@ -2042,7 +2042,7 @@ export class DatascienceModelGroupTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group oci_datascience_model_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group oci_datascience_model_group}
 */
 export class DatascienceModelGroup extends cdktf.TerraformResource {
 
@@ -2058,7 +2058,7 @@ export class DatascienceModelGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatascienceModelGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatascienceModelGroup to import
-  * @param importFromId The id of the existing DatascienceModelGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatascienceModelGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatascienceModelGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2070,7 +2070,7 @@ export class DatascienceModelGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/datascience_model_group oci_datascience_model_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/datascience_model_group oci_datascience_model_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2081,8 +2081,8 @@ export class DatascienceModelGroup extends cdktf.TerraformResource {
       terraformResourceType: 'oci_datascience_model_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

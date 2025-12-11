@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_multicast_rendezvous_point
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_routing_multicast_rendezvous_point
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiSwitchRoutingMulticastRendezvousPointConfig extends c
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_multicast_rendezvous_point#id DataMerakiSwitchRoutingMulticastRendezvousPoint#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_routing_multicast_rendezvous_point#id DataMerakiSwitchRoutingMulticastRendezvousPoint#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataMerakiSwitchRoutingMulticastRendezvousPointConfig extends c
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_multicast_rendezvous_point#network_id DataMerakiSwitchRoutingMulticastRendezvousPoint#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_routing_multicast_rendezvous_point#network_id DataMerakiSwitchRoutingMulticastRendezvousPoint#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_multicast_rendezvous_point meraki_switch_routing_multicast_rendezvous_point}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_routing_multicast_rendezvous_point meraki_switch_routing_multicast_rendezvous_point}
 */
 export class DataMerakiSwitchRoutingMulticastRendezvousPoint extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMerakiSwitchRoutingMulticastRendezvousPoint extends cdktf.Terra
   * Generates CDKTF code for importing a DataMerakiSwitchRoutingMulticastRendezvousPoint resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiSwitchRoutingMulticastRendezvousPoint to import
-  * @param importFromId The id of the existing DataMerakiSwitchRoutingMulticastRendezvousPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_multicast_rendezvous_point#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiSwitchRoutingMulticastRendezvousPoint that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_routing_multicast_rendezvous_point#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiSwitchRoutingMulticastRendezvousPoint to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMerakiSwitchRoutingMulticastRendezvousPoint extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/switch_routing_multicast_rendezvous_point meraki_switch_routing_multicast_rendezvous_point} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/switch_routing_multicast_rendezvous_point meraki_switch_routing_multicast_rendezvous_point} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataMerakiSwitchRoutingMulticastRendezvousPoint extends cdktf.Terra
       terraformResourceType: 'meraki_switch_routing_multicast_rendezvous_point',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

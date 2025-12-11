@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceFirewallMulticastForwardingConfig extends cdktf.Terraf
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding#network_id ApplianceFirewallMulticastForwarding#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding#network_id ApplianceFirewallMulticastForwarding#network_id}
   */
   readonly networkId: string;
   /**
   * Static multicast forwarding rules. Pass an empty array to clear all rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding#rules ApplianceFirewallMulticastForwarding#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding#rules ApplianceFirewallMulticastForwarding#rules}
   */
   readonly rules: ApplianceFirewallMulticastForwardingRules[] | cdktf.IResolvable;
 }
@@ -24,19 +24,19 @@ export interface ApplianceFirewallMulticastForwardingRules {
   /**
   * IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding#address ApplianceFirewallMulticastForwarding#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding#address ApplianceFirewallMulticastForwarding#address}
   */
   readonly address: string;
   /**
   * Forwarding rule description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding#description ApplianceFirewallMulticastForwarding#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding#description ApplianceFirewallMulticastForwarding#description}
   */
   readonly description: string;
   /**
   * List of VLAN IDs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding#vlan_ids ApplianceFirewallMulticastForwarding#vlan_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding#vlan_ids ApplianceFirewallMulticastForwarding#vlan_ids}
   */
   readonly vlanIds: string[];
 }
@@ -201,7 +201,7 @@ export class ApplianceFirewallMulticastForwardingRulesList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding meraki_appliance_firewall_multicast_forwarding}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding meraki_appliance_firewall_multicast_forwarding}
 */
 export class ApplianceFirewallMulticastForwarding extends cdktf.TerraformResource {
 
@@ -217,7 +217,7 @@ export class ApplianceFirewallMulticastForwarding extends cdktf.TerraformResourc
   * Generates CDKTF code for importing a ApplianceFirewallMulticastForwarding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceFirewallMulticastForwarding to import
-  * @param importFromId The id of the existing ApplianceFirewallMulticastForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceFirewallMulticastForwarding that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceFirewallMulticastForwarding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -229,7 +229,7 @@ export class ApplianceFirewallMulticastForwarding extends cdktf.TerraformResourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewall_multicast_forwarding meraki_appliance_firewall_multicast_forwarding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewall_multicast_forwarding meraki_appliance_firewall_multicast_forwarding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -240,8 +240,8 @@ export class ApplianceFirewallMulticastForwarding extends cdktf.TerraformResourc
       terraformResourceType: 'meraki_appliance_firewall_multicast_forwarding',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

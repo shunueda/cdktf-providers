@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs
+// https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface TemporalProviderConfig {
   /**
   * Audience of the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#audience TemporalProvider#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#audience TemporalProvider#audience}
   */
   readonly audience?: string;
   /**
   * The OAuth2 Client ID for API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#client_id TemporalProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#client_id TemporalProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The OAuth2 Client Secret for API operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#client_secret TemporalProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#client_secret TemporalProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * The Temporal server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#host TemporalProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#host TemporalProvider#host}
   */
   readonly host?: string;
   /**
   * Use insecure connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#insecure TemporalProvider#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#insecure TemporalProvider#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * The Temporal server port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#port TemporalProvider#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#port TemporalProvider#port}
   */
   readonly port?: string;
   /**
   * Oauth2 server URL to fetch token from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#token_url TemporalProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#token_url TemporalProvider#token_url}
   */
   readonly tokenUrl?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#alias TemporalProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#alias TemporalProvider#alias}
   */
   readonly alias?: string;
   /**
   * tls block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#tls TemporalProvider#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#tls TemporalProvider#tls}
   */
   readonly tls?: TemporalProviderTls;
 }
@@ -66,31 +66,31 @@ export interface TemporalProviderTls {
   /**
   * CA certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#ca TemporalProvider#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#ca TemporalProvider#ca}
   */
   readonly ca?: string;
   /**
   * Client certificate PEM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#cert TemporalProvider#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#cert TemporalProvider#cert}
   */
   readonly cert?: string;
   /**
   * Certificate reload time
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#cert_reload_time TemporalProvider#cert_reload_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#cert_reload_time TemporalProvider#cert_reload_time}
   */
   readonly certReloadTime?: number;
   /**
   * Private key PEM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#key TemporalProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#key TemporalProvider#key}
   */
   readonly key?: string;
   /**
   * Used to verify the hostname and included in handshake
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#server_name TemporalProvider#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#server_name TemporalProvider#server_name}
   */
   readonly serverName?: string;
 }
@@ -154,7 +154,7 @@ export function temporalProviderTlsToHclTerraform(struct?: TemporalProviderTls |
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs temporal}
+* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs temporal}
 */
 export class TemporalProvider extends cdktf.TerraformProvider {
 
@@ -170,7 +170,7 @@ export class TemporalProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a TemporalProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TemporalProvider to import
-  * @param importFromId The id of the existing TemporalProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TemporalProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TemporalProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -182,7 +182,7 @@ export class TemporalProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs temporal} Resource
+  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs temporal} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -193,8 +193,8 @@ export class TemporalProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'temporal',
       terraformGeneratorMetadata: {
         providerName: 'temporal',
-        providerVersion: '0.14.0',
-        providerVersionConstraint: '0.14.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       terraformProviderSource: 'platacard/temporal'
     });

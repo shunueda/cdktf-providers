@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,60 +8,60 @@ import * as cdktf from 'cdktf';
 
 export interface DatabaseToolsDatabaseToolsIdentityConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#compartment_id DatabaseToolsDatabaseToolsIdentity#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#compartment_id DatabaseToolsDatabaseToolsIdentity#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#credential_key DatabaseToolsDatabaseToolsIdentity#credential_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#credential_key DatabaseToolsDatabaseToolsIdentity#credential_key}
   */
   readonly credentialKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#database_tools_connection_id DatabaseToolsDatabaseToolsIdentity#database_tools_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#database_tools_connection_id DatabaseToolsDatabaseToolsIdentity#database_tools_connection_id}
   */
   readonly databaseToolsConnectionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#defined_tags DatabaseToolsDatabaseToolsIdentity#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#defined_tags DatabaseToolsDatabaseToolsIdentity#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#display_name DatabaseToolsDatabaseToolsIdentity#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#display_name DatabaseToolsDatabaseToolsIdentity#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#freeform_tags DatabaseToolsDatabaseToolsIdentity#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#freeform_tags DatabaseToolsDatabaseToolsIdentity#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#id DatabaseToolsDatabaseToolsIdentity#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#id DatabaseToolsDatabaseToolsIdentity#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#type DatabaseToolsDatabaseToolsIdentity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#type DatabaseToolsDatabaseToolsIdentity#type}
   */
   readonly type: string;
   /**
   * locks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#locks DatabaseToolsDatabaseToolsIdentity#locks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#locks DatabaseToolsDatabaseToolsIdentity#locks}
   */
   readonly locks?: DatabaseToolsDatabaseToolsIdentityLocks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#timeouts DatabaseToolsDatabaseToolsIdentity#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#timeouts DatabaseToolsDatabaseToolsIdentity#timeouts}
   */
   readonly timeouts?: DatabaseToolsDatabaseToolsIdentityTimeouts;
 }
 export interface DatabaseToolsDatabaseToolsIdentityLocks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#message DatabaseToolsDatabaseToolsIdentity#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#message DatabaseToolsDatabaseToolsIdentity#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#type DatabaseToolsDatabaseToolsIdentity#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#type DatabaseToolsDatabaseToolsIdentity#type}
   */
   readonly type: string;
 }
@@ -213,15 +213,15 @@ export class DatabaseToolsDatabaseToolsIdentityLocksList extends cdktf.ComplexLi
 }
 export interface DatabaseToolsDatabaseToolsIdentityTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#create DatabaseToolsDatabaseToolsIdentity#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#create DatabaseToolsDatabaseToolsIdentity#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#delete DatabaseToolsDatabaseToolsIdentity#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#delete DatabaseToolsDatabaseToolsIdentity#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#update DatabaseToolsDatabaseToolsIdentity#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#update DatabaseToolsDatabaseToolsIdentity#update}
   */
   readonly update?: string;
 }
@@ -373,7 +373,7 @@ export class DatabaseToolsDatabaseToolsIdentityTimeoutsOutputReference extends c
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity oci_database_tools_database_tools_identity}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity oci_database_tools_database_tools_identity}
 */
 export class DatabaseToolsDatabaseToolsIdentity extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class DatabaseToolsDatabaseToolsIdentity extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a DatabaseToolsDatabaseToolsIdentity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabaseToolsDatabaseToolsIdentity to import
-  * @param importFromId The id of the existing DatabaseToolsDatabaseToolsIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabaseToolsDatabaseToolsIdentity that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabaseToolsDatabaseToolsIdentity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class DatabaseToolsDatabaseToolsIdentity extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/database_tools_database_tools_identity oci_database_tools_database_tools_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/database_tools_database_tools_identity oci_database_tools_database_tools_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class DatabaseToolsDatabaseToolsIdentity extends cdktf.TerraformResource 
       terraformResourceType: 'oci_database_tools_database_tools_identity',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

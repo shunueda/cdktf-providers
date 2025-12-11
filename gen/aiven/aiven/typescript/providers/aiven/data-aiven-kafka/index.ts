@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAivenKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka#id DataAivenKafka#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka#id DataAivenKafka#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataAivenKafkaConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka#project DataAivenKafka#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka#project DataAivenKafka#project}
   */
   readonly project: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka#service_name DataAivenKafka#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka#service_name DataAivenKafka#service_name}
   */
   readonly serviceName: string;
 }
@@ -2346,6 +2346,11 @@ export class DataAivenKafkaKafkaUserConfigOutputReference extends cdktf.ComplexO
     return this.getStringAttribute('kafka_version');
   }
 
+  // letsencrypt_sasl - computed: true, optional: false, required: false
+  public get letsencryptSasl() {
+    return this.getBooleanAttribute('letsencrypt_sasl');
+  }
+
   // letsencrypt_sasl_privatelink - computed: true, optional: false, required: false
   public get letsencryptSaslPrivatelink() {
     return this.getBooleanAttribute('letsencrypt_sasl_privatelink');
@@ -2367,6 +2372,11 @@ export class DataAivenKafkaKafkaUserConfigOutputReference extends cdktf.ComplexO
   private _publicAccess = new DataAivenKafkaKafkaUserConfigPublicAccessList(this, "public_access", false);
   public get publicAccess() {
     return this._publicAccess;
+  }
+
+  // sasl_oauthbearer_allowed_urls - computed: true, optional: false, required: false
+  public get saslOauthbearerAllowedUrls() {
+    return this.getListAttribute('sasl_oauthbearer_allowed_urls');
   }
 
   // schema_registry - computed: true, optional: false, required: false
@@ -2658,7 +2668,7 @@ export class DataAivenKafkaTechEmailsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka aiven_kafka}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka aiven_kafka}
 */
 export class DataAivenKafka extends cdktf.TerraformDataSource {
 
@@ -2674,7 +2684,7 @@ export class DataAivenKafka extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAivenKafka resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenKafka to import
-  * @param importFromId The id of the existing DataAivenKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenKafka that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenKafka to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2686,7 +2696,7 @@ export class DataAivenKafka extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/kafka aiven_kafka} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/kafka aiven_kafka} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2697,8 +2707,8 @@ export class DataAivenKafka extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_kafka',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

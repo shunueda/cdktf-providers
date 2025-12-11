@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataTencentcloudDcdbSlowLogsConfig extends cdktf.TerraformMetaA
   /**
   * Specific name of the database to be queried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#db DataTencentcloudDcdbSlowLogs#db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#db DataTencentcloudDcdbSlowLogs#db}
   */
   readonly db?: string;
   /**
   * Query end time in the format of 2016-08-22 14:55:20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#end_time DataTencentcloudDcdbSlowLogs#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#end_time DataTencentcloudDcdbSlowLogs#end_time}
   */
   readonly endTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#id DataTencentcloudDcdbSlowLogs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#id DataTencentcloudDcdbSlowLogs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,43 +29,43 @@ export interface DataTencentcloudDcdbSlowLogsConfig extends cdktf.TerraformMetaA
   /**
   * Instance ID in the format of `tdsqlshard-ow728lmc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#instance_id DataTencentcloudDcdbSlowLogs#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#instance_id DataTencentcloudDcdbSlowLogs#instance_id}
   */
   readonly instanceId: string;
   /**
   * Sorting metric. Valid values: query_time_sum, query_count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#order_by DataTencentcloudDcdbSlowLogs#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#order_by DataTencentcloudDcdbSlowLogs#order_by}
   */
   readonly orderBy?: string;
   /**
   * Sorting order. Valid values: desc, asc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#order_by_type DataTencentcloudDcdbSlowLogs#order_by_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#order_by_type DataTencentcloudDcdbSlowLogs#order_by_type}
   */
   readonly orderByType?: string;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#result_output_file DataTencentcloudDcdbSlowLogs#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#result_output_file DataTencentcloudDcdbSlowLogs#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * Instance shard ID in the format of `shard-rc754ljk`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#shard_id DataTencentcloudDcdbSlowLogs#shard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#shard_id DataTencentcloudDcdbSlowLogs#shard_id}
   */
   readonly shardId: string;
   /**
   * Query slow queries from either the primary or the replica. Valid values: 0 (primary), 1 (replica).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#slave DataTencentcloudDcdbSlowLogs#slave}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#slave DataTencentcloudDcdbSlowLogs#slave}
   */
   readonly slave?: number;
   /**
   * Query start time in the format of 2016-07-23 14:55:20.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#start_time DataTencentcloudDcdbSlowLogs#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#start_time DataTencentcloudDcdbSlowLogs#start_time}
   */
   readonly startTime: string;
 }
@@ -236,7 +236,7 @@ export class DataTencentcloudDcdbSlowLogsDataList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs tencentcloud_dcdb_slow_logs}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs tencentcloud_dcdb_slow_logs}
 */
 export class DataTencentcloudDcdbSlowLogs extends cdktf.TerraformDataSource {
 
@@ -252,7 +252,7 @@ export class DataTencentcloudDcdbSlowLogs extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudDcdbSlowLogs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudDcdbSlowLogs to import
-  * @param importFromId The id of the existing DataTencentcloudDcdbSlowLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudDcdbSlowLogs that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudDcdbSlowLogs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class DataTencentcloudDcdbSlowLogs extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/dcdb_slow_logs tencentcloud_dcdb_slow_logs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/dcdb_slow_logs tencentcloud_dcdb_slow_logs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class DataTencentcloudDcdbSlowLogs extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_dcdb_slow_logs',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

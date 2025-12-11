@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,108 +8,108 @@ import * as cdktf from 'cdktf';
 
 export interface ApmTracesScheduledQueryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#apm_domain_id ApmTracesScheduledQuery#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#apm_domain_id ApmTracesScheduledQuery#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#defined_tags ApmTracesScheduledQuery#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#defined_tags ApmTracesScheduledQuery#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#freeform_tags ApmTracesScheduledQuery#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#freeform_tags ApmTracesScheduledQuery#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#id ApmTracesScheduledQuery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#id ApmTracesScheduledQuery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#opc_dry_run ApmTracesScheduledQuery#opc_dry_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#opc_dry_run ApmTracesScheduledQuery#opc_dry_run}
   */
   readonly opcDryRun?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_description ApmTracesScheduledQuery#scheduled_query_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_description ApmTracesScheduledQuery#scheduled_query_description}
   */
   readonly scheduledQueryDescription?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_maximum_runtime_in_seconds ApmTracesScheduledQuery#scheduled_query_maximum_runtime_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_maximum_runtime_in_seconds ApmTracesScheduledQuery#scheduled_query_maximum_runtime_in_seconds}
   */
   readonly scheduledQueryMaximumRuntimeInSeconds?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_name ApmTracesScheduledQuery#scheduled_query_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_name ApmTracesScheduledQuery#scheduled_query_name}
   */
   readonly scheduledQueryName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_processing_sub_type ApmTracesScheduledQuery#scheduled_query_processing_sub_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_processing_sub_type ApmTracesScheduledQuery#scheduled_query_processing_sub_type}
   */
   readonly scheduledQueryProcessingSubType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_processing_type ApmTracesScheduledQuery#scheduled_query_processing_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_processing_type ApmTracesScheduledQuery#scheduled_query_processing_type}
   */
   readonly scheduledQueryProcessingType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_retention_criteria ApmTracesScheduledQuery#scheduled_query_retention_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_retention_criteria ApmTracesScheduledQuery#scheduled_query_retention_criteria}
   */
   readonly scheduledQueryRetentionCriteria?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_retention_period_in_ms ApmTracesScheduledQuery#scheduled_query_retention_period_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_retention_period_in_ms ApmTracesScheduledQuery#scheduled_query_retention_period_in_ms}
   */
   readonly scheduledQueryRetentionPeriodInMs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_schedule ApmTracesScheduledQuery#scheduled_query_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_schedule ApmTracesScheduledQuery#scheduled_query_schedule}
   */
   readonly scheduledQuerySchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_text ApmTracesScheduledQuery#scheduled_query_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_text ApmTracesScheduledQuery#scheduled_query_text}
   */
   readonly scheduledQueryText?: string;
   /**
   * scheduled_query_processing_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#scheduled_query_processing_configuration ApmTracesScheduledQuery#scheduled_query_processing_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#scheduled_query_processing_configuration ApmTracesScheduledQuery#scheduled_query_processing_configuration}
   */
   readonly scheduledQueryProcessingConfiguration?: ApmTracesScheduledQueryScheduledQueryProcessingConfiguration;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#timeouts ApmTracesScheduledQuery#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#timeouts ApmTracesScheduledQuery#timeouts}
   */
   readonly timeouts?: ApmTracesScheduledQueryTimeouts;
 }
 export interface ApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#compartment ApmTracesScheduledQuery#compartment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#compartment ApmTracesScheduledQuery#compartment}
   */
   readonly compartment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#description ApmTracesScheduledQuery#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#description ApmTracesScheduledQuery#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#is_anomaly_detection_enabled ApmTracesScheduledQuery#is_anomaly_detection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#is_anomaly_detection_enabled ApmTracesScheduledQuery#is_anomaly_detection_enabled}
   */
   readonly isAnomalyDetectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#is_metric_published ApmTracesScheduledQuery#is_metric_published}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#is_metric_published ApmTracesScheduledQuery#is_metric_published}
   */
   readonly isMetricPublished?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#name ApmTracesScheduledQuery#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#name ApmTracesScheduledQuery#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#namespace ApmTracesScheduledQuery#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#namespace ApmTracesScheduledQuery#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#resource_group ApmTracesScheduledQuery#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#resource_group ApmTracesScheduledQuery#resource_group}
   */
   readonly resourceGroup?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#unit ApmTracesScheduledQuery#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#unit ApmTracesScheduledQuery#unit}
   */
   readonly unit?: string;
 }
@@ -393,15 +393,15 @@ export class ApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomM
 }
 export interface ApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#bucket ApmTracesScheduledQuery#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#bucket ApmTracesScheduledQuery#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#name_space ApmTracesScheduledQuery#name_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#name_space ApmTracesScheduledQuery#name_space}
   */
   readonly nameSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#object_name_prefix ApmTracesScheduledQuery#object_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#object_name_prefix ApmTracesScheduledQuery#object_name_prefix}
   */
   readonly objectNamePrefix?: string;
 }
@@ -543,7 +543,7 @@ export class ApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectS
 }
 export interface ApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#stream_id ApmTracesScheduledQuery#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#stream_id ApmTracesScheduledQuery#stream_id}
   */
   readonly streamId?: string;
 }
@@ -629,19 +629,19 @@ export interface ApmTracesScheduledQueryScheduledQueryProcessingConfiguration {
   /**
   * custom_metric block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#custom_metric ApmTracesScheduledQuery#custom_metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#custom_metric ApmTracesScheduledQuery#custom_metric}
   */
   readonly customMetric?: ApmTracesScheduledQueryScheduledQueryProcessingConfigurationCustomMetric;
   /**
   * object_storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#object_storage ApmTracesScheduledQuery#object_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#object_storage ApmTracesScheduledQuery#object_storage}
   */
   readonly objectStorage?: ApmTracesScheduledQueryScheduledQueryProcessingConfigurationObjectStorage;
   /**
   * streaming block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#streaming ApmTracesScheduledQuery#streaming}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#streaming ApmTracesScheduledQuery#streaming}
   */
   readonly streaming?: ApmTracesScheduledQueryScheduledQueryProcessingConfigurationStreaming;
 }
@@ -783,15 +783,15 @@ export class ApmTracesScheduledQueryScheduledQueryProcessingConfigurationOutputR
 }
 export interface ApmTracesScheduledQueryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#create ApmTracesScheduledQuery#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#create ApmTracesScheduledQuery#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#delete ApmTracesScheduledQuery#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#delete ApmTracesScheduledQuery#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#update ApmTracesScheduledQuery#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#update ApmTracesScheduledQuery#update}
   */
   readonly update?: string;
 }
@@ -943,7 +943,7 @@ export class ApmTracesScheduledQueryTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query oci_apm_traces_scheduled_query}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query oci_apm_traces_scheduled_query}
 */
 export class ApmTracesScheduledQuery extends cdktf.TerraformResource {
 
@@ -959,7 +959,7 @@ export class ApmTracesScheduledQuery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApmTracesScheduledQuery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApmTracesScheduledQuery to import
-  * @param importFromId The id of the existing ApmTracesScheduledQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApmTracesScheduledQuery that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApmTracesScheduledQuery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -971,7 +971,7 @@ export class ApmTracesScheduledQuery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/apm_traces_scheduled_query oci_apm_traces_scheduled_query} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/apm_traces_scheduled_query oci_apm_traces_scheduled_query} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -982,8 +982,8 @@ export class ApmTracesScheduledQuery extends cdktf.TerraformResource {
       terraformResourceType: 'oci_apm_traces_scheduled_query',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

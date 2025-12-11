@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,38 +8,38 @@ import * as cdktf from 'cdktf';
 
 export interface LogAnalyticsNamespaceStorageEnableDisableArchivingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#enable_archiving_tenant LogAnalyticsNamespaceStorageEnableDisableArchiving#enable_archiving_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#enable_archiving_tenant LogAnalyticsNamespaceStorageEnableDisableArchiving#enable_archiving_tenant}
   */
   readonly enableArchivingTenant: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#id LogAnalyticsNamespaceStorageEnableDisableArchiving#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#id LogAnalyticsNamespaceStorageEnableDisableArchiving#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#namespace LogAnalyticsNamespaceStorageEnableDisableArchiving#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#namespace LogAnalyticsNamespaceStorageEnableDisableArchiving#namespace}
   */
   readonly namespace: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#timeouts LogAnalyticsNamespaceStorageEnableDisableArchiving#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#timeouts LogAnalyticsNamespaceStorageEnableDisableArchiving#timeouts}
   */
   readonly timeouts?: LogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts;
 }
 export interface LogAnalyticsNamespaceStorageEnableDisableArchivingTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#create LogAnalyticsNamespaceStorageEnableDisableArchiving#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#create LogAnalyticsNamespaceStorageEnableDisableArchiving#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#delete LogAnalyticsNamespaceStorageEnableDisableArchiving#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#delete LogAnalyticsNamespaceStorageEnableDisableArchiving#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#update LogAnalyticsNamespaceStorageEnableDisableArchiving#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#update LogAnalyticsNamespaceStorageEnableDisableArchiving#update}
   */
   readonly update?: string;
 }
@@ -191,7 +191,7 @@ export class LogAnalyticsNamespaceStorageEnableDisableArchivingTimeoutsOutputRef
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving oci_log_analytics_namespace_storage_enable_disable_archiving}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving oci_log_analytics_namespace_storage_enable_disable_archiving}
 */
 export class LogAnalyticsNamespaceStorageEnableDisableArchiving extends cdktf.TerraformResource {
 
@@ -207,7 +207,7 @@ export class LogAnalyticsNamespaceStorageEnableDisableArchiving extends cdktf.Te
   * Generates CDKTF code for importing a LogAnalyticsNamespaceStorageEnableDisableArchiving resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAnalyticsNamespaceStorageEnableDisableArchiving to import
-  * @param importFromId The id of the existing LogAnalyticsNamespaceStorageEnableDisableArchiving that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAnalyticsNamespaceStorageEnableDisableArchiving that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAnalyticsNamespaceStorageEnableDisableArchiving to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -219,7 +219,7 @@ export class LogAnalyticsNamespaceStorageEnableDisableArchiving extends cdktf.Te
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving oci_log_analytics_namespace_storage_enable_disable_archiving} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/log_analytics_namespace_storage_enable_disable_archiving oci_log_analytics_namespace_storage_enable_disable_archiving} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -230,8 +230,8 @@ export class LogAnalyticsNamespaceStorageEnableDisableArchiving extends cdktf.Te
       terraformResourceType: 'oci_log_analytics_namespace_storage_enable_disable_archiving',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,20 +10,20 @@ export interface NetworkTrafficAnalysisConfig extends cdktf.TerraformMetaArgumen
   /**
   * The list of items that make up the custom pie chart for traffic reporting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#custom_pie_chart_items NetworkTrafficAnalysis#custom_pie_chart_items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#custom_pie_chart_items NetworkTrafficAnalysis#custom_pie_chart_items}
   */
   readonly customPieChartItems?: NetworkTrafficAnalysisCustomPieChartItems[] | cdktf.IResolvable;
   /**
   * The traffic analysis mode for the network. Can be one of `disabled` (do not collect traffic types), `basic` (collect generic traffic categories), or `detailed` (collect destination hostnames).
   *   - Choices: `basic`, `detailed`, `disabled`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#mode NetworkTrafficAnalysis#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#mode NetworkTrafficAnalysis#mode}
   */
   readonly mode?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#network_id NetworkTrafficAnalysis#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#network_id NetworkTrafficAnalysis#network_id}
   */
   readonly networkId: string;
 }
@@ -31,20 +31,20 @@ export interface NetworkTrafficAnalysisCustomPieChartItems {
   /**
   * The name of the custom pie chart item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#name NetworkTrafficAnalysis#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#name NetworkTrafficAnalysis#name}
   */
   readonly name: string;
   /**
   * The signature type for the custom pie chart item. Can be one of `host`, `port` or `ipRange`.
   *   - Choices: `host`, `ipRange`, `port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#type NetworkTrafficAnalysis#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#type NetworkTrafficAnalysis#type}
   */
   readonly type: string;
   /**
   * The value of the custom pie chart item. Valid syntax depends on the signature type of the chart item (see sample request/response for more details).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#value NetworkTrafficAnalysis#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#value NetworkTrafficAnalysis#value}
   */
   readonly value: string;
 }
@@ -209,7 +209,7 @@ export class NetworkTrafficAnalysisCustomPieChartItemsList extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis meraki_network_traffic_analysis}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis meraki_network_traffic_analysis}
 */
 export class NetworkTrafficAnalysis extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class NetworkTrafficAnalysis extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkTrafficAnalysis resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkTrafficAnalysis to import
-  * @param importFromId The id of the existing NetworkTrafficAnalysis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkTrafficAnalysis that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkTrafficAnalysis to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class NetworkTrafficAnalysis extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_traffic_analysis meraki_network_traffic_analysis} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_traffic_analysis meraki_network_traffic_analysis} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class NetworkTrafficAnalysis extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_traffic_analysis',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

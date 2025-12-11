@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_channel
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_channel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMysqlChannelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_channel#channel_id DataOciMysqlChannel#channel_id}
   */
   readonly channelId: string;
 }
@@ -482,7 +482,7 @@ export class DataOciMysqlChannelTargetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_channel oci_mysql_channel}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_channel oci_mysql_channel}
 */
 export class DataOciMysqlChannel extends cdktf.TerraformDataSource {
 
@@ -498,7 +498,7 @@ export class DataOciMysqlChannel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMysqlChannel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMysqlChannel to import
-  * @param importFromId The id of the existing DataOciMysqlChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_channel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMysqlChannel that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_channel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMysqlChannel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -510,7 +510,7 @@ export class DataOciMysqlChannel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/mysql_channel oci_mysql_channel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/mysql_channel oci_mysql_channel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -521,8 +521,8 @@ export class DataOciMysqlChannel extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_mysql_channel',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

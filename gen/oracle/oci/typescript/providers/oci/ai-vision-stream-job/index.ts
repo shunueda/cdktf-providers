@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,82 +8,82 @@ import * as cdktf from 'cdktf';
 
 export interface AiVisionStreamJobConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#compartment_id AiVisionStreamJob#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#compartment_id AiVisionStreamJob#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#defined_tags AiVisionStreamJob#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#defined_tags AiVisionStreamJob#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#display_name AiVisionStreamJob#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#display_name AiVisionStreamJob#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#freeform_tags AiVisionStreamJob#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#freeform_tags AiVisionStreamJob#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#id AiVisionStreamJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#id AiVisionStreamJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#state AiVisionStreamJob#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#state AiVisionStreamJob#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#stream_source_id AiVisionStreamJob#stream_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#stream_source_id AiVisionStreamJob#stream_source_id}
   */
   readonly streamSourceId: string;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#features AiVisionStreamJob#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#features AiVisionStreamJob#features}
   */
   readonly features: AiVisionStreamJobFeatures[] | cdktf.IResolvable;
   /**
   * stream_output_location block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#stream_output_location AiVisionStreamJob#stream_output_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#stream_output_location AiVisionStreamJob#stream_output_location}
   */
   readonly streamOutputLocation: AiVisionStreamJobStreamOutputLocation;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#timeouts AiVisionStreamJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#timeouts AiVisionStreamJob#timeouts}
   */
   readonly timeouts?: AiVisionStreamJobTimeouts;
 }
 export interface AiVisionStreamJobFeaturesTrackingTypes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#biometric_store_compartment_id AiVisionStreamJob#biometric_store_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#biometric_store_compartment_id AiVisionStreamJob#biometric_store_compartment_id}
   */
   readonly biometricStoreCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#biometric_store_id AiVisionStreamJob#biometric_store_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#biometric_store_id AiVisionStreamJob#biometric_store_id}
   */
   readonly biometricStoreId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#detection_model_id AiVisionStreamJob#detection_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#detection_model_id AiVisionStreamJob#detection_model_id}
   */
   readonly detectionModelId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#objects AiVisionStreamJob#objects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#objects AiVisionStreamJob#objects}
   */
   readonly objects?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}
   */
   readonly shouldReturnLandmarks?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#tracking_model_id AiVisionStreamJob#tracking_model_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#tracking_model_id AiVisionStreamJob#tracking_model_id}
   */
   readonly trackingModelId?: string;
 }
@@ -373,21 +373,21 @@ export class AiVisionStreamJobFeaturesTrackingTypesList extends cdktf.ComplexLis
 }
 export interface AiVisionStreamJobFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#feature_type AiVisionStreamJob#feature_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#feature_type AiVisionStreamJob#feature_type}
   */
   readonly featureType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#max_results AiVisionStreamJob#max_results}
   */
   readonly maxResults?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#should_return_landmarks AiVisionStreamJob#should_return_landmarks}
   */
   readonly shouldReturnLandmarks?: boolean | cdktf.IResolvable;
   /**
   * tracking_types block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#tracking_types AiVisionStreamJob#tracking_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#tracking_types AiVisionStreamJob#tracking_types}
   */
   readonly trackingTypes?: AiVisionStreamJobFeaturesTrackingTypes[] | cdktf.IResolvable;
 }
@@ -587,23 +587,23 @@ export class AiVisionStreamJobFeaturesList extends cdktf.ComplexList {
 }
 export interface AiVisionStreamJobStreamOutputLocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#bucket AiVisionStreamJob#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#namespace AiVisionStreamJob#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#obo_token AiVisionStreamJob#obo_token}
   */
   readonly oboToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#output_location_type AiVisionStreamJob#output_location_type}
   */
   readonly outputLocationType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#prefix AiVisionStreamJob#prefix}
   */
   readonly prefix: string;
 }
@@ -791,15 +791,15 @@ export class AiVisionStreamJobStreamOutputLocationOutputReference extends cdktf.
 }
 export interface AiVisionStreamJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#create AiVisionStreamJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#create AiVisionStreamJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#delete AiVisionStreamJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#delete AiVisionStreamJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#update AiVisionStreamJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#update AiVisionStreamJob#update}
   */
   readonly update?: string;
 }
@@ -951,7 +951,7 @@ export class AiVisionStreamJobTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job oci_ai_vision_stream_job}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job oci_ai_vision_stream_job}
 */
 export class AiVisionStreamJob extends cdktf.TerraformResource {
 
@@ -967,7 +967,7 @@ export class AiVisionStreamJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AiVisionStreamJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AiVisionStreamJob to import
-  * @param importFromId The id of the existing AiVisionStreamJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AiVisionStreamJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AiVisionStreamJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -979,7 +979,7 @@ export class AiVisionStreamJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/ai_vision_stream_job oci_ai_vision_stream_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/ai_vision_stream_job oci_ai_vision_stream_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -990,8 +990,8 @@ export class AiVisionStreamJob extends cdktf.TerraformResource {
       terraformResourceType: 'oci_ai_vision_stream_job',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

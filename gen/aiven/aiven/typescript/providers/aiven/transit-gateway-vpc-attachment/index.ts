@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface TransitGatewayVpcAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#id TransitGatewayVpcAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#id TransitGatewayVpcAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,59 +17,59 @@ export interface TransitGatewayVpcAttachmentConfig extends cdktf.TerraformMetaAr
   /**
   * AWS account ID or GCP project ID of the peered VPC. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#peer_cloud_account TransitGatewayVpcAttachment#peer_cloud_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#peer_cloud_account TransitGatewayVpcAttachment#peer_cloud_account}
   */
   readonly peerCloudAccount: string;
   /**
   * AWS region of the peered VPC (if not in the same region as Aiven VPC). This value can't be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#peer_region TransitGatewayVpcAttachment#peer_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#peer_region TransitGatewayVpcAttachment#peer_region}
   */
   readonly peerRegion?: string;
   /**
   * Transit gateway ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#peer_vpc TransitGatewayVpcAttachment#peer_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#peer_vpc TransitGatewayVpcAttachment#peer_vpc}
   */
   readonly peerVpc: string;
   /**
   * List of private IPv4 ranges to route through the peering connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#user_peer_network_cidrs TransitGatewayVpcAttachment#user_peer_network_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#user_peer_network_cidrs TransitGatewayVpcAttachment#user_peer_network_cidrs}
   */
   readonly userPeerNetworkCidrs: string[];
   /**
   * The VPC the peering connection belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#vpc_id TransitGatewayVpcAttachment#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#vpc_id TransitGatewayVpcAttachment#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#timeouts TransitGatewayVpcAttachment#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#timeouts TransitGatewayVpcAttachment#timeouts}
   */
   readonly timeouts?: TransitGatewayVpcAttachmentTimeouts;
 }
 export interface TransitGatewayVpcAttachmentTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#create TransitGatewayVpcAttachment#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#create TransitGatewayVpcAttachment#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#default TransitGatewayVpcAttachment#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#default TransitGatewayVpcAttachment#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#delete TransitGatewayVpcAttachment#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#delete TransitGatewayVpcAttachment#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#read TransitGatewayVpcAttachment#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#read TransitGatewayVpcAttachment#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#update TransitGatewayVpcAttachment#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#update TransitGatewayVpcAttachment#update}
   */
   readonly update?: string;
 }
@@ -279,7 +279,7 @@ export class TransitGatewayVpcAttachmentTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment aiven_transit_gateway_vpc_attachment}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment aiven_transit_gateway_vpc_attachment}
 */
 export class TransitGatewayVpcAttachment extends cdktf.TerraformResource {
 
@@ -295,7 +295,7 @@ export class TransitGatewayVpcAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TransitGatewayVpcAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TransitGatewayVpcAttachment to import
-  * @param importFromId The id of the existing TransitGatewayVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TransitGatewayVpcAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TransitGatewayVpcAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -307,7 +307,7 @@ export class TransitGatewayVpcAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/transit_gateway_vpc_attachment aiven_transit_gateway_vpc_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/transit_gateway_vpc_attachment aiven_transit_gateway_vpc_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -318,8 +318,8 @@ export class TransitGatewayVpcAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_transit_gateway_vpc_attachment',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

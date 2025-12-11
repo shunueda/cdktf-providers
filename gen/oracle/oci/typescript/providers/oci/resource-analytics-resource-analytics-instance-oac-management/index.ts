@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface ResourceAnalyticsResourceAnalyticsInstanceOacManagementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_type ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_type}
   */
   readonly attachmentType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#enable_oac ResourceAnalyticsResourceAnalyticsInstanceOacManagement#enable_oac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#enable_oac ResourceAnalyticsResourceAnalyticsInstanceOacManagement#enable_oac}
   */
   readonly enableOac: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#resource_analytics_instance_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#resource_analytics_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#resource_analytics_instance_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#resource_analytics_instance_id}
   */
   readonly resourceAnalyticsInstanceId: string;
   /**
   * attachment_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#attachment_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#attachment_details}
   */
   readonly attachmentDetails?: ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#timeouts ResourceAnalyticsResourceAnalyticsInstanceOacManagement#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#timeouts ResourceAnalyticsResourceAnalyticsInstanceOacManagement#timeouts}
   */
   readonly timeouts?: ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts;
 }
 export interface ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetailsNetworkDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}
   */
   readonly subnetId?: string;
 }
@@ -158,25 +158,25 @@ export class ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDe
 }
 export interface ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#idcs_domain_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#idcs_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#idcs_domain_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#idcs_domain_id}
   */
   readonly idcsDomainId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#license_model ResourceAnalyticsResourceAnalyticsInstanceOacManagement#license_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#license_model ResourceAnalyticsResourceAnalyticsInstanceOacManagement#license_model}
   */
   readonly licenseModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#nsg_ids ResourceAnalyticsResourceAnalyticsInstanceOacManagement#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#subnet_id ResourceAnalyticsResourceAnalyticsInstanceOacManagement#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * network_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#network_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#network_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#network_details ResourceAnalyticsResourceAnalyticsInstanceOacManagement#network_details}
   */
   readonly networkDetails?: ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDetailsNetworkDetails;
 }
@@ -376,19 +376,19 @@ export class ResourceAnalyticsResourceAnalyticsInstanceOacManagementAttachmentDe
 }
 export interface ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#create ResourceAnalyticsResourceAnalyticsInstanceOacManagement#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#create ResourceAnalyticsResourceAnalyticsInstanceOacManagement#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#delete ResourceAnalyticsResourceAnalyticsInstanceOacManagement#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#delete ResourceAnalyticsResourceAnalyticsInstanceOacManagement#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#read ResourceAnalyticsResourceAnalyticsInstanceOacManagement#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#read ResourceAnalyticsResourceAnalyticsInstanceOacManagement#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#update ResourceAnalyticsResourceAnalyticsInstanceOacManagement#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#update ResourceAnalyticsResourceAnalyticsInstanceOacManagement#update}
   */
   readonly update?: string;
 }
@@ -569,7 +569,7 @@ export class ResourceAnalyticsResourceAnalyticsInstanceOacManagementTimeoutsOutp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management oci_resource_analytics_resource_analytics_instance_oac_management}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management oci_resource_analytics_resource_analytics_instance_oac_management}
 */
 export class ResourceAnalyticsResourceAnalyticsInstanceOacManagement extends cdktf.TerraformResource {
 
@@ -585,7 +585,7 @@ export class ResourceAnalyticsResourceAnalyticsInstanceOacManagement extends cdk
   * Generates CDKTF code for importing a ResourceAnalyticsResourceAnalyticsInstanceOacManagement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceAnalyticsResourceAnalyticsInstanceOacManagement to import
-  * @param importFromId The id of the existing ResourceAnalyticsResourceAnalyticsInstanceOacManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceAnalyticsResourceAnalyticsInstanceOacManagement that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceAnalyticsResourceAnalyticsInstanceOacManagement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -597,7 +597,7 @@ export class ResourceAnalyticsResourceAnalyticsInstanceOacManagement extends cdk
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management oci_resource_analytics_resource_analytics_instance_oac_management} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/resource_analytics_resource_analytics_instance_oac_management oci_resource_analytics_resource_analytics_instance_oac_management} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -608,8 +608,8 @@ export class ResourceAnalyticsResourceAnalyticsInstanceOacManagement extends cdk
       terraformResourceType: 'oci_resource_analytics_resource_analytics_instance_oac_management',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

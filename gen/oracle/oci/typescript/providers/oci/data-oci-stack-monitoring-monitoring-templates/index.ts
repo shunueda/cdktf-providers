@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciStackMonitoringMonitoringTemplatesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#compartment_id DataOciStackMonitoringMonitoringTemplates#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#compartment_id DataOciStackMonitoringMonitoringTemplates#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#display_name DataOciStackMonitoringMonitoringTemplates#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#display_name DataOciStackMonitoringMonitoringTemplates#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#id DataOciStackMonitoringMonitoringTemplates#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#id DataOciStackMonitoringMonitoringTemplates#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#metric_name DataOciStackMonitoringMonitoringTemplates#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#metric_name DataOciStackMonitoringMonitoringTemplates#metric_name}
   */
   readonly metricName?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#monitoring_template_id DataOciStackMonitoringMonitoringTemplates#monitoring_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#monitoring_template_id DataOciStackMonitoringMonitoringTemplates#monitoring_template_id}
   */
   readonly monitoringTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#namespace DataOciStackMonitoringMonitoringTemplates#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#namespace DataOciStackMonitoringMonitoringTemplates#namespace}
   */
   readonly namespace?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#resource_types DataOciStackMonitoringMonitoringTemplates#resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#resource_types DataOciStackMonitoringMonitoringTemplates#resource_types}
   */
   readonly resourceTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#state DataOciStackMonitoringMonitoringTemplates#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#state DataOciStackMonitoringMonitoringTemplates#state}
   */
   readonly state?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#status DataOciStackMonitoringMonitoringTemplates#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#status DataOciStackMonitoringMonitoringTemplates#status}
   */
   readonly status?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#filter DataOciStackMonitoringMonitoringTemplates#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#filter DataOciStackMonitoringMonitoringTemplates#filter}
   */
   readonly filter?: DataOciStackMonitoringMonitoringTemplatesFilter[] | cdktf.IResolvable;
 }
@@ -390,15 +390,15 @@ export class DataOciStackMonitoringMonitoringTemplatesMonitoringTemplateCollecti
 }
 export interface DataOciStackMonitoringMonitoringTemplatesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#name DataOciStackMonitoringMonitoringTemplates#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#name DataOciStackMonitoringMonitoringTemplates#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#regex DataOciStackMonitoringMonitoringTemplates#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#regex DataOciStackMonitoringMonitoringTemplates#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#values DataOciStackMonitoringMonitoringTemplates#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#values DataOciStackMonitoringMonitoringTemplates#values}
   */
   readonly values: string[];
 }
@@ -566,7 +566,7 @@ export class DataOciStackMonitoringMonitoringTemplatesFilterList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates oci_stack_monitoring_monitoring_templates}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates oci_stack_monitoring_monitoring_templates}
 */
 export class DataOciStackMonitoringMonitoringTemplates extends cdktf.TerraformDataSource {
 
@@ -582,7 +582,7 @@ export class DataOciStackMonitoringMonitoringTemplates extends cdktf.TerraformDa
   * Generates CDKTF code for importing a DataOciStackMonitoringMonitoringTemplates resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciStackMonitoringMonitoringTemplates to import
-  * @param importFromId The id of the existing DataOciStackMonitoringMonitoringTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciStackMonitoringMonitoringTemplates that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciStackMonitoringMonitoringTemplates to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -594,7 +594,7 @@ export class DataOciStackMonitoringMonitoringTemplates extends cdktf.TerraformDa
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/stack_monitoring_monitoring_templates oci_stack_monitoring_monitoring_templates} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/stack_monitoring_monitoring_templates oci_stack_monitoring_monitoring_templates} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -605,8 +605,8 @@ export class DataOciStackMonitoringMonitoringTemplates extends cdktf.TerraformDa
       terraformResourceType: 'oci_stack_monitoring_monitoring_templates',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

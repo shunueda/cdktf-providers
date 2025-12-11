@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface MirrormakerReplicationFlowConfig extends cdktf.TerraformMetaArg
   /**
   * List of topic configuration properties and regular expressions to not replicate. The properties that are not replicated by default are: `follower.replication.throttled.replicas`, `leader.replication.throttled.replicas`, `message.timestamp.difference.max.ms`, `message.timestamp.type`, `unclean.leader.election.enable`, and `min.insync.replicas`. Setting this overrides the defaults. For example, to enable replication for 'min.insync.replicas' and 'unclean.leader.election.enable' set this to: ["follower\\\\.replication\\\\.throttled\\\\.replicas", "leader\\\\.replication\\\\.throttled\\\\.replicas", "message\\\\.timestamp\\\\.difference\\\\.max\\\\.ms",  "message\\\\.timestamp\\\\.type"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#config_properties_exclude MirrormakerReplicationFlow#config_properties_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#config_properties_exclude MirrormakerReplicationFlow#config_properties_exclude}
   */
   readonly configPropertiesExclude?: string[];
   /**
   * Enables emitting heartbeats to the direction opposite to the flow, i.e. to the source cluster. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#emit_backward_heartbeats_enabled MirrormakerReplicationFlow#emit_backward_heartbeats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#emit_backward_heartbeats_enabled MirrormakerReplicationFlow#emit_backward_heartbeats_enabled}
   */
   readonly emitBackwardHeartbeatsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables emitting heartbeats to the target cluster. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#emit_heartbeats_enabled MirrormakerReplicationFlow#emit_heartbeats_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#emit_heartbeats_enabled MirrormakerReplicationFlow#emit_heartbeats_enabled}
   */
   readonly emitHeartbeatsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enables replication flow for a service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#enable MirrormakerReplicationFlow#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#enable MirrormakerReplicationFlow#enable}
   */
   readonly enable: boolean | cdktf.IResolvable;
   /**
   * Enables exactly-once message delivery. Set this to `enabled` for new replications. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#exactly_once_delivery_enabled MirrormakerReplicationFlow#exactly_once_delivery_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#exactly_once_delivery_enabled MirrormakerReplicationFlow#exactly_once_delivery_enabled}
   */
   readonly exactlyOnceDeliveryEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#id MirrormakerReplicationFlow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#id MirrormakerReplicationFlow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,95 +47,95 @@ export interface MirrormakerReplicationFlowConfig extends cdktf.TerraformMetaArg
   /**
   * Offset syncs topic location. The possible values are `source` and `target`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#offset_syncs_topic_location MirrormakerReplicationFlow#offset_syncs_topic_location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#offset_syncs_topic_location MirrormakerReplicationFlow#offset_syncs_topic_location}
   */
   readonly offsetSyncsTopicLocation: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#project MirrormakerReplicationFlow#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#project MirrormakerReplicationFlow#project}
   */
   readonly project: string;
   /**
   * Replication factor, `>= 1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#replication_factor MirrormakerReplicationFlow#replication_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#replication_factor MirrormakerReplicationFlow#replication_factor}
   */
   readonly replicationFactor?: number;
   /**
   * Replication policy class. The possible values are `org.apache.kafka.connect.mirror.DefaultReplicationPolicy` and `org.apache.kafka.connect.mirror.IdentityReplicationPolicy`. The default value is `org.apache.kafka.connect.mirror.DefaultReplicationPolicy`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#replication_policy_class MirrormakerReplicationFlow#replication_policy_class}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#replication_policy_class MirrormakerReplicationFlow#replication_policy_class}
   */
   readonly replicationPolicyClass: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#service_name MirrormakerReplicationFlow#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#service_name MirrormakerReplicationFlow#service_name}
   */
   readonly serviceName: string;
   /**
   * Source cluster alias. Maximum length: `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#source_cluster MirrormakerReplicationFlow#source_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#source_cluster MirrormakerReplicationFlow#source_cluster}
   */
   readonly sourceCluster: string;
   /**
   * Sync consumer group offsets. The default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#sync_group_offsets_enabled MirrormakerReplicationFlow#sync_group_offsets_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#sync_group_offsets_enabled MirrormakerReplicationFlow#sync_group_offsets_enabled}
   */
   readonly syncGroupOffsetsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Frequency of consumer group offset sync. The default value is `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#sync_group_offsets_interval_seconds MirrormakerReplicationFlow#sync_group_offsets_interval_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#sync_group_offsets_interval_seconds MirrormakerReplicationFlow#sync_group_offsets_interval_seconds}
   */
   readonly syncGroupOffsetsIntervalSeconds?: number;
   /**
   * Target cluster alias. Maximum length: `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#target_cluster MirrormakerReplicationFlow#target_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#target_cluster MirrormakerReplicationFlow#target_cluster}
   */
   readonly targetCluster: string;
   /**
   * The topics to include in the replica defined by a [list of regular expressions in Java format](https://aiven.io/docs/products/kafka/kafka-mirrormaker/concepts/replication-flow-topics-regex).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#topics MirrormakerReplicationFlow#topics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#topics MirrormakerReplicationFlow#topics}
   */
   readonly topics?: string[];
   /**
   * The topics to exclude from the replica defined by a [list of regular expressions in Java format](https://aiven.io/docs/products/kafka/kafka-mirrormaker/concepts/replication-flow-topics-regex).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#topics_blacklist MirrormakerReplicationFlow#topics_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#topics_blacklist MirrormakerReplicationFlow#topics_blacklist}
   */
   readonly topicsBlacklist?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#timeouts MirrormakerReplicationFlow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#timeouts MirrormakerReplicationFlow#timeouts}
   */
   readonly timeouts?: MirrormakerReplicationFlowTimeouts;
 }
 export interface MirrormakerReplicationFlowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#create MirrormakerReplicationFlow#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#create MirrormakerReplicationFlow#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#default MirrormakerReplicationFlow#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#default MirrormakerReplicationFlow#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#delete MirrormakerReplicationFlow#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#delete MirrormakerReplicationFlow#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#read MirrormakerReplicationFlow#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#read MirrormakerReplicationFlow#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#update MirrormakerReplicationFlow#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#update MirrormakerReplicationFlow#update}
   */
   readonly update?: string;
 }
@@ -345,7 +345,7 @@ export class MirrormakerReplicationFlowTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow aiven_mirrormaker_replication_flow}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow aiven_mirrormaker_replication_flow}
 */
 export class MirrormakerReplicationFlow extends cdktf.TerraformResource {
 
@@ -361,7 +361,7 @@ export class MirrormakerReplicationFlow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MirrormakerReplicationFlow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MirrormakerReplicationFlow to import
-  * @param importFromId The id of the existing MirrormakerReplicationFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MirrormakerReplicationFlow that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MirrormakerReplicationFlow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -373,7 +373,7 @@ export class MirrormakerReplicationFlow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/mirrormaker_replication_flow aiven_mirrormaker_replication_flow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/mirrormaker_replication_flow aiven_mirrormaker_replication_flow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -384,8 +384,8 @@ export class MirrormakerReplicationFlow extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_mirrormaker_replication_flow',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

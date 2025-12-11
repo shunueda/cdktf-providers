@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SwitchSettingsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable MAC blocklist
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#mac_blocklist_enabled SwitchSettings#mac_blocklist_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#mac_blocklist_enabled SwitchSettings#mac_blocklist_enabled}
   */
   readonly macBlocklistEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#network_id SwitchSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#network_id SwitchSettings#network_id}
   */
   readonly networkId: string;
   /**
   * Exceptions on a per switch basis to 'useCombinedPower'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#power_exceptions SwitchSettings#power_exceptions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#power_exceptions SwitchSettings#power_exceptions}
   */
   readonly powerExceptions?: SwitchSettingsPowerExceptions[] | cdktf.IResolvable;
   /**
   * Enable uplink client sampling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#uplink_client_sampling_enabled SwitchSettings#uplink_client_sampling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#uplink_client_sampling_enabled SwitchSettings#uplink_client_sampling_enabled}
   */
   readonly uplinkClientSamplingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The use Combined Power as the default behavior of secondary power supplies on supported devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#use_combined_power SwitchSettings#use_combined_power}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#use_combined_power SwitchSettings#use_combined_power}
   */
   readonly useCombinedPower?: boolean | cdktf.IResolvable;
   /**
   * Management VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#vlan SwitchSettings#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#vlan SwitchSettings#vlan}
   */
   readonly vlan?: number;
 }
@@ -49,13 +49,13 @@ export interface SwitchSettingsPowerExceptions {
   * Per switch exception (combined, redundant, useNetworkSetting)
   *   - Choices: `combined`, `redundant`, `useNetworkSetting`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#power_type SwitchSettings#power_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#power_type SwitchSettings#power_type}
   */
   readonly powerType: string;
   /**
   * Serial number of the switch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#serial SwitchSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#serial SwitchSettings#serial}
   */
   readonly serial: string;
 }
@@ -194,7 +194,7 @@ export class SwitchSettingsPowerExceptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings meraki_switch_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings meraki_switch_settings}
 */
 export class SwitchSettings extends cdktf.TerraformResource {
 
@@ -210,7 +210,7 @@ export class SwitchSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchSettings to import
-  * @param importFromId The id of the existing SwitchSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -222,7 +222,7 @@ export class SwitchSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_settings meraki_switch_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_settings meraki_switch_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -233,8 +233,8 @@ export class SwitchSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

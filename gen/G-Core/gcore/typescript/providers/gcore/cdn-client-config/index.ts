@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/cdn_client_config
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/cdn_client_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface CdnClientConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * CDN traffic usage limit in gigabytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/cdn_client_config#utilization_level CdnClientConfig#utilization_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/cdn_client_config#utilization_level CdnClientConfig#utilization_level}
   */
   readonly utilizationLevel?: number;
 }
@@ -101,7 +101,7 @@ export class CdnClientConfigServiceList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/cdn_client_config gcore_cdn_client_config}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/cdn_client_config gcore_cdn_client_config}
 */
 export class CdnClientConfig extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class CdnClientConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnClientConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnClientConfig to import
-  * @param importFromId The id of the existing CdnClientConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/cdn_client_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnClientConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/cdn_client_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnClientConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class CdnClientConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/cdn_client_config gcore_cdn_client_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/cdn_client_config gcore_cdn_client_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class CdnClientConfig extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_cdn_client_config',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface LicensePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * More verbose description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#description LicensePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#description LicensePolicy#description}
   */
   readonly description?: string;
   /**
   * Name of the policy (must be unique)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#name LicensePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#name LicensePolicy#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#project_key LicensePolicy#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#project_key LicensePolicy#project_key}
   */
   readonly projectKey?: string;
   /**
   * Type of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#type LicensePolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#type LicensePolicy#type}
   */
   readonly type: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#rule LicensePolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#rule LicensePolicy#rule}
   */
   readonly rule?: LicensePolicyRule[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface LicensePolicyRuleActionsBlockDownload {
   /**
   * Whether or not to block download of artifacts that meet the artifact and severity `filters` for the associated `xray_watch` resource. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#active LicensePolicy#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#active LicensePolicy#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to block download of artifacts that meet the artifact `filters` for the associated `xray_watch` resource but have not been scanned yet. Can not be set to `true` if attribute `active` is `false`. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#unscanned LicensePolicy#unscanned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#unscanned LicensePolicy#unscanned}
   */
   readonly unscanned?: boolean | cdktf.IResolvable;
 }
@@ -195,67 +195,67 @@ export interface LicensePolicyRuleActions {
   /**
   * Blocks Release Bundle distribution to Edge nodes if a violation is found. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#block_release_bundle_distribution LicensePolicy#block_release_bundle_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#block_release_bundle_distribution LicensePolicy#block_release_bundle_distribution}
   */
   readonly blockReleaseBundleDistribution?: boolean | cdktf.IResolvable;
   /**
   * Blocks Release Bundle promotion if a violation is found. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#block_release_bundle_promotion LicensePolicy#block_release_bundle_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#block_release_bundle_promotion LicensePolicy#block_release_bundle_promotion}
   */
   readonly blockReleaseBundlePromotion?: boolean | cdktf.IResolvable;
   /**
   * Allow grace period for certain number of days. All violations will be ignored during this time. To be used only if `fail_build` is enabled. Default value is `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#build_failure_grace_period_in_days LicensePolicy#build_failure_grace_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#build_failure_grace_period_in_days LicensePolicy#build_failure_grace_period_in_days}
   */
   readonly buildFailureGracePeriodInDays?: number;
   /**
   * Create Jira Ticket for this Policy Violation. Requires configured Jira integration. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#create_ticket_enabled LicensePolicy#create_ticket_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#create_ticket_enabled LicensePolicy#create_ticket_enabled}
   */
   readonly createTicketEnabled?: boolean | cdktf.IResolvable;
   /**
   * The severity of violation to be triggered if the `criteria` are met.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#custom_severity LicensePolicy#custom_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#custom_severity LicensePolicy#custom_severity}
   */
   readonly customSeverity?: string;
   /**
   * Whether or not the related CI build should be marked as failed if a violation is triggered. This option is only available when the policy is applied to an `xray_watch` resource with a `type` of `builds`. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#fail_build LicensePolicy#fail_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#fail_build LicensePolicy#fail_build}
   */
   readonly failBuild?: boolean | cdktf.IResolvable;
   /**
   * A list of email addressed that will get emailed when a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#mails LicensePolicy#mails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#mails LicensePolicy#mails}
   */
   readonly mails?: string[];
   /**
   * Sends an email message to component deployer with details about the generated Violations. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#notify_deployer LicensePolicy#notify_deployer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#notify_deployer LicensePolicy#notify_deployer}
   */
   readonly notifyDeployer?: boolean | cdktf.IResolvable;
   /**
   * Sends an email message to all configured recipients inside a specific watch with details about the generated Violations. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#notify_watch_recipients LicensePolicy#notify_watch_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#notify_watch_recipients LicensePolicy#notify_watch_recipients}
   */
   readonly notifyWatchRecipients?: boolean | cdktf.IResolvable;
   /**
   * A list of Xray-configured webhook URLs to be invoked if a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#webhooks LicensePolicy#webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#webhooks LicensePolicy#webhooks}
   */
   readonly webhooks?: string[];
   /**
   * block_download block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#block_download LicensePolicy#block_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#block_download LicensePolicy#block_download}
   */
   readonly blockDownload?: LicensePolicyRuleActionsBlockDownload[] | cdktf.IResolvable;
 }
@@ -663,25 +663,25 @@ export interface LicensePolicyRuleCriteria {
   /**
   * A violation will be generated for artifacts with unknown licenses (`true` or `false`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#allow_unknown LicensePolicy#allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#allow_unknown LicensePolicy#allow_unknown}
   */
   readonly allowUnknown?: boolean | cdktf.IResolvable;
   /**
   * A list of OSS license names that may be attached to a component. Supports custom licenses added by the user, but there is no verification if the license exists on the Xray side. If the added license doesn't exist, the policy won't trigger the violation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#allowed_licenses LicensePolicy#allowed_licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#allowed_licenses LicensePolicy#allowed_licenses}
   */
   readonly allowedLicenses?: string[];
   /**
   * A list of OSS license names that may not be attached to a component. Supports custom licenses added by the user, but there is no verification if the license exists on the Xray side. If the added license doesn't exist, the policy won't trigger the violation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#banned_licenses LicensePolicy#banned_licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#banned_licenses LicensePolicy#banned_licenses}
   */
   readonly bannedLicenses?: string[];
   /**
   * Do not generate a violation if at least one license is valid in cases whereby multiple licenses were detected on the component.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#multi_license_permissive LicensePolicy#multi_license_permissive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#multi_license_permissive LicensePolicy#multi_license_permissive}
   */
   readonly multiLicensePermissive?: boolean | cdktf.IResolvable;
 }
@@ -886,25 +886,25 @@ export interface LicensePolicyRule {
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#name LicensePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#name LicensePolicy#name}
   */
   readonly name: string;
   /**
   * Integer describing the rule priority. Must be at least 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#priority LicensePolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#priority LicensePolicy#priority}
   */
   readonly priority: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#actions LicensePolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#actions LicensePolicy#actions}
   */
   readonly actions?: LicensePolicyRuleActions[] | cdktf.IResolvable;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#criteria LicensePolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#criteria LicensePolicy#criteria}
   */
   readonly criteria?: LicensePolicyRuleCriteria[] | cdktf.IResolvable;
 }
@@ -1101,7 +1101,7 @@ export class LicensePolicyRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy xray_license_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy xray_license_policy}
 */
 export class LicensePolicy extends cdktf.TerraformResource {
 
@@ -1117,7 +1117,7 @@ export class LicensePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicensePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensePolicy to import
-  * @param importFromId The id of the existing LicensePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1129,7 +1129,7 @@ export class LicensePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/license_policy xray_license_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/resources/license_policy xray_license_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1140,8 +1140,8 @@ export class LicensePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'xray_license_policy',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

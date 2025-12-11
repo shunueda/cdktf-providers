@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_exadata_infrastructure
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_autonomous_exadata_infrastructure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatabaseAutonomousExadataInfrastructureConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_autonomous_exadata_infrastructure#autonomous_exadata_infrastructure_id DataOciDatabaseAutonomousExadataInfrastructure#autonomous_exadata_infrastructure_id}
   */
   readonly autonomousExadataInfrastructureId: string;
 }
@@ -570,7 +570,7 @@ export class DataOciDatabaseAutonomousExadataInfrastructureMaintenanceWindowDeta
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_exadata_infrastructure oci_database_autonomous_exadata_infrastructure}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_autonomous_exadata_infrastructure oci_database_autonomous_exadata_infrastructure}
 */
 export class DataOciDatabaseAutonomousExadataInfrastructure extends cdktf.TerraformDataSource {
 
@@ -586,7 +586,7 @@ export class DataOciDatabaseAutonomousExadataInfrastructure extends cdktf.Terraf
   * Generates CDKTF code for importing a DataOciDatabaseAutonomousExadataInfrastructure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatabaseAutonomousExadataInfrastructure to import
-  * @param importFromId The id of the existing DataOciDatabaseAutonomousExadataInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatabaseAutonomousExadataInfrastructure that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_autonomous_exadata_infrastructure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatabaseAutonomousExadataInfrastructure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -598,7 +598,7 @@ export class DataOciDatabaseAutonomousExadataInfrastructure extends cdktf.Terraf
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/database_autonomous_exadata_infrastructure oci_database_autonomous_exadata_infrastructure} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/database_autonomous_exadata_infrastructure oci_database_autonomous_exadata_infrastructure} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -609,8 +609,8 @@ export class DataOciDatabaseAutonomousExadataInfrastructure extends cdktf.Terraf
       terraformResourceType: 'oci_database_autonomous_exadata_infrastructure',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

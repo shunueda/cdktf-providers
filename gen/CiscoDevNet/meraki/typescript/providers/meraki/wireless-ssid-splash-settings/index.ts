@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,223 +10,223 @@ export interface WirelessSsidSplashSettingsConfig extends cdktf.TerraformMetaArg
   /**
   * Whether or not to allow simultaneous logins from different devices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#allow_simultaneous_logins WirelessSsidSplashSettings#allow_simultaneous_logins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#allow_simultaneous_logins WirelessSsidSplashSettings#allow_simultaneous_logins}
   */
   readonly allowSimultaneousLogins?: boolean | cdktf.IResolvable;
   /**
   * How long a device can use a network for free.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#billing_free_access_duration_in_minutes WirelessSsidSplashSettings#billing_free_access_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#billing_free_access_duration_in_minutes WirelessSsidSplashSettings#billing_free_access_duration_in_minutes}
   */
   readonly billingFreeAccessDurationInMinutes?: number;
   /**
   * Whether or not free access is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#billing_free_access_enabled WirelessSsidSplashSettings#billing_free_access_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#billing_free_access_enabled WirelessSsidSplashSettings#billing_free_access_enabled}
   */
   readonly billingFreeAccessEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not billing uses the fast login prepaid access option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#billing_prepaid_access_fast_login_enabled WirelessSsidSplashSettings#billing_prepaid_access_fast_login_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#billing_prepaid_access_fast_login_enabled WirelessSsidSplashSettings#billing_prepaid_access_fast_login_enabled}
   */
   readonly billingPrepaidAccessFastLoginEnabled?: boolean | cdktf.IResolvable;
   /**
   * The email address that receives replies from clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#billing_reply_to_email_address WirelessSsidSplashSettings#billing_reply_to_email_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#billing_reply_to_email_address WirelessSsidSplashSettings#billing_reply_to_email_address}
   */
   readonly billingReplyToEmailAddress?: string;
   /**
   * How restricted allowing traffic should be. If true, all traffic types are blocked until the splash page is acknowledged. If false, all non-HTTP traffic is allowed before the splash page is acknowledged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#block_all_traffic_before_sign_on WirelessSsidSplashSettings#block_all_traffic_before_sign_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#block_all_traffic_before_sign_on WirelessSsidSplashSettings#block_all_traffic_before_sign_on}
   */
   readonly blockAllTrafficBeforeSignOn?: boolean | cdktf.IResolvable;
   /**
   * How login attempts should be handled when the controller is unreachable. Can be either `open`, `restricted`, or `default`.
   *   - Choices: `default`, `open`, `restricted`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#controller_disconnection_behavior WirelessSsidSplashSettings#controller_disconnection_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#controller_disconnection_behavior WirelessSsidSplashSettings#controller_disconnection_behavior}
   */
   readonly controllerDisconnectionBehavior?: string;
   /**
   * Duration in minutes of sponsored guest authorization. Must be between 1 and 60480 (6 weeks)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#guest_sponsorship_duration_in_minutes WirelessSsidSplashSettings#guest_sponsorship_duration_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#guest_sponsorship_duration_in_minutes WirelessSsidSplashSettings#guest_sponsorship_duration_in_minutes}
   */
   readonly guestSponsorshipDurationInMinutes?: number;
   /**
   * Whether or not guests can specify how much time they are requesting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#guest_sponsorship_guest_can_request_timeframe WirelessSsidSplashSettings#guest_sponsorship_guest_can_request_timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#guest_sponsorship_guest_can_request_timeframe WirelessSsidSplashSettings#guest_sponsorship_guest_can_request_timeframe}
   */
   readonly guestSponsorshipGuestCanRequestTimeframe?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#network_id WirelessSsidSplashSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#network_id WirelessSsidSplashSettings#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#number WirelessSsidSplashSettings#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#number WirelessSsidSplashSettings#number}
   */
   readonly number: string;
   /**
   * The custom redirect URL where the users will go after the splash page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#redirect_url WirelessSsidSplashSettings#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#redirect_url WirelessSsidSplashSettings#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * How created user accounts should be authorized. Must be included in: [admin, auto, self_email]
   *   - Choices: `admin`, `auto`, `self_email`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#self_registration_authorization_type WirelessSsidSplashSettings#self_registration_authorization_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#self_registration_authorization_type WirelessSsidSplashSettings#self_registration_authorization_type}
   */
   readonly selfRegistrationAuthorizationType?: string;
   /**
   * Whether or not to allow users to create their own account on the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#self_registration_enabled WirelessSsidSplashSettings#self_registration_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#self_registration_enabled WirelessSsidSplashSettings#self_registration_enabled}
   */
   readonly selfRegistrationEnabled?: boolean | cdktf.IResolvable;
   /**
   * The system types that the Sentry enforces. Must be included in: `iOS, `Android`, `macOS`, and `Windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#sentry_enrollment_enforced_systems WirelessSsidSplashSettings#sentry_enrollment_enforced_systems}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#sentry_enrollment_enforced_systems WirelessSsidSplashSettings#sentry_enrollment_enforced_systems}
   */
   readonly sentryEnrollmentEnforcedSystems?: string[];
   /**
   * The strength of the enforcement of selected system types. Must be one of: `focused`, `click-through`, and `strict`.
   *   - Choices: `click-through`, `focused`, `strict`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#sentry_enrollment_strength WirelessSsidSplashSettings#sentry_enrollment_strength}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#sentry_enrollment_strength WirelessSsidSplashSettings#sentry_enrollment_strength}
   */
   readonly sentryEnrollmentStrength?: string;
   /**
   * The network ID of the Systems Manager network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#sentry_enrollment_systems_manager_network_id WirelessSsidSplashSettings#sentry_enrollment_systems_manager_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#sentry_enrollment_systems_manager_network_id WirelessSsidSplashSettings#sentry_enrollment_systems_manager_network_id}
   */
   readonly sentryEnrollmentSystemsManagerNetworkId?: string;
   /**
   * The extension of the image file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_image_extension WirelessSsidSplashSettings#splash_image_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_image_extension WirelessSsidSplashSettings#splash_image_extension}
   */
   readonly splashImageExtension?: string;
   /**
   * The file contents (a base 64 encoded string) of your new image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_image_image_contents WirelessSsidSplashSettings#splash_image_image_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_image_image_contents WirelessSsidSplashSettings#splash_image_image_contents}
   */
   readonly splashImageImageContents?: string;
   /**
   * The format of the encoded contents. Supported formats are `png`, `gif`, and jpg`.
   *   - Choices: `gif`, `jpg`, `png`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_image_image_format WirelessSsidSplashSettings#splash_image_image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_image_image_format WirelessSsidSplashSettings#splash_image_image_format}
   */
   readonly splashImageImageFormat?: string;
   /**
   * The MD5 value of the image file. Setting this to null will remove the image from the splash page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_image_md5 WirelessSsidSplashSettings#splash_image_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_image_md5 WirelessSsidSplashSettings#splash_image_md5}
   */
   readonly splashImageMd5?: string;
   /**
   * The extension of the logo file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_logo_extension WirelessSsidSplashSettings#splash_logo_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_logo_extension WirelessSsidSplashSettings#splash_logo_extension}
   */
   readonly splashLogoExtension?: string;
   /**
   * The file contents (a base 64 encoded string) of your new logo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_logo_image_contents WirelessSsidSplashSettings#splash_logo_image_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_logo_image_contents WirelessSsidSplashSettings#splash_logo_image_contents}
   */
   readonly splashLogoImageContents?: string;
   /**
   * The format of the encoded contents. Supported formats are `png`, `gif`, and jpg`.
   *   - Choices: `gif`, `jpg`, `png`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_logo_image_format WirelessSsidSplashSettings#splash_logo_image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_logo_image_format WirelessSsidSplashSettings#splash_logo_image_format}
   */
   readonly splashLogoImageFormat?: string;
   /**
   * The MD5 value of the logo file. Setting this to null will remove the logo from the splash page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_logo_md5 WirelessSsidSplashSettings#splash_logo_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_logo_md5 WirelessSsidSplashSettings#splash_logo_md5}
   */
   readonly splashLogoMd5?: string;
   /**
   * The extension of the prepaid front image file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_extension WirelessSsidSplashSettings#splash_prepaid_front_extension}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_extension WirelessSsidSplashSettings#splash_prepaid_front_extension}
   */
   readonly splashPrepaidFrontExtension?: string;
   /**
   * The file contents (a base 64 encoded string) of your new prepaid front.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_image_contents WirelessSsidSplashSettings#splash_prepaid_front_image_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_image_contents WirelessSsidSplashSettings#splash_prepaid_front_image_contents}
   */
   readonly splashPrepaidFrontImageContents?: string;
   /**
   * The format of the encoded contents. Supported formats are `png`, `gif`, and jpg`.
   *   - Choices: `gif`, `jpg`, `png`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_image_format WirelessSsidSplashSettings#splash_prepaid_front_image_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_image_format WirelessSsidSplashSettings#splash_prepaid_front_image_format}
   */
   readonly splashPrepaidFrontImageFormat?: string;
   /**
   * The MD5 value of the prepaid front image file. Setting this to null will remove the prepaid front from the splash page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_md5 WirelessSsidSplashSettings#splash_prepaid_front_md5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_prepaid_front_md5 WirelessSsidSplashSettings#splash_prepaid_front_md5}
   */
   readonly splashPrepaidFrontMd5?: string;
   /**
   * Splash timeout in minutes. This will determine how often users will see the splash page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_timeout WirelessSsidSplashSettings#splash_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_timeout WirelessSsidSplashSettings#splash_timeout}
   */
   readonly splashTimeout?: number;
   /**
   * [optional] The custom splash URL of the click-through splash page. Note that the URL can be configured without necessarily being used. In order to enable the custom URL, see `useSplashUrl`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#splash_url WirelessSsidSplashSettings#splash_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#splash_url WirelessSsidSplashSettings#splash_url}
   */
   readonly splashUrl?: string;
   /**
   * The id of the selected splash theme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#theme_id WirelessSsidSplashSettings#theme_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#theme_id WirelessSsidSplashSettings#theme_id}
   */
   readonly themeId?: string;
   /**
   * The Boolean indicating whether the the user will be redirected to the custom redirect URL after the splash page. A custom redirect URL must be set if this is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#use_redirect_url WirelessSsidSplashSettings#use_redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#use_redirect_url WirelessSsidSplashSettings#use_redirect_url}
   */
   readonly useRedirectUrl?: boolean | cdktf.IResolvable;
   /**
   * [optional] Boolean indicating whether the users will be redirected to the custom splash url. A custom splash URL must be set if this is true. Note that depending on your SSID`s access control settings, it may not be possible to use the custom splash URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#use_splash_url WirelessSsidSplashSettings#use_splash_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#use_splash_url WirelessSsidSplashSettings#use_splash_url}
   */
   readonly useSplashUrl?: boolean | cdktf.IResolvable;
   /**
   * The welcome message for the users on the splash page.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#welcome_message WirelessSsidSplashSettings#welcome_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#welcome_message WirelessSsidSplashSettings#welcome_message}
   */
   readonly welcomeMessage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings meraki_wireless_ssid_splash_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings meraki_wireless_ssid_splash_settings}
 */
 export class WirelessSsidSplashSettings extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class WirelessSsidSplashSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidSplashSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidSplashSettings to import
-  * @param importFromId The id of the existing WirelessSsidSplashSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidSplashSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidSplashSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class WirelessSsidSplashSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_splash_settings meraki_wireless_ssid_splash_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_splash_settings meraki_wireless_ssid_splash_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class WirelessSsidSplashSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_splash_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

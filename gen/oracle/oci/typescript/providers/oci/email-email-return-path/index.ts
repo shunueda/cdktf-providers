@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface EmailEmailReturnPathConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#defined_tags EmailEmailReturnPath#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#defined_tags EmailEmailReturnPath#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#description EmailEmailReturnPath#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#description EmailEmailReturnPath#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#freeform_tags EmailEmailReturnPath#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#freeform_tags EmailEmailReturnPath#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#id EmailEmailReturnPath#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#id EmailEmailReturnPath#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#name EmailEmailReturnPath#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#name EmailEmailReturnPath#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#parent_resource_id EmailEmailReturnPath#parent_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#parent_resource_id EmailEmailReturnPath#parent_resource_id}
   */
   readonly parentResourceId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#timeouts EmailEmailReturnPath#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#timeouts EmailEmailReturnPath#timeouts}
   */
   readonly timeouts?: EmailEmailReturnPathTimeouts;
 }
@@ -138,15 +138,15 @@ export class EmailEmailReturnPathLocksList extends cdktf.ComplexList {
 }
 export interface EmailEmailReturnPathTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#create EmailEmailReturnPath#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#create EmailEmailReturnPath#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#delete EmailEmailReturnPath#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#delete EmailEmailReturnPath#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#update EmailEmailReturnPath#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#update EmailEmailReturnPath#update}
   */
   readonly update?: string;
 }
@@ -298,7 +298,7 @@ export class EmailEmailReturnPathTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path oci_email_email_return_path}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path oci_email_email_return_path}
 */
 export class EmailEmailReturnPath extends cdktf.TerraformResource {
 
@@ -314,7 +314,7 @@ export class EmailEmailReturnPath extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmailEmailReturnPath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmailEmailReturnPath to import
-  * @param importFromId The id of the existing EmailEmailReturnPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmailEmailReturnPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmailEmailReturnPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -326,7 +326,7 @@ export class EmailEmailReturnPath extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/email_email_return_path oci_email_email_return_path} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/email_email_return_path oci_email_email_return_path} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -337,8 +337,8 @@ export class EmailEmailReturnPath extends cdktf.TerraformResource {
       terraformResourceType: 'oci_email_email_return_path',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

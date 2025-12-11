@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ScfTriggerConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * User Additional Information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#custom_argument ScfTriggerConfig#custom_argument}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#custom_argument ScfTriggerConfig#custom_argument}
   */
   readonly customArgument?: string;
   /**
   * Trigger description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#description ScfTriggerConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#description ScfTriggerConfig#description}
   */
   readonly description?: string;
   /**
   * Status of trigger. Values: OPEN (enabled); CLOSE disabled).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#enable ScfTriggerConfig#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#enable ScfTriggerConfig#enable}
   */
   readonly enable?: string;
   /**
   * Function name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#function_name ScfTriggerConfig#function_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#function_name ScfTriggerConfig#function_name}
   */
   readonly functionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#id ScfTriggerConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#id ScfTriggerConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface ScfTriggerConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Function namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#namespace ScfTriggerConfig#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#namespace ScfTriggerConfig#namespace}
   */
   readonly namespace?: string;
   /**
   * Function version. It defaults to `$LATEST`. It's recommended to use `[$DEFAULT](https://intl.cloud.tencent.com/document/product/583/36149?from_cn_redirect=1#.E9.BB.98.E8.AE.A4.E5.88.AB.E5.90.8D)` for canary release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#qualifier ScfTriggerConfig#qualifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#qualifier ScfTriggerConfig#qualifier}
   */
   readonly qualifier?: string;
   /**
   * TriggerDesc parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#trigger_desc ScfTriggerConfig#trigger_desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#trigger_desc ScfTriggerConfig#trigger_desc}
   */
   readonly triggerDesc?: string;
   /**
   * Trigger Name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#trigger_name ScfTriggerConfig#trigger_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#trigger_name ScfTriggerConfig#trigger_name}
   */
   readonly triggerName: string;
   /**
   * Trigger type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#type ScfTriggerConfig#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#type ScfTriggerConfig#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config tencentcloud_scf_trigger_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config tencentcloud_scf_trigger_config}
 */
 export class ScfTriggerConfig extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class ScfTriggerConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ScfTriggerConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ScfTriggerConfig to import
-  * @param importFromId The id of the existing ScfTriggerConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ScfTriggerConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ScfTriggerConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class ScfTriggerConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/scf_trigger_config tencentcloud_scf_trigger_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/scf_trigger_config tencentcloud_scf_trigger_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class ScfTriggerConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_scf_trigger_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

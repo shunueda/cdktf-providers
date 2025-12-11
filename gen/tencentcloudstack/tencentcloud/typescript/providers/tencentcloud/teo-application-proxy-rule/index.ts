@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoApplicationProxyRuleConfig extends cdktf.TerraformMetaArgume
   /**
   * Passes the client IP. Default value is `OFF`. When Proto is TCP, valid values: `TOA`: Pass the client IP via TOA; `PPV1`: Pass the client IP via Proxy Protocol V1; `PPV2`: Pass the client IP via Proxy Protocol V2; `OFF`: Do not pass the client IP. When Proto=UDP, valid values: `PPV2`: Pass the client IP via Proxy Protocol V2; `OFF`: Do not pass the client IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#forward_client_ip TeoApplicationProxyRule#forward_client_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#forward_client_ip TeoApplicationProxyRule#forward_client_ip}
   */
   readonly forwardClientIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#id TeoApplicationProxyRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#id TeoApplicationProxyRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,61 +23,61 @@ export interface TeoApplicationProxyRuleConfig extends cdktf.TerraformMetaArgume
   /**
   * Origin port, supported formats: single port: 80; Port segment: 81-90, 81 to 90 ports.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#origin_port TeoApplicationProxyRule#origin_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#origin_port TeoApplicationProxyRule#origin_port}
   */
   readonly originPort: string;
   /**
   * Origin server type. Valid values: `custom`: Specified origins; `origins`: An origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#origin_type TeoApplicationProxyRule#origin_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#origin_type TeoApplicationProxyRule#origin_type}
   */
   readonly originType: string;
   /**
   * Origin site information: When `OriginType` is `custom`, it indicates one or more origin sites, such as `['8.8.8.8', '9.9.9.9']` or `OriginValue=['test.com']`; When `OriginType` is `origins`, there is required to be one and only one element, representing the origin site group ID, such as `['origin-537f5b41-162a-11ed-abaa-525400c5da15']`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#origin_value TeoApplicationProxyRule#origin_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#origin_value TeoApplicationProxyRule#origin_value}
   */
   readonly originValue: string[];
   /**
   * Valid values: `80` means port 80; `81-90` means port range 81-90.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#port TeoApplicationProxyRule#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#port TeoApplicationProxyRule#port}
   */
   readonly port: string[];
   /**
   * Protocol. Valid values: `TCP`, `UDP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#proto TeoApplicationProxyRule#proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#proto TeoApplicationProxyRule#proto}
   */
   readonly proto: string;
   /**
   * Proxy ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#proxy_id TeoApplicationProxyRule#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#proxy_id TeoApplicationProxyRule#proxy_id}
   */
   readonly proxyId: string;
   /**
   * Specifies whether to enable session persistence. Default value is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#session_persist TeoApplicationProxyRule#session_persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#session_persist TeoApplicationProxyRule#session_persist}
   */
   readonly sessionPersist?: boolean | cdktf.IResolvable;
   /**
   * Status, the values are: `online`: enabled; `offline`: deactivated; `progress`: being deployed; `stopping`: being deactivated; `fail`: deployment failure/deactivation failure.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#status TeoApplicationProxyRule#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#status TeoApplicationProxyRule#status}
   */
   readonly status?: string;
   /**
   * Site ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#zone_id TeoApplicationProxyRule#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#zone_id TeoApplicationProxyRule#zone_id}
   */
   readonly zoneId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule tencentcloud_teo_application_proxy_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule tencentcloud_teo_application_proxy_rule}
 */
 export class TeoApplicationProxyRule extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class TeoApplicationProxyRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoApplicationProxyRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoApplicationProxyRule to import
-  * @param importFromId The id of the existing TeoApplicationProxyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoApplicationProxyRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoApplicationProxyRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class TeoApplicationProxyRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_application_proxy_rule tencentcloud_teo_application_proxy_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_application_proxy_rule tencentcloud_teo_application_proxy_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class TeoApplicationProxyRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_application_proxy_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

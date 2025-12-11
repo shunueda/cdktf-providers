@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMeteringComputationUsageStatementEmailRecipientsGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#compartment_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#compartment_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#email_recipients_group_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#email_recipients_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#email_recipients_group_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#email_recipients_group_id}
   */
   readonly emailRecipientsGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#subscription_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#subscription_id DataOciMeteringComputationUsageStatementEmailRecipientsGroup#subscription_id}
   */
   readonly subscriptionId: string;
 }
@@ -112,7 +112,7 @@ export class DataOciMeteringComputationUsageStatementEmailRecipientsGroupRecipie
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group oci_metering_computation_usage_statement_email_recipients_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group oci_metering_computation_usage_statement_email_recipients_group}
 */
 export class DataOciMeteringComputationUsageStatementEmailRecipientsGroup extends cdktf.TerraformDataSource {
 
@@ -128,7 +128,7 @@ export class DataOciMeteringComputationUsageStatementEmailRecipientsGroup extend
   * Generates CDKTF code for importing a DataOciMeteringComputationUsageStatementEmailRecipientsGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMeteringComputationUsageStatementEmailRecipientsGroup to import
-  * @param importFromId The id of the existing DataOciMeteringComputationUsageStatementEmailRecipientsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMeteringComputationUsageStatementEmailRecipientsGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMeteringComputationUsageStatementEmailRecipientsGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class DataOciMeteringComputationUsageStatementEmailRecipientsGroup extend
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group oci_metering_computation_usage_statement_email_recipients_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/metering_computation_usage_statement_email_recipients_group oci_metering_computation_usage_statement_email_recipients_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class DataOciMeteringComputationUsageStatementEmailRecipientsGroup extend
       terraformResourceType: 'oci_metering_computation_usage_statement_email_recipients_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

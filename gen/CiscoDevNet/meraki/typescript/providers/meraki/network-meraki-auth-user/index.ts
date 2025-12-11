@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,49 +11,49 @@ export interface NetworkMerakiAuthUserConfig extends cdktf.TerraformMetaArgument
   * Authorization type for user. Can be `Guest` or `802.1X` for wireless networks, or `Client VPN` for MX networks. Defaults to `802.1X`.
   *   - Choices: `802.1X`, `Client VPN`, `Guest`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#account_type NetworkMerakiAuthUser#account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#account_type NetworkMerakiAuthUser#account_type}
   */
   readonly accountType?: string;
   /**
   * Authorization zones and expiration dates for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#authorizations NetworkMerakiAuthUser#authorizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#authorizations NetworkMerakiAuthUser#authorizations}
   */
   readonly authorizations: NetworkMerakiAuthUserAuthorizations[] | cdktf.IResolvable;
   /**
   * Email address of the user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#email NetworkMerakiAuthUser#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#email NetworkMerakiAuthUser#email}
   */
   readonly email: string;
   /**
   * Whether or not Meraki should email the password to user. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#email_password_to_user NetworkMerakiAuthUser#email_password_to_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#email_password_to_user NetworkMerakiAuthUser#email_password_to_user}
   */
   readonly emailPasswordToUser?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the user is a Dashboard administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#is_admin NetworkMerakiAuthUser#is_admin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#is_admin NetworkMerakiAuthUser#is_admin}
   */
   readonly isAdmin?: boolean | cdktf.IResolvable;
   /**
   * Name of the user. Only required If the user is not a Dashboard administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#name NetworkMerakiAuthUser#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#name NetworkMerakiAuthUser#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#network_id NetworkMerakiAuthUser#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#network_id NetworkMerakiAuthUser#network_id}
   */
   readonly networkId: string;
   /**
   * The password for this user account. Only required If the user is not a Dashboard administrator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#password NetworkMerakiAuthUser#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#password NetworkMerakiAuthUser#password}
   */
   readonly password: string;
 }
@@ -61,13 +61,13 @@ export interface NetworkMerakiAuthUserAuthorizations {
   /**
   * Date for authorization to expire. Set to `Never` for the authorization to not expire, which is the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#expires_at NetworkMerakiAuthUser#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#expires_at NetworkMerakiAuthUser#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * Required for wireless networks. The SSID for which the user is being authorized, which must be configured for the user`s given accountType.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#ssid_number NetworkMerakiAuthUser#ssid_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#ssid_number NetworkMerakiAuthUser#ssid_number}
   */
   readonly ssidNumber: number;
 }
@@ -209,7 +209,7 @@ export class NetworkMerakiAuthUserAuthorizationsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user meraki_network_meraki_auth_user}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user meraki_network_meraki_auth_user}
 */
 export class NetworkMerakiAuthUser extends cdktf.TerraformResource {
 
@@ -225,7 +225,7 @@ export class NetworkMerakiAuthUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkMerakiAuthUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkMerakiAuthUser to import
-  * @param importFromId The id of the existing NetworkMerakiAuthUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkMerakiAuthUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkMerakiAuthUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -237,7 +237,7 @@ export class NetworkMerakiAuthUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_meraki_auth_user meraki_network_meraki_auth_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_meraki_auth_user meraki_network_meraki_auth_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -248,8 +248,8 @@ export class NetworkMerakiAuthUser extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_meraki_auth_user',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_monitor
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_synthetics_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciApmSyntheticsMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_monitor#apm_domain_id DataOciApmSyntheticsMonitor#apm_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_synthetics_monitor#apm_domain_id DataOciApmSyntheticsMonitor#apm_domain_id}
   */
   readonly apmDomainId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_monitor#monitor_id DataOciApmSyntheticsMonitor#monitor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_synthetics_monitor#monitor_id DataOciApmSyntheticsMonitor#monitor_id}
   */
   readonly monitorId: string;
 }
@@ -1944,7 +1944,7 @@ export class DataOciApmSyntheticsMonitorVantagePointsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_monitor oci_apm_synthetics_monitor}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_synthetics_monitor oci_apm_synthetics_monitor}
 */
 export class DataOciApmSyntheticsMonitor extends cdktf.TerraformDataSource {
 
@@ -1960,7 +1960,7 @@ export class DataOciApmSyntheticsMonitor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciApmSyntheticsMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciApmSyntheticsMonitor to import
-  * @param importFromId The id of the existing DataOciApmSyntheticsMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciApmSyntheticsMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_synthetics_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciApmSyntheticsMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1972,7 +1972,7 @@ export class DataOciApmSyntheticsMonitor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/apm_synthetics_monitor oci_apm_synthetics_monitor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/apm_synthetics_monitor oci_apm_synthetics_monitor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1983,8 +1983,8 @@ export class DataOciApmSyntheticsMonitor extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_apm_synthetics_monitor',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

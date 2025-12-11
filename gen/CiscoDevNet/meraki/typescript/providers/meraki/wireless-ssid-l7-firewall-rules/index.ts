@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WirelessSsidL7FirewallRulesConfig extends cdktf.TerraformMetaAr
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#network_id WirelessSsidL7FirewallRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#network_id WirelessSsidL7FirewallRules#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#number WirelessSsidL7FirewallRules#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#number WirelessSsidL7FirewallRules#number}
   */
   readonly number: string;
   /**
   * An array of L7 firewall rules for this SSID. Rules will get applied in the same order user has specified in request. Empty array will clear the L7 firewall rule configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#rules WirelessSsidL7FirewallRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#rules WirelessSsidL7FirewallRules#rules}
   */
   readonly rules?: WirelessSsidL7FirewallRulesRules[] | cdktf.IResolvable;
 }
@@ -31,20 +31,20 @@ export interface WirelessSsidL7FirewallRulesRules {
   * `Deny` traffic specified by this rule
   *   - Choices: `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#policy WirelessSsidL7FirewallRules#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#policy WirelessSsidL7FirewallRules#policy}
   */
   readonly policy?: string;
   /**
   * Type of the L7 firewall rule. One of: `application`, `applicationCategory`, `host`, `port`, `ipRange`
   *   - Choices: `application`, `applicationCategory`, `host`, `ipRange`, `port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#type WirelessSsidL7FirewallRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#type WirelessSsidL7FirewallRules#type}
   */
   readonly type?: string;
   /**
   * The value of what needs to get blocked. Format of the value varies depending on type of the firewall rule selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#value WirelessSsidL7FirewallRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#value WirelessSsidL7FirewallRules#value}
   */
   readonly value?: string;
 }
@@ -218,7 +218,7 @@ export class WirelessSsidL7FirewallRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules meraki_wireless_ssid_l7_firewall_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules meraki_wireless_ssid_l7_firewall_rules}
 */
 export class WirelessSsidL7FirewallRules extends cdktf.TerraformResource {
 
@@ -234,7 +234,7 @@ export class WirelessSsidL7FirewallRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidL7FirewallRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidL7FirewallRules to import
-  * @param importFromId The id of the existing WirelessSsidL7FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidL7FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidL7FirewallRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -246,7 +246,7 @@ export class WirelessSsidL7FirewallRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_l7_firewall_rules meraki_wireless_ssid_l7_firewall_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_l7_firewall_rules meraki_wireless_ssid_l7_firewall_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -257,8 +257,8 @@ export class WirelessSsidL7FirewallRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_l7_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

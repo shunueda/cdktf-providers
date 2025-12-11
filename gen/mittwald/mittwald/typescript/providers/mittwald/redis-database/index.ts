@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface RedisDatabaseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#configuration RedisDatabase#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#configuration RedisDatabase#configuration}
   */
   readonly configuration?: RedisDatabaseConfiguration;
   /**
   * Description for your redis_database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#description RedisDatabase#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#description RedisDatabase#description}
   */
   readonly description: string;
   /**
   * The ID of the project the redis_database belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#project_id RedisDatabase#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#project_id RedisDatabase#project_id}
   */
   readonly projectId: string;
   /**
   * Version of the database, e.g. `7.0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#version RedisDatabase#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#version RedisDatabase#version}
   */
   readonly version: string;
 }
@@ -34,25 +34,25 @@ export interface RedisDatabaseConfiguration {
   /**
   * Additional command-line flags that should be passed to the Redis container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#additional_flags RedisDatabase#additional_flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#additional_flags RedisDatabase#additional_flags}
   */
   readonly additionalFlags?: string[];
   /**
   * The database's maximum memory in MiB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#max_memory_mb RedisDatabase#max_memory_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#max_memory_mb RedisDatabase#max_memory_mb}
   */
   readonly maxMemoryMb?: number;
   /**
   * The database's key eviction policy. See the Redis documentation on key evictions for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#max_memory_policy RedisDatabase#max_memory_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#max_memory_policy RedisDatabase#max_memory_policy}
   */
   readonly maxMemoryPolicy?: string;
   /**
   * Enable persistent storage for this database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#persistent RedisDatabase#persistent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#persistent RedisDatabase#persistent}
   */
   readonly persistent?: boolean | cdktf.IResolvable;
 }
@@ -233,7 +233,7 @@ export class RedisDatabaseConfigurationOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database mittwald_redis_database}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database mittwald_redis_database}
 */
 export class RedisDatabase extends cdktf.TerraformResource {
 
@@ -249,7 +249,7 @@ export class RedisDatabase extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisDatabase resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisDatabase to import
-  * @param importFromId The id of the existing RedisDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisDatabase that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisDatabase to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -261,7 +261,7 @@ export class RedisDatabase extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/redis_database mittwald_redis_database} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/redis_database mittwald_redis_database} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -272,8 +272,8 @@ export class RedisDatabase extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_redis_database',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5',
-        providerVersionConstraint: '1.4.5'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

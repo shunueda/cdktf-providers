@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDatascienceFastLaunchJobConfigsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#compartment_id DataOciDatascienceFastLaunchJobConfigs#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#compartment_id DataOciDatascienceFastLaunchJobConfigs#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#id DataOciDatascienceFastLaunchJobConfigs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#id DataOciDatascienceFastLaunchJobConfigs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,7 +21,7 @@ export interface DataOciDatascienceFastLaunchJobConfigsConfig extends cdktf.Terr
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#filter DataOciDatascienceFastLaunchJobConfigs#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#filter DataOciDatascienceFastLaunchJobConfigs#filter}
   */
   readonly filter?: DataOciDatascienceFastLaunchJobConfigsFilter[] | cdktf.IResolvable;
 }
@@ -127,15 +127,15 @@ export class DataOciDatascienceFastLaunchJobConfigsFastLaunchJobConfigsList exte
 }
 export interface DataOciDatascienceFastLaunchJobConfigsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#name DataOciDatascienceFastLaunchJobConfigs#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#name DataOciDatascienceFastLaunchJobConfigs#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#regex DataOciDatascienceFastLaunchJobConfigs#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#regex DataOciDatascienceFastLaunchJobConfigs#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#values DataOciDatascienceFastLaunchJobConfigs#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#values DataOciDatascienceFastLaunchJobConfigs#values}
   */
   readonly values: string[];
 }
@@ -303,7 +303,7 @@ export class DataOciDatascienceFastLaunchJobConfigsFilterList extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs oci_datascience_fast_launch_job_configs}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs oci_datascience_fast_launch_job_configs}
 */
 export class DataOciDatascienceFastLaunchJobConfigs extends cdktf.TerraformDataSource {
 
@@ -319,7 +319,7 @@ export class DataOciDatascienceFastLaunchJobConfigs extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataOciDatascienceFastLaunchJobConfigs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDatascienceFastLaunchJobConfigs to import
-  * @param importFromId The id of the existing DataOciDatascienceFastLaunchJobConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDatascienceFastLaunchJobConfigs that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDatascienceFastLaunchJobConfigs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -331,7 +331,7 @@ export class DataOciDatascienceFastLaunchJobConfigs extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/datascience_fast_launch_job_configs oci_datascience_fast_launch_job_configs} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/datascience_fast_launch_job_configs oci_datascience_fast_launch_job_configs} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -342,8 +342,8 @@ export class DataOciDatascienceFastLaunchJobConfigs extends cdktf.TerraformDataS
       terraformResourceType: 'oci_datascience_fast_launch_job_configs',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

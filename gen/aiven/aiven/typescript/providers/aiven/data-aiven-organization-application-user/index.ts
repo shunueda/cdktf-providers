@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataAivenOrganizationApplicationUserConfig extends cdktf.Terraf
   /**
   * ID of an organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user#organization_id DataAivenOrganizationApplicationUser#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user#organization_id DataAivenOrganizationApplicationUser#organization_id}
   */
   readonly organizationId: string;
   /**
   * User ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user#user_id DataAivenOrganizationApplicationUser#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user#user_id DataAivenOrganizationApplicationUser#user_id}
   */
   readonly userId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user#timeouts DataAivenOrganizationApplicationUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user#timeouts DataAivenOrganizationApplicationUser#timeouts}
   */
   readonly timeouts?: DataAivenOrganizationApplicationUserTimeouts;
 }
@@ -30,7 +30,7 @@ export interface DataAivenOrganizationApplicationUserTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user#read DataAivenOrganizationApplicationUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user#read DataAivenOrganizationApplicationUser#read}
   */
   readonly read?: string;
 }
@@ -124,7 +124,7 @@ export class DataAivenOrganizationApplicationUserTimeoutsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user aiven_organization_application_user}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user aiven_organization_application_user}
 */
 export class DataAivenOrganizationApplicationUser extends cdktf.TerraformDataSource {
 
@@ -140,7 +140,7 @@ export class DataAivenOrganizationApplicationUser extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataAivenOrganizationApplicationUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenOrganizationApplicationUser to import
-  * @param importFromId The id of the existing DataAivenOrganizationApplicationUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenOrganizationApplicationUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenOrganizationApplicationUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -152,7 +152,7 @@ export class DataAivenOrganizationApplicationUser extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/organization_application_user aiven_organization_application_user} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/organization_application_user aiven_organization_application_user} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -163,8 +163,8 @@ export class DataAivenOrganizationApplicationUser extends cdktf.TerraformDataSou
       terraformResourceType: 'aiven_organization_application_user',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface DesktopsDesktopPoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#are_privileged_users DesktopsDesktopPool#are_privileged_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#are_privileged_users DesktopsDesktopPool#are_privileged_users}
   */
   readonly arePrivilegedUsers: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#are_volumes_preserved DesktopsDesktopPool#are_volumes_preserved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#are_volumes_preserved DesktopsDesktopPool#are_volumes_preserved}
   */
   readonly areVolumesPreserved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#availability_domain DesktopsDesktopPool#availability_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#availability_domain DesktopsDesktopPool#availability_domain}
   */
   readonly availabilityDomain: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#compartment_id DesktopsDesktopPool#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#compartment_id DesktopsDesktopPool#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#contact_details DesktopsDesktopPool#contact_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#contact_details DesktopsDesktopPool#contact_details}
   */
   readonly contactDetails: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#defined_tags DesktopsDesktopPool#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#defined_tags DesktopsDesktopPool#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#description DesktopsDesktopPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#description DesktopsDesktopPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#display_name DesktopsDesktopPool#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#display_name DesktopsDesktopPool#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#freeform_tags DesktopsDesktopPool#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#freeform_tags DesktopsDesktopPool#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#id DesktopsDesktopPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#id DesktopsDesktopPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#is_storage_enabled DesktopsDesktopPool#is_storage_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#is_storage_enabled DesktopsDesktopPool#is_storage_enabled}
   */
   readonly isStorageEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#maximum_size DesktopsDesktopPool#maximum_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#maximum_size DesktopsDesktopPool#maximum_size}
   */
   readonly maximumSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#nsg_ids DesktopsDesktopPool#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#nsg_ids DesktopsDesktopPool#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#shape_name DesktopsDesktopPool#shape_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#shape_name DesktopsDesktopPool#shape_name}
   */
   readonly shapeName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#standby_size DesktopsDesktopPool#standby_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#standby_size DesktopsDesktopPool#standby_size}
   */
   readonly standbySize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#storage_backup_policy_id DesktopsDesktopPool#storage_backup_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#storage_backup_policy_id DesktopsDesktopPool#storage_backup_policy_id}
   */
   readonly storageBackupPolicyId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#storage_size_in_gbs DesktopsDesktopPool#storage_size_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#storage_size_in_gbs DesktopsDesktopPool#storage_size_in_gbs}
   */
   readonly storageSizeInGbs: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#time_start_scheduled DesktopsDesktopPool#time_start_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#time_start_scheduled DesktopsDesktopPool#time_start_scheduled}
   */
   readonly timeStartScheduled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#time_stop_scheduled DesktopsDesktopPool#time_stop_scheduled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#time_stop_scheduled DesktopsDesktopPool#time_stop_scheduled}
   */
   readonly timeStopScheduled?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#use_dedicated_vm_host DesktopsDesktopPool#use_dedicated_vm_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#use_dedicated_vm_host DesktopsDesktopPool#use_dedicated_vm_host}
   */
   readonly useDedicatedVmHost?: string;
   /**
   * availability_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#availability_policy DesktopsDesktopPool#availability_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#availability_policy DesktopsDesktopPool#availability_policy}
   */
   readonly availabilityPolicy: DesktopsDesktopPoolAvailabilityPolicy;
   /**
   * device_policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#device_policy DesktopsDesktopPool#device_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#device_policy DesktopsDesktopPool#device_policy}
   */
   readonly devicePolicy: DesktopsDesktopPoolDevicePolicy;
   /**
   * image block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#image DesktopsDesktopPool#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#image DesktopsDesktopPool#image}
   */
   readonly image: DesktopsDesktopPoolImage;
   /**
   * network_configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#network_configuration DesktopsDesktopPool#network_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#network_configuration DesktopsDesktopPool#network_configuration}
   */
   readonly networkConfiguration: DesktopsDesktopPoolNetworkConfiguration;
   /**
   * private_access_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#private_access_details DesktopsDesktopPool#private_access_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#private_access_details DesktopsDesktopPool#private_access_details}
   */
   readonly privateAccessDetails?: DesktopsDesktopPoolPrivateAccessDetails;
   /**
   * session_lifecycle_actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#session_lifecycle_actions DesktopsDesktopPool#session_lifecycle_actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#session_lifecycle_actions DesktopsDesktopPool#session_lifecycle_actions}
   */
   readonly sessionLifecycleActions?: DesktopsDesktopPoolSessionLifecycleActions;
   /**
   * shape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#shape_config DesktopsDesktopPool#shape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#shape_config DesktopsDesktopPool#shape_config}
   */
   readonly shapeConfig?: DesktopsDesktopPoolShapeConfig;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#timeouts DesktopsDesktopPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#timeouts DesktopsDesktopPool#timeouts}
   */
   readonly timeouts?: DesktopsDesktopPoolTimeouts;
 }
 export interface DesktopsDesktopPoolAvailabilityPolicyStartSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}
   */
   readonly timezone: string;
 }
@@ -252,11 +252,11 @@ export class DesktopsDesktopPoolAvailabilityPolicyStartScheduleOutputReference e
 }
 export interface DesktopsDesktopPoolAvailabilityPolicyStopSchedule {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#cron_expression DesktopsDesktopPool#cron_expression}
   */
   readonly cronExpression: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#timezone DesktopsDesktopPool#timezone}
   */
   readonly timezone: string;
 }
@@ -365,13 +365,13 @@ export interface DesktopsDesktopPoolAvailabilityPolicy {
   /**
   * start_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#start_schedule DesktopsDesktopPool#start_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#start_schedule DesktopsDesktopPool#start_schedule}
   */
   readonly startSchedule?: DesktopsDesktopPoolAvailabilityPolicyStartSchedule;
   /**
   * stop_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#stop_schedule DesktopsDesktopPool#stop_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#stop_schedule DesktopsDesktopPool#stop_schedule}
   */
   readonly stopSchedule?: DesktopsDesktopPoolAvailabilityPolicyStopSchedule;
 }
@@ -484,31 +484,31 @@ export class DesktopsDesktopPoolAvailabilityPolicyOutputReference extends cdktf.
 }
 export interface DesktopsDesktopPoolDevicePolicy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#audio_mode DesktopsDesktopPool#audio_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#audio_mode DesktopsDesktopPool#audio_mode}
   */
   readonly audioMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#cdm_mode DesktopsDesktopPool#cdm_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#cdm_mode DesktopsDesktopPool#cdm_mode}
   */
   readonly cdmMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#clipboard_mode DesktopsDesktopPool#clipboard_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#clipboard_mode DesktopsDesktopPool#clipboard_mode}
   */
   readonly clipboardMode: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#is_display_enabled DesktopsDesktopPool#is_display_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#is_display_enabled DesktopsDesktopPool#is_display_enabled}
   */
   readonly isDisplayEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#is_keyboard_enabled DesktopsDesktopPool#is_keyboard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#is_keyboard_enabled DesktopsDesktopPool#is_keyboard_enabled}
   */
   readonly isKeyboardEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#is_pointer_enabled DesktopsDesktopPool#is_pointer_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#is_pointer_enabled DesktopsDesktopPool#is_pointer_enabled}
   */
   readonly isPointerEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#is_printing_enabled DesktopsDesktopPool#is_printing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#is_printing_enabled DesktopsDesktopPool#is_printing_enabled}
   */
   readonly isPrintingEnabled: boolean | cdktf.IResolvable;
 }
@@ -745,15 +745,15 @@ export class DesktopsDesktopPoolDevicePolicyOutputReference extends cdktf.Comple
 }
 export interface DesktopsDesktopPoolImage {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#image_id DesktopsDesktopPool#image_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#image_id DesktopsDesktopPool#image_id}
   */
   readonly imageId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#image_name DesktopsDesktopPool#image_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#image_name DesktopsDesktopPool#image_name}
   */
   readonly imageName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#operating_system DesktopsDesktopPool#operating_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#operating_system DesktopsDesktopPool#operating_system}
   */
   readonly operatingSystem?: string;
 }
@@ -889,11 +889,11 @@ export class DesktopsDesktopPoolImageOutputReference extends cdktf.ComplexObject
 }
 export interface DesktopsDesktopPoolNetworkConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#subnet_id DesktopsDesktopPool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#subnet_id DesktopsDesktopPool#subnet_id}
   */
   readonly subnetId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#vcn_id DesktopsDesktopPool#vcn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#vcn_id DesktopsDesktopPool#vcn_id}
   */
   readonly vcnId: string;
 }
@@ -1000,15 +1000,15 @@ export class DesktopsDesktopPoolNetworkConfigurationOutputReference extends cdkt
 }
 export interface DesktopsDesktopPoolPrivateAccessDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#nsg_ids DesktopsDesktopPool#nsg_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#nsg_ids DesktopsDesktopPool#nsg_ids}
   */
   readonly nsgIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#private_ip DesktopsDesktopPool#private_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#private_ip DesktopsDesktopPool#private_ip}
   */
   readonly privateIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#subnet_id DesktopsDesktopPool#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#subnet_id DesktopsDesktopPool#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -1157,11 +1157,11 @@ export class DesktopsDesktopPoolPrivateAccessDetailsOutputReference extends cdkt
 }
 export interface DesktopsDesktopPoolSessionLifecycleActionsDisconnect {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}
   */
   readonly gracePeriodInMinutes?: number;
 }
@@ -1271,11 +1271,11 @@ export class DesktopsDesktopPoolSessionLifecycleActionsDisconnectOutputReference
 }
 export interface DesktopsDesktopPoolSessionLifecycleActionsInactivity {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#action DesktopsDesktopPool#action}
   */
   readonly action: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#grace_period_in_minutes DesktopsDesktopPool#grace_period_in_minutes}
   */
   readonly gracePeriodInMinutes?: number;
 }
@@ -1387,13 +1387,13 @@ export interface DesktopsDesktopPoolSessionLifecycleActions {
   /**
   * disconnect block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#disconnect DesktopsDesktopPool#disconnect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#disconnect DesktopsDesktopPool#disconnect}
   */
   readonly disconnect?: DesktopsDesktopPoolSessionLifecycleActionsDisconnect;
   /**
   * inactivity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#inactivity DesktopsDesktopPool#inactivity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#inactivity DesktopsDesktopPool#inactivity}
   */
   readonly inactivity?: DesktopsDesktopPoolSessionLifecycleActionsInactivity;
 }
@@ -1506,15 +1506,15 @@ export class DesktopsDesktopPoolSessionLifecycleActionsOutputReference extends c
 }
 export interface DesktopsDesktopPoolShapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#baseline_ocpu_utilization DesktopsDesktopPool#baseline_ocpu_utilization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#baseline_ocpu_utilization DesktopsDesktopPool#baseline_ocpu_utilization}
   */
   readonly baselineOcpuUtilization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#memory_in_gbs DesktopsDesktopPool#memory_in_gbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#memory_in_gbs DesktopsDesktopPool#memory_in_gbs}
   */
   readonly memoryInGbs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#ocpus DesktopsDesktopPool#ocpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#ocpus DesktopsDesktopPool#ocpus}
   */
   readonly ocpus?: string;
 }
@@ -1656,15 +1656,15 @@ export class DesktopsDesktopPoolShapeConfigOutputReference extends cdktf.Complex
 }
 export interface DesktopsDesktopPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#create DesktopsDesktopPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#create DesktopsDesktopPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#delete DesktopsDesktopPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#delete DesktopsDesktopPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#update DesktopsDesktopPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#update DesktopsDesktopPool#update}
   */
   readonly update?: string;
 }
@@ -1816,7 +1816,7 @@ export class DesktopsDesktopPoolTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool}
 */
 export class DesktopsDesktopPool extends cdktf.TerraformResource {
 
@@ -1832,7 +1832,7 @@ export class DesktopsDesktopPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DesktopsDesktopPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DesktopsDesktopPool to import
-  * @param importFromId The id of the existing DesktopsDesktopPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DesktopsDesktopPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DesktopsDesktopPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1844,7 +1844,7 @@ export class DesktopsDesktopPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/desktops_desktop_pool oci_desktops_desktop_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1855,8 +1855,8 @@ export class DesktopsDesktopPool extends cdktf.TerraformResource {
       terraformResourceType: 'oci_desktops_desktop_pool',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

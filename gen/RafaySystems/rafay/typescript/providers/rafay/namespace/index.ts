@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#id Namespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#id Namespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface NamespaceConfig extends cdktf.TerraformMetaArguments {
   /**
   * impersonate user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#impersonate Namespace#impersonate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#impersonate Namespace#impersonate}
   */
   readonly impersonate?: string;
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#metadata Namespace#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#metadata Namespace#metadata}
   */
   readonly metadata?: NamespaceMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#spec Namespace#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#spec Namespace#spec}
   */
   readonly spec?: NamespaceSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#timeouts Namespace#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#timeouts Namespace#timeouts}
   */
   readonly timeouts?: NamespaceTimeouts;
 }
@@ -43,7 +43,7 @@ export interface NamespaceMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#id Namespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#id Namespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -52,13 +52,13 @@ export interface NamespaceMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#is_sso_user Namespace#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#is_sso_user Namespace#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#username Namespace#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#username Namespace#username}
   */
   readonly username?: string;
 }
@@ -202,7 +202,7 @@ export interface NamespaceMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#id Namespace#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#id Namespace#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -211,13 +211,13 @@ export interface NamespaceMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#is_sso_user Namespace#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#is_sso_user Namespace#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#username Namespace#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#username Namespace#username}
   */
   readonly username?: string;
 }
@@ -361,49 +361,49 @@ export interface NamespaceMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#annotations Namespace#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#annotations Namespace#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#description Namespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#description Namespace#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#display_name Namespace#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#display_name Namespace#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#labels Namespace#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#labels Namespace#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#name Namespace#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#project Namespace#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#project Namespace#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#created_by Namespace#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#created_by Namespace#created_by}
   */
   readonly createdBy?: NamespaceMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#modified_by Namespace#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#modified_by Namespace#modified_by}
   */
   readonly modifiedBy?: NamespaceMetadataModifiedBy;
 }
@@ -692,7 +692,7 @@ export interface NamespaceSpecArtifactPathOptionsOverride {
   /**
   * Specify the type of override this file supports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#type Namespace#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#type Namespace#type}
   */
   readonly type?: string;
 }
@@ -778,13 +778,13 @@ export interface NamespaceSpecArtifactPathOptionsSchema {
   /**
   * JSONSchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#jsonschema Namespace#jsonschema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#jsonschema Namespace#jsonschema}
   */
   readonly jsonschema?: string;
   /**
   * UISchema definition of given variable that conforms to react-jsonschema-form library norms
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#uischema Namespace#uischema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#uischema Namespace#uischema}
   */
   readonly uischema?: string;
 }
@@ -899,37 +899,37 @@ export interface NamespaceSpecArtifactPathOptions {
   /**
   * Description of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#description Namespace#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#description Namespace#description}
   */
   readonly description?: string;
   /**
   * Display metadata to render file on UI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#display_metadata Namespace#display_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#display_metadata Namespace#display_metadata}
   */
   readonly displayMetadata?: string;
   /**
   * Determines whether the file is required / mandatory
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#required Namespace#required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#required Namespace#required}
   */
   readonly required?: boolean | cdktf.IResolvable;
   /**
   * data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#sensitive Namespace#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#sensitive Namespace#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#override Namespace#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#override Namespace#override}
   */
   readonly override?: NamespaceSpecArtifactPathOptionsOverride;
   /**
   * schema block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#schema Namespace#schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#schema Namespace#schema}
   */
   readonly schema?: NamespaceSpecArtifactPathOptionsSchema;
 }
@@ -1160,31 +1160,31 @@ export interface NamespaceSpecArtifactPath {
   /**
   * data is the base64 encoded contents of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#data Namespace#data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#data Namespace#data}
   */
   readonly data?: string;
   /**
   * specify mount path of the file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#mount_path Namespace#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#mount_path Namespace#mount_path}
   */
   readonly mountPath?: string;
   /**
   * Name or relative path of a artifact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#name Namespace#name}
   */
   readonly name?: string;
   /**
   * Deprected: use options.sensitive. data is encrypted  if sensitive is set to true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#sensitive Namespace#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#sensitive Namespace#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#options Namespace#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#options Namespace#options}
   */
   readonly options?: NamespaceSpecArtifactPathOptions;
 }
@@ -1386,19 +1386,19 @@ export interface NamespaceSpecArtifact {
   /**
   * name of the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#repository Namespace#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#repository Namespace#repository}
   */
   readonly repository?: string;
   /**
   * branch or tag in the git repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#revision Namespace#revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#revision Namespace#revision}
   */
   readonly revision?: string;
   /**
   * path block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#path Namespace#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#path Namespace#path}
   */
   readonly path?: NamespaceSpecArtifactPath;
 }
@@ -1542,13 +1542,13 @@ export interface NamespaceSpecDrift {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#action Namespace#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#action Namespace#action}
   */
   readonly action?: string;
   /**
   * flag to specify if drift reconcillation is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#enabled Namespace#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#enabled Namespace#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1663,13 +1663,13 @@ export interface NamespaceSpecLimitRangeContainerDefault {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -1784,13 +1784,13 @@ export interface NamespaceSpecLimitRangeContainerDefaultRequest {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -1905,13 +1905,13 @@ export interface NamespaceSpecLimitRangeContainerMax {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -2026,13 +2026,13 @@ export interface NamespaceSpecLimitRangeContainerMin {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -2147,13 +2147,13 @@ export interface NamespaceSpecLimitRangeContainerRatio {
   /**
   * ratio of cpu requests to limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: number;
   /**
   * ratio of memory requests to limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: number;
 }
@@ -2268,31 +2268,31 @@ export interface NamespaceSpecLimitRangeContainer {
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#default Namespace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#default Namespace#default}
   */
   readonly default?: NamespaceSpecLimitRangeContainerDefault;
   /**
   * default_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#default_request Namespace#default_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#default_request Namespace#default_request}
   */
   readonly defaultRequest?: NamespaceSpecLimitRangeContainerDefaultRequest;
   /**
   * max block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#max Namespace#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#max Namespace#max}
   */
   readonly max?: NamespaceSpecLimitRangeContainerMax;
   /**
   * min block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#min Namespace#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#min Namespace#min}
   */
   readonly min?: NamespaceSpecLimitRangeContainerMin;
   /**
   * ratio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#ratio Namespace#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#ratio Namespace#ratio}
   */
   readonly ratio?: NamespaceSpecLimitRangeContainerRatio;
 }
@@ -2494,13 +2494,13 @@ export interface NamespaceSpecLimitRangePodDefault {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -2615,13 +2615,13 @@ export interface NamespaceSpecLimitRangePodDefaultRequest {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -2736,13 +2736,13 @@ export interface NamespaceSpecLimitRangePodMax {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -2857,13 +2857,13 @@ export interface NamespaceSpecLimitRangePodMin {
   /**
   * quantity of CPU in cores
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: string;
   /**
   * quantity of memory in MB
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: string;
 }
@@ -2978,13 +2978,13 @@ export interface NamespaceSpecLimitRangePodRatio {
   /**
   * ratio of cpu requests to limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu Namespace#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu Namespace#cpu}
   */
   readonly cpu?: number;
   /**
   * ratio of memory requests to limits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory Namespace#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory Namespace#memory}
   */
   readonly memory?: number;
 }
@@ -3099,31 +3099,31 @@ export interface NamespaceSpecLimitRangePod {
   /**
   * default block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#default Namespace#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#default Namespace#default}
   */
   readonly default?: NamespaceSpecLimitRangePodDefault;
   /**
   * default_request block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#default_request Namespace#default_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#default_request Namespace#default_request}
   */
   readonly defaultRequest?: NamespaceSpecLimitRangePodDefaultRequest;
   /**
   * max block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#max Namespace#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#max Namespace#max}
   */
   readonly max?: NamespaceSpecLimitRangePodMax;
   /**
   * min block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#min Namespace#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#min Namespace#min}
   */
   readonly min?: NamespaceSpecLimitRangePodMin;
   /**
   * ratio block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#ratio Namespace#ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#ratio Namespace#ratio}
   */
   readonly ratio?: NamespaceSpecLimitRangePodRatio;
 }
@@ -3325,13 +3325,13 @@ export interface NamespaceSpecLimitRange {
   /**
   * container block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#container Namespace#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#container Namespace#container}
   */
   readonly container?: NamespaceSpecLimitRangeContainer;
   /**
   * pod block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#pod Namespace#pod}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#pod Namespace#pod}
   */
   readonly pod?: NamespaceSpecLimitRangePod;
 }
@@ -3446,25 +3446,25 @@ export interface NamespaceSpecNamespaceMeshPolicyParamsPolicies {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#name Namespace#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#system_catalog Namespace#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#system_catalog Namespace#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#version Namespace#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#version Namespace#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#version_state Namespace#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#version_state Namespace#version_state}
   */
   readonly versionState?: string;
 }
@@ -3669,13 +3669,13 @@ export interface NamespaceSpecNamespaceMeshPolicyParams {
   /**
   * Service Mesh enabled flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#mesh_enabled Namespace#mesh_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#mesh_enabled Namespace#mesh_enabled}
   */
   readonly meshEnabled?: boolean | cdktf.IResolvable;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#policies Namespace#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#policies Namespace#policies}
   */
   readonly policies?: NamespaceSpecNamespaceMeshPolicyParamsPolicies[] | cdktf.IResolvable;
 }
@@ -3790,25 +3790,25 @@ export interface NamespaceSpecNetworkPolicyParamsPolicies {
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#name Namespace#name}
   */
   readonly name?: string;
   /**
   * Indicates if a resource is from system catalog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#system_catalog Namespace#system_catalog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#system_catalog Namespace#system_catalog}
   */
   readonly systemCatalog?: boolean | cdktf.IResolvable;
   /**
   * version of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#version Namespace#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#version Namespace#version}
   */
   readonly version?: string;
   /**
   * state of the resource version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#version_state Namespace#version_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#version_state Namespace#version_state}
   */
   readonly versionState?: string;
 }
@@ -4013,13 +4013,13 @@ export interface NamespaceSpecNetworkPolicyParams {
   /**
   * Network policy enabled flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#network_policy_enabled Namespace#network_policy_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#network_policy_enabled Namespace#network_policy_enabled}
   */
   readonly networkPolicyEnabled?: boolean | cdktf.IResolvable;
   /**
   * policies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#policies Namespace#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#policies Namespace#policies}
   */
   readonly policies?: NamespaceSpecNetworkPolicyParamsPolicies[] | cdktf.IResolvable;
 }
@@ -4134,7 +4134,7 @@ export interface NamespaceSpecPlacementEnvironment {
   /**
   * Name of the environment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#name Namespace#name}
   */
   readonly name?: string;
 }
@@ -4220,13 +4220,13 @@ export interface NamespaceSpecPlacementLabels {
   /**
   * Key of the placement label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#key Namespace#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#key Namespace#key}
   */
   readonly key?: string;
   /**
   * Value of the placement label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#value Namespace#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#value Namespace#value}
   */
   readonly value?: string;
 }
@@ -4373,19 +4373,19 @@ export interface NamespaceSpecPlacement {
   /**
   * Kubernetes style label selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#selector Namespace#selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#selector Namespace#selector}
   */
   readonly selector?: string;
   /**
   * environment block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#environment Namespace#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#environment Namespace#environment}
   */
   readonly environment?: NamespaceSpecPlacementEnvironment;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#labels Namespace#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#labels Namespace#labels}
   */
   readonly labels?: NamespaceSpecPlacementLabels[] | cdktf.IResolvable;
 }
@@ -4529,7 +4529,7 @@ export interface NamespaceSpecPsp {
   /**
   * name of the PSP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#name Namespace#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#name Namespace#name}
   */
   readonly name?: string;
 }
@@ -4615,103 +4615,103 @@ export interface NamespaceSpecResourceQuotas {
   /**
   * The maximum number of ConfigMaps that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#config_maps Namespace#config_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#config_maps Namespace#config_maps}
   */
   readonly configMaps?: string;
   /**
   * The maximum amount of CPU (in millicores) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu_limits Namespace#cpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu_limits Namespace#cpu_limits}
   */
   readonly cpuLimits?: string;
   /**
   * The minimum amount of CPU (in millicores) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#cpu_requests Namespace#cpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#cpu_requests Namespace#cpu_requests}
   */
   readonly cpuRequests?: string;
   /**
   * The maximum sum of all storage limits from all pods in the namespace. This caps the total maximum potential storage usage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#ephemeral_storage_limits Namespace#ephemeral_storage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#ephemeral_storage_limits Namespace#ephemeral_storage_limits}
   */
   readonly ephemeralStorageLimits?: string;
   /**
   * The maximum sum of all storage requests from all pods in the namespace. This is the minimum amount of ephemeral storage (in bytes) 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#ephemeral_storage_requests Namespace#ephemeral_storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#ephemeral_storage_requests Namespace#ephemeral_storage_requests}
   */
   readonly ephemeralStorageRequests?: string;
   /**
   * The maximum amount of GPU (in millicores) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#gpu_limits Namespace#gpu_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#gpu_limits Namespace#gpu_limits}
   */
   readonly gpuLimits?: string;
   /**
   * The minimum amount of GPU (in millicores) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#gpu_requests Namespace#gpu_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#gpu_requests Namespace#gpu_requests}
   */
   readonly gpuRequests?: string;
   /**
   * The maximum amount of memory (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory_limits Namespace#memory_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory_limits Namespace#memory_limits}
   */
   readonly memoryLimits?: string;
   /**
   * The minimum amount of memory (in bytes) allocated to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#memory_requests Namespace#memory_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#memory_requests Namespace#memory_requests}
   */
   readonly memoryRequests?: string;
   /**
   * The maximum number of persistent volume claims that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#persistent_volume_claims Namespace#persistent_volume_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#persistent_volume_claims Namespace#persistent_volume_claims}
   */
   readonly persistentVolumeClaims?: string;
   /**
   * The maximum number of pods that can exist in the project/namespace in a non-terminal state(i.e., pods with a state of .status.phase in (Failed, Succeeded) equal to true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#pods Namespace#pods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#pods Namespace#pods}
   */
   readonly pods?: string;
   /**
   * The maximum number of replication controllers that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#replication_controllers Namespace#replication_controllers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#replication_controllers Namespace#replication_controllers}
   */
   readonly replicationControllers?: string;
   /**
   * The maximum number of secrets that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#secrets Namespace#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#secrets Namespace#secrets}
   */
   readonly secrets?: string;
   /**
   * The maximum number of services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#services Namespace#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#services Namespace#services}
   */
   readonly services?: string;
   /**
   * The maximum number of load balancers services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#services_load_balancers Namespace#services_load_balancers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#services_load_balancers Namespace#services_load_balancers}
   */
   readonly servicesLoadBalancers?: string;
   /**
   * The maximum number of node port services that can exist in the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#services_node_ports Namespace#services_node_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#services_node_ports Namespace#services_node_ports}
   */
   readonly servicesNodePorts?: string;
   /**
   * The minimum amount of storage (in gigabytes) guaranteed to the project/namespace
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#storage_requests Namespace#storage_requests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#storage_requests Namespace#storage_requests}
   */
   readonly storageRequests?: string;
 }
@@ -5259,11 +5259,11 @@ export class NamespaceSpecResourceQuotasOutputReference extends cdktf.ComplexObj
 }
 export interface NamespaceSpecSyncType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#managed Namespace#managed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#managed Namespace#managed}
   */
   readonly managed?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#unmanaged Namespace#unmanaged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#unmanaged Namespace#unmanaged}
   */
   readonly unmanaged?: string;
 }
@@ -5378,55 +5378,55 @@ export interface NamespaceSpec {
   /**
   * artifact block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#artifact Namespace#artifact}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#artifact Namespace#artifact}
   */
   readonly artifact?: NamespaceSpecArtifact;
   /**
   * drift block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#drift Namespace#drift}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#drift Namespace#drift}
   */
   readonly drift?: NamespaceSpecDrift;
   /**
   * limit_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#limit_range Namespace#limit_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#limit_range Namespace#limit_range}
   */
   readonly limitRange?: NamespaceSpecLimitRange;
   /**
   * namespace_mesh_policy_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#namespace_mesh_policy_params Namespace#namespace_mesh_policy_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#namespace_mesh_policy_params Namespace#namespace_mesh_policy_params}
   */
   readonly namespaceMeshPolicyParams?: NamespaceSpecNamespaceMeshPolicyParams;
   /**
   * network_policy_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#network_policy_params Namespace#network_policy_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#network_policy_params Namespace#network_policy_params}
   */
   readonly networkPolicyParams?: NamespaceSpecNetworkPolicyParams;
   /**
   * placement block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#placement Namespace#placement}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#placement Namespace#placement}
   */
   readonly placement?: NamespaceSpecPlacement;
   /**
   * psp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#psp Namespace#psp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#psp Namespace#psp}
   */
   readonly psp?: NamespaceSpecPsp;
   /**
   * resource_quotas block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#resource_quotas Namespace#resource_quotas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#resource_quotas Namespace#resource_quotas}
   */
   readonly resourceQuotas?: NamespaceSpecResourceQuotas;
   /**
   * sync_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#sync_type Namespace#sync_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#sync_type Namespace#sync_type}
   */
   readonly syncType?: NamespaceSpecSyncType;
 }
@@ -5742,15 +5742,15 @@ export class NamespaceSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface NamespaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#create Namespace#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#create Namespace#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#delete Namespace#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#delete Namespace#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#update Namespace#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#update Namespace#update}
   */
   readonly update?: string;
 }
@@ -5902,7 +5902,7 @@ export class NamespaceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace rafay_namespace}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace rafay_namespace}
 */
 export class Namespace extends cdktf.TerraformResource {
 
@@ -5918,7 +5918,7 @@ export class Namespace extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Namespace resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Namespace to import
-  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Namespace that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Namespace to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5930,7 +5930,7 @@ export class Namespace extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/namespace rafay_namespace} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/namespace rafay_namespace} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5941,8 +5941,8 @@ export class Namespace extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_namespace',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

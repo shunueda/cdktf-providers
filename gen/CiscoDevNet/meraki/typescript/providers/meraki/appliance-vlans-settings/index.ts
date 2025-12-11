@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vlans_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceVlansSettingsConfig extends cdktf.TerraformMetaArgumen
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans_settings#network_id ApplianceVlansSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vlans_settings#network_id ApplianceVlansSettings#network_id}
   */
   readonly networkId: string;
   /**
   * Boolean indicating whether to enable (true) or disable (false) VLANs for the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans_settings#vlans_enabled ApplianceVlansSettings#vlans_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vlans_settings#vlans_enabled ApplianceVlansSettings#vlans_enabled}
   */
   readonly vlansEnabled: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans_settings meraki_appliance_vlans_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vlans_settings meraki_appliance_vlans_settings}
 */
 export class ApplianceVlansSettings extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class ApplianceVlansSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceVlansSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceVlansSettings to import
-  * @param importFromId The id of the existing ApplianceVlansSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceVlansSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vlans_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceVlansSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class ApplianceVlansSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_vlans_settings meraki_appliance_vlans_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_vlans_settings meraki_appliance_vlans_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class ApplianceVlansSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_vlans_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

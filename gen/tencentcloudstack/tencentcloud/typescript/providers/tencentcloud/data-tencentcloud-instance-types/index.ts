@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DataTencentcloudInstanceTypesConfig extends cdktf.TerraformMeta
   /**
   * The available zone that the CVM instance locates at. This field is conflict with `filter`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#availability_zone DataTencentcloudInstanceTypes#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#availability_zone DataTencentcloudInstanceTypes#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The number of CPU cores of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#cpu_core_count DataTencentcloudInstanceTypes#cpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#cpu_core_count DataTencentcloudInstanceTypes#cpu_core_count}
   */
   readonly cpuCoreCount?: number;
   /**
   * Indicate to filter instances types that is sold out or not, default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#exclude_sold_out DataTencentcloudInstanceTypes#exclude_sold_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#exclude_sold_out DataTencentcloudInstanceTypes#exclude_sold_out}
   */
   readonly excludeSoldOut?: boolean | cdktf.IResolvable;
   /**
   * The number of GPU cores of the instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#gpu_core_count DataTencentcloudInstanceTypes#gpu_core_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#gpu_core_count DataTencentcloudInstanceTypes#gpu_core_count}
   */
   readonly gpuCoreCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#id DataTencentcloudInstanceTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#id DataTencentcloudInstanceTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,25 +41,25 @@ export interface DataTencentcloudInstanceTypesConfig extends cdktf.TerraformMeta
   /**
   * Instance memory capacity, unit in GB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#memory_size DataTencentcloudInstanceTypes#memory_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#memory_size DataTencentcloudInstanceTypes#memory_size}
   */
   readonly memorySize?: number;
   /**
   * Used to save results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#result_output_file DataTencentcloudInstanceTypes#result_output_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#result_output_file DataTencentcloudInstanceTypes#result_output_file}
   */
   readonly resultOutputFile?: string;
   /**
   * cbs_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#cbs_filter DataTencentcloudInstanceTypes#cbs_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#cbs_filter DataTencentcloudInstanceTypes#cbs_filter}
   */
   readonly cbsFilter?: DataTencentcloudInstanceTypesCbsFilter;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#filter DataTencentcloudInstanceTypes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#filter DataTencentcloudInstanceTypes#filter}
   */
   readonly filter?: DataTencentcloudInstanceTypesFilter[] | cdktf.IResolvable;
 }
@@ -310,7 +310,7 @@ export interface DataTencentcloudInstanceTypesCbsFilter {
   * 	- PREPAID: Prepaid;
   * 	- POSTPAID_BY_HOUR: Post-payment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#disk_charge_type DataTencentcloudInstanceTypes#disk_charge_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#disk_charge_type DataTencentcloudInstanceTypes#disk_charge_type}
   */
   readonly diskChargeType?: string;
   /**
@@ -320,7 +320,7 @@ export interface DataTencentcloudInstanceTypesCbsFilter {
   * 	- CLOUD_SSD: Represents SSD Cloud Block Storage;
   * 	- CLOUD_HSSD: Represents enhanced SSD Cloud Block Storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#disk_types DataTencentcloudInstanceTypes#disk_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#disk_types DataTencentcloudInstanceTypes#disk_types}
   */
   readonly diskTypes?: string[];
   /**
@@ -328,7 +328,7 @@ export interface DataTencentcloudInstanceTypesCbsFilter {
   * 	- SYSTEM_DISK: Represents the system disk;
   * 	- DATA_DISK: Represents the data disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#disk_usage DataTencentcloudInstanceTypes#disk_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#disk_usage DataTencentcloudInstanceTypes#disk_usage}
   */
   readonly diskUsage?: string;
 }
@@ -472,13 +472,13 @@ export interface DataTencentcloudInstanceTypesFilter {
   /**
   * The filter name. Valid values: `zone`, `instance-family` and `instance-charge-type`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#name DataTencentcloudInstanceTypes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#name DataTencentcloudInstanceTypes#name}
   */
   readonly name: string;
   /**
   * The filter values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#values DataTencentcloudInstanceTypes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#values DataTencentcloudInstanceTypes#values}
   */
   readonly values: string[];
 }
@@ -617,7 +617,7 @@ export class DataTencentcloudInstanceTypesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types tencentcloud_instance_types}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types tencentcloud_instance_types}
 */
 export class DataTencentcloudInstanceTypes extends cdktf.TerraformDataSource {
 
@@ -633,7 +633,7 @@ export class DataTencentcloudInstanceTypes extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataTencentcloudInstanceTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataTencentcloudInstanceTypes to import
-  * @param importFromId The id of the existing DataTencentcloudInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataTencentcloudInstanceTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataTencentcloudInstanceTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -645,7 +645,7 @@ export class DataTencentcloudInstanceTypes extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/data-sources/instance_types tencentcloud_instance_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/data-sources/instance_types tencentcloud_instance_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -656,8 +656,8 @@ export class DataTencentcloudInstanceTypes extends cdktf.TerraformDataSource {
       terraformResourceType: 'tencentcloud_instance_types',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

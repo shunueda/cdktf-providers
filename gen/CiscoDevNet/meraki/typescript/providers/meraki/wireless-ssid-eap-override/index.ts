@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface WirelessSsidEapOverrideConfig extends cdktf.TerraformMetaArgume
   /**
   * Maximum number of EAPOL key retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#eapol_key_retries WirelessSsidEapOverride#eapol_key_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#eapol_key_retries WirelessSsidEapOverride#eapol_key_retries}
   */
   readonly eapolKeyRetries?: number;
   /**
   * EAPOL Key timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#eapol_key_timeout_in_ms WirelessSsidEapOverride#eapol_key_timeout_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#eapol_key_timeout_in_ms WirelessSsidEapOverride#eapol_key_timeout_in_ms}
   */
   readonly eapolKeyTimeoutInMs?: number;
   /**
   * Maximum number of EAP retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#identity_retries WirelessSsidEapOverride#identity_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#identity_retries WirelessSsidEapOverride#identity_retries}
   */
   readonly identityRetries?: number;
   /**
   * EAP timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#identity_timeout WirelessSsidEapOverride#identity_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#identity_timeout WirelessSsidEapOverride#identity_timeout}
   */
   readonly identityTimeout?: number;
   /**
   * Maximum number of general EAP retries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#max_retries WirelessSsidEapOverride#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#max_retries WirelessSsidEapOverride#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#network_id WirelessSsidEapOverride#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#network_id WirelessSsidEapOverride#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#number WirelessSsidEapOverride#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#number WirelessSsidEapOverride#number}
   */
   readonly number: string;
   /**
   * General EAP timeout in seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#timeout WirelessSsidEapOverride#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#timeout WirelessSsidEapOverride#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override meraki_wireless_ssid_eap_override}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override meraki_wireless_ssid_eap_override}
 */
 export class WirelessSsidEapOverride extends cdktf.TerraformResource {
 
@@ -74,7 +74,7 @@ export class WirelessSsidEapOverride extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidEapOverride resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidEapOverride to import
-  * @param importFromId The id of the existing WirelessSsidEapOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidEapOverride that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidEapOverride to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class WirelessSsidEapOverride extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_eap_override meraki_wireless_ssid_eap_override} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_eap_override meraki_wireless_ssid_eap_override} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class WirelessSsidEapOverride extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_eap_override',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

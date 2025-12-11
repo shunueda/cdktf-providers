@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,197 +10,197 @@ export interface ApplianceUplinksSettingsConfig extends cdktf.TerraformMetaArgum
   /**
   * Enable or disable the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_enabled ApplianceUplinksSettings#interfaces_wan1_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_enabled ApplianceUplinksSettings#interfaces_wan1_enabled}
   */
   readonly interfacesWan1Enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether PPPoE authentication is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_authentication_enabled ApplianceUplinksSettings#interfaces_wan1_pppoe_authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_authentication_enabled ApplianceUplinksSettings#interfaces_wan1_pppoe_authentication_enabled}
   */
   readonly interfacesWan1PppoeAuthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Password for PPPoE authentication. This parameter is not returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_authentication_password ApplianceUplinksSettings#interfaces_wan1_pppoe_authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_authentication_password ApplianceUplinksSettings#interfaces_wan1_pppoe_authentication_password}
   */
   readonly interfacesWan1PppoeAuthenticationPassword?: string;
   /**
   * Username for PPPoE authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_authentication_username ApplianceUplinksSettings#interfaces_wan1_pppoe_authentication_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_authentication_username ApplianceUplinksSettings#interfaces_wan1_pppoe_authentication_username}
   */
   readonly interfacesWan1PppoeAuthenticationUsername?: string;
   /**
   * Whether PPPoE is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_enabled ApplianceUplinksSettings#interfaces_wan1_pppoe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_pppoe_enabled ApplianceUplinksSettings#interfaces_wan1_pppoe_enabled}
   */
   readonly interfacesWan1PppoeEnabled?: boolean | cdktf.IResolvable;
   /**
   * IP address and subnet mask when in static mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_address ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_address ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_address}
   */
   readonly interfacesWan1SvisIpv4Address?: string;
   /**
   * The assignment mode for this SVI. Applies only when PPPoE is disabled.
   *   - Choices: `dynamic`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_assignment_mode ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_assignment_mode ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_assignment_mode}
   */
   readonly interfacesWan1SvisIpv4AssignmentMode?: string;
   /**
   * Gateway IP address when in static mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_gateway ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_gateway ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_gateway}
   */
   readonly interfacesWan1SvisIpv4Gateway?: string;
   /**
   * Up to 2 nameserver addresses to use, ordered in priority from highest to lowest priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_nameservers_addresses ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_nameservers_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv4_nameservers_addresses ApplianceUplinksSettings#interfaces_wan1_svis_ipv4_nameservers_addresses}
   */
   readonly interfacesWan1SvisIpv4NameserversAddresses?: string[];
   /**
   * Static address that will override the one(s) received by SLAAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_address ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_address ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_address}
   */
   readonly interfacesWan1SvisIpv6Address?: string;
   /**
   * The assignment mode for this SVI. Applies only when PPPoE is disabled.
   *   - Choices: `dynamic`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_assignment_mode ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_assignment_mode ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_assignment_mode}
   */
   readonly interfacesWan1SvisIpv6AssignmentMode?: string;
   /**
   * Static gateway that will override the one received by autoconf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_gateway ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_gateway ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_gateway}
   */
   readonly interfacesWan1SvisIpv6Gateway?: string;
   /**
   * Up to 2 nameserver addresses to use, ordered in priority from highest to lowest priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_nameservers_addresses ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_nameservers_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_svis_ipv6_nameservers_addresses ApplianceUplinksSettings#interfaces_wan1_svis_ipv6_nameservers_addresses}
   */
   readonly interfacesWan1SvisIpv6NameserversAddresses?: string[];
   /**
   * Whether VLAN tagging is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_vlan_tagging_enabled ApplianceUplinksSettings#interfaces_wan1_vlan_tagging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_vlan_tagging_enabled ApplianceUplinksSettings#interfaces_wan1_vlan_tagging_enabled}
   */
   readonly interfacesWan1VlanTaggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VLAN to use for VLAN tagging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_vlan_tagging_vlan_id ApplianceUplinksSettings#interfaces_wan1_vlan_tagging_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan1_vlan_tagging_vlan_id ApplianceUplinksSettings#interfaces_wan1_vlan_tagging_vlan_id}
   */
   readonly interfacesWan1VlanTaggingVlanId?: number;
   /**
   * Enable or disable the interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_enabled ApplianceUplinksSettings#interfaces_wan2_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_enabled ApplianceUplinksSettings#interfaces_wan2_enabled}
   */
   readonly interfacesWan2Enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether PPPoE authentication is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_authentication_enabled ApplianceUplinksSettings#interfaces_wan2_pppoe_authentication_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_authentication_enabled ApplianceUplinksSettings#interfaces_wan2_pppoe_authentication_enabled}
   */
   readonly interfacesWan2PppoeAuthenticationEnabled?: boolean | cdktf.IResolvable;
   /**
   * Password for PPPoE authentication. This parameter is not returned.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_authentication_password ApplianceUplinksSettings#interfaces_wan2_pppoe_authentication_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_authentication_password ApplianceUplinksSettings#interfaces_wan2_pppoe_authentication_password}
   */
   readonly interfacesWan2PppoeAuthenticationPassword?: string;
   /**
   * Username for PPPoE authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_authentication_username ApplianceUplinksSettings#interfaces_wan2_pppoe_authentication_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_authentication_username ApplianceUplinksSettings#interfaces_wan2_pppoe_authentication_username}
   */
   readonly interfacesWan2PppoeAuthenticationUsername?: string;
   /**
   * Whether PPPoE is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_enabled ApplianceUplinksSettings#interfaces_wan2_pppoe_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_pppoe_enabled ApplianceUplinksSettings#interfaces_wan2_pppoe_enabled}
   */
   readonly interfacesWan2PppoeEnabled?: boolean | cdktf.IResolvable;
   /**
   * IP address and subnet mask when in static mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_address ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_address ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_address}
   */
   readonly interfacesWan2SvisIpv4Address?: string;
   /**
   * The assignment mode for this SVI. Applies only when PPPoE is disabled.
   *   - Choices: `dynamic`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_assignment_mode ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_assignment_mode ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_assignment_mode}
   */
   readonly interfacesWan2SvisIpv4AssignmentMode?: string;
   /**
   * Gateway IP address when in static mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_gateway ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_gateway ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_gateway}
   */
   readonly interfacesWan2SvisIpv4Gateway?: string;
   /**
   * Up to 2 nameserver addresses to use, ordered in priority from highest to lowest priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_nameservers_addresses ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_nameservers_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv4_nameservers_addresses ApplianceUplinksSettings#interfaces_wan2_svis_ipv4_nameservers_addresses}
   */
   readonly interfacesWan2SvisIpv4NameserversAddresses?: string[];
   /**
   * Static address that will override the one(s) received by SLAAC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_address ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_address ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_address}
   */
   readonly interfacesWan2SvisIpv6Address?: string;
   /**
   * The assignment mode for this SVI. Applies only when PPPoE is disabled.
   *   - Choices: `dynamic`, `static`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_assignment_mode ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_assignment_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_assignment_mode ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_assignment_mode}
   */
   readonly interfacesWan2SvisIpv6AssignmentMode?: string;
   /**
   * Static gateway that will override the one received by autoconf.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_gateway ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_gateway ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_gateway}
   */
   readonly interfacesWan2SvisIpv6Gateway?: string;
   /**
   * Up to 2 nameserver addresses to use, ordered in priority from highest to lowest priority.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_nameservers_addresses ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_nameservers_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_svis_ipv6_nameservers_addresses ApplianceUplinksSettings#interfaces_wan2_svis_ipv6_nameservers_addresses}
   */
   readonly interfacesWan2SvisIpv6NameserversAddresses?: string[];
   /**
   * Whether VLAN tagging is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_vlan_tagging_enabled ApplianceUplinksSettings#interfaces_wan2_vlan_tagging_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_vlan_tagging_enabled ApplianceUplinksSettings#interfaces_wan2_vlan_tagging_enabled}
   */
   readonly interfacesWan2VlanTaggingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The ID of the VLAN to use for VLAN tagging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_vlan_tagging_vlan_id ApplianceUplinksSettings#interfaces_wan2_vlan_tagging_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#interfaces_wan2_vlan_tagging_vlan_id ApplianceUplinksSettings#interfaces_wan2_vlan_tagging_vlan_id}
   */
   readonly interfacesWan2VlanTaggingVlanId?: number;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#serial ApplianceUplinksSettings#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#serial ApplianceUplinksSettings#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings meraki_appliance_uplinks_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings meraki_appliance_uplinks_settings}
 */
 export class ApplianceUplinksSettings extends cdktf.TerraformResource {
 
@@ -216,7 +216,7 @@ export class ApplianceUplinksSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceUplinksSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceUplinksSettings to import
-  * @param importFromId The id of the existing ApplianceUplinksSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceUplinksSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceUplinksSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -228,7 +228,7 @@ export class ApplianceUplinksSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_uplinks_settings meraki_appliance_uplinks_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_uplinks_settings meraki_appliance_uplinks_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -239,8 +239,8 @@ export class ApplianceUplinksSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_uplinks_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

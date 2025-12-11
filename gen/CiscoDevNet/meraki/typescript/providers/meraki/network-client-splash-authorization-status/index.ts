@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface NetworkClientSplashAuthorizationStatusConfig extends cdktf.Terr
   /**
   * Clients can be identified by a client key or either the MAC or IP depending on whether the network uses Track-by-IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#client_id NetworkClientSplashAuthorizationStatus#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#client_id NetworkClientSplashAuthorizationStatus#client_id}
   */
   readonly clientId: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#network_id NetworkClientSplashAuthorizationStatus#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#network_id NetworkClientSplashAuthorizationStatus#network_id}
   */
   readonly networkId: string;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_0_is_authorized NetworkClientSplashAuthorizationStatus#ssids_0_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_0_is_authorized NetworkClientSplashAuthorizationStatus#ssids_0_is_authorized}
   */
   readonly ssids0IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_10_is_authorized NetworkClientSplashAuthorizationStatus#ssids_10_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_10_is_authorized NetworkClientSplashAuthorizationStatus#ssids_10_is_authorized}
   */
   readonly ssids10IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_11_is_authorized NetworkClientSplashAuthorizationStatus#ssids_11_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_11_is_authorized NetworkClientSplashAuthorizationStatus#ssids_11_is_authorized}
   */
   readonly ssids11IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_12_is_authorized NetworkClientSplashAuthorizationStatus#ssids_12_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_12_is_authorized NetworkClientSplashAuthorizationStatus#ssids_12_is_authorized}
   */
   readonly ssids12IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_13_is_authorized NetworkClientSplashAuthorizationStatus#ssids_13_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_13_is_authorized NetworkClientSplashAuthorizationStatus#ssids_13_is_authorized}
   */
   readonly ssids13IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_14_is_authorized NetworkClientSplashAuthorizationStatus#ssids_14_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_14_is_authorized NetworkClientSplashAuthorizationStatus#ssids_14_is_authorized}
   */
   readonly ssids14IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_1_is_authorized NetworkClientSplashAuthorizationStatus#ssids_1_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_1_is_authorized NetworkClientSplashAuthorizationStatus#ssids_1_is_authorized}
   */
   readonly ssids1IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_2_is_authorized NetworkClientSplashAuthorizationStatus#ssids_2_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_2_is_authorized NetworkClientSplashAuthorizationStatus#ssids_2_is_authorized}
   */
   readonly ssids2IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_3_is_authorized NetworkClientSplashAuthorizationStatus#ssids_3_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_3_is_authorized NetworkClientSplashAuthorizationStatus#ssids_3_is_authorized}
   */
   readonly ssids3IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_4_is_authorized NetworkClientSplashAuthorizationStatus#ssids_4_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_4_is_authorized NetworkClientSplashAuthorizationStatus#ssids_4_is_authorized}
   */
   readonly ssids4IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_5_is_authorized NetworkClientSplashAuthorizationStatus#ssids_5_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_5_is_authorized NetworkClientSplashAuthorizationStatus#ssids_5_is_authorized}
   */
   readonly ssids5IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_6_is_authorized NetworkClientSplashAuthorizationStatus#ssids_6_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_6_is_authorized NetworkClientSplashAuthorizationStatus#ssids_6_is_authorized}
   */
   readonly ssids6IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_7_is_authorized NetworkClientSplashAuthorizationStatus#ssids_7_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_7_is_authorized NetworkClientSplashAuthorizationStatus#ssids_7_is_authorized}
   */
   readonly ssids7IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_8_is_authorized NetworkClientSplashAuthorizationStatus#ssids_8_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_8_is_authorized NetworkClientSplashAuthorizationStatus#ssids_8_is_authorized}
   */
   readonly ssids8IsAuthorized?: boolean | cdktf.IResolvable;
   /**
   * New authorization status for the SSID (true, false).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#ssids_9_is_authorized NetworkClientSplashAuthorizationStatus#ssids_9_is_authorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#ssids_9_is_authorized NetworkClientSplashAuthorizationStatus#ssids_9_is_authorized}
   */
   readonly ssids9IsAuthorized?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status}
 */
 export class NetworkClientSplashAuthorizationStatus extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class NetworkClientSplashAuthorizationStatus extends cdktf.TerraformResou
   * Generates CDKTF code for importing a NetworkClientSplashAuthorizationStatus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkClientSplashAuthorizationStatus to import
-  * @param importFromId The id of the existing NetworkClientSplashAuthorizationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkClientSplashAuthorizationStatus that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkClientSplashAuthorizationStatus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class NetworkClientSplashAuthorizationStatus extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_client_splash_authorization_status meraki_network_client_splash_authorization_status} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class NetworkClientSplashAuthorizationStatus extends cdktf.TerraformResou
       terraformResourceType: 'meraki_network_client_splash_authorization_status',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

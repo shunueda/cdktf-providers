@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityDomainsDynamicResourceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#attribute_sets DataOciIdentityDomainsDynamicResourceGroup#attribute_sets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#attribute_sets DataOciIdentityDomainsDynamicResourceGroup#attribute_sets}
   */
   readonly attributeSets?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#attributes DataOciIdentityDomainsDynamicResourceGroup#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#attributes DataOciIdentityDomainsDynamicResourceGroup#attributes}
   */
   readonly attributes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#authorization DataOciIdentityDomainsDynamicResourceGroup#authorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#authorization DataOciIdentityDomainsDynamicResourceGroup#authorization}
   */
   readonly authorization?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#dynamic_resource_group_id DataOciIdentityDomainsDynamicResourceGroup#dynamic_resource_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#dynamic_resource_group_id DataOciIdentityDomainsDynamicResourceGroup#dynamic_resource_group_id}
   */
   readonly dynamicResourceGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#idcs_endpoint DataOciIdentityDomainsDynamicResourceGroup#idcs_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#idcs_endpoint DataOciIdentityDomainsDynamicResourceGroup#idcs_endpoint}
   */
   readonly idcsEndpoint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#resource_type_schema_version DataOciIdentityDomainsDynamicResourceGroup#resource_type_schema_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#resource_type_schema_version DataOciIdentityDomainsDynamicResourceGroup#resource_type_schema_version}
   */
   readonly resourceTypeSchemaVersion?: string;
 }
@@ -846,7 +846,7 @@ export class DataOciIdentityDomainsDynamicResourceGroupUrnietfparamsscimschemaso
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group oci_identity_domains_dynamic_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group oci_identity_domains_dynamic_resource_group}
 */
 export class DataOciIdentityDomainsDynamicResourceGroup extends cdktf.TerraformDataSource {
 
@@ -862,7 +862,7 @@ export class DataOciIdentityDomainsDynamicResourceGroup extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciIdentityDomainsDynamicResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityDomainsDynamicResourceGroup to import
-  * @param importFromId The id of the existing DataOciIdentityDomainsDynamicResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityDomainsDynamicResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityDomainsDynamicResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -874,7 +874,7 @@ export class DataOciIdentityDomainsDynamicResourceGroup extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_domains_dynamic_resource_group oci_identity_domains_dynamic_resource_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_domains_dynamic_resource_group oci_identity_domains_dynamic_resource_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -885,8 +885,8 @@ export class DataOciIdentityDomainsDynamicResourceGroup extends cdktf.TerraformD
       terraformResourceType: 'oci_identity_domains_dynamic_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

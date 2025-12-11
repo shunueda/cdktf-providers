@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VirtualhostConfig extends cdktf.TerraformMetaArguments {
   /**
   * The desired hostname for the virtualhost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#hostname Virtualhost#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#hostname Virtualhost#hostname}
   */
   readonly hostname: string;
   /**
   * The desired paths for the virtualhost.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#paths Virtualhost#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#paths Virtualhost#paths}
   */
   readonly paths: { [key: string]: VirtualhostPaths } | cdktf.IResolvable;
   /**
   * The ID of the project the virtualhost belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#project_id Virtualhost#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#project_id Virtualhost#project_id}
   */
   readonly projectId: string;
 }
@@ -30,13 +30,13 @@ export interface VirtualhostPathsContainer {
   /**
   * The ID of a container (!= the ID of a container *stack*) that this path should point to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#container_id Virtualhost#container_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#container_id Virtualhost#container_id}
   */
   readonly containerId: string;
   /**
   * A port number/protocol combination of the referenced container that traffic should be redirected to (example: `8080/tcp`)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#port Virtualhost#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#port Virtualhost#port}
   */
   readonly port: string;
 }
@@ -155,17 +155,17 @@ export interface VirtualhostPaths {
   /**
   * The ID of an app installation that this path should point to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#app Virtualhost#app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#app Virtualhost#app}
   */
   readonly app?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#container Virtualhost#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#container Virtualhost#container}
   */
   readonly container?: VirtualhostPathsContainer;
   /**
   * The URL to redirect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#redirect Virtualhost#redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#redirect Virtualhost#redirect}
   */
   readonly redirect?: string;
 }
@@ -337,7 +337,7 @@ export class VirtualhostPathsMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost mittwald_virtualhost}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost mittwald_virtualhost}
 */
 export class Virtualhost extends cdktf.TerraformResource {
 
@@ -353,7 +353,7 @@ export class Virtualhost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Virtualhost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Virtualhost to import
-  * @param importFromId The id of the existing Virtualhost that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Virtualhost that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Virtualhost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class Virtualhost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/virtualhost mittwald_virtualhost} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/virtualhost mittwald_virtualhost} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class Virtualhost extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_virtualhost',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5',
-        providerVersionConstraint: '1.4.5'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

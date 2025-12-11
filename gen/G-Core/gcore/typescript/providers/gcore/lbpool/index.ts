@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LbpoolConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#id Lbpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#id Lbpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface LbpoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * Available values is 'ROUND_ROBIN', 'LEAST_CONNECTIONS', 'SOURCE_IP'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#lb_algorithm Lbpool#lb_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#lb_algorithm Lbpool#lb_algorithm}
   */
   readonly lbAlgorithm: string;
   /**
   * ID of the target listener associated with load balancer to attach newly created pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#listener_id Lbpool#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#listener_id Lbpool#listener_id}
   */
   readonly listenerId?: string;
   /**
   * ID of the target load balancer to attach newly created pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#loadbalancer_id Lbpool#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#loadbalancer_id Lbpool#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
   * Pool name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#name Lbpool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#name Lbpool#name}
   */
   readonly name: string;
   /**
   * ID of the desired project to create load balancer pool in. Alternative for `project_name`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#project_id Lbpool#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#project_id Lbpool#project_id}
   */
   readonly projectId?: number;
   /**
   * Name of the desired project to create load balancer pool in. Alternative for `project_id`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#project_name Lbpool#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#project_name Lbpool#project_name}
   */
   readonly projectName?: string;
   /**
   * Available values are 'HTTP', 'HTTPS', 'TCP', 'UDP', 'PROXY', 'PROXYV2'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#protocol Lbpool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#protocol Lbpool#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the desired region to create load balancer pool in. Alternative for `region_name`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#region_id Lbpool#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#region_id Lbpool#region_id}
   */
   readonly regionId?: number;
   /**
   * Name of the desired region to create load balancer pool in. Alternative for `region_id`. One of them should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#region_name Lbpool#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#region_name Lbpool#region_name}
   */
   readonly regionName?: string;
   /**
   * health_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#health_monitor Lbpool#health_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#health_monitor Lbpool#health_monitor}
   */
   readonly healthMonitor?: LbpoolHealthMonitor;
   /**
   * session_persistence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#session_persistence Lbpool#session_persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#session_persistence Lbpool#session_persistence}
   */
   readonly sessionPersistence?: LbpoolSessionPersistence;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#timeouts Lbpool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#timeouts Lbpool#timeouts}
   */
   readonly timeouts?: LbpoolTimeouts;
 }
@@ -91,25 +91,25 @@ export interface LbpoolHealthMonitor {
   /**
   * The time, in seconds, between sending probes to members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#delay Lbpool#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#delay Lbpool#delay}
   */
   readonly delay: number;
   /**
   * The list of HTTP status codes expected in response from the member to declare it healthy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#expected_codes Lbpool#expected_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#expected_codes Lbpool#expected_codes}
   */
   readonly expectedCodes?: string;
   /**
   * The HTTP method that the health monitor uses for requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#http_method Lbpool#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#http_method Lbpool#http_method}
   */
   readonly httpMethod?: string;
   /**
   * Health Monitor ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#id Lbpool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#id Lbpool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -118,31 +118,31 @@ export interface LbpoolHealthMonitor {
   /**
   * The number of successful checks before changing the operating status of the member to ONLINE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#max_retries Lbpool#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#max_retries Lbpool#max_retries}
   */
   readonly maxRetries: number;
   /**
   * The number of allowed check failures before changing the operating status of the member to ERROR.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#max_retries_down Lbpool#max_retries_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#max_retries_down Lbpool#max_retries_down}
   */
   readonly maxRetriesDown?: number;
   /**
   * The maximum time, in seconds, that a monitor waits to connect before it times out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#timeout Lbpool#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#timeout Lbpool#timeout}
   */
   readonly timeout: number;
   /**
   * Available values is 'HTTP', 'HTTPS', 'PING', 'TCP', 'TLS-HELLO', 'UDP-CONNECT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#type Lbpool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#type Lbpool#type}
   */
   readonly type: string;
   /**
   * The HTTP URL path of the request sent by the monitor to test the health of a backend member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#url_path Lbpool#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#url_path Lbpool#url_path}
   */
   readonly urlPath?: string;
 }
@@ -448,25 +448,25 @@ export interface LbpoolSessionPersistence {
   /**
   * The name of the application cookie to use for session persistence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#cookie_name Lbpool#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#cookie_name Lbpool#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The netmask used to determine SCTP or UDP SOURCE_IP session persistence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#persistence_granularity Lbpool#persistence_granularity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#persistence_granularity Lbpool#persistence_granularity}
   */
   readonly persistenceGranularity?: string;
   /**
   * The timeout, in seconds, after which a SCTP or UDP flow may be rescheduled to a different member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#persistence_timeout Lbpool#persistence_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#persistence_timeout Lbpool#persistence_timeout}
   */
   readonly persistenceTimeout?: number;
   /**
   * One of: 'APP_COOKIE' (an application supplied cookie), 'HTTP_COOKIE' (a cookie created by the load balancer), 'SOURCE_IP' (the source IP address).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#type Lbpool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#type Lbpool#type}
   */
   readonly type: string;
 }
@@ -634,15 +634,15 @@ export class LbpoolSessionPersistenceOutputReference extends cdktf.ComplexObject
 }
 export interface LbpoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#create Lbpool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#create Lbpool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#delete Lbpool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#delete Lbpool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#update Lbpool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#update Lbpool#update}
   */
   readonly update?: string;
 }
@@ -794,7 +794,7 @@ export class LbpoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool gcore_lbpool}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool gcore_lbpool}
 */
 export class Lbpool extends cdktf.TerraformResource {
 
@@ -810,7 +810,7 @@ export class Lbpool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Lbpool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Lbpool to import
-  * @param importFromId The id of the existing Lbpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Lbpool that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Lbpool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -822,7 +822,7 @@ export class Lbpool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/lbpool gcore_lbpool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/lbpool gcore_lbpool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -833,8 +833,8 @@ export class Lbpool extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_lbpool',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

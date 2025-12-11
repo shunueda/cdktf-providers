@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface CostProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#id CostProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#id CostProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface CostProfileConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#metadata CostProfile#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#metadata CostProfile#metadata}
   */
   readonly metadata?: CostProfileMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spec CostProfile#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spec CostProfile#spec}
   */
   readonly spec?: CostProfileSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#timeouts CostProfile#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#timeouts CostProfile#timeouts}
   */
   readonly timeouts?: CostProfileTimeouts;
 }
@@ -37,7 +37,7 @@ export interface CostProfileMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#id CostProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#id CostProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface CostProfileMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#is_sso_user CostProfile#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#is_sso_user CostProfile#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#username CostProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#username CostProfile#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface CostProfileMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#id CostProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#id CostProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface CostProfileMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#is_sso_user CostProfile#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#is_sso_user CostProfile#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#username CostProfile#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#username CostProfile#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface CostProfileMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#annotations CostProfile#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#annotations CostProfile#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#description CostProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#description CostProfile#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#display_name CostProfile#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#display_name CostProfile#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#labels CostProfile#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#labels CostProfile#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#name CostProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#name CostProfile#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#project CostProfile#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#project CostProfile#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#created_by CostProfile#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#created_by CostProfile#created_by}
   */
   readonly createdBy?: CostProfileMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#modified_by CostProfile#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#modified_by CostProfile#modified_by}
   */
   readonly modifiedBy?: CostProfileMetadataModifiedBy;
 }
@@ -686,31 +686,31 @@ export interface CostProfileSpecInstallationParamsAwsAwsCredentials {
   /**
   * Aws Service Key Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_service_key_name CostProfile#aws_service_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_service_key_name CostProfile#aws_service_key_name}
   */
   readonly awsServiceKeyName?: string;
   /**
   * Aws Service Key Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_service_key_secret CostProfile#aws_service_key_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_service_key_secret CostProfile#aws_service_key_secret}
   */
   readonly awsServiceKeySecret?: string;
   /**
   * cloud credentials id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cloud_credentials_name CostProfile#cloud_credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cloud_credentials_name CostProfile#cloud_credentials_name}
   */
   readonly cloudCredentialsName?: string;
   /**
   * Use Cluster Credntial when BP is attached to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cluster_cred CostProfile#cluster_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cluster_cred CostProfile#cluster_cred}
   */
   readonly clusterCred?: boolean | cdktf.IResolvable;
   /**
   * Aws role arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#role_arn CostProfile#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#role_arn CostProfile#role_arn}
   */
   readonly roleArn?: string;
 }
@@ -912,37 +912,37 @@ export interface CostProfileSpecInstallationParamsAwsCurIntegration {
   /**
   * Aws Athena Bucket Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#athena_bucket_name CostProfile#athena_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#athena_bucket_name CostProfile#athena_bucket_name}
   */
   readonly athenaBucketName?: string;
   /**
   * Aws Athena Database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#athena_database CostProfile#athena_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#athena_database CostProfile#athena_database}
   */
   readonly athenaDatabase?: string;
   /**
   * Aws Athena Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#athena_region CostProfile#athena_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#athena_region CostProfile#athena_region}
   */
   readonly athenaRegion?: string;
   /**
   * Aws Athena Table Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#athena_table CostProfile#athena_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#athena_table CostProfile#athena_table}
   */
   readonly athenaTable?: string;
   /**
   * Aws Account ID. DEPRECATED. Will not be used even if configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_account_id CostProfile#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_account_id CostProfile#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * Master Payer Arn
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#master_payer_arn CostProfile#master_payer_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#master_payer_arn CostProfile#master_payer_arn}
   */
   readonly masterPayerArn?: string;
 }
@@ -1173,37 +1173,37 @@ export interface CostProfileSpecInstallationParamsAwsSpotIntegration {
   /**
   * Aws Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_account_id CostProfile#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_account_id CostProfile#aws_account_id}
   */
   readonly awsAccountId?: string;
   /**
   * Aws Spot Data Bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_spot_data_bucket CostProfile#aws_spot_data_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_spot_data_bucket CostProfile#aws_spot_data_bucket}
   */
   readonly awsSpotDataBucket?: string;
   /**
   * Aws Spot Data Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_spot_data_prefix CostProfile#aws_spot_data_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_spot_data_prefix CostProfile#aws_spot_data_prefix}
   */
   readonly awsSpotDataPrefix?: string;
   /**
   * Aws Spot Data Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_spot_data_region CostProfile#aws_spot_data_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_spot_data_region CostProfile#aws_spot_data_region}
   */
   readonly awsSpotDataRegion?: string;
   /**
   * Aws Spot Label
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spot_label CostProfile#spot_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spot_label CostProfile#spot_label}
   */
   readonly spotLabel?: string;
   /**
   * Aws Spot Label Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spot_label_value CostProfile#spot_label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spot_label_value CostProfile#spot_label_value}
   */
   readonly spotLabelValue?: string;
 }
@@ -1434,19 +1434,19 @@ export interface CostProfileSpecInstallationParamsAws {
   /**
   * aws_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws_credentials CostProfile#aws_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws_credentials CostProfile#aws_credentials}
   */
   readonly awsCredentials?: CostProfileSpecInstallationParamsAwsAwsCredentials;
   /**
   * cur_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cur_integration CostProfile#cur_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cur_integration CostProfile#cur_integration}
   */
   readonly curIntegration?: CostProfileSpecInstallationParamsAwsCurIntegration;
   /**
   * spot_integration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spot_integration CostProfile#spot_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spot_integration CostProfile#spot_integration}
   */
   readonly spotIntegration?: CostProfileSpecInstallationParamsAwsSpotIntegration;
 }
@@ -1590,13 +1590,13 @@ export interface CostProfileSpecInstallationParamsAzureCustomPricingSpotInstance
   /**
   * spot Lable 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spot_label CostProfile#spot_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spot_label CostProfile#spot_label}
   */
   readonly spotLabel?: string;
   /**
   * spot Label Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spot_label_value CostProfile#spot_label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spot_label_value CostProfile#spot_label_value}
   */
   readonly spotLabelValue?: string;
 }
@@ -1711,55 +1711,55 @@ export interface CostProfileSpecInstallationParamsAzureCustomPricing {
   /**
   * Azure Client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#azure_client_id CostProfile#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#azure_client_id CostProfile#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * Azure Client Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#azure_client_secret CostProfile#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#azure_client_secret CostProfile#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * Azure Subscription ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#azure_subscription_id CostProfile#azure_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#azure_subscription_id CostProfile#azure_subscription_id}
   */
   readonly azureSubscriptionId?: string;
   /**
   * Azure Tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#azure_tenant_id CostProfile#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#azure_tenant_id CostProfile#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Billing Account ID. DEPRECATED. Will not be used even if configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#billing_account_id CostProfile#billing_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#billing_account_id CostProfile#billing_account_id}
   */
   readonly billingAccountId?: string;
   /**
   * cloud credentials id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cloud_credentials_name CostProfile#cloud_credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cloud_credentials_name CostProfile#cloud_credentials_name}
   */
   readonly cloudCredentialsName?: string;
   /**
   * Use Cluster Credntial when BP is attached to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cluster_cred CostProfile#cluster_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cluster_cred CostProfile#cluster_cred}
   */
   readonly clusterCred?: boolean | cdktf.IResolvable;
   /**
   * Offer ID. DEPRECATED. Will not be used even if configured.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#offer_id CostProfile#offer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#offer_id CostProfile#offer_id}
   */
   readonly offerId?: string;
   /**
   * spot_instance block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#spot_instance CostProfile#spot_instance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#spot_instance CostProfile#spot_instance}
   */
   readonly spotInstance?: CostProfileSpecInstallationParamsAzureCustomPricingSpotInstance;
 }
@@ -2077,13 +2077,13 @@ export interface CostProfileSpecInstallationParamsAzureGpuEstimates {
   /**
   * gpu Lable 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#gpu_label CostProfile#gpu_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#gpu_label CostProfile#gpu_label}
   */
   readonly gpuLabel?: string;
   /**
   * gpu Label Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#gpu_label_value CostProfile#gpu_label_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#gpu_label_value CostProfile#gpu_label_value}
   */
   readonly gpuLabelValue?: string;
 }
@@ -2198,13 +2198,13 @@ export interface CostProfileSpecInstallationParamsAzure {
   /**
   * custom_pricing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#custom_pricing CostProfile#custom_pricing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#custom_pricing CostProfile#custom_pricing}
   */
   readonly customPricing?: CostProfileSpecInstallationParamsAzureCustomPricing;
   /**
   * gpu_estimates block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#gpu_estimates CostProfile#gpu_estimates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#gpu_estimates CostProfile#gpu_estimates}
   */
   readonly gpuEstimates?: CostProfileSpecInstallationParamsAzureGpuEstimates;
 }
@@ -2319,13 +2319,13 @@ export interface CostProfileSpecInstallationParamsGcpGcpCredentials {
   /**
   * cloud credentials id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cloud_credentials_name CostProfile#cloud_credentials_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cloud_credentials_name CostProfile#cloud_credentials_name}
   */
   readonly cloudCredentialsName?: string;
   /**
   * Use Cluster Credntial when BP is attached to the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cluster_cred CostProfile#cluster_cred}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cluster_cred CostProfile#cluster_cred}
   */
   readonly clusterCred?: boolean | cdktf.IResolvable;
 }
@@ -2440,7 +2440,7 @@ export interface CostProfileSpecInstallationParamsGcp {
   /**
   * gcp_credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#gcp_credentials CostProfile#gcp_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#gcp_credentials CostProfile#gcp_credentials}
   */
   readonly gcpCredentials?: CostProfileSpecInstallationParamsGcpGcpCredentials;
 }
@@ -2526,19 +2526,19 @@ export interface CostProfileSpecInstallationParamsOther {
   /**
   * The cost of cpu per hour 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#cpu CostProfile#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#cpu CostProfile#cpu}
   */
   readonly cpu?: string;
   /**
   * The cost of gpu per hour 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#gpu CostProfile#gpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#gpu CostProfile#gpu}
   */
   readonly gpu?: string;
   /**
   * The cost of memory per hour 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#memory CostProfile#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#memory CostProfile#memory}
   */
   readonly memory?: string;
 }
@@ -2682,25 +2682,25 @@ export interface CostProfileSpecInstallationParams {
   /**
   * aws block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#aws CostProfile#aws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#aws CostProfile#aws}
   */
   readonly aws?: CostProfileSpecInstallationParamsAws;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#azure CostProfile#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#azure CostProfile#azure}
   */
   readonly azure?: CostProfileSpecInstallationParamsAzure;
   /**
   * gcp block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#gcp CostProfile#gcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#gcp CostProfile#gcp}
   */
   readonly gcp?: CostProfileSpecInstallationParamsGcp;
   /**
   * other block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#other CostProfile#other}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#other CostProfile#other}
   */
   readonly other?: CostProfileSpecInstallationParamsOther;
 }
@@ -2873,7 +2873,7 @@ export interface CostProfileSpecSharingProjects {
   /**
   * name of the project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#name CostProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#name CostProfile#name}
   */
   readonly name?: string;
 }
@@ -2991,13 +2991,13 @@ export interface CostProfileSpecSharing {
   /**
   * flag to specify if sharing is enabled for resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#enabled CostProfile#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#enabled CostProfile#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#projects CostProfile#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#projects CostProfile#projects}
   */
   readonly projects?: CostProfileSpecSharingProjects[] | cdktf.IResolvable;
 }
@@ -3112,25 +3112,25 @@ export interface CostProfileSpec {
   /**
   * provider type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#provider_type CostProfile#provider_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#provider_type CostProfile#provider_type}
   */
   readonly providerType?: string;
   /**
   * version of the profile
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#version CostProfile#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#version CostProfile#version}
   */
   readonly version?: string;
   /**
   * installation_params block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#installation_params CostProfile#installation_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#installation_params CostProfile#installation_params}
   */
   readonly installationParams?: CostProfileSpecInstallationParams;
   /**
   * sharing block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#sharing CostProfile#sharing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#sharing CostProfile#sharing}
   */
   readonly sharing?: CostProfileSpecSharing;
 }
@@ -3301,15 +3301,15 @@ export class CostProfileSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface CostProfileTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#create CostProfile#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#create CostProfile#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#delete CostProfile#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#delete CostProfile#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#update CostProfile#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#update CostProfile#update}
   */
   readonly update?: string;
 }
@@ -3461,7 +3461,7 @@ export class CostProfileTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile rafay_cost_profile}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile rafay_cost_profile}
 */
 export class CostProfile extends cdktf.TerraformResource {
 
@@ -3477,7 +3477,7 @@ export class CostProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CostProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CostProfile to import
-  * @param importFromId The id of the existing CostProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CostProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CostProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3489,7 +3489,7 @@ export class CostProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/cost_profile rafay_cost_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/cost_profile rafay_cost_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3500,8 +3500,8 @@ export class CostProfile extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_cost_profile',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

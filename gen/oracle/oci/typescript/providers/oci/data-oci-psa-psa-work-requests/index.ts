@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciPsaPsaWorkRequestsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#compartment_id DataOciPsaPsaWorkRequests#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#compartment_id DataOciPsaPsaWorkRequests#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#id DataOciPsaPsaWorkRequests#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#id DataOciPsaPsaWorkRequests#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#resource_id DataOciPsaPsaWorkRequests#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#resource_id DataOciPsaPsaWorkRequests#resource_id}
   */
   readonly resourceId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#status DataOciPsaPsaWorkRequests#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#status DataOciPsaPsaWorkRequests#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#work_request_id DataOciPsaPsaWorkRequests#work_request_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#work_request_id DataOciPsaPsaWorkRequests#work_request_id}
   */
   readonly workRequestId?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#filter DataOciPsaPsaWorkRequests#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#filter DataOciPsaPsaWorkRequests#filter}
   */
   readonly filter?: DataOciPsaPsaWorkRequestsFilter[] | cdktf.IResolvable;
 }
@@ -332,15 +332,15 @@ export class DataOciPsaPsaWorkRequestsWorkRequestSummaryCollectionList extends c
 }
 export interface DataOciPsaPsaWorkRequestsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#name DataOciPsaPsaWorkRequests#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#name DataOciPsaPsaWorkRequests#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#regex DataOciPsaPsaWorkRequests#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#regex DataOciPsaPsaWorkRequests#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#values DataOciPsaPsaWorkRequests#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#values DataOciPsaPsaWorkRequests#values}
   */
   readonly values: string[];
 }
@@ -508,7 +508,7 @@ export class DataOciPsaPsaWorkRequestsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests oci_psa_psa_work_requests}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests oci_psa_psa_work_requests}
 */
 export class DataOciPsaPsaWorkRequests extends cdktf.TerraformDataSource {
 
@@ -524,7 +524,7 @@ export class DataOciPsaPsaWorkRequests extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciPsaPsaWorkRequests resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciPsaPsaWorkRequests to import
-  * @param importFromId The id of the existing DataOciPsaPsaWorkRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciPsaPsaWorkRequests that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciPsaPsaWorkRequests to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class DataOciPsaPsaWorkRequests extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/psa_psa_work_requests oci_psa_psa_work_requests} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/psa_psa_work_requests oci_psa_psa_work_requests} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class DataOciPsaPsaWorkRequests extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_psa_psa_work_requests',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

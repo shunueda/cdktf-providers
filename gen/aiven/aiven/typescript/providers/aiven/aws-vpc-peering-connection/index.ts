@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface AwsVpcPeeringConnectionConfig extends cdktf.TerraformMetaArgume
   /**
   * AWS account ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#aws_account_id AwsVpcPeeringConnection#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#aws_account_id AwsVpcPeeringConnection#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
   * AWS VPC ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#aws_vpc_id AwsVpcPeeringConnection#aws_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#aws_vpc_id AwsVpcPeeringConnection#aws_vpc_id}
   */
   readonly awsVpcId: string;
   /**
   * The AWS region of the peered VPC, if different from the Aiven VPC region. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#aws_vpc_region AwsVpcPeeringConnection#aws_vpc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#aws_vpc_region AwsVpcPeeringConnection#aws_vpc_region}
   */
   readonly awsVpcRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#id AwsVpcPeeringConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#id AwsVpcPeeringConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,35 +35,35 @@ export interface AwsVpcPeeringConnectionConfig extends cdktf.TerraformMetaArgume
   /**
   * The ID of the Aiven VPC. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#vpc_id AwsVpcPeeringConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#vpc_id AwsVpcPeeringConnection#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#timeouts AwsVpcPeeringConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#timeouts AwsVpcPeeringConnection#timeouts}
   */
   readonly timeouts?: AwsVpcPeeringConnectionTimeouts;
 }
 export interface AwsVpcPeeringConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#create AwsVpcPeeringConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#create AwsVpcPeeringConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#default AwsVpcPeeringConnection#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#default AwsVpcPeeringConnection#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#delete AwsVpcPeeringConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#delete AwsVpcPeeringConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#read AwsVpcPeeringConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#read AwsVpcPeeringConnection#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#update AwsVpcPeeringConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#update AwsVpcPeeringConnection#update}
   */
   readonly update?: string;
 }
@@ -273,7 +273,7 @@ export class AwsVpcPeeringConnectionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection}
 */
 export class AwsVpcPeeringConnection extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class AwsVpcPeeringConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsVpcPeeringConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsVpcPeeringConnection to import
-  * @param importFromId The id of the existing AwsVpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsVpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsVpcPeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class AwsVpcPeeringConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class AwsVpcPeeringConnection extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_aws_vpc_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

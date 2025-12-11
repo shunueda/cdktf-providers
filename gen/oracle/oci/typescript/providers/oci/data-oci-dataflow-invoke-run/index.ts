@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataflow_invoke_run
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataflow_invoke_run
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataflowInvokeRunConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataflow_invoke_run#run_id DataOciDataflowInvokeRun#run_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataflow_invoke_run#run_id DataOciDataflowInvokeRun#run_id}
   */
   readonly runId: string;
 }
@@ -334,7 +334,7 @@ export class DataOciDataflowInvokeRunParametersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataflow_invoke_run oci_dataflow_invoke_run}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataflow_invoke_run oci_dataflow_invoke_run}
 */
 export class DataOciDataflowInvokeRun extends cdktf.TerraformDataSource {
 
@@ -350,7 +350,7 @@ export class DataOciDataflowInvokeRun extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciDataflowInvokeRun resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataflowInvokeRun to import
-  * @param importFromId The id of the existing DataOciDataflowInvokeRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataflow_invoke_run#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataflowInvokeRun that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataflow_invoke_run#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataflowInvokeRun to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -362,7 +362,7 @@ export class DataOciDataflowInvokeRun extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataflow_invoke_run oci_dataflow_invoke_run} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataflow_invoke_run oci_dataflow_invoke_run} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -373,8 +373,8 @@ export class DataOciDataflowInvokeRun extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_dataflow_invoke_run',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

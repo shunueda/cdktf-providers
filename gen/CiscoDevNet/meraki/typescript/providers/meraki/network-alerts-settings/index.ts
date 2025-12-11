@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface NetworkAlertsSettingsConfig extends cdktf.TerraformMetaArgument
   /**
   * Alert-specific configuration for each type. Only alerts that pertain to the network can be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#alerts NetworkAlertsSettings#alerts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#alerts NetworkAlertsSettings#alerts}
   */
   readonly alerts?: NetworkAlertsSettingsAlerts[] | cdktf.IResolvable;
   /**
   * If true, then all network admins will receive emails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#default_destinations_all_admins NetworkAlertsSettings#default_destinations_all_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#default_destinations_all_admins NetworkAlertsSettings#default_destinations_all_admins}
   */
   readonly defaultDestinationsAllAdmins?: boolean | cdktf.IResolvable;
   /**
   * A list of emails that will receive the alert(s).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#default_destinations_emails NetworkAlertsSettings#default_destinations_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#default_destinations_emails NetworkAlertsSettings#default_destinations_emails}
   */
   readonly defaultDestinationsEmails?: string[];
   /**
   * A list of HTTP server IDs to send a Webhook to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#default_destinations_http_server_ids NetworkAlertsSettings#default_destinations_http_server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#default_destinations_http_server_ids NetworkAlertsSettings#default_destinations_http_server_ids}
   */
   readonly defaultDestinationsHttpServerIds?: string[];
   /**
   * If true, then an SNMP trap will be sent if there is an SNMP trap server configured for this network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#default_destinations_snmp NetworkAlertsSettings#default_destinations_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#default_destinations_snmp NetworkAlertsSettings#default_destinations_snmp}
   */
   readonly defaultDestinationsSnmp?: boolean | cdktf.IResolvable;
   /**
   * If true, then wireless unreachable alerts will be muted when caused by a port schedule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#muting_by_port_schedules_enabled NetworkAlertsSettings#muting_by_port_schedules_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#muting_by_port_schedules_enabled NetworkAlertsSettings#muting_by_port_schedules_enabled}
   */
   readonly mutingByPortSchedulesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#network_id NetworkAlertsSettings#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#network_id NetworkAlertsSettings#network_id}
   */
   readonly networkId: string;
 }
@@ -55,31 +55,31 @@ export interface NetworkAlertsSettingsAlertsFiltersConditions {
   * Direction
   *   - Choices: `+`, `-`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#direction NetworkAlertsSettings#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#direction NetworkAlertsSettings#direction}
   */
   readonly direction?: string;
   /**
   * Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#duration NetworkAlertsSettings#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#duration NetworkAlertsSettings#duration}
   */
   readonly duration?: number;
   /**
   * Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#threshold NetworkAlertsSettings#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#threshold NetworkAlertsSettings#threshold}
   */
   readonly threshold?: number;
   /**
   * Type of condition
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#type NetworkAlertsSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#type NetworkAlertsSettings#type}
   */
   readonly type: string;
   /**
   * Unit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#unit NetworkAlertsSettings#unit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#unit NetworkAlertsSettings#unit}
   */
   readonly unit?: string;
 }
@@ -310,127 +310,127 @@ export interface NetworkAlertsSettingsAlerts {
   /**
   * If true, then all network admins will receive emails for this alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#alert_destinations_all_admins NetworkAlertsSettings#alert_destinations_all_admins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#alert_destinations_all_admins NetworkAlertsSettings#alert_destinations_all_admins}
   */
   readonly alertDestinationsAllAdmins?: boolean | cdktf.IResolvable;
   /**
   * A list of emails that will receive information about the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#alert_destinations_emails NetworkAlertsSettings#alert_destinations_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#alert_destinations_emails NetworkAlertsSettings#alert_destinations_emails}
   */
   readonly alertDestinationsEmails?: string[];
   /**
   * A list of HTTP server IDs to send a Webhook to for this alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#alert_destinations_http_server_ids NetworkAlertsSettings#alert_destinations_http_server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#alert_destinations_http_server_ids NetworkAlertsSettings#alert_destinations_http_server_ids}
   */
   readonly alertDestinationsHttpServerIds?: string[];
   /**
   * A list of phone numbers that will receive text messages about the alert. Only available for sensors status alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#alert_destinations_sms_numbers NetworkAlertsSettings#alert_destinations_sms_numbers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#alert_destinations_sms_numbers NetworkAlertsSettings#alert_destinations_sms_numbers}
   */
   readonly alertDestinationsSmsNumbers?: string[];
   /**
   * If true, then an SNMP trap will be sent for this alert if there is an SNMP trap server configured for this network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#alert_destinations_snmp NetworkAlertsSettings#alert_destinations_snmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#alert_destinations_snmp NetworkAlertsSettings#alert_destinations_snmp}
   */
   readonly alertDestinationsSnmp?: boolean | cdktf.IResolvable;
   /**
   * A boolean depicting if the alert is turned on or off
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#enabled NetworkAlertsSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#enabled NetworkAlertsSettings#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Conditions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_conditions NetworkAlertsSettings#filters_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_conditions NetworkAlertsSettings#filters_conditions}
   */
   readonly filtersConditions?: NetworkAlertsSettingsAlertsFiltersConditions[] | cdktf.IResolvable;
   /**
   * Failure Type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_failure_type NetworkAlertsSettings#filters_failure_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_failure_type NetworkAlertsSettings#filters_failure_type}
   */
   readonly filtersFailureType?: string;
   /**
   * Loopback Window (in sec)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_lookback_window NetworkAlertsSettings#filters_lookback_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_lookback_window NetworkAlertsSettings#filters_lookback_window}
   */
   readonly filtersLookbackWindow?: number;
   /**
   * Min Duration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_min_duration NetworkAlertsSettings#filters_min_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_min_duration NetworkAlertsSettings#filters_min_duration}
   */
   readonly filtersMinDuration?: number;
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_name NetworkAlertsSettings#filters_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_name NetworkAlertsSettings#filters_name}
   */
   readonly filtersName?: string;
   /**
   * Period
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_period NetworkAlertsSettings#filters_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_period NetworkAlertsSettings#filters_period}
   */
   readonly filtersPeriod?: number;
   /**
   * Priority
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_priority NetworkAlertsSettings#filters_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_priority NetworkAlertsSettings#filters_priority}
   */
   readonly filtersPriority?: string;
   /**
   * Regex
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_regex NetworkAlertsSettings#filters_regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_regex NetworkAlertsSettings#filters_regex}
   */
   readonly filtersRegex?: string;
   /**
   * Selector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_selector NetworkAlertsSettings#filters_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_selector NetworkAlertsSettings#filters_selector}
   */
   readonly filtersSelector?: string;
   /**
   * Serials
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_serials NetworkAlertsSettings#filters_serials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_serials NetworkAlertsSettings#filters_serials}
   */
   readonly filtersSerials?: string[];
   /**
   * SSID Number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_ssid_num NetworkAlertsSettings#filters_ssid_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_ssid_num NetworkAlertsSettings#filters_ssid_num}
   */
   readonly filtersSsidNum?: number;
   /**
   * Tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_tag NetworkAlertsSettings#filters_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_tag NetworkAlertsSettings#filters_tag}
   */
   readonly filtersTag?: string;
   /**
   * Threshold
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_threshold NetworkAlertsSettings#filters_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_threshold NetworkAlertsSettings#filters_threshold}
   */
   readonly filtersThreshold?: number;
   /**
   * Timeout
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#filters_timeout NetworkAlertsSettings#filters_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#filters_timeout NetworkAlertsSettings#filters_timeout}
   */
   readonly filtersTimeout?: number;
   /**
   * The type of alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#type NetworkAlertsSettings#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#type NetworkAlertsSettings#type}
   */
   readonly type: string;
 }
@@ -1123,7 +1123,7 @@ export class NetworkAlertsSettingsAlertsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings meraki_network_alerts_settings}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings meraki_network_alerts_settings}
 */
 export class NetworkAlertsSettings extends cdktf.TerraformResource {
 
@@ -1139,7 +1139,7 @@ export class NetworkAlertsSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkAlertsSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkAlertsSettings to import
-  * @param importFromId The id of the existing NetworkAlertsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkAlertsSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkAlertsSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1151,7 +1151,7 @@ export class NetworkAlertsSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/network_alerts_settings meraki_network_alerts_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/network_alerts_settings meraki_network_alerts_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1162,8 +1162,8 @@ export class NetworkAlertsSettings extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_network_alerts_settings',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

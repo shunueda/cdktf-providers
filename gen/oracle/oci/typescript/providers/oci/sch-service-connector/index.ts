@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface SchServiceConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#defined_tags SchServiceConnector#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#defined_tags SchServiceConnector#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#description SchServiceConnector#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#description SchServiceConnector#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#display_name SchServiceConnector#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#display_name SchServiceConnector#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#freeform_tags SchServiceConnector#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#freeform_tags SchServiceConnector#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#id SchServiceConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#id SchServiceConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#state SchServiceConnector#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#state SchServiceConnector#state}
   */
   readonly state?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#source SchServiceConnector#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#source SchServiceConnector#source}
   */
   readonly source: SchServiceConnectorSource;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#target SchServiceConnector#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#target SchServiceConnector#target}
   */
   readonly target: SchServiceConnectorTarget;
   /**
   * tasks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#tasks SchServiceConnector#tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#tasks SchServiceConnector#tasks}
   */
   readonly tasks?: SchServiceConnectorTasks[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#timeouts SchServiceConnector#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#timeouts SchServiceConnector#timeouts}
   */
   readonly timeouts?: SchServiceConnectorTimeouts;
 }
@@ -145,7 +145,7 @@ export class SchServiceConnectorSourcePrivateEndpointMetadataList extends cdktf.
 }
 export interface SchServiceConnectorSourceCursor {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind?: string;
 }
@@ -229,15 +229,15 @@ export class SchServiceConnectorSourceCursorOutputReference extends cdktf.Comple
 }
 export interface SchServiceConnectorSourceLogSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#log_group_id SchServiceConnector#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#log_group_id SchServiceConnector#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#log_id SchServiceConnector#log_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#log_id SchServiceConnector#log_id}
   */
   readonly logId?: string;
 }
@@ -411,7 +411,7 @@ export class SchServiceConnectorSourceLogSourcesList extends cdktf.ComplexList {
 }
 export interface SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind: string;
 }
@@ -492,13 +492,13 @@ export class SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespace
 }
 export interface SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}
   */
   readonly namespace: string;
   /**
   * metrics block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#metrics SchServiceConnector#metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#metrics SchServiceConnector#metrics}
   */
   readonly metrics: SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespacesMetrics;
 }
@@ -637,13 +637,13 @@ export class SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespace
 }
 export interface SchServiceConnectorSourceMonitoringSourcesNamespaceDetails {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind: string;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#namespaces SchServiceConnector#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#namespaces SchServiceConnector#namespaces}
   */
   readonly namespaces: SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsNamespaces[] | cdktf.IResolvable;
 }
@@ -750,13 +750,13 @@ export class SchServiceConnectorSourceMonitoringSourcesNamespaceDetailsOutputRef
 }
 export interface SchServiceConnectorSourceMonitoringSources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
   */
   readonly compartmentId?: string;
   /**
   * namespace_details block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#namespace_details SchServiceConnector#namespace_details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#namespace_details SchServiceConnector#namespace_details}
   */
   readonly namespaceDetails?: SchServiceConnectorSourceMonitoringSourcesNamespaceDetails;
 }
@@ -901,37 +901,37 @@ export class SchServiceConnectorSourceMonitoringSourcesList extends cdktf.Comple
 }
 export interface SchServiceConnectorSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#config_map SchServiceConnector#config_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#config_map SchServiceConnector#config_map}
   */
   readonly configMap?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#plugin_name SchServiceConnector#plugin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#plugin_name SchServiceConnector#plugin_name}
   */
   readonly pluginName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#stream_id SchServiceConnector#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#stream_id SchServiceConnector#stream_id}
   */
   readonly streamId?: string;
   /**
   * cursor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#cursor SchServiceConnector#cursor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#cursor SchServiceConnector#cursor}
   */
   readonly cursor?: SchServiceConnectorSourceCursor;
   /**
   * log_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#log_sources SchServiceConnector#log_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#log_sources SchServiceConnector#log_sources}
   */
   readonly logSources?: SchServiceConnectorSourceLogSources[] | cdktf.IResolvable;
   /**
   * monitoring_sources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#monitoring_sources SchServiceConnector#monitoring_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#monitoring_sources SchServiceConnector#monitoring_sources}
   */
   readonly monitoringSources?: SchServiceConnectorSourceMonitoringSources[] | cdktf.IResolvable;
 }
@@ -1272,15 +1272,15 @@ export class SchServiceConnectorTargetPrivateEndpointMetadataList extends cdktf.
 }
 export interface SchServiceConnectorTargetDimensionsDimensionValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#path SchServiceConnector#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#path SchServiceConnector#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#value SchServiceConnector#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#value SchServiceConnector#value}
   */
   readonly value?: string;
 }
@@ -1419,13 +1419,13 @@ export class SchServiceConnectorTargetDimensionsDimensionValueOutputReference ex
 }
 export interface SchServiceConnectorTargetDimensions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#name SchServiceConnector#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#name SchServiceConnector#name}
   */
   readonly name?: string;
   /**
   * dimension_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#dimension_value SchServiceConnector#dimension_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#dimension_value SchServiceConnector#dimension_value}
   */
   readonly dimensionValue?: SchServiceConnectorTargetDimensionsDimensionValue;
 }
@@ -1570,81 +1570,81 @@ export class SchServiceConnectorTargetDimensionsList extends cdktf.ComplexList {
 }
 export interface SchServiceConnectorTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_rollover_size_in_mbs SchServiceConnector#batch_rollover_size_in_mbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_rollover_size_in_mbs SchServiceConnector#batch_rollover_size_in_mbs}
   */
   readonly batchRolloverSizeInMbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_rollover_time_in_ms SchServiceConnector#batch_rollover_time_in_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_rollover_time_in_ms SchServiceConnector#batch_rollover_time_in_ms}
   */
   readonly batchRolloverTimeInMs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_size_in_kbs SchServiceConnector#batch_size_in_kbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_size_in_kbs SchServiceConnector#batch_size_in_kbs}
   */
   readonly batchSizeInKbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_size_in_num SchServiceConnector#batch_size_in_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_size_in_num SchServiceConnector#batch_size_in_num}
   */
   readonly batchSizeInNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_time_in_sec SchServiceConnector#batch_time_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_time_in_sec SchServiceConnector#batch_time_in_sec}
   */
   readonly batchTimeInSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#bucket SchServiceConnector#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#bucket SchServiceConnector#bucket}
   */
   readonly bucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#compartment_id SchServiceConnector#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#enable_formatted_messaging SchServiceConnector#enable_formatted_messaging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#enable_formatted_messaging SchServiceConnector#enable_formatted_messaging}
   */
   readonly enableFormattedMessaging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#function_id SchServiceConnector#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#function_id SchServiceConnector#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#log_group_id SchServiceConnector#log_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#log_group_id SchServiceConnector#log_group_id}
   */
   readonly logGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#log_source_identifier SchServiceConnector#log_source_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#log_source_identifier SchServiceConnector#log_source_identifier}
   */
   readonly logSourceIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#metric SchServiceConnector#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#metric SchServiceConnector#metric}
   */
   readonly metric?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#metric_namespace SchServiceConnector#metric_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#metric_namespace SchServiceConnector#metric_namespace}
   */
   readonly metricNamespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#namespace SchServiceConnector#namespace}
   */
   readonly namespace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#object_name_prefix SchServiceConnector#object_name_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#object_name_prefix SchServiceConnector#object_name_prefix}
   */
   readonly objectNamePrefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#stream_id SchServiceConnector#stream_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#stream_id SchServiceConnector#stream_id}
   */
   readonly streamId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#topic_id SchServiceConnector#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#topic_id SchServiceConnector#topic_id}
   */
   readonly topicId?: string;
   /**
   * dimensions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#dimensions SchServiceConnector#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#dimensions SchServiceConnector#dimensions}
   */
   readonly dimensions?: SchServiceConnectorTargetDimensions[] | cdktf.IResolvable;
 }
@@ -2333,23 +2333,23 @@ export class SchServiceConnectorTasksPrivateEndpointMetadataList extends cdktf.C
 }
 export interface SchServiceConnectorTasks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_size_in_kbs SchServiceConnector#batch_size_in_kbs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_size_in_kbs SchServiceConnector#batch_size_in_kbs}
   */
   readonly batchSizeInKbs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#batch_time_in_sec SchServiceConnector#batch_time_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#batch_time_in_sec SchServiceConnector#batch_time_in_sec}
   */
   readonly batchTimeInSec?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#condition SchServiceConnector#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#condition SchServiceConnector#condition}
   */
   readonly condition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#function_id SchServiceConnector#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#function_id SchServiceConnector#function_id}
   */
   readonly functionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#kind SchServiceConnector#kind}
   */
   readonly kind: string;
 }
@@ -2584,15 +2584,15 @@ export class SchServiceConnectorTasksList extends cdktf.ComplexList {
 }
 export interface SchServiceConnectorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#create SchServiceConnector#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#create SchServiceConnector#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#delete SchServiceConnector#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#delete SchServiceConnector#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#update SchServiceConnector#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#update SchServiceConnector#update}
   */
   readonly update?: string;
 }
@@ -2744,7 +2744,7 @@ export class SchServiceConnectorTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector oci_sch_service_connector}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector oci_sch_service_connector}
 */
 export class SchServiceConnector extends cdktf.TerraformResource {
 
@@ -2760,7 +2760,7 @@ export class SchServiceConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SchServiceConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SchServiceConnector to import
-  * @param importFromId The id of the existing SchServiceConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SchServiceConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SchServiceConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2772,7 +2772,7 @@ export class SchServiceConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/sch_service_connector oci_sch_service_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/sch_service_connector oci_sch_service_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2783,8 +2783,8 @@ export class SchServiceConnector extends cdktf.TerraformResource {
       terraformResourceType: 'oci_sch_service_connector',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

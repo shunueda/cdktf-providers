@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLogAnalyticsLogAnalyticsEntityTypesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#cloud_type DataOciLogAnalyticsLogAnalyticsEntityTypes#cloud_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#cloud_type DataOciLogAnalyticsLogAnalyticsEntityTypes#cloud_type}
   */
   readonly cloudType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#id DataOciLogAnalyticsLogAnalyticsEntityTypes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#id DataOciLogAnalyticsLogAnalyticsEntityTypes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#name_contains DataOciLogAnalyticsLogAnalyticsEntityTypes#name_contains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#name_contains DataOciLogAnalyticsLogAnalyticsEntityTypes#name_contains}
   */
   readonly nameContains?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#namespace DataOciLogAnalyticsLogAnalyticsEntityTypes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#namespace DataOciLogAnalyticsLogAnalyticsEntityTypes#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#state DataOciLogAnalyticsLogAnalyticsEntityTypes#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#state DataOciLogAnalyticsLogAnalyticsEntityTypes#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#filter DataOciLogAnalyticsLogAnalyticsEntityTypes#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#filter DataOciLogAnalyticsLogAnalyticsEntityTypes#filter}
   */
   readonly filter?: DataOciLogAnalyticsLogAnalyticsEntityTypesFilter[] | cdktf.IResolvable;
 }
@@ -320,15 +320,15 @@ export class DataOciLogAnalyticsLogAnalyticsEntityTypesLogAnalyticsEntityTypeCol
 }
 export interface DataOciLogAnalyticsLogAnalyticsEntityTypesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#name DataOciLogAnalyticsLogAnalyticsEntityTypes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#regex DataOciLogAnalyticsLogAnalyticsEntityTypes#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#regex DataOciLogAnalyticsLogAnalyticsEntityTypes#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#values DataOciLogAnalyticsLogAnalyticsEntityTypes#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#values DataOciLogAnalyticsLogAnalyticsEntityTypes#values}
   */
   readonly values: string[];
 }
@@ -496,7 +496,7 @@ export class DataOciLogAnalyticsLogAnalyticsEntityTypesFilterList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types oci_log_analytics_log_analytics_entity_types}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types oci_log_analytics_log_analytics_entity_types}
 */
 export class DataOciLogAnalyticsLogAnalyticsEntityTypes extends cdktf.TerraformDataSource {
 
@@ -512,7 +512,7 @@ export class DataOciLogAnalyticsLogAnalyticsEntityTypes extends cdktf.TerraformD
   * Generates CDKTF code for importing a DataOciLogAnalyticsLogAnalyticsEntityTypes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLogAnalyticsLogAnalyticsEntityTypes to import
-  * @param importFromId The id of the existing DataOciLogAnalyticsLogAnalyticsEntityTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLogAnalyticsLogAnalyticsEntityTypes that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLogAnalyticsLogAnalyticsEntityTypes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -524,7 +524,7 @@ export class DataOciLogAnalyticsLogAnalyticsEntityTypes extends cdktf.TerraformD
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_log_analytics_entity_types oci_log_analytics_log_analytics_entity_types} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_log_analytics_entity_types oci_log_analytics_log_analytics_entity_types} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -535,8 +535,8 @@ export class DataOciLogAnalyticsLogAnalyticsEntityTypes extends cdktf.TerraformD
       terraformResourceType: 'oci_log_analytics_log_analytics_entity_types',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

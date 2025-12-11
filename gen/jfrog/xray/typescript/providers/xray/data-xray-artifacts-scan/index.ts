@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan
+// https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DataXrayArtifactsScanConfig extends cdktf.TerraformMetaArgument
   /**
   * Return only records created before the specified time (in RFC 3339 format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#created_end DataXrayArtifactsScan#created_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#created_end DataXrayArtifactsScan#created_end}
   */
   readonly createdEnd?: string;
   /**
   * Return only records created after the specified time (in RFC 3339 format).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#created_start DataXrayArtifactsScan#created_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#created_start DataXrayArtifactsScan#created_start}
   */
   readonly createdStart?: string;
   /**
   * The direction by which to order the results (either ascending or descending). Allowed value: `asc` or `desc`. Default is `asc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#direction DataXrayArtifactsScan#direction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#direction DataXrayArtifactsScan#direction}
   */
   readonly direction?: string;
   /**
   * The number of entries to return. Default is 15.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#num_of_rows DataXrayArtifactsScan#num_of_rows}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#num_of_rows DataXrayArtifactsScan#num_of_rows}
   */
   readonly numOfRows?: number;
   /**
   * A value returned by the API. It needs to be passed to the API to get the next page. A value of -1 means that the last page was reached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#offset DataXrayArtifactsScan#offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#offset DataXrayArtifactsScan#offset}
   */
   readonly offset?: number;
   /**
   * By which column to order the results. Allowed value: `created`, `size`, `name`, or `repo_path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#order_by DataXrayArtifactsScan#order_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#order_by DataXrayArtifactsScan#order_by}
   */
   readonly orderBy?: string;
   /**
   * The repository key for which to get artifacts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#repo DataXrayArtifactsScan#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#repo DataXrayArtifactsScan#repo}
   */
   readonly repo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#repo_path DataXrayArtifactsScan#repo_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#repo_path DataXrayArtifactsScan#repo_path}
   */
   readonly repoPath?: string;
 }
@@ -741,7 +741,7 @@ export class DataXrayArtifactsScanResultsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan xray_artifacts_scan}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan xray_artifacts_scan}
 */
 export class DataXrayArtifactsScan extends cdktf.TerraformDataSource {
 
@@ -757,7 +757,7 @@ export class DataXrayArtifactsScan extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataXrayArtifactsScan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataXrayArtifactsScan to import
-  * @param importFromId The id of the existing DataXrayArtifactsScan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataXrayArtifactsScan that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataXrayArtifactsScan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -769,7 +769,7 @@ export class DataXrayArtifactsScan extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/data-sources/artifacts_scan xray_artifacts_scan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.5/docs/data-sources/artifacts_scan xray_artifacts_scan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -780,8 +780,8 @@ export class DataXrayArtifactsScan extends cdktf.TerraformDataSource {
       terraformResourceType: 'xray_artifacts_scan',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.4',
-        providerVersionConstraint: '3.1.4'
+        providerVersion: '3.1.5',
+        providerVersionConstraint: '3.1.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

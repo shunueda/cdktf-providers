@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOsubUsageComputedUsageAggregatedsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#compartment_id DataOciOsubUsageComputedUsageAggregateds#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#compartment_id DataOciOsubUsageComputedUsageAggregateds#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#grouping DataOciOsubUsageComputedUsageAggregateds#grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#grouping DataOciOsubUsageComputedUsageAggregateds#grouping}
   */
   readonly grouping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#id DataOciOsubUsageComputedUsageAggregateds#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#id DataOciOsubUsageComputedUsageAggregateds#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#parent_product DataOciOsubUsageComputedUsageAggregateds#parent_product}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#parent_product DataOciOsubUsageComputedUsageAggregateds#parent_product}
   */
   readonly parentProduct?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#subscription_id DataOciOsubUsageComputedUsageAggregateds#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#subscription_id DataOciOsubUsageComputedUsageAggregateds#subscription_id}
   */
   readonly subscriptionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_from DataOciOsubUsageComputedUsageAggregateds#time_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_from DataOciOsubUsageComputedUsageAggregateds#time_from}
   */
   readonly timeFrom: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_to DataOciOsubUsageComputedUsageAggregateds#time_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#time_to DataOciOsubUsageComputedUsageAggregateds#time_to}
   */
   readonly timeTo: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#x_one_origin_region DataOciOsubUsageComputedUsageAggregateds#x_one_origin_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#x_one_origin_region DataOciOsubUsageComputedUsageAggregateds#x_one_origin_region}
   */
   readonly xOneOriginRegion?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#filter DataOciOsubUsageComputedUsageAggregateds#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#filter DataOciOsubUsageComputedUsageAggregateds#filter}
   */
   readonly filter?: DataOciOsubUsageComputedUsageAggregatedsFilter[] | cdktf.IResolvable;
 }
@@ -494,15 +494,15 @@ export class DataOciOsubUsageComputedUsageAggregatedsComputedUsageAggregatedsLis
 }
 export interface DataOciOsubUsageComputedUsageAggregatedsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#name DataOciOsubUsageComputedUsageAggregateds#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#name DataOciOsubUsageComputedUsageAggregateds#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#regex DataOciOsubUsageComputedUsageAggregateds#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#regex DataOciOsubUsageComputedUsageAggregateds#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#values DataOciOsubUsageComputedUsageAggregateds#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#values DataOciOsubUsageComputedUsageAggregateds#values}
   */
   readonly values: string[];
 }
@@ -670,7 +670,7 @@ export class DataOciOsubUsageComputedUsageAggregatedsFilterList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds oci_osub_usage_computed_usage_aggregateds}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds oci_osub_usage_computed_usage_aggregateds}
 */
 export class DataOciOsubUsageComputedUsageAggregateds extends cdktf.TerraformDataSource {
 
@@ -686,7 +686,7 @@ export class DataOciOsubUsageComputedUsageAggregateds extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataOciOsubUsageComputedUsageAggregateds resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOsubUsageComputedUsageAggregateds to import
-  * @param importFromId The id of the existing DataOciOsubUsageComputedUsageAggregateds that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOsubUsageComputedUsageAggregateds that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOsubUsageComputedUsageAggregateds to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -698,7 +698,7 @@ export class DataOciOsubUsageComputedUsageAggregateds extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/osub_usage_computed_usage_aggregateds oci_osub_usage_computed_usage_aggregateds} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/osub_usage_computed_usage_aggregateds oci_osub_usage_computed_usage_aggregateds} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -709,8 +709,8 @@ export class DataOciOsubUsageComputedUsageAggregateds extends cdktf.TerraformDat
       terraformResourceType: 'oci_osub_usage_computed_usage_aggregateds',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

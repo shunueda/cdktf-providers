@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,128 +8,137 @@ import * as cdktf from 'cdktf';
 
 export interface BillingGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Account ID.
+  * Account ID. Maximum length: `36`. **Deprecated**: Use `parent_id` instead. This field will be removed in the next major release.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#account_id BillingGroup#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#account_id BillingGroup#account_id}
   */
   readonly accountId?: string;
   /**
   * Address lines 1 and 2. For example, street, PO box, or building.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#address_lines BillingGroup#address_lines}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#address_lines BillingGroup#address_lines}
   */
   readonly addressLines?: string[];
   /**
-  * Billing currency for the billing group. Supported currencies are: AUD, CAD, CHF, DKK, EUR, GBP, JPY, NOK, NZD, SEK, SGD, and USD.
+  * List of billing groups contact email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#billing_currency BillingGroup#billing_currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#billing_contact_emails BillingGroup#billing_contact_emails}
+  */
+  readonly billingContactEmails?: string[];
+  /**
+  * Billing currency. The possible values are `AUD`, `CAD`, `CHF`, `DKK`, `EUR`, `GBP`, `JPY`, `NOK`, `NZD`, `SEK`, `SGD` and `USD`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#billing_currency BillingGroup#billing_currency}
   */
   readonly billingCurrency?: string;
   /**
-  * Email address of billing contacts. Invoices and other payment notifications are emailed to all billing contacts.
+  * List of project billing email addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#billing_emails BillingGroup#billing_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#billing_emails BillingGroup#billing_emails}
   */
   readonly billingEmails?: string[];
   /**
-  * Additional information to include on your invoice (for example, a reference number).
+  * Extra text to be included in all project invoices, e.g. purchase order or cost center number. Maximum length: `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#billing_extra_text BillingGroup#billing_extra_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#billing_extra_text BillingGroup#billing_extra_text}
   */
   readonly billingExtraText?: string;
   /**
-  * Credit card ID.
+  * Credit card ID. Maximum length: `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#card_id BillingGroup#card_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#card_id BillingGroup#card_id}
   */
   readonly cardId?: string;
   /**
-  * City, district, suburb, town, or village.
+  * Address city. Maximum length: `512`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#city BillingGroup#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#city BillingGroup#city}
   */
   readonly city?: string;
   /**
-  * Your company name.
+  * Name of a company. Maximum length: `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#company BillingGroup#company}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#company BillingGroup#company}
   */
   readonly company?: string;
   /**
-  * ID of the billing group to copy the company name, address, currency, billing contacts, and extra text from.
+  * Billing group ID. Maximum length: `36`. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#copy_from_billing_group BillingGroup#copy_from_billing_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#copy_from_billing_group BillingGroup#copy_from_billing_group}
   */
   readonly copyFromBillingGroup?: string;
   /**
-  * Two-letter country code.
+  * Two letter country code for billing country. Maximum length: `2`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#country_code BillingGroup#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#country_code BillingGroup#country_code}
   */
   readonly countryCode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#id BillingGroup#id}
+  * Billing group name. Maximum length: `128`.
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * Name of the billing group.
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#name BillingGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#name BillingGroup#name}
   */
   readonly name: string;
   /**
-  * Link a billing group to an existing organization by using its ID. To set up proper dependencies please refer to this variable as a reference.
+  * Link a billing group to an existing organization by using its ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#parent_id BillingGroup#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#parent_id BillingGroup#parent_id}
   */
   readonly parentId?: string;
   /**
-  * Address state.
+  * Address state or province. Maximum length: `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#state BillingGroup#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#state BillingGroup#state}
   */
   readonly state?: string;
   /**
-  * The VAT identification number for your company.
+  * EU VAT Identification Number. Maximum length: `64`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#vat_id BillingGroup#vat_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#vat_id BillingGroup#vat_id}
   */
   readonly vatId?: string;
   /**
-  * Zip or postal code.
+  * Address zip code. Maximum length: `32`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#zip_code BillingGroup#zip_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#zip_code BillingGroup#zip_code}
   */
   readonly zipCode?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#timeouts BillingGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#timeouts BillingGroup#timeouts}
   */
   readonly timeouts?: BillingGroupTimeouts;
 }
 export interface BillingGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#create BillingGroup#create}
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#create BillingGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#default BillingGroup#default}
+  * Timeout for all operations. Deprecated, use operation-specific timeouts instead.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#default BillingGroup#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#delete BillingGroup#delete}
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#delete BillingGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#read BillingGroup#read}
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Read operations occur during any refresh or planning operation when refresh is enabled.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#read BillingGroup#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#update BillingGroup#update}
+  * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#update BillingGroup#update}
   */
   readonly update?: string;
 }
@@ -339,7 +348,7 @@ export class BillingGroupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group aiven_billing_group}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group aiven_billing_group}
 */
 export class BillingGroup extends cdktf.TerraformResource {
 
@@ -355,7 +364,7 @@ export class BillingGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BillingGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BillingGroup to import
-  * @param importFromId The id of the existing BillingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BillingGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BillingGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -367,7 +376,7 @@ export class BillingGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/billing_group aiven_billing_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/billing_group aiven_billing_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,8 +387,8 @@ export class BillingGroup extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_billing_group',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -391,6 +400,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     });
     this._accountId = config.accountId;
     this._addressLines = config.addressLines;
+    this._billingContactEmails = config.billingContactEmails;
     this._billingCurrency = config.billingCurrency;
     this._billingEmails = config.billingEmails;
     this._billingExtraText = config.billingExtraText;
@@ -399,7 +409,6 @@ export class BillingGroup extends cdktf.TerraformResource {
     this._company = config.company;
     this._copyFromBillingGroup = config.copyFromBillingGroup;
     this._countryCode = config.countryCode;
-    this._id = config.id;
     this._name = config.name;
     this._parentId = config.parentId;
     this._state = config.state;
@@ -412,7 +421,7 @@ export class BillingGroup extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // account_id - computed: false, optional: true, required: false
+  // account_id - computed: true, optional: true, required: false
   private _accountId?: string; 
   public get accountId() {
     return this.getStringAttribute('account_id');
@@ -444,7 +453,23 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._addressLines;
   }
 
-  // billing_currency - computed: false, optional: true, required: false
+  // billing_contact_emails - computed: false, optional: true, required: false
+  private _billingContactEmails?: string[]; 
+  public get billingContactEmails() {
+    return cdktf.Fn.tolist(this.getListAttribute('billing_contact_emails'));
+  }
+  public set billingContactEmails(value: string[]) {
+    this._billingContactEmails = value;
+  }
+  public resetBillingContactEmails() {
+    this._billingContactEmails = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get billingContactEmailsInput() {
+    return this._billingContactEmails;
+  }
+
+  // billing_currency - computed: true, optional: true, required: false
   private _billingCurrency?: string; 
   public get billingCurrency() {
     return this.getStringAttribute('billing_currency');
@@ -492,6 +517,11 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._billingExtraText;
   }
 
+  // billing_group_id - computed: true, optional: false, required: false
+  public get billingGroupId() {
+    return this.getStringAttribute('billing_group_id');
+  }
+
   // card_id - computed: false, optional: true, required: false
   private _cardId?: string; 
   public get cardId() {
@@ -508,7 +538,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._cardId;
   }
 
-  // city - computed: false, optional: true, required: false
+  // city - computed: true, optional: true, required: false
   private _city?: string; 
   public get city() {
     return this.getStringAttribute('city');
@@ -524,7 +554,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._city;
   }
 
-  // company - computed: false, optional: true, required: false
+  // company - computed: true, optional: true, required: false
   private _company?: string; 
   public get company() {
     return this.getStringAttribute('company');
@@ -556,7 +586,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._copyFromBillingGroup;
   }
 
-  // country_code - computed: false, optional: true, required: false
+  // country_code - computed: true, optional: true, required: false
   private _countryCode?: string; 
   public get countryCode() {
     return this.getStringAttribute('country_code');
@@ -572,20 +602,9 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._countryCode;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
-  }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
   }
 
   // name - computed: false, optional: false, required: true
@@ -601,7 +620,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._name;
   }
 
-  // parent_id - computed: false, optional: true, required: false
+  // parent_id - computed: true, optional: true, required: false
   private _parentId?: string; 
   public get parentId() {
     return this.getStringAttribute('parent_id');
@@ -633,7 +652,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     return this._state;
   }
 
-  // vat_id - computed: false, optional: true, required: false
+  // vat_id - computed: true, optional: true, required: false
   private _vatId?: string; 
   public get vatId() {
     return this.getStringAttribute('vat_id');
@@ -689,6 +708,7 @@ export class BillingGroup extends cdktf.TerraformResource {
     return {
       account_id: cdktf.stringToTerraform(this._accountId),
       address_lines: cdktf.listMapper(cdktf.stringToTerraform, false)(this._addressLines),
+      billing_contact_emails: cdktf.listMapper(cdktf.stringToTerraform, false)(this._billingContactEmails),
       billing_currency: cdktf.stringToTerraform(this._billingCurrency),
       billing_emails: cdktf.listMapper(cdktf.stringToTerraform, false)(this._billingEmails),
       billing_extra_text: cdktf.stringToTerraform(this._billingExtraText),
@@ -697,7 +717,6 @@ export class BillingGroup extends cdktf.TerraformResource {
       company: cdktf.stringToTerraform(this._company),
       copy_from_billing_group: cdktf.stringToTerraform(this._copyFromBillingGroup),
       country_code: cdktf.stringToTerraform(this._countryCode),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
       parent_id: cdktf.stringToTerraform(this._parentId),
       state: cdktf.stringToTerraform(this._state),
@@ -717,6 +736,12 @@ export class BillingGroup extends cdktf.TerraformResource {
       },
       address_lines: {
         value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._addressLines),
+        isBlock: false,
+        type: "set",
+        storageClassType: "stringList",
+      },
+      billing_contact_emails: {
+        value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(this._billingContactEmails),
         isBlock: false,
         type: "set",
         storageClassType: "stringList",
@@ -765,12 +790,6 @@ export class BillingGroup extends cdktf.TerraformResource {
       },
       country_code: {
         value: cdktf.stringToHclTerraform(this._countryCode),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

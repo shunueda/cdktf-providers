@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_lookup
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_namespace_lookup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciLogAnalyticsNamespaceLookupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_lookup#lookup_name DataOciLogAnalyticsNamespaceLookup#lookup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_namespace_lookup#lookup_name DataOciLogAnalyticsNamespaceLookup#lookup_name}
   */
   readonly lookupName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_lookup#namespace DataOciLogAnalyticsNamespaceLookup#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_namespace_lookup#namespace DataOciLogAnalyticsNamespaceLookup#namespace}
   */
   readonly namespace: string;
 }
@@ -393,7 +393,7 @@ export class DataOciLogAnalyticsNamespaceLookupStatusSummaryList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup}
 */
 export class DataOciLogAnalyticsNamespaceLookup extends cdktf.TerraformDataSource {
 
@@ -409,7 +409,7 @@ export class DataOciLogAnalyticsNamespaceLookup extends cdktf.TerraformDataSourc
   * Generates CDKTF code for importing a DataOciLogAnalyticsNamespaceLookup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciLogAnalyticsNamespaceLookup to import
-  * @param importFromId The id of the existing DataOciLogAnalyticsNamespaceLookup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_lookup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciLogAnalyticsNamespaceLookup that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_namespace_lookup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciLogAnalyticsNamespaceLookup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -421,7 +421,7 @@ export class DataOciLogAnalyticsNamespaceLookup extends cdktf.TerraformDataSourc
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/log_analytics_namespace_lookup oci_log_analytics_namespace_lookup} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -432,8 +432,8 @@ export class DataOciLogAnalyticsNamespaceLookup extends cdktf.TerraformDataSourc
       terraformResourceType: 'oci_log_analytics_namespace_lookup',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMulticloudResourceAnchorsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#compartment_id DataOciMulticloudResourceAnchors#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#compartment_id DataOciMulticloudResourceAnchors#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#display_name DataOciMulticloudResourceAnchors#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#display_name DataOciMulticloudResourceAnchors#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#id DataOciMulticloudResourceAnchors#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#id DataOciMulticloudResourceAnchors#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#is_compartment_id_in_subtree DataOciMulticloudResourceAnchors#is_compartment_id_in_subtree}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#is_compartment_id_in_subtree DataOciMulticloudResourceAnchors#is_compartment_id_in_subtree}
   */
   readonly isCompartmentIdInSubtree?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#lifecycle_state DataOciMulticloudResourceAnchors#lifecycle_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#lifecycle_state DataOciMulticloudResourceAnchors#lifecycle_state}
   */
   readonly lifecycleState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#limit DataOciMulticloudResourceAnchors#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#limit DataOciMulticloudResourceAnchors#limit}
   */
   readonly limit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#linked_compartment_id DataOciMulticloudResourceAnchors#linked_compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#linked_compartment_id DataOciMulticloudResourceAnchors#linked_compartment_id}
   */
   readonly linkedCompartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#subscription_id DataOciMulticloudResourceAnchors#subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#should_fetch_compartment_name DataOciMulticloudResourceAnchors#should_fetch_compartment_name}
   */
-  readonly subscriptionId: string;
+  readonly shouldFetchCompartmentName?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#subscription_service_name DataOciMulticloudResourceAnchors#subscription_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#subscription_id DataOciMulticloudResourceAnchors#subscription_id}
   */
-  readonly subscriptionServiceName: string;
+  readonly subscriptionId?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#subscription_service_name DataOciMulticloudResourceAnchors#subscription_service_name}
+  */
+  readonly subscriptionServiceName?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#filter DataOciMulticloudResourceAnchors#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#filter DataOciMulticloudResourceAnchors#filter}
   */
   readonly filter?: DataOciMulticloudResourceAnchorsFilter[] | cdktf.IResolvable;
 }
@@ -109,6 +113,27 @@ export class DataOciMulticloudResourceAnchorsResourceAnchorCollectionItemsOutput
     return this.getStringAttribute('compartment_id');
   }
 
+  // compartment_name - computed: true, optional: false, required: false
+  public get compartmentName() {
+    return this.getStringAttribute('compartment_name');
+  }
+
+  // csp_additional_properties - computed: true, optional: false, required: false
+  private _cspAdditionalProperties = new cdktf.StringMap(this, "csp_additional_properties");
+  public get cspAdditionalProperties() {
+    return this._cspAdditionalProperties;
+  }
+
+  // csp_resource_anchor_id - computed: true, optional: false, required: false
+  public get cspResourceAnchorId() {
+    return this.getStringAttribute('csp_resource_anchor_id');
+  }
+
+  // csp_resource_anchor_name - computed: true, optional: false, required: false
+  public get cspResourceAnchorName() {
+    return this.getStringAttribute('csp_resource_anchor_name');
+  }
+
   // defined_tags - computed: true, optional: false, required: false
   private _definedTags = new cdktf.StringMap(this, "defined_tags");
   public get definedTags() {
@@ -139,6 +164,21 @@ export class DataOciMulticloudResourceAnchorsResourceAnchorCollectionItemsOutput
   // lifecycle_state - computed: true, optional: false, required: false
   public get lifecycleState() {
     return this.getStringAttribute('lifecycle_state');
+  }
+
+  // linked_compartment_id - computed: true, optional: false, required: false
+  public get linkedCompartmentId() {
+    return this.getStringAttribute('linked_compartment_id');
+  }
+
+  // linked_compartment_name - computed: true, optional: false, required: false
+  public get linkedCompartmentName() {
+    return this.getStringAttribute('linked_compartment_name');
+  }
+
+  // partner_cloud_account_identifier - computed: true, optional: false, required: false
+  public get partnerCloudAccountIdentifier() {
+    return this.getStringAttribute('partner_cloud_account_identifier');
   }
 
   // subscription_id - computed: true, optional: false, required: false
@@ -259,15 +299,15 @@ export class DataOciMulticloudResourceAnchorsResourceAnchorCollectionList extend
 }
 export interface DataOciMulticloudResourceAnchorsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#name DataOciMulticloudResourceAnchors#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#name DataOciMulticloudResourceAnchors#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#regex DataOciMulticloudResourceAnchors#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#regex DataOciMulticloudResourceAnchors#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#values DataOciMulticloudResourceAnchors#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#values DataOciMulticloudResourceAnchors#values}
   */
   readonly values: string[];
 }
@@ -435,7 +475,7 @@ export class DataOciMulticloudResourceAnchorsFilterList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors}
 */
 export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource {
 
@@ -451,7 +491,7 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOciMulticloudResourceAnchors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMulticloudResourceAnchors to import
-  * @param importFromId The id of the existing DataOciMulticloudResourceAnchors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMulticloudResourceAnchors that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMulticloudResourceAnchors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,19 +503,19 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/multicloud_resource_anchors oci_multicloud_resource_anchors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options DataOciMulticloudResourceAnchorsConfig
+  * @param options DataOciMulticloudResourceAnchorsConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: DataOciMulticloudResourceAnchorsConfig) {
+  public constructor(scope: Construct, id: string, config: DataOciMulticloudResourceAnchorsConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'oci_multicloud_resource_anchors',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -492,6 +532,7 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
     this._lifecycleState = config.lifecycleState;
     this._limit = config.limit;
     this._linkedCompartmentId = config.linkedCompartmentId;
+    this._shouldFetchCompartmentName = config.shouldFetchCompartmentName;
     this._subscriptionId = config.subscriptionId;
     this._subscriptionServiceName = config.subscriptionServiceName;
     this._filter.internalValue = config.filter;
@@ -619,7 +660,23 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
     return this._resourceAnchorCollection;
   }
 
-  // subscription_id - computed: false, optional: false, required: true
+  // should_fetch_compartment_name - computed: false, optional: true, required: false
+  private _shouldFetchCompartmentName?: boolean | cdktf.IResolvable; 
+  public get shouldFetchCompartmentName() {
+    return this.getBooleanAttribute('should_fetch_compartment_name');
+  }
+  public set shouldFetchCompartmentName(value: boolean | cdktf.IResolvable) {
+    this._shouldFetchCompartmentName = value;
+  }
+  public resetShouldFetchCompartmentName() {
+    this._shouldFetchCompartmentName = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get shouldFetchCompartmentNameInput() {
+    return this._shouldFetchCompartmentName;
+  }
+
+  // subscription_id - computed: false, optional: true, required: false
   private _subscriptionId?: string; 
   public get subscriptionId() {
     return this.getStringAttribute('subscription_id');
@@ -627,18 +684,24 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
   public set subscriptionId(value: string) {
     this._subscriptionId = value;
   }
+  public resetSubscriptionId() {
+    this._subscriptionId = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get subscriptionIdInput() {
     return this._subscriptionId;
   }
 
-  // subscription_service_name - computed: false, optional: false, required: true
+  // subscription_service_name - computed: false, optional: true, required: false
   private _subscriptionServiceName?: string; 
   public get subscriptionServiceName() {
     return this.getStringAttribute('subscription_service_name');
   }
   public set subscriptionServiceName(value: string) {
     this._subscriptionServiceName = value;
+  }
+  public resetSubscriptionServiceName() {
+    this._subscriptionServiceName = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get subscriptionServiceNameInput() {
@@ -674,6 +737,7 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
       lifecycle_state: cdktf.stringToTerraform(this._lifecycleState),
       limit: cdktf.numberToTerraform(this._limit),
       linked_compartment_id: cdktf.stringToTerraform(this._linkedCompartmentId),
+      should_fetch_compartment_name: cdktf.booleanToTerraform(this._shouldFetchCompartmentName),
       subscription_id: cdktf.stringToTerraform(this._subscriptionId),
       subscription_service_name: cdktf.stringToTerraform(this._subscriptionServiceName),
       filter: cdktf.listMapper(dataOciMulticloudResourceAnchorsFilterToTerraform, true)(this._filter.internalValue),
@@ -723,6 +787,12 @@ export class DataOciMulticloudResourceAnchors extends cdktf.TerraformDataSource 
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      should_fetch_compartment_name: {
+        value: cdktf.booleanToHclTerraform(this._shouldFetchCompartmentName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
       },
       subscription_id: {
         value: cdktf.stringToHclTerraform(this._subscriptionId),

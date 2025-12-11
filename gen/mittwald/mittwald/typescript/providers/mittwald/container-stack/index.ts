@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,25 +8,25 @@ import * as cdktf from 'cdktf';
 
 export interface ContainerStackConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#containers ContainerStack#containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#containers ContainerStack#containers}
   */
   readonly containers: { [key: string]: ContainerStackContainers } | cdktf.IResolvable;
   /**
   * Set this flag to use the project's default stack. Otherwise, a new stack will be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#default_stack ContainerStack#default_stack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#default_stack ContainerStack#default_stack}
   */
   readonly defaultStack?: boolean | cdktf.IResolvable;
   /**
   * The ID of the project the container_stack belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#project_id ContainerStack#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#project_id ContainerStack#project_id}
   */
   readonly projectId: string;
   /**
   * A map of volumes that should be provisioned for this stack.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#volumes ContainerStack#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#volumes ContainerStack#volumes}
   */
   readonly volumes?: { [key: string]: ContainerStackVolumes } | cdktf.IResolvable;
 }
@@ -34,19 +34,19 @@ export interface ContainerStackContainersPorts {
   /**
   * The container port to expose.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#container_port ContainerStack#container_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#container_port ContainerStack#container_port}
   */
   readonly containerPort: number;
   /**
   * The protocol to use for the port. Currently, the only supported value is `tcp`, which is also the default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#protocol ContainerStack#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#protocol ContainerStack#protocol}
   */
   readonly protocol?: string;
   /**
   * The public port to expose; when omitted, this will default to the same value as `container_port`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#public_port ContainerStack#public_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#public_port ContainerStack#public_port}
   */
   readonly publicPort?: number;
 }
@@ -219,7 +219,7 @@ export interface ContainerStackContainersVolumes {
   /**
   * The path to mount the volume to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#mount_path ContainerStack#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#mount_path ContainerStack#mount_path}
   */
   readonly mountPath: string;
   /**
@@ -227,7 +227,7 @@ export interface ContainerStackContainersVolumes {
   * 
   * Either this attribute, or `volume` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#project_path ContainerStack#project_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#project_path ContainerStack#project_path}
   */
   readonly projectPath?: string;
   /**
@@ -235,7 +235,7 @@ export interface ContainerStackContainersVolumes {
   * 
   * Either this attribute, or `project_path` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#volume ContainerStack#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#volume ContainerStack#volume}
   */
   readonly volume?: string;
 }
@@ -410,13 +410,13 @@ export interface ContainerStackContainers {
   * 
   * Note that this is a required value, even if the image already has a default command. To use the default command, use the `mittwald_container_image` data source to first determine the default command, and then use that value here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#command ContainerStack#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#command ContainerStack#command}
   */
   readonly command: string[];
   /**
   * A description for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#description ContainerStack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#description ContainerStack#description}
   */
   readonly description?: string;
   /**
@@ -424,13 +424,13 @@ export interface ContainerStackContainers {
   * 
   * Note that this is a required value, even if the image already has a default entrypoint. To use the default entrypoint, use the `mittwald_container_image` data source to first determine the default entrypoint, and then use that value here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#entrypoint ContainerStack#entrypoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#entrypoint ContainerStack#entrypoint}
   */
   readonly entrypoint: string[];
   /**
   * A map of environment variables to set inside the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#environment ContainerStack#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#environment ContainerStack#environment}
   */
   readonly environment?: { [key: string]: string };
   /**
@@ -438,25 +438,25 @@ export interface ContainerStackContainers {
   * 
   *   Note that when using a non-standard registry (or a standard registry with credentials), you will probably also need to add a `mittwald_container_registry` resource somewhere in your plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#image ContainerStack#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#image ContainerStack#image}
   */
   readonly image: string;
   /**
   * Set this flag to **not** recreate the container if any of the configuration changes. This includes changes to the image, command, entrypoint, environment variables, and ports. If this is set, you will need to manually recreate the container to apply any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#no_recreate_on_change ContainerStack#no_recreate_on_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#no_recreate_on_change ContainerStack#no_recreate_on_change}
   */
   readonly noRecreateOnChange?: boolean | cdktf.IResolvable;
   /**
   * A port to expose from the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#ports ContainerStack#ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#ports ContainerStack#ports}
   */
   readonly ports?: ContainerStackContainersPorts[] | cdktf.IResolvable;
   /**
   * Volumes to mount into the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#volumes ContainerStack#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#volumes ContainerStack#volumes}
   */
   readonly volumes?: ContainerStackContainersVolumes[] | cdktf.IResolvable;
 }
@@ -848,7 +848,7 @@ export class ContainerStackVolumesMap extends cdktf.ComplexMap {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack mittwald_container_stack}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack mittwald_container_stack}
 */
 export class ContainerStack extends cdktf.TerraformResource {
 
@@ -864,7 +864,7 @@ export class ContainerStack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ContainerStack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ContainerStack to import
-  * @param importFromId The id of the existing ContainerStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ContainerStack that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ContainerStack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -876,7 +876,7 @@ export class ContainerStack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/container_stack mittwald_container_stack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/container_stack mittwald_container_stack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -887,8 +887,8 @@ export class ContainerStack extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_container_stack',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5',
-        providerVersionConstraint: '1.4.5'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

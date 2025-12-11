@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DcxExtraConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * direct connect tunnel bandwidth.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#bandwidth DcxExtraConfig#bandwidth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#bandwidth DcxExtraConfig#bandwidth}
   */
   readonly bandwidth?: number;
   /**
   * be enabled BFD.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#bfd_enable DcxExtraConfig#bfd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#bfd_enable DcxExtraConfig#bfd_enable}
   */
   readonly bfdEnable?: number;
   /**
   * direct connect tunnel user idc connect ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#customer_address DcxExtraConfig#customer_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#customer_address DcxExtraConfig#customer_address}
   */
   readonly customerAddress?: string;
   /**
   * direct connect tunnel id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#direct_connect_tunnel_id DcxExtraConfig#direct_connect_tunnel_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#direct_connect_tunnel_id DcxExtraConfig#direct_connect_tunnel_id}
   */
   readonly directConnectTunnelId: string;
   /**
   * BGP community attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#enable_bgp_community DcxExtraConfig#enable_bgp_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#enable_bgp_community DcxExtraConfig#enable_bgp_community}
   */
   readonly enableBgpCommunity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#id DcxExtraConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#id DcxExtraConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,61 +47,61 @@ export interface DcxExtraConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * 0: disable IPv61: enable IPv6.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#ipv6_enable DcxExtraConfig#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#ipv6_enable DcxExtraConfig#ipv6_enable}
   */
   readonly ipv6Enable?: number;
   /**
   * direct connect tunnel support jumbo frame1: enable direct connect tunnel jumbo frame0: disable direct connect tunnel jumbo frame.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#jumbo_enable DcxExtraConfig#jumbo_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#jumbo_enable DcxExtraConfig#jumbo_enable}
   */
   readonly jumboEnable?: number;
   /**
   * be enabled NQA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#nqa_enable DcxExtraConfig#nqa_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#nqa_enable DcxExtraConfig#nqa_enable}
   */
   readonly nqaEnable?: number;
   /**
   * direct connect tunnel tencent cloud connect ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#tencent_address DcxExtraConfig#tencent_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#tencent_address DcxExtraConfig#tencent_address}
   */
   readonly tencentAddress?: string;
   /**
   * direct connect tunnel tencent cloud backup connect ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#tencent_backup_address DcxExtraConfig#tencent_backup_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#tencent_backup_address DcxExtraConfig#tencent_backup_address}
   */
   readonly tencentBackupAddress?: string;
   /**
   * direct connect tunnel vlan id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#vlan DcxExtraConfig#vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#vlan DcxExtraConfig#vlan}
   */
   readonly vlan?: number;
   /**
   * bfd_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#bfd_info DcxExtraConfig#bfd_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#bfd_info DcxExtraConfig#bfd_info}
   */
   readonly bfdInfo?: DcxExtraConfigBfdInfo;
   /**
   * bgp_peer block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#bgp_peer DcxExtraConfig#bgp_peer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#bgp_peer DcxExtraConfig#bgp_peer}
   */
   readonly bgpPeer?: DcxExtraConfigBgpPeer;
   /**
   * nqa_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#nqa_info DcxExtraConfig#nqa_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#nqa_info DcxExtraConfig#nqa_info}
   */
   readonly nqaInfo?: DcxExtraConfigNqaInfo;
   /**
   * route_filter_prefixes block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#route_filter_prefixes DcxExtraConfig#route_filter_prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#route_filter_prefixes DcxExtraConfig#route_filter_prefixes}
   */
   readonly routeFilterPrefixes?: DcxExtraConfigRouteFilterPrefixes;
 }
@@ -109,13 +109,13 @@ export interface DcxExtraConfigBfdInfo {
   /**
   * detect interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#interval DcxExtraConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#interval DcxExtraConfig#interval}
   */
   readonly interval?: number;
   /**
   * detect times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#probe_failed_times DcxExtraConfig#probe_failed_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#probe_failed_times DcxExtraConfig#probe_failed_times}
   */
   readonly probeFailedTimes?: number;
 }
@@ -230,13 +230,13 @@ export interface DcxExtraConfigBgpPeer {
   /**
   * user idc BGP Asn.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#asn DcxExtraConfig#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#asn DcxExtraConfig#asn}
   */
   readonly asn?: number;
   /**
   * user bgp key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#auth_key DcxExtraConfig#auth_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#auth_key DcxExtraConfig#auth_key}
   */
   readonly authKey?: string;
 }
@@ -351,19 +351,19 @@ export interface DcxExtraConfigNqaInfo {
   /**
   * detect ip.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#destination_ip DcxExtraConfig#destination_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#destination_ip DcxExtraConfig#destination_ip}
   */
   readonly destinationIp?: string;
   /**
   * detect interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#interval DcxExtraConfig#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#interval DcxExtraConfig#interval}
   */
   readonly interval?: number;
   /**
   * detect times.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#probe_failed_times DcxExtraConfig#probe_failed_times}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#probe_failed_times DcxExtraConfig#probe_failed_times}
   */
   readonly probeFailedTimes?: number;
 }
@@ -507,7 +507,7 @@ export interface DcxExtraConfigRouteFilterPrefixes {
   /**
   * user network prefixes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#cidr DcxExtraConfig#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#cidr DcxExtraConfig#cidr}
   */
   readonly cidr?: string;
 }
@@ -591,7 +591,7 @@ export class DcxExtraConfigRouteFilterPrefixesOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config tencentcloud_dcx_extra_config}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config tencentcloud_dcx_extra_config}
 */
 export class DcxExtraConfig extends cdktf.TerraformResource {
 
@@ -607,7 +607,7 @@ export class DcxExtraConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcxExtraConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcxExtraConfig to import
-  * @param importFromId The id of the existing DcxExtraConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcxExtraConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcxExtraConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -619,7 +619,7 @@ export class DcxExtraConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcx_extra_config tencentcloud_dcx_extra_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcx_extra_config tencentcloud_dcx_extra_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -630,8 +630,8 @@ export class DcxExtraConfig extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcx_extra_config',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

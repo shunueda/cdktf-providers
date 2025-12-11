@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciObjectstorageObjectsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#bucket DataOciObjectstorageObjects#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#bucket DataOciObjectstorageObjects#bucket}
   */
   readonly bucket: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#delimiter DataOciObjectstorageObjects#delimiter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#delimiter DataOciObjectstorageObjects#delimiter}
   */
   readonly delimiter?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#end DataOciObjectstorageObjects#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#end DataOciObjectstorageObjects#end}
   */
   readonly end?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#id DataOciObjectstorageObjects#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#id DataOciObjectstorageObjects#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#namespace DataOciObjectstorageObjects#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#namespace DataOciObjectstorageObjects#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#prefix DataOciObjectstorageObjects#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#prefix DataOciObjectstorageObjects#prefix}
   */
   readonly prefix?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#start DataOciObjectstorageObjects#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#start DataOciObjectstorageObjects#start}
   */
   readonly start?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#start_after DataOciObjectstorageObjects#start_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#start_after DataOciObjectstorageObjects#start_after}
   */
   readonly startAfter?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#filter DataOciObjectstorageObjects#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#filter DataOciObjectstorageObjects#filter}
   */
   readonly filter?: DataOciObjectstorageObjectsFilter[] | cdktf.IResolvable;
 }
@@ -161,15 +161,15 @@ export class DataOciObjectstorageObjectsObjectsList extends cdktf.ComplexList {
 }
 export interface DataOciObjectstorageObjectsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#name DataOciObjectstorageObjects#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#name DataOciObjectstorageObjects#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#regex DataOciObjectstorageObjects#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#regex DataOciObjectstorageObjects#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#values DataOciObjectstorageObjects#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#values DataOciObjectstorageObjects#values}
   */
   readonly values: string[];
 }
@@ -337,7 +337,7 @@ export class DataOciObjectstorageObjectsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects oci_objectstorage_objects}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects oci_objectstorage_objects}
 */
 export class DataOciObjectstorageObjects extends cdktf.TerraformDataSource {
 
@@ -353,7 +353,7 @@ export class DataOciObjectstorageObjects extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciObjectstorageObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciObjectstorageObjects to import
-  * @param importFromId The id of the existing DataOciObjectstorageObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciObjectstorageObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciObjectstorageObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -365,7 +365,7 @@ export class DataOciObjectstorageObjects extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/objectstorage_objects oci_objectstorage_objects} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/objectstorage_objects oci_objectstorage_objects} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -376,8 +376,8 @@ export class DataOciObjectstorageObjects extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_objectstorage_objects',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

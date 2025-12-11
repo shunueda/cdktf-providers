@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,57 +10,57 @@ export interface CameraQualityRetentionConfig extends cdktf.TerraformMetaArgumen
   /**
   * Boolean indicating if audio recording is enabled(true) or disabled(false) on the camera
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#audio_recording_enabled CameraQualityRetention#audio_recording_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#audio_recording_enabled CameraQualityRetention#audio_recording_enabled}
   */
   readonly audioRecordingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Boolean indicating if motion-based retention is enabled(true) or disabled(false) on the camera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#motion_based_retention_enabled CameraQualityRetention#motion_based_retention_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#motion_based_retention_enabled CameraQualityRetention#motion_based_retention_enabled}
   */
   readonly motionBasedRetentionEnabled?: boolean | cdktf.IResolvable;
   /**
   * The version of the motion detector that will be used by the camera. Only applies to Gen 2 cameras. Defaults to v2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#motion_detector_version CameraQualityRetention#motion_detector_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#motion_detector_version CameraQualityRetention#motion_detector_version}
   */
   readonly motionDetectorVersion?: number;
   /**
   * The ID of a quality and retention profile to assign to the camera. The profile`s settings will override all of the per-camera quality and retention settings. If the value of this parameter is null, any existing profile will be unassigned from the camera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#profile_id CameraQualityRetention#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#profile_id CameraQualityRetention#profile_id}
   */
   readonly profileId?: string;
   /**
   * Quality of the camera. Can be one of `Standard`, `High` or `Enhanced`. Not all qualities are supported by every camera model.
   *   - Choices: `Enhanced`, `High`, `Standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#quality CameraQualityRetention#quality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#quality CameraQualityRetention#quality}
   */
   readonly quality?: string;
   /**
   * Resolution of the camera. Can be one of `1280x720`, `1920x1080`, `1080x1080`, `2112x2112`, `2880x2880`, `2688x1512` or `3840x2160`.Not all resolutions are supported by every camera model.
   *   - Choices: `1080x1080`, `1280x720`, `1920x1080`, `2112x2112`, `2688x1512`, `2880x2880`, `3840x2160`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#resolution CameraQualityRetention#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#resolution CameraQualityRetention#resolution}
   */
   readonly resolution?: string;
   /**
   * Boolean indicating if restricted bandwidth is enabled(true) or disabled(false) on the camera. This setting does not apply to MV2 cameras.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#restricted_bandwidth_mode_enabled CameraQualityRetention#restricted_bandwidth_mode_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#restricted_bandwidth_mode_enabled CameraQualityRetention#restricted_bandwidth_mode_enabled}
   */
   readonly restrictedBandwidthModeEnabled?: boolean | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#serial CameraQualityRetention#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#serial CameraQualityRetention#serial}
   */
   readonly serial: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention meraki_camera_quality_retention}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention meraki_camera_quality_retention}
 */
 export class CameraQualityRetention extends cdktf.TerraformResource {
 
@@ -76,7 +76,7 @@ export class CameraQualityRetention extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CameraQualityRetention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CameraQualityRetention to import
-  * @param importFromId The id of the existing CameraQualityRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CameraQualityRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CameraQualityRetention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -88,7 +88,7 @@ export class CameraQualityRetention extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/camera_quality_retention meraki_camera_quality_retention} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/camera_quality_retention meraki_camera_quality_retention} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -99,8 +99,8 @@ export class CameraQualityRetention extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_camera_quality_retention',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

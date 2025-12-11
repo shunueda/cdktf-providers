@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_webhook_http_servers
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_webhook_http_servers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiNetworkWebhookHttpServersConfig extends cdktf.Terrafo
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_webhook_http_servers#network_id DataMerakiNetworkWebhookHttpServers#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_webhook_http_servers#network_id DataMerakiNetworkWebhookHttpServers#network_id}
   */
   readonly networkId: string;
 }
@@ -116,7 +116,7 @@ export class DataMerakiNetworkWebhookHttpServersItemsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_webhook_http_servers meraki_network_webhook_http_servers}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_webhook_http_servers meraki_network_webhook_http_servers}
 */
 export class DataMerakiNetworkWebhookHttpServers extends cdktf.TerraformDataSource {
 
@@ -132,7 +132,7 @@ export class DataMerakiNetworkWebhookHttpServers extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataMerakiNetworkWebhookHttpServers resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiNetworkWebhookHttpServers to import
-  * @param importFromId The id of the existing DataMerakiNetworkWebhookHttpServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_webhook_http_servers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiNetworkWebhookHttpServers that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_webhook_http_servers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiNetworkWebhookHttpServers to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -144,7 +144,7 @@ export class DataMerakiNetworkWebhookHttpServers extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/network_webhook_http_servers meraki_network_webhook_http_servers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/network_webhook_http_servers meraki_network_webhook_http_servers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -155,8 +155,8 @@ export class DataMerakiNetworkWebhookHttpServers extends cdktf.TerraformDataSour
       terraformResourceType: 'meraki_network_webhook_http_servers',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

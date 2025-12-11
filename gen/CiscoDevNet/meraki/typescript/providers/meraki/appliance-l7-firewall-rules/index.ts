@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ApplianceL7FirewallRulesConfig extends cdktf.TerraformMetaArgum
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#network_id ApplianceL7FirewallRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#network_id ApplianceL7FirewallRules#network_id}
   */
   readonly networkId: string;
   /**
   * An ordered array of the MX L7 firewall rules
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#rules ApplianceL7FirewallRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#rules ApplianceL7FirewallRules#rules}
   */
   readonly rules: ApplianceL7FirewallRulesRules[] | cdktf.IResolvable;
 }
@@ -25,26 +25,26 @@ export interface ApplianceL7FirewallRulesRules {
   * `Deny` traffic specified by this rule
   *   - Choices: `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#policy ApplianceL7FirewallRules#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#policy ApplianceL7FirewallRules#policy}
   */
   readonly policy?: string;
   /**
   * Type of the L7 rule. One of: `application`, `applicationCategory`, `host`, `port`, `ipRange`, `blockedCountries`, `allowedCountries`
   *   - Choices: `application`, `applicationCategory`, `host`, `ipRange`, `port`, `blockedCountries`, `allowedCountries`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#type ApplianceL7FirewallRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#type ApplianceL7FirewallRules#type}
   */
   readonly type?: string;
   /**
   * The `value` of what you want to block. The application categories and application ids can be retrieved from the the `MX L7 application categories` endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#value ApplianceL7FirewallRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#value ApplianceL7FirewallRules#value}
   */
   readonly value?: string;
   /**
   * If type is `blockedCountries` or `allowedCountries` this attribute should be used instead of `value`. A list of countries, that follow the two-letter ISO 3166-1 alpha-2 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#value_countries ApplianceL7FirewallRules#value_countries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#value_countries ApplianceL7FirewallRules#value_countries}
   */
   readonly valueCountries?: string[];
 }
@@ -247,7 +247,7 @@ export class ApplianceL7FirewallRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules}
 */
 export class ApplianceL7FirewallRules extends cdktf.TerraformResource {
 
@@ -263,7 +263,7 @@ export class ApplianceL7FirewallRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceL7FirewallRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceL7FirewallRules to import
-  * @param importFromId The id of the existing ApplianceL7FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceL7FirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceL7FirewallRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -275,7 +275,7 @@ export class ApplianceL7FirewallRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_l7_firewall_rules meraki_appliance_l7_firewall_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -286,8 +286,8 @@ export class ApplianceL7FirewallRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_l7_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

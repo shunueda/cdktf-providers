@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApiGatewayStrategyAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * The API that needs to be bound.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment#bind_api_id ApiGatewayStrategyAttachment#bind_api_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment#bind_api_id ApiGatewayStrategyAttachment#bind_api_id}
   */
   readonly bindApiId: string;
   /**
   * The environment of the strategy association. Valid values: `test`, `release`, `prepub`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment#environment_name ApiGatewayStrategyAttachment#environment_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment#environment_name ApiGatewayStrategyAttachment#environment_name}
   */
   readonly environmentName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment#id ApiGatewayStrategyAttachment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment#id ApiGatewayStrategyAttachment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ApiGatewayStrategyAttachmentConfig extends cdktf.TerraformMetaA
   /**
   * The ID of the API gateway service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment#service_id ApiGatewayStrategyAttachment#service_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment#service_id ApiGatewayStrategyAttachment#service_id}
   */
   readonly serviceId: string;
   /**
   * The ID of the API gateway strategy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment#strategy_id ApiGatewayStrategyAttachment#strategy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment#strategy_id ApiGatewayStrategyAttachment#strategy_id}
   */
   readonly strategyId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment tencentcloud_api_gateway_strategy_attachment}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment tencentcloud_api_gateway_strategy_attachment}
 */
 export class ApiGatewayStrategyAttachment extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class ApiGatewayStrategyAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiGatewayStrategyAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiGatewayStrategyAttachment to import
-  * @param importFromId The id of the existing ApiGatewayStrategyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiGatewayStrategyAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiGatewayStrategyAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class ApiGatewayStrategyAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/api_gateway_strategy_attachment tencentcloud_api_gateway_strategy_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/api_gateway_strategy_attachment tencentcloud_api_gateway_strategy_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class ApiGatewayStrategyAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_api_gateway_strategy_attachment',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

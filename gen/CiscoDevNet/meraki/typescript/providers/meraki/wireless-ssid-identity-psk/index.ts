@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface WirelessSsidIdentityPskConfig extends cdktf.TerraformMetaArgume
   /**
   * Timestamp for when the Identity PSK expires. Will not expire if left blank.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#expires_at WirelessSsidIdentityPsk#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#expires_at WirelessSsidIdentityPsk#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * The group policy to be applied to clients
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#group_policy_id WirelessSsidIdentityPsk#group_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#group_policy_id WirelessSsidIdentityPsk#group_policy_id}
   */
   readonly groupPolicyId: string;
   /**
   * The name of the Identity PSK
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#name WirelessSsidIdentityPsk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#name WirelessSsidIdentityPsk#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#network_id WirelessSsidIdentityPsk#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#network_id WirelessSsidIdentityPsk#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#number WirelessSsidIdentityPsk#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#number WirelessSsidIdentityPsk#number}
   */
   readonly number: string;
   /**
   * The passphrase for client authentication. If left blank, one will be auto-generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#passphrase WirelessSsidIdentityPsk#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#passphrase WirelessSsidIdentityPsk#passphrase}
   */
   readonly passphrase?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk}
 */
 export class WirelessSsidIdentityPsk extends cdktf.TerraformResource {
 
@@ -62,7 +62,7 @@ export class WirelessSsidIdentityPsk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidIdentityPsk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidIdentityPsk to import
-  * @param importFromId The id of the existing WirelessSsidIdentityPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidIdentityPsk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidIdentityPsk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -74,7 +74,7 @@ export class WirelessSsidIdentityPsk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_identity_psk meraki_wireless_ssid_identity_psk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -85,8 +85,8 @@ export class WirelessSsidIdentityPsk extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_identity_psk',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,32 +11,32 @@ export interface ApplianceFirewalledServiceConfig extends cdktf.TerraformMetaArg
   * A string indicating the rule for which IPs are allowed to use the specified service. Acceptable values are 'blocked' (no remote IPs can access the service), 'restricted' (only allowed IPs can access the service), and 'unrestriced' (any remote IP can access the service). This field is required
   *   - Choices: `blocked`, `restricted`, `unrestricted`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service#access ApplianceFirewalledService#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service#access ApplianceFirewalledService#access}
   */
   readonly access: string;
   /**
   * An array of allowed IPs that can access the service. This field is required if 'access' is set to 'restricted'. Otherwise this field is ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service#allowed_ips ApplianceFirewalledService#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service#allowed_ips ApplianceFirewalledService#allowed_ips}
   */
   readonly allowedIps?: string[];
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service#network_id ApplianceFirewalledService#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service#network_id ApplianceFirewalledService#network_id}
   */
   readonly networkId: string;
   /**
   * Service
   *   - Choices: `ICMP`, `SNMP`, `web`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service#service ApplianceFirewalledService#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service#service ApplianceFirewalledService#service}
   */
   readonly service: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service meraki_appliance_firewalled_service}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service meraki_appliance_firewalled_service}
 */
 export class ApplianceFirewalledService extends cdktf.TerraformResource {
 
@@ -52,7 +52,7 @@ export class ApplianceFirewalledService extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceFirewalledService resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceFirewalledService to import
-  * @param importFromId The id of the existing ApplianceFirewalledService that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceFirewalledService that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceFirewalledService to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class ApplianceFirewalledService extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_firewalled_service meraki_appliance_firewalled_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_firewalled_service meraki_appliance_firewalled_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class ApplianceFirewalledService extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_firewalled_service',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

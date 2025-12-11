@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface AivenProviderConfig {
   /**
   * Aiven authentication token. Can also be set with the AIVEN_TOKEN environment variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs#api_token AivenProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs#api_token AivenProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs#alias AivenProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs#alias AivenProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs aiven}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs aiven}
 */
 export class AivenProvider extends cdktf.TerraformProvider {
 
@@ -38,7 +38,7 @@ export class AivenProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AivenProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AivenProvider to import
-  * @param importFromId The id of the existing AivenProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AivenProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AivenProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class AivenProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs aiven} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs aiven} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class AivenProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'aiven',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       terraformProviderSource: 'aiven/aiven'
     });

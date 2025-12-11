@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataGcoreLblistenerConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of networks from which listener is accessible
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#allowed_cidrs DataGcoreLblistener#allowed_cidrs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#allowed_cidrs DataGcoreLblistener#allowed_cidrs}
   */
   readonly allowedCidrs?: string[];
   /**
   * Number of simultaneous connections for this listener, between 1 and 1,000,000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#connection_limit DataGcoreLblistener#connection_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#connection_limit DataGcoreLblistener#connection_limit}
   */
   readonly connectionLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#id DataGcoreLblistener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#id DataGcoreLblistener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,73 +29,73 @@ export interface DataGcoreLblistenerConfig extends cdktf.TerraformMetaArguments 
   /**
   * ID of the load balancer to which listener was attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#loadbalancer_id DataGcoreLblistener#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#loadbalancer_id DataGcoreLblistener#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
   * Name of the load balancer listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#name DataGcoreLblistener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#name DataGcoreLblistener#name}
   */
   readonly name: string;
   /**
   * ID of the project in which load balancer listener was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#project_id DataGcoreLblistener#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#project_id DataGcoreLblistener#project_id}
   */
   readonly projectId?: number;
   /**
   * Name of the project in which load balancer listener was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#project_name DataGcoreLblistener#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#project_name DataGcoreLblistener#project_name}
   */
   readonly projectName?: string;
   /**
   * ID of the region in which load balancer listener was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#region_id DataGcoreLblistener#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#region_id DataGcoreLblistener#region_id}
   */
   readonly regionId?: number;
   /**
   * Name of the region in which load balancer listener was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#region_name DataGcoreLblistener#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#region_name DataGcoreLblistener#region_name}
   */
   readonly regionName?: string;
   /**
   * Secret ID to use with 'TERMINATED_HTTPS' protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#secret_id DataGcoreLblistener#secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#secret_id DataGcoreLblistener#secret_id}
   */
   readonly secretId?: string;
   /**
   * List of additional Secret IDs to use with 'TERMINATED_HTTPS' protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#sni_secret_id DataGcoreLblistener#sni_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#sni_secret_id DataGcoreLblistener#sni_secret_id}
   */
   readonly sniSecretId?: string[];
   /**
   * Frontend client inactivity timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#timeout_client_data DataGcoreLblistener#timeout_client_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#timeout_client_data DataGcoreLblistener#timeout_client_data}
   */
   readonly timeoutClientData?: number;
   /**
   * Backend member connection timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#timeout_member_connect DataGcoreLblistener#timeout_member_connect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#timeout_member_connect DataGcoreLblistener#timeout_member_connect}
   */
   readonly timeoutMemberConnect?: number;
   /**
   * Backend member inactivity timeout in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#timeout_member_data DataGcoreLblistener#timeout_member_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#timeout_member_data DataGcoreLblistener#timeout_member_data}
   */
   readonly timeoutMemberData?: number;
   /**
   * user_list block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#user_list DataGcoreLblistener#user_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#user_list DataGcoreLblistener#user_list}
   */
   readonly userList?: DataGcoreLblistenerUserListStruct[] | cdktf.IResolvable;
 }
@@ -103,13 +103,13 @@ export interface DataGcoreLblistenerUserListStruct {
   /**
   * Encrypted password (hash) to auth via Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#encrypted_password DataGcoreLblistener#encrypted_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#encrypted_password DataGcoreLblistener#encrypted_password}
   */
   readonly encryptedPassword: string;
   /**
   * Username to auth via Basic Authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#username DataGcoreLblistener#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#username DataGcoreLblistener#username}
   */
   readonly username: string;
 }
@@ -248,7 +248,7 @@ export class DataGcoreLblistenerUserListStructList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener gcore_lblistener}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener gcore_lblistener}
 */
 export class DataGcoreLblistener extends cdktf.TerraformDataSource {
 
@@ -264,7 +264,7 @@ export class DataGcoreLblistener extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataGcoreLblistener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataGcoreLblistener to import
-  * @param importFromId The id of the existing DataGcoreLblistener that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataGcoreLblistener that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataGcoreLblistener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class DataGcoreLblistener extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/data-sources/lblistener gcore_lblistener} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/data-sources/lblistener gcore_lblistener} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class DataGcoreLblistener extends cdktf.TerraformDataSource {
       terraformResourceType: 'gcore_lblistener',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

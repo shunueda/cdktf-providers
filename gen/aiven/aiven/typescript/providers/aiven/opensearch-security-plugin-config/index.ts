@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface OpensearchSecurityPluginConfigConfig extends cdktf.TerraformMet
   /**
   * The password for the os-sec-admin user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#admin_password OpensearchSecurityPluginConfig#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#admin_password OpensearchSecurityPluginConfig#admin_password}
   */
   readonly adminPassword: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#id OpensearchSecurityPluginConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#id OpensearchSecurityPluginConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface OpensearchSecurityPluginConfigConfig extends cdktf.TerraformMet
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#project OpensearchSecurityPluginConfig#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#project OpensearchSecurityPluginConfig#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#service_name OpensearchSecurityPluginConfig#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#service_name OpensearchSecurityPluginConfig#service_name}
   */
   readonly serviceName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#timeouts OpensearchSecurityPluginConfig#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#timeouts OpensearchSecurityPluginConfig#timeouts}
   */
   readonly timeouts?: OpensearchSecurityPluginConfigTimeouts;
 }
 export interface OpensearchSecurityPluginConfigTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#create OpensearchSecurityPluginConfig#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#create OpensearchSecurityPluginConfig#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#default OpensearchSecurityPluginConfig#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#default OpensearchSecurityPluginConfig#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#delete OpensearchSecurityPluginConfig#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#delete OpensearchSecurityPluginConfig#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#read OpensearchSecurityPluginConfig#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#read OpensearchSecurityPluginConfig#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#update OpensearchSecurityPluginConfig#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#update OpensearchSecurityPluginConfig#update}
   */
   readonly update?: string;
 }
@@ -267,7 +267,7 @@ export class OpensearchSecurityPluginConfigTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config}
 */
 export class OpensearchSecurityPluginConfig extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class OpensearchSecurityPluginConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpensearchSecurityPluginConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpensearchSecurityPluginConfig to import
-  * @param importFromId The id of the existing OpensearchSecurityPluginConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpensearchSecurityPluginConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpensearchSecurityPluginConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class OpensearchSecurityPluginConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch_security_plugin_config aiven_opensearch_security_plugin_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class OpensearchSecurityPluginConfig extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_opensearch_security_plugin_config',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

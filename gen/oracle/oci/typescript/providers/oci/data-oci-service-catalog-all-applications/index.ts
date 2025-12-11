@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciServiceCatalogAllApplicationsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#compartment_id DataOciServiceCatalogAllApplications#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#compartment_id DataOciServiceCatalogAllApplications#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#display_name DataOciServiceCatalogAllApplications#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#display_name DataOciServiceCatalogAllApplications#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#entity_id DataOciServiceCatalogAllApplications#entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#entity_id DataOciServiceCatalogAllApplications#entity_id}
   */
   readonly entityId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#entity_type DataOciServiceCatalogAllApplications#entity_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#entity_type DataOciServiceCatalogAllApplications#entity_type}
   */
   readonly entityType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#id DataOciServiceCatalogAllApplications#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#id DataOciServiceCatalogAllApplications#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#is_featured DataOciServiceCatalogAllApplications#is_featured}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#is_featured DataOciServiceCatalogAllApplications#is_featured}
   */
   readonly isFeatured?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#package_type DataOciServiceCatalogAllApplications#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#package_type DataOciServiceCatalogAllApplications#package_type}
   */
   readonly packageType?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#pricing DataOciServiceCatalogAllApplications#pricing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#pricing DataOciServiceCatalogAllApplications#pricing}
   */
   readonly pricing?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#publisher_id DataOciServiceCatalogAllApplications#publisher_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#publisher_id DataOciServiceCatalogAllApplications#publisher_id}
   */
   readonly publisherId?: string[];
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#filter DataOciServiceCatalogAllApplications#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#filter DataOciServiceCatalogAllApplications#filter}
   */
   readonly filter?: DataOciServiceCatalogAllApplicationsFilter[] | cdktf.IResolvable;
 }
@@ -424,15 +424,15 @@ export class DataOciServiceCatalogAllApplicationsApplicationCollectionList exten
 }
 export interface DataOciServiceCatalogAllApplicationsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#name DataOciServiceCatalogAllApplications#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#name DataOciServiceCatalogAllApplications#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#regex DataOciServiceCatalogAllApplications#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#regex DataOciServiceCatalogAllApplications#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#values DataOciServiceCatalogAllApplications#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#values DataOciServiceCatalogAllApplications#values}
   */
   readonly values: string[];
 }
@@ -600,7 +600,7 @@ export class DataOciServiceCatalogAllApplicationsFilterList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications oci_service_catalog_all_applications}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications oci_service_catalog_all_applications}
 */
 export class DataOciServiceCatalogAllApplications extends cdktf.TerraformDataSource {
 
@@ -616,7 +616,7 @@ export class DataOciServiceCatalogAllApplications extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciServiceCatalogAllApplications resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciServiceCatalogAllApplications to import
-  * @param importFromId The id of the existing DataOciServiceCatalogAllApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciServiceCatalogAllApplications that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciServiceCatalogAllApplications to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -628,7 +628,7 @@ export class DataOciServiceCatalogAllApplications extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/service_catalog_all_applications oci_service_catalog_all_applications} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/service_catalog_all_applications oci_service_catalog_all_applications} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -639,8 +639,8 @@ export class DataOciServiceCatalogAllApplications extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_service_catalog_all_applications',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface FleetplanConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#id Fleetplan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#id Fleetplan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface FleetplanConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#metadata Fleetplan#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#metadata Fleetplan#metadata}
   */
   readonly metadata?: FleetplanMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#spec Fleetplan#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#spec Fleetplan#spec}
   */
   readonly spec?: FleetplanSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#timeouts Fleetplan#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#timeouts Fleetplan#timeouts}
   */
   readonly timeouts?: FleetplanTimeouts;
 }
@@ -37,7 +37,7 @@ export interface FleetplanMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#id Fleetplan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#id Fleetplan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -46,13 +46,13 @@ export interface FleetplanMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#is_sso_user Fleetplan#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#is_sso_user Fleetplan#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#username Fleetplan#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#username Fleetplan#username}
   */
   readonly username?: string;
 }
@@ -196,7 +196,7 @@ export interface FleetplanMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#id Fleetplan#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#id Fleetplan#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -205,13 +205,13 @@ export interface FleetplanMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#is_sso_user Fleetplan#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#is_sso_user Fleetplan#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#username Fleetplan#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#username Fleetplan#username}
   */
   readonly username?: string;
 }
@@ -355,49 +355,49 @@ export interface FleetplanMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#annotations Fleetplan#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#annotations Fleetplan#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#description Fleetplan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#description Fleetplan#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#display_name Fleetplan#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#display_name Fleetplan#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#labels Fleetplan#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#labels Fleetplan#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#project Fleetplan#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#project Fleetplan#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#created_by Fleetplan#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#created_by Fleetplan#created_by}
   */
   readonly createdBy?: FleetplanMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#modified_by Fleetplan#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#modified_by Fleetplan#modified_by}
   */
   readonly modifiedBy?: FleetplanMetadataModifiedBy;
 }
@@ -684,7 +684,7 @@ export class FleetplanMetadataOutputReference extends cdktf.ComplexObject {
 }
 export interface FleetplanSpecAgents {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
 }
@@ -800,7 +800,7 @@ export class FleetplanSpecAgentsList extends cdktf.ComplexList {
 }
 export interface FleetplanSpecFleetProjects {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
 }
@@ -916,17 +916,17 @@ export class FleetplanSpecFleetProjectsList extends cdktf.ComplexList {
 }
 export interface FleetplanSpecFleet {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#kind Fleetplan#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#kind Fleetplan#kind}
   */
   readonly kind?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#labels Fleetplan#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#labels Fleetplan#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#projects Fleetplan#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#projects Fleetplan#projects}
   */
   readonly projects?: FleetplanSpecFleetProjects[] | cdktf.IResolvable;
 }
@@ -1068,11 +1068,11 @@ export class FleetplanSpecFleetOutputReference extends cdktf.ComplexObject {
 }
 export interface FleetplanSpecOperationWorkflowOperationsActionBlueprintUpdateConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#version Fleetplan#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#version Fleetplan#version}
   */
   readonly version?: string;
 }
@@ -1185,7 +1185,7 @@ export class FleetplanSpecOperationWorkflowOperationsActionBlueprintUpdateConfig
 }
 export interface FleetplanSpecOperationWorkflowOperationsActionControlPlaneUpgradeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#version Fleetplan#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#version Fleetplan#version}
   */
   readonly version?: string;
 }
@@ -1269,7 +1269,7 @@ export class FleetplanSpecOperationWorkflowOperationsActionControlPlaneUpgradeCo
 }
 export interface FleetplanSpecOperationWorkflowOperationsActionNodeGroupsAndControlPlaneUpgradeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#version Fleetplan#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#version Fleetplan#version}
   */
   readonly version?: string;
 }
@@ -1353,11 +1353,11 @@ export class FleetplanSpecOperationWorkflowOperationsActionNodeGroupsAndControlP
 }
 export interface FleetplanSpecOperationWorkflowOperationsActionNodeGroupsUpgradeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#names Fleetplan#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#names Fleetplan#names}
   */
   readonly names?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#version Fleetplan#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#version Fleetplan#version}
   */
   readonly version?: string;
 }
@@ -1470,15 +1470,15 @@ export class FleetplanSpecOperationWorkflowOperationsActionNodeGroupsUpgradeConf
 }
 export interface FleetplanSpecOperationWorkflowOperationsActionPatchConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#op Fleetplan#op}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#op Fleetplan#op}
   */
   readonly op?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#path Fleetplan#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#path Fleetplan#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#value Fleetplan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#value Fleetplan#value}
   */
   readonly value?: string;
 }
@@ -1652,49 +1652,49 @@ export class FleetplanSpecOperationWorkflowOperationsActionPatchConfigList exten
 }
 export interface FleetplanSpecOperationWorkflowOperationsAction {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#continue_on_failure Fleetplan#continue_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#continue_on_failure Fleetplan#continue_on_failure}
   */
   readonly continueOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#description Fleetplan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#description Fleetplan#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#type Fleetplan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#type Fleetplan#type}
   */
   readonly type?: string;
   /**
   * blueprint_update_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#blueprint_update_config Fleetplan#blueprint_update_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#blueprint_update_config Fleetplan#blueprint_update_config}
   */
   readonly blueprintUpdateConfig?: FleetplanSpecOperationWorkflowOperationsActionBlueprintUpdateConfig;
   /**
   * control_plane_upgrade_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#control_plane_upgrade_config Fleetplan#control_plane_upgrade_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#control_plane_upgrade_config Fleetplan#control_plane_upgrade_config}
   */
   readonly controlPlaneUpgradeConfig?: FleetplanSpecOperationWorkflowOperationsActionControlPlaneUpgradeConfig;
   /**
   * node_groups_and_control_plane_upgrade_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#node_groups_and_control_plane_upgrade_config Fleetplan#node_groups_and_control_plane_upgrade_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#node_groups_and_control_plane_upgrade_config Fleetplan#node_groups_and_control_plane_upgrade_config}
   */
   readonly nodeGroupsAndControlPlaneUpgradeConfig?: FleetplanSpecOperationWorkflowOperationsActionNodeGroupsAndControlPlaneUpgradeConfig;
   /**
   * node_groups_upgrade_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#node_groups_upgrade_config Fleetplan#node_groups_upgrade_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#node_groups_upgrade_config Fleetplan#node_groups_upgrade_config}
   */
   readonly nodeGroupsUpgradeConfig?: FleetplanSpecOperationWorkflowOperationsActionNodeGroupsUpgradeConfig;
   /**
   * patch_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#patch_config Fleetplan#patch_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#patch_config Fleetplan#patch_config}
   */
   readonly patchConfig?: FleetplanSpecOperationWorkflowOperationsActionPatchConfig[] | cdktf.IResolvable;
 }
@@ -2010,23 +2010,23 @@ export class FleetplanSpecOperationWorkflowOperationsActionOutputReference exten
 }
 export interface FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigRunnerTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#effect Fleetplan#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#effect Fleetplan#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#key Fleetplan#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#key Fleetplan#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#operator Fleetplan#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#operator Fleetplan#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#toleration_seconds Fleetplan#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#toleration_seconds Fleetplan#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#value Fleetplan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#value Fleetplan#value}
   */
   readonly value?: string;
 }
@@ -2258,17 +2258,17 @@ export class FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigRun
 }
 export interface FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigRunner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#node_selector Fleetplan#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#node_selector Fleetplan#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#type Fleetplan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#type Fleetplan#type}
   */
   readonly type?: string;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#tolerations Fleetplan#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#tolerations Fleetplan#tolerations}
   */
   readonly tolerations?: FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigRunnerTolerations[] | cdktf.IResolvable;
 }
@@ -2410,37 +2410,37 @@ export class FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigRun
 }
 export interface FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#arguments Fleetplan#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#arguments Fleetplan#arguments}
   */
   readonly arguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#commands Fleetplan#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#commands Fleetplan#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#cpu_limit_milli Fleetplan#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#cpu_limit_milli Fleetplan#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#env Fleetplan#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#env Fleetplan#env}
   */
   readonly env?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#image Fleetplan#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#image Fleetplan#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#memory_limit_mb Fleetplan#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#memory_limit_mb Fleetplan#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#working_dir_path Fleetplan#working_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#working_dir_path Fleetplan#working_dir_path}
   */
   readonly workingDirPath?: string;
   /**
   * runner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#runner Fleetplan#runner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#runner Fleetplan#runner}
   */
   readonly runner?: FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigRunner;
 }
@@ -2727,19 +2727,19 @@ export class FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfigOut
 }
 export interface FleetplanSpecOperationWorkflowOperationsPosthooksHttpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#body Fleetplan#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#body Fleetplan#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#endpoint Fleetplan#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#endpoint Fleetplan#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#headers Fleetplan#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#headers Fleetplan#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#method Fleetplan#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#method Fleetplan#method}
   */
   readonly method?: string;
 }
@@ -2910,39 +2910,39 @@ export class FleetplanSpecOperationWorkflowOperationsPosthooksHttpConfigOutputRe
 }
 export interface FleetplanSpecOperationWorkflowOperationsPosthooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#continue_on_failure Fleetplan#continue_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#continue_on_failure Fleetplan#continue_on_failure}
   */
   readonly continueOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#description Fleetplan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#description Fleetplan#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#inject Fleetplan#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#inject Fleetplan#inject}
   */
   readonly inject?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#success_condition Fleetplan#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#success_condition Fleetplan#success_condition}
   */
   readonly successCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#timeout_seconds Fleetplan#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#timeout_seconds Fleetplan#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * container_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#container_config Fleetplan#container_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#container_config Fleetplan#container_config}
   */
   readonly containerConfig?: FleetplanSpecOperationWorkflowOperationsPosthooksContainerConfig;
   /**
   * http_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#http_config Fleetplan#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#http_config Fleetplan#http_config}
   */
   readonly httpConfig?: FleetplanSpecOperationWorkflowOperationsPosthooksHttpConfig;
 }
@@ -3261,23 +3261,23 @@ export class FleetplanSpecOperationWorkflowOperationsPosthooksList extends cdktf
 }
 export interface FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigRunnerTolerations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#effect Fleetplan#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#effect Fleetplan#effect}
   */
   readonly effect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#key Fleetplan#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#key Fleetplan#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#operator Fleetplan#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#operator Fleetplan#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#toleration_seconds Fleetplan#toleration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#toleration_seconds Fleetplan#toleration_seconds}
   */
   readonly tolerationSeconds?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#value Fleetplan#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#value Fleetplan#value}
   */
   readonly value?: string;
 }
@@ -3509,17 +3509,17 @@ export class FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigRunn
 }
 export interface FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigRunner {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#node_selector Fleetplan#node_selector}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#node_selector Fleetplan#node_selector}
   */
   readonly nodeSelector?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#type Fleetplan#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#type Fleetplan#type}
   */
   readonly type?: string;
   /**
   * tolerations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#tolerations Fleetplan#tolerations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#tolerations Fleetplan#tolerations}
   */
   readonly tolerations?: FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigRunnerTolerations[] | cdktf.IResolvable;
 }
@@ -3661,37 +3661,37 @@ export class FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigRunn
 }
 export interface FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#arguments Fleetplan#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#arguments Fleetplan#arguments}
   */
   readonly arguments?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#commands Fleetplan#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#commands Fleetplan#commands}
   */
   readonly commands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#cpu_limit_milli Fleetplan#cpu_limit_milli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#cpu_limit_milli Fleetplan#cpu_limit_milli}
   */
   readonly cpuLimitMilli?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#env Fleetplan#env}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#env Fleetplan#env}
   */
   readonly env?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#image Fleetplan#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#image Fleetplan#image}
   */
   readonly image?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#memory_limit_mb Fleetplan#memory_limit_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#memory_limit_mb Fleetplan#memory_limit_mb}
   */
   readonly memoryLimitMb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#working_dir_path Fleetplan#working_dir_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#working_dir_path Fleetplan#working_dir_path}
   */
   readonly workingDirPath?: string;
   /**
   * runner block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#runner Fleetplan#runner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#runner Fleetplan#runner}
   */
   readonly runner?: FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigRunner;
 }
@@ -3978,19 +3978,19 @@ export class FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfigOutp
 }
 export interface FleetplanSpecOperationWorkflowOperationsPrehooksHttpConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#body Fleetplan#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#body Fleetplan#body}
   */
   readonly body?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#endpoint Fleetplan#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#endpoint Fleetplan#endpoint}
   */
   readonly endpoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#headers Fleetplan#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#headers Fleetplan#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#method Fleetplan#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#method Fleetplan#method}
   */
   readonly method?: string;
 }
@@ -4161,39 +4161,39 @@ export class FleetplanSpecOperationWorkflowOperationsPrehooksHttpConfigOutputRef
 }
 export interface FleetplanSpecOperationWorkflowOperationsPrehooks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#continue_on_failure Fleetplan#continue_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#continue_on_failure Fleetplan#continue_on_failure}
   */
   readonly continueOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#description Fleetplan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#description Fleetplan#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#inject Fleetplan#inject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#inject Fleetplan#inject}
   */
   readonly inject?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#success_condition Fleetplan#success_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#success_condition Fleetplan#success_condition}
   */
   readonly successCondition?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#timeout_seconds Fleetplan#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#timeout_seconds Fleetplan#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * container_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#container_config Fleetplan#container_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#container_config Fleetplan#container_config}
   */
   readonly containerConfig?: FleetplanSpecOperationWorkflowOperationsPrehooksContainerConfig;
   /**
   * http_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#http_config Fleetplan#http_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#http_config Fleetplan#http_config}
   */
   readonly httpConfig?: FleetplanSpecOperationWorkflowOperationsPrehooksHttpConfig;
 }
@@ -4512,25 +4512,25 @@ export class FleetplanSpecOperationWorkflowOperationsPrehooksList extends cdktf.
 }
 export interface FleetplanSpecOperationWorkflowOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#name Fleetplan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#name Fleetplan#name}
   */
   readonly name?: string;
   /**
   * action block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#action Fleetplan#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#action Fleetplan#action}
   */
   readonly action?: FleetplanSpecOperationWorkflowOperationsAction;
   /**
   * posthooks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#posthooks Fleetplan#posthooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#posthooks Fleetplan#posthooks}
   */
   readonly posthooks?: FleetplanSpecOperationWorkflowOperationsPosthooks[] | cdktf.IResolvable;
   /**
   * prehooks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#prehooks Fleetplan#prehooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#prehooks Fleetplan#prehooks}
   */
   readonly prehooks?: FleetplanSpecOperationWorkflowOperationsPrehooks[] | cdktf.IResolvable;
 }
@@ -4735,7 +4735,7 @@ export interface FleetplanSpecOperationWorkflow {
   /**
   * operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#operations Fleetplan#operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#operations Fleetplan#operations}
   */
   readonly operations?: FleetplanSpecOperationWorkflowOperations[] | cdktf.IResolvable;
 }
@@ -4821,19 +4821,19 @@ export interface FleetplanSpec {
   /**
   * agents block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#agents Fleetplan#agents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#agents Fleetplan#agents}
   */
   readonly agents?: FleetplanSpecAgents[] | cdktf.IResolvable;
   /**
   * fleet block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#fleet Fleetplan#fleet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#fleet Fleetplan#fleet}
   */
   readonly fleet?: FleetplanSpecFleet;
   /**
   * operation_workflow block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#operation_workflow Fleetplan#operation_workflow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#operation_workflow Fleetplan#operation_workflow}
   */
   readonly operationWorkflow?: FleetplanSpecOperationWorkflow;
 }
@@ -4975,15 +4975,15 @@ export class FleetplanSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface FleetplanTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#create Fleetplan#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#create Fleetplan#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#delete Fleetplan#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#delete Fleetplan#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#update Fleetplan#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#update Fleetplan#update}
   */
   readonly update?: string;
 }
@@ -5135,7 +5135,7 @@ export class FleetplanTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan rafay_fleetplan}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan rafay_fleetplan}
 */
 export class Fleetplan extends cdktf.TerraformResource {
 
@@ -5151,7 +5151,7 @@ export class Fleetplan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Fleetplan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Fleetplan to import
-  * @param importFromId The id of the existing Fleetplan that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Fleetplan that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Fleetplan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -5163,7 +5163,7 @@ export class Fleetplan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/fleetplan rafay_fleetplan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/fleetplan rafay_fleetplan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -5174,8 +5174,8 @@ export class Fleetplan extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_fleetplan',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

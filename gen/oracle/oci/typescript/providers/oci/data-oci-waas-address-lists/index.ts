@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,40 +8,40 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciWaasAddressListsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#compartment_id DataOciWaasAddressLists#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#compartment_id DataOciWaasAddressLists#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#id DataOciWaasAddressLists#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#id DataOciWaasAddressLists#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#ids DataOciWaasAddressLists#ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#ids DataOciWaasAddressLists#ids}
   */
   readonly ids?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#names DataOciWaasAddressLists#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#names DataOciWaasAddressLists#names}
   */
   readonly names?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#states DataOciWaasAddressLists#states}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#states DataOciWaasAddressLists#states}
   */
   readonly states?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#time_created_greater_than_or_equal_to DataOciWaasAddressLists#time_created_greater_than_or_equal_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#time_created_greater_than_or_equal_to DataOciWaasAddressLists#time_created_greater_than_or_equal_to}
   */
   readonly timeCreatedGreaterThanOrEqualTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#time_created_less_than DataOciWaasAddressLists#time_created_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#time_created_less_than DataOciWaasAddressLists#time_created_less_than}
   */
   readonly timeCreatedLessThan?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#filter DataOciWaasAddressLists#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#filter DataOciWaasAddressLists#filter}
   */
   readonly filter?: DataOciWaasAddressListsFilter[] | cdktf.IResolvable;
 }
@@ -164,15 +164,15 @@ export class DataOciWaasAddressListsAddressListsList extends cdktf.ComplexList {
 }
 export interface DataOciWaasAddressListsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#name DataOciWaasAddressLists#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#name DataOciWaasAddressLists#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#regex DataOciWaasAddressLists#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#regex DataOciWaasAddressLists#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#values DataOciWaasAddressLists#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#values DataOciWaasAddressLists#values}
   */
   readonly values: string[];
 }
@@ -340,7 +340,7 @@ export class DataOciWaasAddressListsFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists oci_waas_address_lists}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists oci_waas_address_lists}
 */
 export class DataOciWaasAddressLists extends cdktf.TerraformDataSource {
 
@@ -356,7 +356,7 @@ export class DataOciWaasAddressLists extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciWaasAddressLists resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciWaasAddressLists to import
-  * @param importFromId The id of the existing DataOciWaasAddressLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciWaasAddressLists that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciWaasAddressLists to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -368,7 +368,7 @@ export class DataOciWaasAddressLists extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/waas_address_lists oci_waas_address_lists} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/waas_address_lists oci_waas_address_lists} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -379,8 +379,8 @@ export class DataOciWaasAddressLists extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_waas_address_lists',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

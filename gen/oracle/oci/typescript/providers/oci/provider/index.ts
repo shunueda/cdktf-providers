@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,111 +10,111 @@ export interface OciProviderConfig {
   /**
   * (Optional) The type of auth to use. Options are 'ApiKey', 'SecurityToken', 'InstancePrincipal', 'ResourcePrincipal' and 'OKEWorkloadIdentity'. By default, 'ApiKey' will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#auth OciProvider#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#auth OciProvider#auth}
   */
   readonly auth?: string;
   /**
   * (Optional) The profile name to be used from config file, if not set it will be DEFAULT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#config_file_profile OciProvider#config_file_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#config_file_profile OciProvider#config_file_profile}
   */
   readonly configFileProfile?: string;
   /**
   * (Optional) Disable automatic retries for retriable errors.
   * Automatic retries were introduced to solve some eventual consistency problems but it also introduced performance issues on destroy operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#disable_auto_retries OciProvider#disable_auto_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#disable_auto_retries OciProvider#disable_auto_retries}
   */
   readonly disableAutoRetries?: boolean | cdktf.IResolvable;
   /**
   * (Optional) flags to enable Dual Stack endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#dual_stack_endpoint_enabled OciProvider#dual_stack_endpoint_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#dual_stack_endpoint_enabled OciProvider#dual_stack_endpoint_enabled}
   */
   readonly dualStackEndpointEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Optional) The fingerprint for the user's RSA key. This can be found in user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#fingerprint OciProvider#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#fingerprint OciProvider#fingerprint}
   */
   readonly fingerprint?: string;
   /**
   * (Optional) List of defined tags keys that Terraform should ignore when planning creates and updates to the associated remote object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#ignore_defined_tags OciProvider#ignore_defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#ignore_defined_tags OciProvider#ignore_defined_tags}
   */
   readonly ignoreDefinedTags?: string[];
   /**
   * (Optional) A PEM formatted RSA private key for the user.
   * A private_key or a private_key_path must be provided if auth is set to 'ApiKey', ignored otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#private_key OciProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#private_key OciProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * (Optional) The password used to secure the private key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#private_key_password OciProvider#private_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#private_key_password OciProvider#private_key_password}
   */
   readonly privateKeyPassword?: string;
   /**
   * (Optional) The path to the user's PEM formatted private key.
   * A private_key or a private_key_path must be provided if auth is set to 'ApiKey', ignored otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#private_key_path OciProvider#private_key_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#private_key_path OciProvider#private_key_path}
   */
   readonly privateKeyPath?: string;
   /**
   * (Optional) flags to enable realm specific service endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#realm_specific_service_endpoint_template_enabled OciProvider#realm_specific_service_endpoint_template_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#realm_specific_service_endpoint_template_enabled OciProvider#realm_specific_service_endpoint_template_enabled}
   */
   readonly realmSpecificServiceEndpointTemplateEnabled?: boolean | cdktf.IResolvable;
   /**
   * (Required) The region for API connections (e.g. us-ashburn-1).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#region OciProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#region OciProvider#region}
   */
   readonly region?: string;
   /**
   * (Optional) Config file which has the configuration for 4xx and 5xx retries in JSON format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#retries_config_file OciProvider#retries_config_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#retries_config_file OciProvider#retries_config_file}
   */
   readonly retriesConfigFile?: string;
   /**
   * (Optional) The minimum duration (in seconds) to retry a resource operation in response to an error.
   * The actual retry duration may be longer due to jittering of retry operations. This value is ignored if the `disable_auto_retries` field is set to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#retry_duration_seconds OciProvider#retry_duration_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#retry_duration_seconds OciProvider#retry_duration_seconds}
   */
   readonly retryDurationSeconds?: number;
   /**
   * (Optional) The tenancy OCID for a user. The tenancy OCID can be found at the bottom of user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#tenancy_ocid OciProvider#tenancy_ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#tenancy_ocid OciProvider#tenancy_ocid}
   */
   readonly tenancyOcid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#test_time_maintenance_reboot_due OciProvider#test_time_maintenance_reboot_due}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#test_time_maintenance_reboot_due OciProvider#test_time_maintenance_reboot_due}
   */
   readonly testTimeMaintenanceRebootDue?: string;
   /**
   * (Optional) The user OCID. This can be found in user settings in the Oracle Cloud Infrastructure console. Required if auth is set to 'ApiKey', ignored otherwise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#user_ocid OciProvider#user_ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#user_ocid OciProvider#user_ocid}
   */
   readonly userOcid?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#alias OciProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#alias OciProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs oci}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs oci}
 */
 export class OciProvider extends cdktf.TerraformProvider {
 
@@ -130,7 +130,7 @@ export class OciProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OciProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OciProvider to import
-  * @param importFromId The id of the existing OciProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OciProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OciProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -142,7 +142,7 @@ export class OciProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs oci} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs oci} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -153,8 +153,8 @@ export class OciProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'oci',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       terraformProviderSource: 'oracle/oci'
     });

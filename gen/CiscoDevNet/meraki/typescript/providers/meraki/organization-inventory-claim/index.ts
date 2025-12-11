@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrganizationInventoryClaimConfig extends cdktf.TerraformMetaArg
   /**
   * The licenses that should be claimed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#licenses OrganizationInventoryClaim#licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#licenses OrganizationInventoryClaim#licenses}
   */
   readonly licenses?: OrganizationInventoryClaimLicenses[] | cdktf.IResolvable;
   /**
   * The numbers of the orders that should be claimed
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#orders OrganizationInventoryClaim#orders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#orders OrganizationInventoryClaim#orders}
   */
   readonly orders?: string[];
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#organization_id OrganizationInventoryClaim#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#organization_id OrganizationInventoryClaim#organization_id}
   */
   readonly organizationId: string;
   /**
   * The list of serials to be claimed to the organization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#serials OrganizationInventoryClaim#serials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#serials OrganizationInventoryClaim#serials}
   */
   readonly serials: string[];
 }
@@ -36,14 +36,14 @@ export interface OrganizationInventoryClaimLicenses {
   /**
   * The key of the license
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#key OrganizationInventoryClaim#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#key OrganizationInventoryClaim#key}
   */
   readonly key: string;
   /**
   * Co-term licensing only: either `renew` or `addDevices`. `addDevices` will increase the license limit, while `renew` will extend the amount of time until expiration. Defaults to `addDevices`. All licenses must be claimed with the same mode, and at most one renewal can be claimed at a time. Does not apply to organizations using per-device licensing model.
   *   - Choices: `addDevices`, `renew`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#mode OrganizationInventoryClaim#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#mode OrganizationInventoryClaim#mode}
   */
   readonly mode?: string;
 }
@@ -185,7 +185,7 @@ export class OrganizationInventoryClaimLicensesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim meraki_organization_inventory_claim}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim meraki_organization_inventory_claim}
 */
 export class OrganizationInventoryClaim extends cdktf.TerraformResource {
 
@@ -201,7 +201,7 @@ export class OrganizationInventoryClaim extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationInventoryClaim resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationInventoryClaim to import
-  * @param importFromId The id of the existing OrganizationInventoryClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationInventoryClaim that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationInventoryClaim to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -213,7 +213,7 @@ export class OrganizationInventoryClaim extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_inventory_claim meraki_organization_inventory_claim} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_inventory_claim meraki_organization_inventory_claim} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -224,8 +224,8 @@ export class OrganizationInventoryClaim extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_inventory_claim',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

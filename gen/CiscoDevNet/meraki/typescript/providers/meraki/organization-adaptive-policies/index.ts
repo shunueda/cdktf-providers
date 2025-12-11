@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface OrganizationAdaptivePoliciesConfig extends cdktf.TerraformMetaA
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#items OrganizationAdaptivePolicies#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#items OrganizationAdaptivePolicies#items}
   */
   readonly items: OrganizationAdaptivePoliciesItems[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#organization_id OrganizationAdaptivePolicies#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#organization_id OrganizationAdaptivePolicies#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,7 +24,7 @@ export interface OrganizationAdaptivePoliciesItemsAcls {
   /**
   * The ID of the adaptive policy ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#id OrganizationAdaptivePolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#id OrganizationAdaptivePolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,7 +33,7 @@ export interface OrganizationAdaptivePoliciesItemsAcls {
   /**
   * The name of the adaptive policy ACL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#name OrganizationAdaptivePolicies#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#name OrganizationAdaptivePolicies#name}
   */
   readonly name?: string;
 }
@@ -180,50 +180,50 @@ export interface OrganizationAdaptivePoliciesItems {
   /**
   * An ordered array of adaptive policy ACLs (each requires one unique attribute) that apply to this policy (default: [])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#acls OrganizationAdaptivePolicies#acls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#acls OrganizationAdaptivePolicies#acls}
   */
   readonly acls?: OrganizationAdaptivePoliciesItemsAcls[] | cdktf.IResolvable;
   /**
   * The ID of the destination adaptive policy group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#destination_group_id OrganizationAdaptivePolicies#destination_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#destination_group_id OrganizationAdaptivePolicies#destination_group_id}
   */
   readonly destinationGroupId?: string;
   /**
   * The name of the destination adaptive policy group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#destination_group_name OrganizationAdaptivePolicies#destination_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#destination_group_name OrganizationAdaptivePolicies#destination_group_name}
   */
   readonly destinationGroupName?: string;
   /**
   * The SGT of the destination adaptive policy group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#destination_group_sgt OrganizationAdaptivePolicies#destination_group_sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#destination_group_sgt OrganizationAdaptivePolicies#destination_group_sgt}
   */
   readonly destinationGroupSgt?: number;
   /**
   * The rule to apply if there is no matching ACL (default: 'default')
   *   - Choices: `allow`, `default`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#last_entry_rule OrganizationAdaptivePolicies#last_entry_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#last_entry_rule OrganizationAdaptivePolicies#last_entry_rule}
   */
   readonly lastEntryRule?: string;
   /**
   * The ID of the source adaptive policy group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#source_group_id OrganizationAdaptivePolicies#source_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#source_group_id OrganizationAdaptivePolicies#source_group_id}
   */
   readonly sourceGroupId?: string;
   /**
   * The name of the source adaptive policy group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#source_group_name OrganizationAdaptivePolicies#source_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#source_group_name OrganizationAdaptivePolicies#source_group_name}
   */
   readonly sourceGroupName?: string;
   /**
   * The SGT of the source adaptive policy group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#source_group_sgt OrganizationAdaptivePolicies#source_group_sgt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#source_group_sgt OrganizationAdaptivePolicies#source_group_sgt}
   */
   readonly sourceGroupSgt?: number;
 }
@@ -547,7 +547,7 @@ export class OrganizationAdaptivePoliciesItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies meraki_organization_adaptive_policies}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies meraki_organization_adaptive_policies}
 */
 export class OrganizationAdaptivePolicies extends cdktf.TerraformResource {
 
@@ -563,7 +563,7 @@ export class OrganizationAdaptivePolicies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationAdaptivePolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAdaptivePolicies to import
-  * @param importFromId The id of the existing OrganizationAdaptivePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAdaptivePolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAdaptivePolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -575,7 +575,7 @@ export class OrganizationAdaptivePolicies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_adaptive_policies meraki_organization_adaptive_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_adaptive_policies meraki_organization_adaptive_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -586,8 +586,8 @@ export class OrganizationAdaptivePolicies extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_adaptive_policies',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

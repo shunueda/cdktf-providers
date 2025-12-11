@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface OrganizationExtensionsThousandEyesNetworkConfig extends cdktf.T
   /**
   * Whether or not the ThousandEyes agent is enabled for the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#enabled OrganizationExtensionsThousandEyesNetwork#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#enabled OrganizationExtensionsThousandEyesNetwork#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Network that will have the ThousandEyes agent installed on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#network_id OrganizationExtensionsThousandEyesNetwork#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#network_id OrganizationExtensionsThousandEyesNetwork#network_id}
   */
   readonly networkId: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#organization_id OrganizationExtensionsThousandEyesNetwork#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#organization_id OrganizationExtensionsThousandEyesNetwork#organization_id}
   */
   readonly organizationId: string;
   /**
   * An array of tests to be created, this can only be configured during resource creation and cannot be changed afterwards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#tests OrganizationExtensionsThousandEyesNetwork#tests}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#tests OrganizationExtensionsThousandEyesNetwork#tests}
   */
   readonly tests?: OrganizationExtensionsThousandEyesNetworkTests[] | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface OrganizationExtensionsThousandEyesNetworkTests {
   /**
   * Network Id e.g. N_12345
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#network_id OrganizationExtensionsThousandEyesNetwork#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#network_id OrganizationExtensionsThousandEyesNetwork#network_id}
   */
   readonly networkId?: string;
   /**
   * Template id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#template_id OrganizationExtensionsThousandEyesNetwork#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#template_id OrganizationExtensionsThousandEyesNetwork#template_id}
   */
   readonly templateId?: string;
   /**
   * Tenant value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#template_user_inputs_tenant OrganizationExtensionsThousandEyesNetwork#template_user_inputs_tenant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#template_user_inputs_tenant OrganizationExtensionsThousandEyesNetwork#template_user_inputs_tenant}
   */
   readonly templateUserInputsTenant?: string;
 }
@@ -222,7 +222,7 @@ export class OrganizationExtensionsThousandEyesNetworkTestsList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network meraki_organization_extensions_thousand_eyes_network}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network meraki_organization_extensions_thousand_eyes_network}
 */
 export class OrganizationExtensionsThousandEyesNetwork extends cdktf.TerraformResource {
 
@@ -238,7 +238,7 @@ export class OrganizationExtensionsThousandEyesNetwork extends cdktf.TerraformRe
   * Generates CDKTF code for importing a OrganizationExtensionsThousandEyesNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationExtensionsThousandEyesNetwork to import
-  * @param importFromId The id of the existing OrganizationExtensionsThousandEyesNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationExtensionsThousandEyesNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationExtensionsThousandEyesNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -250,7 +250,7 @@ export class OrganizationExtensionsThousandEyesNetwork extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_extensions_thousand_eyes_network meraki_organization_extensions_thousand_eyes_network} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_extensions_thousand_eyes_network meraki_organization_extensions_thousand_eyes_network} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -261,8 +261,8 @@ export class OrganizationExtensionsThousandEyesNetwork extends cdktf.TerraformRe
       terraformResourceType: 'meraki_organization_extensions_thousand_eyes_network',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WirelessSsidTrafficShapingRulesConfig extends cdktf.TerraformMe
   /**
   * Whether default traffic shaping rules are enabled (true) or disabled (false). There are 4 default rules, which can be seen on your network`s traffic shaping page. Note that default rules count against the rule limit of 8.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#default_rules_enabled WirelessSsidTrafficShapingRules#default_rules_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#default_rules_enabled WirelessSsidTrafficShapingRules#default_rules_enabled}
   */
   readonly defaultRulesEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#network_id WirelessSsidTrafficShapingRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#network_id WirelessSsidTrafficShapingRules#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#number WirelessSsidTrafficShapingRules#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#number WirelessSsidTrafficShapingRules#number}
   */
   readonly number: string;
   /**
   * An array of traffic shaping rules. Rules are applied in the order that they are specified in. An empty list (or null) means no rules. Note that you are allowed a maximum of 8 rules.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#rules WirelessSsidTrafficShapingRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#rules WirelessSsidTrafficShapingRules#rules}
   */
   readonly rules?: WirelessSsidTrafficShapingRulesRules[] | cdktf.IResolvable;
   /**
   * Whether traffic shaping rules are applied to clients on your SSID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#traffic_shaping_enabled WirelessSsidTrafficShapingRules#traffic_shaping_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#traffic_shaping_enabled WirelessSsidTrafficShapingRules#traffic_shaping_enabled}
   */
   readonly trafficShapingEnabled?: boolean | cdktf.IResolvable;
 }
@@ -43,13 +43,13 @@ export interface WirelessSsidTrafficShapingRulesRulesDefinitions {
   * The type of definition. Can be one of `application`, `applicationCategory`, `host`, `port`, `ipRange` or `localNet`.
   *   - Choices: `application`, `applicationCategory`, `host`, `ipRange`, `localNet`, `port`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#type WirelessSsidTrafficShapingRules#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#type WirelessSsidTrafficShapingRules#type}
   */
   readonly type: string;
   /**
   * If 'type' is `host`, `port`, `ipRange` or `localNet`, then 'value' must be a string, matching either a hostname (e.g. 'somesite.com'), a port (e.g. 8080), or an IP range ('192.1.0.0', '192.1.0.0/16', or '10.1.0.0/16:80'). `localNet` also supports CIDR notation, excluding custom ports. If 'type' is `application` or `applicationCategory`, then 'value' must be an application category or application ID (for a list of IDs for your network, use the trafficShaping/applicationCategories endpoint).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#value WirelessSsidTrafficShapingRules#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#value WirelessSsidTrafficShapingRules#value}
   */
   readonly value: string;
 }
@@ -190,37 +190,37 @@ export interface WirelessSsidTrafficShapingRulesRules {
   /**
   * A list of objects describing the definitions of your traffic shaping rule. At least one definition is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#definitions WirelessSsidTrafficShapingRules#definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#definitions WirelessSsidTrafficShapingRules#definitions}
   */
   readonly definitions: WirelessSsidTrafficShapingRulesRulesDefinitions[] | cdktf.IResolvable;
   /**
   * The DSCP tag applied by your rule. null means `Do not change DSCP tag`. For a list of possible tag values, use the trafficShaping/dscpTaggingOptions endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#dscp_tag_value WirelessSsidTrafficShapingRules#dscp_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#dscp_tag_value WirelessSsidTrafficShapingRules#dscp_tag_value}
   */
   readonly dscpTagValue?: number;
   /**
   * The PCP tag applied by your rule. Can be 0 (lowest priority) through 7 (highest priority). null means `Do not set PCP tag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#pcp_tag_value WirelessSsidTrafficShapingRules#pcp_tag_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#pcp_tag_value WirelessSsidTrafficShapingRules#pcp_tag_value}
   */
   readonly pcpTagValue?: number;
   /**
   * The maximum download limit (integer, in Kbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#per_client_bandwidth_limits_bandwidth_limits_limit_down WirelessSsidTrafficShapingRules#per_client_bandwidth_limits_bandwidth_limits_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#per_client_bandwidth_limits_bandwidth_limits_limit_down WirelessSsidTrafficShapingRules#per_client_bandwidth_limits_bandwidth_limits_limit_down}
   */
   readonly perClientBandwidthLimitsBandwidthLimitsLimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#per_client_bandwidth_limits_bandwidth_limits_limit_up WirelessSsidTrafficShapingRules#per_client_bandwidth_limits_bandwidth_limits_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#per_client_bandwidth_limits_bandwidth_limits_limit_up WirelessSsidTrafficShapingRules#per_client_bandwidth_limits_bandwidth_limits_limit_up}
   */
   readonly perClientBandwidthLimitsBandwidthLimitsLimitUp?: number;
   /**
   * How bandwidth limits are applied by your rule. Can be one of `network default`, `ignore` or `custom`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#per_client_bandwidth_limits_settings WirelessSsidTrafficShapingRules#per_client_bandwidth_limits_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#per_client_bandwidth_limits_settings WirelessSsidTrafficShapingRules#per_client_bandwidth_limits_settings}
   */
   readonly perClientBandwidthLimitsSettings?: string;
 }
@@ -478,7 +478,7 @@ export class WirelessSsidTrafficShapingRulesRulesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules meraki_wireless_ssid_traffic_shaping_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules meraki_wireless_ssid_traffic_shaping_rules}
 */
 export class WirelessSsidTrafficShapingRules extends cdktf.TerraformResource {
 
@@ -494,7 +494,7 @@ export class WirelessSsidTrafficShapingRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidTrafficShapingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidTrafficShapingRules to import
-  * @param importFromId The id of the existing WirelessSsidTrafficShapingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidTrafficShapingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidTrafficShapingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -506,7 +506,7 @@ export class WirelessSsidTrafficShapingRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_traffic_shaping_rules meraki_wireless_ssid_traffic_shaping_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_traffic_shaping_rules meraki_wireless_ssid_traffic_shaping_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,8 +517,8 @@ export class WirelessSsidTrafficShapingRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_traffic_shaping_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

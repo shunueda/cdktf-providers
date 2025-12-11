@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface WirelessBillingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The currency code of this node group`s billing plans
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#currency WirelessBilling#currency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#currency WirelessBilling#currency}
   */
   readonly currency?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#network_id WirelessBilling#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#network_id WirelessBilling#network_id}
   */
   readonly networkId: string;
   /**
   * Array of billing plans in the node group. (Can configure a maximum of 5)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#plans WirelessBilling#plans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#plans WirelessBilling#plans}
   */
   readonly plans?: WirelessBillingPlans[] | cdktf.IResolvable;
 }
@@ -30,26 +30,26 @@ export interface WirelessBillingPlans {
   /**
   * The maximum download limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#bandwidth_limits_limit_down WirelessBilling#bandwidth_limits_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#bandwidth_limits_limit_down WirelessBilling#bandwidth_limits_limit_down}
   */
   readonly bandwidthLimitsLimitDown?: number;
   /**
   * The maximum upload limit (integer, in Kbps). null indicates no limit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#bandwidth_limits_limit_up WirelessBilling#bandwidth_limits_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#bandwidth_limits_limit_up WirelessBilling#bandwidth_limits_limit_up}
   */
   readonly bandwidthLimitsLimitUp?: number;
   /**
   * The price of the billing plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#price WirelessBilling#price}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#price WirelessBilling#price}
   */
   readonly price: number;
   /**
   * The time limit of the pricing plan in minutes. Can be `1 hour`, `1 day`, `1 week`, or `30 days`.
   *   - Choices: `1 day`, `1 hour`, `1 week`, `30 days`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#time_limit WirelessBilling#time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#time_limit WirelessBilling#time_limit}
   */
   readonly timeLimit: string;
 }
@@ -246,7 +246,7 @@ export class WirelessBillingPlansList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing meraki_wireless_billing}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing meraki_wireless_billing}
 */
 export class WirelessBilling extends cdktf.TerraformResource {
 
@@ -262,7 +262,7 @@ export class WirelessBilling extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessBilling resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessBilling to import
-  * @param importFromId The id of the existing WirelessBilling that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessBilling that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessBilling to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -274,7 +274,7 @@ export class WirelessBilling extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_billing meraki_wireless_billing} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_billing meraki_wireless_billing} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -285,8 +285,8 @@ export class WirelessBilling extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_billing',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ApplianceInboundFirewallRulesConfig extends cdktf.TerraformMeta
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#network_id ApplianceInboundFirewallRules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#network_id ApplianceInboundFirewallRules#network_id}
   */
   readonly networkId: string;
   /**
   * An ordered array of the firewall rules (not including the default rule)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#rules ApplianceInboundFirewallRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#rules ApplianceInboundFirewallRules#rules}
   */
   readonly rules: ApplianceInboundFirewallRulesRules[] | cdktf.IResolvable;
   /**
   * Log the special default rule (boolean value - enable only if you`ve configured a syslog server) (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#syslog_default_rule ApplianceInboundFirewallRules#syslog_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#syslog_default_rule ApplianceInboundFirewallRules#syslog_default_rule}
   */
   readonly syslogDefaultRule?: boolean | cdktf.IResolvable;
 }
@@ -30,51 +30,51 @@ export interface ApplianceInboundFirewallRulesRules {
   /**
   * Description of the rule (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#comment ApplianceInboundFirewallRules#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#comment ApplianceInboundFirewallRules#comment}
   */
   readonly comment?: string;
   /**
   * Comma-separated list of destination IP address(es) (in IP or CIDR notation), fully-qualified domain names (FQDN) or `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#dest_cidr ApplianceInboundFirewallRules#dest_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#dest_cidr ApplianceInboundFirewallRules#dest_cidr}
   */
   readonly destCidr: string;
   /**
   * Comma-separated list of destination port(s) (integer in the range 1-65535), or `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#dest_port ApplianceInboundFirewallRules#dest_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#dest_port ApplianceInboundFirewallRules#dest_port}
   */
   readonly destPort?: string;
   /**
   * `allow` or `deny` traffic specified by this rule
   *   - Choices: `allow`, `deny`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#policy ApplianceInboundFirewallRules#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#policy ApplianceInboundFirewallRules#policy}
   */
   readonly policy: string;
   /**
   * The type of protocol (must be `tcp`, `udp`, `icmp`, `icmp6` or `any`)
   *   - Choices: `any`, `icmp`, `icmp6`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#protocol ApplianceInboundFirewallRules#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#protocol ApplianceInboundFirewallRules#protocol}
   */
   readonly protocol: string;
   /**
   * Comma-separated list of source IP address(es) (in IP or CIDR notation), or `any` (note: FQDN not supported for source addresses)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#src_cidr ApplianceInboundFirewallRules#src_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#src_cidr ApplianceInboundFirewallRules#src_cidr}
   */
   readonly srcCidr: string;
   /**
   * Comma-separated list of source port(s) (integer in the range 1-65535), or `any`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#src_port ApplianceInboundFirewallRules#src_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#src_port ApplianceInboundFirewallRules#src_port}
   */
   readonly srcPort?: string;
   /**
   * Log this rule to syslog (true or false, boolean value) - only applicable if a syslog has been configured (optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#syslog_enabled ApplianceInboundFirewallRules#syslog_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#syslog_enabled ApplianceInboundFirewallRules#syslog_enabled}
   */
   readonly syslogEnabled?: boolean | cdktf.IResolvable;
 }
@@ -381,7 +381,7 @@ export class ApplianceInboundFirewallRulesRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules meraki_appliance_inbound_firewall_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules meraki_appliance_inbound_firewall_rules}
 */
 export class ApplianceInboundFirewallRules extends cdktf.TerraformResource {
 
@@ -397,7 +397,7 @@ export class ApplianceInboundFirewallRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceInboundFirewallRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceInboundFirewallRules to import
-  * @param importFromId The id of the existing ApplianceInboundFirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceInboundFirewallRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceInboundFirewallRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -409,7 +409,7 @@ export class ApplianceInboundFirewallRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_inbound_firewall_rules meraki_appliance_inbound_firewall_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_inbound_firewall_rules meraki_appliance_inbound_firewall_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -420,8 +420,8 @@ export class ApplianceInboundFirewallRules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_inbound_firewall_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface WirelessSsidSchedulesConfig extends cdktf.TerraformMetaArgument
   /**
   * If true, the SSID outage schedule is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#enabled WirelessSsidSchedules#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#enabled WirelessSsidSchedules#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#network_id WirelessSsidSchedules#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#network_id WirelessSsidSchedules#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#number WirelessSsidSchedules#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#number WirelessSsidSchedules#number}
   */
   readonly number: string;
   /**
   * List of outage ranges. Has a start date and time, and end date and time. If this parameter is passed in along with rangesInSeconds parameter, this will take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#ranges WirelessSsidSchedules#ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#ranges WirelessSsidSchedules#ranges}
   */
   readonly ranges?: WirelessSsidSchedulesRanges[] | cdktf.IResolvable;
   /**
   * List of outage ranges in seconds since Sunday at Midnight. Has a start and end. If this parameter is passed in along with the ranges parameter, ranges will take precedence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#ranges_in_seconds WirelessSsidSchedules#ranges_in_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#ranges_in_seconds WirelessSsidSchedules#ranges_in_seconds}
   */
   readonly rangesInSeconds?: WirelessSsidSchedulesRangesInSeconds[] | cdktf.IResolvable;
 }
@@ -42,25 +42,25 @@ export interface WirelessSsidSchedulesRanges {
   /**
   * Day of when the outage ends. Can be either full day name, or three letter abbreviation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#end_day WirelessSsidSchedules#end_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#end_day WirelessSsidSchedules#end_day}
   */
   readonly endDay: string;
   /**
   * 24 hour time when the outage ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#end_time WirelessSsidSchedules#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#end_time WirelessSsidSchedules#end_time}
   */
   readonly endTime: string;
   /**
   * Day of when the outage starts. Can be either full day name, or three letter abbreviation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#start_day WirelessSsidSchedules#start_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#start_day WirelessSsidSchedules#start_day}
   */
   readonly startDay: string;
   /**
   * 24 hour time when the outage starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#start_time WirelessSsidSchedules#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#start_time WirelessSsidSchedules#start_time}
   */
   readonly startTime: string;
 }
@@ -253,13 +253,13 @@ export interface WirelessSsidSchedulesRangesInSeconds {
   /**
   * Seconds since Sunday at midnight when that outage range ends.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#end WirelessSsidSchedules#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#end WirelessSsidSchedules#end}
   */
   readonly end: number;
   /**
   * Seconds since Sunday at midnight when the outage range starts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#start WirelessSsidSchedules#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#start WirelessSsidSchedules#start}
   */
   readonly start: number;
 }
@@ -398,7 +398,7 @@ export class WirelessSsidSchedulesRangesInSecondsList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules meraki_wireless_ssid_schedules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules meraki_wireless_ssid_schedules}
 */
 export class WirelessSsidSchedules extends cdktf.TerraformResource {
 
@@ -414,7 +414,7 @@ export class WirelessSsidSchedules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WirelessSsidSchedules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WirelessSsidSchedules to import
-  * @param importFromId The id of the existing WirelessSsidSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WirelessSsidSchedules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WirelessSsidSchedules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -426,7 +426,7 @@ export class WirelessSsidSchedules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/wireless_ssid_schedules meraki_wireless_ssid_schedules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/wireless_ssid_schedules meraki_wireless_ssid_schedules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -437,8 +437,8 @@ export class WirelessSsidSchedules extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_wireless_ssid_schedules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

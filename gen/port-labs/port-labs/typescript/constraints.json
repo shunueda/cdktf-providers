@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "port-labs": "2.17.1"
+    "port-labs": "2.17.2"
   }
 }

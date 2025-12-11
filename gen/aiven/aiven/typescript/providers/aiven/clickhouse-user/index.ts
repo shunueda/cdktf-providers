@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ClickhouseUserConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#id ClickhouseUser#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#id ClickhouseUser#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
+  * The password of the service user (auto-generated if not provided). Must be 8-256 characters if specified.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#password ClickhouseUser#password}
+  */
+  readonly password?: string;
+  /**
+  * The password of the service user (write-only, not stored in state). Must be used with `password_wo_version`. Must be 8-256 characters.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#password_wo ClickhouseUser#password_wo}
+  */
+  readonly passwordWo?: string;
+  /**
+  * Version number for `password_wo`. Increment this to rotate the password. Must be >= 1.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#password_wo_version ClickhouseUser#password_wo_version}
+  */
+  readonly passwordWoVersion?: number;
+  /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#project ClickhouseUser#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#project ClickhouseUser#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#service_name ClickhouseUser#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#service_name ClickhouseUser#service_name}
   */
   readonly serviceName: string;
   /**
   * The name of the ClickHouse user. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#username ClickhouseUser#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#username ClickhouseUser#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#timeouts ClickhouseUser#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#timeouts ClickhouseUser#timeouts}
   */
   readonly timeouts?: ClickhouseUserTimeouts;
 }
 export interface ClickhouseUserTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#create ClickhouseUser#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#create ClickhouseUser#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#default ClickhouseUser#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#default ClickhouseUser#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#delete ClickhouseUser#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#delete ClickhouseUser#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#read ClickhouseUser#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#read ClickhouseUser#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#update ClickhouseUser#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#update ClickhouseUser#update}
   */
   readonly update?: string;
 }
@@ -267,7 +285,7 @@ export class ClickhouseUserTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user aiven_clickhouse_user}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user aiven_clickhouse_user}
 */
 export class ClickhouseUser extends cdktf.TerraformResource {
 
@@ -283,7 +301,7 @@ export class ClickhouseUser extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClickhouseUser resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClickhouseUser to import
-  * @param importFromId The id of the existing ClickhouseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClickhouseUser that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClickhouseUser to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +313,7 @@ export class ClickhouseUser extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/clickhouse_user aiven_clickhouse_user} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/clickhouse_user aiven_clickhouse_user} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +324,8 @@ export class ClickhouseUser extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_clickhouse_user',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -318,6 +336,9 @@ export class ClickhouseUser extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._id = config.id;
+    this._password = config.password;
+    this._passwordWo = config.passwordWo;
+    this._passwordWoVersion = config.passwordWoVersion;
     this._project = config.project;
     this._serviceName = config.serviceName;
     this._username = config.username;
@@ -344,9 +365,52 @@ export class ClickhouseUser extends cdktf.TerraformResource {
     return this._id;
   }
 
-  // password - computed: true, optional: false, required: false
+  // password - computed: true, optional: true, required: false
+  private _password?: string; 
   public get password() {
     return this.getStringAttribute('password');
+  }
+  public set password(value: string) {
+    this._password = value;
+  }
+  public resetPassword() {
+    this._password = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordInput() {
+    return this._password;
+  }
+
+  // password_wo - computed: false, optional: true, required: false
+  private _passwordWo?: string; 
+  public get passwordWo() {
+    return this.getStringAttribute('password_wo');
+  }
+  public set passwordWo(value: string) {
+    this._passwordWo = value;
+  }
+  public resetPasswordWo() {
+    this._passwordWo = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordWoInput() {
+    return this._passwordWo;
+  }
+
+  // password_wo_version - computed: false, optional: true, required: false
+  private _passwordWoVersion?: number; 
+  public get passwordWoVersion() {
+    return this.getNumberAttribute('password_wo_version');
+  }
+  public set passwordWoVersion(value: number) {
+    this._passwordWoVersion = value;
+  }
+  public resetPasswordWoVersion() {
+    this._passwordWoVersion = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get passwordWoVersionInput() {
+    return this._passwordWoVersion;
   }
 
   // project - computed: false, optional: false, required: true
@@ -421,6 +485,9 @@ export class ClickhouseUser extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       id: cdktf.stringToTerraform(this._id),
+      password: cdktf.stringToTerraform(this._password),
+      password_wo: cdktf.stringToTerraform(this._passwordWo),
+      password_wo_version: cdktf.numberToTerraform(this._passwordWoVersion),
       project: cdktf.stringToTerraform(this._project),
       service_name: cdktf.stringToTerraform(this._serviceName),
       username: cdktf.stringToTerraform(this._username),
@@ -435,6 +502,24 @@ export class ClickhouseUser extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      password: {
+        value: cdktf.stringToHclTerraform(this._password),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      password_wo: {
+        value: cdktf.stringToHclTerraform(this._passwordWo),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      password_wo_version: {
+        value: cdktf.numberToHclTerraform(this._passwordWoVersion),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "number",
       },
       project: {
         value: cdktf.stringToHclTerraform(this._project),

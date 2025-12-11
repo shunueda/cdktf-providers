@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TeoFunctionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the Function.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#function_id TeoFunctionRule#function_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#function_id TeoFunctionRule#function_id}
   */
   readonly functionId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#id TeoFunctionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#id TeoFunctionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface TeoFunctionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rule description, maximum support of 60 characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#remark TeoFunctionRule#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#remark TeoFunctionRule#remark}
   */
   readonly remark?: string;
   /**
   * ID of the site.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#zone_id TeoFunctionRule#zone_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#zone_id TeoFunctionRule#zone_id}
   */
   readonly zoneId: string;
   /**
   * function_rule_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#function_rule_conditions TeoFunctionRule#function_rule_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#function_rule_conditions TeoFunctionRule#function_rule_conditions}
   */
   readonly functionRuleConditions: TeoFunctionRuleFunctionRuleConditions[] | cdktf.IResolvable;
 }
@@ -43,7 +43,7 @@ export interface TeoFunctionRuleFunctionRuleConditionsRuleConditions {
   /**
   * Whether the parameter value is case insensitive. Default value: false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#ignore_case TeoFunctionRule#ignore_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#ignore_case TeoFunctionRule#ignore_case}
   */
   readonly ignoreCase?: boolean | cdktf.IResolvable;
   /**
@@ -51,7 +51,7 @@ export interface TeoFunctionRuleFunctionRuleConditionsRuleConditions {
   *   - `query_string`: Name of the query string, such as "lang" and "version" in "lang=cn&version=1".
   *   - `request_header`: Name of the HTTP request header, such as "Accept-Language" in the "Accept-Language:zh-CN,zh;q=0.9" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#name TeoFunctionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#name TeoFunctionRule#name}
   */
   readonly name?: string;
   /**
@@ -61,7 +61,7 @@ export interface TeoFunctionRuleFunctionRuleConditionsRuleConditions {
   *   - `exist`: Exists.
   *   - `notexist`: Does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#operator TeoFunctionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#operator TeoFunctionRule#operator}
   */
   readonly operator: string;
   /**
@@ -75,7 +75,7 @@ export interface TeoFunctionRuleFunctionRuleConditionsRuleConditions {
   *   - `query_string`: Query string in the request URL.
   *   - `request_header`: HTTP request header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#target TeoFunctionRule#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#target TeoFunctionRule#target}
   */
   readonly target: string;
   /**
@@ -90,7 +90,7 @@ export interface TeoFunctionRuleFunctionRuleConditionsRuleConditions {
   *   - When `Target=query_string`, enter the value of the query string, such as "cn" and "1" in "lang=cn&version=1".
   *   - When `Target=request_header`, enter the HTTP request header value, such as "zh-CN,zh;q=0.9" in the "Accept-Language:zh-CN,zh;q=0.9" header.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#values TeoFunctionRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#values TeoFunctionRule#values}
   */
   readonly values?: string[];
 }
@@ -318,7 +318,7 @@ export interface TeoFunctionRuleFunctionRuleConditions {
   /**
   * rule_conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#rule_conditions TeoFunctionRule#rule_conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#rule_conditions TeoFunctionRule#rule_conditions}
   */
   readonly ruleConditions: TeoFunctionRuleFunctionRuleConditionsRuleConditions[] | cdktf.IResolvable;
 }
@@ -431,7 +431,7 @@ export class TeoFunctionRuleFunctionRuleConditionsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule tencentcloud_teo_function_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule tencentcloud_teo_function_rule}
 */
 export class TeoFunctionRule extends cdktf.TerraformResource {
 
@@ -447,7 +447,7 @@ export class TeoFunctionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeoFunctionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeoFunctionRule to import
-  * @param importFromId The id of the existing TeoFunctionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeoFunctionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeoFunctionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -459,7 +459,7 @@ export class TeoFunctionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/teo_function_rule tencentcloud_teo_function_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/teo_function_rule tencentcloud_teo_function_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -470,8 +470,8 @@ export class TeoFunctionRule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_teo_function_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

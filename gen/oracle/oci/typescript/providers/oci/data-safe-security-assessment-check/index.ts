@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataSafeSecurityAssessmentCheckConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#id DataSafeSecurityAssessmentCheck#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#id DataSafeSecurityAssessmentCheck#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#security_assessment_id DataSafeSecurityAssessmentCheck#security_assessment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#security_assessment_id DataSafeSecurityAssessmentCheck#security_assessment_id}
   */
   readonly securityAssessmentId: string;
   /**
   * patch_operations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#patch_operations DataSafeSecurityAssessmentCheck#patch_operations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#patch_operations DataSafeSecurityAssessmentCheck#patch_operations}
   */
   readonly patchOperations?: DataSafeSecurityAssessmentCheckPatchOperations[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#timeouts DataSafeSecurityAssessmentCheck#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#timeouts DataSafeSecurityAssessmentCheck#timeouts}
   */
   readonly timeouts?: DataSafeSecurityAssessmentCheckTimeouts;
 }
@@ -123,15 +123,15 @@ export class DataSafeSecurityAssessmentCheckReferencesList extends cdktf.Complex
 }
 export interface DataSafeSecurityAssessmentCheckPatchOperations {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#operation DataSafeSecurityAssessmentCheck#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#operation DataSafeSecurityAssessmentCheck#operation}
   */
   readonly operation: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#selection DataSafeSecurityAssessmentCheck#selection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#selection DataSafeSecurityAssessmentCheck#selection}
   */
   readonly selection: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#value DataSafeSecurityAssessmentCheck#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#value DataSafeSecurityAssessmentCheck#value}
   */
   readonly value: { [key: string]: string };
 }
@@ -296,15 +296,15 @@ export class DataSafeSecurityAssessmentCheckPatchOperationsList extends cdktf.Co
 }
 export interface DataSafeSecurityAssessmentCheckTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#create DataSafeSecurityAssessmentCheck#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#create DataSafeSecurityAssessmentCheck#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#delete DataSafeSecurityAssessmentCheck#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#delete DataSafeSecurityAssessmentCheck#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#update DataSafeSecurityAssessmentCheck#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#update DataSafeSecurityAssessmentCheck#update}
   */
   readonly update?: string;
 }
@@ -456,7 +456,7 @@ export class DataSafeSecurityAssessmentCheckTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check oci_data_safe_security_assessment_check}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check oci_data_safe_security_assessment_check}
 */
 export class DataSafeSecurityAssessmentCheck extends cdktf.TerraformResource {
 
@@ -472,7 +472,7 @@ export class DataSafeSecurityAssessmentCheck extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataSafeSecurityAssessmentCheck resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSafeSecurityAssessmentCheck to import
-  * @param importFromId The id of the existing DataSafeSecurityAssessmentCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSafeSecurityAssessmentCheck that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSafeSecurityAssessmentCheck to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -484,7 +484,7 @@ export class DataSafeSecurityAssessmentCheck extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/data_safe_security_assessment_check oci_data_safe_security_assessment_check} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/data_safe_security_assessment_check oci_data_safe_security_assessment_check} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -495,8 +495,8 @@ export class DataSafeSecurityAssessmentCheck extends cdktf.TerraformResource {
       terraformResourceType: 'oci_data_safe_security_assessment_check',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

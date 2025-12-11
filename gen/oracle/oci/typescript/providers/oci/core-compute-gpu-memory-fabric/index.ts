@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,27 +8,27 @@ import * as cdktf from 'cdktf';
 
 export interface CoreComputeGpuMemoryFabricConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#compartment_id CoreComputeGpuMemoryFabric#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#compartment_id CoreComputeGpuMemoryFabric#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id CoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#compute_gpu_memory_fabric_id CoreComputeGpuMemoryFabric#compute_gpu_memory_fabric_id}
   */
   readonly computeGpuMemoryFabricId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#defined_tags CoreComputeGpuMemoryFabric#defined_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#defined_tags CoreComputeGpuMemoryFabric#defined_tags}
   */
   readonly definedTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#display_name CoreComputeGpuMemoryFabric#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#display_name CoreComputeGpuMemoryFabric#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#freeform_tags CoreComputeGpuMemoryFabric#freeform_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#freeform_tags CoreComputeGpuMemoryFabric#freeform_tags}
   */
   readonly freeformTags?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#id CoreComputeGpuMemoryFabric#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#id CoreComputeGpuMemoryFabric#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -37,23 +37,23 @@ export interface CoreComputeGpuMemoryFabricConfig extends cdktf.TerraformMetaArg
   /**
   * memory_fabric_preferences block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#memory_fabric_preferences CoreComputeGpuMemoryFabric#memory_fabric_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#memory_fabric_preferences CoreComputeGpuMemoryFabric#memory_fabric_preferences}
   */
   readonly memoryFabricPreferences?: CoreComputeGpuMemoryFabricMemoryFabricPreferences;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#timeouts CoreComputeGpuMemoryFabric#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#timeouts CoreComputeGpuMemoryFabric#timeouts}
   */
   readonly timeouts?: CoreComputeGpuMemoryFabricTimeouts;
 }
 export interface CoreComputeGpuMemoryFabricMemoryFabricPreferences {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#customer_desired_firmware_bundle_id CoreComputeGpuMemoryFabric#customer_desired_firmware_bundle_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#customer_desired_firmware_bundle_id CoreComputeGpuMemoryFabric#customer_desired_firmware_bundle_id}
   */
   readonly customerDesiredFirmwareBundleId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#fabric_recycle_level CoreComputeGpuMemoryFabric#fabric_recycle_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#fabric_recycle_level CoreComputeGpuMemoryFabric#fabric_recycle_level}
   */
   readonly fabricRecycleLevel?: string;
 }
@@ -166,15 +166,15 @@ export class CoreComputeGpuMemoryFabricMemoryFabricPreferencesOutputReference ex
 }
 export interface CoreComputeGpuMemoryFabricTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#create CoreComputeGpuMemoryFabric#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#create CoreComputeGpuMemoryFabric#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#delete CoreComputeGpuMemoryFabric#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#delete CoreComputeGpuMemoryFabric#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#update CoreComputeGpuMemoryFabric#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#update CoreComputeGpuMemoryFabric#update}
   */
   readonly update?: string;
 }
@@ -326,7 +326,7 @@ export class CoreComputeGpuMemoryFabricTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric}
 */
 export class CoreComputeGpuMemoryFabric extends cdktf.TerraformResource {
 
@@ -342,7 +342,7 @@ export class CoreComputeGpuMemoryFabric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CoreComputeGpuMemoryFabric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CoreComputeGpuMemoryFabric to import
-  * @param importFromId The id of the existing CoreComputeGpuMemoryFabric that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CoreComputeGpuMemoryFabric that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CoreComputeGpuMemoryFabric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -354,7 +354,7 @@ export class CoreComputeGpuMemoryFabric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/resources/core_compute_gpu_memory_fabric oci_core_compute_gpu_memory_fabric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -365,8 +365,8 @@ export class CoreComputeGpuMemoryFabric extends cdktf.TerraformResource {
       terraformResourceType: 'oci_core_compute_gpu_memory_fabric',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

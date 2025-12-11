@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,145 +10,145 @@ export interface SwitchPortScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name for your port schedule. Required
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#name SwitchPortSchedule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#name SwitchPortSchedule#name}
   */
   readonly name: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#network_id SwitchPortSchedule#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#network_id SwitchPortSchedule#network_id}
   */
   readonly networkId: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_friday_active SwitchPortSchedule#port_schedule_friday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_friday_active SwitchPortSchedule#port_schedule_friday_active}
   */
   readonly portScheduleFridayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_friday_from SwitchPortSchedule#port_schedule_friday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_friday_from SwitchPortSchedule#port_schedule_friday_from}
   */
   readonly portScheduleFridayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_friday_to SwitchPortSchedule#port_schedule_friday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_friday_to SwitchPortSchedule#port_schedule_friday_to}
   */
   readonly portScheduleFridayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_monday_active SwitchPortSchedule#port_schedule_monday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_monday_active SwitchPortSchedule#port_schedule_monday_active}
   */
   readonly portScheduleMondayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_monday_from SwitchPortSchedule#port_schedule_monday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_monday_from SwitchPortSchedule#port_schedule_monday_from}
   */
   readonly portScheduleMondayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_monday_to SwitchPortSchedule#port_schedule_monday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_monday_to SwitchPortSchedule#port_schedule_monday_to}
   */
   readonly portScheduleMondayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_saturday_active SwitchPortSchedule#port_schedule_saturday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_saturday_active SwitchPortSchedule#port_schedule_saturday_active}
   */
   readonly portScheduleSaturdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_saturday_from SwitchPortSchedule#port_schedule_saturday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_saturday_from SwitchPortSchedule#port_schedule_saturday_from}
   */
   readonly portScheduleSaturdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_saturday_to SwitchPortSchedule#port_schedule_saturday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_saturday_to SwitchPortSchedule#port_schedule_saturday_to}
   */
   readonly portScheduleSaturdayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_sunday_active SwitchPortSchedule#port_schedule_sunday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_sunday_active SwitchPortSchedule#port_schedule_sunday_active}
   */
   readonly portScheduleSundayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_sunday_from SwitchPortSchedule#port_schedule_sunday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_sunday_from SwitchPortSchedule#port_schedule_sunday_from}
   */
   readonly portScheduleSundayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_sunday_to SwitchPortSchedule#port_schedule_sunday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_sunday_to SwitchPortSchedule#port_schedule_sunday_to}
   */
   readonly portScheduleSundayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_thursday_active SwitchPortSchedule#port_schedule_thursday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_thursday_active SwitchPortSchedule#port_schedule_thursday_active}
   */
   readonly portScheduleThursdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_thursday_from SwitchPortSchedule#port_schedule_thursday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_thursday_from SwitchPortSchedule#port_schedule_thursday_from}
   */
   readonly portScheduleThursdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_thursday_to SwitchPortSchedule#port_schedule_thursday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_thursday_to SwitchPortSchedule#port_schedule_thursday_to}
   */
   readonly portScheduleThursdayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_tuesday_active SwitchPortSchedule#port_schedule_tuesday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_tuesday_active SwitchPortSchedule#port_schedule_tuesday_active}
   */
   readonly portScheduleTuesdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_tuesday_from SwitchPortSchedule#port_schedule_tuesday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_tuesday_from SwitchPortSchedule#port_schedule_tuesday_from}
   */
   readonly portScheduleTuesdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_tuesday_to SwitchPortSchedule#port_schedule_tuesday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_tuesday_to SwitchPortSchedule#port_schedule_tuesday_to}
   */
   readonly portScheduleTuesdayTo?: string;
   /**
   * Whether the schedule is active (true) or inactive (false) during the time specified between `from` and `to`. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_wednesday_active SwitchPortSchedule#port_schedule_wednesday_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_wednesday_active SwitchPortSchedule#port_schedule_wednesday_active}
   */
   readonly portScheduleWednesdayActive?: boolean | cdktf.IResolvable;
   /**
   * The time, from `00:00` to `24:00`. Must be less than the time specified in `to`. Defaults to `00:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_wednesday_from SwitchPortSchedule#port_schedule_wednesday_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_wednesday_from SwitchPortSchedule#port_schedule_wednesday_from}
   */
   readonly portScheduleWednesdayFrom?: string;
   /**
   * The time, from `00:00` to `24:00`. Must be greater than the time specified in `from`. Defaults to `24:00`. Only 30 minute increments are allowed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#port_schedule_wednesday_to SwitchPortSchedule#port_schedule_wednesday_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#port_schedule_wednesday_to SwitchPortSchedule#port_schedule_wednesday_to}
   */
   readonly portScheduleWednesdayTo?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule meraki_switch_port_schedule}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule meraki_switch_port_schedule}
 */
 export class SwitchPortSchedule extends cdktf.TerraformResource {
 
@@ -164,7 +164,7 @@ export class SwitchPortSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchPortSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchPortSchedule to import
-  * @param importFromId The id of the existing SwitchPortSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchPortSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchPortSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -176,7 +176,7 @@ export class SwitchPortSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_port_schedule meraki_switch_port_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_port_schedule meraki_switch_port_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -187,8 +187,8 @@ export class SwitchPortSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_port_schedule',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

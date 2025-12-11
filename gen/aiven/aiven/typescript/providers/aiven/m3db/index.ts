@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface M3DbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#additional_disk_space M3Db#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#additional_disk_space M3Db#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#cloud_name M3Db#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#cloud_name M3Db#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#disk_space M3Db#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#disk_space M3Db#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#id M3Db#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#id M3Db#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface M3DbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#maintenance_window_dow M3Db#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#maintenance_window_dow M3Db#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#maintenance_window_time M3Db#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#maintenance_window_time M3Db#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#plan M3Db#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#plan M3Db#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#project M3Db#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#project M3Db#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#project_vpc_id M3Db#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#project_vpc_id M3Db#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#service_name M3Db#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#service_name M3Db#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#static_ips M3Db#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#static_ips M3Db#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#termination_protection M3Db#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#termination_protection M3Db#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * m3db block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3db M3Db#m3db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3db M3Db#m3db}
   */
   readonly m3Db?: M3DbM3Db;
   /**
   * m3db_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3db_user_config M3Db#m3db_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3db_user_config M3Db#m3db_user_config}
   */
   readonly m3DbUserConfig?: M3DbM3DbUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#service_integrations M3Db#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#service_integrations M3Db#service_integrations}
   */
   readonly serviceIntegrations?: M3DbServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#tag M3Db#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#tag M3Db#tag}
   */
   readonly tag?: M3DbTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#tech_emails M3Db#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#tech_emails M3Db#tech_emails}
   */
   readonly techEmails?: M3DbTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#timeouts M3Db#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#timeouts M3Db#timeouts}
   */
   readonly timeouts?: M3DbTimeouts;
 }
@@ -236,7 +236,7 @@ export interface M3DbM3Db {
   /**
   * M3DB server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#uris M3Db#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#uris M3Db#uris}
   */
   readonly uris?: string[];
 }
@@ -347,13 +347,13 @@ export interface M3DbM3DbUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#description M3Db#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#description M3Db#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#network M3Db#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#network M3Db#network}
   */
   readonly network: string;
 }
@@ -497,37 +497,37 @@ export interface M3DbM3DbUserConfigLimits {
   /**
   * The maximum number of blocks that can be read in a given lookback period. Example: `20000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#max_recently_queried_series_blocks M3Db#max_recently_queried_series_blocks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#max_recently_queried_series_blocks M3Db#max_recently_queried_series_blocks}
   */
   readonly maxRecentlyQueriedSeriesBlocks?: number;
   /**
   * The maximum number of disk bytes that can be read in a given lookback period. Example: `104857600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#max_recently_queried_series_disk_bytes_read M3Db#max_recently_queried_series_disk_bytes_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#max_recently_queried_series_disk_bytes_read M3Db#max_recently_queried_series_disk_bytes_read}
   */
   readonly maxRecentlyQueriedSeriesDiskBytesRead?: number;
   /**
   * The lookback period for `max_recently_queried_series_blocks` and `max_recently_queried_series_disk_bytes_read`. Example: `15s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#max_recently_queried_series_lookback M3Db#max_recently_queried_series_lookback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#max_recently_queried_series_lookback M3Db#max_recently_queried_series_lookback}
   */
   readonly maxRecentlyQueriedSeriesLookback?: string;
   /**
   * The maximum number of docs fetched in single query. Example: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#query_docs M3Db#query_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#query_docs M3Db#query_docs}
   */
   readonly queryDocs?: number;
   /**
   * When query limits are exceeded, whether to return error or return partial results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#query_require_exhaustive M3Db#query_require_exhaustive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#query_require_exhaustive M3Db#query_require_exhaustive}
   */
   readonly queryRequireExhaustive?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of series fetched in single query. Example: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#query_series M3Db#query_series}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#query_series M3Db#query_series}
   */
   readonly querySeries?: number;
 }
@@ -758,13 +758,13 @@ export interface M3DbM3DbUserConfigM3TagOptions {
   /**
   * Allows for duplicate tags to appear on series (not allowed by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#allow_tag_name_duplicates M3Db#allow_tag_name_duplicates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#allow_tag_name_duplicates M3Db#allow_tag_name_duplicates}
   */
   readonly allowTagNameDuplicates?: boolean | cdktf.IResolvable;
   /**
   * Allows for empty tags to appear on series (not allowed by default).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#allow_tag_value_empty M3Db#allow_tag_value_empty}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#allow_tag_value_empty M3Db#allow_tag_value_empty}
   */
   readonly allowTagValueEmpty?: boolean | cdktf.IResolvable;
 }
@@ -879,7 +879,7 @@ export interface M3DbM3DbUserConfigM3 {
   /**
   * tag_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#tag_options M3Db#tag_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#tag_options M3Db#tag_options}
   */
   readonly tagOptions?: M3DbM3DbUserConfigM3TagOptions;
 }
@@ -965,31 +965,31 @@ export interface M3DbM3DbUserConfigNamespacesOptionsRetentionOptions {
   /**
   * Controls how long we wait before expiring stale data. Example: `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#block_data_expiry_duration M3Db#block_data_expiry_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#block_data_expiry_duration M3Db#block_data_expiry_duration}
   */
   readonly blockDataExpiryDuration?: string;
   /**
   * Controls how long to keep a block in memory before flushing to a fileset on disk. Example: `2h`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#blocksize_duration M3Db#blocksize_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#blocksize_duration M3Db#blocksize_duration}
   */
   readonly blocksizeDuration?: string;
   /**
   * Controls how far into the future writes to the namespace will be accepted. Example: `10m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#buffer_future_duration M3Db#buffer_future_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#buffer_future_duration M3Db#buffer_future_duration}
   */
   readonly bufferFutureDuration?: string;
   /**
   * Controls how far into the past writes to the namespace will be accepted. Example: `10m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#buffer_past_duration M3Db#buffer_past_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#buffer_past_duration M3Db#buffer_past_duration}
   */
   readonly bufferPastDuration?: string;
   /**
   * Controls the duration of time that M3DB will retain data for the namespace. Example: `48h`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#retention_period_duration M3Db#retention_period_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#retention_period_duration M3Db#retention_period_duration}
   */
   readonly retentionPeriodDuration?: string;
 }
@@ -1191,19 +1191,19 @@ export interface M3DbM3DbUserConfigNamespacesOptions {
   /**
   * Controls whether M3DB will create snapshot files for this namespace.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#snapshot_enabled M3Db#snapshot_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#snapshot_enabled M3Db#snapshot_enabled}
   */
   readonly snapshotEnabled?: boolean | cdktf.IResolvable;
   /**
   * Controls whether M3DB will include writes to this namespace in the commitlog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#writes_to_commitlog M3Db#writes_to_commitlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#writes_to_commitlog M3Db#writes_to_commitlog}
   */
   readonly writesToCommitlog?: boolean | cdktf.IResolvable;
   /**
   * retention_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#retention_options M3Db#retention_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#retention_options M3Db#retention_options}
   */
   readonly retentionOptions: M3DbM3DbUserConfigNamespacesOptionsRetentionOptions;
 }
@@ -1344,25 +1344,25 @@ export interface M3DbM3DbUserConfigNamespaces {
   /**
   * The name of the namespace. Example: `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#name M3Db#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#name M3Db#name}
   */
   readonly name: string;
   /**
   * The resolution for an aggregated namespace. Example: `30s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#resolution M3Db#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#resolution M3Db#resolution}
   */
   readonly resolution?: string;
   /**
   * Enum: `aggregated`, `unaggregated`. The type of aggregation (aggregated/unaggregated).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#type M3Db#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#type M3Db#type}
   */
   readonly type: string;
   /**
   * options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#options M3Db#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#options M3Db#options}
   */
   readonly options?: M3DbM3DbUserConfigNamespacesOptions;
 }
@@ -1561,7 +1561,7 @@ export interface M3DbM3DbUserConfigPrivateAccess {
   /**
   * Allow clients to connect to m3coordinator with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3coordinator M3Db#m3coordinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3coordinator M3Db#m3coordinator}
   */
   readonly m3Coordinator?: boolean | cdktf.IResolvable;
 }
@@ -1647,7 +1647,7 @@ export interface M3DbM3DbUserConfigPublicAccess {
   /**
   * Allow clients to connect to m3coordinator from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3coordinator M3Db#m3coordinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3coordinator M3Db#m3coordinator}
   */
   readonly m3Coordinator?: boolean | cdktf.IResolvable;
 }
@@ -1733,13 +1733,13 @@ export interface M3DbM3DbUserConfigRulesMappingNamespacesObject {
   /**
   * The resolution for the matching namespace. Example: `30s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#resolution M3Db#resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#resolution M3Db#resolution}
   */
   readonly resolution: string;
   /**
   * The retention period of the matching namespace. Example: `48h`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#retention M3Db#retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#retention M3Db#retention}
   */
   readonly retention?: string;
 }
@@ -1883,13 +1883,13 @@ export interface M3DbM3DbUserConfigRulesMappingTags {
   /**
   * Name of the tag. Example: `my_tag`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#name M3Db#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#name M3Db#name}
   */
   readonly name: string;
   /**
   * Value of the tag. Example: `my_value`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#value M3Db#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#value M3Db#value}
   */
   readonly value: string;
 }
@@ -2030,19 +2030,19 @@ export interface M3DbM3DbUserConfigRulesMapping {
   /**
   * List of aggregations to be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#aggregations M3Db#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#aggregations M3Db#aggregations}
   */
   readonly aggregations?: string[];
   /**
   * Only store the derived metric (as specified in the roll-up rules), if any.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#drop M3Db#drop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#drop M3Db#drop}
   */
   readonly drop?: boolean | cdktf.IResolvable;
   /**
   * Matching metric names with wildcards (using __name__:wildcard) or matching tags and their (optionally wildcarded) values. For value, ! can be used at start of value for negation, and multiple filters can be supplied using space as separator. Example: `__name__:disk_* host:important-42 mount:!* /sda`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#filter M3Db#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#filter M3Db#filter}
    *
   * Note: The above comment contained a comment block ending sequence (* followed by /). We have introduced a space between to prevent syntax errors. Please ignore the space.
   */
@@ -2050,31 +2050,31 @@ export interface M3DbM3DbUserConfigRulesMapping {
   /**
   * The (optional) name of the rule. Example: `important disk metrics`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#name M3Db#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#name M3Db#name}
   */
   readonly name?: string;
   /**
   * This rule will be used to store the metrics in the given namespace(s). If a namespace is target of rules, the global default aggregation will be automatically disabled. Note that specifying filters that match no namespaces whatsoever will be returned as an error. Filter the namespace by glob (=wildcards).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#namespaces M3Db#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#namespaces M3Db#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * This rule will be used to store the metrics in the given namespace(s). If a namespace is target of rules, the global default aggregation will be automatically disabled. Note that specifying filters that match no namespaces whatsoever will be returned as an error. Filter the namespace by glob (=wildcards).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#namespaces_string M3Db#namespaces_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#namespaces_string M3Db#namespaces_string}
   */
   readonly namespacesString?: string[];
   /**
   * namespaces_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#namespaces_object M3Db#namespaces_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#namespaces_object M3Db#namespaces_object}
   */
   readonly namespacesObject?: M3DbM3DbUserConfigRulesMappingNamespacesObject[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#tags M3Db#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#tags M3Db#tags}
   */
   readonly tags?: M3DbM3DbUserConfigRulesMappingTags[] | cdktf.IResolvable;
 }
@@ -2392,7 +2392,7 @@ export interface M3DbM3DbUserConfigRules {
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#mapping M3Db#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#mapping M3Db#mapping}
   */
   readonly mapping?: M3DbM3DbUserConfigRulesMapping[] | cdktf.IResolvable;
 }
@@ -2478,109 +2478,109 @@ export interface M3DbM3DbUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#additional_backup_regions M3Db#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#additional_backup_regions M3Db#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
   * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. Example: `grafana.example.org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#custom_domain M3Db#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#custom_domain M3Db#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#ip_filter M3Db#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#ip_filter M3Db#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#ip_filter_string M3Db#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#ip_filter_string M3Db#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Enum: `1.1`, `1.2`, `1.5`, and newer. M3 major version (deprecated, use m3db_version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3_version M3Db#m3_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3_version M3Db#m3_version}
   */
   readonly m3Version?: string;
   /**
   * Enables access to Graphite Carbon plaintext metrics ingestion. It can be enabled only for services inside VPCs. The metrics are written to aggregated namespaces only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3coordinator_enable_graphite_carbon_ingest M3Db#m3coordinator_enable_graphite_carbon_ingest}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3coordinator_enable_graphite_carbon_ingest M3Db#m3coordinator_enable_graphite_carbon_ingest}
   */
   readonly m3CoordinatorEnableGraphiteCarbonIngest?: boolean | cdktf.IResolvable;
   /**
   * Enum: `1.1`, `1.2`, `1.5`, and newer. M3 major version (the minimum compatible version).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3db_version M3Db#m3db_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3db_version M3Db#m3db_version}
   */
   readonly m3DbVersion?: string;
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#project_to_fork_from M3Db#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#project_to_fork_from M3Db#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#service_log M3Db#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#service_log M3Db#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#service_to_fork_from M3Db#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#service_to_fork_from M3Db#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#static_ips M3Db#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#static_ips M3Db#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#ip_filter_object M3Db#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#ip_filter_object M3Db#ip_filter_object}
   */
   readonly ipFilterObject?: M3DbM3DbUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
   * limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#limits M3Db#limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#limits M3Db#limits}
   */
   readonly limits?: M3DbM3DbUserConfigLimits;
   /**
   * m3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#m3 M3Db#m3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#m3 M3Db#m3}
   */
   readonly m3?: M3DbM3DbUserConfigM3;
   /**
   * namespaces block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#namespaces M3Db#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#namespaces M3Db#namespaces}
   */
   readonly namespaces?: M3DbM3DbUserConfigNamespaces[] | cdktf.IResolvable;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#private_access M3Db#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#private_access M3Db#private_access}
   */
   readonly privateAccess?: M3DbM3DbUserConfigPrivateAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#public_access M3Db#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#public_access M3Db#public_access}
   */
   readonly publicAccess?: M3DbM3DbUserConfigPublicAccess;
   /**
   * rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#rules M3Db#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#rules M3Db#rules}
   */
   readonly rules?: M3DbM3DbUserConfigRules;
 }
@@ -3159,13 +3159,13 @@ export interface M3DbServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#integration_type M3Db#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#integration_type M3Db#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#source_service_name M3Db#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#source_service_name M3Db#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -3306,13 +3306,13 @@ export interface M3DbTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#key M3Db#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#key M3Db#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#value M3Db#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#value M3Db#value}
   */
   readonly value: string;
 }
@@ -3453,7 +3453,7 @@ export interface M3DbTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#email M3Db#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#email M3Db#email}
   */
   readonly email: string;
 }
@@ -3566,23 +3566,23 @@ export class M3DbTechEmailsList extends cdktf.ComplexList {
 }
 export interface M3DbTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#create M3Db#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#create M3Db#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#default M3Db#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#default M3Db#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#delete M3Db#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#delete M3Db#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#read M3Db#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#read M3Db#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#update M3Db#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#update M3Db#update}
   */
   readonly update?: string;
 }
@@ -3792,7 +3792,7 @@ export class M3DbTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db aiven_m3db}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db aiven_m3db}
 */
 export class M3Db extends cdktf.TerraformResource {
 
@@ -3808,7 +3808,7 @@ export class M3Db extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a M3Db resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the M3Db to import
-  * @param importFromId The id of the existing M3Db that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing M3Db that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the M3Db to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3820,7 +3820,7 @@ export class M3Db extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/m3db aiven_m3db} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/m3db aiven_m3db} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3831,8 +3831,8 @@ export class M3Db extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_m3db',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

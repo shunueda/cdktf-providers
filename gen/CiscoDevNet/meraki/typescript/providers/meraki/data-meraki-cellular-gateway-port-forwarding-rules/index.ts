@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/cellular_gateway_port_forwarding_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/cellular_gateway_port_forwarding_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiCellularGatewayPortForwardingRulesConfig extends cdkt
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/cellular_gateway_port_forwarding_rules#serial DataMerakiCellularGatewayPortForwardingRules#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/cellular_gateway_port_forwarding_rules#serial DataMerakiCellularGatewayPortForwardingRules#serial}
   */
   readonly serial: string;
 }
@@ -121,7 +121,7 @@ export class DataMerakiCellularGatewayPortForwardingRulesRulesList extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules}
 */
 export class DataMerakiCellularGatewayPortForwardingRules extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataMerakiCellularGatewayPortForwardingRules extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataMerakiCellularGatewayPortForwardingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiCellularGatewayPortForwardingRules to import
-  * @param importFromId The id of the existing DataMerakiCellularGatewayPortForwardingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/cellular_gateway_port_forwarding_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiCellularGatewayPortForwardingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/cellular_gateway_port_forwarding_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiCellularGatewayPortForwardingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataMerakiCellularGatewayPortForwardingRules extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataMerakiCellularGatewayPortForwardingRules extends cdktf.Terrafor
       terraformResourceType: 'meraki_cellular_gateway_port_forwarding_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

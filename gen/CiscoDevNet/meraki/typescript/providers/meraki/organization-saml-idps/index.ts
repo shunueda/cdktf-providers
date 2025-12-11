@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface OrganizationSamlIdpsConfig extends cdktf.TerraformMetaArguments
   /**
   * The list of items
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps#items OrganizationSamlIdps#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps#items OrganizationSamlIdps#items}
   */
   readonly items: OrganizationSamlIdpsItems[] | cdktf.IResolvable;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps#organization_id OrganizationSamlIdps#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps#organization_id OrganizationSamlIdps#organization_id}
   */
   readonly organizationId: string;
 }
@@ -24,13 +24,13 @@ export interface OrganizationSamlIdpsItems {
   /**
   * Dashboard will redirect users to this URL when they sign out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps#slo_logout_url OrganizationSamlIdps#slo_logout_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps#slo_logout_url OrganizationSamlIdps#slo_logout_url}
   */
   readonly sloLogoutUrl?: string;
   /**
   * Fingerprint (SHA1) of the SAML certificate provided by your Identity Provider (IdP). This will be used for encryption / validation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps#x509cert_sha1_fingerprint OrganizationSamlIdps#x509cert_sha1_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps#x509cert_sha1_fingerprint OrganizationSamlIdps#x509cert_sha1_fingerprint}
   */
   readonly x509CertSha1Fingerprint: string;
 }
@@ -177,7 +177,7 @@ export class OrganizationSamlIdpsItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps meraki_organization_saml_idps}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps meraki_organization_saml_idps}
 */
 export class OrganizationSamlIdps extends cdktf.TerraformResource {
 
@@ -193,7 +193,7 @@ export class OrganizationSamlIdps extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationSamlIdps resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationSamlIdps to import
-  * @param importFromId The id of the existing OrganizationSamlIdps that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationSamlIdps that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationSamlIdps to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -205,7 +205,7 @@ export class OrganizationSamlIdps extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_saml_idps meraki_organization_saml_idps} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_saml_idps meraki_organization_saml_idps} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -216,8 +216,8 @@ export class OrganizationSamlIdps extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_saml_idps',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

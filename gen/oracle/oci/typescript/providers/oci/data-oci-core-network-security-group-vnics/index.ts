@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciCoreNetworkSecurityGroupVnicsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#id DataOciCoreNetworkSecurityGroupVnics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#id DataOciCoreNetworkSecurityGroupVnics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#network_security_group_id DataOciCoreNetworkSecurityGroupVnics#network_security_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#network_security_group_id DataOciCoreNetworkSecurityGroupVnics#network_security_group_id}
   */
   readonly networkSecurityGroupId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#filter DataOciCoreNetworkSecurityGroupVnics#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#filter DataOciCoreNetworkSecurityGroupVnics#filter}
   */
   readonly filter?: DataOciCoreNetworkSecurityGroupVnicsFilter[] | cdktf.IResolvable;
 }
@@ -112,15 +112,15 @@ export class DataOciCoreNetworkSecurityGroupVnicsNetworkSecurityGroupVnicsList e
 }
 export interface DataOciCoreNetworkSecurityGroupVnicsFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#name DataOciCoreNetworkSecurityGroupVnics#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#name DataOciCoreNetworkSecurityGroupVnics#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#regex DataOciCoreNetworkSecurityGroupVnics#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#regex DataOciCoreNetworkSecurityGroupVnics#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#values DataOciCoreNetworkSecurityGroupVnics#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#values DataOciCoreNetworkSecurityGroupVnics#values}
   */
   readonly values: string[];
 }
@@ -288,7 +288,7 @@ export class DataOciCoreNetworkSecurityGroupVnicsFilterList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics oci_core_network_security_group_vnics}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics oci_core_network_security_group_vnics}
 */
 export class DataOciCoreNetworkSecurityGroupVnics extends cdktf.TerraformDataSource {
 
@@ -304,7 +304,7 @@ export class DataOciCoreNetworkSecurityGroupVnics extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciCoreNetworkSecurityGroupVnics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciCoreNetworkSecurityGroupVnics to import
-  * @param importFromId The id of the existing DataOciCoreNetworkSecurityGroupVnics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciCoreNetworkSecurityGroupVnics that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciCoreNetworkSecurityGroupVnics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -316,7 +316,7 @@ export class DataOciCoreNetworkSecurityGroupVnics extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/core_network_security_group_vnics oci_core_network_security_group_vnics} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/core_network_security_group_vnics oci_core_network_security_group_vnics} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -327,8 +327,8 @@ export class DataOciCoreNetworkSecurityGroupVnics extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_core_network_security_group_vnics',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

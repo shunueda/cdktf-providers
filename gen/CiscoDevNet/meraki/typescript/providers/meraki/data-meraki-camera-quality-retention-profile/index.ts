@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiCameraQualityRetentionProfileConfig extends cdktf.Ter
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile#id DataMerakiCameraQualityRetentionProfile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile#id DataMerakiCameraQualityRetentionProfile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataMerakiCameraQualityRetentionProfileConfig extends cdktf.Ter
   /**
   * The name of the new profile. Must be unique. This parameter is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile#name DataMerakiCameraQualityRetentionProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile#name DataMerakiCameraQualityRetentionProfile#name}
   */
   readonly name?: string;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile#network_id DataMerakiCameraQualityRetentionProfile#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile#network_id DataMerakiCameraQualityRetentionProfile#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile meraki_camera_quality_retention_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile meraki_camera_quality_retention_profile}
 */
 export class DataMerakiCameraQualityRetentionProfile extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataMerakiCameraQualityRetentionProfile extends cdktf.TerraformData
   * Generates CDKTF code for importing a DataMerakiCameraQualityRetentionProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiCameraQualityRetentionProfile to import
-  * @param importFromId The id of the existing DataMerakiCameraQualityRetentionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiCameraQualityRetentionProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiCameraQualityRetentionProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataMerakiCameraQualityRetentionProfile extends cdktf.TerraformData
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/camera_quality_retention_profile meraki_camera_quality_retention_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/camera_quality_retention_profile meraki_camera_quality_retention_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataMerakiCameraQualityRetentionProfile extends cdktf.TerraformData
       terraformResourceType: 'meraki_camera_quality_retention_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

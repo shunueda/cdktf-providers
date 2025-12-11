@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface GaapLayer4ListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * UDP origin station health check probe port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#check_port GaapLayer4Listener#check_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#check_port GaapLayer4Listener#check_port}
   */
   readonly checkPort?: number;
   /**
   * UDP origin server health type. PORT means check port, and PING means PING.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#check_type GaapLayer4Listener#check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#check_type GaapLayer4Listener#check_type}
   */
   readonly checkType?: string;
   /**
   * The way the listener gets the client IP, 0 for TOA, 1 for Proxy Protocol, default value is 0. NOTES: Only supports listeners of `TCP` protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#client_ip_method GaapLayer4Listener#client_ip_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#client_ip_method GaapLayer4Listener#client_ip_method}
   */
   readonly clientIpMethod?: number;
   /**
   * Timeout of the health check response, should less than interval, default value is 2s. NOTES: Require less than `interval`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#connect_timeout GaapLayer4Listener#connect_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#connect_timeout GaapLayer4Listener#connect_timeout}
   */
   readonly connectTimeout?: number;
   /**
   * UDP source station health check port probe message type: TEXT represents text. Only used when the health check type is PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#context_type GaapLayer4Listener#context_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#context_type GaapLayer4Listener#context_type}
   */
   readonly contextType?: string;
   /**
   * Indicates whether health check is enable, default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#health_check GaapLayer4Listener#health_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#health_check GaapLayer4Listener#health_check}
   */
   readonly healthCheck?: boolean | cdktf.IResolvable;
   /**
   * Health threshold, which indicates how many consecutive inspections are successful, the source station is determined to be healthy. Range from 1 to 10. Default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#healthy_threshold GaapLayer4Listener#healthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#healthy_threshold GaapLayer4Listener#healthy_threshold}
   */
   readonly healthyThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#id GaapLayer4Listener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#id GaapLayer4Listener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,67 +59,67 @@ export interface GaapLayer4ListenerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Interval of the health check, default value is 5s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#interval GaapLayer4Listener#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#interval GaapLayer4Listener#interval}
   */
   readonly interval?: number;
   /**
   * Name of the layer4 listener, the maximum length is 30.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#name GaapLayer4Listener#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#name GaapLayer4Listener#name}
   */
   readonly name: string;
   /**
   * Port of the layer4 listener.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#port GaapLayer4Listener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#port GaapLayer4Listener#port}
   */
   readonly port: number;
   /**
   * Protocol of the layer4 listener. Valid value: `TCP` and `UDP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#protocol GaapLayer4Listener#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#protocol GaapLayer4Listener#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the GAAP proxy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#proxy_id GaapLayer4Listener#proxy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#proxy_id GaapLayer4Listener#proxy_id}
   */
   readonly proxyId: string;
   /**
   * Type of the realserver. Valid value: `IP` and `DOMAIN`. NOTES: when the `protocol` is specified as `TCP` and the `scheduler` is specified as `wrr`, the item can only be set to `IP`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#realserver_type GaapLayer4Listener#realserver_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#realserver_type GaapLayer4Listener#realserver_type}
   */
   readonly realserverType: string;
   /**
   * UDP source server health check port detects received messages. Only used when the health check type is PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#recv_context GaapLayer4Listener#recv_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#recv_context GaapLayer4Listener#recv_context}
   */
   readonly recvContext?: string;
   /**
   * Scheduling policy of the layer4 listener, default value is `rr`. Valid value: `rr`, `wrr` and `lc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#scheduler GaapLayer4Listener#scheduler}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#scheduler GaapLayer4Listener#scheduler}
   */
   readonly scheduler?: string;
   /**
   * UDP source server health check port detection sends messages. Only used when health check type is PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#send_context GaapLayer4Listener#send_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#send_context GaapLayer4Listener#send_context}
   */
   readonly sendContext?: string;
   /**
   * Unhealthy threshold, which indicates how many consecutive check failures the source station is considered unhealthy. Range from 1 to 10. Default value is 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#unhealthy_threshold GaapLayer4Listener#unhealthy_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#unhealthy_threshold GaapLayer4Listener#unhealthy_threshold}
   */
   readonly unhealthyThreshold?: number;
   /**
   * realserver_bind_set block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#realserver_bind_set GaapLayer4Listener#realserver_bind_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#realserver_bind_set GaapLayer4Listener#realserver_bind_set}
   */
   readonly realserverBindSet?: GaapLayer4ListenerRealserverBindSet[] | cdktf.IResolvable;
 }
@@ -127,7 +127,7 @@ export interface GaapLayer4ListenerRealserverBindSet {
   /**
   * ID of the GAAP realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#id GaapLayer4Listener#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#id GaapLayer4Listener#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -136,19 +136,19 @@ export interface GaapLayer4ListenerRealserverBindSet {
   /**
   * IP of the GAAP realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#ip GaapLayer4Listener#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#ip GaapLayer4Listener#ip}
   */
   readonly ip: string;
   /**
   * Port of the GAAP realserver.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#port GaapLayer4Listener#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#port GaapLayer4Listener#port}
   */
   readonly port: number;
   /**
   * Scheduling weight, default value is `1`. The range of values is [1,100].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#weight GaapLayer4Listener#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#weight GaapLayer4Listener#weight}
   */
   readonly weight?: number;
 }
@@ -342,7 +342,7 @@ export class GaapLayer4ListenerRealserverBindSetList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener tencentcloud_gaap_layer4_listener}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener tencentcloud_gaap_layer4_listener}
 */
 export class GaapLayer4Listener extends cdktf.TerraformResource {
 
@@ -358,7 +358,7 @@ export class GaapLayer4Listener extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GaapLayer4Listener resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GaapLayer4Listener to import
-  * @param importFromId The id of the existing GaapLayer4Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GaapLayer4Listener that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GaapLayer4Listener to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -370,7 +370,7 @@ export class GaapLayer4Listener extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/gaap_layer4_listener tencentcloud_gaap_layer4_listener} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/gaap_layer4_listener tencentcloud_gaap_layer4_listener} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -381,8 +381,8 @@ export class GaapLayer4Listener extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_gaap_layer4_listener',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

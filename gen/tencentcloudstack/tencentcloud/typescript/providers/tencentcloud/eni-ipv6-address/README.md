@@ -1,3 +1,3 @@
 # `tencentcloud_eni_ipv6_address`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_eni_ipv6_address`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/eni_ipv6_address).
+Refer to the Terraform Registry for docs: [`tencentcloud_eni_ipv6_address`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/eni_ipv6_address).

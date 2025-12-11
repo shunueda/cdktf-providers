@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster
+// https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PostgresClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Replication mode. Possible values are `async` and `sync`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#ha_replication_mode PostgresCluster#ha_replication_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#ha_replication_mode PostgresCluster#ha_replication_mode}
   */
   readonly haReplicationMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#id PostgresCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#id PostgresCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,65 +23,65 @@ export interface PostgresClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cluster name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#name PostgresCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#name PostgresCluster#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#project_id PostgresCluster#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#project_id PostgresCluster#project_id}
   */
   readonly projectId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#project_name PostgresCluster#project_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#project_name PostgresCluster#project_name}
   */
   readonly projectName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#region_id PostgresCluster#region_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#region_id PostgresCluster#region_id}
   */
   readonly regionId?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#region_name PostgresCluster#region_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#region_name PostgresCluster#region_name}
   */
   readonly regionName?: string;
   /**
   * database block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#database PostgresCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#database PostgresCluster#database}
   */
   readonly database: PostgresClusterDatabase[] | cdktf.IResolvable;
   /**
   * flavor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#flavor PostgresCluster#flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#flavor PostgresCluster#flavor}
   */
   readonly flavor: PostgresClusterFlavor;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#network PostgresCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#network PostgresCluster#network}
   */
   readonly network: PostgresClusterNetwork;
   /**
   * pg_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#pg_config PostgresCluster#pg_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#pg_config PostgresCluster#pg_config}
   */
   readonly pgConfig: PostgresClusterPgConfig;
   /**
   * storage block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#storage PostgresCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#storage PostgresCluster#storage}
   */
   readonly storage: PostgresClusterStorage;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#timeouts PostgresCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#timeouts PostgresCluster#timeouts}
   */
   readonly timeouts?: PostgresClusterTimeouts;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#user PostgresCluster#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#user PostgresCluster#user}
   */
   readonly user: PostgresClusterUser[] | cdktf.IResolvable;
 }
@@ -89,13 +89,13 @@ export interface PostgresClusterDatabase {
   /**
   * Database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#name PostgresCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#name PostgresCluster#name}
   */
   readonly name: string;
   /**
   * Owner of the database. Must be one of the users defined in the `users` block.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#owner PostgresCluster#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#owner PostgresCluster#owner}
   */
   readonly owner: string;
 }
@@ -241,13 +241,13 @@ export interface PostgresClusterFlavor {
   /**
   * Number of CPU cores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#cpu PostgresCluster#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#cpu PostgresCluster#cpu}
   */
   readonly cpu: number;
   /**
   * Amount of RAM in GiB.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#memory PostgresCluster#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#memory PostgresCluster#memory}
   */
   readonly memory: number;
 }
@@ -356,13 +356,13 @@ export interface PostgresClusterNetwork {
   /**
   * List of IP addresses or CIDR blocks allowed to access the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#acl PostgresCluster#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#acl PostgresCluster#acl}
   */
   readonly acl: string[];
   /**
   * Network type. Currently, only `public` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#network_type PostgresCluster#network_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#network_type PostgresCluster#network_type}
   */
   readonly networkType?: string;
 }
@@ -484,25 +484,25 @@ export interface PostgresClusterPgConfig {
   /**
   * PostgreSQL configuration in `key=value` format, one per line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#pg_conf PostgresCluster#pg_conf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#pg_conf PostgresCluster#pg_conf}
   */
   readonly pgConf?: string;
   /**
   * Connection pooler mode. Possible values are `session`, `transaction`, and `statement`. If not set, connection pooler is not enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#pooler_mode PostgresCluster#pooler_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#pooler_mode PostgresCluster#pooler_mode}
   */
   readonly poolerMode?: string;
   /**
   * Connection pooler type. Currently, only `pgbouncer` is supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#pooler_type PostgresCluster#pooler_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#pooler_type PostgresCluster#pooler_type}
   */
   readonly poolerType?: string;
   /**
   * PostgreSQL version. Possible values are `13`, `14`, and `15`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#version PostgresCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#version PostgresCluster#version}
   */
   readonly version: string;
 }
@@ -672,13 +672,13 @@ export interface PostgresClusterStorage {
   /**
   * Storage size in GiB. Must be between 1 and 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#size PostgresCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#size PostgresCluster#size}
   */
   readonly size: number;
   /**
   * Storage type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#type PostgresCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#type PostgresCluster#type}
   */
   readonly type: string;
 }
@@ -785,11 +785,11 @@ export class PostgresClusterStorageOutputReference extends cdktf.ComplexObject {
 }
 export interface PostgresClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#create PostgresCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#create PostgresCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#update PostgresCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#update PostgresCluster#update}
   */
   readonly update?: string;
 }
@@ -914,13 +914,13 @@ export interface PostgresClusterUser {
   /**
   * User name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#name PostgresCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#name PostgresCluster#name}
   */
   readonly name: string;
   /**
   * List of role attributes. Possible values are: BYPASSRLS, CREATEROLE, CREATEDB, INHERIT, LOGIN, NOLOGIN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#role_attributes PostgresCluster#role_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#role_attributes PostgresCluster#role_attributes}
   */
   readonly roleAttributes: string[];
 }
@@ -1064,7 +1064,7 @@ export class PostgresClusterUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster gcore_postgres_cluster}
+* Represents a {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster gcore_postgres_cluster}
 */
 export class PostgresCluster extends cdktf.TerraformResource {
 
@@ -1080,7 +1080,7 @@ export class PostgresCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PostgresCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresCluster to import
-  * @param importFromId The id of the existing PostgresCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1092,7 +1092,7 @@ export class PostgresCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/postgres_cluster gcore_postgres_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/postgres_cluster gcore_postgres_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1103,8 +1103,8 @@ export class PostgresCluster extends cdktf.TerraformResource {
       terraformResourceType: 'gcore_postgres_cluster',
       terraformGeneratorMetadata: {
         providerName: 'gcore',
-        providerVersion: '0.32.4',
-        providerVersionConstraint: '0.32.4'
+        providerVersion: '0.32.5',
+        providerVersionConstraint: '0.32.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

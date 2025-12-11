@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute
+// https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface SearchAttributeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Search Attribute Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute#name SearchAttribute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute#name SearchAttribute#name}
   */
   readonly name: string;
   /**
   * Namespace with which the Search Attribute is associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute#namespace SearchAttribute#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute#namespace SearchAttribute#namespace}
   */
   readonly namespace?: string;
   /**
   * Search Attribute Indexed Value Type, which defines the type of data stored in the attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute#type SearchAttribute#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute#type SearchAttribute#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute temporal_search_attribute}
+* Represents a {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute temporal_search_attribute}
 */
 export class SearchAttribute extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class SearchAttribute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchAttribute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchAttribute to import
-  * @param importFromId The id of the existing SearchAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchAttribute that should be imported. Refer to the {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchAttribute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class SearchAttribute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.14.0/docs/resources/search_attribute temporal_search_attribute} Resource
+  * Create a new {@link https://registry.terraform.io/providers/platacard/temporal/0.15.0/docs/resources/search_attribute temporal_search_attribute} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class SearchAttribute extends cdktf.TerraformResource {
       terraformResourceType: 'temporal_search_attribute',
       terraformGeneratorMetadata: {
         providerName: 'temporal',
-        providerVersion: '0.14.0',
-        providerVersionConstraint: '0.14.0'
+        providerVersion: '0.15.0',
+        providerVersionConstraint: '0.15.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

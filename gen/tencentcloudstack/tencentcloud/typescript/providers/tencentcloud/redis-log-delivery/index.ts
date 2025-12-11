@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface RedisLogDeliveryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether to create an index when creating a log topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#create_index RedisLogDelivery#create_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#create_index RedisLogDelivery#create_index}
   */
   readonly createIndex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#id RedisLogDelivery#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#id RedisLogDelivery#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface RedisLogDeliveryConfig extends cdktf.TerraformMetaArguments {
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#instance_id RedisLogDelivery#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#instance_id RedisLogDelivery#instance_id}
   */
   readonly instanceId: string;
   /**
   * The region where the log set is located; if not specified, the region where the instance is located will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#log_region RedisLogDelivery#log_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#log_region RedisLogDelivery#log_region}
   */
   readonly logRegion?: string;
   /**
   * The ID of the log set being delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#logset_id RedisLogDelivery#logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#logset_id RedisLogDelivery#logset_id}
   */
   readonly logsetId?: string;
   /**
   * Log set name. If LogsetId does not specify a specific log set ID, please configure this parameter to set the log set name, and the system will automatically create a new log set with the specified name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#logset_name RedisLogDelivery#logset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#logset_name RedisLogDelivery#logset_name}
   */
   readonly logsetName?: string;
   /**
   * Log storage time, defaults to 30 days, with an optional range of 1-3600 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#period RedisLogDelivery#period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#period RedisLogDelivery#period}
   */
   readonly period?: number;
   /**
   * The ID of the topic being delivered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#topic_id RedisLogDelivery#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#topic_id RedisLogDelivery#topic_id}
   */
   readonly topicId?: string;
   /**
   * Log topic name, required when TopicId is empty, a new log topic will be automatically created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#topic_name RedisLogDelivery#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#topic_name RedisLogDelivery#topic_name}
   */
   readonly topicName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery tencentcloud_redis_log_delivery}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery tencentcloud_redis_log_delivery}
 */
 export class RedisLogDelivery extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class RedisLogDelivery extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RedisLogDelivery resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RedisLogDelivery to import
-  * @param importFromId The id of the existing RedisLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RedisLogDelivery that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RedisLogDelivery to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class RedisLogDelivery extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/redis_log_delivery tencentcloud_redis_log_delivery} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/redis_log_delivery tencentcloud_redis_log_delivery} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class RedisLogDelivery extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_redis_log_delivery',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_rebalance_readonly_group_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_rebalance_readonly_group_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface PostgresqlRebalanceReadonlyGroupOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_rebalance_readonly_group_operation#id PostgresqlRebalanceReadonlyGroupOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_rebalance_readonly_group_operation#id PostgresqlRebalanceReadonlyGroupOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface PostgresqlRebalanceReadonlyGroupOperationConfig extends cdktf.T
   /**
   * readonly Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_rebalance_readonly_group_operation#read_only_group_id PostgresqlRebalanceReadonlyGroupOperation#read_only_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_rebalance_readonly_group_operation#read_only_group_id PostgresqlRebalanceReadonlyGroupOperation#read_only_group_id}
   */
   readonly readOnlyGroupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_rebalance_readonly_group_operation tencentcloud_postgresql_rebalance_readonly_group_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_rebalance_readonly_group_operation tencentcloud_postgresql_rebalance_readonly_group_operation}
 */
 export class PostgresqlRebalanceReadonlyGroupOperation extends cdktf.TerraformResource {
 
@@ -39,7 +39,7 @@ export class PostgresqlRebalanceReadonlyGroupOperation extends cdktf.TerraformRe
   * Generates CDKTF code for importing a PostgresqlRebalanceReadonlyGroupOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PostgresqlRebalanceReadonlyGroupOperation to import
-  * @param importFromId The id of the existing PostgresqlRebalanceReadonlyGroupOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_rebalance_readonly_group_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PostgresqlRebalanceReadonlyGroupOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_rebalance_readonly_group_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PostgresqlRebalanceReadonlyGroupOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class PostgresqlRebalanceReadonlyGroupOperation extends cdktf.TerraformRe
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/postgresql_rebalance_readonly_group_operation tencentcloud_postgresql_rebalance_readonly_group_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/postgresql_rebalance_readonly_group_operation tencentcloud_postgresql_rebalance_readonly_group_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class PostgresqlRebalanceReadonlyGroupOperation extends cdktf.TerraformRe
       terraformResourceType: 'tencentcloud_postgresql_rebalance_readonly_group_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

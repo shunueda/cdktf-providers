@@ -1,3 +1,3 @@
 # `tencentcloud_dcdb_activate_hour_instance_operation`
 
-Refer to the Terraform Registry for docs: [`tencentcloud_dcdb_activate_hour_instance_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_activate_hour_instance_operation).
+Refer to the Terraform Registry for docs: [`tencentcloud_dcdb_activate_hour_instance_operation`](https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_activate_hour_instance_operation).

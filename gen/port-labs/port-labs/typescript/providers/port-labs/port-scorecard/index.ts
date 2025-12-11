@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard
+// https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface PortScorecardConfig extends cdktf.TerraformMetaArguments {
   /**
   * The blueprint of the scorecard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#blueprint PortScorecard#blueprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#blueprint PortScorecard#blueprint}
   */
   readonly blueprint: string;
   /**
   * The filter to apply on the entities before calculating the scorecard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#filter PortScorecard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#filter PortScorecard#filter}
   */
   readonly filter?: PortScorecardFilter;
   /**
   * The identifier of the scorecard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#identifier PortScorecard#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#identifier PortScorecard#identifier}
   */
   readonly identifier: string;
   /**
   * The levels of the scorecard. This overrides the default levels (Basic, Bronze, Silver, Gold) if provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#levels PortScorecard#levels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#levels PortScorecard#levels}
   */
   readonly levels?: PortScorecardLevels[] | cdktf.IResolvable;
   /**
   * The rules of the scorecard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#rules PortScorecard#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#rules PortScorecard#rules}
   */
   readonly rules: PortScorecardRules[] | cdktf.IResolvable;
   /**
   * The title of the scorecard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#title PortScorecard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#title PortScorecard#title}
   */
   readonly title: string;
 }
@@ -48,13 +48,13 @@ export interface PortScorecardFilter {
   /**
   * The combinator of the filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#combinator PortScorecard#combinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#combinator PortScorecard#combinator}
   */
   readonly combinator: string;
   /**
   * The conditions of the filter. Each condition object should be encoded to a string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#conditions PortScorecard#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#conditions PortScorecard#conditions}
   */
   readonly conditions: string[];
 }
@@ -173,13 +173,13 @@ export interface PortScorecardLevels {
   /**
   * The color of the level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#color PortScorecard#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#color PortScorecard#color}
   */
   readonly color: string;
   /**
   * The title of the level
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#title PortScorecard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#title PortScorecard#title}
   */
   readonly title: string;
 }
@@ -320,13 +320,13 @@ export interface PortScorecardRulesQuery {
   /**
   * The combinator of the query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#combinator PortScorecard#combinator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#combinator PortScorecard#combinator}
   */
   readonly combinator: string;
   /**
   * The conditions of the query. Each condition object should be encoded to a string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#conditions PortScorecard#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#conditions PortScorecard#conditions}
   */
   readonly conditions: string[];
 }
@@ -445,31 +445,31 @@ export interface PortScorecardRules {
   /**
   * The description of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#description PortScorecard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#description PortScorecard#description}
   */
   readonly description?: string;
   /**
   * The identifier of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#identifier PortScorecard#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#identifier PortScorecard#identifier}
   */
   readonly identifier: string;
   /**
   * The level of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#level PortScorecard#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#level PortScorecard#level}
   */
   readonly level: string;
   /**
   * The query of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#query PortScorecard#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#query PortScorecard#query}
   */
   readonly query: PortScorecardRulesQuery;
   /**
   * The title of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#title PortScorecard#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#title PortScorecard#title}
   */
   readonly title: string;
 }
@@ -689,7 +689,7 @@ export class PortScorecardRulesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard port_scorecard}
+* Represents a {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard port_scorecard}
 */
 export class PortScorecard extends cdktf.TerraformResource {
 
@@ -705,7 +705,7 @@ export class PortScorecard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PortScorecard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PortScorecard to import
-  * @param importFromId The id of the existing PortScorecard that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PortScorecard that should be imported. Refer to the {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PortScorecard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -717,7 +717,7 @@ export class PortScorecard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.1/docs/resources/port_scorecard port_scorecard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/port-labs/port-labs/2.17.2/docs/resources/port_scorecard port_scorecard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -728,8 +728,8 @@ export class PortScorecard extends cdktf.TerraformResource {
       terraformResourceType: 'port_scorecard',
       terraformGeneratorMetadata: {
         providerName: 'port-labs',
-        providerVersion: '2.17.1',
-        providerVersionConstraint: '2.17.1'
+        providerVersion: '2.17.2',
+        providerVersionConstraint: '2.17.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

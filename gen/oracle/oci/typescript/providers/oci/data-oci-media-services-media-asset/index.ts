@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_media_asset
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/media_services_media_asset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciMediaServicesMediaAssetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_media_asset#media_asset_id DataOciMediaServicesMediaAsset#media_asset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/media_services_media_asset#media_asset_id DataOciMediaServicesMediaAsset#media_asset_id}
   */
   readonly mediaAssetId: string;
 }
@@ -264,7 +264,7 @@ export class DataOciMediaServicesMediaAssetMetadataList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_media_asset oci_media_services_media_asset}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/media_services_media_asset oci_media_services_media_asset}
 */
 export class DataOciMediaServicesMediaAsset extends cdktf.TerraformDataSource {
 
@@ -280,7 +280,7 @@ export class DataOciMediaServicesMediaAsset extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciMediaServicesMediaAsset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciMediaServicesMediaAsset to import
-  * @param importFromId The id of the existing DataOciMediaServicesMediaAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_media_asset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciMediaServicesMediaAsset that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/media_services_media_asset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciMediaServicesMediaAsset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -292,7 +292,7 @@ export class DataOciMediaServicesMediaAsset extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/media_services_media_asset oci_media_services_media_asset} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/media_services_media_asset oci_media_services_media_asset} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -303,8 +303,8 @@ export class DataOciMediaServicesMediaAsset extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_media_services_media_asset',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

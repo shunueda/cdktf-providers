@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAivenGcpPrivatelinkConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink#id DataAivenGcpPrivatelink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink#id DataAivenGcpPrivatelink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataAivenGcpPrivatelinkConfig extends cdktf.TerraformMetaArgume
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink#project DataAivenGcpPrivatelink#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink#project DataAivenGcpPrivatelink#project}
   */
   readonly project: string;
   /**
   * The name of the service that this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink#service_name DataAivenGcpPrivatelink#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink#service_name DataAivenGcpPrivatelink#service_name}
   */
   readonly serviceName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink aiven_gcp_privatelink}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink aiven_gcp_privatelink}
 */
 export class DataAivenGcpPrivatelink extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataAivenGcpPrivatelink extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAivenGcpPrivatelink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenGcpPrivatelink to import
-  * @param importFromId The id of the existing DataAivenGcpPrivatelink that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenGcpPrivatelink that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenGcpPrivatelink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataAivenGcpPrivatelink extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/gcp_privatelink aiven_gcp_privatelink} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/gcp_privatelink aiven_gcp_privatelink} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataAivenGcpPrivatelink extends cdktf.TerraformDataSource {
       terraformResourceType: 'aiven_gcp_privatelink',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_dns_local_profiles
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_dns_local_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiApplianceDnsLocalProfilesConfig extends cdktf.Terrafo
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_dns_local_profiles#organization_id DataMerakiApplianceDnsLocalProfiles#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_dns_local_profiles#organization_id DataMerakiApplianceDnsLocalProfiles#organization_id}
   */
   readonly organizationId: string;
 }
@@ -96,7 +96,7 @@ export class DataMerakiApplianceDnsLocalProfilesItemsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_dns_local_profiles meraki_appliance_dns_local_profiles}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_dns_local_profiles meraki_appliance_dns_local_profiles}
 */
 export class DataMerakiApplianceDnsLocalProfiles extends cdktf.TerraformDataSource {
 
@@ -112,7 +112,7 @@ export class DataMerakiApplianceDnsLocalProfiles extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataMerakiApplianceDnsLocalProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiApplianceDnsLocalProfiles to import
-  * @param importFromId The id of the existing DataMerakiApplianceDnsLocalProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_dns_local_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiApplianceDnsLocalProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_dns_local_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiApplianceDnsLocalProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class DataMerakiApplianceDnsLocalProfiles extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/appliance_dns_local_profiles meraki_appliance_dns_local_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/appliance_dns_local_profiles meraki_appliance_dns_local_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class DataMerakiApplianceDnsLocalProfiles extends cdktf.TerraformDataSour
       terraformResourceType: 'meraki_appliance_dns_local_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_hotspot_20
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_hotspot_20
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataMerakiWirelessSsidHotspot20Config extends cdktf.TerraformMe
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_hotspot_20#network_id DataMerakiWirelessSsidHotspot20#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_hotspot_20#network_id DataMerakiWirelessSsidHotspot20#network_id}
   */
   readonly networkId: string;
   /**
   * Wireless SSID number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_hotspot_20#number DataMerakiWirelessSsidHotspot20#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_hotspot_20#number DataMerakiWirelessSsidHotspot20#number}
   */
   readonly number: string;
 }
@@ -283,7 +283,7 @@ export class DataMerakiWirelessSsidHotspot20NaiRealmsList extends cdktf.ComplexL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_hotspot_20 meraki_wireless_ssid_hotspot_20}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_hotspot_20 meraki_wireless_ssid_hotspot_20}
 */
 export class DataMerakiWirelessSsidHotspot20 extends cdktf.TerraformDataSource {
 
@@ -299,7 +299,7 @@ export class DataMerakiWirelessSsidHotspot20 extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataMerakiWirelessSsidHotspot20 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessSsidHotspot20 to import
-  * @param importFromId The id of the existing DataMerakiWirelessSsidHotspot20 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_hotspot_20#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessSsidHotspot20 that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_hotspot_20#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessSsidHotspot20 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class DataMerakiWirelessSsidHotspot20 extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ssid_hotspot_20 meraki_wireless_ssid_hotspot_20} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ssid_hotspot_20 meraki_wireless_ssid_hotspot_20} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class DataMerakiWirelessSsidHotspot20 extends cdktf.TerraformDataSource {
       terraformResourceType: 'meraki_wireless_ssid_hotspot_20',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface CellularGatewayLanConfig extends cdktf.TerraformMetaArguments {
   /**
   * list of all fixed IP assignments for a single MG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#fixed_ip_assignments CellularGatewayLan#fixed_ip_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#fixed_ip_assignments CellularGatewayLan#fixed_ip_assignments}
   */
   readonly fixedIpAssignments: CellularGatewayLanFixedIpAssignments[] | cdktf.IResolvable;
   /**
   * list of all reserved IP ranges for a single MG
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#reserved_ip_ranges CellularGatewayLan#reserved_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#reserved_ip_ranges CellularGatewayLan#reserved_ip_ranges}
   */
   readonly reservedIpRanges: CellularGatewayLanReservedIpRanges[] | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#serial CellularGatewayLan#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#serial CellularGatewayLan#serial}
   */
   readonly serial: string;
 }
@@ -30,19 +30,19 @@ export interface CellularGatewayLanFixedIpAssignments {
   /**
   * The IP address you want to assign to a specific server or device
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#ip CellularGatewayLan#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#ip CellularGatewayLan#ip}
   */
   readonly ip: string;
   /**
   * The MAC address of the server or device that hosts the internal resource that you wish to receive the specified IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#mac CellularGatewayLan#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#mac CellularGatewayLan#mac}
   */
   readonly mac: string;
   /**
   * A descriptive name of the assignment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#name CellularGatewayLan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#name CellularGatewayLan#name}
   */
   readonly name?: string;
 }
@@ -212,19 +212,19 @@ export interface CellularGatewayLanReservedIpRanges {
   /**
   * Comment explaining the reserved IP range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#comment CellularGatewayLan#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#comment CellularGatewayLan#comment}
   */
   readonly comment: string;
   /**
   * Ending IP included in the reserved range of IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#end CellularGatewayLan#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#end CellularGatewayLan#end}
   */
   readonly end: string;
   /**
   * Starting IP included in the reserved range of IPs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#start CellularGatewayLan#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#start CellularGatewayLan#start}
   */
   readonly start: string;
 }
@@ -389,7 +389,7 @@ export class CellularGatewayLanReservedIpRangesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan meraki_cellular_gateway_lan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan meraki_cellular_gateway_lan}
 */
 export class CellularGatewayLan extends cdktf.TerraformResource {
 
@@ -405,7 +405,7 @@ export class CellularGatewayLan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CellularGatewayLan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CellularGatewayLan to import
-  * @param importFromId The id of the existing CellularGatewayLan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CellularGatewayLan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CellularGatewayLan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -417,7 +417,7 @@ export class CellularGatewayLan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_lan meraki_cellular_gateway_lan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_lan meraki_cellular_gateway_lan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -428,8 +428,8 @@ export class CellularGatewayLan extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_cellular_gateway_lan',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface MpsWithdrawsWatermarkOperationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#id MpsWithdrawsWatermarkOperation#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#id MpsWithdrawsWatermarkOperation#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface MpsWithdrawsWatermarkOperationConfig extends cdktf.TerraformMet
   /**
   * The source context which is used to pass through the user request information. The task flow status change callback will return the value of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#session_context MpsWithdrawsWatermarkOperation#session_context}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#session_context MpsWithdrawsWatermarkOperation#session_context}
   */
   readonly sessionContext?: string;
   /**
   * input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#input_info MpsWithdrawsWatermarkOperation#input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#input_info MpsWithdrawsWatermarkOperation#input_info}
   */
   readonly inputInfo: MpsWithdrawsWatermarkOperationInputInfo;
   /**
   * task_notify_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#task_notify_config MpsWithdrawsWatermarkOperation#task_notify_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#task_notify_config MpsWithdrawsWatermarkOperation#task_notify_config}
   */
   readonly taskNotifyConfig?: MpsWithdrawsWatermarkOperationTaskNotifyConfig;
 }
@@ -37,19 +37,19 @@ export interface MpsWithdrawsWatermarkOperationInputInfoCosInputInfo {
   /**
   * The COS bucket of the object to process, such as `TopRankVideo-125xxx88`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#bucket MpsWithdrawsWatermarkOperation#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#bucket MpsWithdrawsWatermarkOperation#bucket}
   */
   readonly bucket: string;
   /**
   * The path of the object to process, such as `/movie/201907/WildAnimal.mov`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#object MpsWithdrawsWatermarkOperation#object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#object MpsWithdrawsWatermarkOperation#object}
   */
   readonly object: string;
   /**
   * The region of the COS bucket, such as `ap-chongqing`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#region MpsWithdrawsWatermarkOperation#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#region MpsWithdrawsWatermarkOperation#region}
   */
   readonly region: string;
 }
@@ -184,31 +184,31 @@ export interface MpsWithdrawsWatermarkOperationInputInfoS3InputInfo {
   /**
   * The AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_bucket MpsWithdrawsWatermarkOperation#s3_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_bucket MpsWithdrawsWatermarkOperation#s3_bucket}
   */
   readonly s3Bucket: string;
   /**
   * The path of the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_object MpsWithdrawsWatermarkOperation#s3_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_object MpsWithdrawsWatermarkOperation#s3_object}
   */
   readonly s3Object: string;
   /**
   * The region of the AWS S3 bucket.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_region MpsWithdrawsWatermarkOperation#s3_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_region MpsWithdrawsWatermarkOperation#s3_region}
   */
   readonly s3Region: string;
   /**
   * The key ID required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_secret_id MpsWithdrawsWatermarkOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_secret_id MpsWithdrawsWatermarkOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to access the AWS S3 object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_secret_key MpsWithdrawsWatermarkOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_secret_key MpsWithdrawsWatermarkOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
 }
@@ -401,7 +401,7 @@ export interface MpsWithdrawsWatermarkOperationInputInfoUrlInputInfo {
   /**
   * URL of a video.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#url MpsWithdrawsWatermarkOperation#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#url MpsWithdrawsWatermarkOperation#url}
   */
   readonly url: string;
 }
@@ -484,25 +484,25 @@ export interface MpsWithdrawsWatermarkOperationInputInfo {
   /**
   * The input type. Valid values: `COS`: A COS bucket address.  `URL`: A URL.  `AWS-S3`: An AWS S3 bucket address. Currently, this type is only supported for transcoding tasks..
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#type MpsWithdrawsWatermarkOperation#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#type MpsWithdrawsWatermarkOperation#type}
   */
   readonly type: string;
   /**
   * cos_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#cos_input_info MpsWithdrawsWatermarkOperation#cos_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#cos_input_info MpsWithdrawsWatermarkOperation#cos_input_info}
   */
   readonly cosInputInfo?: MpsWithdrawsWatermarkOperationInputInfoCosInputInfo;
   /**
   * s3_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_input_info MpsWithdrawsWatermarkOperation#s3_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_input_info MpsWithdrawsWatermarkOperation#s3_input_info}
   */
   readonly s3InputInfo?: MpsWithdrawsWatermarkOperationInputInfoS3InputInfo;
   /**
   * url_input_info block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#url_input_info MpsWithdrawsWatermarkOperation#url_input_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#url_input_info MpsWithdrawsWatermarkOperation#url_input_info}
   */
   readonly urlInputInfo?: MpsWithdrawsWatermarkOperationInputInfoUrlInputInfo;
 }
@@ -672,25 +672,25 @@ export interface MpsWithdrawsWatermarkOperationTaskNotifyConfigAwsSqs {
   /**
   * The key ID required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_secret_id MpsWithdrawsWatermarkOperation#s3_secret_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_secret_id MpsWithdrawsWatermarkOperation#s3_secret_id}
   */
   readonly s3SecretId?: string;
   /**
   * The key required to read from/write to the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#s3_secret_key MpsWithdrawsWatermarkOperation#s3_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#s3_secret_key MpsWithdrawsWatermarkOperation#s3_secret_key}
   */
   readonly s3SecretKey?: string;
   /**
   * The name of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#sqs_queue_name MpsWithdrawsWatermarkOperation#sqs_queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#sqs_queue_name MpsWithdrawsWatermarkOperation#sqs_queue_name}
   */
   readonly sqsQueueName: string;
   /**
   * The region of the SQS queue.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#sqs_region MpsWithdrawsWatermarkOperation#sqs_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#sqs_region MpsWithdrawsWatermarkOperation#sqs_region}
   */
   readonly sqsRegion: string;
 }
@@ -857,49 +857,49 @@ export interface MpsWithdrawsWatermarkOperationTaskNotifyConfig {
   /**
   * The CMQ or TDMQ-CMQ model. Valid values: Queue, Topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#cmq_model MpsWithdrawsWatermarkOperation#cmq_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#cmq_model MpsWithdrawsWatermarkOperation#cmq_model}
   */
   readonly cmqModel?: string;
   /**
   * The CMQ or TDMQ-CMQ region, such as `sh` (Shanghai) or `bj` (Beijing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#cmq_region MpsWithdrawsWatermarkOperation#cmq_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#cmq_region MpsWithdrawsWatermarkOperation#cmq_region}
   */
   readonly cmqRegion?: string;
   /**
   * Workflow notification method. Valid values: Finish, Change. If this parameter is left empty, `Finish` will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#notify_mode MpsWithdrawsWatermarkOperation#notify_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#notify_mode MpsWithdrawsWatermarkOperation#notify_mode}
   */
   readonly notifyMode?: string;
   /**
   * The notification type. Valid values:  `CMQ`: This value is no longer used. Please use `TDMQ-CMQ` instead.  `TDMQ-CMQ`: Message queue  `URL`: If `NotifyType` is set to `URL`, HTTP callbacks are sent to the URL specified by `NotifyUrl`. HTTP and JSON are used for the callbacks. The packet contains the response parameters of the `ParseNotification` API.  `SCF`: This notification type is not recommended. You need to configure it in the SCF console.  `AWS-SQS`: AWS queue. This type is only supported for AWS tasks, and the queue must be in the same region as the AWS bucket. Note: If you do not pass this parameter or pass in an empty string, `CMQ` will be used. To use a different notification type, specify this parameter accordingly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#notify_type MpsWithdrawsWatermarkOperation#notify_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#notify_type MpsWithdrawsWatermarkOperation#notify_type}
   */
   readonly notifyType?: string;
   /**
   * HTTP callback URL, required if `NotifyType` is set to `URL`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#notify_url MpsWithdrawsWatermarkOperation#notify_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#notify_url MpsWithdrawsWatermarkOperation#notify_url}
   */
   readonly notifyUrl?: string;
   /**
   * The CMQ or TDMQ-CMQ queue to receive notifications. This parameter is valid when `CmqModel` is `Queue`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#queue_name MpsWithdrawsWatermarkOperation#queue_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#queue_name MpsWithdrawsWatermarkOperation#queue_name}
   */
   readonly queueName?: string;
   /**
   * The CMQ or TDMQ-CMQ topic to receive notifications. This parameter is valid when `CmqModel` is `Topic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#topic_name MpsWithdrawsWatermarkOperation#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#topic_name MpsWithdrawsWatermarkOperation#topic_name}
   */
   readonly topicName?: string;
   /**
   * aws_sqs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#aws_sqs MpsWithdrawsWatermarkOperation#aws_sqs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#aws_sqs MpsWithdrawsWatermarkOperation#aws_sqs}
   */
   readonly awsSqs?: MpsWithdrawsWatermarkOperationTaskNotifyConfigAwsSqs;
 }
@@ -1186,7 +1186,7 @@ export class MpsWithdrawsWatermarkOperationTaskNotifyConfigOutputReference exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation tencentcloud_mps_withdraws_watermark_operation}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation tencentcloud_mps_withdraws_watermark_operation}
 */
 export class MpsWithdrawsWatermarkOperation extends cdktf.TerraformResource {
 
@@ -1202,7 +1202,7 @@ export class MpsWithdrawsWatermarkOperation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MpsWithdrawsWatermarkOperation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MpsWithdrawsWatermarkOperation to import
-  * @param importFromId The id of the existing MpsWithdrawsWatermarkOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MpsWithdrawsWatermarkOperation that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MpsWithdrawsWatermarkOperation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1214,7 +1214,7 @@ export class MpsWithdrawsWatermarkOperation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/mps_withdraws_watermark_operation tencentcloud_mps_withdraws_watermark_operation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/mps_withdraws_watermark_operation tencentcloud_mps_withdraws_watermark_operation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1225,8 +1225,8 @@ export class MpsWithdrawsWatermarkOperation extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_mps_withdraws_watermark_operation',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

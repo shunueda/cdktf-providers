@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DcdbAccountPrivilegesConfig extends cdktf.TerraformMetaArgument
   /**
   * Global permissions. Among them, the optional value of the permission in GlobalPrivileges is: SELECT, INSERT, UPDATE, DELETE, CREATE, PROCESS, DROP, REFERENCES, INDEX, ALTER, SHOW DATABASES,  CREATE TEMPORARY TABLES, LOCK TABLES, EXECUTE, CREATE VIEW, SHOW VIEW, CREATE ROUTINE, ALTER ROUTINE, EVENT, TRIGGER.  Note that if this parameter is not passed, it means that the existing permissions are reserved. If it needs to be cleared, pass an empty array in this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#global_privileges DcdbAccountPrivileges#global_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#global_privileges DcdbAccountPrivileges#global_privileges}
   */
   readonly globalPrivileges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#id DcdbAccountPrivileges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#id DcdbAccountPrivileges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DcdbAccountPrivilegesConfig extends cdktf.TerraformMetaArgument
   /**
   * The ID of instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#instance_id DcdbAccountPrivileges#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#instance_id DcdbAccountPrivileges#instance_id}
   */
   readonly instanceId: string;
   /**
   * account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#account DcdbAccountPrivileges#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#account DcdbAccountPrivileges#account}
   */
   readonly account: DcdbAccountPrivilegesAccount;
   /**
   * column_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#column_privileges DcdbAccountPrivileges#column_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#column_privileges DcdbAccountPrivileges#column_privileges}
   */
   readonly columnPrivileges?: DcdbAccountPrivilegesColumnPrivileges;
   /**
   * database_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#database_privileges DcdbAccountPrivileges#database_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#database_privileges DcdbAccountPrivileges#database_privileges}
   */
   readonly databasePrivileges?: DcdbAccountPrivilegesDatabasePrivileges;
   /**
   * table_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#table_privileges DcdbAccountPrivileges#table_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#table_privileges DcdbAccountPrivileges#table_privileges}
   */
   readonly tablePrivileges?: DcdbAccountPrivilegesTablePrivileges;
   /**
   * view_privileges block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#view_privileges DcdbAccountPrivileges#view_privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#view_privileges DcdbAccountPrivileges#view_privileges}
   */
   readonly viewPrivileges?: DcdbAccountPrivilegesViewPrivileges;
 }
@@ -61,13 +61,13 @@ export interface DcdbAccountPrivilegesAccount {
   /**
   * account host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#host DcdbAccountPrivileges#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#host DcdbAccountPrivileges#host}
   */
   readonly host: string;
   /**
   * account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#user DcdbAccountPrivileges#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#user DcdbAccountPrivileges#user}
   */
   readonly user: string;
 }
@@ -176,25 +176,25 @@ export interface DcdbAccountPrivilegesColumnPrivileges {
   /**
   * Database column name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#column DcdbAccountPrivileges#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#column DcdbAccountPrivileges#column}
   */
   readonly column: string;
   /**
   * The name of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Database table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#table DcdbAccountPrivileges#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#table DcdbAccountPrivileges#table}
   */
   readonly table: string;
 }
@@ -355,13 +355,13 @@ export interface DcdbAccountPrivilegesDatabasePrivileges {
   /**
   * The name of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
 }
@@ -470,19 +470,19 @@ export interface DcdbAccountPrivilegesTablePrivileges {
   /**
   * The name of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Database table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#table DcdbAccountPrivileges#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#table DcdbAccountPrivileges#table}
   */
   readonly table: string;
 }
@@ -617,19 +617,19 @@ export interface DcdbAccountPrivilegesViewPrivileges {
   /**
   * The name of database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#database DcdbAccountPrivileges#database}
   */
   readonly database: string;
   /**
   * Permission information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#privileges DcdbAccountPrivileges#privileges}
   */
   readonly privileges: string[];
   /**
   * Database view name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#view DcdbAccountPrivileges#view}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#view DcdbAccountPrivileges#view}
   */
   readonly view: string;
 }
@@ -762,7 +762,7 @@ export class DcdbAccountPrivilegesViewPrivilegesOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges tencentcloud_dcdb_account_privileges}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges tencentcloud_dcdb_account_privileges}
 */
 export class DcdbAccountPrivileges extends cdktf.TerraformResource {
 
@@ -778,7 +778,7 @@ export class DcdbAccountPrivileges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcdbAccountPrivileges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcdbAccountPrivileges to import
-  * @param importFromId The id of the existing DcdbAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcdbAccountPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcdbAccountPrivileges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -790,7 +790,7 @@ export class DcdbAccountPrivileges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dcdb_account_privileges tencentcloud_dcdb_account_privileges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dcdb_account_privileges tencentcloud_dcdb_account_privileges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -801,8 +801,8 @@ export class DcdbAccountPrivileges extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dcdb_account_privileges',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

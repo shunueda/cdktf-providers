@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OpensearchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Add [disk storage](https://aiven.io/docs/platform/howto/add-storage-space) in increments of 30  GiB to scale your service. The maximum value depends on the service type and cloud provider. Removing additional storage causes the service nodes to go through a rolling restart, and there might be a short downtime for services without an autoscaler integration or high availability capabilities. The field can be safely removed when autoscaler is enabled without causing any changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#additional_disk_space Opensearch#additional_disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#additional_disk_space Opensearch#additional_disk_space}
   */
   readonly additionalDiskSpace?: string;
   /**
   * The cloud provider and region the service is hosted in. The format is `provider-region`, for example: `google-europe-west1`. The [available cloud regions](https://aiven.io/docs/platform/reference/list_of_clouds) can differ per project and service. Changing this value [migrates the service to another cloud provider or region](https://aiven.io/docs/platform/howto/migrate-services-cloud-region). The migration runs in the background and includes a DNS update to redirect traffic to the new region. Most services experience no downtime, but some databases may have a brief interruption during DNS propagation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cloud_name Opensearch#cloud_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cloud_name Opensearch#cloud_name}
   */
   readonly cloudName?: string;
   /**
   * Service disk space. Possible values depend on the service type, the cloud provider and the project. Therefore, reducing will result in the service rebalancing. Please use `additional_disk_space` to specify the space to be added to the default disk space defined by the plan.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#disk_space Opensearch#disk_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#disk_space Opensearch#disk_space}
   */
   readonly diskSpace?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#id Opensearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#id Opensearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface OpensearchConfig extends cdktf.TerraformMetaArguments {
   /**
   * Day of week when maintenance operations should be performed. One monday, tuesday, wednesday, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#maintenance_window_dow Opensearch#maintenance_window_dow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#maintenance_window_dow Opensearch#maintenance_window_dow}
   */
   readonly maintenanceWindowDow?: string;
   /**
   * Time of day when maintenance operations should be performed. UTC time in HH:mm:ss format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#maintenance_window_time Opensearch#maintenance_window_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#maintenance_window_time Opensearch#maintenance_window_time}
   */
   readonly maintenanceWindowTime?: string;
   /**
   * Defines what kind of computing resources are allocated for the service. It can be changed after creation, though there are some restrictions when going to a smaller plan such as the new plan must have sufficient amount of disk space to store all current data and switching to a plan with fewer nodes might not be supported. The basic plan names are `hobbyist`, `startup-x`, `business-x` and `premium-x` where `x` is (roughly) the amount of memory on each node (also other attributes like number of CPUs and amount of disk space varies but naming is based on memory). The available options can be seen from the [Aiven pricing page](https://aiven.io/pricing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#plan Opensearch#plan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#plan Opensearch#plan}
   */
   readonly plan: string;
   /**
   * The name of the project this resource belongs to. To set up proper dependencies please refer to this variable as a reference. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#project Opensearch#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#project Opensearch#project}
   */
   readonly project: string;
   /**
   * Specifies the VPC the service should run in. If the value is not set, the service runs on the Public Internet. When set, the value should be given as a reference to set up dependencies correctly, and the VPC must be in the same cloud and region as the service itself. The service can be freely moved to and from VPC after creation, but doing so triggers migration to new servers, so the operation can take a significant amount of time to complete if the service has a lot of data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#project_vpc_id Opensearch#project_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#project_vpc_id Opensearch#project_vpc_id}
   */
   readonly projectVpcId?: string;
   /**
   * Specifies the actual name of the service. The name cannot be changed later without destroying and re-creating the service so name should be picked based on intended service usage rather than current attributes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#service_name Opensearch#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#service_name Opensearch#service_name}
   */
   readonly serviceName: string;
   /**
   * Static IPs that are going to be associated with this service. Please assign a value using the 'toset' function. Once a static ip resource is in the 'assigned' state it cannot be unbound from the node again
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#static_ips Opensearch#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#static_ips Opensearch#static_ips}
   */
   readonly staticIps?: string[];
   /**
   * Prevents the service from being deleted. It is recommended to set this to `true` for all production services to prevent unintentional service deletion. This does not shield against deleting databases or topics but for services with backups much of the content can at least be restored from backup in case accidental deletion is done.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#termination_protection Opensearch#termination_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#termination_protection Opensearch#termination_protection}
   */
   readonly terminationProtection?: boolean | cdktf.IResolvable;
   /**
   * opensearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch Opensearch#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch Opensearch#opensearch}
   */
   readonly opensearch?: OpensearchOpensearch;
   /**
   * opensearch_user_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_user_config Opensearch#opensearch_user_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_user_config Opensearch#opensearch_user_config}
   */
   readonly opensearchUserConfig?: OpensearchOpensearchUserConfig;
   /**
   * service_integrations block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#service_integrations Opensearch#service_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#service_integrations Opensearch#service_integrations}
   */
   readonly serviceIntegrations?: OpensearchServiceIntegrations[] | cdktf.IResolvable;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#tag Opensearch#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#tag Opensearch#tag}
   */
   readonly tag?: OpensearchTag[] | cdktf.IResolvable;
   /**
   * tech_emails block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#tech_emails Opensearch#tech_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#tech_emails Opensearch#tech_emails}
   */
   readonly techEmails?: OpensearchTechEmails[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#timeouts Opensearch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#timeouts Opensearch#timeouts}
   */
   readonly timeouts?: OpensearchTimeouts;
 }
@@ -236,7 +236,7 @@ export interface OpensearchOpensearch {
   /**
   * OpenSearch server URIs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#uris Opensearch#uris}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#uris Opensearch#uris}
   */
   readonly uris?: string[];
 }
@@ -342,79 +342,79 @@ export interface OpensearchOpensearchUserConfigAzureMigration {
   /**
   * Account name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#account Opensearch#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#account Opensearch#account}
   */
   readonly account: string;
   /**
   * The path to the repository data within its container. The value of this setting should not start or end with a /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#base_path Opensearch#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#base_path Opensearch#base_path}
   */
   readonly basePath: string;
   /**
   * Big files can be broken down into chunks during snapshotting if needed. Should be the same as for the 3rd party repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#chunk_size Opensearch#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#chunk_size Opensearch#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * When set to true metadata files are stored in compressed format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#compress Opensearch#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#compress Opensearch#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Azure container name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#container Opensearch#container}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#container Opensearch#container}
   */
   readonly container: string;
   /**
   * Defines the DNS suffix for Azure Storage endpoints.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#endpoint_suffix Opensearch#endpoint_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#endpoint_suffix Opensearch#endpoint_suffix}
   */
   readonly endpointSuffix?: string;
   /**
   * Whether to restore aliases alongside their associated indexes. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#include_aliases Opensearch#include_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#include_aliases Opensearch#include_aliases}
   */
   readonly includeAliases?: boolean | cdktf.IResolvable;
   /**
   * A comma-delimited list of indices to restore from the snapshot. Multi-index syntax is supported. Example: `metrics*,logs*,data-20240823`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices Opensearch#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices Opensearch#indices}
   */
   readonly indices: string;
   /**
   * Azure account secret key. One of key or sas_token should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#key Opensearch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#key Opensearch#key}
   */
   readonly key?: string;
   /**
   * Whether the repository is read-only. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#readonly Opensearch#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#readonly Opensearch#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * If true, restore the cluster state. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#restore_global_state Opensearch#restore_global_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#restore_global_state Opensearch#restore_global_state}
   */
   readonly restoreGlobalState?: boolean | cdktf.IResolvable;
   /**
   * A shared access signatures (SAS) token. One of key or sas_token should be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#sas_token Opensearch#sas_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#sas_token Opensearch#sas_token}
   */
   readonly sasToken?: string;
   /**
   * The snapshot name to restore from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#snapshot_name Opensearch#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#snapshot_name Opensearch#snapshot_name}
   */
   readonly snapshotName: string;
 }
@@ -833,61 +833,61 @@ export interface OpensearchOpensearchUserConfigGcsMigration {
   /**
   * The path to the repository data within its container. The value of this setting should not start or end with a /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#base_path Opensearch#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#base_path Opensearch#base_path}
   */
   readonly basePath: string;
   /**
   * The path to the repository data within its container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#bucket Opensearch#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#bucket Opensearch#bucket}
   */
   readonly bucket: string;
   /**
   * Big files can be broken down into chunks during snapshotting if needed. Should be the same as for the 3rd party repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#chunk_size Opensearch#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#chunk_size Opensearch#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * When set to true metadata files are stored in compressed format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#compress Opensearch#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#compress Opensearch#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * Google Cloud Storage credentials file content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#credentials Opensearch#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#credentials Opensearch#credentials}
   */
   readonly credentials: string;
   /**
   * Whether to restore aliases alongside their associated indexes. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#include_aliases Opensearch#include_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#include_aliases Opensearch#include_aliases}
   */
   readonly includeAliases?: boolean | cdktf.IResolvable;
   /**
   * A comma-delimited list of indices to restore from the snapshot. Multi-index syntax is supported. Example: `metrics*,logs*,data-20240823`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices Opensearch#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices Opensearch#indices}
   */
   readonly indices: string;
   /**
   * Whether the repository is read-only. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#readonly Opensearch#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#readonly Opensearch#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * If true, restore the cluster state. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#restore_global_state Opensearch#restore_global_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#restore_global_state Opensearch#restore_global_state}
   */
   readonly restoreGlobalState?: boolean | cdktf.IResolvable;
   /**
   * The snapshot name to restore from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#snapshot_name Opensearch#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#snapshot_name Opensearch#snapshot_name}
   */
   readonly snapshotName: string;
 }
@@ -1219,19 +1219,19 @@ export interface OpensearchOpensearchUserConfigIndexPatterns {
   /**
   * Maximum number of indexes to keep. Example: `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_index_count Opensearch#max_index_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_index_count Opensearch#max_index_count}
   */
   readonly maxIndexCount: number;
   /**
   * fnmatch pattern. Example: `logs_*_foo_*`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#pattern Opensearch#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#pattern Opensearch#pattern}
   */
   readonly pattern: string;
   /**
   * Enum: `alphabetical`, `creation_date`. Deletion sorting algorithm. Default: `creation_date`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#sorting_algorithm Opensearch#sorting_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#sorting_algorithm Opensearch#sorting_algorithm}
   */
   readonly sortingAlgorithm?: string;
 }
@@ -1401,31 +1401,31 @@ export interface OpensearchOpensearchUserConfigIndexRollup {
   /**
   * Whether rollups are enabled in OpenSearch Dashboards. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#rollup_dashboards_enabled Opensearch#rollup_dashboards_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#rollup_dashboards_enabled Opensearch#rollup_dashboards_enabled}
   */
   readonly rollupDashboardsEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether the rollup plugin is enabled. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#rollup_enabled Opensearch#rollup_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#rollup_enabled Opensearch#rollup_enabled}
   */
   readonly rollupEnabled?: boolean | cdktf.IResolvable;
   /**
   * How many retries the plugin should attempt for failed rollup jobs. Defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#rollup_search_backoff_count Opensearch#rollup_search_backoff_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#rollup_search_backoff_count Opensearch#rollup_search_backoff_count}
   */
   readonly rollupSearchBackoffCount?: number;
   /**
   * The backoff time between retries for failed rollup jobs. Defaults to 1000ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#rollup_search_backoff_millis Opensearch#rollup_search_backoff_millis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#rollup_search_backoff_millis Opensearch#rollup_search_backoff_millis}
   */
   readonly rollupSearchBackoffMillis?: number;
   /**
   * Whether OpenSearch should return all jobs that match all specified search terms. If disabled, OpenSearch returns just one, as opposed to all, of the jobs that matches the search terms. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#rollup_search_search_all_jobs Opensearch#rollup_search_search_all_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#rollup_search_search_all_jobs Opensearch#rollup_search_search_all_jobs}
   */
   readonly rollupSearchSearchAllJobs?: boolean | cdktf.IResolvable;
 }
@@ -1627,19 +1627,19 @@ export interface OpensearchOpensearchUserConfigIndexTemplate {
   /**
   * The maximum number of nested JSON objects that a single document can contain across all nested types. This limit helps to prevent out of memory errors when a document contains too many nested objects. Default is 10000. Deprecated, use an index template instead. Example: `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#mapping_nested_objects_limit Opensearch#mapping_nested_objects_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#mapping_nested_objects_limit Opensearch#mapping_nested_objects_limit}
   */
   readonly mappingNestedObjectsLimit?: number;
   /**
   * The number of replicas each primary shard has. Deprecated, use an index template instead. Example: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#number_of_replicas Opensearch#number_of_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#number_of_replicas Opensearch#number_of_replicas}
   */
   readonly numberOfReplicas?: number;
   /**
   * The number of primary shards that an index should have. Deprecated, use an index template instead. Example: `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#number_of_shards Opensearch#number_of_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#number_of_shards Opensearch#number_of_shards}
   */
   readonly numberOfShards?: number;
 }
@@ -1783,13 +1783,13 @@ export interface OpensearchOpensearchUserConfigIpFilterObject {
   /**
   * Description for IP filter list entry. Example: `Production service IP range`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#description Opensearch#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#description Opensearch#description}
   */
   readonly description?: string;
   /**
   * CIDR address block. Example: `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#network Opensearch#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#network Opensearch#network}
   */
   readonly network: string;
 }
@@ -1929,77 +1929,439 @@ export class OpensearchOpensearchUserConfigIpFilterObjectList extends cdktf.Comp
     return new OpensearchOpensearchUserConfigIpFilterObjectOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
   }
 }
+export interface OpensearchOpensearchUserConfigJwt {
+  /**
+  * Enables or disables JWT-based authentication for OpenSearch. When enabled, users can authenticate using JWT tokens. Default: `false`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
+  */
+  readonly enabled: boolean | cdktf.IResolvable;
+  /**
+  * The maximum allowed time difference in seconds between the JWT issuer's clock and the OpenSearch server's clock. This helps prevent token validation failures due to minor time synchronization issues. Default: `20`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#jwt_clock_skew_tolerance_seconds Opensearch#jwt_clock_skew_tolerance_seconds}
+  */
+  readonly jwtClockSkewToleranceSeconds?: number;
+  /**
+  * The HTTP header name where the JWT token is transmitted. Typically `Authorization` for Bearer tokens. Default: `Authorization`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#jwt_header Opensearch#jwt_header}
+  */
+  readonly jwtHeader?: string;
+  /**
+  * If the JWT token is transmitted as a URL parameter instead of an HTTP header, specify the parameter name here. Example: `token`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#jwt_url_parameter Opensearch#jwt_url_parameter}
+  */
+  readonly jwtUrlParameter?: string;
+  /**
+  * If specified, the JWT must contain an `aud` claim that matches this value. This provides additional security by ensuring the JWT was issued for the expected audience. Example: `https://myapp.example.com`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#required_audience Opensearch#required_audience}
+  */
+  readonly requiredAudience?: string;
+  /**
+  * If specified, the JWT must contain an `iss` claim that matches this value. This provides additional security by ensuring the JWT was issued by the expected issuer. Example: `https://auth.example.com`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#required_issuer Opensearch#required_issuer}
+  */
+  readonly requiredIssuer?: string;
+  /**
+  * The key in the JWT payload that contains the user's roles. If specified, roles will be extracted from the JWT for authorization. Example: `roles`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#roles_key Opensearch#roles_key}
+  */
+  readonly rolesKey?: string;
+  /**
+  * The secret key used to sign and verify JWT tokens. This should be a secure, randomly generated key HMAC key or public RSA/ECDSA key. Example: `MrJiimVjKgjRKCSk0s6rcEuCz17v5ZyFRqKARfZbuZE= (HMAC) or -----BEGIN PUBLIC KEY-----
+  * MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA...
+  * -----END PUBLIC KEY----- (PEM)`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#signing_key Opensearch#signing_key}
+  */
+  readonly signingKey: string;
+  /**
+  * The key in the JWT payload that contains the user's subject identifier. If not specified, the `sub` claim is used by default. Example: `sub`.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#subject_key Opensearch#subject_key}
+  */
+  readonly subjectKey?: string;
+}
+
+export function opensearchOpensearchUserConfigJwtToTerraform(struct?: OpensearchOpensearchUserConfigJwtOutputReference | OpensearchOpensearchUserConfigJwt): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    enabled: cdktf.booleanToTerraform(struct!.enabled),
+    jwt_clock_skew_tolerance_seconds: cdktf.numberToTerraform(struct!.jwtClockSkewToleranceSeconds),
+    jwt_header: cdktf.stringToTerraform(struct!.jwtHeader),
+    jwt_url_parameter: cdktf.stringToTerraform(struct!.jwtUrlParameter),
+    required_audience: cdktf.stringToTerraform(struct!.requiredAudience),
+    required_issuer: cdktf.stringToTerraform(struct!.requiredIssuer),
+    roles_key: cdktf.stringToTerraform(struct!.rolesKey),
+    signing_key: cdktf.stringToTerraform(struct!.signingKey),
+    subject_key: cdktf.stringToTerraform(struct!.subjectKey),
+  }
+}
+
+
+export function opensearchOpensearchUserConfigJwtToHclTerraform(struct?: OpensearchOpensearchUserConfigJwtOutputReference | OpensearchOpensearchUserConfigJwt): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.enabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    jwt_clock_skew_tolerance_seconds: {
+      value: cdktf.numberToHclTerraform(struct!.jwtClockSkewToleranceSeconds),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    jwt_header: {
+      value: cdktf.stringToHclTerraform(struct!.jwtHeader),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    jwt_url_parameter: {
+      value: cdktf.stringToHclTerraform(struct!.jwtUrlParameter),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required_audience: {
+      value: cdktf.stringToHclTerraform(struct!.requiredAudience),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    required_issuer: {
+      value: cdktf.stringToHclTerraform(struct!.requiredIssuer),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    roles_key: {
+      value: cdktf.stringToHclTerraform(struct!.rolesKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    signing_key: {
+      value: cdktf.stringToHclTerraform(struct!.signingKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    subject_key: {
+      value: cdktf.stringToHclTerraform(struct!.subjectKey),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class OpensearchOpensearchUserConfigJwtOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): OpensearchOpensearchUserConfigJwt | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._enabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.enabled = this._enabled;
+    }
+    if (this._jwtClockSkewToleranceSeconds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwtClockSkewToleranceSeconds = this._jwtClockSkewToleranceSeconds;
+    }
+    if (this._jwtHeader !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwtHeader = this._jwtHeader;
+    }
+    if (this._jwtUrlParameter !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwtUrlParameter = this._jwtUrlParameter;
+    }
+    if (this._requiredAudience !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requiredAudience = this._requiredAudience;
+    }
+    if (this._requiredIssuer !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requiredIssuer = this._requiredIssuer;
+    }
+    if (this._rolesKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.rolesKey = this._rolesKey;
+    }
+    if (this._signingKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.signingKey = this._signingKey;
+    }
+    if (this._subjectKey !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.subjectKey = this._subjectKey;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: OpensearchOpensearchUserConfigJwt | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._enabled = undefined;
+      this._jwtClockSkewToleranceSeconds = undefined;
+      this._jwtHeader = undefined;
+      this._jwtUrlParameter = undefined;
+      this._requiredAudience = undefined;
+      this._requiredIssuer = undefined;
+      this._rolesKey = undefined;
+      this._signingKey = undefined;
+      this._subjectKey = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._enabled = value.enabled;
+      this._jwtClockSkewToleranceSeconds = value.jwtClockSkewToleranceSeconds;
+      this._jwtHeader = value.jwtHeader;
+      this._jwtUrlParameter = value.jwtUrlParameter;
+      this._requiredAudience = value.requiredAudience;
+      this._requiredIssuer = value.requiredIssuer;
+      this._rolesKey = value.rolesKey;
+      this._signingKey = value.signingKey;
+      this._subjectKey = value.subjectKey;
+    }
+  }
+
+  // enabled - computed: false, optional: false, required: true
+  private _enabled?: boolean | cdktf.IResolvable; 
+  public get enabled() {
+    return this.getBooleanAttribute('enabled');
+  }
+  public set enabled(value: boolean | cdktf.IResolvable) {
+    this._enabled = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enabledInput() {
+    return this._enabled;
+  }
+
+  // jwt_clock_skew_tolerance_seconds - computed: false, optional: true, required: false
+  private _jwtClockSkewToleranceSeconds?: number; 
+  public get jwtClockSkewToleranceSeconds() {
+    return this.getNumberAttribute('jwt_clock_skew_tolerance_seconds');
+  }
+  public set jwtClockSkewToleranceSeconds(value: number) {
+    this._jwtClockSkewToleranceSeconds = value;
+  }
+  public resetJwtClockSkewToleranceSeconds() {
+    this._jwtClockSkewToleranceSeconds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtClockSkewToleranceSecondsInput() {
+    return this._jwtClockSkewToleranceSeconds;
+  }
+
+  // jwt_header - computed: false, optional: true, required: false
+  private _jwtHeader?: string; 
+  public get jwtHeader() {
+    return this.getStringAttribute('jwt_header');
+  }
+  public set jwtHeader(value: string) {
+    this._jwtHeader = value;
+  }
+  public resetJwtHeader() {
+    this._jwtHeader = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtHeaderInput() {
+    return this._jwtHeader;
+  }
+
+  // jwt_url_parameter - computed: false, optional: true, required: false
+  private _jwtUrlParameter?: string; 
+  public get jwtUrlParameter() {
+    return this.getStringAttribute('jwt_url_parameter');
+  }
+  public set jwtUrlParameter(value: string) {
+    this._jwtUrlParameter = value;
+  }
+  public resetJwtUrlParameter() {
+    this._jwtUrlParameter = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtUrlParameterInput() {
+    return this._jwtUrlParameter;
+  }
+
+  // required_audience - computed: false, optional: true, required: false
+  private _requiredAudience?: string; 
+  public get requiredAudience() {
+    return this.getStringAttribute('required_audience');
+  }
+  public set requiredAudience(value: string) {
+    this._requiredAudience = value;
+  }
+  public resetRequiredAudience() {
+    this._requiredAudience = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredAudienceInput() {
+    return this._requiredAudience;
+  }
+
+  // required_issuer - computed: false, optional: true, required: false
+  private _requiredIssuer?: string; 
+  public get requiredIssuer() {
+    return this.getStringAttribute('required_issuer');
+  }
+  public set requiredIssuer(value: string) {
+    this._requiredIssuer = value;
+  }
+  public resetRequiredIssuer() {
+    this._requiredIssuer = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requiredIssuerInput() {
+    return this._requiredIssuer;
+  }
+
+  // roles_key - computed: false, optional: true, required: false
+  private _rolesKey?: string; 
+  public get rolesKey() {
+    return this.getStringAttribute('roles_key');
+  }
+  public set rolesKey(value: string) {
+    this._rolesKey = value;
+  }
+  public resetRolesKey() {
+    this._rolesKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get rolesKeyInput() {
+    return this._rolesKey;
+  }
+
+  // signing_key - computed: false, optional: false, required: true
+  private _signingKey?: string; 
+  public get signingKey() {
+    return this.getStringAttribute('signing_key');
+  }
+  public set signingKey(value: string) {
+    this._signingKey = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get signingKeyInput() {
+    return this._signingKey;
+  }
+
+  // subject_key - computed: false, optional: true, required: false
+  private _subjectKey?: string; 
+  public get subjectKey() {
+    return this.getStringAttribute('subject_key');
+  }
+  public set subjectKey(value: string) {
+    this._subjectKey = value;
+  }
+  public resetSubjectKey() {
+    this._subjectKey = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get subjectKeyInput() {
+    return this._subjectKey;
+  }
+}
 export interface OpensearchOpensearchUserConfigOpenid {
   /**
   * The ID of the OpenID Connect client configured in your IdP. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#client_id Opensearch#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#client_id Opensearch#client_id}
   */
   readonly clientId: string;
   /**
   * The client secret of the OpenID Connect client configured in your IdP. Required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#client_secret Opensearch#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#client_secret Opensearch#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The URL of your IdP where the Security plugin can find the OpenID Connect metadata/configuration settings. Example: `https://test-account.okta.com/app/exk491jujcVc83LEX697/sso/saml/metadata`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#connect_url Opensearch#connect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#connect_url Opensearch#connect_url}
   */
   readonly connectUrl: string;
   /**
   * Enables or disables OpenID Connect authentication for OpenSearch. When enabled, users can authenticate using OpenID Connect with an Identity Provider. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * HTTP header name of the JWT token. Optional. Default is Authorization. Default: `Authorization`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#header Opensearch#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#header Opensearch#header}
   */
   readonly header?: string;
   /**
   * The HTTP header that stores the token. Typically the Authorization header with the Bearer schema: Authorization: Bearer <token>. Optional. Default is Authorization. Example: `preferred_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#jwt_header Opensearch#jwt_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#jwt_header Opensearch#jwt_header}
   */
   readonly jwtHeader?: string;
   /**
   * If the token is not transmitted in the HTTP header, but as an URL parameter, define the name of the parameter here. Optional. Example: `preferred_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#jwt_url_parameter Opensearch#jwt_url_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#jwt_url_parameter Opensearch#jwt_url_parameter}
   */
   readonly jwtUrlParameter?: string;
   /**
   * The maximum number of unknown key IDs in the time frame. Default is 10. Optional. Default: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#refresh_rate_limit_count Opensearch#refresh_rate_limit_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#refresh_rate_limit_count Opensearch#refresh_rate_limit_count}
   */
   readonly refreshRateLimitCount?: number;
   /**
   * The time frame to use when checking the maximum number of unknown key IDs, in milliseconds. Optional.Default is 10000 (10 seconds). Default: `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#refresh_rate_limit_time_window_ms Opensearch#refresh_rate_limit_time_window_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#refresh_rate_limit_time_window_ms Opensearch#refresh_rate_limit_time_window_ms}
   */
   readonly refreshRateLimitTimeWindowMs?: number;
   /**
   * The key in the JSON payload that stores the user’s roles. The value of this key must be a comma-separated list of roles. Required only if you want to use roles in the JWT. Example: `roles`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#roles_key Opensearch#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#roles_key Opensearch#roles_key}
   */
   readonly rolesKey?: string;
   /**
   * The scope of the identity token issued by the IdP. Optional. Default is openid profile email address phone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#scope Opensearch#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#scope Opensearch#scope}
   */
   readonly scope?: string;
   /**
   * The key in the JSON payload that stores the user’s name. If not defined, the subject registered claim is used. Most IdP providers use the preferred_username claim. Optional. Example: `preferred_username`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#subject_key Opensearch#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#subject_key Opensearch#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -2392,43 +2754,43 @@ export interface OpensearchOpensearchUserConfigOpensearchAuthFailureListenersInt
   /**
   * The number of login attempts allowed before login is blocked. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#allowed_tries Opensearch#allowed_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#allowed_tries Opensearch#allowed_tries}
   */
   readonly allowedTries?: number;
   /**
   * Enum: `internal`. internal_authentication_backend_limiting.authentication_backend.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#authentication_backend Opensearch#authentication_backend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#authentication_backend Opensearch#authentication_backend}
   */
   readonly authenticationBackend?: string;
   /**
   * The duration of time that login remains blocked after a failed login. Example: `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#block_expiry_seconds Opensearch#block_expiry_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#block_expiry_seconds Opensearch#block_expiry_seconds}
   */
   readonly blockExpirySeconds?: number;
   /**
   * internal_authentication_backend_limiting.max_blocked_clients. Example: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_blocked_clients Opensearch#max_blocked_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_blocked_clients Opensearch#max_blocked_clients}
   */
   readonly maxBlockedClients?: number;
   /**
   * The maximum number of tracked IP addresses that have failed login. Example: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_tracked_clients Opensearch#max_tracked_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_tracked_clients Opensearch#max_tracked_clients}
   */
   readonly maxTrackedClients?: number;
   /**
   * The window of time in which the value for `allowed_tries` is enforced. Example: `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#time_window_seconds Opensearch#time_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#time_window_seconds Opensearch#time_window_seconds}
   */
   readonly timeWindowSeconds?: number;
   /**
   * Enum: `username`. internal_authentication_backend_limiting.type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#type Opensearch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#type Opensearch#type}
   */
   readonly type?: string;
 }
@@ -2688,37 +3050,37 @@ export interface OpensearchOpensearchUserConfigOpensearchAuthFailureListenersIpR
   /**
   * The number of login attempts allowed before login is blocked. Example: `10`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#allowed_tries Opensearch#allowed_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#allowed_tries Opensearch#allowed_tries}
   */
   readonly allowedTries?: number;
   /**
   * The duration of time that login remains blocked after a failed login. Example: `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#block_expiry_seconds Opensearch#block_expiry_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#block_expiry_seconds Opensearch#block_expiry_seconds}
   */
   readonly blockExpirySeconds?: number;
   /**
   * The maximum number of blocked IP addresses. Example: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_blocked_clients Opensearch#max_blocked_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_blocked_clients Opensearch#max_blocked_clients}
   */
   readonly maxBlockedClients?: number;
   /**
   * The maximum number of tracked IP addresses that have failed login. Example: `100000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_tracked_clients Opensearch#max_tracked_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_tracked_clients Opensearch#max_tracked_clients}
   */
   readonly maxTrackedClients?: number;
   /**
   * The window of time in which the value for `allowed_tries` is enforced. Example: `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#time_window_seconds Opensearch#time_window_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#time_window_seconds Opensearch#time_window_seconds}
   */
   readonly timeWindowSeconds?: number;
   /**
   * Enum: `ip`. The type of rate limiting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#type Opensearch#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#type Opensearch#type}
   */
   readonly type?: string;
 }
@@ -2949,13 +3311,13 @@ export interface OpensearchOpensearchUserConfigOpensearchAuthFailureListeners {
   /**
   * internal_authentication_backend_limiting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#internal_authentication_backend_limiting Opensearch#internal_authentication_backend_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#internal_authentication_backend_limiting Opensearch#internal_authentication_backend_limiting}
   */
   readonly internalAuthenticationBackendLimiting?: OpensearchOpensearchUserConfigOpensearchAuthFailureListenersInternalAuthenticationBackendLimiting;
   /**
   * ip_rate_limiting block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ip_rate_limiting Opensearch#ip_rate_limiting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ip_rate_limiting Opensearch#ip_rate_limiting}
   */
   readonly ipRateLimiting?: OpensearchOpensearchUserConfigOpensearchAuthFailureListenersIpRateLimiting;
 }
@@ -3070,25 +3432,25 @@ export interface OpensearchOpensearchUserConfigOpensearchClusterRemoteStore {
   /**
   * The amount of time to wait for the cluster state upload to complete. Defaults to 20s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#state_global_metadata_upload_timeout Opensearch#state_global_metadata_upload_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#state_global_metadata_upload_timeout Opensearch#state_global_metadata_upload_timeout}
   */
   readonly stateGlobalMetadataUploadTimeout?: string;
   /**
   * The amount of time to wait for the manifest file upload to complete. The manifest file contains the details of each of the files uploaded for a single cluster state, both index metadata files and global metadata files. Defaults to 20s.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#state_metadata_manifest_upload_timeout Opensearch#state_metadata_manifest_upload_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#state_metadata_manifest_upload_timeout Opensearch#state_metadata_manifest_upload_timeout}
   */
   readonly stateMetadataManifestUploadTimeout?: string;
   /**
   * The default value of the translog buffer interval used when performing periodic translog updates. This setting is only effective when the index setting `index.remote_store.translog.buffer_interval` is not present. Defaults to 650ms.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#translog_buffer_interval Opensearch#translog_buffer_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#translog_buffer_interval Opensearch#translog_buffer_interval}
   */
   readonly translogBufferInterval?: string;
   /**
   * Sets the maximum number of open translog files for remote-backed indexes. This limits the total number of translog files per shard. After reaching this limit, the remote store flushes the translog files. Default is 1000. The minimum required is 100. Example: `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#translog_max_readers Opensearch#translog_max_readers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#translog_max_readers Opensearch#translog_max_readers}
   */
   readonly translogMaxReaders?: number;
 }
@@ -3261,25 +3623,25 @@ export interface OpensearchOpensearchUserConfigOpensearchClusterSearchRequestSlo
   /**
   * Debug threshold for total request took time. The value should be in the form count and unit, where unit one of (s,m,h,d,nanos,ms,micros) or -1. Default is -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#debug Opensearch#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#debug Opensearch#debug}
   */
   readonly debug?: string;
   /**
   * Info threshold for total request took time. The value should be in the form count and unit, where unit one of (s,m,h,d,nanos,ms,micros) or -1. Default is -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#info Opensearch#info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#info Opensearch#info}
   */
   readonly info?: string;
   /**
   * Trace threshold for total request took time. The value should be in the form count and unit, where unit one of (s,m,h,d,nanos,ms,micros) or -1. Default is -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#trace Opensearch#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#trace Opensearch#trace}
   */
   readonly trace?: string;
   /**
   * Warning threshold for total request took time. The value should be in the form count and unit, where unit one of (s,m,h,d,nanos,ms,micros) or -1. Default is -1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#warn Opensearch#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#warn Opensearch#warn}
   */
   readonly warn?: string;
 }
@@ -3452,13 +3814,13 @@ export interface OpensearchOpensearchUserConfigOpensearchClusterSearchRequestSlo
   /**
   * Enum: `debug`, `info`, `trace`, `warn`. Log level. Default: `trace`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#level Opensearch#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#level Opensearch#level}
   */
   readonly level?: string;
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#threshold Opensearch#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#threshold Opensearch#threshold}
   */
   readonly threshold?: OpensearchOpensearchUserConfigOpensearchClusterSearchRequestSlowlogThreshold;
 }
@@ -3573,19 +3935,19 @@ export interface OpensearchOpensearchUserConfigOpensearchDiskWatermarks {
   /**
   * The flood stage watermark for disk usage. Example: `95`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#flood_stage Opensearch#flood_stage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#flood_stage Opensearch#flood_stage}
   */
   readonly floodStage: number;
   /**
   * The high watermark for disk usage. Example: `90`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#high Opensearch#high}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#high Opensearch#high}
   */
   readonly high: number;
   /**
   * The low watermark for disk usage. Example: `85`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#low Opensearch#low}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#low Opensearch#low}
   */
   readonly low: number;
 }
@@ -3720,25 +4082,25 @@ export interface OpensearchOpensearchUserConfigOpensearchRemoteStore {
   /**
   * The variance factor that is used together with the moving average to calculate the dynamic bytes lag threshold for activating remote segment backpressure. Defaults to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#segment_pressure_bytes_lag_variance_factor Opensearch#segment_pressure_bytes_lag_variance_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#segment_pressure_bytes_lag_variance_factor Opensearch#segment_pressure_bytes_lag_variance_factor}
   */
   readonly segmentPressureBytesLagVarianceFactor?: number;
   /**
   * The minimum consecutive failure count for activating remote segment backpressure. Defaults to 5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#segment_pressure_consecutive_failures_limit Opensearch#segment_pressure_consecutive_failures_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#segment_pressure_consecutive_failures_limit Opensearch#segment_pressure_consecutive_failures_limit}
   */
   readonly segmentPressureConsecutiveFailuresLimit?: number;
   /**
   * Enables remote segment backpressure. Default is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#segment_pressure_enabled Opensearch#segment_pressure_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#segment_pressure_enabled Opensearch#segment_pressure_enabled}
   */
   readonly segmentPressureEnabled?: boolean | cdktf.IResolvable;
   /**
   * The variance factor that is used together with the moving average to calculate the dynamic time lag threshold for activating remote segment backpressure. Defaults to 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#segment_pressure_time_lag_variance_factor Opensearch#segment_pressure_time_lag_variance_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#segment_pressure_time_lag_variance_factor Opensearch#segment_pressure_time_lag_variance_factor}
   */
   readonly segmentPressureTimeLagVarianceFactor?: number;
 }
@@ -3911,19 +4273,19 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchBackpressureNodeD
   /**
   * The CPU usage threshold (as a percentage) required for a node to be considered to be under duress. Default is 0.9.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cpu_threshold Opensearch#cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cpu_threshold Opensearch#cpu_threshold}
   */
   readonly cpuThreshold?: number;
   /**
   * The heap usage threshold (as a percentage) required for a node to be considered to be under duress. Default is 0.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_threshold Opensearch#heap_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_threshold Opensearch#heap_threshold}
   */
   readonly heapThreshold?: number;
   /**
   * The number of successive limit breaches after which the node is considered to be under duress. Default is 3.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#num_successive_breaches Opensearch#num_successive_breaches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#num_successive_breaches Opensearch#num_successive_breaches}
   */
   readonly numSuccessiveBreaches?: number;
 }
@@ -4067,55 +4429,55 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchBackpressureSearc
   /**
   * The maximum number of search tasks to cancel in a single iteration of the observer thread. Default is 10.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cancellation_burst Opensearch#cancellation_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cancellation_burst Opensearch#cancellation_burst}
   */
   readonly cancellationBurst?: number;
   /**
   * The maximum number of tasks to cancel per millisecond of elapsed time. Default is 0.003.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cancellation_rate Opensearch#cancellation_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cancellation_rate Opensearch#cancellation_rate}
   */
   readonly cancellationRate?: number;
   /**
   * The maximum number of tasks to cancel, as a percentage of successful task completions. Default is 0.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cancellation_ratio Opensearch#cancellation_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cancellation_ratio Opensearch#cancellation_ratio}
   */
   readonly cancellationRatio?: number;
   /**
   * The CPU usage threshold (in milliseconds) required for a single search shard task before it is considered for cancellation. Default is 15000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cpu_time_millis_threshold Opensearch#cpu_time_millis_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cpu_time_millis_threshold Opensearch#cpu_time_millis_threshold}
   */
   readonly cpuTimeMillisThreshold?: number;
   /**
   * The elapsed time threshold (in milliseconds) required for a single search shard task before it is considered for cancellation. Default is 30000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#elapsed_time_millis_threshold Opensearch#elapsed_time_millis_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#elapsed_time_millis_threshold Opensearch#elapsed_time_millis_threshold}
   */
   readonly elapsedTimeMillisThreshold?: number;
   /**
   * The number of previously completed search shard tasks to consider when calculating the rolling average of heap usage. Default is 100.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_moving_average_window_size Opensearch#heap_moving_average_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_moving_average_window_size Opensearch#heap_moving_average_window_size}
   */
   readonly heapMovingAverageWindowSize?: number;
   /**
   * The heap usage threshold (as a percentage) required for a single search shard task before it is considered for cancellation. Default is 0.5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_percent_threshold Opensearch#heap_percent_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_percent_threshold Opensearch#heap_percent_threshold}
   */
   readonly heapPercentThreshold?: number;
   /**
   * The minimum variance required for a single search shard task’s heap usage compared to the rolling average of previously completed tasks before it is considered for cancellation. Default is 2.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_variance Opensearch#heap_variance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_variance Opensearch#heap_variance}
   */
   readonly heapVariance?: number;
   /**
   * The heap usage threshold (as a percentage) required for the sum of heap usages of all search shard tasks before cancellation is applied. Default is 0.5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#total_heap_percent_threshold Opensearch#total_heap_percent_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#total_heap_percent_threshold Opensearch#total_heap_percent_threshold}
   */
   readonly totalHeapPercentThreshold?: number;
 }
@@ -4433,55 +4795,55 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchBackpressureSearc
   /**
   * The maximum number of search tasks to cancel in a single iteration of the observer thread. Default is 5.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cancellation_burst Opensearch#cancellation_burst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cancellation_burst Opensearch#cancellation_burst}
   */
   readonly cancellationBurst?: number;
   /**
   * The maximum number of search tasks to cancel per millisecond of elapsed time. Default is 0.003.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cancellation_rate Opensearch#cancellation_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cancellation_rate Opensearch#cancellation_rate}
   */
   readonly cancellationRate?: number;
   /**
   * The maximum number of search tasks to cancel, as a percentage of successful search task completions. Default is 0.1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cancellation_ratio Opensearch#cancellation_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cancellation_ratio Opensearch#cancellation_ratio}
   */
   readonly cancellationRatio?: number;
   /**
   * The CPU usage threshold (in milliseconds) required for an individual parent task before it is considered for cancellation. Default is 30000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cpu_time_millis_threshold Opensearch#cpu_time_millis_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cpu_time_millis_threshold Opensearch#cpu_time_millis_threshold}
   */
   readonly cpuTimeMillisThreshold?: number;
   /**
   * The elapsed time threshold (in milliseconds) required for an individual parent task before it is considered for cancellation. Default is 45000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#elapsed_time_millis_threshold Opensearch#elapsed_time_millis_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#elapsed_time_millis_threshold Opensearch#elapsed_time_millis_threshold}
   */
   readonly elapsedTimeMillisThreshold?: number;
   /**
   * The window size used to calculate the rolling average of the heap usage for the completed parent tasks. Default is 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_moving_average_window_size Opensearch#heap_moving_average_window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_moving_average_window_size Opensearch#heap_moving_average_window_size}
   */
   readonly heapMovingAverageWindowSize?: number;
   /**
   * The heap usage threshold (as a percentage) required for an individual parent task before it is considered for cancellation. Default is 0.2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_percent_threshold Opensearch#heap_percent_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_percent_threshold Opensearch#heap_percent_threshold}
   */
   readonly heapPercentThreshold?: number;
   /**
   * The heap usage variance required for an individual parent task before it is considered for cancellation. A task is considered for cancellation when taskHeapUsage is greater than or equal to heapUsageMovingAverage * variance. Default is 2.0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#heap_variance Opensearch#heap_variance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#heap_variance Opensearch#heap_variance}
   */
   readonly heapVariance?: number;
   /**
   * The heap usage threshold (as a percentage) required for the sum of heap usages of all search tasks before cancellation is applied. Default is 0.5.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#total_heap_percent_threshold Opensearch#total_heap_percent_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#total_heap_percent_threshold Opensearch#total_heap_percent_threshold}
   */
   readonly totalHeapPercentThreshold?: number;
 }
@@ -4799,25 +5161,25 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchBackpressure {
   /**
   * Enum: `disabled`, `enforced`, `monitor_only`. The search backpressure mode. Valid values are monitor_only, enforced, or disabled. Default is monitor_only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#mode Opensearch#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#mode Opensearch#mode}
   */
   readonly mode?: string;
   /**
   * node_duress block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#node_duress Opensearch#node_duress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#node_duress Opensearch#node_duress}
   */
   readonly nodeDuress?: OpensearchOpensearchUserConfigOpensearchSearchBackpressureNodeDuress;
   /**
   * search_shard_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#search_shard_task Opensearch#search_shard_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#search_shard_task Opensearch#search_shard_task}
   */
   readonly searchShardTask?: OpensearchOpensearchUserConfigOpensearchSearchBackpressureSearchShardTask;
   /**
   * search_task block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#search_task Opensearch#search_task}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#search_task Opensearch#search_task}
   */
   readonly searchTask?: OpensearchOpensearchUserConfigOpensearchSearchBackpressureSearchTask;
 }
@@ -4990,19 +5352,19 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQuerie
   /**
   * Enable or disable top N query monitoring by the metric. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the value of N for the top N queries by the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#top_n_size Opensearch#top_n_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#top_n_size Opensearch#top_n_size}
   */
   readonly topNSize?: number;
   /**
   * The window size of the top N queries by the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#window_size Opensearch#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#window_size Opensearch#window_size}
   */
   readonly windowSize?: string;
 }
@@ -5146,19 +5508,19 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQuerie
   /**
   * Enable or disable top N query monitoring by the metric. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the value of N for the top N queries by the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#top_n_size Opensearch#top_n_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#top_n_size Opensearch#top_n_size}
   */
   readonly topNSize?: number;
   /**
   * The window size of the top N queries by the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#window_size Opensearch#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#window_size Opensearch#window_size}
   */
   readonly windowSize?: string;
 }
@@ -5302,19 +5664,19 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQuerie
   /**
   * Enable or disable top N query monitoring by the metric. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Specify the value of N for the top N queries by the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#top_n_size Opensearch#top_n_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#top_n_size Opensearch#top_n_size}
   */
   readonly topNSize?: number;
   /**
   * The window size of the top N queries by the metric.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#window_size Opensearch#window_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#window_size Opensearch#window_size}
   */
   readonly windowSize?: string;
 }
@@ -5458,19 +5820,19 @@ export interface OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQuerie
   /**
   * cpu block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cpu Opensearch#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cpu Opensearch#cpu}
   */
   readonly cpu?: OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQueriesCpu;
   /**
   * latency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#latency Opensearch#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#latency Opensearch#latency}
   */
   readonly latency?: OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQueriesLatency;
   /**
   * memory block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#memory Opensearch#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#memory Opensearch#memory}
   */
   readonly memory?: OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQueriesMemory;
 }
@@ -5614,25 +5976,25 @@ export interface OpensearchOpensearchUserConfigOpensearchSegrep {
   /**
   * The maximum number of indexing checkpoints that a replica shard can fall behind when copying from primary. Once `segrep.pressure.checkpoint.limit` is breached along with `segrep.pressure.time.limit`, the segment replication backpressure mechanism is initiated. Default is 4 checkpoints. Default: `4`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#pressure_checkpoint_limit Opensearch#pressure_checkpoint_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#pressure_checkpoint_limit Opensearch#pressure_checkpoint_limit}
   */
   readonly pressureCheckpointLimit?: number;
   /**
   * Enables the segment replication backpressure mechanism. Default is false. Default: `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#pressure_enabled Opensearch#pressure_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#pressure_enabled Opensearch#pressure_enabled}
   */
   readonly pressureEnabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of stale replica shards that can exist in a replication group. Once `segrep.pressure.replica.stale.limit` is breached, the segment replication backpressure mechanism is initiated. Default is .5, which is 50% of a replication group. Default: `0.5`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#pressure_replica_stale_limit Opensearch#pressure_replica_stale_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#pressure_replica_stale_limit Opensearch#pressure_replica_stale_limit}
   */
   readonly pressureReplicaStaleLimit?: number;
   /**
   * The maximum amount of time that a replica shard can take to copy from the primary shard. Once segrep.pressure.time.limit is breached along with segrep.pressure.checkpoint.limit, the segment replication backpressure mechanism is initiated. Default is 5 minutes. Default: `5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#pressure_time_limit Opensearch#pressure_time_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#pressure_time_limit Opensearch#pressure_time_limit}
   */
   readonly pressureTimeLimit?: string;
 }
@@ -5805,19 +6167,19 @@ export interface OpensearchOpensearchUserConfigOpensearchShardIndexingPressureOp
   /**
   * Specify the lower occupancy limit of the allocated quota of memory for the shard. If the total memory usage of a shard is below this limit, shard indexing backpressure decreases the current allocated memory for that shard. Default is 0.75.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#lower Opensearch#lower}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#lower Opensearch#lower}
   */
   readonly lower?: number;
   /**
   * Specify the optimal occupancy of the allocated quota of memory for the shard. If the total memory usage of a shard is at this level, shard indexing backpressure doesn’t change the current allocated memory for that shard. Default is 0.85.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#optimal Opensearch#optimal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#optimal Opensearch#optimal}
   */
   readonly optimal?: number;
   /**
   * Specify the upper occupancy limit of the allocated quota of memory for the shard. If the total memory usage of a shard is above this limit, shard indexing backpressure increases the current allocated memory for that shard. Default is 0.95.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#upper Opensearch#upper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#upper Opensearch#upper}
   */
   readonly upper?: number;
 }
@@ -5961,7 +6323,7 @@ export interface OpensearchOpensearchUserConfigOpensearchShardIndexingPressurePr
   /**
   * Define the percentage of the node-level memory threshold that acts as a soft indicator for strain on a node. Default is 0.7.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#soft_limit Opensearch#soft_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#soft_limit Opensearch#soft_limit}
   */
   readonly softLimit?: number;
 }
@@ -6047,7 +6409,7 @@ export interface OpensearchOpensearchUserConfigOpensearchShardIndexingPressurePr
   /**
   * Specify the minimum assigned quota for a new shard in any role (coordinator, primary, or replica). Shard indexing backpressure increases or decreases this allocated quota based on the inflow of traffic for the shard. Default is 0.001.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#min_limit Opensearch#min_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#min_limit Opensearch#min_limit}
   */
   readonly minLimit?: number;
 }
@@ -6133,13 +6495,13 @@ export interface OpensearchOpensearchUserConfigOpensearchShardIndexingPressurePr
   /**
   * node block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#node Opensearch#node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#node Opensearch#node}
   */
   readonly nodeAttribute?: OpensearchOpensearchUserConfigOpensearchShardIndexingPressurePrimaryParameterNode;
   /**
   * shard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#shard Opensearch#shard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#shard Opensearch#shard}
   */
   readonly shard?: OpensearchOpensearchUserConfigOpensearchShardIndexingPressurePrimaryParameterShard;
 }
@@ -6254,25 +6616,25 @@ export interface OpensearchOpensearchUserConfigOpensearchShardIndexingPressure {
   /**
   * Enable or disable shard indexing backpressure. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Run shard indexing backpressure in shadow mode or enforced mode. In shadow mode (value set as false), shard indexing backpressure tracks all granular-level metrics, but it doesn’t actually reject any indexing requests. In enforced mode (value set as true), shard indexing backpressure rejects any requests to the cluster that might cause a dip in its performance. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enforced Opensearch#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enforced Opensearch#enforced}
   */
   readonly enforced?: boolean | cdktf.IResolvable;
   /**
   * operating_factor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#operating_factor Opensearch#operating_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#operating_factor Opensearch#operating_factor}
   */
   readonly operatingFactor?: OpensearchOpensearchUserConfigOpensearchShardIndexingPressureOperatingFactor;
   /**
   * primary_parameter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#primary_parameter Opensearch#primary_parameter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#primary_parameter Opensearch#primary_parameter}
   */
   readonly primaryParameter?: OpensearchOpensearchUserConfigOpensearchShardIndexingPressurePrimaryParameter;
 }
@@ -6445,349 +6807,367 @@ export interface OpensearchOpensearchUserConfigOpensearch {
   /**
   * Explicitly allow or block automatic creation of indices. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#action_auto_create_index_enabled Opensearch#action_auto_create_index_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#action_auto_create_index_enabled Opensearch#action_auto_create_index_enabled}
   */
   readonly actionAutoCreateIndexEnabled?: boolean | cdktf.IResolvable;
   /**
   * Require explicit index names when deleting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#action_destructive_requires_name Opensearch#action_destructive_requires_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#action_destructive_requires_name Opensearch#action_destructive_requires_name}
   */
   readonly actionDestructiveRequiresName?: boolean | cdktf.IResolvable;
   /**
   * Defines a limit of how much total remote data can be referenced as a ratio of the size of the disk reserved for the file cache. This is designed to be a safeguard to prevent oversubscribing a cluster. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cluster_filecache_remote_data_ratio Opensearch#cluster_filecache_remote_data_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cluster_filecache_remote_data_ratio Opensearch#cluster_filecache_remote_data_ratio}
   */
   readonly clusterFilecacheRemoteDataRatio?: number;
   /**
   * Controls the number of shards allowed in the cluster per data node. Example: `1000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cluster_max_shards_per_node Opensearch#cluster_max_shards_per_node}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cluster_max_shards_per_node Opensearch#cluster_max_shards_per_node}
   */
   readonly clusterMaxShardsPerNode?: number;
   /**
   * When set to true, OpenSearch attempts to evenly distribute the primary shards between the cluster nodes. Enabling this setting does not always guarantee an equal number of primary shards on each node, especially in the event of a failover. Changing this setting to false after it was set to true does not invoke redistribution of primary shards. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cluster_routing_allocation_balance_prefer_primary Opensearch#cluster_routing_allocation_balance_prefer_primary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cluster_routing_allocation_balance_prefer_primary Opensearch#cluster_routing_allocation_balance_prefer_primary}
   */
   readonly clusterRoutingAllocationBalancePreferPrimary?: boolean | cdktf.IResolvable;
   /**
   * How many concurrent incoming/outgoing shard recoveries (normally replicas) are allowed to happen on a node. Defaults to node cpu count * 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cluster_routing_allocation_node_concurrent_recoveries Opensearch#cluster_routing_allocation_node_concurrent_recoveries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cluster_routing_allocation_node_concurrent_recoveries Opensearch#cluster_routing_allocation_node_concurrent_recoveries}
   */
   readonly clusterRoutingAllocationNodeConcurrentRecoveries?: number;
   /**
   * Sender name placeholder to be used in Opensearch Dashboards and Opensearch keystore. Example: `alert-sender`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#email_sender_name Opensearch#email_sender_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#email_sender_name Opensearch#email_sender_name}
   */
   readonly emailSenderName?: string;
   /**
   * Sender password for Opensearch alerts to authenticate with SMTP server. Example: `very-secure-mail-password`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#email_sender_password Opensearch#email_sender_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#email_sender_password Opensearch#email_sender_password}
   */
   readonly emailSenderPassword?: string;
   /**
   * Sender username for Opensearch alerts. Example: `jane@example.com`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#email_sender_username Opensearch#email_sender_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#email_sender_username Opensearch#email_sender_username}
   */
   readonly emailSenderUsername?: string;
   /**
   * Enable remote-backed storage.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enable_remote_backed_storage Opensearch#enable_remote_backed_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enable_remote_backed_storage Opensearch#enable_remote_backed_storage}
   */
   readonly enableRemoteBackedStorage?: boolean | cdktf.IResolvable;
   /**
   * Enable searchable snapshots.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enable_searchable_snapshots Opensearch#enable_searchable_snapshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enable_searchable_snapshots Opensearch#enable_searchable_snapshots}
   */
   readonly enableSearchableSnapshots?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable security audit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enable_security_audit Opensearch#enable_security_audit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enable_security_audit Opensearch#enable_security_audit}
   */
   readonly enableSecurityAudit?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable snapshot API for custom repositories, this requires security management to be enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enable_snapshot_api Opensearch#enable_snapshot_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enable_snapshot_api Opensearch#enable_snapshot_api}
   */
   readonly enableSnapshotApi?: boolean | cdktf.IResolvable;
   /**
   * Maximum content length for HTTP requests to the OpenSearch HTTP API, in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#http_max_content_length Opensearch#http_max_content_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#http_max_content_length Opensearch#http_max_content_length}
   */
   readonly httpMaxContentLength?: number;
   /**
   * The max size of allowed headers, in bytes. Example: `8192`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#http_max_header_size Opensearch#http_max_header_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#http_max_header_size Opensearch#http_max_header_size}
   */
   readonly httpMaxHeaderSize?: number;
   /**
   * The max length of an HTTP URL, in bytes. Example: `4096`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#http_max_initial_line_length Opensearch#http_max_initial_line_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#http_max_initial_line_length Opensearch#http_max_initial_line_length}
   */
   readonly httpMaxInitialLineLength?: number;
   /**
   * Relative amount. Maximum amount of heap memory used for field data cache. This is an expert setting; decreasing the value too much will increase overhead of loading field data; too much memory used for field data cache will decrease amount of heap available for other operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_fielddata_cache_size Opensearch#indices_fielddata_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_fielddata_cache_size Opensearch#indices_fielddata_cache_size}
   */
   readonly indicesFielddataCacheSize?: number;
   /**
   * Percentage value. Default is 10%. Total amount of heap used for indexing buffer, before writing segments to disk. This is an expert setting. Too low value will slow down indexing; too high value will increase indexing performance but causes performance issues for query performance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_memory_index_buffer_size Opensearch#indices_memory_index_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_memory_index_buffer_size Opensearch#indices_memory_index_buffer_size}
   */
   readonly indicesMemoryIndexBufferSize?: number;
   /**
   * Absolute value. Default is unbound. Doesn't work without indices.memory.index_buffer_size. Maximum amount of heap used for query cache, an absolute indices.memory.index_buffer_size maximum hard limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_memory_max_index_buffer_size Opensearch#indices_memory_max_index_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_memory_max_index_buffer_size Opensearch#indices_memory_max_index_buffer_size}
   */
   readonly indicesMemoryMaxIndexBufferSize?: number;
   /**
   * Absolute value. Default is 48mb. Doesn't work without indices.memory.index_buffer_size. Minimum amount of heap used for query cache, an absolute indices.memory.index_buffer_size minimal hard limit.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_memory_min_index_buffer_size Opensearch#indices_memory_min_index_buffer_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_memory_min_index_buffer_size Opensearch#indices_memory_min_index_buffer_size}
   */
   readonly indicesMemoryMinIndexBufferSize?: number;
   /**
   * Percentage value. Default is 10%. Maximum amount of heap used for query cache. This is an expert setting. Too low value will decrease query performance and increase performance for other operations; too high value will cause issues with other OpenSearch functionality.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_queries_cache_size Opensearch#indices_queries_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_queries_cache_size Opensearch#indices_queries_cache_size}
   */
   readonly indicesQueriesCacheSize?: number;
   /**
   * Maximum number of clauses Lucene BooleanQuery can have. The default value (1024) is relatively high, and increasing it may cause performance issues. Investigate other approaches first before increasing this value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_query_bool_max_clause_count Opensearch#indices_query_bool_max_clause_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_query_bool_max_clause_count Opensearch#indices_query_bool_max_clause_count}
   */
   readonly indicesQueryBoolMaxClauseCount?: number;
   /**
   * Limits total inbound and outbound recovery traffic for each node. Applies to both peer recoveries as well as snapshot recoveries (i.e., restores from a snapshot). Defaults to 40mb.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_recovery_max_bytes_per_sec Opensearch#indices_recovery_max_bytes_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_recovery_max_bytes_per_sec Opensearch#indices_recovery_max_bytes_per_sec}
   */
   readonly indicesRecoveryMaxBytesPerSec?: number;
   /**
   * Number of file chunks sent in parallel for each recovery. Defaults to 2.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices_recovery_max_concurrent_file_chunks Opensearch#indices_recovery_max_concurrent_file_chunks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices_recovery_max_concurrent_file_chunks Opensearch#indices_recovery_max_concurrent_file_chunks}
   */
   readonly indicesRecoveryMaxConcurrentFileChunks?: number;
   /**
   * Specifies whether ISM is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ism_enabled Opensearch#ism_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ism_enabled Opensearch#ism_enabled}
   */
   readonly ismEnabled?: boolean | cdktf.IResolvable;
   /**
   * Specifies whether audit history is enabled or not. The logs from ISM are automatically indexed to a logs document.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ism_history_enabled Opensearch#ism_history_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ism_history_enabled Opensearch#ism_history_enabled}
   */
   readonly ismHistoryEnabled?: boolean | cdktf.IResolvable;
   /**
   * The maximum age before rolling over the audit history index in hours. Example: `24`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ism_history_max_age Opensearch#ism_history_max_age}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ism_history_max_age Opensearch#ism_history_max_age}
   */
   readonly ismHistoryMaxAge?: number;
   /**
   * The maximum number of documents before rolling over the audit history index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ism_history_max_docs Opensearch#ism_history_max_docs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ism_history_max_docs Opensearch#ism_history_max_docs}
   */
   readonly ismHistoryMaxDocs?: number;
   /**
   * The time between rollover checks for the audit history index in hours. Example: `8`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ism_history_rollover_check_period Opensearch#ism_history_rollover_check_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ism_history_rollover_check_period Opensearch#ism_history_rollover_check_period}
   */
   readonly ismHistoryRolloverCheckPeriod?: number;
   /**
   * How long audit history indices are kept in days. Example: `30`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ism_history_rollover_retention_period Opensearch#ism_history_rollover_retention_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ism_history_rollover_retention_period Opensearch#ism_history_rollover_retention_period}
   */
   readonly ismHistoryRolloverRetentionPeriod?: number;
   /**
   * Enable or disable KNN memory circuit breaker. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#knn_memory_circuit_breaker_enabled Opensearch#knn_memory_circuit_breaker_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#knn_memory_circuit_breaker_enabled Opensearch#knn_memory_circuit_breaker_enabled}
   */
   readonly knnMemoryCircuitBreakerEnabled?: boolean | cdktf.IResolvable;
   /**
   * Maximum amount of memory in percentage that can be used for the KNN index. Defaults to 50% of the JVM heap size. 0 is used to set it to null which can be used to invalidate caches.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#knn_memory_circuit_breaker_limit Opensearch#knn_memory_circuit_breaker_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#knn_memory_circuit_breaker_limit Opensearch#knn_memory_circuit_breaker_limit}
   */
   readonly knnMemoryCircuitBreakerLimit?: number;
   /**
+  * Enable or disable model access control for ML Commons. When enabled, access to ML models is controlled by security permissions. Defaults to false.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ml_commons_model_access_control_enabled Opensearch#ml_commons_model_access_control_enabled}
+  */
+  readonly mlCommonsModelAccessControlEnabled?: boolean | cdktf.IResolvable;
+  /**
+  * Native memory threshold percentage for ML Commons. Controls the maximum percentage of native memory that can be used by ML Commons operations. Defaults to 90%.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ml_commons_native_memory_threshold Opensearch#ml_commons_native_memory_threshold}
+  */
+  readonly mlCommonsNativeMemoryThreshold?: number;
+  /**
+  * Enable or disable running ML Commons tasks only on ML nodes. When enabled, ML tasks will only execute on nodes designated as ML nodes. Defaults to true.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ml_commons_only_run_on_ml_node Opensearch#ml_commons_only_run_on_ml_node}
+  */
+  readonly mlCommonsOnlyRunOnMlNode?: boolean | cdktf.IResolvable;
+  /**
   * Defines a limit of how much total remote data can be referenced as a ratio of the size of the disk reserved for the file cache. This is designed to be a safeguard to prevent oversubscribing a cluster. Defaults to 5gb. Requires restarting all OpenSearch nodes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#node_search_cache_size Opensearch#node_search_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#node_search_cache_size Opensearch#node_search_cache_size}
   */
   readonly nodeSearchCacheSize?: string;
   /**
   * Compatibility mode sets OpenSearch to report its version as 7.10 so clients continue to work. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#override_main_response_version Opensearch#override_main_response_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#override_main_response_version Opensearch#override_main_response_version}
   */
   readonly overrideMainResponseVersion?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable filtering of alerting by backend roles. Requires Security plugin. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#plugins_alerting_filter_by_backend_roles Opensearch#plugins_alerting_filter_by_backend_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#plugins_alerting_filter_by_backend_roles Opensearch#plugins_alerting_filter_by_backend_roles}
   */
   readonly pluginsAlertingFilterByBackendRoles?: boolean | cdktf.IResolvable;
   /**
   * Whitelisted addresses for reindexing. Changing this value will cause all OpenSearch instances to restart.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#reindex_remote_whitelist Opensearch#reindex_remote_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#reindex_remote_whitelist Opensearch#reindex_remote_whitelist}
   */
   readonly reindexRemoteWhitelist?: string[];
   /**
   * Script compilation circuit breaker limits the number of inline script compilations within a period of time. Default is use-context. Example: `75/5m`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#script_max_compilations_rate Opensearch#script_max_compilations_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#script_max_compilations_rate Opensearch#script_max_compilations_rate}
   */
   readonly scriptMaxCompilationsRate?: string;
   /**
   * Maximum number of aggregation buckets allowed in a single response. OpenSearch default value is used when this is not defined. Example: `10000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#search_max_buckets Opensearch#search_max_buckets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#search_max_buckets Opensearch#search_max_buckets}
   */
   readonly searchMaxBuckets?: number;
   /**
   * Size for the thread pool queue. See documentation for exact details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_analyze_queue_size Opensearch#thread_pool_analyze_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_analyze_queue_size Opensearch#thread_pool_analyze_queue_size}
   */
   readonly threadPoolAnalyzeQueueSize?: number;
   /**
   * Size for the thread pool. See documentation for exact details. Do note this may have maximum value depending on CPU count - value is automatically lowered if set to higher than maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_analyze_size Opensearch#thread_pool_analyze_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_analyze_size Opensearch#thread_pool_analyze_size}
   */
   readonly threadPoolAnalyzeSize?: number;
   /**
   * Size for the thread pool. See documentation for exact details. Do note this may have maximum value depending on CPU count - value is automatically lowered if set to higher than maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_force_merge_size Opensearch#thread_pool_force_merge_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_force_merge_size Opensearch#thread_pool_force_merge_size}
   */
   readonly threadPoolForceMergeSize?: number;
   /**
   * Size for the thread pool queue. See documentation for exact details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_get_queue_size Opensearch#thread_pool_get_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_get_queue_size Opensearch#thread_pool_get_queue_size}
   */
   readonly threadPoolGetQueueSize?: number;
   /**
   * Size for the thread pool. See documentation for exact details. Do note this may have maximum value depending on CPU count - value is automatically lowered if set to higher than maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_get_size Opensearch#thread_pool_get_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_get_size Opensearch#thread_pool_get_size}
   */
   readonly threadPoolGetSize?: number;
   /**
   * Size for the thread pool queue. See documentation for exact details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_search_queue_size Opensearch#thread_pool_search_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_search_queue_size Opensearch#thread_pool_search_queue_size}
   */
   readonly threadPoolSearchQueueSize?: number;
   /**
   * Size for the thread pool. See documentation for exact details. Do note this may have maximum value depending on CPU count - value is automatically lowered if set to higher than maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_search_size Opensearch#thread_pool_search_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_search_size Opensearch#thread_pool_search_size}
   */
   readonly threadPoolSearchSize?: number;
   /**
   * Size for the thread pool queue. See documentation for exact details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_search_throttled_queue_size Opensearch#thread_pool_search_throttled_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_search_throttled_queue_size Opensearch#thread_pool_search_throttled_queue_size}
   */
   readonly threadPoolSearchThrottledQueueSize?: number;
   /**
   * Size for the thread pool. See documentation for exact details. Do note this may have maximum value depending on CPU count - value is automatically lowered if set to higher than maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_search_throttled_size Opensearch#thread_pool_search_throttled_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_search_throttled_size Opensearch#thread_pool_search_throttled_size}
   */
   readonly threadPoolSearchThrottledSize?: number;
   /**
   * Size for the thread pool queue. See documentation for exact details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_write_queue_size Opensearch#thread_pool_write_queue_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_write_queue_size Opensearch#thread_pool_write_queue_size}
   */
   readonly threadPoolWriteQueueSize?: number;
   /**
   * Size for the thread pool. See documentation for exact details. Do note this may have maximum value depending on CPU count - value is automatically lowered if set to higher than maximum value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#thread_pool_write_size Opensearch#thread_pool_write_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#thread_pool_write_size Opensearch#thread_pool_write_size}
   */
   readonly threadPoolWriteSize?: number;
   /**
   * auth_failure_listeners block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#auth_failure_listeners Opensearch#auth_failure_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#auth_failure_listeners Opensearch#auth_failure_listeners}
   */
   readonly authFailureListeners?: OpensearchOpensearchUserConfigOpensearchAuthFailureListeners;
   /**
   * cluster_remote_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cluster_remote_store Opensearch#cluster_remote_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cluster_remote_store Opensearch#cluster_remote_store}
   */
   readonly clusterRemoteStore?: OpensearchOpensearchUserConfigOpensearchClusterRemoteStore;
   /**
   * cluster_search_request_slowlog block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#cluster_search_request_slowlog Opensearch#cluster_search_request_slowlog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#cluster_search_request_slowlog Opensearch#cluster_search_request_slowlog}
   */
   readonly clusterSearchRequestSlowlog?: OpensearchOpensearchUserConfigOpensearchClusterSearchRequestSlowlog;
   /**
   * disk_watermarks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#disk_watermarks Opensearch#disk_watermarks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#disk_watermarks Opensearch#disk_watermarks}
   */
   readonly diskWatermarks?: OpensearchOpensearchUserConfigOpensearchDiskWatermarks;
   /**
   * remote_store block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#remote_store Opensearch#remote_store}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#remote_store Opensearch#remote_store}
   */
   readonly remoteStore?: OpensearchOpensearchUserConfigOpensearchRemoteStore;
   /**
   * search_backpressure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#search_backpressure Opensearch#search_backpressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#search_backpressure Opensearch#search_backpressure}
   */
   readonly searchBackpressure?: OpensearchOpensearchUserConfigOpensearchSearchBackpressure;
   /**
   * search_insights_top_queries block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#search_insights_top_queries Opensearch#search_insights_top_queries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#search_insights_top_queries Opensearch#search_insights_top_queries}
   */
   readonly searchInsightsTopQueries?: OpensearchOpensearchUserConfigOpensearchSearchInsightsTopQueries;
   /**
   * segrep block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#segrep Opensearch#segrep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#segrep Opensearch#segrep}
   */
   readonly segrep?: OpensearchOpensearchUserConfigOpensearchSegrep;
   /**
   * shard_indexing_pressure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#shard_indexing_pressure Opensearch#shard_indexing_pressure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#shard_indexing_pressure Opensearch#shard_indexing_pressure}
   */
   readonly shardIndexingPressure?: OpensearchOpensearchUserConfigOpensearchShardIndexingPressure;
 }
@@ -6830,6 +7210,9 @@ export function opensearchOpensearchUserConfigOpensearchToTerraform(struct?: Ope
     ism_history_rollover_retention_period: cdktf.numberToTerraform(struct!.ismHistoryRolloverRetentionPeriod),
     knn_memory_circuit_breaker_enabled: cdktf.booleanToTerraform(struct!.knnMemoryCircuitBreakerEnabled),
     knn_memory_circuit_breaker_limit: cdktf.numberToTerraform(struct!.knnMemoryCircuitBreakerLimit),
+    ml_commons_model_access_control_enabled: cdktf.booleanToTerraform(struct!.mlCommonsModelAccessControlEnabled),
+    ml_commons_native_memory_threshold: cdktf.numberToTerraform(struct!.mlCommonsNativeMemoryThreshold),
+    ml_commons_only_run_on_ml_node: cdktf.booleanToTerraform(struct!.mlCommonsOnlyRunOnMlNode),
     node_search_cache_size: cdktf.stringToTerraform(struct!.nodeSearchCacheSize),
     override_main_response_version: cdktf.booleanToTerraform(struct!.overrideMainResponseVersion),
     plugins_alerting_filter_by_backend_roles: cdktf.booleanToTerraform(struct!.pluginsAlertingFilterByBackendRoles),
@@ -7057,6 +7440,24 @@ export function opensearchOpensearchUserConfigOpensearchToHclTerraform(struct?: 
       isBlock: false,
       type: "simple",
       storageClassType: "number",
+    },
+    ml_commons_model_access_control_enabled: {
+      value: cdktf.booleanToHclTerraform(struct!.mlCommonsModelAccessControlEnabled),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    ml_commons_native_memory_threshold: {
+      value: cdktf.numberToHclTerraform(struct!.mlCommonsNativeMemoryThreshold),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    ml_commons_only_run_on_ml_node: {
+      value: cdktf.booleanToHclTerraform(struct!.mlCommonsOnlyRunOnMlNode),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
     },
     node_search_cache_size: {
       value: cdktf.stringToHclTerraform(struct!.nodeSearchCacheSize),
@@ -7362,6 +7763,18 @@ export class OpensearchOpensearchUserConfigOpensearchOutputReference extends cdk
       hasAnyValues = true;
       internalValueResult.knnMemoryCircuitBreakerLimit = this._knnMemoryCircuitBreakerLimit;
     }
+    if (this._mlCommonsModelAccessControlEnabled !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mlCommonsModelAccessControlEnabled = this._mlCommonsModelAccessControlEnabled;
+    }
+    if (this._mlCommonsNativeMemoryThreshold !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mlCommonsNativeMemoryThreshold = this._mlCommonsNativeMemoryThreshold;
+    }
+    if (this._mlCommonsOnlyRunOnMlNode !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.mlCommonsOnlyRunOnMlNode = this._mlCommonsOnlyRunOnMlNode;
+    }
     if (this._nodeSearchCacheSize !== undefined) {
       hasAnyValues = true;
       internalValueResult.nodeSearchCacheSize = this._nodeSearchCacheSize;
@@ -7504,6 +7917,9 @@ export class OpensearchOpensearchUserConfigOpensearchOutputReference extends cdk
       this._ismHistoryRolloverRetentionPeriod = undefined;
       this._knnMemoryCircuitBreakerEnabled = undefined;
       this._knnMemoryCircuitBreakerLimit = undefined;
+      this._mlCommonsModelAccessControlEnabled = undefined;
+      this._mlCommonsNativeMemoryThreshold = undefined;
+      this._mlCommonsOnlyRunOnMlNode = undefined;
       this._nodeSearchCacheSize = undefined;
       this._overrideMainResponseVersion = undefined;
       this._pluginsAlertingFilterByBackendRoles = undefined;
@@ -7565,6 +7981,9 @@ export class OpensearchOpensearchUserConfigOpensearchOutputReference extends cdk
       this._ismHistoryRolloverRetentionPeriod = value.ismHistoryRolloverRetentionPeriod;
       this._knnMemoryCircuitBreakerEnabled = value.knnMemoryCircuitBreakerEnabled;
       this._knnMemoryCircuitBreakerLimit = value.knnMemoryCircuitBreakerLimit;
+      this._mlCommonsModelAccessControlEnabled = value.mlCommonsModelAccessControlEnabled;
+      this._mlCommonsNativeMemoryThreshold = value.mlCommonsNativeMemoryThreshold;
+      this._mlCommonsOnlyRunOnMlNode = value.mlCommonsOnlyRunOnMlNode;
       this._nodeSearchCacheSize = value.nodeSearchCacheSize;
       this._overrideMainResponseVersion = value.overrideMainResponseVersion;
       this._pluginsAlertingFilterByBackendRoles = value.pluginsAlertingFilterByBackendRoles;
@@ -8106,6 +8525,54 @@ export class OpensearchOpensearchUserConfigOpensearchOutputReference extends cdk
     return this._knnMemoryCircuitBreakerLimit;
   }
 
+  // ml_commons_model_access_control_enabled - computed: false, optional: true, required: false
+  private _mlCommonsModelAccessControlEnabled?: boolean | cdktf.IResolvable; 
+  public get mlCommonsModelAccessControlEnabled() {
+    return this.getBooleanAttribute('ml_commons_model_access_control_enabled');
+  }
+  public set mlCommonsModelAccessControlEnabled(value: boolean | cdktf.IResolvable) {
+    this._mlCommonsModelAccessControlEnabled = value;
+  }
+  public resetMlCommonsModelAccessControlEnabled() {
+    this._mlCommonsModelAccessControlEnabled = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mlCommonsModelAccessControlEnabledInput() {
+    return this._mlCommonsModelAccessControlEnabled;
+  }
+
+  // ml_commons_native_memory_threshold - computed: false, optional: true, required: false
+  private _mlCommonsNativeMemoryThreshold?: number; 
+  public get mlCommonsNativeMemoryThreshold() {
+    return this.getNumberAttribute('ml_commons_native_memory_threshold');
+  }
+  public set mlCommonsNativeMemoryThreshold(value: number) {
+    this._mlCommonsNativeMemoryThreshold = value;
+  }
+  public resetMlCommonsNativeMemoryThreshold() {
+    this._mlCommonsNativeMemoryThreshold = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mlCommonsNativeMemoryThresholdInput() {
+    return this._mlCommonsNativeMemoryThreshold;
+  }
+
+  // ml_commons_only_run_on_ml_node - computed: false, optional: true, required: false
+  private _mlCommonsOnlyRunOnMlNode?: boolean | cdktf.IResolvable; 
+  public get mlCommonsOnlyRunOnMlNode() {
+    return this.getBooleanAttribute('ml_commons_only_run_on_ml_node');
+  }
+  public set mlCommonsOnlyRunOnMlNode(value: boolean | cdktf.IResolvable) {
+    this._mlCommonsOnlyRunOnMlNode = value;
+  }
+  public resetMlCommonsOnlyRunOnMlNode() {
+    this._mlCommonsOnlyRunOnMlNode = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get mlCommonsOnlyRunOnMlNodeInput() {
+    return this._mlCommonsOnlyRunOnMlNode;
+  }
+
   // node_search_cache_size - computed: false, optional: true, required: false
   private _nodeSearchCacheSize?: string; 
   public get nodeSearchCacheSize() {
@@ -8526,25 +8993,25 @@ export interface OpensearchOpensearchUserConfigOpensearchDashboards {
   /**
   * Enable or disable OpenSearch Dashboards. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Limits the maximum amount of memory (in MiB) the OpenSearch Dashboards process can use. This sets the max_old_space_size option of the nodejs running the OpenSearch Dashboards. Note: the memory reserved by OpenSearch Dashboards is not available for OpenSearch. Default: `128`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_old_space_size Opensearch#max_old_space_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_old_space_size Opensearch#max_old_space_size}
   */
   readonly maxOldSpaceSize?: number;
   /**
   * Enable or disable multiple data sources in OpenSearch Dashboards. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#multiple_data_source_enabled Opensearch#multiple_data_source_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#multiple_data_source_enabled Opensearch#multiple_data_source_enabled}
   */
   readonly multipleDataSourceEnabled?: boolean | cdktf.IResolvable;
   /**
   * Timeout in milliseconds for requests made by OpenSearch Dashboards towards OpenSearch. Default: `30000`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_request_timeout Opensearch#opensearch_request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_request_timeout Opensearch#opensearch_request_timeout}
   */
   readonly opensearchRequestTimeout?: number;
 }
@@ -8717,19 +9184,19 @@ export interface OpensearchOpensearchUserConfigPrivateAccess {
   /**
   * Allow clients to connect to opensearch with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch Opensearch#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch Opensearch#opensearch}
   */
   readonly opensearch?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to opensearch_dashboards with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
   */
   readonly opensearchDashboards?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus with a DNS name that always resolves to the service's private IP addresses. Only available in certain network locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#prometheus Opensearch#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#prometheus Opensearch#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -8873,19 +9340,19 @@ export interface OpensearchOpensearchUserConfigPrivatelinkAccess {
   /**
   * Enable opensearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch Opensearch#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch Opensearch#opensearch}
   */
   readonly opensearch?: boolean | cdktf.IResolvable;
   /**
   * Enable opensearch_dashboards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
   */
   readonly opensearchDashboards?: boolean | cdktf.IResolvable;
   /**
   * Enable prometheus.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#prometheus Opensearch#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#prometheus Opensearch#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -9029,19 +9496,19 @@ export interface OpensearchOpensearchUserConfigPublicAccess {
   /**
   * Allow clients to connect to opensearch from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch Opensearch#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch Opensearch#opensearch}
   */
   readonly opensearch?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to opensearch_dashboards from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
   */
   readonly opensearchDashboards?: boolean | cdktf.IResolvable;
   /**
   * Allow clients to connect to prometheus from the public internet for service nodes that are in a project VPC or another type of private network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#prometheus Opensearch#prometheus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#prometheus Opensearch#prometheus}
   */
   readonly prometheus?: boolean | cdktf.IResolvable;
 }
@@ -9185,85 +9652,85 @@ export interface OpensearchOpensearchUserConfigS3Migration {
   /**
   * AWS Access key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#access_key Opensearch#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#access_key Opensearch#access_key}
   */
   readonly accessKey: string;
   /**
   * The path to the repository data within its container. The value of this setting should not start or end with a /.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#base_path Opensearch#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#base_path Opensearch#base_path}
   */
   readonly basePath: string;
   /**
   * S3 bucket name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#bucket Opensearch#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#bucket Opensearch#bucket}
   */
   readonly bucket: string;
   /**
   * Big files can be broken down into chunks during snapshotting if needed. Should be the same as for the 3rd party repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#chunk_size Opensearch#chunk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#chunk_size Opensearch#chunk_size}
   */
   readonly chunkSize?: string;
   /**
   * When set to true metadata files are stored in compressed format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#compress Opensearch#compress}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#compress Opensearch#compress}
   */
   readonly compress?: boolean | cdktf.IResolvable;
   /**
   * The S3 service endpoint to connect to. If you are using an S3-compatible service then you should set this to the service’s endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#endpoint Opensearch#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#endpoint Opensearch#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Whether to restore aliases alongside their associated indexes. Default is true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#include_aliases Opensearch#include_aliases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#include_aliases Opensearch#include_aliases}
   */
   readonly includeAliases?: boolean | cdktf.IResolvable;
   /**
   * A comma-delimited list of indices to restore from the snapshot. Multi-index syntax is supported. Example: `metrics*,logs*,data-20240823`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#indices Opensearch#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#indices Opensearch#indices}
   */
   readonly indices: string;
   /**
   * Whether the repository is read-only. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#readonly Opensearch#readonly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#readonly Opensearch#readonly}
   */
   readonly readonly?: boolean | cdktf.IResolvable;
   /**
   * S3 region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#region Opensearch#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#region Opensearch#region}
   */
   readonly region: string;
   /**
   * If true, restore the cluster state. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#restore_global_state Opensearch#restore_global_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#restore_global_state Opensearch#restore_global_state}
   */
   readonly restoreGlobalState?: boolean | cdktf.IResolvable;
   /**
   * AWS secret key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#secret_key Opensearch#secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#secret_key Opensearch#secret_key}
   */
   readonly secretKey: string;
   /**
   * When set to true files are encrypted on server side.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#server_side_encryption Opensearch#server_side_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#server_side_encryption Opensearch#server_side_encryption}
   */
   readonly serverSideEncryption?: boolean | cdktf.IResolvable;
   /**
   * The snapshot name to restore from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#snapshot_name Opensearch#snapshot_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#snapshot_name Opensearch#snapshot_name}
   */
   readonly snapshotName: string;
 }
@@ -9705,19 +10172,19 @@ export interface OpensearchOpensearchUserConfigSaml {
   /**
   * Enables or disables SAML-based authentication for OpenSearch. When enabled, users can authenticate using SAML with an Identity Provider. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#enabled Opensearch#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#enabled Opensearch#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The unique identifier for the Identity Provider (IdP) entity that is used for SAML authentication. This value is typically provided by the IdP. Example: `test-idp-entity-id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#idp_entity_id Opensearch#idp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#idp_entity_id Opensearch#idp_entity_id}
   */
   readonly idpEntityId: string;
   /**
   * The URL of the SAML metadata for the Identity Provider (IdP). This is used to configure SAML-based authentication with the IdP. Example: `https://test-account.okta.com/app/exk491jujcVc83LEX697/sso/saml/metadata`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#idp_metadata_url Opensearch#idp_metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#idp_metadata_url Opensearch#idp_metadata_url}
   */
   readonly idpMetadataUrl: string;
   /**
@@ -9726,25 +10193,25 @@ export interface OpensearchOpensearchUserConfigSaml {
   * -----END CERTIFICATE-----
   * `.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#idp_pemtrustedcas_content Opensearch#idp_pemtrustedcas_content}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#idp_pemtrustedcas_content Opensearch#idp_pemtrustedcas_content}
   */
   readonly idpPemtrustedcasContent?: string;
   /**
   * Optional. Specifies the attribute in the SAML response where role information is stored, if available. Role attributes are not required for SAML authentication, but can be included in SAML assertions by most Identity Providers (IdPs) to determine user access levels or permissions. Example: `RoleName`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#roles_key Opensearch#roles_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#roles_key Opensearch#roles_key}
   */
   readonly rolesKey?: string;
   /**
   * The unique identifier for the Service Provider (SP) entity that is used for SAML authentication. This value is typically provided by the SP. Example: `test-sp-entity-id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#sp_entity_id Opensearch#sp_entity_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#sp_entity_id Opensearch#sp_entity_id}
   */
   readonly spEntityId: string;
   /**
   * Optional. Specifies the attribute in the SAML response where the subject identifier is stored. If not configured, the NameID attribute is used by default. Example: `NameID`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#subject_key Opensearch#subject_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#subject_key Opensearch#subject_key}
   */
   readonly subjectKey?: string;
 }
@@ -9992,163 +10459,169 @@ export interface OpensearchOpensearchUserConfig {
   /**
   * Additional Cloud Regions for Backup Replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#additional_backup_regions Opensearch#additional_backup_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#additional_backup_regions Opensearch#additional_backup_regions}
   */
   readonly additionalBackupRegions?: string[];
   /**
-  * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. Example: `grafana.example.org`.
+  * Serve the web frontend using a custom CNAME pointing to the Aiven DNS name. When you set a custom domain for a service deployed in a VPC, the service certificate is only created for the public-* hostname and the custom domain. Example: `grafana.example.org`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#custom_domain Opensearch#custom_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#custom_domain Opensearch#custom_domain}
   */
   readonly customDomain?: string;
   /**
   * Disable automatic replication factor adjustment for multi-node services. By default, Aiven ensures all indexes are replicated at least to two nodes. Note: Due to potential data loss in case of losing a service node, this setting can not be activated unless specifically allowed for the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#disable_replication_factor_adjustment Opensearch#disable_replication_factor_adjustment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#disable_replication_factor_adjustment Opensearch#disable_replication_factor_adjustment}
   */
   readonly disableReplicationFactorAdjustment?: boolean | cdktf.IResolvable;
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ip_filter Opensearch#ip_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ip_filter Opensearch#ip_filter}
   */
   readonly ipFilter?: string[];
   /**
   * Allow incoming connections from CIDR address block, e.g. `10.20.0.0/16`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ip_filter_string Opensearch#ip_filter_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ip_filter_string Opensearch#ip_filter_string}
   */
   readonly ipFilterString?: string[];
   /**
   * Aiven automation resets index.refresh_interval to default value for every index to be sure that indices are always visible to search. If it doesn't fit your case, you can disable this by setting up this flag to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#keep_index_refresh_interval Opensearch#keep_index_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#keep_index_refresh_interval Opensearch#keep_index_refresh_interval}
   */
   readonly keepIndexRefreshInterval?: boolean | cdktf.IResolvable;
   /**
   * Use index_patterns instead. Default: `0`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#max_index_count Opensearch#max_index_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#max_index_count Opensearch#max_index_count}
   */
   readonly maxIndexCount?: number;
   /**
   * Enum: `1`, `2`, `2.19`, and newer. OpenSearch version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_version Opensearch#opensearch_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_version Opensearch#opensearch_version}
   */
   readonly opensearchVersion?: string;
   /**
   * Name of another project to fork a service from. This has effect only when a new service is being created. Example: `anotherprojectname`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#project_to_fork_from Opensearch#project_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#project_to_fork_from Opensearch#project_to_fork_from}
   */
   readonly projectToForkFrom?: string;
   /**
   * Name of the basebackup to restore in forked service. Example: `backup-20191112t091354293891z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#recovery_basebackup_name Opensearch#recovery_basebackup_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#recovery_basebackup_name Opensearch#recovery_basebackup_name}
   */
   readonly recoveryBasebackupName?: string;
   /**
   * Store logs for the service so that they are available in the HTTP API and console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#service_log Opensearch#service_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#service_log Opensearch#service_log}
   */
   readonly serviceLog?: boolean | cdktf.IResolvable;
   /**
   * Name of another service to fork from. This has effect only when a new service is being created. Example: `anotherservicename`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#service_to_fork_from Opensearch#service_to_fork_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#service_to_fork_from Opensearch#service_to_fork_from}
   */
   readonly serviceToForkFrom?: string;
   /**
   * Use static public IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#static_ips Opensearch#static_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#static_ips Opensearch#static_ips}
   */
   readonly staticIps?: boolean | cdktf.IResolvable;
   /**
   * azure_migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#azure_migration Opensearch#azure_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#azure_migration Opensearch#azure_migration}
   */
   readonly azureMigration?: OpensearchOpensearchUserConfigAzureMigration;
   /**
   * gcs_migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#gcs_migration Opensearch#gcs_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#gcs_migration Opensearch#gcs_migration}
   */
   readonly gcsMigration?: OpensearchOpensearchUserConfigGcsMigration;
   /**
   * index_patterns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#index_patterns Opensearch#index_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#index_patterns Opensearch#index_patterns}
   */
   readonly indexPatterns?: OpensearchOpensearchUserConfigIndexPatterns[] | cdktf.IResolvable;
   /**
   * index_rollup block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#index_rollup Opensearch#index_rollup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#index_rollup Opensearch#index_rollup}
   */
   readonly indexRollup?: OpensearchOpensearchUserConfigIndexRollup;
   /**
   * index_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#index_template Opensearch#index_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#index_template Opensearch#index_template}
   */
   readonly indexTemplate?: OpensearchOpensearchUserConfigIndexTemplate;
   /**
   * ip_filter_object block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#ip_filter_object Opensearch#ip_filter_object}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#ip_filter_object Opensearch#ip_filter_object}
   */
   readonly ipFilterObject?: OpensearchOpensearchUserConfigIpFilterObject[] | cdktf.IResolvable;
   /**
+  * jwt block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#jwt Opensearch#jwt}
+  */
+  readonly jwt?: OpensearchOpensearchUserConfigJwt;
+  /**
   * openid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#openid Opensearch#openid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#openid Opensearch#openid}
   */
   readonly openid?: OpensearchOpensearchUserConfigOpenid;
   /**
   * opensearch block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch Opensearch#opensearch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch Opensearch#opensearch}
   */
   readonly opensearch?: OpensearchOpensearchUserConfigOpensearch;
   /**
   * opensearch_dashboards block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#opensearch_dashboards Opensearch#opensearch_dashboards}
   */
   readonly opensearchDashboards?: OpensearchOpensearchUserConfigOpensearchDashboards;
   /**
   * private_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#private_access Opensearch#private_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#private_access Opensearch#private_access}
   */
   readonly privateAccess?: OpensearchOpensearchUserConfigPrivateAccess;
   /**
   * privatelink_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#privatelink_access Opensearch#privatelink_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#privatelink_access Opensearch#privatelink_access}
   */
   readonly privatelinkAccess?: OpensearchOpensearchUserConfigPrivatelinkAccess;
   /**
   * public_access block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#public_access Opensearch#public_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#public_access Opensearch#public_access}
   */
   readonly publicAccess?: OpensearchOpensearchUserConfigPublicAccess;
   /**
   * s3_migration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#s3_migration Opensearch#s3_migration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#s3_migration Opensearch#s3_migration}
   */
   readonly s3Migration?: OpensearchOpensearchUserConfigS3Migration;
   /**
   * saml block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#saml Opensearch#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#saml Opensearch#saml}
   */
   readonly saml?: OpensearchOpensearchUserConfigSaml;
 }
@@ -10178,6 +10651,7 @@ export function opensearchOpensearchUserConfigToTerraform(struct?: OpensearchOpe
     index_rollup: opensearchOpensearchUserConfigIndexRollupToTerraform(struct!.indexRollup),
     index_template: opensearchOpensearchUserConfigIndexTemplateToTerraform(struct!.indexTemplate),
     ip_filter_object: cdktf.listMapper(opensearchOpensearchUserConfigIpFilterObjectToTerraform, true)(struct!.ipFilterObject),
+    jwt: opensearchOpensearchUserConfigJwtToTerraform(struct!.jwt),
     openid: opensearchOpensearchUserConfigOpenidToTerraform(struct!.openid),
     opensearch: opensearchOpensearchUserConfigOpensearchToTerraform(struct!.opensearch),
     opensearch_dashboards: opensearchOpensearchUserConfigOpensearchDashboardsToTerraform(struct!.opensearchDashboards),
@@ -10309,6 +10783,12 @@ export function opensearchOpensearchUserConfigToHclTerraform(struct?: Opensearch
       isBlock: true,
       type: "set",
       storageClassType: "OpensearchOpensearchUserConfigIpFilterObjectList",
+    },
+    jwt: {
+      value: opensearchOpensearchUserConfigJwtToHclTerraform(struct!.jwt),
+      isBlock: true,
+      type: "list",
+      storageClassType: "OpensearchOpensearchUserConfigJwtList",
     },
     openid: {
       value: opensearchOpensearchUserConfigOpenidToHclTerraform(struct!.openid),
@@ -10454,6 +10934,10 @@ export class OpensearchOpensearchUserConfigOutputReference extends cdktf.Complex
       hasAnyValues = true;
       internalValueResult.ipFilterObject = this._ipFilterObject?.internalValue;
     }
+    if (this._jwt?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwt = this._jwt?.internalValue;
+    }
     if (this._openid?.internalValue !== undefined) {
       hasAnyValues = true;
       internalValueResult.openid = this._openid?.internalValue;
@@ -10511,6 +10995,7 @@ export class OpensearchOpensearchUserConfigOutputReference extends cdktf.Complex
       this._indexRollup.internalValue = undefined;
       this._indexTemplate.internalValue = undefined;
       this._ipFilterObject.internalValue = undefined;
+      this._jwt.internalValue = undefined;
       this._openid.internalValue = undefined;
       this._opensearch.internalValue = undefined;
       this._opensearchDashboards.internalValue = undefined;
@@ -10541,6 +11026,7 @@ export class OpensearchOpensearchUserConfigOutputReference extends cdktf.Complex
       this._indexRollup.internalValue = value.indexRollup;
       this._indexTemplate.internalValue = value.indexTemplate;
       this._ipFilterObject.internalValue = value.ipFilterObject;
+      this._jwt.internalValue = value.jwt;
       this._openid.internalValue = value.openid;
       this._opensearch.internalValue = value.opensearch;
       this._opensearchDashboards.internalValue = value.opensearchDashboards;
@@ -10856,6 +11342,22 @@ export class OpensearchOpensearchUserConfigOutputReference extends cdktf.Complex
     return this._ipFilterObject.internalValue;
   }
 
+  // jwt - computed: false, optional: true, required: false
+  private _jwt = new OpensearchOpensearchUserConfigJwtOutputReference(this, "jwt");
+  public get jwt() {
+    return this._jwt;
+  }
+  public putJwt(value: OpensearchOpensearchUserConfigJwt) {
+    this._jwt.internalValue = value;
+  }
+  public resetJwt() {
+    this._jwt.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtInput() {
+    return this._jwt.internalValue;
+  }
+
   // openid - computed: false, optional: true, required: false
   private _openid = new OpensearchOpensearchUserConfigOpenidOutputReference(this, "openid");
   public get openid() {
@@ -10988,13 +11490,13 @@ export interface OpensearchServiceIntegrations {
   /**
   * Type of the service integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#integration_type Opensearch#integration_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#integration_type Opensearch#integration_type}
   */
   readonly integrationType: string;
   /**
   * Name of the source service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#source_service_name Opensearch#source_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#source_service_name Opensearch#source_service_name}
   */
   readonly sourceServiceName: string;
 }
@@ -11135,13 +11637,13 @@ export interface OpensearchTag {
   /**
   * Service tag key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#key Opensearch#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#key Opensearch#key}
   */
   readonly key: string;
   /**
   * Service tag value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#value Opensearch#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#value Opensearch#value}
   */
   readonly value: string;
 }
@@ -11282,7 +11784,7 @@ export interface OpensearchTechEmails {
   /**
   * An email address to contact for technical issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#email Opensearch#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#email Opensearch#email}
   */
   readonly email: string;
 }
@@ -11395,23 +11897,23 @@ export class OpensearchTechEmailsList extends cdktf.ComplexList {
 }
 export interface OpensearchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#create Opensearch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#create Opensearch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#default Opensearch#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#default Opensearch#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#delete Opensearch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#delete Opensearch#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#read Opensearch#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#read Opensearch#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#update Opensearch#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#update Opensearch#update}
   */
   readonly update?: string;
 }
@@ -11621,7 +12123,7 @@ export class OpensearchTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch aiven_opensearch}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch aiven_opensearch}
 */
 export class Opensearch extends cdktf.TerraformResource {
 
@@ -11637,7 +12139,7 @@ export class Opensearch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Opensearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Opensearch to import
-  * @param importFromId The id of the existing Opensearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Opensearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Opensearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -11649,7 +12151,7 @@ export class Opensearch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/opensearch aiven_opensearch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/opensearch aiven_opensearch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -11660,8 +12162,8 @@ export class Opensearch extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_opensearch',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciGoldenGatePipelinesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#compartment_id DataOciGoldenGatePipelines#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#compartment_id DataOciGoldenGatePipelines#compartment_id}
   */
   readonly compartmentId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#display_name DataOciGoldenGatePipelines#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#display_name DataOciGoldenGatePipelines#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#id DataOciGoldenGatePipelines#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#id DataOciGoldenGatePipelines#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#lifecycle_sub_state DataOciGoldenGatePipelines#lifecycle_sub_state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#lifecycle_sub_state DataOciGoldenGatePipelines#lifecycle_sub_state}
   */
   readonly lifecycleSubState?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#state DataOciGoldenGatePipelines#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#state DataOciGoldenGatePipelines#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#filter DataOciGoldenGatePipelines#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#filter DataOciGoldenGatePipelines#filter}
   */
   readonly filter?: DataOciGoldenGatePipelinesFilter[] | cdktf.IResolvable;
 }
@@ -1072,15 +1072,15 @@ export class DataOciGoldenGatePipelinesPipelineCollectionList extends cdktf.Comp
 }
 export interface DataOciGoldenGatePipelinesFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#name DataOciGoldenGatePipelines#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#name DataOciGoldenGatePipelines#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#regex DataOciGoldenGatePipelines#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#regex DataOciGoldenGatePipelines#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#values DataOciGoldenGatePipelines#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#values DataOciGoldenGatePipelines#values}
   */
   readonly values: string[];
 }
@@ -1248,7 +1248,7 @@ export class DataOciGoldenGatePipelinesFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines oci_golden_gate_pipelines}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines oci_golden_gate_pipelines}
 */
 export class DataOciGoldenGatePipelines extends cdktf.TerraformDataSource {
 
@@ -1264,7 +1264,7 @@ export class DataOciGoldenGatePipelines extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciGoldenGatePipelines resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciGoldenGatePipelines to import
-  * @param importFromId The id of the existing DataOciGoldenGatePipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciGoldenGatePipelines that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciGoldenGatePipelines to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1276,7 +1276,7 @@ export class DataOciGoldenGatePipelines extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/golden_gate_pipelines oci_golden_gate_pipelines} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/golden_gate_pipelines oci_golden_gate_pipelines} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1287,8 +1287,8 @@ export class DataOciGoldenGatePipelines extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_golden_gate_pipelines',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

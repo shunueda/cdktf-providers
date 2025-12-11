@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface DayuL7RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Domain that the layer 7 rule works for. Valid string length ranges from 0 to 80.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#domain DayuL7Rule#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#domain DayuL7Rule#domain}
   */
   readonly domain: string;
   /**
   * HTTP Status Code. The default is `26`. Valid value ranges: [1~31]. `1` means the return value '1xx' is health. `2` means the return value '2xx' is health. `4` means the return value '3xx' is health. `8` means the return value '4xx' is health. `16` means the return value '5xx' is health. If you want multiple return codes to indicate health, need to add the corresponding values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_code DayuL7Rule#health_check_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_code DayuL7Rule#health_check_code}
   */
   readonly healthCheckCode?: number;
   /**
   * Health threshold of health check, and the default is `3`. If a success result is returned for the health check 3 consecutive times, indicates that the forwarding is normal. The value range is [2-10].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_health_num DayuL7Rule#health_check_health_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_health_num DayuL7Rule#health_check_health_num}
   */
   readonly healthCheckHealthNum?: number;
   /**
   * Interval time of health check. Valid value ranges: [10~60]sec. The default is 15 sec.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_interval DayuL7Rule#health_check_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_interval DayuL7Rule#health_check_interval}
   */
   readonly healthCheckInterval?: number;
   /**
   * Methods of health check. The default is 'HEAD', the available value are 'HEAD' and 'GET'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_method DayuL7Rule#health_check_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_method DayuL7Rule#health_check_method}
   */
   readonly healthCheckMethod?: string;
   /**
   * Path of health check. The default is `/`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_path DayuL7Rule#health_check_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_path DayuL7Rule#health_check_path}
   */
   readonly healthCheckPath?: string;
   /**
   * Indicates whether health check is enabled. The default is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_switch DayuL7Rule#health_check_switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_switch DayuL7Rule#health_check_switch}
   */
   readonly healthCheckSwitch?: boolean | cdktf.IResolvable;
   /**
   * Unhealthy threshold of health check, and the default is `3`. If the unhealthy result is returned 3 consecutive times, indicates that the forwarding is abnormal. The value range is [2-10].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#health_check_unhealth_num DayuL7Rule#health_check_unhealth_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#health_check_unhealth_num DayuL7Rule#health_check_unhealth_num}
   */
   readonly healthCheckUnhealthNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#id DayuL7Rule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#id DayuL7Rule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,55 +65,55 @@ export interface DayuL7RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#name DayuL7Rule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#name DayuL7Rule#name}
   */
   readonly name: string;
   /**
   * Protocol of the rule. Valid values: `http`, `https`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#protocol DayuL7Rule#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#protocol DayuL7Rule#protocol}
   */
   readonly protocol: string;
   /**
   * ID of the resource that the layer 7 rule works for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#resource_id DayuL7Rule#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#resource_id DayuL7Rule#resource_id}
   */
   readonly resourceId: string;
   /**
   * Type of the resource that the layer 7 rule works for, valid value is `bgpip`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#resource_type DayuL7Rule#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#resource_type DayuL7Rule#resource_type}
   */
   readonly resourceType: string;
   /**
   * Source list of the rule, it can be a set of ip sources or a set of domain sources. The number of items ranges from 1 to 16.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#source_list DayuL7Rule#source_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#source_list DayuL7Rule#source_list}
   */
   readonly sourceList: string[];
   /**
   * Source type, `1` for source of host, `2` for source of IP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#source_type DayuL7Rule#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#source_type DayuL7Rule#source_type}
   */
   readonly sourceType: number;
   /**
   * SSL ID, when the `protocol` is `https`, the field should be set with valid SSL id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#ssl_id DayuL7Rule#ssl_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#ssl_id DayuL7Rule#ssl_id}
   */
   readonly sslId?: string;
   /**
   * Indicate the rule will take effect or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#switch DayuL7Rule#switch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#switch DayuL7Rule#switch}
   */
   readonly switch: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule tencentcloud_dayu_l7_rule}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule tencentcloud_dayu_l7_rule}
 */
 export class DayuL7Rule extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class DayuL7Rule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DayuL7Rule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DayuL7Rule to import
-  * @param importFromId The id of the existing DayuL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DayuL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DayuL7Rule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class DayuL7Rule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/dayu_l7_rule tencentcloud_dayu_l7_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/dayu_l7_rule tencentcloud_dayu_l7_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class DayuL7Rule extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_dayu_l7_rule',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

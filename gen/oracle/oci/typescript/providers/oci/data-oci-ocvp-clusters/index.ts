@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciOcvpClustersConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#compartment_id DataOciOcvpClusters#compartment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#compartment_id DataOciOcvpClusters#compartment_id}
   */
   readonly compartmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#display_name DataOciOcvpClusters#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#display_name DataOciOcvpClusters#display_name}
   */
   readonly displayName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#id DataOciOcvpClusters#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#id DataOciOcvpClusters#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#sddc_id DataOciOcvpClusters#sddc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#sddc_id DataOciOcvpClusters#sddc_id}
   */
   readonly sddcId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#state DataOciOcvpClusters#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#state DataOciOcvpClusters#state}
   */
   readonly state?: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#filter DataOciOcvpClusters#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#filter DataOciOcvpClusters#filter}
   */
   readonly filter?: DataOciOcvpClustersFilter[] | cdktf.IResolvable;
 }
@@ -572,6 +572,12 @@ export class DataOciOcvpClustersClusterCollectionItemsOutputReference extends cd
     return this.getStringAttribute('state');
   }
 
+  // system_tags - computed: true, optional: false, required: false
+  private _systemTags = new cdktf.StringMap(this, "system_tags");
+  public get systemTags() {
+    return this._systemTags;
+  }
+
   // time_created - computed: true, optional: false, required: false
   public get timeCreated() {
     return this.getStringAttribute('time_created');
@@ -706,15 +712,15 @@ export class DataOciOcvpClustersClusterCollectionList extends cdktf.ComplexList 
 }
 export interface DataOciOcvpClustersFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#name DataOciOcvpClusters#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#name DataOciOcvpClusters#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#regex DataOciOcvpClusters#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#regex DataOciOcvpClusters#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#values DataOciOcvpClusters#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#values DataOciOcvpClusters#values}
   */
   readonly values: string[];
 }
@@ -882,7 +888,7 @@ export class DataOciOcvpClustersFilterList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters oci_ocvp_clusters}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters oci_ocvp_clusters}
 */
 export class DataOciOcvpClusters extends cdktf.TerraformDataSource {
 
@@ -898,7 +904,7 @@ export class DataOciOcvpClusters extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciOcvpClusters resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciOcvpClusters to import
-  * @param importFromId The id of the existing DataOciOcvpClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciOcvpClusters that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciOcvpClusters to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -910,7 +916,7 @@ export class DataOciOcvpClusters extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/ocvp_clusters oci_ocvp_clusters} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/ocvp_clusters oci_ocvp_clusters} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -921,8 +927,8 @@ export class DataOciOcvpClusters extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_ocvp_clusters',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

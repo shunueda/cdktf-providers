@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciDataintegrationWorkspaceTasksConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#fields DataOciDataintegrationWorkspaceTasks#fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#fields DataOciDataintegrationWorkspaceTasks#fields}
   */
   readonly fields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#folder_id DataOciDataintegrationWorkspaceTasks#folder_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#folder_id DataOciDataintegrationWorkspaceTasks#folder_id}
   */
   readonly folderId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#id DataOciDataintegrationWorkspaceTasks#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#id DataOciDataintegrationWorkspaceTasks#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#identifier DataOciDataintegrationWorkspaceTasks#identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#identifier DataOciDataintegrationWorkspaceTasks#identifier}
   */
   readonly identifier?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#key DataOciDataintegrationWorkspaceTasks#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#key DataOciDataintegrationWorkspaceTasks#key}
   */
   readonly key?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#name DataOciDataintegrationWorkspaceTasks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#name DataOciDataintegrationWorkspaceTasks#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#type DataOciDataintegrationWorkspaceTasks#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#type DataOciDataintegrationWorkspaceTasks#type}
   */
   readonly type?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#workspace_id DataOciDataintegrationWorkspaceTasks#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#workspace_id DataOciDataintegrationWorkspaceTasks#workspace_id}
   */
   readonly workspaceId: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#filter DataOciDataintegrationWorkspaceTasks#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#filter DataOciDataintegrationWorkspaceTasks#filter}
   */
   readonly filter?: DataOciDataintegrationWorkspaceTasksFilter[] | cdktf.IResolvable;
 }
@@ -7171,15 +7171,15 @@ export class DataOciDataintegrationWorkspaceTasksTaskSummaryCollectionList exten
 }
 export interface DataOciDataintegrationWorkspaceTasksFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#name DataOciDataintegrationWorkspaceTasks#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#name DataOciDataintegrationWorkspaceTasks#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#regex DataOciDataintegrationWorkspaceTasks#regex}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#regex DataOciDataintegrationWorkspaceTasks#regex}
   */
   readonly regex?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#values DataOciDataintegrationWorkspaceTasks#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#values DataOciDataintegrationWorkspaceTasks#values}
   */
   readonly values: string[];
 }
@@ -7347,7 +7347,7 @@ export class DataOciDataintegrationWorkspaceTasksFilterList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks oci_dataintegration_workspace_tasks}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks oci_dataintegration_workspace_tasks}
 */
 export class DataOciDataintegrationWorkspaceTasks extends cdktf.TerraformDataSource {
 
@@ -7363,7 +7363,7 @@ export class DataOciDataintegrationWorkspaceTasks extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataOciDataintegrationWorkspaceTasks resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciDataintegrationWorkspaceTasks to import
-  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciDataintegrationWorkspaceTasks that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciDataintegrationWorkspaceTasks to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -7375,7 +7375,7 @@ export class DataOciDataintegrationWorkspaceTasks extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/dataintegration_workspace_tasks oci_dataintegration_workspace_tasks} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/dataintegration_workspace_tasks oci_dataintegration_workspace_tasks} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -7386,8 +7386,8 @@ export class DataOciDataintegrationWorkspaceTasks extends cdktf.TerraformDataSou
       terraformResourceType: 'oci_dataintegration_workspace_tasks',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface SwitchLinkAggregationConfig extends cdktf.TerraformMetaArgument
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#network_id SwitchLinkAggregation#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#network_id SwitchLinkAggregation#network_id}
   */
   readonly networkId: string;
   /**
   * Array of switch or stack ports for creating aggregation group. Minimum 2 and maximum 8 ports are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#switch_ports SwitchLinkAggregation#switch_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#switch_ports SwitchLinkAggregation#switch_ports}
   */
   readonly switchPorts?: SwitchLinkAggregationSwitchPorts[] | cdktf.IResolvable;
   /**
   * Array of switch profile ports for creating aggregation group. Minimum 2 and maximum 8 ports are supported.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#switch_profile_ports SwitchLinkAggregation#switch_profile_ports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#switch_profile_ports SwitchLinkAggregation#switch_profile_ports}
   */
   readonly switchProfilePorts?: SwitchLinkAggregationSwitchProfilePorts[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface SwitchLinkAggregationSwitchPorts {
   /**
   * Port identifier of switch port. For modules, the identifier is 'SlotNumber_ModuleType_PortNumber' (Ex: '1_8X10G_1'), otherwise it is just the port number (Ex: '8').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#port_id SwitchLinkAggregation#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#port_id SwitchLinkAggregation#port_id}
   */
   readonly portId: string;
   /**
   * Serial number of the switch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#serial SwitchLinkAggregation#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#serial SwitchLinkAggregation#serial}
   */
   readonly serial: string;
 }
@@ -177,13 +177,13 @@ export interface SwitchLinkAggregationSwitchProfilePorts {
   /**
   * Port identifier of switch port. For modules, the identifier is 'SlotNumber_ModuleType_PortNumber' (Ex: '1_8X10G_1'), otherwise it is just the port number (Ex: '8').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#port_id SwitchLinkAggregation#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#port_id SwitchLinkAggregation#port_id}
   */
   readonly portId: string;
   /**
   * Profile identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#profile SwitchLinkAggregation#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#profile SwitchLinkAggregation#profile}
   */
   readonly profile: string;
 }
@@ -322,7 +322,7 @@ export class SwitchLinkAggregationSwitchProfilePortsList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation meraki_switch_link_aggregation}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation meraki_switch_link_aggregation}
 */
 export class SwitchLinkAggregation extends cdktf.TerraformResource {
 
@@ -338,7 +338,7 @@ export class SwitchLinkAggregation extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchLinkAggregation resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchLinkAggregation to import
-  * @param importFromId The id of the existing SwitchLinkAggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchLinkAggregation that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchLinkAggregation to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -350,7 +350,7 @@ export class SwitchLinkAggregation extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_link_aggregation meraki_switch_link_aggregation} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_link_aggregation meraki_switch_link_aggregation} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -361,8 +361,8 @@ export class SwitchLinkAggregation extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_link_aggregation',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

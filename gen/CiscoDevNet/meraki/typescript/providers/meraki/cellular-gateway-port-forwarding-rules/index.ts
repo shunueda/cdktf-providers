@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface CellularGatewayPortForwardingRulesConfig extends cdktf.Terrafor
   /**
   * An array of port forwarding params
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#rules CellularGatewayPortForwardingRules#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#rules CellularGatewayPortForwardingRules#rules}
   */
   readonly rules: CellularGatewayPortForwardingRulesRules[] | cdktf.IResolvable;
   /**
   * Device serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#serial CellularGatewayPortForwardingRules#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#serial CellularGatewayPortForwardingRules#serial}
   */
   readonly serial: string;
 }
@@ -24,43 +24,43 @@ export interface CellularGatewayPortForwardingRulesRules {
   /**
   * `any` or `restricted`. Specify the right to make inbound connections on the specified ports or port ranges. If `restricted`, a list of allowed IPs is mandatory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#access CellularGatewayPortForwardingRules#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#access CellularGatewayPortForwardingRules#access}
   */
   readonly access: string;
   /**
   * An array of ranges of WAN IP addresses that are allowed to make inbound connections on the specified ports or port ranges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#allowed_ips CellularGatewayPortForwardingRules#allowed_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#allowed_ips CellularGatewayPortForwardingRules#allowed_ips}
   */
   readonly allowedIps?: string[];
   /**
   * The IP address of the server or device that hosts the internal resource that you wish to make available on the WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#lan_ip CellularGatewayPortForwardingRules#lan_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#lan_ip CellularGatewayPortForwardingRules#lan_ip}
   */
   readonly lanIp: string;
   /**
   * A port or port ranges that will receive the forwarded traffic from the WAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#local_port CellularGatewayPortForwardingRules#local_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#local_port CellularGatewayPortForwardingRules#local_port}
   */
   readonly localPort: string;
   /**
   * A descriptive name for the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#name CellularGatewayPortForwardingRules#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#name CellularGatewayPortForwardingRules#name}
   */
   readonly name?: string;
   /**
   * TCP or UDP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#protocol CellularGatewayPortForwardingRules#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#protocol CellularGatewayPortForwardingRules#protocol}
   */
   readonly protocol: string;
   /**
   * A port or port ranges that will be forwarded to the host on the LAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#public_port CellularGatewayPortForwardingRules#public_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#public_port CellularGatewayPortForwardingRules#public_port}
   */
   readonly publicPort: string;
 }
@@ -335,7 +335,7 @@ export class CellularGatewayPortForwardingRulesRulesList extends cdktf.ComplexLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules}
 */
 export class CellularGatewayPortForwardingRules extends cdktf.TerraformResource {
 
@@ -351,7 +351,7 @@ export class CellularGatewayPortForwardingRules extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a CellularGatewayPortForwardingRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CellularGatewayPortForwardingRules to import
-  * @param importFromId The id of the existing CellularGatewayPortForwardingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CellularGatewayPortForwardingRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CellularGatewayPortForwardingRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -363,7 +363,7 @@ export class CellularGatewayPortForwardingRules extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/cellular_gateway_port_forwarding_rules meraki_cellular_gateway_port_forwarding_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -374,8 +374,8 @@ export class CellularGatewayPortForwardingRules extends cdktf.TerraformResource 
       terraformResourceType: 'meraki_cellular_gateway_port_forwarding_rules',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

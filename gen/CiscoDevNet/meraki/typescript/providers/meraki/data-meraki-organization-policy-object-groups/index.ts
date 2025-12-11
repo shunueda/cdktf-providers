@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_policy_object_groups
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_policy_object_groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiOrganizationPolicyObjectGroupsConfig extends cdktf.Te
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_policy_object_groups#organization_id DataMerakiOrganizationPolicyObjectGroups#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_policy_object_groups#organization_id DataMerakiOrganizationPolicyObjectGroups#organization_id}
   */
   readonly organizationId: string;
 }
@@ -106,7 +106,7 @@ export class DataMerakiOrganizationPolicyObjectGroupsItemsList extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_policy_object_groups meraki_organization_policy_object_groups}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_policy_object_groups meraki_organization_policy_object_groups}
 */
 export class DataMerakiOrganizationPolicyObjectGroups extends cdktf.TerraformDataSource {
 
@@ -122,7 +122,7 @@ export class DataMerakiOrganizationPolicyObjectGroups extends cdktf.TerraformDat
   * Generates CDKTF code for importing a DataMerakiOrganizationPolicyObjectGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiOrganizationPolicyObjectGroups to import
-  * @param importFromId The id of the existing DataMerakiOrganizationPolicyObjectGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_policy_object_groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiOrganizationPolicyObjectGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_policy_object_groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiOrganizationPolicyObjectGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -134,7 +134,7 @@ export class DataMerakiOrganizationPolicyObjectGroups extends cdktf.TerraformDat
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/organization_policy_object_groups meraki_organization_policy_object_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/organization_policy_object_groups meraki_organization_policy_object_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -145,8 +145,8 @@ export class DataMerakiOrganizationPolicyObjectGroups extends cdktf.TerraformDat
       terraformResourceType: 'meraki_organization_policy_object_groups',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

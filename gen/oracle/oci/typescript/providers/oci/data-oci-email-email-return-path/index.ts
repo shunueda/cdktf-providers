@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_return_path
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_return_path
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciEmailEmailReturnPathConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_return_path#email_return_path_id DataOciEmailEmailReturnPath#email_return_path_id}
   */
   readonly emailReturnPathId: string;
 }
@@ -109,7 +109,7 @@ export class DataOciEmailEmailReturnPathLocksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_return_path oci_email_email_return_path}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_return_path oci_email_email_return_path}
 */
 export class DataOciEmailEmailReturnPath extends cdktf.TerraformDataSource {
 
@@ -125,7 +125,7 @@ export class DataOciEmailEmailReturnPath extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciEmailEmailReturnPath resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciEmailEmailReturnPath to import
-  * @param importFromId The id of the existing DataOciEmailEmailReturnPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_return_path#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciEmailEmailReturnPath that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_return_path#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciEmailEmailReturnPath to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -137,7 +137,7 @@ export class DataOciEmailEmailReturnPath extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/email_email_return_path oci_email_email_return_path} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/email_email_return_path oci_email_email_return_path} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -148,8 +148,8 @@ export class DataOciEmailEmailReturnPath extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_email_email_return_path',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

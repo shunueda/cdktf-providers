@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface ClsCloudProductLogTaskV2Config extends cdktf.TerraformMetaArgum
   /**
   * Cloud product identification, Values: CDS, CWP, CDB, TDSQL-C, MongoDB, TDStore, DCDB, MariaDB, PostgreSQL, BH, APIS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#assumer_name ClsCloudProductLogTaskV2#assumer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#assumer_name ClsCloudProductLogTaskV2#assumer_name}
   */
   readonly assumerName: string;
   /**
@@ -28,29 +28,29 @@ export interface ClsCloudProductLogTaskV2Config extends cdktf.TerraformMetaArgum
   * - BH(all log type): overseas-polaris(Domestic sites overseas)/fsi-polaris(Domestic sites finance)/general-polaris(Domestic sites)/intl-sg-prod(International sites)
   * - APIS(all log type): gz.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#cloud_product_region ClsCloudProductLogTaskV2#cloud_product_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#cloud_product_region ClsCloudProductLogTaskV2#cloud_product_region}
   */
   readonly cloudProductRegion: string;
   /**
   * CLS target region.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#cls_region ClsCloudProductLogTaskV2#cls_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#cls_region ClsCloudProductLogTaskV2#cls_region}
   */
   readonly clsRegion: string;
   /**
   * Log configuration extension information, generally used to store additional log delivery configurations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#extend ClsCloudProductLogTaskV2#extend}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#extend ClsCloudProductLogTaskV2#extend}
   */
   readonly extend?: string;
   /**
   * Indicate whether to forcibly delete the corresponding logset and topic. If set to true, it will be forcibly deleted. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#force_delete ClsCloudProductLogTaskV2#force_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#force_delete ClsCloudProductLogTaskV2#force_delete}
   */
   readonly forceDelete?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#id ClsCloudProductLogTaskV2#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#id ClsCloudProductLogTaskV2#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,43 +59,43 @@ export interface ClsCloudProductLogTaskV2Config extends cdktf.TerraformMetaArgum
   /**
   * Instance ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#instance_id ClsCloudProductLogTaskV2#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#instance_id ClsCloudProductLogTaskV2#instance_id}
   */
   readonly instanceId: string;
   /**
   * Log type, Values: CDS-AUDIT, CDS-RISK, CDB-AUDIT, TDSQL-C-AUDIT, MongoDB-AUDIT, MongoDB-SlowLog, MongoDB-ErrorLog, TDMYSQL-SLOW, DCDB-AUDIT, DCDB-SLOW, DCDB-ERROR, MariaDB-AUDIT, MariaDB-SLOW, MariaDB-ERROR, PostgreSQL-SLOW, PostgreSQL-ERROR, PostgreSQL-AUDIT, BH-FILELOG, BH-COMMANDLOG, APIS-ACCESS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#log_type ClsCloudProductLogTaskV2#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#log_type ClsCloudProductLogTaskV2#log_type}
   */
   readonly logType: string;
   /**
   * Log set ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#logset_id ClsCloudProductLogTaskV2#logset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#logset_id ClsCloudProductLogTaskV2#logset_id}
   */
   readonly logsetId?: string;
   /**
   * Log set name, required if `logset_id` is not filled in. If the log set does not exist, it will be automatically created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#logset_name ClsCloudProductLogTaskV2#logset_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#logset_name ClsCloudProductLogTaskV2#logset_name}
   */
   readonly logsetName?: string;
   /**
   * Log theme ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#topic_id ClsCloudProductLogTaskV2#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#topic_id ClsCloudProductLogTaskV2#topic_id}
   */
   readonly topicId?: string;
   /**
   * The name of the log topic is required when `topic_id` is not filled in. If the log theme does not exist, it will be automatically created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#topic_name ClsCloudProductLogTaskV2#topic_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#topic_name ClsCloudProductLogTaskV2#topic_name}
   */
   readonly topicName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2 tencentcloud_cls_cloud_product_log_task_v2}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2 tencentcloud_cls_cloud_product_log_task_v2}
 */
 export class ClsCloudProductLogTaskV2 extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ClsCloudProductLogTaskV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClsCloudProductLogTaskV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClsCloudProductLogTaskV2 to import
-  * @param importFromId The id of the existing ClsCloudProductLogTaskV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClsCloudProductLogTaskV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClsCloudProductLogTaskV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ClsCloudProductLogTaskV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cls_cloud_product_log_task_v2 tencentcloud_cls_cloud_product_log_task_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cls_cloud_product_log_task_v2 tencentcloud_cls_cloud_product_log_task_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class ClsCloudProductLogTaskV2 extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cls_cloud_product_log_task_v2',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

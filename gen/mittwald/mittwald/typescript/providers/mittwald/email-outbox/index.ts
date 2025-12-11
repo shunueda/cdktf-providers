@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox
+// https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface EmailOutboxConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the email outbox.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox#description EmailOutbox#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox#description EmailOutbox#description}
   */
   readonly description: string;
   /**
   * The password for the email outbox. For security, it is recommended to use the 'random_password' Terraform resource to dynamically generate a secure password instead of hardcoding values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox#password EmailOutbox#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox#password EmailOutbox#password}
   */
   readonly password: string;
   /**
   * The ID of the project the email outbox belongs to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox#project_id EmailOutbox#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox#project_id EmailOutbox#project_id}
   */
   readonly projectId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox mittwald_email_outbox}
+* Represents a {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox mittwald_email_outbox}
 */
 export class EmailOutbox extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class EmailOutbox extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EmailOutbox resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EmailOutbox to import
-  * @param importFromId The id of the existing EmailOutbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EmailOutbox that should be imported. Refer to the {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EmailOutbox to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class EmailOutbox extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.4.5/docs/resources/email_outbox mittwald_email_outbox} Resource
+  * Create a new {@link https://registry.terraform.io/providers/mittwald/mittwald/1.5.0/docs/resources/email_outbox mittwald_email_outbox} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class EmailOutbox extends cdktf.TerraformResource {
       terraformResourceType: 'mittwald_email_outbox',
       terraformGeneratorMetadata: {
         providerName: 'mittwald',
-        providerVersion: '1.4.5',
-        providerVersionConstraint: '1.4.5'
+        providerVersion: '1.5.0',
+        providerVersionConstraint: '1.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

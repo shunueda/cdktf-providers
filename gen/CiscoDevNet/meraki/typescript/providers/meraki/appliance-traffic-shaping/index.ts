@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ApplianceTrafficShapingConfig extends cdktf.TerraformMetaArgume
   /**
   * The download bandwidth limit in Kbps. (0 represents no limit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping#global_bandwidth_limit_down ApplianceTrafficShaping#global_bandwidth_limit_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping#global_bandwidth_limit_down ApplianceTrafficShaping#global_bandwidth_limit_down}
   */
   readonly globalBandwidthLimitDown: number;
   /**
   * The upload bandwidth limit in Kbps. (0 represents no limit.)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping#global_bandwidth_limit_up ApplianceTrafficShaping#global_bandwidth_limit_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping#global_bandwidth_limit_up ApplianceTrafficShaping#global_bandwidth_limit_up}
   */
   readonly globalBandwidthLimitUp: number;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping#network_id ApplianceTrafficShaping#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping#network_id ApplianceTrafficShaping#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping meraki_appliance_traffic_shaping}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping meraki_appliance_traffic_shaping}
 */
 export class ApplianceTrafficShaping extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class ApplianceTrafficShaping extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplianceTrafficShaping resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceTrafficShaping to import
-  * @param importFromId The id of the existing ApplianceTrafficShaping that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceTrafficShaping that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceTrafficShaping to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class ApplianceTrafficShaping extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping meraki_appliance_traffic_shaping} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping meraki_appliance_traffic_shaping} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class ApplianceTrafficShaping extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_appliance_traffic_shaping',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

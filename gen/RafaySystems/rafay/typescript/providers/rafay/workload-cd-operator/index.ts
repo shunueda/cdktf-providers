@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator
+// https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkloadCdOperatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * always run
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#always_run WorkloadCdOperator#always_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#always_run WorkloadCdOperator#always_run}
   */
   readonly alwaysRun?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#id WorkloadCdOperator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#id WorkloadCdOperator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface WorkloadCdOperatorConfig extends cdktf.TerraformMetaArguments {
   /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#metadata WorkloadCdOperator#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#metadata WorkloadCdOperator#metadata}
   */
   readonly metadata?: WorkloadCdOperatorMetadata;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#spec WorkloadCdOperator#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#spec WorkloadCdOperator#spec}
   */
   readonly spec?: WorkloadCdOperatorSpec;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#timeouts WorkloadCdOperator#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#timeouts WorkloadCdOperator#timeouts}
   */
   readonly timeouts?: WorkloadCdOperatorTimeouts;
   /**
   * workload_decommissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_decommissions WorkloadCdOperator#workload_decommissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_decommissions WorkloadCdOperator#workload_decommissions}
   */
   readonly workloadDecommissions?: WorkloadCdOperatorWorkloadDecommissions[] | cdktf.IResolvable;
   /**
   * workload_status block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_status WorkloadCdOperator#workload_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_status WorkloadCdOperator#workload_status}
   */
   readonly workloadStatus?: WorkloadCdOperatorWorkloadStatus[] | cdktf.IResolvable;
   /**
   * workload_upserts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_upserts WorkloadCdOperator#workload_upserts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_upserts WorkloadCdOperator#workload_upserts}
   */
   readonly workloadUpserts?: WorkloadCdOperatorWorkloadUpserts[] | cdktf.IResolvable;
 }
@@ -61,7 +61,7 @@ export interface WorkloadCdOperatorMetadataCreatedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#id WorkloadCdOperator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#id WorkloadCdOperator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -70,13 +70,13 @@ export interface WorkloadCdOperatorMetadataCreatedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#is_sso_user WorkloadCdOperator#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#is_sso_user WorkloadCdOperator#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#username WorkloadCdOperator#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#username WorkloadCdOperator#username}
   */
   readonly username?: string;
 }
@@ -220,7 +220,7 @@ export interface WorkloadCdOperatorMetadataModifiedBy {
   /**
   * Id of the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#id WorkloadCdOperator#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#id WorkloadCdOperator#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -229,13 +229,13 @@ export interface WorkloadCdOperatorMetadataModifiedBy {
   /**
   * Whether person is logged in using sso
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#is_sso_user WorkloadCdOperator#is_sso_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#is_sso_user WorkloadCdOperator#is_sso_user}
   */
   readonly isSsoUser?: boolean | cdktf.IResolvable;
   /**
   * Username fo the Person
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#username WorkloadCdOperator#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#username WorkloadCdOperator#username}
   */
   readonly username?: string;
 }
@@ -379,49 +379,49 @@ export interface WorkloadCdOperatorMetadata {
   /**
   * annotations of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#annotations WorkloadCdOperator#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#annotations WorkloadCdOperator#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
   * description of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#description WorkloadCdOperator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#description WorkloadCdOperator#description}
   */
   readonly description?: string;
   /**
   * Display Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#display_name WorkloadCdOperator#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#display_name WorkloadCdOperator#display_name}
   */
   readonly displayName?: string;
   /**
   * labels of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#labels WorkloadCdOperator#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#labels WorkloadCdOperator#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#name WorkloadCdOperator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#name WorkloadCdOperator#name}
   */
   readonly name?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
   */
   readonly project?: string;
   /**
   * created_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#created_by WorkloadCdOperator#created_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#created_by WorkloadCdOperator#created_by}
   */
   readonly createdBy?: WorkloadCdOperatorMetadataCreatedBy;
   /**
   * modified_by block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#modified_by WorkloadCdOperator#modified_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#modified_by WorkloadCdOperator#modified_by}
   */
   readonly modifiedBy?: WorkloadCdOperatorMetadataModifiedBy;
 }
@@ -708,19 +708,19 @@ export class WorkloadCdOperatorMetadataOutputReference extends cdktf.ComplexObje
 }
 export interface WorkloadCdOperatorSpecCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#password WorkloadCdOperator#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#password WorkloadCdOperator#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#private_key WorkloadCdOperator#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#private_key WorkloadCdOperator#private_key}
   */
   readonly privateKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#token WorkloadCdOperator#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#token WorkloadCdOperator#token}
   */
   readonly token?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#username WorkloadCdOperator#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#username WorkloadCdOperator#username}
   */
   readonly username: string;
 }
@@ -890,103 +890,103 @@ export interface WorkloadCdOperatorSpecWorkloadHelmOptions {
   /**
   * deploy Helm artifact with atomic flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#atomic WorkloadCdOperator#atomic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#atomic WorkloadCdOperator#atomic}
   */
   readonly atomic?: boolean | cdktf.IResolvable;
   /**
   * cleanup deployed resources when chart fails to deploy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#clean_up_on_fail WorkloadCdOperator#clean_up_on_fail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#clean_up_on_fail WorkloadCdOperator#clean_up_on_fail}
   */
   readonly cleanUpOnFail?: boolean | cdktf.IResolvable;
   /**
   * custom description for the release
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#description WorkloadCdOperator#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#description WorkloadCdOperator#description}
   */
   readonly description?: string;
   /**
   * disable OpenAPI validation while deploying the YAML
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#disable_open_api_validation WorkloadCdOperator#disable_open_api_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#disable_open_api_validation WorkloadCdOperator#disable_open_api_validation}
   */
   readonly disableOpenApiValidation?: boolean | cdktf.IResolvable;
   /**
   * deploy YAML artifact with force flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#force WorkloadCdOperator#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#force WorkloadCdOperator#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * keep release history after uninstalling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#keep_history WorkloadCdOperator#keep_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#keep_history WorkloadCdOperator#keep_history}
   */
   readonly keepHistory?: boolean | cdktf.IResolvable;
   /**
   * limit Helm artifact history
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#max_history WorkloadCdOperator#max_history}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#max_history WorkloadCdOperator#max_history}
   */
   readonly maxHistory?: number;
   /**
   * deploy Helm artifact without hooks
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#no_hooks WorkloadCdOperator#no_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#no_hooks WorkloadCdOperator#no_hooks}
   */
   readonly noHooks?: boolean | cdktf.IResolvable;
   /**
   * render sub chart notes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#render_sub_chart_notes WorkloadCdOperator#render_sub_chart_notes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#render_sub_chart_notes WorkloadCdOperator#render_sub_chart_notes}
   */
   readonly renderSubChartNotes?: boolean | cdktf.IResolvable;
   /**
   * reset existing helm values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#reset_values WorkloadCdOperator#reset_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#reset_values WorkloadCdOperator#reset_values}
   */
   readonly resetValues?: boolean | cdktf.IResolvable;
   /**
   * reuse existing values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#reuse_values WorkloadCdOperator#reuse_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#reuse_values WorkloadCdOperator#reuse_values}
   */
   readonly reuseValues?: boolean | cdktf.IResolvable;
   /**
   * pass custom helm values as key=value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#set_string WorkloadCdOperator#set_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#set_string WorkloadCdOperator#set_string}
   */
   readonly setString?: string[];
   /**
   * skip deploying crds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#skip_crd WorkloadCdOperator#skip_crd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#skip_crd WorkloadCdOperator#skip_crd}
   */
   readonly skipCrd?: boolean | cdktf.IResolvable;
   /**
   * timeout for waiting for the resources to become ready
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#timeout WorkloadCdOperator#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#timeout WorkloadCdOperator#timeout}
   */
   readonly timeout?: string;
   /**
   * deploy Helm artifact with wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#wait WorkloadCdOperator#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#wait WorkloadCdOperator#wait}
   */
   readonly wait?: boolean | cdktf.IResolvable;
   /**
   * deploy Helm artifact with --wait-for-jobs flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#wait_for_jobs WorkloadCdOperator#wait_for_jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#wait_for_jobs WorkloadCdOperator#wait_for_jobs}
   */
   readonly waitForJobs?: boolean | cdktf.IResolvable;
   /**
   * uninstall Helm artifact with --wait flag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#wait_for_uninstall WorkloadCdOperator#wait_for_uninstall}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#wait_for_uninstall WorkloadCdOperator#wait_for_uninstall}
   */
   readonly waitForUninstall?: boolean | cdktf.IResolvable;
 }
@@ -1536,91 +1536,91 @@ export interface WorkloadCdOperatorSpecWorkload {
   /**
   * repository local path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#base_path WorkloadCdOperator#base_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#base_path WorkloadCdOperator#base_path}
   */
   readonly basePath?: string;
   /**
   * rafay catalog name to source chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#chart_catalog_name WorkloadCdOperator#chart_catalog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#chart_catalog_name WorkloadCdOperator#chart_catalog_name}
   */
   readonly chartCatalogName?: string;
   /**
   * rafay git repo branch to source chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#chart_git_repo_branch WorkloadCdOperator#chart_git_repo_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#chart_git_repo_branch WorkloadCdOperator#chart_git_repo_branch}
   */
   readonly chartGitRepoBranch?: string;
   /**
   * rafay git repo name to source chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#chart_git_repo_name WorkloadCdOperator#chart_git_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#chart_git_repo_name WorkloadCdOperator#chart_git_repo_name}
   */
   readonly chartGitRepoName?: string;
   /**
   * rafay git repo path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#chart_git_repo_path WorkloadCdOperator#chart_git_repo_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#chart_git_repo_path WorkloadCdOperator#chart_git_repo_path}
   */
   readonly chartGitRepoPath?: string;
   /**
   * rafay helm repo name to source chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#chart_helm_repo_name WorkloadCdOperator#chart_helm_repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#chart_helm_repo_name WorkloadCdOperator#chart_helm_repo_name}
   */
   readonly chartHelmRepoName?: string;
   /**
   * cluster names ',' separated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#cluster_names WorkloadCdOperator#cluster_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#cluster_names WorkloadCdOperator#cluster_names}
   */
   readonly clusterNames?: string;
   /**
   * workload delete action
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#delete_action WorkloadCdOperator#delete_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#delete_action WorkloadCdOperator#delete_action}
   */
   readonly deleteAction?: string;
   /**
   * helm chart name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#helm_chart_name WorkloadCdOperator#helm_chart_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#helm_chart_name WorkloadCdOperator#helm_chart_name}
   */
   readonly helmChartName: string;
   /**
   * helm chart version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#helm_chart_version WorkloadCdOperator#helm_chart_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#helm_chart_version WorkloadCdOperator#helm_chart_version}
   */
   readonly helmChartVersion: string;
   /**
   * include values from base path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#include_base_value WorkloadCdOperator#include_base_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#include_base_value WorkloadCdOperator#include_base_value}
   */
   readonly includeBaseValue?: boolean | cdktf.IResolvable;
   /**
   * workload name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#name WorkloadCdOperator#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#name WorkloadCdOperator#name}
   */
   readonly name?: string;
   /**
   * project/namespace/workload name path match pattern
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#path_match_pattern WorkloadCdOperator#path_match_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#path_match_pattern WorkloadCdOperator#path_match_pattern}
   */
   readonly pathMatchPattern: string;
   /**
   * placement labels of the cluster
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#placement_labels WorkloadCdOperator#placement_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#placement_labels WorkloadCdOperator#placement_labels}
   */
   readonly placementLabels?: { [key: string]: string };
   /**
   * helm_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#helm_options WorkloadCdOperator#helm_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#helm_options WorkloadCdOperator#helm_options}
   */
   readonly helmOptions?: WorkloadCdOperatorSpecWorkloadHelmOptions;
 }
@@ -2135,43 +2135,43 @@ export interface WorkloadCdOperatorSpec {
   /**
   * repository allow insecure connection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#insecure WorkloadCdOperator#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#insecure WorkloadCdOperator#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * repository branch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#repo_branch WorkloadCdOperator#repo_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#repo_branch WorkloadCdOperator#repo_branch}
   */
   readonly repoBranch?: string;
   /**
   * repository local path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#repo_local_path WorkloadCdOperator#repo_local_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#repo_local_path WorkloadCdOperator#repo_local_path}
   */
   readonly repoLocalPath?: string;
   /**
   * repository type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#repo_type WorkloadCdOperator#repo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#repo_type WorkloadCdOperator#repo_type}
   */
   readonly repoType?: string;
   /**
   * repository repo_url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#repo_url WorkloadCdOperator#repo_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#repo_url WorkloadCdOperator#repo_url}
   */
   readonly repoUrl: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#credentials WorkloadCdOperator#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#credentials WorkloadCdOperator#credentials}
   */
   readonly credentials?: WorkloadCdOperatorSpecCredentials;
   /**
   * workload block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload WorkloadCdOperator#workload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload WorkloadCdOperator#workload}
   */
   readonly workload?: WorkloadCdOperatorSpecWorkload[] | cdktf.IResolvable;
 }
@@ -2426,15 +2426,15 @@ export class WorkloadCdOperatorSpecOutputReference extends cdktf.ComplexObject {
 }
 export interface WorkloadCdOperatorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#create WorkloadCdOperator#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#create WorkloadCdOperator#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#delete WorkloadCdOperator#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#delete WorkloadCdOperator#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#update WorkloadCdOperator#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#update WorkloadCdOperator#update}
   */
   readonly update?: string;
 }
@@ -2588,19 +2588,19 @@ export interface WorkloadCdOperatorWorkloadDecommissions {
   /**
   * Namespace of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#namespace WorkloadCdOperator#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#namespace WorkloadCdOperator#namespace}
   */
   readonly namespace?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
   */
   readonly project?: string;
   /**
   * Workload Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_name WorkloadCdOperator#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_name WorkloadCdOperator#workload_name}
   */
   readonly workloadName?: string;
 }
@@ -2776,55 +2776,55 @@ export interface WorkloadCdOperatorWorkloadStatus {
   /**
   * deployed clusters
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#clusters WorkloadCdOperator#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#clusters WorkloadCdOperator#clusters}
   */
   readonly clusters?: string;
   /**
   * Condition Status
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#condition_status WorkloadCdOperator#condition_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#condition_status WorkloadCdOperator#condition_status}
   */
   readonly conditionStatus?: number;
   /**
   * Status message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#condition_type WorkloadCdOperator#condition_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#condition_type WorkloadCdOperator#condition_type}
   */
   readonly conditionType?: string;
   /**
   * Namespace of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#namespace WorkloadCdOperator#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#namespace WorkloadCdOperator#namespace}
   */
   readonly namespace?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
   */
   readonly project?: string;
   /**
   * Status message
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#reason WorkloadCdOperator#reason}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#reason WorkloadCdOperator#reason}
   */
   readonly reason?: string;
   /**
   * repo path of the Workload resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#repo_folder WorkloadCdOperator#repo_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#repo_folder WorkloadCdOperator#repo_folder}
   */
   readonly repoFolder?: string;
   /**
   * Workload Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_name WorkloadCdOperator#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_name WorkloadCdOperator#workload_name}
   */
   readonly workloadName?: string;
   /**
   * Workload Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_version WorkloadCdOperator#workload_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_version WorkloadCdOperator#workload_version}
   */
   readonly workloadVersion?: string;
 }
@@ -3174,19 +3174,19 @@ export interface WorkloadCdOperatorWorkloadUpserts {
   /**
   * Namespace of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#namespace WorkloadCdOperator#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#namespace WorkloadCdOperator#namespace}
   */
   readonly namespace?: string;
   /**
   * Project of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#project WorkloadCdOperator#project}
   */
   readonly project?: string;
   /**
   * Workload Name of the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#workload_name WorkloadCdOperator#workload_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#workload_name WorkloadCdOperator#workload_name}
   */
   readonly workloadName?: string;
 }
@@ -3360,7 +3360,7 @@ export class WorkloadCdOperatorWorkloadUpsertsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator rafay_workload_cd_operator}
+* Represents a {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator rafay_workload_cd_operator}
 */
 export class WorkloadCdOperator extends cdktf.TerraformResource {
 
@@ -3376,7 +3376,7 @@ export class WorkloadCdOperator extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkloadCdOperator resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkloadCdOperator to import
-  * @param importFromId The id of the existing WorkloadCdOperator that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkloadCdOperator that should be imported. Refer to the {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkloadCdOperator to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3388,7 +3388,7 @@ export class WorkloadCdOperator extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.54/docs/resources/workload_cd_operator rafay_workload_cd_operator} Resource
+  * Create a new {@link https://registry.terraform.io/providers/rafaysystems/rafay/1.1.55/docs/resources/workload_cd_operator rafay_workload_cd_operator} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3399,8 +3399,8 @@ export class WorkloadCdOperator extends cdktf.TerraformResource {
       terraformResourceType: 'rafay_workload_cd_operator',
       terraformGeneratorMetadata: {
         providerName: 'rafay',
-        providerVersion: '1.1.54',
-        providerVersionConstraint: '1.1.54'
+        providerVersion: '1.1.55',
+        providerVersionConstraint: '1.1.55'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

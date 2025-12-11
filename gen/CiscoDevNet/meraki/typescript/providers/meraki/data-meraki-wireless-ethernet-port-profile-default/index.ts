@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profile_default
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profile_default
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiWirelessEthernetPortProfileDefaultConfig extends cdkt
   /**
   * The id of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profile_default#id DataMerakiWirelessEthernetPortProfileDefault#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profile_default#id DataMerakiWirelessEthernetPortProfileDefault#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataMerakiWirelessEthernetPortProfileDefaultConfig extends cdkt
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profile_default#network_id DataMerakiWirelessEthernetPortProfileDefault#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profile_default#network_id DataMerakiWirelessEthernetPortProfileDefault#network_id}
   */
   readonly networkId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profile_default meraki_wireless_ethernet_port_profile_default}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profile_default meraki_wireless_ethernet_port_profile_default}
 */
 export class DataMerakiWirelessEthernetPortProfileDefault extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataMerakiWirelessEthernetPortProfileDefault extends cdktf.Terrafor
   * Generates CDKTF code for importing a DataMerakiWirelessEthernetPortProfileDefault resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessEthernetPortProfileDefault to import
-  * @param importFromId The id of the existing DataMerakiWirelessEthernetPortProfileDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profile_default#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessEthernetPortProfileDefault that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profile_default#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessEthernetPortProfileDefault to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataMerakiWirelessEthernetPortProfileDefault extends cdktf.Terrafor
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profile_default meraki_wireless_ethernet_port_profile_default} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profile_default meraki_wireless_ethernet_port_profile_default} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataMerakiWirelessEthernetPortProfileDefault extends cdktf.Terrafor
       terraformResourceType: 'meraki_wireless_ethernet_port_profile_default',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

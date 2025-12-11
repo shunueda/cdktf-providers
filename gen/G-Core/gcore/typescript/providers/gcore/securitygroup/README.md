@@ -1,3 +1,3 @@
 # `gcore_securitygroup`
 
-Refer to the Terraform Registry for docs: [`gcore_securitygroup`](https://registry.terraform.io/providers/g-core/gcore/0.32.4/docs/resources/securitygroup).
+Refer to the Terraform Registry for docs: [`gcore_securitygroup`](https://registry.terraform.io/providers/g-core/gcore/0.32.5/docs/resources/securitygroup).

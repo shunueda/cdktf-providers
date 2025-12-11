@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profiles
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profiles
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataMerakiWirelessEthernetPortProfilesConfig extends cdktf.Terr
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profiles#network_id DataMerakiWirelessEthernetPortProfiles#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profiles#network_id DataMerakiWirelessEthernetPortProfiles#network_id}
   */
   readonly networkId: string;
 }
@@ -283,7 +283,7 @@ export class DataMerakiWirelessEthernetPortProfilesItemsList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profiles meraki_wireless_ethernet_port_profiles}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profiles meraki_wireless_ethernet_port_profiles}
 */
 export class DataMerakiWirelessEthernetPortProfiles extends cdktf.TerraformDataSource {
 
@@ -299,7 +299,7 @@ export class DataMerakiWirelessEthernetPortProfiles extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataMerakiWirelessEthernetPortProfiles resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessEthernetPortProfiles to import
-  * @param importFromId The id of the existing DataMerakiWirelessEthernetPortProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profiles#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessEthernetPortProfiles that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profiles#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessEthernetPortProfiles to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -311,7 +311,7 @@ export class DataMerakiWirelessEthernetPortProfiles extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_ethernet_port_profiles meraki_wireless_ethernet_port_profiles} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_ethernet_port_profiles meraki_wireless_ethernet_port_profiles} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -322,8 +322,8 @@ export class DataMerakiWirelessEthernetPortProfiles extends cdktf.TerraformDataS
       terraformResourceType: 'meraki_wireless_ethernet_port_profiles',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

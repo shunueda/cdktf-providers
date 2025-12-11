@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster
+// https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CynosdbRollBackClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * The ID of cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#cluster_id CynosdbRollBackCluster#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#cluster_id CynosdbRollBackCluster#cluster_id}
   */
   readonly clusterId: string;
   /**
   * Expected rollback Time.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#expect_time CynosdbRollBackCluster#expect_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#expect_time CynosdbRollBackCluster#expect_time}
   */
   readonly expectTime?: string;
   /**
   * Expected Threshold (Obsolete).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#expect_time_thresh CynosdbRollBackCluster#expect_time_thresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#expect_time_thresh CynosdbRollBackCluster#expect_time_thresh}
   */
   readonly expectTimeThresh?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#id CynosdbRollBackCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#id CynosdbRollBackCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface CynosdbRollBackClusterConfig extends cdktf.TerraformMetaArgumen
   /**
   * Rollback ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#rollback_id CynosdbRollBackCluster#rollback_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#rollback_id CynosdbRollBackCluster#rollback_id}
   */
   readonly rollbackId: number;
   /**
   * Rollback mode by time point, full: normal; Db: fast; Table: Extreme speed (default is normal).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#rollback_mode CynosdbRollBackCluster#rollback_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#rollback_mode CynosdbRollBackCluster#rollback_mode}
   */
   readonly rollbackMode?: string;
   /**
   * Backfile policy timeRollback - Backfile by point in time snapRollback - Backfile by backup file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#rollback_strategy CynosdbRollBackCluster#rollback_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#rollback_strategy CynosdbRollBackCluster#rollback_strategy}
   */
   readonly rollbackStrategy: string;
   /**
   * rollback_databases block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#rollback_databases CynosdbRollBackCluster#rollback_databases}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#rollback_databases CynosdbRollBackCluster#rollback_databases}
   */
   readonly rollbackDatabases?: CynosdbRollBackClusterRollbackDatabases[] | cdktf.IResolvable;
   /**
   * rollback_tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#rollback_tables CynosdbRollBackCluster#rollback_tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#rollback_tables CynosdbRollBackCluster#rollback_tables}
   */
   readonly rollbackTables?: CynosdbRollBackClusterRollbackTables[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface CynosdbRollBackClusterRollbackDatabases {
   /**
   * New database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#new_database CynosdbRollBackCluster#new_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#new_database CynosdbRollBackCluster#new_database}
   */
   readonly newDatabase: string;
   /**
   * Old database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#old_database CynosdbRollBackCluster#old_database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#old_database CynosdbRollBackCluster#old_database}
   */
   readonly oldDatabase: string;
 }
@@ -214,13 +214,13 @@ export interface CynosdbRollBackClusterRollbackTablesTables {
   /**
   * New table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#new_table CynosdbRollBackCluster#new_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#new_table CynosdbRollBackCluster#new_table}
   */
   readonly newTable: string;
   /**
   * Old table name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#old_table CynosdbRollBackCluster#old_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#old_table CynosdbRollBackCluster#old_table}
   */
   readonly oldTable: string;
 }
@@ -361,13 +361,13 @@ export interface CynosdbRollBackClusterRollbackTables {
   /**
   * New database name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#database CynosdbRollBackCluster#database}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#database CynosdbRollBackCluster#database}
   */
   readonly database: string;
   /**
   * tables block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#tables CynosdbRollBackCluster#tables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#tables CynosdbRollBackCluster#tables}
   */
   readonly tables: CynosdbRollBackClusterRollbackTablesTables[] | cdktf.IResolvable;
 }
@@ -506,7 +506,7 @@ export class CynosdbRollBackClusterRollbackTablesList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster tencentcloud_cynosdb_roll_back_cluster}
+* Represents a {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster tencentcloud_cynosdb_roll_back_cluster}
 */
 export class CynosdbRollBackCluster extends cdktf.TerraformResource {
 
@@ -522,7 +522,7 @@ export class CynosdbRollBackCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CynosdbRollBackCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CynosdbRollBackCluster to import
-  * @param importFromId The id of the existing CynosdbRollBackCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CynosdbRollBackCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CynosdbRollBackCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -534,7 +534,7 @@ export class CynosdbRollBackCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.43/docs/resources/cynosdb_roll_back_cluster tencentcloud_cynosdb_roll_back_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/tencentcloudstack/tencentcloud/1.82.44/docs/resources/cynosdb_roll_back_cluster tencentcloud_cynosdb_roll_back_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,8 +545,8 @@ export class CynosdbRollBackCluster extends cdktf.TerraformResource {
       terraformResourceType: 'tencentcloud_cynosdb_roll_back_cluster',
       terraformGeneratorMetadata: {
         providerName: 'tencentcloud',
-        providerVersion: '1.82.43',
-        providerVersionConstraint: '1.82.43'
+        providerVersion: '1.82.44',
+        providerVersionConstraint: '1.82.44'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ApplianceTrafficShapingUplinkSelectionConfig extends cdktf.Terr
   /**
   * Toggle for enabling or disabling active-active AutoVPN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#active_active_auto_vpn_enabled ApplianceTrafficShapingUplinkSelection#active_active_auto_vpn_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#active_active_auto_vpn_enabled ApplianceTrafficShapingUplinkSelection#active_active_auto_vpn_enabled}
   */
   readonly activeActiveAutoVpnEnabled?: boolean | cdktf.IResolvable;
   /**
   * The default uplink. Must be a WAN interface `wanX`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#default_uplink ApplianceTrafficShapingUplinkSelection#default_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#default_uplink ApplianceTrafficShapingUplinkSelection#default_uplink}
   */
   readonly defaultUplink?: string;
   /**
   * Toggle for enabling or disabling immediate WAN failover and failback
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#failover_and_failback_immediate_enabled ApplianceTrafficShapingUplinkSelection#failover_and_failback_immediate_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#failover_and_failback_immediate_enabled ApplianceTrafficShapingUplinkSelection#failover_and_failback_immediate_enabled}
   */
   readonly failoverAndFailbackImmediateEnabled?: boolean | cdktf.IResolvable;
   /**
   * Toggle for enabling or disabling load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#load_balancing_enabled ApplianceTrafficShapingUplinkSelection#load_balancing_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#load_balancing_enabled ApplianceTrafficShapingUplinkSelection#load_balancing_enabled}
   */
   readonly loadBalancingEnabled?: boolean | cdktf.IResolvable;
   /**
   * Network ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#network_id ApplianceTrafficShapingUplinkSelection#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#network_id ApplianceTrafficShapingUplinkSelection#network_id}
   */
   readonly networkId: string;
   /**
   * Array of uplink preference rules for VPN traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#vpn_traffic_uplink_preferences ApplianceTrafficShapingUplinkSelection#vpn_traffic_uplink_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#vpn_traffic_uplink_preferences ApplianceTrafficShapingUplinkSelection#vpn_traffic_uplink_preferences}
   */
   readonly vpnTrafficUplinkPreferences?: ApplianceTrafficShapingUplinkSelectionVpnTrafficUplinkPreferences[] | cdktf.IResolvable;
   /**
   * Array of uplink preference rules for WAN traffic. Note: these preferences are shared (merged) with meraki_appliance_sdwan_internet_policies resource. It is recommended to only use one resource for these preferences, not both at the same time: Deleting this resource clears preferences created in meraki_appliance_sdwan_internet_policies, which isn't detected as a change by the provider. The same happens the other way around, but the change is detected in uplink_selection on a subsequent apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#wan_traffic_uplink_preferences ApplianceTrafficShapingUplinkSelection#wan_traffic_uplink_preferences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#wan_traffic_uplink_preferences ApplianceTrafficShapingUplinkSelection#wan_traffic_uplink_preferences}
   */
   readonly wanTrafficUplinkPreferences?: ApplianceTrafficShapingUplinkSelectionWanTrafficUplinkPreferences[] | cdktf.IResolvable;
 }
@@ -54,43 +54,43 @@ export interface ApplianceTrafficShapingUplinkSelectionVpnTrafficUplinkPreferenc
   /**
   * CIDR format address, or 'any'. E.g.: '192.168.10.0/24', '192.168.10.1' (same as '192.168.10.1/32'), '0.0.0.0/0' (same as 'any')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_cidr ApplianceTrafficShapingUplinkSelection#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_cidr ApplianceTrafficShapingUplinkSelection#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
   * FQDN format address. Currently only availabe in `destination` of `vpnTrafficUplinkPreference` object. E.g.: `www.google.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_fqdn ApplianceTrafficShapingUplinkSelection#destination_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_fqdn ApplianceTrafficShapingUplinkSelection#destination_fqdn}
   */
   readonly destinationFqdn?: string;
   /**
   * Host ID in the VLAN, should be used along with `vlan`, and not exceed the vlan subnet capacity. Currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_host ApplianceTrafficShapingUplinkSelection#destination_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_host ApplianceTrafficShapingUplinkSelection#destination_host}
   */
   readonly destinationHost?: number;
   /**
   * Meraki network ID. Currently only available under a template network, and the value should be ID of either same template network, or another template network currently. E.g.: 'L_12345678'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_network ApplianceTrafficShapingUplinkSelection#destination_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_network ApplianceTrafficShapingUplinkSelection#destination_network}
   */
   readonly destinationNetwork?: string;
   /**
   * E.g.: 'any', '0' (also means 'any'), '8080', '1-1024'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_port ApplianceTrafficShapingUplinkSelection#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_port ApplianceTrafficShapingUplinkSelection#destination_port}
   */
   readonly destinationPort?: string;
   /**
   * VLAN ID of the configured VLAN in the Meraki network. Currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_vlan ApplianceTrafficShapingUplinkSelection#destination_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_vlan ApplianceTrafficShapingUplinkSelection#destination_vlan}
   */
   readonly destinationVlan?: number;
   /**
   * ID of this applicationCategory or application type traffic filter. E.g.: 'meraki:layer7/category/1', 'meraki:layer7/application/4'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#id ApplianceTrafficShapingUplinkSelection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#id ApplianceTrafficShapingUplinkSelection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -100,44 +100,44 @@ export interface ApplianceTrafficShapingUplinkSelectionVpnTrafficUplinkPreferenc
   * Protocol of this custom type traffic filter. Must be one of: `tcp`, `udp`, `icmp`, `icmp6` or `any`
   *   - Choices: `any`, `icmp`, `icmp6`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#protocol ApplianceTrafficShapingUplinkSelection#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#protocol ApplianceTrafficShapingUplinkSelection#protocol}
   */
   readonly protocol?: string;
   /**
   * CIDR format address, or 'any'. E.g.: '192.168.10.0/24', '192.168.10.1' (same as '192.168.10.1/32'), '0.0.0.0/0' (same as 'any')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_cidr ApplianceTrafficShapingUplinkSelection#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_cidr ApplianceTrafficShapingUplinkSelection#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
   * Host ID in the VLAN, should be used along with `vlan`, and not exceed the vlan subnet capacity. Currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_host ApplianceTrafficShapingUplinkSelection#source_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_host ApplianceTrafficShapingUplinkSelection#source_host}
   */
   readonly sourceHost?: number;
   /**
   * Meraki network ID. Currently only available under a template network, and the value should be ID of either same template network, or another template network currently. E.g.: 'L_12345678'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_network ApplianceTrafficShapingUplinkSelection#source_network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_network ApplianceTrafficShapingUplinkSelection#source_network}
   */
   readonly sourceNetwork?: string;
   /**
   * E.g.: 'any', '0' (also means 'any'), '8080', '1-1024'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_port ApplianceTrafficShapingUplinkSelection#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_port ApplianceTrafficShapingUplinkSelection#source_port}
   */
   readonly sourcePort?: string;
   /**
   * VLAN ID of the configured VLAN in the Meraki network. Currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_vlan ApplianceTrafficShapingUplinkSelection#source_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_vlan ApplianceTrafficShapingUplinkSelection#source_vlan}
   */
   readonly sourceVlan?: number;
   /**
   * Type of this traffic filter. Must be one of: `applicationCategory`, `application` or `custom`
   *   - Choices: `application`, `applicationCategory`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#type ApplianceTrafficShapingUplinkSelection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#type ApplianceTrafficShapingUplinkSelection#type}
   */
   readonly type: string;
 }
@@ -630,39 +630,39 @@ export interface ApplianceTrafficShapingUplinkSelectionVpnTrafficUplinkPreferenc
   * Name of builtin performance class, must be present when performanceClass type is `builtin`, and value must be one of: `VoIP`
   *   - Choices: `VoIP`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#builtin_performance_class_name ApplianceTrafficShapingUplinkSelection#builtin_performance_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#builtin_performance_class_name ApplianceTrafficShapingUplinkSelection#builtin_performance_class_name}
   */
   readonly builtinPerformanceClassName?: string;
   /**
   * ID of created custom performance class, must be present when performanceClass type is `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#custom_performance_class_id ApplianceTrafficShapingUplinkSelection#custom_performance_class_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#custom_performance_class_id ApplianceTrafficShapingUplinkSelection#custom_performance_class_id}
   */
   readonly customPerformanceClassId?: string;
   /**
   * Fail over criterion for this uplink preference rule. Must be one of: `poorPerformance` or `uplinkDown`
   *   - Choices: `poorPerformance`, `uplinkDown`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#fail_over_criterion ApplianceTrafficShapingUplinkSelection#fail_over_criterion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#fail_over_criterion ApplianceTrafficShapingUplinkSelection#fail_over_criterion}
   */
   readonly failOverCriterion?: string;
   /**
   * Type of this performance class. Must be one of: `builtin` or `custom`
   *   - Choices: `builtin`, `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#performance_class_type ApplianceTrafficShapingUplinkSelection#performance_class_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#performance_class_type ApplianceTrafficShapingUplinkSelection#performance_class_type}
   */
   readonly performanceClassType?: string;
   /**
   * Preferred uplink for uplink preference rule. Must be one of: `wan1`, `wan2`, `bestForVoIP`, `loadBalancing` or `defaultUplink`, or any other valid uplink(`wanX`) if it applies to the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#preferred_uplink ApplianceTrafficShapingUplinkSelection#preferred_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#preferred_uplink ApplianceTrafficShapingUplinkSelection#preferred_uplink}
   */
   readonly preferredUplink: string;
   /**
   * Array of traffic filters for this uplink preference rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#traffic_filters ApplianceTrafficShapingUplinkSelection#traffic_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#traffic_filters ApplianceTrafficShapingUplinkSelection#traffic_filters}
   */
   readonly trafficFilters: ApplianceTrafficShapingUplinkSelectionVpnTrafficUplinkPreferencesTrafficFilters[] | cdktf.IResolvable;
 }
@@ -919,51 +919,51 @@ export interface ApplianceTrafficShapingUplinkSelectionWanTrafficUplinkPreferenc
   /**
   * CIDR format address, or 'any'. E.g.: '192.168.10.0/24', '192.168.10.1' (same as '192.168.10.1/32'), '0.0.0.0/0' (same as 'any')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_cidr ApplianceTrafficShapingUplinkSelection#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_cidr ApplianceTrafficShapingUplinkSelection#destination_cidr}
   */
   readonly destinationCidr?: string;
   /**
   * E.g.: 'any', '0' (also means 'any'), '8080', '1-1024'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_port ApplianceTrafficShapingUplinkSelection#destination_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#destination_port ApplianceTrafficShapingUplinkSelection#destination_port}
   */
   readonly destinationPort?: string;
   /**
   * Protocol of this custom type traffic filter. Must be one of: `tcp`, `udp`, `icmp6` or `any`
   *   - Choices: `any`, `icmp6`, `tcp`, `udp`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#protocol ApplianceTrafficShapingUplinkSelection#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#protocol ApplianceTrafficShapingUplinkSelection#protocol}
   */
   readonly protocol?: string;
   /**
   * CIDR format address, or 'any'. E.g.: '192.168.10.0/24', '192.168.10.1' (same as '192.168.10.1/32'), '0.0.0.0/0' (same as 'any')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_cidr ApplianceTrafficShapingUplinkSelection#source_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_cidr ApplianceTrafficShapingUplinkSelection#source_cidr}
   */
   readonly sourceCidr?: string;
   /**
   * Host ID in the VLAN, should be used along with `vlan`, and not exceed the vlan subnet capacity. Currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_host ApplianceTrafficShapingUplinkSelection#source_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_host ApplianceTrafficShapingUplinkSelection#source_host}
   */
   readonly sourceHost?: number;
   /**
   * E.g.: 'any', '0' (also means 'any'), '8080', '1-1024'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_port ApplianceTrafficShapingUplinkSelection#source_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_port ApplianceTrafficShapingUplinkSelection#source_port}
   */
   readonly sourcePort?: string;
   /**
   * VLAN ID of the configured VLAN in the Meraki network. Currently only available under a template network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_vlan ApplianceTrafficShapingUplinkSelection#source_vlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#source_vlan ApplianceTrafficShapingUplinkSelection#source_vlan}
   */
   readonly sourceVlan?: number;
   /**
   * Type of this traffic filter. Must be one of: `custom`
   *   - Choices: `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#type ApplianceTrafficShapingUplinkSelection#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#type ApplianceTrafficShapingUplinkSelection#type}
   */
   readonly type: string;
 }
@@ -1281,13 +1281,13 @@ export interface ApplianceTrafficShapingUplinkSelectionWanTrafficUplinkPreferenc
   /**
   * Preferred uplink for uplink preference rule. Must be one of: `wan1` or `wan2`, or any other valid uplink(`wanX`) if it applies to the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#preferred_uplink ApplianceTrafficShapingUplinkSelection#preferred_uplink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#preferred_uplink ApplianceTrafficShapingUplinkSelection#preferred_uplink}
   */
   readonly preferredUplink: string;
   /**
   * Array of traffic filters for this uplink preference rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#traffic_filters ApplianceTrafficShapingUplinkSelection#traffic_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#traffic_filters ApplianceTrafficShapingUplinkSelection#traffic_filters}
   */
   readonly trafficFilters: ApplianceTrafficShapingUplinkSelectionWanTrafficUplinkPreferencesTrafficFilters[] | cdktf.IResolvable;
 }
@@ -1426,7 +1426,7 @@ export class ApplianceTrafficShapingUplinkSelectionWanTrafficUplinkPreferencesLi
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection meraki_appliance_traffic_shaping_uplink_selection}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection meraki_appliance_traffic_shaping_uplink_selection}
 */
 export class ApplianceTrafficShapingUplinkSelection extends cdktf.TerraformResource {
 
@@ -1442,7 +1442,7 @@ export class ApplianceTrafficShapingUplinkSelection extends cdktf.TerraformResou
   * Generates CDKTF code for importing a ApplianceTrafficShapingUplinkSelection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplianceTrafficShapingUplinkSelection to import
-  * @param importFromId The id of the existing ApplianceTrafficShapingUplinkSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplianceTrafficShapingUplinkSelection that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplianceTrafficShapingUplinkSelection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1454,7 +1454,7 @@ export class ApplianceTrafficShapingUplinkSelection extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/appliance_traffic_shaping_uplink_selection meraki_appliance_traffic_shaping_uplink_selection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/appliance_traffic_shaping_uplink_selection meraki_appliance_traffic_shaping_uplink_selection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1465,8 +1465,8 @@ export class ApplianceTrafficShapingUplinkSelection extends cdktf.TerraformResou
       terraformResourceType: 'meraki_appliance_traffic_shaping_uplink_selection',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

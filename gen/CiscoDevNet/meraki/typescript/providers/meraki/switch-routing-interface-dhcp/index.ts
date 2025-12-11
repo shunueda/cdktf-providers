@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,82 +10,82 @@ export interface SwitchRoutingInterfaceDhcpConfig extends cdktf.TerraformMetaArg
   /**
   * The PXE boot server filename for the DHCP server running on the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#boot_file_name SwitchRoutingInterfaceDhcp#boot_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#boot_file_name SwitchRoutingInterfaceDhcp#boot_file_name}
   */
   readonly bootFileName?: string;
   /**
   * The PXE boot server IP for the DHCP server running on the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#boot_next_server SwitchRoutingInterfaceDhcp#boot_next_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#boot_next_server SwitchRoutingInterfaceDhcp#boot_next_server}
   */
   readonly bootNextServer?: string;
   /**
   * Enable DHCP boot options to provide PXE boot options configs for the dhcp server running on the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#boot_options_enabled SwitchRoutingInterfaceDhcp#boot_options_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#boot_options_enabled SwitchRoutingInterfaceDhcp#boot_options_enabled}
   */
   readonly bootOptionsEnabled?: boolean | cdktf.IResolvable;
   /**
   * The DHCP lease time config for the dhcp server running on switch interface (`30 minutes`, `1 hour`, `4 hours`, `12 hours`, `1 day` or `1 week`)
   *   - Choices: `1 day`, `1 hour`, `1 week`, `12 hours`, `30 minutes`, `4 hours`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#dhcp_lease_time SwitchRoutingInterfaceDhcp#dhcp_lease_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#dhcp_lease_time SwitchRoutingInterfaceDhcp#dhcp_lease_time}
   */
   readonly dhcpLeaseTime?: string;
   /**
   * The DHCP mode options for the switch interface (`dhcpDisabled`, `dhcpRelay` or `dhcpServer`)
   *   - Choices: `dhcpDisabled`, `dhcpRelay`, `dhcpServer`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#dhcp_mode SwitchRoutingInterfaceDhcp#dhcp_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#dhcp_mode SwitchRoutingInterfaceDhcp#dhcp_mode}
   */
   readonly dhcpMode?: string;
   /**
   * Array of DHCP options consisting of code, type and value for the DHCP server running on the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#dhcp_options SwitchRoutingInterfaceDhcp#dhcp_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#dhcp_options SwitchRoutingInterfaceDhcp#dhcp_options}
   */
   readonly dhcpOptions?: SwitchRoutingInterfaceDhcpDhcpOptions[] | cdktf.IResolvable;
   /**
   * The DHCP relay server IPs to which DHCP packets would get relayed for the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#dhcp_relay_server_ips SwitchRoutingInterfaceDhcp#dhcp_relay_server_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#dhcp_relay_server_ips SwitchRoutingInterfaceDhcp#dhcp_relay_server_ips}
   */
   readonly dhcpRelayServerIps?: string[];
   /**
   * The DHCP name server IPs when DHCP name server option is `custom`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#dns_custom_nameservers SwitchRoutingInterfaceDhcp#dns_custom_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#dns_custom_nameservers SwitchRoutingInterfaceDhcp#dns_custom_nameservers}
   */
   readonly dnsCustomNameservers?: string[];
   /**
   * The DHCP name server option for the dhcp server running on the switch interface (`googlePublicDns`, `openDns` or `custom`)
   *   - Choices: `custom`, `googlePublicDns`, `openDns`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#dns_nameservers_option SwitchRoutingInterfaceDhcp#dns_nameservers_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#dns_nameservers_option SwitchRoutingInterfaceDhcp#dns_nameservers_option}
   */
   readonly dnsNameserversOption?: string;
   /**
   * Array of DHCP fixed IP assignments for the DHCP server running on the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#fixed_ip_assignments SwitchRoutingInterfaceDhcp#fixed_ip_assignments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#fixed_ip_assignments SwitchRoutingInterfaceDhcp#fixed_ip_assignments}
   */
   readonly fixedIpAssignments?: SwitchRoutingInterfaceDhcpFixedIpAssignments[] | cdktf.IResolvable;
   /**
   * Interface ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#interface_id SwitchRoutingInterfaceDhcp#interface_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#interface_id SwitchRoutingInterfaceDhcp#interface_id}
   */
   readonly interfaceId: string;
   /**
   * Array of DHCP reserved IP assignments for the DHCP server running on the switch interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#reserved_ip_ranges SwitchRoutingInterfaceDhcp#reserved_ip_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#reserved_ip_ranges SwitchRoutingInterfaceDhcp#reserved_ip_ranges}
   */
   readonly reservedIpRanges?: SwitchRoutingInterfaceDhcpReservedIpRanges[] | cdktf.IResolvable;
   /**
   * Switch serial
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#serial SwitchRoutingInterfaceDhcp#serial}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#serial SwitchRoutingInterfaceDhcp#serial}
   */
   readonly serial: string;
 }
@@ -93,20 +93,20 @@ export interface SwitchRoutingInterfaceDhcpDhcpOptions {
   /**
   * The code for DHCP option which should be from 2 to 254
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#code SwitchRoutingInterfaceDhcp#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#code SwitchRoutingInterfaceDhcp#code}
   */
   readonly code: string;
   /**
   * The type of the DHCP option which should be one of (`text`, `ip`, `integer` or `hex`)
   *   - Choices: `hex`, `integer`, `ip`, `text`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#type SwitchRoutingInterfaceDhcp#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#type SwitchRoutingInterfaceDhcp#type}
   */
   readonly type: string;
   /**
   * The value of the DHCP option
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#value SwitchRoutingInterfaceDhcp#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#value SwitchRoutingInterfaceDhcp#value}
   */
   readonly value: string;
 }
@@ -273,19 +273,19 @@ export interface SwitchRoutingInterfaceDhcpFixedIpAssignments {
   /**
   * The IP address of the client which has fixed IP address assigned to it
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#ip SwitchRoutingInterfaceDhcp#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#ip SwitchRoutingInterfaceDhcp#ip}
   */
   readonly ip: string;
   /**
   * The MAC address of the client which has fixed IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#mac SwitchRoutingInterfaceDhcp#mac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#mac SwitchRoutingInterfaceDhcp#mac}
   */
   readonly mac: string;
   /**
   * The name of the client which has fixed IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#name SwitchRoutingInterfaceDhcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#name SwitchRoutingInterfaceDhcp#name}
   */
   readonly name: string;
 }
@@ -452,19 +452,19 @@ export interface SwitchRoutingInterfaceDhcpReservedIpRanges {
   /**
   * The comment for the reserved IP range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#comment SwitchRoutingInterfaceDhcp#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#comment SwitchRoutingInterfaceDhcp#comment}
   */
   readonly comment?: string;
   /**
   * The ending IP address of the reserved IP range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#end SwitchRoutingInterfaceDhcp#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#end SwitchRoutingInterfaceDhcp#end}
   */
   readonly end: string;
   /**
   * The starting IP address of the reserved IP range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#start SwitchRoutingInterfaceDhcp#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#start SwitchRoutingInterfaceDhcp#start}
   */
   readonly start: string;
 }
@@ -632,7 +632,7 @@ export class SwitchRoutingInterfaceDhcpReservedIpRangesList extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp}
 */
 export class SwitchRoutingInterfaceDhcp extends cdktf.TerraformResource {
 
@@ -648,7 +648,7 @@ export class SwitchRoutingInterfaceDhcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SwitchRoutingInterfaceDhcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SwitchRoutingInterfaceDhcp to import
-  * @param importFromId The id of the existing SwitchRoutingInterfaceDhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SwitchRoutingInterfaceDhcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SwitchRoutingInterfaceDhcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -660,7 +660,7 @@ export class SwitchRoutingInterfaceDhcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/switch_routing_interface_dhcp meraki_switch_routing_interface_dhcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -671,8 +671,8 @@ export class SwitchRoutingInterfaceDhcp extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_switch_routing_interface_dhcp',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

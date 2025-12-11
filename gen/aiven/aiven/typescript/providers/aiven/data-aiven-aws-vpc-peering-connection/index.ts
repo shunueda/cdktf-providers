@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DataAivenAwsVpcPeeringConnectionConfig extends cdktf.TerraformM
   /**
   * AWS account ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection#aws_account_id DataAivenAwsVpcPeeringConnection#aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection#aws_account_id DataAivenAwsVpcPeeringConnection#aws_account_id}
   */
   readonly awsAccountId: string;
   /**
   * AWS VPC ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection#aws_vpc_id DataAivenAwsVpcPeeringConnection#aws_vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection#aws_vpc_id DataAivenAwsVpcPeeringConnection#aws_vpc_id}
   */
   readonly awsVpcId: string;
   /**
   * The AWS region of the peered VPC, if different from the Aiven VPC region. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection#aws_vpc_region DataAivenAwsVpcPeeringConnection#aws_vpc_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection#aws_vpc_region DataAivenAwsVpcPeeringConnection#aws_vpc_region}
   */
   readonly awsVpcRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection#id DataAivenAwsVpcPeeringConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection#id DataAivenAwsVpcPeeringConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface DataAivenAwsVpcPeeringConnectionConfig extends cdktf.TerraformM
   /**
   * The ID of the Aiven VPC. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection#vpc_id DataAivenAwsVpcPeeringConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection#vpc_id DataAivenAwsVpcPeeringConnection#vpc_id}
   */
   readonly vpcId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection}
 */
 export class DataAivenAwsVpcPeeringConnection extends cdktf.TerraformDataSource {
 
@@ -57,7 +57,7 @@ export class DataAivenAwsVpcPeeringConnection extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataAivenAwsVpcPeeringConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAivenAwsVpcPeeringConnection to import
-  * @param importFromId The id of the existing DataAivenAwsVpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAivenAwsVpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAivenAwsVpcPeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class DataAivenAwsVpcPeeringConnection extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/data-sources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/data-sources/aws_vpc_peering_connection aiven_aws_vpc_peering_connection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class DataAivenAwsVpcPeeringConnection extends cdktf.TerraformDataSource 
       terraformResourceType: 'aiven_aws_vpc_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

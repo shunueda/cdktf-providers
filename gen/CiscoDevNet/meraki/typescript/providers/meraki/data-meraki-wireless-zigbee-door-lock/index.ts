@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_zigbee_door_lock
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_zigbee_door_lock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataMerakiWirelessZigbeeDoorLockConfig extends cdktf.TerraformM
   /**
   * Door lock ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_zigbee_door_lock#door_lock_id DataMerakiWirelessZigbeeDoorLock#door_lock_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_zigbee_door_lock#door_lock_id DataMerakiWirelessZigbeeDoorLock#door_lock_id}
   */
   readonly doorLockId: string;
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_zigbee_door_lock#organization_id DataMerakiWirelessZigbeeDoorLock#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_zigbee_door_lock#organization_id DataMerakiWirelessZigbeeDoorLock#organization_id}
   */
   readonly organizationId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_zigbee_door_lock meraki_wireless_zigbee_door_lock}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_zigbee_door_lock meraki_wireless_zigbee_door_lock}
 */
 export class DataMerakiWirelessZigbeeDoorLock extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataMerakiWirelessZigbeeDoorLock extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataMerakiWirelessZigbeeDoorLock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataMerakiWirelessZigbeeDoorLock to import
-  * @param importFromId The id of the existing DataMerakiWirelessZigbeeDoorLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_zigbee_door_lock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataMerakiWirelessZigbeeDoorLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_zigbee_door_lock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataMerakiWirelessZigbeeDoorLock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataMerakiWirelessZigbeeDoorLock extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/data-sources/wireless_zigbee_door_lock meraki_wireless_zigbee_door_lock} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/data-sources/wireless_zigbee_door_lock meraki_wireless_zigbee_door_lock} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataMerakiWirelessZigbeeDoorLock extends cdktf.TerraformDataSource 
       terraformResourceType: 'meraki_wireless_zigbee_door_lock',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

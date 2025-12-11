@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection
+// https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GcpVpcPeeringConnectionConfig extends cdktf.TerraformMetaArgume
   /**
   * Google Cloud project ID. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#gcp_project_id GcpVpcPeeringConnection#gcp_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#gcp_project_id GcpVpcPeeringConnection#gcp_project_id}
   */
   readonly gcpProjectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#id GcpVpcPeeringConnection#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#id GcpVpcPeeringConnection#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface GcpVpcPeeringConnectionConfig extends cdktf.TerraformMetaArgume
   /**
   * Google Cloud VPC network name. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#peer_vpc GcpVpcPeeringConnection#peer_vpc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#peer_vpc GcpVpcPeeringConnection#peer_vpc}
   */
   readonly peerVpc: string;
   /**
   * The VPC the peering connection belongs to. Changing this property forces recreation of the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#vpc_id GcpVpcPeeringConnection#vpc_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#vpc_id GcpVpcPeeringConnection#vpc_id}
   */
   readonly vpcId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#timeouts GcpVpcPeeringConnection#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#timeouts GcpVpcPeeringConnection#timeouts}
   */
   readonly timeouts?: GcpVpcPeeringConnectionTimeouts;
 }
 export interface GcpVpcPeeringConnectionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#create GcpVpcPeeringConnection#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#create GcpVpcPeeringConnection#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#default GcpVpcPeeringConnection#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#default GcpVpcPeeringConnection#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#delete GcpVpcPeeringConnection#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#delete GcpVpcPeeringConnection#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#read GcpVpcPeeringConnection#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#read GcpVpcPeeringConnection#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#update GcpVpcPeeringConnection#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#update GcpVpcPeeringConnection#update}
   */
   readonly update?: string;
 }
@@ -267,7 +267,7 @@ export class GcpVpcPeeringConnectionTimeoutsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection aiven_gcp_vpc_peering_connection}
+* Represents a {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection aiven_gcp_vpc_peering_connection}
 */
 export class GcpVpcPeeringConnection extends cdktf.TerraformResource {
 
@@ -283,7 +283,7 @@ export class GcpVpcPeeringConnection extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpVpcPeeringConnection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpVpcPeeringConnection to import
-  * @param importFromId The id of the existing GcpVpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpVpcPeeringConnection that should be imported. Refer to the {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpVpcPeeringConnection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -295,7 +295,7 @@ export class GcpVpcPeeringConnection extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.46.1/docs/resources/gcp_vpc_peering_connection aiven_gcp_vpc_peering_connection} Resource
+  * Create a new {@link https://registry.terraform.io/providers/aiven/aiven/4.48.0/docs/resources/gcp_vpc_peering_connection aiven_gcp_vpc_peering_connection} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -306,8 +306,8 @@ export class GcpVpcPeeringConnection extends cdktf.TerraformResource {
       terraformResourceType: 'aiven_gcp_vpc_peering_connection',
       terraformGeneratorMetadata: {
         providerName: 'aiven',
-        providerVersion: '4.46.1',
-        providerVersionConstraint: '4.46.1'
+        providerVersion: '4.48.0',
+        providerVersionConstraint: '4.48.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

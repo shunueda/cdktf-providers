@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile
+// https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,93 +10,93 @@ export interface OrganizationAlertsProfileConfig extends cdktf.TerraformMetaArgu
   /**
   * The threshold the metric must cross to be valid for alerting. Used only for WAN Utilization alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_bit_rate_bps OrganizationAlertsProfile#alert_condition_bit_rate_bps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_bit_rate_bps OrganizationAlertsProfile#alert_condition_bit_rate_bps}
   */
   readonly alertConditionBitRateBps?: number;
   /**
   * The total duration in seconds that the threshold should be crossed before alerting
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_duration OrganizationAlertsProfile#alert_condition_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_duration OrganizationAlertsProfile#alert_condition_duration}
   */
   readonly alertConditionDuration?: number;
   /**
   * The uplink observed for the alert. interface must be one of the following: wan1, wan2, wan3, cellular
   *   - Choices: `cellular`, `wan1`, `wan2`, `wan3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_interface OrganizationAlertsProfile#alert_condition_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_interface OrganizationAlertsProfile#alert_condition_interface}
   */
   readonly alertConditionInterface?: string;
   /**
   * The threshold the metric must cross to be valid for alerting. Used only for VoIP Jitter alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_jitter_ms OrganizationAlertsProfile#alert_condition_jitter_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_jitter_ms OrganizationAlertsProfile#alert_condition_jitter_ms}
   */
   readonly alertConditionJitterMs?: number;
   /**
   * The threshold the metric must cross to be valid for alerting. Used only for WAN Latency alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_latency_ms OrganizationAlertsProfile#alert_condition_latency_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_latency_ms OrganizationAlertsProfile#alert_condition_latency_ms}
   */
   readonly alertConditionLatencyMs?: number;
   /**
   * The threshold the metric must cross to be valid for alerting. Used only for Packet Loss alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_loss_ratio OrganizationAlertsProfile#alert_condition_loss_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_loss_ratio OrganizationAlertsProfile#alert_condition_loss_ratio}
   */
   readonly alertConditionLossRatio?: number;
   /**
   * The threshold the metric must drop below to be valid for alerting. Used only for VoIP MOS alerts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_mos OrganizationAlertsProfile#alert_condition_mos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_mos OrganizationAlertsProfile#alert_condition_mos}
   */
   readonly alertConditionMos?: number;
   /**
   * The look back period in seconds for sensing the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#alert_condition_window OrganizationAlertsProfile#alert_condition_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#alert_condition_window OrganizationAlertsProfile#alert_condition_window}
   */
   readonly alertConditionWindow?: number;
   /**
   * User supplied description of the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#description OrganizationAlertsProfile#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#description OrganizationAlertsProfile#description}
   */
   readonly description?: string;
   /**
   * Networks with these tags will be monitored for the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#network_tags OrganizationAlertsProfile#network_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#network_tags OrganizationAlertsProfile#network_tags}
   */
   readonly networkTags: string[];
   /**
   * Organization ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#organization_id OrganizationAlertsProfile#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#organization_id OrganizationAlertsProfile#organization_id}
   */
   readonly organizationId: string;
   /**
   * A list of emails that will receive information about the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#recipients_emails OrganizationAlertsProfile#recipients_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#recipients_emails OrganizationAlertsProfile#recipients_emails}
   */
   readonly recipientsEmails?: string[];
   /**
   * A list base64 encoded urls of webhook endpoints that will receive information about the alert
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#recipients_http_server_ids OrganizationAlertsProfile#recipients_http_server_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#recipients_http_server_ids OrganizationAlertsProfile#recipients_http_server_ids}
   */
   readonly recipientsHttpServerIds?: string[];
   /**
   * The alert type
   *   - Choices: `appOutage`, `voipJitter`, `voipMos`, `voipPacketLoss`, `wanLatency`, `wanPacketLoss`, `wanStatus`, `wanUtilization`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#type OrganizationAlertsProfile#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#type OrganizationAlertsProfile#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile meraki_organization_alerts_profile}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile meraki_organization_alerts_profile}
 */
 export class OrganizationAlertsProfile extends cdktf.TerraformResource {
 
@@ -112,7 +112,7 @@ export class OrganizationAlertsProfile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrganizationAlertsProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrganizationAlertsProfile to import
-  * @param importFromId The id of the existing OrganizationAlertsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrganizationAlertsProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrganizationAlertsProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -124,7 +124,7 @@ export class OrganizationAlertsProfile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.8.0/docs/resources/organization_alerts_profile meraki_organization_alerts_profile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/meraki/1.9.0/docs/resources/organization_alerts_profile meraki_organization_alerts_profile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -135,8 +135,8 @@ export class OrganizationAlertsProfile extends cdktf.TerraformResource {
       terraformResourceType: 'meraki_organization_alerts_profile',
       terraformGeneratorMetadata: {
         providerName: 'meraki',
-        providerVersion: '1.8.0',
-        providerVersionConstraint: '1.8.0'
+        providerVersion: '1.9.0',
+        providerVersionConstraint: '1.9.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

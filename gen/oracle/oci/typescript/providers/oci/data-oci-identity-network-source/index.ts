@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_network_source
+// https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_network_source
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOciIdentityNetworkSourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_network_source#network_source_id DataOciIdentityNetworkSource#network_source_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_network_source#network_source_id DataOciIdentityNetworkSource#network_source_id}
   */
   readonly networkSourceId: string;
 }
@@ -94,7 +94,7 @@ export class DataOciIdentityNetworkSourceVirtualSourceListStructList extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_network_source oci_identity_network_source}
+* Represents a {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_network_source oci_identity_network_source}
 */
 export class DataOciIdentityNetworkSource extends cdktf.TerraformDataSource {
 
@@ -110,7 +110,7 @@ export class DataOciIdentityNetworkSource extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataOciIdentityNetworkSource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOciIdentityNetworkSource to import
-  * @param importFromId The id of the existing DataOciIdentityNetworkSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_network_source#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOciIdentityNetworkSource that should be imported. Refer to the {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_network_source#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOciIdentityNetworkSource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class DataOciIdentityNetworkSource extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.27.0/docs/data-sources/identity_network_source oci_identity_network_source} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/oracle/oci/7.28.0/docs/data-sources/identity_network_source oci_identity_network_source} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class DataOciIdentityNetworkSource extends cdktf.TerraformDataSource {
       terraformResourceType: 'oci_identity_network_source',
       terraformGeneratorMetadata: {
         providerName: 'oci',
-        providerVersion: '7.27.0',
-        providerVersionConstraint: '7.27.0'
+        providerVersion: '7.28.0',
+        providerVersionConstraint: '7.28.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
