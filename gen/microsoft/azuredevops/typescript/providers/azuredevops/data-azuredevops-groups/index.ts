@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsGroupsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups#id DataAzuredevopsGroups#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups#id DataAzuredevopsGroups#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups#project_id DataAzuredevopsGroups#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups#project_id DataAzuredevopsGroups#project_id}
   */
   readonly projectId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups#timeouts DataAzuredevopsGroups#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups#timeouts DataAzuredevopsGroups#timeouts}
   */
   readonly timeouts?: DataAzuredevopsGroupsTimeouts;
 }
@@ -147,7 +147,7 @@ export class DataAzuredevopsGroupsGroupsList extends cdktf.ComplexList {
 }
 export interface DataAzuredevopsGroupsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups#read DataAzuredevopsGroups#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups#read DataAzuredevopsGroups#read}
   */
   readonly read?: string;
 }
@@ -241,7 +241,7 @@ export class DataAzuredevopsGroupsTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups azuredevops_groups}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups azuredevops_groups}
 */
 export class DataAzuredevopsGroups extends cdktf.TerraformDataSource {
 
@@ -257,7 +257,7 @@ export class DataAzuredevopsGroups extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsGroups resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsGroups to import
-  * @param importFromId The id of the existing DataAzuredevopsGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsGroups that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsGroups to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -269,7 +269,7 @@ export class DataAzuredevopsGroups extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/groups azuredevops_groups} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/groups azuredevops_groups} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -280,8 +280,8 @@ export class DataAzuredevopsGroups extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_groups',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

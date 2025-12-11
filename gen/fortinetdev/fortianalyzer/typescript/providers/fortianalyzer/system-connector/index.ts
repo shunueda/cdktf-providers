@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SystemConnectorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#cloud_orchest_refresh_interval SystemConnector#cloud_orchest_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#cloud_orchest_refresh_interval SystemConnector#cloud_orchest_refresh_interval}
   */
   readonly cloudOrchestRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#conn_refresh_interval SystemConnector#conn_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#conn_refresh_interval SystemConnector#conn_refresh_interval}
   */
   readonly connRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#conn_ssl_protocol SystemConnector#conn_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#conn_ssl_protocol SystemConnector#conn_ssl_protocol}
   */
   readonly connSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#faznotify_msg_queue_max SystemConnector#faznotify_msg_queue_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#faznotify_msg_queue_max SystemConnector#faznotify_msg_queue_max}
   */
   readonly faznotifyMsgQueueMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#faznotify_msg_timeout SystemConnector#faznotify_msg_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#faznotify_msg_timeout SystemConnector#faznotify_msg_timeout}
   */
   readonly faznotifyMsgTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#fsso_refresh_interval SystemConnector#fsso_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#fsso_refresh_interval SystemConnector#fsso_refresh_interval}
   */
   readonly fssoRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#fsso_sess_timeout SystemConnector#fsso_sess_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#fsso_sess_timeout SystemConnector#fsso_sess_timeout}
   */
   readonly fssoSessTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#id SystemConnector#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#id SystemConnector#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#px_refresh_interval SystemConnector#px_refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#px_refresh_interval SystemConnector#px_refresh_interval}
   */
   readonly pxRefreshInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#px_svr_timeout SystemConnector#px_svr_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#px_svr_timeout SystemConnector#px_svr_timeout}
   */
   readonly pxSvrTimeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector fortianalyzer_system_connector}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector fortianalyzer_system_connector}
 */
 export class SystemConnector extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SystemConnector extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemConnector resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemConnector to import
-  * @param importFromId The id of the existing SystemConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemConnector that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemConnector to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SystemConnector extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_connector fortianalyzer_system_connector} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_connector fortianalyzer_system_connector} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SystemConnector extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_connector',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

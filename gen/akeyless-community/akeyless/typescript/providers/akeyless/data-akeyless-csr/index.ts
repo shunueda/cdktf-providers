@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface DataAkeylessCsrConfig extends cdktf.TerraformMetaArguments {
   /**
   * The algorithm (RSA/Elliptic-curve) to use for generating the new key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#alg DataAkeylessCsr#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#alg DataAkeylessCsr#alg}
   */
   readonly alg?: string;
   /**
   * A comma-separated list of dns alternative names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#alt_names DataAkeylessCsr#alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#alt_names DataAkeylessCsr#alt_names}
   */
   readonly altNames?: string;
   /**
   * The certificate type to be included in the CSR certificate (ssl-client/ssl-server/certificate-signing)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#certificate_type DataAkeylessCsr#certificate_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#certificate_type DataAkeylessCsr#certificate_type}
   */
   readonly certificateType?: string;
   /**
   * The city to be included in the CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#city DataAkeylessCsr#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#city DataAkeylessCsr#city}
   */
   readonly city?: string;
   /**
   * The common name to be included in the CSR certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#common_name DataAkeylessCsr#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#common_name DataAkeylessCsr#common_name}
   */
   readonly commonName: string;
   /**
   * The country to be included in the CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#country DataAkeylessCsr#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#country DataAkeylessCsr#country}
   */
   readonly country?: string;
   /**
   * Add critical to the key usage extension (will be false if not added)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#critical DataAkeylessCsr#critical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#critical DataAkeylessCsr#critical}
   */
   readonly critical?: boolean | cdktf.IResolvable;
   /**
   * The department to be included in the CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#dep DataAkeylessCsr#dep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#dep DataAkeylessCsr#dep}
   */
   readonly dep?: string;
   /**
   * A comma-separated list of email addresses alternative names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#email_addresses DataAkeylessCsr#email_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#email_addresses DataAkeylessCsr#email_addresses}
   */
   readonly emailAddresses?: string;
   /**
   * Generate a new classic key for the csr
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#generate_key DataAkeylessCsr#generate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#generate_key DataAkeylessCsr#generate_key}
   */
   readonly generateKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#id DataAkeylessCsr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#id DataAkeylessCsr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,49 +77,49 @@ export interface DataAkeylessCsrConfig extends cdktf.TerraformMetaArguments {
   /**
   * A comma-separated list of ip addresses alternative names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#ip_addresses DataAkeylessCsr#ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#ip_addresses DataAkeylessCsr#ip_addresses}
   */
   readonly ipAddresses?: string;
   /**
   * The type of the key to generate (classic-key/dfc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#key_type DataAkeylessCsr#key_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#key_type DataAkeylessCsr#key_type}
   */
   readonly keyType?: string;
   /**
   * The classic key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#name DataAkeylessCsr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#name DataAkeylessCsr#name}
   */
   readonly name: string;
   /**
   * The organization to be included in the CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#org DataAkeylessCsr#org}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#org DataAkeylessCsr#org}
   */
   readonly org?: string;
   /**
   * The number of fragments that the item will be split into (not includes customer fragment, relevant only for dfc keys)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#split_level DataAkeylessCsr#split_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#split_level DataAkeylessCsr#split_level}
   */
   readonly splitLevel?: number;
   /**
   * The state to be included in the CSR
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#state DataAkeylessCsr#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#state DataAkeylessCsr#state}
   */
   readonly state?: string;
   /**
   * A comma-separated list of uri alternative names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#uri_sans DataAkeylessCsr#uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#uri_sans DataAkeylessCsr#uri_sans}
   */
   readonly uriSans?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr akeyless_csr}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr akeyless_csr}
 */
 export class DataAkeylessCsr extends cdktf.TerraformDataSource {
 
@@ -135,7 +135,7 @@ export class DataAkeylessCsr extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessCsr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessCsr to import
-  * @param importFromId The id of the existing DataAkeylessCsr that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessCsr that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessCsr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class DataAkeylessCsr extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/csr akeyless_csr} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/csr akeyless_csr} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class DataAkeylessCsr extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_csr',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

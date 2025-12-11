@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ResourceGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#description ResourceGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#description ResourceGroup#description}
   */
   readonly description?: string;
   /**
   * The state of the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#enabled ResourceGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#enabled ResourceGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The resource group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#name ResourceGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#name ResourceGroup#name}
   */
   readonly name: string;
   /**
   * The type of the resource group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#type ResourceGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#type ResourceGroup#type}
   */
   readonly type: string;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#group ResourceGroup#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#group ResourceGroup#group}
   */
   readonly group: ResourceGroupGroup[] | cdktf.IResolvable;
 }
@@ -42,31 +42,31 @@ export interface ResourceGroupGroupFilter {
   /**
   * The field on which to apply the predicate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#field ResourceGroup#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#field ResourceGroup#field}
   */
   readonly field: string;
   /**
   * A custom name for the filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#filter_name ResourceGroup#filter_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#filter_name ResourceGroup#filter_name}
   */
   readonly filterName: string;
   /**
   * For fields that support a tag, the key on which to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#key ResourceGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#key ResourceGroup#key}
   */
   readonly key?: string;
   /**
   * The operation that should be applied across filters/groups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#operation ResourceGroup#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#operation ResourceGroup#operation}
   */
   readonly operation: string;
   /**
   * The values that the predicate should match.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#value ResourceGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#value ResourceGroup#value}
   */
   readonly value: string[];
 }
@@ -288,19 +288,19 @@ export interface ResourceGroupGroup {
   /**
   * The operation to apply (AND/OR)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#operator ResourceGroup#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#operator ResourceGroup#operator}
   */
   readonly operator: string;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#filter ResourceGroup#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#filter ResourceGroup#filter}
   */
   readonly filter?: ResourceGroupGroupFilter[] | cdktf.IResolvable;
   /**
   * group block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#group ResourceGroup#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#group ResourceGroup#group}
   */
   readonly group: ResourceGroupGroup[] | cdktf.IResolvable;
 }
@@ -468,7 +468,7 @@ export class ResourceGroupGroupList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group lacework_resource_group}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group lacework_resource_group}
 */
 export class ResourceGroup extends cdktf.TerraformResource {
 
@@ -484,7 +484,7 @@ export class ResourceGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ResourceGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ResourceGroup to import
-  * @param importFromId The id of the existing ResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ResourceGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ResourceGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -496,7 +496,7 @@ export class ResourceGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/resource_group lacework_resource_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/resource_group lacework_resource_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -507,8 +507,8 @@ export class ResourceGroup extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_resource_group',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

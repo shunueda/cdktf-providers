@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OrgTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication scope, ex: INGEST, API, RUM ... (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#auth_scopes OrgToken#auth_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#auth_scopes OrgToken#auth_scopes}
   */
   readonly authScopes?: string[];
   /**
   * Description of the token (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#description OrgToken#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#description OrgToken#description}
   */
   readonly description?: string;
   /**
   * Flag that controls enabling the token. If set to `true`, the token is disabled, and you can't use it for authentication. Defaults to `false`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#disabled OrgToken#disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#disabled OrgToken#disabled}
   */
   readonly disabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#id OrgToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#id OrgToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,25 +35,25 @@ export interface OrgTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#name OrgToken#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#name OrgToken#name}
   */
   readonly name: string;
   /**
   * List of strings specifying where notifications will be sent when an incident occurs. See https://developers.signalfx.com/v2/docs/detector-model#notifications-models for more info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#notifications OrgToken#notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#notifications OrgToken#notifications}
   */
   readonly notifications?: string[];
   /**
   * dpm_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#dpm_limits OrgToken#dpm_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#dpm_limits OrgToken#dpm_limits}
   */
   readonly dpmLimits?: OrgTokenDpmLimits;
   /**
   * host_or_usage_limits block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#host_or_usage_limits OrgToken#host_or_usage_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#host_or_usage_limits OrgToken#host_or_usage_limits}
   */
   readonly hostOrUsageLimits?: OrgTokenHostOrUsageLimits;
 }
@@ -61,13 +61,13 @@ export interface OrgTokenDpmLimits {
   /**
   * The datapoints per minute (dpm) limit for this token. If you exceed this limit, Splunk Observability Cloud sends out an alert.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#dpm_limit OrgToken#dpm_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#dpm_limit OrgToken#dpm_limit}
   */
   readonly dpmLimit: number;
   /**
   * DPM level at which Splunk Observability Cloud sends the notification for this token. If you don't specify a notification, Splunk Observability Cloud sends the generic notification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#dpm_notification_threshold OrgToken#dpm_notification_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#dpm_notification_threshold OrgToken#dpm_notification_threshold}
   */
   readonly dpmNotificationThreshold?: number;
 }
@@ -179,49 +179,49 @@ export interface OrgTokenHostOrUsageLimits {
   /**
   * Max number of containers that can use this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#container_limit OrgToken#container_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#container_limit OrgToken#container_limit}
   */
   readonly containerLimit?: number;
   /**
   * Notification threshold for containers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#container_notification_threshold OrgToken#container_notification_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#container_notification_threshold OrgToken#container_notification_threshold}
   */
   readonly containerNotificationThreshold?: number;
   /**
   * Max number of custom metrics that can be sent with this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#custom_metrics_limit OrgToken#custom_metrics_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#custom_metrics_limit OrgToken#custom_metrics_limit}
   */
   readonly customMetricsLimit?: number;
   /**
   * Notification threshold for custom metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#custom_metrics_notification_threshold OrgToken#custom_metrics_notification_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#custom_metrics_notification_threshold OrgToken#custom_metrics_notification_threshold}
   */
   readonly customMetricsNotificationThreshold?: number;
   /**
   * Max number of high-res metrics that can be sent with this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#high_res_metrics_limit OrgToken#high_res_metrics_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#high_res_metrics_limit OrgToken#high_res_metrics_limit}
   */
   readonly highResMetricsLimit?: number;
   /**
   * Notification threshold for high-res metrics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#high_res_metrics_notification_threshold OrgToken#high_res_metrics_notification_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#high_res_metrics_notification_threshold OrgToken#high_res_metrics_notification_threshold}
   */
   readonly highResMetricsNotificationThreshold?: number;
   /**
   * Max number of hosts that can use this token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#host_limit OrgToken#host_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#host_limit OrgToken#host_limit}
   */
   readonly hostLimit?: number;
   /**
   * Notification threshold for hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#host_notification_threshold OrgToken#host_notification_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#host_notification_threshold OrgToken#host_notification_threshold}
   */
   readonly hostNotificationThreshold?: number;
 }
@@ -508,7 +508,7 @@ export class OrgTokenHostOrUsageLimitsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token signalfx_org_token}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token signalfx_org_token}
 */
 export class OrgToken extends cdktf.TerraformResource {
 
@@ -524,7 +524,7 @@ export class OrgToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OrgToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OrgToken to import
-  * @param importFromId The id of the existing OrgToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OrgToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OrgToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -536,7 +536,7 @@ export class OrgToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/org_token signalfx_org_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/org_token signalfx_org_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -547,8 +547,8 @@ export class OrgToken extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_org_token',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

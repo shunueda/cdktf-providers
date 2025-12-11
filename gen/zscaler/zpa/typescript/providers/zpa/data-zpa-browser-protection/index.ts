@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/browser_protection
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/browser_protection
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaBrowserProtectionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/browser_protection#name DataZpaBrowserProtection#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/browser_protection#name DataZpaBrowserProtection#name}
   */
   readonly name?: string;
 }
@@ -538,7 +538,7 @@ export class DataZpaBrowserProtectionCriteriaList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/browser_protection zpa_browser_protection}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/browser_protection zpa_browser_protection}
 */
 export class DataZpaBrowserProtection extends cdktf.TerraformDataSource {
 
@@ -554,7 +554,7 @@ export class DataZpaBrowserProtection extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaBrowserProtection resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaBrowserProtection to import
-  * @param importFromId The id of the existing DataZpaBrowserProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/browser_protection#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaBrowserProtection that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/browser_protection#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaBrowserProtection to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -566,7 +566,7 @@ export class DataZpaBrowserProtection extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/browser_protection zpa_browser_protection} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/browser_protection zpa_browser_protection} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -577,8 +577,8 @@ export class DataZpaBrowserProtection extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_browser_protection',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

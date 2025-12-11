@@ -28,6 +28,7 @@ export * as recordingRule from './recording-rule';
 export * as resourcePoolsConfig from './resource-pools-config';
 export * as rollupRule from './rollup-rule';
 export * as serviceAccount from './service-account';
+export * as serviceAttribute from './service-attribute';
 export * as slackAlertNotifier from './slack-alert-notifier';
 export * as slo from './slo';
 export * as team from './team';

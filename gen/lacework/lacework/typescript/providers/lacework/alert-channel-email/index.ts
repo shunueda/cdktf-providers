@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AlertChannelEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email#enabled AlertChannelEmail#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email#enabled AlertChannelEmail#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email#id AlertChannelEmail#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email#id AlertChannelEmail#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface AlertChannelEmailConfig extends cdktf.TerraformMetaArguments {
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email#name AlertChannelEmail#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email#name AlertChannelEmail#name}
   */
   readonly name: string;
   /**
   * List of email addresses that you want to receive the alerts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email#recipients AlertChannelEmail#recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email#recipients AlertChannelEmail#recipients}
   */
   readonly recipients: string[];
   /**
   * Whether to test the integration of an alert channel upon creation and modification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email#test_integration AlertChannelEmail#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email#test_integration AlertChannelEmail#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email lacework_alert_channel_email}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email lacework_alert_channel_email}
 */
 export class AlertChannelEmail extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AlertChannelEmail extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelEmail resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelEmail to import
-  * @param importFromId The id of the existing AlertChannelEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelEmail that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelEmail to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AlertChannelEmail extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_email lacework_alert_channel_email} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_email lacework_alert_channel_email} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AlertChannelEmail extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_email',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

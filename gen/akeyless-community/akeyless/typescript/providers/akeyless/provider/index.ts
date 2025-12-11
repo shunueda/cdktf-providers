@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface AkeylessProviderConfig {
   /**
   * Origin URL of the API Gateway server. This is a URL with a scheme, a hostname and a port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#api_gateway_address AkeylessProvider#api_gateway_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#api_gateway_address AkeylessProvider#api_gateway_address}
   */
   readonly apiGatewayAddress?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#alias AkeylessProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#alias AkeylessProvider#alias}
   */
   readonly alias?: string;
   /**
   * api_key_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#api_key_login AkeylessProvider#api_key_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#api_key_login AkeylessProvider#api_key_login}
   */
   readonly apiKeyLogin?: AkeylessProviderApiKeyLogin[] | cdktf.IResolvable;
   /**
   * aws_iam_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#aws_iam_login AkeylessProvider#aws_iam_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#aws_iam_login AkeylessProvider#aws_iam_login}
   */
   readonly awsIamLogin?: AkeylessProviderAwsIamLogin[] | cdktf.IResolvable;
   /**
   * azure_ad_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#azure_ad_login AkeylessProvider#azure_ad_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#azure_ad_login AkeylessProvider#azure_ad_login}
   */
   readonly azureAdLogin?: AkeylessProviderAzureAdLogin[] | cdktf.IResolvable;
   /**
   * cert_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#cert_login AkeylessProvider#cert_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#cert_login AkeylessProvider#cert_login}
   */
   readonly certLogin?: AkeylessProviderCertLogin[] | cdktf.IResolvable;
   /**
   * email_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#email_login AkeylessProvider#email_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#email_login AkeylessProvider#email_login}
   */
   readonly emailLogin?: AkeylessProviderEmailLogin[] | cdktf.IResolvable;
   /**
   * gcp_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#gcp_login AkeylessProvider#gcp_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#gcp_login AkeylessProvider#gcp_login}
   */
   readonly gcpLogin?: AkeylessProviderGcpLogin[] | cdktf.IResolvable;
   /**
   * jwt_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#jwt_login AkeylessProvider#jwt_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#jwt_login AkeylessProvider#jwt_login}
   */
   readonly jwtLogin?: AkeylessProviderJwtLogin[] | cdktf.IResolvable;
   /**
   * token_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#token_login AkeylessProvider#token_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#token_login AkeylessProvider#token_login}
   */
   readonly tokenLogin?: AkeylessProviderTokenLogin[] | cdktf.IResolvable;
   /**
   * uid_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#uid_login AkeylessProvider#uid_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#uid_login AkeylessProvider#uid_login}
   */
   readonly uidLogin?: AkeylessProviderUidLogin[] | cdktf.IResolvable;
 }
 export interface AkeylessProviderApiKeyLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_key AkeylessProvider#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_key AkeylessProvider#access_key}
   */
   readonly accessKey: string;
 }
@@ -123,7 +123,7 @@ export function akeylessProviderApiKeyLoginToHclTerraform(struct?: AkeylessProvi
 
 export interface AkeylessProviderAwsIamLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId: string;
 }
@@ -159,7 +159,7 @@ export function akeylessProviderAwsIamLoginToHclTerraform(struct?: AkeylessProvi
 
 export interface AkeylessProviderAzureAdLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId: string;
 }
@@ -195,23 +195,23 @@ export function akeylessProviderAzureAdLoginToHclTerraform(struct?: AkeylessProv
 
 export interface AkeylessProviderCertLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#cert_data AkeylessProvider#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#cert_data AkeylessProvider#cert_data}
   */
   readonly certData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#cert_file_name AkeylessProvider#cert_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#cert_file_name AkeylessProvider#cert_file_name}
   */
   readonly certFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#key_data AkeylessProvider#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#key_data AkeylessProvider#key_data}
   */
   readonly keyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#key_file_name AkeylessProvider#key_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#key_file_name AkeylessProvider#key_file_name}
   */
   readonly keyFileName?: string;
 }
@@ -275,11 +275,11 @@ export function akeylessProviderCertLoginToHclTerraform(struct?: AkeylessProvide
 
 export interface AkeylessProviderEmailLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#admin_email AkeylessProvider#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#admin_email AkeylessProvider#admin_email}
   */
   readonly adminEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#admin_password AkeylessProvider#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#admin_password AkeylessProvider#admin_password}
   */
   readonly adminPassword: string;
 }
@@ -322,11 +322,11 @@ export function akeylessProviderEmailLoginToHclTerraform(struct?: AkeylessProvid
 
 export interface AkeylessProviderGcpLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#audience AkeylessProvider#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#audience AkeylessProvider#audience}
   */
   readonly audience?: string;
 }
@@ -369,11 +369,11 @@ export function akeylessProviderGcpLoginToHclTerraform(struct?: AkeylessProvider
 
 export interface AkeylessProviderJwtLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#jwt AkeylessProvider#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#jwt AkeylessProvider#jwt}
   */
   readonly jwt: string;
 }
@@ -416,7 +416,7 @@ export function akeylessProviderJwtLoginToHclTerraform(struct?: AkeylessProvider
 
 export interface AkeylessProviderTokenLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#token AkeylessProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#token AkeylessProvider#token}
   */
   readonly token: string;
 }
@@ -452,11 +452,11 @@ export function akeylessProviderTokenLoginToHclTerraform(struct?: AkeylessProvid
 
 export interface AkeylessProviderUidLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#access_id AkeylessProvider#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#access_id AkeylessProvider#access_id}
   */
   readonly accessId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#uid_token AkeylessProvider#uid_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#uid_token AkeylessProvider#uid_token}
   */
   readonly uidToken: string;
 }
@@ -499,7 +499,7 @@ export function akeylessProviderUidLoginToHclTerraform(struct?: AkeylessProvider
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs akeyless}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs akeyless}
 */
 export class AkeylessProvider extends cdktf.TerraformProvider {
 
@@ -515,7 +515,7 @@ export class AkeylessProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a AkeylessProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AkeylessProvider to import
-  * @param importFromId The id of the existing AkeylessProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AkeylessProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AkeylessProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class AkeylessProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs akeyless} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs akeyless} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class AkeylessProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'akeyless',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       terraformProviderSource: 'akeyless-community/akeyless'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/mpls
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/mpls
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeMplsConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/mpls#device DataIosxeMpls#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/mpls#device DataIosxeMpls#device}
   */
   readonly device?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/mpls iosxe_mpls}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/mpls iosxe_mpls}
 */
 export class DataIosxeMpls extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataIosxeMpls extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeMpls resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeMpls to import
-  * @param importFromId The id of the existing DataIosxeMpls that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/mpls#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeMpls that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/mpls#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeMpls to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataIosxeMpls extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/mpls iosxe_mpls} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/mpls iosxe_mpls} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataIosxeMpls extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_mpls',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

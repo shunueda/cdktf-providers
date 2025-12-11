@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataIosxeVlanAccessMapConfig extends cdktf.TerraformMetaArgumen
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map#device DataIosxeVlanAccessMap#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map#device DataIosxeVlanAccessMap#device}
   */
   readonly device?: string;
   /**
   * Vlan access map tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map#name DataIosxeVlanAccessMap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map#name DataIosxeVlanAccessMap#name}
   */
   readonly name: string;
   /**
   * Sequence to insert to/delete from existing vlan access-map entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map#sequence DataIosxeVlanAccessMap#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map#sequence DataIosxeVlanAccessMap#sequence}
   */
   readonly sequence: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map iosxe_vlan_access_map}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map iosxe_vlan_access_map}
 */
 export class DataIosxeVlanAccessMap extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataIosxeVlanAccessMap extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeVlanAccessMap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeVlanAccessMap to import
-  * @param importFromId The id of the existing DataIosxeVlanAccessMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeVlanAccessMap that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeVlanAccessMap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataIosxeVlanAccessMap extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vlan_access_map iosxe_vlan_access_map} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vlan_access_map iosxe_vlan_access_map} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataIosxeVlanAccessMap extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_vlan_access_map',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

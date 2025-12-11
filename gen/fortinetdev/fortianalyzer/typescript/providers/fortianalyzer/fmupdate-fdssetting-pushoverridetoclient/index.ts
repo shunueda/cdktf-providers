@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface FmupdateFdssettingPushoverridetoclientConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#dynamic_sort_subtable FmupdateFdssettingPushoverridetoclient#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#dynamic_sort_subtable FmupdateFdssettingPushoverridetoclient#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#id FmupdateFdssettingPushoverridetoclient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#id FmupdateFdssettingPushoverridetoclient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#status FmupdateFdssettingPushoverridetoclient#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#status FmupdateFdssettingPushoverridetoclient#status}
   */
   readonly status?: string;
   /**
   * announce_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#announce_ip FmupdateFdssettingPushoverridetoclient#announce_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#announce_ip FmupdateFdssettingPushoverridetoclient#announce_ip}
   */
   readonly announceIp?: FmupdateFdssettingPushoverridetoclientAnnounceIp[] | cdktf.IResolvable;
 }
 export interface FmupdateFdssettingPushoverridetoclientAnnounceIp {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#id FmupdateFdssettingPushoverridetoclient#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#id FmupdateFdssettingPushoverridetoclient#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#ip FmupdateFdssettingPushoverridetoclient#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#ip FmupdateFdssettingPushoverridetoclient#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#port FmupdateFdssettingPushoverridetoclient#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#port FmupdateFdssettingPushoverridetoclient#port}
   */
   readonly port?: number;
 }
@@ -216,7 +216,7 @@ export class FmupdateFdssettingPushoverridetoclientAnnounceIpList extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient fortianalyzer_fmupdate_fdssetting_pushoverridetoclient}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient fortianalyzer_fmupdate_fdssetting_pushoverridetoclient}
 */
 export class FmupdateFdssettingPushoverridetoclient extends cdktf.TerraformResource {
 
@@ -232,7 +232,7 @@ export class FmupdateFdssettingPushoverridetoclient extends cdktf.TerraformResou
   * Generates CDKTF code for importing a FmupdateFdssettingPushoverridetoclient resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmupdateFdssettingPushoverridetoclient to import
-  * @param importFromId The id of the existing FmupdateFdssettingPushoverridetoclient that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmupdateFdssettingPushoverridetoclient that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmupdateFdssettingPushoverridetoclient to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class FmupdateFdssettingPushoverridetoclient extends cdktf.TerraformResou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fdssetting_pushoverridetoclient fortianalyzer_fmupdate_fdssetting_pushoverridetoclient} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fdssetting_pushoverridetoclient fortianalyzer_fmupdate_fdssetting_pushoverridetoclient} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class FmupdateFdssettingPushoverridetoclient extends cdktf.TerraformResou
       terraformResourceType: 'fortianalyzer_fmupdate_fdssetting_pushoverridetoclient',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

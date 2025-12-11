@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,83 +10,83 @@ export interface AuthMethodCertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access expiration date in Unix timestamp (select 0 for access without expiry date)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#access_expires AuthMethodCert#access_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#access_expires AuthMethodCert#access_expires}
   */
   readonly accessExpires?: number;
   /**
   * Subclaims to include in audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#audit_logs_claims AuthMethodCert#audit_logs_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#audit_logs_claims AuthMethodCert#audit_logs_claims}
   */
   readonly auditLogsClaims?: string[];
   /**
   * A list of names. At least one must exist in the Common Name. Supports globbing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_common_names AuthMethodCert#bound_common_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_common_names AuthMethodCert#bound_common_names}
   */
   readonly boundCommonNames?: string[];
   /**
   * A list of DNS names. At least one must exist in the SANs. Supports globbing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_dns_sans AuthMethodCert#bound_dns_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_dns_sans AuthMethodCert#bound_dns_sans}
   */
   readonly boundDnsSans?: string[];
   /**
   * A list of Email Addresses. At least one must exist in the SANs. Supports globbing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_email_sans AuthMethodCert#bound_email_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_email_sans AuthMethodCert#bound_email_sans}
   */
   readonly boundEmailSans?: string[];
   /**
   * A list of extensions formatted as 'oid:value'. Expects the extension value to be some type of ASN1 encoded string. All values much match. Supports globbing on 'value'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_extensions AuthMethodCert#bound_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_extensions AuthMethodCert#bound_extensions}
   */
   readonly boundExtensions?: string[];
   /**
   * A comma-separated CIDR block list to allow client access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_ips AuthMethodCert#bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_ips AuthMethodCert#bound_ips}
   */
   readonly boundIps?: string[];
   /**
   * A list of Organizational Units names. At least one must exist in the OU field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_organizational_units AuthMethodCert#bound_organizational_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_organizational_units AuthMethodCert#bound_organizational_units}
   */
   readonly boundOrganizationalUnits?: string[];
   /**
   * A list of URIs. At least one must exist in the SANs. Supports globbing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#bound_uri_sans AuthMethodCert#bound_uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#bound_uri_sans AuthMethodCert#bound_uri_sans}
   */
   readonly boundUriSans?: string[];
   /**
   * The certificate data in base64, if no file was provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#certificate_data AuthMethodCert#certificate_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#certificate_data AuthMethodCert#certificate_data}
   */
   readonly certificateData?: string;
   /**
   * Protection from accidental deletion of this auth method, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#delete_protection AuthMethodCert#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#delete_protection AuthMethodCert#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * enforce role-association must include sub claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#force_sub_claims AuthMethodCert#force_sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#force_sub_claims AuthMethodCert#force_sub_claims}
   */
   readonly forceSubClaims?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated CIDR block list as a trusted Gateway entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#gw_bound_ips AuthMethodCert#gw_bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#gw_bound_ips AuthMethodCert#gw_bound_ips}
   */
   readonly gwBoundIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#id AuthMethodCert#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#id AuthMethodCert#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -95,31 +95,31 @@ export interface AuthMethodCertConfig extends cdktf.TerraformMetaArguments {
   /**
   * Creds expiration time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#jwt_ttl AuthMethodCert#jwt_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#jwt_ttl AuthMethodCert#jwt_ttl}
   */
   readonly jwtTtl?: number;
   /**
   * Auth Method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#name AuthMethodCert#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#name AuthMethodCert#name}
   */
   readonly name: string;
   /**
   * A list of revoked cert ids
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#revoked_cert_ids AuthMethodCert#revoked_cert_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#revoked_cert_ids AuthMethodCert#revoked_cert_ids}
   */
   readonly revokedCertIds?: string[];
   /**
   * A unique identifier (ID) value should be configured for OIDC, OAuth2, LDAP and SAML authentication method types and is usually a value such as the email, username, or upn for example. Whenever a user logs in with a token, these authentication types issue a sub claim that contains details uniquely identifying that user. This sub claim includes a key containing the ID value that you configured, and is used to distinguish between different users from within the same organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#unique_identifier AuthMethodCert#unique_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#unique_identifier AuthMethodCert#unique_identifier}
   */
   readonly uniqueIdentifier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert akeyless_auth_method_cert}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert akeyless_auth_method_cert}
 */
 export class AuthMethodCert extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class AuthMethodCert extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthMethodCert resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthMethodCert to import
-  * @param importFromId The id of the existing AuthMethodCert that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthMethodCert that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthMethodCert to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class AuthMethodCert extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_cert akeyless_auth_method_cert} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_cert akeyless_auth_method_cert} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class AuthMethodCert extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_cert',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

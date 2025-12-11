@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,41 +8,41 @@ import * as cdktf from 'cdktf';
 
 export interface CloudBrowserIsolationBannerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#banner CloudBrowserIsolationBanner#banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#banner CloudBrowserIsolationBanner#banner}
   */
   readonly banner?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#logo CloudBrowserIsolationBanner#logo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#logo CloudBrowserIsolationBanner#logo}
   */
   readonly logo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#name CloudBrowserIsolationBanner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#name CloudBrowserIsolationBanner#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#notification_text CloudBrowserIsolationBanner#notification_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#notification_text CloudBrowserIsolationBanner#notification_text}
   */
   readonly notificationText?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#notification_title CloudBrowserIsolationBanner#notification_title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#notification_title CloudBrowserIsolationBanner#notification_title}
   */
   readonly notificationTitle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#persist CloudBrowserIsolationBanner#persist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#persist CloudBrowserIsolationBanner#persist}
   */
   readonly persist?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#primary_color CloudBrowserIsolationBanner#primary_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#primary_color CloudBrowserIsolationBanner#primary_color}
   */
   readonly primaryColor?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#text_color CloudBrowserIsolationBanner#text_color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#text_color CloudBrowserIsolationBanner#text_color}
   */
   readonly textColor?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner zpa_cloud_browser_isolation_banner}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner zpa_cloud_browser_isolation_banner}
 */
 export class CloudBrowserIsolationBanner extends cdktf.TerraformResource {
 
@@ -58,7 +58,7 @@ export class CloudBrowserIsolationBanner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CloudBrowserIsolationBanner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudBrowserIsolationBanner to import
-  * @param importFromId The id of the existing CloudBrowserIsolationBanner that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudBrowserIsolationBanner that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudBrowserIsolationBanner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -70,7 +70,7 @@ export class CloudBrowserIsolationBanner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/cloud_browser_isolation_banner zpa_cloud_browser_isolation_banner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/cloud_browser_isolation_banner zpa_cloud_browser_isolation_banner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -81,8 +81,8 @@ export class CloudBrowserIsolationBanner extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_cloud_browser_isolation_banner',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

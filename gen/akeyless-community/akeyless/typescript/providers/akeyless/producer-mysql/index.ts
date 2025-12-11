@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProducerMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * the set of root certificate authorities in base64 encoding that clients use when verifying server certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#db_server_certificates ProducerMysql#db_server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#db_server_certificates ProducerMysql#db_server_certificates}
   */
   readonly dbServerCertificates?: string;
   /**
   * Server name is used to verify the hostname on the returned certificates unless InsecureSkipVerify is given. It is also included in the client's handshake to support virtual hosting unless it is an IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#db_server_name ProducerMysql#db_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#db_server_name ProducerMysql#db_server_name}
   */
   readonly dbServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#id ProducerMysql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#id ProducerMysql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,103 +29,103 @@ export interface ProducerMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * MySQL DB name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#mysql_dbname ProducerMysql#mysql_dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#mysql_dbname ProducerMysql#mysql_dbname}
   */
   readonly mysqlDbname?: string;
   /**
   * MySQL host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#mysql_host ProducerMysql#mysql_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#mysql_host ProducerMysql#mysql_host}
   */
   readonly mysqlHost?: string;
   /**
   * MySQL password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#mysql_password ProducerMysql#mysql_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#mysql_password ProducerMysql#mysql_password}
   */
   readonly mysqlPassword?: string;
   /**
   * MySQL port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#mysql_port ProducerMysql#mysql_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#mysql_port ProducerMysql#mysql_port}
   */
   readonly mysqlPort?: string;
   /**
   * MySQL Creation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#mysql_screation_statements ProducerMysql#mysql_screation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#mysql_screation_statements ProducerMysql#mysql_screation_statements}
   */
   readonly mysqlScreationStatements?: string;
   /**
   * MySQL user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#mysql_username ProducerMysql#mysql_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#mysql_username ProducerMysql#mysql_username}
   */
   readonly mysqlUsername?: string;
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#name ProducerMysql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#name ProducerMysql#name}
   */
   readonly name: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#producer_encryption_key_name ProducerMysql#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#producer_encryption_key_name ProducerMysql#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#secure_access_bastion_issuer ProducerMysql#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#secure_access_bastion_issuer ProducerMysql#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#secure_access_db_name ProducerMysql#secure_access_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#secure_access_db_name ProducerMysql#secure_access_db_name}
   */
   readonly secureAccessDbName?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#secure_access_enable ProducerMysql#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#secure_access_enable ProducerMysql#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target DB servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#secure_access_host ProducerMysql#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#secure_access_host ProducerMysql#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#secure_access_web ProducerMysql#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#secure_access_web ProducerMysql#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#tags ProducerMysql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#tags ProducerMysql#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#target_name ProducerMysql#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#target_name ProducerMysql#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#user_ttl ProducerMysql#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#user_ttl ProducerMysql#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql akeyless_producer_mysql}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql akeyless_producer_mysql}
 */
 export class ProducerMysql extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ProducerMysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerMysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerMysql to import
-  * @param importFromId The id of the existing ProducerMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerMysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ProducerMysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mysql akeyless_producer_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mysql akeyless_producer_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class ProducerMysql extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_mysql',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

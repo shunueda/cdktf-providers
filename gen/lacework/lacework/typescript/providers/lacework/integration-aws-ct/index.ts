@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationAwsCtConfig extends cdktf.TerraformMetaArguments {
   /**
   * The state of the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#enabled IntegrationAwsCt#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#enabled IntegrationAwsCt#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#id IntegrationAwsCt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#id IntegrationAwsCt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface IntegrationAwsCtConfig extends cdktf.TerraformMetaArguments {
   /**
   * The integration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#name IntegrationAwsCt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#name IntegrationAwsCt#name}
   */
   readonly name: string;
   /**
   * The SQS Queue URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#queue_url IntegrationAwsCt#queue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#queue_url IntegrationAwsCt#queue_url}
   */
   readonly queueUrl: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#retries IntegrationAwsCt#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#retries IntegrationAwsCt#retries}
   */
   readonly retries?: number;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#credentials IntegrationAwsCt#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#credentials IntegrationAwsCt#credentials}
   */
   readonly credentials: IntegrationAwsCtCredentials;
   /**
   * org_account_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#org_account_mappings IntegrationAwsCt#org_account_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#org_account_mappings IntegrationAwsCt#org_account_mappings}
   */
   readonly orgAccountMappings?: IntegrationAwsCtOrgAccountMappings;
 }
 export interface IntegrationAwsCtCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#external_id IntegrationAwsCt#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#external_id IntegrationAwsCt#external_id}
   */
   readonly externalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#role_arn IntegrationAwsCt#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#role_arn IntegrationAwsCt#role_arn}
   */
   readonly roleArn: string;
 }
@@ -166,13 +166,13 @@ export interface IntegrationAwsCtOrgAccountMappingsMapping {
   /**
   * The list of AWS account IDs to map.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#aws_accounts IntegrationAwsCt#aws_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#aws_accounts IntegrationAwsCt#aws_accounts}
   */
   readonly awsAccounts: string[];
   /**
   * The Lacework account name where the CloudTrail activity from the selected AWS accounts will appear.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#lacework_account IntegrationAwsCt#lacework_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#lacework_account IntegrationAwsCt#lacework_account}
   */
   readonly laceworkAccount: string;
 }
@@ -313,13 +313,13 @@ export interface IntegrationAwsCtOrgAccountMappings {
   /**
   * The default Lacework account name where any non-mapped AWS account will appear
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#default_lacework_account IntegrationAwsCt#default_lacework_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#default_lacework_account IntegrationAwsCt#default_lacework_account}
   */
   readonly defaultLaceworkAccount: string;
   /**
   * mapping block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#mapping IntegrationAwsCt#mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#mapping IntegrationAwsCt#mapping}
   */
   readonly mapping: IntegrationAwsCtOrgAccountMappingsMapping[] | cdktf.IResolvable;
 }
@@ -426,7 +426,7 @@ export class IntegrationAwsCtOrgAccountMappingsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct lacework_integration_aws_ct}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct lacework_integration_aws_ct}
 */
 export class IntegrationAwsCt extends cdktf.TerraformResource {
 
@@ -442,7 +442,7 @@ export class IntegrationAwsCt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAwsCt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAwsCt to import
-  * @param importFromId The id of the existing IntegrationAwsCt that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAwsCt that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAwsCt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -454,7 +454,7 @@ export class IntegrationAwsCt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_ct lacework_integration_aws_ct} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_ct lacework_integration_aws_ct} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -465,8 +465,8 @@ export class IntegrationAwsCt extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_aws_ct',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

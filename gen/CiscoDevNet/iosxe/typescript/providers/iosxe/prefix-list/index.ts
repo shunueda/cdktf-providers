@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PrefixListConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#device PrefixList#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#device PrefixList#device}
   */
   readonly device?: string;
   /**
   * Describe about prefix-list entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#prefix_list_description PrefixList#prefix_list_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#prefix_list_description PrefixList#prefix_list_description}
   */
   readonly prefixListDescription?: PrefixListPrefixListDescription[] | cdktf.IResolvable;
   /**
   * Build prefix-lists with name ans seq.no
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#prefixes PrefixList#prefixes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#prefixes PrefixList#prefixes}
   */
   readonly prefixes?: PrefixListPrefixes[] | cdktf.IResolvable;
 }
@@ -30,11 +30,11 @@ export interface PrefixListPrefixListDescription {
   /**
   * Prefix-list specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#description PrefixList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#description PrefixList#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#name PrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#name PrefixList#name}
   */
   readonly name: string;
 }
@@ -179,40 +179,40 @@ export interface PrefixListPrefixes {
   * Specify deny or permit action
   *   - Choices: `deny`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#action PrefixList#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#action PrefixList#action}
   */
   readonly action?: string;
   /**
   * Minimum prefix length to be matched
   *   - Range: `1`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#ge PrefixList#ge}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#ge PrefixList#ge}
   */
   readonly ge?: number;
   /**
   * IPv4 Prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#ip PrefixList#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#ip PrefixList#ip}
   */
   readonly ip?: string;
   /**
   * Maximum prefix length to be matched
   *   - Range: `1`-`32`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#le PrefixList#le}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#le PrefixList#le}
   */
   readonly le?: number;
   /**
   * Name of the prefix-list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#name PrefixList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#name PrefixList#name}
   */
   readonly name: string;
   /**
   * Seq Number of the prefix-list
   *   - Range: `1`-`4294967294`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#seq PrefixList#seq}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#seq PrefixList#seq}
   */
   readonly seq: number;
 }
@@ -467,7 +467,7 @@ export class PrefixListPrefixesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list iosxe_prefix_list}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list iosxe_prefix_list}
 */
 export class PrefixList extends cdktf.TerraformResource {
 
@@ -483,7 +483,7 @@ export class PrefixList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrefixList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrefixList to import
-  * @param importFromId The id of the existing PrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrefixList that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrefixList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -495,7 +495,7 @@ export class PrefixList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/prefix_list iosxe_prefix_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/prefix_list iosxe_prefix_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -506,8 +506,8 @@ export class PrefixList extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_prefix_list',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

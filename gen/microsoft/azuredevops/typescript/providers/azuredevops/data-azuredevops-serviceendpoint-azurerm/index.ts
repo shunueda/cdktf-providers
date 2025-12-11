@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,36 +8,36 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsServiceendpointAzurermConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#id DataAzuredevopsServiceendpointAzurerm#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#id DataAzuredevopsServiceendpointAzurerm#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#project_id DataAzuredevopsServiceendpointAzurerm#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#project_id DataAzuredevopsServiceendpointAzurerm#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the serviceendpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#service_endpoint_id DataAzuredevopsServiceendpointAzurerm#service_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#service_endpoint_id DataAzuredevopsServiceendpointAzurerm#service_endpoint_id}
   */
   readonly serviceEndpointId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#service_endpoint_name DataAzuredevopsServiceendpointAzurerm#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#service_endpoint_name DataAzuredevopsServiceendpointAzurerm#service_endpoint_name}
   */
   readonly serviceEndpointName?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#timeouts DataAzuredevopsServiceendpointAzurerm#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#timeouts DataAzuredevopsServiceendpointAzurerm#timeouts}
   */
   readonly timeouts?: DataAzuredevopsServiceendpointAzurermTimeouts;
 }
 export interface DataAzuredevopsServiceendpointAzurermTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#read DataAzuredevopsServiceendpointAzurerm#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#read DataAzuredevopsServiceendpointAzurerm#read}
   */
   readonly read?: string;
 }
@@ -131,7 +131,7 @@ export class DataAzuredevopsServiceendpointAzurermTimeoutsOutputReference extend
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm azuredevops_serviceendpoint_azurerm}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm azuredevops_serviceendpoint_azurerm}
 */
 export class DataAzuredevopsServiceendpointAzurerm extends cdktf.TerraformDataSource {
 
@@ -147,7 +147,7 @@ export class DataAzuredevopsServiceendpointAzurerm extends cdktf.TerraformDataSo
   * Generates CDKTF code for importing a DataAzuredevopsServiceendpointAzurerm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsServiceendpointAzurerm to import
-  * @param importFromId The id of the existing DataAzuredevopsServiceendpointAzurerm that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsServiceendpointAzurerm that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsServiceendpointAzurerm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class DataAzuredevopsServiceendpointAzurerm extends cdktf.TerraformDataSo
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/serviceendpoint_azurerm azuredevops_serviceendpoint_azurerm} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/serviceendpoint_azurerm azuredevops_serviceendpoint_azurerm} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class DataAzuredevopsServiceendpointAzurerm extends cdktf.TerraformDataSo
       terraformResourceType: 'azuredevops_serviceendpoint_azurerm',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

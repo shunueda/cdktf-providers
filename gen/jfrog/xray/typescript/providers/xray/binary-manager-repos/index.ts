@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos
+// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface BinaryManagerReposConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the binary manager, e.g. 'default'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#id BinaryManagerRepos#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#id BinaryManagerRepos#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface BinaryManagerReposConfig extends cdktf.TerraformMetaArguments {
   /**
   * Repositories to be indexed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#indexed_repos BinaryManagerRepos#indexed_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#indexed_repos BinaryManagerRepos#indexed_repos}
   */
   readonly indexedRepos: BinaryManagerReposIndexedRepos[] | cdktf.IResolvable;
   /**
   * For Xray version 3.21.2 and above with Projects, a Project Admin with Index Resources privilege can maintain the indexed and not indexed repositories in a given binary manger using this resource in the scope of a project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#project_key BinaryManagerRepos#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#project_key BinaryManagerRepos#project_key}
   */
   readonly projectKey?: string;
 }
@@ -33,19 +33,19 @@ export interface BinaryManagerReposIndexedRepos {
   /**
   * Name of the repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#name BinaryManagerRepos#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#name BinaryManagerRepos#name}
   */
   readonly name: string;
   /**
   * Artifactory package type. Valid value: Alpine Linux, Bower, Cargo, Composer, CocoaPods, Conan, Conda, CRAN, Debian, Docker, Gems, Generic, Go, Gradle, HuggingFaceML, Ivy, Maven, npm, NuGet, OCI, Pypi, RPM, SBT, TerraformBackend
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#package_type BinaryManagerRepos#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#package_type BinaryManagerRepos#package_type}
   */
   readonly packageType: string;
   /**
   * Repository type. Valid value: local, remote, federated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#type BinaryManagerRepos#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#type BinaryManagerRepos#type}
   */
   readonly type: string;
 }
@@ -210,15 +210,15 @@ export class BinaryManagerReposIndexedReposList extends cdktf.ComplexList {
 }
 export interface BinaryManagerReposNonIndexedRepos {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#name BinaryManagerRepos#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#name BinaryManagerRepos#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#package_type BinaryManagerRepos#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#package_type BinaryManagerRepos#package_type}
   */
   readonly packageType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#type BinaryManagerRepos#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#type BinaryManagerRepos#type}
   */
   readonly type: string;
 }
@@ -373,7 +373,7 @@ export class BinaryManagerReposNonIndexedReposList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos xray_binary_manager_repos}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos xray_binary_manager_repos}
 */
 export class BinaryManagerRepos extends cdktf.TerraformResource {
 
@@ -389,7 +389,7 @@ export class BinaryManagerRepos extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BinaryManagerRepos resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BinaryManagerRepos to import
-  * @param importFromId The id of the existing BinaryManagerRepos that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BinaryManagerRepos that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BinaryManagerRepos to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -401,7 +401,7 @@ export class BinaryManagerRepos extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/binary_manager_repos xray_binary_manager_repos} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/binary_manager_repos xray_binary_manager_repos} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -412,8 +412,8 @@ export class BinaryManagerRepos extends cdktf.TerraformResource {
       terraformResourceType: 'xray_binary_manager_repos',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

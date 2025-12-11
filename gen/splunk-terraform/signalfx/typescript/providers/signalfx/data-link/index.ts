@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The dashobard ID to which this data link will be applied
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#context_dashboard_id DataLink#context_dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#context_dashboard_id DataLink#context_dashboard_id}
   */
   readonly contextDashboardId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#id DataLink#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#id DataLink#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface DataLinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name (key) of the metadata that's the trigger of a data link. If you specify `property_value`, you must specify `property_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#property_name DataLink#property_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#property_name DataLink#property_name}
   */
   readonly propertyName?: string;
   /**
   * Value of the metadata that's the trigger of a data link. If you specify this property, you must also specify `property_name`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#property_value DataLink#property_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#property_value DataLink#property_value}
   */
   readonly propertyValue?: string;
   /**
   * target_appd_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#target_appd_url DataLink#target_appd_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#target_appd_url DataLink#target_appd_url}
   */
   readonly targetAppdUrl?: DataLinkTargetAppdUrl[] | cdktf.IResolvable;
   /**
   * target_external_url block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#target_external_url DataLink#target_external_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#target_external_url DataLink#target_external_url}
   */
   readonly targetExternalUrl?: DataLinkTargetExternalUrl[] | cdktf.IResolvable;
   /**
   * target_signalfx_dashboard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#target_signalfx_dashboard DataLink#target_signalfx_dashboard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#target_signalfx_dashboard DataLink#target_signalfx_dashboard}
   */
   readonly targetSignalfxDashboard?: DataLinkTargetSignalfxDashboard[] | cdktf.IResolvable;
   /**
   * target_splunk block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#target_splunk DataLink#target_splunk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#target_splunk DataLink#target_splunk}
   */
   readonly targetSplunk?: DataLinkTargetSplunk[] | cdktf.IResolvable;
 }
@@ -61,13 +61,13 @@ export interface DataLinkTargetAppdUrl {
   /**
   * User-assigned target name. Use this value to differentiate between the link targets for a data link object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#name DataLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#name DataLink#name}
   */
   readonly name: string;
   /**
   * URL string for an AppDyanmics data link target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#url DataLink#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#url DataLink#url}
   */
   readonly url: string;
 }
@@ -208,31 +208,31 @@ export interface DataLinkTargetExternalUrl {
   /**
   * The minimum time window for a search sent to an external site. Depends on the value set for `time_format`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#minimum_time_window DataLink#minimum_time_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#minimum_time_window DataLink#minimum_time_window}
   */
   readonly minimumTimeWindow?: string;
   /**
   * User-assigned target name. Use this value to differentiate between the link targets for a data link object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#name DataLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#name DataLink#name}
   */
   readonly name: string;
   /**
   * Describes the relationship between Splunk Observability Cloud metadata keys and external system properties when the key names are different
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#property_key_mapping DataLink#property_key_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#property_key_mapping DataLink#property_key_mapping}
   */
   readonly propertyKeyMapping?: { [key: string]: string };
   /**
   * Designates the format of minimumTimeWindow in the same data link target object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#time_format DataLink#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#time_format DataLink#time_format}
   */
   readonly timeFormat?: string;
   /**
   * URL string for a Splunk instance or external system data link target.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#url DataLink#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#url DataLink#url}
   */
   readonly url: string;
 }
@@ -460,25 +460,25 @@ export interface DataLinkTargetSignalfxDashboard {
   /**
   * SignalFx-assigned ID of the dashboard link target's dashboard group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#dashboard_group_id DataLink#dashboard_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#dashboard_group_id DataLink#dashboard_group_id}
   */
   readonly dashboardGroupId: string;
   /**
   * SignalFx-assigned ID of the dashboard link target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#dashboard_id DataLink#dashboard_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#dashboard_id DataLink#dashboard_id}
   */
   readonly dashboardId: string;
   /**
   * Flag that designates a target as the default for a data link object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#is_default DataLink#is_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#is_default DataLink#is_default}
   */
   readonly isDefault?: boolean | cdktf.IResolvable;
   /**
   * User-assigned target name. Use this value to differentiate between the link targets for a data link object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#name DataLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#name DataLink#name}
   */
   readonly name: string;
 }
@@ -674,13 +674,13 @@ export interface DataLinkTargetSplunk {
   /**
   * User-assigned target name. Use this value to differentiate between the link targets for a data link object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#name DataLink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#name DataLink#name}
   */
   readonly name: string;
   /**
   * Describes the relationship between Splunk Observability Cloud metadata keys and external system properties when the key names are different
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#property_key_mapping DataLink#property_key_mapping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#property_key_mapping DataLink#property_key_mapping}
   */
   readonly propertyKeyMapping?: { [key: string]: string };
 }
@@ -822,7 +822,7 @@ export class DataLinkTargetSplunkList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link signalfx_data_link}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link signalfx_data_link}
 */
 export class DataLink extends cdktf.TerraformResource {
 
@@ -838,7 +838,7 @@ export class DataLink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataLink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLink to import
-  * @param importFromId The id of the existing DataLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLink that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -850,7 +850,7 @@ export class DataLink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/data_link signalfx_data_link} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/data_link signalfx_data_link} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -861,8 +861,8 @@ export class DataLink extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_data_link',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

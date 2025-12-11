@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,55 +8,67 @@ import * as cdktf from 'cdktf';
 
 export interface DynamicSecretGcpConfig extends cdktf.TerraformMetaArguments {
   /**
+  * The type of the GCP dynamic secret, options are [sa, external]
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#access_type DynamicSecretGcp#access_type}
+  */
+  readonly accessType?: string;
+  /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#custom_username_template DynamicSecretGcp#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#custom_username_template DynamicSecretGcp#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#delete_protection DynamicSecretGcp#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#delete_protection DynamicSecretGcp#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#encryption_key_name DynamicSecretGcp#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#encryption_key_name DynamicSecretGcp#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
+  * For externally provided users, denotes the key-name of IdP claim to extract the username from
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#fixed_user_claim_keyname DynamicSecretGcp#fixed_user_claim_keyname}
+  */
+  readonly fixedUserClaimKeyname?: string;
+  /**
   * Credentials type, options are [token, key]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#gcp_cred_type DynamicSecretGcp#gcp_cred_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#gcp_cred_type DynamicSecretGcp#gcp_cred_type}
   */
   readonly gcpCredType?: string;
   /**
   * Base64-encoded service account private key text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#gcp_key DynamicSecretGcp#gcp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#gcp_key DynamicSecretGcp#gcp_key}
   */
   readonly gcpKey?: string;
   /**
   * Service account key algorithm, e.g. KEY_ALG_RSA_1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#gcp_key_algo DynamicSecretGcp#gcp_key_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#gcp_key_algo DynamicSecretGcp#gcp_key_algo}
   */
   readonly gcpKeyAlgo?: string;
   /**
   * GCP service account email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#gcp_sa_email DynamicSecretGcp#gcp_sa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#gcp_sa_email DynamicSecretGcp#gcp_sa_email}
   */
   readonly gcpSaEmail?: string;
   /**
   * Access token scopes list, e.g. scope1,scope2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#gcp_token_scopes DynamicSecretGcp#gcp_token_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#gcp_token_scopes DynamicSecretGcp#gcp_token_scopes}
   */
   readonly gcpTokenScopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#id DynamicSecretGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#id DynamicSecretGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,43 +77,55 @@ export interface DynamicSecretGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#name DynamicSecretGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#name DynamicSecretGcp#name}
   */
   readonly name: string;
   /**
+  * GCP Project ID override for dynamic secret operations
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#project_id DynamicSecretGcp#project_id}
+  */
+  readonly projectId?: string;
+  /**
   * Role binding definitions in json format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#role_binding DynamicSecretGcp#role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#role_binding DynamicSecretGcp#role_binding}
   */
   readonly roleBinding?: string;
   /**
+  * Comma-separated list of GCP roles to assign to the user
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#role_names DynamicSecretGcp#role_names}
+  */
+  readonly roleNames?: string;
+  /**
   * The type of the gcp dynamic secret. Options[fixed, dynamic]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#service_account_type DynamicSecretGcp#service_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#service_account_type DynamicSecretGcp#service_account_type}
   */
   readonly serviceAccountType?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: --tag Tag1 --tag Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#tags DynamicSecretGcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#tags DynamicSecretGcp#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#target_name DynamicSecretGcp#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#target_name DynamicSecretGcp#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL (<=60m for access token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#user_ttl DynamicSecretGcp#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#user_ttl DynamicSecretGcp#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp akeyless_dynamic_secret_gcp}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp akeyless_dynamic_secret_gcp}
 */
 export class DynamicSecretGcp extends cdktf.TerraformResource {
 
@@ -117,7 +141,7 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretGcp to import
-  * @param importFromId The id of the existing DynamicSecretGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +153,7 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gcp akeyless_dynamic_secret_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gcp akeyless_dynamic_secret_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +164,8 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_gcp',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -151,9 +175,11 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
+    this._accessType = config.accessType;
     this._customUsernameTemplate = config.customUsernameTemplate;
     this._deleteProtection = config.deleteProtection;
     this._encryptionKeyName = config.encryptionKeyName;
+    this._fixedUserClaimKeyname = config.fixedUserClaimKeyname;
     this._gcpCredType = config.gcpCredType;
     this._gcpKey = config.gcpKey;
     this._gcpKeyAlgo = config.gcpKeyAlgo;
@@ -161,7 +187,9 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
     this._gcpTokenScopes = config.gcpTokenScopes;
     this._id = config.id;
     this._name = config.name;
+    this._projectId = config.projectId;
     this._roleBinding = config.roleBinding;
+    this._roleNames = config.roleNames;
     this._serviceAccountType = config.serviceAccountType;
     this._tags = config.tags;
     this._targetName = config.targetName;
@@ -171,6 +199,22 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // access_type - computed: false, optional: true, required: false
+  private _accessType?: string; 
+  public get accessType() {
+    return this.getStringAttribute('access_type');
+  }
+  public set accessType(value: string) {
+    this._accessType = value;
+  }
+  public resetAccessType() {
+    this._accessType = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get accessTypeInput() {
+    return this._accessType;
+  }
 
   // custom_username_template - computed: false, optional: true, required: false
   private _customUsernameTemplate?: string; 
@@ -218,6 +262,22 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get encryptionKeyNameInput() {
     return this._encryptionKeyName;
+  }
+
+  // fixed_user_claim_keyname - computed: false, optional: true, required: false
+  private _fixedUserClaimKeyname?: string; 
+  public get fixedUserClaimKeyname() {
+    return this.getStringAttribute('fixed_user_claim_keyname');
+  }
+  public set fixedUserClaimKeyname(value: string) {
+    this._fixedUserClaimKeyname = value;
+  }
+  public resetFixedUserClaimKeyname() {
+    this._fixedUserClaimKeyname = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get fixedUserClaimKeynameInput() {
+    return this._fixedUserClaimKeyname;
   }
 
   // gcp_cred_type - computed: false, optional: true, required: false
@@ -329,6 +389,22 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
     return this._name;
   }
 
+  // project_id - computed: false, optional: true, required: false
+  private _projectId?: string; 
+  public get projectId() {
+    return this.getStringAttribute('project_id');
+  }
+  public set projectId(value: string) {
+    this._projectId = value;
+  }
+  public resetProjectId() {
+    this._projectId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get projectIdInput() {
+    return this._projectId;
+  }
+
   // role_binding - computed: false, optional: true, required: false
   private _roleBinding?: string; 
   public get roleBinding() {
@@ -343,6 +419,22 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get roleBindingInput() {
     return this._roleBinding;
+  }
+
+  // role_names - computed: false, optional: true, required: false
+  private _roleNames?: string; 
+  public get roleNames() {
+    return this.getStringAttribute('role_names');
+  }
+  public set roleNames(value: string) {
+    this._roleNames = value;
+  }
+  public resetRoleNames() {
+    this._roleNames = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get roleNamesInput() {
+    return this._roleNames;
   }
 
   // service_account_type - computed: false, optional: true, required: false
@@ -415,9 +507,11 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
+      access_type: cdktf.stringToTerraform(this._accessType),
       custom_username_template: cdktf.stringToTerraform(this._customUsernameTemplate),
       delete_protection: cdktf.stringToTerraform(this._deleteProtection),
       encryption_key_name: cdktf.stringToTerraform(this._encryptionKeyName),
+      fixed_user_claim_keyname: cdktf.stringToTerraform(this._fixedUserClaimKeyname),
       gcp_cred_type: cdktf.stringToTerraform(this._gcpCredType),
       gcp_key: cdktf.stringToTerraform(this._gcpKey),
       gcp_key_algo: cdktf.stringToTerraform(this._gcpKeyAlgo),
@@ -425,7 +519,9 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
       gcp_token_scopes: cdktf.stringToTerraform(this._gcpTokenScopes),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
+      project_id: cdktf.stringToTerraform(this._projectId),
       role_binding: cdktf.stringToTerraform(this._roleBinding),
+      role_names: cdktf.stringToTerraform(this._roleNames),
       service_account_type: cdktf.stringToTerraform(this._serviceAccountType),
       tags: cdktf.listMapper(cdktf.stringToTerraform, false)(this._tags),
       target_name: cdktf.stringToTerraform(this._targetName),
@@ -435,6 +531,12 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
+      access_type: {
+        value: cdktf.stringToHclTerraform(this._accessType),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       custom_username_template: {
         value: cdktf.stringToHclTerraform(this._customUsernameTemplate),
         isBlock: false,
@@ -449,6 +551,12 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
       },
       encryption_key_name: {
         value: cdktf.stringToHclTerraform(this._encryptionKeyName),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      fixed_user_claim_keyname: {
+        value: cdktf.stringToHclTerraform(this._fixedUserClaimKeyname),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -495,8 +603,20 @@ export class DynamicSecretGcp extends cdktf.TerraformResource {
         type: "simple",
         storageClassType: "string",
       },
+      project_id: {
+        value: cdktf.stringToHclTerraform(this._projectId),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
       role_binding: {
         value: cdktf.stringToHclTerraform(this._roleBinding),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      role_names: {
+        value: cdktf.stringToHclTerraform(this._roleNames),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

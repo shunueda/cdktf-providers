@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,55 +10,55 @@ export interface LaceworkProviderConfig {
   /**
   * Lacework account subdomain of URL (i.e. <ACCOUNT>.lacework.net)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#account LaceworkProvider#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#account LaceworkProvider#account}
   */
   readonly account?: string;
   /**
   * Lacework API access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#api_key LaceworkProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#api_key LaceworkProvider#api_key}
   */
   readonly apiKey?: string;
   /**
   * Lacework API access secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#api_secret LaceworkProvider#api_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#api_secret LaceworkProvider#api_secret}
   */
   readonly apiSecret?: string;
   /**
   * Lacework API access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#api_token LaceworkProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#api_token LaceworkProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * Set it to true to access organization level data sets (org admins only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#organization LaceworkProvider#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#organization LaceworkProvider#organization}
   */
   readonly organization?: boolean | cdktf.IResolvable;
   /**
   * Lacework profile name to use, profiles are configured at $HOME/.lacework.toml via the Lacework CLI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#profile LaceworkProvider#profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#profile LaceworkProvider#profile}
   */
   readonly profile?: string;
   /**
   * The sub-account name inside your organization (org admins only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#subaccount LaceworkProvider#subaccount}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#subaccount LaceworkProvider#subaccount}
   */
   readonly subaccount?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#alias LaceworkProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#alias LaceworkProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs lacework}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs lacework}
 */
 export class LaceworkProvider extends cdktf.TerraformProvider {
 
@@ -74,7 +74,7 @@ export class LaceworkProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a LaceworkProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LaceworkProvider to import
-  * @param importFromId The id of the existing LaceworkProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LaceworkProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LaceworkProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -86,7 +86,7 @@ export class LaceworkProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs lacework} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs lacework} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -97,8 +97,8 @@ export class LaceworkProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'lacework',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       terraformProviderSource: 'lacework/lacework'
     });

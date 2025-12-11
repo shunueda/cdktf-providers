@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface MetricRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Information about the metric ruleset.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#description MetricRuleset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#description MetricRuleset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#id MetricRuleset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#id MetricRuleset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface MetricRulesetConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#metric_name MetricRuleset#metric_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#metric_name MetricRuleset#metric_name}
   */
   readonly metricName: string;
   /**
   * aggregation_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#aggregation_rules MetricRuleset#aggregation_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#aggregation_rules MetricRuleset#aggregation_rules}
   */
   readonly aggregationRules?: MetricRulesetAggregationRules[] | cdktf.IResolvable;
   /**
   * exception_rules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#exception_rules MetricRuleset#exception_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#exception_rules MetricRuleset#exception_rules}
   */
   readonly exceptionRules?: MetricRulesetExceptionRules[] | cdktf.IResolvable;
   /**
   * routing_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#routing_rule MetricRuleset#routing_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#routing_rule MetricRuleset#routing_rule}
   */
   readonly routingRule: MetricRulesetRoutingRule[] | cdktf.IResolvable;
 }
@@ -49,25 +49,25 @@ export interface MetricRulesetAggregationRulesAggregator {
   /**
   * List of dimensions to keep or drop in aggregated metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#dimensions MetricRuleset#dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#dimensions MetricRuleset#dimensions}
   */
   readonly dimensions: string[];
   /**
   * Flag specifying to keep or drop given dimensions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#drop_dimensions MetricRuleset#drop_dimensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#drop_dimensions MetricRuleset#drop_dimensions}
   */
   readonly dropDimensions: boolean | cdktf.IResolvable;
   /**
   * The aggregated metric name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#output_name MetricRuleset#output_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#output_name MetricRuleset#output_name}
   */
   readonly outputName: string;
   /**
   * The type of the aggregator
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#type MetricRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#type MetricRuleset#type}
   */
   readonly type: string;
 }
@@ -260,19 +260,19 @@ export interface MetricRulesetAggregationRulesMatcherFilters {
   /**
   * Flag specifying equals or not equals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#not MetricRuleset#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#not MetricRuleset#not}
   */
   readonly not: boolean | cdktf.IResolvable;
   /**
   * Name of dimension to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#property MetricRuleset#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#property MetricRuleset#property}
   */
   readonly property: string;
   /**
   * List of property values to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#property_value MetricRuleset#property_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#property_value MetricRuleset#property_value}
   */
   readonly propertyValue: string[];
 }
@@ -439,13 +439,13 @@ export interface MetricRulesetAggregationRulesMatcher {
   /**
   * The type of the matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#type MetricRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#type MetricRuleset#type}
   */
   readonly type: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#filters MetricRuleset#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#filters MetricRuleset#filters}
   */
   readonly filters?: MetricRulesetAggregationRulesMatcherFilters[] | cdktf.IResolvable;
 }
@@ -589,31 +589,31 @@ export interface MetricRulesetAggregationRules {
   /**
   * Information about an aggregation rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#description MetricRuleset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#description MetricRuleset#description}
   */
   readonly description?: string;
   /**
   * Status of this aggregation rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#enabled MetricRuleset#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#enabled MetricRuleset#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name of this aggregation rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#name MetricRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#name MetricRuleset#name}
   */
   readonly name?: string;
   /**
   * aggregator block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#aggregator MetricRuleset#aggregator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#aggregator MetricRuleset#aggregator}
   */
   readonly aggregator: MetricRulesetAggregationRulesAggregator[] | cdktf.IResolvable;
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#matcher MetricRuleset#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#matcher MetricRuleset#matcher}
   */
   readonly matcher: MetricRulesetAggregationRulesMatcher[] | cdktf.IResolvable;
 }
@@ -838,19 +838,19 @@ export interface MetricRulesetExceptionRulesMatcherFilters {
   /**
   * Flag specifying equals or not equals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#not MetricRuleset#not}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#not MetricRuleset#not}
   */
   readonly not: boolean | cdktf.IResolvable;
   /**
   * Name of dimension to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#property MetricRuleset#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#property MetricRuleset#property}
   */
   readonly property: string;
   /**
   * List of dimension values to match
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#property_value MetricRuleset#property_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#property_value MetricRuleset#property_value}
   */
   readonly propertyValue: string[];
 }
@@ -1017,13 +1017,13 @@ export interface MetricRulesetExceptionRulesMatcher {
   /**
   * The type of the matcher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#type MetricRuleset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#type MetricRuleset#type}
   */
   readonly type: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#filters MetricRuleset#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#filters MetricRuleset#filters}
   */
   readonly filters?: MetricRulesetExceptionRulesMatcherFilters[] | cdktf.IResolvable;
 }
@@ -1167,13 +1167,13 @@ export interface MetricRulesetExceptionRulesRestoration {
   /**
   * Time from which the restoration job will restore archived data, in the form of *nix time in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#start_time MetricRuleset#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#start_time MetricRuleset#start_time}
   */
   readonly startTime: string;
   /**
   * Time to which the restoration job will restore archived data, in the form of *nix time in milliseconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#stop_time MetricRuleset#stop_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#stop_time MetricRuleset#stop_time}
   */
   readonly stopTime?: string;
 }
@@ -1322,31 +1322,31 @@ export interface MetricRulesetExceptionRules {
   /**
   * Information about an exception rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#description MetricRuleset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#description MetricRuleset#description}
   */
   readonly description?: string;
   /**
   * Status of this exception rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#enabled MetricRuleset#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#enabled MetricRuleset#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Name of this exception rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#name MetricRuleset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#name MetricRuleset#name}
   */
   readonly name?: string;
   /**
   * matcher block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#matcher MetricRuleset#matcher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#matcher MetricRuleset#matcher}
   */
   readonly matcher: MetricRulesetExceptionRulesMatcher[] | cdktf.IResolvable;
   /**
   * restoration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#restoration MetricRuleset#restoration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#restoration MetricRuleset#restoration}
   */
   readonly restoration?: MetricRulesetExceptionRulesRestoration[] | cdktf.IResolvable;
 }
@@ -1574,7 +1574,7 @@ export interface MetricRulesetRoutingRule {
   /**
   * Destination to send the input metric
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#destination MetricRuleset#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#destination MetricRuleset#destination}
   */
   readonly destination: string;
 }
@@ -1687,7 +1687,7 @@ export class MetricRulesetRoutingRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset signalfx_metric_ruleset}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset signalfx_metric_ruleset}
 */
 export class MetricRuleset extends cdktf.TerraformResource {
 
@@ -1703,7 +1703,7 @@ export class MetricRuleset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MetricRuleset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MetricRuleset to import
-  * @param importFromId The id of the existing MetricRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MetricRuleset that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MetricRuleset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1715,7 +1715,7 @@ export class MetricRuleset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/metric_ruleset signalfx_metric_ruleset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/metric_ruleset signalfx_metric_ruleset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1726,8 +1726,8 @@ export class MetricRuleset extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_metric_ruleset',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

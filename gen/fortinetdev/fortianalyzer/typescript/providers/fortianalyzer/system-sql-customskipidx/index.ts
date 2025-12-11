@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,32 +8,32 @@ import * as cdktf from 'cdktf';
 
 export interface SystemSqlCustomskipidxConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx#device_type SystemSqlCustomskipidx#device_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx#device_type SystemSqlCustomskipidx#device_type}
   */
   readonly deviceType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx#fosid SystemSqlCustomskipidx#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx#fosid SystemSqlCustomskipidx#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx#id SystemSqlCustomskipidx#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx#id SystemSqlCustomskipidx#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx#index_field SystemSqlCustomskipidx#index_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx#index_field SystemSqlCustomskipidx#index_field}
   */
   readonly indexField?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx#log_type SystemSqlCustomskipidx#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx#log_type SystemSqlCustomskipidx#log_type}
   */
   readonly logType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx fortianalyzer_system_sql_customskipidx}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx fortianalyzer_system_sql_customskipidx}
 */
 export class SystemSqlCustomskipidx extends cdktf.TerraformResource {
 
@@ -49,7 +49,7 @@ export class SystemSqlCustomskipidx extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSqlCustomskipidx resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSqlCustomskipidx to import
-  * @param importFromId The id of the existing SystemSqlCustomskipidx that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSqlCustomskipidx that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSqlCustomskipidx to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -61,7 +61,7 @@ export class SystemSqlCustomskipidx extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_sql_customskipidx fortianalyzer_system_sql_customskipidx} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_sql_customskipidx fortianalyzer_system_sql_customskipidx} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -72,8 +72,8 @@ export class SystemSqlCustomskipidx extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_sql_customskipidx',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

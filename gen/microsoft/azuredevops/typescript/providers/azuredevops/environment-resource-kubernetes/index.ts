@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,58 +8,58 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentResourceKubernetesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#cluster_name EnvironmentResourceKubernetes#cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#cluster_name EnvironmentResourceKubernetes#cluster_name}
   */
   readonly clusterName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#environment_id EnvironmentResourceKubernetes#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#environment_id EnvironmentResourceKubernetes#environment_id}
   */
   readonly environmentId: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#id EnvironmentResourceKubernetes#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#id EnvironmentResourceKubernetes#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#name EnvironmentResourceKubernetes#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#name EnvironmentResourceKubernetes#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#namespace EnvironmentResourceKubernetes#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#namespace EnvironmentResourceKubernetes#namespace}
   */
   readonly namespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#project_id EnvironmentResourceKubernetes#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#project_id EnvironmentResourceKubernetes#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#service_endpoint_id EnvironmentResourceKubernetes#service_endpoint_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#service_endpoint_id EnvironmentResourceKubernetes#service_endpoint_id}
   */
   readonly serviceEndpointId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#tags EnvironmentResourceKubernetes#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#tags EnvironmentResourceKubernetes#tags}
   */
   readonly tags?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#timeouts EnvironmentResourceKubernetes#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#timeouts EnvironmentResourceKubernetes#timeouts}
   */
   readonly timeouts?: EnvironmentResourceKubernetesTimeouts;
 }
 export interface EnvironmentResourceKubernetesTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#create EnvironmentResourceKubernetes#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#create EnvironmentResourceKubernetes#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#delete EnvironmentResourceKubernetes#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#delete EnvironmentResourceKubernetes#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#read EnvironmentResourceKubernetes#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#read EnvironmentResourceKubernetes#read}
   */
   readonly read?: string;
 }
@@ -211,7 +211,7 @@ export class EnvironmentResourceKubernetesTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes azuredevops_environment_resource_kubernetes}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes azuredevops_environment_resource_kubernetes}
 */
 export class EnvironmentResourceKubernetes extends cdktf.TerraformResource {
 
@@ -227,7 +227,7 @@ export class EnvironmentResourceKubernetes extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EnvironmentResourceKubernetes resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EnvironmentResourceKubernetes to import
-  * @param importFromId The id of the existing EnvironmentResourceKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EnvironmentResourceKubernetes that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EnvironmentResourceKubernetes to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -239,7 +239,7 @@ export class EnvironmentResourceKubernetes extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/environment_resource_kubernetes azuredevops_environment_resource_kubernetes} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/environment_resource_kubernetes azuredevops_environment_resource_kubernetes} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -250,8 +250,8 @@ export class EnvironmentResourceKubernetes extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_environment_resource_kubernetes',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

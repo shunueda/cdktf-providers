@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface YangConfig extends cdktf.TerraformMetaArguments {
   /**
   * Map of key-value pairs which represents the YANG leafs and its values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#attributes Yang#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#attributes Yang#attributes}
   */
   readonly attributes?: { [key: string]: string };
   /**
   * Delete object during destroy operation. Default value is `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#delete Yang#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#delete Yang#delete}
   */
   readonly delete?: boolean | cdktf.IResolvable;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#device Yang#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#device Yang#device}
   */
   readonly device?: string;
   /**
   * YANG lists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#lists Yang#lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#lists Yang#lists}
   */
   readonly lists?: YangLists[] | cdktf.IResolvable;
   /**
   * A YANG path, e.g. `openconfig-interfaces:interfaces`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#path Yang#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#path Yang#path}
   */
   readonly path: string;
 }
@@ -42,25 +42,25 @@ export interface YangLists {
   /**
   * List of maps of key-value pairs which represents the YANG leafs and its values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#items Yang#items}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#items Yang#items}
   */
   readonly items?: { [key: string]: string }[] | cdktf.IResolvable;
   /**
   * YANG list key attribute. In case of multiple keys, those should be separated by a comma (`,`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#key Yang#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#key Yang#key}
   */
   readonly key: string;
   /**
   * YANG list name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#name Yang#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#name Yang#name}
   */
   readonly name: string;
   /**
   * YANG leaf-list values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#values Yang#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#values Yang#values}
   */
   readonly values?: string[];
 }
@@ -257,7 +257,7 @@ export class YangListsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang iosxe_yang}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang iosxe_yang}
 */
 export class Yang extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class Yang extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Yang resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Yang to import
-  * @param importFromId The id of the existing Yang that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Yang that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Yang to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class Yang extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/yang iosxe_yang} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/yang iosxe_yang} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class Yang extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_yang',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

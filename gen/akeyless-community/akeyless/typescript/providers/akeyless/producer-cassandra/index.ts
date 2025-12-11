@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ProducerCassandraConfig extends cdktf.TerraformMetaArguments {
   /**
   * Cassandra Creation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#cassandra_creation_statements ProducerCassandra#cassandra_creation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#cassandra_creation_statements ProducerCassandra#cassandra_creation_statements}
   */
   readonly cassandraCreationStatements?: string;
   /**
   * Cassandra hosts names or IP addresses, comma separated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#cassandra_hosts ProducerCassandra#cassandra_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#cassandra_hosts ProducerCassandra#cassandra_hosts}
   */
   readonly cassandraHosts?: string;
   /**
   * Cassandra superuser password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#cassandra_password ProducerCassandra#cassandra_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#cassandra_password ProducerCassandra#cassandra_password}
   */
   readonly cassandraPassword?: string;
   /**
   * Cassandra port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#cassandra_port ProducerCassandra#cassandra_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#cassandra_port ProducerCassandra#cassandra_port}
   */
   readonly cassandraPort?: string;
   /**
   * Cassandra superuser user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#cassandra_username ProducerCassandra#cassandra_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#cassandra_username ProducerCassandra#cassandra_username}
   */
   readonly cassandraUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#id ProducerCassandra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#id ProducerCassandra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface ProducerCassandraConfig extends cdktf.TerraformMetaArguments {
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#name ProducerCassandra#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#name ProducerCassandra#name}
   */
   readonly name: string;
   /**
   * Dynamic producer encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#producer_encryption_key_name ProducerCassandra#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#producer_encryption_key_name ProducerCassandra#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#tags ProducerCassandra#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#tags ProducerCassandra#tags}
   */
   readonly tags?: string[];
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#target_name ProducerCassandra#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#target_name ProducerCassandra#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL (<=60m for access token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#user_ttl ProducerCassandra#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#user_ttl ProducerCassandra#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra akeyless_producer_cassandra}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra akeyless_producer_cassandra}
 */
 export class ProducerCassandra extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ProducerCassandra extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerCassandra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerCassandra to import
-  * @param importFromId The id of the existing ProducerCassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerCassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerCassandra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ProducerCassandra extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_cassandra akeyless_producer_cassandra} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_cassandra akeyless_producer_cassandra} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ProducerCassandra extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_cassandra',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

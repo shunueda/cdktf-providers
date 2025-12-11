@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface UscConfig extends cdktf.TerraformMetaArguments {
   /**
   * Azure Key Vault name (Relevant only for Azure targets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#azure_kv_name Usc#azure_kv_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#azure_kv_name Usc#azure_kv_name}
   */
   readonly azureKvName?: string;
   /**
   * Protection from accidental deletion of this object, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#delete_protection Usc#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#delete_protection Usc#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Description of the Universal Secrets Connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#description Usc#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#description Usc#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#id Usc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#id Usc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface UscConfig extends cdktf.TerraformMetaArguments {
   /**
   * K8s namespace (Relevant to Kubernetes targets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#k8s_namespace Usc#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#k8s_namespace Usc#k8s_namespace}
   */
   readonly k8SNamespace?: string;
   /**
   * Universal Secrets Connector name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#name Usc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#name Usc#name}
   */
   readonly name: string;
   /**
   * List of the tags attached to this Universal Secrets Connector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#tags Usc#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#tags Usc#tags}
   */
   readonly tags?: string[];
   /**
   * Target Universal Secrets Connector to connect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#target_to_associate Usc#target_to_associate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#target_to_associate Usc#target_to_associate}
   */
   readonly targetToAssociate: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc akeyless_usc}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc akeyless_usc}
 */
 export class Usc extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class Usc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Usc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Usc to import
-  * @param importFromId The id of the existing Usc that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Usc that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Usc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class Usc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc akeyless_usc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc akeyless_usc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class Usc extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_usc',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface AppConnectorAssistantScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule#customer_id AppConnectorAssistantSchedule#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule#customer_id AppConnectorAssistantSchedule#customer_id}
   */
   readonly customerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule#delete_disabled AppConnectorAssistantSchedule#delete_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule#delete_disabled AppConnectorAssistantSchedule#delete_disabled}
   */
   readonly deleteDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule#enabled AppConnectorAssistantSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule#enabled AppConnectorAssistantSchedule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule#frequency AppConnectorAssistantSchedule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule#frequency AppConnectorAssistantSchedule#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule#frequency_interval AppConnectorAssistantSchedule#frequency_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule#frequency_interval AppConnectorAssistantSchedule#frequency_interval}
   */
   readonly frequencyInterval?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule zpa_app_connector_assistant_schedule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule zpa_app_connector_assistant_schedule}
 */
 export class AppConnectorAssistantSchedule extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class AppConnectorAssistantSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppConnectorAssistantSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppConnectorAssistantSchedule to import
-  * @param importFromId The id of the existing AppConnectorAssistantSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppConnectorAssistantSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppConnectorAssistantSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class AppConnectorAssistantSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/app_connector_assistant_schedule zpa_app_connector_assistant_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/app_connector_assistant_schedule zpa_app_connector_assistant_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class AppConnectorAssistantSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_app_connector_assistant_schedule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface DatasetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#description Dataset#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#description Dataset#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#id Dataset#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#id Dataset#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#name Dataset#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#name Dataset#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#slug Dataset#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#slug Dataset#slug}
   */
   readonly slug?: string;
   /**
   * configuration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#configuration Dataset#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#configuration Dataset#configuration}
   */
   readonly configuration: DatasetConfiguration;
 }
 export interface DatasetConfigurationLogDatasetMatchCriteria {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#query Dataset#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#query Dataset#query}
   */
   readonly query: string;
 }
@@ -118,7 +118,7 @@ export interface DatasetConfigurationLogDataset {
   /**
   * match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match_criteria Dataset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match_criteria Dataset#match_criteria}
   */
   readonly matchCriteria?: DatasetConfigurationLogDatasetMatchCriteria;
 }
@@ -202,11 +202,11 @@ export class DatasetConfigurationLogDatasetOutputReference extends cdktf.Complex
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#max_secs Dataset#max_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#max_secs Dataset#max_secs}
   */
   readonly maxSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#min_secs Dataset#min_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#min_secs Dataset#min_secs}
   */
   readonly minSecs?: number;
 }
@@ -319,7 +319,7 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanDurationOutputRefe
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -400,7 +400,7 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanErrorOutputReferen
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanIsRootSpan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -481,15 +481,15 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanIsRootSpanOutputRe
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#in_values Dataset#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#in_values Dataset#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match Dataset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match Dataset#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value?: string;
 }
@@ -631,15 +631,15 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanOperationOutputRef
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanParentOperation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#in_values Dataset#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#in_values Dataset#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match Dataset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match Dataset#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value?: string;
 }
@@ -781,15 +781,15 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanParentOperationOut
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanParentService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#in_values Dataset#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#in_values Dataset#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match Dataset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match Dataset#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value?: string;
 }
@@ -931,15 +931,15 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanParentServiceOutpu
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#in_values Dataset#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#in_values Dataset#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match Dataset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match Dataset#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value?: string;
 }
@@ -1081,11 +1081,11 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanServiceOutputRefer
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanSpanCount {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#max Dataset#max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#max Dataset#max}
   */
   readonly max?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#min Dataset#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#min Dataset#min}
   */
   readonly min?: number;
 }
@@ -1198,11 +1198,11 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanSpanCountOutputRef
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanTagNumericValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#comparison Dataset#comparison}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#comparison Dataset#comparison}
   */
   readonly comparison: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value: number;
 }
@@ -1309,15 +1309,15 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanTagNumericValueOut
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanTagValue {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#in_values Dataset#in_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#in_values Dataset#in_values}
   */
   readonly inValues?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match Dataset#match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match Dataset#match}
   */
   readonly match?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value?: string;
 }
@@ -1459,19 +1459,19 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanTagValueOutputRefe
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpanTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#key Dataset#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#key Dataset#key}
   */
   readonly key?: string;
   /**
   * numeric_value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#numeric_value Dataset#numeric_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#numeric_value Dataset#numeric_value}
   */
   readonly numericValue?: DatasetConfigurationTraceDatasetMatchCriteriaSpanTagNumericValue;
   /**
   * value block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value?: DatasetConfigurationTraceDatasetMatchCriteriaSpanTagValue;
 }
@@ -1645,61 +1645,61 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanTagList extends cd
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaSpan {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match_type Dataset#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match_type Dataset#match_type}
   */
   readonly matchType?: string;
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#duration Dataset#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#duration Dataset#duration}
   */
   readonly duration?: DatasetConfigurationTraceDatasetMatchCriteriaSpanDuration;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#error Dataset#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#error Dataset#error}
   */
   readonly error?: DatasetConfigurationTraceDatasetMatchCriteriaSpanError;
   /**
   * is_root_span block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#is_root_span Dataset#is_root_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#is_root_span Dataset#is_root_span}
   */
   readonly isRootSpan?: DatasetConfigurationTraceDatasetMatchCriteriaSpanIsRootSpan;
   /**
   * operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#operation Dataset#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#operation Dataset#operation}
   */
   readonly operation?: DatasetConfigurationTraceDatasetMatchCriteriaSpanOperation;
   /**
   * parent_operation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#parent_operation Dataset#parent_operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#parent_operation Dataset#parent_operation}
   */
   readonly parentOperation?: DatasetConfigurationTraceDatasetMatchCriteriaSpanParentOperation;
   /**
   * parent_service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#parent_service Dataset#parent_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#parent_service Dataset#parent_service}
   */
   readonly parentService?: DatasetConfigurationTraceDatasetMatchCriteriaSpanParentService;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#service Dataset#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#service Dataset#service}
   */
   readonly service?: DatasetConfigurationTraceDatasetMatchCriteriaSpanService;
   /**
   * span_count block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#span_count Dataset#span_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#span_count Dataset#span_count}
   */
   readonly spanCount?: DatasetConfigurationTraceDatasetMatchCriteriaSpanSpanCount;
   /**
   * tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#tag Dataset#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#tag Dataset#tag}
   */
   readonly tag?: DatasetConfigurationTraceDatasetMatchCriteriaSpanTag[] | cdktf.IResolvable;
 }
@@ -2076,11 +2076,11 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaSpanList extends cdktf
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaTraceDuration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#max_secs Dataset#max_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#max_secs Dataset#max_secs}
   */
   readonly maxSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#min_secs Dataset#min_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#min_secs Dataset#min_secs}
   */
   readonly minSecs?: number;
 }
@@ -2193,7 +2193,7 @@ export class DatasetConfigurationTraceDatasetMatchCriteriaTraceDurationOutputRef
 }
 export interface DatasetConfigurationTraceDatasetMatchCriteriaTraceError {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#value Dataset#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#value Dataset#value}
   */
   readonly value: boolean | cdktf.IResolvable;
 }
@@ -2276,13 +2276,13 @@ export interface DatasetConfigurationTraceDatasetMatchCriteriaTrace {
   /**
   * duration block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#duration Dataset#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#duration Dataset#duration}
   */
   readonly duration?: DatasetConfigurationTraceDatasetMatchCriteriaTraceDuration;
   /**
   * error block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#error Dataset#error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#error Dataset#error}
   */
   readonly error?: DatasetConfigurationTraceDatasetMatchCriteriaTraceError;
 }
@@ -2397,13 +2397,13 @@ export interface DatasetConfigurationTraceDatasetMatchCriteria {
   /**
   * span block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#span Dataset#span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#span Dataset#span}
   */
   readonly span?: DatasetConfigurationTraceDatasetMatchCriteriaSpan[] | cdktf.IResolvable;
   /**
   * trace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#trace Dataset#trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#trace Dataset#trace}
   */
   readonly trace?: DatasetConfigurationTraceDatasetMatchCriteriaTrace;
 }
@@ -2518,7 +2518,7 @@ export interface DatasetConfigurationTraceDataset {
   /**
   * match_criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#match_criteria Dataset#match_criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#match_criteria Dataset#match_criteria}
   */
   readonly matchCriteria: DatasetConfigurationTraceDatasetMatchCriteria;
 }
@@ -2599,19 +2599,19 @@ export class DatasetConfigurationTraceDatasetOutputReference extends cdktf.Compl
 }
 export interface DatasetConfiguration {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#type Dataset#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#type Dataset#type}
   */
   readonly type: string;
   /**
   * log_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#log_dataset Dataset#log_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#log_dataset Dataset#log_dataset}
   */
   readonly logDataset?: DatasetConfigurationLogDataset;
   /**
   * trace_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#trace_dataset Dataset#trace_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#trace_dataset Dataset#trace_dataset}
   */
   readonly traceDataset?: DatasetConfigurationTraceDataset;
 }
@@ -2750,7 +2750,7 @@ export class DatasetConfigurationOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset chronosphere_dataset}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset chronosphere_dataset}
 */
 export class Dataset extends cdktf.TerraformResource {
 
@@ -2766,7 +2766,7 @@ export class Dataset extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dataset resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dataset to import
-  * @param importFromId The id of the existing Dataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dataset that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dataset to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2778,7 +2778,7 @@ export class Dataset extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/dataset chronosphere_dataset} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/dataset chronosphere_dataset} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2789,8 +2789,8 @@ export class Dataset extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_dataset',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

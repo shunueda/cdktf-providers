@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,66 +8,66 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointCheckmarxSastConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#description ServiceendpointCheckmarxSast#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#description ServiceendpointCheckmarxSast#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#id ServiceendpointCheckmarxSast#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#id ServiceendpointCheckmarxSast#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#password ServiceendpointCheckmarxSast#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#password ServiceendpointCheckmarxSast#password}
   */
   readonly password: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#preset ServiceendpointCheckmarxSast#preset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#preset ServiceendpointCheckmarxSast#preset}
   */
   readonly preset?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#project_id ServiceendpointCheckmarxSast#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#project_id ServiceendpointCheckmarxSast#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#server_url ServiceendpointCheckmarxSast#server_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#server_url ServiceendpointCheckmarxSast#server_url}
   */
   readonly serverUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#service_endpoint_name ServiceendpointCheckmarxSast#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#service_endpoint_name ServiceendpointCheckmarxSast#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#team ServiceendpointCheckmarxSast#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#team ServiceendpointCheckmarxSast#team}
   */
   readonly team?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#username ServiceendpointCheckmarxSast#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#username ServiceendpointCheckmarxSast#username}
   */
   readonly username: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#timeouts ServiceendpointCheckmarxSast#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#timeouts ServiceendpointCheckmarxSast#timeouts}
   */
   readonly timeouts?: ServiceendpointCheckmarxSastTimeouts;
 }
 export interface ServiceendpointCheckmarxSastTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#create ServiceendpointCheckmarxSast#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#create ServiceendpointCheckmarxSast#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#delete ServiceendpointCheckmarxSast#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#delete ServiceendpointCheckmarxSast#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#read ServiceendpointCheckmarxSast#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#read ServiceendpointCheckmarxSast#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#update ServiceendpointCheckmarxSast#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#update ServiceendpointCheckmarxSast#update}
   */
   readonly update?: string;
 }
@@ -248,7 +248,7 @@ export class ServiceendpointCheckmarxSastTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast azuredevops_serviceendpoint_checkmarx_sast}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast azuredevops_serviceendpoint_checkmarx_sast}
 */
 export class ServiceendpointCheckmarxSast extends cdktf.TerraformResource {
 
@@ -264,7 +264,7 @@ export class ServiceendpointCheckmarxSast extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointCheckmarxSast resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointCheckmarxSast to import
-  * @param importFromId The id of the existing ServiceendpointCheckmarxSast that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointCheckmarxSast that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointCheckmarxSast to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -276,7 +276,7 @@ export class ServiceendpointCheckmarxSast extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_checkmarx_sast azuredevops_serviceendpoint_checkmarx_sast} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_checkmarx_sast azuredevops_serviceendpoint_checkmarx_sast} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -287,8 +287,8 @@ export class ServiceendpointCheckmarxSast extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_checkmarx_sast',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

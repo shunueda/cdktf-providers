@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface IntegrationAzureAgentlessScanningConfig extends cdktf.Terraform
   /**
   * blob container containing analysis results shared with Lacework platform.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#blob_container_name IntegrationAzureAgentlessScanning#blob_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#blob_container_name IntegrationAzureAgentlessScanning#blob_container_name}
   */
   readonly blobContainerName: string;
   /**
   * The state of the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#enabled IntegrationAzureAgentlessScanning#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#enabled IntegrationAzureAgentlessScanning#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#id IntegrationAzureAgentlessScanning#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#id IntegrationAzureAgentlessScanning#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,91 +29,91 @@ export interface IntegrationAzureAgentlessScanningConfig extends cdktf.Terraform
   /**
   * Integration level - TENANT / SUBSCRIPTION.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#integration_level IntegrationAzureAgentlessScanning#integration_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#integration_level IntegrationAzureAgentlessScanning#integration_level}
   */
   readonly integrationLevel?: string;
   /**
   * The integration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#name IntegrationAzureAgentlessScanning#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#name IntegrationAzureAgentlessScanning#name}
   */
   readonly name: string;
   /**
   * The LQL query text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#query_text IntegrationAzureAgentlessScanning#query_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#query_text IntegrationAzureAgentlessScanning#query_text}
   */
   readonly queryText?: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#retries IntegrationAzureAgentlessScanning#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#retries IntegrationAzureAgentlessScanning#retries}
   */
   readonly retries?: number;
   /**
   * Whether to includes scanning for containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scan_containers IntegrationAzureAgentlessScanning#scan_containers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scan_containers IntegrationAzureAgentlessScanning#scan_containers}
   */
   readonly scanContainers?: boolean | cdktf.IResolvable;
   /**
   * How often in hours the scan will run in hours.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scan_frequency IntegrationAzureAgentlessScanning#scan_frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scan_frequency IntegrationAzureAgentlessScanning#scan_frequency}
   */
   readonly scanFrequency?: number;
   /**
   * Whether to includes scanning for host vulnerabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scan_host_vulnerabilities IntegrationAzureAgentlessScanning#scan_host_vulnerabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scan_host_vulnerabilities IntegrationAzureAgentlessScanning#scan_host_vulnerabilities}
   */
   readonly scanHostVulnerabilities?: boolean | cdktf.IResolvable;
   /**
   * Whether to scan secondary volumes (true) or only root volumes (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scan_multi_volume IntegrationAzureAgentlessScanning#scan_multi_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scan_multi_volume IntegrationAzureAgentlessScanning#scan_multi_volume}
   */
   readonly scanMultiVolume?: boolean | cdktf.IResolvable;
   /**
   * Whether to scan stopped instances (true)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scan_stopped_instances IntegrationAzureAgentlessScanning#scan_stopped_instances}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scan_stopped_instances IntegrationAzureAgentlessScanning#scan_stopped_instances}
   */
   readonly scanStoppedInstances?: boolean | cdktf.IResolvable;
   /**
   * name of the resource group where the scanner runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scanning_resource_group_name IntegrationAzureAgentlessScanning#scanning_resource_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scanning_resource_group_name IntegrationAzureAgentlessScanning#scanning_resource_group_name}
   */
   readonly scanningResourceGroupName: string;
   /**
   * Id of the subscription where LW scanner is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#scanning_subscription_id IntegrationAzureAgentlessScanning#scanning_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#scanning_subscription_id IntegrationAzureAgentlessScanning#scanning_subscription_id}
   */
   readonly scanningSubscriptionId: string;
   /**
   * name of the storage account, in the format of 'https://<account>.blob.core.windows.net'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#storage_account_url IntegrationAzureAgentlessScanning#storage_account_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#storage_account_url IntegrationAzureAgentlessScanning#storage_account_url}
   */
   readonly storageAccountUrl: string;
   /**
   * List of subscriptions to specifically include/exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#subscriptions_list IntegrationAzureAgentlessScanning#subscriptions_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#subscriptions_list IntegrationAzureAgentlessScanning#subscriptions_list}
   */
   readonly subscriptionsList?: string[];
   /**
   * Id of the tenant where LW scanner is deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#tenant_id IntegrationAzureAgentlessScanning#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#tenant_id IntegrationAzureAgentlessScanning#tenant_id}
   */
   readonly tenantId: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#credentials IntegrationAzureAgentlessScanning#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#credentials IntegrationAzureAgentlessScanning#credentials}
   */
   readonly credentials: IntegrationAzureAgentlessScanningCredentials;
 }
@@ -121,13 +121,13 @@ export interface IntegrationAzureAgentlessScanningCredentials {
   /**
   * Client Id from credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#client_id IntegrationAzureAgentlessScanning#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#client_id IntegrationAzureAgentlessScanning#client_id}
   */
   readonly clientId: string;
   /**
   * Client secret from credentials file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#client_secret IntegrationAzureAgentlessScanning#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#client_secret IntegrationAzureAgentlessScanning#client_secret}
   */
   readonly clientSecret: string;
 }
@@ -234,7 +234,7 @@ export class IntegrationAzureAgentlessScanningCredentialsOutputReference extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning lacework_integration_azure_agentless_scanning}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning lacework_integration_azure_agentless_scanning}
 */
 export class IntegrationAzureAgentlessScanning extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class IntegrationAzureAgentlessScanning extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAzureAgentlessScanning resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAzureAgentlessScanning to import
-  * @param importFromId The id of the existing IntegrationAzureAgentlessScanning that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAzureAgentlessScanning that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAzureAgentlessScanning to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class IntegrationAzureAgentlessScanning extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_agentless_scanning lacework_integration_azure_agentless_scanning} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_agentless_scanning lacework_integration_azure_agentless_scanning} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class IntegrationAzureAgentlessScanning extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_azure_agentless_scanning',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

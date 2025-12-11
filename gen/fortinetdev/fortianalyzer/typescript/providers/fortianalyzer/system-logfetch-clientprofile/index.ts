@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,115 +8,115 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogfetchClientprofileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#client_adom SystemLogfetchClientprofile#client_adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#client_adom SystemLogfetchClientprofile#client_adom}
   */
   readonly clientAdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#data_range SystemLogfetchClientprofile#data_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#data_range SystemLogfetchClientprofile#data_range}
   */
   readonly dataRange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#data_range_value SystemLogfetchClientprofile#data_range_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#data_range_value SystemLogfetchClientprofile#data_range_value}
   */
   readonly dataRangeValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#dynamic_sort_subtable SystemLogfetchClientprofile#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#dynamic_sort_subtable SystemLogfetchClientprofile#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#end_time SystemLogfetchClientprofile#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#end_time SystemLogfetchClientprofile#end_time}
   */
   readonly endTime?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#fosid SystemLogfetchClientprofile#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#fosid SystemLogfetchClientprofile#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#id SystemLogfetchClientprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#id SystemLogfetchClientprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#index_fetch_logs SystemLogfetchClientprofile#index_fetch_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#index_fetch_logs SystemLogfetchClientprofile#index_fetch_logs}
   */
   readonly indexFetchLogs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#log_filter_logic SystemLogfetchClientprofile#log_filter_logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#log_filter_logic SystemLogfetchClientprofile#log_filter_logic}
   */
   readonly logFilterLogic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#log_filter_status SystemLogfetchClientprofile#log_filter_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#log_filter_status SystemLogfetchClientprofile#log_filter_status}
   */
   readonly logFilterStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#name SystemLogfetchClientprofile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#name SystemLogfetchClientprofile#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#password SystemLogfetchClientprofile#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#password SystemLogfetchClientprofile#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#peer_cert_cn SystemLogfetchClientprofile#peer_cert_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#peer_cert_cn SystemLogfetchClientprofile#peer_cert_cn}
   */
   readonly peerCertCn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#secure_connection SystemLogfetchClientprofile#secure_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#secure_connection SystemLogfetchClientprofile#secure_connection}
   */
   readonly secureConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#server_adom SystemLogfetchClientprofile#server_adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#server_adom SystemLogfetchClientprofile#server_adom}
   */
   readonly serverAdom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#server_ip SystemLogfetchClientprofile#server_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#server_ip SystemLogfetchClientprofile#server_ip}
   */
   readonly serverIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#start_time SystemLogfetchClientprofile#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#start_time SystemLogfetchClientprofile#start_time}
   */
   readonly startTime?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#sync_adom_config SystemLogfetchClientprofile#sync_adom_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#sync_adom_config SystemLogfetchClientprofile#sync_adom_config}
   */
   readonly syncAdomConfig?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#user SystemLogfetchClientprofile#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#user SystemLogfetchClientprofile#user}
   */
   readonly user?: string;
   /**
   * device_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#device_filter SystemLogfetchClientprofile#device_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#device_filter SystemLogfetchClientprofile#device_filter}
   */
   readonly deviceFilter?: SystemLogfetchClientprofileDeviceFilter[] | cdktf.IResolvable;
   /**
   * log_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#log_filter SystemLogfetchClientprofile#log_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#log_filter SystemLogfetchClientprofile#log_filter}
   */
   readonly logFilter?: SystemLogfetchClientprofileLogFilter[] | cdktf.IResolvable;
 }
 export interface SystemLogfetchClientprofileDeviceFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#adom SystemLogfetchClientprofile#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#adom SystemLogfetchClientprofile#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#device SystemLogfetchClientprofile#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#device SystemLogfetchClientprofile#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#id SystemLogfetchClientprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#id SystemLogfetchClientprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#vdom SystemLogfetchClientprofile#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#vdom SystemLogfetchClientprofile#vdom}
   */
   readonly vdom?: string;
 }
@@ -319,22 +319,22 @@ export class SystemLogfetchClientprofileDeviceFilterList extends cdktf.ComplexLi
 }
 export interface SystemLogfetchClientprofileLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#field SystemLogfetchClientprofile#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#field SystemLogfetchClientprofile#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#id SystemLogfetchClientprofile#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#id SystemLogfetchClientprofile#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#oper SystemLogfetchClientprofile#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#oper SystemLogfetchClientprofile#oper}
   */
   readonly oper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#value SystemLogfetchClientprofile#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#value SystemLogfetchClientprofile#value}
   */
   readonly value?: string;
 }
@@ -537,7 +537,7 @@ export class SystemLogfetchClientprofileLogFilterList extends cdktf.ComplexList 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile fortianalyzer_system_logfetch_clientprofile}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile fortianalyzer_system_logfetch_clientprofile}
 */
 export class SystemLogfetchClientprofile extends cdktf.TerraformResource {
 
@@ -553,7 +553,7 @@ export class SystemLogfetchClientprofile extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogfetchClientprofile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogfetchClientprofile to import
-  * @param importFromId The id of the existing SystemLogfetchClientprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogfetchClientprofile that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogfetchClientprofile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -565,7 +565,7 @@ export class SystemLogfetchClientprofile extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logfetch_clientprofile fortianalyzer_system_logfetch_clientprofile} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logfetch_clientprofile fortianalyzer_system_logfetch_clientprofile} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -576,8 +576,8 @@ export class SystemLogfetchClientprofile extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_logfetch_clientprofile',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

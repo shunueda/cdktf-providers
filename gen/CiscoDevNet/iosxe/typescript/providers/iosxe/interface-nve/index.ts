@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,55 +11,55 @@ export interface InterfaceNveConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#delete_mode InterfaceNve#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#delete_mode InterfaceNve#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Interface specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#description InterfaceNve#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#description InterfaceNve#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#device InterfaceNve#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#device InterfaceNve#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#host_reachability_protocol_bgp InterfaceNve#host_reachability_protocol_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#host_reachability_protocol_bgp InterfaceNve#host_reachability_protocol_bgp}
   */
   readonly hostReachabilityProtocolBgp?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`4096`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#name InterfaceNve#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#name InterfaceNve#name}
   */
   readonly name: number;
   /**
   * Shutdown the selected interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#shutdown InterfaceNve#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#shutdown InterfaceNve#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Loopback interface
   *   - Range: `0`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#source_interface_loopback InterfaceNve#source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#source_interface_loopback InterfaceNve#source_interface_loopback}
   */
   readonly sourceInterfaceLoopback?: number;
   /**
   * Configure VNI information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#vni_vrfs InterfaceNve#vni_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#vni_vrfs InterfaceNve#vni_vrfs}
   */
   readonly vniVrfs?: InterfaceNveVniVrfs[] | cdktf.IResolvable;
   /**
   * Configure VNI information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#vnis InterfaceNve#vnis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#vnis InterfaceNve#vnis}
   */
   readonly vnis?: InterfaceNveVnis[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface InterfaceNveVniVrfs {
   /**
   * VNI range or instance between 4096-16777215, example: 6010-6030 or 7115
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#vni_range InterfaceNve#vni_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#vni_range InterfaceNve#vni_range}
   */
   readonly vniRange: string;
   /**
   * Specify a particular VRF
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#vrf InterfaceNve#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#vrf InterfaceNve#vrf}
   */
   readonly vrf?: string;
 }
@@ -217,25 +217,25 @@ export interface InterfaceNveVnis {
   /**
   * Ingress Replication control-plane (BGP) signaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#ingress_replication InterfaceNve#ingress_replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#ingress_replication InterfaceNve#ingress_replication}
   */
   readonly ingressReplication?: boolean | cdktf.IResolvable;
   /**
   * Starting Multicast Group IPv4 Address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#ipv4_multicast_group InterfaceNve#ipv4_multicast_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#ipv4_multicast_group InterfaceNve#ipv4_multicast_group}
   */
   readonly ipv4MulticastGroup?: string;
   /**
   * Enable vxlan centralized gateway forwarding for routed traffic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#local_routing InterfaceNve#local_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#local_routing InterfaceNve#local_routing}
   */
   readonly localRouting?: boolean | cdktf.IResolvable;
   /**
   * VNI range or instance between 4096-16777215, example: 6010-6030 or 7115
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#vni_range InterfaceNve#vni_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#vni_range InterfaceNve#vni_range}
   */
   readonly vniRange: string;
 }
@@ -435,7 +435,7 @@ export class InterfaceNveVnisList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve iosxe_interface_nve}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve iosxe_interface_nve}
 */
 export class InterfaceNve extends cdktf.TerraformResource {
 
@@ -451,7 +451,7 @@ export class InterfaceNve extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceNve resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceNve to import
-  * @param importFromId The id of the existing InterfaceNve that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceNve that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceNve to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -463,7 +463,7 @@ export class InterfaceNve extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_nve iosxe_interface_nve} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_nve iosxe_interface_nve} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -474,8 +474,8 @@ export class InterfaceNve extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_nve',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

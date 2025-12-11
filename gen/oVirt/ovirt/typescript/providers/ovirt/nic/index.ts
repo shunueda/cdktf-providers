@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface NicConfig extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable name for the NIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic#name Nic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic#name Nic#name}
   */
   readonly name: string;
   /**
   * ID of the VM to attach this NIC to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic#vm_id Nic#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic#vm_id Nic#vm_id}
   */
   readonly vmId: string;
   /**
   * ID of the VNIC profile to associate with this NIC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic#vnic_profile_id Nic#vnic_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic#vnic_profile_id Nic#vnic_profile_id}
   */
   readonly vnicProfileId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic ovirt_nic}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic ovirt_nic}
 */
 export class Nic extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Nic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nic to import
-  * @param importFromId The id of the existing Nic that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nic that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Nic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/nic ovirt_nic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/nic ovirt_nic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Nic extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_nic',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

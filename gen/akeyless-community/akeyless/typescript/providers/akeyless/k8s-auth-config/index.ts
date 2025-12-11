@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface K8SAuthConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The access ID of the Kubernetes auth method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#access_id K8SAuthConfig#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#access_id K8SAuthConfig#access_id}
   */
   readonly accessId: string;
   /**
   * Cluster access type. options: [native_k8s, rancher]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#cluster_api_type K8SAuthConfig#cluster_api_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#cluster_api_type K8SAuthConfig#cluster_api_type}
   */
   readonly clusterApiType?: string;
   /**
   * Disable issuer validation [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#disable_issuer_validation K8SAuthConfig#disable_issuer_validation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#disable_issuer_validation K8SAuthConfig#disable_issuer_validation}
   */
   readonly disableIssuerValidation?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#id K8SAuthConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#id K8SAuthConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,85 +35,85 @@ export interface K8SAuthConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Native K8S auth type, [token/certificate]. (relevant for native_k8s only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#k8s_auth_type K8SAuthConfig#k8s_auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#k8s_auth_type K8SAuthConfig#k8s_auth_type}
   */
   readonly k8SAuthType?: string;
   /**
   * The CA Certificate (base64 encoded) to use to call into the kubernetes API server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#k8s_ca_cert K8SAuthConfig#k8s_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#k8s_ca_cert K8SAuthConfig#k8s_ca_cert}
   */
   readonly k8SCaCert?: string;
   /**
   * Content of the k8 client certificate (PEM format) in a Base64 format (relevant for native_k8s only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#k8s_client_certificate K8SAuthConfig#k8s_client_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#k8s_client_certificate K8SAuthConfig#k8s_client_certificate}
   */
   readonly k8SClientCertificate?: string;
   /**
   * Content of the k8 client private key (PEM format) in a Base64 format (relevant for native_k8s only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#k8s_client_key K8SAuthConfig#k8s_client_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#k8s_client_key K8SAuthConfig#k8s_client_key}
   */
   readonly k8SClientKey?: string;
   /**
   * The URL of the kubernetes API server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#k8s_host K8SAuthConfig#k8s_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#k8s_host K8SAuthConfig#k8s_host}
   */
   readonly k8SHost?: string;
   /**
   * The Kubernetes JWT issuer name. If not set, this <kubernetes/serviceaccount> will be used by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#k8s_issuer K8SAuthConfig#k8s_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#k8s_issuer K8SAuthConfig#k8s_issuer}
   */
   readonly k8SIssuer?: string;
   /**
   * K8S Auth config name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#name K8SAuthConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#name K8SAuthConfig#name}
   */
   readonly name: string;
   /**
   * The api key used to access the TokenReview API to validate other JWTs (relevant for rancher only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#rancher_api_key K8SAuthConfig#rancher_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#rancher_api_key K8SAuthConfig#rancher_api_key}
   */
   readonly rancherApiKey?: string;
   /**
   * The cluster id as define in rancher (relevant for rancher only)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#rancher_cluster_id K8SAuthConfig#rancher_cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#rancher_cluster_id K8SAuthConfig#rancher_cluster_id}
   */
   readonly rancherClusterId?: string;
   /**
   * The private key (in base64 encoded of the PEM format) associated with the public key defined in the Kubernetes auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#signing_key K8SAuthConfig#signing_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#signing_key K8SAuthConfig#signing_key}
   */
   readonly signingKey?: string;
   /**
   * Time in seconds of expiration of the Akeyless Kube Auth Method token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#token_exp K8SAuthConfig#token_exp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#token_exp K8SAuthConfig#token_exp}
   */
   readonly tokenExp?: number;
   /**
   * A Kubernetes service account JWT used to access the TokenReview API to validate other JWTs. If not set, the JWT submitted in the authentication process will be used to access the Kubernetes TokenReview API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#token_reviewer_jwt K8SAuthConfig#token_reviewer_jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#token_reviewer_jwt K8SAuthConfig#token_reviewer_jwt}
   */
   readonly tokenReviewerJwt?: string;
   /**
   * Use the GW's service account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#use_local_ca_jwt K8SAuthConfig#use_local_ca_jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#use_local_ca_jwt K8SAuthConfig#use_local_ca_jwt}
   */
   readonly useLocalCaJwt?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config akeyless_k8s_auth_config}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config akeyless_k8s_auth_config}
 */
 export class K8SAuthConfig extends cdktf.TerraformResource {
 
@@ -129,7 +129,7 @@ export class K8SAuthConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a K8SAuthConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the K8SAuthConfig to import
-  * @param importFromId The id of the existing K8SAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing K8SAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the K8SAuthConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -141,7 +141,7 @@ export class K8SAuthConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/k8s_auth_config akeyless_k8s_auth_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/k8s_auth_config akeyless_k8s_auth_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -152,8 +152,8 @@ export class K8SAuthConfig extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_k8s_auth_config',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

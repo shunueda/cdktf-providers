@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface TargetGlobalsignConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email of the GlobalSign GCC account contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#contact_email TargetGlobalsign#contact_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#contact_email TargetGlobalsign#contact_email}
   */
   readonly contactEmail: string;
   /**
   * First name of the GlobalSign GCC account contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#contact_first_name TargetGlobalsign#contact_first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#contact_first_name TargetGlobalsign#contact_first_name}
   */
   readonly contactFirstName: string;
   /**
   * Last name of the GlobalSign GCC account contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#contact_last_name TargetGlobalsign#contact_last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#contact_last_name TargetGlobalsign#contact_last_name}
   */
   readonly contactLastName: string;
   /**
   * Telephone of the GlobalSign GCC account contact
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#contact_phone TargetGlobalsign#contact_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#contact_phone TargetGlobalsign#contact_phone}
   */
   readonly contactPhone: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#description TargetGlobalsign#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#description TargetGlobalsign#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#id TargetGlobalsign#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#id TargetGlobalsign#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface TargetGlobalsignConfig extends cdktf.TerraformMetaArguments {
   /**
   * Key name. The key will be used to encrypt the target secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#key TargetGlobalsign#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#key TargetGlobalsign#key}
   */
   readonly key?: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#name TargetGlobalsign#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#name TargetGlobalsign#name}
   */
   readonly name: string;
   /**
   * Password of the GlobalSign GCC account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#password TargetGlobalsign#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#password TargetGlobalsign#password}
   */
   readonly password: string;
   /**
   * Profile ID of the GlobalSign GCC account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#profile_id TargetGlobalsign#profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#profile_id TargetGlobalsign#profile_id}
   */
   readonly profileId: string;
   /**
   * Timeout waiting for certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#timeout TargetGlobalsign#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#timeout TargetGlobalsign#timeout}
   */
   readonly timeout?: string;
   /**
   * Username of the GlobalSign GCC account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#username TargetGlobalsign#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#username TargetGlobalsign#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign akeyless_target_globalsign}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign akeyless_target_globalsign}
 */
 export class TargetGlobalsign extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class TargetGlobalsign extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TargetGlobalsign resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TargetGlobalsign to import
-  * @param importFromId The id of the existing TargetGlobalsign that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TargetGlobalsign that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TargetGlobalsign to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class TargetGlobalsign extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_globalsign akeyless_target_globalsign} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_globalsign akeyless_target_globalsign} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class TargetGlobalsign extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_globalsign',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

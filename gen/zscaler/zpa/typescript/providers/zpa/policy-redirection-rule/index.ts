@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,145 +10,145 @@ export interface PolicyRedirectionRuleConfig extends cdktf.TerraformMetaArgument
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#action PolicyRedirectionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#action PolicyRedirectionRule#action}
   */
   readonly action?: string;
   /**
   * This field defines the description of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#action_id PolicyRedirectionRule#action_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#action_id PolicyRedirectionRule#action_id}
   */
   readonly actionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#bypass_default_rule PolicyRedirectionRule#bypass_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#bypass_default_rule PolicyRedirectionRule#bypass_default_rule}
   */
   readonly bypassDefaultRule?: boolean | cdktf.IResolvable;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#custom_msg PolicyRedirectionRule#custom_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#custom_msg PolicyRedirectionRule#custom_msg}
   */
   readonly customMsg?: string;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#default_rule PolicyRedirectionRule#default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#default_rule PolicyRedirectionRule#default_rule}
   */
   readonly defaultRule?: boolean | cdktf.IResolvable;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#description PolicyRedirectionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#description PolicyRedirectionRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#lss_default_rule PolicyRedirectionRule#lss_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#lss_default_rule PolicyRedirectionRule#lss_default_rule}
   */
   readonly lssDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#microtenant_id PolicyRedirectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#microtenant_id PolicyRedirectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#name PolicyRedirectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#name PolicyRedirectionRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#operator PolicyRedirectionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#operator PolicyRedirectionRule#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#policy_set_id PolicyRedirectionRule#policy_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#policy_set_id PolicyRedirectionRule#policy_set_id}
   */
   readonly policySetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#policy_type PolicyRedirectionRule#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#policy_type PolicyRedirectionRule#policy_type}
   */
   readonly policyType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#priority PolicyRedirectionRule#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#priority PolicyRedirectionRule#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#reauth_default_rule PolicyRedirectionRule#reauth_default_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#reauth_default_rule PolicyRedirectionRule#reauth_default_rule}
   */
   readonly reauthDefaultRule?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#reauth_idle_timeout PolicyRedirectionRule#reauth_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#reauth_idle_timeout PolicyRedirectionRule#reauth_idle_timeout}
   */
   readonly reauthIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#reauth_timeout PolicyRedirectionRule#reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#reauth_timeout PolicyRedirectionRule#reauth_timeout}
   */
   readonly reauthTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#rule_order PolicyRedirectionRule#rule_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#rule_order PolicyRedirectionRule#rule_order}
   */
   readonly ruleOrder?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#zpn_cbi_profile_id PolicyRedirectionRule#zpn_cbi_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#zpn_cbi_profile_id PolicyRedirectionRule#zpn_cbi_profile_id}
   */
   readonly zpnCbiProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#zpn_inspection_profile_id PolicyRedirectionRule#zpn_inspection_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#zpn_inspection_profile_id PolicyRedirectionRule#zpn_inspection_profile_id}
   */
   readonly zpnInspectionProfileId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#zpn_isolation_profile_id PolicyRedirectionRule#zpn_isolation_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#zpn_isolation_profile_id PolicyRedirectionRule#zpn_isolation_profile_id}
   */
   readonly zpnIsolationProfileId?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#conditions PolicyRedirectionRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#conditions PolicyRedirectionRule#conditions}
   */
   readonly conditions?: PolicyRedirectionRuleConditions[] | cdktf.IResolvable;
   /**
   * service_edge_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#service_edge_groups PolicyRedirectionRule#service_edge_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#service_edge_groups PolicyRedirectionRule#service_edge_groups}
   */
   readonly serviceEdgeGroups?: PolicyRedirectionRuleServiceEdgeGroups[] | cdktf.IResolvable;
 }
 export interface PolicyRedirectionRuleConditionsOperands {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#idp_id PolicyRedirectionRule#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#idp_id PolicyRedirectionRule#idp_id}
   */
   readonly idpId?: string;
   /**
   * This signifies the key for the object type. String ID example: id 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#lhs PolicyRedirectionRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#lhs PolicyRedirectionRule#lhs}
   */
   readonly lhs: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#microtenant_id PolicyRedirectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#microtenant_id PolicyRedirectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#name PolicyRedirectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#name PolicyRedirectionRule#name}
   */
   readonly name?: string;
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#object_type PolicyRedirectionRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#object_type PolicyRedirectionRule#object_type}
   */
   readonly objectType: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#rhs PolicyRedirectionRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#rhs PolicyRedirectionRule#rhs}
   */
   readonly rhs?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#rhs_list PolicyRedirectionRule#rhs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#rhs_list PolicyRedirectionRule#rhs_list}
   */
   readonly rhsList?: string[];
 }
@@ -437,17 +437,17 @@ export class PolicyRedirectionRuleConditionsOperandsList extends cdktf.ComplexLi
 }
 export interface PolicyRedirectionRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#microtenant_id PolicyRedirectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#microtenant_id PolicyRedirectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#operator PolicyRedirectionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#operator PolicyRedirectionRule#operator}
   */
   readonly operator: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#operands PolicyRedirectionRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#operands PolicyRedirectionRule#operands}
   */
   readonly operands?: PolicyRedirectionRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -623,7 +623,7 @@ export class PolicyRedirectionRuleConditionsList extends cdktf.ComplexList {
 }
 export interface PolicyRedirectionRuleServiceEdgeGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#id PolicyRedirectionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#id PolicyRedirectionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -739,7 +739,7 @@ export class PolicyRedirectionRuleServiceEdgeGroupsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule zpa_policy_redirection_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule zpa_policy_redirection_rule}
 */
 export class PolicyRedirectionRule extends cdktf.TerraformResource {
 
@@ -755,7 +755,7 @@ export class PolicyRedirectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyRedirectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyRedirectionRule to import
-  * @param importFromId The id of the existing PolicyRedirectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyRedirectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyRedirectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -767,7 +767,7 @@ export class PolicyRedirectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_redirection_rule zpa_policy_redirection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_redirection_rule zpa_policy_redirection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -778,8 +778,8 @@ export class PolicyRedirectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_redirection_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

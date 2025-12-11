@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface GatewayLogForwardingAwsS3Config extends cdktf.TerraformMetaArgu
   /**
   * AWS access id relevant for access_key auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#access_id GatewayLogForwardingAwsS3#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#access_id GatewayLogForwardingAwsS3#access_id}
   */
   readonly accessId?: string;
   /**
   * AWS access key relevant for access_key auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#access_key GatewayLogForwardingAwsS3#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#access_key GatewayLogForwardingAwsS3#access_key}
   */
   readonly accessKey?: string;
   /**
   * AWS auth type [access_key/cloud_id/assume_role]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#auth_type GatewayLogForwardingAwsS3#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#auth_type GatewayLogForwardingAwsS3#auth_type}
   */
   readonly authType?: string;
   /**
   * AWS S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#bucket_name GatewayLogForwardingAwsS3#bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#bucket_name GatewayLogForwardingAwsS3#bucket_name}
   */
   readonly bucketName?: string;
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#enable GatewayLogForwardingAwsS3#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#enable GatewayLogForwardingAwsS3#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#id GatewayLogForwardingAwsS3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#id GatewayLogForwardingAwsS3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface GatewayLogForwardingAwsS3Config extends cdktf.TerraformMetaArgu
   /**
   * AWS S3 destination folder for logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#log_folder GatewayLogForwardingAwsS3#log_folder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#log_folder GatewayLogForwardingAwsS3#log_folder}
   */
   readonly logFolder?: string;
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#output_format GatewayLogForwardingAwsS3#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#output_format GatewayLogForwardingAwsS3#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#pull_interval GatewayLogForwardingAwsS3#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#pull_interval GatewayLogForwardingAwsS3#pull_interval}
   */
   readonly pullInterval?: string;
   /**
   * AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#region GatewayLogForwardingAwsS3#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#region GatewayLogForwardingAwsS3#region}
   */
   readonly region?: string;
   /**
   * AWS role arn relevant for assume_role auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#role_arn GatewayLogForwardingAwsS3#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#role_arn GatewayLogForwardingAwsS3#role_arn}
   */
   readonly roleArn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3 akeyless_gateway_log_forwarding_aws_s3}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3 akeyless_gateway_log_forwarding_aws_s3}
 */
 export class GatewayLogForwardingAwsS3 extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class GatewayLogForwardingAwsS3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayLogForwardingAwsS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingAwsS3 to import
-  * @param importFromId The id of the existing GatewayLogForwardingAwsS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingAwsS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingAwsS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class GatewayLogForwardingAwsS3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_aws_s3 akeyless_gateway_log_forwarding_aws_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_aws_s3 akeyless_gateway_log_forwarding_aws_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class GatewayLogForwardingAwsS3 extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_log_forwarding_aws_s3',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

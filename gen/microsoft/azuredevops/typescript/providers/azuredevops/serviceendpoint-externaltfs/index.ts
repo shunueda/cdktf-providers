@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,38 +10,38 @@ export interface ServiceendpointExternaltfsConfig extends cdktf.TerraformMetaArg
   /**
   * URL of the Azure DevOps organization or the TFS Project Collection to connect to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#connection_url ServiceendpointExternaltfs#connection_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#connection_url ServiceendpointExternaltfs#connection_url}
   */
   readonly connectionUrl: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#description ServiceendpointExternaltfs#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#description ServiceendpointExternaltfs#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#id ServiceendpointExternaltfs#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#id ServiceendpointExternaltfs#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#project_id ServiceendpointExternaltfs#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#project_id ServiceendpointExternaltfs#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#service_endpoint_name ServiceendpointExternaltfs#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#service_endpoint_name ServiceendpointExternaltfs#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * auth_personal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#auth_personal ServiceendpointExternaltfs#auth_personal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#auth_personal ServiceendpointExternaltfs#auth_personal}
   */
   readonly authPersonal: ServiceendpointExternaltfsAuthPersonal;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#timeouts ServiceendpointExternaltfs#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#timeouts ServiceendpointExternaltfs#timeouts}
   */
   readonly timeouts?: ServiceendpointExternaltfsTimeouts;
 }
@@ -49,7 +49,7 @@ export interface ServiceendpointExternaltfsAuthPersonal {
   /**
   * Personal access tokens are applicable only for connections targeting Azure DevOps organization or TFS 2017 (and higher)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#personal_access_token ServiceendpointExternaltfs#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#personal_access_token ServiceendpointExternaltfs#personal_access_token}
   */
   readonly personalAccessToken: string;
 }
@@ -130,19 +130,19 @@ export class ServiceendpointExternaltfsAuthPersonalOutputReference extends cdktf
 }
 export interface ServiceendpointExternaltfsTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#create ServiceendpointExternaltfs#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#create ServiceendpointExternaltfs#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#delete ServiceendpointExternaltfs#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#delete ServiceendpointExternaltfs#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#read ServiceendpointExternaltfs#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#read ServiceendpointExternaltfs#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#update ServiceendpointExternaltfs#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#update ServiceendpointExternaltfs#update}
   */
   readonly update?: string;
 }
@@ -323,7 +323,7 @@ export class ServiceendpointExternaltfsTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs azuredevops_serviceendpoint_externaltfs}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs azuredevops_serviceendpoint_externaltfs}
 */
 export class ServiceendpointExternaltfs extends cdktf.TerraformResource {
 
@@ -339,7 +339,7 @@ export class ServiceendpointExternaltfs extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointExternaltfs resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointExternaltfs to import
-  * @param importFromId The id of the existing ServiceendpointExternaltfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointExternaltfs that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointExternaltfs to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +351,7 @@ export class ServiceendpointExternaltfs extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_externaltfs azuredevops_serviceendpoint_externaltfs} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_externaltfs azuredevops_serviceendpoint_externaltfs} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,8 +362,8 @@ export class ServiceendpointExternaltfs extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_externaltfs',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationGcpCfgConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#enabled IntegrationGcpCfg#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#enabled IntegrationGcpCfg#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#id IntegrationGcpCfg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#id IntegrationGcpCfg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#name IntegrationGcpCfg#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#name IntegrationGcpCfg#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#resource_id IntegrationGcpCfg#resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#resource_id IntegrationGcpCfg#resource_id}
   */
   readonly resourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#resource_level IntegrationGcpCfg#resource_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#resource_level IntegrationGcpCfg#resource_level}
   */
   readonly resourceLevel?: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#retries IntegrationGcpCfg#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#retries IntegrationGcpCfg#retries}
   */
   readonly retries?: number;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#credentials IntegrationGcpCfg#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#credentials IntegrationGcpCfg#credentials}
   */
   readonly credentials: IntegrationGcpCfgCredentials;
 }
 export interface IntegrationGcpCfgCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#client_email IntegrationGcpCfg#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#client_email IntegrationGcpCfg#client_email}
   */
   readonly clientEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#client_id IntegrationGcpCfg#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#client_id IntegrationGcpCfg#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#private_key IntegrationGcpCfg#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#private_key IntegrationGcpCfg#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#private_key_id IntegrationGcpCfg#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#private_key_id IntegrationGcpCfg#private_key_id}
   */
   readonly privateKeyId: string;
 }
@@ -216,7 +216,7 @@ export class IntegrationGcpCfgCredentialsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg lacework_integration_gcp_cfg}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg lacework_integration_gcp_cfg}
 */
 export class IntegrationGcpCfg extends cdktf.TerraformResource {
 
@@ -232,7 +232,7 @@ export class IntegrationGcpCfg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGcpCfg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGcpCfg to import
-  * @param importFromId The id of the existing IntegrationGcpCfg that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGcpCfg that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGcpCfg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -244,7 +244,7 @@ export class IntegrationGcpCfg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcp_cfg lacework_integration_gcp_cfg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcp_cfg lacework_integration_gcp_cfg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -255,8 +255,8 @@ export class IntegrationGcpCfg extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_gcp_cfg',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

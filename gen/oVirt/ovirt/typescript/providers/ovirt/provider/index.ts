@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface OvirtProviderConfig {
   /**
   * Additional HTTP headers to set on each API call.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#extra_headers OvirtProvider#extra_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#extra_headers OvirtProvider#extra_headers}
   */
   readonly extraHeaders?: { [key: string]: string };
   /**
   * When set to true, the Terraform provider runs against an internal simulation. This should only be used for testing when an oVirt engine is not available as the mock backend does not persist state across runs. When set to false, one of the tls_ options is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#mock OvirtProvider#mock}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#mock OvirtProvider#mock}
   */
   readonly mock?: boolean | cdktf.IResolvable;
   /**
   * Password for oVirt authentication. Required when mock = false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#password OvirtProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#password OvirtProvider#password}
   */
   readonly password?: string;
   /**
   * Validate the Engine certificate against the provided CA certificates. The certificate chain passed should be in PEM format. Can be used in parallel with other `tls_` options, one `tls_` option is required when mock = false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#tls_ca_bundle OvirtProvider#tls_ca_bundle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#tls_ca_bundle OvirtProvider#tls_ca_bundle}
   */
   readonly tlsCaBundle?: string;
   /**
   * Validate the engine certificate against the CA certificates provided in the specified directories. The directory should contain only files with certificates in PEM format. Can be used in parallel with other tls_ options, one tls_ option is required when mock = false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#tls_ca_dirs OvirtProvider#tls_ca_dirs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#tls_ca_dirs OvirtProvider#tls_ca_dirs}
   */
   readonly tlsCaDirs?: string[];
   /**
   * Validate the Engine certificate against the CA certificates provided in the files in this parameter. The files should contain certificates in PEM format. Can be used in parallel with other tls_ options, one tls_ option is required when mock = false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#tls_ca_files OvirtProvider#tls_ca_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#tls_ca_files OvirtProvider#tls_ca_files}
   */
   readonly tlsCaFiles?: string[];
   /**
   * Disable certificate verification when connecting the Engine. This is not recommended. Setting this option is incompatible with other `tls_` options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#tls_insecure OvirtProvider#tls_insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#tls_insecure OvirtProvider#tls_insecure}
   */
   readonly tlsInsecure?: boolean | cdktf.IResolvable;
   /**
   * Use the system certificate pool to verify the Engine certificate. This does not work on Windows. Can be used in parallel with other `tls_` options, one tls_ option is required when mock = false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#tls_system OvirtProvider#tls_system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#tls_system OvirtProvider#tls_system}
   */
   readonly tlsSystem?: boolean | cdktf.IResolvable;
   /**
   * URL for the oVirt engine API. Required when mock = false. Example: `https://example.com/ovirt-engine/api/`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#url OvirtProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#url OvirtProvider#url}
   */
   readonly url?: string;
   /**
   * Username and realm for oVirt authentication. Required when mock = false. Example: `admin@internal`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#username OvirtProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#username OvirtProvider#username}
   */
   readonly username?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#alias OvirtProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#alias OvirtProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs ovirt}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs ovirt}
 */
 export class OvirtProvider extends cdktf.TerraformProvider {
 
@@ -92,7 +92,7 @@ export class OvirtProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a OvirtProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OvirtProvider to import
-  * @param importFromId The id of the existing OvirtProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OvirtProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OvirtProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class OvirtProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs ovirt} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs ovirt} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class OvirtProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'ovirt',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       terraformProviderSource: 'oVirt/ovirt'
     });

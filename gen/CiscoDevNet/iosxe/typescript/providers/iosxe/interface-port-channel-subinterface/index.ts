@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,292 +11,292 @@ export interface InterfacePortChannelSubinterfaceConfig extends cdktf.TerraformM
   * Set ARP cache timeout
   *   - Range: `0`-`2147483`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#arp_timeout InterfacePortChannelSubinterface#arp_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#arp_timeout InterfacePortChannelSubinterface#arp_timeout}
   */
   readonly arpTimeout?: number;
   /**
   * Configure classification for untrusted devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_classify InterfacePortChannelSubinterface#auto_qos_classify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_classify InterfacePortChannelSubinterface#auto_qos_classify}
   */
   readonly autoQosClassify?: boolean | cdktf.IResolvable;
   /**
   * Configure QoS policing for untrusted devices
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_classify_police InterfacePortChannelSubinterface#auto_qos_classify_police}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_classify_police InterfacePortChannelSubinterface#auto_qos_classify_police}
   */
   readonly autoQosClassifyPolice?: boolean | cdktf.IResolvable;
   /**
   * Trust the DSCP/CoS marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_trust InterfacePortChannelSubinterface#auto_qos_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_trust InterfacePortChannelSubinterface#auto_qos_trust}
   */
   readonly autoQosTrust?: boolean | cdktf.IResolvable;
   /**
   * Trust the CoS marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_trust_cos InterfacePortChannelSubinterface#auto_qos_trust_cos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_trust_cos InterfacePortChannelSubinterface#auto_qos_trust_cos}
   */
   readonly autoQosTrustCos?: boolean | cdktf.IResolvable;
   /**
   * Trust the DSCP marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_trust_dscp InterfacePortChannelSubinterface#auto_qos_trust_dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_trust_dscp InterfacePortChannelSubinterface#auto_qos_trust_dscp}
   */
   readonly autoQosTrustDscp?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of the Cisco Telepresence System
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_video_cts InterfacePortChannelSubinterface#auto_qos_video_cts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_video_cts InterfacePortChannelSubinterface#auto_qos_video_cts}
   */
   readonly autoQosVideoCts?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of the Ip Video Surveillance camera
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_video_ip_camera InterfacePortChannelSubinterface#auto_qos_video_ip_camera}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_video_ip_camera InterfacePortChannelSubinterface#auto_qos_video_ip_camera}
   */
   readonly autoQosVideoIpCamera?: boolean | cdktf.IResolvable;
   /**
   * Trust the Qos marking of the Cisco Media Player
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_video_media_player InterfacePortChannelSubinterface#auto_qos_video_media_player}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_video_media_player InterfacePortChannelSubinterface#auto_qos_video_media_player}
   */
   readonly autoQosVideoMediaPlayer?: boolean | cdktf.IResolvable;
   /**
   * Configure AutoQoS for VoIP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip InterfacePortChannelSubinterface#auto_qos_voip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip InterfacePortChannelSubinterface#auto_qos_voip}
   */
   readonly autoQosVoip?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of Cisco IP Phone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip_cisco_phone InterfacePortChannelSubinterface#auto_qos_voip_cisco_phone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip_cisco_phone InterfacePortChannelSubinterface#auto_qos_voip_cisco_phone}
   */
   readonly autoQosVoipCiscoPhone?: boolean | cdktf.IResolvable;
   /**
   * Trust the QoS marking of Cisco IP SoftPhone
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip_cisco_softphone InterfacePortChannelSubinterface#auto_qos_voip_cisco_softphone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip_cisco_softphone InterfacePortChannelSubinterface#auto_qos_voip_cisco_softphone}
   */
   readonly autoQosVoipCiscoSoftphone?: boolean | cdktf.IResolvable;
   /**
   * Trust the DSCP/CoS marking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip_trust InterfacePortChannelSubinterface#auto_qos_voip_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#auto_qos_voip_trust InterfacePortChannelSubinterface#auto_qos_voip_trust}
   */
   readonly autoQosVoipTrust?: boolean | cdktf.IResolvable;
   /**
   * Use echo adjunct as bfd detection mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_echo InterfacePortChannelSubinterface#bfd_echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_echo InterfacePortChannelSubinterface#bfd_echo}
   */
   readonly bfdEcho?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD under the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_enable InterfacePortChannelSubinterface#bfd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_enable InterfacePortChannelSubinterface#bfd_enable}
   */
   readonly bfdEnable?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_interval InterfacePortChannelSubinterface#bfd_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_interval InterfacePortChannelSubinterface#bfd_interval}
   */
   readonly bfdInterval?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_interval_min_rx InterfacePortChannelSubinterface#bfd_interval_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_interval_min_rx InterfacePortChannelSubinterface#bfd_interval_min_rx}
   */
   readonly bfdIntervalMinRx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_interval_multiplier InterfacePortChannelSubinterface#bfd_interval_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_interval_multiplier InterfacePortChannelSubinterface#bfd_interval_multiplier}
   */
   readonly bfdIntervalMultiplier?: number;
   /**
   * The Source IP address to be used for BFD sessions over this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_local_address InterfacePortChannelSubinterface#bfd_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_local_address InterfacePortChannelSubinterface#bfd_local_address}
   */
   readonly bfdLocalAddress?: string;
   /**
   * BFD template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#bfd_template InterfacePortChannelSubinterface#bfd_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#bfd_template InterfacePortChannelSubinterface#bfd_template}
   */
   readonly bfdTemplate?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#delete_mode InterfacePortChannelSubinterface#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#delete_mode InterfacePortChannelSubinterface#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Interface specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#description InterfacePortChannelSubinterface#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#description InterfacePortChannelSubinterface#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#device InterfacePortChannelSubinterface#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#device InterfacePortChannelSubinterface#device}
   */
   readonly device?: string;
   /**
   * 
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#encapsulation_dot1q_vlan_id InterfacePortChannelSubinterface#encapsulation_dot1q_vlan_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#encapsulation_dot1q_vlan_id InterfacePortChannelSubinterface#encapsulation_dot1q_vlan_id}
   */
   readonly encapsulationDot1QVlanId?: number;
   /**
   * Specify a destination address for UDP broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#helper_addresses InterfacePortChannelSubinterface#helper_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#helper_addresses InterfacePortChannelSubinterface#helper_addresses}
   */
   readonly helperAddresses?: InterfacePortChannelSubinterfaceHelperAddresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_access_group_in InterfacePortChannelSubinterface#ip_access_group_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_access_group_in InterfacePortChannelSubinterface#ip_access_group_in}
   */
   readonly ipAccessGroupIn?: string;
   /**
   * inbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_access_group_in_enable InterfacePortChannelSubinterface#ip_access_group_in_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_access_group_in_enable InterfacePortChannelSubinterface#ip_access_group_in_enable}
   */
   readonly ipAccessGroupInEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_access_group_out InterfacePortChannelSubinterface#ip_access_group_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_access_group_out InterfacePortChannelSubinterface#ip_access_group_out}
   */
   readonly ipAccessGroupOut?: string;
   /**
   * outbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_access_group_out_enable InterfacePortChannelSubinterface#ip_access_group_out_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_access_group_out_enable InterfacePortChannelSubinterface#ip_access_group_out_enable}
   */
   readonly ipAccessGroupOutEnable?: boolean | cdktf.IResolvable;
   /**
   * Rate Limit
   *   - Range: `0`-`4294967295`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_arp_inspection_limit_rate InterfacePortChannelSubinterface#ip_arp_inspection_limit_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_arp_inspection_limit_rate InterfacePortChannelSubinterface#ip_arp_inspection_limit_rate}
   */
   readonly ipArpInspectionLimitRate?: number;
   /**
   * Configure Trust state
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_arp_inspection_trust InterfacePortChannelSubinterface#ip_arp_inspection_trust}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_arp_inspection_trust InterfacePortChannelSubinterface#ip_arp_inspection_trust}
   */
   readonly ipArpInspectionTrust?: boolean | cdktf.IResolvable;
   /**
   * IGMP version
   *   - Range: `1`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_igmp_version InterfacePortChannelSubinterface#ip_igmp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_igmp_version InterfacePortChannelSubinterface#ip_igmp_version}
   */
   readonly ipIgmpVersion?: number;
   /**
   * Enable proxy ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_proxy_arp InterfacePortChannelSubinterface#ip_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_proxy_arp InterfacePortChannelSubinterface#ip_proxy_arp}
   */
   readonly ipProxyArp?: boolean | cdktf.IResolvable;
   /**
   * Enable sending ICMP Redirect messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_redirects InterfacePortChannelSubinterface#ip_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_redirects InterfacePortChannelSubinterface#ip_redirects}
   */
   readonly ipRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_router_isis InterfacePortChannelSubinterface#ip_router_isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_router_isis InterfacePortChannelSubinterface#ip_router_isis}
   */
   readonly ipRouterIsis?: string;
   /**
   * Enable sending ICMP Unreachable messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ip_unreachables InterfacePortChannelSubinterface#ip_unreachables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ip_unreachables InterfacePortChannelSubinterface#ip_unreachables}
   */
   readonly ipUnreachables?: boolean | cdktf.IResolvable;
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv4_address InterfacePortChannelSubinterface#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv4_address InterfacePortChannelSubinterface#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ip subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv4_address_mask InterfacePortChannelSubinterface#ipv4_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv4_address_mask InterfacePortChannelSubinterface#ipv4_address_mask}
   */
   readonly ipv4AddressMask?: string;
   /**
   * Insert default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_address_autoconfig_default InterfacePortChannelSubinterface#ipv6_address_autoconfig_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_address_autoconfig_default InterfacePortChannelSubinterface#ipv6_address_autoconfig_default}
   */
   readonly ipv6AddressAutoconfigDefault?: boolean | cdktf.IResolvable;
   /**
   * Obtain IPv6 address from DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_address_dhcp InterfacePortChannelSubinterface#ipv6_address_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_address_dhcp InterfacePortChannelSubinterface#ipv6_address_dhcp}
   */
   readonly ipv6AddressDhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_addresses InterfacePortChannelSubinterface#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_addresses InterfacePortChannelSubinterface#ipv6_addresses}
   */
   readonly ipv6Addresses?: InterfacePortChannelSubinterfaceIpv6Addresses[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_enable InterfacePortChannelSubinterface#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_enable InterfacePortChannelSubinterface#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_link_local_addresses InterfacePortChannelSubinterface#ipv6_link_local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_link_local_addresses InterfacePortChannelSubinterface#ipv6_link_local_addresses}
   */
   readonly ipv6LinkLocalAddresses?: InterfacePortChannelSubinterfaceIpv6LinkLocalAddresses[] | cdktf.IResolvable;
   /**
   * Set IPv6 Maximum Transmission Unit
   *   - Range: `1280`-`9976`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_mtu InterfacePortChannelSubinterface#ipv6_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_mtu InterfacePortChannelSubinterface#ipv6_mtu}
   */
   readonly ipv6Mtu?: number;
   /**
   * Suppress all IPv6 RA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#ipv6_nd_ra_suppress_all InterfacePortChannelSubinterface#ipv6_nd_ra_suppress_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#ipv6_nd_ra_suppress_all InterfacePortChannelSubinterface#ipv6_nd_ra_suppress_all}
   */
   readonly ipv6NdRaSuppressAll?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#name InterfacePortChannelSubinterface#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#name InterfacePortChannelSubinterface#name}
   */
   readonly name: string;
   /**
   * Shutdown the selected interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#shutdown InterfacePortChannelSubinterface#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#shutdown InterfacePortChannelSubinterface#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * trusted device class
   *   - Choices: `cisco-phone`, `cts`, `ip-camera`, `media-player`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#trust_device InterfacePortChannelSubinterface#trust_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#trust_device InterfacePortChannelSubinterface#trust_device}
   */
   readonly trustDevice?: string;
   /**
   * Configure forwarding table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#vrf_forwarding InterfacePortChannelSubinterface#vrf_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#vrf_forwarding InterfacePortChannelSubinterface#vrf_forwarding}
   */
   readonly vrfForwarding?: string;
 }
@@ -304,19 +304,19 @@ export interface InterfacePortChannelSubinterfaceHelperAddresses {
   /**
   * IP destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#address InterfacePortChannelSubinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#address InterfacePortChannelSubinterface#address}
   */
   readonly address: string;
   /**
   * Helper-address is global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#global InterfacePortChannelSubinterface#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#global InterfacePortChannelSubinterface#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * VRF name for helper-address (if different from interface VRF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#vrf InterfacePortChannelSubinterface#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#vrf InterfacePortChannelSubinterface#vrf}
   */
   readonly vrf?: string;
 }
@@ -489,13 +489,13 @@ export interface InterfacePortChannelSubinterfaceIpv6Addresses {
   /**
   * Use eui-64 interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#eui_64 InterfacePortChannelSubinterface#eui_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#eui_64 InterfacePortChannelSubinterface#eui_64}
   */
   readonly eui64?: boolean | cdktf.IResolvable;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#prefix InterfacePortChannelSubinterface#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#prefix InterfacePortChannelSubinterface#prefix}
   */
   readonly prefix: string;
 }
@@ -637,13 +637,13 @@ export class InterfacePortChannelSubinterfaceIpv6AddressesList extends cdktf.Com
 }
 export interface InterfacePortChannelSubinterfaceIpv6LinkLocalAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#address InterfacePortChannelSubinterface#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#address InterfacePortChannelSubinterface#address}
   */
   readonly address: string;
   /**
   * Use link-local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#link_local InterfacePortChannelSubinterface#link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#link_local InterfacePortChannelSubinterface#link_local}
   */
   readonly linkLocal?: boolean | cdktf.IResolvable;
 }
@@ -785,7 +785,7 @@ export class InterfacePortChannelSubinterfaceIpv6LinkLocalAddressesList extends 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface}
 */
 export class InterfacePortChannelSubinterface extends cdktf.TerraformResource {
 
@@ -801,7 +801,7 @@ export class InterfacePortChannelSubinterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfacePortChannelSubinterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfacePortChannelSubinterface to import
-  * @param importFromId The id of the existing InterfacePortChannelSubinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfacePortChannelSubinterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfacePortChannelSubinterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -813,7 +813,7 @@ export class InterfacePortChannelSubinterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_port_channel_subinterface iosxe_interface_port_channel_subinterface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -824,8 +824,8 @@ export class InterfacePortChannelSubinterface extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_port_channel_subinterface',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

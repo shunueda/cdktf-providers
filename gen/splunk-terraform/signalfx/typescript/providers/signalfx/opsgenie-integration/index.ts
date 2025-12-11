@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface OpsgenieIntegrationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Opsgenie API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration#api_key OpsgenieIntegration#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration#api_key OpsgenieIntegration#api_key}
   */
   readonly apiKey: string;
   /**
   * Opsgenie API URL for integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration#api_url OpsgenieIntegration#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration#api_url OpsgenieIntegration#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration#enabled OpsgenieIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration#enabled OpsgenieIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration#id OpsgenieIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration#id OpsgenieIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,13 +35,13 @@ export interface OpsgenieIntegrationConfig extends cdktf.TerraformMetaArguments 
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration#name OpsgenieIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration#name OpsgenieIntegration#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration signalfx_opsgenie_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration signalfx_opsgenie_integration}
 */
 export class OpsgenieIntegration extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class OpsgenieIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpsgenieIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpsgenieIntegration to import
-  * @param importFromId The id of the existing OpsgenieIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpsgenieIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpsgenieIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class OpsgenieIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/opsgenie_integration signalfx_opsgenie_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/opsgenie_integration signalfx_opsgenie_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class OpsgenieIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_opsgenie_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

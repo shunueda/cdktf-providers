@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DynamicSecretMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#custom_username_template DynamicSecretMysql#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#custom_username_template DynamicSecretMysql#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * the set of root certificate authorities in base64 encoding that clients use when verifying server certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#db_server_certificates DynamicSecretMysql#db_server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#db_server_certificates DynamicSecretMysql#db_server_certificates}
   */
   readonly dbServerCertificates?: string;
   /**
   * Server name is used to verify the hostname on the returned certificates unless InsecureSkipVerify is given. It is also included in the client's handshake to support virtual hosting unless it is an IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#db_server_name DynamicSecretMysql#db_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#db_server_name DynamicSecretMysql#db_server_name}
   */
   readonly dbServerName?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#encryption_key_name DynamicSecretMysql#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#encryption_key_name DynamicSecretMysql#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#id DynamicSecretMysql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#id DynamicSecretMysql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,121 +41,121 @@ export interface DynamicSecretMysqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * MySQL Creation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_creation_statements DynamicSecretMysql#mysql_creation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_creation_statements DynamicSecretMysql#mysql_creation_statements}
   */
   readonly mysqlCreationStatements?: string;
   /**
   * MySQL DB name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_dbname DynamicSecretMysql#mysql_dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_dbname DynamicSecretMysql#mysql_dbname}
   */
   readonly mysqlDbname?: string;
   /**
   * MySQL host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_host DynamicSecretMysql#mysql_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_host DynamicSecretMysql#mysql_host}
   */
   readonly mysqlHost?: string;
   /**
   * MySQL password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_password DynamicSecretMysql#mysql_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_password DynamicSecretMysql#mysql_password}
   */
   readonly mysqlPassword?: string;
   /**
   * MySQL port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_port DynamicSecretMysql#mysql_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_port DynamicSecretMysql#mysql_port}
   */
   readonly mysqlPort?: string;
   /**
   * MySQL Revocation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_revocation_statements DynamicSecretMysql#mysql_revocation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_revocation_statements DynamicSecretMysql#mysql_revocation_statements}
   */
   readonly mysqlRevocationStatements?: string;
   /**
   * MySQL user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#mysql_username DynamicSecretMysql#mysql_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#mysql_username DynamicSecretMysql#mysql_username}
   */
   readonly mysqlUsername?: string;
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#name DynamicSecretMysql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#name DynamicSecretMysql#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#password_length DynamicSecretMysql#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#password_length DynamicSecretMysql#password_length}
   */
   readonly passwordLength?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#secure_access_bastion_issuer DynamicSecretMysql#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#secure_access_bastion_issuer DynamicSecretMysql#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * Enable Web Secure Remote Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#secure_access_db_name DynamicSecretMysql#secure_access_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#secure_access_db_name DynamicSecretMysql#secure_access_db_name}
   */
   readonly secureAccessDbName?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#secure_access_enable DynamicSecretMysql#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#secure_access_enable DynamicSecretMysql#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target DB servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#secure_access_host DynamicSecretMysql#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#secure_access_host DynamicSecretMysql#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Enable Web Secure Remote Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#secure_access_web DynamicSecretMysql#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#secure_access_web DynamicSecretMysql#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable SSL [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#ssl DynamicSecretMysql#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#ssl DynamicSecretMysql#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * SSL CA certificate in base64 encoding generated from a trusted Certificate Authority (CA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#ssl_certificate DynamicSecretMysql#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#ssl_certificate DynamicSecretMysql#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#tags DynamicSecretMysql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#tags DynamicSecretMysql#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#target_name DynamicSecretMysql#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#target_name DynamicSecretMysql#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#user_ttl DynamicSecretMysql#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#user_ttl DynamicSecretMysql#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql akeyless_dynamic_secret_mysql}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql akeyless_dynamic_secret_mysql}
 */
 export class DynamicSecretMysql extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class DynamicSecretMysql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretMysql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretMysql to import
-  * @param importFromId The id of the existing DynamicSecretMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretMysql that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretMysql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DynamicSecretMysql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mysql akeyless_dynamic_secret_mysql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mysql akeyless_dynamic_secret_mysql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DynamicSecretMysql extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_mysql',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

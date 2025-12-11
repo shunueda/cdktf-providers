@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationGhcrConfig extends cdktf.TerraformMetaArguments {
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#enabled IntegrationGhcr#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#enabled IntegrationGhcr#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#id IntegrationGhcr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#id IntegrationGhcr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,71 +23,71 @@ export interface IntegrationGhcrConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of repositories to assess
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#limit_by_repositories IntegrationGhcr#limit_by_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#limit_by_repositories IntegrationGhcr#limit_by_repositories}
   */
   readonly limitByRepositories?: string[];
   /**
   * A list of image tags to limit the assessment of images with matching tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#limit_by_tags IntegrationGhcr#limit_by_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#limit_by_tags IntegrationGhcr#limit_by_tags}
   */
   readonly limitByTags?: string[];
   /**
   * The maximum number of newest container images to assess per repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#limit_num_imgs IntegrationGhcr#limit_num_imgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#limit_num_imgs IntegrationGhcr#limit_num_imgs}
   */
   readonly limitNumImgs?: number;
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#name IntegrationGhcr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#name IntegrationGhcr#name}
   */
   readonly name: string;
   /**
   * Enable program language scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#non_os_package_support IntegrationGhcr#non_os_package_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#non_os_package_support IntegrationGhcr#non_os_package_support}
   */
   readonly nonOsPackageSupport?: boolean | cdktf.IResolvable;
   /**
   * The Github personal access token with read:packages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#password IntegrationGhcr#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#password IntegrationGhcr#password}
   */
   readonly password: string;
   /**
   * Subscribe to Registry Notifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#registry_notifications IntegrationGhcr#registry_notifications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#registry_notifications IntegrationGhcr#registry_notifications}
   */
   readonly registryNotifications?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable SSL communication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#ssl IntegrationGhcr#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#ssl IntegrationGhcr#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * The username with permissions to pull the images from the container registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#username IntegrationGhcr#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#username IntegrationGhcr#username}
   */
   readonly username: string;
   /**
   * limit_by_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#limit_by_label IntegrationGhcr#limit_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#limit_by_label IntegrationGhcr#limit_by_label}
   */
   readonly limitByLabel?: IntegrationGhcrLimitByLabel[] | cdktf.IResolvable;
 }
 export interface IntegrationGhcrLimitByLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#key IntegrationGhcr#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#key IntegrationGhcr#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#value IntegrationGhcr#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#value IntegrationGhcr#value}
   */
   readonly value: string;
 }
@@ -226,7 +226,7 @@ export class IntegrationGhcrLimitByLabelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr lacework_integration_ghcr}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr lacework_integration_ghcr}
 */
 export class IntegrationGhcr extends cdktf.TerraformResource {
 
@@ -242,7 +242,7 @@ export class IntegrationGhcr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGhcr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGhcr to import
-  * @param importFromId The id of the existing IntegrationGhcr that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGhcr that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGhcr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -254,7 +254,7 @@ export class IntegrationGhcr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ghcr lacework_integration_ghcr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ghcr lacework_integration_ghcr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -265,8 +265,8 @@ export class IntegrationGhcr extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_ghcr',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TargetSshConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#description TargetSsh#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#description TargetSsh#description}
   */
   readonly description?: string;
   /**
   * SSH host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#host TargetSsh#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#host TargetSsh#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#id TargetSsh#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#id TargetSsh#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface TargetSshConfig extends cdktf.TerraformMetaArguments {
   /**
   * Key name. The key will be used to encrypt the target secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#key TargetSsh#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#key TargetSsh#key}
   */
   readonly key?: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#name TargetSsh#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#name TargetSsh#name}
   */
   readonly name: string;
   /**
   * SSH port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#port TargetSsh#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#port TargetSsh#port}
   */
   readonly port?: string;
   /**
   * SSH private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#private_key TargetSsh#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#private_key TargetSsh#private_key}
   */
   readonly privateKey?: string;
   /**
   * SSH private key password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#private_key_password TargetSsh#private_key_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#private_key_password TargetSsh#private_key_password}
   */
   readonly privateKeyPassword?: string;
   /**
   * SSH password to rotate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#ssh_password TargetSsh#ssh_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#ssh_password TargetSsh#ssh_password}
   */
   readonly sshPassword?: string;
   /**
   * SSH username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#ssh_username TargetSsh#ssh_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#ssh_username TargetSsh#ssh_username}
   */
   readonly sshUsername?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh akeyless_target_ssh}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh akeyless_target_ssh}
 */
 export class TargetSsh extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class TargetSsh extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TargetSsh resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TargetSsh to import
-  * @param importFromId The id of the existing TargetSsh that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TargetSsh that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TargetSsh to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class TargetSsh extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_ssh akeyless_target_ssh} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_ssh akeyless_target_ssh} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class TargetSsh extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_ssh',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

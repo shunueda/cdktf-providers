@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/data-sources/api_token
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/data-sources/api_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataLaceworkApiTokenConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/data-sources/api_token#id DataLaceworkApiToken#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/data-sources/api_token#id DataLaceworkApiToken#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataLaceworkApiTokenConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/data-sources/api_token lacework_api_token}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/data-sources/api_token lacework_api_token}
 */
 export class DataLaceworkApiToken extends cdktf.TerraformDataSource {
 
@@ -33,7 +33,7 @@ export class DataLaceworkApiToken extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataLaceworkApiToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataLaceworkApiToken to import
-  * @param importFromId The id of the existing DataLaceworkApiToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/data-sources/api_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataLaceworkApiToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/data-sources/api_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataLaceworkApiToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -45,7 +45,7 @@ export class DataLaceworkApiToken extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/data-sources/api_token lacework_api_token} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/data-sources/api_token lacework_api_token} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -56,8 +56,8 @@ export class DataLaceworkApiToken extends cdktf.TerraformDataSource {
       terraformResourceType: 'lacework_api_token',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

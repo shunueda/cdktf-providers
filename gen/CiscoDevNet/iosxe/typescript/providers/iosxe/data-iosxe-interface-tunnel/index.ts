@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_tunnel
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_tunnel
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataIosxeInterfaceTunnelConfig extends cdktf.TerraformMetaArgum
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_tunnel#device DataIosxeInterfaceTunnel#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_tunnel#device DataIosxeInterfaceTunnel#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_tunnel#name DataIosxeInterfaceTunnel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_tunnel#name DataIosxeInterfaceTunnel#name}
   */
   readonly name: number;
 }
@@ -265,7 +265,7 @@ export class DataIosxeInterfaceTunnelIpv6LinkLocalAddressesList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_tunnel iosxe_interface_tunnel}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_tunnel iosxe_interface_tunnel}
 */
 export class DataIosxeInterfaceTunnel extends cdktf.TerraformDataSource {
 
@@ -281,7 +281,7 @@ export class DataIosxeInterfaceTunnel extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeInterfaceTunnel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeInterfaceTunnel to import
-  * @param importFromId The id of the existing DataIosxeInterfaceTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_tunnel#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeInterfaceTunnel that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_tunnel#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeInterfaceTunnel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -293,7 +293,7 @@ export class DataIosxeInterfaceTunnel extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/interface_tunnel iosxe_interface_tunnel} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/interface_tunnel iosxe_interface_tunnel} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -304,8 +304,8 @@ export class DataIosxeInterfaceTunnel extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_interface_tunnel',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -450,6 +450,11 @@ export class DataIosxeInterfaceTunnel extends cdktf.TerraformDataSource {
     return this.getStringAttribute('ip_router_isis');
   }
 
+  // ip_tcp_adjust_mss - computed: true, optional: false, required: false
+  public get ipTcpAdjustMss() {
+    return this.getNumberAttribute('ip_tcp_adjust_mss');
+  }
+
   // ip_unreachables - computed: true, optional: false, required: false
   public get ipUnreachables() {
     return this.getBooleanAttribute('ip_unreachables');
@@ -548,6 +553,11 @@ export class DataIosxeInterfaceTunnel extends cdktf.TerraformDataSource {
   // tunnel_protection_ipsec_profile - computed: true, optional: false, required: false
   public get tunnelProtectionIpsecProfile() {
     return this.getStringAttribute('tunnel_protection_ipsec_profile');
+  }
+
+  // tunnel_protection_ipsec_profile_legacy - computed: true, optional: false, required: false
+  public get tunnelProtectionIpsecProfileLegacy() {
+    return this.getStringAttribute('tunnel_protection_ipsec_profile_legacy');
   }
 
   // tunnel_source - computed: true, optional: false, required: false

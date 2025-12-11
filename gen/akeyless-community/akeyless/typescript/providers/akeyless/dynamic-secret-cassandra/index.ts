@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DynamicSecretCassandraConfig extends cdktf.TerraformMetaArgumen
   /**
   * Cassandra Creation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#cassandra_creation_statements DynamicSecretCassandra#cassandra_creation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#cassandra_creation_statements DynamicSecretCassandra#cassandra_creation_statements}
   */
   readonly cassandraCreationStatements?: string;
   /**
   * Cassandra hosts names or IP addresses, comma separated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#cassandra_hosts DynamicSecretCassandra#cassandra_hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#cassandra_hosts DynamicSecretCassandra#cassandra_hosts}
   */
   readonly cassandraHosts?: string;
   /**
   * Cassandra superuser password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#cassandra_password DynamicSecretCassandra#cassandra_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#cassandra_password DynamicSecretCassandra#cassandra_password}
   */
   readonly cassandraPassword?: string;
   /**
   * Cassandra port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#cassandra_port DynamicSecretCassandra#cassandra_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#cassandra_port DynamicSecretCassandra#cassandra_port}
   */
   readonly cassandraPort?: string;
   /**
   * Cassandra superuser user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#cassandra_username DynamicSecretCassandra#cassandra_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#cassandra_username DynamicSecretCassandra#cassandra_username}
   */
   readonly cassandraUsername?: string;
   /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#custom_username_template DynamicSecretCassandra#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#custom_username_template DynamicSecretCassandra#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#encryption_key_name DynamicSecretCassandra#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#encryption_key_name DynamicSecretCassandra#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#id DynamicSecretCassandra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#id DynamicSecretCassandra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,49 +59,49 @@ export interface DynamicSecretCassandraConfig extends cdktf.TerraformMetaArgumen
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#name DynamicSecretCassandra#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#name DynamicSecretCassandra#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#password_length DynamicSecretCassandra#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#password_length DynamicSecretCassandra#password_length}
   */
   readonly passwordLength?: string;
   /**
   * Enable/Disable SSL [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#ssl DynamicSecretCassandra#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#ssl DynamicSecretCassandra#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * SSL CA certificate in base64 encoding generated from a trusted Certificate Authority (CA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#ssl_certificate DynamicSecretCassandra#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#ssl_certificate DynamicSecretCassandra#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#tags DynamicSecretCassandra#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#tags DynamicSecretCassandra#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#target_name DynamicSecretCassandra#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#target_name DynamicSecretCassandra#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL (<=60m for access token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#user_ttl DynamicSecretCassandra#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#user_ttl DynamicSecretCassandra#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra akeyless_dynamic_secret_cassandra}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra akeyless_dynamic_secret_cassandra}
 */
 export class DynamicSecretCassandra extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class DynamicSecretCassandra extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretCassandra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretCassandra to import
-  * @param importFromId The id of the existing DynamicSecretCassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretCassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretCassandra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DynamicSecretCassandra extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_cassandra akeyless_dynamic_secret_cassandra} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_cassandra akeyless_dynamic_secret_cassandra} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DynamicSecretCassandra extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_cassandra',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

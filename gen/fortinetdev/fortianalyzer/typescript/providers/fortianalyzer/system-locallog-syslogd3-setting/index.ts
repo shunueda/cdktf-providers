@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogSyslogd3SettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#cert SystemLocallogSyslogd3Setting#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#cert SystemLocallogSyslogd3Setting#cert}
   */
   readonly cert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#csv SystemLocallogSyslogd3Setting#csv}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#csv SystemLocallogSyslogd3Setting#csv}
   */
   readonly csv?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#facility SystemLocallogSyslogd3Setting#facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#facility SystemLocallogSyslogd3Setting#facility}
   */
   readonly facility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#id SystemLocallogSyslogd3Setting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#id SystemLocallogSyslogd3Setting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#reliable SystemLocallogSyslogd3Setting#reliable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#reliable SystemLocallogSyslogd3Setting#reliable}
   */
   readonly reliable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#secure_connection SystemLocallogSyslogd3Setting#secure_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#secure_connection SystemLocallogSyslogd3Setting#secure_connection}
   */
   readonly secureConnection?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#severity SystemLocallogSyslogd3Setting#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#severity SystemLocallogSyslogd3Setting#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#status SystemLocallogSyslogd3Setting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#status SystemLocallogSyslogd3Setting#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#syslog_name SystemLocallogSyslogd3Setting#syslog_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#syslog_name SystemLocallogSyslogd3Setting#syslog_name}
   */
   readonly syslogName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting fortianalyzer_system_locallog_syslogd3_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting fortianalyzer_system_locallog_syslogd3_setting}
 */
 export class SystemLocallogSyslogd3Setting extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class SystemLocallogSyslogd3Setting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLocallogSyslogd3Setting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogSyslogd3Setting to import
-  * @param importFromId The id of the existing SystemLocallogSyslogd3Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogSyslogd3Setting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogSyslogd3Setting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class SystemLocallogSyslogd3Setting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_syslogd3_setting fortianalyzer_system_locallog_syslogd3_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_syslogd3_setting fortianalyzer_system_locallog_syslogd3_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class SystemLocallogSyslogd3Setting extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_locallog_syslogd3_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GatewayLogForwardingSplunkConfig extends cdktf.TerraformMetaArg
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#enable GatewayLogForwardingSplunk#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#enable GatewayLogForwardingSplunk#enable}
   */
   readonly enable?: string;
   /**
   * Enable tls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#enable_tls GatewayLogForwardingSplunk#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#enable_tls GatewayLogForwardingSplunk#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#id GatewayLogForwardingSplunk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#id GatewayLogForwardingSplunk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface GatewayLogForwardingSplunkConfig extends cdktf.TerraformMetaArg
   /**
   * Splunk index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#index GatewayLogForwardingSplunk#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#index GatewayLogForwardingSplunk#index}
   */
   readonly index?: string;
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#output_format GatewayLogForwardingSplunk#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#output_format GatewayLogForwardingSplunk#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#pull_interval GatewayLogForwardingSplunk#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#pull_interval GatewayLogForwardingSplunk#pull_interval}
   */
   readonly pullInterval?: string;
   /**
   * Splunk source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#source GatewayLogForwardingSplunk#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#source GatewayLogForwardingSplunk#source}
   */
   readonly source?: string;
   /**
   * Splunk source type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#source_type GatewayLogForwardingSplunk#source_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#source_type GatewayLogForwardingSplunk#source_type}
   */
   readonly sourceType?: string;
   /**
   * Splunk token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#splunk_token GatewayLogForwardingSplunk#splunk_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#splunk_token GatewayLogForwardingSplunk#splunk_token}
   */
   readonly splunkToken?: string;
   /**
   * Splunk server URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#splunk_url GatewayLogForwardingSplunk#splunk_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#splunk_url GatewayLogForwardingSplunk#splunk_url}
   */
   readonly splunkUrl?: string;
   /**
   * Splunk tls certificate (PEM format) in a Base64 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#tls_certificate GatewayLogForwardingSplunk#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#tls_certificate GatewayLogForwardingSplunk#tls_certificate}
   */
   readonly tlsCertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk akeyless_gateway_log_forwarding_splunk}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk akeyless_gateway_log_forwarding_splunk}
 */
 export class GatewayLogForwardingSplunk extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class GatewayLogForwardingSplunk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayLogForwardingSplunk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingSplunk to import
-  * @param importFromId The id of the existing GatewayLogForwardingSplunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingSplunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingSplunk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class GatewayLogForwardingSplunk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_splunk akeyless_gateway_log_forwarding_splunk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_splunk akeyless_gateway_log_forwarding_splunk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class GatewayLogForwardingSplunk extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_log_forwarding_splunk',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

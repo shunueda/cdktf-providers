@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DiskResizeConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the disk to resize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize#disk_id DiskResize#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize#disk_id DiskResize#disk_id}
   */
   readonly diskId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize#id DiskResize#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize#id DiskResize#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,13 +23,13 @@ export interface DiskResizeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Disk size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize#size DiskResize#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize#size DiskResize#size}
   */
   readonly size: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize ovirt_disk_resize}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize ovirt_disk_resize}
 */
 export class DiskResize extends cdktf.TerraformResource {
 
@@ -45,7 +45,7 @@ export class DiskResize extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskResize resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskResize to import
-  * @param importFromId The id of the existing DiskResize that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskResize that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskResize to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DiskResize extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_resize ovirt_disk_resize} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_resize ovirt_disk_resize} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DiskResize extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_disk_resize',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

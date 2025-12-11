@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface AuthMethodGcpAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access expiration date in Unix timestamp (select 0 for access without expiry date)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#access_expires AuthMethodGcpA#access_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#access_expires AuthMethodGcpA#access_expires}
   */
   readonly accessExpires?: number;
   /**
   * The audience to verify in the JWT received by the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#audience AuthMethodGcpA#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#audience AuthMethodGcpA#audience}
   */
   readonly audience?: string;
   /**
   * Subclaims to include in audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#audit_logs_claims AuthMethodGcpA#audit_logs_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#audit_logs_claims AuthMethodGcpA#audit_logs_claims}
   */
   readonly auditLogsClaims?: string[];
   /**
   * A CIDR whitelist with the IPs that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#bound_ips AuthMethodGcpA#bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#bound_ips AuthMethodGcpA#bound_ips}
   */
   readonly boundIps?: string[];
   /**
   * GCE only. A list of GCP labels formatted as key:value pairs that must be set on instances in order to authenticate. For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#bound_labels AuthMethodGcpA#bound_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#bound_labels AuthMethodGcpA#bound_labels}
   */
   readonly boundLabels?: string[];
   /**
   * A list of GCP project IDs. Clients must belong to any of the provided projects in order to authenticate. For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#bound_projects AuthMethodGcpA#bound_projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#bound_projects AuthMethodGcpA#bound_projects}
   */
   readonly boundProjects?: string[];
   /**
   * GCE only. A list of regions. GCE instances must belong to any of the provided regions in order to authenticate. For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#bound_regions AuthMethodGcpA#bound_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#bound_regions AuthMethodGcpA#bound_regions}
   */
   readonly boundRegions?: string[];
   /**
   * A list of Service Accounts. Clients must belong to any of the provided service accounts in order to authenticate. For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#bound_service_accounts AuthMethodGcpA#bound_service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#bound_service_accounts AuthMethodGcpA#bound_service_accounts}
   */
   readonly boundServiceAccounts?: string[];
   /**
   * GCE only. A list of zones. GCE instances must belong to any of the provided zones in order to authenticate. For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#bound_zones AuthMethodGcpA#bound_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#bound_zones AuthMethodGcpA#bound_zones}
   */
   readonly boundZones?: string[];
   /**
   * Protection from accidental deletion of this auth method, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#delete_protection AuthMethodGcpA#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#delete_protection AuthMethodGcpA#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * enforce role-association must include sub claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#force_sub_claims AuthMethodGcpA#force_sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#force_sub_claims AuthMethodGcpA#force_sub_claims}
   */
   readonly forceSubClaims?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#id AuthMethodGcpA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#id AuthMethodGcpA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -83,31 +83,31 @@ export interface AuthMethodGcpAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Creds expiration time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#jwt_ttl AuthMethodGcpA#jwt_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#jwt_ttl AuthMethodGcpA#jwt_ttl}
   */
   readonly jwtTtl?: number;
   /**
   * Auth Method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#name AuthMethodGcpA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#name AuthMethodGcpA#name}
   */
   readonly name: string;
   /**
   * Service Account creds data, base64 encoded
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#service_account_creds_data AuthMethodGcpA#service_account_creds_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#service_account_creds_data AuthMethodGcpA#service_account_creds_data}
   */
   readonly serviceAccountCredsData?: string;
   /**
   * The type of the GCP Auth Method (iam/gce)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#type AuthMethodGcpA#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#type AuthMethodGcpA#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp akeyless_auth_method_gcp}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp akeyless_auth_method_gcp}
 */
 export class AuthMethodGcpA extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class AuthMethodGcpA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthMethodGcpA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthMethodGcpA to import
-  * @param importFromId The id of the existing AuthMethodGcpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthMethodGcpA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthMethodGcpA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class AuthMethodGcpA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_gcp akeyless_auth_method_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_gcp akeyless_auth_method_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class AuthMethodGcpA extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_gcp',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,188 +8,188 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogFortianalyzer2FilterConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#aid SystemLocallogFortianalyzer2Filter#aid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#aid SystemLocallogFortianalyzer2Filter#aid}
   */
   readonly aid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#controller SystemLocallogFortianalyzer2Filter#controller}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#controller SystemLocallogFortianalyzer2Filter#controller}
   */
   readonly controller?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#devcfg SystemLocallogFortianalyzer2Filter#devcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#devcfg SystemLocallogFortianalyzer2Filter#devcfg}
   */
   readonly devcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#devops SystemLocallogFortianalyzer2Filter#devops}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#devops SystemLocallogFortianalyzer2Filter#devops}
   */
   readonly devops?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#diskquota SystemLocallogFortianalyzer2Filter#diskquota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#diskquota SystemLocallogFortianalyzer2Filter#diskquota}
   */
   readonly diskquota?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#dm SystemLocallogFortianalyzer2Filter#dm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#dm SystemLocallogFortianalyzer2Filter#dm}
   */
   readonly dm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#docker SystemLocallogFortianalyzer2Filter#docker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#docker SystemLocallogFortianalyzer2Filter#docker}
   */
   readonly docker?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#dvm SystemLocallogFortianalyzer2Filter#dvm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#dvm SystemLocallogFortianalyzer2Filter#dvm}
   */
   readonly dvm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#ediscovery SystemLocallogFortianalyzer2Filter#ediscovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#ediscovery SystemLocallogFortianalyzer2Filter#ediscovery}
   */
   readonly ediscovery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#epmgr SystemLocallogFortianalyzer2Filter#epmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#epmgr SystemLocallogFortianalyzer2Filter#epmgr}
   */
   readonly epmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#event SystemLocallogFortianalyzer2Filter#event}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#event SystemLocallogFortianalyzer2Filter#event}
   */
   readonly event?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#eventmgmt SystemLocallogFortianalyzer2Filter#eventmgmt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#eventmgmt SystemLocallogFortianalyzer2Filter#eventmgmt}
   */
   readonly eventmgmt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#faz SystemLocallogFortianalyzer2Filter#faz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#faz SystemLocallogFortianalyzer2Filter#faz}
   */
   readonly faz?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fazha SystemLocallogFortianalyzer2Filter#fazha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fazha SystemLocallogFortianalyzer2Filter#fazha}
   */
   readonly fazha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fazsys SystemLocallogFortianalyzer2Filter#fazsys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fazsys SystemLocallogFortianalyzer2Filter#fazsys}
   */
   readonly fazsys?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fgd SystemLocallogFortianalyzer2Filter#fgd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fgd SystemLocallogFortianalyzer2Filter#fgd}
   */
   readonly fgd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fgfm SystemLocallogFortianalyzer2Filter#fgfm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fgfm SystemLocallogFortianalyzer2Filter#fgfm}
   */
   readonly fgfm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fips SystemLocallogFortianalyzer2Filter#fips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fips SystemLocallogFortianalyzer2Filter#fips}
   */
   readonly fips?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fmgws SystemLocallogFortianalyzer2Filter#fmgws}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fmgws SystemLocallogFortianalyzer2Filter#fmgws}
   */
   readonly fmgws?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fmlmgr SystemLocallogFortianalyzer2Filter#fmlmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fmlmgr SystemLocallogFortianalyzer2Filter#fmlmgr}
   */
   readonly fmlmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fmwmgr SystemLocallogFortianalyzer2Filter#fmwmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fmwmgr SystemLocallogFortianalyzer2Filter#fmwmgr}
   */
   readonly fmwmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#fortiview SystemLocallogFortianalyzer2Filter#fortiview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#fortiview SystemLocallogFortianalyzer2Filter#fortiview}
   */
   readonly fortiview?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#glbcfg SystemLocallogFortianalyzer2Filter#glbcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#glbcfg SystemLocallogFortianalyzer2Filter#glbcfg}
   */
   readonly glbcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#ha SystemLocallogFortianalyzer2Filter#ha}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#ha SystemLocallogFortianalyzer2Filter#ha}
   */
   readonly ha?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#hcache SystemLocallogFortianalyzer2Filter#hcache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#hcache SystemLocallogFortianalyzer2Filter#hcache}
   */
   readonly hcache?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#id SystemLocallogFortianalyzer2Filter#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#id SystemLocallogFortianalyzer2Filter#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#incident SystemLocallogFortianalyzer2Filter#incident}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#incident SystemLocallogFortianalyzer2Filter#incident}
   */
   readonly incident?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#iolog SystemLocallogFortianalyzer2Filter#iolog}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#iolog SystemLocallogFortianalyzer2Filter#iolog}
   */
   readonly iolog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#logd SystemLocallogFortianalyzer2Filter#logd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#logd SystemLocallogFortianalyzer2Filter#logd}
   */
   readonly logd?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#logdb SystemLocallogFortianalyzer2Filter#logdb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#logdb SystemLocallogFortianalyzer2Filter#logdb}
   */
   readonly logdb?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#logdev SystemLocallogFortianalyzer2Filter#logdev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#logdev SystemLocallogFortianalyzer2Filter#logdev}
   */
   readonly logdev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#logfile SystemLocallogFortianalyzer2Filter#logfile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#logfile SystemLocallogFortianalyzer2Filter#logfile}
   */
   readonly logfile?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#logging SystemLocallogFortianalyzer2Filter#logging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#logging SystemLocallogFortianalyzer2Filter#logging}
   */
   readonly logging?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#lrmgr SystemLocallogFortianalyzer2Filter#lrmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#lrmgr SystemLocallogFortianalyzer2Filter#lrmgr}
   */
   readonly lrmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#objcfg SystemLocallogFortianalyzer2Filter#objcfg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#objcfg SystemLocallogFortianalyzer2Filter#objcfg}
   */
   readonly objcfg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#report SystemLocallogFortianalyzer2Filter#report}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#report SystemLocallogFortianalyzer2Filter#report}
   */
   readonly report?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#rev SystemLocallogFortianalyzer2Filter#rev}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#rev SystemLocallogFortianalyzer2Filter#rev}
   */
   readonly rev?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#rtmon SystemLocallogFortianalyzer2Filter#rtmon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#rtmon SystemLocallogFortianalyzer2Filter#rtmon}
   */
   readonly rtmon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#scfw SystemLocallogFortianalyzer2Filter#scfw}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#scfw SystemLocallogFortianalyzer2Filter#scfw}
   */
   readonly scfw?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#scply SystemLocallogFortianalyzer2Filter#scply}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#scply SystemLocallogFortianalyzer2Filter#scply}
   */
   readonly scply?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#scrmgr SystemLocallogFortianalyzer2Filter#scrmgr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#scrmgr SystemLocallogFortianalyzer2Filter#scrmgr}
   */
   readonly scrmgr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#scvpn SystemLocallogFortianalyzer2Filter#scvpn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#scvpn SystemLocallogFortianalyzer2Filter#scvpn}
   */
   readonly scvpn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#system SystemLocallogFortianalyzer2Filter#system}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#system SystemLocallogFortianalyzer2Filter#system}
   */
   readonly systemAttribute?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#webport SystemLocallogFortianalyzer2Filter#webport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#webport SystemLocallogFortianalyzer2Filter#webport}
   */
   readonly webport?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter fortianalyzer_system_locallog_fortianalyzer2_filter}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter fortianalyzer_system_locallog_fortianalyzer2_filter}
 */
 export class SystemLocallogFortianalyzer2Filter extends cdktf.TerraformResource {
 
@@ -205,7 +205,7 @@ export class SystemLocallogFortianalyzer2Filter extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a SystemLocallogFortianalyzer2Filter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogFortianalyzer2Filter to import
-  * @param importFromId The id of the existing SystemLocallogFortianalyzer2Filter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogFortianalyzer2Filter that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogFortianalyzer2Filter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -217,7 +217,7 @@ export class SystemLocallogFortianalyzer2Filter extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_fortianalyzer2_filter fortianalyzer_system_locallog_fortianalyzer2_filter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_fortianalyzer2_filter fortianalyzer_system_locallog_fortianalyzer2_filter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -228,8 +228,8 @@ export class SystemLocallogFortianalyzer2Filter extends cdktf.TerraformResource 
       terraformResourceType: 'fortianalyzer_system_locallog_fortianalyzer2_filter',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

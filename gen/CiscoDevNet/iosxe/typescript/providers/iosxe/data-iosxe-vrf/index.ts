@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataIosxeVrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vrf#device DataIosxeVrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vrf#device DataIosxeVrf#device}
   */
   readonly device?: string;
   /**
   * WORD;;VRF name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vrf#name DataIosxeVrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vrf#name DataIosxeVrf#name}
   */
   readonly name: string;
 }
@@ -972,7 +972,7 @@ export class DataIosxeVrfRouteTargetImportList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vrf iosxe_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vrf iosxe_vrf}
 */
 export class DataIosxeVrf extends cdktf.TerraformDataSource {
 
@@ -988,7 +988,7 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeVrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeVrf to import
-  * @param importFromId The id of the existing DataIosxeVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeVrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeVrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1000,7 +1000,7 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/vrf iosxe_vrf} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/vrf iosxe_vrf} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1011,8 +1011,8 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1064,6 +1064,36 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ipv4_evpn_mcast_anycast - computed: true, optional: false, required: false
+  public get ipv4EvpnMcastAnycast() {
+    return this.getStringAttribute('ipv4_evpn_mcast_anycast');
+  }
+
+  // ipv4_evpn_mcast_data_address - computed: true, optional: false, required: false
+  public get ipv4EvpnMcastDataAddress() {
+    return this.getStringAttribute('ipv4_evpn_mcast_data_address');
+  }
+
+  // ipv4_evpn_mcast_data_mask_bits - computed: true, optional: false, required: false
+  public get ipv4EvpnMcastDataMaskBits() {
+    return this.getStringAttribute('ipv4_evpn_mcast_data_mask_bits');
+  }
+
+  // ipv4_evpn_mcast_mdt_default_address - computed: true, optional: false, required: false
+  public get ipv4EvpnMcastMdtDefaultAddress() {
+    return this.getStringAttribute('ipv4_evpn_mcast_mdt_default_address');
+  }
+
+  // ipv4_export_map - computed: true, optional: false, required: false
+  public get ipv4ExportMap() {
+    return this.getStringAttribute('ipv4_export_map');
+  }
+
+  // ipv4_import_map - computed: true, optional: false, required: false
+  public get ipv4ImportMap() {
+    return this.getStringAttribute('ipv4_import_map');
   }
 
   // ipv4_mdt_auto_discovery_interworking_vxlan_pim - computed: true, optional: false, required: false
@@ -1140,6 +1170,36 @@ export class DataIosxeVrf extends cdktf.TerraformDataSource {
   private _ipv4RouteTargetImportStitching = new DataIosxeVrfIpv4RouteTargetImportStitchingList(this, "ipv4_route_target_import_stitching", true);
   public get ipv4RouteTargetImportStitching() {
     return this._ipv4RouteTargetImportStitching;
+  }
+
+  // ipv6_evpn_mcast_anycast - computed: true, optional: false, required: false
+  public get ipv6EvpnMcastAnycast() {
+    return this.getStringAttribute('ipv6_evpn_mcast_anycast');
+  }
+
+  // ipv6_evpn_mcast_data_address - computed: true, optional: false, required: false
+  public get ipv6EvpnMcastDataAddress() {
+    return this.getStringAttribute('ipv6_evpn_mcast_data_address');
+  }
+
+  // ipv6_evpn_mcast_data_mask_bits - computed: true, optional: false, required: false
+  public get ipv6EvpnMcastDataMaskBits() {
+    return this.getStringAttribute('ipv6_evpn_mcast_data_mask_bits');
+  }
+
+  // ipv6_evpn_mcast_mdt_default_address - computed: true, optional: false, required: false
+  public get ipv6EvpnMcastMdtDefaultAddress() {
+    return this.getStringAttribute('ipv6_evpn_mcast_mdt_default_address');
+  }
+
+  // ipv6_export_map - computed: true, optional: false, required: false
+  public get ipv6ExportMap() {
+    return this.getStringAttribute('ipv6_export_map');
+  }
+
+  // ipv6_import_map - computed: true, optional: false, required: false
+  public get ipv6ImportMap() {
+    return this.getStringAttribute('ipv6_import_map');
   }
 
   // ipv6_route_target_export - computed: true, optional: false, required: false

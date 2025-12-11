@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/workload_tag_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/workload_tag_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,20 +8,20 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaWorkloadTagGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/workload_tag_group#id DataZpaWorkloadTagGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/workload_tag_group#id DataZpaWorkloadTagGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/workload_tag_group#name DataZpaWorkloadTagGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/workload_tag_group#name DataZpaWorkloadTagGroup#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/workload_tag_group zpa_workload_tag_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/workload_tag_group zpa_workload_tag_group}
 */
 export class DataZpaWorkloadTagGroup extends cdktf.TerraformDataSource {
 
@@ -37,7 +37,7 @@ export class DataZpaWorkloadTagGroup extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaWorkloadTagGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaWorkloadTagGroup to import
-  * @param importFromId The id of the existing DataZpaWorkloadTagGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/workload_tag_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaWorkloadTagGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/workload_tag_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaWorkloadTagGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -49,7 +49,7 @@ export class DataZpaWorkloadTagGroup extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/workload_tag_group zpa_workload_tag_group} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/workload_tag_group zpa_workload_tag_group} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -60,8 +60,8 @@ export class DataZpaWorkloadTagGroup extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_workload_tag_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

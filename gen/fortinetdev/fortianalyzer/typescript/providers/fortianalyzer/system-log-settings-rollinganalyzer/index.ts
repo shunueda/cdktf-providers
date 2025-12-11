@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,136 +8,136 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogSettingsRollinganalyzerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#days SystemLogSettingsRollinganalyzer#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#days SystemLogSettingsRollinganalyzer#days}
   */
   readonly days?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#del_files SystemLogSettingsRollinganalyzer#del_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#del_files SystemLogSettingsRollinganalyzer#del_files}
   */
   readonly delFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#directory SystemLogSettingsRollinganalyzer#directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#directory SystemLogSettingsRollinganalyzer#directory}
   */
   readonly directory?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#file_size SystemLogSettingsRollinganalyzer#file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#file_size SystemLogSettingsRollinganalyzer#file_size}
   */
   readonly fileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#gzip_format SystemLogSettingsRollinganalyzer#gzip_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#gzip_format SystemLogSettingsRollinganalyzer#gzip_format}
   */
   readonly gzipFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#hour SystemLogSettingsRollinganalyzer#hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#hour SystemLogSettingsRollinganalyzer#hour}
   */
   readonly hour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#id SystemLogSettingsRollinganalyzer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#id SystemLogSettingsRollinganalyzer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#ip SystemLogSettingsRollinganalyzer#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#ip SystemLogSettingsRollinganalyzer#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#ip2 SystemLogSettingsRollinganalyzer#ip2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#ip2 SystemLogSettingsRollinganalyzer#ip2}
   */
   readonly ip2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#ip3 SystemLogSettingsRollinganalyzer#ip3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#ip3 SystemLogSettingsRollinganalyzer#ip3}
   */
   readonly ip3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#log_format SystemLogSettingsRollinganalyzer#log_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#log_format SystemLogSettingsRollinganalyzer#log_format}
   */
   readonly logFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#min SystemLogSettingsRollinganalyzer#min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#min SystemLogSettingsRollinganalyzer#min}
   */
   readonly min?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#password SystemLogSettingsRollinganalyzer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#password SystemLogSettingsRollinganalyzer#password}
   */
   readonly password?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#password2 SystemLogSettingsRollinganalyzer#password2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#password2 SystemLogSettingsRollinganalyzer#password2}
   */
   readonly password2?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#password3 SystemLogSettingsRollinganalyzer#password3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#password3 SystemLogSettingsRollinganalyzer#password3}
   */
   readonly password3?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#port SystemLogSettingsRollinganalyzer#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#port SystemLogSettingsRollinganalyzer#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#port2 SystemLogSettingsRollinganalyzer#port2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#port2 SystemLogSettingsRollinganalyzer#port2}
   */
   readonly port2?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#port3 SystemLogSettingsRollinganalyzer#port3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#port3 SystemLogSettingsRollinganalyzer#port3}
   */
   readonly port3?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#rolling_upgrade_status SystemLogSettingsRollinganalyzer#rolling_upgrade_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#rolling_upgrade_status SystemLogSettingsRollinganalyzer#rolling_upgrade_status}
   */
   readonly rollingUpgradeStatus?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#server SystemLogSettingsRollinganalyzer#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#server SystemLogSettingsRollinganalyzer#server}
   */
   readonly server?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#server2 SystemLogSettingsRollinganalyzer#server2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#server2 SystemLogSettingsRollinganalyzer#server2}
   */
   readonly server2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#server3 SystemLogSettingsRollinganalyzer#server3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#server3 SystemLogSettingsRollinganalyzer#server3}
   */
   readonly server3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#server_type SystemLogSettingsRollinganalyzer#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#server_type SystemLogSettingsRollinganalyzer#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#upload SystemLogSettingsRollinganalyzer#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#upload SystemLogSettingsRollinganalyzer#upload}
   */
   readonly upload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#upload_hour SystemLogSettingsRollinganalyzer#upload_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#upload_hour SystemLogSettingsRollinganalyzer#upload_hour}
   */
   readonly uploadHour?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#upload_mode SystemLogSettingsRollinganalyzer#upload_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#upload_mode SystemLogSettingsRollinganalyzer#upload_mode}
   */
   readonly uploadMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#upload_trigger SystemLogSettingsRollinganalyzer#upload_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#upload_trigger SystemLogSettingsRollinganalyzer#upload_trigger}
   */
   readonly uploadTrigger?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#username SystemLogSettingsRollinganalyzer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#username SystemLogSettingsRollinganalyzer#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#username2 SystemLogSettingsRollinganalyzer#username2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#username2 SystemLogSettingsRollinganalyzer#username2}
   */
   readonly username2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#username3 SystemLogSettingsRollinganalyzer#username3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#username3 SystemLogSettingsRollinganalyzer#username3}
   */
   readonly username3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#when SystemLogSettingsRollinganalyzer#when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#when SystemLogSettingsRollinganalyzer#when}
   */
   readonly when?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer fortianalyzer_system_log_settings_rollinganalyzer}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer fortianalyzer_system_log_settings_rollinganalyzer}
 */
 export class SystemLogSettingsRollinganalyzer extends cdktf.TerraformResource {
 
@@ -153,7 +153,7 @@ export class SystemLogSettingsRollinganalyzer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogSettingsRollinganalyzer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogSettingsRollinganalyzer to import
-  * @param importFromId The id of the existing SystemLogSettingsRollinganalyzer that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogSettingsRollinganalyzer that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogSettingsRollinganalyzer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -165,7 +165,7 @@ export class SystemLogSettingsRollinganalyzer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_log_settings_rollinganalyzer fortianalyzer_system_log_settings_rollinganalyzer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_log_settings_rollinganalyzer fortianalyzer_system_log_settings_rollinganalyzer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -176,8 +176,8 @@ export class SystemLogSettingsRollinganalyzer extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_log_settings_rollinganalyzer',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

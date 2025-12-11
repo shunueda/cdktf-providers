@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RotatedSecretDockerhubConfig extends cdktf.TerraformMetaArgumen
   /**
   * The credentials to connect with [use-self-creds/use-target-creds]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#authentication_credentials RotatedSecretDockerhub#authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#authentication_credentials RotatedSecretDockerhub#authentication_credentials}
   */
   readonly authenticationCredentials?: string;
   /**
   * Whether to automatically rotate every --rotation-interval days, or disable existing automatic rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#auto_rotate RotatedSecretDockerhub#auto_rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#auto_rotate RotatedSecretDockerhub#auto_rotate}
   */
   readonly autoRotate?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#description RotatedSecretDockerhub#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#description RotatedSecretDockerhub#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#id RotatedSecretDockerhub#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#id RotatedSecretDockerhub#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface RotatedSecretDockerhubConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of a key that is used to encrypt the secret value (if empty, the account default protectionKey key will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#key RotatedSecretDockerhub#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#key RotatedSecretDockerhub#key}
   */
   readonly key?: string;
   /**
   * Secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#name RotatedSecretDockerhub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#name RotatedSecretDockerhub#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#password_length RotatedSecretDockerhub#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#password_length RotatedSecretDockerhub#password_length}
   */
   readonly passwordLength?: string;
   /**
   * The Hour of the rotation in UTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#rotation_hour RotatedSecretDockerhub#rotation_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#rotation_hour RotatedSecretDockerhub#rotation_hour}
   */
   readonly rotationHour?: number;
   /**
   * The number of days to wait between every automatic rotation (1-365),custom rotator interval will be set in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#rotation_interval RotatedSecretDockerhub#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#rotation_interval RotatedSecretDockerhub#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#tags RotatedSecretDockerhub#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#tags RotatedSecretDockerhub#tags}
   */
   readonly tags?: string[];
   /**
   * The target name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#target_name RotatedSecretDockerhub#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#target_name RotatedSecretDockerhub#target_name}
   */
   readonly targetName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub akeyless_rotated_secret_dockerhub}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub akeyless_rotated_secret_dockerhub}
 */
 export class RotatedSecretDockerhub extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class RotatedSecretDockerhub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RotatedSecretDockerhub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RotatedSecretDockerhub to import
-  * @param importFromId The id of the existing RotatedSecretDockerhub that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RotatedSecretDockerhub that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RotatedSecretDockerhub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class RotatedSecretDockerhub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_dockerhub akeyless_rotated_secret_dockerhub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_dockerhub akeyless_rotated_secret_dockerhub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class RotatedSecretDockerhub extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_rotated_secret_dockerhub',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

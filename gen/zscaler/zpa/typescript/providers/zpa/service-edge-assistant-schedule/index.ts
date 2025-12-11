@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,29 +8,29 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceEdgeAssistantScheduleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule#customer_id ServiceEdgeAssistantSchedule#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule#customer_id ServiceEdgeAssistantSchedule#customer_id}
   */
   readonly customerId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule#delete_disabled ServiceEdgeAssistantSchedule#delete_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule#delete_disabled ServiceEdgeAssistantSchedule#delete_disabled}
   */
   readonly deleteDisabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule#enabled ServiceEdgeAssistantSchedule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule#enabled ServiceEdgeAssistantSchedule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule#frequency ServiceEdgeAssistantSchedule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule#frequency ServiceEdgeAssistantSchedule#frequency}
   */
   readonly frequency?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule#frequency_interval ServiceEdgeAssistantSchedule#frequency_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule#frequency_interval ServiceEdgeAssistantSchedule#frequency_interval}
   */
   readonly frequencyInterval?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule zpa_service_edge_assistant_schedule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule zpa_service_edge_assistant_schedule}
 */
 export class ServiceEdgeAssistantSchedule extends cdktf.TerraformResource {
 
@@ -46,7 +46,7 @@ export class ServiceEdgeAssistantSchedule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceEdgeAssistantSchedule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceEdgeAssistantSchedule to import
-  * @param importFromId The id of the existing ServiceEdgeAssistantSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceEdgeAssistantSchedule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceEdgeAssistantSchedule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -58,7 +58,7 @@ export class ServiceEdgeAssistantSchedule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/service_edge_assistant_schedule zpa_service_edge_assistant_schedule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/service_edge_assistant_schedule zpa_service_edge_assistant_schedule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -69,8 +69,8 @@ export class ServiceEdgeAssistantSchedule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_service_edge_assistant_schedule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

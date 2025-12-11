@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataAkeylessDetokenizeConfig extends cdktf.TerraformMetaArgumen
   /**
   * Data to be decrypted
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize#ciphertext DataAkeylessDetokenize#ciphertext}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize#ciphertext DataAkeylessDetokenize#ciphertext}
   */
   readonly ciphertext: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize#id DataAkeylessDetokenize#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize#id DataAkeylessDetokenize#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DataAkeylessDetokenizeConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the tokenizer to use in the decryption process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize#tokenizer_name DataAkeylessDetokenize#tokenizer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize#tokenizer_name DataAkeylessDetokenize#tokenizer_name}
   */
   readonly tokenizerName: string;
   /**
   * Base64 encoded tweak for vaultless encryption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize#tweak DataAkeylessDetokenize#tweak}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize#tweak DataAkeylessDetokenize#tweak}
   */
   readonly tweak?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize akeyless_detokenize}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize akeyless_detokenize}
 */
 export class DataAkeylessDetokenize extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataAkeylessDetokenize extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessDetokenize resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessDetokenize to import
-  * @param importFromId The id of the existing DataAkeylessDetokenize that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessDetokenize that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessDetokenize to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataAkeylessDetokenize extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/detokenize akeyless_detokenize} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/detokenize akeyless_detokenize} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataAkeylessDetokenize extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_detokenize',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

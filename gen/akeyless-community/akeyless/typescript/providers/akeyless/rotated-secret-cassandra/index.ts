@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RotatedSecretCassandraConfig extends cdktf.TerraformMetaArgumen
   /**
   * The credentials to connect with [use-self-creds/use-target-creds]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#authentication_credentials RotatedSecretCassandra#authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#authentication_credentials RotatedSecretCassandra#authentication_credentials}
   */
   readonly authenticationCredentials?: string;
   /**
   * Whether to automatically rotate every --rotation-interval days, or disable existing automatic rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#auto_rotate RotatedSecretCassandra#auto_rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#auto_rotate RotatedSecretCassandra#auto_rotate}
   */
   readonly autoRotate?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#description RotatedSecretCassandra#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#description RotatedSecretCassandra#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#id RotatedSecretCassandra#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#id RotatedSecretCassandra#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface RotatedSecretCassandraConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of a key that is used to encrypt the secret value (if empty, the account default protectionKey key will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#key RotatedSecretCassandra#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#key RotatedSecretCassandra#key}
   */
   readonly key?: string;
   /**
   * Secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#name RotatedSecretCassandra#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#name RotatedSecretCassandra#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#password_length RotatedSecretCassandra#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#password_length RotatedSecretCassandra#password_length}
   */
   readonly passwordLength?: string;
   /**
   * rotated-username password (relevant only for rotator-type=password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#rotated_password RotatedSecretCassandra#rotated_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#rotated_password RotatedSecretCassandra#rotated_password}
   */
   readonly rotatedPassword?: string;
   /**
   * username to be rotated, if selected use-self-creds at rotator-creds-type, this username will try to rotate it's own password, if use-target-creds is selected, target credentials will be use to rotate the rotated-password (relevant only for rotator-type=password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#rotated_username RotatedSecretCassandra#rotated_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#rotated_username RotatedSecretCassandra#rotated_username}
   */
   readonly rotatedUsername?: string;
   /**
   * The Hour of the rotation in UTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#rotation_hour RotatedSecretCassandra#rotation_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#rotation_hour RotatedSecretCassandra#rotation_hour}
   */
   readonly rotationHour?: number;
   /**
   * The number of days to wait between every automatic rotation (1-365),custom rotator interval will be set in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#rotation_interval RotatedSecretCassandra#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#rotation_interval RotatedSecretCassandra#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * The rotator type [target/password]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#rotator_type RotatedSecretCassandra#rotator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#rotator_type RotatedSecretCassandra#rotator_type}
   */
   readonly rotatorType: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#tags RotatedSecretCassandra#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#tags RotatedSecretCassandra#tags}
   */
   readonly tags?: string[];
   /**
   * The target name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#target_name RotatedSecretCassandra#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#target_name RotatedSecretCassandra#target_name}
   */
   readonly targetName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra akeyless_rotated_secret_cassandra}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra akeyless_rotated_secret_cassandra}
 */
 export class RotatedSecretCassandra extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class RotatedSecretCassandra extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RotatedSecretCassandra resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RotatedSecretCassandra to import
-  * @param importFromId The id of the existing RotatedSecretCassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RotatedSecretCassandra that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RotatedSecretCassandra to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class RotatedSecretCassandra extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_cassandra akeyless_rotated_secret_cassandra} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_cassandra akeyless_rotated_secret_cassandra} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class RotatedSecretCassandra extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_rotated_secret_cassandra',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/cloud_browser_isolation_zpa_profile
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/cloud_browser_isolation_zpa_profile
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,13 +8,13 @@ import * as cdktf from 'cdktf';
 
 export interface DataZpaCloudBrowserIsolationZpaProfileConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/cloud_browser_isolation_zpa_profile#name DataZpaCloudBrowserIsolationZpaProfile#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/cloud_browser_isolation_zpa_profile#name DataZpaCloudBrowserIsolationZpaProfile#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/cloud_browser_isolation_zpa_profile zpa_cloud_browser_isolation_zpa_profile}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/cloud_browser_isolation_zpa_profile zpa_cloud_browser_isolation_zpa_profile}
 */
 export class DataZpaCloudBrowserIsolationZpaProfile extends cdktf.TerraformDataSource {
 
@@ -30,7 +30,7 @@ export class DataZpaCloudBrowserIsolationZpaProfile extends cdktf.TerraformDataS
   * Generates CDKTF code for importing a DataZpaCloudBrowserIsolationZpaProfile resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaCloudBrowserIsolationZpaProfile to import
-  * @param importFromId The id of the existing DataZpaCloudBrowserIsolationZpaProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/cloud_browser_isolation_zpa_profile#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaCloudBrowserIsolationZpaProfile that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/cloud_browser_isolation_zpa_profile#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaCloudBrowserIsolationZpaProfile to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -42,7 +42,7 @@ export class DataZpaCloudBrowserIsolationZpaProfile extends cdktf.TerraformDataS
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/cloud_browser_isolation_zpa_profile zpa_cloud_browser_isolation_zpa_profile} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/cloud_browser_isolation_zpa_profile zpa_cloud_browser_isolation_zpa_profile} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -53,8 +53,8 @@ export class DataZpaCloudBrowserIsolationZpaProfile extends cdktf.TerraformDataS
       terraformResourceType: 'zpa_cloud_browser_isolation_zpa_profile',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

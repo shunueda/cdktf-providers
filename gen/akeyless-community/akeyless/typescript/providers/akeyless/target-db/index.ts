@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TargetDbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Database name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#db_name TargetDb#db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#db_name TargetDb#db_name}
   */
   readonly dbName?: string;
   /**
   * Set of root certificate authorities in base64 encoding used by clients to verify server certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#db_server_certificates TargetDb#db_server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#db_server_certificates TargetDb#db_server_certificates}
   */
   readonly dbServerCertificates?: string;
   /**
   * Server name is used to verify the hostname on the returned certificates unless InsecureSkipVerify is provided. It is also included in the client's handshake to support virtual hosting unless it is an IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#db_server_name TargetDb#db_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#db_server_name TargetDb#db_server_name}
   */
   readonly dbServerName?: string;
   /**
   * Database type: mysql/mssql/postgres/mongodb/snowflake/oracle/cassandra/redshift
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#db_type TargetDb#db_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#db_type TargetDb#db_type}
   */
   readonly dbType: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#description TargetDb#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#description TargetDb#description}
   */
   readonly description?: string;
   /**
   * Database host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#host TargetDb#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#host TargetDb#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#id TargetDb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#id TargetDb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,97 +53,97 @@ export interface TargetDbConfig extends cdktf.TerraformMetaArguments {
   /**
   * Key name. The key will be used to encrypt the target secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#key TargetDb#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#key TargetDb#key}
   */
   readonly key?: string;
   /**
   * Flag, set database type to mongodb and the flag to true to create Mongo Atlas target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#mongodb_atlas TargetDb#mongodb_atlas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#mongodb_atlas TargetDb#mongodb_atlas}
   */
   readonly mongodbAtlas?: boolean | cdktf.IResolvable;
   /**
   * MongoDB Atlas private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#mongodb_atlas_api_private_key TargetDb#mongodb_atlas_api_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#mongodb_atlas_api_private_key TargetDb#mongodb_atlas_api_private_key}
   */
   readonly mongodbAtlasApiPrivateKey?: string;
   /**
   * MongoDB Atlas public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#mongodb_atlas_api_public_key TargetDb#mongodb_atlas_api_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#mongodb_atlas_api_public_key TargetDb#mongodb_atlas_api_public_key}
   */
   readonly mongodbAtlasApiPublicKey?: string;
   /**
   * MongoDB Atlas project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#mongodb_atlas_project_id TargetDb#mongodb_atlas_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#mongodb_atlas_project_id TargetDb#mongodb_atlas_project_id}
   */
   readonly mongodbAtlasProjectId?: string;
   /**
   * MongoDB server default authentication database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#mongodb_default_auth_db TargetDb#mongodb_default_auth_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#mongodb_default_auth_db TargetDb#mongodb_default_auth_db}
   */
   readonly mongodbDefaultAuthDb?: string;
   /**
   * MongoDB server URI options (e.g. replicaSet=mySet&authSource=authDB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#mongodb_uri_options TargetDb#mongodb_uri_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#mongodb_uri_options TargetDb#mongodb_uri_options}
   */
   readonly mongodbUriOptions?: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#name TargetDb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#name TargetDb#name}
   */
   readonly name: string;
   /**
   * oracle db service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#oracle_service_name TargetDb#oracle_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#oracle_service_name TargetDb#oracle_service_name}
   */
   readonly oracleServiceName?: string;
   /**
   * Database port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#port TargetDb#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#port TargetDb#port}
   */
   readonly port?: string;
   /**
   * Database password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#pwd TargetDb#pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#pwd TargetDb#pwd}
   */
   readonly pwd?: string;
   /**
   * Snowflake account name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#snowflake_account TargetDb#snowflake_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#snowflake_account TargetDb#snowflake_account}
   */
   readonly snowflakeAccount?: string;
   /**
   * Enable/Disable SSL [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#ssl TargetDb#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#ssl TargetDb#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * SSL CA certificate in base64 encoding generated from a trusted Certificate Authority (CA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#ssl_certificate TargetDb#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#ssl_certificate TargetDb#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * Database user name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#user_name TargetDb#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#user_name TargetDb#user_name}
   */
   readonly userName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db akeyless_target_db}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db akeyless_target_db}
 */
 export class TargetDb extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class TargetDb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TargetDb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TargetDb to import
-  * @param importFromId The id of the existing TargetDb that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TargetDb that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TargetDb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class TargetDb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_db akeyless_target_db} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_db akeyless_target_db} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class TargetDb extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_db',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

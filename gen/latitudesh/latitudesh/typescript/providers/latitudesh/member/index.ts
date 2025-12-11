@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member
+// https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface MemberConfig extends cdktf.TerraformMetaArguments {
   /**
   * Email address of the team member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member#email Member#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member#email Member#email}
   */
   readonly email?: string;
   /**
   * First name of the team member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member#first_name Member#first_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member#first_name Member#first_name}
   */
   readonly firstName?: string;
   /**
   * Last name of the team member
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member#last_name Member#last_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member#last_name Member#last_name}
   */
   readonly lastName?: string;
   /**
   * Role of the team member (owner, administrator, collaborator, billing)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member#role Member#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member#role Member#role}
   */
   readonly role?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member latitudesh_member}
+* Represents a {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member latitudesh_member}
 */
 export class Member extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class Member extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Member resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Member to import
-  * @param importFromId The id of the existing Member that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Member that should be imported. Refer to the {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Member to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class Member extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.3/docs/resources/member latitudesh_member} Resource
+  * Create a new {@link https://registry.terraform.io/providers/latitudesh/latitudesh/2.8.4/docs/resources/member latitudesh_member} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class Member extends cdktf.TerraformResource {
       terraformResourceType: 'latitudesh_member',
       terraformGeneratorMetadata: {
         providerName: 'latitudesh',
-        providerVersion: '2.8.3',
-        providerVersionConstraint: '2.8.3'
+        providerVersion: '2.8.4',
+        providerVersionConstraint: '2.8.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DynamicSecretArtifactoryConfig extends cdktf.TerraformMetaArgum
   /**
   * Admin name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#artifactory_admin_name DynamicSecretArtifactory#artifactory_admin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#artifactory_admin_name DynamicSecretArtifactory#artifactory_admin_name}
   */
   readonly artifactoryAdminName?: string;
   /**
   * Admin API Key/Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#artifactory_admin_pwd DynamicSecretArtifactory#artifactory_admin_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#artifactory_admin_pwd DynamicSecretArtifactory#artifactory_admin_pwd}
   */
   readonly artifactoryAdminPwd?: string;
   /**
   * A space-separate list of the other Artifactory instances or services that should accept this token., for example: jfrt@*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#artifactory_token_audience DynamicSecretArtifactory#artifactory_token_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#artifactory_token_audience DynamicSecretArtifactory#artifactory_token_audience}
   */
   readonly artifactoryTokenAudience: string;
   /**
   * Token scope provided as a space-separated list, for example: member-of-groups:readers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#artifactory_token_scope DynamicSecretArtifactory#artifactory_token_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#artifactory_token_scope DynamicSecretArtifactory#artifactory_token_scope}
   */
   readonly artifactoryTokenScope: string;
   /**
   * Artifactory REST URL, must end with artifactory postfix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#base_url DynamicSecretArtifactory#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#base_url DynamicSecretArtifactory#base_url}
   */
   readonly baseUrl?: string;
   /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#custom_username_template DynamicSecretArtifactory#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#custom_username_template DynamicSecretArtifactory#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#encryption_key_name DynamicSecretArtifactory#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#encryption_key_name DynamicSecretArtifactory#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#id DynamicSecretArtifactory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#id DynamicSecretArtifactory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,31 +59,31 @@ export interface DynamicSecretArtifactoryConfig extends cdktf.TerraformMetaArgum
   /**
   * Dynamic Secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#name DynamicSecretArtifactory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#name DynamicSecretArtifactory#name}
   */
   readonly name: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#tags DynamicSecretArtifactory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#tags DynamicSecretArtifactory#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#target_name DynamicSecretArtifactory#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#target_name DynamicSecretArtifactory#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#user_ttl DynamicSecretArtifactory#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#user_ttl DynamicSecretArtifactory#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory akeyless_dynamic_secret_artifactory}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory akeyless_dynamic_secret_artifactory}
 */
 export class DynamicSecretArtifactory extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class DynamicSecretArtifactory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretArtifactory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretArtifactory to import
-  * @param importFromId The id of the existing DynamicSecretArtifactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretArtifactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretArtifactory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class DynamicSecretArtifactory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_artifactory akeyless_dynamic_secret_artifactory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_artifactory akeyless_dynamic_secret_artifactory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class DynamicSecretArtifactory extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_artifactory',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

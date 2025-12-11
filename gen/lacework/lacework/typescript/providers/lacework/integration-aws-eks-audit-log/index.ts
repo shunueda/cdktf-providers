@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationAwsEksAuditLogConfig extends cdktf.TerraformMetaArgu
   /**
   * The state of the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#enabled IntegrationAwsEksAuditLog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#enabled IntegrationAwsEksAuditLog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#id IntegrationAwsEksAuditLog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#id IntegrationAwsEksAuditLog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,41 +23,41 @@ export interface IntegrationAwsEksAuditLogConfig extends cdktf.TerraformMetaArgu
   /**
   * The integration name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#name IntegrationAwsEksAuditLog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#name IntegrationAwsEksAuditLog#name}
   */
   readonly name: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#retries IntegrationAwsEksAuditLog#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#retries IntegrationAwsEksAuditLog#retries}
   */
   readonly retries?: number;
   /**
   * The optional S3 Bucket ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#s3_bucket_arn IntegrationAwsEksAuditLog#s3_bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#s3_bucket_arn IntegrationAwsEksAuditLog#s3_bucket_arn}
   */
   readonly s3BucketArn?: string;
   /**
   * The SNS ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#sns_arn IntegrationAwsEksAuditLog#sns_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#sns_arn IntegrationAwsEksAuditLog#sns_arn}
   */
   readonly snsArn: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#credentials IntegrationAwsEksAuditLog#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#credentials IntegrationAwsEksAuditLog#credentials}
   */
   readonly credentials: IntegrationAwsEksAuditLogCredentials;
 }
 export interface IntegrationAwsEksAuditLogCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#external_id IntegrationAwsEksAuditLog#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#external_id IntegrationAwsEksAuditLog#external_id}
   */
   readonly externalId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#role_arn IntegrationAwsEksAuditLog#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#role_arn IntegrationAwsEksAuditLog#role_arn}
   */
   readonly roleArn: string;
 }
@@ -164,7 +164,7 @@ export class IntegrationAwsEksAuditLogCredentialsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log lacework_integration_aws_eks_audit_log}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log lacework_integration_aws_eks_audit_log}
 */
 export class IntegrationAwsEksAuditLog extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class IntegrationAwsEksAuditLog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAwsEksAuditLog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAwsEksAuditLog to import
-  * @param importFromId The id of the existing IntegrationAwsEksAuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAwsEksAuditLog that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAwsEksAuditLog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class IntegrationAwsEksAuditLog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_eks_audit_log lacework_integration_aws_eks_audit_log} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_eks_audit_log lacework_integration_aws_eks_audit_log} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class IntegrationAwsEksAuditLog extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_aws_eks_audit_log',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

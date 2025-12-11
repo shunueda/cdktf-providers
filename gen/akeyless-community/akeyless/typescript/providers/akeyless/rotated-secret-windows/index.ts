@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface RotatedSecretWindowsConfig extends cdktf.TerraformMetaArguments
   /**
   * The credentials to connect with [use-self-creds/use-target-creds]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#authentication_credentials RotatedSecretWindows#authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#authentication_credentials RotatedSecretWindows#authentication_credentials}
   */
   readonly authenticationCredentials?: string;
   /**
   * Whether to automatically rotate every --rotation-interval days, or disable existing automatic rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#auto_rotate RotatedSecretWindows#auto_rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#auto_rotate RotatedSecretWindows#auto_rotate}
   */
   readonly autoRotate?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#description RotatedSecretWindows#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#description RotatedSecretWindows#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#id RotatedSecretWindows#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#id RotatedSecretWindows#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,67 +35,67 @@ export interface RotatedSecretWindowsConfig extends cdktf.TerraformMetaArguments
   /**
   * The name of a key that is used to encrypt the secret value (if empty, the account default protectionKey key will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#key RotatedSecretWindows#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#key RotatedSecretWindows#key}
   */
   readonly key?: string;
   /**
   * Secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#name RotatedSecretWindows#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#name RotatedSecretWindows#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#password_length RotatedSecretWindows#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#password_length RotatedSecretWindows#password_length}
   */
   readonly passwordLength?: string;
   /**
   * rotated-username password (relevant only for rotator-type=password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#rotated_password RotatedSecretWindows#rotated_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#rotated_password RotatedSecretWindows#rotated_password}
   */
   readonly rotatedPassword?: string;
   /**
   * username to be rotated, if selected use-self-creds at rotator-creds-type, this username will try to rotate it's own password, if use-target-creds is selected, target credentials will be use to rotate the rotated-password (relevant only for rotator-type=password)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#rotated_username RotatedSecretWindows#rotated_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#rotated_username RotatedSecretWindows#rotated_username}
   */
   readonly rotatedUsername?: string;
   /**
   * The Hour of the rotation in UTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#rotation_hour RotatedSecretWindows#rotation_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#rotation_hour RotatedSecretWindows#rotation_hour}
   */
   readonly rotationHour?: number;
   /**
   * The number of days to wait between every automatic rotation (1-365),custom rotator interval will be set in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#rotation_interval RotatedSecretWindows#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#rotation_interval RotatedSecretWindows#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * The rotator type [target/password]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#rotator_type RotatedSecretWindows#rotator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#rotator_type RotatedSecretWindows#rotator_type}
   */
   readonly rotatorType: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#tags RotatedSecretWindows#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#tags RotatedSecretWindows#tags}
   */
   readonly tags?: string[];
   /**
   * The target name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#target_name RotatedSecretWindows#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#target_name RotatedSecretWindows#target_name}
   */
   readonly targetName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows akeyless_rotated_secret_windows}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows akeyless_rotated_secret_windows}
 */
 export class RotatedSecretWindows extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class RotatedSecretWindows extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RotatedSecretWindows resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RotatedSecretWindows to import
-  * @param importFromId The id of the existing RotatedSecretWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RotatedSecretWindows that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RotatedSecretWindows to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class RotatedSecretWindows extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_windows akeyless_rotated_secret_windows} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_windows akeyless_rotated_secret_windows} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class RotatedSecretWindows extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_rotated_secret_windows',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

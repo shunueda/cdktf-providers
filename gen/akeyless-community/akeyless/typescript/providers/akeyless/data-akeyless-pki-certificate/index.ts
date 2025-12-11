@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface DataAkeylessPkiCertificateConfig extends cdktf.TerraformMetaArg
   /**
   * The Subject Alternative Names to be included in the PKI certificate (in a comma-delimited list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#alt_names DataAkeylessPkiCertificate#alt_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#alt_names DataAkeylessPkiCertificate#alt_names}
   */
   readonly altNames?: string;
   /**
   * The name of the PKI certificate issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#cert_issuer_name DataAkeylessPkiCertificate#cert_issuer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#cert_issuer_name DataAkeylessPkiCertificate#cert_issuer_name}
   */
   readonly certIssuerName: string;
   /**
   * The common name to be included in the PKI certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#common_name DataAkeylessPkiCertificate#common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#common_name DataAkeylessPkiCertificate#common_name}
   */
   readonly commonName?: string;
   /**
   * Certificate Signing Request contents encoded in base64 to generate the certificate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#csr_data_base64 DataAkeylessPkiCertificate#csr_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#csr_data_base64 DataAkeylessPkiCertificate#csr_data_base64}
   */
   readonly csrDataBase64?: string;
   /**
   *  A comma-separated list of extended key usage requests which will be used for certificate issuance. Supported values: 'clientauth', 'serverauth'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#extended_key_usage DataAkeylessPkiCertificate#extended_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#extended_key_usage DataAkeylessPkiCertificate#extended_key_usage}
   */
   readonly extendedKeyUsage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#id DataAkeylessPkiCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#id DataAkeylessPkiCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,25 +47,25 @@ export interface DataAkeylessPkiCertificateConfig extends cdktf.TerraformMetaArg
   /**
   * pki key file contents encoded using Base64
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#key_data_base64 DataAkeylessPkiCertificate#key_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#key_data_base64 DataAkeylessPkiCertificate#key_data_base64}
   */
   readonly keyDataBase64?: string;
   /**
   * Updated certificate lifetime in seconds (must be less than the Certificate Issuer default TTL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#ttl DataAkeylessPkiCertificate#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#ttl DataAkeylessPkiCertificate#ttl}
   */
   readonly ttl?: number;
   /**
   * The URI Subject Alternative Names to be included in the PKI certificate (in a comma-delimited list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#uri_sans DataAkeylessPkiCertificate#uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#uri_sans DataAkeylessPkiCertificate#uri_sans}
   */
   readonly uriSans?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate akeyless_pki_certificate}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate akeyless_pki_certificate}
 */
 export class DataAkeylessPkiCertificate extends cdktf.TerraformDataSource {
 
@@ -81,7 +81,7 @@ export class DataAkeylessPkiCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessPkiCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessPkiCertificate to import
-  * @param importFromId The id of the existing DataAkeylessPkiCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessPkiCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessPkiCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class DataAkeylessPkiCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/pki_certificate akeyless_pki_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/pki_certificate akeyless_pki_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class DataAkeylessPkiCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_pki_certificate',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

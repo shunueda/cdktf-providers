@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/dynamic_secret
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/dynamic_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAkeylessDynamicSecretConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/dynamic_secret#id DataAkeylessDynamicSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/dynamic_secret#id DataAkeylessDynamicSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataAkeylessDynamicSecretConfig extends cdktf.TerraformMetaArgu
   /**
   * The path where the secret is stored. Defaults to the latest version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/dynamic_secret#path DataAkeylessDynamicSecret#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/dynamic_secret#path DataAkeylessDynamicSecret#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/dynamic_secret akeyless_dynamic_secret}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/dynamic_secret akeyless_dynamic_secret}
 */
 export class DataAkeylessDynamicSecret extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataAkeylessDynamicSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessDynamicSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessDynamicSecret to import
-  * @param importFromId The id of the existing DataAkeylessDynamicSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/dynamic_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessDynamicSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/dynamic_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessDynamicSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataAkeylessDynamicSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/dynamic_secret akeyless_dynamic_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/dynamic_secret akeyless_dynamic_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataAkeylessDynamicSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_dynamic_secret',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

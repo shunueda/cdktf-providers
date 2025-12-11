@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DiskFromImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable alias for the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image#alias DiskFromImage#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image#alias DiskFromImage#alias}
   */
   readonly alias?: string;
   /**
   * Format for the disk. One of: `cow`, `raw`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image#format DiskFromImage#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image#format DiskFromImage#format}
   */
   readonly format: string;
   /**
   * Path to the local file to upload as the disk image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image#source_file DiskFromImage#source_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image#source_file DiskFromImage#source_file}
   */
   readonly sourceFile: string;
   /**
   * Use sparse provisioning for disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image#sparse DiskFromImage#sparse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image#sparse DiskFromImage#sparse}
   */
   readonly sparse?: boolean | cdktf.IResolvable;
   /**
   * ID of the storage domain to use for disk creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image#storage_domain_id DiskFromImage#storage_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image#storage_domain_id DiskFromImage#storage_domain_id}
   */
   readonly storageDomainId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image ovirt_disk_from_image}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image ovirt_disk_from_image}
 */
 export class DiskFromImage extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class DiskFromImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskFromImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskFromImage to import
-  * @param importFromId The id of the existing DiskFromImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskFromImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskFromImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DiskFromImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_from_image ovirt_disk_from_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_from_image ovirt_disk_from_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DiskFromImage extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_disk_from_image',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

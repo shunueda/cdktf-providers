@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface AuthMethodAwsIamAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access expiration date in Unix timestamp (select 0 for access without expiry date)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#access_expires AuthMethodAwsIamA#access_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#access_expires AuthMethodAwsIamA#access_expires}
   */
   readonly accessExpires?: number;
   /**
   * Subclaims to include in audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#audit_logs_claims AuthMethodAwsIamA#audit_logs_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#audit_logs_claims AuthMethodAwsIamA#audit_logs_claims}
   */
   readonly auditLogsClaims?: string[];
   /**
   * A list of full arns that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_arn AuthMethodAwsIamA#bound_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_arn AuthMethodAwsIamA#bound_arn}
   */
   readonly boundArn?: string[];
   /**
   * A list of AWS account-IDs that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_aws_account_id AuthMethodAwsIamA#bound_aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_aws_account_id AuthMethodAwsIamA#bound_aws_account_id}
   */
   readonly boundAwsAccountId: string[];
   /**
   * A CIDR whitelist with the IPs that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_ips AuthMethodAwsIamA#bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_ips AuthMethodAwsIamA#bound_ips}
   */
   readonly boundIps?: string[];
   /**
   * A list of full resource ids that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_resource_id AuthMethodAwsIamA#bound_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_resource_id AuthMethodAwsIamA#bound_resource_id}
   */
   readonly boundResourceId?: string[];
   /**
   * A list of full role ids that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_role_id AuthMethodAwsIamA#bound_role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_role_id AuthMethodAwsIamA#bound_role_id}
   */
   readonly boundRoleId?: string[];
   /**
   * A list of full role-name that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_role_name AuthMethodAwsIamA#bound_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_role_name AuthMethodAwsIamA#bound_role_name}
   */
   readonly boundRoleName?: string[];
   /**
   * A list of full user ids that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_user_id AuthMethodAwsIamA#bound_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_user_id AuthMethodAwsIamA#bound_user_id}
   */
   readonly boundUserId?: string[];
   /**
   * A list of full user-name that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#bound_user_name AuthMethodAwsIamA#bound_user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#bound_user_name AuthMethodAwsIamA#bound_user_name}
   */
   readonly boundUserName?: string[];
   /**
   * Protection from accidental deletion of this auth method, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#delete_protection AuthMethodAwsIamA#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#delete_protection AuthMethodAwsIamA#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * enforce role-association must include sub claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#force_sub_claims AuthMethodAwsIamA#force_sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#force_sub_claims AuthMethodAwsIamA#force_sub_claims}
   */
   readonly forceSubClaims?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#id AuthMethodAwsIamA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#id AuthMethodAwsIamA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,25 +89,25 @@ export interface AuthMethodAwsIamAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Creds expiration time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#jwt_ttl AuthMethodAwsIamA#jwt_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#jwt_ttl AuthMethodAwsIamA#jwt_ttl}
   */
   readonly jwtTtl?: number;
   /**
   * Auth Method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#name AuthMethodAwsIamA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#name AuthMethodAwsIamA#name}
   */
   readonly name: string;
   /**
   *  sts URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#sts_url AuthMethodAwsIamA#sts_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#sts_url AuthMethodAwsIamA#sts_url}
   */
   readonly stsUrl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam akeyless_auth_method_aws_iam}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam akeyless_auth_method_aws_iam}
 */
 export class AuthMethodAwsIamA extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class AuthMethodAwsIamA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthMethodAwsIamA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthMethodAwsIamA to import
-  * @param importFromId The id of the existing AuthMethodAwsIamA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthMethodAwsIamA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthMethodAwsIamA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class AuthMethodAwsIamA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_aws_iam akeyless_auth_method_aws_iam} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_aws_iam akeyless_auth_method_aws_iam} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class AuthMethodAwsIamA extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_aws_iam',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

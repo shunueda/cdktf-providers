@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,53 @@ import * as cdktf from 'cdktf';
 
 export interface FmupdateServeraccessprioritiesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#access_public FmupdateServeraccesspriorities#access_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#access_public FmupdateServeraccesspriorities#access_public}
   */
   readonly accessPublic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#av_ips FmupdateServeraccesspriorities#av_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#av_ips FmupdateServeraccesspriorities#av_ips}
   */
   readonly avIps?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#dynamic_sort_subtable FmupdateServeraccesspriorities#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#dynamic_sort_subtable FmupdateServeraccesspriorities#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#id FmupdateServeraccesspriorities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#id FmupdateServeraccesspriorities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#web_spam FmupdateServeraccesspriorities#web_spam}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#web_spam FmupdateServeraccesspriorities#web_spam}
   */
   readonly webSpam?: string;
   /**
   * private_server block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#private_server FmupdateServeraccesspriorities#private_server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#private_server FmupdateServeraccesspriorities#private_server}
   */
   readonly privateServer?: FmupdateServeraccessprioritiesPrivateServer[] | cdktf.IResolvable;
 }
 export interface FmupdateServeraccessprioritiesPrivateServer {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#id FmupdateServeraccesspriorities#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#id FmupdateServeraccesspriorities#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#ip FmupdateServeraccesspriorities#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#ip FmupdateServeraccesspriorities#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#ip6 FmupdateServeraccesspriorities#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#ip6 FmupdateServeraccesspriorities#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#time_zone FmupdateServeraccesspriorities#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#time_zone FmupdateServeraccesspriorities#time_zone}
   */
   readonly timeZone?: number;
 }
@@ -257,7 +257,7 @@ export class FmupdateServeraccessprioritiesPrivateServerList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities fortianalyzer_fmupdate_serveraccesspriorities}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities fortianalyzer_fmupdate_serveraccesspriorities}
 */
 export class FmupdateServeraccesspriorities extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class FmupdateServeraccesspriorities extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FmupdateServeraccesspriorities resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmupdateServeraccesspriorities to import
-  * @param importFromId The id of the existing FmupdateServeraccesspriorities that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmupdateServeraccesspriorities that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmupdateServeraccesspriorities to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class FmupdateServeraccesspriorities extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_serveraccesspriorities fortianalyzer_fmupdate_serveraccesspriorities} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_serveraccesspriorities fortianalyzer_fmupdate_serveraccesspriorities} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class FmupdateServeraccesspriorities extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_fmupdate_serveraccesspriorities',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

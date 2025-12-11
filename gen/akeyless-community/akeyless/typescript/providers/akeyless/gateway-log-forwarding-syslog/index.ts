@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GatewayLogForwardingSyslogConfig extends cdktf.TerraformMetaArg
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#enable GatewayLogForwardingSyslog#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#enable GatewayLogForwardingSyslog#enable}
   */
   readonly enable?: string;
   /**
   * Enable tls relevant only for network type TCP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#enable_tls GatewayLogForwardingSyslog#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#enable_tls GatewayLogForwardingSyslog#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
   * Syslog formatter [text/cef]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#formatter GatewayLogForwardingSyslog#formatter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#formatter GatewayLogForwardingSyslog#formatter}
   */
   readonly formatter?: string;
   /**
   * Syslog host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#host GatewayLogForwardingSyslog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#host GatewayLogForwardingSyslog#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#id GatewayLogForwardingSyslog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#id GatewayLogForwardingSyslog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,37 +41,37 @@ export interface GatewayLogForwardingSyslogConfig extends cdktf.TerraformMetaArg
   /**
   * Syslog network [tcp/udp]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#network GatewayLogForwardingSyslog#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#network GatewayLogForwardingSyslog#network}
   */
   readonly network?: string;
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#output_format GatewayLogForwardingSyslog#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#output_format GatewayLogForwardingSyslog#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#pull_interval GatewayLogForwardingSyslog#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#pull_interval GatewayLogForwardingSyslog#pull_interval}
   */
   readonly pullInterval?: string;
   /**
   * Syslog target tag
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#target_tag GatewayLogForwardingSyslog#target_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#target_tag GatewayLogForwardingSyslog#target_tag}
   */
   readonly targetTag?: string;
   /**
   * Syslog tls certificate (PEM format) in a Base64 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#tls_certificate GatewayLogForwardingSyslog#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#tls_certificate GatewayLogForwardingSyslog#tls_certificate}
   */
   readonly tlsCertificate?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog akeyless_gateway_log_forwarding_syslog}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog akeyless_gateway_log_forwarding_syslog}
 */
 export class GatewayLogForwardingSyslog extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class GatewayLogForwardingSyslog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayLogForwardingSyslog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingSyslog to import
-  * @param importFromId The id of the existing GatewayLogForwardingSyslog that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingSyslog that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingSyslog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class GatewayLogForwardingSyslog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_syslog akeyless_gateway_log_forwarding_syslog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_syslog akeyless_gateway_log_forwarding_syslog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class GatewayLogForwardingSyslog extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_log_forwarding_syslog',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

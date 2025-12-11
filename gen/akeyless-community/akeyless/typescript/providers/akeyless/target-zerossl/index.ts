@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface TargetZerosslConfig extends cdktf.TerraformMetaArguments {
   /**
   * API Key of the ZeroSSLTarget account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#api_key TargetZerossl#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#api_key TargetZerossl#api_key}
   */
   readonly apiKey: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#description TargetZerossl#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#description TargetZerossl#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#id TargetZerossl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#id TargetZerossl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,55 +29,55 @@ export interface TargetZerosslConfig extends cdktf.TerraformMetaArguments {
   /**
   * FQDN of the IMAP service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#imap_fqdn TargetZerossl#imap_fqdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#imap_fqdn TargetZerossl#imap_fqdn}
   */
   readonly imapFqdn: string;
   /**
   * Password to access the IMAP service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#imap_password TargetZerossl#imap_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#imap_password TargetZerossl#imap_password}
   */
   readonly imapPassword: string;
   /**
   * Port of the IMAP service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#imap_port TargetZerossl#imap_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#imap_port TargetZerossl#imap_port}
   */
   readonly imapPort?: string;
   /**
   * Email to use when asking ZeroSSL to send a validation email, if empty will use username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#imap_target_email TargetZerossl#imap_target_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#imap_target_email TargetZerossl#imap_target_email}
   */
   readonly imapTargetEmail?: string;
   /**
   * Username to access the IMAP service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#imap_username TargetZerossl#imap_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#imap_username TargetZerossl#imap_username}
   */
   readonly imapUsername: string;
   /**
   * Key name. The key will be used to encrypt the target secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#key TargetZerossl#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#key TargetZerossl#key}
   */
   readonly key?: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#name TargetZerossl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#name TargetZerossl#name}
   */
   readonly name: string;
   /**
   * Timeout waiting for certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#timeout TargetZerossl#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#timeout TargetZerossl#timeout}
   */
   readonly timeout?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl akeyless_target_zerossl}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl akeyless_target_zerossl}
 */
 export class TargetZerossl extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class TargetZerossl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TargetZerossl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TargetZerossl to import
-  * @param importFromId The id of the existing TargetZerossl that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TargetZerossl that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TargetZerossl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class TargetZerossl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_zerossl akeyless_target_zerossl} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_zerossl akeyless_target_zerossl} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class TargetZerossl extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_zerossl',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

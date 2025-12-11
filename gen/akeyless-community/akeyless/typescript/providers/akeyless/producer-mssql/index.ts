@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProducerMssqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#id ProducerMssql#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#id ProducerMssql#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,115 +17,115 @@ export interface ProducerMssqlConfig extends cdktf.TerraformMetaArguments {
   /**
   * MSSQL Server Creation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_create_statements ProducerMssql#mssql_create_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_create_statements ProducerMssql#mssql_create_statements}
   */
   readonly mssqlCreateStatements?: string;
   /**
   * MSSQL Server DB Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_dbname ProducerMssql#mssql_dbname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_dbname ProducerMssql#mssql_dbname}
   */
   readonly mssqlDbname?: string;
   /**
   * MS SQL Server host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_host ProducerMssql#mssql_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_host ProducerMssql#mssql_host}
   */
   readonly mssqlHost?: string;
   /**
   * MS SQL Server password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_password ProducerMssql#mssql_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_password ProducerMssql#mssql_password}
   */
   readonly mssqlPassword?: string;
   /**
   * MS SQL Server port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_port ProducerMssql#mssql_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_port ProducerMssql#mssql_port}
   */
   readonly mssqlPort?: string;
   /**
   * MSSQL Server Revocation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_revocation_statements ProducerMssql#mssql_revocation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_revocation_statements ProducerMssql#mssql_revocation_statements}
   */
   readonly mssqlRevocationStatements?: string;
   /**
   * MS SQL Server user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#mssql_username ProducerMssql#mssql_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#mssql_username ProducerMssql#mssql_username}
   */
   readonly mssqlUsername?: string;
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#name ProducerMssql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#name ProducerMssql#name}
   */
   readonly name: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#producer_encryption_key_name ProducerMssql#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#producer_encryption_key_name ProducerMssql#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#secure_access_bastion_issuer ProducerMssql#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#secure_access_bastion_issuer ProducerMssql#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#secure_access_db_name ProducerMssql#secure_access_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#secure_access_db_name ProducerMssql#secure_access_db_name}
   */
   readonly secureAccessDbName?: string;
   /**
   * The db schema
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#secure_access_db_schema ProducerMssql#secure_access_db_schema}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#secure_access_db_schema ProducerMssql#secure_access_db_schema}
   */
   readonly secureAccessDbSchema?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#secure_access_enable ProducerMssql#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#secure_access_enable ProducerMssql#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target DB servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#secure_access_host ProducerMssql#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#secure_access_host ProducerMssql#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#secure_access_web ProducerMssql#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#secure_access_web ProducerMssql#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#tags ProducerMssql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#tags ProducerMssql#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#target_name ProducerMssql#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#target_name ProducerMssql#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#user_ttl ProducerMssql#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#user_ttl ProducerMssql#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql akeyless_producer_mssql}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql akeyless_producer_mssql}
 */
 export class ProducerMssql extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class ProducerMssql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerMssql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerMssql to import
-  * @param importFromId The id of the existing ProducerMssql that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerMssql that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerMssql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class ProducerMssql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mssql akeyless_producer_mssql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mssql akeyless_producer_mssql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class ProducerMssql extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_mssql',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

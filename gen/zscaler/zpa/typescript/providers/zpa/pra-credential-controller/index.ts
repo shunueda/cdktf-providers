@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface PraCredentialControllerConfig extends cdktf.TerraformMetaArgume
   /**
   * The protocol type that was designated for that particular privileged credential. The protocol type options are SSH, RDP, and VNC. Each protocol type has its own credential requirements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#credential_type PraCredentialController#credential_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#credential_type PraCredentialController#credential_type}
   */
   readonly credentialType?: string;
   /**
   * The description of the privileged credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#description PraCredentialController#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#description PraCredentialController#description}
   */
   readonly description?: string;
   /**
   * The unique identifier of the Microtenant for the ZPA tenant. If you are within the Default Microtenant, pass microtenantId as 0 when making requests to retrieve data from the Default Microtenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#microtenant_id PraCredentialController#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#microtenant_id PraCredentialController#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * The name of the privileged credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#name PraCredentialController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#name PraCredentialController#name}
   */
   readonly name?: string;
   /**
   * The password that is used to protect the SSH private key. This field is optional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#passphrase PraCredentialController#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#passphrase PraCredentialController#passphrase}
   */
   readonly passphrase?: string;
   /**
   * The password associated with the username for the login you want to use for the privileged credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#password PraCredentialController#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#password PraCredentialController#password}
   */
   readonly password?: string;
   /**
   * The SSH private key associated with the username for the login you want to use for the privileged credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#private_key PraCredentialController#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#private_key PraCredentialController#private_key}
   */
   readonly privateKey?: string;
   /**
   * The domain name associated with the username. The domain name only needs to be specified with logging in to an RDP console that is connected to an Active Directory Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#user_domain PraCredentialController#user_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#user_domain PraCredentialController#user_domain}
   */
   readonly userDomain?: string;
   /**
   *  The username for the login you want to use for the privileged credential
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#username PraCredentialController#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#username PraCredentialController#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller zpa_pra_credential_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller zpa_pra_credential_controller}
 */
 export class PraCredentialController extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class PraCredentialController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PraCredentialController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PraCredentialController to import
-  * @param importFromId The id of the existing PraCredentialController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PraCredentialController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PraCredentialController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class PraCredentialController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/pra_credential_controller zpa_pra_credential_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/pra_credential_controller zpa_pra_credential_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class PraCredentialController extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_pra_credential_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

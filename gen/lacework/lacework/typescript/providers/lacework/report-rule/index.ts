@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ReportRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the report rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#description ReportRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#description ReportRule#description}
   */
   readonly description?: string;
   /**
   * List of email alert channels for the report rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#email_alert_channels ReportRule#email_alert_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#email_alert_channels ReportRule#email_alert_channels}
   */
   readonly emailAlertChannels: string[];
   /**
   * The state of the report rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#enabled ReportRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#enabled ReportRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#id ReportRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#id ReportRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,83 +35,83 @@ export interface ReportRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the report rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#name ReportRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#name ReportRule#name}
   */
   readonly name: string;
   /**
   * List of resource groups for the report rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#resource_groups ReportRule#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#resource_groups ReportRule#resource_groups}
   */
   readonly resourceGroups?: string[];
   /**
   * List of severities for the report rule. Valid severities are: Critical, High, Medium, Low, Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#severities ReportRule#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#severities ReportRule#severities}
   */
   readonly severities: string[];
   /**
   * Weekly Snapshot Compliance Report type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#weekly_snapshot ReportRule#weekly_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#weekly_snapshot ReportRule#weekly_snapshot}
   */
   readonly weeklySnapshot?: boolean | cdktf.IResolvable;
   /**
   * aws_compliance_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#aws_compliance_reports ReportRule#aws_compliance_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#aws_compliance_reports ReportRule#aws_compliance_reports}
   */
   readonly awsComplianceReports?: ReportRuleAwsComplianceReports;
   /**
   * azure_compliance_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#azure_compliance_reports ReportRule#azure_compliance_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#azure_compliance_reports ReportRule#azure_compliance_reports}
   */
   readonly azureComplianceReports?: ReportRuleAzureComplianceReports;
   /**
   * daily_compliance_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#daily_compliance_reports ReportRule#daily_compliance_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#daily_compliance_reports ReportRule#daily_compliance_reports}
   */
   readonly dailyComplianceReports?: ReportRuleDailyComplianceReports;
   /**
   * gcp_compliance_reports block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#gcp_compliance_reports ReportRule#gcp_compliance_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#gcp_compliance_reports ReportRule#gcp_compliance_reports}
   */
   readonly gcpComplianceReports?: ReportRuleGcpComplianceReports;
 }
 export interface ReportRuleAwsComplianceReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#cis_s3 ReportRule#cis_s3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#cis_s3 ReportRule#cis_s3}
   */
   readonly cisS3?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#hipaa ReportRule#hipaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#hipaa ReportRule#hipaa}
   */
   readonly hipaa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#iso_2700 ReportRule#iso_2700}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#iso_2700 ReportRule#iso_2700}
   */
   readonly iso2700?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#nist_800_171_rev2 ReportRule#nist_800_171_rev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#nist_800_171_rev2 ReportRule#nist_800_171_rev2}
   */
   readonly nist800171Rev2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#nist_800_53_rev4 ReportRule#nist_800_53_rev4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#nist_800_53_rev4 ReportRule#nist_800_53_rev4}
   */
   readonly nist80053Rev4?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#pci ReportRule#pci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#pci ReportRule#pci}
   */
   readonly pci?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#soc ReportRule#soc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#soc ReportRule#soc}
   */
   readonly soc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#soc_rev2 ReportRule#soc_rev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#soc_rev2 ReportRule#soc_rev2}
   */
   readonly socRev2?: boolean | cdktf.IResolvable;
 }
@@ -398,19 +398,19 @@ export class ReportRuleAwsComplianceReportsOutputReference extends cdktf.Complex
 }
 export interface ReportRuleAzureComplianceReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#cis ReportRule#cis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#cis ReportRule#cis}
   */
   readonly cis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#cis_131 ReportRule#cis_131}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#cis_131 ReportRule#cis_131}
   */
   readonly cis131?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#pci ReportRule#pci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#pci ReportRule#pci}
   */
   readonly pci?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#soc ReportRule#soc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#soc ReportRule#soc}
   */
   readonly soc?: boolean | cdktf.IResolvable;
 }
@@ -581,43 +581,43 @@ export class ReportRuleAzureComplianceReportsOutputReference extends cdktf.Compl
 }
 export interface ReportRuleDailyComplianceReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#aws_cloudtrail ReportRule#aws_cloudtrail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#aws_cloudtrail ReportRule#aws_cloudtrail}
   */
   readonly awsCloudtrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#aws_compliance ReportRule#aws_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#aws_compliance ReportRule#aws_compliance}
   */
   readonly awsCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#azure_activity_log ReportRule#azure_activity_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#azure_activity_log ReportRule#azure_activity_log}
   */
   readonly azureActivityLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#azure_compliance ReportRule#azure_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#azure_compliance ReportRule#azure_compliance}
   */
   readonly azureCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#gcp_audit_trail ReportRule#gcp_audit_trail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#gcp_audit_trail ReportRule#gcp_audit_trail}
   */
   readonly gcpAuditTrail?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#gcp_compliance ReportRule#gcp_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#gcp_compliance ReportRule#gcp_compliance}
   */
   readonly gcpCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#host_security ReportRule#host_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#host_security ReportRule#host_security}
   */
   readonly hostSecurity?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#openshift_compliance ReportRule#openshift_compliance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#openshift_compliance ReportRule#openshift_compliance}
   */
   readonly openshiftCompliance?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#openshift_compliance_events ReportRule#openshift_compliance_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#openshift_compliance_events ReportRule#openshift_compliance_events}
   */
   readonly openshiftComplianceEvents?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#platform ReportRule#platform}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#platform ReportRule#platform}
   */
   readonly platform?: boolean | cdktf.IResolvable;
 }
@@ -962,43 +962,43 @@ export class ReportRuleDailyComplianceReportsOutputReference extends cdktf.Compl
 }
 export interface ReportRuleGcpComplianceReports {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#cis ReportRule#cis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#cis ReportRule#cis}
   */
   readonly cis?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#cis_12 ReportRule#cis_12}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#cis_12 ReportRule#cis_12}
   */
   readonly cis12?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#hipaa ReportRule#hipaa}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#hipaa ReportRule#hipaa}
   */
   readonly hipaa?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#hipaa_rev2 ReportRule#hipaa_rev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#hipaa_rev2 ReportRule#hipaa_rev2}
   */
   readonly hipaaRev2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#iso_27001 ReportRule#iso_27001}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#iso_27001 ReportRule#iso_27001}
   */
   readonly iso27001?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#k8s ReportRule#k8s}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#k8s ReportRule#k8s}
   */
   readonly k8S?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#pci ReportRule#pci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#pci ReportRule#pci}
   */
   readonly pci?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#pci_rev2 ReportRule#pci_rev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#pci_rev2 ReportRule#pci_rev2}
   */
   readonly pciRev2?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#soc ReportRule#soc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#soc ReportRule#soc}
   */
   readonly soc?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#soc_rev2 ReportRule#soc_rev2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#soc_rev2 ReportRule#soc_rev2}
   */
   readonly socRev2?: boolean | cdktf.IResolvable;
 }
@@ -1343,7 +1343,7 @@ export class ReportRuleGcpComplianceReportsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule lacework_report_rule}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule lacework_report_rule}
 */
 export class ReportRule extends cdktf.TerraformResource {
 
@@ -1359,7 +1359,7 @@ export class ReportRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ReportRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ReportRule to import
-  * @param importFromId The id of the existing ReportRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ReportRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ReportRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1371,7 +1371,7 @@ export class ReportRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/report_rule lacework_report_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/report_rule lacework_report_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1382,8 +1382,8 @@ export class ReportRule extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_report_rule',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

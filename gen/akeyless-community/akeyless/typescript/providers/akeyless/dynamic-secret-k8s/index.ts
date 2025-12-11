@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface DynamicSecretK8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#custom_username_template DynamicSecretK8S#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#custom_username_template DynamicSecretK8S#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * Protection from accidental deletion of this item [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#delete_protection DynamicSecretK8S#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#delete_protection DynamicSecretK8S#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#encryption_key_name DynamicSecretK8S#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#encryption_key_name DynamicSecretK8S#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#id DynamicSecretK8S#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#id DynamicSecretK8S#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,133 +35,133 @@ export interface DynamicSecretK8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Comma-separated list of allowed K8S namespaces for the generated ServiceAccount (relevant only for k8s-service-account-type=dynamic).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_allowed_namespaces DynamicSecretK8S#k8s_allowed_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_allowed_namespaces DynamicSecretK8S#k8s_allowed_namespaces}
   */
   readonly k8SAllowedNamespaces?: string;
   /**
   * K8S Cluster certificate. Base 64 encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_cluster_ca_cert DynamicSecretK8S#k8s_cluster_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_cluster_ca_cert DynamicSecretK8S#k8s_cluster_ca_cert}
   */
   readonly k8SClusterCaCert?: string;
   /**
   * K8S Cluster endpoint. https:// , <DNS / IP> of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_cluster_endpoint DynamicSecretK8S#k8s_cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_cluster_endpoint DynamicSecretK8S#k8s_cluster_endpoint}
   */
   readonly k8SClusterEndpoint?: string;
   /**
   * K8S Cluster authentication token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_cluster_token DynamicSecretK8S#k8s_cluster_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_cluster_token DynamicSecretK8S#k8s_cluster_token}
   */
   readonly k8SClusterToken?: string;
   /**
   * K8S Namespace where the ServiceAccount exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_namespace DynamicSecretK8S#k8s_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_namespace DynamicSecretK8S#k8s_namespace}
   */
   readonly k8SNamespace?: string;
   /**
   * The pre-existing Role or ClusterRole name to bind the generated ServiceAccount to (relevant only for k8s-service-account-type=dynamic).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_predefined_role_name DynamicSecretK8S#k8s_predefined_role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_predefined_role_name DynamicSecretK8S#k8s_predefined_role_name}
   */
   readonly k8SPredefinedRoleName?: string;
   /**
   * Specifies the type of the pre-existing K8S role [Role, ClusterRole] (relevant only for k8s-service-account-type=dynamic).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_predefined_role_type DynamicSecretK8S#k8s_predefined_role_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_predefined_role_type DynamicSecretK8S#k8s_predefined_role_type}
   */
   readonly k8SPredefinedRoleType?: string;
   /**
   * K8S ServiceAccount to extract token from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_service_account DynamicSecretK8S#k8s_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_service_account DynamicSecretK8S#k8s_service_account}
   */
   readonly k8SServiceAccount?: string;
   /**
   * K8S ServiceAccount type [fixed, dynamic].
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#k8s_service_account_type DynamicSecretK8S#k8s_service_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#k8s_service_account_type DynamicSecretK8S#k8s_service_account_type}
   */
   readonly k8SServiceAccountType?: string;
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#name DynamicSecretK8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#name DynamicSecretK8S#name}
   */
   readonly name: string;
   /**
   * Enable Port forwarding while using CLI access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_allow_port_forwading DynamicSecretK8S#secure_access_allow_port_forwading}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_allow_port_forwading DynamicSecretK8S#secure_access_allow_port_forwading}
   */
   readonly secureAccessAllowPortForwading?: boolean | cdktf.IResolvable;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_bastion_issuer DynamicSecretK8S#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_bastion_issuer DynamicSecretK8S#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * The K8s cluster endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_cluster_endpoint DynamicSecretK8S#secure_access_cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_cluster_endpoint DynamicSecretK8S#secure_access_cluster_endpoint}
   */
   readonly secureAccessClusterEndpoint?: string;
   /**
   * The K8s dashboard url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_dashboard_url DynamicSecretK8S#secure_access_dashboard_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_dashboard_url DynamicSecretK8S#secure_access_dashboard_url}
   */
   readonly secureAccessDashboardUrl?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_enable DynamicSecretK8S#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_enable DynamicSecretK8S#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Enable Web Secure Remote Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_web DynamicSecretK8S#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_web DynamicSecretK8S#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * Secure browser via Akeyless Web Access Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_web_browsing DynamicSecretK8S#secure_access_web_browsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_web_browsing DynamicSecretK8S#secure_access_web_browsing}
   */
   readonly secureAccessWebBrowsing?: boolean | cdktf.IResolvable;
   /**
   * Web-Proxy via Akeyless Web Access Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#secure_access_web_proxy DynamicSecretK8S#secure_access_web_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#secure_access_web_proxy DynamicSecretK8S#secure_access_web_proxy}
   */
   readonly secureAccessWebProxy?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: --tag Tag1 --tag Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#tags DynamicSecretK8S#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#tags DynamicSecretK8S#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#target_name DynamicSecretK8S#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#target_name DynamicSecretK8S#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#user_ttl DynamicSecretK8S#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#user_ttl DynamicSecretK8S#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s akeyless_dynamic_secret_k8s}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s akeyless_dynamic_secret_k8s}
 */
 export class DynamicSecretK8S extends cdktf.TerraformResource {
 
@@ -177,7 +177,7 @@ export class DynamicSecretK8S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretK8S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretK8S to import
-  * @param importFromId The id of the existing DynamicSecretK8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretK8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretK8S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -189,7 +189,7 @@ export class DynamicSecretK8S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_k8s akeyless_dynamic_secret_k8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_k8s akeyless_dynamic_secret_k8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -200,8 +200,8 @@ export class DynamicSecretK8S extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_k8s',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

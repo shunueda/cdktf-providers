@@ -70,6 +70,7 @@ Object.defineProperty(exports, 'serviceendpointExternaltfs', { get: function () 
 Object.defineProperty(exports, 'serviceendpointGcpTerraform', { get: function () { return require('./serviceendpoint-gcp-terraform'); } });
 Object.defineProperty(exports, 'serviceendpointGeneric', { get: function () { return require('./serviceendpoint-generic'); } });
 Object.defineProperty(exports, 'serviceendpointGenericGit', { get: function () { return require('./serviceendpoint-generic-git'); } });
+Object.defineProperty(exports, 'serviceendpointGenericV2', { get: function () { return require('./serviceendpoint-generic-v2'); } });
 Object.defineProperty(exports, 'serviceendpointGithub', { get: function () { return require('./serviceendpoint-github'); } });
 Object.defineProperty(exports, 'serviceendpointGithubEnterprise', { get: function () { return require('./serviceendpoint-github-enterprise'); } });
 Object.defineProperty(exports, 'serviceendpointGitlab', { get: function () { return require('./serviceendpoint-gitlab'); } });
@@ -96,6 +97,7 @@ Object.defineProperty(exports, 'serviceendpointSsh', { get: function () { return
 Object.defineProperty(exports, 'serviceendpointVisualstudiomarketplace', { get: function () { return require('./serviceendpoint-visualstudiomarketplace'); } });
 Object.defineProperty(exports, 'servicehookPermissions', { get: function () { return require('./servicehook-permissions'); } });
 Object.defineProperty(exports, 'servicehookStorageQueuePipelines', { get: function () { return require('./servicehook-storage-queue-pipelines'); } });
+Object.defineProperty(exports, 'servicehookWebhookTfs', { get: function () { return require('./servicehook-webhook-tfs'); } });
 Object.defineProperty(exports, 'taggingPermissions', { get: function () { return require('./tagging-permissions'); } });
 Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });
 Object.defineProperty(exports, 'teamAdministrators', { get: function () { return require('./team-administrators'); } });
@@ -106,7 +108,10 @@ Object.defineProperty(exports, 'variableGroupPermissions', { get: function () { 
 Object.defineProperty(exports, 'wiki', { get: function () { return require('./wiki'); } });
 Object.defineProperty(exports, 'wikiPage', { get: function () { return require('./wiki-page'); } });
 Object.defineProperty(exports, 'workitem', { get: function () { return require('./workitem'); } });
+Object.defineProperty(exports, 'workitemquery', { get: function () { return require('./workitemquery'); } });
+Object.defineProperty(exports, 'workitemqueryFolder', { get: function () { return require('./workitemquery-folder'); } });
 Object.defineProperty(exports, 'workitemqueryPermissions', { get: function () { return require('./workitemquery-permissions'); } });
+Object.defineProperty(exports, 'workitemtrackingprocessProcess', { get: function () { return require('./workitemtrackingprocess-process'); } });
 Object.defineProperty(exports, 'dataAzuredevopsAgentPool', { get: function () { return require('./data-azuredevops-agent-pool'); } });
 Object.defineProperty(exports, 'dataAzuredevopsAgentPools', { get: function () { return require('./data-azuredevops-agent-pools'); } });
 Object.defineProperty(exports, 'dataAzuredevopsAgentQueue', { get: function () { return require('./data-azuredevops-agent-queue'); } });
@@ -134,6 +139,7 @@ Object.defineProperty(exports, 'dataAzuredevopsServiceendpointAzurecr', { get: f
 Object.defineProperty(exports, 'dataAzuredevopsServiceendpointAzurerm', { get: function () { return require('./data-azuredevops-serviceendpoint-azurerm'); } });
 Object.defineProperty(exports, 'dataAzuredevopsServiceendpointBitbucket', { get: function () { return require('./data-azuredevops-serviceendpoint-bitbucket'); } });
 Object.defineProperty(exports, 'dataAzuredevopsServiceendpointDockerregistry', { get: function () { return require('./data-azuredevops-serviceendpoint-dockerregistry'); } });
+Object.defineProperty(exports, 'dataAzuredevopsServiceendpointGenericV2', { get: function () { return require('./data-azuredevops-serviceendpoint-generic-v2'); } });
 Object.defineProperty(exports, 'dataAzuredevopsServiceendpointGithub', { get: function () { return require('./data-azuredevops-serviceendpoint-github'); } });
 Object.defineProperty(exports, 'dataAzuredevopsServiceendpointNpm', { get: function () { return require('./data-azuredevops-serviceendpoint-npm'); } });
 Object.defineProperty(exports, 'dataAzuredevopsServiceendpointSonarcloud', { get: function () { return require('./data-azuredevops-serviceendpoint-sonarcloud'); } });
@@ -143,5 +149,7 @@ Object.defineProperty(exports, 'dataAzuredevopsTeams', { get: function () { retu
 Object.defineProperty(exports, 'dataAzuredevopsUser', { get: function () { return require('./data-azuredevops-user'); } });
 Object.defineProperty(exports, 'dataAzuredevopsUsers', { get: function () { return require('./data-azuredevops-users'); } });
 Object.defineProperty(exports, 'dataAzuredevopsVariableGroup', { get: function () { return require('./data-azuredevops-variable-group'); } });
+Object.defineProperty(exports, 'dataAzuredevopsWorkitemtrackingprocessProcess', { get: function () { return require('./data-azuredevops-workitemtrackingprocess-process'); } });
+Object.defineProperty(exports, 'dataAzuredevopsWorkitemtrackingprocessProcesses', { get: function () { return require('./data-azuredevops-workitemtrackingprocess-processes'); } });
 Object.defineProperty(exports, 'provider', { get: function () { return require('./provider'); } });
 

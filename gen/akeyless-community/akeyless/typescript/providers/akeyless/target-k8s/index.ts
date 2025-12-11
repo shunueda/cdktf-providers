@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface TargetK8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#description TargetK8S#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#description TargetK8S#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#id TargetK8S#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#id TargetK8S#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface TargetK8SConfig extends cdktf.TerraformMetaArguments {
   /**
   * K8S Cluster certificate. Base 64 encoded certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#k8s_cluster_ca_cert TargetK8S#k8s_cluster_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#k8s_cluster_ca_cert TargetK8S#k8s_cluster_ca_cert}
   */
   readonly k8SClusterCaCert: string;
   /**
   * K8S Cluster endpoint. https:// , <DNS / IP> of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#k8s_cluster_endpoint TargetK8S#k8s_cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#k8s_cluster_endpoint TargetK8S#k8s_cluster_endpoint}
   */
   readonly k8SClusterEndpoint: string;
   /**
   * K8S Cluster authentication token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#k8s_cluster_token TargetK8S#k8s_cluster_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#k8s_cluster_token TargetK8S#k8s_cluster_token}
   */
   readonly k8SClusterToken: string;
   /**
   * Key name. The key will be used to encrypt the target secret value. If key name is not specified, the account default protection key is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#key TargetK8S#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#key TargetK8S#key}
   */
   readonly key?: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#name TargetK8S#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#name TargetK8S#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s akeyless_target_k8s}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s akeyless_target_k8s}
 */
 export class TargetK8S extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class TargetK8S extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TargetK8S resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TargetK8S to import
-  * @param importFromId The id of the existing TargetK8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TargetK8S that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TargetK8S to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class TargetK8S extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_k8s akeyless_target_k8s} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_k8s akeyless_target_k8s} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class TargetK8S extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_k8s',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

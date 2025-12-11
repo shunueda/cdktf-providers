@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface DatabasePostgresqlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#engine_value DatabasePostgresql#engine_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#engine_value DatabasePostgresql#engine_value}
   */
   readonly engineValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#environment_value DatabasePostgresql#environment_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#environment_value DatabasePostgresql#environment_value}
   */
   readonly environmentValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#name DatabasePostgresql#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#name DatabasePostgresql#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#repository_value DatabasePostgresql#repository_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#repository_value DatabasePostgresql#repository_value}
   */
   readonly repositoryValue: string;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#tags DatabasePostgresql#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#tags DatabasePostgresql#tags}
   */
   readonly tags?: DatabasePostgresqlTags[] | cdktf.IResolvable;
 }
 export interface DatabasePostgresqlTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#key DatabasePostgresql#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#key DatabasePostgresql#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#value DatabasePostgresql#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#value DatabasePostgresql#value}
   */
   readonly value?: string;
 }
@@ -181,7 +181,7 @@ export class DatabasePostgresqlTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql delphix_database_postgresql}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql delphix_database_postgresql}
 */
 export class DatabasePostgresql extends cdktf.TerraformResource {
 
@@ -197,7 +197,7 @@ export class DatabasePostgresql extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DatabasePostgresql resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DatabasePostgresql to import
-  * @param importFromId The id of the existing DatabasePostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DatabasePostgresql that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DatabasePostgresql to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +209,7 @@ export class DatabasePostgresql extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/database_postgresql delphix_database_postgresql} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/database_postgresql delphix_database_postgresql} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +220,8 @@ export class DatabasePostgresql extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_database_postgresql',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

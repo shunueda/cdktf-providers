@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,54 +11,60 @@ export interface BgpL2VpnEvpnNeighborConfig extends cdktf.TerraformMetaArguments
   * Enable the address family for this neighbor
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#activate BgpL2VpnEvpnNeighbor#activate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#activate BgpL2VpnEvpnNeighbor#activate}
   */
   readonly activate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#asn BgpL2VpnEvpnNeighbor#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#asn BgpL2VpnEvpnNeighbor#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#delete_mode BgpL2VpnEvpnNeighbor#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#delete_mode BgpL2VpnEvpnNeighbor#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#device BgpL2VpnEvpnNeighbor#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#device BgpL2VpnEvpnNeighbor#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#ip BgpL2VpnEvpnNeighbor#ip}
+  * Inherit a peer-policy template
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#inherit_peer_policy BgpL2VpnEvpnNeighbor#inherit_peer_policy}
+  */
+  readonly inheritPeerPolicy?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#ip BgpL2VpnEvpnNeighbor#ip}
   */
   readonly ip: string;
   /**
   * Apply route map to neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#route_maps BgpL2VpnEvpnNeighbor#route_maps}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#route_maps BgpL2VpnEvpnNeighbor#route_maps}
   */
   readonly routeMaps?: BgpL2VpnEvpnNeighborRouteMaps[] | cdktf.IResolvable;
   /**
   * Configure a neighbor as Route Reflector client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#route_reflector_client BgpL2VpnEvpnNeighbor#route_reflector_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#route_reflector_client BgpL2VpnEvpnNeighbor#route_reflector_client}
   */
   readonly routeReflectorClient?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Choices: `both`, `extended`, `standard`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#send_community BgpL2VpnEvpnNeighbor#send_community}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#send_community BgpL2VpnEvpnNeighbor#send_community}
   */
   readonly sendCommunity?: string;
   /**
   * Per neighbor soft reconfiguration
   *   - Choices: `inbound`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#soft_reconfiguration BgpL2VpnEvpnNeighbor#soft_reconfiguration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#soft_reconfiguration BgpL2VpnEvpnNeighbor#soft_reconfiguration}
   */
   readonly softReconfiguration?: string;
 }
@@ -67,11 +73,11 @@ export interface BgpL2VpnEvpnNeighborRouteMaps {
   * 
   *   - Choices: `in`, `out`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#in_out BgpL2VpnEvpnNeighbor#in_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#in_out BgpL2VpnEvpnNeighbor#in_out}
   */
   readonly inOut: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#route_map_name BgpL2VpnEvpnNeighbor#route_map_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#route_map_name BgpL2VpnEvpnNeighbor#route_map_name}
   */
   readonly routeMapName: string;
 }
@@ -210,7 +216,7 @@ export class BgpL2VpnEvpnNeighborRouteMapsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor}
 */
 export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
 
@@ -226,7 +232,7 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpL2VpnEvpnNeighbor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpL2VpnEvpnNeighbor to import
-  * @param importFromId The id of the existing BgpL2VpnEvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpL2VpnEvpnNeighbor that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpL2VpnEvpnNeighbor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +244,7 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_l2vpn_evpn_neighbor iosxe_bgp_l2vpn_evpn_neighbor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +255,8 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_l2vpn_evpn_neighbor',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -264,6 +270,7 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
     this._asn = config.asn;
     this._deleteMode = config.deleteMode;
     this._device = config.device;
+    this._inheritPeerPolicy = config.inheritPeerPolicy;
     this._ip = config.ip;
     this._routeMaps.internalValue = config.routeMaps;
     this._routeReflectorClient = config.routeReflectorClient;
@@ -339,6 +346,22 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // inherit_peer_policy - computed: false, optional: true, required: false
+  private _inheritPeerPolicy?: string; 
+  public get inheritPeerPolicy() {
+    return this.getStringAttribute('inherit_peer_policy');
+  }
+  public set inheritPeerPolicy(value: string) {
+    this._inheritPeerPolicy = value;
+  }
+  public resetInheritPeerPolicy() {
+    this._inheritPeerPolicy = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get inheritPeerPolicyInput() {
+    return this._inheritPeerPolicy;
   }
 
   // ip - computed: false, optional: false, required: true
@@ -428,6 +451,7 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
       asn: cdktf.stringToTerraform(this._asn),
       delete_mode: cdktf.stringToTerraform(this._deleteMode),
       device: cdktf.stringToTerraform(this._device),
+      inherit_peer_policy: cdktf.stringToTerraform(this._inheritPeerPolicy),
       ip: cdktf.stringToTerraform(this._ip),
       route_maps: cdktf.listMapper(bgpL2VpnEvpnNeighborRouteMapsToTerraform, false)(this._routeMaps.internalValue),
       route_reflector_client: cdktf.booleanToTerraform(this._routeReflectorClient),
@@ -458,6 +482,12 @@ export class BgpL2VpnEvpnNeighbor extends cdktf.TerraformResource {
       },
       device: {
         value: cdktf.stringToHclTerraform(this._device),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      inherit_peer_policy: {
+        value: cdktf.stringToHclTerraform(this._inheritPeerPolicy),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

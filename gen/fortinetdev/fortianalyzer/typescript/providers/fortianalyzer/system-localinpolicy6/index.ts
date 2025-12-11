@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,76 +8,76 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocalinpolicy6Config extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#action SystemLocalinpolicy6#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#action SystemLocalinpolicy6#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#description SystemLocalinpolicy6#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#description SystemLocalinpolicy6#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#dport SystemLocalinpolicy6#dport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#dport SystemLocalinpolicy6#dport}
   */
   readonly dport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#dst SystemLocalinpolicy6#dst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#dst SystemLocalinpolicy6#dst}
   */
   readonly dst?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#dynamic_sort_subtable SystemLocalinpolicy6#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#dynamic_sort_subtable SystemLocalinpolicy6#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#fosid SystemLocalinpolicy6#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#fosid SystemLocalinpolicy6#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#id SystemLocalinpolicy6#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#id SystemLocalinpolicy6#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#intf SystemLocalinpolicy6#intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#intf SystemLocalinpolicy6#intf}
   */
   readonly intf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#protocol SystemLocalinpolicy6#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#protocol SystemLocalinpolicy6#protocol}
   */
   readonly protocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#src SystemLocalinpolicy6#src}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#src SystemLocalinpolicy6#src}
   */
   readonly src?: string;
   /**
   * dport_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#dport_block SystemLocalinpolicy6#dport_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#dport_block SystemLocalinpolicy6#dport_block}
   */
   readonly dportBlock?: SystemLocalinpolicy6DportBlock[] | cdktf.IResolvable;
   /**
   * dst_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#dst_block SystemLocalinpolicy6#dst_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#dst_block SystemLocalinpolicy6#dst_block}
   */
   readonly dstBlock?: SystemLocalinpolicy6DstBlock[] | cdktf.IResolvable;
   /**
   * intf_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#intf_block SystemLocalinpolicy6#intf_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#intf_block SystemLocalinpolicy6#intf_block}
   */
   readonly intfBlock?: SystemLocalinpolicy6IntfBlock[] | cdktf.IResolvable;
   /**
   * src_block block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#src_block SystemLocalinpolicy6#src_block}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#src_block SystemLocalinpolicy6#src_block}
   */
   readonly srcBlock?: SystemLocalinpolicy6SrcBlock[] | cdktf.IResolvable;
 }
 export interface SystemLocalinpolicy6DportBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#dport_value SystemLocalinpolicy6#dport_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#dport_value SystemLocalinpolicy6#dport_value}
   */
   readonly dportValue?: string;
 }
@@ -193,7 +193,7 @@ export class SystemLocalinpolicy6DportBlockList extends cdktf.ComplexList {
 }
 export interface SystemLocalinpolicy6DstBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#src_ip SystemLocalinpolicy6#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#src_ip SystemLocalinpolicy6#src_ip}
   */
   readonly srcIp?: string;
 }
@@ -309,7 +309,7 @@ export class SystemLocalinpolicy6DstBlockList extends cdktf.ComplexList {
 }
 export interface SystemLocalinpolicy6IntfBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#intf_name SystemLocalinpolicy6#intf_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#intf_name SystemLocalinpolicy6#intf_name}
   */
   readonly intfName?: string;
 }
@@ -425,7 +425,7 @@ export class SystemLocalinpolicy6IntfBlockList extends cdktf.ComplexList {
 }
 export interface SystemLocalinpolicy6SrcBlock {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#src_ip SystemLocalinpolicy6#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#src_ip SystemLocalinpolicy6#src_ip}
   */
   readonly srcIp?: string;
 }
@@ -541,7 +541,7 @@ export class SystemLocalinpolicy6SrcBlockList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6 fortianalyzer_system_localinpolicy6}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6 fortianalyzer_system_localinpolicy6}
 */
 export class SystemLocalinpolicy6 extends cdktf.TerraformResource {
 
@@ -557,7 +557,7 @@ export class SystemLocalinpolicy6 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLocalinpolicy6 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocalinpolicy6 to import
-  * @param importFromId The id of the existing SystemLocalinpolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocalinpolicy6 that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocalinpolicy6 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -569,7 +569,7 @@ export class SystemLocalinpolicy6 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_localinpolicy6 fortianalyzer_system_localinpolicy6} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_localinpolicy6 fortianalyzer_system_localinpolicy6} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -580,8 +580,8 @@ export class SystemLocalinpolicy6 extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_localinpolicy6',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

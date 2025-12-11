@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface EventForwarderServiceNowConfig extends cdktf.TerraformMetaArgum
   /**
   * Workstation Admin Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#admin_name EventForwarderServiceNow#admin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#admin_name EventForwarderServiceNow#admin_name}
   */
   readonly adminName?: string;
   /**
   * Workstation Admin Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#admin_pwd EventForwarderServiceNow#admin_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#admin_pwd EventForwarderServiceNow#admin_pwd}
   */
   readonly adminPwd?: string;
   /**
   * The RSA Private Key to use when connecting with jwt authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#app_private_key_base64 EventForwarderServiceNow#app_private_key_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#app_private_key_base64 EventForwarderServiceNow#app_private_key_base64}
   */
   readonly appPrivateKeyBase64?: string;
   /**
   * Auth Methods event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#auth_methods_event_source_locations EventForwarderServiceNow#auth_methods_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#auth_methods_event_source_locations EventForwarderServiceNow#auth_methods_event_source_locations}
   */
   readonly authMethodsEventSourceLocations?: string[];
   /**
   * The authentication type to use [user-pass/jwt]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#auth_type EventForwarderServiceNow#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#auth_type EventForwarderServiceNow#auth_type}
   */
   readonly authType?: string;
   /**
   * The client ID to use when connecting with jwt authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#client_id EventForwarderServiceNow#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#client_id EventForwarderServiceNow#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret to use when connecting with jwt authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#client_secret EventForwarderServiceNow#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#client_secret EventForwarderServiceNow#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#description EventForwarderServiceNow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#description EventForwarderServiceNow#description}
   */
   readonly description?: string;
   /**
   * A comma-separated list of types of events to notify about
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#event_types EventForwarderServiceNow#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#event_types EventForwarderServiceNow#event_types}
   */
   readonly eventTypes?: string[];
   /**
   * Rate of periodic runner repetition in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#every EventForwarderServiceNow#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#every EventForwarderServiceNow#every}
   */
   readonly every?: string;
   /**
   * Gateways event sources to forward events about,for example the relevant Gateways cluster urls,: http://localhost:8000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#gateways_event_source_locations EventForwarderServiceNow#gateways_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#gateways_event_source_locations EventForwarderServiceNow#gateways_event_source_locations}
   */
   readonly gatewaysEventSourceLocations?: string[];
   /**
   * Workstation Host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#host EventForwarderServiceNow#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#host EventForwarderServiceNow#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#id EventForwarderServiceNow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#id EventForwarderServiceNow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,43 +89,43 @@ export interface EventForwarderServiceNowConfig extends cdktf.TerraformMetaArgum
   /**
   * Items event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#items_event_source_locations EventForwarderServiceNow#items_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#items_event_source_locations EventForwarderServiceNow#items_event_source_locations}
   */
   readonly itemsEventSourceLocations?: string[];
   /**
   * Key name. The key will be used to encrypt the Event Forwarder secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#key EventForwarderServiceNow#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#key EventForwarderServiceNow#key}
   */
   readonly key?: string;
   /**
   * Event Forwarder name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#name EventForwarderServiceNow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#name EventForwarderServiceNow#name}
   */
   readonly name: string;
   /**
   * Event Forwarder runner type [immediate/periodic]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#runner_type EventForwarderServiceNow#runner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#runner_type EventForwarderServiceNow#runner_type}
   */
   readonly runnerType?: string;
   /**
   * Targets event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#targets_event_source_locations EventForwarderServiceNow#targets_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#targets_event_source_locations EventForwarderServiceNow#targets_event_source_locations}
   */
   readonly targetsEventSourceLocations?: string[];
   /**
   * The user email to identify with when connecting with jwt authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#user_email EventForwarderServiceNow#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#user_email EventForwarderServiceNow#user_email}
   */
   readonly userEmail?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now akeyless_event_forwarder_service_now}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now akeyless_event_forwarder_service_now}
 */
 export class EventForwarderServiceNow extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class EventForwarderServiceNow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventForwarderServiceNow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventForwarderServiceNow to import
-  * @param importFromId The id of the existing EventForwarderServiceNow that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventForwarderServiceNow that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventForwarderServiceNow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class EventForwarderServiceNow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_service_now akeyless_event_forwarder_service_now} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_service_now akeyless_event_forwarder_service_now} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class EventForwarderServiceNow extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_event_forwarder_service_now',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LogTimelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * default connection that the dashboard uses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#default_connection LogTimeline#default_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#default_connection LogTimeline#default_connection}
   */
   readonly defaultConnection?: string;
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#description LogTimeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#description LogTimeline#description}
   */
   readonly description?: string;
   /**
   * Seconds since epoch to end the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#end_time LogTimeline#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#end_time LogTimeline#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#id LogTimeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#id LogTimeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface LogTimelineConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#name LogTimeline#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#name LogTimeline#name}
   */
   readonly name: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#program_text LogTimeline#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#program_text LogTimeline#program_text}
   */
   readonly programText: string;
   /**
   * Seconds since epoch to start the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#start_time LogTimeline#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#start_time LogTimeline#start_time}
   */
   readonly startTime?: number;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#tags LogTimeline#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#tags LogTimeline#tags}
   */
   readonly tags?: string[];
   /**
   * Seconds to display in the visualization. This is a rolling range from the current time. Example: 3600 = `-1h`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#time_range LogTimeline#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#time_range LogTimeline#time_range}
   */
   readonly timeRange?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline signalfx_log_timeline}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline signalfx_log_timeline}
 */
 export class LogTimeline extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class LogTimeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogTimeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogTimeline to import
-  * @param importFromId The id of the existing LogTimeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogTimeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogTimeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class LogTimeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_timeline signalfx_log_timeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_timeline signalfx_log_timeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class LogTimeline extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_log_timeline',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

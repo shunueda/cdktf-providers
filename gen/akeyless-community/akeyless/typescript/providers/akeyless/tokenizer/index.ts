@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TokenizerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Alphabet to use in custom vaultless tokenization, such as '0123456789' for credit cards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#alphabet Tokenizer#alphabet}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#alphabet Tokenizer#alphabet}
   */
   readonly alphabet?: string;
   /**
   * The Decoding output template to use in custom vaultless tokenization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#decoding_template Tokenizer#decoding_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#decoding_template Tokenizer#decoding_template}
   */
   readonly decodingTemplate?: string;
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#delete_protection Tokenizer#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#delete_protection Tokenizer#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#description Tokenizer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#description Tokenizer#description}
   */
   readonly description?: string;
   /**
   * The Encoding output template to use in custom vaultless tokenization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#encoding_template Tokenizer#encoding_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#encoding_template Tokenizer#encoding_template}
   */
   readonly encodingTemplate?: string;
   /**
   * AES key name to use in vaultless tokenization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#encryption_key_name Tokenizer#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#encryption_key_name Tokenizer#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#id Tokenizer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#id Tokenizer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface TokenizerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Tokenizer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#name Tokenizer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#name Tokenizer#name}
   */
   readonly name: string;
   /**
   * Pattern to use in custom vaultless tokenization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#pattern Tokenizer#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#pattern Tokenizer#pattern}
   */
   readonly pattern?: string;
   /**
   * List of the tags attached to this key. To specify multiple tags use argument multiple times: --tag Tag1 --tag Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#tag Tokenizer#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#tag Tokenizer#tag}
   */
   readonly tag?: string[];
   /**
   * Which template type this tokenizer is used for [SSN,CreditCard,USPhoneNumber,Custom]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#template_type Tokenizer#template_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#template_type Tokenizer#template_type}
   */
   readonly templateType: string;
   /**
   * Tokenizer type(vaultless)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#tokenizer_type Tokenizer#tokenizer_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#tokenizer_type Tokenizer#tokenizer_type}
   */
   readonly tokenizerType?: string;
   /**
   * The tweak type to use in vaultless tokenization [Supplied, Generated, Internal, Masking]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#tweak_type Tokenizer#tweak_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#tweak_type Tokenizer#tweak_type}
   */
   readonly tweakType?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer akeyless_tokenizer}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer akeyless_tokenizer}
 */
 export class Tokenizer extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class Tokenizer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Tokenizer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Tokenizer to import
-  * @param importFromId The id of the existing Tokenizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Tokenizer that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Tokenizer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class Tokenizer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/tokenizer akeyless_tokenizer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/tokenizer akeyless_tokenizer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class Tokenizer extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_tokenizer',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

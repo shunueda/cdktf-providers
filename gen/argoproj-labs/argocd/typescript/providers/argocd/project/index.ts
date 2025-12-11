@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,53 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#id Project#id}
-  *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
   * metadata block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#metadata Project#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#metadata Project#metadata}
   */
-  readonly metadata: ProjectMetadata;
+  readonly metadata?: ProjectMetadata[] | cdktf.IResolvable;
   /**
   * spec block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#spec Project#spec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#spec Project#spec}
   */
-  readonly spec: ProjectSpec;
+  readonly spec?: ProjectSpec[] | cdktf.IResolvable;
 }
 export interface ProjectMetadata {
   /**
-  * An unstructured key value map stored with the appprojects.argoproj.io that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
+  * An unstructured key value map stored with the cluster secret that may be used to store arbitrary metadata. More info: http://kubernetes.io/docs/user-guide/annotations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#annotations Project#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#annotations Project#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Map of string keys and values that can be used to organize and categorize (scope and select) the appprojects.argoproj.io. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
+  * Map of string keys and values that can be used to organize and categorize (scope and select) the cluster secret. May match selectors of replication controllers and services. More info: http://kubernetes.io/docs/user-guide/labels
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#labels Project#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#labels Project#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
-  * Name of the appprojects.argoproj.io, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
+  * Name of the appproject, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#name Project#name}
   */
-  readonly name?: string;
+  readonly name: string;
   /**
-  * Namespace of the appprojects.argoproj.io, must be unique. Cannot be updated. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+  * Namespace of the appproject, must be unique. Cannot be updated. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace Project#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#namespace Project#namespace}
   */
   readonly namespace?: string;
 }
 
-export function projectMetadataToTerraform(struct?: ProjectMetadataOutputReference | ProjectMetadata): any {
+export function projectMetadataToTerraform(struct?: ProjectMetadata | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -68,7 +61,7 @@ export function projectMetadataToTerraform(struct?: ProjectMetadataOutputReferen
 }
 
 
-export function projectMetadataToHclTerraform(struct?: ProjectMetadataOutputReference | ProjectMetadata): any {
+export function projectMetadataToHclTerraform(struct?: ProjectMetadata | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -106,16 +99,22 @@ export function projectMetadataToHclTerraform(struct?: ProjectMetadataOutputRefe
 
 export class ProjectMetadataOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): ProjectMetadata | undefined {
+  public get internalValue(): ProjectMetadata | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._annotations !== undefined) {
@@ -137,16 +136,22 @@ export class ProjectMetadataOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ProjectMetadata | undefined) {
+  public set internalValue(value: ProjectMetadata | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._annotations = undefined;
       this._labels = undefined;
       this._name = undefined;
       this._namespace = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._annotations = value.annotations;
       this._labels = value.labels;
       this._name = value.name;
@@ -191,7 +196,7 @@ export class ProjectMetadataOutputReference extends cdktf.ComplexObject {
     return this._labels;
   }
 
-  // name - computed: true, optional: true, required: false
+  // name - computed: false, optional: false, required: true
   private _name?: string; 
   public get name() {
     return this.getStringAttribute('name');
@@ -199,15 +204,12 @@ export class ProjectMetadataOutputReference extends cdktf.ComplexObject {
   public set name(value: string) {
     this._name = value;
   }
-  public resetName() {
-    this._name = undefined;
-  }
   // Temporarily expose input value. Use with caution.
   public get nameInput() {
     return this._name;
   }
 
-  // namespace - computed: true, optional: true, required: false
+  // namespace - computed: false, optional: true, required: false
   private _namespace?: string; 
   public get namespace() {
     return this.getStringAttribute('namespace');
@@ -233,17 +235,37 @@ export class ProjectMetadataOutputReference extends cdktf.ComplexObject {
     return this.getStringAttribute('uid');
   }
 }
+
+export class ProjectMetadataList extends cdktf.ComplexList {
+  public internalValue? : ProjectMetadata[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectMetadataOutputReference {
+    return new ProjectMetadataOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ProjectSpecClusterResourceBlacklistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -390,13 +412,13 @@ export interface ProjectSpecClusterResourceWhitelistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -543,19 +565,19 @@ export interface ProjectSpecDestination {
   /**
   * Name of the destination cluster which can be used instead of server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#name Project#name}
   */
   readonly name?: string;
   /**
   * Target namespace for applications' resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace Project#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#namespace Project#namespace}
   */
   readonly namespace: string;
   /**
   * URL of the target cluster and must be set to the Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#server Project#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#server Project#server}
   */
   readonly server?: string;
 }
@@ -728,21 +750,21 @@ export interface ProjectSpecDestinationServiceAccount {
   /**
   * Used for impersonation during the sync operation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#default_service_account Project#default_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#default_service_account Project#default_service_account}
   */
   readonly defaultServiceAccount: string;
   /**
   * Specifies the target namespace for the application's resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace Project#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#namespace Project#namespace}
   */
   readonly namespace?: string;
   /**
   * Specifies the URL of the target cluster's Kubernetes control plane API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#server Project#server}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#server Project#server}
   */
-  readonly server: string;
+  readonly server?: string;
 }
 
 export function projectSpecDestinationServiceAccountToTerraform(struct?: ProjectSpecDestinationServiceAccount | cdktf.IResolvable): any {
@@ -873,13 +895,16 @@ export class ProjectSpecDestinationServiceAccountOutputReference extends cdktf.C
     return this._namespace;
   }
 
-  // server - computed: false, optional: false, required: true
+  // server - computed: false, optional: true, required: false
   private _server?: string; 
   public get server() {
     return this.getStringAttribute('server');
   }
   public set server(value: string) {
     this._server = value;
+  }
+  public resetServer() {
+    this._server = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get serverInput() {
@@ -910,13 +935,13 @@ export interface ProjectSpecNamespaceResourceBlacklistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -1063,13 +1088,13 @@ export interface ProjectSpecNamespaceResourceWhitelistStruct {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
 }
@@ -1216,19 +1241,19 @@ export interface ProjectSpecOrphanedResourcesIgnore {
   /**
   * The Kubernetes resource Group to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#group Project#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#group Project#group}
   */
   readonly group?: string;
   /**
   * The Kubernetes resource Kind to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
   * The Kubernetes resource name to match for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#name Project#name}
   */
   readonly name?: string;
 }
@@ -1404,18 +1429,18 @@ export interface ProjectSpecOrphanedResources {
   /**
   * Whether a warning condition should be created for apps which have orphaned resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#warn Project#warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#warn Project#warn}
   */
   readonly warn?: boolean | cdktf.IResolvable;
   /**
   * ignore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#ignore Project#ignore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#ignore Project#ignore}
   */
   readonly ignore?: ProjectSpecOrphanedResourcesIgnore[] | cdktf.IResolvable;
 }
 
-export function projectSpecOrphanedResourcesToTerraform(struct?: ProjectSpecOrphanedResourcesOutputReference | ProjectSpecOrphanedResources): any {
+export function projectSpecOrphanedResourcesToTerraform(struct?: ProjectSpecOrphanedResources | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1427,7 +1452,7 @@ export function projectSpecOrphanedResourcesToTerraform(struct?: ProjectSpecOrph
 }
 
 
-export function projectSpecOrphanedResourcesToHclTerraform(struct?: ProjectSpecOrphanedResourcesOutputReference | ProjectSpecOrphanedResources): any {
+export function projectSpecOrphanedResourcesToHclTerraform(struct?: ProjectSpecOrphanedResources | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -1453,16 +1478,22 @@ export function projectSpecOrphanedResourcesToHclTerraform(struct?: ProjectSpecO
 
 export class ProjectSpecOrphanedResourcesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): ProjectSpecOrphanedResources | undefined {
+  public get internalValue(): ProjectSpecOrphanedResources | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._warn !== undefined) {
@@ -1476,14 +1507,20 @@ export class ProjectSpecOrphanedResourcesOutputReference extends cdktf.ComplexOb
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ProjectSpecOrphanedResources | undefined) {
+  public set internalValue(value: ProjectSpecOrphanedResources | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._warn = undefined;
       this._ignore.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._warn = value.warn;
       this._ignore.internalValue = value.ignore;
     }
@@ -1521,29 +1558,243 @@ export class ProjectSpecOrphanedResourcesOutputReference extends cdktf.ComplexOb
     return this._ignore.internalValue;
   }
 }
+
+export class ProjectSpecOrphanedResourcesList extends cdktf.ComplexList {
+  public internalValue? : ProjectSpecOrphanedResources[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectSpecOrphanedResourcesOutputReference {
+    return new ProjectSpecOrphanedResourcesOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface ProjectSpecRoleJwtTokens {
+  /**
+  * Token expiration (timestamp).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#exp Project#exp}
+  */
+  readonly exp?: number;
+  /**
+  * Token issued at (timestamp).
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#iat Project#iat}
+  */
+  readonly iat: number;
+  /**
+  * Token identifier.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#id Project#id}
+  *
+  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
+  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
+  */
+  readonly id?: string;
+}
+
+export function projectSpecRoleJwtTokensToTerraform(struct?: ProjectSpecRoleJwtTokens | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    exp: cdktf.numberToTerraform(struct!.exp),
+    iat: cdktf.numberToTerraform(struct!.iat),
+    id: cdktf.stringToTerraform(struct!.id),
+  }
+}
+
+
+export function projectSpecRoleJwtTokensToHclTerraform(struct?: ProjectSpecRoleJwtTokens | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    exp: {
+      value: cdktf.numberToHclTerraform(struct!.exp),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    iat: {
+      value: cdktf.numberToHclTerraform(struct!.iat),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "number",
+    },
+    id: {
+      value: cdktf.stringToHclTerraform(struct!.id),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ProjectSpecRoleJwtTokensOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): ProjectSpecRoleJwtTokens | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._exp !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.exp = this._exp;
+    }
+    if (this._iat !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.iat = this._iat;
+    }
+    if (this._id !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.id = this._id;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectSpecRoleJwtTokens | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._exp = undefined;
+      this._iat = undefined;
+      this._id = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._exp = value.exp;
+      this._iat = value.iat;
+      this._id = value.id;
+    }
+  }
+
+  // exp - computed: false, optional: true, required: false
+  private _exp?: number; 
+  public get exp() {
+    return this.getNumberAttribute('exp');
+  }
+  public set exp(value: number) {
+    this._exp = value;
+  }
+  public resetExp() {
+    this._exp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get expInput() {
+    return this._exp;
+  }
+
+  // iat - computed: false, optional: false, required: true
+  private _iat?: number; 
+  public get iat() {
+    return this.getNumberAttribute('iat');
+  }
+  public set iat(value: number) {
+    this._iat = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get iatInput() {
+    return this._iat;
+  }
+
+  // id - computed: false, optional: true, required: false
+  private _id?: string; 
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+  public set id(value: string) {
+    this._id = value;
+  }
+  public resetId() {
+    this._id = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get idInput() {
+    return this._id;
+  }
+}
+
+export class ProjectSpecRoleJwtTokensList extends cdktf.ComplexList {
+  public internalValue? : ProjectSpecRoleJwtTokens[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectSpecRoleJwtTokensOutputReference {
+    return new ProjectSpecRoleJwtTokensOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface ProjectSpecRole {
   /**
   * Description of the role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
   * List of OIDC group claims bound to this role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#groups Project#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#groups Project#groups}
   */
   readonly groups?: string[];
   /**
-  * Name of the role.
+  * List of JWT tokens issued for this role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#jwt_tokens Project#jwt_tokens}
+  */
+  readonly jwtTokens?: ProjectSpecRoleJwtTokens[] | cdktf.IResolvable;
+  /**
+  * The name of the role.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * List of casbin formatted strings that define access policies for the role in the project. For more information, see the [ArgoCD RBAC reference](https://argoproj.github.io/argo-cd/operator-manual/rbac/#rbac-permission-structure).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#policies Project#policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#policies Project#policies}
   */
   readonly policies: string[];
 }
@@ -1556,6 +1807,7 @@ export function projectSpecRoleToTerraform(struct?: ProjectSpecRole | cdktf.IRes
   return {
     description: cdktf.stringToTerraform(struct!.description),
     groups: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.groups),
+    jwt_tokens: cdktf.listMapper(projectSpecRoleJwtTokensToTerraform, false)(struct!.jwtTokens),
     name: cdktf.stringToTerraform(struct!.name),
     policies: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.policies),
   }
@@ -1579,6 +1831,12 @@ export function projectSpecRoleToHclTerraform(struct?: ProjectSpecRole | cdktf.I
       isBlock: false,
       type: "list",
       storageClassType: "stringList",
+    },
+    jwt_tokens: {
+      value: cdktf.listMapperHcl(projectSpecRoleJwtTokensToHclTerraform, false)(struct!.jwtTokens),
+      isBlock: true,
+      type: "set",
+      storageClassType: "ProjectSpecRoleJwtTokensList",
     },
     name: {
       value: cdktf.stringToHclTerraform(struct!.name),
@@ -1626,6 +1884,10 @@ export class ProjectSpecRoleOutputReference extends cdktf.ComplexObject {
       hasAnyValues = true;
       internalValueResult.groups = this._groups;
     }
+    if (this._jwtTokens?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.jwtTokens = this._jwtTokens?.internalValue;
+    }
     if (this._name !== undefined) {
       hasAnyValues = true;
       internalValueResult.name = this._name;
@@ -1643,6 +1905,7 @@ export class ProjectSpecRoleOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._description = undefined;
       this._groups = undefined;
+      this._jwtTokens.internalValue = undefined;
       this._name = undefined;
       this._policies = undefined;
     }
@@ -1655,6 +1918,7 @@ export class ProjectSpecRoleOutputReference extends cdktf.ComplexObject {
       this.resolvableValue = undefined;
       this._description = value.description;
       this._groups = value.groups;
+      this._jwtTokens.internalValue = value.jwtTokens;
       this._name = value.name;
       this._policies = value.policies;
     }
@@ -1690,6 +1954,22 @@ export class ProjectSpecRoleOutputReference extends cdktf.ComplexObject {
   // Temporarily expose input value. Use with caution.
   public get groupsInput() {
     return this._groups;
+  }
+
+  // jwt_tokens - computed: false, optional: true, required: false
+  private _jwtTokens = new ProjectSpecRoleJwtTokensList(this, "jwt_tokens", true);
+  public get jwtTokens() {
+    return this._jwtTokens;
+  }
+  public putJwtTokens(value: ProjectSpecRoleJwtTokens[] | cdktf.IResolvable) {
+    this._jwtTokens.internalValue = value;
+  }
+  public resetJwtTokens() {
+    this._jwtTokens.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get jwtTokensInput() {
+    return this._jwtTokens.internalValue;
   }
 
   // name - computed: false, optional: false, required: true
@@ -1742,49 +2022,49 @@ export interface ProjectSpecSyncWindow {
   /**
   * List of applications that the window will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#applications Project#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#applications Project#applications}
   */
   readonly applications?: string[];
   /**
-  * List of clusters that the window will apply to.
+  *  List of clusters that the window will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#clusters Project#clusters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#clusters Project#clusters}
   */
   readonly clusters?: string[];
   /**
   * Amount of time the sync window will be open.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#duration Project#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#duration Project#duration}
   */
   readonly duration?: string;
   /**
   * Defines if the window allows or blocks syncs, allowed values are `allow` or `deny`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#kind Project#kind}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#kind Project#kind}
   */
   readonly kind?: string;
   /**
   * Enables manual syncs when they would otherwise be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#manual_sync Project#manual_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#manual_sync Project#manual_sync}
   */
   readonly manualSync?: boolean | cdktf.IResolvable;
   /**
   * List of namespaces that the window will apply to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespaces Project#namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#namespaces Project#namespaces}
   */
   readonly namespaces?: string[];
   /**
   * Time the window will begin, specified in cron format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#schedule Project#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#schedule Project#schedule}
   */
   readonly schedule?: string;
   /**
   * Timezone that the schedule will be evaluated in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#timezone Project#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#timezone Project#timezone}
   */
   readonly timezone?: string;
 }
@@ -2065,7 +2345,7 @@ export class ProjectSpecSyncWindowOutputReference extends cdktf.ComplexObject {
     return this._schedule;
   }
 
-  // timezone - computed: false, optional: true, required: false
+  // timezone - computed: true, optional: true, required: false
   private _timezone?: string; 
   public get timezone() {
     return this.getStringAttribute('timezone');
@@ -2105,84 +2385,84 @@ export interface ProjectSpec {
   /**
   * Project description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#description Project#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#description Project#description}
   */
   readonly description?: string;
   /**
-  * List of PGP key IDs that commits in Git must be signed with in order to be allowed for sync.
+  * Signature keys for verifying the integrity of applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#signature_keys Project#signature_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#signature_keys Project#signature_keys}
   */
   readonly signatureKeys?: string[];
   /**
-  * List of namespaces that application resources are allowed to be created in.
+  * List of source namespaces for applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#source_namespaces Project#source_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#source_namespaces Project#source_namespaces}
   */
   readonly sourceNamespaces?: string[];
   /**
-  * List of repository URLs which can be used for deployment. Can be set to `["*"]` to allow all configured repositories configured in ArgoCD.
+  * List of repositories from which applications may be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#source_repos Project#source_repos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#source_repos Project#source_repos}
   */
-  readonly sourceRepos: string[];
+  readonly sourceRepos?: string[];
   /**
   * cluster_resource_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#cluster_resource_blacklist Project#cluster_resource_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#cluster_resource_blacklist Project#cluster_resource_blacklist}
   */
   readonly clusterResourceBlacklist?: ProjectSpecClusterResourceBlacklistStruct[] | cdktf.IResolvable;
   /**
   * cluster_resource_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#cluster_resource_whitelist Project#cluster_resource_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#cluster_resource_whitelist Project#cluster_resource_whitelist}
   */
   readonly clusterResourceWhitelist?: ProjectSpecClusterResourceWhitelistStruct[] | cdktf.IResolvable;
   /**
   * destination block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#destination Project#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#destination Project#destination}
   */
-  readonly destination: ProjectSpecDestination[] | cdktf.IResolvable;
+  readonly destination?: ProjectSpecDestination[] | cdktf.IResolvable;
   /**
   * destination_service_account block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#destination_service_account Project#destination_service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#destination_service_account Project#destination_service_account}
   */
   readonly destinationServiceAccount?: ProjectSpecDestinationServiceAccount[] | cdktf.IResolvable;
   /**
   * namespace_resource_blacklist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace_resource_blacklist Project#namespace_resource_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#namespace_resource_blacklist Project#namespace_resource_blacklist}
   */
   readonly namespaceResourceBlacklist?: ProjectSpecNamespaceResourceBlacklistStruct[] | cdktf.IResolvable;
   /**
   * namespace_resource_whitelist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#namespace_resource_whitelist Project#namespace_resource_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#namespace_resource_whitelist Project#namespace_resource_whitelist}
   */
   readonly namespaceResourceWhitelist?: ProjectSpecNamespaceResourceWhitelistStruct[] | cdktf.IResolvable;
   /**
   * orphaned_resources block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#orphaned_resources Project#orphaned_resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#orphaned_resources Project#orphaned_resources}
   */
-  readonly orphanedResources?: ProjectSpecOrphanedResources;
+  readonly orphanedResources?: ProjectSpecOrphanedResources[] | cdktf.IResolvable;
   /**
   * role block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#role Project#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#role Project#role}
   */
   readonly role?: ProjectSpecRole[] | cdktf.IResolvable;
   /**
   * sync_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#sync_window Project#sync_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#sync_window Project#sync_window}
   */
   readonly syncWindow?: ProjectSpecSyncWindow[] | cdktf.IResolvable;
 }
 
-export function projectSpecToTerraform(struct?: ProjectSpecOutputReference | ProjectSpec): any {
+export function projectSpecToTerraform(struct?: ProjectSpec | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2198,14 +2478,14 @@ export function projectSpecToTerraform(struct?: ProjectSpecOutputReference | Pro
     destination_service_account: cdktf.listMapper(projectSpecDestinationServiceAccountToTerraform, true)(struct!.destinationServiceAccount),
     namespace_resource_blacklist: cdktf.listMapper(projectSpecNamespaceResourceBlacklistStructToTerraform, true)(struct!.namespaceResourceBlacklist),
     namespace_resource_whitelist: cdktf.listMapper(projectSpecNamespaceResourceWhitelistStructToTerraform, true)(struct!.namespaceResourceWhitelist),
-    orphaned_resources: projectSpecOrphanedResourcesToTerraform(struct!.orphanedResources),
+    orphaned_resources: cdktf.listMapper(projectSpecOrphanedResourcesToTerraform, true)(struct!.orphanedResources),
     role: cdktf.listMapper(projectSpecRoleToTerraform, true)(struct!.role),
     sync_window: cdktf.listMapper(projectSpecSyncWindowToTerraform, true)(struct!.syncWindow),
   }
 }
 
 
-export function projectSpecToHclTerraform(struct?: ProjectSpecOutputReference | ProjectSpec): any {
+export function projectSpecToHclTerraform(struct?: ProjectSpec | cdktf.IResolvable): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -2220,7 +2500,7 @@ export function projectSpecToHclTerraform(struct?: ProjectSpecOutputReference | 
     signature_keys: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.signatureKeys),
       isBlock: false,
-      type: "list",
+      type: "set",
       storageClassType: "stringList",
     },
     source_namespaces: {
@@ -2272,21 +2552,21 @@ export function projectSpecToHclTerraform(struct?: ProjectSpecOutputReference | 
       storageClassType: "ProjectSpecNamespaceResourceWhitelistStructList",
     },
     orphaned_resources: {
-      value: projectSpecOrphanedResourcesToHclTerraform(struct!.orphanedResources),
+      value: cdktf.listMapperHcl(projectSpecOrphanedResourcesToHclTerraform, true)(struct!.orphanedResources),
       isBlock: true,
-      type: "list",
+      type: "set",
       storageClassType: "ProjectSpecOrphanedResourcesList",
     },
     role: {
       value: cdktf.listMapperHcl(projectSpecRoleToHclTerraform, true)(struct!.role),
       isBlock: true,
-      type: "list",
+      type: "set",
       storageClassType: "ProjectSpecRoleList",
     },
     sync_window: {
       value: cdktf.listMapperHcl(projectSpecSyncWindowToHclTerraform, true)(struct!.syncWindow),
       isBlock: true,
-      type: "list",
+      type: "set",
       storageClassType: "ProjectSpecSyncWindowList",
     },
   };
@@ -2297,16 +2577,22 @@ export function projectSpecToHclTerraform(struct?: ProjectSpecOutputReference | 
 
 export class ProjectSpecOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
 
   /**
   * @param terraformResource The parent resource
   * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
   */
-  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
-    super(terraformResource, terraformAttribute, false, 0);
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
   }
 
-  public get internalValue(): ProjectSpec | undefined {
+  public get internalValue(): ProjectSpec | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     if (this._description !== undefined) {
@@ -2364,9 +2650,10 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: ProjectSpec | undefined) {
+  public set internalValue(value: ProjectSpec | cdktf.IResolvable | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
+      this.resolvableValue = undefined;
       this._description = undefined;
       this._signatureKeys = undefined;
       this._sourceNamespaces = undefined;
@@ -2381,8 +2668,13 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
       this._role.internalValue = undefined;
       this._syncWindow.internalValue = undefined;
     }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
       this._description = value.description;
       this._signatureKeys = value.signatureKeys;
       this._sourceNamespaces = value.sourceNamespaces;
@@ -2418,7 +2710,7 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
   // signature_keys - computed: false, optional: true, required: false
   private _signatureKeys?: string[]; 
   public get signatureKeys() {
-    return this.getListAttribute('signature_keys');
+    return cdktf.Fn.tolist(this.getListAttribute('signature_keys'));
   }
   public set signatureKeys(value: string[]) {
     this._signatureKeys = value;
@@ -2447,13 +2739,16 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
     return this._sourceNamespaces;
   }
 
-  // source_repos - computed: false, optional: false, required: true
+  // source_repos - computed: false, optional: true, required: false
   private _sourceRepos?: string[]; 
   public get sourceRepos() {
     return this.getListAttribute('source_repos');
   }
   public set sourceRepos(value: string[]) {
     this._sourceRepos = value;
+  }
+  public resetSourceRepos() {
+    this._sourceRepos = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get sourceReposInput() {
@@ -2492,13 +2787,16 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
     return this._clusterResourceWhitelist.internalValue;
   }
 
-  // destination - computed: false, optional: false, required: true
+  // destination - computed: false, optional: true, required: false
   private _destination = new ProjectSpecDestinationList(this, "destination", true);
   public get destination() {
     return this._destination;
   }
   public putDestination(value: ProjectSpecDestination[] | cdktf.IResolvable) {
     this._destination.internalValue = value;
+  }
+  public resetDestination() {
+    this._destination.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get destinationInput() {
@@ -2554,11 +2852,11 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
   }
 
   // orphaned_resources - computed: false, optional: true, required: false
-  private _orphanedResources = new ProjectSpecOrphanedResourcesOutputReference(this, "orphaned_resources");
+  private _orphanedResources = new ProjectSpecOrphanedResourcesList(this, "orphaned_resources", true);
   public get orphanedResources() {
     return this._orphanedResources;
   }
-  public putOrphanedResources(value: ProjectSpecOrphanedResources) {
+  public putOrphanedResources(value: ProjectSpecOrphanedResources[] | cdktf.IResolvable) {
     this._orphanedResources.internalValue = value;
   }
   public resetOrphanedResources() {
@@ -2570,7 +2868,7 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
   }
 
   // role - computed: false, optional: true, required: false
-  private _role = new ProjectSpecRoleList(this, "role", false);
+  private _role = new ProjectSpecRoleList(this, "role", true);
   public get role() {
     return this._role;
   }
@@ -2586,7 +2884,7 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
   }
 
   // sync_window - computed: false, optional: true, required: false
-  private _syncWindow = new ProjectSpecSyncWindowList(this, "sync_window", false);
+  private _syncWindow = new ProjectSpecSyncWindowList(this, "sync_window", true);
   public get syncWindow() {
     return this._syncWindow;
   }
@@ -2602,8 +2900,28 @@ export class ProjectSpecOutputReference extends cdktf.ComplexObject {
   }
 }
 
+export class ProjectSpecList extends cdktf.ComplexList {
+  public internalValue? : ProjectSpec[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): ProjectSpecOutputReference {
+    return new ProjectSpecOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project argocd_project}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project argocd_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -2619,7 +2937,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2631,19 +2949,19 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/project argocd_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/project argocd_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options ProjectConfig
+  * @param options ProjectConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: ProjectConfig) {
+  public constructor(scope: Construct, id: string, config: ProjectConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'argocd_project',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.1',
-        providerVersionConstraint: '7.12.1'
+        providerVersion: '7.12.3',
+        providerVersionConstraint: '7.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2653,7 +2971,6 @@ export class Project extends cdktf.TerraformResource {
       connection: config.connection,
       forEach: config.forEach
     });
-    this._id = config.id;
     this._metadata.internalValue = config.metadata;
     this._spec.internalValue = config.spec;
   }
@@ -2662,42 +2979,37 @@ export class Project extends cdktf.TerraformResource {
   // ATTRIBUTES
   // ==========
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
   }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
-  }
 
-  // metadata - computed: false, optional: false, required: true
-  private _metadata = new ProjectMetadataOutputReference(this, "metadata");
+  // metadata - computed: false, optional: true, required: false
+  private _metadata = new ProjectMetadataList(this, "metadata", false);
   public get metadata() {
     return this._metadata;
   }
-  public putMetadata(value: ProjectMetadata) {
+  public putMetadata(value: ProjectMetadata[] | cdktf.IResolvable) {
     this._metadata.internalValue = value;
+  }
+  public resetMetadata() {
+    this._metadata.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get metadataInput() {
     return this._metadata.internalValue;
   }
 
-  // spec - computed: false, optional: false, required: true
-  private _spec = new ProjectSpecOutputReference(this, "spec");
+  // spec - computed: false, optional: true, required: false
+  private _spec = new ProjectSpecList(this, "spec", false);
   public get spec() {
     return this._spec;
   }
-  public putSpec(value: ProjectSpec) {
+  public putSpec(value: ProjectSpec[] | cdktf.IResolvable) {
     this._spec.internalValue = value;
+  }
+  public resetSpec() {
+    this._spec.internalValue = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get specInput() {
@@ -2710,28 +3022,21 @@ export class Project extends cdktf.TerraformResource {
 
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
-      id: cdktf.stringToTerraform(this._id),
-      metadata: projectMetadataToTerraform(this._metadata.internalValue),
-      spec: projectSpecToTerraform(this._spec.internalValue),
+      metadata: cdktf.listMapper(projectMetadataToTerraform, true)(this._metadata.internalValue),
+      spec: cdktf.listMapper(projectSpecToTerraform, true)(this._spec.internalValue),
     };
   }
 
   protected synthesizeHclAttributes(): { [name: string]: any } {
     const attrs = {
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
       metadata: {
-        value: projectMetadataToHclTerraform(this._metadata.internalValue),
+        value: cdktf.listMapperHcl(projectMetadataToHclTerraform, true)(this._metadata.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "ProjectMetadataList",
       },
       spec: {
-        value: projectSpecToHclTerraform(this._spec.internalValue),
+        value: cdktf.listMapperHcl(projectSpecToHclTerraform, true)(this._spec.internalValue),
         isBlock: true,
         type: "list",
         storageClassType: "ProjectSpecList",

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface PrivateCloudGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * City and country of the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#city_country PrivateCloudGroup#city_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#city_country PrivateCloudGroup#city_country}
   */
   readonly cityCountry?: string;
   /**
   * Country code of the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#country_code PrivateCloudGroup#country_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#country_code PrivateCloudGroup#country_code}
   */
   readonly countryCode?: string;
   /**
   * Description of the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#description PrivateCloudGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#description PrivateCloudGroup#description}
   */
   readonly description?: string;
   /**
   * Whether this Private Cloud Group is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#enabled PrivateCloudGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#enabled PrivateCloudGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Whether the Private Cloud Group is public
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#is_public PrivateCloudGroup#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#is_public PrivateCloudGroup#is_public}
   */
   readonly isPublic?: string;
   /**
   * Latitude of the Private Cloud Group. Integer or decimal. With values in the range of -90 to 90
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#latitude PrivateCloudGroup#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#latitude PrivateCloudGroup#latitude}
   */
   readonly latitude?: string;
   /**
   * Location of the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#location PrivateCloudGroup#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#location PrivateCloudGroup#location}
   */
   readonly location?: string;
   /**
   * Longitude of the Private Cloud Group. Integer or decimal. With values in the range of -180 to 180
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#longitude PrivateCloudGroup#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#longitude PrivateCloudGroup#longitude}
   */
   readonly longitude?: string;
   /**
   * Microtenant ID for the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#microtenant_id PrivateCloudGroup#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#microtenant_id PrivateCloudGroup#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#name PrivateCloudGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#name PrivateCloudGroup#name}
   */
   readonly name: string;
   /**
   * Whether the default version profile of the Private Cloud Group is applied or overridden
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#override_version_profile PrivateCloudGroup#override_version_profile}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#override_version_profile PrivateCloudGroup#override_version_profile}
   */
   readonly overrideVersionProfile?: boolean | cdktf.IResolvable;
   /**
   * Site ID for the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#site_id PrivateCloudGroup#site_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#site_id PrivateCloudGroup#site_id}
   */
   readonly siteId?: string;
   /**
   * Private Cloud Controllers in this group will attempt to update to a newer version of the software during this specified day
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#upgrade_day PrivateCloudGroup#upgrade_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#upgrade_day PrivateCloudGroup#upgrade_day}
   */
   readonly upgradeDay?: string;
   /**
   * Private Cloud Controllers in this group will attempt to update to a newer version of the software during this specified time. Integer in seconds (i.e., -66600). The integer should be greater than or equal to 0 and less than 86400, in 15 minute intervals
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#upgrade_time_in_secs PrivateCloudGroup#upgrade_time_in_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#upgrade_time_in_secs PrivateCloudGroup#upgrade_time_in_secs}
   */
   readonly upgradeTimeInSecs?: string;
   /**
   * ID of the version profile for the Private Cloud Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#version_profile_id PrivateCloudGroup#version_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#version_profile_id PrivateCloudGroup#version_profile_id}
   */
   readonly versionProfileId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group zpa_private_cloud_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group zpa_private_cloud_group}
 */
 export class PrivateCloudGroup extends cdktf.TerraformResource {
 
@@ -116,7 +116,7 @@ export class PrivateCloudGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PrivateCloudGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PrivateCloudGroup to import
-  * @param importFromId The id of the existing PrivateCloudGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PrivateCloudGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PrivateCloudGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -128,7 +128,7 @@ export class PrivateCloudGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/private_cloud_group zpa_private_cloud_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/private_cloud_group zpa_private_cloud_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -139,8 +139,8 @@ export class PrivateCloudGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_private_cloud_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface VmStartConfig extends cdktf.TerraformMetaArguments {
   /**
   * Force stop/shutdown even if a backup is in progress.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start#force_stop VmStart#force_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start#force_stop VmStart#force_stop}
   */
   readonly forceStop?: boolean | cdktf.IResolvable;
   /**
   * Desired status of the VM. The only valid value is "up".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start#status VmStart#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start#status VmStart#status}
   */
   readonly status?: string;
   /**
   * Use "stop" to power-off the machine, or "shutdown" (default) to send an ACPI shutdown.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start#stop_behavior VmStart#stop_behavior}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start#stop_behavior VmStart#stop_behavior}
   */
   readonly stopBehavior?: string;
   /**
   * oVirt ID of the VM to be started.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start#vm_id VmStart#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start#vm_id VmStart#vm_id}
   */
   readonly vmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start ovirt_vm_start}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start ovirt_vm_start}
 */
 export class VmStart extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class VmStart extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmStart resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmStart to import
-  * @param importFromId The id of the existing VmStart that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmStart that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmStart to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class VmStart extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_start ovirt_vm_start} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_start ovirt_vm_start} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class VmStart extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_vm_start',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

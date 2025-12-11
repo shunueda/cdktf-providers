@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface ProducerArtifactoryConfig extends cdktf.TerraformMetaArguments 
   /**
   * Admin name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#artifactory_admin_name ProducerArtifactory#artifactory_admin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#artifactory_admin_name ProducerArtifactory#artifactory_admin_name}
   */
   readonly artifactoryAdminName?: string;
   /**
   * Admin API Key/Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#artifactory_admin_pwd ProducerArtifactory#artifactory_admin_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#artifactory_admin_pwd ProducerArtifactory#artifactory_admin_pwd}
   */
   readonly artifactoryAdminPwd?: string;
   /**
   * A space-separate list of the other Artifactory instances or services that should accept this token., for example: jfrt@*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#artifactory_token_audience ProducerArtifactory#artifactory_token_audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#artifactory_token_audience ProducerArtifactory#artifactory_token_audience}
   */
   readonly artifactoryTokenAudience: string;
   /**
   * Token scope provided as a space-separated list, for example: member-of-groups:readers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#artifactory_token_scope ProducerArtifactory#artifactory_token_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#artifactory_token_scope ProducerArtifactory#artifactory_token_scope}
   */
   readonly artifactoryTokenScope: string;
   /**
   * Artifactory REST URL, must end with artifactory postfix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#base_url ProducerArtifactory#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#base_url ProducerArtifactory#base_url}
   */
   readonly baseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#id ProducerArtifactory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#id ProducerArtifactory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,37 +47,37 @@ export interface ProducerArtifactoryConfig extends cdktf.TerraformMetaArguments 
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#name ProducerArtifactory#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#name ProducerArtifactory#name}
   */
   readonly name: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#producer_encryption_key_name ProducerArtifactory#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#producer_encryption_key_name ProducerArtifactory#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#tags ProducerArtifactory#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#tags ProducerArtifactory#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#target_name ProducerArtifactory#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#target_name ProducerArtifactory#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#user_ttl ProducerArtifactory#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#user_ttl ProducerArtifactory#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory akeyless_producer_artifactory}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory akeyless_producer_artifactory}
 */
 export class ProducerArtifactory extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class ProducerArtifactory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerArtifactory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerArtifactory to import
-  * @param importFromId The id of the existing ProducerArtifactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerArtifactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerArtifactory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class ProducerArtifactory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_artifactory akeyless_producer_artifactory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_artifactory akeyless_producer_artifactory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class ProducerArtifactory extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_artifactory',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

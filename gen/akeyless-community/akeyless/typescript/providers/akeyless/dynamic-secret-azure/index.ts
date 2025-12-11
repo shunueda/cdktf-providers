@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface DynamicSecretAzureConfig extends cdktf.TerraformMetaArguments {
   /**
   * Azure App Object ID (required if selected programmatic access)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#app_obj_id DynamicSecretAzure#app_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#app_obj_id DynamicSecretAzure#app_obj_id}
   */
   readonly appObjId?: string;
   /**
   * Azure Client ID (Application ID)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#azure_client_id DynamicSecretAzure#azure_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#azure_client_id DynamicSecretAzure#azure_client_id}
   */
   readonly azureClientId?: string;
   /**
   * Azure AD Client Secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#azure_client_secret DynamicSecretAzure#azure_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#azure_client_secret DynamicSecretAzure#azure_client_secret}
   */
   readonly azureClientSecret?: string;
   /**
   * Azure Tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#azure_tenant_id DynamicSecretAzure#azure_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#azure_tenant_id DynamicSecretAzure#azure_tenant_id}
   */
   readonly azureTenantId?: string;
   /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#custom_username_template DynamicSecretAzure#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#custom_username_template DynamicSecretAzure#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#encryption_key_name DynamicSecretAzure#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#encryption_key_name DynamicSecretAzure#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#id DynamicSecretAzure#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#id DynamicSecretAzure#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,89 +53,89 @@ export interface DynamicSecretAzureConfig extends cdktf.TerraformMetaArguments {
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#name DynamicSecretAzure#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#name DynamicSecretAzure#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#password_length DynamicSecretAzure#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#password_length DynamicSecretAzure#password_length}
   */
   readonly passwordLength?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#secure_access_enable DynamicSecretAzure#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#secure_access_enable DynamicSecretAzure#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#secure_access_url DynamicSecretAzure#secure_access_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#secure_access_url DynamicSecretAzure#secure_access_url}
   */
   readonly secureAccessUrl?: string;
   /**
   * Enable Web Secure Remote Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#secure_access_web DynamicSecretAzure#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#secure_access_web DynamicSecretAzure#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * Secure browser via Akeyless Web Access Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#secure_access_web_browsing DynamicSecretAzure#secure_access_web_browsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#secure_access_web_browsing DynamicSecretAzure#secure_access_web_browsing}
   */
   readonly secureAccessWebBrowsing?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: --tag Tag1 --tag Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#tags DynamicSecretAzure#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#tags DynamicSecretAzure#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#target_name DynamicSecretAzure#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#target_name DynamicSecretAzure#target_name}
   */
   readonly targetName?: string;
   /**
   * Azure AD User Group Object ID (required if selected Portal access)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#user_group_obj_id DynamicSecretAzure#user_group_obj_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#user_group_obj_id DynamicSecretAzure#user_group_obj_id}
   */
   readonly userGroupObjId?: string;
   /**
   * Enable Azure AD user portal access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#user_portal_access DynamicSecretAzure#user_portal_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#user_portal_access DynamicSecretAzure#user_portal_access}
   */
   readonly userPortalAccess?: boolean | cdktf.IResolvable;
   /**
   * Azure AD User Principal Name (required if selected Portal access)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#user_principal_name DynamicSecretAzure#user_principal_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#user_principal_name DynamicSecretAzure#user_principal_name}
   */
   readonly userPrincipalName?: string;
   /**
   * Enable Azure AD user programmatic access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#user_programmatic_access DynamicSecretAzure#user_programmatic_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#user_programmatic_access DynamicSecretAzure#user_programmatic_access}
   */
   readonly userProgrammaticAccess?: boolean | cdktf.IResolvable;
   /**
   * Azure AD User Role Template ID (required if selected Portal access)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#user_role_template_id DynamicSecretAzure#user_role_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#user_role_template_id DynamicSecretAzure#user_role_template_id}
   */
   readonly userRoleTemplateId?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#user_ttl DynamicSecretAzure#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#user_ttl DynamicSecretAzure#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure akeyless_dynamic_secret_azure}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure akeyless_dynamic_secret_azure}
 */
 export class DynamicSecretAzure extends cdktf.TerraformResource {
 
@@ -151,7 +151,7 @@ export class DynamicSecretAzure extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretAzure resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretAzure to import
-  * @param importFromId The id of the existing DynamicSecretAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretAzure that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretAzure to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -163,7 +163,7 @@ export class DynamicSecretAzure extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_azure akeyless_dynamic_secret_azure} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_azure akeyless_dynamic_secret_azure} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -174,8 +174,8 @@ export class DynamicSecretAzure extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_azure',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

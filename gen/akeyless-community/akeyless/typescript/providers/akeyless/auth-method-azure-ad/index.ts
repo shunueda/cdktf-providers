@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,95 +10,95 @@ export interface AuthMethodAzureAdAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access expiration date in Unix timestamp (select 0 for access without expiry date)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#access_expires AuthMethodAzureAdA#access_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#access_expires AuthMethodAzureAdA#access_expires}
   */
   readonly accessExpires?: number;
   /**
   * The audience in the JWT
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#audience AuthMethodAzureAdA#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#audience AuthMethodAzureAdA#audience}
   */
   readonly audience?: string;
   /**
   * Subclaims to include in audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#audit_logs_claims AuthMethodAzureAdA#audit_logs_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#audit_logs_claims AuthMethodAzureAdA#audit_logs_claims}
   */
   readonly auditLogsClaims?: string[];
   /**
   * A list of group ids that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_group_id AuthMethodAzureAdA#bound_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_group_id AuthMethodAzureAdA#bound_group_id}
   */
   readonly boundGroupId?: string[];
   /**
   * A CIDR whitelist with the IPs that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_ips AuthMethodAzureAdA#bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_ips AuthMethodAzureAdA#bound_ips}
   */
   readonly boundIps?: string[];
   /**
   * A list of resource providers that the access is restricted to (e.g, Microsoft.Compute, Microsoft.ManagedIdentity, etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_providers AuthMethodAzureAdA#bound_providers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_providers AuthMethodAzureAdA#bound_providers}
   */
   readonly boundProviders?: string[];
   /**
   * A list of full resource ids that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_resource_id AuthMethodAzureAdA#bound_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_resource_id AuthMethodAzureAdA#bound_resource_id}
   */
   readonly boundResourceId?: string[];
   /**
   * A list of resource names that the access is restricted to (e.g, a virtual machine name, scale set name, etc).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_resource_names AuthMethodAzureAdA#bound_resource_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_resource_names AuthMethodAzureAdA#bound_resource_names}
   */
   readonly boundResourceNames?: string[];
   /**
   * A list of resource types that the access is restricted to (e.g, virtualMachines, userAssignedIdentities, etc)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_resource_types AuthMethodAzureAdA#bound_resource_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_resource_types AuthMethodAzureAdA#bound_resource_types}
   */
   readonly boundResourceTypes?: string[];
   /**
   * A list of resource groups that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_rg_id AuthMethodAzureAdA#bound_rg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_rg_id AuthMethodAzureAdA#bound_rg_id}
   */
   readonly boundRgId?: string[];
   /**
   * A list of service principal IDs that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_spid AuthMethodAzureAdA#bound_spid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_spid AuthMethodAzureAdA#bound_spid}
   */
   readonly boundSpid?: string[];
   /**
   * A list of subscription ids that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_sub_id AuthMethodAzureAdA#bound_sub_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_sub_id AuthMethodAzureAdA#bound_sub_id}
   */
   readonly boundSubId?: string[];
   /**
   * The Azure tenant id that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#bound_tenant_id AuthMethodAzureAdA#bound_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#bound_tenant_id AuthMethodAzureAdA#bound_tenant_id}
   */
   readonly boundTenantId: string;
   /**
   * Protection from accidental deletion of this auth method, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#delete_protection AuthMethodAzureAdA#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#delete_protection AuthMethodAzureAdA#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * enforce role-association must include sub claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#force_sub_claims AuthMethodAzureAdA#force_sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#force_sub_claims AuthMethodAzureAdA#force_sub_claims}
   */
   readonly forceSubClaims?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#id AuthMethodAzureAdA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#id AuthMethodAzureAdA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -107,31 +107,31 @@ export interface AuthMethodAzureAdAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issuer URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#issuer AuthMethodAzureAdA#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#issuer AuthMethodAzureAdA#issuer}
   */
   readonly issuer?: string;
   /**
   * The URL to the JSON Web Key Set (JWKS) that containing the public keys that should be used to verify any JSON Web Token (JWT) issued by the authorization server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#jwks_uri AuthMethodAzureAdA#jwks_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#jwks_uri AuthMethodAzureAdA#jwks_uri}
   */
   readonly jwksUri?: string;
   /**
   * Creds expiration time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#jwt_ttl AuthMethodAzureAdA#jwt_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#jwt_ttl AuthMethodAzureAdA#jwt_ttl}
   */
   readonly jwtTtl?: number;
   /**
   * Auth Method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#name AuthMethodAzureAdA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#name AuthMethodAzureAdA#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad akeyless_auth_method_azure_ad}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad akeyless_auth_method_azure_ad}
 */
 export class AuthMethodAzureAdA extends cdktf.TerraformResource {
 
@@ -147,7 +147,7 @@ export class AuthMethodAzureAdA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthMethodAzureAdA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthMethodAzureAdA to import
-  * @param importFromId The id of the existing AuthMethodAzureAdA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthMethodAzureAdA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthMethodAzureAdA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -159,7 +159,7 @@ export class AuthMethodAzureAdA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_azure_ad akeyless_auth_method_azure_ad} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_azure_ad akeyless_auth_method_azure_ad} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -170,8 +170,8 @@ export class AuthMethodAzureAdA extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_azure_ad',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

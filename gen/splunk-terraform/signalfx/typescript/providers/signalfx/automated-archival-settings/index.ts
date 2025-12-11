@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AutomatedArchivalSettingsConfig extends cdktf.TerraformMetaArgu
   /**
   * Whether the automated archival is enabled for this organization or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings#enabled AutomatedArchivalSettings#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings#enabled AutomatedArchivalSettings#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Grace period is an org level setting that applies to the newly created metrics. This allows customers to protect newly added metrics that users haven’t had the time to use in charts and detectors from being automatically archived The value here uses ISO 8061 duration format. Examples - 'P0D', 'P15D', 'P30D', 'P45D', 'P60D'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings#grace_period AutomatedArchivalSettings#grace_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings#grace_period AutomatedArchivalSettings#grace_period}
   */
   readonly gracePeriod: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings#id AutomatedArchivalSettings#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings#id AutomatedArchivalSettings#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AutomatedArchivalSettingsConfig extends cdktf.TerraformMetaArgu
   /**
   * This tracks if a metric was unused in the past N number of days (N one of 30, 45, or 60). We’ll archive a metric if it wasn’t used in the lookback period. The value here uses ISO 8061 duration format. Examples - 'P30D', 'P45D', 'P60D'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings#lookback_period AutomatedArchivalSettings#lookback_period}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings#lookback_period AutomatedArchivalSettings#lookback_period}
   */
   readonly lookbackPeriod: string;
   /**
   * Org limit for the number of rulesets that can be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings#ruleset_limit AutomatedArchivalSettings#ruleset_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings#ruleset_limit AutomatedArchivalSettings#ruleset_limit}
   */
   readonly rulesetLimit?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings signalfx_automated_archival_settings}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings signalfx_automated_archival_settings}
 */
 export class AutomatedArchivalSettings extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AutomatedArchivalSettings extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AutomatedArchivalSettings resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AutomatedArchivalSettings to import
-  * @param importFromId The id of the existing AutomatedArchivalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AutomatedArchivalSettings that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AutomatedArchivalSettings to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AutomatedArchivalSettings extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/automated_archival_settings signalfx_automated_archival_settings} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/automated_archival_settings signalfx_automated_archival_settings} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AutomatedArchivalSettings extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_automated_archival_settings',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

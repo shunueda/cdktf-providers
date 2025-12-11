@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface AuthMethodSamlAConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access expiration date in Unix timestamp (select 0 for access without expiry date)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#access_expires AuthMethodSamlA#access_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#access_expires AuthMethodSamlA#access_expires}
   */
   readonly accessExpires?: number;
   /**
   * Allowed redirect URIs after the authentication (default is https://console.akeyless.io/login-saml to enable SAML via Akeyless Console and  http://127.0.0.1:* to enable SAML via akeyless CLI)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#allowed_redirect_uri AuthMethodSamlA#allowed_redirect_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#allowed_redirect_uri AuthMethodSamlA#allowed_redirect_uri}
   */
   readonly allowedRedirectUri?: string[];
   /**
   * Subclaims to include in audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#audit_logs_claims AuthMethodSamlA#audit_logs_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#audit_logs_claims AuthMethodSamlA#audit_logs_claims}
   */
   readonly auditLogsClaims?: string[];
   /**
   * A CIDR whitelist with the IPs that the access is restricted to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#bound_ips AuthMethodSamlA#bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#bound_ips AuthMethodSamlA#bound_ips}
   */
   readonly boundIps?: string[];
   /**
   * Protection from accidental deletion of this auth method, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#delete_protection AuthMethodSamlA#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#delete_protection AuthMethodSamlA#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * enforce role-association must include sub claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#force_sub_claims AuthMethodSamlA#force_sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#force_sub_claims AuthMethodSamlA#force_sub_claims}
   */
   readonly forceSubClaims?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#id AuthMethodSamlA#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#id AuthMethodSamlA#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,37 +53,37 @@ export interface AuthMethodSamlAConfig extends cdktf.TerraformMetaArguments {
   /**
   * IDP metadata url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#idp_metadata_url AuthMethodSamlA#idp_metadata_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#idp_metadata_url AuthMethodSamlA#idp_metadata_url}
   */
   readonly idpMetadataUrl?: string;
   /**
   * IDP metadata xml data for saml authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#idp_metadata_xml_data AuthMethodSamlA#idp_metadata_xml_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#idp_metadata_xml_data AuthMethodSamlA#idp_metadata_xml_data}
   */
   readonly idpMetadataXmlData?: string;
   /**
   * Creds expiration time in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#jwt_ttl AuthMethodSamlA#jwt_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#jwt_ttl AuthMethodSamlA#jwt_ttl}
   */
   readonly jwtTtl?: number;
   /**
   * Auth Method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#name AuthMethodSamlA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#name AuthMethodSamlA#name}
   */
   readonly name: string;
   /**
   * A unique identifier (ID) value should be configured for OAuth2, LDAP and SAML authentication method types and is usually a value such as the email, username, or upn for example. Whenever a user logs in with a token, these authentication types issue a sub claim that contains details uniquely identifying that user. This sub claim includes a key containing the ID value that you configured, and is used to distinguish between different users from within the same organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#unique_identifier AuthMethodSamlA#unique_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#unique_identifier AuthMethodSamlA#unique_identifier}
   */
   readonly uniqueIdentifier: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml akeyless_auth_method_saml}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml akeyless_auth_method_saml}
 */
 export class AuthMethodSamlA extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class AuthMethodSamlA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthMethodSamlA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthMethodSamlA to import
-  * @param importFromId The id of the existing AuthMethodSamlA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthMethodSamlA that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthMethodSamlA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class AuthMethodSamlA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_saml akeyless_auth_method_saml} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_saml akeyless_auth_method_saml} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class AuthMethodSamlA extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_saml',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

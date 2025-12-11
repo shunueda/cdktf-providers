@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,86 +8,86 @@ import * as cdktf from 'cdktf';
 
 export interface ProvisioningKeyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#app_connector_group_id ProvisioningKey#app_connector_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#app_connector_group_id ProvisioningKey#app_connector_group_id}
   */
   readonly appConnectorGroupId?: string;
   /**
   * Specifies the provisioning key type for App Connectors or ZPA Private Service Edges. The supported values are CONNECTOR_GRP and SERVICE_EDGE_GRP.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#association_type ProvisioningKey#association_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#association_type ProvisioningKey#association_type}
   */
   readonly associationType: string;
   /**
   * Whether the provisioning key is enabled or not. Supported values: true, false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#enabled ProvisioningKey#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#enabled ProvisioningKey#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ID of the enrollment certificate that can be used for this provisioning key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#enrollment_cert_id ProvisioningKey#enrollment_cert_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#enrollment_cert_id ProvisioningKey#enrollment_cert_id}
   */
   readonly enrollmentCertId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#id ProvisioningKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#id ProvisioningKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#ip_acl ProvisioningKey#ip_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#ip_acl ProvisioningKey#ip_acl}
   */
   readonly ipAcl?: string[];
   /**
   * The maximum number of instances where this provisioning key can be used for enrolling an App Connector or Service Edge.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#max_usage ProvisioningKey#max_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#max_usage ProvisioningKey#max_usage}
   */
   readonly maxUsage: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#microtenant_id ProvisioningKey#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#microtenant_id ProvisioningKey#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the provisioning key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#name ProvisioningKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#name ProvisioningKey#name}
   */
   readonly name: string;
   /**
   * read only field. Ignored in PUT/POST calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#provisioning_key ProvisioningKey#provisioning_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#provisioning_key ProvisioningKey#provisioning_key}
   */
   readonly provisioningKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#ui_config ProvisioningKey#ui_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#ui_config ProvisioningKey#ui_config}
   */
   readonly uiConfig?: string;
   /**
   * The provisioning key utilization count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#usage_count ProvisioningKey#usage_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#usage_count ProvisioningKey#usage_count}
   */
   readonly usageCount?: string;
   /**
   * ID of the existing App Connector or Service Edge Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#zcomponent_id ProvisioningKey#zcomponent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#zcomponent_id ProvisioningKey#zcomponent_id}
   */
   readonly zcomponentId: string;
   /**
   * Read only property. Applicable only for GET calls, ignored in PUT/POST calls.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#zcomponent_name ProvisioningKey#zcomponent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#zcomponent_name ProvisioningKey#zcomponent_name}
   */
   readonly zcomponentName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key zpa_provisioning_key}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key zpa_provisioning_key}
 */
 export class ProvisioningKey extends cdktf.TerraformResource {
 
@@ -103,7 +103,7 @@ export class ProvisioningKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProvisioningKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProvisioningKey to import
-  * @param importFromId The id of the existing ProvisioningKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProvisioningKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProvisioningKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -115,7 +115,7 @@ export class ProvisioningKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/provisioning_key zpa_provisioning_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/provisioning_key zpa_provisioning_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -126,8 +126,8 @@ export class ProvisioningKey extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_provisioning_key',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,144 +8,144 @@ import * as cdktf from 'cdktf';
 
 export interface DvmdbAdomConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#create_time DvmdbAdom#create_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#create_time DvmdbAdom#create_time}
   */
   readonly createTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#desc DvmdbAdom#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#desc DvmdbAdom#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#flags DvmdbAdom#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#flags DvmdbAdom#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#id DvmdbAdom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#id DvmdbAdom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#lock_override DvmdbAdom#lock_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#lock_override DvmdbAdom#lock_override}
   */
   readonly lockOverride?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#log_db_retention_hours DvmdbAdom#log_db_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#log_db_retention_hours DvmdbAdom#log_db_retention_hours}
   */
   readonly logDbRetentionHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#log_disk_quota DvmdbAdom#log_disk_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#log_disk_quota DvmdbAdom#log_disk_quota}
   */
   readonly logDiskQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#log_disk_quota_alert_thres DvmdbAdom#log_disk_quota_alert_thres}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#log_disk_quota_alert_thres DvmdbAdom#log_disk_quota_alert_thres}
   */
   readonly logDiskQuotaAlertThres?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#log_disk_quota_split_ratio DvmdbAdom#log_disk_quota_split_ratio}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#log_disk_quota_split_ratio DvmdbAdom#log_disk_quota_split_ratio}
   */
   readonly logDiskQuotaSplitRatio?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#log_file_retention_hours DvmdbAdom#log_file_retention_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#log_file_retention_hours DvmdbAdom#log_file_retention_hours}
   */
   readonly logFileRetentionHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#metafields DvmdbAdom#metafields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#metafields DvmdbAdom#metafields}
   */
   readonly metafields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#mig_mr DvmdbAdom#mig_mr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#mig_mr DvmdbAdom#mig_mr}
   */
   readonly migMr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#mig_os_ver DvmdbAdom#mig_os_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#mig_os_ver DvmdbAdom#mig_os_ver}
   */
   readonly migOsVer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#mode DvmdbAdom#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#mode DvmdbAdom#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#mr DvmdbAdom#mr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#mr DvmdbAdom#mr}
   */
   readonly mr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#name DvmdbAdom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#name DvmdbAdom#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#os_ver DvmdbAdom#os_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#os_ver DvmdbAdom#os_ver}
   */
   readonly osVer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#primary_dns_ip4 DvmdbAdom#primary_dns_ip4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#primary_dns_ip4 DvmdbAdom#primary_dns_ip4}
   */
   readonly primaryDnsIp4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#primary_dns_ip6_1 DvmdbAdom#primary_dns_ip6_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#primary_dns_ip6_1 DvmdbAdom#primary_dns_ip6_1}
   */
   readonly primaryDnsIp61?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#primary_dns_ip6_2 DvmdbAdom#primary_dns_ip6_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#primary_dns_ip6_2 DvmdbAdom#primary_dns_ip6_2}
   */
   readonly primaryDnsIp62?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#primary_dns_ip6_3 DvmdbAdom#primary_dns_ip6_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#primary_dns_ip6_3 DvmdbAdom#primary_dns_ip6_3}
   */
   readonly primaryDnsIp63?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#primary_dns_ip6_4 DvmdbAdom#primary_dns_ip6_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#primary_dns_ip6_4 DvmdbAdom#primary_dns_ip6_4}
   */
   readonly primaryDnsIp64?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#restricted_prds DvmdbAdom#restricted_prds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#restricted_prds DvmdbAdom#restricted_prds}
   */
   readonly restrictedPrds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#restricted_prds_unitary DvmdbAdom#restricted_prds_unitary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#restricted_prds_unitary DvmdbAdom#restricted_prds_unitary}
   */
   readonly restrictedPrdsUnitary?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#secondary_dns_ip4 DvmdbAdom#secondary_dns_ip4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#secondary_dns_ip4 DvmdbAdom#secondary_dns_ip4}
   */
   readonly secondaryDnsIp4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#secondary_dns_ip6_1 DvmdbAdom#secondary_dns_ip6_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#secondary_dns_ip6_1 DvmdbAdom#secondary_dns_ip6_1}
   */
   readonly secondaryDnsIp61?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#secondary_dns_ip6_2 DvmdbAdom#secondary_dns_ip6_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#secondary_dns_ip6_2 DvmdbAdom#secondary_dns_ip6_2}
   */
   readonly secondaryDnsIp62?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#secondary_dns_ip6_3 DvmdbAdom#secondary_dns_ip6_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#secondary_dns_ip6_3 DvmdbAdom#secondary_dns_ip6_3}
   */
   readonly secondaryDnsIp63?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#secondary_dns_ip6_4 DvmdbAdom#secondary_dns_ip6_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#secondary_dns_ip6_4 DvmdbAdom#secondary_dns_ip6_4}
   */
   readonly secondaryDnsIp64?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#state DvmdbAdom#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#state DvmdbAdom#state}
   */
   readonly state?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#tz DvmdbAdom#tz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#tz DvmdbAdom#tz}
   */
   readonly tz?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#uuid DvmdbAdom#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#uuid DvmdbAdom#uuid}
   */
   readonly uuid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#workspace_mode DvmdbAdom#workspace_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#workspace_mode DvmdbAdom#workspace_mode}
   */
   readonly workspaceMode?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom fortianalyzer_dvmdb_adom}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom fortianalyzer_dvmdb_adom}
 */
 export class DvmdbAdom extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class DvmdbAdom extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DvmdbAdom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DvmdbAdom to import
-  * @param importFromId The id of the existing DvmdbAdom that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DvmdbAdom that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DvmdbAdom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class DvmdbAdom extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvmdb_adom fortianalyzer_dvmdb_adom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvmdb_adom fortianalyzer_dvmdb_adom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class DvmdbAdom extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_dvmdb_adom',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

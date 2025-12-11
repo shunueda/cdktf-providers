@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DvmCmdAddDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#dynamic_sort_subtable DvmCmdAddDevice#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#dynamic_sort_subtable DvmCmdAddDevice#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#fazadom DvmCmdAddDevice#fazadom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#fazadom DvmCmdAddDevice#fazadom}
   */
   readonly fazadom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#flags DvmCmdAddDevice#flags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#flags DvmCmdAddDevice#flags}
   */
   readonly flags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#force_recreate DvmCmdAddDevice#force_recreate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#force_recreate DvmCmdAddDevice#force_recreate}
   */
   readonly forceRecreate?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#id DvmCmdAddDevice#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#id DvmCmdAddDevice#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -33,75 +33,75 @@ export interface DvmCmdAddDeviceConfig extends cdktf.TerraformMetaArguments {
   /**
   * device block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#device DvmCmdAddDevice#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#device DvmCmdAddDevice#device}
   */
   readonly device?: DvmCmdAddDeviceDevice;
   /**
   * groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#groups DvmCmdAddDevice#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#groups DvmCmdAddDevice#groups}
   */
   readonly groups?: DvmCmdAddDeviceGroups[] | cdktf.IResolvable;
 }
 export interface DvmCmdAddDeviceDevice {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#adm_pass DvmCmdAddDevice#adm_pass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#adm_pass DvmCmdAddDevice#adm_pass}
   */
   readonly admPass?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#adm_usr DvmCmdAddDevice#adm_usr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#adm_usr DvmCmdAddDevice#adm_usr}
   */
   readonly admUsr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#desc DvmCmdAddDevice#desc}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#desc DvmCmdAddDevice#desc}
   */
   readonly desc?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#deviceaction DvmCmdAddDevice#deviceaction}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#deviceaction DvmCmdAddDevice#deviceaction}
   */
   readonly deviceaction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#fazquota DvmCmdAddDevice#fazquota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#fazquota DvmCmdAddDevice#fazquota}
   */
   readonly fazquota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#ip DvmCmdAddDevice#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#ip DvmCmdAddDevice#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#metafields DvmCmdAddDevice#metafields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#metafields DvmCmdAddDevice#metafields}
   */
   readonly metafields?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#mgmt_mode DvmCmdAddDevice#mgmt_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#mgmt_mode DvmCmdAddDevice#mgmt_mode}
   */
   readonly mgmtMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#mr DvmCmdAddDevice#mr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#mr DvmCmdAddDevice#mr}
   */
   readonly mr?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#name DvmCmdAddDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#name DvmCmdAddDevice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#os_type DvmCmdAddDevice#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#os_type DvmCmdAddDevice#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#os_ver DvmCmdAddDevice#os_ver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#os_ver DvmCmdAddDevice#os_ver}
   */
   readonly osVer?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#patch DvmCmdAddDevice#patch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#patch DvmCmdAddDevice#patch}
   */
   readonly patch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#platform_str DvmCmdAddDevice#platform_str}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#platform_str DvmCmdAddDevice#platform_str}
   */
   readonly platformStr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#sn DvmCmdAddDevice#sn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#sn DvmCmdAddDevice#sn}
   */
   readonly sn?: string;
 }
@@ -591,11 +591,11 @@ export class DvmCmdAddDeviceDeviceOutputReference extends cdktf.ComplexObject {
 }
 export interface DvmCmdAddDeviceGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#name DvmCmdAddDevice#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#name DvmCmdAddDevice#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#vdom DvmCmdAddDevice#vdom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#vdom DvmCmdAddDevice#vdom}
   */
   readonly vdom?: string;
 }
@@ -740,7 +740,7 @@ export class DvmCmdAddDeviceGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device fortianalyzer_dvm_cmd_add_device}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device fortianalyzer_dvm_cmd_add_device}
 */
 export class DvmCmdAddDevice extends cdktf.TerraformResource {
 
@@ -756,7 +756,7 @@ export class DvmCmdAddDevice extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DvmCmdAddDevice resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DvmCmdAddDevice to import
-  * @param importFromId The id of the existing DvmCmdAddDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DvmCmdAddDevice that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DvmCmdAddDevice to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -768,7 +768,7 @@ export class DvmCmdAddDevice extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/dvm_cmd_add_device fortianalyzer_dvm_cmd_add_device} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/dvm_cmd_add_device fortianalyzer_dvm_cmd_add_device} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -779,8 +779,8 @@ export class DvmCmdAddDevice extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_dvm_cmd_add_device',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

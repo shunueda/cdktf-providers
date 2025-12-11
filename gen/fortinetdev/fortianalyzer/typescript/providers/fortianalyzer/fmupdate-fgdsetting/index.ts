@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,201 +8,201 @@ import * as cdktf from 'cdktf';
 
 export interface FmupdateFgdsettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#as_cache FmupdateFgdsetting#as_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#as_cache FmupdateFgdsetting#as_cache}
   */
   readonly asCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#as_log FmupdateFgdsetting#as_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#as_log FmupdateFgdsetting#as_log}
   */
   readonly asLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#as_preload FmupdateFgdsetting#as_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#as_preload FmupdateFgdsetting#as_preload}
   */
   readonly asPreload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#av2_cache FmupdateFgdsetting#av2_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#av2_cache FmupdateFgdsetting#av2_cache}
   */
   readonly av2Cache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#av2_log FmupdateFgdsetting#av2_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#av2_log FmupdateFgdsetting#av2_log}
   */
   readonly av2Log?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#av2_preload FmupdateFgdsetting#av2_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#av2_preload FmupdateFgdsetting#av2_preload}
   */
   readonly av2Preload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#av_cache FmupdateFgdsetting#av_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#av_cache FmupdateFgdsetting#av_cache}
   */
   readonly avCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#av_log FmupdateFgdsetting#av_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#av_log FmupdateFgdsetting#av_log}
   */
   readonly avLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#av_preload FmupdateFgdsetting#av_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#av_preload FmupdateFgdsetting#av_preload}
   */
   readonly avPreload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#eventlog_query FmupdateFgdsetting#eventlog_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#eventlog_query FmupdateFgdsetting#eventlog_query}
   */
   readonly eventlogQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#fgd_pull_interval FmupdateFgdsetting#fgd_pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#fgd_pull_interval FmupdateFgdsetting#fgd_pull_interval}
   */
   readonly fgdPullInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#fq_cache FmupdateFgdsetting#fq_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#fq_cache FmupdateFgdsetting#fq_cache}
   */
   readonly fqCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#fq_log FmupdateFgdsetting#fq_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#fq_log FmupdateFgdsetting#fq_log}
   */
   readonly fqLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#fq_preload FmupdateFgdsetting#fq_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#fq_preload FmupdateFgdsetting#fq_preload}
   */
   readonly fqPreload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#id FmupdateFgdsetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#id FmupdateFgdsetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#iot_cache FmupdateFgdsetting#iot_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#iot_cache FmupdateFgdsetting#iot_cache}
   */
   readonly iotCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#iot_log FmupdateFgdsetting#iot_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#iot_log FmupdateFgdsetting#iot_log}
   */
   readonly iotLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#iot_preload FmupdateFgdsetting#iot_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#iot_preload FmupdateFgdsetting#iot_preload}
   */
   readonly iotPreload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#iotv_preload FmupdateFgdsetting#iotv_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#iotv_preload FmupdateFgdsetting#iotv_preload}
   */
   readonly iotvPreload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#linkd_log FmupdateFgdsetting#linkd_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#linkd_log FmupdateFgdsetting#linkd_log}
   */
   readonly linkdLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#max_client_worker FmupdateFgdsetting#max_client_worker}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#max_client_worker FmupdateFgdsetting#max_client_worker}
   */
   readonly maxClientWorker?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#max_log_quota FmupdateFgdsetting#max_log_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#max_log_quota FmupdateFgdsetting#max_log_quota}
   */
   readonly maxLogQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#max_unrated_site FmupdateFgdsetting#max_unrated_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#max_unrated_site FmupdateFgdsetting#max_unrated_site}
   */
   readonly maxUnratedSite?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_as1_dbver FmupdateFgdsetting#restrict_as1_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_as1_dbver FmupdateFgdsetting#restrict_as1_dbver}
   */
   readonly restrictAs1Dbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_as2_dbver FmupdateFgdsetting#restrict_as2_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_as2_dbver FmupdateFgdsetting#restrict_as2_dbver}
   */
   readonly restrictAs2Dbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_as4_dbver FmupdateFgdsetting#restrict_as4_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_as4_dbver FmupdateFgdsetting#restrict_as4_dbver}
   */
   readonly restrictAs4Dbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_av2_dbver FmupdateFgdsetting#restrict_av2_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_av2_dbver FmupdateFgdsetting#restrict_av2_dbver}
   */
   readonly restrictAv2Dbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_av_dbver FmupdateFgdsetting#restrict_av_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_av_dbver FmupdateFgdsetting#restrict_av_dbver}
   */
   readonly restrictAvDbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_fq_dbver FmupdateFgdsetting#restrict_fq_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_fq_dbver FmupdateFgdsetting#restrict_fq_dbver}
   */
   readonly restrictFqDbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_iots_dbver FmupdateFgdsetting#restrict_iots_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_iots_dbver FmupdateFgdsetting#restrict_iots_dbver}
   */
   readonly restrictIotsDbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#restrict_wf_dbver FmupdateFgdsetting#restrict_wf_dbver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#restrict_wf_dbver FmupdateFgdsetting#restrict_wf_dbver}
   */
   readonly restrictWfDbver?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#stat_log FmupdateFgdsetting#stat_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#stat_log FmupdateFgdsetting#stat_log}
   */
   readonly statLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#stat_log_interval FmupdateFgdsetting#stat_log_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#stat_log_interval FmupdateFgdsetting#stat_log_interval}
   */
   readonly statLogInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#stat_sync_interval FmupdateFgdsetting#stat_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#stat_sync_interval FmupdateFgdsetting#stat_sync_interval}
   */
   readonly statSyncInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#update_interval FmupdateFgdsetting#update_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#update_interval FmupdateFgdsetting#update_interval}
   */
   readonly updateInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#update_log FmupdateFgdsetting#update_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#update_log FmupdateFgdsetting#update_log}
   */
   readonly updateLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#wf_cache FmupdateFgdsetting#wf_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#wf_cache FmupdateFgdsetting#wf_cache}
   */
   readonly wfCache?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#wf_dn_cache_expire_time FmupdateFgdsetting#wf_dn_cache_expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#wf_dn_cache_expire_time FmupdateFgdsetting#wf_dn_cache_expire_time}
   */
   readonly wfDnCacheExpireTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#wf_dn_cache_max_number FmupdateFgdsetting#wf_dn_cache_max_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#wf_dn_cache_max_number FmupdateFgdsetting#wf_dn_cache_max_number}
   */
   readonly wfDnCacheMaxNumber?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#wf_log FmupdateFgdsetting#wf_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#wf_log FmupdateFgdsetting#wf_log}
   */
   readonly wfLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#wf_preload FmupdateFgdsetting#wf_preload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#wf_preload FmupdateFgdsetting#wf_preload}
   */
   readonly wfPreload?: string;
   /**
   * server_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#server_override FmupdateFgdsetting#server_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#server_override FmupdateFgdsetting#server_override}
   */
   readonly serverOverride?: FmupdateFgdsettingServerOverride;
 }
 export interface FmupdateFgdsettingServerOverrideServlistStruct {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#id FmupdateFgdsetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#id FmupdateFgdsetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#ip FmupdateFgdsetting#ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#ip FmupdateFgdsetting#ip}
   */
   readonly ip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#ip6 FmupdateFgdsetting#ip6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#ip6 FmupdateFgdsetting#ip6}
   */
   readonly ip6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#port FmupdateFgdsetting#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#port FmupdateFgdsetting#port}
   */
   readonly port?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#service_type FmupdateFgdsetting#service_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#service_type FmupdateFgdsetting#service_type}
   */
   readonly serviceType?: string;
 }
@@ -434,13 +434,13 @@ export class FmupdateFgdsettingServerOverrideServlistStructList extends cdktf.Co
 }
 export interface FmupdateFgdsettingServerOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#status FmupdateFgdsetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#status FmupdateFgdsetting#status}
   */
   readonly status?: string;
   /**
   * servlist block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#servlist FmupdateFgdsetting#servlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#servlist FmupdateFgdsetting#servlist}
   */
   readonly servlist?: FmupdateFgdsettingServerOverrideServlistStruct[] | cdktf.IResolvable;
 }
@@ -553,7 +553,7 @@ export class FmupdateFgdsettingServerOverrideOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting fortianalyzer_fmupdate_fgdsetting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting fortianalyzer_fmupdate_fgdsetting}
 */
 export class FmupdateFgdsetting extends cdktf.TerraformResource {
 
@@ -569,7 +569,7 @@ export class FmupdateFgdsetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FmupdateFgdsetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FmupdateFgdsetting to import
-  * @param importFromId The id of the existing FmupdateFgdsetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FmupdateFgdsetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FmupdateFgdsetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -581,7 +581,7 @@ export class FmupdateFgdsetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fgdsetting fortianalyzer_fmupdate_fgdsetting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fgdsetting fortianalyzer_fmupdate_fgdsetting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -592,8 +592,8 @@ export class FmupdateFgdsetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_fmupdate_fgdsetting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

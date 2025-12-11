@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GatewayLogForwardingDatadogConfig extends cdktf.TerraformMetaAr
   /**
   * Datadog api key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#api_key GatewayLogForwardingDatadog#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#api_key GatewayLogForwardingDatadog#api_key}
   */
   readonly apiKey?: string;
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#enable GatewayLogForwardingDatadog#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#enable GatewayLogForwardingDatadog#enable}
   */
   readonly enable?: string;
   /**
   * Datadog host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#host GatewayLogForwardingDatadog#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#host GatewayLogForwardingDatadog#host}
   */
   readonly host?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#id GatewayLogForwardingDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#id GatewayLogForwardingDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,37 +35,37 @@ export interface GatewayLogForwardingDatadogConfig extends cdktf.TerraformMetaAr
   /**
   * Datadog log service
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#log_service GatewayLogForwardingDatadog#log_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#log_service GatewayLogForwardingDatadog#log_service}
   */
   readonly logService?: string;
   /**
   * Datadog log source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#log_source GatewayLogForwardingDatadog#log_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#log_source GatewayLogForwardingDatadog#log_source}
   */
   readonly logSource?: string;
   /**
   * A comma-separated list of Datadog log tags formatted as key:value strings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#log_tags GatewayLogForwardingDatadog#log_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#log_tags GatewayLogForwardingDatadog#log_tags}
   */
   readonly logTags?: string;
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#output_format GatewayLogForwardingDatadog#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#output_format GatewayLogForwardingDatadog#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#pull_interval GatewayLogForwardingDatadog#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#pull_interval GatewayLogForwardingDatadog#pull_interval}
   */
   readonly pullInterval?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog akeyless_gateway_log_forwarding_datadog}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog akeyless_gateway_log_forwarding_datadog}
 */
 export class GatewayLogForwardingDatadog extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class GatewayLogForwardingDatadog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayLogForwardingDatadog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingDatadog to import
-  * @param importFromId The id of the existing GatewayLogForwardingDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingDatadog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class GatewayLogForwardingDatadog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_datadog akeyless_gateway_log_forwarding_datadog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_datadog akeyless_gateway_log_forwarding_datadog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class GatewayLogForwardingDatadog extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_log_forwarding_datadog',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

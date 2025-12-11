@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ProducerOracleConfig extends cdktf.TerraformMetaArguments {
   /**
   * the set of root certificate authorities in base64 encoding that clients use when verifying server certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#db_server_certificates ProducerOracle#db_server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#db_server_certificates ProducerOracle#db_server_certificates}
   */
   readonly dbServerCertificates?: string;
   /**
   * Server name is used to verify the hostname on the returned certificates unless InsecureSkipVerify is given. It is also included in the client's handshake to support virtual hosting unless it is an IP address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#db_server_name ProducerOracle#db_server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#db_server_name ProducerOracle#db_server_name}
   */
   readonly dbServerName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#id ProducerOracle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#id ProducerOracle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,73 +29,73 @@ export interface ProducerOracleConfig extends cdktf.TerraformMetaArguments {
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#name ProducerOracle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#name ProducerOracle#name}
   */
   readonly name: string;
   /**
   * Oracle host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#oracle_host ProducerOracle#oracle_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#oracle_host ProducerOracle#oracle_host}
   */
   readonly oracleHost?: string;
   /**
   * Oracle password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#oracle_password ProducerOracle#oracle_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#oracle_password ProducerOracle#oracle_password}
   */
   readonly oraclePassword?: string;
   /**
   * Oracle port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#oracle_port ProducerOracle#oracle_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#oracle_port ProducerOracle#oracle_port}
   */
   readonly oraclePort?: string;
   /**
   * Oracle Creation Statements
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#oracle_screation_statements ProducerOracle#oracle_screation_statements}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#oracle_screation_statements ProducerOracle#oracle_screation_statements}
   */
   readonly oracleScreationStatements?: string;
   /**
   * Oracle service name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#oracle_service_name ProducerOracle#oracle_service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#oracle_service_name ProducerOracle#oracle_service_name}
   */
   readonly oracleServiceName?: string;
   /**
   * Oracle user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#oracle_username ProducerOracle#oracle_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#oracle_username ProducerOracle#oracle_username}
   */
   readonly oracleUsername?: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#producer_encryption_key_name ProducerOracle#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#producer_encryption_key_name ProducerOracle#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#tags ProducerOracle#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#tags ProducerOracle#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#target_name ProducerOracle#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#target_name ProducerOracle#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#user_ttl ProducerOracle#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#user_ttl ProducerOracle#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle akeyless_producer_oracle}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle akeyless_producer_oracle}
 */
 export class ProducerOracle extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ProducerOracle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerOracle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerOracle to import
-  * @param importFromId The id of the existing ProducerOracle that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerOracle that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerOracle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ProducerOracle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_oracle akeyless_producer_oracle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_oracle akeyless_producer_oracle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class ProducerOracle extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_oracle',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,81 +10,81 @@ export interface PolicyInspectionRuleConfig extends cdktf.TerraformMetaArguments
   /**
   * This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#action PolicyInspectionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#action PolicyInspectionRule#action}
   */
   readonly action?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#description PolicyInspectionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#description PolicyInspectionRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#microtenant_id PolicyInspectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#microtenant_id PolicyInspectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#name PolicyInspectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#name PolicyInspectionRule#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#operator PolicyInspectionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#operator PolicyInspectionRule#operator}
   */
   readonly operator?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#policy_set_id PolicyInspectionRule#policy_set_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#policy_set_id PolicyInspectionRule#policy_set_id}
   */
   readonly policySetId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#zpn_inspection_profile_id PolicyInspectionRule#zpn_inspection_profile_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#zpn_inspection_profile_id PolicyInspectionRule#zpn_inspection_profile_id}
   */
   readonly zpnInspectionProfileId?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#conditions PolicyInspectionRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#conditions PolicyInspectionRule#conditions}
   */
   readonly conditions?: PolicyInspectionRuleConditions[] | cdktf.IResolvable;
 }
 export interface PolicyInspectionRuleConditionsOperands {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#idp_id PolicyInspectionRule#idp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#idp_id PolicyInspectionRule#idp_id}
   */
   readonly idpId?: string;
   /**
   * This signifies the key for the object type. String ID example: id 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#lhs PolicyInspectionRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#lhs PolicyInspectionRule#lhs}
   */
   readonly lhs: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#microtenant_id PolicyInspectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#microtenant_id PolicyInspectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#name PolicyInspectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#name PolicyInspectionRule#name}
   */
   readonly name?: string;
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#object_type PolicyInspectionRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#object_type PolicyInspectionRule#object_type}
   */
   readonly objectType: string;
   /**
   * This denotes the value for the given object type. Its value depends upon the key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#rhs PolicyInspectionRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#rhs PolicyInspectionRule#rhs}
   */
   readonly rhs?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#rhs_list PolicyInspectionRule#rhs_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#rhs_list PolicyInspectionRule#rhs_list}
   */
   readonly rhsList?: string[];
 }
@@ -373,17 +373,17 @@ export class PolicyInspectionRuleConditionsOperandsList extends cdktf.ComplexLis
 }
 export interface PolicyInspectionRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#microtenant_id PolicyInspectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#microtenant_id PolicyInspectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#operator PolicyInspectionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#operator PolicyInspectionRule#operator}
   */
   readonly operator: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#operands PolicyInspectionRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#operands PolicyInspectionRule#operands}
   */
   readonly operands?: PolicyInspectionRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -559,7 +559,7 @@ export class PolicyInspectionRuleConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule zpa_policy_inspection_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule zpa_policy_inspection_rule}
 */
 export class PolicyInspectionRule extends cdktf.TerraformResource {
 
@@ -575,7 +575,7 @@ export class PolicyInspectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyInspectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyInspectionRule to import
-  * @param importFromId The id of the existing PolicyInspectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyInspectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyInspectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -587,7 +587,7 @@ export class PolicyInspectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_inspection_rule zpa_policy_inspection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_inspection_rule zpa_policy_inspection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -598,8 +598,8 @@ export class PolicyInspectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_inspection_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

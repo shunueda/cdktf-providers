@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,233 +10,233 @@ export interface InterfaceVlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable auto-state determination for VLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#autostate InterfaceVlan#autostate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#autostate InterfaceVlan#autostate}
   */
   readonly autostate?: boolean | cdktf.IResolvable;
   /**
   * Use echo adjunct as bfd detection mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_echo InterfaceVlan#bfd_echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_echo InterfaceVlan#bfd_echo}
   */
   readonly bfdEcho?: boolean | cdktf.IResolvable;
   /**
   * Enable BFD under the interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_enable InterfaceVlan#bfd_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_enable InterfaceVlan#bfd_enable}
   */
   readonly bfdEnable?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_interval InterfaceVlan#bfd_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_interval InterfaceVlan#bfd_interval}
   */
   readonly bfdInterval?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `50`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_interval_min_rx InterfaceVlan#bfd_interval_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_interval_min_rx InterfaceVlan#bfd_interval_min_rx}
   */
   readonly bfdIntervalMinRx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_interval_multiplier InterfaceVlan#bfd_interval_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_interval_multiplier InterfaceVlan#bfd_interval_multiplier}
   */
   readonly bfdIntervalMultiplier?: number;
   /**
   * The Source IP address to be used for BFD sessions over this interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_local_address InterfaceVlan#bfd_local_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_local_address InterfaceVlan#bfd_local_address}
   */
   readonly bfdLocalAddress?: string;
   /**
   * BFD template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#bfd_template InterfaceVlan#bfd_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#bfd_template InterfaceVlan#bfd_template}
   */
   readonly bfdTemplate?: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#delete_mode InterfaceVlan#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#delete_mode InterfaceVlan#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Interface specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#description InterfaceVlan#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#description InterfaceVlan#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#device InterfaceVlan#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#device InterfaceVlan#device}
   */
   readonly device?: string;
   /**
   * Specify a destination address for UDP broadcasts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#helper_addresses InterfaceVlan#helper_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#helper_addresses InterfaceVlan#helper_addresses}
   */
   readonly helperAddresses?: InterfaceVlanHelperAddresses[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_access_group_in InterfaceVlan#ip_access_group_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_access_group_in InterfaceVlan#ip_access_group_in}
   */
   readonly ipAccessGroupIn?: string;
   /**
   * inbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_access_group_in_enable InterfaceVlan#ip_access_group_in_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_access_group_in_enable InterfaceVlan#ip_access_group_in_enable}
   */
   readonly ipAccessGroupInEnable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_access_group_out InterfaceVlan#ip_access_group_out}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_access_group_out InterfaceVlan#ip_access_group_out}
   */
   readonly ipAccessGroupOut?: string;
   /**
   * outbound packets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_access_group_out_enable InterfaceVlan#ip_access_group_out_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_access_group_out_enable InterfaceVlan#ip_access_group_out_enable}
   */
   readonly ipAccessGroupOutEnable?: boolean | cdktf.IResolvable;
   /**
   * Enable vpn-id support on this interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_dhcp_relay_information_option_vpn_id InterfaceVlan#ip_dhcp_relay_information_option_vpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_dhcp_relay_information_option_vpn_id InterfaceVlan#ip_dhcp_relay_information_option_vpn_id}
   */
   readonly ipDhcpRelayInformationOptionVpnId?: boolean | cdktf.IResolvable;
   /**
   * Set source interface for relayed messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_dhcp_relay_source_interface InterfaceVlan#ip_dhcp_relay_source_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_dhcp_relay_source_interface InterfaceVlan#ip_dhcp_relay_source_interface}
   */
   readonly ipDhcpRelaySourceInterface?: string;
   /**
   * IGMP version
   *   - Range: `1`-`3`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_igmp_version InterfaceVlan#ip_igmp_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_igmp_version InterfaceVlan#ip_igmp_version}
   */
   readonly ipIgmpVersion?: number;
   /**
   * Enable local-proxy ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_local_proxy_arp InterfaceVlan#ip_local_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_local_proxy_arp InterfaceVlan#ip_local_proxy_arp}
   */
   readonly ipLocalProxyArp?: boolean | cdktf.IResolvable;
   /**
   * Enable proxy ARP
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_proxy_arp InterfaceVlan#ip_proxy_arp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_proxy_arp InterfaceVlan#ip_proxy_arp}
   */
   readonly ipProxyArp?: boolean | cdktf.IResolvable;
   /**
   * Enable sending ICMP Redirect messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_redirects InterfaceVlan#ip_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_redirects InterfaceVlan#ip_redirects}
   */
   readonly ipRedirects?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_router_isis InterfaceVlan#ip_router_isis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_router_isis InterfaceVlan#ip_router_isis}
   */
   readonly ipRouterIsis?: string;
   /**
   * Enable sending ICMP Unreachable messages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ip_unreachables InterfaceVlan#ip_unreachables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ip_unreachables InterfaceVlan#ip_unreachables}
   */
   readonly ipUnreachables?: boolean | cdktf.IResolvable;
   /**
   * Ip address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv4_address InterfaceVlan#ipv4_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv4_address InterfaceVlan#ipv4_address}
   */
   readonly ipv4Address?: string;
   /**
   * Ip subnet mask
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv4_address_mask InterfaceVlan#ipv4_address_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv4_address_mask InterfaceVlan#ipv4_address_mask}
   */
   readonly ipv4AddressMask?: string;
   /**
   * Insert default route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_address_autoconfig_default InterfaceVlan#ipv6_address_autoconfig_default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_address_autoconfig_default InterfaceVlan#ipv6_address_autoconfig_default}
   */
   readonly ipv6AddressAutoconfigDefault?: boolean | cdktf.IResolvable;
   /**
   * Obtain IPv6 address from DHCP server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_address_dhcp InterfaceVlan#ipv6_address_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_address_dhcp InterfaceVlan#ipv6_address_dhcp}
   */
   readonly ipv6AddressDhcp?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_addresses InterfaceVlan#ipv6_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_addresses InterfaceVlan#ipv6_addresses}
   */
   readonly ipv6Addresses?: InterfaceVlanIpv6Addresses[] | cdktf.IResolvable;
   /**
   * Enable IPv6 on interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_enable InterfaceVlan#ipv6_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_enable InterfaceVlan#ipv6_enable}
   */
   readonly ipv6Enable?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_link_local_addresses InterfaceVlan#ipv6_link_local_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_link_local_addresses InterfaceVlan#ipv6_link_local_addresses}
   */
   readonly ipv6LinkLocalAddresses?: InterfaceVlanIpv6LinkLocalAddresses[] | cdktf.IResolvable;
   /**
   * Set IPv6 Maximum Transmission Unit
   *   - Range: `1280`-`9976`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_mtu InterfaceVlan#ipv6_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_mtu InterfaceVlan#ipv6_mtu}
   */
   readonly ipv6Mtu?: number;
   /**
   * Suppress all IPv6 RA
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#ipv6_nd_ra_suppress_all InterfaceVlan#ipv6_nd_ra_suppress_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#ipv6_nd_ra_suppress_all InterfaceVlan#ipv6_nd_ra_suppress_all}
   */
   readonly ipv6NdRaSuppressAll?: boolean | cdktf.IResolvable;
   /**
   * Specify interval for load calculation for an interface
   *   - Range: `30`-`600`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#load_interval InterfaceVlan#load_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#load_interval InterfaceVlan#load_interval}
   */
   readonly loadInterval?: number;
   /**
   * Manually set interface MAC address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#mac_address InterfaceVlan#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#mac_address InterfaceVlan#mac_address}
   */
   readonly macAddress?: string;
   /**
   * 
   *   - Range: `1`-`4094`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#name InterfaceVlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#name InterfaceVlan#name}
   */
   readonly name: number;
   /**
   * Shutdown the selected interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#shutdown InterfaceVlan#shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#shutdown InterfaceVlan#shutdown}
   */
   readonly shutdown?: boolean | cdktf.IResolvable;
   /**
   * Enable IP processing without an explicit address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#unnumbered InterfaceVlan#unnumbered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#unnumbered InterfaceVlan#unnumbered}
   */
   readonly unnumbered?: string;
   /**
   * Configure forwarding table
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#vrf_forwarding InterfaceVlan#vrf_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#vrf_forwarding InterfaceVlan#vrf_forwarding}
   */
   readonly vrfForwarding?: string;
 }
@@ -244,19 +244,19 @@ export interface InterfaceVlanHelperAddresses {
   /**
   * IP destination address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#address InterfaceVlan#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#address InterfaceVlan#address}
   */
   readonly address: string;
   /**
   * Helper-address is global
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#global InterfaceVlan#global}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#global InterfaceVlan#global}
   */
   readonly global?: boolean | cdktf.IResolvable;
   /**
   * VRF name for helper-address (if different from interface VRF)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#vrf InterfaceVlan#vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#vrf InterfaceVlan#vrf}
   */
   readonly vrf?: string;
 }
@@ -429,13 +429,13 @@ export interface InterfaceVlanIpv6Addresses {
   /**
   * Use eui-64 interface identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#eui_64 InterfaceVlan#eui_64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#eui_64 InterfaceVlan#eui_64}
   */
   readonly eui64?: boolean | cdktf.IResolvable;
   /**
   * IPv6 prefix
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#prefix InterfaceVlan#prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#prefix InterfaceVlan#prefix}
   */
   readonly prefix: string;
 }
@@ -577,13 +577,13 @@ export class InterfaceVlanIpv6AddressesList extends cdktf.ComplexList {
 }
 export interface InterfaceVlanIpv6LinkLocalAddresses {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#address InterfaceVlan#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#address InterfaceVlan#address}
   */
   readonly address: string;
   /**
   * Use link-local address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#link_local InterfaceVlan#link_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#link_local InterfaceVlan#link_local}
   */
   readonly linkLocal?: boolean | cdktf.IResolvable;
 }
@@ -725,7 +725,7 @@ export class InterfaceVlanIpv6LinkLocalAddressesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan iosxe_interface_vlan}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan iosxe_interface_vlan}
 */
 export class InterfaceVlan extends cdktf.TerraformResource {
 
@@ -741,7 +741,7 @@ export class InterfaceVlan extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a InterfaceVlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the InterfaceVlan to import
-  * @param importFromId The id of the existing InterfaceVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing InterfaceVlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the InterfaceVlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -753,7 +753,7 @@ export class InterfaceVlan extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/interface_vlan iosxe_interface_vlan} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/interface_vlan iosxe_interface_vlan} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -764,8 +764,8 @@ export class InterfaceVlan extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_interface_vlan',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

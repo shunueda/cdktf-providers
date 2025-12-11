@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/data-sources/template_disk_attachments
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/data-sources/template_disk_attachments
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataOvirtTemplateDiskAttachmentsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/data-sources/template_disk_attachments#id DataOvirtTemplateDiskAttachments#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/data-sources/template_disk_attachments#id DataOvirtTemplateDiskAttachments#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface DataOvirtTemplateDiskAttachmentsConfig extends cdktf.TerraformM
   /**
   * oVirt ID of the template to list the disk attachments for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/data-sources/template_disk_attachments#template_id DataOvirtTemplateDiskAttachments#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/data-sources/template_disk_attachments#template_id DataOvirtTemplateDiskAttachments#template_id}
   */
   readonly templateId: string;
 }
@@ -108,7 +108,7 @@ export class DataOvirtTemplateDiskAttachmentsDiskAttachmentsList extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/data-sources/template_disk_attachments ovirt_template_disk_attachments}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/data-sources/template_disk_attachments ovirt_template_disk_attachments}
 */
 export class DataOvirtTemplateDiskAttachments extends cdktf.TerraformDataSource {
 
@@ -124,7 +124,7 @@ export class DataOvirtTemplateDiskAttachments extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataOvirtTemplateDiskAttachments resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataOvirtTemplateDiskAttachments to import
-  * @param importFromId The id of the existing DataOvirtTemplateDiskAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/data-sources/template_disk_attachments#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataOvirtTemplateDiskAttachments that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/data-sources/template_disk_attachments#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataOvirtTemplateDiskAttachments to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -136,7 +136,7 @@ export class DataOvirtTemplateDiskAttachments extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/data-sources/template_disk_attachments ovirt_template_disk_attachments} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/data-sources/template_disk_attachments ovirt_template_disk_attachments} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -147,8 +147,8 @@ export class DataOvirtTemplateDiskAttachments extends cdktf.TerraformDataSource 
       terraformResourceType: 'ovirt_template_disk_attachments',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

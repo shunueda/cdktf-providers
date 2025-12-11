@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface GatewayLogForwardingElasticsearchConfig extends cdktf.Terraform
   /**
   * Elasticsearch api key relevant only for api_key auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#api_key GatewayLogForwardingElasticsearch#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#api_key GatewayLogForwardingElasticsearch#api_key}
   */
   readonly apiKey?: string;
   /**
   * Elasticsearch auth type [api_key/password]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#auth_type GatewayLogForwardingElasticsearch#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#auth_type GatewayLogForwardingElasticsearch#auth_type}
   */
   readonly authType?: string;
   /**
   * Elasticsearch cloud id relevant only for cloud server-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#cloud_id GatewayLogForwardingElasticsearch#cloud_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#cloud_id GatewayLogForwardingElasticsearch#cloud_id}
   */
   readonly cloudId?: string;
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#enable GatewayLogForwardingElasticsearch#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#enable GatewayLogForwardingElasticsearch#enable}
   */
   readonly enable?: string;
   /**
   * Enable tls
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#enable_tls GatewayLogForwardingElasticsearch#enable_tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#enable_tls GatewayLogForwardingElasticsearch#enable_tls}
   */
   readonly enableTls?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#id GatewayLogForwardingElasticsearch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#id GatewayLogForwardingElasticsearch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,55 +47,55 @@ export interface GatewayLogForwardingElasticsearchConfig extends cdktf.Terraform
   /**
   * Elasticsearch index
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#index GatewayLogForwardingElasticsearch#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#index GatewayLogForwardingElasticsearch#index}
   */
   readonly index?: string;
   /**
   * Elasticsearch nodes relevant only for nodes server-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#nodes GatewayLogForwardingElasticsearch#nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#nodes GatewayLogForwardingElasticsearch#nodes}
   */
   readonly nodes?: string;
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#output_format GatewayLogForwardingElasticsearch#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#output_format GatewayLogForwardingElasticsearch#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Elasticsearch password relevant only for password auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#password GatewayLogForwardingElasticsearch#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#password GatewayLogForwardingElasticsearch#password}
   */
   readonly password?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#pull_interval GatewayLogForwardingElasticsearch#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#pull_interval GatewayLogForwardingElasticsearch#pull_interval}
   */
   readonly pullInterval?: string;
   /**
   * Elasticsearch server type [nodes/cloud]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#server_type GatewayLogForwardingElasticsearch#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#server_type GatewayLogForwardingElasticsearch#server_type}
   */
   readonly serverType?: string;
   /**
   * Elasticsearch tls certificate (PEM format) in a Base64 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#tls_certificate GatewayLogForwardingElasticsearch#tls_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#tls_certificate GatewayLogForwardingElasticsearch#tls_certificate}
   */
   readonly tlsCertificate?: string;
   /**
   * Elasticsearch user name relevant only for password auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#user_name GatewayLogForwardingElasticsearch#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#user_name GatewayLogForwardingElasticsearch#user_name}
   */
   readonly userName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch akeyless_gateway_log_forwarding_elasticsearch}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch akeyless_gateway_log_forwarding_elasticsearch}
 */
 export class GatewayLogForwardingElasticsearch extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class GatewayLogForwardingElasticsearch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayLogForwardingElasticsearch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingElasticsearch to import
-  * @param importFromId The id of the existing GatewayLogForwardingElasticsearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingElasticsearch that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingElasticsearch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class GatewayLogForwardingElasticsearch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_elasticsearch akeyless_gateway_log_forwarding_elasticsearch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_elasticsearch akeyless_gateway_log_forwarding_elasticsearch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class GatewayLogForwardingElasticsearch extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_log_forwarding_elasticsearch',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

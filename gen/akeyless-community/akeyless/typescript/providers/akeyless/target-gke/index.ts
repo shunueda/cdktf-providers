@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface TargetGkeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#description TargetGke#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#description TargetGke#description}
   */
   readonly description?: string;
   /**
   * GKE service account key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#gke_account_key TargetGke#gke_account_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#gke_account_key TargetGke#gke_account_key}
   */
   readonly gkeAccountKey?: string;
   /**
   * GKE Base-64 encoded cluster certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#gke_cluster_cert TargetGke#gke_cluster_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#gke_cluster_cert TargetGke#gke_cluster_cert}
   */
   readonly gkeClusterCert?: string;
   /**
   * GKE cluster endpoint, i.e., cluster URI https://<DNS/IP>.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#gke_cluster_endpoint TargetGke#gke_cluster_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#gke_cluster_endpoint TargetGke#gke_cluster_endpoint}
   */
   readonly gkeClusterEndpoint?: string;
   /**
   * GKE cluster name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#gke_cluster_name TargetGke#gke_cluster_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#gke_cluster_name TargetGke#gke_cluster_name}
   */
   readonly gkeClusterName?: string;
   /**
   * GKE service account email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#gke_service_account_email TargetGke#gke_service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#gke_service_account_email TargetGke#gke_service_account_email}
   */
   readonly gkeServiceAccountEmail?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#id TargetGke#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#id TargetGke#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,25 +53,25 @@ export interface TargetGkeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Key name. The key will be used to encrypt the target secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#key TargetGke#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#key TargetGke#key}
   */
   readonly key?: string;
   /**
   * Target name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#name TargetGke#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#name TargetGke#name}
   */
   readonly name: string;
   /**
   * Use the GW's Cloud IAM
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#use_gw_cloud_identity TargetGke#use_gw_cloud_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#use_gw_cloud_identity TargetGke#use_gw_cloud_identity}
   */
   readonly useGwCloudIdentity?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke akeyless_target_gke}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke akeyless_target_gke}
 */
 export class TargetGke extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class TargetGke extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TargetGke resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TargetGke to import
-  * @param importFromId The id of the existing TargetGke that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TargetGke that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TargetGke to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class TargetGke extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/target_gke akeyless_target_gke} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/target_gke akeyless_target_gke} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class TargetGke extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_target_gke',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

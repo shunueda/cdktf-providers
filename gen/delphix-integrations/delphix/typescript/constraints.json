@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "delphix": "4.1.0"
+    "delphix": "4.1.1"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface VmAffinityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the oVirt affinity group to assign the VM to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group#affinity_group_id VmAffinityGroup#affinity_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group#affinity_group_id VmAffinityGroup#affinity_group_id}
   */
   readonly affinityGroupId: string;
   /**
   * ID of the oVirt cluster the VM is in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group#cluster_id VmAffinityGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group#cluster_id VmAffinityGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * ID of the oVirt VM to assign to the affinity group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group#vm_id VmAffinityGroup#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group#vm_id VmAffinityGroup#vm_id}
   */
   readonly vmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group ovirt_vm_affinity_group}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group ovirt_vm_affinity_group}
 */
 export class VmAffinityGroup extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class VmAffinityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmAffinityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmAffinityGroup to import
-  * @param importFromId The id of the existing VmAffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmAffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmAffinityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class VmAffinityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_affinity_group ovirt_vm_affinity_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_affinity_group ovirt_vm_affinity_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class VmAffinityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_vm_affinity_group',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

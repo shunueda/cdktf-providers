@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationGcrConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#enabled IntegrationGcr#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#enabled IntegrationGcr#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#id IntegrationGcr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#id IntegrationGcr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,61 +21,61 @@ export interface IntegrationGcrConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of repositories to assess
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#limit_by_repositories IntegrationGcr#limit_by_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#limit_by_repositories IntegrationGcr#limit_by_repositories}
   */
   readonly limitByRepositories?: string[];
   /**
   * A list of image tags to limit the assessment of images with matching tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#limit_by_tags IntegrationGcr#limit_by_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#limit_by_tags IntegrationGcr#limit_by_tags}
   */
   readonly limitByTags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#limit_num_imgs IntegrationGcr#limit_num_imgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#limit_num_imgs IntegrationGcr#limit_num_imgs}
   */
   readonly limitNumImgs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#name IntegrationGcr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#name IntegrationGcr#name}
   */
   readonly name: string;
   /**
   * Enable program language scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#non_os_package_support IntegrationGcr#non_os_package_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#non_os_package_support IntegrationGcr#non_os_package_support}
   */
   readonly nonOsPackageSupport?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#registry_domain IntegrationGcr#registry_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#registry_domain IntegrationGcr#registry_domain}
   */
   readonly registryDomain: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#credentials IntegrationGcr#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#credentials IntegrationGcr#credentials}
   */
   readonly credentials: IntegrationGcrCredentials;
   /**
   * limit_by_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#limit_by_label IntegrationGcr#limit_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#limit_by_label IntegrationGcr#limit_by_label}
   */
   readonly limitByLabel?: IntegrationGcrLimitByLabel[] | cdktf.IResolvable;
 }
 export interface IntegrationGcrCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#client_email IntegrationGcr#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#client_email IntegrationGcr#client_email}
   */
   readonly clientEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#client_id IntegrationGcr#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#client_id IntegrationGcr#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#private_key IntegrationGcr#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#private_key IntegrationGcr#private_key}
   */
   readonly privateKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#private_key_id IntegrationGcr#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#private_key_id IntegrationGcr#private_key_id}
   */
   readonly privateKeyId: string;
 }
@@ -234,11 +234,11 @@ export class IntegrationGcrCredentialsOutputReference extends cdktf.ComplexObjec
 }
 export interface IntegrationGcrLimitByLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#key IntegrationGcr#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#key IntegrationGcr#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#value IntegrationGcr#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#value IntegrationGcr#value}
   */
   readonly value: string;
 }
@@ -377,7 +377,7 @@ export class IntegrationGcrLimitByLabelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr lacework_integration_gcr}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr lacework_integration_gcr}
 */
 export class IntegrationGcr extends cdktf.TerraformResource {
 
@@ -393,7 +393,7 @@ export class IntegrationGcr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationGcr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationGcr to import
-  * @param importFromId The id of the existing IntegrationGcr that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationGcr that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationGcr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -405,7 +405,7 @@ export class IntegrationGcr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_gcr lacework_integration_gcr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_gcr lacework_integration_gcr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -416,8 +416,8 @@ export class IntegrationGcr extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_gcr',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

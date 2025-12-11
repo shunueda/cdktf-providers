@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config
+// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RepositoryConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specified if JFrog Advanced Security is enabled or not. Default to 'false'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#jas_enabled RepositoryConfig#jas_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#jas_enabled RepositoryConfig#jas_enabled}
   */
   readonly jasEnabled?: boolean | cdktf.IResolvable;
   /**
   * The name of the repository to update configurations for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#repo_name RepositoryConfig#repo_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#repo_name RepositoryConfig#repo_name}
   */
   readonly repoName: string;
   /**
   * config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#config RepositoryConfig#config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#config RepositoryConfig#config}
   */
   readonly config?: RepositoryConfigConfigA[] | cdktf.IResolvable;
   /**
   * paths_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#paths_config RepositoryConfig#paths_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#paths_config RepositoryConfig#paths_config}
   */
   readonly pathsConfig?: RepositoryConfigPathsConfig[] | cdktf.IResolvable;
 }
@@ -36,25 +36,25 @@ export interface RepositoryConfigConfigExposuresScannersCategory {
   /**
   * Detect whether common OSS libraries and services are used securely by the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#applications RepositoryConfig#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#applications RepositoryConfig#applications}
   */
   readonly applications?: boolean | cdktf.IResolvable;
   /**
   * Scans IaC files stored in Artifactory for early detection of cloud and infrastructure misconfigurations to prevent attacks and data leak. Only supported by Terraform Backend package type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#iac RepositoryConfig#iac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#iac RepositoryConfig#iac}
   */
   readonly iac?: boolean | cdktf.IResolvable;
   /**
   * Detect any secret left exposed in any containers stored in Artifactory to stop any accidental leak of internal tokens or credentials.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#secrets RepositoryConfig#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#secrets RepositoryConfig#secrets}
   */
   readonly secrets?: boolean | cdktf.IResolvable;
   /**
   * Detect whether common OSS libraries and services are configured securely, so application can be easily hardened by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#services RepositoryConfig#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#services RepositoryConfig#services}
   */
   readonly services?: boolean | cdktf.IResolvable;
 }
@@ -259,7 +259,7 @@ export interface RepositoryConfigConfigExposures {
   /**
   * scanners_category block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#scanners_category RepositoryConfig#scanners_category}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#scanners_category RepositoryConfig#scanners_category}
   */
   readonly scannersCategory?: RepositoryConfigConfigExposuresScannersCategory[] | cdktf.IResolvable;
 }
@@ -377,19 +377,19 @@ export interface RepositoryConfigConfigA {
   /**
   * The artifact will be retained for the number of days you set here, after the artifact is scanned. This will apply to all artifacts in the repository. Can be omitted when `paths_config` is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#retention_in_days RepositoryConfig#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#retention_in_days RepositoryConfig#retention_in_days}
   */
   readonly retentionInDays?: number;
   /**
   * Enables or disables vulnerability contextual analysis. Only for SaaS instances, will be available after Xray 3.59. Must be set for Docker, OCI, and Maven package types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#vuln_contextual_analysis RepositoryConfig#vuln_contextual_analysis}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#vuln_contextual_analysis RepositoryConfig#vuln_contextual_analysis}
   */
   readonly vulnContextualAnalysis?: boolean | cdktf.IResolvable;
   /**
   * exposures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#exposures RepositoryConfig#exposures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#exposures RepositoryConfig#exposures}
   */
   readonly exposures?: RepositoryConfigConfigExposures[] | cdktf.IResolvable;
 }
@@ -565,13 +565,13 @@ export interface RepositoryConfigPathsConfigAllOtherArtifacts {
   /**
   * If checked, Xray will scan newly added artifacts in the path. Note that existing artifacts will not be scanned. If the folder contains existing artifacts that have been scanned, and you do not want to index new artifacts in that folder, you can choose not to index that folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#index_new_artifacts RepositoryConfig#index_new_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#index_new_artifacts RepositoryConfig#index_new_artifacts}
   */
   readonly indexNewArtifacts?: boolean | cdktf.IResolvable;
   /**
   * The artifact will be retained for the number of days you set here, after the artifact is scanned. This will apply to all artifacts in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#retention_in_days RepositoryConfig#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#retention_in_days RepositoryConfig#retention_in_days}
   */
   readonly retentionInDays?: number;
 }
@@ -718,25 +718,25 @@ export interface RepositoryConfigPathsConfigPattern {
   /**
   * Paths pattern to exclude from the set specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#exclude RepositoryConfig#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#exclude RepositoryConfig#exclude}
   */
   readonly exclude?: string;
   /**
   * Paths pattern to include in the set specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#include RepositoryConfig#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#include RepositoryConfig#include}
   */
   readonly include: string;
   /**
   * If checked, Xray will scan newly added artifacts in the path. Note that existing artifacts will not be scanned. If the folder contains existing artifacts that have been scanned, and you do not want to index new artifacts in that folder, you can choose not to index that folder.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#index_new_artifacts RepositoryConfig#index_new_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#index_new_artifacts RepositoryConfig#index_new_artifacts}
   */
   readonly indexNewArtifacts?: boolean | cdktf.IResolvable;
   /**
   * The artifact will be retained for the number of days you set here, after the artifact is scanned. This will apply to all artifacts in the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#retention_in_days RepositoryConfig#retention_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#retention_in_days RepositoryConfig#retention_in_days}
   */
   readonly retentionInDays?: number;
 }
@@ -938,13 +938,13 @@ export interface RepositoryConfigPathsConfig {
   /**
   * all_other_artifacts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#all_other_artifacts RepositoryConfig#all_other_artifacts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#all_other_artifacts RepositoryConfig#all_other_artifacts}
   */
   readonly allOtherArtifacts?: RepositoryConfigPathsConfigAllOtherArtifacts[] | cdktf.IResolvable;
   /**
   * pattern block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#pattern RepositoryConfig#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#pattern RepositoryConfig#pattern}
   */
   readonly pattern?: RepositoryConfigPathsConfigPattern[] | cdktf.IResolvable;
 }
@@ -1089,7 +1089,7 @@ export class RepositoryConfigPathsConfigList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config xray_repository_config}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config xray_repository_config}
 */
 export class RepositoryConfig extends cdktf.TerraformResource {
 
@@ -1105,7 +1105,7 @@ export class RepositoryConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryConfig to import
-  * @param importFromId The id of the existing RepositoryConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1117,7 +1117,7 @@ export class RepositoryConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/repository_config xray_repository_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/repository_config xray_repository_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1128,8 +1128,8 @@ export class RepositoryConfig extends cdktf.TerraformResource {
       terraformResourceType: 'xray_repository_config',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

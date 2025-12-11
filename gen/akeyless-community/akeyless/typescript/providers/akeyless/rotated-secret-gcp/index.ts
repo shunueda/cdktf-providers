@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface RotatedSecretGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The credentials to connect with [use-self-creds/use-target-creds]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#authentication_credentials RotatedSecretGcp#authentication_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#authentication_credentials RotatedSecretGcp#authentication_credentials}
   */
   readonly authenticationCredentials?: string;
   /**
   * Whether to automatically rotate every --rotation-interval days, or disable existing automatic rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#auto_rotate RotatedSecretGcp#auto_rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#auto_rotate RotatedSecretGcp#auto_rotate}
   */
   readonly autoRotate?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#description RotatedSecretGcp#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#description RotatedSecretGcp#description}
   */
   readonly description?: string;
   /**
   * Base64-encoded service account private key text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#gcp_key RotatedSecretGcp#gcp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#gcp_key RotatedSecretGcp#gcp_key}
   */
   readonly gcpKey?: string;
   /**
   * The email of the gcp service account to rotate (relevant only when rotator-type=servcie-account-rotator)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#gcp_service_account_email RotatedSecretGcp#gcp_service_account_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#gcp_service_account_email RotatedSecretGcp#gcp_service_account_email}
   */
   readonly gcpServiceAccountEmail?: string;
   /**
   * The key id of the gcp service account to rotate (relevant only when rotator-type=servcie-account-rotator)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#gcp_service_account_key_id RotatedSecretGcp#gcp_service_account_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#gcp_service_account_key_id RotatedSecretGcp#gcp_service_account_key_id}
   */
   readonly gcpServiceAccountKeyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#id RotatedSecretGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#id RotatedSecretGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,55 +53,55 @@ export interface RotatedSecretGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of a key that is used to encrypt the secret value (if empty, the account default protectionKey key will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#key RotatedSecretGcp#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#key RotatedSecretGcp#key}
   */
   readonly key?: string;
   /**
   * Secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#name RotatedSecretGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#name RotatedSecretGcp#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#password_length RotatedSecretGcp#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#password_length RotatedSecretGcp#password_length}
   */
   readonly passwordLength?: string;
   /**
   * The Hour of the rotation in UTC
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#rotation_hour RotatedSecretGcp#rotation_hour}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#rotation_hour RotatedSecretGcp#rotation_hour}
   */
   readonly rotationHour?: number;
   /**
   * The number of days to wait between every automatic rotation (1-365),custom rotator interval will be set in minutes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#rotation_interval RotatedSecretGcp#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#rotation_interval RotatedSecretGcp#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * The rotator type [target/service-account-rotator]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#rotator_type RotatedSecretGcp#rotator_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#rotator_type RotatedSecretGcp#rotator_type}
   */
   readonly rotatorType: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#tags RotatedSecretGcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#tags RotatedSecretGcp#tags}
   */
   readonly tags?: string[];
   /**
   * The target name to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#target_name RotatedSecretGcp#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#target_name RotatedSecretGcp#target_name}
   */
   readonly targetName: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp akeyless_rotated_secret_gcp}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp akeyless_rotated_secret_gcp}
 */
 export class RotatedSecretGcp extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class RotatedSecretGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RotatedSecretGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RotatedSecretGcp to import
-  * @param importFromId The id of the existing RotatedSecretGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RotatedSecretGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RotatedSecretGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class RotatedSecretGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/rotated_secret_gcp akeyless_rotated_secret_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/rotated_secret_gcp akeyless_rotated_secret_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class RotatedSecretGcp extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_rotated_secret_gcp',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

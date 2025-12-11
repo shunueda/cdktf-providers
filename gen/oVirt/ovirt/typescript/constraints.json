@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "ovirt": "2.1.5"
+    "ovirt": "2.2.0"
   }
 }

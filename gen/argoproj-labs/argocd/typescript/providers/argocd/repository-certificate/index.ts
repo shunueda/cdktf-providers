@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface RepositoryCertificateConfig extends cdktf.TerraformMetaArgument
   /**
   * https block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#https RepositoryCertificate#https}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#https RepositoryCertificate#https}
   */
   readonly https?: RepositoryCertificateHttps[] | cdktf.IResolvable;
   /**
   * ssh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#ssh RepositoryCertificate#ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#ssh RepositoryCertificate#ssh}
   */
   readonly ssh?: RepositoryCertificateSsh[] | cdktf.IResolvable;
 }
@@ -24,13 +24,13 @@ export interface RepositoryCertificateHttps {
   /**
   * The actual certificate data, dependent on the certificate type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#cert_data RepositoryCertificate#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#cert_data RepositoryCertificate#cert_data}
   */
   readonly certData: string;
   /**
   * DNS name of the server this certificate is intended for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#server_name RepositoryCertificate#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#server_name RepositoryCertificate#server_name}
   */
   readonly serverName: string;
 }
@@ -181,19 +181,19 @@ export interface RepositoryCertificateSsh {
   /**
   * The actual certificate data, dependent on the certificate type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#cert_data RepositoryCertificate#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#cert_data RepositoryCertificate#cert_data}
   */
   readonly certData: string;
   /**
   * The sub type of the cert, i.e. `ssh-rsa`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#cert_subtype RepositoryCertificate#cert_subtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#cert_subtype RepositoryCertificate#cert_subtype}
   */
   readonly certSubtype: string;
   /**
   * DNS name of the server this certificate is intended for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#server_name RepositoryCertificate#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#server_name RepositoryCertificate#server_name}
   */
   readonly serverName: string;
 }
@@ -363,7 +363,7 @@ export class RepositoryCertificateSshList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate argocd_repository_certificate}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate argocd_repository_certificate}
 */
 export class RepositoryCertificate extends cdktf.TerraformResource {
 
@@ -379,7 +379,7 @@ export class RepositoryCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryCertificate to import
-  * @param importFromId The id of the existing RepositoryCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -391,7 +391,7 @@ export class RepositoryCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository_certificate argocd_repository_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository_certificate argocd_repository_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -402,8 +402,8 @@ export class RepositoryCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_repository_certificate',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.1',
-        providerVersionConstraint: '7.12.1'
+        providerVersion: '7.12.3',
+        providerVersionConstraint: '7.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

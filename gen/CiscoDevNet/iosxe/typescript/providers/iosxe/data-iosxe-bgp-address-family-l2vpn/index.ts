@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,23 +8,23 @@ import * as cdktf from 'cdktf';
 
 export interface DataIosxeBgpAddressFamilyL2VpnConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn#af_name DataIosxeBgpAddressFamilyL2Vpn#af_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn#af_name DataIosxeBgpAddressFamilyL2Vpn#af_name}
   */
   readonly afName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn#asn DataIosxeBgpAddressFamilyL2Vpn#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn#asn DataIosxeBgpAddressFamilyL2Vpn#asn}
   */
   readonly asn: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn#device DataIosxeBgpAddressFamilyL2Vpn#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn#device DataIosxeBgpAddressFamilyL2Vpn#device}
   */
   readonly device?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn}
 */
 export class DataIosxeBgpAddressFamilyL2Vpn extends cdktf.TerraformDataSource {
 
@@ -40,7 +40,7 @@ export class DataIosxeBgpAddressFamilyL2Vpn extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataIosxeBgpAddressFamilyL2Vpn resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataIosxeBgpAddressFamilyL2Vpn to import
-  * @param importFromId The id of the existing DataIosxeBgpAddressFamilyL2Vpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataIosxeBgpAddressFamilyL2Vpn that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataIosxeBgpAddressFamilyL2Vpn to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -52,7 +52,7 @@ export class DataIosxeBgpAddressFamilyL2Vpn extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/data-sources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/data-sources/bgp_address_family_l2vpn iosxe_bgp_address_family_l2vpn} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -63,8 +63,8 @@ export class DataIosxeBgpAddressFamilyL2Vpn extends cdktf.TerraformDataSource {
       terraformResourceType: 'iosxe_bgp_address_family_l2vpn',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,68 +11,68 @@ export interface BfdConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#delete_mode Bfd#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#delete_mode Bfd#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#device Bfd#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#device Bfd#device}
   */
   readonly device?: string;
   /**
   * IPv4 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv4_both_vrfs Bfd#ipv4_both_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv4_both_vrfs Bfd#ipv4_both_vrfs}
   */
   readonly ipv4BothVrfs?: BfdIpv4BothVrfs[] | cdktf.IResolvable;
   /**
   * IPv4 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv4_with_dst_vrfs Bfd#ipv4_with_dst_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv4_with_dst_vrfs Bfd#ipv4_with_dst_vrfs}
   */
   readonly ipv4WithDstVrfs?: BfdIpv4WithDstVrfs[] | cdktf.IResolvable;
   /**
   * IPv4 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv4_with_src_vrfs Bfd#ipv4_with_src_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv4_with_src_vrfs Bfd#ipv4_with_src_vrfs}
   */
   readonly ipv4WithSrcVrfs?: BfdIpv4WithSrcVrfs[] | cdktf.IResolvable;
   /**
   * IPv4 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv4_without_vrfs Bfd#ipv4_without_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv4_without_vrfs Bfd#ipv4_without_vrfs}
   */
   readonly ipv4WithoutVrfs?: BfdIpv4WithoutVrfs[] | cdktf.IResolvable;
   /**
   * IPv6 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv6_with_both_vrfs Bfd#ipv6_with_both_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv6_with_both_vrfs Bfd#ipv6_with_both_vrfs}
   */
   readonly ipv6WithBothVrfs?: BfdIpv6WithBothVrfs[] | cdktf.IResolvable;
   /**
   * IPv6 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv6_with_dst_vrfs Bfd#ipv6_with_dst_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv6_with_dst_vrfs Bfd#ipv6_with_dst_vrfs}
   */
   readonly ipv6WithDstVrfs?: BfdIpv6WithDstVrfs[] | cdktf.IResolvable;
   /**
   * IPv6 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv6_with_src_vrfs Bfd#ipv6_with_src_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv6_with_src_vrfs Bfd#ipv6_with_src_vrfs}
   */
   readonly ipv6WithSrcVrfs?: BfdIpv6WithSrcVrfs[] | cdktf.IResolvable;
   /**
   * IPv6 Address Family with vrf
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#ipv6_without_vrfs Bfd#ipv6_without_vrfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#ipv6_without_vrfs Bfd#ipv6_without_vrfs}
   */
   readonly ipv6WithoutVrfs?: BfdIpv6WithoutVrfs[] | cdktf.IResolvable;
   /**
   * Value in ms to use for slow timers
   *   - Range: `1000`-`30000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#slow_timers Bfd#slow_timers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#slow_timers Bfd#slow_timers}
   */
   readonly slowTimers?: number;
 }
@@ -80,31 +80,31 @@ export interface BfdIpv4BothVrfs {
   /**
   * Destination IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
   */
   readonly destIp: string;
   /**
   * Destination VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
   */
   readonly dstVrf: string;
   /**
   * Source IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ip Bfd#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ip Bfd#src_ip}
   */
   readonly srcIp: string;
   /**
   * source VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
   */
   readonly srcVrf: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -323,25 +323,25 @@ export interface BfdIpv4WithDstVrfs {
   /**
   * Destination IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
   */
   readonly destIp: string;
   /**
   * Destination VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
   */
   readonly dstVrf: string;
   /**
   * Source IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ip Bfd#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ip Bfd#src_ip}
   */
   readonly srcIp: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -534,25 +534,25 @@ export interface BfdIpv4WithSrcVrfs {
   /**
   * Destination IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
   */
   readonly destIp: string;
   /**
   * Source IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ip Bfd#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ip Bfd#src_ip}
   */
   readonly srcIp: string;
   /**
   * source VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
   */
   readonly srcVrf: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -745,19 +745,19 @@ export interface BfdIpv4WithoutVrfs {
   /**
   * Destination IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ip Bfd#dest_ip}
   */
   readonly destIp: string;
   /**
   * Source IP prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ip Bfd#src_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ip Bfd#src_ip}
   */
   readonly srcIp: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -924,31 +924,31 @@ export interface BfdIpv6WithBothVrfs {
   /**
   * Destination IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
   */
   readonly destIpv6: string;
   /**
   * Destination VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
   */
   readonly dstVrf: string;
   /**
   * Source IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
   */
   readonly srcIpv6: string;
   /**
   * source VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
   */
   readonly srcVrf: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -1167,25 +1167,25 @@ export interface BfdIpv6WithDstVrfs {
   /**
   * Destination IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
   */
   readonly destIpv6: string;
   /**
   * Destination VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dst_vrf Bfd#dst_vrf}
   */
   readonly dstVrf: string;
   /**
   * Source IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
   */
   readonly srcIpv6: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -1378,25 +1378,25 @@ export interface BfdIpv6WithSrcVrfs {
   /**
   * Destination IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
   */
   readonly destIpv6: string;
   /**
   * Source IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
   */
   readonly srcIpv6: string;
   /**
   * source VRF instance name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_vrf Bfd#src_vrf}
   */
   readonly srcVrf: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -1589,19 +1589,19 @@ export interface BfdIpv6WithoutVrfs {
   /**
   * Destination IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#dest_ipv6 Bfd#dest_ipv6}
   */
   readonly destIpv6: string;
   /**
   * Source IPv6 prefix/len
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#src_ipv6 Bfd#src_ipv6}
   */
   readonly srcIpv6: string;
   /**
   * BFD template name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#template_name Bfd#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#template_name Bfd#template_name}
   */
   readonly templateName: string;
 }
@@ -1766,7 +1766,7 @@ export class BfdIpv6WithoutVrfsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd iosxe_bfd}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd iosxe_bfd}
 */
 export class Bfd extends cdktf.TerraformResource {
 
@@ -1782,7 +1782,7 @@ export class Bfd extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Bfd resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Bfd to import
-  * @param importFromId The id of the existing Bfd that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Bfd that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Bfd to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1794,7 +1794,7 @@ export class Bfd extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd iosxe_bfd} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd iosxe_bfd} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1805,8 +1805,8 @@ export class Bfd extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bfd',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface ClassicKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Key type; options: [AES128GCM, AES256GCM, AES128SIV, AES256SIV, AES128CBC, AES256CBC, RSA1024, RSA2048, RSA3072, RSA4096, EC256, EC384, GPG]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#alg ClassicKey#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#alg ClassicKey#alg}
   */
   readonly alg: string;
   /**
   * Whether to automatically rotate every --rotation-interval days, or disable existing automatic rotation [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#auto_rotate ClassicKey#auto_rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#auto_rotate ClassicKey#auto_rotate}
   */
   readonly autoRotate?: string;
   /**
   * PEM Certificate in a Base64 format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#cert_file_data ClassicKey#cert_file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#cert_file_data ClassicKey#cert_file_data}
   */
   readonly certFileData?: string;
   /**
   * Common name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_common_name ClassicKey#certificate_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_common_name ClassicKey#certificate_common_name}
   */
   readonly certificateCommonName?: string;
   /**
   * Country name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_country ClassicKey#certificate_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_country ClassicKey#certificate_country}
   */
   readonly certificateCountry?: string;
   /**
   * The format of the returned certificate [pem/der]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_format ClassicKey#certificate_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_format ClassicKey#certificate_format}
   */
   readonly certificateFormat?: string;
   /**
   * Locality for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_locality ClassicKey#certificate_locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_locality ClassicKey#certificate_locality}
   */
   readonly certificateLocality?: string;
   /**
   * Organization name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_organization ClassicKey#certificate_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_organization ClassicKey#certificate_organization}
   */
   readonly certificateOrganization?: string;
   /**
   * Province name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_province ClassicKey#certificate_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_province ClassicKey#certificate_province}
   */
   readonly certificateProvince?: string;
   /**
   * TTL in days for the generated certificate. Required only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#certificate_ttl ClassicKey#certificate_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#certificate_ttl ClassicKey#certificate_ttl}
   */
   readonly certificateTtl?: number;
   /**
   * The csr config data in base64 encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#conf_file_data ClassicKey#conf_file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#conf_file_data ClassicKey#conf_file_data}
   */
   readonly confFileData?: string;
   /**
   * Protection from accidental deletion of this object, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#delete_protection ClassicKey#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#delete_protection ClassicKey#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#description ClassicKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#description ClassicKey#description}
   */
   readonly description?: string;
   /**
   * How many days before the expiration of the certificate would you like to be notified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#expiration_event_in ClassicKey#expiration_event_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#expiration_event_in ClassicKey#expiration_event_in}
   */
   readonly expirationEventIn?: string[];
   /**
   * Whether to generate a self signed certificate with the key. If set, certificate_ttl must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#generate_self_signed_certificate ClassicKey#generate_self_signed_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#generate_self_signed_certificate ClassicKey#generate_self_signed_certificate}
   */
   readonly generateSelfSignedCertificate?: boolean | cdktf.IResolvable;
   /**
   * gpg alg: Relevant only if GPG key type selected; options: [RSA1024, RSA2048, RSA3072, RSA4096, Ed25519]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#gpg_alg ClassicKey#gpg_alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#gpg_alg ClassicKey#gpg_alg}
   */
   readonly gpgAlg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#id ClassicKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#id ClassicKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,43 +113,43 @@ export interface ClassicKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Base64-encoded classic key value provided by user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#key_data ClassicKey#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#key_data ClassicKey#key_data}
   */
   readonly keyData?: string;
   /**
   * Classic key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#name ClassicKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#name ClassicKey#name}
   */
   readonly name: string;
   /**
   * The name of the key that protects the classic key value (if empty, the account default key will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#protection_key_name ClassicKey#protection_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#protection_key_name ClassicKey#protection_key_name}
   */
   readonly protectionKeyName?: string;
   /**
   * How many days before the rotation of the item would you like to be notified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#rotation_event_in ClassicKey#rotation_event_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#rotation_event_in ClassicKey#rotation_event_in}
   */
   readonly rotationEventIn?: string[];
   /**
   * The number of days to wait between every automatic rotation (1-365)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#rotation_interval ClassicKey#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#rotation_interval ClassicKey#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * List of the tags attached to this key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#tags ClassicKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#tags ClassicKey#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key akeyless_classic_key}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key akeyless_classic_key}
 */
 export class ClassicKey extends cdktf.TerraformResource {
 
@@ -165,7 +165,7 @@ export class ClassicKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ClassicKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ClassicKey to import
-  * @param importFromId The id of the existing ClassicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ClassicKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ClassicKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +177,7 @@ export class ClassicKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/classic_key akeyless_classic_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/classic_key akeyless_classic_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +188,8 @@ export class ClassicKey extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_classic_key',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,161 +10,621 @@ export interface VmConfig extends cdktf.TerraformMetaArguments {
   /**
   * If true, the VM is cloned from the template instead of linked. As a result, the template can be removed and the VM still exists.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#clone Vm#clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#clone Vm#clone}
   */
   readonly clone?: boolean | cdktf.IResolvable;
   /**
   * Cluster to create this VM on.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#cluster_id Vm#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#cluster_id Vm#cluster_id}
   */
   readonly clusterId: string;
   /**
   * User-provided comment for the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#comment Vm#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#comment Vm#comment}
   */
   readonly comment?: string;
   /**
   * Number of CPU cores to allocate to the VM. If set, cpu_threads and cpu_sockets must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#cpu_cores Vm#cpu_cores}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#cpu_cores Vm#cpu_cores}
   */
   readonly cpuCores?: number;
   /**
   * Sets the CPU mode for the VM. Can be one of: custom, host_model, host_passthrough
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#cpu_mode Vm#cpu_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#cpu_mode Vm#cpu_mode}
   */
   readonly cpuMode?: string;
   /**
   * Number of CPU sockets to allocate to the VM. If set, cpu_cores and cpu_threads must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#cpu_sockets Vm#cpu_sockets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#cpu_sockets Vm#cpu_sockets}
   */
   readonly cpuSockets?: number;
   /**
   * Number of CPU threads to allocate to the VM. If set, cpu_cores and cpu_sockets must also be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#cpu_threads Vm#cpu_threads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#cpu_threads Vm#cpu_threads}
   */
   readonly cpuThreads?: number;
   /**
   * Sets the HugePages setting for the VM. Must be one of: 2048, 1048576
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#huge_pages Vm#huge_pages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#huge_pages Vm#huge_pages}
   */
   readonly hugePages?: number;
   /**
   * Custom script that passed to VM during initialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#initialization_custom_script Vm#initialization_custom_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#initialization_custom_script Vm#initialization_custom_script}
   */
   readonly initializationCustomScript?: string;
   /**
   * hostname that is set during initialization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#initialization_hostname Vm#initialization_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#initialization_hostname Vm#initialization_hostname}
   */
   readonly initializationHostname?: string;
   /**
   * Defines the VM instance type ID overrides the hardware parameters of the created VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#instance_type_id Vm#instance_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#instance_type_id Vm#instance_type_id}
   */
   readonly instanceTypeId?: string;
   /**
   * Maximum memory to assign to the VM in the memory policy in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#maximum_memory Vm#maximum_memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#maximum_memory Vm#maximum_memory}
   */
   readonly maximumMemory?: number;
   /**
   * Memory to assign to the VM in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#memory Vm#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#memory Vm#memory}
   */
   readonly memory?: number;
   /**
   * Turn memory ballooning on or off for the VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#memory_ballooning Vm#memory_ballooning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#memory_ballooning Vm#memory_ballooning}
   */
   readonly memoryBallooning?: boolean | cdktf.IResolvable;
   /**
   * User-provided name for the VM. Must only consist of lower- and uppercase letters, numbers, dash, underscore and dot.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#name Vm#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#name Vm#name}
   */
   readonly name: string;
   /**
   * Operating system type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#os_type Vm#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#os_type Vm#os_type}
   */
   readonly osType?: string;
   /**
   * Affinity for placement policies. Must be one of: migratable, pinned, user_migratable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#placement_policy_affinity Vm#placement_policy_affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#placement_policy_affinity Vm#placement_policy_affinity}
   */
   readonly placementPolicyAffinity?: string;
   /**
   * List of hosts to pin the VM to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#placement_policy_host_ids Vm#placement_policy_host_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#placement_policy_host_ids Vm#placement_policy_host_ids}
   */
   readonly placementPolicyHostIds?: string[];
   /**
   * Enable or disable the serial console.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#serial_console Vm#serial_console}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#serial_console Vm#serial_console}
   */
   readonly serialConsole?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable the soundcard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#soundcard_enabled Vm#soundcard_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#soundcard_enabled Vm#soundcard_enabled}
   */
   readonly soundcardEnabled?: boolean | cdktf.IResolvable;
   /**
   * Base template for this VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#template_id Vm#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#template_id Vm#template_id}
   */
   readonly templateId: string;
   /**
   * Virtual machine type. Must be one of: desktop, server, high_performance
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#vm_type Vm#vm_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#vm_type Vm#vm_type}
   */
   readonly vmType?: string;
   /**
+  * initialization_nic block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#initialization_nic Vm#initialization_nic}
+  */
+  readonly initializationNic?: VmInitializationNic;
+  /**
   * template_disk_attachment_override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#template_disk_attachment_override Vm#template_disk_attachment_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#template_disk_attachment_override Vm#template_disk_attachment_override}
   */
   readonly templateDiskAttachmentOverride?: VmTemplateDiskAttachmentOverride[] | cdktf.IResolvable;
+}
+export interface VmInitializationNicIpv4 {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#address Vm#address}
+  */
+  readonly address?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#gateway Vm#gateway}
+  */
+  readonly gateway?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#netmask Vm#netmask}
+  */
+  readonly netmask?: string;
+}
+
+export function vmInitializationNicIpv4ToTerraform(struct?: VmInitializationNicIpv4OutputReference | VmInitializationNicIpv4): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    address: cdktf.stringToTerraform(struct!.address),
+    gateway: cdktf.stringToTerraform(struct!.gateway),
+    netmask: cdktf.stringToTerraform(struct!.netmask),
+  }
+}
+
+
+export function vmInitializationNicIpv4ToHclTerraform(struct?: VmInitializationNicIpv4OutputReference | VmInitializationNicIpv4): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    address: {
+      value: cdktf.stringToHclTerraform(struct!.address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    gateway: {
+      value: cdktf.stringToHclTerraform(struct!.gateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    netmask: {
+      value: cdktf.stringToHclTerraform(struct!.netmask),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VmInitializationNicIpv4OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VmInitializationNicIpv4 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address;
+    }
+    if (this._gateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gateway = this._gateway;
+    }
+    if (this._netmask !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.netmask = this._netmask;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VmInitializationNicIpv4 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._address = undefined;
+      this._gateway = undefined;
+      this._netmask = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._address = value.address;
+      this._gateway = value.gateway;
+      this._netmask = value.netmask;
+    }
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address?: string; 
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+  public set address(value: string) {
+    this._address = value;
+  }
+  public resetAddress() {
+    this._address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address;
+  }
+
+  // gateway - computed: false, optional: true, required: false
+  private _gateway?: string; 
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+  public set gateway(value: string) {
+    this._gateway = value;
+  }
+  public resetGateway() {
+    this._gateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayInput() {
+    return this._gateway;
+  }
+
+  // netmask - computed: false, optional: true, required: false
+  private _netmask?: string; 
+  public get netmask() {
+    return this.getStringAttribute('netmask');
+  }
+  public set netmask(value: string) {
+    this._netmask = value;
+  }
+  public resetNetmask() {
+    this._netmask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get netmaskInput() {
+    return this._netmask;
+  }
+}
+export interface VmInitializationNicIpv6 {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#address Vm#address}
+  */
+  readonly address?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#gateway Vm#gateway}
+  */
+  readonly gateway?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#netmask Vm#netmask}
+  */
+  readonly netmask?: string;
+}
+
+export function vmInitializationNicIpv6ToTerraform(struct?: VmInitializationNicIpv6OutputReference | VmInitializationNicIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    address: cdktf.stringToTerraform(struct!.address),
+    gateway: cdktf.stringToTerraform(struct!.gateway),
+    netmask: cdktf.stringToTerraform(struct!.netmask),
+  }
+}
+
+
+export function vmInitializationNicIpv6ToHclTerraform(struct?: VmInitializationNicIpv6OutputReference | VmInitializationNicIpv6): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    address: {
+      value: cdktf.stringToHclTerraform(struct!.address),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    gateway: {
+      value: cdktf.stringToHclTerraform(struct!.gateway),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    netmask: {
+      value: cdktf.stringToHclTerraform(struct!.netmask),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VmInitializationNicIpv6OutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VmInitializationNicIpv6 | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._address !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.address = this._address;
+    }
+    if (this._gateway !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.gateway = this._gateway;
+    }
+    if (this._netmask !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.netmask = this._netmask;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VmInitializationNicIpv6 | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._address = undefined;
+      this._gateway = undefined;
+      this._netmask = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._address = value.address;
+      this._gateway = value.gateway;
+      this._netmask = value.netmask;
+    }
+  }
+
+  // address - computed: false, optional: true, required: false
+  private _address?: string; 
+  public get address() {
+    return this.getStringAttribute('address');
+  }
+  public set address(value: string) {
+    this._address = value;
+  }
+  public resetAddress() {
+    this._address = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get addressInput() {
+    return this._address;
+  }
+
+  // gateway - computed: false, optional: true, required: false
+  private _gateway?: string; 
+  public get gateway() {
+    return this.getStringAttribute('gateway');
+  }
+  public set gateway(value: string) {
+    this._gateway = value;
+  }
+  public resetGateway() {
+    this._gateway = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gatewayInput() {
+    return this._gateway;
+  }
+
+  // netmask - computed: false, optional: true, required: false
+  private _netmask?: string; 
+  public get netmask() {
+    return this.getStringAttribute('netmask');
+  }
+  public set netmask(value: string) {
+    this._netmask = value;
+  }
+  public resetNetmask() {
+    this._netmask = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get netmaskInput() {
+    return this._netmask;
+  }
+}
+export interface VmInitializationNic {
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#name Vm#name}
+  */
+  readonly name: string;
+  /**
+  * ipv4 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#ipv4 Vm#ipv4}
+  */
+  readonly ipv4: VmInitializationNicIpv4;
+  /**
+  * ipv6 block
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#ipv6 Vm#ipv6}
+  */
+  readonly ipv6?: VmInitializationNicIpv6;
+}
+
+export function vmInitializationNicToTerraform(struct?: VmInitializationNicOutputReference | VmInitializationNic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    name: cdktf.stringToTerraform(struct!.name),
+    ipv4: vmInitializationNicIpv4ToTerraform(struct!.ipv4),
+    ipv6: vmInitializationNicIpv6ToTerraform(struct!.ipv6),
+  }
+}
+
+
+export function vmInitializationNicToHclTerraform(struct?: VmInitializationNicOutputReference | VmInitializationNic): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    name: {
+      value: cdktf.stringToHclTerraform(struct!.name),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    ipv4: {
+      value: vmInitializationNicIpv4ToHclTerraform(struct!.ipv4),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VmInitializationNicIpv4List",
+    },
+    ipv6: {
+      value: vmInitializationNicIpv6ToHclTerraform(struct!.ipv6),
+      isBlock: true,
+      type: "list",
+      storageClassType: "VmInitializationNicIpv6List",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class VmInitializationNicOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false, 0);
+  }
+
+  public get internalValue(): VmInitializationNic | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._name !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.name = this._name;
+    }
+    if (this._ipv4?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv4 = this._ipv4?.internalValue;
+    }
+    if (this._ipv6?.internalValue !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.ipv6 = this._ipv6?.internalValue;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: VmInitializationNic | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._name = undefined;
+      this._ipv4.internalValue = undefined;
+      this._ipv6.internalValue = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._name = value.name;
+      this._ipv4.internalValue = value.ipv4;
+      this._ipv6.internalValue = value.ipv6;
+    }
+  }
+
+  // name - computed: false, optional: false, required: true
+  private _name?: string; 
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+  public set name(value: string) {
+    this._name = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get nameInput() {
+    return this._name;
+  }
+
+  // ipv4 - computed: false, optional: false, required: true
+  private _ipv4 = new VmInitializationNicIpv4OutputReference(this, "ipv4");
+  public get ipv4() {
+    return this._ipv4;
+  }
+  public putIpv4(value: VmInitializationNicIpv4) {
+    this._ipv4.internalValue = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4Input() {
+    return this._ipv4.internalValue;
+  }
+
+  // ipv6 - computed: false, optional: true, required: false
+  private _ipv6 = new VmInitializationNicIpv6OutputReference(this, "ipv6");
+  public get ipv6() {
+    return this._ipv6;
+  }
+  public putIpv6(value: VmInitializationNicIpv6) {
+    this._ipv6.internalValue = value;
+  }
+  public resetIpv6() {
+    this._ipv6.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6Input() {
+    return this._ipv6.internalValue;
+  }
 }
 export interface VmTemplateDiskAttachmentOverride {
   /**
   * ID of the disk to be changed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#disk_id Vm#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#disk_id Vm#disk_id}
   */
   readonly diskId: string;
   /**
   * Disk format for the override. Can be 'raw' or 'cow'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#format Vm#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#format Vm#format}
   */
   readonly format?: string;
   /**
   * Provisioning the disk. Must be one of sparse,non-sparse
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#provisioning Vm#provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#provisioning Vm#provisioning}
   */
   readonly provisioning?: string;
+  /**
+  * ID of the storage domain where the new disk will be placed.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#storage_domain_id Vm#storage_domain_id}
+  */
+  readonly storageDomainId?: string;
 }
 
 export function vmTemplateDiskAttachmentOverrideToTerraform(struct?: VmTemplateDiskAttachmentOverride | cdktf.IResolvable): any {
@@ -176,6 +636,7 @@ export function vmTemplateDiskAttachmentOverrideToTerraform(struct?: VmTemplateD
     disk_id: cdktf.stringToTerraform(struct!.diskId),
     format: cdktf.stringToTerraform(struct!.format),
     provisioning: cdktf.stringToTerraform(struct!.provisioning),
+    storage_domain_id: cdktf.stringToTerraform(struct!.storageDomainId),
   }
 }
 
@@ -200,6 +661,12 @@ export function vmTemplateDiskAttachmentOverrideToHclTerraform(struct?: VmTempla
     },
     provisioning: {
       value: cdktf.stringToHclTerraform(struct!.provisioning),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    storage_domain_id: {
+      value: cdktf.stringToHclTerraform(struct!.storageDomainId),
       isBlock: false,
       type: "simple",
       storageClassType: "string",
@@ -242,6 +709,10 @@ export class VmTemplateDiskAttachmentOverrideOutputReference extends cdktf.Compl
       hasAnyValues = true;
       internalValueResult.provisioning = this._provisioning;
     }
+    if (this._storageDomainId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.storageDomainId = this._storageDomainId;
+    }
     return hasAnyValues ? internalValueResult : undefined;
   }
 
@@ -252,6 +723,7 @@ export class VmTemplateDiskAttachmentOverrideOutputReference extends cdktf.Compl
       this._diskId = undefined;
       this._format = undefined;
       this._provisioning = undefined;
+      this._storageDomainId = undefined;
     }
     else if (cdktf.Tokenization.isResolvable(value)) {
       this.isEmptyObject = false;
@@ -263,6 +735,7 @@ export class VmTemplateDiskAttachmentOverrideOutputReference extends cdktf.Compl
       this._diskId = value.diskId;
       this._format = value.format;
       this._provisioning = value.provisioning;
+      this._storageDomainId = value.storageDomainId;
     }
   }
 
@@ -310,6 +783,22 @@ export class VmTemplateDiskAttachmentOverrideOutputReference extends cdktf.Compl
   public get provisioningInput() {
     return this._provisioning;
   }
+
+  // storage_domain_id - computed: false, optional: true, required: false
+  private _storageDomainId?: string; 
+  public get storageDomainId() {
+    return this.getStringAttribute('storage_domain_id');
+  }
+  public set storageDomainId(value: string) {
+    this._storageDomainId = value;
+  }
+  public resetStorageDomainId() {
+    this._storageDomainId = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get storageDomainIdInput() {
+    return this._storageDomainId;
+  }
 }
 
 export class VmTemplateDiskAttachmentOverrideList extends cdktf.ComplexList {
@@ -333,7 +822,7 @@ export class VmTemplateDiskAttachmentOverrideList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm ovirt_vm}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm ovirt_vm}
 */
 export class Vm extends cdktf.TerraformResource {
 
@@ -349,7 +838,7 @@ export class Vm extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vm resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vm to import
-  * @param importFromId The id of the existing Vm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vm that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vm to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -361,7 +850,7 @@ export class Vm extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm ovirt_vm} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm ovirt_vm} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -372,8 +861,8 @@ export class Vm extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_vm',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -405,6 +894,7 @@ export class Vm extends cdktf.TerraformResource {
     this._soundcardEnabled = config.soundcardEnabled;
     this._templateId = config.templateId;
     this._vmType = config.vmType;
+    this._initializationNic.internalValue = config.initializationNic;
     this._templateDiskAttachmentOverride.internalValue = config.templateDiskAttachmentOverride;
   }
 
@@ -770,6 +1260,22 @@ export class Vm extends cdktf.TerraformResource {
     return this._vmType;
   }
 
+  // initialization_nic - computed: false, optional: true, required: false
+  private _initializationNic = new VmInitializationNicOutputReference(this, "initialization_nic");
+  public get initializationNic() {
+    return this._initializationNic;
+  }
+  public putInitializationNic(value: VmInitializationNic) {
+    this._initializationNic.internalValue = value;
+  }
+  public resetInitializationNic() {
+    this._initializationNic.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get initializationNicInput() {
+    return this._initializationNic.internalValue;
+  }
+
   // template_disk_attachment_override - computed: false, optional: true, required: false
   private _templateDiskAttachmentOverride = new VmTemplateDiskAttachmentOverrideList(this, "template_disk_attachment_override", true);
   public get templateDiskAttachmentOverride() {
@@ -814,6 +1320,7 @@ export class Vm extends cdktf.TerraformResource {
       soundcard_enabled: cdktf.booleanToTerraform(this._soundcardEnabled),
       template_id: cdktf.stringToTerraform(this._templateId),
       vm_type: cdktf.stringToTerraform(this._vmType),
+      initialization_nic: vmInitializationNicToTerraform(this._initializationNic.internalValue),
       template_disk_attachment_override: cdktf.listMapper(vmTemplateDiskAttachmentOverrideToTerraform, true)(this._templateDiskAttachmentOverride.internalValue),
     };
   }
@@ -951,6 +1458,12 @@ export class Vm extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "string",
+      },
+      initialization_nic: {
+        value: vmInitializationNicToHclTerraform(this._initializationNic.internalValue),
+        isBlock: true,
+        type: "list",
+        storageClassType: "VmInitializationNicList",
       },
       template_disk_attachment_override: {
         value: cdktf.listMapperHcl(vmTemplateDiskAttachmentOverrideToHclTerraform, true)(this._templateDiskAttachmentOverride.internalValue),

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface DynamicSecretGitlabConfig extends cdktf.TerraformMetaArguments 
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#delete_protection DynamicSecretGitlab#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#delete_protection DynamicSecretGitlab#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#description DynamicSecretGitlab#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#description DynamicSecretGitlab#description}
   */
   readonly description?: string;
   /**
   * Gitlab access token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#gitlab_access_token DynamicSecretGitlab#gitlab_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#gitlab_access_token DynamicSecretGitlab#gitlab_access_token}
   */
   readonly gitlabAccessToken?: string;
   /**
   * Gitlab access token type [project,group]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#gitlab_access_type DynamicSecretGitlab#gitlab_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#gitlab_access_type DynamicSecretGitlab#gitlab_access_type}
   */
   readonly gitlabAccessType?: string;
   /**
   * Gitlab tls certificate (base64 encoded)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#gitlab_certificate DynamicSecretGitlab#gitlab_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#gitlab_certificate DynamicSecretGitlab#gitlab_certificate}
   */
   readonly gitlabCertificate?: string;
   /**
   * Gitlab role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#gitlab_role DynamicSecretGitlab#gitlab_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#gitlab_role DynamicSecretGitlab#gitlab_role}
   */
   readonly gitlabRole?: string;
   /**
   * Comma-separated list of access token scopes to grant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#gitlab_token_scopes DynamicSecretGitlab#gitlab_token_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#gitlab_token_scopes DynamicSecretGitlab#gitlab_token_scopes}
   */
   readonly gitlabTokenScopes?: string;
   /**
   * Gitlab base url
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#gitlab_url DynamicSecretGitlab#gitlab_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#gitlab_url DynamicSecretGitlab#gitlab_url}
   */
   readonly gitlabUrl?: string;
   /**
   * Gitlab group name, required for access-type=group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#group_name DynamicSecretGitlab#group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#group_name DynamicSecretGitlab#group_name}
   */
   readonly groupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#id DynamicSecretGitlab#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#id DynamicSecretGitlab#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,37 +71,37 @@ export interface DynamicSecretGitlabConfig extends cdktf.TerraformMetaArguments 
   /**
   * Gitlab project name, required for access-type=project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#installation_organization DynamicSecretGitlab#installation_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#installation_organization DynamicSecretGitlab#installation_organization}
   */
   readonly installationOrganization?: string;
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#name DynamicSecretGitlab#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#name DynamicSecretGitlab#name}
   */
   readonly name: string;
   /**
   * A comma-separated list of tags attached to this secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#tags DynamicSecretGitlab#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#tags DynamicSecretGitlab#tags}
   */
   readonly tags?: string[];
   /**
   * Name of an existing target
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#target_name DynamicSecretGitlab#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#target_name DynamicSecretGitlab#target_name}
   */
   readonly targetName?: string;
   /**
   * Access Token TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#ttl DynamicSecretGitlab#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#ttl DynamicSecretGitlab#ttl}
   */
   readonly ttl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab akeyless_dynamic_secret_gitlab}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab akeyless_dynamic_secret_gitlab}
 */
 export class DynamicSecretGitlab extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class DynamicSecretGitlab extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretGitlab resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretGitlab to import
-  * @param importFromId The id of the existing DynamicSecretGitlab that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretGitlab that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretGitlab to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class DynamicSecretGitlab extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_gitlab akeyless_dynamic_secret_gitlab} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_gitlab akeyless_dynamic_secret_gitlab} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class DynamicSecretGitlab extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_gitlab',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

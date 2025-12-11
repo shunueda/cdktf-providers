@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,74 +8,74 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointDockerregistryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#description ServiceendpointDockerregistry#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#description ServiceendpointDockerregistry#description}
   */
   readonly description?: string;
   /**
   * The DockerRegistry email address which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#docker_email ServiceendpointDockerregistry#docker_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#docker_email ServiceendpointDockerregistry#docker_email}
   */
   readonly dockerEmail?: string;
   /**
   * The DockerRegistry password which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#docker_password ServiceendpointDockerregistry#docker_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#docker_password ServiceendpointDockerregistry#docker_password}
   */
   readonly dockerPassword?: string;
   /**
   * The DockerRegistry registry which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#docker_registry ServiceendpointDockerregistry#docker_registry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#docker_registry ServiceendpointDockerregistry#docker_registry}
   */
   readonly dockerRegistry?: string;
   /**
   * The DockerRegistry username which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#docker_username ServiceendpointDockerregistry#docker_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#docker_username ServiceendpointDockerregistry#docker_username}
   */
   readonly dockerUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#id ServiceendpointDockerregistry#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#id ServiceendpointDockerregistry#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#project_id ServiceendpointDockerregistry#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#project_id ServiceendpointDockerregistry#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#registry_type ServiceendpointDockerregistry#registry_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#registry_type ServiceendpointDockerregistry#registry_type}
   */
   readonly registryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#service_endpoint_name ServiceendpointDockerregistry#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#service_endpoint_name ServiceendpointDockerregistry#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#timeouts ServiceendpointDockerregistry#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#timeouts ServiceendpointDockerregistry#timeouts}
   */
   readonly timeouts?: ServiceendpointDockerregistryTimeouts;
 }
 export interface ServiceendpointDockerregistryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#create ServiceendpointDockerregistry#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#create ServiceendpointDockerregistry#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#delete ServiceendpointDockerregistry#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#delete ServiceendpointDockerregistry#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#read ServiceendpointDockerregistry#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#read ServiceendpointDockerregistry#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#update ServiceendpointDockerregistry#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#update ServiceendpointDockerregistry#update}
   */
   readonly update?: string;
 }
@@ -256,7 +256,7 @@ export class ServiceendpointDockerregistryTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry azuredevops_serviceendpoint_dockerregistry}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry azuredevops_serviceendpoint_dockerregistry}
 */
 export class ServiceendpointDockerregistry extends cdktf.TerraformResource {
 
@@ -272,7 +272,7 @@ export class ServiceendpointDockerregistry extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointDockerregistry resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointDockerregistry to import
-  * @param importFromId The id of the existing ServiceendpointDockerregistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointDockerregistry that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointDockerregistry to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -284,7 +284,7 @@ export class ServiceendpointDockerregistry extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_dockerregistry azuredevops_serviceendpoint_dockerregistry} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_dockerregistry azuredevops_serviceendpoint_dockerregistry} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -295,8 +295,8 @@ export class ServiceendpointDockerregistry extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_dockerregistry',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

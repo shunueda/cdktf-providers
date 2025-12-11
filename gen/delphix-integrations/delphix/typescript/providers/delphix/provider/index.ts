@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,35 +8,35 @@ import * as cdktf from 'cdktf';
 
 export interface DelphixProviderConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#debug DelphixProvider#debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#debug DelphixProvider#debug}
   */
   readonly debug?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#host DelphixProvider#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#host DelphixProvider#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#host_scheme DelphixProvider#host_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#host_scheme DelphixProvider#host_scheme}
   */
   readonly hostScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#key DelphixProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#key DelphixProvider#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#tls_insecure_skip DelphixProvider#tls_insecure_skip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#tls_insecure_skip DelphixProvider#tls_insecure_skip}
   */
   readonly tlsInsecureSkip?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#alias DelphixProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#alias DelphixProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs delphix}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs delphix}
 */
 export class DelphixProvider extends cdktf.TerraformProvider {
 
@@ -52,7 +52,7 @@ export class DelphixProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a DelphixProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DelphixProvider to import
-  * @param importFromId The id of the existing DelphixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DelphixProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DelphixProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -64,7 +64,7 @@ export class DelphixProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs delphix} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs delphix} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -75,8 +75,8 @@ export class DelphixProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'delphix',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       terraformProviderSource: 'delphix-integrations/delphix'
     });

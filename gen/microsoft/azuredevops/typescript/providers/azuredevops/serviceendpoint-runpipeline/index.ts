@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointRunpipelineConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#description ServiceendpointRunpipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#description ServiceendpointRunpipeline#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#id ServiceendpointRunpipeline#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#id ServiceendpointRunpipeline#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,27 +21,27 @@ export interface ServiceendpointRunpipelineConfig extends cdktf.TerraformMetaArg
   /**
   * Azure DevOps organization name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#organization_name ServiceendpointRunpipeline#organization_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#organization_name ServiceendpointRunpipeline#organization_name}
   */
   readonly organizationName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#project_id ServiceendpointRunpipeline#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#project_id ServiceendpointRunpipeline#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#service_endpoint_name ServiceendpointRunpipeline#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#service_endpoint_name ServiceendpointRunpipeline#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * auth_personal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#auth_personal ServiceendpointRunpipeline#auth_personal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#auth_personal ServiceendpointRunpipeline#auth_personal}
   */
   readonly authPersonal: ServiceendpointRunpipelineAuthPersonal;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#timeouts ServiceendpointRunpipeline#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#timeouts ServiceendpointRunpipeline#timeouts}
   */
   readonly timeouts?: ServiceendpointRunpipelineTimeouts;
 }
@@ -49,7 +49,7 @@ export interface ServiceendpointRunpipelineAuthPersonal {
   /**
   * The Azure DevOps personal access token which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#personal_access_token ServiceendpointRunpipeline#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#personal_access_token ServiceendpointRunpipeline#personal_access_token}
   */
   readonly personalAccessToken: string;
 }
@@ -130,19 +130,19 @@ export class ServiceendpointRunpipelineAuthPersonalOutputReference extends cdktf
 }
 export interface ServiceendpointRunpipelineTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#create ServiceendpointRunpipeline#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#create ServiceendpointRunpipeline#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#delete ServiceendpointRunpipeline#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#delete ServiceendpointRunpipeline#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#read ServiceendpointRunpipeline#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#read ServiceendpointRunpipeline#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#update ServiceendpointRunpipeline#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#update ServiceendpointRunpipeline#update}
   */
   readonly update?: string;
 }
@@ -323,7 +323,7 @@ export class ServiceendpointRunpipelineTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline azuredevops_serviceendpoint_runpipeline}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline azuredevops_serviceendpoint_runpipeline}
 */
 export class ServiceendpointRunpipeline extends cdktf.TerraformResource {
 
@@ -339,7 +339,7 @@ export class ServiceendpointRunpipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointRunpipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointRunpipeline to import
-  * @param importFromId The id of the existing ServiceendpointRunpipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointRunpipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointRunpipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -351,7 +351,7 @@ export class ServiceendpointRunpipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_runpipeline azuredevops_serviceendpoint_runpipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_runpipeline azuredevops_serviceendpoint_runpipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -362,8 +362,8 @@ export class ServiceendpointRunpipeline extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_runpipeline',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

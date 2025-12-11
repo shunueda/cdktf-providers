@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DynamicSecretMongodbConfig extends cdktf.TerraformMetaArguments
   /**
   * Customize how temporary usernames are generated using go template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#custom_username_template DynamicSecretMongodb#custom_username_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#custom_username_template DynamicSecretMongodb#custom_username_template}
   */
   readonly customUsernameTemplate?: string;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#encryption_key_name DynamicSecretMongodb#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#encryption_key_name DynamicSecretMongodb#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#id DynamicSecretMongodb#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#id DynamicSecretMongodb#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,133 +29,133 @@ export interface DynamicSecretMongodbConfig extends cdktf.TerraformMetaArguments
   /**
   * MongoDB Atlas private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_atlas_api_private_key DynamicSecretMongodb#mongodb_atlas_api_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_atlas_api_private_key DynamicSecretMongodb#mongodb_atlas_api_private_key}
   */
   readonly mongodbAtlasApiPrivateKey?: string;
   /**
   * MongoDB Atlas public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_atlas_api_public_key DynamicSecretMongodb#mongodb_atlas_api_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_atlas_api_public_key DynamicSecretMongodb#mongodb_atlas_api_public_key}
   */
   readonly mongodbAtlasApiPublicKey?: string;
   /**
   * MongoDB Atlas project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_atlas_project_id DynamicSecretMongodb#mongodb_atlas_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_atlas_project_id DynamicSecretMongodb#mongodb_atlas_project_id}
   */
   readonly mongodbAtlasProjectId?: string;
   /**
   * MongoDB server default authentication database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_default_auth_db DynamicSecretMongodb#mongodb_default_auth_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_default_auth_db DynamicSecretMongodb#mongodb_default_auth_db}
   */
   readonly mongodbDefaultAuthDb?: string;
   /**
   * host:port (e.g. my.mongo.db:27017)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_host_port DynamicSecretMongodb#mongodb_host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_host_port DynamicSecretMongodb#mongodb_host_port}
   */
   readonly mongodbHostPort?: string;
   /**
   * MongoDB name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_name DynamicSecretMongodb#mongodb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_name DynamicSecretMongodb#mongodb_name}
   */
   readonly mongodbName?: string;
   /**
   * MongoDB server password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_password DynamicSecretMongodb#mongodb_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_password DynamicSecretMongodb#mongodb_password}
   */
   readonly mongodbPassword?: string;
   /**
   * MongoDB roles (e.g. MongoDB:[{role:readWrite, db: sales}], MongoDB Atlas:[{roleName : readWrite, databaseName: sales}])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_roles DynamicSecretMongodb#mongodb_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_roles DynamicSecretMongodb#mongodb_roles}
   */
   readonly mongodbRoles?: string;
   /**
   * MongoDB server URI (e.g. mongodb://user:password@my.mongo.db:27017/admin?replicaSet=mySet)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_server_uri DynamicSecretMongodb#mongodb_server_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_server_uri DynamicSecretMongodb#mongodb_server_uri}
   */
   readonly mongodbServerUri?: string;
   /**
   * MongoDB server URI options (e.g. replicaSet=mySet&authSource=authDB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_uri_options DynamicSecretMongodb#mongodb_uri_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_uri_options DynamicSecretMongodb#mongodb_uri_options}
   */
   readonly mongodbUriOptions?: string;
   /**
   * MongoDB server username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#mongodb_username DynamicSecretMongodb#mongodb_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#mongodb_username DynamicSecretMongodb#mongodb_username}
   */
   readonly mongodbUsername?: string;
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#name DynamicSecretMongodb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#name DynamicSecretMongodb#name}
   */
   readonly name: string;
   /**
   * The length of the password to be generated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#password_length DynamicSecretMongodb#password_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#password_length DynamicSecretMongodb#password_length}
   */
   readonly passwordLength?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#secure_access_bastion_issuer DynamicSecretMongodb#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#secure_access_bastion_issuer DynamicSecretMongodb#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * The DB name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#secure_access_db_name DynamicSecretMongodb#secure_access_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#secure_access_db_name DynamicSecretMongodb#secure_access_db_name}
   */
   readonly secureAccessDbName?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#secure_access_enable DynamicSecretMongodb#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#secure_access_enable DynamicSecretMongodb#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target DB servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#secure_access_host DynamicSecretMongodb#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#secure_access_host DynamicSecretMongodb#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Enable Web Secure Remote Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#secure_access_web DynamicSecretMongodb#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#secure_access_web DynamicSecretMongodb#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#tags DynamicSecretMongodb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#tags DynamicSecretMongodb#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in dynamic secret creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#target_name DynamicSecretMongodb#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#target_name DynamicSecretMongodb#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL (e.g. 60s, 60m, 60h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#user_ttl DynamicSecretMongodb#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#user_ttl DynamicSecretMongodb#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb akeyless_dynamic_secret_mongodb}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb akeyless_dynamic_secret_mongodb}
 */
 export class DynamicSecretMongodb extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class DynamicSecretMongodb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretMongodb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretMongodb to import
-  * @param importFromId The id of the existing DynamicSecretMongodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretMongodb that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretMongodb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class DynamicSecretMongodb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_mongodb akeyless_dynamic_secret_mongodb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_mongodb akeyless_dynamic_secret_mongodb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class DynamicSecretMongodb extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_mongodb',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

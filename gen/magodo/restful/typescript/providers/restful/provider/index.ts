@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/magodo/restful/0.24.0/docs
+// https://registry.terraform.io/providers/magodo/restful/0.25.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface RestfulProviderConfig {
   /**
   * The base URL of the API provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#base_url RestfulProvider#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#base_url RestfulProvider#base_url}
   */
   readonly baseUrl: string;
   /**
   * The client configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client RestfulProvider#client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client RestfulProvider#client}
   */
   readonly client?: RestfulProviderClient;
   /**
   * The method used to create the resource. Possible values are `PUT` and `POST`. Defaults to `POST`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#create_method RestfulProvider#create_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#create_method RestfulProvider#create_method}
   */
   readonly createMethod?: string;
   /**
   * The method used to delete the resource. Possible values are `DELETE` and `POST`. Defaults to `DELETE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#delete_method RestfulProvider#delete_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#delete_method RestfulProvider#delete_method}
   */
   readonly deleteMethod?: string;
   /**
   * The header parameters that are applied to each request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#header RestfulProvider#header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#header RestfulProvider#header}
   */
   readonly header?: { [key: string]: string };
   /**
   * Whether to use a JSON Merge Patch as the request body in the PATCH update? Defaults to `false`. This is only effective when `update_method` is set to `PATCH`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#merge_patch_disabled RestfulProvider#merge_patch_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#merge_patch_disabled RestfulProvider#merge_patch_disabled}
   */
   readonly mergePatchDisabled?: boolean | cdktf.IResolvable;
   /**
   * The query parameters that are applied to each request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#query RestfulProvider#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#query RestfulProvider#query}
   */
   readonly query?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * The OpenAPI security scheme that is be used for auth. Only one of `http`, `apikey` and `oauth2` can be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#security RestfulProvider#security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#security RestfulProvider#security}
   */
   readonly security?: RestfulProviderSecurity;
   /**
   * The method used to update the resource. Possible values are `PUT` and `PATCH`. Defaults to `PUT`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#update_method RestfulProvider#update_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#update_method RestfulProvider#update_method}
   */
   readonly updateMethod?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#alias RestfulProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#alias RestfulProvider#alias}
   */
   readonly alias?: string;
 }
@@ -72,25 +72,25 @@ export interface RestfulProviderClientCertificates {
   /**
   * The client certificate for mTLS. Conflicts with `certificate_file`. Requires `key_file` or `key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#certificate RestfulProvider#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#certificate RestfulProvider#certificate}
   */
   readonly certificate?: string;
   /**
   * The path of the client certificate file for mTLS. Conflicts with `certificate`. Requires `key_file` or `key`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#certificate_file RestfulProvider#certificate_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#certificate_file RestfulProvider#certificate_file}
   */
   readonly certificateFile?: string;
   /**
   * The client private key for mTLS. Conflicts with `key_file`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#key RestfulProvider#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#key RestfulProvider#key}
   */
   readonly key?: string;
   /**
   * The path of the client private key file for mTLS. Conflicts with `key`. Requires `certificate_file` or `certificate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#key_file RestfulProvider#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#key_file RestfulProvider#key_file}
   */
   readonly keyFile?: string;
 }
@@ -149,25 +149,25 @@ export interface RestfulProviderClientRetry {
   /**
   * The maximum allowed retries. Defaults to `3`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#count RestfulProvider#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#count RestfulProvider#count}
   */
   readonly count?: number;
   /**
   * The maximum allowed retry wait time. Defaults to `3600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#max_wait_in_sec RestfulProvider#max_wait_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#max_wait_in_sec RestfulProvider#max_wait_in_sec}
   */
   readonly maxWaitInSec?: number;
   /**
   * The status codes that will retry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#status_codes RestfulProvider#status_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#status_codes RestfulProvider#status_codes}
   */
   readonly statusCodes: number[];
   /**
   * The initial retry wait time between two retries in second, if there is no `Retry-After` in the response header, or the `Retry-After` is less than this. The wait time will be increased in capped exponential backoff with jitter, at most up to `max_wait_in_sec` (if not null). Defaults to `1`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#wait_in_sec RestfulProvider#wait_in_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#wait_in_sec RestfulProvider#wait_in_sec}
   */
   readonly waitInSec?: number;
 }
@@ -226,37 +226,37 @@ export interface RestfulProviderClient {
   /**
   * The client certificates for mTLS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#certificates RestfulProvider#certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#certificates RestfulProvider#certificates}
   */
   readonly certificates?: RestfulProviderClientCertificates[] | cdktf.IResolvable;
   /**
   * Save cookies during API contracting. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#cookie_enabled RestfulProvider#cookie_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#cookie_enabled RestfulProvider#cookie_enabled}
   */
   readonly cookieEnabled?: boolean | cdktf.IResolvable;
   /**
   * The retry option for the client
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#retry RestfulProvider#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#retry RestfulProvider#retry}
   */
   readonly retry?: RestfulProviderClientRetry;
   /**
   * The list of certificate file paths of root certificate authorities that clients use when verifying server certificates. If not specified, TLS uses the host's root CA set. Conflicts with `root_ca_certificate_files`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#root_ca_certificate_files RestfulProvider#root_ca_certificate_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#root_ca_certificate_files RestfulProvider#root_ca_certificate_files}
   */
   readonly rootCaCertificateFiles?: string[];
   /**
   * The list of certificates of root certificate authorities that clients use when verifying server certificates. If not specified, TLS uses the host's root CA set. Conflicts with `root_ca_certificate_files`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#root_ca_certificates RestfulProvider#root_ca_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#root_ca_certificates RestfulProvider#root_ca_certificates}
   */
   readonly rootCaCertificates?: string[];
   /**
   * Whether a client verifies the server's certificate chain and host name. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#tls_insecure_skip_verify RestfulProvider#tls_insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#tls_insecure_skip_verify RestfulProvider#tls_insecure_skip_verify}
   */
   readonly tlsInsecureSkipVerify?: boolean | cdktf.IResolvable;
 }
@@ -329,19 +329,19 @@ export interface RestfulProviderSecurityApikey {
   /**
   * Specifies how is the API Key is sent. Possible values are `query`, `header` and `cookie`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#in RestfulProvider#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#in RestfulProvider#in}
   */
   readonly in: string;
   /**
   * The API Key name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#name RestfulProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#name RestfulProvider#name}
   */
   readonly name: string;
   /**
   * The API Key value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#value RestfulProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#value RestfulProvider#value}
   */
   readonly value: string;
 }
@@ -393,13 +393,13 @@ export interface RestfulProviderSecurityHttpBasic {
   /**
   * The password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#password RestfulProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#password RestfulProvider#password}
   */
   readonly password: string;
   /**
   * The username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#username RestfulProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#username RestfulProvider#username}
   */
   readonly username: string;
 }
@@ -444,13 +444,13 @@ export interface RestfulProviderSecurityHttpToken {
   /**
   * The auth scheme. Defaults to `Bearer`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#scheme RestfulProvider#scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#scheme RestfulProvider#scheme}
   */
   readonly scheme?: string;
   /**
   * The value of the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#token RestfulProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#token RestfulProvider#token}
   */
   readonly token: string;
 }
@@ -495,13 +495,13 @@ export interface RestfulProviderSecurityHttp {
   /**
   * Basic authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#basic RestfulProvider#basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#basic RestfulProvider#basic}
   */
   readonly basic?: RestfulProviderSecurityHttpBasic;
   /**
   * Auth token (e.g. Bearer).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#token RestfulProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#token RestfulProvider#token}
   */
   readonly token?: RestfulProviderSecurityHttpToken;
 }
@@ -546,37 +546,37 @@ export interface RestfulProviderSecurityOauth2ClientCredentials {
   /**
   * The application's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_id RestfulProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_id RestfulProvider#client_id}
   */
   readonly clientId: string;
   /**
   * The application's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_secret RestfulProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_secret RestfulProvider#client_secret}
   */
   readonly clientSecret: string;
   /**
   * The additional parameters for requests to the token endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#endpoint_params RestfulProvider#endpoint_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#endpoint_params RestfulProvider#endpoint_params}
   */
   readonly endpointParams?: { [key: string]: string[] } | cdktf.IResolvable;
   /**
   * Specifies how is th client ID & secret sent. Possible values are `params` and `header`. If absent, the style used will be auto detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#in RestfulProvider#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#in RestfulProvider#in}
   */
   readonly in?: string;
   /**
   * The optional requested permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#scopes RestfulProvider#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#scopes RestfulProvider#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token URL to be used for this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#token_url RestfulProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#token_url RestfulProvider#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -649,43 +649,43 @@ export interface RestfulProviderSecurityOauth2Password {
   /**
   * The application's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_id RestfulProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_id RestfulProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The application's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_secret RestfulProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_secret RestfulProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Specifies how is th client ID & secret sent. Possible values are `params` and `header`. If absent, the style used will be auto detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#in RestfulProvider#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#in RestfulProvider#in}
   */
   readonly in?: string;
   /**
   * The password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#password RestfulProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#password RestfulProvider#password}
   */
   readonly password: string;
   /**
   * The optional requested permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#scopes RestfulProvider#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#scopes RestfulProvider#scopes}
   */
   readonly scopes?: string[];
   /**
   * The token URL to be used for this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#token_url RestfulProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#token_url RestfulProvider#token_url}
   */
   readonly tokenUrl: string;
   /**
   * The username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#username RestfulProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#username RestfulProvider#username}
   */
   readonly username: string;
 }
@@ -765,43 +765,43 @@ export interface RestfulProviderSecurityOauth2RefreshToken {
   /**
   * The application's ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_id RestfulProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_id RestfulProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The application's secret.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_secret RestfulProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_secret RestfulProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Specifies how is th client ID & secret sent. Possible values are `params` and `header`. If absent, the style used will be auto detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#in RestfulProvider#in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#in RestfulProvider#in}
   */
   readonly in?: string;
   /**
   * The refresh token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#refresh_token RestfulProvider#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#refresh_token RestfulProvider#refresh_token}
   */
   readonly refreshToken: string;
   /**
   * The optional requested permissions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#scopes RestfulProvider#scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#scopes RestfulProvider#scopes}
   */
   readonly scopes?: string[];
   /**
   * The type of the access token. Defaults to "Bearer".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#token_type RestfulProvider#token_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#token_type RestfulProvider#token_type}
   */
   readonly tokenType?: string;
   /**
   * The token URL to be used for this flow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#token_url RestfulProvider#token_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#token_url RestfulProvider#token_url}
   */
   readonly tokenUrl: string;
 }
@@ -881,19 +881,19 @@ export interface RestfulProviderSecurityOauth2 {
   /**
   * [Client credentials](https://www.rfc-editor.org/rfc/rfc6749#section-4.4).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#client_credentials RestfulProvider#client_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#client_credentials RestfulProvider#client_credentials}
   */
   readonly clientCredentials?: RestfulProviderSecurityOauth2ClientCredentials;
   /**
   * [Resource owner password credential](https://www.rfc-editor.org/rfc/rfc6749#section-4.3).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#password RestfulProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#password RestfulProvider#password}
   */
   readonly password?: RestfulProviderSecurityOauth2Password;
   /**
   * [Refresh token](https://www.rfc-editor.org/rfc/rfc6749#section-6).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#refresh_token RestfulProvider#refresh_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#refresh_token RestfulProvider#refresh_token}
   */
   readonly refreshToken?: RestfulProviderSecurityOauth2RefreshToken;
 }
@@ -945,19 +945,19 @@ export interface RestfulProviderSecurity {
   /**
   * Configuration for the API Key authentication scheme.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#apikey RestfulProvider#apikey}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#apikey RestfulProvider#apikey}
   */
   readonly apikey?: RestfulProviderSecurityApikey[] | cdktf.IResolvable;
   /**
   * Configuration for the HTTP authentication scheme. Exactly one of `basic` and `token` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#http RestfulProvider#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#http RestfulProvider#http}
   */
   readonly http?: RestfulProviderSecurityHttp;
   /**
   * Configuration for the OAuth2 authentication scheme. Exactly one of `password`, `client_credentials` and `refresh_token` must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#oauth2 RestfulProvider#oauth2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#oauth2 RestfulProvider#oauth2}
   */
   readonly oauth2?: RestfulProviderSecurityOauth2;
 }
@@ -1007,7 +1007,7 @@ export function restfulProviderSecurityToHclTerraform(struct?: RestfulProviderSe
 
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs restful}
+* Represents a {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs restful}
 */
 export class RestfulProvider extends cdktf.TerraformProvider {
 
@@ -1023,7 +1023,7 @@ export class RestfulProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a RestfulProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RestfulProvider to import
-  * @param importFromId The id of the existing RestfulProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RestfulProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RestfulProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1035,7 +1035,7 @@ export class RestfulProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/magodo/restful/0.24.0/docs restful} Resource
+  * Create a new {@link https://registry.terraform.io/providers/magodo/restful/0.25.0/docs restful} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1046,8 +1046,8 @@ export class RestfulProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'restful',
       terraformGeneratorMetadata: {
         providerName: 'restful',
-        providerVersion: '0.24.0',
-        providerVersionConstraint: '0.24.0'
+        providerVersion: '0.25.0',
+        providerVersionConstraint: '0.25.0'
       },
       terraformProviderSource: 'magodo/restful'
     });

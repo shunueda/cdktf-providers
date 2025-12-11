@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,34 +8,34 @@ import * as cdktf from 'cdktf';
 
 export interface TraceJaegerRemoteSamplingStrategyConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#id TraceJaegerRemoteSamplingStrategy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#id TraceJaegerRemoteSamplingStrategy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#name TraceJaegerRemoteSamplingStrategy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#name TraceJaegerRemoteSamplingStrategy#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#service_name TraceJaegerRemoteSamplingStrategy#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#service_name TraceJaegerRemoteSamplingStrategy#service_name}
   */
   readonly serviceName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#slug TraceJaegerRemoteSamplingStrategy#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#slug TraceJaegerRemoteSamplingStrategy#slug}
   */
   readonly slug?: string;
   /**
   * applied_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#applied_strategy TraceJaegerRemoteSamplingStrategy#applied_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#applied_strategy TraceJaegerRemoteSamplingStrategy#applied_strategy}
   */
   readonly appliedStrategy: TraceJaegerRemoteSamplingStrategyAppliedStrategy;
 }
 export interface TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrategiesPerOperationStrategiesProbabilisticStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#sampling_rate TraceJaegerRemoteSamplingStrategy#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#sampling_rate TraceJaegerRemoteSamplingStrategy#sampling_rate}
   */
   readonly samplingRate: number;
 }
@@ -116,13 +116,13 @@ export class TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrateg
 }
 export interface TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrategiesPerOperationStrategies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#operation TraceJaegerRemoteSamplingStrategy#operation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#operation TraceJaegerRemoteSamplingStrategy#operation}
   */
   readonly operation: string;
   /**
   * probabilistic_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#probabilistic_strategy TraceJaegerRemoteSamplingStrategy#probabilistic_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#probabilistic_strategy TraceJaegerRemoteSamplingStrategy#probabilistic_strategy}
   */
   readonly probabilisticStrategy: TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrategiesPerOperationStrategiesProbabilisticStrategy;
 }
@@ -261,21 +261,21 @@ export class TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrateg
 }
 export interface TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrategies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#default_lower_bound_traces_per_second TraceJaegerRemoteSamplingStrategy#default_lower_bound_traces_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#default_lower_bound_traces_per_second TraceJaegerRemoteSamplingStrategy#default_lower_bound_traces_per_second}
   */
   readonly defaultLowerBoundTracesPerSecond?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#default_sampling_rate TraceJaegerRemoteSamplingStrategy#default_sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#default_sampling_rate TraceJaegerRemoteSamplingStrategy#default_sampling_rate}
   */
   readonly defaultSamplingRate: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#default_upper_bound_traces_per_second TraceJaegerRemoteSamplingStrategy#default_upper_bound_traces_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#default_upper_bound_traces_per_second TraceJaegerRemoteSamplingStrategy#default_upper_bound_traces_per_second}
   */
   readonly defaultUpperBoundTracesPerSecond?: number;
   /**
   * per_operation_strategies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#per_operation_strategies TraceJaegerRemoteSamplingStrategy#per_operation_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#per_operation_strategies TraceJaegerRemoteSamplingStrategy#per_operation_strategies}
   */
   readonly perOperationStrategies?: TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrategiesPerOperationStrategies[] | cdktf.IResolvable;
 }
@@ -443,7 +443,7 @@ export class TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrateg
 }
 export interface TraceJaegerRemoteSamplingStrategyAppliedStrategyProbabilisticStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#sampling_rate TraceJaegerRemoteSamplingStrategy#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#sampling_rate TraceJaegerRemoteSamplingStrategy#sampling_rate}
   */
   readonly samplingRate: number;
 }
@@ -524,7 +524,7 @@ export class TraceJaegerRemoteSamplingStrategyAppliedStrategyProbabilisticStrate
 }
 export interface TraceJaegerRemoteSamplingStrategyAppliedStrategyRateLimitingStrategy {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#max_traces_per_second TraceJaegerRemoteSamplingStrategy#max_traces_per_second}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#max_traces_per_second TraceJaegerRemoteSamplingStrategy#max_traces_per_second}
   */
   readonly maxTracesPerSecond: number;
 }
@@ -607,19 +607,19 @@ export interface TraceJaegerRemoteSamplingStrategyAppliedStrategy {
   /**
   * per_operation_strategies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#per_operation_strategies TraceJaegerRemoteSamplingStrategy#per_operation_strategies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#per_operation_strategies TraceJaegerRemoteSamplingStrategy#per_operation_strategies}
   */
   readonly perOperationStrategies?: TraceJaegerRemoteSamplingStrategyAppliedStrategyPerOperationStrategies;
   /**
   * probabilistic_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#probabilistic_strategy TraceJaegerRemoteSamplingStrategy#probabilistic_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#probabilistic_strategy TraceJaegerRemoteSamplingStrategy#probabilistic_strategy}
   */
   readonly probabilisticStrategy?: TraceJaegerRemoteSamplingStrategyAppliedStrategyProbabilisticStrategy;
   /**
   * rate_limiting_strategy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#rate_limiting_strategy TraceJaegerRemoteSamplingStrategy#rate_limiting_strategy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#rate_limiting_strategy TraceJaegerRemoteSamplingStrategy#rate_limiting_strategy}
   */
   readonly rateLimitingStrategy?: TraceJaegerRemoteSamplingStrategyAppliedStrategyRateLimitingStrategy;
 }
@@ -761,7 +761,7 @@ export class TraceJaegerRemoteSamplingStrategyAppliedStrategyOutputReference ext
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy chronosphere_trace_jaeger_remote_sampling_strategy}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy chronosphere_trace_jaeger_remote_sampling_strategy}
 */
 export class TraceJaegerRemoteSamplingStrategy extends cdktf.TerraformResource {
 
@@ -777,7 +777,7 @@ export class TraceJaegerRemoteSamplingStrategy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TraceJaegerRemoteSamplingStrategy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TraceJaegerRemoteSamplingStrategy to import
-  * @param importFromId The id of the existing TraceJaegerRemoteSamplingStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TraceJaegerRemoteSamplingStrategy that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TraceJaegerRemoteSamplingStrategy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -789,7 +789,7 @@ export class TraceJaegerRemoteSamplingStrategy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/trace_jaeger_remote_sampling_strategy chronosphere_trace_jaeger_remote_sampling_strategy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/trace_jaeger_remote_sampling_strategy chronosphere_trace_jaeger_remote_sampling_strategy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -800,8 +800,8 @@ export class TraceJaegerRemoteSamplingStrategy extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_trace_jaeger_remote_sampling_strategy',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,45 +10,45 @@ export interface ApplicationServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * This field defines the domain or IP address of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#address ApplicationServer#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#address ApplicationServer#address}
   */
   readonly address: string;
   /**
   * This field defines the list of server groups IDs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#app_server_group_ids ApplicationServer#app_server_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#app_server_group_ids ApplicationServer#app_server_group_ids}
   */
   readonly appServerGroupIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#config_space ApplicationServer#config_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#config_space ApplicationServer#config_space}
   */
   readonly configSpace?: string;
   /**
   * This field defines the description of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#description ApplicationServer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#description ApplicationServer#description}
   */
   readonly description?: string;
   /**
   * This field defines the status of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#enabled ApplicationServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#enabled ApplicationServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#microtenant_id ApplicationServer#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#microtenant_id ApplicationServer#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This field defines the name of the server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#name ApplicationServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#name ApplicationServer#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server zpa_application_server}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server zpa_application_server}
 */
 export class ApplicationServer extends cdktf.TerraformResource {
 
@@ -64,7 +64,7 @@ export class ApplicationServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationServer to import
-  * @param importFromId The id of the existing ApplicationServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -76,7 +76,7 @@ export class ApplicationServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_server zpa_application_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_server zpa_application_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -87,8 +87,8 @@ export class ApplicationServer extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_application_server',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

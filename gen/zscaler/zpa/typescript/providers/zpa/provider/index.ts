@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface ZpaProviderConfig {
   /**
   * Use exponential back off strategy for rate limits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#backoff ZpaProvider#backoff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#backoff ZpaProvider#backoff}
   */
   readonly backoff?: boolean | cdktf.IResolvable;
   /**
   * zpa client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#client_id ZpaProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#client_id ZpaProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * zpa client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#client_secret ZpaProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#client_secret ZpaProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * zpa customer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#customer_id ZpaProvider#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#customer_id ZpaProvider#customer_id}
   */
   readonly customerId?: string;
   /**
   * Alternate HTTP proxy of scheme://hostname or scheme://hostname:port format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#http_proxy ZpaProvider#http_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#http_proxy ZpaProvider#http_proxy}
   */
   readonly httpProxy?: string;
   /**
   * maximum number of retries to attempt before erroring out.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#max_retries ZpaProvider#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#max_retries ZpaProvider#max_retries}
   */
   readonly maxRetries?: number;
   /**
   * maximum seconds to wait when rate limit is hit. We use exponential backoffs when backoff is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#max_wait_seconds ZpaProvider#max_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#max_wait_seconds ZpaProvider#max_wait_seconds}
   */
   readonly maxWaitSeconds?: number;
   /**
   * zpa microtenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#microtenant_id ZpaProvider#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#microtenant_id ZpaProvider#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * minimum seconds to wait when rate limit is hit. We use exponential backoffs when backoff is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#min_wait_seconds ZpaProvider#min_wait_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#min_wait_seconds ZpaProvider#min_wait_seconds}
   */
   readonly minWaitSeconds?: number;
   /**
   * Number of concurrent requests to make within a resource where bulk operations are not possible. Take note of https://help.zscaler.com/zpa/understanding-rate-limiting.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#parallelism ZpaProvider#parallelism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#parallelism ZpaProvider#parallelism}
   */
   readonly parallelism?: number;
   /**
   * zpa private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#private_key ZpaProvider#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#private_key ZpaProvider#private_key}
   */
   readonly privateKey?: string;
   /**
   * Timeout for single request (in seconds) which is made to Zscaler, the default is `0` (means no limit is set). The maximum value can be `300`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#request_timeout ZpaProvider#request_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#request_timeout ZpaProvider#request_timeout}
   */
   readonly requestTimeout?: number;
   /**
   * Enables interaction with the ZPA legacy API framework
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#use_legacy_client ZpaProvider#use_legacy_client}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#use_legacy_client ZpaProvider#use_legacy_client}
   */
   readonly useLegacyClient?: boolean | cdktf.IResolvable;
   /**
   * Zscaler Vanity Domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#vanity_domain ZpaProvider#vanity_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#vanity_domain ZpaProvider#vanity_domain}
   */
   readonly vanityDomain?: string;
   /**
   * zpa client id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#zpa_client_id ZpaProvider#zpa_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#zpa_client_id ZpaProvider#zpa_client_id}
   */
   readonly zpaClientId?: string;
   /**
   * zpa client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#zpa_client_secret ZpaProvider#zpa_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#zpa_client_secret ZpaProvider#zpa_client_secret}
   */
   readonly zpaClientSecret?: string;
   /**
   * Cloud to use PRODUCTION, ZPATWO, BETA, GOV, GOVUS, PREVIEW, DEV, QA, QA2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#zpa_cloud ZpaProvider#zpa_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#zpa_cloud ZpaProvider#zpa_cloud}
   */
   readonly zpaCloud?: string;
   /**
   * zpa customer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#zpa_customer_id ZpaProvider#zpa_customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#zpa_customer_id ZpaProvider#zpa_customer_id}
   */
   readonly zpaCustomerId?: string;
   /**
   * Zscaler Cloud Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#zscaler_cloud ZpaProvider#zscaler_cloud}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#zscaler_cloud ZpaProvider#zscaler_cloud}
   */
   readonly zscalerCloud?: string;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#alias ZpaProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#alias ZpaProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs zpa}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs zpa}
 */
 export class ZpaProvider extends cdktf.TerraformProvider {
 
@@ -146,7 +146,7 @@ export class ZpaProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a ZpaProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ZpaProvider to import
-  * @param importFromId The id of the existing ZpaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ZpaProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ZpaProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -158,7 +158,7 @@ export class ZpaProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs zpa} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs zpa} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -169,8 +169,8 @@ export class ZpaProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'zpa',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       terraformProviderSource: 'zscaler/zpa'
     });

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,179 +10,179 @@ export interface ApplicationSegmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set to true, designates the application segment for API traffic inspection
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#api_protection_enabled ApplicationSegment#api_protection_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#api_protection_enabled ApplicationSegment#api_protection_enabled}
   */
   readonly apiProtectionEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#bypass_on_reauth ApplicationSegment#bypass_on_reauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#bypass_on_reauth ApplicationSegment#bypass_on_reauth}
   */
   readonly bypassOnReauth?: boolean | cdktf.IResolvable;
   /**
   * Indicates whether users can bypass ZPA to access applications.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#bypass_type ApplicationSegment#bypass_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#bypass_type ApplicationSegment#bypass_type}
   */
   readonly bypassType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#config_space ApplicationSegment#config_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#config_space ApplicationSegment#config_space}
   */
   readonly configSpace?: string;
   /**
   * Description of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#description ApplicationSegment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#description ApplicationSegment#description}
   */
   readonly description?: string;
   /**
   * List of domains and IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#domain_names ApplicationSegment#domain_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#domain_names ApplicationSegment#domain_names}
   */
   readonly domainNames: string[];
   /**
   * Whether Double Encryption is enabled or disabled for the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#double_encrypt ApplicationSegment#double_encrypt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#double_encrypt ApplicationSegment#double_encrypt}
   */
   readonly doubleEncrypt?: boolean | cdktf.IResolvable;
   /**
   * Whether this application is enabled or not.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#enabled ApplicationSegment#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#enabled ApplicationSegment#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#fqdn_dns_check ApplicationSegment#fqdn_dns_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#fqdn_dns_check ApplicationSegment#fqdn_dns_check}
   */
   readonly fqdnDnsCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#health_check_type ApplicationSegment#health_check_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#health_check_type ApplicationSegment#health_check_type}
   */
   readonly healthCheckType?: string;
   /**
   * Whether health reporting for the app is Continuous or On Access. Supported values: NONE, ON_ACCESS, CONTINUOUS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#health_reporting ApplicationSegment#health_reporting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#health_reporting ApplicationSegment#health_reporting}
   */
   readonly healthReporting?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#icmp_access_type ApplicationSegment#icmp_access_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#icmp_access_type ApplicationSegment#icmp_access_type}
   */
   readonly icmpAccessType?: string;
   /**
   * Indicates if Inspect Traffic with ZIA is enabled for the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#inspect_traffic_with_zia ApplicationSegment#inspect_traffic_with_zia}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#inspect_traffic_with_zia ApplicationSegment#inspect_traffic_with_zia}
   */
   readonly inspectTrafficWithZia?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#ip_anchored ApplicationSegment#ip_anchored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#ip_anchored ApplicationSegment#ip_anchored}
   */
   readonly ipAnchored?: boolean | cdktf.IResolvable;
   /**
   * Indicates if the Zscaler Client Connector (formerly Zscaler App or Z App) receives CNAME DNS records from the connectors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#is_cname_enabled ApplicationSegment#is_cname_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#is_cname_enabled ApplicationSegment#is_cname_enabled}
   */
   readonly isCnameEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#is_incomplete_dr_config ApplicationSegment#is_incomplete_dr_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#is_incomplete_dr_config ApplicationSegment#is_incomplete_dr_config}
   */
   readonly isIncompleteDrConfig?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#match_style ApplicationSegment#match_style}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#match_style ApplicationSegment#match_style}
   */
   readonly matchStyle?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#microtenant_id ApplicationSegment#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#microtenant_id ApplicationSegment#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Name of the application.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#name ApplicationSegment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#name ApplicationSegment#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#passive_health_enabled ApplicationSegment#passive_health_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#passive_health_enabled ApplicationSegment#passive_health_enabled}
   */
   readonly passiveHealthEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#segment_group_id ApplicationSegment#segment_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#segment_group_id ApplicationSegment#segment_group_id}
   */
   readonly segmentGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#segment_group_name ApplicationSegment#segment_group_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#segment_group_name ApplicationSegment#segment_group_name}
   */
   readonly segmentGroupName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#select_connector_close_to_app ApplicationSegment#select_connector_close_to_app}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#select_connector_close_to_app ApplicationSegment#select_connector_close_to_app}
   */
   readonly selectConnectorCloseToApp?: boolean | cdktf.IResolvable;
   /**
   * Share the Application Segment to microtenants
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#share_to_microtenants ApplicationSegment#share_to_microtenants}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#share_to_microtenants ApplicationSegment#share_to_microtenants}
   */
   readonly shareToMicrotenants?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#tcp_keep_alive ApplicationSegment#tcp_keep_alive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#tcp_keep_alive ApplicationSegment#tcp_keep_alive}
   */
   readonly tcpKeepAlive?: string;
   /**
   * tcp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#tcp_port_range ApplicationSegment#tcp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#tcp_port_range ApplicationSegment#tcp_port_range}
   */
   readonly tcpPortRange?: ApplicationSegmentTcpPortRange[] | cdktf.IResolvable;
   /**
   * TCP port ranges used to access the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#tcp_port_ranges ApplicationSegment#tcp_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#tcp_port_ranges ApplicationSegment#tcp_port_ranges}
   */
   readonly tcpPortRanges?: string[];
   /**
   * udp port range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#udp_port_range ApplicationSegment#udp_port_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#udp_port_range ApplicationSegment#udp_port_range}
   */
   readonly udpPortRange?: ApplicationSegmentUdpPortRange[] | cdktf.IResolvable;
   /**
   * UDP port ranges used to access the app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#udp_port_ranges ApplicationSegment#udp_port_ranges}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#udp_port_ranges ApplicationSegment#udp_port_ranges}
   */
   readonly udpPortRanges?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#use_in_dr_mode ApplicationSegment#use_in_dr_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#use_in_dr_mode ApplicationSegment#use_in_dr_mode}
   */
   readonly useInDrMode?: boolean | cdktf.IResolvable;
   /**
   * If set to true, designates the application segment for weighted load balancing
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#weighted_load_balancing ApplicationSegment#weighted_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#weighted_load_balancing ApplicationSegment#weighted_load_balancing}
   */
   readonly weightedLoadBalancing?: boolean | cdktf.IResolvable;
   /**
   * server_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#server_groups ApplicationSegment#server_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#server_groups ApplicationSegment#server_groups}
   */
   readonly serverGroups?: ApplicationSegmentServerGroups[] | cdktf.IResolvable;
   /**
   * zpn_er_id block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#zpn_er_id ApplicationSegment#zpn_er_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#zpn_er_id ApplicationSegment#zpn_er_id}
   */
   readonly zpnErId?: ApplicationSegmentZpnErId[] | cdktf.IResolvable;
 }
 export interface ApplicationSegmentTcpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#from ApplicationSegment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#from ApplicationSegment#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#to ApplicationSegment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#to ApplicationSegment#to}
   */
   readonly to?: string;
 }
@@ -327,11 +327,11 @@ export class ApplicationSegmentTcpPortRangeList extends cdktf.ComplexList {
 }
 export interface ApplicationSegmentUdpPortRange {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#from ApplicationSegment#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#from ApplicationSegment#from}
   */
   readonly from?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#to ApplicationSegment#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#to ApplicationSegment#to}
   */
   readonly to?: string;
 }
@@ -476,7 +476,7 @@ export class ApplicationSegmentUdpPortRangeList extends cdktf.ComplexList {
 }
 export interface ApplicationSegmentServerGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#id ApplicationSegment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#id ApplicationSegment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -592,7 +592,7 @@ export class ApplicationSegmentServerGroupsList extends cdktf.ComplexList {
 }
 export interface ApplicationSegmentZpnErId {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#id ApplicationSegment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#id ApplicationSegment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -708,7 +708,7 @@ export class ApplicationSegmentZpnErIdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment zpa_application_segment}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment zpa_application_segment}
 */
 export class ApplicationSegment extends cdktf.TerraformResource {
 
@@ -724,7 +724,7 @@ export class ApplicationSegment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApplicationSegment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationSegment to import
-  * @param importFromId The id of the existing ApplicationSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationSegment that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationSegment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -736,7 +736,7 @@ export class ApplicationSegment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment zpa_application_segment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment zpa_application_segment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -747,8 +747,8 @@ export class ApplicationSegment extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_application_segment',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

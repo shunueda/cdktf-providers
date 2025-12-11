@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface GatewayLogForwardingGoogleChronicleConfig extends cdktf.Terrafo
   /**
   * Google chronicle customer id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#customer_id GatewayLogForwardingGoogleChronicle#customer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#customer_id GatewayLogForwardingGoogleChronicle#customer_id}
   */
   readonly customerId?: string;
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#enable GatewayLogForwardingGoogleChronicle#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#enable GatewayLogForwardingGoogleChronicle#enable}
   */
   readonly enable?: string;
   /**
   * Base64-encoded service account private key text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#gcp_key GatewayLogForwardingGoogleChronicle#gcp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#gcp_key GatewayLogForwardingGoogleChronicle#gcp_key}
   */
   readonly gcpKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#id GatewayLogForwardingGoogleChronicle#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#id GatewayLogForwardingGoogleChronicle#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,31 +35,31 @@ export interface GatewayLogForwardingGoogleChronicleConfig extends cdktf.Terrafo
   /**
   * Google chronicle log type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#log_type GatewayLogForwardingGoogleChronicle#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#log_type GatewayLogForwardingGoogleChronicle#log_type}
   */
   readonly logType?: string;
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#output_format GatewayLogForwardingGoogleChronicle#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#output_format GatewayLogForwardingGoogleChronicle#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#pull_interval GatewayLogForwardingGoogleChronicle#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#pull_interval GatewayLogForwardingGoogleChronicle#pull_interval}
   */
   readonly pullInterval?: string;
   /**
   * Google chronicle region [eu_multi_region/london/us_multi_region/singapore/tel_aviv]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#region GatewayLogForwardingGoogleChronicle#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#region GatewayLogForwardingGoogleChronicle#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle akeyless_gateway_log_forwarding_google_chronicle}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle akeyless_gateway_log_forwarding_google_chronicle}
 */
 export class GatewayLogForwardingGoogleChronicle extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class GatewayLogForwardingGoogleChronicle extends cdktf.TerraformResource
   * Generates CDKTF code for importing a GatewayLogForwardingGoogleChronicle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingGoogleChronicle to import
-  * @param importFromId The id of the existing GatewayLogForwardingGoogleChronicle that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingGoogleChronicle that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingGoogleChronicle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class GatewayLogForwardingGoogleChronicle extends cdktf.TerraformResource
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_google_chronicle akeyless_gateway_log_forwarding_google_chronicle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_google_chronicle akeyless_gateway_log_forwarding_google_chronicle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class GatewayLogForwardingGoogleChronicle extends cdktf.TerraformResource
       terraformResourceType: 'akeyless_gateway_log_forwarding_google_chronicle',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

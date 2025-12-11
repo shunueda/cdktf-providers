@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "akeyless": "1.11.1"
+    "akeyless": "1.11.2"
   }
 }

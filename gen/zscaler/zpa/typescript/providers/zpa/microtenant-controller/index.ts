@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface MicrotenantControllerConfig extends cdktf.TerraformMetaArgument
   /**
   * The criteria attribute for the Microtenant. The supported value is AuthDomain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#criteria_attribute MicrotenantController#criteria_attribute}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#criteria_attribute MicrotenantController#criteria_attribute}
   */
   readonly criteriaAttribute?: string;
   /**
   * The value for the criteria attribute. This is the valid authentication domains configured for a customer (e.g., ExampleAuthDomain.com).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#criteria_attribute_values MicrotenantController#criteria_attribute_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#criteria_attribute_values MicrotenantController#criteria_attribute_values}
   */
   readonly criteriaAttributeValues?: string[];
   /**
   * The description of the Microtenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#description MicrotenantController#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#description MicrotenantController#description}
   */
   readonly description?: string;
   /**
   * Whether or not the Microtenant is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#enabled MicrotenantController#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#enabled MicrotenantController#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Name of the microtenant.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#name MicrotenantController#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#name MicrotenantController#name}
   */
   readonly name: string;
   /**
   * Indicates if Privileged Approvals is enabled (true) for the Microtenant. This allows approval-based access even if no Authentication Domain is selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#privileged_approvals_enabled MicrotenantController#privileged_approvals_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#privileged_approvals_enabled MicrotenantController#privileged_approvals_enabled}
   */
   readonly privilegedApprovalsEnabled?: boolean | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#user MicrotenantController#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#user MicrotenantController#user}
   */
   readonly user?: MicrotenantControllerUser[] | cdktf.IResolvable;
 }
@@ -153,7 +153,7 @@ export class MicrotenantControllerUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller zpa_microtenant_controller}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller zpa_microtenant_controller}
 */
 export class MicrotenantController extends cdktf.TerraformResource {
 
@@ -169,7 +169,7 @@ export class MicrotenantController extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MicrotenantController resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MicrotenantController to import
-  * @param importFromId The id of the existing MicrotenantController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MicrotenantController that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MicrotenantController to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -181,7 +181,7 @@ export class MicrotenantController extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/microtenant_controller zpa_microtenant_controller} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/microtenant_controller zpa_microtenant_controller} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -192,8 +192,8 @@ export class MicrotenantController extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_microtenant_controller',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

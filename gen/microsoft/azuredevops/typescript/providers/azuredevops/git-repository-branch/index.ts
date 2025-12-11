@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface GitRepositoryBranchConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#id GitRepositoryBranch#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#id GitRepositoryBranch#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#name GitRepositoryBranch#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#name GitRepositoryBranch#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#ref_branch GitRepositoryBranch#ref_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#ref_branch GitRepositoryBranch#ref_branch}
   */
   readonly refBranch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#ref_commit_id GitRepositoryBranch#ref_commit_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#ref_commit_id GitRepositoryBranch#ref_commit_id}
   */
   readonly refCommitId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#ref_tag GitRepositoryBranch#ref_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#ref_tag GitRepositoryBranch#ref_tag}
   */
   readonly refTag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#repository_id GitRepositoryBranch#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#repository_id GitRepositoryBranch#repository_id}
   */
   readonly repositoryId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#timeouts GitRepositoryBranch#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#timeouts GitRepositoryBranch#timeouts}
   */
   readonly timeouts?: GitRepositoryBranchTimeouts;
 }
 export interface GitRepositoryBranchTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#create GitRepositoryBranch#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#create GitRepositoryBranch#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#delete GitRepositoryBranch#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#delete GitRepositoryBranch#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#read GitRepositoryBranch#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#read GitRepositoryBranch#read}
   */
   readonly read?: string;
 }
@@ -203,7 +203,7 @@ export class GitRepositoryBranchTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch azuredevops_git_repository_branch}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch azuredevops_git_repository_branch}
 */
 export class GitRepositoryBranch extends cdktf.TerraformResource {
 
@@ -219,7 +219,7 @@ export class GitRepositoryBranch extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GitRepositoryBranch resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GitRepositoryBranch to import
-  * @param importFromId The id of the existing GitRepositoryBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GitRepositoryBranch that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GitRepositoryBranch to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -231,7 +231,7 @@ export class GitRepositoryBranch extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/git_repository_branch azuredevops_git_repository_branch} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/git_repository_branch azuredevops_git_repository_branch} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -242,8 +242,8 @@ export class GitRepositoryBranch extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_git_repository_branch',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

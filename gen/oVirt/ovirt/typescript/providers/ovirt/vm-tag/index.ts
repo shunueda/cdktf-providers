@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_tag
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_tag
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface VmTagConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID for the tag to be attached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_tag#tag_id VmTag#tag_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_tag#tag_id VmTag#tag_id}
   */
   readonly tagId: string;
   /**
   * ID for the VM to be attached
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_tag#vm_id VmTag#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_tag#vm_id VmTag#vm_id}
   */
   readonly vmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_tag ovirt_vm_tag}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_tag ovirt_vm_tag}
 */
 export class VmTag extends cdktf.TerraformResource {
 
@@ -38,7 +38,7 @@ export class VmTag extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VmTag resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VmTag to import
-  * @param importFromId The id of the existing VmTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_tag#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VmTag that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_tag#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VmTag to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class VmTag extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/vm_tag ovirt_vm_tag} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/vm_tag ovirt_vm_tag} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class VmTag extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_vm_tag',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

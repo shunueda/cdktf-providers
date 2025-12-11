@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,148 +8,152 @@ import * as cdktf from 'cdktf';
 
 export interface SystemAdminSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#access_banner SystemAdminSetting#access_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#access_banner SystemAdminSetting#access_banner}
   */
   readonly accessBanner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#admin_https_redirect SystemAdminSetting#admin_https_redirect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#admin_https_redirect SystemAdminSetting#admin_https_redirect}
   */
   readonly adminHttpsRedirect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#admin_login_max SystemAdminSetting#admin_login_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#admin_login_max SystemAdminSetting#admin_login_max}
   */
   readonly adminLoginMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#admin_server_cert SystemAdminSetting#admin_server_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#admin_scp SystemAdminSetting#admin_scp}
+  */
+  readonly adminScp?: string;
+  /**
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#admin_server_cert SystemAdminSetting#admin_server_cert}
   */
   readonly adminServerCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#auth_addr SystemAdminSetting#auth_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#auth_addr SystemAdminSetting#auth_addr}
   */
   readonly authAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#auth_port SystemAdminSetting#auth_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#auth_port SystemAdminSetting#auth_port}
   */
   readonly authPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#banner_message SystemAdminSetting#banner_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#banner_message SystemAdminSetting#banner_message}
   */
   readonly bannerMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#fgt_gui_proxy SystemAdminSetting#fgt_gui_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#fgt_gui_proxy SystemAdminSetting#fgt_gui_proxy}
   */
   readonly fgtGuiProxy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#fgt_gui_proxy_port SystemAdminSetting#fgt_gui_proxy_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#fgt_gui_proxy_port SystemAdminSetting#fgt_gui_proxy_port}
   */
   readonly fgtGuiProxyPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#firmware_upgrade_check SystemAdminSetting#firmware_upgrade_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#firmware_upgrade_check SystemAdminSetting#firmware_upgrade_check}
   */
   readonly firmwareUpgradeCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#fsw_ignore_platform_check SystemAdminSetting#fsw_ignore_platform_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#fsw_ignore_platform_check SystemAdminSetting#fsw_ignore_platform_check}
   */
   readonly fswIgnorePlatformCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#gui_theme SystemAdminSetting#gui_theme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#gui_theme SystemAdminSetting#gui_theme}
   */
   readonly guiTheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#http_port SystemAdminSetting#http_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#http_port SystemAdminSetting#http_port}
   */
   readonly httpPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#https_port SystemAdminSetting#https_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#https_port SystemAdminSetting#https_port}
   */
   readonly httpsPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#id SystemAdminSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#id SystemAdminSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#idle_timeout SystemAdminSetting#idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#idle_timeout SystemAdminSetting#idle_timeout}
   */
   readonly idleTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#idle_timeout_api SystemAdminSetting#idle_timeout_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#idle_timeout_api SystemAdminSetting#idle_timeout_api}
   */
   readonly idleTimeoutApi?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#idle_timeout_gui SystemAdminSetting#idle_timeout_gui}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#idle_timeout_gui SystemAdminSetting#idle_timeout_gui}
   */
   readonly idleTimeoutGui?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#idle_timeout_sso SystemAdminSetting#idle_timeout_sso}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#idle_timeout_sso SystemAdminSetting#idle_timeout_sso}
   */
   readonly idleTimeoutSso?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#object_threshold_limit SystemAdminSetting#object_threshold_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#object_threshold_limit SystemAdminSetting#object_threshold_limit}
   */
   readonly objectThresholdLimit?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#object_threshold_limit_value SystemAdminSetting#object_threshold_limit_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#object_threshold_limit_value SystemAdminSetting#object_threshold_limit_value}
   */
   readonly objectThresholdLimitValue?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#objects_force_deletion SystemAdminSetting#objects_force_deletion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#objects_force_deletion SystemAdminSetting#objects_force_deletion}
   */
   readonly objectsForceDeletion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#preferred_fgfm_intf SystemAdminSetting#preferred_fgfm_intf}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#preferred_fgfm_intf SystemAdminSetting#preferred_fgfm_intf}
   */
   readonly preferredFgfmIntf?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#shell_access SystemAdminSetting#shell_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#shell_access SystemAdminSetting#shell_access}
   */
   readonly shellAccess?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#shell_password SystemAdminSetting#shell_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#shell_password SystemAdminSetting#shell_password}
   */
   readonly shellPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_add_multiple SystemAdminSetting#show_add_multiple}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_add_multiple SystemAdminSetting#show_add_multiple}
   */
   readonly showAddMultiple?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_checkbox_in_table SystemAdminSetting#show_checkbox_in_table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_checkbox_in_table SystemAdminSetting#show_checkbox_in_table}
   */
   readonly showCheckboxInTable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_device_import_export SystemAdminSetting#show_device_import_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_device_import_export SystemAdminSetting#show_device_import_export}
   */
   readonly showDeviceImportExport?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_fct_manager SystemAdminSetting#show_fct_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_fct_manager SystemAdminSetting#show_fct_manager}
   */
   readonly showFctManager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_hostname SystemAdminSetting#show_hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_hostname SystemAdminSetting#show_hostname}
   */
   readonly showHostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_log_forwarding SystemAdminSetting#show_log_forwarding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_log_forwarding SystemAdminSetting#show_log_forwarding}
   */
   readonly showLogForwarding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#show_sdwan_manager SystemAdminSetting#show_sdwan_manager}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#show_sdwan_manager SystemAdminSetting#show_sdwan_manager}
   */
   readonly showSdwanManager?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#unreg_dev_opt SystemAdminSetting#unreg_dev_opt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#unreg_dev_opt SystemAdminSetting#unreg_dev_opt}
   */
   readonly unregDevOpt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#webadmin_language SystemAdminSetting#webadmin_language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#webadmin_language SystemAdminSetting#webadmin_language}
   */
   readonly webadminLanguage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting fortianalyzer_system_admin_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting fortianalyzer_system_admin_setting}
 */
 export class SystemAdminSetting extends cdktf.TerraformResource {
 
@@ -165,7 +169,7 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemAdminSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemAdminSetting to import
-  * @param importFromId The id of the existing SystemAdminSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemAdminSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemAdminSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -177,7 +181,7 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_admin_setting fortianalyzer_system_admin_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_admin_setting fortianalyzer_system_admin_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -188,8 +192,8 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_admin_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -202,6 +206,7 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
     this._accessBanner = config.accessBanner;
     this._adminHttpsRedirect = config.adminHttpsRedirect;
     this._adminLoginMax = config.adminLoginMax;
+    this._adminScp = config.adminScp;
     this._adminServerCert = config.adminServerCert;
     this._authAddr = config.authAddr;
     this._authPort = config.authPort;
@@ -285,6 +290,22 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get adminLoginMaxInput() {
     return this._adminLoginMax;
+  }
+
+  // admin_scp - computed: true, optional: true, required: false
+  private _adminScp?: string; 
+  public get adminScp() {
+    return this.getStringAttribute('admin_scp');
+  }
+  public set adminScp(value: string) {
+    this._adminScp = value;
+  }
+  public resetAdminScp() {
+    this._adminScp = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get adminScpInput() {
+    return this._adminScp;
   }
 
   // admin_server_cert - computed: true, optional: true, required: false
@@ -792,6 +813,7 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
       access_banner: cdktf.stringToTerraform(this._accessBanner),
       admin_https_redirect: cdktf.stringToTerraform(this._adminHttpsRedirect),
       admin_login_max: cdktf.numberToTerraform(this._adminLoginMax),
+      admin_scp: cdktf.stringToTerraform(this._adminScp),
       admin_server_cert: cdktf.stringToTerraform(this._adminServerCert),
       auth_addr: cdktf.stringToTerraform(this._authAddr),
       auth_port: cdktf.numberToTerraform(this._authPort),
@@ -845,6 +867,12 @@ export class SystemAdminSetting extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "number",
+      },
+      admin_scp: {
+        value: cdktf.stringToHclTerraform(this._adminScp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       admin_server_cert: {
         value: cdktf.stringToHclTerraform(this._adminServerCert),

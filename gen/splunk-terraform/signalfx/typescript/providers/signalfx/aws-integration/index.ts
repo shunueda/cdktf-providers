@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface AwsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS cold poll rate (in seconds). Between `60` and `1200`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#cold_poll_rate AwsIntegration#cold_poll_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#cold_poll_rate AwsIntegration#cold_poll_rate}
   */
   readonly coldPollRate?: number;
   /**
   * Indicates that Splunk Observability should only sync recommended statistics
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#collect_only_recommended_stats AwsIntegration#collect_only_recommended_stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#collect_only_recommended_stats AwsIntegration#collect_only_recommended_stats}
   */
   readonly collectOnlyRecommendedStats?: boolean | cdktf.IResolvable;
   /**
   * List of custom AWS CloudWatch namespaces to monitor. Custom namespaces contain custom metrics that you define in AWS; Splunk Observability imports the metrics so you can monitor them.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#custom_cloudwatch_namespaces AwsIntegration#custom_cloudwatch_namespaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#custom_cloudwatch_namespaces AwsIntegration#custom_cloudwatch_namespaces}
   */
   readonly customCloudwatchNamespaces?: string[];
   /**
   * Flag that controls how Splunk Observability imports usage metrics from AWS to use with AWS Cost Optimizer. If `true`, Splunk Observability imports the metrics.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#enable_aws_usage AwsIntegration#enable_aws_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#enable_aws_usage AwsIntegration#enable_aws_usage}
   */
   readonly enableAwsUsage?: boolean | cdktf.IResolvable;
   /**
   * Controls how Splunk Observability checks for large amounts of data for this AWS integration. If true, Splunk Observability monitors the amount of data coming in from the integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#enable_check_large_volume AwsIntegration#enable_check_large_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#enable_check_large_volume AwsIntegration#enable_check_large_volume}
   */
   readonly enableCheckLargeVolume?: boolean | cdktf.IResolvable;
   /**
   * Enables AWS logs synchronization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#enable_logs_sync AwsIntegration#enable_logs_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#enable_logs_sync AwsIntegration#enable_logs_sync}
   */
   readonly enableLogsSync?: boolean | cdktf.IResolvable;
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#enabled AwsIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#enabled AwsIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * Used with `signalfx_aws_external_integration`. Use this property to specify the external id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#external_id AwsIntegration#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#external_id AwsIntegration#external_id}
   */
   readonly externalId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#id AwsIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#id AwsIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,91 +65,91 @@ export interface AwsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Flag that controls how Splunk Observability imports Cloud Watch metrics. If true, Splunk Observability imports Cloud Watch metrics from AWS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#import_cloud_watch AwsIntegration#import_cloud_watch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#import_cloud_watch AwsIntegration#import_cloud_watch}
   */
   readonly importCloudWatch?: boolean | cdktf.IResolvable;
   /**
   * The ID of this integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#integration_id AwsIntegration#integration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#integration_id AwsIntegration#integration_id}
   */
   readonly integrationId: string;
   /**
   * Used with `signalfx_aws_token_integration`. Use this property to specify the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#key AwsIntegration#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#key AwsIntegration#key}
   */
   readonly key?: string;
   /**
   * If set to true, Splunk Observability Cloud accepts data from Metric Streams managed from the AWS console. The AWS account sending the Metric Streams and the AWS account in the Splunk Observability Cloud integration have to match.Requires `use_metric_streams_sync` set to true to work.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#metric_streams_managed_externally AwsIntegration#metric_streams_managed_externally}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#metric_streams_managed_externally AwsIntegration#metric_streams_managed_externally}
   */
   readonly metricStreamsManagedExternally?: boolean | cdktf.IResolvable;
   /**
   * A named token to use for ingest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#named_token AwsIntegration#named_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#named_token AwsIntegration#named_token}
   */
   readonly namedToken?: string;
   /**
   * AWS poll rate (in seconds). Between `60` and `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#poll_rate AwsIntegration#poll_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#poll_rate AwsIntegration#poll_rate}
   */
   readonly pollRate?: number;
   /**
   * List of AWS regions that Splunk Observability should monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#regions AwsIntegration#regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#regions AwsIntegration#regions}
   */
   readonly regions: string[];
   /**
   * Used with `signalfx_aws_external_integration`. Use this property to specify the AIM role ARN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#role_arn AwsIntegration#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#role_arn AwsIntegration#role_arn}
   */
   readonly roleArn?: string;
   /**
   * List of AWS services that you want Splunk Observability to monitor. Each element is a string designating an AWS service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#services AwsIntegration#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#services AwsIntegration#services}
   */
   readonly services?: string[];
   /**
   * Indicates that Splunk Observability should sync metrics and metadata from custom AWS namespaces only (see the `custom_namespace_sync_rule` field for details). Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#sync_custom_namespaces_only AwsIntegration#sync_custom_namespaces_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#sync_custom_namespaces_only AwsIntegration#sync_custom_namespaces_only}
   */
   readonly syncCustomNamespacesOnly?: boolean | cdktf.IResolvable;
   /**
   * Used with `signalfx_aws_token_integration`. Use this property to specify the token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#token AwsIntegration#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#token AwsIntegration#token}
   */
   readonly token?: string;
   /**
   * Enables the use of Cloudwatch Metric Streams for metrics synchronization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#use_metric_streams_sync AwsIntegration#use_metric_streams_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#use_metric_streams_sync AwsIntegration#use_metric_streams_sync}
   */
   readonly useMetricStreamsSync?: boolean | cdktf.IResolvable;
   /**
   * custom_namespace_sync_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#custom_namespace_sync_rule AwsIntegration#custom_namespace_sync_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#custom_namespace_sync_rule AwsIntegration#custom_namespace_sync_rule}
   */
   readonly customNamespaceSyncRule?: AwsIntegrationCustomNamespaceSyncRule[] | cdktf.IResolvable;
   /**
   * metric_stats_to_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#metric_stats_to_sync AwsIntegration#metric_stats_to_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#metric_stats_to_sync AwsIntegration#metric_stats_to_sync}
   */
   readonly metricStatsToSync?: AwsIntegrationMetricStatsToSync[] | cdktf.IResolvable;
   /**
   * namespace_sync_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#namespace_sync_rule AwsIntegration#namespace_sync_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#namespace_sync_rule AwsIntegration#namespace_sync_rule}
   */
   readonly namespaceSyncRule?: AwsIntegrationNamespaceSyncRule[] | cdktf.IResolvable;
 }
@@ -157,25 +157,25 @@ export interface AwsIntegrationCustomNamespaceSyncRule {
   /**
   * Controls the Splunk Observability default behavior for processing data from an AWS namespace. Splunk Observability ignores this property unless you specify the `filter_action` and `filter_source` properties. If you do specify them, use this property to control how Splunk Observability treats data that doesn't match the filter. The available actions are one of "Include" or "Exclude".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#default_action AwsIntegration#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#default_action AwsIntegration#default_action}
   */
   readonly defaultAction?: string;
   /**
   * Controls how Splunk Observability processes data from a custom AWS namespace. The available actions are one of "Include" or "Exclude".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#filter_action AwsIntegration#filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#filter_action AwsIntegration#filter_action}
   */
   readonly filterAction?: string;
   /**
   * Expression that selects the data that Splunk Observability should sync for the custom namespace associated with this sync rule. The expression uses the syntax defined for the SignalFlow `filter()` function; it can be any valid SignalFlow filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#filter_source AwsIntegration#filter_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#filter_source AwsIntegration#filter_source}
   */
   readonly filterSource?: string;
   /**
   * An AWS custom namespace having custom AWS metrics that you want to sync with Splunk Observability. See the AWS documentation on publishing metrics for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#namespace AwsIntegration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#namespace AwsIntegration#namespace}
   */
   readonly namespace: string;
 }
@@ -377,19 +377,19 @@ export interface AwsIntegrationMetricStatsToSync {
   /**
   * AWS metric that you want to pick statistics for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#metric AwsIntegration#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#metric AwsIntegration#metric}
   */
   readonly metric: string;
   /**
   * An AWS namespace having AWS metric that you want to pick statistics for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#namespace AwsIntegration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#namespace AwsIntegration#namespace}
   */
   readonly namespace: string;
   /**
   * AWS statistics you want to collect
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#stats AwsIntegration#stats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#stats AwsIntegration#stats}
   */
   readonly stats: string[];
 }
@@ -556,25 +556,25 @@ export interface AwsIntegrationNamespaceSyncRule {
   /**
   * Controls the Splunk Observability default behavior for processing data from an AWS namespace. Splunk Observability ignores this property unless you specify the `filter_action` and `filter_source` properties. If you do specify them, use this property to control how Splunk Observability treats data that doesn't match the filter. The available actions are one of "Include" or "Exclude".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#default_action AwsIntegration#default_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#default_action AwsIntegration#default_action}
   */
   readonly defaultAction?: string;
   /**
   * Controls how Splunk Observability processes data from a custom AWS namespace. The available actions are one of "Include" or "Exclude".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#filter_action AwsIntegration#filter_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#filter_action AwsIntegration#filter_action}
   */
   readonly filterAction?: string;
   /**
   * Expression that selects the data that Splunk Observability should sync for the custom namespace associated with this sync rule. The expression uses the syntax defined for the SignalFlow `filter()` function; it can be any valid SignalFlow filter expression.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#filter_source AwsIntegration#filter_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#filter_source AwsIntegration#filter_source}
   */
   readonly filterSource?: string;
   /**
   * An AWS namespace having custom AWS metrics that you want to sync with Splunk Observability. See the AWS documentation on publishing metrics for more information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#namespace AwsIntegration#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#namespace AwsIntegration#namespace}
   */
   readonly namespace: string;
 }
@@ -774,7 +774,7 @@ export class AwsIntegrationNamespaceSyncRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration signalfx_aws_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration signalfx_aws_integration}
 */
 export class AwsIntegration extends cdktf.TerraformResource {
 
@@ -790,7 +790,7 @@ export class AwsIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AwsIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AwsIntegration to import
-  * @param importFromId The id of the existing AwsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AwsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AwsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -802,7 +802,7 @@ export class AwsIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/aws_integration signalfx_aws_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/aws_integration signalfx_aws_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -813,8 +813,8 @@ export class AwsIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_aws_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

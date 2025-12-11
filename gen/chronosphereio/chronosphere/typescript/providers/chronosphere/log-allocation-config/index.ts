@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface LogAllocationConfigConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#id LogAllocationConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#id LogAllocationConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface LogAllocationConfigConfig extends cdktf.TerraformMetaArguments 
   /**
   * dataset_allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#dataset_allocation LogAllocationConfig#dataset_allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#dataset_allocation LogAllocationConfig#dataset_allocation}
   */
   readonly datasetAllocation?: LogAllocationConfigDatasetAllocation[] | cdktf.IResolvable;
   /**
   * default_dataset block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#default_dataset LogAllocationConfig#default_dataset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#default_dataset LogAllocationConfig#default_dataset}
   */
   readonly defaultDataset: LogAllocationConfigDefaultDataset;
 }
 export interface LogAllocationConfigDatasetAllocationAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#percent_of_license LogAllocationConfig#percent_of_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#percent_of_license LogAllocationConfig#percent_of_license}
   */
   readonly percentOfLicense: number;
 }
@@ -110,7 +110,7 @@ export class LogAllocationConfigDatasetAllocationAllocationOutputReference exten
 }
 export interface LogAllocationConfigDatasetAllocationPrioritiesHighPriorityFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
   */
   readonly query: string;
 }
@@ -223,7 +223,7 @@ export class LogAllocationConfigDatasetAllocationPrioritiesHighPriorityFilterLis
 }
 export interface LogAllocationConfigDatasetAllocationPrioritiesLowPriorityFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
   */
   readonly query: string;
 }
@@ -338,13 +338,13 @@ export interface LogAllocationConfigDatasetAllocationPriorities {
   /**
   * high_priority_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#high_priority_filter LogAllocationConfig#high_priority_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#high_priority_filter LogAllocationConfig#high_priority_filter}
   */
   readonly highPriorityFilter?: LogAllocationConfigDatasetAllocationPrioritiesHighPriorityFilter[] | cdktf.IResolvable;
   /**
   * low_priority_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#low_priority_filter LogAllocationConfig#low_priority_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#low_priority_filter LogAllocationConfig#low_priority_filter}
   */
   readonly lowPriorityFilter?: LogAllocationConfigDatasetAllocationPrioritiesLowPriorityFilter[] | cdktf.IResolvable;
 }
@@ -457,19 +457,19 @@ export class LogAllocationConfigDatasetAllocationPrioritiesOutputReference exten
 }
 export interface LogAllocationConfigDatasetAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#dataset_id LogAllocationConfig#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#dataset_id LogAllocationConfig#dataset_id}
   */
   readonly datasetId: string;
   /**
   * allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#allocation LogAllocationConfig#allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#allocation LogAllocationConfig#allocation}
   */
   readonly allocation: LogAllocationConfigDatasetAllocationAllocation;
   /**
   * priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#priorities LogAllocationConfig#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#priorities LogAllocationConfig#priorities}
   */
   readonly priorities?: LogAllocationConfigDatasetAllocationPriorities;
 }
@@ -637,7 +637,7 @@ export class LogAllocationConfigDatasetAllocationList extends cdktf.ComplexList 
 }
 export interface LogAllocationConfigDefaultDatasetAllocation {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#percent_of_license LogAllocationConfig#percent_of_license}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#percent_of_license LogAllocationConfig#percent_of_license}
   */
   readonly percentOfLicense: number;
 }
@@ -718,7 +718,7 @@ export class LogAllocationConfigDefaultDatasetAllocationOutputReference extends 
 }
 export interface LogAllocationConfigDefaultDatasetPrioritiesHighPriorityFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
   */
   readonly query: string;
 }
@@ -831,7 +831,7 @@ export class LogAllocationConfigDefaultDatasetPrioritiesHighPriorityFilterList e
 }
 export interface LogAllocationConfigDefaultDatasetPrioritiesLowPriorityFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#query LogAllocationConfig#query}
   */
   readonly query: string;
 }
@@ -946,13 +946,13 @@ export interface LogAllocationConfigDefaultDatasetPriorities {
   /**
   * high_priority_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#high_priority_filter LogAllocationConfig#high_priority_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#high_priority_filter LogAllocationConfig#high_priority_filter}
   */
   readonly highPriorityFilter?: LogAllocationConfigDefaultDatasetPrioritiesHighPriorityFilter[] | cdktf.IResolvable;
   /**
   * low_priority_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#low_priority_filter LogAllocationConfig#low_priority_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#low_priority_filter LogAllocationConfig#low_priority_filter}
   */
   readonly lowPriorityFilter?: LogAllocationConfigDefaultDatasetPrioritiesLowPriorityFilter[] | cdktf.IResolvable;
 }
@@ -1067,13 +1067,13 @@ export interface LogAllocationConfigDefaultDataset {
   /**
   * allocation block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#allocation LogAllocationConfig#allocation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#allocation LogAllocationConfig#allocation}
   */
   readonly allocation: LogAllocationConfigDefaultDatasetAllocation;
   /**
   * priorities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#priorities LogAllocationConfig#priorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#priorities LogAllocationConfig#priorities}
   */
   readonly priorities?: LogAllocationConfigDefaultDatasetPriorities;
 }
@@ -1183,7 +1183,7 @@ export class LogAllocationConfigDefaultDatasetOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config chronosphere_log_allocation_config}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config chronosphere_log_allocation_config}
 */
 export class LogAllocationConfig extends cdktf.TerraformResource {
 
@@ -1199,7 +1199,7 @@ export class LogAllocationConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogAllocationConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogAllocationConfig to import
-  * @param importFromId The id of the existing LogAllocationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogAllocationConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogAllocationConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1211,7 +1211,7 @@ export class LogAllocationConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/log_allocation_config chronosphere_log_allocation_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/log_allocation_config chronosphere_log_allocation_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1222,8 +1222,8 @@ export class LogAllocationConfig extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_log_allocation_config',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

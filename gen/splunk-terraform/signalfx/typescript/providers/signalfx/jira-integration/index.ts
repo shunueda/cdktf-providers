@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface JiraIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * The API token for the user email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#api_token JiraIntegration#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#api_token JiraIntegration#api_token}
   */
   readonly apiToken?: string;
   /**
   * Jira display name for the assignee
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#assignee_display_name JiraIntegration#assignee_display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#assignee_display_name JiraIntegration#assignee_display_name}
   */
   readonly assigneeDisplayName?: string;
   /**
   * Jira user name for the assignee
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#assignee_name JiraIntegration#assignee_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#assignee_name JiraIntegration#assignee_name}
   */
   readonly assigneeName: string;
   /**
   * Authentication method used when creating the Jira integration. One of `EmailAndToken` or `UsernameAndPassword`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#auth_method JiraIntegration#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#auth_method JiraIntegration#auth_method}
   */
   readonly authMethod: string;
   /**
   * Base URL of the Jira instance that's integrated with SignalFx.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#base_url JiraIntegration#base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#base_url JiraIntegration#base_url}
   */
   readonly baseUrl: string;
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#enabled JiraIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#enabled JiraIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#id JiraIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#id JiraIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,43 +53,43 @@ export interface JiraIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Issue type (for example, Story) for tickets that Jira creates for detector notifications. Splunk Observability Cloud validates issue types, so you must specify a type that's valid for the Jira project specified in `projectKey`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#issue_type JiraIntegration#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#issue_type JiraIntegration#issue_type}
   */
   readonly issueType: string;
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#name JiraIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#name JiraIntegration#name}
   */
   readonly name: string;
   /**
   * Password used to authenticate the Jira integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#password JiraIntegration#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#password JiraIntegration#password}
   */
   readonly password?: string;
   /**
   * Jira key of an existing project. When Jira creates a new ticket for a detector notification, the ticket is assigned to this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#project_key JiraIntegration#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#project_key JiraIntegration#project_key}
   */
   readonly projectKey: string;
   /**
   * Email address used to authenticate the Jira integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#user_email JiraIntegration#user_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#user_email JiraIntegration#user_email}
   */
   readonly userEmail?: string;
   /**
   * User name used to authenticate the Jira integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#username JiraIntegration#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#username JiraIntegration#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration signalfx_jira_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration signalfx_jira_integration}
 */
 export class JiraIntegration extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class JiraIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a JiraIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the JiraIntegration to import
-  * @param importFromId The id of the existing JiraIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing JiraIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the JiraIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class JiraIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/jira_integration signalfx_jira_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/jira_integration signalfx_jira_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class JiraIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_jira_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

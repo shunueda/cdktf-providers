@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface DerivedLabelConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#description DerivedLabel#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#description DerivedLabel#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#existing_label_policy DerivedLabel#existing_label_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#existing_label_policy DerivedLabel#existing_label_policy}
   */
   readonly existingLabelPolicy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#id DerivedLabel#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#id DerivedLabel#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#label_name DerivedLabel#label_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#label_name DerivedLabel#label_name}
   */
   readonly labelName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#name DerivedLabel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#name DerivedLabel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#slug DerivedLabel#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#slug DerivedLabel#slug}
   */
   readonly slug?: string;
   /**
   * metric_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#metric_label DerivedLabel#metric_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#metric_label DerivedLabel#metric_label}
   */
   readonly metricLabel?: DerivedLabelMetricLabel;
   /**
   * span_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#span_tag DerivedLabel#span_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#span_tag DerivedLabel#span_tag}
   */
   readonly spanTag?: DerivedLabelSpanTag;
 }
 export interface DerivedLabelMetricLabelConstructedLabelValueDefinitionsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#name DerivedLabel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#name DerivedLabel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#value_glob DerivedLabel#value_glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#value_glob DerivedLabel#value_glob}
   */
   readonly valueGlob: string;
 }
@@ -192,13 +192,13 @@ export class DerivedLabelMetricLabelConstructedLabelValueDefinitionsFiltersList 
 }
 export interface DerivedLabelMetricLabelConstructedLabelValueDefinitions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#value DerivedLabel#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#value DerivedLabel#value}
   */
   readonly value: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#filters DerivedLabel#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#filters DerivedLabel#filters}
   */
   readonly filters: DerivedLabelMetricLabelConstructedLabelValueDefinitionsFilters[] | cdktf.IResolvable;
 }
@@ -339,7 +339,7 @@ export interface DerivedLabelMetricLabelConstructedLabel {
   /**
   * value_definitions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#value_definitions DerivedLabel#value_definitions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#value_definitions DerivedLabel#value_definitions}
   */
   readonly valueDefinitions: DerivedLabelMetricLabelConstructedLabelValueDefinitions[] | cdktf.IResolvable;
 }
@@ -420,11 +420,11 @@ export class DerivedLabelMetricLabelConstructedLabelOutputReference extends cdkt
 }
 export interface DerivedLabelMetricLabelMappingLabelNameMappingsFilters {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#name DerivedLabel#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#name DerivedLabel#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#value_glob DerivedLabel#value_glob}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#value_glob DerivedLabel#value_glob}
   */
   readonly valueGlob: string;
 }
@@ -563,11 +563,11 @@ export class DerivedLabelMetricLabelMappingLabelNameMappingsFiltersList extends 
 }
 export interface DerivedLabelMetricLabelMappingLabelNameMappingsValueMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#source_value_globs DerivedLabel#source_value_globs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#source_value_globs DerivedLabel#source_value_globs}
   */
   readonly sourceValueGlobs: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#target_value DerivedLabel#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#target_value DerivedLabel#target_value}
   */
   readonly targetValue: string;
 }
@@ -706,19 +706,19 @@ export class DerivedLabelMetricLabelMappingLabelNameMappingsValueMappingsList ex
 }
 export interface DerivedLabelMetricLabelMappingLabelNameMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#source_label DerivedLabel#source_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#source_label DerivedLabel#source_label}
   */
   readonly sourceLabel: string;
   /**
   * filters block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#filters DerivedLabel#filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#filters DerivedLabel#filters}
   */
   readonly filters: DerivedLabelMetricLabelMappingLabelNameMappingsFilters[] | cdktf.IResolvable;
   /**
   * value_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#value_mappings DerivedLabel#value_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#value_mappings DerivedLabel#value_mappings}
   */
   readonly valueMappings?: DerivedLabelMetricLabelMappingLabelNameMappingsValueMappings[] | cdktf.IResolvable;
 }
@@ -886,11 +886,11 @@ export class DerivedLabelMetricLabelMappingLabelNameMappingsList extends cdktf.C
 }
 export interface DerivedLabelMetricLabelMappingLabelValueMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#source_value_globs DerivedLabel#source_value_globs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#source_value_globs DerivedLabel#source_value_globs}
   */
   readonly sourceValueGlobs: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#target_value DerivedLabel#target_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#target_value DerivedLabel#target_value}
   */
   readonly targetValue: string;
 }
@@ -1031,13 +1031,13 @@ export interface DerivedLabelMetricLabelMappingLabel {
   /**
   * name_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#name_mappings DerivedLabel#name_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#name_mappings DerivedLabel#name_mappings}
   */
   readonly nameMappings?: DerivedLabelMetricLabelMappingLabelNameMappings[] | cdktf.IResolvable;
   /**
   * value_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#value_mappings DerivedLabel#value_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#value_mappings DerivedLabel#value_mappings}
   */
   readonly valueMappings?: DerivedLabelMetricLabelMappingLabelValueMappings[] | cdktf.IResolvable;
 }
@@ -1152,13 +1152,13 @@ export interface DerivedLabelMetricLabel {
   /**
   * constructed_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#constructed_label DerivedLabel#constructed_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#constructed_label DerivedLabel#constructed_label}
   */
   readonly constructedLabel?: DerivedLabelMetricLabelConstructedLabel;
   /**
   * mapping_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#mapping_label DerivedLabel#mapping_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#mapping_label DerivedLabel#mapping_label}
   */
   readonly mappingLabel?: DerivedLabelMetricLabelMappingLabel;
 }
@@ -1271,7 +1271,7 @@ export class DerivedLabelMetricLabelOutputReference extends cdktf.ComplexObject 
 }
 export interface DerivedLabelSpanTagNameMappings {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#source_tag DerivedLabel#source_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#source_tag DerivedLabel#source_tag}
   */
   readonly sourceTag: string;
 }
@@ -1386,7 +1386,7 @@ export interface DerivedLabelSpanTag {
   /**
   * name_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#name_mappings DerivedLabel#name_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#name_mappings DerivedLabel#name_mappings}
   */
   readonly nameMappings?: DerivedLabelSpanTagNameMappings[] | cdktf.IResolvable;
 }
@@ -1470,7 +1470,7 @@ export class DerivedLabelSpanTagOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label chronosphere_derived_label}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label chronosphere_derived_label}
 */
 export class DerivedLabel extends cdktf.TerraformResource {
 
@@ -1486,7 +1486,7 @@ export class DerivedLabel extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DerivedLabel resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DerivedLabel to import
-  * @param importFromId The id of the existing DerivedLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DerivedLabel that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DerivedLabel to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1498,7 +1498,7 @@ export class DerivedLabel extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/derived_label chronosphere_derived_label} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/derived_label chronosphere_derived_label} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1509,8 +1509,8 @@ export class DerivedLabel extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_derived_label',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

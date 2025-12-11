@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface AzureMetricsIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#count_metrics_enabled AzureMetricsIntegration#count_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#count_metrics_enabled AzureMetricsIntegration#count_metrics_enabled}
   */
   readonly countMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#id AzureMetricsIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#id AzureMetricsIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#name AzureMetricsIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#name AzureMetricsIntegration#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#propagate_tags AzureMetricsIntegration#propagate_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#propagate_tags AzureMetricsIntegration#propagate_tags}
   */
   readonly propagateTags?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#slug AzureMetricsIntegration#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#slug AzureMetricsIntegration#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#usage_metrics_enabled AzureMetricsIntegration#usage_metrics_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#usage_metrics_enabled AzureMetricsIntegration#usage_metrics_enabled}
   */
   readonly usageMetricsEnabled?: boolean | cdktf.IResolvable;
   /**
   * principal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#principal AzureMetricsIntegration#principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#principal AzureMetricsIntegration#principal}
   */
   readonly principal?: AzureMetricsIntegrationPrincipal;
   /**
   * scrape_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#scrape_config AzureMetricsIntegration#scrape_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#scrape_config AzureMetricsIntegration#scrape_config}
   */
   readonly scrapeConfig?: AzureMetricsIntegrationScrapeConfig;
 }
 export interface AzureMetricsIntegrationPrincipal {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#client_id AzureMetricsIntegration#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#client_id AzureMetricsIntegration#client_id}
   */
   readonly clientId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#tenant_id AzureMetricsIntegration#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#tenant_id AzureMetricsIntegration#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -166,11 +166,11 @@ export class AzureMetricsIntegrationPrincipalOutputReference extends cdktf.Compl
 }
 export interface AzureMetricsIntegrationScrapeConfigResourceType {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#metric_names AzureMetricsIntegration#metric_names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#metric_names AzureMetricsIntegration#metric_names}
   */
   readonly metricNames?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#name AzureMetricsIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#name AzureMetricsIntegration#name}
   */
   readonly name?: string;
 }
@@ -315,17 +315,17 @@ export class AzureMetricsIntegrationScrapeConfigResourceTypeList extends cdktf.C
 }
 export interface AzureMetricsIntegrationScrapeConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#locations AzureMetricsIntegration#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#locations AzureMetricsIntegration#locations}
   */
   readonly locations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#subscription_ids AzureMetricsIntegration#subscription_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#subscription_ids AzureMetricsIntegration#subscription_ids}
   */
   readonly subscriptionIds?: string[];
   /**
   * resource_type block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#resource_type AzureMetricsIntegration#resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#resource_type AzureMetricsIntegration#resource_type}
   */
   readonly resourceType?: AzureMetricsIntegrationScrapeConfigResourceType[] | cdktf.IResolvable;
 }
@@ -467,7 +467,7 @@ export class AzureMetricsIntegrationScrapeConfigOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration chronosphere_azure_metrics_integration}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration chronosphere_azure_metrics_integration}
 */
 export class AzureMetricsIntegration extends cdktf.TerraformResource {
 
@@ -483,7 +483,7 @@ export class AzureMetricsIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AzureMetricsIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AzureMetricsIntegration to import
-  * @param importFromId The id of the existing AzureMetricsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AzureMetricsIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AzureMetricsIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -495,7 +495,7 @@ export class AzureMetricsIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/azure_metrics_integration chronosphere_azure_metrics_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/azure_metrics_integration chronosphere_azure_metrics_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -506,8 +506,8 @@ export class AzureMetricsIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_azure_metrics_integration',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

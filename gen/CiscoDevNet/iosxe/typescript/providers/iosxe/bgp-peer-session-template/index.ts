@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,73 +8,73 @@ import * as cdktf from 'cdktf';
 
 export interface BgpPeerSessionTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#asn BgpPeerSessionTemplate#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#asn BgpPeerSessionTemplate#asn}
   */
   readonly asn: string;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#delete_mode BgpPeerSessionTemplate#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#delete_mode BgpPeerSessionTemplate#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * Neighbor specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#description BgpPeerSessionTemplate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#description BgpPeerSessionTemplate#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#device BgpPeerSessionTemplate#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#device BgpPeerSessionTemplate#device}
   */
   readonly device?: string;
   /**
   * one-hop away EBGP peer using loopback address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#disable_connected_check BgpPeerSessionTemplate#disable_connected_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#disable_connected_check BgpPeerSessionTemplate#disable_connected_check}
   */
   readonly disableConnectedCheck?: boolean | cdktf.IResolvable;
   /**
   * Allow EBGP neighbors not on directly connected networks. For single-hop ebgp peers, delete ebgp-multihop directly.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#ebgp_multihop BgpPeerSessionTemplate#ebgp_multihop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#ebgp_multihop BgpPeerSessionTemplate#ebgp_multihop}
   */
   readonly ebgpMultihop?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `2`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#ebgp_multihop_max_hop BgpPeerSessionTemplate#ebgp_multihop_max_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#ebgp_multihop_max_hop BgpPeerSessionTemplate#ebgp_multihop_max_hop}
   */
   readonly ebgpMultihopMaxHop?: number;
   /**
   * Inherit a peer-session template
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#inherit_peer_session BgpPeerSessionTemplate#inherit_peer_session}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#inherit_peer_session BgpPeerSessionTemplate#inherit_peer_session}
   */
   readonly inheritPeerSession?: string;
   /**
   * Specify a BGP neighbor remote-as
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#remote_as BgpPeerSessionTemplate#remote_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#remote_as BgpPeerSessionTemplate#remote_as}
   */
   readonly remoteAs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#template_name BgpPeerSessionTemplate#template_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#template_name BgpPeerSessionTemplate#template_name}
   */
   readonly templateName: string;
   /**
   * Loopback interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#update_source_interface_loopback BgpPeerSessionTemplate#update_source_interface_loopback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#update_source_interface_loopback BgpPeerSessionTemplate#update_source_interface_loopback}
   */
   readonly updateSourceInterfaceLoopback?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template iosxe_bgp_peer_session_template}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template iosxe_bgp_peer_session_template}
 */
 export class BgpPeerSessionTemplate extends cdktf.TerraformResource {
 
@@ -90,7 +90,7 @@ export class BgpPeerSessionTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BgpPeerSessionTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BgpPeerSessionTemplate to import
-  * @param importFromId The id of the existing BgpPeerSessionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BgpPeerSessionTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BgpPeerSessionTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -102,7 +102,7 @@ export class BgpPeerSessionTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bgp_peer_session_template iosxe_bgp_peer_session_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bgp_peer_session_template iosxe_bgp_peer_session_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -113,8 +113,8 @@ export class BgpPeerSessionTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bgp_peer_session_template',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

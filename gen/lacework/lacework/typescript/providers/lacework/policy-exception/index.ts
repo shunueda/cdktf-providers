@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface PolicyExceptionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the policy exception
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#description PolicyException#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#description PolicyException#description}
   */
   readonly description: string;
   /**
   * The id of the policy the exception is associated
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#policy_id PolicyException#policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#policy_id PolicyException#policy_id}
   */
   readonly policyId: string;
   /**
   * constraint block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#constraint PolicyException#constraint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#constraint PolicyException#constraint}
   */
   readonly constraint: PolicyExceptionConstraint[] | cdktf.IResolvable;
 }
@@ -30,13 +30,13 @@ export interface PolicyExceptionConstraintFieldValueMap {
   /**
   * The values map key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#key PolicyException#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#key PolicyException#key}
   */
   readonly key: string;
   /**
   * The values map value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#value PolicyException#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#value PolicyException#value}
   */
   readonly value: string;
 }
@@ -177,13 +177,13 @@ export interface PolicyExceptionConstraintFieldValuesMap {
   /**
   * The values map key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#key PolicyException#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#key PolicyException#key}
   */
   readonly key: string;
   /**
   * The values map value list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#value PolicyException#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#value PolicyException#value}
   */
   readonly value: string[];
 }
@@ -324,25 +324,25 @@ export interface PolicyExceptionConstraint {
   /**
   * The field key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#field_key PolicyException#field_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#field_key PolicyException#field_key}
   */
   readonly fieldKey: string;
   /**
   * The field values
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#field_values PolicyException#field_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#field_values PolicyException#field_values}
   */
   readonly fieldValues?: string[];
   /**
   * field_value_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#field_value_map PolicyException#field_value_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#field_value_map PolicyException#field_value_map}
   */
   readonly fieldValueMap?: PolicyExceptionConstraintFieldValueMap[] | cdktf.IResolvable;
   /**
   * field_values_map block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#field_values_map PolicyException#field_values_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#field_values_map PolicyException#field_values_map}
   */
   readonly fieldValuesMap?: PolicyExceptionConstraintFieldValuesMap[] | cdktf.IResolvable;
 }
@@ -542,7 +542,7 @@ export class PolicyExceptionConstraintList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception lacework_policy_exception}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception lacework_policy_exception}
 */
 export class PolicyException extends cdktf.TerraformResource {
 
@@ -558,7 +558,7 @@ export class PolicyException extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyException resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyException to import
-  * @param importFromId The id of the existing PolicyException that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyException that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyException to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -570,7 +570,7 @@ export class PolicyException extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_exception lacework_policy_exception} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_exception lacework_policy_exception} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -581,8 +581,8 @@ export class PolicyException extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_policy_exception',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

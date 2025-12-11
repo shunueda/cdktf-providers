@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,35 @@ export interface EventForwarderSlackConfig extends cdktf.TerraformMetaArguments 
   /**
   * Auth Methods event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#auth_methods_event_source_locations EventForwarderSlack#auth_methods_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#auth_methods_event_source_locations EventForwarderSlack#auth_methods_event_source_locations}
   */
   readonly authMethodsEventSourceLocations?: string[];
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#description EventForwarderSlack#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#description EventForwarderSlack#description}
   */
   readonly description?: string;
   /**
   * A comma-separated list of types of events to notify about
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#event_types EventForwarderSlack#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#event_types EventForwarderSlack#event_types}
   */
   readonly eventTypes?: string[];
   /**
   * Rate of periodic runner repetition in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#every EventForwarderSlack#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#every EventForwarderSlack#every}
   */
   readonly every?: string;
   /**
   * Gateways event sources to forward events about,for example the relevant Gateways cluster urls,: http://localhost:8000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#gateways_event_source_locations EventForwarderSlack#gateways_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#gateways_event_source_locations EventForwarderSlack#gateways_event_source_locations}
   */
   readonly gatewaysEventSourceLocations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#id EventForwarderSlack#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#id EventForwarderSlack#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,43 +47,43 @@ export interface EventForwarderSlackConfig extends cdktf.TerraformMetaArguments 
   /**
   * Items event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#items_event_source_locations EventForwarderSlack#items_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#items_event_source_locations EventForwarderSlack#items_event_source_locations}
   */
   readonly itemsEventSourceLocations?: string[];
   /**
   * Key name. The key will be used to encrypt the Event Forwarder secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#key EventForwarderSlack#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#key EventForwarderSlack#key}
   */
   readonly key?: string;
   /**
   * Event Forwarder name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#name EventForwarderSlack#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#name EventForwarderSlack#name}
   */
   readonly name: string;
   /**
   * Event Forwarder runner type [immediate/periodic]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#runner_type EventForwarderSlack#runner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#runner_type EventForwarderSlack#runner_type}
   */
   readonly runnerType?: string;
   /**
   * Targets event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#targets_event_source_locations EventForwarderSlack#targets_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#targets_event_source_locations EventForwarderSlack#targets_event_source_locations}
   */
   readonly targetsEventSourceLocations?: string[];
   /**
   * Slack Webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#url EventForwarderSlack#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#url EventForwarderSlack#url}
   */
   readonly url: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack akeyless_event_forwarder_slack}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack akeyless_event_forwarder_slack}
 */
 export class EventForwarderSlack extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class EventForwarderSlack extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventForwarderSlack resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventForwarderSlack to import
-  * @param importFromId The id of the existing EventForwarderSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventForwarderSlack that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventForwarderSlack to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class EventForwarderSlack extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_slack akeyless_event_forwarder_slack} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_slack akeyless_event_forwarder_slack} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class EventForwarderSlack extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_event_forwarder_slack',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

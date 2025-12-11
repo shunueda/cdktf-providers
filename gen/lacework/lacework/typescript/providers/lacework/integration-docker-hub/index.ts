@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationDockerHubConfig extends cdktf.TerraformMetaArguments
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#enabled IntegrationDockerHub#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#enabled IntegrationDockerHub#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#id IntegrationDockerHub#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#id IntegrationDockerHub#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,59 +23,59 @@ export interface IntegrationDockerHubConfig extends cdktf.TerraformMetaArguments
   /**
   * A list of repositories to assess
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#limit_by_repositories IntegrationDockerHub#limit_by_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#limit_by_repositories IntegrationDockerHub#limit_by_repositories}
   */
   readonly limitByRepositories?: string[];
   /**
   * A list of image tags to limit the assessment of images with matching tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#limit_by_tags IntegrationDockerHub#limit_by_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#limit_by_tags IntegrationDockerHub#limit_by_tags}
   */
   readonly limitByTags?: string[];
   /**
   * The maximum number of newest container images to assess per repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#limit_num_imgs IntegrationDockerHub#limit_num_imgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#limit_num_imgs IntegrationDockerHub#limit_num_imgs}
   */
   readonly limitNumImgs?: number;
   /**
   * The Docker Hub integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#name IntegrationDockerHub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#name IntegrationDockerHub#name}
   */
   readonly name: string;
   /**
   * Enable program language scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#non_os_package_support IntegrationDockerHub#non_os_package_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#non_os_package_support IntegrationDockerHub#non_os_package_support}
   */
   readonly nonOsPackageSupport?: boolean | cdktf.IResolvable;
   /**
   * The password for the specified Docker Hub user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#password IntegrationDockerHub#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#password IntegrationDockerHub#password}
   */
   readonly password: string;
   /**
   * The Docker user that has at least read-only permissions to the Docker Hub container repositories
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#username IntegrationDockerHub#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#username IntegrationDockerHub#username}
   */
   readonly username: string;
   /**
   * limit_by_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#limit_by_label IntegrationDockerHub#limit_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#limit_by_label IntegrationDockerHub#limit_by_label}
   */
   readonly limitByLabel?: IntegrationDockerHubLimitByLabel[] | cdktf.IResolvable;
 }
 export interface IntegrationDockerHubLimitByLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#key IntegrationDockerHub#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#key IntegrationDockerHub#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#value IntegrationDockerHub#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#value IntegrationDockerHub#value}
   */
   readonly value: string;
 }
@@ -214,7 +214,7 @@ export class IntegrationDockerHubLimitByLabelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub lacework_integration_docker_hub}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub lacework_integration_docker_hub}
 */
 export class IntegrationDockerHub extends cdktf.TerraformResource {
 
@@ -230,7 +230,7 @@ export class IntegrationDockerHub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationDockerHub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationDockerHub to import
-  * @param importFromId The id of the existing IntegrationDockerHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationDockerHub that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationDockerHub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -242,7 +242,7 @@ export class IntegrationDockerHub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_docker_hub lacework_integration_docker_hub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_docker_hub lacework_integration_docker_hub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -253,8 +253,8 @@ export class IntegrationDockerHub extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_docker_hub',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationEcrConfig extends cdktf.TerraformMetaArguments {
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#enabled IntegrationEcr#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#enabled IntegrationEcr#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#id IntegrationEcr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#id IntegrationEcr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,49 +23,49 @@ export interface IntegrationEcrConfig extends cdktf.TerraformMetaArguments {
   /**
   * A list of repositories to assess
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#limit_by_repositories IntegrationEcr#limit_by_repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#limit_by_repositories IntegrationEcr#limit_by_repositories}
   */
   readonly limitByRepositories?: string[];
   /**
   * A list of image tags to limit the assessment of images with matching tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#limit_by_tags IntegrationEcr#limit_by_tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#limit_by_tags IntegrationEcr#limit_by_tags}
   */
   readonly limitByTags?: string[];
   /**
   * The maximum number of newest container images to assess per repository
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#limit_num_imgs IntegrationEcr#limit_num_imgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#limit_num_imgs IntegrationEcr#limit_num_imgs}
   */
   readonly limitNumImgs?: number;
   /**
   * The ECR integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#name IntegrationEcr#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#name IntegrationEcr#name}
   */
   readonly name: string;
   /**
   * Enable program language scanning
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#non_os_package_support IntegrationEcr#non_os_package_support}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#non_os_package_support IntegrationEcr#non_os_package_support}
   */
   readonly nonOsPackageSupport?: boolean | cdktf.IResolvable;
   /**
   * The Amazon Container Registry (ECR) domain
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#registry_domain IntegrationEcr#registry_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#registry_domain IntegrationEcr#registry_domain}
   */
   readonly registryDomain: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#credentials IntegrationEcr#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#credentials IntegrationEcr#credentials}
   */
   readonly credentials: IntegrationEcrCredentials;
   /**
   * limit_by_label block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#limit_by_label IntegrationEcr#limit_by_label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#limit_by_label IntegrationEcr#limit_by_label}
   */
   readonly limitByLabel?: IntegrationEcrLimitByLabel[] | cdktf.IResolvable;
 }
@@ -73,25 +73,25 @@ export interface IntegrationEcrCredentials {
   /**
   * The AWS access key ID for an AWS IAM user that permissions to access the Amazon Container Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#access_key_id IntegrationEcr#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#access_key_id IntegrationEcr#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The external ID for the IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#external_id IntegrationEcr#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#external_id IntegrationEcr#external_id}
   */
   readonly externalId?: string;
   /**
   * The ARN of the IAM role with permissions to access the Amazon Container Registry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#role_arn IntegrationEcr#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#role_arn IntegrationEcr#role_arn}
   */
   readonly roleArn?: string;
   /**
   * The AWS secret key for the specified AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#secret_access_key IntegrationEcr#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#secret_access_key IntegrationEcr#secret_access_key}
   */
   readonly secretAccessKey?: string;
 }
@@ -262,11 +262,11 @@ export class IntegrationEcrCredentialsOutputReference extends cdktf.ComplexObjec
 }
 export interface IntegrationEcrLimitByLabel {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#key IntegrationEcr#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#key IntegrationEcr#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#value IntegrationEcr#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#value IntegrationEcr#value}
   */
   readonly value: string;
 }
@@ -405,7 +405,7 @@ export class IntegrationEcrLimitByLabelList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr lacework_integration_ecr}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr lacework_integration_ecr}
 */
 export class IntegrationEcr extends cdktf.TerraformResource {
 
@@ -421,7 +421,7 @@ export class IntegrationEcr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationEcr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationEcr to import
-  * @param importFromId The id of the existing IntegrationEcr that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationEcr that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationEcr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -433,7 +433,7 @@ export class IntegrationEcr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_ecr lacework_integration_ecr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_ecr lacework_integration_ecr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -444,8 +444,8 @@ export class IntegrationEcr extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_ecr',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

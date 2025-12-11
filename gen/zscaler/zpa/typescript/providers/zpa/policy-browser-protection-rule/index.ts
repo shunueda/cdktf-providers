@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,39 +10,39 @@ export interface PolicyBrowserProtectionRuleConfig extends cdktf.TerraformMetaAr
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#action PolicyBrowserProtectionRule#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#action PolicyBrowserProtectionRule#action}
   */
   readonly action?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#description PolicyBrowserProtectionRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#description PolicyBrowserProtectionRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#microtenant_id PolicyBrowserProtectionRule#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#microtenant_id PolicyBrowserProtectionRule#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#name PolicyBrowserProtectionRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#name PolicyBrowserProtectionRule#name}
   */
   readonly name: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#conditions PolicyBrowserProtectionRule#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#conditions PolicyBrowserProtectionRule#conditions}
   */
   readonly conditions?: PolicyBrowserProtectionRuleConditions[] | cdktf.IResolvable;
 }
 export interface PolicyBrowserProtectionRuleConditionsOperandsEntryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#lhs PolicyBrowserProtectionRule#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#lhs PolicyBrowserProtectionRule#lhs}
   */
   readonly lhs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#rhs PolicyBrowserProtectionRule#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#rhs PolicyBrowserProtectionRule#rhs}
   */
   readonly rhs?: string;
 }
@@ -189,19 +189,19 @@ export interface PolicyBrowserProtectionRuleConditionsOperands {
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#object_type PolicyBrowserProtectionRule#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#object_type PolicyBrowserProtectionRule#object_type}
   */
   readonly objectType?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#values PolicyBrowserProtectionRule#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#values PolicyBrowserProtectionRule#values}
   */
   readonly values?: string[];
   /**
   * entry_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#entry_values PolicyBrowserProtectionRule#entry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#entry_values PolicyBrowserProtectionRule#entry_values}
   */
   readonly entryValues?: PolicyBrowserProtectionRuleConditionsOperandsEntryValues[] | cdktf.IResolvable;
 }
@@ -375,13 +375,13 @@ export class PolicyBrowserProtectionRuleConditionsOperandsList extends cdktf.Com
 }
 export interface PolicyBrowserProtectionRuleConditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#operator PolicyBrowserProtectionRule#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#operator PolicyBrowserProtectionRule#operator}
   */
   readonly operator?: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#operands PolicyBrowserProtectionRule#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#operands PolicyBrowserProtectionRule#operands}
   */
   readonly operands?: PolicyBrowserProtectionRuleConditionsOperands[] | cdktf.IResolvable;
 }
@@ -531,7 +531,7 @@ export class PolicyBrowserProtectionRuleConditionsList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule zpa_policy_browser_protection_rule}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule zpa_policy_browser_protection_rule}
 */
 export class PolicyBrowserProtectionRule extends cdktf.TerraformResource {
 
@@ -547,7 +547,7 @@ export class PolicyBrowserProtectionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyBrowserProtectionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyBrowserProtectionRule to import
-  * @param importFromId The id of the existing PolicyBrowserProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyBrowserProtectionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyBrowserProtectionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -559,7 +559,7 @@ export class PolicyBrowserProtectionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_browser_protection_rule zpa_policy_browser_protection_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_browser_protection_rule zpa_policy_browser_protection_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -570,8 +570,8 @@ export class PolicyBrowserProtectionRule extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_browser_protection_rule',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

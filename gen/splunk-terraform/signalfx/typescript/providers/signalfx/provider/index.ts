@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface SignalfxProviderConfig {
   /**
   * API URL for your Splunk Observability Cloud org, may include a realm
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#api_url SignalfxProvider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#api_url SignalfxProvider#api_url}
   */
   readonly apiUrl?: string;
   /**
   * Splunk Observability Cloud auth token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#auth_token SignalfxProvider#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#auth_token SignalfxProvider#auth_token}
   */
   readonly authToken?: string;
   /**
   * Application URL for your Splunk Observability Cloud org, often customized for organizations using SSO
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#custom_app_url SignalfxProvider#custom_app_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#custom_app_url SignalfxProvider#custom_app_url}
   */
   readonly customAppUrl?: string;
   /**
   * Used to create a session token instead of an API token, it requires the account to be configured to login with Email and Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#email SignalfxProvider#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#email SignalfxProvider#email}
   */
   readonly email?: string;
   /**
   * Allows for users to opt-in to new features that are considered experimental or not ready for general availability yet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#feature_preview SignalfxProvider#feature_preview}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#feature_preview SignalfxProvider#feature_preview}
   */
   readonly featurePreview?: { [key: string]: (boolean | cdktf.IResolvable) };
   /**
   * Required if the user is configured to be part of multiple organizations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#organization_id SignalfxProvider#organization_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#organization_id SignalfxProvider#organization_id}
   */
   readonly organizationId?: string;
   /**
   * Used to create a session token instead of an API token, it requires the account to be configured to login with Email and Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#password SignalfxProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#password SignalfxProvider#password}
   */
   readonly password?: string;
   /**
   * Max retries for a single HTTP call. Defaults to 4
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#retry_max_attempts SignalfxProvider#retry_max_attempts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#retry_max_attempts SignalfxProvider#retry_max_attempts}
   */
   readonly retryMaxAttempts?: number;
   /**
   * Maximum retry wait for a single HTTP call in seconds. Defaults to 30
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#retry_wait_max_seconds SignalfxProvider#retry_wait_max_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#retry_wait_max_seconds SignalfxProvider#retry_wait_max_seconds}
   */
   readonly retryWaitMaxSeconds?: number;
   /**
   * Minimum retry wait for a single HTTP call in seconds. Defaults to 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#retry_wait_min_seconds SignalfxProvider#retry_wait_min_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#retry_wait_min_seconds SignalfxProvider#retry_wait_min_seconds}
   */
   readonly retryWaitMinSeconds?: number;
   /**
   * Allows for Tags to be added by default to resources that allow for tags to be included. If there is already tags configured, the global tags are added in prefix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#tags SignalfxProvider#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#tags SignalfxProvider#tags}
   */
   readonly tags?: string[];
   /**
   * Allows for teams to be defined at a provider level, and apply to all applicable resources created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#teams SignalfxProvider#teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#teams SignalfxProvider#teams}
   */
   readonly teams?: string[];
   /**
   * Timeout duration for a single HTTP call in seconds. Defaults to 120
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#timeout_seconds SignalfxProvider#timeout_seconds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#timeout_seconds SignalfxProvider#timeout_seconds}
   */
   readonly timeoutSeconds?: number;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#alias SignalfxProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#alias SignalfxProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs signalfx}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs signalfx}
 */
 export class SignalfxProvider extends cdktf.TerraformProvider {
 
@@ -110,7 +110,7 @@ export class SignalfxProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a SignalfxProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SignalfxProvider to import
-  * @param importFromId The id of the existing SignalfxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SignalfxProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SignalfxProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -122,7 +122,7 @@ export class SignalfxProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs signalfx} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs signalfx} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -133,8 +133,8 @@ export class SignalfxProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'signalfx',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       terraformProviderSource: 'splunk-terraform/signalfx'
     });

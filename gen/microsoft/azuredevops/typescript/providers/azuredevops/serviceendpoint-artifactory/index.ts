@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,46 +8,46 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointArtifactoryConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#description ServiceendpointArtifactory#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#description ServiceendpointArtifactory#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#id ServiceendpointArtifactory#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#id ServiceendpointArtifactory#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#project_id ServiceendpointArtifactory#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#project_id ServiceendpointArtifactory#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#service_endpoint_name ServiceendpointArtifactory#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#service_endpoint_name ServiceendpointArtifactory#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * Url for the Artifactory Server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#url ServiceendpointArtifactory#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#url ServiceendpointArtifactory#url}
   */
   readonly url: string;
   /**
   * authentication_basic block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#authentication_basic ServiceendpointArtifactory#authentication_basic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#authentication_basic ServiceendpointArtifactory#authentication_basic}
   */
   readonly authenticationBasic?: ServiceendpointArtifactoryAuthenticationBasic;
   /**
   * authentication_token block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#authentication_token ServiceendpointArtifactory#authentication_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#authentication_token ServiceendpointArtifactory#authentication_token}
   */
   readonly authenticationToken?: ServiceendpointArtifactoryAuthenticationToken;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#timeouts ServiceendpointArtifactory#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#timeouts ServiceendpointArtifactory#timeouts}
   */
   readonly timeouts?: ServiceendpointArtifactoryTimeouts;
 }
@@ -55,13 +55,13 @@ export interface ServiceendpointArtifactoryAuthenticationBasic {
   /**
   * The Artifactory password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#password ServiceendpointArtifactory#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#password ServiceendpointArtifactory#password}
   */
   readonly password: string;
   /**
   * The Artifactory user name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#username ServiceendpointArtifactory#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#username ServiceendpointArtifactory#username}
   */
   readonly username: string;
 }
@@ -170,7 +170,7 @@ export interface ServiceendpointArtifactoryAuthenticationToken {
   /**
   * The Artifactory access token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#token ServiceendpointArtifactory#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#token ServiceendpointArtifactory#token}
   */
   readonly token: string;
 }
@@ -251,19 +251,19 @@ export class ServiceendpointArtifactoryAuthenticationTokenOutputReference extend
 }
 export interface ServiceendpointArtifactoryTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#create ServiceendpointArtifactory#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#create ServiceendpointArtifactory#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#delete ServiceendpointArtifactory#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#delete ServiceendpointArtifactory#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#read ServiceendpointArtifactory#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#read ServiceendpointArtifactory#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#update ServiceendpointArtifactory#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#update ServiceendpointArtifactory#update}
   */
   readonly update?: string;
 }
@@ -444,7 +444,7 @@ export class ServiceendpointArtifactoryTimeoutsOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory azuredevops_serviceendpoint_artifactory}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory azuredevops_serviceendpoint_artifactory}
 */
 export class ServiceendpointArtifactory extends cdktf.TerraformResource {
 
@@ -460,7 +460,7 @@ export class ServiceendpointArtifactory extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointArtifactory resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointArtifactory to import
-  * @param importFromId The id of the existing ServiceendpointArtifactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointArtifactory that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointArtifactory to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -472,7 +472,7 @@ export class ServiceendpointArtifactory extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_artifactory azuredevops_serviceendpoint_artifactory} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_artifactory azuredevops_serviceendpoint_artifactory} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -483,8 +483,8 @@ export class ServiceendpointArtifactory extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_artifactory',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ProducerMongoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#id ProducerMongo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#id ProducerMongo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,133 +17,133 @@ export interface ProducerMongoConfig extends cdktf.TerraformMetaArguments {
   /**
   * MongoDB Atlas private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_atlas_api_private_key ProducerMongo#mongodb_atlas_api_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_atlas_api_private_key ProducerMongo#mongodb_atlas_api_private_key}
   */
   readonly mongodbAtlasApiPrivateKey?: string;
   /**
   * MongoDB Atlas public key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_atlas_api_public_key ProducerMongo#mongodb_atlas_api_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_atlas_api_public_key ProducerMongo#mongodb_atlas_api_public_key}
   */
   readonly mongodbAtlasApiPublicKey?: string;
   /**
   * MongoDB Atlas project ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_atlas_project_id ProducerMongo#mongodb_atlas_project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_atlas_project_id ProducerMongo#mongodb_atlas_project_id}
   */
   readonly mongodbAtlasProjectId?: string;
   /**
   * MongoDB server default authentication database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_default_auth_db ProducerMongo#mongodb_default_auth_db}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_default_auth_db ProducerMongo#mongodb_default_auth_db}
   */
   readonly mongodbDefaultAuthDb?: string;
   /**
   * host:port (e.g. my.mongo.db:27017)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_host_port ProducerMongo#mongodb_host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_host_port ProducerMongo#mongodb_host_port}
   */
   readonly mongodbHostPort?: string;
   /**
   * MongoDB name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_name ProducerMongo#mongodb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_name ProducerMongo#mongodb_name}
   */
   readonly mongodbName?: string;
   /**
   * MongoDB server password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_password ProducerMongo#mongodb_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_password ProducerMongo#mongodb_password}
   */
   readonly mongodbPassword?: string;
   /**
   * MongoDB roles (e.g. MongoDB:[{role:readWrite, db: sales}], MongoDB Atlas:[{roleName : readWrite, databaseName: sales}])
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_roles ProducerMongo#mongodb_roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_roles ProducerMongo#mongodb_roles}
   */
   readonly mongodbRoles?: string;
   /**
   * MongoDB server URI (e.g. mongodb://user:password@my.mongo.db:27017/admin?replicaSet=mySet)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_server_uri ProducerMongo#mongodb_server_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_server_uri ProducerMongo#mongodb_server_uri}
   */
   readonly mongodbServerUri?: string;
   /**
   * MongoDB server URI options (e.g. replicaSet=mySet&authSource=authDB)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_uri_options ProducerMongo#mongodb_uri_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_uri_options ProducerMongo#mongodb_uri_options}
   */
   readonly mongodbUriOptions?: string;
   /**
   * MongoDB server username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#mongodb_username ProducerMongo#mongodb_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#mongodb_username ProducerMongo#mongodb_username}
   */
   readonly mongodbUsername?: string;
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#name ProducerMongo#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#name ProducerMongo#name}
   */
   readonly name: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#producer_encryption_key_name ProducerMongo#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#producer_encryption_key_name ProducerMongo#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#secure_access_bastion_issuer ProducerMongo#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#secure_access_bastion_issuer ProducerMongo#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#secure_access_db_name ProducerMongo#secure_access_db_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#secure_access_db_name ProducerMongo#secure_access_db_name}
   */
   readonly secureAccessDbName?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#secure_access_enable ProducerMongo#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#secure_access_enable ProducerMongo#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target DB servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#secure_access_host ProducerMongo#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#secure_access_host ProducerMongo#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#secure_access_web ProducerMongo#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#secure_access_web ProducerMongo#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#tags ProducerMongo#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#tags ProducerMongo#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#target_name ProducerMongo#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#target_name ProducerMongo#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL (e.g. 60s, 60m, 60h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#user_ttl ProducerMongo#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#user_ttl ProducerMongo#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo akeyless_producer_mongo}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo akeyless_producer_mongo}
 */
 export class ProducerMongo extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class ProducerMongo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerMongo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerMongo to import
-  * @param importFromId The id of the existing ProducerMongo that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerMongo that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerMongo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class ProducerMongo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_mongo akeyless_producer_mongo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_mongo akeyless_producer_mongo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class ProducerMongo extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_mongo',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

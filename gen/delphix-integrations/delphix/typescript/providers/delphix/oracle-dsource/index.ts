@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,281 +8,281 @@ import * as cdktf from 'cdktf';
 
 export interface OracleDsourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#backup_level_enabled OracleDsource#backup_level_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#backup_level_enabled OracleDsource#backup_level_enabled}
   */
   readonly backupLevelEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#bandwidth_limit OracleDsource#bandwidth_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#bandwidth_limit OracleDsource#bandwidth_limit}
   */
   readonly bandwidthLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#check_logical OracleDsource#check_logical}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#check_logical OracleDsource#check_logical}
   */
   readonly checkLogical?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#compressed_linking_enabled OracleDsource#compressed_linking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#compressed_linking_enabled OracleDsource#compressed_linking_enabled}
   */
   readonly compressedLinkingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#description OracleDsource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#description OracleDsource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#diagnose_no_logging_faults OracleDsource#diagnose_no_logging_faults}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#diagnose_no_logging_faults OracleDsource#diagnose_no_logging_faults}
   */
   readonly diagnoseNoLoggingFaults?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#do_not_resume OracleDsource#do_not_resume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#do_not_resume OracleDsource#do_not_resume}
   */
   readonly doNotResume?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#double_sync OracleDsource#double_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#double_sync OracleDsource#double_sync}
   */
   readonly doubleSync?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#encrypted_linking_enabled OracleDsource#encrypted_linking_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#encrypted_linking_enabled OracleDsource#encrypted_linking_enabled}
   */
   readonly encryptedLinkingEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#environment_user_id OracleDsource#environment_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#environment_user_id OracleDsource#environment_user_id}
   */
   readonly environmentUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#external_file_path OracleDsource#external_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#external_file_path OracleDsource#external_file_path}
   */
   readonly externalFilePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_azure_vault_name OracleDsource#fallback_azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_azure_vault_name OracleDsource#fallback_azure_vault_name}
   */
   readonly fallbackAzureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_azure_vault_secret_key OracleDsource#fallback_azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_azure_vault_secret_key OracleDsource#fallback_azure_vault_secret_key}
   */
   readonly fallbackAzureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_azure_vault_username_key OracleDsource#fallback_azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_azure_vault_username_key OracleDsource#fallback_azure_vault_username_key}
   */
   readonly fallbackAzureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_cyberark_vault_query_string OracleDsource#fallback_cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_cyberark_vault_query_string OracleDsource#fallback_cyberark_vault_query_string}
   */
   readonly fallbackCyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_hashicorp_vault_engine OracleDsource#fallback_hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_hashicorp_vault_engine OracleDsource#fallback_hashicorp_vault_engine}
   */
   readonly fallbackHashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_hashicorp_vault_secret_key OracleDsource#fallback_hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_hashicorp_vault_secret_key OracleDsource#fallback_hashicorp_vault_secret_key}
   */
   readonly fallbackHashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_hashicorp_vault_secret_path OracleDsource#fallback_hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_hashicorp_vault_secret_path OracleDsource#fallback_hashicorp_vault_secret_path}
   */
   readonly fallbackHashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_hashicorp_vault_username_key OracleDsource#fallback_hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_hashicorp_vault_username_key OracleDsource#fallback_hashicorp_vault_username_key}
   */
   readonly fallbackHashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_password OracleDsource#fallback_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_password OracleDsource#fallback_password}
   */
   readonly fallbackPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_username OracleDsource#fallback_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_username OracleDsource#fallback_username}
   */
   readonly fallbackUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#fallback_vault OracleDsource#fallback_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#fallback_vault OracleDsource#fallback_vault}
   */
   readonly fallbackVault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#files_for_full_backup OracleDsource#files_for_full_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#files_for_full_backup OracleDsource#files_for_full_backup}
   */
   readonly filesForFullBackup?: number[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#files_per_set OracleDsource#files_per_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#files_per_set OracleDsource#files_per_set}
   */
   readonly filesPerSet?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#force_full_backup OracleDsource#force_full_backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#force_full_backup OracleDsource#force_full_backup}
   */
   readonly forceFullBackup?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#group_id OracleDsource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#group_id OracleDsource#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#ignore_tag_changes OracleDsource#ignore_tag_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#ignore_tag_changes OracleDsource#ignore_tag_changes}
   */
   readonly ignoreTagChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#link_now OracleDsource#link_now}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#link_now OracleDsource#link_now}
   */
   readonly linkNow?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#log_sync_enabled OracleDsource#log_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#log_sync_enabled OracleDsource#log_sync_enabled}
   */
   readonly logSyncEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#log_sync_interval OracleDsource#log_sync_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#log_sync_interval OracleDsource#log_sync_interval}
   */
   readonly logSyncInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#log_sync_mode OracleDsource#log_sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#log_sync_mode OracleDsource#log_sync_mode}
   */
   readonly logSyncMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#make_current_account_owner OracleDsource#make_current_account_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#make_current_account_owner OracleDsource#make_current_account_owner}
   */
   readonly makeCurrentAccountOwner?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#name OracleDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#name OracleDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_azure_vault_name OracleDsource#non_sys_azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_azure_vault_name OracleDsource#non_sys_azure_vault_name}
   */
   readonly nonSysAzureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_azure_vault_secret_key OracleDsource#non_sys_azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_azure_vault_secret_key OracleDsource#non_sys_azure_vault_secret_key}
   */
   readonly nonSysAzureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_azure_vault_username_key OracleDsource#non_sys_azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_azure_vault_username_key OracleDsource#non_sys_azure_vault_username_key}
   */
   readonly nonSysAzureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_cyberark_vault_query_string OracleDsource#non_sys_cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_cyberark_vault_query_string OracleDsource#non_sys_cyberark_vault_query_string}
   */
   readonly nonSysCyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_hashicorp_vault_engine OracleDsource#non_sys_hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_hashicorp_vault_engine OracleDsource#non_sys_hashicorp_vault_engine}
   */
   readonly nonSysHashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_hashicorp_vault_secret_key OracleDsource#non_sys_hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_hashicorp_vault_secret_key OracleDsource#non_sys_hashicorp_vault_secret_key}
   */
   readonly nonSysHashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_hashicorp_vault_secret_path OracleDsource#non_sys_hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_hashicorp_vault_secret_path OracleDsource#non_sys_hashicorp_vault_secret_path}
   */
   readonly nonSysHashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_hashicorp_vault_username_key OracleDsource#non_sys_hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_hashicorp_vault_username_key OracleDsource#non_sys_hashicorp_vault_username_key}
   */
   readonly nonSysHashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_password OracleDsource#non_sys_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_password OracleDsource#non_sys_password}
   */
   readonly nonSysPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_username OracleDsource#non_sys_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_username OracleDsource#non_sys_username}
   */
   readonly nonSysUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#non_sys_vault OracleDsource#non_sys_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#non_sys_vault OracleDsource#non_sys_vault}
   */
   readonly nonSysVault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#number_of_connections OracleDsource#number_of_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#number_of_connections OracleDsource#number_of_connections}
   */
   readonly numberOfConnections?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#pre_provisioning_enabled OracleDsource#pre_provisioning_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#pre_provisioning_enabled OracleDsource#pre_provisioning_enabled}
   */
   readonly preProvisioningEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#rman_channels OracleDsource#rman_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#rman_channels OracleDsource#rman_channels}
   */
   readonly rmanChannels?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#rollback_on_failure OracleDsource#rollback_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#rollback_on_failure OracleDsource#rollback_on_failure}
   */
   readonly rollbackOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#skip_space_check OracleDsource#skip_space_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#skip_space_check OracleDsource#skip_space_check}
   */
   readonly skipSpaceCheck?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#skip_wait_for_snapshot_creation OracleDsource#skip_wait_for_snapshot_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#skip_wait_for_snapshot_creation OracleDsource#skip_wait_for_snapshot_creation}
   */
   readonly skipWaitForSnapshotCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#source_value OracleDsource#source_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#source_value OracleDsource#source_value}
   */
   readonly sourceValue: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#wait_time OracleDsource#wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#wait_time OracleDsource#wait_time}
   */
   readonly waitTime?: number;
   /**
   * ops_post_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#ops_post_sync OracleDsource#ops_post_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#ops_post_sync OracleDsource#ops_post_sync}
   */
   readonly opsPostSync?: OracleDsourceOpsPostSync[] | cdktf.IResolvable;
   /**
   * ops_pre_log_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#ops_pre_log_sync OracleDsource#ops_pre_log_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#ops_pre_log_sync OracleDsource#ops_pre_log_sync}
   */
   readonly opsPreLogSync?: OracleDsourceOpsPreLogSync[] | cdktf.IResolvable;
   /**
   * ops_pre_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#ops_pre_sync OracleDsource#ops_pre_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#ops_pre_sync OracleDsource#ops_pre_sync}
   */
   readonly opsPreSync?: OracleDsourceOpsPreSync[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#tags OracleDsource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#tags OracleDsource#tags}
   */
   readonly tags?: OracleDsourceTags[] | cdktf.IResolvable;
 }
 export interface OracleDsourceOpsPostSyncCredentialsEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_name OracleDsource#azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_name OracleDsource#azure_vault_name}
   */
   readonly azureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_secret_key OracleDsource#azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_secret_key OracleDsource#azure_vault_secret_key}
   */
   readonly azureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_username_key OracleDsource#azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_username_key OracleDsource#azure_vault_username_key}
   */
   readonly azureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#base_var_name OracleDsource#base_var_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#base_var_name OracleDsource#base_var_name}
   */
   readonly baseVarName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#cyberark_vault_query_string OracleDsource#cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#cyberark_vault_query_string OracleDsource#cyberark_vault_query_string}
   */
   readonly cyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_engine OracleDsource#hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_engine OracleDsource#hashicorp_vault_engine}
   */
   readonly hashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_secret_key OracleDsource#hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_secret_key OracleDsource#hashicorp_vault_secret_key}
   */
   readonly hashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_secret_path OracleDsource#hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_secret_path OracleDsource#hashicorp_vault_secret_path}
   */
   readonly hashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_username_key OracleDsource#hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_username_key OracleDsource#hashicorp_vault_username_key}
   */
   readonly hashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#password OracleDsource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#password OracleDsource#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#vault OracleDsource#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#vault OracleDsource#vault}
   */
   readonly vault?: string;
 }
@@ -685,21 +685,21 @@ export class OracleDsourceOpsPostSyncCredentialsEnvVarsList extends cdktf.Comple
 }
 export interface OracleDsourceOpsPostSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#command OracleDsource#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#command OracleDsource#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#name OracleDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#name OracleDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#shell OracleDsource#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#shell OracleDsource#shell}
   */
   readonly shell?: string;
   /**
   * credentials_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#credentials_env_vars OracleDsource#credentials_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#credentials_env_vars OracleDsource#credentials_env_vars}
   */
   readonly credentialsEnvVars?: OracleDsourceOpsPostSyncCredentialsEnvVars[] | cdktf.IResolvable;
 }
@@ -912,47 +912,47 @@ export class OracleDsourceOpsPostSyncList extends cdktf.ComplexList {
 }
 export interface OracleDsourceOpsPreLogSyncCredentialsEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_name OracleDsource#azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_name OracleDsource#azure_vault_name}
   */
   readonly azureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_secret_key OracleDsource#azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_secret_key OracleDsource#azure_vault_secret_key}
   */
   readonly azureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_username_key OracleDsource#azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_username_key OracleDsource#azure_vault_username_key}
   */
   readonly azureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#base_var_name OracleDsource#base_var_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#base_var_name OracleDsource#base_var_name}
   */
   readonly baseVarName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#cyberark_vault_query_string OracleDsource#cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#cyberark_vault_query_string OracleDsource#cyberark_vault_query_string}
   */
   readonly cyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_engine OracleDsource#hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_engine OracleDsource#hashicorp_vault_engine}
   */
   readonly hashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_secret_key OracleDsource#hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_secret_key OracleDsource#hashicorp_vault_secret_key}
   */
   readonly hashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_secret_path OracleDsource#hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_secret_path OracleDsource#hashicorp_vault_secret_path}
   */
   readonly hashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_username_key OracleDsource#hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_username_key OracleDsource#hashicorp_vault_username_key}
   */
   readonly hashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#password OracleDsource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#password OracleDsource#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#vault OracleDsource#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#vault OracleDsource#vault}
   */
   readonly vault?: string;
 }
@@ -1355,21 +1355,21 @@ export class OracleDsourceOpsPreLogSyncCredentialsEnvVarsList extends cdktf.Comp
 }
 export interface OracleDsourceOpsPreLogSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#command OracleDsource#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#command OracleDsource#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#name OracleDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#name OracleDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#shell OracleDsource#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#shell OracleDsource#shell}
   */
   readonly shell?: string;
   /**
   * credentials_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#credentials_env_vars OracleDsource#credentials_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#credentials_env_vars OracleDsource#credentials_env_vars}
   */
   readonly credentialsEnvVars?: OracleDsourceOpsPreLogSyncCredentialsEnvVars[] | cdktf.IResolvable;
 }
@@ -1582,47 +1582,47 @@ export class OracleDsourceOpsPreLogSyncList extends cdktf.ComplexList {
 }
 export interface OracleDsourceOpsPreSyncCredentialsEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_name OracleDsource#azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_name OracleDsource#azure_vault_name}
   */
   readonly azureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_secret_key OracleDsource#azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_secret_key OracleDsource#azure_vault_secret_key}
   */
   readonly azureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#azure_vault_username_key OracleDsource#azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#azure_vault_username_key OracleDsource#azure_vault_username_key}
   */
   readonly azureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#base_var_name OracleDsource#base_var_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#base_var_name OracleDsource#base_var_name}
   */
   readonly baseVarName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#cyberark_vault_query_string OracleDsource#cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#cyberark_vault_query_string OracleDsource#cyberark_vault_query_string}
   */
   readonly cyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_engine OracleDsource#hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_engine OracleDsource#hashicorp_vault_engine}
   */
   readonly hashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_secret_key OracleDsource#hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_secret_key OracleDsource#hashicorp_vault_secret_key}
   */
   readonly hashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_secret_path OracleDsource#hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_secret_path OracleDsource#hashicorp_vault_secret_path}
   */
   readonly hashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#hashicorp_vault_username_key OracleDsource#hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#hashicorp_vault_username_key OracleDsource#hashicorp_vault_username_key}
   */
   readonly hashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#password OracleDsource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#password OracleDsource#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#vault OracleDsource#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#vault OracleDsource#vault}
   */
   readonly vault?: string;
 }
@@ -2025,21 +2025,21 @@ export class OracleDsourceOpsPreSyncCredentialsEnvVarsList extends cdktf.Complex
 }
 export interface OracleDsourceOpsPreSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#command OracleDsource#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#command OracleDsource#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#name OracleDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#name OracleDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#shell OracleDsource#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#shell OracleDsource#shell}
   */
   readonly shell?: string;
   /**
   * credentials_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#credentials_env_vars OracleDsource#credentials_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#credentials_env_vars OracleDsource#credentials_env_vars}
   */
   readonly credentialsEnvVars?: OracleDsourceOpsPreSyncCredentialsEnvVars[] | cdktf.IResolvable;
 }
@@ -2252,11 +2252,11 @@ export class OracleDsourceOpsPreSyncList extends cdktf.ComplexList {
 }
 export interface OracleDsourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#key OracleDsource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#key OracleDsource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#value OracleDsource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#value OracleDsource#value}
   */
   readonly value?: string;
 }
@@ -2401,7 +2401,7 @@ export class OracleDsourceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource delphix_oracle_dsource}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource delphix_oracle_dsource}
 */
 export class OracleDsource extends cdktf.TerraformResource {
 
@@ -2417,7 +2417,7 @@ export class OracleDsource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OracleDsource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OracleDsource to import
-  * @param importFromId The id of the existing OracleDsource that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OracleDsource that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OracleDsource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2429,7 +2429,7 @@ export class OracleDsource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/oracle_dsource delphix_oracle_dsource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/oracle_dsource delphix_oracle_dsource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2440,8 +2440,8 @@ export class OracleDsource extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_oracle_dsource',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

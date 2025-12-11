@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/pagerduty_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/data-sources/pagerduty_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataSignalfxPagerdutyIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/pagerduty_integration#id DataSignalfxPagerdutyIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/data-sources/pagerduty_integration#id DataSignalfxPagerdutyIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,13 +17,13 @@ export interface DataSignalfxPagerdutyIntegrationConfig extends cdktf.TerraformM
   /**
   * This is the configured name of the PagerDuty integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/pagerduty_integration#name DataSignalfxPagerdutyIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/data-sources/pagerduty_integration#name DataSignalfxPagerdutyIntegration#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/pagerduty_integration signalfx_pagerduty_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/data-sources/pagerduty_integration signalfx_pagerduty_integration}
 */
 export class DataSignalfxPagerdutyIntegration extends cdktf.TerraformDataSource {
 
@@ -39,7 +39,7 @@ export class DataSignalfxPagerdutyIntegration extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataSignalfxPagerdutyIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSignalfxPagerdutyIntegration to import
-  * @param importFromId The id of the existing DataSignalfxPagerdutyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/pagerduty_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSignalfxPagerdutyIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/data-sources/pagerduty_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSignalfxPagerdutyIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -51,7 +51,7 @@ export class DataSignalfxPagerdutyIntegration extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/data-sources/pagerduty_integration signalfx_pagerduty_integration} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/data-sources/pagerduty_integration signalfx_pagerduty_integration} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -62,8 +62,8 @@ export class DataSignalfxPagerdutyIntegration extends cdktf.TerraformDataSource 
       terraformResourceType: 'signalfx_pagerduty_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

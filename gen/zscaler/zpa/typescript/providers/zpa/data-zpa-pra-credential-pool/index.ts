@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataZpaPraCredentialPoolConfig extends cdktf.TerraformMetaArgum
   /**
   * The unique identifier of the privileged credential pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool#id DataZpaPraCredentialPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool#id DataZpaPraCredentialPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataZpaPraCredentialPoolConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the privileged credential pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool#name DataZpaPraCredentialPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool#name DataZpaPraCredentialPool#name}
   */
   readonly name?: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool#credentials DataZpaPraCredentialPool#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool#credentials DataZpaPraCredentialPool#credentials}
   */
   readonly credentials?: DataZpaPraCredentialPoolCredentials[] | cdktf.IResolvable;
 }
 export interface DataZpaPraCredentialPoolCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool#id DataZpaPraCredentialPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool#id DataZpaPraCredentialPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -150,7 +150,7 @@ export class DataZpaPraCredentialPoolCredentialsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool zpa_pra_credential_pool}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool zpa_pra_credential_pool}
 */
 export class DataZpaPraCredentialPool extends cdktf.TerraformDataSource {
 
@@ -166,7 +166,7 @@ export class DataZpaPraCredentialPool extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaPraCredentialPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaPraCredentialPool to import
-  * @param importFromId The id of the existing DataZpaPraCredentialPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaPraCredentialPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaPraCredentialPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -178,7 +178,7 @@ export class DataZpaPraCredentialPool extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/pra_credential_pool zpa_pra_credential_pool} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/pra_credential_pool zpa_pra_credential_pool} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -189,8 +189,8 @@ export class DataZpaPraCredentialPool extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_pra_credential_pool',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

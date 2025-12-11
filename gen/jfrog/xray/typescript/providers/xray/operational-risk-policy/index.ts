@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy
+// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface OperationalRiskPolicyConfig extends cdktf.TerraformMetaArgument
   /**
   * More verbose description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#description OperationalRiskPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#description OperationalRiskPolicy#description}
   */
   readonly description?: string;
   /**
   * Name of the policy (must be unique)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#name OperationalRiskPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#name OperationalRiskPolicy#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#project_key OperationalRiskPolicy#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#project_key OperationalRiskPolicy#project_key}
   */
   readonly projectKey?: string;
   /**
   * Type of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#type OperationalRiskPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#type OperationalRiskPolicy#type}
   */
   readonly type: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#rule OperationalRiskPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#rule OperationalRiskPolicy#rule}
   */
   readonly rule?: OperationalRiskPolicyRule[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface OperationalRiskPolicyRuleActionsBlockDownload {
   /**
   * Whether or not to block download of artifacts that meet the artifact and severity `filters` for the associated `xray_watch` resource. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#active OperationalRiskPolicy#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#active OperationalRiskPolicy#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to block download of artifacts that meet the artifact `filters` for the associated `xray_watch` resource but have not been scanned yet. Can not be set to `true` if attribute `active` is `false`. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#unscanned OperationalRiskPolicy#unscanned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#unscanned OperationalRiskPolicy#unscanned}
   */
   readonly unscanned?: boolean | cdktf.IResolvable;
 }
@@ -195,61 +195,61 @@ export interface OperationalRiskPolicyRuleActions {
   /**
   * Blocks Release Bundle distribution to Edge nodes if a violation is found. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#block_release_bundle_distribution OperationalRiskPolicy#block_release_bundle_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#block_release_bundle_distribution OperationalRiskPolicy#block_release_bundle_distribution}
   */
   readonly blockReleaseBundleDistribution?: boolean | cdktf.IResolvable;
   /**
   * Blocks Release Bundle promotion if a violation is found. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#block_release_bundle_promotion OperationalRiskPolicy#block_release_bundle_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#block_release_bundle_promotion OperationalRiskPolicy#block_release_bundle_promotion}
   */
   readonly blockReleaseBundlePromotion?: boolean | cdktf.IResolvable;
   /**
   * Allow grace period for certain number of days. All violations will be ignored during this time. To be used only if `fail_build` is enabled. Default value is `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#build_failure_grace_period_in_days OperationalRiskPolicy#build_failure_grace_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#build_failure_grace_period_in_days OperationalRiskPolicy#build_failure_grace_period_in_days}
   */
   readonly buildFailureGracePeriodInDays?: number;
   /**
   * Create Jira Ticket for this Policy Violation. Requires configured Jira integration. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#create_ticket_enabled OperationalRiskPolicy#create_ticket_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#create_ticket_enabled OperationalRiskPolicy#create_ticket_enabled}
   */
   readonly createTicketEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the related CI build should be marked as failed if a violation is triggered. This option is only available when the policy is applied to an `xray_watch` resource with a `type` of `builds`. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#fail_build OperationalRiskPolicy#fail_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#fail_build OperationalRiskPolicy#fail_build}
   */
   readonly failBuild?: boolean | cdktf.IResolvable;
   /**
   * A list of email addressed that will get emailed when a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#mails OperationalRiskPolicy#mails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#mails OperationalRiskPolicy#mails}
   */
   readonly mails?: string[];
   /**
   * Sends an email message to component deployer with details about the generated Violations. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#notify_deployer OperationalRiskPolicy#notify_deployer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#notify_deployer OperationalRiskPolicy#notify_deployer}
   */
   readonly notifyDeployer?: boolean | cdktf.IResolvable;
   /**
   * Sends an email message to all configured recipients inside a specific watch with details about the generated Violations. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#notify_watch_recipients OperationalRiskPolicy#notify_watch_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#notify_watch_recipients OperationalRiskPolicy#notify_watch_recipients}
   */
   readonly notifyWatchRecipients?: boolean | cdktf.IResolvable;
   /**
   * A list of Xray-configured webhook URLs to be invoked if a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#webhooks OperationalRiskPolicy#webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#webhooks OperationalRiskPolicy#webhooks}
   */
   readonly webhooks?: string[];
   /**
   * block_download block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#block_download OperationalRiskPolicy#block_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#block_download OperationalRiskPolicy#block_download}
   */
   readonly blockDownload?: OperationalRiskPolicyRuleActionsBlockDownload[] | cdktf.IResolvable;
 }
@@ -337,7 +337,7 @@ export function operationalRiskPolicyRuleActionsToHclTerraform(struct?: Operatio
     block_download: {
       value: cdktf.listMapperHcl(operationalRiskPolicyRuleActionsBlockDownloadToHclTerraform, true)(struct!.blockDownload),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "OperationalRiskPolicyRuleActionsBlockDownloadList",
     },
   };
@@ -589,7 +589,7 @@ export class OperationalRiskPolicyRuleActionsOutputReference extends cdktf.Compl
   }
 
   // block_download - computed: false, optional: true, required: false
-  private _blockDownload = new OperationalRiskPolicyRuleActionsBlockDownloadList(this, "block_download", true);
+  private _blockDownload = new OperationalRiskPolicyRuleActionsBlockDownloadList(this, "block_download", false);
   public get blockDownload() {
     return this._blockDownload;
   }
@@ -628,49 +628,49 @@ export interface OperationalRiskPolicyRuleCriteriaOpRiskCustom {
   /**
   * Number of commits less than per year: 10, 25, 50, or 100
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#commits_less_than OperationalRiskPolicy#commits_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#commits_less_than OperationalRiskPolicy#commits_less_than}
   */
   readonly commitsLessThan?: number;
   /**
   * Number of committers less than per year: 1, 2, 3, 4, or 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#committers_less_than OperationalRiskPolicy#committers_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#committers_less_than OperationalRiskPolicy#committers_less_than}
   */
   readonly committersLessThan?: number;
   /**
   * Is End-of-Life?
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#is_eol OperationalRiskPolicy#is_eol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#is_eol OperationalRiskPolicy#is_eol}
   */
   readonly isEol?: boolean | cdktf.IResolvable;
   /**
   * Number of releases since greater than: 1, 2, 3, 4, or 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#newer_versions_greater_than OperationalRiskPolicy#newer_versions_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#newer_versions_greater_than OperationalRiskPolicy#newer_versions_greater_than}
   */
   readonly newerVersionsGreaterThan?: number;
   /**
   * Release cadence less than per year: 1, 2, 3, 4, or 5
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#release_cadence_per_year_less_than OperationalRiskPolicy#release_cadence_per_year_less_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#release_cadence_per_year_less_than OperationalRiskPolicy#release_cadence_per_year_less_than}
   */
   readonly releaseCadencePerYearLessThan?: number;
   /**
   * Release age greater than (in months): any value between 1 and 999
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#release_date_greater_than_months OperationalRiskPolicy#release_date_greater_than_months}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#release_date_greater_than_months OperationalRiskPolicy#release_date_greater_than_months}
   */
   readonly releaseDateGreaterThanMonths?: number;
   /**
   * Risk severity: Low, Medium, High
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#risk OperationalRiskPolicy#risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#risk OperationalRiskPolicy#risk}
   */
   readonly risk?: string;
   /**
   * Use `AND` between conditions (true) or `OR` condition (false)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#use_and_condition OperationalRiskPolicy#use_and_condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#use_and_condition OperationalRiskPolicy#use_and_condition}
   */
   readonly useAndCondition: boolean | cdktf.IResolvable;
 }
@@ -988,13 +988,13 @@ export interface OperationalRiskPolicyRuleCriteria {
   /**
   * The minimum operational risk that will be impacted by the policy: High, Medium, Low
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#op_risk_min_risk OperationalRiskPolicy#op_risk_min_risk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#op_risk_min_risk OperationalRiskPolicy#op_risk_min_risk}
   */
   readonly opRiskMinRisk?: string;
   /**
   * op_risk_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#op_risk_custom OperationalRiskPolicy#op_risk_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#op_risk_custom OperationalRiskPolicy#op_risk_custom}
   */
   readonly opRiskCustom?: OperationalRiskPolicyRuleCriteriaOpRiskCustom[] | cdktf.IResolvable;
 }
@@ -1141,25 +1141,25 @@ export interface OperationalRiskPolicyRule {
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#name OperationalRiskPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#name OperationalRiskPolicy#name}
   */
   readonly name: string;
   /**
   * Integer describing the rule priority. Must be at least 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#priority OperationalRiskPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#priority OperationalRiskPolicy#priority}
   */
   readonly priority: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#actions OperationalRiskPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#actions OperationalRiskPolicy#actions}
   */
   readonly actions?: OperationalRiskPolicyRuleActions[] | cdktf.IResolvable;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#criteria OperationalRiskPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#criteria OperationalRiskPolicy#criteria}
   */
   readonly criteria?: OperationalRiskPolicyRuleCriteria[] | cdktf.IResolvable;
 }
@@ -1199,13 +1199,13 @@ export function operationalRiskPolicyRuleToHclTerraform(struct?: OperationalRisk
     actions: {
       value: cdktf.listMapperHcl(operationalRiskPolicyRuleActionsToHclTerraform, true)(struct!.actions),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "OperationalRiskPolicyRuleActionsList",
     },
     criteria: {
       value: cdktf.listMapperHcl(operationalRiskPolicyRuleCriteriaToHclTerraform, true)(struct!.criteria),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "OperationalRiskPolicyRuleCriteriaList",
     },
   };
@@ -1303,7 +1303,7 @@ export class OperationalRiskPolicyRuleOutputReference extends cdktf.ComplexObjec
   }
 
   // actions - computed: false, optional: true, required: false
-  private _actions = new OperationalRiskPolicyRuleActionsList(this, "actions", true);
+  private _actions = new OperationalRiskPolicyRuleActionsList(this, "actions", false);
   public get actions() {
     return this._actions;
   }
@@ -1319,7 +1319,7 @@ export class OperationalRiskPolicyRuleOutputReference extends cdktf.ComplexObjec
   }
 
   // criteria - computed: false, optional: true, required: false
-  private _criteria = new OperationalRiskPolicyRuleCriteriaList(this, "criteria", true);
+  private _criteria = new OperationalRiskPolicyRuleCriteriaList(this, "criteria", false);
   public get criteria() {
     return this._criteria;
   }
@@ -1356,7 +1356,7 @@ export class OperationalRiskPolicyRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy xray_operational_risk_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy xray_operational_risk_policy}
 */
 export class OperationalRiskPolicy extends cdktf.TerraformResource {
 
@@ -1372,7 +1372,7 @@ export class OperationalRiskPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OperationalRiskPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OperationalRiskPolicy to import
-  * @param importFromId The id of the existing OperationalRiskPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OperationalRiskPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OperationalRiskPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1384,7 +1384,7 @@ export class OperationalRiskPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/operational_risk_policy xray_operational_risk_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/operational_risk_policy xray_operational_risk_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1395,8 +1395,8 @@ export class OperationalRiskPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'xray_operational_risk_policy',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1496,7 +1496,7 @@ export class OperationalRiskPolicy extends cdktf.TerraformResource {
   }
 
   // rule - computed: false, optional: true, required: false
-  private _rule = new OperationalRiskPolicyRuleList(this, "rule", true);
+  private _rule = new OperationalRiskPolicyRuleList(this, "rule", false);
   public get rule() {
     return this._rule;
   }
@@ -1554,7 +1554,7 @@ export class OperationalRiskPolicy extends cdktf.TerraformResource {
       rule: {
         value: cdktf.listMapperHcl(operationalRiskPolicyRuleToHclTerraform, true)(this._rule.internalValue),
         isBlock: true,
-        type: "set",
+        type: "list",
         storageClassType: "OperationalRiskPolicyRuleList",
       },
     };

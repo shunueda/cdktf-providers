@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface DataExportRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The summary of the data export rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule#description DataExportRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule#description DataExportRule#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule#enabled DataExportRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule#enabled DataExportRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule#id DataExportRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule#id DataExportRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -27,19 +27,19 @@ export interface DataExportRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The list alert channel ids for the rule to use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule#integration_ids DataExportRule#integration_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule#integration_ids DataExportRule#integration_ids}
   */
   readonly integrationIds: string[];
   /**
   * The name of the data export rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule#name DataExportRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule#name DataExportRule#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule lacework_data_export_rule}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule lacework_data_export_rule}
 */
 export class DataExportRule extends cdktf.TerraformResource {
 
@@ -55,7 +55,7 @@ export class DataExportRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataExportRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataExportRule to import
-  * @param importFromId The id of the existing DataExportRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataExportRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataExportRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -67,7 +67,7 @@ export class DataExportRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/data_export_rule lacework_data_export_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/data_export_rule lacework_data_export_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -78,8 +78,8 @@ export class DataExportRule extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_data_export_rule',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

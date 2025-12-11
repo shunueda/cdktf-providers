@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,31 +8,31 @@ import * as cdktf from 'cdktf';
 
 export interface VdbGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#ignore_tag_changes VdbGroup#ignore_tag_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#ignore_tag_changes VdbGroup#ignore_tag_changes}
   */
   readonly ignoreTagChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#name VdbGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#name VdbGroup#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#vdb_ids VdbGroup#vdb_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#vdb_ids VdbGroup#vdb_ids}
   */
   readonly vdbIds?: string[];
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#tags VdbGroup#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#tags VdbGroup#tags}
   */
   readonly tags?: VdbGroupTags[] | cdktf.IResolvable;
 }
 export interface VdbGroupTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#key VdbGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#key VdbGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#value VdbGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#value VdbGroup#value}
   */
   readonly value: string;
 }
@@ -171,7 +171,7 @@ export class VdbGroupTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group delphix_vdb_group}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group delphix_vdb_group}
 */
 export class VdbGroup extends cdktf.TerraformResource {
 
@@ -187,7 +187,7 @@ export class VdbGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VdbGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VdbGroup to import
-  * @param importFromId The id of the existing VdbGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VdbGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VdbGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -199,7 +199,7 @@ export class VdbGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb_group delphix_vdb_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb_group delphix_vdb_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -210,8 +210,8 @@ export class VdbGroup extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_vdb_group',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

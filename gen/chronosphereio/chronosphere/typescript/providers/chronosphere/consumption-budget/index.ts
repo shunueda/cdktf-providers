@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,70 +8,70 @@ import * as cdktf from 'cdktf';
 
 export interface ConsumptionBudgetConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#consumption_config_id ConsumptionBudget#consumption_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#consumption_config_id ConsumptionBudget#consumption_config_id}
   */
   readonly consumptionConfigId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#default_priority ConsumptionBudget#default_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#default_priority ConsumptionBudget#default_priority}
   */
   readonly defaultPriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#id ConsumptionBudget#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#id ConsumptionBudget#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#name ConsumptionBudget#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#name ConsumptionBudget#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#notification_policy_id ConsumptionBudget#notification_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#notification_policy_id ConsumptionBudget#notification_policy_id}
   */
   readonly notificationPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#partition_slug_path ConsumptionBudget#partition_slug_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#partition_slug_path ConsumptionBudget#partition_slug_path}
   */
   readonly partitionSlugPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#resource ConsumptionBudget#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#resource ConsumptionBudget#resource}
   */
   readonly resource?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#slug ConsumptionBudget#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#slug ConsumptionBudget#slug}
   */
   readonly slug?: string;
   /**
   * alert_action_config block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#alert_action_config ConsumptionBudget#alert_action_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#alert_action_config ConsumptionBudget#alert_action_config}
   */
   readonly alertActionConfig?: ConsumptionBudgetAlertActionConfig;
   /**
   * priority block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#priority ConsumptionBudget#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#priority ConsumptionBudget#priority}
   */
   readonly priority?: ConsumptionBudgetPriority[] | cdktf.IResolvable;
   /**
   * threshold block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#threshold ConsumptionBudget#threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#threshold ConsumptionBudget#threshold}
   */
   readonly threshold?: ConsumptionBudgetThreshold[] | cdktf.IResolvable;
 }
 export interface ConsumptionBudgetAlertActionConfig {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#annotations ConsumptionBudget#annotations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#annotations ConsumptionBudget#annotations}
   */
   readonly annotations?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#instant_rate_sustain_secs ConsumptionBudget#instant_rate_sustain_secs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#instant_rate_sustain_secs ConsumptionBudget#instant_rate_sustain_secs}
   */
   readonly instantRateSustainSecs?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#labels ConsumptionBudget#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#labels ConsumptionBudget#labels}
   */
   readonly labels?: { [key: string]: string };
 }
@@ -213,7 +213,7 @@ export class ConsumptionBudgetAlertActionConfigOutputReference extends cdktf.Com
 }
 export interface ConsumptionBudgetPriorityFilterLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#query ConsumptionBudget#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#query ConsumptionBudget#query}
   */
   readonly query: string;
 }
@@ -294,13 +294,13 @@ export class ConsumptionBudgetPriorityFilterLogFilterOutputReference extends cdk
 }
 export interface ConsumptionBudgetPriorityFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#dataset_id ConsumptionBudget#dataset_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#dataset_id ConsumptionBudget#dataset_id}
   */
   readonly datasetId?: string;
   /**
   * log_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#log_filter ConsumptionBudget#log_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#log_filter ConsumptionBudget#log_filter}
   */
   readonly logFilter?: ConsumptionBudgetPriorityFilterLogFilter;
 }
@@ -445,13 +445,13 @@ export class ConsumptionBudgetPriorityFilterList extends cdktf.ComplexList {
 }
 export interface ConsumptionBudgetPriority {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#priority ConsumptionBudget#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#priority ConsumptionBudget#priority}
   */
   readonly priority?: number;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#filter ConsumptionBudget#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#filter ConsumptionBudget#filter}
   */
   readonly filter?: ConsumptionBudgetPriorityFilter[] | cdktf.IResolvable;
 }
@@ -596,7 +596,7 @@ export class ConsumptionBudgetPriorityList extends cdktf.ComplexList {
 }
 export interface ConsumptionBudgetThresholdInstantRate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#fixed_value_per_sec ConsumptionBudget#fixed_value_per_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#fixed_value_per_sec ConsumptionBudget#fixed_value_per_sec}
   */
   readonly fixedValuePerSec?: number;
 }
@@ -680,7 +680,7 @@ export class ConsumptionBudgetThresholdInstantRateOutputReference extends cdktf.
 }
 export interface ConsumptionBudgetThresholdVolume {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#fixed_value ConsumptionBudget#fixed_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#fixed_value ConsumptionBudget#fixed_value}
   */
   readonly fixedValue?: number;
 }
@@ -764,23 +764,23 @@ export class ConsumptionBudgetThresholdVolumeOutputReference extends cdktf.Compl
 }
 export interface ConsumptionBudgetThreshold {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#action ConsumptionBudget#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#action ConsumptionBudget#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#type ConsumptionBudget#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#type ConsumptionBudget#type}
   */
   readonly type?: string;
   /**
   * instant_rate block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#instant_rate ConsumptionBudget#instant_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#instant_rate ConsumptionBudget#instant_rate}
   */
   readonly instantRate?: ConsumptionBudgetThresholdInstantRate;
   /**
   * volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#volume ConsumptionBudget#volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#volume ConsumptionBudget#volume}
   */
   readonly volume?: ConsumptionBudgetThresholdVolume;
 }
@@ -983,7 +983,7 @@ export class ConsumptionBudgetThresholdList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget chronosphere_consumption_budget}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget chronosphere_consumption_budget}
 */
 export class ConsumptionBudget extends cdktf.TerraformResource {
 
@@ -999,7 +999,7 @@ export class ConsumptionBudget extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ConsumptionBudget resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ConsumptionBudget to import
-  * @param importFromId The id of the existing ConsumptionBudget that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ConsumptionBudget that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ConsumptionBudget to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1011,7 +1011,7 @@ export class ConsumptionBudget extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/consumption_budget chronosphere_consumption_budget} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/consumption_budget chronosphere_consumption_budget} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1022,8 +1022,8 @@ export class ConsumptionBudget extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_consumption_budget',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

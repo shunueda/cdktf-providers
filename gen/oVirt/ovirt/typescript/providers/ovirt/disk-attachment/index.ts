@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DiskAttachmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * Defines whether the disk is active in the virtual machine it is attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment#active DiskAttachment#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment#active DiskAttachment#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Defines whether the disk is bootable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment#bootable DiskAttachment#bootable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment#bootable DiskAttachment#bootable}
   */
   readonly bootable?: boolean | cdktf.IResolvable;
   /**
   * ID of the disk to attach. This disk must either be shared or not yet attached to a different VM.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment#disk_id DiskAttachment#disk_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment#disk_id DiskAttachment#disk_id}
   */
   readonly diskId: string;
   /**
   * Type of interface to use for attaching disk. One of: `ide`, `sata`, `spapr_vscsi`, `virtio`, `virtio_scsi`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment#disk_interface DiskAttachment#disk_interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment#disk_interface DiskAttachment#disk_interface}
   */
   readonly diskInterface: string;
   /**
   * ID of the VM the disk should be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment#vm_id DiskAttachment#vm_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment#vm_id DiskAttachment#vm_id}
   */
   readonly vmId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment ovirt_disk_attachment}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment ovirt_disk_attachment}
 */
 export class DiskAttachment extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class DiskAttachment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DiskAttachment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DiskAttachment to import
-  * @param importFromId The id of the existing DiskAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DiskAttachment that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DiskAttachment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class DiskAttachment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk_attachment ovirt_disk_attachment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk_attachment ovirt_disk_attachment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class DiskAttachment extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_disk_attachment',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

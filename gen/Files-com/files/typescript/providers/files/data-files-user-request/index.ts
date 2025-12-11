@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.403/docs/data-sources/user_request
+// https://registry.terraform.io/providers/files-com/files/0.1.409/docs/data-sources/user_request
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataFilesUserRequestConfig extends cdktf.TerraformMetaArguments
   /**
   * ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.403/docs/data-sources/user_request#id DataFilesUserRequest#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/data-sources/user_request#id DataFilesUserRequest#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,7 +19,7 @@ export interface DataFilesUserRequestConfig extends cdktf.TerraformMetaArguments
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.403/docs/data-sources/user_request files_user_request}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/data-sources/user_request files_user_request}
 */
 export class DataFilesUserRequest extends cdktf.TerraformDataSource {
 
@@ -35,7 +35,7 @@ export class DataFilesUserRequest extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataFilesUserRequest resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataFilesUserRequest to import
-  * @param importFromId The id of the existing DataFilesUserRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.403/docs/data-sources/user_request#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataFilesUserRequest that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/data-sources/user_request#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataFilesUserRequest to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -47,7 +47,7 @@ export class DataFilesUserRequest extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.403/docs/data-sources/user_request files_user_request} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/data-sources/user_request files_user_request} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -58,8 +58,8 @@ export class DataFilesUserRequest extends cdktf.TerraformDataSource {
       terraformResourceType: 'files_user_request',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.403',
-        providerVersionConstraint: '0.1.403'
+        providerVersion: '0.1.409',
+        providerVersionConstraint: '0.1.409'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

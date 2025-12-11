@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,109 +10,109 @@ export interface RepositoryConfig extends cdktf.TerraformMetaArguments {
   /**
   * BearerToken contains the bearer token used for Git BitBucket Data Center auth at the repo server
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#bearer_token Repository#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#bearer_token Repository#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * Whether `git-lfs` support should be enabled for this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#enable_lfs Repository#enable_lfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#enable_lfs Repository#enable_lfs}
   */
   readonly enableLfs?: boolean | cdktf.IResolvable;
   /**
   * Whether `helm-oci` support should be enabled for this repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#enable_oci Repository#enable_oci}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#enable_oci Repository#enable_oci}
   */
   readonly enableOci?: boolean | cdktf.IResolvable;
   /**
   * GitHub API URL for GitHub app authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#githubapp_enterprise_base_url Repository#githubapp_enterprise_base_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#githubapp_enterprise_base_url Repository#githubapp_enterprise_base_url}
   */
   readonly githubappEnterpriseBaseUrl?: string;
   /**
   * ID of the GitHub app used to access the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#githubapp_id Repository#githubapp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#githubapp_id Repository#githubapp_id}
   */
   readonly githubappId?: string;
   /**
   * The installation ID of the GitHub App used to access the repo.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#githubapp_installation_id Repository#githubapp_installation_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#githubapp_installation_id Repository#githubapp_installation_id}
   */
   readonly githubappInstallationId?: string;
   /**
   * Private key data (PEM) for authentication via GitHub app.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#githubapp_private_key Repository#githubapp_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#githubapp_private_key Repository#githubapp_private_key}
   */
   readonly githubappPrivateKey?: string;
   /**
   * Whether the connection to the repository ignores any errors when verifying TLS certificates or SSH host keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#insecure Repository#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#insecure Repository#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * Name to be used for this repo. Only used with Helm repos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#name Repository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#name Repository#name}
   */
   readonly name?: string;
   /**
   * Password or PAT used for authenticating at the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#password Repository#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#password Repository#password}
   */
   readonly password?: string;
   /**
   * The project name, in case the repository is project scoped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#project Repository#project}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#project Repository#project}
   */
   readonly project?: string;
   /**
   * URL of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#repo Repository#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#repo Repository#repo}
   */
   readonly repo: string;
   /**
   * PEM data for authenticating at the repo server. Only used with Git repos.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#ssh_private_key Repository#ssh_private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#ssh_private_key Repository#ssh_private_key}
   */
   readonly sshPrivateKey?: string;
   /**
   * TLS client certificate in PEM format for authenticating at the repo server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#tls_client_cert_data Repository#tls_client_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#tls_client_cert_data Repository#tls_client_cert_data}
   */
   readonly tlsClientCertData?: string;
   /**
   * TLS client certificate private key in PEM format for authenticating at the repo server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#tls_client_cert_key Repository#tls_client_cert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#tls_client_cert_key Repository#tls_client_cert_key}
   */
   readonly tlsClientCertKey?: string;
   /**
   * Type of the repo. Can be either `git` or `helm`. `git` is assumed if empty or absent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#type Repository#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#type Repository#type}
   */
   readonly type?: string;
   /**
   * Username used for authenticating at the remote repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#username Repository#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#username Repository#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository argocd_repository}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository argocd_repository}
 */
 export class Repository extends cdktf.TerraformResource {
 
@@ -128,7 +128,7 @@ export class Repository extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Repository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Repository to import
-  * @param importFromId The id of the existing Repository that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Repository that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Repository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -140,7 +140,7 @@ export class Repository extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/repository argocd_repository} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/repository argocd_repository} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -151,8 +151,8 @@ export class Repository extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_repository',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.1',
-        providerVersionConstraint: '7.12.1'
+        providerVersion: '7.12.3',
+        providerVersionConstraint: '7.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

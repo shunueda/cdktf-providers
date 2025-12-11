@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface CheckRequiredTemplateConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#id CheckRequiredTemplate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#id CheckRequiredTemplate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#project_id CheckRequiredTemplate#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#project_id CheckRequiredTemplate#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#target_resource_id CheckRequiredTemplate#target_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#target_resource_id CheckRequiredTemplate#target_resource_id}
   */
   readonly targetResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#target_resource_type CheckRequiredTemplate#target_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#target_resource_type CheckRequiredTemplate#target_resource_type}
   */
   readonly targetResourceType: string;
   /**
   * required_template block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#required_template CheckRequiredTemplate#required_template}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#required_template CheckRequiredTemplate#required_template}
   */
   readonly requiredTemplate: CheckRequiredTemplateRequiredTemplate[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#timeouts CheckRequiredTemplate#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#timeouts CheckRequiredTemplate#timeouts}
   */
   readonly timeouts?: CheckRequiredTemplateTimeouts;
 }
 export interface CheckRequiredTemplateRequiredTemplate {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#repository_name CheckRequiredTemplate#repository_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#repository_name CheckRequiredTemplate#repository_name}
   */
   readonly repositoryName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#repository_ref CheckRequiredTemplate#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#repository_ref CheckRequiredTemplate#repository_ref}
   */
   readonly repositoryRef: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#repository_type CheckRequiredTemplate#repository_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#repository_type CheckRequiredTemplate#repository_type}
   */
   readonly repositoryType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#template_path CheckRequiredTemplate#template_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#template_path CheckRequiredTemplate#template_path}
   */
   readonly templatePath: string;
 }
@@ -247,19 +247,19 @@ export class CheckRequiredTemplateRequiredTemplateList extends cdktf.ComplexList
 }
 export interface CheckRequiredTemplateTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#create CheckRequiredTemplate#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#create CheckRequiredTemplate#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#delete CheckRequiredTemplate#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#delete CheckRequiredTemplate#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#read CheckRequiredTemplate#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#read CheckRequiredTemplate#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#update CheckRequiredTemplate#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#update CheckRequiredTemplate#update}
   */
   readonly update?: string;
 }
@@ -440,7 +440,7 @@ export class CheckRequiredTemplateTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template azuredevops_check_required_template}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template azuredevops_check_required_template}
 */
 export class CheckRequiredTemplate extends cdktf.TerraformResource {
 
@@ -456,7 +456,7 @@ export class CheckRequiredTemplate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckRequiredTemplate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckRequiredTemplate to import
-  * @param importFromId The id of the existing CheckRequiredTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckRequiredTemplate that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckRequiredTemplate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -468,7 +468,7 @@ export class CheckRequiredTemplate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_required_template azuredevops_check_required_template} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_required_template azuredevops_check_required_template} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -479,8 +479,8 @@ export class CheckRequiredTemplate extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_check_required_template',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

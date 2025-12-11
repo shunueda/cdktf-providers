@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AssociateRoleAuthMethodConfig extends cdktf.TerraformMetaArgume
   /**
   * The auth method to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method#am_name AssociateRoleAuthMethod#am_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method#am_name AssociateRoleAuthMethod#am_name}
   */
   readonly amName: string;
   /**
   * Treat sub claims as case-sensitive
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method#case_sensitive AssociateRoleAuthMethod#case_sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method#case_sensitive AssociateRoleAuthMethod#case_sensitive}
   */
   readonly caseSensitive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method#id AssociateRoleAuthMethod#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method#id AssociateRoleAuthMethod#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AssociateRoleAuthMethodConfig extends cdktf.TerraformMetaArgume
   /**
   * The role to associate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method#role_name AssociateRoleAuthMethod#role_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method#role_name AssociateRoleAuthMethod#role_name}
   */
   readonly roleName: string;
   /**
   * key/val of sub claims, e.g group=admins,developers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method#sub_claims AssociateRoleAuthMethod#sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method#sub_claims AssociateRoleAuthMethod#sub_claims}
   */
   readonly subClaims?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method akeyless_associate_role_auth_method}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method akeyless_associate_role_auth_method}
 */
 export class AssociateRoleAuthMethod extends cdktf.TerraformResource {
 
@@ -57,7 +57,7 @@ export class AssociateRoleAuthMethod extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AssociateRoleAuthMethod resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AssociateRoleAuthMethod to import
-  * @param importFromId The id of the existing AssociateRoleAuthMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AssociateRoleAuthMethod that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AssociateRoleAuthMethod to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -69,7 +69,7 @@ export class AssociateRoleAuthMethod extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/associate_role_auth_method akeyless_associate_role_auth_method} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/associate_role_auth_method akeyless_associate_role_auth_method} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -80,8 +80,8 @@ export class AssociateRoleAuthMethod extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_associate_role_auth_method',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

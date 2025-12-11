@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface ProducerAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The types of credentials to retrieve from AWS. Options:[iam_user,assume_role]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#access_mode ProducerAws#access_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#access_mode ProducerAws#access_mode}
   */
   readonly accessMode?: string;
   /**
   * Access Key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_access_key_id ProducerAws#aws_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_access_key_id ProducerAws#aws_access_key_id}
   */
   readonly awsAccessKeyId?: string;
   /**
   * Access Secret Key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_access_secret_key ProducerAws#aws_access_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_access_secret_key ProducerAws#aws_access_secret_key}
   */
   readonly awsAccessSecretKey?: string;
   /**
   * AWS Role ARNs to be use in the Assume Role operation. Multiple values should be separated by comma
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_role_arns ProducerAws#aws_role_arns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_role_arns ProducerAws#aws_role_arns}
   */
   readonly awsRoleArns?: string;
   /**
   * Enable AWS User console access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_user_console_access ProducerAws#aws_user_console_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_user_console_access ProducerAws#aws_user_console_access}
   */
   readonly awsUserConsoleAccess?: boolean | cdktf.IResolvable;
   /**
   * UserGroup name(s). Multiple values should be separated by comma
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_user_groups ProducerAws#aws_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_user_groups ProducerAws#aws_user_groups}
   */
   readonly awsUserGroups?: string;
   /**
   * Policy ARN(s). Multiple values should be separated by comma
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_user_policies ProducerAws#aws_user_policies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_user_policies ProducerAws#aws_user_policies}
   */
   readonly awsUserPolicies?: string;
   /**
   * Enable AWS User programmatic access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#aws_user_programmatic_access ProducerAws#aws_user_programmatic_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#aws_user_programmatic_access ProducerAws#aws_user_programmatic_access}
   */
   readonly awsUserProgrammaticAccess?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#id ProducerAws#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#id ProducerAws#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,87 +65,87 @@ export interface ProducerAwsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#name ProducerAws#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#name ProducerAws#name}
   */
   readonly name: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#producer_encryption_key_name ProducerAws#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#producer_encryption_key_name ProducerAws#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * Region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#region ProducerAws#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#region ProducerAws#region}
   */
   readonly region?: string;
   /**
   * The aws account id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_aws_account_id ProducerAws#secure_access_aws_account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_aws_account_id ProducerAws#secure_access_aws_account_id}
   */
   readonly secureAccessAwsAccountId?: string;
   /**
   * The aws native cli
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_aws_native_cli ProducerAws#secure_access_aws_native_cli}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_aws_native_cli ProducerAws#secure_access_aws_native_cli}
   */
   readonly secureAccessAwsNativeCli?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_aws_region ProducerAws#secure_access_aws_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_aws_region ProducerAws#secure_access_aws_region}
   */
   readonly secureAccessAwsRegion?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_bastion_issuer ProducerAws#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_bastion_issuer ProducerAws#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_enable ProducerAws#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_enable ProducerAws#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_url ProducerAws#secure_access_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_url ProducerAws#secure_access_url}
   */
   readonly secureAccessUrl?: string;
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_web ProducerAws#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_web ProducerAws#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * Secure browser via Akeyless Web Access Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#secure_access_web_browsing ProducerAws#secure_access_web_browsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#secure_access_web_browsing ProducerAws#secure_access_web_browsing}
   */
   readonly secureAccessWebBrowsing?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#tags ProducerAws#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#tags ProducerAws#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#target_name ProducerAws#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#target_name ProducerAws#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#user_ttl ProducerAws#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#user_ttl ProducerAws#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws akeyless_producer_aws}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws akeyless_producer_aws}
 */
 export class ProducerAws extends cdktf.TerraformResource {
 
@@ -161,7 +161,7 @@ export class ProducerAws extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerAws resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerAws to import
-  * @param importFromId The id of the existing ProducerAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerAws that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerAws to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -173,7 +173,7 @@ export class ProducerAws extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_aws akeyless_producer_aws} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_aws akeyless_producer_aws} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -184,8 +184,8 @@ export class ProducerAws extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_aws',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

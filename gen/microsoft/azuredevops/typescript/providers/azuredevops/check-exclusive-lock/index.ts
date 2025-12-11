@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface CheckExclusiveLockConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#id CheckExclusiveLock#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#id CheckExclusiveLock#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#project_id CheckExclusiveLock#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#project_id CheckExclusiveLock#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#target_resource_id CheckExclusiveLock#target_resource_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#target_resource_id CheckExclusiveLock#target_resource_id}
   */
   readonly targetResourceId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#target_resource_type CheckExclusiveLock#target_resource_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#target_resource_type CheckExclusiveLock#target_resource_type}
   */
   readonly targetResourceType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#timeout CheckExclusiveLock#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#timeout CheckExclusiveLock#timeout}
   */
   readonly timeout?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#timeouts CheckExclusiveLock#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#timeouts CheckExclusiveLock#timeouts}
   */
   readonly timeouts?: CheckExclusiveLockTimeouts;
 }
 export interface CheckExclusiveLockTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#create CheckExclusiveLock#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#create CheckExclusiveLock#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#delete CheckExclusiveLock#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#delete CheckExclusiveLock#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#read CheckExclusiveLock#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#read CheckExclusiveLock#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#update CheckExclusiveLock#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#update CheckExclusiveLock#update}
   */
   readonly update?: string;
 }
@@ -232,7 +232,7 @@ export class CheckExclusiveLockTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock azuredevops_check_exclusive_lock}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock azuredevops_check_exclusive_lock}
 */
 export class CheckExclusiveLock extends cdktf.TerraformResource {
 
@@ -248,7 +248,7 @@ export class CheckExclusiveLock extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CheckExclusiveLock resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CheckExclusiveLock to import
-  * @param importFromId The id of the existing CheckExclusiveLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CheckExclusiveLock that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CheckExclusiveLock to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -260,7 +260,7 @@ export class CheckExclusiveLock extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/check_exclusive_lock azuredevops_check_exclusive_lock} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/check_exclusive_lock azuredevops_check_exclusive_lock} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -271,8 +271,8 @@ export class CheckExclusiveLock extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_check_exclusive_lock',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

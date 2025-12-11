@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AlertChannelNewrelicConfig extends cdktf.TerraformMetaArguments
   /**
   * The New Relic account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#account_id AlertChannelNewrelic#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#account_id AlertChannelNewrelic#account_id}
   */
   readonly accountId: number;
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#enabled AlertChannelNewrelic#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#enabled AlertChannelNewrelic#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#id AlertChannelNewrelic#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#id AlertChannelNewrelic#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface AlertChannelNewrelicConfig extends cdktf.TerraformMetaArguments
   /**
   * The New Relic Insert API key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#insert_key AlertChannelNewrelic#insert_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#insert_key AlertChannelNewrelic#insert_key}
   */
   readonly insertKey: string;
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#name AlertChannelNewrelic#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#name AlertChannelNewrelic#name}
   */
   readonly name: string;
   /**
   * Whether to test the integration of an alert channel upon creation and modification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#test_integration AlertChannelNewrelic#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#test_integration AlertChannelNewrelic#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic lacework_alert_channel_newrelic}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic lacework_alert_channel_newrelic}
 */
 export class AlertChannelNewrelic extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class AlertChannelNewrelic extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelNewrelic resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelNewrelic to import
-  * @param importFromId The id of the existing AlertChannelNewrelic that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelNewrelic that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelNewrelic to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class AlertChannelNewrelic extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_newrelic lacework_alert_channel_newrelic} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_newrelic lacework_alert_channel_newrelic} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class AlertChannelNewrelic extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_newrelic',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

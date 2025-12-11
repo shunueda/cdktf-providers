@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AlertChannelJiraServerConfig extends cdktf.TerraformMetaArgumen
   /**
   * Whether the integration is Unidirectional or Bidirectional. Defaults to Unidirectional
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#configuration AlertChannelJiraServer#configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#configuration AlertChannelJiraServer#configuration}
   */
   readonly configuration?: string;
   /**
   * A Custom Template JSON file to populate fields in the new Jira issues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#custom_template_file AlertChannelJiraServer#custom_template_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#custom_template_file AlertChannelJiraServer#custom_template_file}
   */
   readonly customTemplateFile?: string;
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#enabled AlertChannelJiraServer#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#enabled AlertChannelJiraServer#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Defines how Lacework compliance events get grouped. Must be one of Events or Resources. Defaults to Events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#group_issues_by AlertChannelJiraServer#group_issues_by}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#group_issues_by AlertChannelJiraServer#group_issues_by}
   */
   readonly groupIssuesBy?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#id AlertChannelJiraServer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#id AlertChannelJiraServer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface AlertChannelJiraServerConfig extends cdktf.TerraformMetaArgumen
   /**
   * The Jira issue type (such as a Bug) to create when a new Jira issue is created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#issue_type AlertChannelJiraServer#issue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#issue_type AlertChannelJiraServer#issue_type}
   */
   readonly issueType: string;
   /**
   * The URL of your Jira implementation without https protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#jira_url AlertChannelJiraServer#jira_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#jira_url AlertChannelJiraServer#jira_url}
   */
   readonly jiraUrl: string;
   /**
   * The alert channel integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#name AlertChannelJiraServer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#name AlertChannelJiraServer#name}
   */
   readonly name: string;
   /**
   * The password to the Jira user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#password AlertChannelJiraServer#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#password AlertChannelJiraServer#password}
   */
   readonly password: string;
   /**
   * The project key for the Jira project where the new Jira issues should be created
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#project_key AlertChannelJiraServer#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#project_key AlertChannelJiraServer#project_key}
   */
   readonly projectKey: string;
   /**
   * Whether to test the integration of an alert channel upon creation and modification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#test_integration AlertChannelJiraServer#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#test_integration AlertChannelJiraServer#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
   /**
   * The Jira user name. Lacework recommends a dedicated Jira user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#username AlertChannelJiraServer#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#username AlertChannelJiraServer#username}
   */
   readonly username: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server lacework_alert_channel_jira_server}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server lacework_alert_channel_jira_server}
 */
 export class AlertChannelJiraServer extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class AlertChannelJiraServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelJiraServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelJiraServer to import
-  * @param importFromId The id of the existing AlertChannelJiraServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelJiraServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelJiraServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class AlertChannelJiraServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_jira_server lacework_alert_channel_jira_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_jira_server lacework_alert_channel_jira_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class AlertChannelJiraServer extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_jira_server',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

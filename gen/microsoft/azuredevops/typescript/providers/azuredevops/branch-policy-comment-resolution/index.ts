@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,48 +8,48 @@ import * as cdktf from 'cdktf';
 
 export interface BranchPolicyCommentResolutionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#blocking BranchPolicyCommentResolution#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#blocking BranchPolicyCommentResolution#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#enabled BranchPolicyCommentResolution#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#enabled BranchPolicyCommentResolution#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#id BranchPolicyCommentResolution#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#id BranchPolicyCommentResolution#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#project_id BranchPolicyCommentResolution#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#project_id BranchPolicyCommentResolution#project_id}
   */
   readonly projectId: string;
   /**
   * settings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#settings BranchPolicyCommentResolution#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#settings BranchPolicyCommentResolution#settings}
   */
   readonly settings: BranchPolicyCommentResolutionSettings;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#timeouts BranchPolicyCommentResolution#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#timeouts BranchPolicyCommentResolution#timeouts}
   */
   readonly timeouts?: BranchPolicyCommentResolutionTimeouts;
 }
 export interface BranchPolicyCommentResolutionSettingsScope {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#match_type BranchPolicyCommentResolution#match_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#match_type BranchPolicyCommentResolution#match_type}
   */
   readonly matchType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#repository_id BranchPolicyCommentResolution#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#repository_id BranchPolicyCommentResolution#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#repository_ref BranchPolicyCommentResolution#repository_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#repository_ref BranchPolicyCommentResolution#repository_ref}
   */
   readonly repositoryRef?: string;
 }
@@ -225,7 +225,7 @@ export interface BranchPolicyCommentResolutionSettings {
   /**
   * scope block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#scope BranchPolicyCommentResolution#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#scope BranchPolicyCommentResolution#scope}
   */
   readonly scope: BranchPolicyCommentResolutionSettingsScope[] | cdktf.IResolvable;
 }
@@ -306,19 +306,19 @@ export class BranchPolicyCommentResolutionSettingsOutputReference extends cdktf.
 }
 export interface BranchPolicyCommentResolutionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#create BranchPolicyCommentResolution#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#create BranchPolicyCommentResolution#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#delete BranchPolicyCommentResolution#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#delete BranchPolicyCommentResolution#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#read BranchPolicyCommentResolution#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#read BranchPolicyCommentResolution#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#update BranchPolicyCommentResolution#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#update BranchPolicyCommentResolution#update}
   */
   readonly update?: string;
 }
@@ -499,7 +499,7 @@ export class BranchPolicyCommentResolutionTimeoutsOutputReference extends cdktf.
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution azuredevops_branch_policy_comment_resolution}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution azuredevops_branch_policy_comment_resolution}
 */
 export class BranchPolicyCommentResolution extends cdktf.TerraformResource {
 
@@ -515,7 +515,7 @@ export class BranchPolicyCommentResolution extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BranchPolicyCommentResolution resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BranchPolicyCommentResolution to import
-  * @param importFromId The id of the existing BranchPolicyCommentResolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BranchPolicyCommentResolution that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BranchPolicyCommentResolution to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -527,7 +527,7 @@ export class BranchPolicyCommentResolution extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/branch_policy_comment_resolution azuredevops_branch_policy_comment_resolution} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/branch_policy_comment_resolution azuredevops_branch_policy_comment_resolution} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -538,8 +538,8 @@ export class BranchPolicyCommentResolution extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_branch_policy_comment_resolution',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

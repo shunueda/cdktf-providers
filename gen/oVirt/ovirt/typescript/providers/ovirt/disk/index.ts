@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DiskConfig extends cdktf.TerraformMetaArguments {
   /**
   * Human-readable alias for the disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk#alias Disk#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk#alias Disk#alias}
   */
   readonly alias?: string;
   /**
   * Format for the disk. One of: `cow`, `raw`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk#format Disk#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk#format Disk#format}
   */
   readonly format: string;
   /**
   * Disk size in bytes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk#size Disk#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk#size Disk#size}
   */
   readonly size: number;
   /**
   * Use sparse provisioning for disk.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk#sparse Disk#sparse}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk#sparse Disk#sparse}
   */
   readonly sparse?: boolean | cdktf.IResolvable;
   /**
   * ID of the storage domain to use for disk creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk#storage_domain_id Disk#storage_domain_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk#storage_domain_id Disk#storage_domain_id}
   */
   readonly storageDomainId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk ovirt_disk}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk ovirt_disk}
 */
 export class Disk extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Disk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Disk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Disk to import
-  * @param importFromId The id of the existing Disk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Disk that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Disk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Disk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/disk ovirt_disk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/disk ovirt_disk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Disk extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_disk',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

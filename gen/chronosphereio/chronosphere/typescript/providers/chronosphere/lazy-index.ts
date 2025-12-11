@@ -28,6 +28,7 @@ Object.defineProperty(exports, 'recordingRule', { get: function () { return requ
 Object.defineProperty(exports, 'resourcePoolsConfig', { get: function () { return require('./resource-pools-config'); } });
 Object.defineProperty(exports, 'rollupRule', { get: function () { return require('./rollup-rule'); } });
 Object.defineProperty(exports, 'serviceAccount', { get: function () { return require('./service-account'); } });
+Object.defineProperty(exports, 'serviceAttribute', { get: function () { return require('./service-attribute'); } });
 Object.defineProperty(exports, 'slackAlertNotifier', { get: function () { return require('./slack-alert-notifier'); } });
 Object.defineProperty(exports, 'slo', { get: function () { return require('./slo'); } });
 Object.defineProperty(exports, 'team', { get: function () { return require('./team'); } });

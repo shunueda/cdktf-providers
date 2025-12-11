@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/gpg_key
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/gpg_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface GpgKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Raw key data of the GPG key to create
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/gpg_key#public_key GpgKey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/gpg_key#public_key GpgKey#public_key}
   */
   readonly publicKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/gpg_key argocd_gpg_key}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/gpg_key argocd_gpg_key}
 */
 export class GpgKey extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class GpgKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GpgKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GpgKey to import
-  * @param importFromId The id of the existing GpgKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/gpg_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GpgKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/gpg_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GpgKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class GpgKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/resources/gpg_key argocd_gpg_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/resources/gpg_key argocd_gpg_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class GpgKey extends cdktf.TerraformResource {
       terraformResourceType: 'argocd_gpg_key',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.1',
-        providerVersionConstraint: '7.12.1'
+        providerVersion: '7.12.3',
+        providerVersionConstraint: '7.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

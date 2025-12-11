@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface PolicyTimeoutRuleV2Config extends cdktf.TerraformMetaArguments 
   /**
   *   This is for providing the rule action.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#action PolicyTimeoutRuleV2#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#action PolicyTimeoutRuleV2#action}
   */
   readonly action?: string;
   /**
   * This is for providing a customer message for the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#custom_msg PolicyTimeoutRuleV2#custom_msg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#custom_msg PolicyTimeoutRuleV2#custom_msg}
   */
   readonly customMsg?: string;
   /**
   * This is the description of the access policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#description PolicyTimeoutRuleV2#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#description PolicyTimeoutRuleV2#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#microtenant_id PolicyTimeoutRuleV2#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#microtenant_id PolicyTimeoutRuleV2#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This is the name of the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#name PolicyTimeoutRuleV2#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#name PolicyTimeoutRuleV2#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#reauth_idle_timeout PolicyTimeoutRuleV2#reauth_idle_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#reauth_idle_timeout PolicyTimeoutRuleV2#reauth_idle_timeout}
   */
   readonly reauthIdleTimeout?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#reauth_timeout PolicyTimeoutRuleV2#reauth_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#reauth_timeout PolicyTimeoutRuleV2#reauth_timeout}
   */
   readonly reauthTimeout?: string;
   /**
   * conditions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#conditions PolicyTimeoutRuleV2#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#conditions PolicyTimeoutRuleV2#conditions}
   */
   readonly conditions?: PolicyTimeoutRuleV2Conditions[] | cdktf.IResolvable;
 }
 export interface PolicyTimeoutRuleV2ConditionsOperandsEntryValues {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#lhs PolicyTimeoutRuleV2#lhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#lhs PolicyTimeoutRuleV2#lhs}
   */
   readonly lhs?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#rhs PolicyTimeoutRuleV2#rhs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#rhs PolicyTimeoutRuleV2#rhs}
   */
   readonly rhs?: string;
 }
@@ -203,19 +203,19 @@ export interface PolicyTimeoutRuleV2ConditionsOperands {
   /**
   *   This is for specifying the policy critiera.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#object_type PolicyTimeoutRuleV2#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#object_type PolicyTimeoutRuleV2#object_type}
   */
   readonly objectType?: string;
   /**
   * This denotes a list of values for the given object type. The value depend upon the key. If rhs is defined this list will be ignored
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#values PolicyTimeoutRuleV2#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#values PolicyTimeoutRuleV2#values}
   */
   readonly values?: string[];
   /**
   * entry_values block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#entry_values PolicyTimeoutRuleV2#entry_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#entry_values PolicyTimeoutRuleV2#entry_values}
   */
   readonly entryValues?: PolicyTimeoutRuleV2ConditionsOperandsEntryValues[] | cdktf.IResolvable;
 }
@@ -389,13 +389,13 @@ export class PolicyTimeoutRuleV2ConditionsOperandsList extends cdktf.ComplexList
 }
 export interface PolicyTimeoutRuleV2Conditions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#operator PolicyTimeoutRuleV2#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#operator PolicyTimeoutRuleV2#operator}
   */
   readonly operator?: string;
   /**
   * operands block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#operands PolicyTimeoutRuleV2#operands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#operands PolicyTimeoutRuleV2#operands}
   */
   readonly operands?: PolicyTimeoutRuleV2ConditionsOperands[] | cdktf.IResolvable;
 }
@@ -545,7 +545,7 @@ export class PolicyTimeoutRuleV2ConditionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2 zpa_policy_timeout_rule_v2}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2 zpa_policy_timeout_rule_v2}
 */
 export class PolicyTimeoutRuleV2 extends cdktf.TerraformResource {
 
@@ -561,7 +561,7 @@ export class PolicyTimeoutRuleV2 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyTimeoutRuleV2 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyTimeoutRuleV2 to import
-  * @param importFromId The id of the existing PolicyTimeoutRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyTimeoutRuleV2 that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyTimeoutRuleV2 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -573,7 +573,7 @@ export class PolicyTimeoutRuleV2 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/policy_timeout_rule_v2 zpa_policy_timeout_rule_v2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/policy_timeout_rule_v2 zpa_policy_timeout_rule_v2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -584,8 +584,8 @@ export class PolicyTimeoutRuleV2 extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_policy_timeout_rule_v2',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

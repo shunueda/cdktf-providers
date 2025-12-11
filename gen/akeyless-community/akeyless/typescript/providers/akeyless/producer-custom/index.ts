@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface ProducerCustomConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rotation period in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#admin_rotation_interval_days ProducerCustom#admin_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#admin_rotation_interval_days ProducerCustom#admin_rotation_interval_days}
   */
   readonly adminRotationIntervalDays?: number;
   /**
   * URL of an endpoint that implements /sync/create method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#create_sync_url ProducerCustom#create_sync_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#create_sync_url ProducerCustom#create_sync_url}
   */
   readonly createSyncUrl: string;
   /**
   * Enable automatic admin credentials rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#enable_admin_rotation ProducerCustom#enable_admin_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#enable_admin_rotation ProducerCustom#enable_admin_rotation}
   */
   readonly enableAdminRotation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#id ProducerCustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#id ProducerCustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,55 +35,55 @@ export interface ProducerCustomConfig extends cdktf.TerraformMetaArguments {
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#name ProducerCustom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#name ProducerCustom#name}
   */
   readonly name: string;
   /**
   * Secret payload to be sent with each create/revoke webhook request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#payload ProducerCustom#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#payload ProducerCustom#payload}
   */
   readonly payload?: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#producer_encryption_key_name ProducerCustom#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#producer_encryption_key_name ProducerCustom#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * URL of an endpoint that implements /sync/revoke method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#revoke_sync_url ProducerCustom#revoke_sync_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#revoke_sync_url ProducerCustom#revoke_sync_url}
   */
   readonly revokeSyncUrl: string;
   /**
   * URL of an endpoint that implements /sync/rotate method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#rotate_sync_url ProducerCustom#rotate_sync_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#rotate_sync_url ProducerCustom#rotate_sync_url}
   */
   readonly rotateSyncUrl?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#tags ProducerCustom#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#tags ProducerCustom#tags}
   */
   readonly tags?: string[];
   /**
   * Maximum allowed time in seconds for the webhook to return the results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#timeout_sec ProducerCustom#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#timeout_sec ProducerCustom#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#user_ttl ProducerCustom#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#user_ttl ProducerCustom#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom akeyless_producer_custom}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom akeyless_producer_custom}
 */
 export class ProducerCustom extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class ProducerCustom extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerCustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerCustom to import
-  * @param importFromId The id of the existing ProducerCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerCustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class ProducerCustom extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_custom akeyless_producer_custom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_custom akeyless_producer_custom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class ProducerCustom extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_custom',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

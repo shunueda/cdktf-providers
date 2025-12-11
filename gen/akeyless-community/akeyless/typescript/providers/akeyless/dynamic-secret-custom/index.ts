@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface DynamicSecretCustomConfig extends cdktf.TerraformMetaArguments 
   /**
   * Rotation period in days
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#admin_rotation_interval_days DynamicSecretCustom#admin_rotation_interval_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#admin_rotation_interval_days DynamicSecretCustom#admin_rotation_interval_days}
   */
   readonly adminRotationIntervalDays?: number;
   /**
   * URL of an endpoint that implements /sync/create method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#create_sync_url DynamicSecretCustom#create_sync_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#create_sync_url DynamicSecretCustom#create_sync_url}
   */
   readonly createSyncUrl: string;
   /**
   * Enable automatic admin credentials rotation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#enable_admin_rotation DynamicSecretCustom#enable_admin_rotation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#enable_admin_rotation DynamicSecretCustom#enable_admin_rotation}
   */
   readonly enableAdminRotation?: boolean | cdktf.IResolvable;
   /**
   * Encrypt dynamic secret details with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#encryption_key_name DynamicSecretCustom#encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#encryption_key_name DynamicSecretCustom#encryption_key_name}
   */
   readonly encryptionKeyName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#id DynamicSecretCustom#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#id DynamicSecretCustom#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,49 +41,49 @@ export interface DynamicSecretCustomConfig extends cdktf.TerraformMetaArguments 
   /**
   * Dynamic secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#name DynamicSecretCustom#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#name DynamicSecretCustom#name}
   */
   readonly name: string;
   /**
   * Secret payload to be sent with each create/revoke webhook request
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#payload DynamicSecretCustom#payload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#payload DynamicSecretCustom#payload}
   */
   readonly payload?: string;
   /**
   * URL of an endpoint that implements /sync/revoke method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#revoke_sync_url DynamicSecretCustom#revoke_sync_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#revoke_sync_url DynamicSecretCustom#revoke_sync_url}
   */
   readonly revokeSyncUrl: string;
   /**
   * URL of an endpoint that implements /sync/rotate method
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#rotate_sync_url DynamicSecretCustom#rotate_sync_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#rotate_sync_url DynamicSecretCustom#rotate_sync_url}
   */
   readonly rotateSyncUrl?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#tags DynamicSecretCustom#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#tags DynamicSecretCustom#tags}
   */
   readonly tags?: string[];
   /**
   * Maximum allowed time in seconds for the webhook to return the results
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#timeout_sec DynamicSecretCustom#timeout_sec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#timeout_sec DynamicSecretCustom#timeout_sec}
   */
   readonly timeoutSec?: number;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#user_ttl DynamicSecretCustom#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#user_ttl DynamicSecretCustom#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom akeyless_dynamic_secret_custom}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom akeyless_dynamic_secret_custom}
 */
 export class DynamicSecretCustom extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class DynamicSecretCustom extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DynamicSecretCustom resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DynamicSecretCustom to import
-  * @param importFromId The id of the existing DynamicSecretCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DynamicSecretCustom that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DynamicSecretCustom to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class DynamicSecretCustom extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dynamic_secret_custom akeyless_dynamic_secret_custom} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dynamic_secret_custom akeyless_dynamic_secret_custom} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class DynamicSecretCustom extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dynamic_secret_custom',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

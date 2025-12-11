@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface AlertChannelGcpPubSubConfig extends cdktf.TerraformMetaArgument
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#enabled AlertChannelGcpPubSub#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#enabled AlertChannelGcpPubSub#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#id AlertChannelGcpPubSub#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#id AlertChannelGcpPubSub#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface AlertChannelGcpPubSubConfig extends cdktf.TerraformMetaArgument
   /**
   * Defines how Lacework compliance events get grouped. Must be one of Events or Resources. Defaults to Events.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#issue_grouping AlertChannelGcpPubSub#issue_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#issue_grouping AlertChannelGcpPubSub#issue_grouping}
   */
   readonly issueGrouping?: string;
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#name AlertChannelGcpPubSub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#name AlertChannelGcpPubSub#name}
   */
   readonly name: string;
   /**
   * The name of the Google Cloud Project
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#project_id AlertChannelGcpPubSub#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#project_id AlertChannelGcpPubSub#project_id}
   */
   readonly projectId: string;
   /**
   * Whether to test the integration of an alert channel upon creation and modification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#test_integration AlertChannelGcpPubSub#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#test_integration AlertChannelGcpPubSub#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
   /**
   * The ID of the Google Cloud Pub/Sub topic
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#topic_id AlertChannelGcpPubSub#topic_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#topic_id AlertChannelGcpPubSub#topic_id}
   */
   readonly topicId: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#credentials AlertChannelGcpPubSub#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#credentials AlertChannelGcpPubSub#credentials}
   */
   readonly credentials: AlertChannelGcpPubSubCredentials;
 }
@@ -61,25 +61,25 @@ export interface AlertChannelGcpPubSubCredentials {
   /**
   * The service account client email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#client_email AlertChannelGcpPubSub#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#client_email AlertChannelGcpPubSub#client_email}
   */
   readonly clientEmail: string;
   /**
   * The service account client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#client_id AlertChannelGcpPubSub#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#client_id AlertChannelGcpPubSub#client_id}
   */
   readonly clientId: string;
   /**
   * The service account private key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#private_key AlertChannelGcpPubSub#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#private_key AlertChannelGcpPubSub#private_key}
   */
   readonly privateKey: string;
   /**
   * The service account private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#private_key_id AlertChannelGcpPubSub#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#private_key_id AlertChannelGcpPubSub#private_key_id}
   */
   readonly privateKeyId: string;
 }
@@ -238,7 +238,7 @@ export class AlertChannelGcpPubSubCredentialsOutputReference extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub lacework_alert_channel_gcp_pub_sub}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub lacework_alert_channel_gcp_pub_sub}
 */
 export class AlertChannelGcpPubSub extends cdktf.TerraformResource {
 
@@ -254,7 +254,7 @@ export class AlertChannelGcpPubSub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelGcpPubSub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelGcpPubSub to import
-  * @param importFromId The id of the existing AlertChannelGcpPubSub that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelGcpPubSub that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelGcpPubSub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -266,7 +266,7 @@ export class AlertChannelGcpPubSub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_gcp_pub_sub lacework_alert_channel_gcp_pub_sub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_gcp_pub_sub lacework_alert_channel_gcp_pub_sub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -277,8 +277,8 @@ export class AlertChannelGcpPubSub extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_gcp_pub_sub',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

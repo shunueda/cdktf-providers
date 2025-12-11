@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,187 +8,187 @@ import * as cdktf from 'cdktf';
 
 export interface EnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#allow_provisioning Environment#allow_provisioning}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#allow_provisioning Environment#allow_provisioning}
   */
   readonly allowProvisioning?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_cyberark_vault_query_string Environment#ase_db_cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_cyberark_vault_query_string Environment#ase_db_cyberark_vault_query_string}
   */
   readonly aseDbCyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_hashicorp_vault_engine Environment#ase_db_hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_hashicorp_vault_engine Environment#ase_db_hashicorp_vault_engine}
   */
   readonly aseDbHashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_hashicorp_vault_secret_key Environment#ase_db_hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_hashicorp_vault_secret_key Environment#ase_db_hashicorp_vault_secret_key}
   */
   readonly aseDbHashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_hashicorp_vault_secret_path Environment#ase_db_hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_hashicorp_vault_secret_path Environment#ase_db_hashicorp_vault_secret_path}
   */
   readonly aseDbHashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_hashicorp_vault_username_key Environment#ase_db_hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_hashicorp_vault_username_key Environment#ase_db_hashicorp_vault_username_key}
   */
   readonly aseDbHashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_password Environment#ase_db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_password Environment#ase_db_password}
   */
   readonly aseDbPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_use_kerberos_authentication Environment#ase_db_use_kerberos_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_use_kerberos_authentication Environment#ase_db_use_kerberos_authentication}
   */
   readonly aseDbUseKerberosAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_username Environment#ase_db_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_username Environment#ase_db_username}
   */
   readonly aseDbUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ase_db_vault Environment#ase_db_vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ase_db_vault Environment#ase_db_vault}
   */
   readonly aseDbVault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#bits Environment#bits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#bits Environment#bits}
   */
   readonly bits?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#cluster_home Environment#cluster_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#cluster_home Environment#cluster_home}
   */
   readonly clusterHome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#connector_port Environment#connector_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#connector_port Environment#connector_port}
   */
   readonly connectorPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#cyberark_vault_query_string Environment#cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#cyberark_vault_query_string Environment#cyberark_vault_query_string}
   */
   readonly cyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#database_type Environment#database_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#database_type Environment#database_type}
   */
   readonly databaseType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#description Environment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#description Environment#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#dsp_keystore_alias Environment#dsp_keystore_alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#dsp_keystore_alias Environment#dsp_keystore_alias}
   */
   readonly dspKeystoreAlias?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#dsp_keystore_password Environment#dsp_keystore_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#dsp_keystore_password Environment#dsp_keystore_password}
   */
   readonly dspKeystorePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#dsp_keystore_path Environment#dsp_keystore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#dsp_keystore_path Environment#dsp_keystore_path}
   */
   readonly dspKeystorePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#dsp_truststore_password Environment#dsp_truststore_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#dsp_truststore_password Environment#dsp_truststore_password}
   */
   readonly dspTruststorePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#dsp_truststore_path Environment#dsp_truststore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#dsp_truststore_path Environment#dsp_truststore_path}
   */
   readonly dspTruststorePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#engine_id Environment#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#engine_id Environment#engine_id}
   */
   readonly engineId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#hashicorp_vault_engine Environment#hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#hashicorp_vault_engine Environment#hashicorp_vault_engine}
   */
   readonly hashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#hashicorp_vault_secret_key Environment#hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#hashicorp_vault_secret_key Environment#hashicorp_vault_secret_key}
   */
   readonly hashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#hashicorp_vault_secret_path Environment#hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#hashicorp_vault_secret_path Environment#hashicorp_vault_secret_path}
   */
   readonly hashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#hashicorp_vault_username_key Environment#hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#hashicorp_vault_username_key Environment#hashicorp_vault_username_key}
   */
   readonly hashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ignore_tag_changes Environment#ignore_tag_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ignore_tag_changes Environment#ignore_tag_changes}
   */
   readonly ignoreTagChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#is_cluster Environment#is_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#is_cluster Environment#is_cluster}
   */
   readonly isCluster?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#is_replica Environment#is_replica}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#is_replica Environment#is_replica}
   */
   readonly isReplica?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#is_staging Environment#is_staging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#is_staging Environment#is_staging}
   */
   readonly isStaging?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#is_target Environment#is_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#is_target Environment#is_target}
   */
   readonly isTarget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#is_windows_target Environment#is_windows_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#is_windows_target Environment#is_windows_target}
   */
   readonly isWindowsTarget?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#name Environment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#name Environment#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#oracle_base Environment#oracle_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#oracle_base Environment#oracle_base}
   */
   readonly oracleBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#os_type Environment#os_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#os_type Environment#os_type}
   */
   readonly osType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#password Environment#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#password Environment#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#staging_environment Environment#staging_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#staging_environment Environment#staging_environment}
   */
   readonly stagingEnvironment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#toolkit_path Environment#toolkit_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#toolkit_path Environment#toolkit_path}
   */
   readonly toolkitPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#use_engine_public_key Environment#use_engine_public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#use_engine_public_key Environment#use_engine_public_key}
   */
   readonly useEnginePublicKey?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#use_kerberos_authentication Environment#use_kerberos_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#use_kerberos_authentication Environment#use_kerberos_authentication}
   */
   readonly useKerberosAuthentication?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#username Environment#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#username Environment#username}
   */
   readonly username?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#vault Environment#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#vault Environment#vault}
   */
   readonly vault?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#version Environment#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#version Environment#version}
   */
   readonly version?: string;
   /**
   * hosts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#hosts Environment#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#hosts Environment#hosts}
   */
   readonly hosts?: EnvironmentHosts[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#tags Environment#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#tags Environment#tags}
   */
   readonly tags?: EnvironmentTags[] | cdktf.IResolvable;
 }
@@ -304,27 +304,27 @@ export class EnvironmentRepositoriesList extends cdktf.ComplexList {
 }
 export interface EnvironmentHosts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#hostname Environment#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#hostname Environment#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#java_home Environment#java_home}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#java_home Environment#java_home}
   */
   readonly javaHome?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#nfs_addresses Environment#nfs_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#nfs_addresses Environment#nfs_addresses}
   */
   readonly nfsAddresses?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#oracle_tde_keystores_root_path Environment#oracle_tde_keystores_root_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#oracle_tde_keystores_root_path Environment#oracle_tde_keystores_root_path}
   */
   readonly oracleTdeKeystoresRootPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#ssh_port Environment#ssh_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#ssh_port Environment#ssh_port}
   */
   readonly sshPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#toolkit_path Environment#toolkit_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#toolkit_path Environment#toolkit_path}
   */
   readonly toolkitPath?: string;
 }
@@ -617,11 +617,11 @@ export class EnvironmentHostsList extends cdktf.ComplexList {
 }
 export interface EnvironmentTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#key Environment#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#key Environment#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#value Environment#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#value Environment#value}
   */
   readonly value?: string;
 }
@@ -766,7 +766,7 @@ export class EnvironmentTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment delphix_environment}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment delphix_environment}
 */
 export class Environment extends cdktf.TerraformResource {
 
@@ -782,7 +782,7 @@ export class Environment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Environment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Environment to import
-  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Environment that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Environment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -794,7 +794,7 @@ export class Environment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/environment delphix_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/environment delphix_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -805,8 +805,8 @@ export class Environment extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_environment',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

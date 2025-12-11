@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook
+// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * A free text description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#description Webhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#description Webhook#description}
   */
   readonly description?: string;
   /**
   * Any custom headers that may need to be added to invoke the webhook. Name/value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#headers Webhook#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#headers Webhook#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * An identifier for the webhook. This is the name that will be used by any Watches that want to invoke the webhook in case of a violation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#name Webhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#name Webhook#name}
   */
   readonly name: string;
   /**
   * A password as required by the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#password Webhook#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#password Webhook#password}
   */
   readonly password?: string;
   /**
   * The URL that this webhook invokes. For details of the payload provided by Xray to the webhook, please refer to Webhook Payload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#url Webhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#url Webhook#url}
   */
   readonly url: string;
   /**
   * Set the webhook to go through the predefined proxy. For more information, see [Managing Proxies](https://jfrog.com/help/r/jfrog-platform-administration-documentation/managing-proxies).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#use_proxy Webhook#use_proxy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#use_proxy Webhook#use_proxy}
   */
   readonly useProxy?: boolean | cdktf.IResolvable;
   /**
   * An username as required by the webhook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#user_name Webhook#user_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#user_name Webhook#user_name}
   */
   readonly userName?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook xray_webhook}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook xray_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/webhook xray_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/webhook xray_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'xray_webhook',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

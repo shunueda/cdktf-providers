@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application
+// https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataArgocdApplicationConfig extends cdktf.TerraformMetaArgument
   /**
   * Standard Kubernetes object metadata. For more info see the [Kubernetes reference](https://github.com/kubernetes/community/blob/master/contributors/devel/sig-architecture/api-conventions.md#metadata).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application#metadata DataArgocdApplication#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application#metadata DataArgocdApplication#metadata}
   */
   readonly metadata: DataArgocdApplicationMetadata;
 }
@@ -18,13 +18,13 @@ export interface DataArgocdApplicationMetadata {
   /**
   * Name of the applications.argoproj.io, must be unique. Cannot be updated. More info: http://kubernetes.io/docs/user-guide/identifiers#names
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application#name DataArgocdApplication#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application#name DataArgocdApplication#name}
   */
   readonly name: string;
   /**
   * Namespace of the applications.argoproj.io, must be unique. Cannot be updated. More info: https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application#namespace DataArgocdApplication#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application#namespace DataArgocdApplication#namespace}
   */
   readonly namespace?: string;
 }
@@ -2368,7 +2368,7 @@ export class DataArgocdApplicationStatusOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application argocd_application}
+* Represents a {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application argocd_application}
 */
 export class DataArgocdApplication extends cdktf.TerraformDataSource {
 
@@ -2384,7 +2384,7 @@ export class DataArgocdApplication extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataArgocdApplication resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataArgocdApplication to import
-  * @param importFromId The id of the existing DataArgocdApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataArgocdApplication that should be imported. Refer to the {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataArgocdApplication to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2396,7 +2396,7 @@ export class DataArgocdApplication extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.1/docs/data-sources/application argocd_application} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/argoproj-labs/argocd/7.12.3/docs/data-sources/application argocd_application} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2407,8 +2407,8 @@ export class DataArgocdApplication extends cdktf.TerraformDataSource {
       terraformResourceType: 'argocd_application',
       terraformGeneratorMetadata: {
         providerName: 'argocd',
-        providerVersion: '7.12.1',
-        providerVersionConstraint: '7.12.1'
+        providerVersion: '7.12.3',
+        providerVersionConstraint: '7.12.3'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

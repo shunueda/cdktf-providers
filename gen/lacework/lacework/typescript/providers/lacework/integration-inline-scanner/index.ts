@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface IntegrationInlineScannerConfig extends cdktf.TerraformMetaArgum
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#enabled IntegrationInlineScanner#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#enabled IntegrationInlineScanner#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#id IntegrationInlineScanner#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#id IntegrationInlineScanner#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,29 +23,29 @@ export interface IntegrationInlineScannerConfig extends cdktf.TerraformMetaArgum
   /**
   * The maximum number of newest container images to assess per repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#limit_num_scan IntegrationInlineScanner#limit_num_scan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#limit_num_scan IntegrationInlineScanner#limit_num_scan}
   */
   readonly limitNumScan?: number;
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#name IntegrationInlineScanner#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#name IntegrationInlineScanner#name}
   */
   readonly name: string;
   /**
   * identifier_tag block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#identifier_tag IntegrationInlineScanner#identifier_tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#identifier_tag IntegrationInlineScanner#identifier_tag}
   */
   readonly identifierTag?: IntegrationInlineScannerIdentifierTag[] | cdktf.IResolvable;
 }
 export interface IntegrationInlineScannerIdentifierTag {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#key IntegrationInlineScanner#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#key IntegrationInlineScanner#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#value IntegrationInlineScanner#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#value IntegrationInlineScanner#value}
   */
   readonly value: string;
 }
@@ -184,7 +184,7 @@ export class IntegrationInlineScannerIdentifierTagList extends cdktf.ComplexList
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner lacework_integration_inline_scanner}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner lacework_integration_inline_scanner}
 */
 export class IntegrationInlineScanner extends cdktf.TerraformResource {
 
@@ -200,7 +200,7 @@ export class IntegrationInlineScanner extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationInlineScanner resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationInlineScanner to import
-  * @param importFromId The id of the existing IntegrationInlineScanner that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationInlineScanner that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationInlineScanner to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -212,7 +212,7 @@ export class IntegrationInlineScanner extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_inline_scanner lacework_integration_inline_scanner} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_inline_scanner lacework_integration_inline_scanner} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -223,8 +223,8 @@ export class IntegrationInlineScanner extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_inline_scanner',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

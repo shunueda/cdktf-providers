@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier
+// https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,105 +8,105 @@ import * as cdktf from 'cdktf';
 
 export interface OpsgenieAlertNotifierConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#api_key OpsgenieAlertNotifier#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#api_key OpsgenieAlertNotifier#api_key}
   */
   readonly apiKey: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#api_url OpsgenieAlertNotifier#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#api_url OpsgenieAlertNotifier#api_url}
   */
   readonly apiUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#basic_auth_password OpsgenieAlertNotifier#basic_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#basic_auth_password OpsgenieAlertNotifier#basic_auth_password}
   */
   readonly basicAuthPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#basic_auth_username OpsgenieAlertNotifier#basic_auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#basic_auth_username OpsgenieAlertNotifier#basic_auth_username}
   */
   readonly basicAuthUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#bearer_token OpsgenieAlertNotifier#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#bearer_token OpsgenieAlertNotifier#bearer_token}
   */
   readonly bearerToken?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#description OpsgenieAlertNotifier#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#description OpsgenieAlertNotifier#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#details OpsgenieAlertNotifier#details}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#details OpsgenieAlertNotifier#details}
   */
   readonly details?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#id OpsgenieAlertNotifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#id OpsgenieAlertNotifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#message OpsgenieAlertNotifier#message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#message OpsgenieAlertNotifier#message}
   */
   readonly message?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#name OpsgenieAlertNotifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#name OpsgenieAlertNotifier#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#note OpsgenieAlertNotifier#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#note OpsgenieAlertNotifier#note}
   */
   readonly note?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#priority OpsgenieAlertNotifier#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#priority OpsgenieAlertNotifier#priority}
   */
   readonly priority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#proxy_url OpsgenieAlertNotifier#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#proxy_url OpsgenieAlertNotifier#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#send_resolved OpsgenieAlertNotifier#send_resolved}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#send_resolved OpsgenieAlertNotifier#send_resolved}
   */
   readonly sendResolved?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#slug OpsgenieAlertNotifier#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#slug OpsgenieAlertNotifier#slug}
   */
   readonly slug?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#source OpsgenieAlertNotifier#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#source OpsgenieAlertNotifier#source}
   */
   readonly source?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#tags OpsgenieAlertNotifier#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#tags OpsgenieAlertNotifier#tags}
   */
   readonly tags?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#tls_insecure_skip_verify OpsgenieAlertNotifier#tls_insecure_skip_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#tls_insecure_skip_verify OpsgenieAlertNotifier#tls_insecure_skip_verify}
   */
   readonly tlsInsecureSkipVerify?: boolean | cdktf.IResolvable;
   /**
   * responder block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#responder OpsgenieAlertNotifier#responder}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#responder OpsgenieAlertNotifier#responder}
   */
   readonly responder?: OpsgenieAlertNotifierResponder[] | cdktf.IResolvable;
 }
 export interface OpsgenieAlertNotifierResponder {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#id OpsgenieAlertNotifier#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#id OpsgenieAlertNotifier#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#name OpsgenieAlertNotifier#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#name OpsgenieAlertNotifier#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#type OpsgenieAlertNotifier#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#type OpsgenieAlertNotifier#type}
   */
   readonly type: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#username OpsgenieAlertNotifier#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#username OpsgenieAlertNotifier#username}
   */
   readonly username?: string;
 }
@@ -306,7 +306,7 @@ export class OpsgenieAlertNotifierResponderList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier chronosphere_opsgenie_alert_notifier}
+* Represents a {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier chronosphere_opsgenie_alert_notifier}
 */
 export class OpsgenieAlertNotifier extends cdktf.TerraformResource {
 
@@ -322,7 +322,7 @@ export class OpsgenieAlertNotifier extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a OpsgenieAlertNotifier resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the OpsgenieAlertNotifier to import
-  * @param importFromId The id of the existing OpsgenieAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing OpsgenieAlertNotifier that should be imported. Refer to the {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the OpsgenieAlertNotifier to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -334,7 +334,7 @@ export class OpsgenieAlertNotifier extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.17.0/docs/resources/opsgenie_alert_notifier chronosphere_opsgenie_alert_notifier} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chronosphereio/chronosphere/1.18.0/docs/resources/opsgenie_alert_notifier chronosphere_opsgenie_alert_notifier} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -345,8 +345,8 @@ export class OpsgenieAlertNotifier extends cdktf.TerraformResource {
       terraformResourceType: 'chronosphere_opsgenie_alert_notifier',
       terraformGeneratorMetadata: {
         providerName: 'chronosphere',
-        providerVersion: '1.17.0',
-        providerVersionConstraint: '1.17.0'
+        providerVersion: '1.18.0',
+        providerVersionConstraint: '1.18.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

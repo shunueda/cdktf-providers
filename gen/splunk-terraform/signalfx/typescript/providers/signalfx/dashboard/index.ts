@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Team IDs that have write access to this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#authorized_writer_teams Dashboard#authorized_writer_teams}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#authorized_writer_teams Dashboard#authorized_writer_teams}
   */
   readonly authorizedWriterTeams?: string[];
   /**
   * User IDs that have write access to this dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#authorized_writer_users Dashboard#authorized_writer_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#authorized_writer_users Dashboard#authorized_writer_users}
   */
   readonly authorizedWriterUsers?: string[];
   /**
   * Specifies the chart data display resolution for charts in this dashboard. Value can be one of "default", "low", "high", or "highest". default by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#charts_resolution Dashboard#charts_resolution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#charts_resolution Dashboard#charts_resolution}
   */
   readonly chartsResolution?: string;
   /**
   * The ID of the dashboard group that contains the dashboard. If an ID is not provided during creation, the dashboard will be placed in a newly created dashboard group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#dashboard_group Dashboard#dashboard_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#dashboard_group Dashboard#dashboard_group}
   */
   readonly dashboardGroup: string;
   /**
   * Description of the dashboard (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#discovery_options_query Dashboard#discovery_options_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#discovery_options_query Dashboard#discovery_options_query}
   */
   readonly discoveryOptionsQuery?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#discovery_options_selectors Dashboard#discovery_options_selectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#discovery_options_selectors Dashboard#discovery_options_selectors}
   */
   readonly discoveryOptionsSelectors?: string[];
   /**
   * Seconds since epoch to end the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#end_time Dashboard#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#end_time Dashboard#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#id Dashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#id Dashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,73 +61,73 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name: string;
   /**
   * Seconds since epoch to start the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#start_time Dashboard#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#start_time Dashboard#start_time}
   */
   readonly startTime?: number;
   /**
   * Tags of the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#tags Dashboard#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#tags Dashboard#tags}
   */
   readonly tags?: string[];
   /**
   * From when to display data. Splunk Observability Cloud time syntax (e.g. -5m, -1h)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#time_range Dashboard#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#time_range Dashboard#time_range}
   */
   readonly timeRange?: string;
   /**
   * chart block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#chart Dashboard#chart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#chart Dashboard#chart}
   */
   readonly chart?: DashboardChart[] | cdktf.IResolvable;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#column Dashboard#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#column Dashboard#column}
   */
   readonly column?: DashboardColumn[] | cdktf.IResolvable;
   /**
   * event_overlay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#event_overlay Dashboard#event_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#event_overlay Dashboard#event_overlay}
   */
   readonly eventOverlay?: DashboardEventOverlay[] | cdktf.IResolvable;
   /**
   * filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#filter Dashboard#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#filter Dashboard#filter}
   */
   readonly filter?: DashboardFilter[] | cdktf.IResolvable;
   /**
   * grid block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#grid Dashboard#grid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#grid Dashboard#grid}
   */
   readonly grid?: DashboardGrid[] | cdktf.IResolvable;
   /**
   * permissions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#permissions Dashboard#permissions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#permissions Dashboard#permissions}
   */
   readonly permissions?: DashboardPermissions;
   /**
   * selected_event_overlay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#selected_event_overlay Dashboard#selected_event_overlay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#selected_event_overlay Dashboard#selected_event_overlay}
   */
   readonly selectedEventOverlay?: DashboardSelectedEventOverlay[] | cdktf.IResolvable;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#variable Dashboard#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#variable Dashboard#variable}
   */
   readonly variable?: DashboardVariable[] | cdktf.IResolvable;
 }
@@ -135,31 +135,31 @@ export interface DashboardChart {
   /**
   * ID of the chart to display
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#chart_id Dashboard#chart_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#chart_id Dashboard#chart_id}
   */
   readonly chartId: string;
   /**
   * The column to show the chart in (zero-based); this value always represents the leftmost column of the chart. (between 0 and 11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#column Dashboard#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#column Dashboard#column}
   */
   readonly column?: number;
   /**
   * How many rows the chart should take up. (greater than or equal to 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#height Dashboard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#height Dashboard#height}
   */
   readonly height?: number;
   /**
   * The row to show the chart in (zero-based); if height > 1, this value represents the topmost row of the chart. (greater than or equal to 0)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#row Dashboard#row}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#row Dashboard#row}
   */
   readonly row?: number;
   /**
   * How many columns (out of a total of 12, one-based) the chart should take up. (between 1 and 12)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#width Dashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#width Dashboard#width}
   */
   readonly width?: number;
 }
@@ -390,25 +390,25 @@ export interface DashboardColumn {
   /**
   * Charts to use for the column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#chart_ids Dashboard#chart_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#chart_ids Dashboard#chart_ids}
   */
   readonly chartIds: string[];
   /**
   * The column to show the chart in (zero-based); this value always represents the leftmost column of the chart. (between 0 and 11)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#column Dashboard#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#column Dashboard#column}
   */
   readonly column?: number;
   /**
   * How many rows each chart should take up. (greater than or equal to 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#height Dashboard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#height Dashboard#height}
   */
   readonly height?: number;
   /**
   * Number of columns (out of a total of 12) each chart should take up. (between 1 and 12)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#width Dashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#width Dashboard#width}
   */
   readonly width?: number;
 }
@@ -610,19 +610,19 @@ export interface DashboardEventOverlaySource {
   /**
   * (false by default) Whether this filter should be a "not" filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#negated Dashboard#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#negated Dashboard#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#property Dashboard#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#property Dashboard#property}
   */
   readonly property: string;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values: string[];
 }
@@ -792,37 +792,37 @@ export interface DashboardEventOverlay {
   /**
   * The color to use. Must be one of gray, blue, azure, navy, brown, orange, yellow, magenta, red, pink, violet, purple, lilac, emerald, chartreuse, yellowgreen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#color Dashboard#color}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#color Dashboard#color}
   */
   readonly color?: string;
   /**
   * The text displaying in the dropdown menu used to select this event overlay as an active overlay for the dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#label Dashboard#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#label Dashboard#label}
   */
   readonly label?: string;
   /**
   * (false by default) Whether a vertical line should be displayed in the plot at the time the event occurs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#line Dashboard#line}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#line Dashboard#line}
   */
   readonly line?: boolean | cdktf.IResolvable;
   /**
   * Search term used to define events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#signal Dashboard#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#signal Dashboard#signal}
   */
   readonly signal: string;
   /**
   * Source for this event's data. Can be "eventTimeSeries" (default) or "detectorEvents".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#source Dashboard#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#source Dashboard#source}
   */
   readonly source?: DashboardEventOverlaySource[] | cdktf.IResolvable;
 }
@@ -1082,25 +1082,25 @@ export interface DashboardFilter {
   /**
   * If true, this filter will also match data that does not have the specified property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#apply_if_exist Dashboard#apply_if_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#apply_if_exist Dashboard#apply_if_exist}
   */
   readonly applyIfExist?: boolean | cdktf.IResolvable;
   /**
   * (false by default) Whether this filter should be a "not" filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#negated Dashboard#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#negated Dashboard#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#property Dashboard#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#property Dashboard#property}
   */
   readonly property: string;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values: string[];
 }
@@ -1299,19 +1299,19 @@ export interface DashboardGrid {
   /**
   * Charts to use for the grid
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#chart_ids Dashboard#chart_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#chart_ids Dashboard#chart_ids}
   */
   readonly chartIds: string[];
   /**
   * How many rows each chart should take up. (greater than or equal to 1)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#height Dashboard#height}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#height Dashboard#height}
   */
   readonly height?: number;
   /**
   * Number of columns (out of a total of 12, one-based) each chart should take up. (between 1 and 12)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#width Dashboard#width}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#width Dashboard#width}
   */
   readonly width?: number;
 }
@@ -1484,19 +1484,19 @@ export interface DashboardPermissionsAcl {
   /**
   * Actions level, possible values: READ, WRITE
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#actions Dashboard#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#actions Dashboard#actions}
   */
   readonly actions?: string[];
   /**
   * ID of the principal with access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#principal_id Dashboard#principal_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#principal_id Dashboard#principal_id}
   */
   readonly principalId: string;
   /**
   * Type of principal, possible values: ORG, TEAM, USER
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#principal_type Dashboard#principal_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#principal_type Dashboard#principal_type}
   */
   readonly principalType: string;
 }
@@ -1666,13 +1666,13 @@ export interface DashboardPermissions {
   /**
   * The ID of the dashboard group that this dashboard inherits permissions from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#parent Dashboard#parent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#parent Dashboard#parent}
   */
   readonly parent?: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#acl Dashboard#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#acl Dashboard#acl}
   */
   readonly acl?: DashboardPermissionsAcl[] | cdktf.IResolvable;
 }
@@ -1787,19 +1787,19 @@ export interface DashboardSelectedEventOverlaySource {
   /**
   * (false by default) Whether this filter should be a "not" filter
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#negated Dashboard#negated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#negated Dashboard#negated}
   */
   readonly negated?: boolean | cdktf.IResolvable;
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#property Dashboard#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#property Dashboard#property}
   */
   readonly property: string;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values: string[];
 }
@@ -1969,19 +1969,19 @@ export interface DashboardSelectedEventOverlay {
   /**
   * Search term used to define events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#signal Dashboard#signal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#signal Dashboard#signal}
   */
   readonly signal: string;
   /**
   * Source for this event's data. Can be "eventTimeSeries" (default) or "detectorEvents".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#type Dashboard#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#type Dashboard#type}
   */
   readonly type?: string;
   /**
   * source block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#source Dashboard#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#source Dashboard#source}
   */
   readonly source?: DashboardSelectedEventOverlaySource[] | cdktf.IResolvable;
 }
@@ -2154,55 +2154,55 @@ export interface DashboardVariable {
   /**
   * An alias for the dashboard variable. This text will appear as the label for the dropdown field on the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#alias Dashboard#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#alias Dashboard#alias}
   */
   readonly alias: string;
   /**
   * If true, this variable will also match data that does not have the specified property
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#apply_if_exist Dashboard#apply_if_exist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#apply_if_exist Dashboard#apply_if_exist}
   */
   readonly applyIfExist?: boolean | cdktf.IResolvable;
   /**
   * Variable description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * A metric time series dimension or property name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#property Dashboard#property}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#property Dashboard#property}
   */
   readonly property: string;
   /**
   * If true, this variable will only apply to charts with a filter on the named property.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#replace_only Dashboard#replace_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#replace_only Dashboard#replace_only}
   */
   readonly replaceOnly?: boolean | cdktf.IResolvable;
   /**
   * If true, this variable may only be set to the values listed in preferredSuggestions. and only these values will appear in autosuggestion menus. false by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#restricted_suggestions Dashboard#restricted_suggestions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#restricted_suggestions Dashboard#restricted_suggestions}
   */
   readonly restrictedSuggestions?: boolean | cdktf.IResolvable;
   /**
   * Determines whether a value is required for this variable (and therefore whether it will be possible to view this dashboard without this filter applied). false by default
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#value_required Dashboard#value_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#value_required Dashboard#value_required}
   */
   readonly valueRequired?: boolean | cdktf.IResolvable;
   /**
   * List of strings (which will be treated as an OR filter on the property)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#values Dashboard#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#values Dashboard#values}
   */
   readonly values?: string[];
   /**
   * A list of strings of suggested values for this variable; these suggestions will receive priority when values are autosuggested for this variable
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#values_suggested Dashboard#values_suggested}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#values_suggested Dashboard#values_suggested}
   */
   readonly valuesSuggested?: string[];
 }
@@ -2544,7 +2544,7 @@ export class DashboardVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard signalfx_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard signalfx_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -2560,7 +2560,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2572,7 +2572,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/dashboard signalfx_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/dashboard signalfx_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2583,8 +2583,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2941,7 +2941,7 @@ export class Dashboard extends cdktf.TerraformResource {
   }
 
   // variable - computed: false, optional: true, required: false
-  private _variable = new DashboardVariableList(this, "variable", true);
+  private _variable = new DashboardVariableList(this, "variable", false);
   public get variable() {
     return this._variable;
   }
@@ -3111,7 +3111,7 @@ export class Dashboard extends cdktf.TerraformResource {
       variable: {
         value: cdktf.listMapperHcl(dashboardVariableToHclTerraform, true)(this._variable.internalValue),
         isBlock: true,
-        type: "set",
+        type: "list",
         storageClassType: "DashboardVariableList",
       },
     };

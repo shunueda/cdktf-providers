@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GatewayRemoteAccessConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of valid URLs to redirect from the Portal back to the remote access server (in a comma-delimited list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#allowed_urls GatewayRemoteAccess#allowed_urls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#allowed_urls GatewayRemoteAccess#allowed_urls}
   */
   readonly allowedUrls?: string;
   /**
   * Specifies whether to show/hide if the session is currently recorded [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#hide_session_recording GatewayRemoteAccess#hide_session_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#hide_session_recording GatewayRemoteAccess#hide_session_recording}
   */
   readonly hideSessionRecording?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#id GatewayRemoteAccess#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#id GatewayRemoteAccess#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface GatewayRemoteAccessConfig extends cdktf.TerraformMetaArguments 
   /**
   * Decide which algorithm will be used as part of the SSH initial hand-shake process
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#kexalgs GatewayRemoteAccess#kexalgs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#kexalgs GatewayRemoteAccess#kexalgs}
   */
   readonly kexalgs?: string;
   /**
   * Enable support for additional keyboard layouts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#keyboard_layout GatewayRemoteAccess#keyboard_layout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#keyboard_layout GatewayRemoteAccess#keyboard_layout}
   */
   readonly keyboardLayout?: string;
   /**
   * Signs SSH certificates using legacy ssh-rsa-cert-01@openssh.com signing algorithm [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#legacy_ssh_algorithm GatewayRemoteAccess#legacy_ssh_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#legacy_ssh_algorithm GatewayRemoteAccess#legacy_ssh_algorithm}
   */
   readonly legacySshAlgorithm?: string;
   /**
   * Specify the usernameSubClaim that exists inside the IDP JWT, e.g. email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#rdp_target_configuration GatewayRemoteAccess#rdp_target_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#rdp_target_configuration GatewayRemoteAccess#rdp_target_configuration}
   */
   readonly rdpTargetConfiguration?: string;
   /**
   * Specify the usernameSubClaim that exists inside the IDP JWT, e.g. email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#ssh_target_configuration GatewayRemoteAccess#ssh_target_configuration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#ssh_target_configuration GatewayRemoteAccess#ssh_target_configuration}
   */
   readonly sshTargetConfiguration?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access akeyless_gateway_remote_access}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access akeyless_gateway_remote_access}
 */
 export class GatewayRemoteAccess extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class GatewayRemoteAccess extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayRemoteAccess resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayRemoteAccess to import
-  * @param importFromId The id of the existing GatewayRemoteAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayRemoteAccess that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayRemoteAccess to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class GatewayRemoteAccess extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access akeyless_gateway_remote_access} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access akeyless_gateway_remote_access} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class GatewayRemoteAccess extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_remote_access',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

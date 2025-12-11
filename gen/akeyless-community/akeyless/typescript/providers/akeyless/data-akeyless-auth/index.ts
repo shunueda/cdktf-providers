@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAkeylessAuthConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#id DataAkeylessAuth#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#id DataAkeylessAuth#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,59 +17,59 @@ export interface DataAkeylessAuthConfig extends cdktf.TerraformMetaArguments {
   /**
   * api_key_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#api_key_login DataAkeylessAuth#api_key_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#api_key_login DataAkeylessAuth#api_key_login}
   */
   readonly apiKeyLogin?: DataAkeylessAuthApiKeyLogin[] | cdktf.IResolvable;
   /**
   * aws_iam_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#aws_iam_login DataAkeylessAuth#aws_iam_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#aws_iam_login DataAkeylessAuth#aws_iam_login}
   */
   readonly awsIamLogin?: DataAkeylessAuthAwsIamLogin[] | cdktf.IResolvable;
   /**
   * azure_ad_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#azure_ad_login DataAkeylessAuth#azure_ad_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#azure_ad_login DataAkeylessAuth#azure_ad_login}
   */
   readonly azureAdLogin?: DataAkeylessAuthAzureAdLogin[] | cdktf.IResolvable;
   /**
   * cert_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#cert_login DataAkeylessAuth#cert_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#cert_login DataAkeylessAuth#cert_login}
   */
   readonly certLogin?: DataAkeylessAuthCertLogin[] | cdktf.IResolvable;
   /**
   * email_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#email_login DataAkeylessAuth#email_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#email_login DataAkeylessAuth#email_login}
   */
   readonly emailLogin?: DataAkeylessAuthEmailLogin[] | cdktf.IResolvable;
   /**
   * gcp_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#gcp_login DataAkeylessAuth#gcp_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#gcp_login DataAkeylessAuth#gcp_login}
   */
   readonly gcpLogin?: DataAkeylessAuthGcpLogin[] | cdktf.IResolvable;
   /**
   * jwt_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#jwt_login DataAkeylessAuth#jwt_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#jwt_login DataAkeylessAuth#jwt_login}
   */
   readonly jwtLogin?: DataAkeylessAuthJwtLogin[] | cdktf.IResolvable;
   /**
   * uid_login block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#uid_login DataAkeylessAuth#uid_login}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#uid_login DataAkeylessAuth#uid_login}
   */
   readonly uidLogin?: DataAkeylessAuthUidLogin[] | cdktf.IResolvable;
 }
 export interface DataAkeylessAuthApiKeyLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_key DataAkeylessAuth#access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_key DataAkeylessAuth#access_key}
   */
   readonly accessKey: string;
 }
@@ -208,7 +208,7 @@ export class DataAkeylessAuthApiKeyLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthAwsIamLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId: string;
 }
@@ -321,7 +321,7 @@ export class DataAkeylessAuthAwsIamLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthAzureAdLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId: string;
 }
@@ -434,23 +434,23 @@ export class DataAkeylessAuthAzureAdLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthCertLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#cert_data DataAkeylessAuth#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#cert_data DataAkeylessAuth#cert_data}
   */
   readonly certData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#cert_file_name DataAkeylessAuth#cert_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#cert_file_name DataAkeylessAuth#cert_file_name}
   */
   readonly certFileName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#key_data DataAkeylessAuth#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#key_data DataAkeylessAuth#key_data}
   */
   readonly keyData?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#key_file_name DataAkeylessAuth#key_file_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#key_file_name DataAkeylessAuth#key_file_name}
   */
   readonly keyFileName?: string;
 }
@@ -679,11 +679,11 @@ export class DataAkeylessAuthCertLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthEmailLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#admin_email DataAkeylessAuth#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#admin_email DataAkeylessAuth#admin_email}
   */
   readonly adminEmail: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#admin_password DataAkeylessAuth#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#admin_password DataAkeylessAuth#admin_password}
   */
   readonly adminPassword: string;
 }
@@ -822,11 +822,11 @@ export class DataAkeylessAuthEmailLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthGcpLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#audience DataAkeylessAuth#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#audience DataAkeylessAuth#audience}
   */
   readonly audience?: string;
 }
@@ -968,11 +968,11 @@ export class DataAkeylessAuthGcpLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthJwtLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#jwt DataAkeylessAuth#jwt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#jwt DataAkeylessAuth#jwt}
   */
   readonly jwt: string;
 }
@@ -1111,11 +1111,11 @@ export class DataAkeylessAuthJwtLoginList extends cdktf.ComplexList {
 }
 export interface DataAkeylessAuthUidLogin {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#access_id DataAkeylessAuth#access_id}
   */
   readonly accessId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#uid_token DataAkeylessAuth#uid_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#uid_token DataAkeylessAuth#uid_token}
   */
   readonly uidToken: string;
 }
@@ -1257,7 +1257,7 @@ export class DataAkeylessAuthUidLoginList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth akeyless_auth}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth akeyless_auth}
 */
 export class DataAkeylessAuth extends cdktf.TerraformDataSource {
 
@@ -1273,7 +1273,7 @@ export class DataAkeylessAuth extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessAuth resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessAuth to import
-  * @param importFromId The id of the existing DataAkeylessAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessAuth that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessAuth to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1285,7 +1285,7 @@ export class DataAkeylessAuth extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/auth akeyless_auth} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/auth akeyless_auth} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1296,8 +1296,8 @@ export class DataAkeylessAuth extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_auth',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

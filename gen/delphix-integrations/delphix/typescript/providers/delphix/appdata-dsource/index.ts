@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,151 +8,151 @@ import * as cdktf from 'cdktf';
 
 export interface AppdataDsourceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#description AppdataDsource#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#description AppdataDsource#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#environment_user AppdataDsource#environment_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#environment_user AppdataDsource#environment_user}
   */
   readonly environmentUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#excludes AppdataDsource#excludes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#excludes AppdataDsource#excludes}
   */
   readonly excludes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#follow_symlinks AppdataDsource#follow_symlinks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#follow_symlinks AppdataDsource#follow_symlinks}
   */
   readonly followSymlinks?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#group_id AppdataDsource#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#group_id AppdataDsource#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#ignore_tag_changes AppdataDsource#ignore_tag_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#ignore_tag_changes AppdataDsource#ignore_tag_changes}
   */
   readonly ignoreTagChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#link_type AppdataDsource#link_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#link_type AppdataDsource#link_type}
   */
   readonly linkType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#log_sync_enabled AppdataDsource#log_sync_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#log_sync_enabled AppdataDsource#log_sync_enabled}
   */
   readonly logSyncEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#make_current_account_owner AppdataDsource#make_current_account_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#make_current_account_owner AppdataDsource#make_current_account_owner}
   */
   readonly makeCurrentAccountOwner?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#name AppdataDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#name AppdataDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#parameters AppdataDsource#parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#parameters AppdataDsource#parameters}
   */
   readonly parameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#retention_policy_id AppdataDsource#retention_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#retention_policy_id AppdataDsource#retention_policy_id}
   */
   readonly retentionPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#rollback_on_failure AppdataDsource#rollback_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#rollback_on_failure AppdataDsource#rollback_on_failure}
   */
   readonly rollbackOnFailure?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#skip_wait_for_snapshot_creation AppdataDsource#skip_wait_for_snapshot_creation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#skip_wait_for_snapshot_creation AppdataDsource#skip_wait_for_snapshot_creation}
   */
   readonly skipWaitForSnapshotCreation?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#source_value AppdataDsource#source_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#source_value AppdataDsource#source_value}
   */
   readonly sourceValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#staging_environment AppdataDsource#staging_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#staging_environment AppdataDsource#staging_environment}
   */
   readonly stagingEnvironment?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#staging_environment_user AppdataDsource#staging_environment_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#staging_environment_user AppdataDsource#staging_environment_user}
   */
   readonly stagingEnvironmentUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#staging_mount_base AppdataDsource#staging_mount_base}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#staging_mount_base AppdataDsource#staging_mount_base}
   */
   readonly stagingMountBase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#sync_parameters AppdataDsource#sync_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#sync_parameters AppdataDsource#sync_parameters}
   */
   readonly syncParameters?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#sync_policy_id AppdataDsource#sync_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#sync_policy_id AppdataDsource#sync_policy_id}
   */
   readonly syncPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#wait_time AppdataDsource#wait_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#wait_time AppdataDsource#wait_time}
   */
   readonly waitTime?: number;
   /**
   * ops_post_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#ops_post_sync AppdataDsource#ops_post_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#ops_post_sync AppdataDsource#ops_post_sync}
   */
   readonly opsPostSync?: AppdataDsourceOpsPostSync[] | cdktf.IResolvable;
   /**
   * ops_pre_sync block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#ops_pre_sync AppdataDsource#ops_pre_sync}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#ops_pre_sync AppdataDsource#ops_pre_sync}
   */
   readonly opsPreSync?: AppdataDsourceOpsPreSync[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#tags AppdataDsource#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#tags AppdataDsource#tags}
   */
   readonly tags?: AppdataDsourceTags[] | cdktf.IResolvable;
 }
 export interface AppdataDsourceOpsPostSyncCredentialsEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#azure_vault_name AppdataDsource#azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#azure_vault_name AppdataDsource#azure_vault_name}
   */
   readonly azureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#azure_vault_secret_key AppdataDsource#azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#azure_vault_secret_key AppdataDsource#azure_vault_secret_key}
   */
   readonly azureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#azure_vault_username_key AppdataDsource#azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#azure_vault_username_key AppdataDsource#azure_vault_username_key}
   */
   readonly azureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#base_var_name AppdataDsource#base_var_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#base_var_name AppdataDsource#base_var_name}
   */
   readonly baseVarName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#cyberark_vault_query_string AppdataDsource#cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#cyberark_vault_query_string AppdataDsource#cyberark_vault_query_string}
   */
   readonly cyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_engine AppdataDsource#hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_engine AppdataDsource#hashicorp_vault_engine}
   */
   readonly hashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_secret_key AppdataDsource#hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_secret_key AppdataDsource#hashicorp_vault_secret_key}
   */
   readonly hashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_secret_path AppdataDsource#hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_secret_path AppdataDsource#hashicorp_vault_secret_path}
   */
   readonly hashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_username_key AppdataDsource#hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_username_key AppdataDsource#hashicorp_vault_username_key}
   */
   readonly hashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#password AppdataDsource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#password AppdataDsource#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#vault AppdataDsource#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#vault AppdataDsource#vault}
   */
   readonly vault?: string;
 }
@@ -555,21 +555,21 @@ export class AppdataDsourceOpsPostSyncCredentialsEnvVarsList extends cdktf.Compl
 }
 export interface AppdataDsourceOpsPostSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#command AppdataDsource#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#command AppdataDsource#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#name AppdataDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#name AppdataDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#shell AppdataDsource#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#shell AppdataDsource#shell}
   */
   readonly shell?: string;
   /**
   * credentials_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#credentials_env_vars AppdataDsource#credentials_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#credentials_env_vars AppdataDsource#credentials_env_vars}
   */
   readonly credentialsEnvVars?: AppdataDsourceOpsPostSyncCredentialsEnvVars[] | cdktf.IResolvable;
 }
@@ -782,47 +782,47 @@ export class AppdataDsourceOpsPostSyncList extends cdktf.ComplexList {
 }
 export interface AppdataDsourceOpsPreSyncCredentialsEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#azure_vault_name AppdataDsource#azure_vault_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#azure_vault_name AppdataDsource#azure_vault_name}
   */
   readonly azureVaultName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#azure_vault_secret_key AppdataDsource#azure_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#azure_vault_secret_key AppdataDsource#azure_vault_secret_key}
   */
   readonly azureVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#azure_vault_username_key AppdataDsource#azure_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#azure_vault_username_key AppdataDsource#azure_vault_username_key}
   */
   readonly azureVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#base_var_name AppdataDsource#base_var_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#base_var_name AppdataDsource#base_var_name}
   */
   readonly baseVarName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#cyberark_vault_query_string AppdataDsource#cyberark_vault_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#cyberark_vault_query_string AppdataDsource#cyberark_vault_query_string}
   */
   readonly cyberarkVaultQueryString?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_engine AppdataDsource#hashicorp_vault_engine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_engine AppdataDsource#hashicorp_vault_engine}
   */
   readonly hashicorpVaultEngine?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_secret_key AppdataDsource#hashicorp_vault_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_secret_key AppdataDsource#hashicorp_vault_secret_key}
   */
   readonly hashicorpVaultSecretKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_secret_path AppdataDsource#hashicorp_vault_secret_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_secret_path AppdataDsource#hashicorp_vault_secret_path}
   */
   readonly hashicorpVaultSecretPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#hashicorp_vault_username_key AppdataDsource#hashicorp_vault_username_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#hashicorp_vault_username_key AppdataDsource#hashicorp_vault_username_key}
   */
   readonly hashicorpVaultUsernameKey?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#password AppdataDsource#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#password AppdataDsource#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#vault AppdataDsource#vault}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#vault AppdataDsource#vault}
   */
   readonly vault?: string;
 }
@@ -1225,21 +1225,21 @@ export class AppdataDsourceOpsPreSyncCredentialsEnvVarsList extends cdktf.Comple
 }
 export interface AppdataDsourceOpsPreSync {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#command AppdataDsource#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#command AppdataDsource#command}
   */
   readonly command?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#name AppdataDsource#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#name AppdataDsource#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#shell AppdataDsource#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#shell AppdataDsource#shell}
   */
   readonly shell?: string;
   /**
   * credentials_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#credentials_env_vars AppdataDsource#credentials_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#credentials_env_vars AppdataDsource#credentials_env_vars}
   */
   readonly credentialsEnvVars?: AppdataDsourceOpsPreSyncCredentialsEnvVars[] | cdktf.IResolvable;
 }
@@ -1452,11 +1452,11 @@ export class AppdataDsourceOpsPreSyncList extends cdktf.ComplexList {
 }
 export interface AppdataDsourceTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#key AppdataDsource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#key AppdataDsource#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#value AppdataDsource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#value AppdataDsource#value}
   */
   readonly value?: string;
 }
@@ -1601,7 +1601,7 @@ export class AppdataDsourceTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource delphix_appdata_dsource}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource delphix_appdata_dsource}
 */
 export class AppdataDsource extends cdktf.TerraformResource {
 
@@ -1617,7 +1617,7 @@ export class AppdataDsource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AppdataDsource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AppdataDsource to import
-  * @param importFromId The id of the existing AppdataDsource that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AppdataDsource that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AppdataDsource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1629,7 +1629,7 @@ export class AppdataDsource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/appdata_dsource delphix_appdata_dsource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/appdata_dsource delphix_appdata_dsource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1640,8 +1640,8 @@ export class AppdataDsource extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_appdata_dsource',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationAzureAdAlConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#enabled IntegrationAzureAdAl#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#enabled IntegrationAzureAdAl#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#event_hub_name IntegrationAzureAdAl#event_hub_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#event_hub_name IntegrationAzureAdAl#event_hub_name}
   */
   readonly eventHubName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#event_hub_namespace IntegrationAzureAdAl#event_hub_namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#event_hub_namespace IntegrationAzureAdAl#event_hub_namespace}
   */
   readonly eventHubNamespace: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#id IntegrationAzureAdAl#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#id IntegrationAzureAdAl#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#name IntegrationAzureAdAl#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#name IntegrationAzureAdAl#name}
   */
   readonly name: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#retries IntegrationAzureAdAl#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#retries IntegrationAzureAdAl#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#tenant_id IntegrationAzureAdAl#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#tenant_id IntegrationAzureAdAl#tenant_id}
   */
   readonly tenantId: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#credentials IntegrationAzureAdAl#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#credentials IntegrationAzureAdAl#credentials}
   */
   readonly credentials: IntegrationAzureAdAlCredentials;
 }
 export interface IntegrationAzureAdAlCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#client_id IntegrationAzureAdAl#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#client_id IntegrationAzureAdAl#client_id}
   */
   readonly clientId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#client_secret IntegrationAzureAdAl#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#client_secret IntegrationAzureAdAl#client_secret}
   */
   readonly clientSecret: string;
 }
@@ -160,7 +160,7 @@ export class IntegrationAzureAdAlCredentialsOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al lacework_integration_azure_ad_al}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al lacework_integration_azure_ad_al}
 */
 export class IntegrationAzureAdAl extends cdktf.TerraformResource {
 
@@ -176,7 +176,7 @@ export class IntegrationAzureAdAl extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAzureAdAl resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAzureAdAl to import
-  * @param importFromId The id of the existing IntegrationAzureAdAl that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAzureAdAl that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAzureAdAl to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -188,7 +188,7 @@ export class IntegrationAzureAdAl extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_azure_ad_al lacework_integration_azure_ad_al} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_azure_ad_al lacework_integration_azure_ad_al} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -199,8 +199,8 @@ export class IntegrationAzureAdAl extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_azure_ad_al',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

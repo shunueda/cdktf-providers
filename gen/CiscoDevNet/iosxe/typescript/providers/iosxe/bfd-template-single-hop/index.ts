@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,117 +10,117 @@ export interface BfdTemplateSingleHopConfig extends cdktf.TerraformMetaArguments
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#authentication_md5_keychain BfdTemplateSingleHop#authentication_md5_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#authentication_md5_keychain BfdTemplateSingleHop#authentication_md5_keychain}
   */
   readonly authenticationMd5Keychain?: string;
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#authentication_meticulous_md5_keychain BfdTemplateSingleHop#authentication_meticulous_md5_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#authentication_meticulous_md5_keychain BfdTemplateSingleHop#authentication_meticulous_md5_keychain}
   */
   readonly authenticationMeticulousMd5Keychain?: string;
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#authentication_meticulous_sha_1_keychain BfdTemplateSingleHop#authentication_meticulous_sha_1_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#authentication_meticulous_sha_1_keychain BfdTemplateSingleHop#authentication_meticulous_sha_1_keychain}
   */
   readonly authenticationMeticulousSha1Keychain?: string;
   /**
   * keychain name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#authentication_sha_1_keychain BfdTemplateSingleHop#authentication_sha_1_keychain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#authentication_sha_1_keychain BfdTemplateSingleHop#authentication_sha_1_keychain}
   */
   readonly authenticationSha1Keychain?: string;
   /**
   * Half-life time for the penalty
   *   - Range: `1`-`30`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#dampening_half_time BfdTemplateSingleHop#dampening_half_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#dampening_half_time BfdTemplateSingleHop#dampening_half_time}
   */
   readonly dampeningHalfTime?: number;
   /**
   * Maximum duration to suppress a session
   *   - Range: `1`-`420`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#dampening_max_suppressing_time BfdTemplateSingleHop#dampening_max_suppressing_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#dampening_max_suppressing_time BfdTemplateSingleHop#dampening_max_suppressing_time}
   */
   readonly dampeningMaxSuppressingTime?: number;
   /**
   * Value to start suppressing a session
   *   - Range: `1`-`18000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#dampening_suppress_time BfdTemplateSingleHop#dampening_suppress_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#dampening_suppress_time BfdTemplateSingleHop#dampening_suppress_time}
   */
   readonly dampeningSuppressTime?: number;
   /**
   * Value to unsuppress a session
   *   - Range: `1`-`18000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#dampening_unsuppress_time BfdTemplateSingleHop#dampening_unsuppress_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#dampening_unsuppress_time BfdTemplateSingleHop#dampening_unsuppress_time}
   */
   readonly dampeningUnsuppressTime?: number;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#device BfdTemplateSingleHop#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#device BfdTemplateSingleHop#device}
   */
   readonly device?: string;
   /**
   * Use echo adjunct as bfd detection mechanism
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#echo BfdTemplateSingleHop#echo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#echo BfdTemplateSingleHop#echo}
   */
   readonly echo?: boolean | cdktf.IResolvable;
   /**
   * Minimum receive interval capability
   *   - Range: `3300`-`9999000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#interval_microseconds_min_rx BfdTemplateSingleHop#interval_microseconds_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#interval_microseconds_min_rx BfdTemplateSingleHop#interval_microseconds_min_rx}
   */
   readonly intervalMicrosecondsMinRx?: number;
   /**
   * Minimum transmit interval capability
   *   - Range: `3300`-`9999000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#interval_microseconds_min_tx BfdTemplateSingleHop#interval_microseconds_min_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#interval_microseconds_min_tx BfdTemplateSingleHop#interval_microseconds_min_tx}
   */
   readonly intervalMicrosecondsMinTx?: number;
   /**
   * Minimum transmit and receive interval capability
   *   - Range: `4`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#interval_milliseconds_both BfdTemplateSingleHop#interval_milliseconds_both}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#interval_milliseconds_both BfdTemplateSingleHop#interval_milliseconds_both}
   */
   readonly intervalMillisecondsBoth?: number;
   /**
   * Minimum receive interval capability
   *   - Range: `4`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#interval_milliseconds_min_rx BfdTemplateSingleHop#interval_milliseconds_min_rx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#interval_milliseconds_min_rx BfdTemplateSingleHop#interval_milliseconds_min_rx}
   */
   readonly intervalMillisecondsMinRx?: number;
   /**
   * Minimum transmit interval capability
   *   - Range: `4`-`9999`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#interval_milliseconds_min_tx BfdTemplateSingleHop#interval_milliseconds_min_tx}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#interval_milliseconds_min_tx BfdTemplateSingleHop#interval_milliseconds_min_tx}
   */
   readonly intervalMillisecondsMinTx?: number;
   /**
   * Multiplier value used to compute holddown
   *   - Range: `3`-`50`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#interval_milliseconds_multiplier BfdTemplateSingleHop#interval_milliseconds_multiplier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#interval_milliseconds_multiplier BfdTemplateSingleHop#interval_milliseconds_multiplier}
   */
   readonly intervalMillisecondsMultiplier?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#name BfdTemplateSingleHop#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#name BfdTemplateSingleHop#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop iosxe_bfd_template_single_hop}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop iosxe_bfd_template_single_hop}
 */
 export class BfdTemplateSingleHop extends cdktf.TerraformResource {
 
@@ -136,7 +136,7 @@ export class BfdTemplateSingleHop extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BfdTemplateSingleHop resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BfdTemplateSingleHop to import
-  * @param importFromId The id of the existing BfdTemplateSingleHop that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BfdTemplateSingleHop that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BfdTemplateSingleHop to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -148,7 +148,7 @@ export class BfdTemplateSingleHop extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/bfd_template_single_hop iosxe_bfd_template_single_hop} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/bfd_template_single_hop iosxe_bfd_template_single_hop} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -159,8 +159,8 @@ export class BfdTemplateSingleHop extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_bfd_template_single_hop',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

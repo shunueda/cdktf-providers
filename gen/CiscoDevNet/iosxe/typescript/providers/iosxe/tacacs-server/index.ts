@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,62 +10,62 @@ export interface TacacsServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unknown Tacacs+ attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#attribute_allow_unknown TacacsServer#attribute_allow_unknown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#attribute_allow_unknown TacacsServer#attribute_allow_unknown}
   */
   readonly attributeAllowUnknown?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#delete_mode TacacsServer#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#delete_mode TacacsServer#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#device TacacsServer#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#device TacacsServer#device}
   */
   readonly device?: string;
   /**
   * Allow user to specify tacacs server to use with `@server'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#directed_request TacacsServer#directed_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#directed_request TacacsServer#directed_request}
   */
   readonly directedRequest?: boolean | cdktf.IResolvable;
   /**
   * Do not truncate the @hostname from username.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#directed_request_no_truncate TacacsServer#directed_request_no_truncate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#directed_request_no_truncate TacacsServer#directed_request_no_truncate}
   */
   readonly directedRequestNoTruncate?: boolean | cdktf.IResolvable;
   /**
   * restrict queries to directed request servers only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#directed_request_restricted TacacsServer#directed_request_restricted}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#directed_request_restricted TacacsServer#directed_request_restricted}
   */
   readonly directedRequestRestricted?: boolean | cdktf.IResolvable;
   /**
   * 0 - Specifies an UNENCRYPTED key will follow 6 - Specifies an ENCRYPTED key will follow 7 - Specifies HIDDEN key will follow
   *   - Choices: `0`, `6`, `7`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#encryption TacacsServer#encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#encryption TacacsServer#encryption}
   */
   readonly encryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#key TacacsServer#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#key TacacsServer#key}
   */
   readonly key?: string;
   /**
   * Time to wait for a TACACS server to reply
   *   - Range: `1`-`1000`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#timeout TacacsServer#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#timeout TacacsServer#timeout}
   */
   readonly timeout?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server iosxe_tacacs_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server iosxe_tacacs_server}
 */
 export class TacacsServer extends cdktf.TerraformResource {
 
@@ -81,7 +81,7 @@ export class TacacsServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TacacsServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TacacsServer to import
-  * @param importFromId The id of the existing TacacsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TacacsServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TacacsServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -93,7 +93,7 @@ export class TacacsServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/tacacs_server iosxe_tacacs_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/tacacs_server iosxe_tacacs_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -104,8 +104,8 @@ export class TacacsServer extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_tacacs_server',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

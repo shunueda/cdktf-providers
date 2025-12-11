@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -11,31 +11,31 @@ export interface NatConfig extends cdktf.TerraformMetaArguments {
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#delete_mode Nat#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#delete_mode Nat#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#device Nat#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#device Nat#device}
   */
   readonly device?: string;
   /**
   * Specify access list describing local addresses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#inside_source_interfaces Nat#inside_source_interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#inside_source_interfaces Nat#inside_source_interfaces}
   */
   readonly insideSourceInterfaces?: NatInsideSourceInterfaces[] | cdktf.IResolvable;
 }
 export interface NatInsideSourceInterfacesInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#interface Nat#interface}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#interface Nat#interface}
   */
   readonly interface: string;
   /**
   * Overload an address translation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#overload Nat#overload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#overload Nat#overload}
   */
   readonly overload?: boolean | cdktf.IResolvable;
 }
@@ -177,7 +177,7 @@ export class NatInsideSourceInterfacesInterfacesList extends cdktf.ComplexList {
 }
 export interface NatInsideSourceInterfaces {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#id Nat#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#id Nat#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -186,7 +186,7 @@ export interface NatInsideSourceInterfaces {
   /**
   * Specify interface for global address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#interfaces Nat#interfaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#interfaces Nat#interfaces}
   */
   readonly interfaces?: NatInsideSourceInterfacesInterfaces[] | cdktf.IResolvable;
 }
@@ -328,7 +328,7 @@ export class NatInsideSourceInterfacesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat iosxe_nat}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat iosxe_nat}
 */
 export class Nat extends cdktf.TerraformResource {
 
@@ -344,7 +344,7 @@ export class Nat extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Nat resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Nat to import
-  * @param importFromId The id of the existing Nat that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Nat that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Nat to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -356,7 +356,7 @@ export class Nat extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/nat iosxe_nat} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/nat iosxe_nat} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -367,8 +367,8 @@ export class Nat extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_nat',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

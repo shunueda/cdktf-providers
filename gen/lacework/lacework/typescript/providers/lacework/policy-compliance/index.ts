@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface PolicyComplianceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Whether alerting is enabled or disabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#alerting_enabled PolicyCompliance#alerting_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#alerting_enabled PolicyCompliance#alerting_enabled}
   */
   readonly alertingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The description of the query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#description PolicyCompliance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#description PolicyCompliance#description}
   */
   readonly description: string;
   /**
   * The state of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#enabled PolicyCompliance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#enabled PolicyCompliance#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The string appended to the end of the policy id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#policy_id_suffix PolicyCompliance#policy_id_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#policy_id_suffix PolicyCompliance#policy_id_suffix}
   */
   readonly policyIdSuffix?: string;
   /**
   * The id of the query
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#query_id PolicyCompliance#query_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#query_id PolicyCompliance#query_id}
   */
   readonly queryId: string;
   /**
   * The remediation message to display
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#remediation PolicyCompliance#remediation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#remediation PolicyCompliance#remediation}
   */
   readonly remediation: string;
   /**
   * The severity for the policy. Valid severities are: Critical, High, Medium, Low, Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#severity PolicyCompliance#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#severity PolicyCompliance#severity}
   */
   readonly severity: string;
   /**
   * A list of user specified policy tags
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#tags PolicyCompliance#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#tags PolicyCompliance#tags}
   */
   readonly tags?: string[];
   /**
   * The title of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#title PolicyCompliance#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#title PolicyCompliance#title}
   */
   readonly title: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance lacework_policy_compliance}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance lacework_policy_compliance}
 */
 export class PolicyCompliance extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class PolicyCompliance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PolicyCompliance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PolicyCompliance to import
-  * @param importFromId The id of the existing PolicyCompliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PolicyCompliance that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PolicyCompliance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class PolicyCompliance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/policy_compliance lacework_policy_compliance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/policy_compliance lacework_policy_compliance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class PolicyCompliance extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_policy_compliance',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

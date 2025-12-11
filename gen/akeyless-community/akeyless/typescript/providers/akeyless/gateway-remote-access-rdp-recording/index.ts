@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,65 +10,65 @@ export interface GatewayRemoteAccessRdpRecordingConfig extends cdktf.TerraformMe
   /**
   * AWS access key id. For more information refer to https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#aws_storage_access_key_id GatewayRemoteAccessRdpRecording#aws_storage_access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#aws_storage_access_key_id GatewayRemoteAccessRdpRecording#aws_storage_access_key_id}
   */
   readonly awsStorageAccessKeyId?: string;
   /**
   * The AWS bucket name. For more information refer to https://docs.aws.amazon.com/s3/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#aws_storage_bucket_name GatewayRemoteAccessRdpRecording#aws_storage_bucket_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#aws_storage_bucket_name GatewayRemoteAccessRdpRecording#aws_storage_bucket_name}
   */
   readonly awsStorageBucketName?: string;
   /**
   * The folder name in S3 bucket. For more information refer to https://docs.aws.amazon.com/s3/
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#aws_storage_bucket_prefix GatewayRemoteAccessRdpRecording#aws_storage_bucket_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#aws_storage_bucket_prefix GatewayRemoteAccessRdpRecording#aws_storage_bucket_prefix}
   */
   readonly awsStorageBucketPrefix?: string;
   /**
   * The region where the storage is located
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#aws_storage_region GatewayRemoteAccessRdpRecording#aws_storage_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#aws_storage_region GatewayRemoteAccessRdpRecording#aws_storage_region}
   */
   readonly awsStorageRegion?: string;
   /**
   * AWS secret access key. For more information refer to https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#aws_storage_secret_access_key GatewayRemoteAccessRdpRecording#aws_storage_secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#aws_storage_secret_access_key GatewayRemoteAccessRdpRecording#aws_storage_secret_access_key}
   */
   readonly awsStorageSecretAccessKey?: string;
   /**
   * Azure account name. For more information refer to https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#azure_storage_account_name GatewayRemoteAccessRdpRecording#azure_storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#azure_storage_account_name GatewayRemoteAccessRdpRecording#azure_storage_account_name}
   */
   readonly azureStorageAccountName?: string;
   /**
   * Azure client id. For more information refer to https://learn.microsoft.com/en-us/azure/storage/common/storage-account-get-info?tabs=portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#azure_storage_client_id GatewayRemoteAccessRdpRecording#azure_storage_client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#azure_storage_client_id GatewayRemoteAccessRdpRecording#azure_storage_client_id}
   */
   readonly azureStorageClientId?: string;
   /**
   * Azure client secret. For more information refer to https://learn.microsoft.com/en-us/azure/storage/common/storage-account-get-info?tabs=portal
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#azure_storage_client_secret GatewayRemoteAccessRdpRecording#azure_storage_client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#azure_storage_client_secret GatewayRemoteAccessRdpRecording#azure_storage_client_secret}
   */
   readonly azureStorageClientSecret?: string;
   /**
   * Azure container name. For more information refer to https://learn.microsoft.com/en-us/rest/api/storageservices/naming-and-referencing-containers--blobs--and-metadata
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#azure_storage_container_name GatewayRemoteAccessRdpRecording#azure_storage_container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#azure_storage_container_name GatewayRemoteAccessRdpRecording#azure_storage_container_name}
   */
   readonly azureStorageContainerName?: string;
   /**
   * Azure tenant id. For more information refer to https://learn.microsoft.com/en-us/entra/fundamentals/how-to-find-tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#azure_storage_tenant_id GatewayRemoteAccessRdpRecording#azure_storage_tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#azure_storage_tenant_id GatewayRemoteAccessRdpRecording#azure_storage_tenant_id}
   */
   readonly azureStorageTenantId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#id GatewayRemoteAccessRdpRecording#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#id GatewayRemoteAccessRdpRecording#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -77,19 +77,19 @@ export interface GatewayRemoteAccessRdpRecordingConfig extends cdktf.TerraformMe
   /**
   * Enable recording of rdp session [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#rdp_session_recording GatewayRemoteAccessRdpRecording#rdp_session_recording}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#rdp_session_recording GatewayRemoteAccessRdpRecording#rdp_session_recording}
   */
   readonly rdpSessionRecording?: string;
   /**
   * Rdp session recording storage destination [local/aws/azure]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#rdp_session_storage GatewayRemoteAccessRdpRecording#rdp_session_storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#rdp_session_storage GatewayRemoteAccessRdpRecording#rdp_session_storage}
   */
   readonly rdpSessionStorage?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording akeyless_gateway_remote_access_rdp_recording}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording akeyless_gateway_remote_access_rdp_recording}
 */
 export class GatewayRemoteAccessRdpRecording extends cdktf.TerraformResource {
 
@@ -105,7 +105,7 @@ export class GatewayRemoteAccessRdpRecording extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayRemoteAccessRdpRecording resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayRemoteAccessRdpRecording to import
-  * @param importFromId The id of the existing GatewayRemoteAccessRdpRecording that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayRemoteAccessRdpRecording that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayRemoteAccessRdpRecording to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -117,7 +117,7 @@ export class GatewayRemoteAccessRdpRecording extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_remote_access_rdp_recording akeyless_gateway_remote_access_rdp_recording} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_remote_access_rdp_recording akeyless_gateway_remote_access_rdp_recording} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -128,8 +128,8 @@ export class GatewayRemoteAccessRdpRecording extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_remote_access_rdp_recording',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

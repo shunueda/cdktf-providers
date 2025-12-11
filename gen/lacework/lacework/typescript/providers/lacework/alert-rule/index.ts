@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface AlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of alert categories for the alert rule. Valid categories are: Anomaly, Policy, Composite
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#alert_categories AlertRule#alert_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#alert_categories AlertRule#alert_categories}
   */
   readonly alertCategories?: string[];
   /**
   * List of alert channels for the alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#alert_channels AlertRule#alert_channels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#alert_channels AlertRule#alert_channels}
   */
   readonly alertChannels?: string[];
   /**
   * List of alert sources for the alert rule. Valid sources are: Agent, AWS, Azure, GCP, K8s, OCI
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#alert_sources AlertRule#alert_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#alert_sources AlertRule#alert_sources}
   */
   readonly alertSources?: string[];
   /**
   * List of alert subcategories for the alert rule. Valid categories are: Compliance, Application, Cloud Activity, File, Machine, User, Platform, Kubernetes Activity, Registry, SystemCall, Host Vulnerability, Container Vulnerability, Threat Intel, App, Cloud, K8sActivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#alert_subcategories AlertRule#alert_subcategories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#alert_subcategories AlertRule#alert_subcategories}
   */
   readonly alertSubcategories?: string[];
   /**
   * The description of the alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#description AlertRule#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#description AlertRule#description}
   */
   readonly description?: string;
   /**
   * The state of the alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#enabled AlertRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#enabled AlertRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of event categories for the alert rule. Valid categories are: Compliance, Application, Cloud Activity, File, Machine, User, Platform, Kubernetes Activity, Registry, SystemCall, Host Vulnerability, Container Vulnerability, Threat Intel, App, Cloud, K8sActivity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#event_categories AlertRule#event_categories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#event_categories AlertRule#event_categories}
   */
   readonly eventCategories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#id AlertRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#id AlertRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,25 +59,25 @@ export interface AlertRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#name AlertRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#name AlertRule#name}
   */
   readonly name: string;
   /**
   * List of resource groups for the alert rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#resource_groups AlertRule#resource_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#resource_groups AlertRule#resource_groups}
   */
   readonly resourceGroups?: string[];
   /**
   * List of severities for the alert rule. Valid severities are: Critical, High, Medium, Low, Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#severities AlertRule#severities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#severities AlertRule#severities}
   */
   readonly severities: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule lacework_alert_rule}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule lacework_alert_rule}
 */
 export class AlertRule extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class AlertRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertRule to import
-  * @param importFromId The id of the existing AlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class AlertRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_rule lacework_alert_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_rule lacework_alert_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class AlertRule extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_rule',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "lacework": "2.0.10"
+    "lacework": "2.0.11"
   }
 }

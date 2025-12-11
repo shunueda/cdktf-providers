@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface UscSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Use this option if the universal secrets value is a base64 encoded binary. (relevant for aws/azure/gcp/k8s targets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#binary_value UscSecret#binary_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#binary_value UscSecret#binary_value}
   */
   readonly binaryValue?: boolean | cdktf.IResolvable;
   /**
   * Description of the universal secret (relevant for aws/hashi target)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#description UscSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#description UscSecret#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#id UscSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#id UscSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface UscSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * The namespace (relevant for Hashi vault target)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#namespace UscSecret#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#namespace UscSecret#namespace}
   */
   readonly namespace?: string;
   /**
   * Either secret or certificate (Relevant only for Azure KV targets)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#object_type UscSecret#object_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#object_type UscSecret#object_type}
   */
   readonly objectType?: string;
   /**
   * Name for the new universal secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#secret_name UscSecret#secret_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#secret_name UscSecret#secret_name}
   */
   readonly secretName: string;
   /**
   * Tags for the universal secrets
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#tags UscSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#tags UscSecret#tags}
   */
   readonly tags?: string[];
   /**
   * Name of the Universal Secrets Connector item
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#usc_name UscSecret#usc_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#usc_name UscSecret#usc_name}
   */
   readonly uscName: string;
   /**
   * Value of the universal secrets item, either text or base64 encoded binary
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#value UscSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#value UscSecret#value}
   */
   readonly value?: string;
   /**
   * Version ID of the secret (if not specified, will retrieve the last version)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#version_id UscSecret#version_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#version_id UscSecret#version_id}
   */
   readonly versionId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret akeyless_usc_secret}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret akeyless_usc_secret}
 */
 export class UscSecret extends cdktf.TerraformResource {
 
@@ -87,7 +87,7 @@ export class UscSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a UscSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the UscSecret to import
-  * @param importFromId The id of the existing UscSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing UscSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the UscSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -99,7 +99,7 @@ export class UscSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/usc_secret akeyless_usc_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/usc_secret akeyless_usc_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -110,8 +110,8 @@ export class UscSecret extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_usc_secret',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

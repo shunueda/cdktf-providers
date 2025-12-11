@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface GcpIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Authentication method to use in this integration. If empty, Splunk Observability backend defaults to SERVICE_ACCOUNT_KEY
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#auth_method GcpIntegration#auth_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#auth_method GcpIntegration#auth_method}
   */
   readonly authMethod?: string;
   /**
   * List of additional GCP service domain names that you want to monitor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#custom_metric_type_domains GcpIntegration#custom_metric_type_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#custom_metric_type_domains GcpIntegration#custom_metric_type_domains}
   */
   readonly customMetricTypeDomains?: string[];
   /**
   * Whether the integration is enabled or not
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#enabled GcpIntegration#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#enabled GcpIntegration#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * List of label keys. GCP Compute Engine instances with any of these labels applied are excluded from metric sync. Requires the compute.instances.list permission on the project’s service account.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#exclude_gce_instances_with_labels GcpIntegration#exclude_gce_instances_with_labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#exclude_gce_instances_with_labels GcpIntegration#exclude_gce_instances_with_labels}
   */
   readonly excludeGceInstancesWithLabels?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#id GcpIntegration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#id GcpIntegration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,83 +41,83 @@ export interface GcpIntegrationConfig extends cdktf.TerraformMetaArguments {
   /**
   * If enabled, Splunk Observability Cloud will sync also Google Cloud Metrics data. If disabled, Splunk Observability Cloud will import only metadata. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#import_gcp_metrics GcpIntegration#import_gcp_metrics}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#import_gcp_metrics GcpIntegration#import_gcp_metrics}
   */
   readonly importGcpMetrics?: boolean | cdktf.IResolvable;
   /**
   * List of custom metadata keys that you want Observability Cloud to collect for Compute Engine instances.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#include_list GcpIntegration#include_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#include_list GcpIntegration#include_list}
   */
   readonly includeList?: string[];
   /**
   * Name of the integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#name GcpIntegration#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#name GcpIntegration#name}
   */
   readonly name: string;
   /**
   * A named token to use for ingest
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#named_token GcpIntegration#named_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#named_token GcpIntegration#named_token}
   */
   readonly namedToken?: string;
   /**
   * GCP poll rate (in seconds). Between `60` and `600`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#poll_rate GcpIntegration#poll_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#poll_rate GcpIntegration#poll_rate}
   */
   readonly pollRate?: number;
   /**
   * GCP enabled services
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#services GcpIntegration#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#services GcpIntegration#services}
   */
   readonly services?: string[];
   /**
   * When this value is set to true Observability Cloud will force usage of a quota from the project where metrics are stored. For this to work the service account provided for the project needs to be provided with serviceusage.services.use permission or Service Usage Consumer role in this project. When set to false default quota settings are used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#use_metric_source_project_for_quota GcpIntegration#use_metric_source_project_for_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#use_metric_source_project_for_quota GcpIntegration#use_metric_source_project_for_quota}
   */
   readonly useMetricSourceProjectForQuota?: boolean | cdktf.IResolvable;
   /**
   * The Splunk Observability GCP identity to include in GCP WIF provider definition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#wif_splunk_identity GcpIntegration#wif_splunk_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#wif_splunk_identity GcpIntegration#wif_splunk_identity}
   */
   readonly wifSplunkIdentity?: { [key: string]: string };
   /**
   * Workload Identity Federation configuration JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#workload_identity_federation_config GcpIntegration#workload_identity_federation_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#workload_identity_federation_config GcpIntegration#workload_identity_federation_config}
   */
   readonly workloadIdentityFederationConfig?: string;
   /**
   * project_service_keys block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#project_service_keys GcpIntegration#project_service_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#project_service_keys GcpIntegration#project_service_keys}
   */
   readonly projectServiceKeys?: GcpIntegrationProjectServiceKeys[] | cdktf.IResolvable;
   /**
   * project_wif_configs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#project_wif_configs GcpIntegration#project_wif_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#project_wif_configs GcpIntegration#project_wif_configs}
   */
   readonly projectWifConfigs?: GcpIntegrationProjectWifConfigs[] | cdktf.IResolvable;
   /**
   * projects block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#projects GcpIntegration#projects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#projects GcpIntegration#projects}
   */
   readonly projects?: GcpIntegrationProjects;
 }
 export interface GcpIntegrationProjectServiceKeys {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#project_id GcpIntegration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#project_id GcpIntegration#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#project_key GcpIntegration#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#project_key GcpIntegration#project_key}
   */
   readonly projectKey: string;
 }
@@ -256,11 +256,11 @@ export class GcpIntegrationProjectServiceKeysList extends cdktf.ComplexList {
 }
 export interface GcpIntegrationProjectWifConfigs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#project_id GcpIntegration#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#project_id GcpIntegration#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#wif_config GcpIntegration#wif_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#wif_config GcpIntegration#wif_config}
   */
   readonly wifConfig: string;
 }
@@ -401,13 +401,13 @@ export interface GcpIntegrationProjects {
   /**
   * List of project IDs to synchronize metrics and metadata from. Use only if you don't want to automatically synchronize all projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#selected_project_ids GcpIntegration#selected_project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#selected_project_ids GcpIntegration#selected_project_ids}
   */
   readonly selectedProjectIds?: string[];
   /**
   * What mode of synchronizing projects should be used. Sync all tries to synchronize metrics and metadata from all discoverable projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#sync_mode GcpIntegration#sync_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#sync_mode GcpIntegration#sync_mode}
   */
   readonly syncMode?: string;
 }
@@ -520,7 +520,7 @@ export class GcpIntegrationProjectsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration signalfx_gcp_integration}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration signalfx_gcp_integration}
 */
 export class GcpIntegration extends cdktf.TerraformResource {
 
@@ -536,7 +536,7 @@ export class GcpIntegration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GcpIntegration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GcpIntegration to import
-  * @param importFromId The id of the existing GcpIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GcpIntegration that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GcpIntegration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -548,7 +548,7 @@ export class GcpIntegration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/gcp_integration signalfx_gcp_integration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/gcp_integration signalfx_gcp_integration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -559,8 +559,8 @@ export class GcpIntegration extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_gcp_integration',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

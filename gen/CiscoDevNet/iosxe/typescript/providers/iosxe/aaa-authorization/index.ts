@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,42 +10,42 @@ export interface AaaAuthorizationConfig extends cdktf.TerraformMetaArguments {
   /**
   * For exec (shell) commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#commands AaaAuthorization#commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#commands AaaAuthorization#commands}
   */
   readonly commands?: AaaAuthorizationCommands[] | cdktf.IResolvable;
   /**
   * For configuration mode commands.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#config_commands AaaAuthorization#config_commands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#config_commands AaaAuthorization#config_commands}
   */
   readonly configCommands?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#config_lists AaaAuthorization#config_lists}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#config_lists AaaAuthorization#config_lists}
   */
   readonly configLists?: AaaAuthorizationConfigLists[] | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#delete_mode AaaAuthorization#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#delete_mode AaaAuthorization#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#device AaaAuthorization#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#device AaaAuthorization#device}
   */
   readonly device?: string;
   /**
   * For starting an exec (shell).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#execs AaaAuthorization#execs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#execs AaaAuthorization#execs}
   */
   readonly execs?: AaaAuthorizationExecs[] | cdktf.IResolvable;
   /**
   * For network services. (PPP, SLIP, ARAP)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#networks AaaAuthorization#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#networks AaaAuthorization#networks}
   */
   readonly networks?: AaaAuthorizationNetworks[] | cdktf.IResolvable;
 }
@@ -53,150 +53,150 @@ export interface AaaAuthorizationCommands {
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_group AaaAuthorization#a1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_group AaaAuthorization#a1_group}
   */
   readonly a1Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_if_authenticated AaaAuthorization#a1_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_if_authenticated AaaAuthorization#a1_if_authenticated}
   */
   readonly a1IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
   * Use local database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_local AaaAuthorization#a1_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_local AaaAuthorization#a1_local}
   */
   readonly a1Local?: boolean | cdktf.IResolvable;
   /**
   * No authorization (always succeeds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_none AaaAuthorization#a1_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_none AaaAuthorization#a1_none}
   */
   readonly a1None?: boolean | cdktf.IResolvable;
   /**
   * Use RADIUS data for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_radius AaaAuthorization#a1_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_radius AaaAuthorization#a1_radius}
   */
   readonly a1Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_tacacs AaaAuthorization#a1_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_tacacs AaaAuthorization#a1_tacacs}
   */
   readonly a1Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_group AaaAuthorization#a2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_group AaaAuthorization#a2_group}
   */
   readonly a2Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_if_authenticated AaaAuthorization#a2_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_if_authenticated AaaAuthorization#a2_if_authenticated}
   */
   readonly a2IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_local AaaAuthorization#a2_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_local AaaAuthorization#a2_local}
   */
   readonly a2Local?: boolean | cdktf.IResolvable;
   /**
   * No authorization (always succeeds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_none AaaAuthorization#a2_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_none AaaAuthorization#a2_none}
   */
   readonly a2None?: boolean | cdktf.IResolvable;
   /**
   * Use RADIUS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_radius AaaAuthorization#a2_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_radius AaaAuthorization#a2_radius}
   */
   readonly a2Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_tacacs AaaAuthorization#a2_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_tacacs AaaAuthorization#a2_tacacs}
   */
   readonly a2Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_group AaaAuthorization#a3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_group AaaAuthorization#a3_group}
   */
   readonly a3Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_if_authenticated AaaAuthorization#a3_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_if_authenticated AaaAuthorization#a3_if_authenticated}
   */
   readonly a3IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_local AaaAuthorization#a3_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_local AaaAuthorization#a3_local}
   */
   readonly a3Local?: boolean | cdktf.IResolvable;
   /**
   * No authorization (always succeeds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_none AaaAuthorization#a3_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_none AaaAuthorization#a3_none}
   */
   readonly a3None?: boolean | cdktf.IResolvable;
   /**
   * Use RADIUS data for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_radius AaaAuthorization#a3_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_radius AaaAuthorization#a3_radius}
   */
   readonly a3Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_tacacs AaaAuthorization#a3_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_tacacs AaaAuthorization#a3_tacacs}
   */
   readonly a3Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_group AaaAuthorization#a4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_group AaaAuthorization#a4_group}
   */
   readonly a4Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_if_authenticated AaaAuthorization#a4_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_if_authenticated AaaAuthorization#a4_if_authenticated}
   */
   readonly a4IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_local AaaAuthorization#a4_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_local AaaAuthorization#a4_local}
   */
   readonly a4Local?: boolean | cdktf.IResolvable;
   /**
   * No authorization (always succeeds)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_none AaaAuthorization#a4_none}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_none AaaAuthorization#a4_none}
   */
   readonly a4None?: boolean | cdktf.IResolvable;
   /**
   * Use RADIUS data for authorization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_radius AaaAuthorization#a4_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_radius AaaAuthorization#a4_radius}
   */
   readonly a4Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_tacacs AaaAuthorization#a4_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_tacacs AaaAuthorization#a4_tacacs}
   */
   readonly a4Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Enable level
   *   - Range: `0`-`15`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#level AaaAuthorization#level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#level AaaAuthorization#level}
   */
   readonly level: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#list_name AaaAuthorization#list_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#list_name AaaAuthorization#list_name}
   */
   readonly listName: string;
 }
@@ -1033,31 +1033,31 @@ export interface AaaAuthorizationConfigLists {
   /**
   * Use Cached-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#group1_cache AaaAuthorization#group1_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#group1_cache AaaAuthorization#group1_cache}
   */
   readonly group1Cache?: string;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#group1_group AaaAuthorization#group1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#group1_group AaaAuthorization#group1_group}
   */
   readonly group1Group?: string;
   /**
   * Use list of all Radius hosts
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#group1_radius AaaAuthorization#group1_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#group1_radius AaaAuthorization#group1_radius}
   */
   readonly group1Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#group1_tacacs AaaAuthorization#group1_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#group1_tacacs AaaAuthorization#group1_tacacs}
   */
   readonly group1Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Named authorization method list for configuration service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#name AaaAuthorization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#name AaaAuthorization#name}
   */
   readonly name: string;
 }
@@ -1288,119 +1288,119 @@ export interface AaaAuthorizationExecs {
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_group AaaAuthorization#a1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_group AaaAuthorization#a1_group}
   */
   readonly a1Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_if_authenticated AaaAuthorization#a1_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_if_authenticated AaaAuthorization#a1_if_authenticated}
   */
   readonly a1IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
   * Use local database
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_local AaaAuthorization#a1_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_local AaaAuthorization#a1_local}
   */
   readonly a1Local?: boolean | cdktf.IResolvable;
   /**
   * Use radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_radius AaaAuthorization#a1_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_radius AaaAuthorization#a1_radius}
   */
   readonly a1Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_tacacs AaaAuthorization#a1_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_tacacs AaaAuthorization#a1_tacacs}
   */
   readonly a1Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_group AaaAuthorization#a2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_group AaaAuthorization#a2_group}
   */
   readonly a2Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_if_authenticated AaaAuthorization#a2_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_if_authenticated AaaAuthorization#a2_if_authenticated}
   */
   readonly a2IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_local AaaAuthorization#a2_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_local AaaAuthorization#a2_local}
   */
   readonly a2Local?: boolean | cdktf.IResolvable;
   /**
   * Use Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_radius AaaAuthorization#a2_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_radius AaaAuthorization#a2_radius}
   */
   readonly a2Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_tacacs AaaAuthorization#a2_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_tacacs AaaAuthorization#a2_tacacs}
   */
   readonly a2Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_group AaaAuthorization#a3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_group AaaAuthorization#a3_group}
   */
   readonly a3Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_if_authenticated AaaAuthorization#a3_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_if_authenticated AaaAuthorization#a3_if_authenticated}
   */
   readonly a3IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_local AaaAuthorization#a3_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_local AaaAuthorization#a3_local}
   */
   readonly a3Local?: boolean | cdktf.IResolvable;
   /**
   * Use Radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_radius AaaAuthorization#a3_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_radius AaaAuthorization#a3_radius}
   */
   readonly a3Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_tacacs AaaAuthorization#a3_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_tacacs AaaAuthorization#a3_tacacs}
   */
   readonly a3Tacacs?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_group AaaAuthorization#a4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_group AaaAuthorization#a4_group}
   */
   readonly a4Group?: string;
   /**
   * Succeed if user has authenticated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_if_authenticated AaaAuthorization#a4_if_authenticated}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_if_authenticated AaaAuthorization#a4_if_authenticated}
   */
   readonly a4IfAuthenticated?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_local AaaAuthorization#a4_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_local AaaAuthorization#a4_local}
   */
   readonly a4Local?: boolean | cdktf.IResolvable;
   /**
   * Use radius
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_radius AaaAuthorization#a4_radius}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_radius AaaAuthorization#a4_radius}
   */
   readonly a4Radius?: boolean | cdktf.IResolvable;
   /**
   * Use TACACS+
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_tacacs AaaAuthorization#a4_tacacs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_tacacs AaaAuthorization#a4_tacacs}
   */
   readonly a4Tacacs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#name AaaAuthorization#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#name AaaAuthorization#name}
   */
   readonly name: string;
 }
@@ -2095,47 +2095,47 @@ export interface AaaAuthorizationNetworks {
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_group AaaAuthorization#a1_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_group AaaAuthorization#a1_group}
   */
   readonly a1Group?: string;
   /**
   * Use local username authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a1_local AaaAuthorization#a1_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a1_local AaaAuthorization#a1_local}
   */
   readonly a1Local?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_group AaaAuthorization#a2_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_group AaaAuthorization#a2_group}
   */
   readonly a2Group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a2_local AaaAuthorization#a2_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a2_local AaaAuthorization#a2_local}
   */
   readonly a2Local?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_group AaaAuthorization#a3_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_group AaaAuthorization#a3_group}
   */
   readonly a3Group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a3_local AaaAuthorization#a3_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a3_local AaaAuthorization#a3_local}
   */
   readonly a3Local?: boolean | cdktf.IResolvable;
   /**
   * Use Server-group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_group AaaAuthorization#a4_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_group AaaAuthorization#a4_group}
   */
   readonly a4Group?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#a4_local AaaAuthorization#a4_local}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#a4_local AaaAuthorization#a4_local}
   */
   readonly a4Local?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#id AaaAuthorization#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#id AaaAuthorization#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2483,7 +2483,7 @@ export class AaaAuthorizationNetworksList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization iosxe_aaa_authorization}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization iosxe_aaa_authorization}
 */
 export class AaaAuthorization extends cdktf.TerraformResource {
 
@@ -2499,7 +2499,7 @@ export class AaaAuthorization extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AaaAuthorization resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AaaAuthorization to import
-  * @param importFromId The id of the existing AaaAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AaaAuthorization that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AaaAuthorization to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2511,7 +2511,7 @@ export class AaaAuthorization extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/aaa_authorization iosxe_aaa_authorization} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/aaa_authorization iosxe_aaa_authorization} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2522,8 +2522,8 @@ export class AaaAuthorization extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_aaa_authorization',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

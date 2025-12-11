@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,53 +10,53 @@ export interface EventForwarderWebhookConfig extends cdktf.TerraformMetaArgument
   /**
   * Auth Methods event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#auth_methods_event_source_locations EventForwarderWebhook#auth_methods_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#auth_methods_event_source_locations EventForwarderWebhook#auth_methods_event_source_locations}
   */
   readonly authMethodsEventSourceLocations?: string[];
   /**
   * Base64 encoded Token string relevant for token auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#auth_token EventForwarderWebhook#auth_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#auth_token EventForwarderWebhook#auth_token}
   */
   readonly authToken?: string;
   /**
   * The Webhook authentication type [user-pass, bearer-token, certificate]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#auth_type EventForwarderWebhook#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#auth_type EventForwarderWebhook#auth_type}
   */
   readonly authType?: string;
   /**
   * Base64 encoded PEM certificate, relevant for certificate auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#client_cert_data EventForwarderWebhook#client_cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#client_cert_data EventForwarderWebhook#client_cert_data}
   */
   readonly clientCertData?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#description EventForwarderWebhook#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#description EventForwarderWebhook#description}
   */
   readonly description?: string;
   /**
   * A comma-separated list of types of events to notify about
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#event_types EventForwarderWebhook#event_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#event_types EventForwarderWebhook#event_types}
   */
   readonly eventTypes?: string[];
   /**
   * Rate of periodic runner repetition in hours
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#every EventForwarderWebhook#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#every EventForwarderWebhook#every}
   */
   readonly every?: string;
   /**
   * Gateways event sources to forward events about,for example the relevant Gateways cluster urls,: http://localhost:8000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#gateways_event_source_locations EventForwarderWebhook#gateways_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#gateways_event_source_locations EventForwarderWebhook#gateways_event_source_locations}
   */
   readonly gatewaysEventSourceLocations?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#id EventForwarderWebhook#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#id EventForwarderWebhook#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -65,67 +65,67 @@ export interface EventForwarderWebhookConfig extends cdktf.TerraformMetaArgument
   /**
   * Items event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#items_event_source_locations EventForwarderWebhook#items_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#items_event_source_locations EventForwarderWebhook#items_event_source_locations}
   */
   readonly itemsEventSourceLocations?: string[];
   /**
   * Key name. The key will be used to encrypt the Event Forwarder secret value. If key name is not specified, the account default protection key is used
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#key EventForwarderWebhook#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#key EventForwarderWebhook#key}
   */
   readonly key?: string;
   /**
   * Event Forwarder name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#name EventForwarderWebhook#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#name EventForwarderWebhook#name}
   */
   readonly name: string;
   /**
   * Password for authentication relevant for user-pass auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#password EventForwarderWebhook#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#password EventForwarderWebhook#password}
   */
   readonly password?: string;
   /**
   * Base64 encoded PEM RSA Private Key, relevant for certificate auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#private_key_data EventForwarderWebhook#private_key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#private_key_data EventForwarderWebhook#private_key_data}
   */
   readonly privateKeyData?: string;
   /**
   * Event Forwarder runner type [immediate/periodic]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#runner_type EventForwarderWebhook#runner_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#runner_type EventForwarderWebhook#runner_type}
   */
   readonly runnerType?: string;
   /**
   * Base64 encoded PEM certificate of the Webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#server_certificates EventForwarderWebhook#server_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#server_certificates EventForwarderWebhook#server_certificates}
   */
   readonly serverCertificates?: string;
   /**
   * Targets event sources to forward events about, for example: /abc/*
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#targets_event_source_locations EventForwarderWebhook#targets_event_source_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#targets_event_source_locations EventForwarderWebhook#targets_event_source_locations}
   */
   readonly targetsEventSourceLocations?: string[];
   /**
   * Webhook URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#url EventForwarderWebhook#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#url EventForwarderWebhook#url}
   */
   readonly url?: string;
   /**
   * Username for authentication relevant for user-pass auth-type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#username EventForwarderWebhook#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#username EventForwarderWebhook#username}
   */
   readonly username?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook akeyless_event_forwarder_webhook}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook akeyless_event_forwarder_webhook}
 */
 export class EventForwarderWebhook extends cdktf.TerraformResource {
 
@@ -141,7 +141,7 @@ export class EventForwarderWebhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EventForwarderWebhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EventForwarderWebhook to import
-  * @param importFromId The id of the existing EventForwarderWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EventForwarderWebhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EventForwarderWebhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class EventForwarderWebhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/event_forwarder_webhook akeyless_event_forwarder_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/event_forwarder_webhook akeyless_event_forwarder_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class EventForwarderWebhook extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_event_forwarder_webhook',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

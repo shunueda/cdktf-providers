@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,56 +8,56 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationOciCfgConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#enabled IntegrationOciCfg#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#enabled IntegrationOciCfg#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#home_region IntegrationOciCfg#home_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#home_region IntegrationOciCfg#home_region}
   */
   readonly homeRegion: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#id IntegrationOciCfg#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#id IntegrationOciCfg#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#name IntegrationOciCfg#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#name IntegrationOciCfg#name}
   */
   readonly name: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#retries IntegrationOciCfg#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#retries IntegrationOciCfg#retries}
   */
   readonly retries?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#tenant_id IntegrationOciCfg#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#tenant_id IntegrationOciCfg#tenant_id}
   */
   readonly tenantId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#tenant_name IntegrationOciCfg#tenant_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#tenant_name IntegrationOciCfg#tenant_name}
   */
   readonly tenantName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#user_ocid IntegrationOciCfg#user_ocid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#user_ocid IntegrationOciCfg#user_ocid}
   */
   readonly userOcid: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#credentials IntegrationOciCfg#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#credentials IntegrationOciCfg#credentials}
   */
   readonly credentials: IntegrationOciCfgCredentials;
 }
 export interface IntegrationOciCfgCredentials {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#fingerprint IntegrationOciCfg#fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#fingerprint IntegrationOciCfg#fingerprint}
   */
   readonly fingerprint: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#private_key IntegrationOciCfg#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#private_key IntegrationOciCfg#private_key}
   */
   readonly privateKey: string;
 }
@@ -164,7 +164,7 @@ export class IntegrationOciCfgCredentialsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg lacework_integration_oci_cfg}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg lacework_integration_oci_cfg}
 */
 export class IntegrationOciCfg extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class IntegrationOciCfg extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationOciCfg resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationOciCfg to import
-  * @param importFromId The id of the existing IntegrationOciCfg that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationOciCfg that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationOciCfg to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class IntegrationOciCfg extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_oci_cfg lacework_integration_oci_cfg} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_oci_cfg lacework_integration_oci_cfg} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class IntegrationOciCfg extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_oci_cfg',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

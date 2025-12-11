@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,52 +8,52 @@ import * as cdktf from 'cdktf';
 
 export interface SystemSnmpSysinfoConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#contact_info SystemSnmpSysinfo#contact_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#contact_info SystemSnmpSysinfo#contact_info}
   */
   readonly contactInfo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#description SystemSnmpSysinfo#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#description SystemSnmpSysinfo#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#engine_id SystemSnmpSysinfo#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#engine_id SystemSnmpSysinfo#engine_id}
   */
   readonly engineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#fortianalyzer_legacy_sysoid SystemSnmpSysinfo#fortianalyzer_legacy_sysoid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#fortianalyzer_legacy_sysoid SystemSnmpSysinfo#fortianalyzer_legacy_sysoid}
   */
   readonly fortianalyzerLegacySysoid?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#id SystemSnmpSysinfo#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#id SystemSnmpSysinfo#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#location SystemSnmpSysinfo#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#location SystemSnmpSysinfo#location}
   */
   readonly location?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#status SystemSnmpSysinfo#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#status SystemSnmpSysinfo#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#trap_cpu_high_exclude_nice_threshold SystemSnmpSysinfo#trap_cpu_high_exclude_nice_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#trap_cpu_high_exclude_nice_threshold SystemSnmpSysinfo#trap_cpu_high_exclude_nice_threshold}
   */
   readonly trapCpuHighExcludeNiceThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#trap_high_cpu_threshold SystemSnmpSysinfo#trap_high_cpu_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#trap_high_cpu_threshold SystemSnmpSysinfo#trap_high_cpu_threshold}
   */
   readonly trapHighCpuThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#trap_low_memory_threshold SystemSnmpSysinfo#trap_low_memory_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#trap_low_memory_threshold SystemSnmpSysinfo#trap_low_memory_threshold}
   */
   readonly trapLowMemoryThreshold?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo fortianalyzer_system_snmp_sysinfo}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo fortianalyzer_system_snmp_sysinfo}
 */
 export class SystemSnmpSysinfo extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class SystemSnmpSysinfo extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemSnmpSysinfo resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemSnmpSysinfo to import
-  * @param importFromId The id of the existing SystemSnmpSysinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemSnmpSysinfo that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemSnmpSysinfo to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class SystemSnmpSysinfo extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_snmp_sysinfo fortianalyzer_system_snmp_sysinfo} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_snmp_sysinfo fortianalyzer_system_snmp_sysinfo} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class SystemSnmpSysinfo extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_snmp_sysinfo',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

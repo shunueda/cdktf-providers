@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,106 +8,106 @@ import * as cdktf from 'cdktf';
 
 export interface BuildDefinitionConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#agent_pool_name BuildDefinition#agent_pool_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#agent_pool_name BuildDefinition#agent_pool_name}
   */
   readonly agentPoolName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#agent_specification BuildDefinition#agent_specification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#agent_specification BuildDefinition#agent_specification}
   */
   readonly agentSpecification?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#id BuildDefinition#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#id BuildDefinition#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}
   */
   readonly jobAuthorizationScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#name BuildDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#name BuildDefinition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#path BuildDefinition#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#path BuildDefinition#path}
   */
   readonly path?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#project_id BuildDefinition#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#project_id BuildDefinition#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#queue_status BuildDefinition#queue_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#queue_status BuildDefinition#queue_status}
   */
   readonly queueStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#variable_groups BuildDefinition#variable_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#variable_groups BuildDefinition#variable_groups}
   */
   readonly variableGroups?: number[];
   /**
   * build_completion_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#build_completion_trigger BuildDefinition#build_completion_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#build_completion_trigger BuildDefinition#build_completion_trigger}
   */
   readonly buildCompletionTrigger?: BuildDefinitionBuildCompletionTrigger[] | cdktf.IResolvable;
   /**
   * ci_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#ci_trigger BuildDefinition#ci_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#ci_trigger BuildDefinition#ci_trigger}
   */
   readonly ciTrigger?: BuildDefinitionCiTrigger;
   /**
   * features block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#features BuildDefinition#features}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#features BuildDefinition#features}
   */
   readonly features?: BuildDefinitionFeatures[] | cdktf.IResolvable;
   /**
   * jobs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#jobs BuildDefinition#jobs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#jobs BuildDefinition#jobs}
   */
   readonly jobs?: BuildDefinitionJobs[] | cdktf.IResolvable;
   /**
   * pull_request_trigger block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#pull_request_trigger BuildDefinition#pull_request_trigger}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#pull_request_trigger BuildDefinition#pull_request_trigger}
   */
   readonly pullRequestTrigger?: BuildDefinitionPullRequestTrigger;
   /**
   * repository block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#repository BuildDefinition#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#repository BuildDefinition#repository}
   */
   readonly repository: BuildDefinitionRepository;
   /**
   * schedules block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#schedules BuildDefinition#schedules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#schedules BuildDefinition#schedules}
   */
   readonly schedules?: BuildDefinitionSchedules[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#timeouts BuildDefinition#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#timeouts BuildDefinition#timeouts}
   */
   readonly timeouts?: BuildDefinitionTimeouts;
   /**
   * variable block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#variable BuildDefinition#variable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#variable BuildDefinition#variable}
   */
   readonly variable?: BuildDefinitionVariable[] | cdktf.IResolvable;
 }
 export interface BuildDefinitionBuildCompletionTriggerBranchFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#exclude BuildDefinition#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#exclude BuildDefinition#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#include BuildDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#include BuildDefinition#include}
   */
   readonly include?: string[];
 }
@@ -252,13 +252,13 @@ export class BuildDefinitionBuildCompletionTriggerBranchFilterList extends cdktf
 }
 export interface BuildDefinitionBuildCompletionTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#build_definition_id BuildDefinition#build_definition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#build_definition_id BuildDefinition#build_definition_id}
   */
   readonly buildDefinitionId: number;
   /**
   * branch_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
   */
   readonly branchFilter: BuildDefinitionBuildCompletionTriggerBranchFilter[] | cdktf.IResolvable;
 }
@@ -397,11 +397,11 @@ export class BuildDefinitionBuildCompletionTriggerList extends cdktf.ComplexList
 }
 export interface BuildDefinitionCiTriggerOverrideBranchFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#exclude BuildDefinition#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#exclude BuildDefinition#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#include BuildDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#include BuildDefinition#include}
   */
   readonly include?: string[];
 }
@@ -546,11 +546,11 @@ export class BuildDefinitionCiTriggerOverrideBranchFilterList extends cdktf.Comp
 }
 export interface BuildDefinitionCiTriggerOverridePathFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#exclude BuildDefinition#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#exclude BuildDefinition#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#include BuildDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#include BuildDefinition#include}
   */
   readonly include?: string[];
 }
@@ -695,27 +695,27 @@ export class BuildDefinitionCiTriggerOverridePathFilterList extends cdktf.Comple
 }
 export interface BuildDefinitionCiTriggerOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#batch BuildDefinition#batch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#batch BuildDefinition#batch}
   */
   readonly batch?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#max_concurrent_builds_per_branch BuildDefinition#max_concurrent_builds_per_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#max_concurrent_builds_per_branch BuildDefinition#max_concurrent_builds_per_branch}
   */
   readonly maxConcurrentBuildsPerBranch?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#polling_interval BuildDefinition#polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#polling_interval BuildDefinition#polling_interval}
   */
   readonly pollingInterval?: number;
   /**
   * branch_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
   */
   readonly branchFilter: BuildDefinitionCiTriggerOverrideBranchFilter[] | cdktf.IResolvable;
   /**
   * path_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
   */
   readonly pathFilter?: BuildDefinitionCiTriggerOverridePathFilter[] | cdktf.IResolvable;
 }
@@ -917,13 +917,13 @@ export class BuildDefinitionCiTriggerOverrideOutputReference extends cdktf.Compl
 }
 export interface BuildDefinitionCiTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#use_yaml BuildDefinition#use_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#use_yaml BuildDefinition#use_yaml}
   */
   readonly useYaml?: boolean | cdktf.IResolvable;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#override BuildDefinition#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#override BuildDefinition#override}
   */
   readonly override?: BuildDefinitionCiTriggerOverride;
 }
@@ -1036,7 +1036,7 @@ export class BuildDefinitionCiTriggerOutputReference extends cdktf.ComplexObject
 }
 export interface BuildDefinitionFeatures {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#skip_first_run BuildDefinition#skip_first_run}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#skip_first_run BuildDefinition#skip_first_run}
   */
   readonly skipFirstRun?: boolean | cdktf.IResolvable;
 }
@@ -1152,7 +1152,7 @@ export class BuildDefinitionFeaturesList extends cdktf.ComplexList {
 }
 export interface BuildDefinitionJobsDependencies {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#scope BuildDefinition#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#scope BuildDefinition#scope}
   */
   readonly scope: string;
 }
@@ -1265,19 +1265,19 @@ export class BuildDefinitionJobsDependenciesList extends cdktf.ComplexList {
 }
 export interface BuildDefinitionJobsTargetExecutionOptions {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#continue_on_error BuildDefinition#continue_on_error}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#continue_on_error BuildDefinition#continue_on_error}
   */
   readonly continueOnError?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#max_concurrency BuildDefinition#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#max_concurrency BuildDefinition#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#multipliers BuildDefinition#multipliers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#multipliers BuildDefinition#multipliers}
   */
   readonly multipliers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#type BuildDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#type BuildDefinition#type}
   */
   readonly type: string;
 }
@@ -1445,17 +1445,17 @@ export class BuildDefinitionJobsTargetExecutionOptionsOutputReference extends cd
 }
 export interface BuildDefinitionJobsTarget {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#demands BuildDefinition#demands}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#demands BuildDefinition#demands}
   */
   readonly demands?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#type BuildDefinition#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#type BuildDefinition#type}
   */
   readonly type: string;
   /**
   * execution_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#execution_options BuildDefinition#execution_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#execution_options BuildDefinition#execution_options}
   */
   readonly executionOptions: BuildDefinitionJobsTargetExecutionOptions;
 }
@@ -1591,43 +1591,43 @@ export class BuildDefinitionJobsTargetOutputReference extends cdktf.ComplexObjec
 }
 export interface BuildDefinitionJobs {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#allow_scripts_auth_access_option BuildDefinition#allow_scripts_auth_access_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#allow_scripts_auth_access_option BuildDefinition#allow_scripts_auth_access_option}
   */
   readonly allowScriptsAuthAccessOption?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#condition BuildDefinition#condition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#condition BuildDefinition#condition}
   */
   readonly condition: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#job_authorization_scope BuildDefinition#job_authorization_scope}
   */
   readonly jobAuthorizationScope?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#job_cancel_timeout_in_minutes BuildDefinition#job_cancel_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#job_cancel_timeout_in_minutes BuildDefinition#job_cancel_timeout_in_minutes}
   */
   readonly jobCancelTimeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#job_timeout_in_minutes BuildDefinition#job_timeout_in_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#job_timeout_in_minutes BuildDefinition#job_timeout_in_minutes}
   */
   readonly jobTimeoutInMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#name BuildDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#name BuildDefinition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#ref_name BuildDefinition#ref_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#ref_name BuildDefinition#ref_name}
   */
   readonly refName: string;
   /**
   * dependencies block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#dependencies BuildDefinition#dependencies}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#dependencies BuildDefinition#dependencies}
   */
   readonly dependencies?: BuildDefinitionJobsDependencies[] | cdktf.IResolvable;
   /**
   * target block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#target BuildDefinition#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#target BuildDefinition#target}
   */
   readonly target: BuildDefinitionJobsTarget;
 }
@@ -1963,11 +1963,11 @@ export class BuildDefinitionJobsList extends cdktf.ComplexList {
 }
 export interface BuildDefinitionPullRequestTriggerForks {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#enabled BuildDefinition#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#enabled BuildDefinition#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#share_secrets BuildDefinition#share_secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#share_secrets BuildDefinition#share_secrets}
   */
   readonly shareSecrets: boolean | cdktf.IResolvable;
 }
@@ -2074,11 +2074,11 @@ export class BuildDefinitionPullRequestTriggerForksOutputReference extends cdktf
 }
 export interface BuildDefinitionPullRequestTriggerOverrideBranchFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#exclude BuildDefinition#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#exclude BuildDefinition#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#include BuildDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#include BuildDefinition#include}
   */
   readonly include?: string[];
 }
@@ -2223,11 +2223,11 @@ export class BuildDefinitionPullRequestTriggerOverrideBranchFilterList extends c
 }
 export interface BuildDefinitionPullRequestTriggerOverridePathFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#exclude BuildDefinition#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#exclude BuildDefinition#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#include BuildDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#include BuildDefinition#include}
   */
   readonly include?: string[];
 }
@@ -2372,19 +2372,19 @@ export class BuildDefinitionPullRequestTriggerOverridePathFilterList extends cdk
 }
 export interface BuildDefinitionPullRequestTriggerOverride {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#auto_cancel BuildDefinition#auto_cancel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#auto_cancel BuildDefinition#auto_cancel}
   */
   readonly autoCancel?: boolean | cdktf.IResolvable;
   /**
   * branch_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
   */
   readonly branchFilter: BuildDefinitionPullRequestTriggerOverrideBranchFilter[] | cdktf.IResolvable;
   /**
   * path_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#path_filter BuildDefinition#path_filter}
   */
   readonly pathFilter?: BuildDefinitionPullRequestTriggerOverridePathFilter[] | cdktf.IResolvable;
 }
@@ -2523,27 +2523,27 @@ export class BuildDefinitionPullRequestTriggerOverrideOutputReference extends cd
 }
 export interface BuildDefinitionPullRequestTrigger {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#comment_required BuildDefinition#comment_required}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#comment_required BuildDefinition#comment_required}
   */
   readonly commentRequired?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#initial_branch BuildDefinition#initial_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#initial_branch BuildDefinition#initial_branch}
   */
   readonly initialBranch?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#use_yaml BuildDefinition#use_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#use_yaml BuildDefinition#use_yaml}
   */
   readonly useYaml?: boolean | cdktf.IResolvable;
   /**
   * forks block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#forks BuildDefinition#forks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#forks BuildDefinition#forks}
   */
   readonly forks: BuildDefinitionPullRequestTriggerForks;
   /**
   * override block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#override BuildDefinition#override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#override BuildDefinition#override}
   */
   readonly override?: BuildDefinitionPullRequestTriggerOverride;
 }
@@ -2740,35 +2740,35 @@ export class BuildDefinitionPullRequestTriggerOutputReference extends cdktf.Comp
 }
 export interface BuildDefinitionRepository {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#branch_name BuildDefinition#branch_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#branch_name BuildDefinition#branch_name}
   */
   readonly branchName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#github_enterprise_url BuildDefinition#github_enterprise_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#github_enterprise_url BuildDefinition#github_enterprise_url}
   */
   readonly githubEnterpriseUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#repo_id BuildDefinition#repo_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#repo_id BuildDefinition#repo_id}
   */
   readonly repoId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#repo_type BuildDefinition#repo_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#repo_type BuildDefinition#repo_type}
   */
   readonly repoType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#report_build_status BuildDefinition#report_build_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#report_build_status BuildDefinition#report_build_status}
   */
   readonly reportBuildStatus?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#service_connection_id BuildDefinition#service_connection_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#service_connection_id BuildDefinition#service_connection_id}
   */
   readonly serviceConnectionId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#url BuildDefinition#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#url BuildDefinition#url}
   */
   readonly url?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#yml_path BuildDefinition#yml_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#yml_path BuildDefinition#yml_path}
   */
   readonly ymlPath?: string;
 }
@@ -3049,11 +3049,11 @@ export class BuildDefinitionRepositoryOutputReference extends cdktf.ComplexObjec
 }
 export interface BuildDefinitionSchedulesBranchFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#exclude BuildDefinition#exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#exclude BuildDefinition#exclude}
   */
   readonly exclude?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#include BuildDefinition#include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#include BuildDefinition#include}
   */
   readonly include?: string[];
 }
@@ -3198,29 +3198,29 @@ export class BuildDefinitionSchedulesBranchFilterList extends cdktf.ComplexList 
 }
 export interface BuildDefinitionSchedules {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#days_to_build BuildDefinition#days_to_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#days_to_build BuildDefinition#days_to_build}
   */
   readonly daysToBuild: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#schedule_only_with_changes BuildDefinition#schedule_only_with_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#schedule_only_with_changes BuildDefinition#schedule_only_with_changes}
   */
   readonly scheduleOnlyWithChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#start_hours BuildDefinition#start_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#start_hours BuildDefinition#start_hours}
   */
   readonly startHours?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#start_minutes BuildDefinition#start_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#start_minutes BuildDefinition#start_minutes}
   */
   readonly startMinutes?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#time_zone BuildDefinition#time_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#time_zone BuildDefinition#time_zone}
   */
   readonly timeZone?: string;
   /**
   * branch_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#branch_filter BuildDefinition#branch_filter}
   */
   readonly branchFilter: BuildDefinitionSchedulesBranchFilter[] | cdktf.IResolvable;
 }
@@ -3480,19 +3480,19 @@ export class BuildDefinitionSchedulesList extends cdktf.ComplexList {
 }
 export interface BuildDefinitionTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#create BuildDefinition#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#create BuildDefinition#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#delete BuildDefinition#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#delete BuildDefinition#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#read BuildDefinition#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#read BuildDefinition#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#update BuildDefinition#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#update BuildDefinition#update}
   */
   readonly update?: string;
 }
@@ -3673,23 +3673,23 @@ export class BuildDefinitionTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 export interface BuildDefinitionVariable {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#allow_override BuildDefinition#allow_override}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#allow_override BuildDefinition#allow_override}
   */
   readonly allowOverride?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#is_secret BuildDefinition#is_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#is_secret BuildDefinition#is_secret}
   */
   readonly isSecret?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#name BuildDefinition#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#name BuildDefinition#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#secret_value BuildDefinition#secret_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#secret_value BuildDefinition#secret_value}
   */
   readonly secretValue?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#value BuildDefinition#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#value BuildDefinition#value}
   */
   readonly value?: string;
 }
@@ -3918,7 +3918,7 @@ export class BuildDefinitionVariableList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition azuredevops_build_definition}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition azuredevops_build_definition}
 */
 export class BuildDefinition extends cdktf.TerraformResource {
 
@@ -3934,7 +3934,7 @@ export class BuildDefinition extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a BuildDefinition resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the BuildDefinition to import
-  * @param importFromId The id of the existing BuildDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing BuildDefinition that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the BuildDefinition to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3946,7 +3946,7 @@ export class BuildDefinition extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/build_definition azuredevops_build_definition} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/build_definition azuredevops_build_definition} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3957,8 +3957,8 @@ export class BuildDefinition extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_build_definition',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

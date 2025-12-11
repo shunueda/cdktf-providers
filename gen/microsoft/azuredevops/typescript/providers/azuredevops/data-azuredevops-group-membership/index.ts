@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,11 +8,11 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsGroupMembershipConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership#group_descriptor DataAzuredevopsGroupMembership#group_descriptor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership#group_descriptor DataAzuredevopsGroupMembership#group_descriptor}
   */
   readonly groupDescriptor: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership#id DataAzuredevopsGroupMembership#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership#id DataAzuredevopsGroupMembership#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -21,13 +21,13 @@ export interface DataAzuredevopsGroupMembershipConfig extends cdktf.TerraformMet
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership#timeouts DataAzuredevopsGroupMembership#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership#timeouts DataAzuredevopsGroupMembership#timeouts}
   */
   readonly timeouts?: DataAzuredevopsGroupMembershipTimeouts;
 }
 export interface DataAzuredevopsGroupMembershipTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership#read DataAzuredevopsGroupMembership#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership#read DataAzuredevopsGroupMembership#read}
   */
   readonly read?: string;
 }
@@ -121,7 +121,7 @@ export class DataAzuredevopsGroupMembershipTimeoutsOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership azuredevops_group_membership}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership azuredevops_group_membership}
 */
 export class DataAzuredevopsGroupMembership extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataAzuredevopsGroupMembership extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsGroupMembership resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsGroupMembership to import
-  * @param importFromId The id of the existing DataAzuredevopsGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsGroupMembership that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsGroupMembership to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataAzuredevopsGroupMembership extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/group_membership azuredevops_group_membership} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/group_membership azuredevops_group_membership} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataAzuredevopsGroupMembership extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_group_membership',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

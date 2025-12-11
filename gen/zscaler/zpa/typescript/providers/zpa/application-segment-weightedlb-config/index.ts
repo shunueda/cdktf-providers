@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ApplicationSegmentWeightedlbConfigConfig extends cdktf.Terrafor
   /**
   * Application segment identifier to manage. Either application_id or application_name must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#application_id ApplicationSegmentWeightedlbConfig#application_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#application_id ApplicationSegmentWeightedlbConfig#application_id}
   */
   readonly applicationId?: string;
   /**
   * Application segment name to manage. Either application_id or application_name must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#application_name ApplicationSegmentWeightedlbConfig#application_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#application_name ApplicationSegmentWeightedlbConfig#application_name}
   */
   readonly applicationName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#id ApplicationSegmentWeightedlbConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#id ApplicationSegmentWeightedlbConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface ApplicationSegmentWeightedlbConfigConfig extends cdktf.Terrafor
   /**
   * Optional microtenant identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#microtenant_id ApplicationSegmentWeightedlbConfig#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#microtenant_id ApplicationSegmentWeightedlbConfig#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * Enable or disable weighted load balancing for the application segment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#weighted_load_balancing ApplicationSegmentWeightedlbConfig#weighted_load_balancing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#weighted_load_balancing ApplicationSegmentWeightedlbConfig#weighted_load_balancing}
   */
   readonly weightedLoadBalancing?: boolean | cdktf.IResolvable;
   /**
   * application_to_server_group_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#application_to_server_group_mappings ApplicationSegmentWeightedlbConfig#application_to_server_group_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#application_to_server_group_mappings ApplicationSegmentWeightedlbConfig#application_to_server_group_mappings}
   */
   readonly applicationToServerGroupMappings?: ApplicationSegmentWeightedlbConfigApplicationToServerGroupMappings[] | cdktf.IResolvable;
 }
@@ -49,7 +49,7 @@ export interface ApplicationSegmentWeightedlbConfigApplicationToServerGroupMappi
   /**
   * Server group mapping identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#id ApplicationSegmentWeightedlbConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#id ApplicationSegmentWeightedlbConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -58,19 +58,19 @@ export interface ApplicationSegmentWeightedlbConfigApplicationToServerGroupMappi
   /**
   * Server group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#name ApplicationSegmentWeightedlbConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#name ApplicationSegmentWeightedlbConfig#name}
   */
   readonly name?: string;
   /**
   * Whether the server group is passive.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#passive ApplicationSegmentWeightedlbConfig#passive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#passive ApplicationSegmentWeightedlbConfig#passive}
   */
   readonly passive?: boolean | cdktf.IResolvable;
   /**
   * Assigned weight for the server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#weight ApplicationSegmentWeightedlbConfig#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#weight ApplicationSegmentWeightedlbConfig#weight}
   */
   readonly weight?: string;
 }
@@ -273,7 +273,7 @@ export class ApplicationSegmentWeightedlbConfigApplicationToServerGroupMappingsL
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config zpa_application_segment_weightedlb_config}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config zpa_application_segment_weightedlb_config}
 */
 export class ApplicationSegmentWeightedlbConfig extends cdktf.TerraformResource {
 
@@ -289,7 +289,7 @@ export class ApplicationSegmentWeightedlbConfig extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ApplicationSegmentWeightedlbConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApplicationSegmentWeightedlbConfig to import
-  * @param importFromId The id of the existing ApplicationSegmentWeightedlbConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApplicationSegmentWeightedlbConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApplicationSegmentWeightedlbConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -301,7 +301,7 @@ export class ApplicationSegmentWeightedlbConfig extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/application_segment_weightedlb_config zpa_application_segment_weightedlb_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/application_segment_weightedlb_config zpa_application_segment_weightedlb_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -312,8 +312,8 @@ export class ApplicationSegmentWeightedlbConfig extends cdktf.TerraformResource 
       terraformResourceType: 'zpa_application_segment_weightedlb_config',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

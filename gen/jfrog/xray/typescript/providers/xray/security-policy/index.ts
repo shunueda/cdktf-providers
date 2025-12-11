@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy
+// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface SecurityPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * More verbose description of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#description SecurityPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#description SecurityPolicy#description}
   */
   readonly description?: string;
   /**
   * Name of the policy (must be unique)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
   /**
   * Project key for assigning this resource to. Must be 2 - 10 lowercase alphanumeric and hyphen characters. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#project_key SecurityPolicy#project_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#project_key SecurityPolicy#project_key}
   */
   readonly projectKey?: string;
   /**
   * Type of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#type SecurityPolicy#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#type SecurityPolicy#type}
   */
   readonly type: string;
   /**
   * rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#rule SecurityPolicy#rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#rule SecurityPolicy#rule}
   */
   readonly rule?: SecurityPolicyRule[] | cdktf.IResolvable;
 }
@@ -42,13 +42,13 @@ export interface SecurityPolicyRuleActionsBlockDownload {
   /**
   * Whether or not to block download of artifacts that meet the artifact and severity `filters` for the associated `xray_watch` resource. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#active SecurityPolicy#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#active SecurityPolicy#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Whether or not to block download of artifacts that meet the artifact `filters` for the associated `xray_watch` resource but have not been scanned yet. Can not be set to `true` if attribute `active` is `false`. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#unscanned SecurityPolicy#unscanned}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#unscanned SecurityPolicy#unscanned}
   */
   readonly unscanned?: boolean | cdktf.IResolvable;
 }
@@ -195,61 +195,61 @@ export interface SecurityPolicyRuleActions {
   /**
   * Blocks Release Bundle distribution to Edge nodes if a violation is found. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#block_release_bundle_distribution SecurityPolicy#block_release_bundle_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#block_release_bundle_distribution SecurityPolicy#block_release_bundle_distribution}
   */
   readonly blockReleaseBundleDistribution?: boolean | cdktf.IResolvable;
   /**
   * Blocks Release Bundle promotion if a violation is found. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#block_release_bundle_promotion SecurityPolicy#block_release_bundle_promotion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#block_release_bundle_promotion SecurityPolicy#block_release_bundle_promotion}
   */
   readonly blockReleaseBundlePromotion?: boolean | cdktf.IResolvable;
   /**
   * Allow grace period for certain number of days. All violations will be ignored during this time. To be used only if `fail_build` is enabled. Default value is `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#build_failure_grace_period_in_days SecurityPolicy#build_failure_grace_period_in_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#build_failure_grace_period_in_days SecurityPolicy#build_failure_grace_period_in_days}
   */
   readonly buildFailureGracePeriodInDays?: number;
   /**
   * Create Jira Ticket for this Policy Violation. Requires configured Jira integration. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#create_ticket_enabled SecurityPolicy#create_ticket_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#create_ticket_enabled SecurityPolicy#create_ticket_enabled}
   */
   readonly createTicketEnabled?: boolean | cdktf.IResolvable;
   /**
   * Whether or not the related CI build should be marked as failed if a violation is triggered. This option is only available when the policy is applied to an `xray_watch` resource with a `type` of `builds`. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#fail_build SecurityPolicy#fail_build}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#fail_build SecurityPolicy#fail_build}
   */
   readonly failBuild?: boolean | cdktf.IResolvable;
   /**
   * A list of email addressed that will get emailed when a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#mails SecurityPolicy#mails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#mails SecurityPolicy#mails}
   */
   readonly mails?: string[];
   /**
   * Sends an email message to component deployer with details about the generated Violations. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#notify_deployer SecurityPolicy#notify_deployer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#notify_deployer SecurityPolicy#notify_deployer}
   */
   readonly notifyDeployer?: boolean | cdktf.IResolvable;
   /**
   * Sends an email message to all configured recipients inside a specific watch with details about the generated Violations. Default value is `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#notify_watch_recipients SecurityPolicy#notify_watch_recipients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#notify_watch_recipients SecurityPolicy#notify_watch_recipients}
   */
   readonly notifyWatchRecipients?: boolean | cdktf.IResolvable;
   /**
   * A list of Xray-configured webhook URLs to be invoked if a violation is triggered.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#webhooks SecurityPolicy#webhooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#webhooks SecurityPolicy#webhooks}
   */
   readonly webhooks?: string[];
   /**
   * block_download block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#block_download SecurityPolicy#block_download}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#block_download SecurityPolicy#block_download}
   */
   readonly blockDownload?: SecurityPolicyRuleActionsBlockDownload[] | cdktf.IResolvable;
 }
@@ -337,7 +337,7 @@ export function securityPolicyRuleActionsToHclTerraform(struct?: SecurityPolicyR
     block_download: {
       value: cdktf.listMapperHcl(securityPolicyRuleActionsBlockDownloadToHclTerraform, true)(struct!.blockDownload),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "SecurityPolicyRuleActionsBlockDownloadList",
     },
   };
@@ -589,7 +589,7 @@ export class SecurityPolicyRuleActionsOutputReference extends cdktf.ComplexObjec
   }
 
   // block_download - computed: false, optional: true, required: false
-  private _blockDownload = new SecurityPolicyRuleActionsBlockDownloadList(this, "block_download", true);
+  private _blockDownload = new SecurityPolicyRuleActionsBlockDownloadList(this, "block_download", false);
   public get blockDownload() {
     return this._blockDownload;
   }
@@ -628,13 +628,13 @@ export interface SecurityPolicyRuleCriteriaCvssRange {
   /**
   * The beginning of the range of CVS scores (from 1-10, float) to flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#from SecurityPolicy#from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#from SecurityPolicy#from}
   */
   readonly from: number;
   /**
   * The end of the range of CVS scores (from 1-10, float) to flag. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#to SecurityPolicy#to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#to SecurityPolicy#to}
   */
   readonly to: number;
 }
@@ -775,31 +775,31 @@ export interface SecurityPolicyRuleCriteriaExposures {
   /**
   * Applications exposures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#applications SecurityPolicy#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#applications SecurityPolicy#applications}
   */
   readonly applications?: boolean | cdktf.IResolvable;
   /**
   * Iac exposures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#iac SecurityPolicy#iac}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#iac SecurityPolicy#iac}
   */
   readonly iac?: boolean | cdktf.IResolvable;
   /**
   * The minimum security vulnerability severity that will be impacted by the policy. Valid values: `All Severities`, `Critical`, `High`, `Medium`, `Low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#min_severity SecurityPolicy#min_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#min_severity SecurityPolicy#min_severity}
   */
   readonly minSeverity?: string;
   /**
   * Secrets exposures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#secrets SecurityPolicy#secrets}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#secrets SecurityPolicy#secrets}
   */
   readonly secrets?: boolean | cdktf.IResolvable;
   /**
   * Services exposures.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#services SecurityPolicy#services}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#services SecurityPolicy#services}
   */
   readonly services?: boolean | cdktf.IResolvable;
 }
@@ -1035,61 +1035,61 @@ export interface SecurityPolicyRuleCriteria {
   * 
   * ~>Only supported by JFrog Advanced Security
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#applicable_cves_only SecurityPolicy#applicable_cves_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#applicable_cves_only SecurityPolicy#applicable_cves_only}
   */
   readonly applicableCvesOnly?: boolean | cdktf.IResolvable;
   /**
   * Issues that do not have a fixed version are not generated until a fixed version is available. Must be `false` with `malicious_package` enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#fix_version_dependant SecurityPolicy#fix_version_dependant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#fix_version_dependant SecurityPolicy#fix_version_dependant}
   */
   readonly fixVersionDependant?: boolean | cdktf.IResolvable;
   /**
   * Generating a violation on a malicious package.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#malicious_package SecurityPolicy#malicious_package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#malicious_package SecurityPolicy#malicious_package}
   */
   readonly maliciousPackage?: boolean | cdktf.IResolvable;
   /**
   * The minimum security vulnerability severity that will be impacted by the policy. Valid values: `All Severities`, `Critical`, `High`, `Medium`, `Low`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#min_severity SecurityPolicy#min_severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#min_severity SecurityPolicy#min_severity}
   */
   readonly minSeverity?: string;
   /**
   * The package name to create a rule for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#package_name SecurityPolicy#package_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#package_name SecurityPolicy#package_name}
   */
   readonly packageName?: string;
   /**
   * The package type to create a rule for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#package_type SecurityPolicy#package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#package_type SecurityPolicy#package_type}
   */
   readonly packageType?: string;
   /**
   * package versions to apply the rule on can be (,) for any version or an open range (1,4) or closed [1,4] or one version [1]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#package_versions SecurityPolicy#package_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#package_versions SecurityPolicy#package_versions}
   */
   readonly packageVersions?: string[];
   /**
   * Creates policy rules for specific vulnerability IDs that you input. You can add multiple vulnerabilities IDs up to 100. CVEs and Xray IDs are supported. Example - CVE-2015-20107, XRAY-2344
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#vulnerability_ids SecurityPolicy#vulnerability_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#vulnerability_ids SecurityPolicy#vulnerability_ids}
   */
   readonly vulnerabilityIds?: string[];
   /**
   * cvss_range block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#cvss_range SecurityPolicy#cvss_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#cvss_range SecurityPolicy#cvss_range}
   */
   readonly cvssRange?: SecurityPolicyRuleCriteriaCvssRange[] | cdktf.IResolvable;
   /**
   * exposures block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#exposures SecurityPolicy#exposures}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#exposures SecurityPolicy#exposures}
   */
   readonly exposures?: SecurityPolicyRuleCriteriaExposures[] | cdktf.IResolvable;
 }
@@ -1159,7 +1159,7 @@ export function securityPolicyRuleCriteriaToHclTerraform(struct?: SecurityPolicy
     package_versions: {
       value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.packageVersions),
       isBlock: false,
-      type: "set",
+      type: "list",
       storageClassType: "stringList",
     },
     vulnerability_ids: {
@@ -1383,7 +1383,7 @@ export class SecurityPolicyRuleCriteriaOutputReference extends cdktf.ComplexObje
   // package_versions - computed: false, optional: true, required: false
   private _packageVersions?: string[]; 
   public get packageVersions() {
-    return cdktf.Fn.tolist(this.getListAttribute('package_versions'));
+    return this.getListAttribute('package_versions');
   }
   public set packageVersions(value: string[]) {
     this._packageVersions = value;
@@ -1468,25 +1468,25 @@ export interface SecurityPolicyRule {
   /**
   * Name of the rule
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#name SecurityPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#name SecurityPolicy#name}
   */
   readonly name: string;
   /**
   * Integer describing the rule priority. Must be at least 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#priority SecurityPolicy#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#priority SecurityPolicy#priority}
   */
   readonly priority: number;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#actions SecurityPolicy#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#actions SecurityPolicy#actions}
   */
   readonly actions?: SecurityPolicyRuleActions[] | cdktf.IResolvable;
   /**
   * criteria block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#criteria SecurityPolicy#criteria}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#criteria SecurityPolicy#criteria}
   */
   readonly criteria?: SecurityPolicyRuleCriteria[] | cdktf.IResolvable;
 }
@@ -1526,13 +1526,13 @@ export function securityPolicyRuleToHclTerraform(struct?: SecurityPolicyRule | c
     actions: {
       value: cdktf.listMapperHcl(securityPolicyRuleActionsToHclTerraform, true)(struct!.actions),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "SecurityPolicyRuleActionsList",
     },
     criteria: {
       value: cdktf.listMapperHcl(securityPolicyRuleCriteriaToHclTerraform, true)(struct!.criteria),
       isBlock: true,
-      type: "set",
+      type: "list",
       storageClassType: "SecurityPolicyRuleCriteriaList",
     },
   };
@@ -1630,7 +1630,7 @@ export class SecurityPolicyRuleOutputReference extends cdktf.ComplexObject {
   }
 
   // actions - computed: false, optional: true, required: false
-  private _actions = new SecurityPolicyRuleActionsList(this, "actions", true);
+  private _actions = new SecurityPolicyRuleActionsList(this, "actions", false);
   public get actions() {
     return this._actions;
   }
@@ -1646,7 +1646,7 @@ export class SecurityPolicyRuleOutputReference extends cdktf.ComplexObject {
   }
 
   // criteria - computed: false, optional: true, required: false
-  private _criteria = new SecurityPolicyRuleCriteriaList(this, "criteria", true);
+  private _criteria = new SecurityPolicyRuleCriteriaList(this, "criteria", false);
   public get criteria() {
     return this._criteria;
   }
@@ -1683,7 +1683,7 @@ export class SecurityPolicyRuleList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy xray_security_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy xray_security_policy}
 */
 export class SecurityPolicy extends cdktf.TerraformResource {
 
@@ -1699,7 +1699,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SecurityPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SecurityPolicy to import
-  * @param importFromId The id of the existing SecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SecurityPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SecurityPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1711,7 +1711,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/security_policy xray_security_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/security_policy xray_security_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1722,8 +1722,8 @@ export class SecurityPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'xray_security_policy',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1823,7 +1823,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
   }
 
   // rule - computed: false, optional: true, required: false
-  private _rule = new SecurityPolicyRuleList(this, "rule", true);
+  private _rule = new SecurityPolicyRuleList(this, "rule", false);
   public get rule() {
     return this._rule;
   }
@@ -1881,7 +1881,7 @@ export class SecurityPolicy extends cdktf.TerraformResource {
       rule: {
         value: cdktf.listMapperHcl(securityPolicyRuleToHclTerraform, true)(this._rule.internalValue),
         isBlock: true,
-        type: "set",
+        type: "list",
         storageClassType: "SecurityPolicyRuleList",
       },
     };

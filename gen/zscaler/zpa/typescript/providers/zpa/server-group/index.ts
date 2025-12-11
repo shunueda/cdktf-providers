@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,75 +8,75 @@ import * as cdktf from 'cdktf';
 
 export interface ServerGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#config_space ServerGroup#config_space}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#config_space ServerGroup#config_space}
   */
   readonly configSpace?: string;
   /**
   * This field is the description of the server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#description ServerGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#description ServerGroup#description}
   */
   readonly description?: string;
   /**
   * This field controls dynamic discovery of the servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#dynamic_discovery ServerGroup#dynamic_discovery}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#dynamic_discovery ServerGroup#dynamic_discovery}
   */
   readonly dynamicDiscovery?: boolean | cdktf.IResolvable;
   /**
   * This field defines if the server group is enabled or disabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#enabled ServerGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#enabled ServerGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable extranet for this policy rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#extranet_enabled ServerGroup#extranet_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#extranet_enabled ServerGroup#extranet_enabled}
   */
   readonly extranetEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#ip_anchored ServerGroup#ip_anchored}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#ip_anchored ServerGroup#ip_anchored}
   */
   readonly ipAnchored?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#microtenant_id ServerGroup#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#microtenant_id ServerGroup#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * This field defines the name of the server group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#name ServerGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#name ServerGroup#name}
   */
   readonly name: string;
   /**
   * app_connector_groups block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#app_connector_groups ServerGroup#app_connector_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#app_connector_groups ServerGroup#app_connector_groups}
   */
   readonly appConnectorGroups?: ServerGroupAppConnectorGroups[] | cdktf.IResolvable;
   /**
   * applications block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#applications ServerGroup#applications}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#applications ServerGroup#applications}
   */
   readonly applications?: ServerGroupApplications[] | cdktf.IResolvable;
   /**
   * extranet_dto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#extranet_dto ServerGroup#extranet_dto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#extranet_dto ServerGroup#extranet_dto}
   */
   readonly extranetDto?: ServerGroupExtranetDto[] | cdktf.IResolvable;
   /**
   * servers block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#servers ServerGroup#servers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#servers ServerGroup#servers}
   */
   readonly servers?: ServerGroupServers[] | cdktf.IResolvable;
 }
 export interface ServerGroupAppConnectorGroups {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#id ServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#id ServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -192,7 +192,7 @@ export class ServerGroupAppConnectorGroupsList extends cdktf.ComplexList {
 }
 export interface ServerGroupApplications {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#id ServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#id ServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -313,7 +313,7 @@ export interface ServerGroupExtranetDtoLocationDto {
   /**
   * Location ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#id ServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#id ServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -431,7 +431,7 @@ export interface ServerGroupExtranetDtoLocationGroupDto {
   /**
   * Location Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#id ServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#id ServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -549,19 +549,19 @@ export interface ServerGroupExtranetDto {
   /**
   * ZPN Extranet Resource ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#zpn_er_id ServerGroup#zpn_er_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#zpn_er_id ServerGroup#zpn_er_id}
   */
   readonly zpnErId?: string;
   /**
   * location_dto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#location_dto ServerGroup#location_dto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#location_dto ServerGroup#location_dto}
   */
   readonly locationDto?: ServerGroupExtranetDtoLocationDto[] | cdktf.IResolvable;
   /**
   * location_group_dto block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#location_group_dto ServerGroup#location_group_dto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#location_group_dto ServerGroup#location_group_dto}
   */
   readonly locationGroupDto?: ServerGroupExtranetDtoLocationGroupDto[] | cdktf.IResolvable;
 }
@@ -735,7 +735,7 @@ export class ServerGroupExtranetDtoList extends cdktf.ComplexList {
 }
 export interface ServerGroupServers {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#id ServerGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#id ServerGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -851,7 +851,7 @@ export class ServerGroupServersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group zpa_server_group}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group zpa_server_group}
 */
 export class ServerGroup extends cdktf.TerraformResource {
 
@@ -867,7 +867,7 @@ export class ServerGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServerGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServerGroup to import
-  * @param importFromId The id of the existing ServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServerGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServerGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -879,7 +879,7 @@ export class ServerGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/resources/server_group zpa_server_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/resources/server_group zpa_server_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -890,8 +890,8 @@ export class ServerGroup extends cdktf.TerraformResource {
       terraformResourceType: 'zpa_server_group',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

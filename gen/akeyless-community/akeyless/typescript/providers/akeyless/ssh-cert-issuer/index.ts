@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface SshCertIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Users allowed to fetch the certificate, e.g root,ubuntu
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#allowed_users SshCertIssuer#allowed_users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#allowed_users SshCertIssuer#allowed_users}
   */
   readonly allowedUsers: string;
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#delete_protection SshCertIssuer#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#delete_protection SshCertIssuer#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#description SshCertIssuer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#description SshCertIssuer#description}
   */
   readonly description?: string;
   /**
   * Signed certificates with extensions (key/val), e.g permit-port-forwarding=
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#extensions SshCertIssuer#extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#extensions SshCertIssuer#extensions}
   */
   readonly extensions?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#id SshCertIssuer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#id SshCertIssuer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,73 +41,73 @@ export interface SshCertIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * SSH certificate issuer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#name SshCertIssuer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#name SshCertIssuer#name}
   */
   readonly name: string;
   /**
   * Signed certificates with principal, e.g example_role1,example_role2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#principals SshCertIssuer#principals}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#principals SshCertIssuer#principals}
   */
   readonly principals?: string;
   /**
   * Bastion's SSH control API endpoint. E.g. https://my.bastion:9900
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#secure_access_bastion_api SshCertIssuer#secure_access_bastion_api}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#secure_access_bastion_api SshCertIssuer#secure_access_bastion_api}
   */
   readonly secureAccessBastionApi?: string;
   /**
   * Bastion's SSH server. E.g. my.bastion:22
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#secure_access_bastion_ssh SshCertIssuer#secure_access_bastion_ssh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#secure_access_bastion_ssh SshCertIssuer#secure_access_bastion_ssh}
   */
   readonly secureAccessBastionSsh?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#secure_access_enable SshCertIssuer#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#secure_access_enable SshCertIssuer#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target servers for connections. (In case of Linked Target association, host(s) will inherit Linked Target hosts - Relevant only for Dynamic Secrets/producers)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#secure_access_host SshCertIssuer#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#secure_access_host SshCertIssuer#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * SSH username to connect to target server, must be in 'Allowed Users' list
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#secure_access_ssh_creds_user SshCertIssuer#secure_access_ssh_creds_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#secure_access_ssh_creds_user SshCertIssuer#secure_access_ssh_creds_user}
   */
   readonly secureAccessSshCredsUser?: string;
   /**
   * Use internal SSH Bastion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#secure_access_use_internal_bastion SshCertIssuer#secure_access_use_internal_bastion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#secure_access_use_internal_bastion SshCertIssuer#secure_access_use_internal_bastion}
   */
   readonly secureAccessUseInternalBastion?: boolean | cdktf.IResolvable;
   /**
   * A key to sign the certificate with
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#signer_key_name SshCertIssuer#signer_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#signer_key_name SshCertIssuer#signer_key_name}
   */
   readonly signerKeyName: string;
   /**
   * List of the tags attached to this key. To specify multiple tags use argument multiple times: --tag Tag1 --tag Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#tags SshCertIssuer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#tags SshCertIssuer#tags}
   */
   readonly tags?: string[];
   /**
   * The requested Time To Live for the certificate, in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#ttl SshCertIssuer#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#ttl SshCertIssuer#ttl}
   */
   readonly ttl: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer akeyless_ssh_cert_issuer}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer akeyless_ssh_cert_issuer}
 */
 export class SshCertIssuer extends cdktf.TerraformResource {
 
@@ -123,7 +123,7 @@ export class SshCertIssuer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SshCertIssuer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SshCertIssuer to import
-  * @param importFromId The id of the existing SshCertIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SshCertIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SshCertIssuer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -135,7 +135,7 @@ export class SshCertIssuer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/ssh_cert_issuer akeyless_ssh_cert_issuer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/ssh_cert_issuer akeyless_ssh_cert_issuer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -146,8 +146,8 @@ export class SshCertIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_ssh_cert_issuer',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

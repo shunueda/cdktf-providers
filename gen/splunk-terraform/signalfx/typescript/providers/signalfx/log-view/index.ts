@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view
+// https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LogViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * default connection that the dashboard uses
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#default_connection LogView#default_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#default_connection LogView#default_connection}
   */
   readonly defaultConnection?: string;
   /**
   * Description of the chart (Optional)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#description LogView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#description LogView#description}
   */
   readonly description?: string;
   /**
   * Seconds since epoch to end the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#end_time LogView#end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#end_time LogView#end_time}
   */
   readonly endTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#id LogView#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#id LogView#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,43 +35,43 @@ export interface LogViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the chart
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#name LogView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#name LogView#name}
   */
   readonly name: string;
   /**
   * Signalflow program text for the chart. More info at "https://developers.signalfx.com/docs/signalflow-overview"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#program_text LogView#program_text}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#program_text LogView#program_text}
   */
   readonly programText: string;
   /**
   * Seconds since epoch to start the visualization
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#start_time LogView#start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#start_time LogView#start_time}
   */
   readonly startTime?: number;
   /**
   * Tags associated with the resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#tags LogView#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#tags LogView#tags}
   */
   readonly tags?: string[];
   /**
   * Seconds to display in the visualization. This is a rolling range from the current time. Example: 3600 = `-1h`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#time_range LogView#time_range}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#time_range LogView#time_range}
   */
   readonly timeRange?: number;
   /**
   * columns block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#columns LogView#columns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#columns LogView#columns}
   */
   readonly columns?: LogViewColumns[] | cdktf.IResolvable;
   /**
   * sort_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#sort_options LogView#sort_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#sort_options LogView#sort_options}
   */
   readonly sortOptions?: LogViewSortOptions[] | cdktf.IResolvable;
 }
@@ -79,7 +79,7 @@ export interface LogViewColumns {
   /**
   * Name of the column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#name LogView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#name LogView#name}
   */
   readonly name: string;
 }
@@ -194,13 +194,13 @@ export interface LogViewSortOptions {
   /**
   * Name of the column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#descending LogView#descending}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#descending LogView#descending}
   */
   readonly descending: boolean | cdktf.IResolvable;
   /**
   * Name of the column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#field LogView#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#field LogView#field}
   */
   readonly field: string;
 }
@@ -339,7 +339,7 @@ export class LogViewSortOptionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view signalfx_log_view}
+* Represents a {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view signalfx_log_view}
 */
 export class LogView extends cdktf.TerraformResource {
 
@@ -355,7 +355,7 @@ export class LogView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogView to import
-  * @param importFromId The id of the existing LogView that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogView that should be imported. Refer to the {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -367,7 +367,7 @@ export class LogView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.0/docs/resources/log_view signalfx_log_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/splunk-terraform/signalfx/9.23.1/docs/resources/log_view signalfx_log_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,8 +378,8 @@ export class LogView extends cdktf.TerraformResource {
       terraformResourceType: 'signalfx_log_view',
       terraformGeneratorMetadata: {
         providerName: 'signalfx',
-        providerVersion: '9.23.0',
-        providerVersionConstraint: '9.23.0'
+        providerVersion: '9.23.1',
+        providerVersionConstraint: '9.23.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

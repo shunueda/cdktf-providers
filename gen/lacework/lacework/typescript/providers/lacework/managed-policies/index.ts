@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface ManagedPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies#id ManagedPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies#id ManagedPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,7 +17,7 @@ export interface ManagedPoliciesConfig extends cdktf.TerraformMetaArguments {
   /**
   * policy block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies#policy ManagedPolicies#policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies#policy ManagedPolicies#policy}
   */
   readonly policy: ManagedPoliciesPolicy[] | cdktf.IResolvable;
 }
@@ -25,13 +25,13 @@ export interface ManagedPoliciesPolicy {
   /**
   * The state of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies#enabled ManagedPolicies#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies#enabled ManagedPolicies#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
   * The id of the policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies#id ManagedPolicies#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies#id ManagedPolicies#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -40,7 +40,7 @@ export interface ManagedPoliciesPolicy {
   /**
   * The severity for the policy. Valid severities are: Critical, High, Medium, Low, Info
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies#severity ManagedPolicies#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies#severity ManagedPolicies#severity}
   */
   readonly severity: string;
 }
@@ -205,7 +205,7 @@ export class ManagedPoliciesPolicyList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies lacework_managed_policies}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies lacework_managed_policies}
 */
 export class ManagedPolicies extends cdktf.TerraformResource {
 
@@ -221,7 +221,7 @@ export class ManagedPolicies extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ManagedPolicies resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ManagedPolicies to import
-  * @param importFromId The id of the existing ManagedPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ManagedPolicies that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ManagedPolicies to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -233,7 +233,7 @@ export class ManagedPolicies extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/managed_policies lacework_managed_policies} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/managed_policies lacework_managed_policies} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -244,8 +244,8 @@ export class ManagedPolicies extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_managed_policies',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

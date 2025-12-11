@@ -1,3 +1,3 @@
 # `ovirt_template`
 
-Refer to the Terraform Registry for docs: [`ovirt_template`](https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/template).
+Refer to the Terraform Registry for docs: [`ovirt_template`](https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/template).

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface AuthMethodLdapConfig extends cdktf.TerraformMetaArguments {
   /**
   * Access expiration date in Unix timestamp (select 0 for access without expiry date)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#access_expires AuthMethodLdap#access_expires}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#access_expires AuthMethodLdap#access_expires}
   */
   readonly accessExpires?: number;
   /**
   * Subclaims to include in audit logs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#audit_logs_claims AuthMethodLdap#audit_logs_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#audit_logs_claims AuthMethodLdap#audit_logs_claims}
   */
   readonly auditLogsClaims?: string[];
   /**
   * A comma-separated CIDR block list to allow client access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#bound_ips AuthMethodLdap#bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#bound_ips AuthMethodLdap#bound_ips}
   */
   readonly boundIps?: string[];
   /**
   * Protection from accidental deletion of this object, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#delete_protection AuthMethodLdap#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#delete_protection AuthMethodLdap#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Auth Method description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#description AuthMethodLdap#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#description AuthMethodLdap#description}
   */
   readonly description?: string;
   /**
   * How many days before the expiration of the auth method would you like to be notified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#expiration_event_in AuthMethodLdap#expiration_event_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#expiration_event_in AuthMethodLdap#expiration_event_in}
   */
   readonly expirationEventIn?: string[];
   /**
   * enforce role-association must include sub claims
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#force_sub_claims AuthMethodLdap#force_sub_claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#force_sub_claims AuthMethodLdap#force_sub_claims}
   */
   readonly forceSubClaims?: boolean | cdktf.IResolvable;
   /**
   * Automatically generate key-pair for LDAP configuration. If set to false, a public key needs to be provided
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#gen_key AuthMethodLdap#gen_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#gen_key AuthMethodLdap#gen_key}
   */
   readonly genKey?: string;
   /**
   * A comma-separated CIDR block list as a trusted Gateway entity
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#gw_bound_ips AuthMethodLdap#gw_bound_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#gw_bound_ips AuthMethodLdap#gw_bound_ips}
   */
   readonly gwBoundIps?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#id AuthMethodLdap#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#id AuthMethodLdap#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,37 +71,37 @@ export interface AuthMethodLdapConfig extends cdktf.TerraformMetaArguments {
   /**
   * creds expiration time in minutes. If not set, use default according to account settings (see get-account-settings)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#jwt_ttl AuthMethodLdap#jwt_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#jwt_ttl AuthMethodLdap#jwt_ttl}
   */
   readonly jwtTtl?: number;
   /**
   * Auth Method name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#name AuthMethodLdap#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#name AuthMethodLdap#name}
   */
   readonly name: string;
   /**
   * Choose the relevant product type for the auth method [sm, sra, pm, dp, ca]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#product_type AuthMethodLdap#product_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#product_type AuthMethodLdap#product_type}
   */
   readonly productType?: string[];
   /**
   * A public key generated for LDAP authentication method on Akeyless [RSA2048] in Base64 or PEM format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#public_key_data AuthMethodLdap#public_key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#public_key_data AuthMethodLdap#public_key_data}
   */
   readonly publicKeyData?: string;
   /**
   * A unique identifier (ID) value should be configured for LDAP, OAuth2 and SAML authentication method types and is usually a value such as the email, username, or upn for example. Whenever a user logs in with a token, these authentication types issue a sub claim that contains details uniquely identifying that user. This sub claim includes a key containing the ID value that you configured, and is used to distinguish between different users from within the same organization.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#unique_identifier AuthMethodLdap#unique_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#unique_identifier AuthMethodLdap#unique_identifier}
   */
   readonly uniqueIdentifier?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap akeyless_auth_method_ldap}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap akeyless_auth_method_ldap}
 */
 export class AuthMethodLdap extends cdktf.TerraformResource {
 
@@ -117,7 +117,7 @@ export class AuthMethodLdap extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AuthMethodLdap resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AuthMethodLdap to import
-  * @param importFromId The id of the existing AuthMethodLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AuthMethodLdap that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AuthMethodLdap to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -129,7 +129,7 @@ export class AuthMethodLdap extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/auth_method_ldap akeyless_auth_method_ldap} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/auth_method_ldap akeyless_auth_method_ldap} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -140,8 +140,8 @@ export class AuthMethodLdap extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_auth_method_ldap',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

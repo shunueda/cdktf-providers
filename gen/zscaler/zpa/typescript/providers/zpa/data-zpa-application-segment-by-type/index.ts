@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type
+// https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataZpaApplicationSegmentByTypeConfig extends cdktf.TerraformMe
   /**
   * The type of application, BROWSER_ACCESS, INSPECT or SECURE_REMOTE_ACCESS
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type#application_type DataZpaApplicationSegmentByType#application_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type#application_type DataZpaApplicationSegmentByType#application_type}
   */
   readonly applicationType: string;
   /**
   * The unique identifier of the Microtenant for the ZPA tenant. If you are within the Default Microtenant, pass microtenantId as 0 when making requests to retrieve data from the Default Microtenant. Pass microtenantId as null to retrieve data from all customers associated with the tenant
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type#microtenant_id DataZpaApplicationSegmentByType#microtenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type#microtenant_id DataZpaApplicationSegmentByType#microtenant_id}
   */
   readonly microtenantId?: string;
   /**
   * The name of the Browser Access application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type#name DataZpaApplicationSegmentByType#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type#name DataZpaApplicationSegmentByType#name}
   */
   readonly name?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type zpa_application_segment_by_type}
+* Represents a {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type zpa_application_segment_by_type}
 */
 export class DataZpaApplicationSegmentByType extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataZpaApplicationSegmentByType extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataZpaApplicationSegmentByType resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataZpaApplicationSegmentByType to import
-  * @param importFromId The id of the existing DataZpaApplicationSegmentByType that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataZpaApplicationSegmentByType that should be imported. Refer to the {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataZpaApplicationSegmentByType to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataZpaApplicationSegmentByType extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.4/docs/data-sources/application_segment_by_type zpa_application_segment_by_type} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/zscaler/zpa/4.3.5/docs/data-sources/application_segment_by_type zpa_application_segment_by_type} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataZpaApplicationSegmentByType extends cdktf.TerraformDataSource {
       terraformResourceType: 'zpa_application_segment_by_type',
       terraformGeneratorMetadata: {
         providerName: 'zpa',
-        providerVersion: '4.3.4',
-        providerVersionConstraint: '4.3.4'
+        providerVersion: '4.3.5',
+        providerVersionConstraint: '4.3.5'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `fortianalyzer_fmupdate_fwmsetting_upgradetimeout`
 
-Refer to the Terraform Registry for docs: [`fortianalyzer_fmupdate_fwmsetting_upgradetimeout`](https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/fmupdate_fwmsetting_upgradetimeout).
+Refer to the Terraform Registry for docs: [`fortianalyzer_fmupdate_fwmsetting_upgradetimeout`](https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/fmupdate_fwmsetting_upgradetimeout).

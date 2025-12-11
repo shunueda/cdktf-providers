@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface StaticSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Additional custom fields to associate with the item (e.g fieldName1=value1) (relevant only for type 'password')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#custom_field StaticSecret#custom_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#custom_field StaticSecret#custom_field}
   */
   readonly customField?: { [key: string]: string };
   /**
   * Protection from accidental deletion of this auth method, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#delete_protection StaticSecret#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#delete_protection StaticSecret#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#description StaticSecret#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#description StaticSecret#description}
   */
   readonly description?: string;
   /**
   * Secret format [text/json/key-value] (relevant only for type 'generic')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#format StaticSecret#format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#format StaticSecret#format}
   */
   readonly format?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#id StaticSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#id StaticSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,122 +41,122 @@ export interface StaticSecretConfig extends cdktf.TerraformMetaArguments {
   /**
   * Retrieve the Secret value without checking the Gateway's cache [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#ignore_cache StaticSecret#ignore_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#ignore_cache StaticSecret#ignore_cache}
   */
   readonly ignoreCache?: string;
   /**
   * List of URLs associated with the item (relevant only for type 'password')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#inject_url StaticSecret#inject_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#inject_url StaticSecret#inject_url}
   */
   readonly injectUrl?: string[];
   /**
   * Whether to keep previous version [true/false]. If not set, use default according to account settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#keep_prev_version StaticSecret#keep_prev_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#keep_prev_version StaticSecret#keep_prev_version}
   */
   readonly keepPrevVersion?: string;
   /**
   * The provided value is a multiline value (separated by '
   * ')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#multiline_value StaticSecret#multiline_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#multiline_value StaticSecret#multiline_value}
   */
   readonly multilineValue?: boolean | cdktf.IResolvable;
   /**
   * Password value (relevant only for type 'password')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#password StaticSecret#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#password StaticSecret#password}
   */
   readonly password?: string;
   /**
   * The path where the secret will be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#path StaticSecret#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#path StaticSecret#path}
   */
   readonly path: string;
   /**
   * The name of a key that is used to encrypt the secret value (if empty, the account default protectionKey key will be used)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#protection_key StaticSecret#protection_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#protection_key StaticSecret#protection_key}
   */
   readonly protectionKey?: string;
   /**
   * Path to the SSH Certificate Issuer for your Akeyless Secure Access
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_bastion_issuer StaticSecret#secure_access_bastion_issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_bastion_issuer StaticSecret#secure_access_bastion_issuer}
   */
   readonly secureAccessBastionIssuer?: string;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_enable StaticSecret#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_enable StaticSecret#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_host StaticSecret#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_host StaticSecret#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Static-Secret values contains SSH Credentials, either Private Key or Password [password/private-key]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_ssh_creds StaticSecret#secure_access_ssh_creds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_ssh_creds StaticSecret#secure_access_ssh_creds}
   */
   readonly secureAccessSshCreds?: string;
   /**
   * Override the SSH username as indicated in SSH Certificate Issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_ssh_user StaticSecret#secure_access_ssh_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_ssh_user StaticSecret#secure_access_ssh_user}
   */
   readonly secureAccessSshUser?: string;
   /**
   * Destination URL to inject secrets.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_url StaticSecret#secure_access_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_url StaticSecret#secure_access_url}
   */
   readonly secureAccessUrl?: string;
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_web StaticSecret#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_web StaticSecret#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * Secure browser via Akeyless's Secure Remote Access (SRA)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#secure_access_web_browsing StaticSecret#secure_access_web_browsing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#secure_access_web_browsing StaticSecret#secure_access_web_browsing}
   */
   readonly secureAccessWebBrowsing?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#tags StaticSecret#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#tags StaticSecret#tags}
   */
   readonly tags?: string[];
   /**
   * Secret type [generic/password]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#type StaticSecret#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#type StaticSecret#type}
   */
   readonly type?: string;
   /**
   * Username value (relevant only for type 'password')
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#username StaticSecret#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#username StaticSecret#username}
   */
   readonly username?: string;
   /**
   * The secret content.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#value StaticSecret#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#value StaticSecret#value}
   */
   readonly value?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret akeyless_static_secret}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret akeyless_static_secret}
 */
 export class StaticSecret extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class StaticSecret extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a StaticSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the StaticSecret to import
-  * @param importFromId The id of the existing StaticSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing StaticSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the StaticSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class StaticSecret extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/static_secret akeyless_static_secret} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/static_secret akeyless_static_secret} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class StaticSecret extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_static_secret',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

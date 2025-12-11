@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface AlertChannelAwsS3Config extends cdktf.TerraformMetaArguments {
   /**
   * The ARN of the S3 bucket
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#bucket_arn AlertChannelAwsS3#bucket_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#bucket_arn AlertChannelAwsS3#bucket_arn}
   */
   readonly bucketArn: string;
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#enabled AlertChannelAwsS3#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#enabled AlertChannelAwsS3#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#id AlertChannelAwsS3#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#id AlertChannelAwsS3#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,19 +29,19 @@ export interface AlertChannelAwsS3Config extends cdktf.TerraformMetaArguments {
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#name AlertChannelAwsS3#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#name AlertChannelAwsS3#name}
   */
   readonly name: string;
   /**
   * Whether to test the integration of an alert channel upon creation and modification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#test_integration AlertChannelAwsS3#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#test_integration AlertChannelAwsS3#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#credentials AlertChannelAwsS3#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#credentials AlertChannelAwsS3#credentials}
   */
   readonly credentials: AlertChannelAwsS3Credentials;
 }
@@ -49,13 +49,13 @@ export interface AlertChannelAwsS3Credentials {
   /**
   * The ARN of the IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#external_id AlertChannelAwsS3#external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#external_id AlertChannelAwsS3#external_id}
   */
   readonly externalId: string;
   /**
   * The external ID of the IAM role
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#role_arn AlertChannelAwsS3#role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#role_arn AlertChannelAwsS3#role_arn}
   */
   readonly roleArn: string;
 }
@@ -162,7 +162,7 @@ export class AlertChannelAwsS3CredentialsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3 lacework_alert_channel_aws_s3}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3 lacework_alert_channel_aws_s3}
 */
 export class AlertChannelAwsS3 extends cdktf.TerraformResource {
 
@@ -178,7 +178,7 @@ export class AlertChannelAwsS3 extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelAwsS3 resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelAwsS3 to import
-  * @param importFromId The id of the existing AlertChannelAwsS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelAwsS3 that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelAwsS3 to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -190,7 +190,7 @@ export class AlertChannelAwsS3 extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_aws_s3 lacework_alert_channel_aws_s3} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_aws_s3 lacework_alert_channel_aws_s3} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -201,8 +201,8 @@ export class AlertChannelAwsS3 extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_aws_s3',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

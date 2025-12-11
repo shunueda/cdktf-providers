@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/datadog/datadog/3.81.0/docs/data-sources/synthetics_locations
+// https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/data-sources/synthetics_locations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataDatadogSyntheticsLocationsConfig extends cdktf.TerraformMet
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.81.0/docs/data-sources/synthetics_locations datadog_synthetics_locations}
+* Represents a {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/data-sources/synthetics_locations datadog_synthetics_locations}
 */
 export class DataDatadogSyntheticsLocations extends cdktf.TerraformDataSource {
 
@@ -26,7 +26,7 @@ export class DataDatadogSyntheticsLocations extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataDatadogSyntheticsLocations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataDatadogSyntheticsLocations to import
-  * @param importFromId The id of the existing DataDatadogSyntheticsLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.81.0/docs/data-sources/synthetics_locations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataDatadogSyntheticsLocations that should be imported. Refer to the {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/data-sources/synthetics_locations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataDatadogSyntheticsLocations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -38,7 +38,7 @@ export class DataDatadogSyntheticsLocations extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.81.0/docs/data-sources/synthetics_locations datadog_synthetics_locations} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/datadog/datadog/3.82.0/docs/data-sources/synthetics_locations datadog_synthetics_locations} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -49,8 +49,8 @@ export class DataDatadogSyntheticsLocations extends cdktf.TerraformDataSource {
       terraformResourceType: 'datadog_synthetics_locations',
       terraformGeneratorMetadata: {
         providerName: 'datadog',
-        providerVersion: '3.81.0',
-        providerVersionConstraint: '3.81.0'
+        providerVersion: '3.82.0',
+        providerVersionConstraint: '3.82.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

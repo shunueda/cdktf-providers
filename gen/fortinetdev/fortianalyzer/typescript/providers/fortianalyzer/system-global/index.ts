@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,426 +8,426 @@ import * as cdktf from 'cdktf';
 
 export interface SystemGlobalConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#admin_host SystemGlobal#admin_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#admin_host SystemGlobal#admin_host}
   */
   readonly adminHost?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#admin_lockout_duration SystemGlobal#admin_lockout_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#admin_lockout_duration SystemGlobal#admin_lockout_duration}
   */
   readonly adminLockoutDuration?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#admin_lockout_method SystemGlobal#admin_lockout_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#admin_lockout_method SystemGlobal#admin_lockout_method}
   */
   readonly adminLockoutMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#admin_lockout_threshold SystemGlobal#admin_lockout_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#admin_lockout_threshold SystemGlobal#admin_lockout_threshold}
   */
   readonly adminLockoutThreshold?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#admin_ssh_grace_time SystemGlobal#admin_ssh_grace_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#admin_ssh_grace_time SystemGlobal#admin_ssh_grace_time}
   */
   readonly adminSshGraceTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#adom_mode SystemGlobal#adom_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#adom_mode SystemGlobal#adom_mode}
   */
   readonly adomMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#adom_select SystemGlobal#adom_select}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#adom_select SystemGlobal#adom_select}
   */
   readonly adomSelect?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#adom_status SystemGlobal#adom_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#adom_status SystemGlobal#adom_status}
   */
   readonly adomStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#apache_mode SystemGlobal#apache_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#apache_mode SystemGlobal#apache_mode}
   */
   readonly apacheMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#apache_wsgi_processes SystemGlobal#apache_wsgi_processes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#apache_wsgi_processes SystemGlobal#apache_wsgi_processes}
   */
   readonly apacheWsgiProcesses?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#api_ip_binding SystemGlobal#api_ip_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#api_ip_binding SystemGlobal#api_ip_binding}
   */
   readonly apiIpBinding?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#auth_dev_restapi_allowlist SystemGlobal#auth_dev_restapi_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#auth_dev_restapi_allowlist SystemGlobal#auth_dev_restapi_allowlist}
   */
   readonly authDevRestapiAllowlist?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#backup_compression SystemGlobal#backup_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#backup_compression SystemGlobal#backup_compression}
   */
   readonly backupCompression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#backup_to_subfolders SystemGlobal#backup_to_subfolders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#backup_to_subfolders SystemGlobal#backup_to_subfolders}
   */
   readonly backupToSubfolders?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#clone_name_option SystemGlobal#clone_name_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#clone_name_option SystemGlobal#clone_name_option}
   */
   readonly cloneNameOption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#clt_cert_req SystemGlobal#clt_cert_req}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#clt_cert_req SystemGlobal#clt_cert_req}
   */
   readonly cltCertReq?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#console_output SystemGlobal#console_output}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#console_output SystemGlobal#console_output}
   */
   readonly consoleOutput?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#contentpack_fgt_install SystemGlobal#contentpack_fgt_install}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#contentpack_fgt_install SystemGlobal#contentpack_fgt_install}
   */
   readonly contentpackFgtInstall?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#country_flag SystemGlobal#country_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#country_flag SystemGlobal#country_flag}
   */
   readonly countryFlag?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#create_revision SystemGlobal#create_revision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#create_revision SystemGlobal#create_revision}
   */
   readonly createRevision?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#daylightsavetime SystemGlobal#daylightsavetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#daylightsavetime SystemGlobal#daylightsavetime}
   */
   readonly daylightsavetime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#default_logview_auto_completion SystemGlobal#default_logview_auto_completion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#default_logview_auto_completion SystemGlobal#default_logview_auto_completion}
   */
   readonly defaultLogviewAutoCompletion?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#default_search_mode SystemGlobal#default_search_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#default_search_mode SystemGlobal#default_search_mode}
   */
   readonly defaultSearchMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#detect_unregistered_log_device SystemGlobal#detect_unregistered_log_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#detect_unregistered_log_device SystemGlobal#detect_unregistered_log_device}
   */
   readonly detectUnregisteredLogDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#device_view_mode SystemGlobal#device_view_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#device_view_mode SystemGlobal#device_view_mode}
   */
   readonly deviceViewMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#dh_params SystemGlobal#dh_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#dh_params SystemGlobal#dh_params}
   */
   readonly dhParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#disable_module SystemGlobal#disable_module}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#disable_module SystemGlobal#disable_module}
   */
   readonly disableModule?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#dynamic_sort_subtable SystemGlobal#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#dynamic_sort_subtable SystemGlobal#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#enc_algorithm SystemGlobal#enc_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#enc_algorithm SystemGlobal#enc_algorithm}
   */
   readonly encAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#event_correlation_cache_size SystemGlobal#event_correlation_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#event_correlation_cache_size SystemGlobal#event_correlation_cache_size}
   */
   readonly eventCorrelationCacheSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fabric_storage_pool_quota SystemGlobal#fabric_storage_pool_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fabric_storage_pool_quota SystemGlobal#fabric_storage_pool_quota}
   */
   readonly fabricStoragePoolQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fabric_storage_pool_size SystemGlobal#fabric_storage_pool_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fabric_storage_pool_size SystemGlobal#fabric_storage_pool_size}
   */
   readonly fabricStoragePoolSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fcp_cfg_service SystemGlobal#fcp_cfg_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fcp_cfg_service SystemGlobal#fcp_cfg_service}
   */
   readonly fcpCfgService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fgfm_ca_cert SystemGlobal#fgfm_ca_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fgfm_ca_cert SystemGlobal#fgfm_ca_cert}
   */
   readonly fgfmCaCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fgfm_cert_exclusive SystemGlobal#fgfm_cert_exclusive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fgfm_cert_exclusive SystemGlobal#fgfm_cert_exclusive}
   */
   readonly fgfmCertExclusive?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fgfm_local_cert SystemGlobal#fgfm_local_cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fgfm_local_cert SystemGlobal#fgfm_local_cert}
   */
   readonly fgfmLocalCert?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fgfm_ssl_protocol SystemGlobal#fgfm_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fgfm_ssl_protocol SystemGlobal#fgfm_ssl_protocol}
   */
   readonly fgfmSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fmg_fabric_port SystemGlobal#fmg_fabric_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fmg_fabric_port SystemGlobal#fmg_fabric_port}
   */
   readonly fmgFabricPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#fortiservice_port SystemGlobal#fortiservice_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#fortiservice_port SystemGlobal#fortiservice_port}
   */
   readonly fortiservicePort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#global_ssl_protocol SystemGlobal#global_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#global_ssl_protocol SystemGlobal#global_ssl_protocol}
   */
   readonly globalSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#gui_curl_timeout SystemGlobal#gui_curl_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#gui_curl_timeout SystemGlobal#gui_curl_timeout}
   */
   readonly guiCurlTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#gui_feature_visibility_mode SystemGlobal#gui_feature_visibility_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#gui_feature_visibility_mode SystemGlobal#gui_feature_visibility_mode}
   */
   readonly guiFeatureVisibilityMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#gui_install_preview_concurrency SystemGlobal#gui_install_preview_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#gui_install_preview_concurrency SystemGlobal#gui_install_preview_concurrency}
   */
   readonly guiInstallPreviewConcurrency?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#gui_polling_interval SystemGlobal#gui_polling_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#gui_polling_interval SystemGlobal#gui_polling_interval}
   */
   readonly guiPollingInterval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ha_member_auto_grouping SystemGlobal#ha_member_auto_grouping}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ha_member_auto_grouping SystemGlobal#ha_member_auto_grouping}
   */
   readonly haMemberAutoGrouping?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#hostname SystemGlobal#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#hostname SystemGlobal#hostname}
   */
   readonly hostname?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#httpd_ssl_protocol SystemGlobal#httpd_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#httpd_ssl_protocol SystemGlobal#httpd_ssl_protocol}
   */
   readonly httpdSslProtocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#id SystemGlobal#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#id SystemGlobal#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#jsonapi_log SystemGlobal#jsonapi_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#jsonapi_log SystemGlobal#jsonapi_log}
   */
   readonly jsonapiLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#language SystemGlobal#language}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#language SystemGlobal#language}
   */
   readonly language?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#latitude SystemGlobal#latitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#latitude SystemGlobal#latitude}
   */
   readonly latitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ldap_cache_timeout SystemGlobal#ldap_cache_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ldap_cache_timeout SystemGlobal#ldap_cache_timeout}
   */
   readonly ldapCacheTimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ldapconntimeout SystemGlobal#ldapconntimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ldapconntimeout SystemGlobal#ldapconntimeout}
   */
   readonly ldapconntimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#lock_preempt SystemGlobal#lock_preempt}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#lock_preempt SystemGlobal#lock_preempt}
   */
   readonly lockPreempt?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#log_checksum SystemGlobal#log_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#log_checksum SystemGlobal#log_checksum}
   */
   readonly logChecksum?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#log_checksum_upload SystemGlobal#log_checksum_upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#log_checksum_upload SystemGlobal#log_checksum_upload}
   */
   readonly logChecksumUpload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#log_forward_cache_size SystemGlobal#log_forward_cache_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#log_forward_cache_size SystemGlobal#log_forward_cache_size}
   */
   readonly logForwardCacheSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#log_forward_plugin_workers SystemGlobal#log_forward_plugin_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#log_forward_plugin_workers SystemGlobal#log_forward_plugin_workers}
   */
   readonly logForwardPluginWorkers?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#log_mode SystemGlobal#log_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#log_mode SystemGlobal#log_mode}
   */
   readonly logMode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#longitude SystemGlobal#longitude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#longitude SystemGlobal#longitude}
   */
   readonly longitude?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#management_ip SystemGlobal#management_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#management_ip SystemGlobal#management_ip}
   */
   readonly managementIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#management_port SystemGlobal#management_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#management_port SystemGlobal#management_port}
   */
   readonly managementPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#mapclient_ssl_protocol SystemGlobal#mapclient_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#mapclient_ssl_protocol SystemGlobal#mapclient_ssl_protocol}
   */
   readonly mapclientSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#max_aggregation_tasks SystemGlobal#max_aggregation_tasks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#max_aggregation_tasks SystemGlobal#max_aggregation_tasks}
   */
   readonly maxAggregationTasks?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#max_log_forward SystemGlobal#max_log_forward}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#max_log_forward SystemGlobal#max_log_forward}
   */
   readonly maxLogForward?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#max_running_reports SystemGlobal#max_running_reports}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#max_running_reports SystemGlobal#max_running_reports}
   */
   readonly maxRunningReports?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#multiple_steps_upgrade_in_autolink SystemGlobal#multiple_steps_upgrade_in_autolink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#multiple_steps_upgrade_in_autolink SystemGlobal#multiple_steps_upgrade_in_autolink}
   */
   readonly multipleStepsUpgradeInAutolink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#no_copy_permission_check SystemGlobal#no_copy_permission_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#no_copy_permission_check SystemGlobal#no_copy_permission_check}
   */
   readonly noCopyPermissionCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#no_vip_value_check SystemGlobal#no_vip_value_check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#no_vip_value_check SystemGlobal#no_vip_value_check}
   */
   readonly noVipValueCheck?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#normalized_intf_zone_only SystemGlobal#normalized_intf_zone_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#normalized_intf_zone_only SystemGlobal#normalized_intf_zone_only}
   */
   readonly normalizedIntfZoneOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#object_revision_db_max SystemGlobal#object_revision_db_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#object_revision_db_max SystemGlobal#object_revision_db_max}
   */
   readonly objectRevisionDbMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#object_revision_mandatory_note SystemGlobal#object_revision_mandatory_note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#object_revision_mandatory_note SystemGlobal#object_revision_mandatory_note}
   */
   readonly objectRevisionMandatoryNote?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#object_revision_object_max SystemGlobal#object_revision_object_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#object_revision_object_max SystemGlobal#object_revision_object_max}
   */
   readonly objectRevisionObjectMax?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#object_revision_status SystemGlobal#object_revision_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#object_revision_status SystemGlobal#object_revision_status}
   */
   readonly objectRevisionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#oftp_ssl_protocol SystemGlobal#oftp_ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#oftp_ssl_protocol SystemGlobal#oftp_ssl_protocol}
   */
   readonly oftpSslProtocol?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#policy_object_icon SystemGlobal#policy_object_icon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#policy_object_icon SystemGlobal#policy_object_icon}
   */
   readonly policyObjectIcon?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#policy_object_in_dual_pane SystemGlobal#policy_object_in_dual_pane}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#policy_object_in_dual_pane SystemGlobal#policy_object_in_dual_pane}
   */
   readonly policyObjectInDualPane?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#pre_login_banner SystemGlobal#pre_login_banner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#pre_login_banner SystemGlobal#pre_login_banner}
   */
   readonly preLoginBanner?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#pre_login_banner_message SystemGlobal#pre_login_banner_message}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#pre_login_banner_message SystemGlobal#pre_login_banner_message}
   */
   readonly preLoginBannerMessage?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#private_data_encryption SystemGlobal#private_data_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#private_data_encryption SystemGlobal#private_data_encryption}
   */
   readonly privateDataEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#remoteauthtimeout SystemGlobal#remoteauthtimeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#remoteauthtimeout SystemGlobal#remoteauthtimeout}
   */
   readonly remoteauthtimeout?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#rpc_log SystemGlobal#rpc_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#rpc_log SystemGlobal#rpc_log}
   */
   readonly rpcLog?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#search_all_adoms SystemGlobal#search_all_adoms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#search_all_adoms SystemGlobal#search_all_adoms}
   */
   readonly searchAllAdoms?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssh_enc_algo SystemGlobal#ssh_enc_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssh_enc_algo SystemGlobal#ssh_enc_algo}
   */
   readonly sshEncAlgo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssh_hostkey_algo SystemGlobal#ssh_hostkey_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssh_hostkey_algo SystemGlobal#ssh_hostkey_algo}
   */
   readonly sshHostkeyAlgo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssh_kex_algo SystemGlobal#ssh_kex_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssh_kex_algo SystemGlobal#ssh_kex_algo}
   */
   readonly sshKexAlgo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssh_mac_algo SystemGlobal#ssh_mac_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssh_mac_algo SystemGlobal#ssh_mac_algo}
   */
   readonly sshMacAlgo?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssh_strong_crypto SystemGlobal#ssh_strong_crypto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssh_strong_crypto SystemGlobal#ssh_strong_crypto}
   */
   readonly sshStrongCrypto?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssl_low_encryption SystemGlobal#ssl_low_encryption}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssl_low_encryption SystemGlobal#ssl_low_encryption}
   */
   readonly sslLowEncryption?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssl_protocol SystemGlobal#ssl_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssl_protocol SystemGlobal#ssl_protocol}
   */
   readonly sslProtocol?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssl_static_key_ciphers SystemGlobal#ssl_static_key_ciphers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssl_static_key_ciphers SystemGlobal#ssl_static_key_ciphers}
   */
   readonly sslStaticKeyCiphers?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#storage_age_limit SystemGlobal#storage_age_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#storage_age_limit SystemGlobal#storage_age_limit}
   */
   readonly storageAgeLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#table_entry_blink SystemGlobal#table_entry_blink}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#table_entry_blink SystemGlobal#table_entry_blink}
   */
   readonly tableEntryBlink?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#task_list_size SystemGlobal#task_list_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#task_list_size SystemGlobal#task_list_size}
   */
   readonly taskListSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#tftp SystemGlobal#tftp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#tftp SystemGlobal#tftp}
   */
   readonly tftp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#timezone SystemGlobal#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#timezone SystemGlobal#timezone}
   */
   readonly timezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#tunnel_mtu SystemGlobal#tunnel_mtu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#tunnel_mtu SystemGlobal#tunnel_mtu}
   */
   readonly tunnelMtu?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#usg SystemGlobal#usg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#usg SystemGlobal#usg}
   */
   readonly usg?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#webservice_proto SystemGlobal#webservice_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#webservice_proto SystemGlobal#webservice_proto}
   */
   readonly webserviceProto?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#workflow_max_sessions SystemGlobal#workflow_max_sessions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#workflow_max_sessions SystemGlobal#workflow_max_sessions}
   */
   readonly workflowMaxSessions?: number;
   /**
   * ssl_cipher_suites block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#ssl_cipher_suites SystemGlobal#ssl_cipher_suites}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#ssl_cipher_suites SystemGlobal#ssl_cipher_suites}
   */
   readonly sslCipherSuites?: SystemGlobalSslCipherSuites[] | cdktf.IResolvable;
 }
 export interface SystemGlobalSslCipherSuites {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#cipher SystemGlobal#cipher}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#cipher SystemGlobal#cipher}
   */
   readonly cipher?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#priority SystemGlobal#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#priority SystemGlobal#priority}
   */
   readonly priority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#version SystemGlobal#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#version SystemGlobal#version}
   */
   readonly version?: string;
 }
@@ -601,7 +601,7 @@ export class SystemGlobalSslCipherSuitesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global fortianalyzer_system_global}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global fortianalyzer_system_global}
 */
 export class SystemGlobal extends cdktf.TerraformResource {
 
@@ -617,7 +617,7 @@ export class SystemGlobal extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemGlobal resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemGlobal to import
-  * @param importFromId The id of the existing SystemGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemGlobal that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemGlobal to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -629,7 +629,7 @@ export class SystemGlobal extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_global fortianalyzer_system_global} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_global fortianalyzer_system_global} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -640,8 +640,8 @@ export class SystemGlobal extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_global',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

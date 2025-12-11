@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy
+// https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface CurationPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the condition used by the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#condition_id CurationPolicy#condition_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#condition_id CurationPolicy#condition_id}
   */
   readonly conditionId: string;
   /**
   * List of JFrog Access groups used by waiver_request_config=manual
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#decision_owners CurationPolicy#decision_owners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#decision_owners CurationPolicy#decision_owners}
   */
   readonly decisionOwners?: string[];
   /**
   * List of label waivers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#label_waivers CurationPolicy#label_waivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#label_waivers CurationPolicy#label_waivers}
   */
   readonly labelWaivers?: CurationPolicyLabelWaivers[] | cdktf.IResolvable;
   /**
   * Name of policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#name CurationPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#name CurationPolicy#name}
   */
   readonly name: string;
   /**
   * List of email addresses that receive notifications when the policy causes a package to be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#notify_emails CurationPolicy#notify_emails}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#notify_emails CurationPolicy#notify_emails}
   */
   readonly notifyEmails?: string[];
   /**
   * Used with scope: pkg_types. List of package types to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#pkg_types_include CurationPolicy#pkg_types_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#pkg_types_include CurationPolicy#pkg_types_include}
   */
   readonly pkgTypesInclude?: string[];
   /**
   * One of: block or dry_run. Dry run policies only accumulate audit logs, they don't block packages from being downloaded.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#policy_action CurationPolicy#policy_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#policy_action CurationPolicy#policy_action}
   */
   readonly policyAction: string;
   /**
   * Used with scope: all_repos. List of repositories to exclude.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#repo_exclude CurationPolicy#repo_exclude}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#repo_exclude CurationPolicy#repo_exclude}
   */
   readonly repoExclude?: string[];
   /**
   * Used with scope: specific_repos. List of repositories to include.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#repo_include CurationPolicy#repo_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#repo_include CurationPolicy#repo_include}
   */
   readonly repoInclude?: string[];
   /**
   * One of: all_repos, specific_repos or pkg_types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#scope CurationPolicy#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#scope CurationPolicy#scope}
   */
   readonly scope: string;
   /**
   * One of: forbidden, manual or auto_approved.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#waiver_request_config CurationPolicy#waiver_request_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#waiver_request_config CurationPolicy#waiver_request_config}
   */
   readonly waiverRequestConfig?: string;
   /**
   * List of package waivers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#waivers CurationPolicy#waivers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#waivers CurationPolicy#waivers}
   */
   readonly waivers?: CurationPolicyWaivers[] | cdktf.IResolvable;
 }
@@ -84,13 +84,13 @@ export interface CurationPolicyLabelWaivers {
   /**
   * A way to document why the waiver was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#justification CurationPolicy#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#justification CurationPolicy#justification}
   */
   readonly justification: string;
   /**
   * A label from the custom Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#label CurationPolicy#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#label CurationPolicy#label}
   */
   readonly label: string;
 }
@@ -231,31 +231,31 @@ export interface CurationPolicyWaivers {
   /**
   * Set to true to indicate all versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#all_versions CurationPolicy#all_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#all_versions CurationPolicy#all_versions}
   */
   readonly allVersions?: boolean | cdktf.IResolvable;
   /**
   * A way to document why the waiver was created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#justification CurationPolicy#justification}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#justification CurationPolicy#justification}
   */
   readonly justification: string;
   /**
   * Name of package from Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#pkg_name CurationPolicy#pkg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#pkg_name CurationPolicy#pkg_name}
   */
   readonly pkgName: string;
   /**
   * Package type. One of: npm, PyPI, Maven, Go, NuGet, Conan, Gems, Gradle, HuggingFaceML or Docker.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#pkg_type CurationPolicy#pkg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#pkg_type CurationPolicy#pkg_type}
   */
   readonly pkgType: string;
   /**
   * List of specific versions of the package from the Catalog.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#pkg_versions CurationPolicy#pkg_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#pkg_versions CurationPolicy#pkg_versions}
   */
   readonly pkgVersions?: string[];
 }
@@ -478,7 +478,7 @@ export class CurationPolicyWaiversList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy xray_curation_policy}
+* Represents a {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy xray_curation_policy}
 */
 export class CurationPolicy extends cdktf.TerraformResource {
 
@@ -494,7 +494,7 @@ export class CurationPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CurationPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CurationPolicy to import
-  * @param importFromId The id of the existing CurationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CurationPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CurationPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -506,7 +506,7 @@ export class CurationPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.3/docs/resources/curation_policy xray_curation_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/jfrog/xray/3.1.4/docs/resources/curation_policy xray_curation_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -517,8 +517,8 @@ export class CurationPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'xray_curation_policy',
       terraformGeneratorMetadata: {
         providerName: 'xray',
-        providerVersion: '3.1.3',
-        providerVersionConstraint: '3.1.3'
+        providerVersion: '3.1.4',
+        providerVersionConstraint: '3.1.4'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

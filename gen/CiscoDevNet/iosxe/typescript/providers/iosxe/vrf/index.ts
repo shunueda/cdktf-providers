@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,175 +10,247 @@ export interface VrfConfig extends cdktf.TerraformMetaArguments {
   /**
   * Address family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#address_family_ipv4 Vrf#address_family_ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#address_family_ipv4 Vrf#address_family_ipv4}
   */
   readonly addressFamilyIpv4?: boolean | cdktf.IResolvable;
   /**
   * Address family
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#address_family_ipv6 Vrf#address_family_ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#address_family_ipv6 Vrf#address_family_ipv6}
   */
   readonly addressFamilyIpv6?: boolean | cdktf.IResolvable;
   /**
   * Configure behavior when deleting/destroying the resource. Either delete the entire object (YANG container) being managed, or only delete the individual resource attributes configured explicitly and leave everything else as-is. Default value is `all`.
   *   - Choices: `all`, `attributes`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#delete_mode Vrf#delete_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#delete_mode Vrf#delete_mode}
   */
   readonly deleteMode?: string;
   /**
   * VRF specific description
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#description Vrf#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#description Vrf#description}
   */
   readonly description?: string;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#device Vrf#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#device Vrf#device}
   */
   readonly device?: string;
   /**
+  * IPv4 address of Rendezvous-point for anycast mode
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_evpn_mcast_anycast Vrf#ipv4_evpn_mcast_anycast}
+  */
+  readonly ipv4EvpnMcastAnycast?: string;
+  /**
+  * EVPN multicast data MDT group address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_evpn_mcast_data_address Vrf#ipv4_evpn_mcast_data_address}
+  */
+  readonly ipv4EvpnMcastDataAddress?: string;
+  /**
+  * EVPN multicast data MDT mask bits
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_evpn_mcast_data_mask_bits Vrf#ipv4_evpn_mcast_data_mask_bits}
+  */
+  readonly ipv4EvpnMcastDataMaskBits?: string;
+  /**
+  * EVPN multicast MDT default group address
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_evpn_mcast_mdt_default_address Vrf#ipv4_evpn_mcast_mdt_default_address}
+  */
+  readonly ipv4EvpnMcastMdtDefaultAddress?: string;
+  /**
+  * Route-map based VRF export for IPv4
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_export_map Vrf#ipv4_export_map}
+  */
+  readonly ipv4ExportMap?: string;
+  /**
+  * Route-map based VRF import for IPv4
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_import_map Vrf#ipv4_import_map}
+  */
+  readonly ipv4ImportMap?: string;
+  /**
   * Enable BGP auto-discovery for VxLAN PIM interworking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim Vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim Vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim}
   */
   readonly ipv4MdtAutoDiscoveryInterworkingVxlanPim?: boolean | cdktf.IResolvable;
   /**
   * Enable Inter-AS BGP auto-discovery for VxLAN PIM interworking
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim_inter_as Vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim_inter_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim_inter_as Vrf#ipv4_mdt_auto_discovery_interworking_vxlan_pim_inter_as}
   */
   readonly ipv4MdtAutoDiscoveryInterworkingVxlanPimInterAs?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP auto-discovery for VxLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_auto_discovery_vxlan Vrf#ipv4_mdt_auto_discovery_vxlan}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_auto_discovery_vxlan Vrf#ipv4_mdt_auto_discovery_vxlan}
   */
   readonly ipv4MdtAutoDiscoveryVxlan?: boolean | cdktf.IResolvable;
   /**
   * Enable Inter-AS BGP auto-discovery for VxLAN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_auto_discovery_vxlan_inter_as Vrf#ipv4_mdt_auto_discovery_vxlan_inter_as}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_auto_discovery_vxlan_inter_as Vrf#ipv4_mdt_auto_discovery_vxlan_inter_as}
   */
   readonly ipv4MdtAutoDiscoveryVxlanInterAs?: boolean | cdktf.IResolvable;
   /**
   * MDT data multicast group ranges
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_data_multicast Vrf#ipv4_mdt_data_multicast}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_data_multicast Vrf#ipv4_mdt_data_multicast}
   */
   readonly ipv4MdtDataMulticast?: VrfIpv4MdtDataMulticast[] | cdktf.IResolvable;
   /**
   * MDT switching threshold in Kbps (1-4294967)
   *   - Range: `1`-`4294967`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_data_threshold Vrf#ipv4_mdt_data_threshold}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_data_threshold Vrf#ipv4_mdt_data_threshold}
   */
   readonly ipv4MdtDataThreshold?: number;
   /**
   * MDT default group IPv4 address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_default_address Vrf#ipv4_mdt_default_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_default_address Vrf#ipv4_mdt_default_address}
   */
   readonly ipv4MdtDefaultAddress?: string;
   /**
   * Enable BGP for MDT overlay signaling
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_overlay_use_bgp Vrf#ipv4_mdt_overlay_use_bgp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_overlay_use_bgp Vrf#ipv4_mdt_overlay_use_bgp}
   */
   readonly ipv4MdtOverlayUseBgp?: boolean | cdktf.IResolvable;
   /**
   * Enable Shortest path tree-only ASM mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_mdt_overlay_use_bgp_spt_only Vrf#ipv4_mdt_overlay_use_bgp_spt_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_mdt_overlay_use_bgp_spt_only Vrf#ipv4_mdt_overlay_use_bgp_spt_only}
   */
   readonly ipv4MdtOverlayUseBgpSptOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_route_replicate Vrf#ipv4_route_replicate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_route_replicate Vrf#ipv4_route_replicate}
   */
   readonly ipv4RouteReplicate?: VrfIpv4RouteReplicate[] | cdktf.IResolvable;
   /**
   * Export Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_route_target_export Vrf#ipv4_route_target_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_route_target_export Vrf#ipv4_route_target_export}
   */
   readonly ipv4RouteTargetExport?: VrfIpv4RouteTargetExport[] | cdktf.IResolvable;
   /**
   * Export Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_route_target_export_stitching Vrf#ipv4_route_target_export_stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_route_target_export_stitching Vrf#ipv4_route_target_export_stitching}
   */
   readonly ipv4RouteTargetExportStitching?: VrfIpv4RouteTargetExportStitching[] | cdktf.IResolvable;
   /**
   * Import Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_route_target_import Vrf#ipv4_route_target_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_route_target_import Vrf#ipv4_route_target_import}
   */
   readonly ipv4RouteTargetImport?: VrfIpv4RouteTargetImport[] | cdktf.IResolvable;
   /**
   * Import Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv4_route_target_import_stitching Vrf#ipv4_route_target_import_stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv4_route_target_import_stitching Vrf#ipv4_route_target_import_stitching}
   */
   readonly ipv4RouteTargetImportStitching?: VrfIpv4RouteTargetImportStitching[] | cdktf.IResolvable;
   /**
+  * IPv6 address of Rendezvous-point for anycast mode
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_evpn_mcast_anycast Vrf#ipv6_evpn_mcast_anycast}
+  */
+  readonly ipv6EvpnMcastAnycast?: string;
+  /**
+  * EVPN multicast data MDT group address (IPv6)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_evpn_mcast_data_address Vrf#ipv6_evpn_mcast_data_address}
+  */
+  readonly ipv6EvpnMcastDataAddress?: string;
+  /**
+  * EVPN multicast data MDT mask bits (IPv6)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_evpn_mcast_data_mask_bits Vrf#ipv6_evpn_mcast_data_mask_bits}
+  */
+  readonly ipv6EvpnMcastDataMaskBits?: string;
+  /**
+  * EVPN multicast MDT default group address (IPv6)
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_evpn_mcast_mdt_default_address Vrf#ipv6_evpn_mcast_mdt_default_address}
+  */
+  readonly ipv6EvpnMcastMdtDefaultAddress?: string;
+  /**
+  * Route-map based VRF export for IPv6
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_export_map Vrf#ipv6_export_map}
+  */
+  readonly ipv6ExportMap?: string;
+  /**
+  * Route-map based VRF import for IPv6
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_import_map Vrf#ipv6_import_map}
+  */
+  readonly ipv6ImportMap?: string;
+  /**
   * Export Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv6_route_target_export Vrf#ipv6_route_target_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_route_target_export Vrf#ipv6_route_target_export}
   */
   readonly ipv6RouteTargetExport?: VrfIpv6RouteTargetExport[] | cdktf.IResolvable;
   /**
   * Export Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv6_route_target_export_stitching Vrf#ipv6_route_target_export_stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_route_target_export_stitching Vrf#ipv6_route_target_export_stitching}
   */
   readonly ipv6RouteTargetExportStitching?: VrfIpv6RouteTargetExportStitching[] | cdktf.IResolvable;
   /**
   * Import Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv6_route_target_import Vrf#ipv6_route_target_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_route_target_import Vrf#ipv6_route_target_import}
   */
   readonly ipv6RouteTargetImport?: VrfIpv6RouteTargetImport[] | cdktf.IResolvable;
   /**
   * Import Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#ipv6_route_target_import_stitching Vrf#ipv6_route_target_import_stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#ipv6_route_target_import_stitching Vrf#ipv6_route_target_import_stitching}
   */
   readonly ipv6RouteTargetImportStitching?: VrfIpv6RouteTargetImportStitching[] | cdktf.IResolvable;
   /**
   * WORD;;VRF name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#name Vrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#name Vrf#name}
   */
   readonly name: string;
   /**
   * Specify Route Distinguisher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#rd Vrf#rd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#rd Vrf#rd}
   */
   readonly rd?: string;
   /**
   * Specify to enable auto Route Distinguisher
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#rd_auto Vrf#rd_auto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#rd_auto Vrf#rd_auto}
   */
   readonly rdAuto?: boolean | cdktf.IResolvable;
   /**
   * Export Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#route_target_export Vrf#route_target_export}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#route_target_export Vrf#route_target_export}
   */
   readonly routeTargetExport?: VrfRouteTargetExport[] | cdktf.IResolvable;
   /**
   * Import Target-VPN community
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#route_target_import Vrf#route_target_import}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#route_target_import Vrf#route_target_import}
   */
   readonly routeTargetImport?: VrfRouteTargetImport[] | cdktf.IResolvable;
   /**
   * Configure VPN ID in rfc2685 format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#vpn_id Vrf#vpn_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#vpn_id Vrf#vpn_id}
   */
   readonly vpnId?: string;
 }
@@ -186,19 +258,19 @@ export interface VrfIpv4MdtDataMulticast {
   /**
   * Multicast group base address
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#address Vrf#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#address Vrf#address}
   */
   readonly address: string;
   /**
   * Access-list for group range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#list Vrf#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#list Vrf#list}
   */
   readonly list?: string;
   /**
   * Wildcard mask for address range
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#wildcard Vrf#wildcard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#wildcard Vrf#wildcard}
   */
   readonly wildcard: string;
 }
@@ -368,19 +440,19 @@ export interface VrfIpv4RouteReplicate {
   /**
   * Source VRF name or 'global'
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#name Vrf#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#name Vrf#name}
   */
   readonly name: string;
   /**
   * All routes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#unicast_all Vrf#unicast_all}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#unicast_all Vrf#unicast_all}
   */
   readonly unicastAll?: boolean | cdktf.IResolvable;
   /**
   * Route map reference
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#unicast_all_route_map Vrf#unicast_all_route_map}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#unicast_all_route_map Vrf#unicast_all_route_map}
   */
   readonly unicastAllRouteMap?: string;
 }
@@ -553,7 +625,7 @@ export interface VrfIpv4RouteTargetExport {
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -669,13 +741,13 @@ export interface VrfIpv4RouteTargetExportStitching {
   * VXLAN route target set
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#stitching Vrf#stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#stitching Vrf#stitching}
   */
   readonly stitching?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -819,7 +891,7 @@ export interface VrfIpv4RouteTargetImport {
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -935,13 +1007,13 @@ export interface VrfIpv4RouteTargetImportStitching {
   * VXLAN route target set
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#stitching Vrf#stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#stitching Vrf#stitching}
   */
   readonly stitching?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1085,7 +1157,7 @@ export interface VrfIpv6RouteTargetExport {
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1201,13 +1273,13 @@ export interface VrfIpv6RouteTargetExportStitching {
   * VXLAN route target set
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#stitching Vrf#stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#stitching Vrf#stitching}
   */
   readonly stitching?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1351,7 +1423,7 @@ export interface VrfIpv6RouteTargetImport {
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1467,13 +1539,13 @@ export interface VrfIpv6RouteTargetImportStitching {
   * VXLAN route target set
   *   - Default value: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#stitching Vrf#stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#stitching Vrf#stitching}
   */
   readonly stitching?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1617,13 +1689,13 @@ export interface VrfRouteTargetExport {
   /**
   * VXLAN route target set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#stitching Vrf#stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#stitching Vrf#stitching}
   */
   readonly stitching?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1767,13 +1839,13 @@ export interface VrfRouteTargetImport {
   /**
   * VXLAN route target set
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#stitching Vrf#stitching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#stitching Vrf#stitching}
   */
   readonly stitching?: boolean | cdktf.IResolvable;
   /**
   * Value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#value Vrf#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#value Vrf#value}
   */
   readonly value: string;
 }
@@ -1915,7 +1987,7 @@ export class VrfRouteTargetImportList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf iosxe_vrf}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf iosxe_vrf}
 */
 export class Vrf extends cdktf.TerraformResource {
 
@@ -1931,7 +2003,7 @@ export class Vrf extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vrf resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vrf to import
-  * @param importFromId The id of the existing Vrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vrf that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vrf to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1943,7 +2015,7 @@ export class Vrf extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/vrf iosxe_vrf} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/vrf iosxe_vrf} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1954,8 +2026,8 @@ export class Vrf extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_vrf',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1970,6 +2042,12 @@ export class Vrf extends cdktf.TerraformResource {
     this._deleteMode = config.deleteMode;
     this._description = config.description;
     this._device = config.device;
+    this._ipv4EvpnMcastAnycast = config.ipv4EvpnMcastAnycast;
+    this._ipv4EvpnMcastDataAddress = config.ipv4EvpnMcastDataAddress;
+    this._ipv4EvpnMcastDataMaskBits = config.ipv4EvpnMcastDataMaskBits;
+    this._ipv4EvpnMcastMdtDefaultAddress = config.ipv4EvpnMcastMdtDefaultAddress;
+    this._ipv4ExportMap = config.ipv4ExportMap;
+    this._ipv4ImportMap = config.ipv4ImportMap;
     this._ipv4MdtAutoDiscoveryInterworkingVxlanPim = config.ipv4MdtAutoDiscoveryInterworkingVxlanPim;
     this._ipv4MdtAutoDiscoveryInterworkingVxlanPimInterAs = config.ipv4MdtAutoDiscoveryInterworkingVxlanPimInterAs;
     this._ipv4MdtAutoDiscoveryVxlan = config.ipv4MdtAutoDiscoveryVxlan;
@@ -1984,6 +2062,12 @@ export class Vrf extends cdktf.TerraformResource {
     this._ipv4RouteTargetExportStitching.internalValue = config.ipv4RouteTargetExportStitching;
     this._ipv4RouteTargetImport.internalValue = config.ipv4RouteTargetImport;
     this._ipv4RouteTargetImportStitching.internalValue = config.ipv4RouteTargetImportStitching;
+    this._ipv6EvpnMcastAnycast = config.ipv6EvpnMcastAnycast;
+    this._ipv6EvpnMcastDataAddress = config.ipv6EvpnMcastDataAddress;
+    this._ipv6EvpnMcastDataMaskBits = config.ipv6EvpnMcastDataMaskBits;
+    this._ipv6EvpnMcastMdtDefaultAddress = config.ipv6EvpnMcastMdtDefaultAddress;
+    this._ipv6ExportMap = config.ipv6ExportMap;
+    this._ipv6ImportMap = config.ipv6ImportMap;
     this._ipv6RouteTargetExport.internalValue = config.ipv6RouteTargetExport;
     this._ipv6RouteTargetExportStitching.internalValue = config.ipv6RouteTargetExportStitching;
     this._ipv6RouteTargetImport.internalValue = config.ipv6RouteTargetImport;
@@ -2083,6 +2167,102 @@ export class Vrf extends cdktf.TerraformResource {
   // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
+  }
+
+  // ipv4_evpn_mcast_anycast - computed: false, optional: true, required: false
+  private _ipv4EvpnMcastAnycast?: string; 
+  public get ipv4EvpnMcastAnycast() {
+    return this.getStringAttribute('ipv4_evpn_mcast_anycast');
+  }
+  public set ipv4EvpnMcastAnycast(value: string) {
+    this._ipv4EvpnMcastAnycast = value;
+  }
+  public resetIpv4EvpnMcastAnycast() {
+    this._ipv4EvpnMcastAnycast = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4EvpnMcastAnycastInput() {
+    return this._ipv4EvpnMcastAnycast;
+  }
+
+  // ipv4_evpn_mcast_data_address - computed: false, optional: true, required: false
+  private _ipv4EvpnMcastDataAddress?: string; 
+  public get ipv4EvpnMcastDataAddress() {
+    return this.getStringAttribute('ipv4_evpn_mcast_data_address');
+  }
+  public set ipv4EvpnMcastDataAddress(value: string) {
+    this._ipv4EvpnMcastDataAddress = value;
+  }
+  public resetIpv4EvpnMcastDataAddress() {
+    this._ipv4EvpnMcastDataAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4EvpnMcastDataAddressInput() {
+    return this._ipv4EvpnMcastDataAddress;
+  }
+
+  // ipv4_evpn_mcast_data_mask_bits - computed: false, optional: true, required: false
+  private _ipv4EvpnMcastDataMaskBits?: string; 
+  public get ipv4EvpnMcastDataMaskBits() {
+    return this.getStringAttribute('ipv4_evpn_mcast_data_mask_bits');
+  }
+  public set ipv4EvpnMcastDataMaskBits(value: string) {
+    this._ipv4EvpnMcastDataMaskBits = value;
+  }
+  public resetIpv4EvpnMcastDataMaskBits() {
+    this._ipv4EvpnMcastDataMaskBits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4EvpnMcastDataMaskBitsInput() {
+    return this._ipv4EvpnMcastDataMaskBits;
+  }
+
+  // ipv4_evpn_mcast_mdt_default_address - computed: false, optional: true, required: false
+  private _ipv4EvpnMcastMdtDefaultAddress?: string; 
+  public get ipv4EvpnMcastMdtDefaultAddress() {
+    return this.getStringAttribute('ipv4_evpn_mcast_mdt_default_address');
+  }
+  public set ipv4EvpnMcastMdtDefaultAddress(value: string) {
+    this._ipv4EvpnMcastMdtDefaultAddress = value;
+  }
+  public resetIpv4EvpnMcastMdtDefaultAddress() {
+    this._ipv4EvpnMcastMdtDefaultAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4EvpnMcastMdtDefaultAddressInput() {
+    return this._ipv4EvpnMcastMdtDefaultAddress;
+  }
+
+  // ipv4_export_map - computed: false, optional: true, required: false
+  private _ipv4ExportMap?: string; 
+  public get ipv4ExportMap() {
+    return this.getStringAttribute('ipv4_export_map');
+  }
+  public set ipv4ExportMap(value: string) {
+    this._ipv4ExportMap = value;
+  }
+  public resetIpv4ExportMap() {
+    this._ipv4ExportMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4ExportMapInput() {
+    return this._ipv4ExportMap;
+  }
+
+  // ipv4_import_map - computed: false, optional: true, required: false
+  private _ipv4ImportMap?: string; 
+  public get ipv4ImportMap() {
+    return this.getStringAttribute('ipv4_import_map');
+  }
+  public set ipv4ImportMap(value: string) {
+    this._ipv4ImportMap = value;
+  }
+  public resetIpv4ImportMap() {
+    this._ipv4ImportMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv4ImportMapInput() {
+    return this._ipv4ImportMap;
   }
 
   // ipv4_mdt_auto_discovery_interworking_vxlan_pim - computed: false, optional: true, required: false
@@ -2309,6 +2489,102 @@ export class Vrf extends cdktf.TerraformResource {
     return this._ipv4RouteTargetImportStitching.internalValue;
   }
 
+  // ipv6_evpn_mcast_anycast - computed: false, optional: true, required: false
+  private _ipv6EvpnMcastAnycast?: string; 
+  public get ipv6EvpnMcastAnycast() {
+    return this.getStringAttribute('ipv6_evpn_mcast_anycast');
+  }
+  public set ipv6EvpnMcastAnycast(value: string) {
+    this._ipv6EvpnMcastAnycast = value;
+  }
+  public resetIpv6EvpnMcastAnycast() {
+    this._ipv6EvpnMcastAnycast = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6EvpnMcastAnycastInput() {
+    return this._ipv6EvpnMcastAnycast;
+  }
+
+  // ipv6_evpn_mcast_data_address - computed: false, optional: true, required: false
+  private _ipv6EvpnMcastDataAddress?: string; 
+  public get ipv6EvpnMcastDataAddress() {
+    return this.getStringAttribute('ipv6_evpn_mcast_data_address');
+  }
+  public set ipv6EvpnMcastDataAddress(value: string) {
+    this._ipv6EvpnMcastDataAddress = value;
+  }
+  public resetIpv6EvpnMcastDataAddress() {
+    this._ipv6EvpnMcastDataAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6EvpnMcastDataAddressInput() {
+    return this._ipv6EvpnMcastDataAddress;
+  }
+
+  // ipv6_evpn_mcast_data_mask_bits - computed: false, optional: true, required: false
+  private _ipv6EvpnMcastDataMaskBits?: string; 
+  public get ipv6EvpnMcastDataMaskBits() {
+    return this.getStringAttribute('ipv6_evpn_mcast_data_mask_bits');
+  }
+  public set ipv6EvpnMcastDataMaskBits(value: string) {
+    this._ipv6EvpnMcastDataMaskBits = value;
+  }
+  public resetIpv6EvpnMcastDataMaskBits() {
+    this._ipv6EvpnMcastDataMaskBits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6EvpnMcastDataMaskBitsInput() {
+    return this._ipv6EvpnMcastDataMaskBits;
+  }
+
+  // ipv6_evpn_mcast_mdt_default_address - computed: false, optional: true, required: false
+  private _ipv6EvpnMcastMdtDefaultAddress?: string; 
+  public get ipv6EvpnMcastMdtDefaultAddress() {
+    return this.getStringAttribute('ipv6_evpn_mcast_mdt_default_address');
+  }
+  public set ipv6EvpnMcastMdtDefaultAddress(value: string) {
+    this._ipv6EvpnMcastMdtDefaultAddress = value;
+  }
+  public resetIpv6EvpnMcastMdtDefaultAddress() {
+    this._ipv6EvpnMcastMdtDefaultAddress = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6EvpnMcastMdtDefaultAddressInput() {
+    return this._ipv6EvpnMcastMdtDefaultAddress;
+  }
+
+  // ipv6_export_map - computed: false, optional: true, required: false
+  private _ipv6ExportMap?: string; 
+  public get ipv6ExportMap() {
+    return this.getStringAttribute('ipv6_export_map');
+  }
+  public set ipv6ExportMap(value: string) {
+    this._ipv6ExportMap = value;
+  }
+  public resetIpv6ExportMap() {
+    this._ipv6ExportMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6ExportMapInput() {
+    return this._ipv6ExportMap;
+  }
+
+  // ipv6_import_map - computed: false, optional: true, required: false
+  private _ipv6ImportMap?: string; 
+  public get ipv6ImportMap() {
+    return this.getStringAttribute('ipv6_import_map');
+  }
+  public set ipv6ImportMap(value: string) {
+    this._ipv6ImportMap = value;
+  }
+  public resetIpv6ImportMap() {
+    this._ipv6ImportMap = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get ipv6ImportMapInput() {
+    return this._ipv6ImportMap;
+  }
+
   // ipv6_route_target_export - computed: false, optional: true, required: false
   private _ipv6RouteTargetExport = new VrfIpv6RouteTargetExportList(this, "ipv6_route_target_export", true);
   public get ipv6RouteTargetExport() {
@@ -2477,6 +2753,12 @@ export class Vrf extends cdktf.TerraformResource {
       delete_mode: cdktf.stringToTerraform(this._deleteMode),
       description: cdktf.stringToTerraform(this._description),
       device: cdktf.stringToTerraform(this._device),
+      ipv4_evpn_mcast_anycast: cdktf.stringToTerraform(this._ipv4EvpnMcastAnycast),
+      ipv4_evpn_mcast_data_address: cdktf.stringToTerraform(this._ipv4EvpnMcastDataAddress),
+      ipv4_evpn_mcast_data_mask_bits: cdktf.stringToTerraform(this._ipv4EvpnMcastDataMaskBits),
+      ipv4_evpn_mcast_mdt_default_address: cdktf.stringToTerraform(this._ipv4EvpnMcastMdtDefaultAddress),
+      ipv4_export_map: cdktf.stringToTerraform(this._ipv4ExportMap),
+      ipv4_import_map: cdktf.stringToTerraform(this._ipv4ImportMap),
       ipv4_mdt_auto_discovery_interworking_vxlan_pim: cdktf.booleanToTerraform(this._ipv4MdtAutoDiscoveryInterworkingVxlanPim),
       ipv4_mdt_auto_discovery_interworking_vxlan_pim_inter_as: cdktf.booleanToTerraform(this._ipv4MdtAutoDiscoveryInterworkingVxlanPimInterAs),
       ipv4_mdt_auto_discovery_vxlan: cdktf.booleanToTerraform(this._ipv4MdtAutoDiscoveryVxlan),
@@ -2491,6 +2773,12 @@ export class Vrf extends cdktf.TerraformResource {
       ipv4_route_target_export_stitching: cdktf.listMapper(vrfIpv4RouteTargetExportStitchingToTerraform, false)(this._ipv4RouteTargetExportStitching.internalValue),
       ipv4_route_target_import: cdktf.listMapper(vrfIpv4RouteTargetImportToTerraform, false)(this._ipv4RouteTargetImport.internalValue),
       ipv4_route_target_import_stitching: cdktf.listMapper(vrfIpv4RouteTargetImportStitchingToTerraform, false)(this._ipv4RouteTargetImportStitching.internalValue),
+      ipv6_evpn_mcast_anycast: cdktf.stringToTerraform(this._ipv6EvpnMcastAnycast),
+      ipv6_evpn_mcast_data_address: cdktf.stringToTerraform(this._ipv6EvpnMcastDataAddress),
+      ipv6_evpn_mcast_data_mask_bits: cdktf.stringToTerraform(this._ipv6EvpnMcastDataMaskBits),
+      ipv6_evpn_mcast_mdt_default_address: cdktf.stringToTerraform(this._ipv6EvpnMcastMdtDefaultAddress),
+      ipv6_export_map: cdktf.stringToTerraform(this._ipv6ExportMap),
+      ipv6_import_map: cdktf.stringToTerraform(this._ipv6ImportMap),
       ipv6_route_target_export: cdktf.listMapper(vrfIpv6RouteTargetExportToTerraform, false)(this._ipv6RouteTargetExport.internalValue),
       ipv6_route_target_export_stitching: cdktf.listMapper(vrfIpv6RouteTargetExportStitchingToTerraform, false)(this._ipv6RouteTargetExportStitching.internalValue),
       ipv6_route_target_import: cdktf.listMapper(vrfIpv6RouteTargetImportToTerraform, false)(this._ipv6RouteTargetImport.internalValue),
@@ -2532,6 +2820,42 @@ export class Vrf extends cdktf.TerraformResource {
       },
       device: {
         value: cdktf.stringToHclTerraform(this._device),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_evpn_mcast_anycast: {
+        value: cdktf.stringToHclTerraform(this._ipv4EvpnMcastAnycast),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_evpn_mcast_data_address: {
+        value: cdktf.stringToHclTerraform(this._ipv4EvpnMcastDataAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_evpn_mcast_data_mask_bits: {
+        value: cdktf.stringToHclTerraform(this._ipv4EvpnMcastDataMaskBits),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_evpn_mcast_mdt_default_address: {
+        value: cdktf.stringToHclTerraform(this._ipv4EvpnMcastMdtDefaultAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_export_map: {
+        value: cdktf.stringToHclTerraform(this._ipv4ExportMap),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv4_import_map: {
+        value: cdktf.stringToHclTerraform(this._ipv4ImportMap),
         isBlock: false,
         type: "simple",
         storageClassType: "string",
@@ -2619,6 +2943,42 @@ export class Vrf extends cdktf.TerraformResource {
         isBlock: true,
         type: "set",
         storageClassType: "VrfIpv4RouteTargetImportStitchingList",
+      },
+      ipv6_evpn_mcast_anycast: {
+        value: cdktf.stringToHclTerraform(this._ipv6EvpnMcastAnycast),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv6_evpn_mcast_data_address: {
+        value: cdktf.stringToHclTerraform(this._ipv6EvpnMcastDataAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv6_evpn_mcast_data_mask_bits: {
+        value: cdktf.stringToHclTerraform(this._ipv6EvpnMcastDataMaskBits),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv6_evpn_mcast_mdt_default_address: {
+        value: cdktf.stringToHclTerraform(this._ipv6EvpnMcastMdtDefaultAddress),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv6_export_map: {
+        value: cdktf.stringToHclTerraform(this._ipv6ExportMap),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
+      },
+      ipv6_import_map: {
+        value: cdktf.stringToHclTerraform(this._ipv6ImportMap),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "string",
       },
       ipv6_route_target_export: {
         value: cdktf.listMapperHcl(vrfIpv6RouteTargetExportToHclTerraform, false)(this._ipv6RouteTargetExport.internalValue),

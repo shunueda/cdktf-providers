@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb
+// https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,331 +8,331 @@ import * as cdktf from 'cdktf';
 
 export interface VdbConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#appdata_source_params Vdb#appdata_source_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#appdata_source_params Vdb#appdata_source_params}
   */
   readonly appdataSourceParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#archive_log Vdb#archive_log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#archive_log Vdb#archive_log}
   */
   readonly archiveLog?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#auto_select_repository Vdb#auto_select_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#auto_select_repository Vdb#auto_select_repository}
   */
   readonly autoSelectRepository?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#auxiliary_template_id Vdb#auxiliary_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#auxiliary_template_id Vdb#auxiliary_template_id}
   */
   readonly auxiliaryTemplateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#bookmark_id Vdb#bookmark_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#bookmark_id Vdb#bookmark_id}
   */
   readonly bookmarkId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#cdb_id Vdb#cdb_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#cdb_id Vdb#cdb_id}
   */
   readonly cdbId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#cdb_tde_keystore_password Vdb#cdb_tde_keystore_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#cdb_tde_keystore_password Vdb#cdb_tde_keystore_password}
   */
   readonly cdbTdeKeystorePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#cdc_on_provision Vdb#cdc_on_provision}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#cdc_on_provision Vdb#cdc_on_provision}
   */
   readonly cdcOnProvision?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#cluster_node_ids Vdb#cluster_node_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#cluster_node_ids Vdb#cluster_node_ids}
   */
   readonly clusterNodeIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#config_params Vdb#config_params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#config_params Vdb#config_params}
   */
   readonly configParams?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#custom_env_files Vdb#custom_env_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#custom_env_files Vdb#custom_env_files}
   */
   readonly customEnvFiles?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#custom_env_vars Vdb#custom_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#custom_env_vars Vdb#custom_env_vars}
   */
   readonly customEnvVars?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#database_name Vdb#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#database_name Vdb#database_name}
   */
   readonly databaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#db_password Vdb#db_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#db_password Vdb#db_password}
   */
   readonly dbPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#db_username Vdb#db_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#db_username Vdb#db_username}
   */
   readonly dbUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#engine_id Vdb#engine_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#engine_id Vdb#engine_id}
   */
   readonly engineId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#environment_id Vdb#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#environment_id Vdb#environment_id}
   */
   readonly environmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#environment_user_id Vdb#environment_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#environment_user_id Vdb#environment_user_id}
   */
   readonly environmentUserId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#file_mapping_rules Vdb#file_mapping_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#file_mapping_rules Vdb#file_mapping_rules}
   */
   readonly fileMappingRules?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#ignore_tag_changes Vdb#ignore_tag_changes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#ignore_tag_changes Vdb#ignore_tag_changes}
   */
   readonly ignoreTagChanges?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#instance_name Vdb#instance_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#instance_name Vdb#instance_name}
   */
   readonly instanceName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#listener_ids Vdb#listener_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#listener_ids Vdb#listener_ids}
   */
   readonly listenerIds?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#make_current_account_owner Vdb#make_current_account_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#make_current_account_owner Vdb#make_current_account_owner}
   */
   readonly makeCurrentAccountOwner?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#masked Vdb#masked}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#masked Vdb#masked}
   */
   readonly masked?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#mount_point Vdb#mount_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#mount_point Vdb#mount_point}
   */
   readonly mountPoint?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#new_dbid Vdb#new_dbid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#new_dbid Vdb#new_dbid}
   */
   readonly newDbid?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#online_log_groups Vdb#online_log_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#online_log_groups Vdb#online_log_groups}
   */
   readonly onlineLogGroups?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#online_log_size Vdb#online_log_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#online_log_size Vdb#online_log_size}
   */
   readonly onlineLogSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#open_reset_logs Vdb#open_reset_logs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#open_reset_logs Vdb#open_reset_logs}
   */
   readonly openResetLogs?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#os_password Vdb#os_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#os_password Vdb#os_password}
   */
   readonly osPassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#os_username Vdb#os_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#os_username Vdb#os_username}
   */
   readonly osUsername?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#parent_tde_keystore_password Vdb#parent_tde_keystore_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#parent_tde_keystore_password Vdb#parent_tde_keystore_password}
   */
   readonly parentTdeKeystorePassword?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#parent_tde_keystore_path Vdb#parent_tde_keystore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#parent_tde_keystore_path Vdb#parent_tde_keystore_path}
   */
   readonly parentTdeKeystorePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#post_script Vdb#post_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#post_script Vdb#post_script}
   */
   readonly postScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#pre_script Vdb#pre_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#pre_script Vdb#pre_script}
   */
   readonly preScript?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#provision_type Vdb#provision_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#provision_type Vdb#provision_type}
   */
   readonly provisionType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#recovery_model Vdb#recovery_model}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#recovery_model Vdb#recovery_model}
   */
   readonly recoveryModel?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#repository_id Vdb#repository_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#repository_id Vdb#repository_id}
   */
   readonly repositoryId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#retention_policy_id Vdb#retention_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#retention_policy_id Vdb#retention_policy_id}
   */
   readonly retentionPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#snapshot_id Vdb#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#snapshot_id Vdb#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#snapshot_policy_id Vdb#snapshot_policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#snapshot_policy_id Vdb#snapshot_policy_id}
   */
   readonly snapshotPolicyId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#source_data_id Vdb#source_data_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#source_data_id Vdb#source_data_id}
   */
   readonly sourceDataId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#target_group_id Vdb#target_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#target_group_id Vdb#target_group_id}
   */
   readonly targetGroupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#target_vcdb_tde_keystore_path Vdb#target_vcdb_tde_keystore_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#target_vcdb_tde_keystore_path Vdb#target_vcdb_tde_keystore_path}
   */
   readonly targetVcdbTdeKeystorePath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#tde_exported_key_file_secret Vdb#tde_exported_key_file_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#tde_exported_key_file_secret Vdb#tde_exported_key_file_secret}
   */
   readonly tdeExportedKeyFileSecret?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#tde_key_identifier Vdb#tde_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#tde_key_identifier Vdb#tde_key_identifier}
   */
   readonly tdeKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#template_id Vdb#template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#template_id Vdb#template_id}
   */
   readonly templateId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#timestamp Vdb#timestamp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#timestamp Vdb#timestamp}
   */
   readonly timestamp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#timestamp_in_database_timezone Vdb#timestamp_in_database_timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#timestamp_in_database_timezone Vdb#timestamp_in_database_timezone}
   */
   readonly timestampInDatabaseTimezone?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#truncate_log_on_checkpoint Vdb#truncate_log_on_checkpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#truncate_log_on_checkpoint Vdb#truncate_log_on_checkpoint}
   */
   readonly truncateLogOnCheckpoint?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#unique_name Vdb#unique_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#unique_name Vdb#unique_name}
   */
   readonly uniqueName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#vcdb_database_name Vdb#vcdb_database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#vcdb_database_name Vdb#vcdb_database_name}
   */
   readonly vcdbDatabaseName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#vcdb_name Vdb#vcdb_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#vcdb_name Vdb#vcdb_name}
   */
   readonly vcdbName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#vcdb_tde_key_identifier Vdb#vcdb_tde_key_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#vcdb_tde_key_identifier Vdb#vcdb_tde_key_identifier}
   */
   readonly vcdbTdeKeyIdentifier?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#vdb_restart Vdb#vdb_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#vdb_restart Vdb#vdb_restart}
   */
   readonly vdbRestart?: boolean | cdktf.IResolvable;
   /**
   * additional_mount_points block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#additional_mount_points Vdb#additional_mount_points}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#additional_mount_points Vdb#additional_mount_points}
   */
   readonly additionalMountPoints?: VdbAdditionalMountPoints[] | cdktf.IResolvable;
   /**
   * configure_clone block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#configure_clone Vdb#configure_clone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#configure_clone Vdb#configure_clone}
   */
   readonly configureClone?: VdbConfigureClone[] | cdktf.IResolvable;
   /**
   * oracle_rac_custom_env_files block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#oracle_rac_custom_env_files Vdb#oracle_rac_custom_env_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#oracle_rac_custom_env_files Vdb#oracle_rac_custom_env_files}
   */
   readonly oracleRacCustomEnvFiles?: VdbOracleRacCustomEnvFiles[] | cdktf.IResolvable;
   /**
   * oracle_rac_custom_env_vars block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#oracle_rac_custom_env_vars Vdb#oracle_rac_custom_env_vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#oracle_rac_custom_env_vars Vdb#oracle_rac_custom_env_vars}
   */
   readonly oracleRacCustomEnvVars?: VdbOracleRacCustomEnvVars[] | cdktf.IResolvable;
   /**
   * post_refresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#post_refresh Vdb#post_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#post_refresh Vdb#post_refresh}
   */
   readonly postRefresh?: VdbPostRefresh[] | cdktf.IResolvable;
   /**
   * post_rollback block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#post_rollback Vdb#post_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#post_rollback Vdb#post_rollback}
   */
   readonly postRollback?: VdbPostRollback[] | cdktf.IResolvable;
   /**
   * post_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#post_snapshot Vdb#post_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#post_snapshot Vdb#post_snapshot}
   */
   readonly postSnapshot?: VdbPostSnapshot[] | cdktf.IResolvable;
   /**
   * post_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#post_start Vdb#post_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#post_start Vdb#post_start}
   */
   readonly postStart?: VdbPostStart[] | cdktf.IResolvable;
   /**
   * post_stop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#post_stop Vdb#post_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#post_stop Vdb#post_stop}
   */
   readonly postStop?: VdbPostStop[] | cdktf.IResolvable;
   /**
   * pre_refresh block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#pre_refresh Vdb#pre_refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#pre_refresh Vdb#pre_refresh}
   */
   readonly preRefresh?: VdbPreRefresh[] | cdktf.IResolvable;
   /**
   * pre_rollback block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#pre_rollback Vdb#pre_rollback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#pre_rollback Vdb#pre_rollback}
   */
   readonly preRollback?: VdbPreRollback[] | cdktf.IResolvable;
   /**
   * pre_snapshot block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#pre_snapshot Vdb#pre_snapshot}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#pre_snapshot Vdb#pre_snapshot}
   */
   readonly preSnapshot?: VdbPreSnapshot[] | cdktf.IResolvable;
   /**
   * pre_start block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#pre_start Vdb#pre_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#pre_start Vdb#pre_start}
   */
   readonly preStart?: VdbPreStart[] | cdktf.IResolvable;
   /**
   * pre_stop block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#pre_stop Vdb#pre_stop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#pre_stop Vdb#pre_stop}
   */
   readonly preStop?: VdbPreStop[] | cdktf.IResolvable;
   /**
   * tags block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#tags Vdb#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#tags Vdb#tags}
   */
   readonly tags?: VdbTags[] | cdktf.IResolvable;
 }
 export interface VdbAdditionalMountPoints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#environment_id Vdb#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#environment_id Vdb#environment_id}
   */
   readonly environmentId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#mount_path Vdb#mount_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#mount_path Vdb#mount_path}
   */
   readonly mountPath?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shared_path Vdb#shared_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shared_path Vdb#shared_path}
   */
   readonly sharedPath: string;
 }
@@ -503,15 +503,15 @@ export class VdbAdditionalMountPointsList extends cdktf.ComplexList {
 }
 export interface VdbConfigureClone {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -692,11 +692,11 @@ export class VdbConfigureCloneList extends cdktf.ComplexList {
 }
 export interface VdbOracleRacCustomEnvFiles {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#node_id Vdb#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#node_id Vdb#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#path_parameters Vdb#path_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#path_parameters Vdb#path_parameters}
   */
   readonly pathParameters?: string;
 }
@@ -838,15 +838,15 @@ export class VdbOracleRacCustomEnvFilesList extends cdktf.ComplexList {
 }
 export interface VdbOracleRacCustomEnvVars {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#node_id Vdb#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#node_id Vdb#node_id}
   */
   readonly nodeId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#value Vdb#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#value Vdb#value}
   */
   readonly value?: string;
 }
@@ -1017,15 +1017,15 @@ export class VdbOracleRacCustomEnvVarsList extends cdktf.ComplexList {
 }
 export interface VdbPostRefresh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -1206,15 +1206,15 @@ export class VdbPostRefreshList extends cdktf.ComplexList {
 }
 export interface VdbPostRollback {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -1395,15 +1395,15 @@ export class VdbPostRollbackList extends cdktf.ComplexList {
 }
 export interface VdbPostSnapshot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -1584,15 +1584,15 @@ export class VdbPostSnapshotList extends cdktf.ComplexList {
 }
 export interface VdbPostStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -1773,15 +1773,15 @@ export class VdbPostStartList extends cdktf.ComplexList {
 }
 export interface VdbPostStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -1962,15 +1962,15 @@ export class VdbPostStopList extends cdktf.ComplexList {
 }
 export interface VdbPreRefresh {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -2151,15 +2151,15 @@ export class VdbPreRefreshList extends cdktf.ComplexList {
 }
 export interface VdbPreRollback {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -2340,15 +2340,15 @@ export class VdbPreRollbackList extends cdktf.ComplexList {
 }
 export interface VdbPreSnapshot {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -2529,15 +2529,15 @@ export class VdbPreSnapshotList extends cdktf.ComplexList {
 }
 export interface VdbPreStart {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -2718,15 +2718,15 @@ export class VdbPreStartList extends cdktf.ComplexList {
 }
 export interface VdbPreStop {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#command Vdb#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#command Vdb#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#name Vdb#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#name Vdb#name}
   */
   readonly name?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#shell Vdb#shell}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#shell Vdb#shell}
   */
   readonly shell?: string;
 }
@@ -2907,11 +2907,11 @@ export class VdbPreStopList extends cdktf.ComplexList {
 }
 export interface VdbTags {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#key Vdb#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#key Vdb#key}
   */
   readonly key?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#value Vdb#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#value Vdb#value}
   */
   readonly value?: string;
 }
@@ -3056,7 +3056,7 @@ export class VdbTagsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb delphix_vdb}
+* Represents a {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb delphix_vdb}
 */
 export class Vdb extends cdktf.TerraformResource {
 
@@ -3072,7 +3072,7 @@ export class Vdb extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Vdb resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Vdb to import
-  * @param importFromId The id of the existing Vdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Vdb that should be imported. Refer to the {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Vdb to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3084,7 +3084,7 @@ export class Vdb extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.0/docs/resources/vdb delphix_vdb} Resource
+  * Create a new {@link https://registry.terraform.io/providers/delphix-integrations/delphix/4.1.1/docs/resources/vdb delphix_vdb} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3095,8 +3095,8 @@ export class Vdb extends cdktf.TerraformResource {
       terraformResourceType: 'delphix_vdb',
       terraformGeneratorMetadata: {
         providerName: 'delphix',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.1.1',
+        providerVersionConstraint: '4.1.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

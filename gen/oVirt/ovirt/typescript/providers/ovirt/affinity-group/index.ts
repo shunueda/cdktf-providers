@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group
+// https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AffinityGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the cluster to use for affinity group creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#cluster_id AffinityGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#cluster_id AffinityGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The description of the affinity group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#description AffinityGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#description AffinityGroup#description}
   */
   readonly description?: string;
   /**
   * If set to true, VMs will fail to start if the affinity group cannot be observed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#enforcing AffinityGroup#enforcing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#enforcing AffinityGroup#enforcing}
   */
   readonly enforcing?: boolean | cdktf.IResolvable;
   /**
   * The name of the affinity group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#name AffinityGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#name AffinityGroup#name}
   */
   readonly name: string;
   /**
   * Order in which the affinity group should be applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#priority AffinityGroup#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#priority AffinityGroup#priority}
   */
   readonly priority?: number;
   /**
   * hosts_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#hosts_rule AffinityGroup#hosts_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#hosts_rule AffinityGroup#hosts_rule}
   */
   readonly hostsRule?: AffinityGroupHostsRule;
   /**
   * vms_rule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#vms_rule AffinityGroup#vms_rule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#vms_rule AffinityGroup#vms_rule}
   */
   readonly vmsRule?: AffinityGroupVmsRule;
 }
@@ -54,13 +54,13 @@ export interface AffinityGroupHostsRule {
   /**
   * Positive or negative affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#affinity AffinityGroup#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#affinity AffinityGroup#affinity}
   */
   readonly affinity?: string;
   /**
   * If set to true VMs will fail to start if they cannot observe this affintiy group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#enforcing AffinityGroup#enforcing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#enforcing AffinityGroup#enforcing}
   */
   readonly enforcing?: boolean | cdktf.IResolvable;
 }
@@ -175,13 +175,13 @@ export interface AffinityGroupVmsRule {
   /**
   * Positive or negative affinity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#affinity AffinityGroup#affinity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#affinity AffinityGroup#affinity}
   */
   readonly affinity?: string;
   /**
   * If set to true VMs will fail to start if they cannot observe this affintiy group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#enforcing AffinityGroup#enforcing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#enforcing AffinityGroup#enforcing}
   */
   readonly enforcing?: boolean | cdktf.IResolvable;
 }
@@ -294,7 +294,7 @@ export class AffinityGroupVmsRuleOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group ovirt_affinity_group}
+* Represents a {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group ovirt_affinity_group}
 */
 export class AffinityGroup extends cdktf.TerraformResource {
 
@@ -310,7 +310,7 @@ export class AffinityGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AffinityGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AffinityGroup to import
-  * @param importFromId The id of the existing AffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AffinityGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AffinityGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -322,7 +322,7 @@ export class AffinityGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.1.5/docs/resources/affinity_group ovirt_affinity_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ovirt/ovirt/2.2.0/docs/resources/affinity_group ovirt_affinity_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -333,8 +333,8 @@ export class AffinityGroup extends cdktf.TerraformResource {
       terraformResourceType: 'ovirt_affinity_group',
       terraformGeneratorMetadata: {
         providerName: 'ovirt',
-        providerVersion: '2.1.5',
-        providerVersionConstraint: '2.1.5'
+        providerVersion: '2.2.0',
+        providerVersionConstraint: '2.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

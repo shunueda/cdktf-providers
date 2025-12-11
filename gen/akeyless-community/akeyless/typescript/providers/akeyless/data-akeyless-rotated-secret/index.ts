@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataAkeylessRotatedSecretConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret#id DataAkeylessRotatedSecret#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret#id DataAkeylessRotatedSecret#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,25 +17,25 @@ export interface DataAkeylessRotatedSecretConfig extends cdktf.TerraformMetaArgu
   /**
   * Retrieve the Secret value without checking the Gateway's cache [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret#ignore_cache DataAkeylessRotatedSecret#ignore_cache}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret#ignore_cache DataAkeylessRotatedSecret#ignore_cache}
   */
   readonly ignoreCache?: string;
   /**
   * Secret name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret#name DataAkeylessRotatedSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret#name DataAkeylessRotatedSecret#name}
   */
   readonly name: string;
   /**
   * Secret version
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret#version DataAkeylessRotatedSecret#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret#version DataAkeylessRotatedSecret#version}
   */
   readonly version?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret akeyless_rotated_secret}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret akeyless_rotated_secret}
 */
 export class DataAkeylessRotatedSecret extends cdktf.TerraformDataSource {
 
@@ -51,7 +51,7 @@ export class DataAkeylessRotatedSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessRotatedSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessRotatedSecret to import
-  * @param importFromId The id of the existing DataAkeylessRotatedSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessRotatedSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessRotatedSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class DataAkeylessRotatedSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/rotated_secret akeyless_rotated_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/rotated_secret akeyless_rotated_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class DataAkeylessRotatedSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_rotated_secret',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

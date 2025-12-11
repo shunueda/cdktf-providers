@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface ProducerRdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enable fixed user only
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#fixed_user_only ProducerRdp#fixed_user_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#fixed_user_only ProducerRdp#fixed_user_only}
   */
   readonly fixedUserOnly?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#id ProducerRdp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#id ProducerRdp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,103 +23,103 @@ export interface ProducerRdpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#name ProducerRdp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#name ProducerRdp#name}
   */
   readonly name: string;
   /**
   * Encrypt producer with following key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#producer_encryption_key_name ProducerRdp#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#producer_encryption_key_name ProducerRdp#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * RDP Admin name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#rdp_admin_name ProducerRdp#rdp_admin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#rdp_admin_name ProducerRdp#rdp_admin_name}
   */
   readonly rdpAdminName?: string;
   /**
   * RDP Admin Password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#rdp_admin_pwd ProducerRdp#rdp_admin_pwd}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#rdp_admin_pwd ProducerRdp#rdp_admin_pwd}
   */
   readonly rdpAdminPwd?: string;
   /**
   * RDP Host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#rdp_host_name ProducerRdp#rdp_host_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#rdp_host_name ProducerRdp#rdp_host_name}
   */
   readonly rdpHostName?: string;
   /**
   * RDP Host port
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#rdp_host_port ProducerRdp#rdp_host_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#rdp_host_port ProducerRdp#rdp_host_port}
   */
   readonly rdpHostPort?: string;
   /**
   * RDP UserGroup name(s). Multiple values should be separated by comma
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#rdp_user_groups ProducerRdp#rdp_user_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#rdp_user_groups ProducerRdp#rdp_user_groups}
   */
   readonly rdpUserGroups?: string;
   /**
   * Allow providing external user for a domain users
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#secure_access_allow_external_user ProducerRdp#secure_access_allow_external_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#secure_access_allow_external_user ProducerRdp#secure_access_allow_external_user}
   */
   readonly secureAccessAllowExternalUser?: boolean | cdktf.IResolvable;
   /**
   * Enable/Disable secure remote access, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#secure_access_enable ProducerRdp#secure_access_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#secure_access_enable ProducerRdp#secure_access_enable}
   */
   readonly secureAccessEnable?: string;
   /**
   * Target servers for connections., For multiple values repeat this flag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#secure_access_host ProducerRdp#secure_access_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#secure_access_host ProducerRdp#secure_access_host}
   */
   readonly secureAccessHost?: string[];
   /**
   * Required when the Dynamic Secret is used for a domain user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#secure_access_rdp_domain ProducerRdp#secure_access_rdp_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#secure_access_rdp_domain ProducerRdp#secure_access_rdp_domain}
   */
   readonly secureAccessRdpDomain?: string;
   /**
   * Override the RDP Domain username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#secure_access_rdp_user ProducerRdp#secure_access_rdp_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#secure_access_rdp_user ProducerRdp#secure_access_rdp_user}
   */
   readonly secureAccessRdpUser?: string;
   /**
   * Enable Web Secure Remote Access 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#secure_access_web ProducerRdp#secure_access_web}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#secure_access_web ProducerRdp#secure_access_web}
   */
   readonly secureAccessWeb?: boolean | cdktf.IResolvable;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: -t Tag1 -t Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#tags ProducerRdp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#tags ProducerRdp#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#target_name ProducerRdp#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#target_name ProducerRdp#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#user_ttl ProducerRdp#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#user_ttl ProducerRdp#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp akeyless_producer_rdp}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp akeyless_producer_rdp}
 */
 export class ProducerRdp extends cdktf.TerraformResource {
 
@@ -135,7 +135,7 @@ export class ProducerRdp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerRdp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerRdp to import
-  * @param importFromId The id of the existing ProducerRdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerRdp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerRdp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -147,7 +147,7 @@ export class ProducerRdp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_rdp akeyless_producer_rdp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_rdp akeyless_producer_rdp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -158,8 +158,8 @@ export class ProducerRdp extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_rdp',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

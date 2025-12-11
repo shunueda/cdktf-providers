@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/k8s_auth_config
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/k8s_auth_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataAkeylessK8SAuthConfigConfig extends cdktf.TerraformMetaArgu
   /**
   * K8S Auth config name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/k8s_auth_config#name DataAkeylessK8SAuthConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/k8s_auth_config#name DataAkeylessK8SAuthConfig#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/k8s_auth_config akeyless_k8s_auth_config}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/k8s_auth_config akeyless_k8s_auth_config}
 */
 export class DataAkeylessK8SAuthConfig extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataAkeylessK8SAuthConfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessK8SAuthConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessK8SAuthConfig to import
-  * @param importFromId The id of the existing DataAkeylessK8SAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/k8s_auth_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessK8SAuthConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/k8s_auth_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessK8SAuthConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataAkeylessK8SAuthConfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/k8s_auth_config akeyless_k8s_auth_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/k8s_auth_config akeyless_k8s_auth_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataAkeylessK8SAuthConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_k8s_auth_config',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

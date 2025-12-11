@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,131 +10,131 @@ export interface PkiCertIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set, clients can request certificates for any CN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allow_any_name PkiCertIssuer#allow_any_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allow_any_name PkiCertIssuer#allow_any_name}
   */
   readonly allowAnyName?: boolean | cdktf.IResolvable;
   /**
   * If set, will allow copying the extra extensions from the csr file (if given)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allow_copy_ext_from_csr PkiCertIssuer#allow_copy_ext_from_csr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allow_copy_ext_from_csr PkiCertIssuer#allow_copy_ext_from_csr}
   */
   readonly allowCopyExtFromCsr?: boolean | cdktf.IResolvable;
   /**
   * If set, clients can request certificates for subdomains and wildcard subdomains of the allowed domains
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allow_subdomains PkiCertIssuer#allow_subdomains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allow_subdomains PkiCertIssuer#allow_subdomains}
   */
   readonly allowSubdomains?: boolean | cdktf.IResolvable;
   /**
   * A list of the allowed domains that clients can request to be included in the certificate (in a comma-delimited list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allowed_domains PkiCertIssuer#allowed_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allowed_domains PkiCertIssuer#allowed_domains}
   */
   readonly allowedDomains?: string;
   /**
   * A json string that defines the allowed extra extensions for the pki cert issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allowed_extra_extensions PkiCertIssuer#allowed_extra_extensions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allowed_extra_extensions PkiCertIssuer#allowed_extra_extensions}
   */
   readonly allowedExtraExtensions?: string;
   /**
   * A list of the allowed CIDRs for IPs that clients can request to be included in the certificate as part of the IP Subject Alternative Names (in a comma-delimited list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allowed_ip_sans PkiCertIssuer#allowed_ip_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allowed_ip_sans PkiCertIssuer#allowed_ip_sans}
   */
   readonly allowedIpSans?: string;
   /**
   * A list of the allowed URIs that clients can request to be included in the certificate as part of the URI Subject Alternative Names (in a comma-delimited list)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#allowed_uri_sans PkiCertIssuer#allowed_uri_sans}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#allowed_uri_sans PkiCertIssuer#allowed_uri_sans}
   */
   readonly allowedUriSans?: string;
   /**
   * Automatically renew certificates before expiration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#auto_renew PkiCertIssuer#auto_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#auto_renew PkiCertIssuer#auto_renew}
   */
   readonly autoRenew?: boolean | cdktf.IResolvable;
   /**
   * The name of an existing CA target to attach this PKI Certificate Issuer to, required in Public CA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#ca_target PkiCertIssuer#ca_target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#ca_target PkiCertIssuer#ca_target}
   */
   readonly caTarget?: string;
   /**
   * If set, certificates will be flagged for client auth use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#client_flag PkiCertIssuer#client_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#client_flag PkiCertIssuer#client_flag}
   */
   readonly clientFlag?: boolean | cdktf.IResolvable;
   /**
   * If set, certificates will be flagged for code signing use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#code_signing_flag PkiCertIssuer#code_signing_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#code_signing_flag PkiCertIssuer#code_signing_flag}
   */
   readonly codeSigningFlag?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of countries that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#country PkiCertIssuer#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#country PkiCertIssuer#country}
   */
   readonly country?: string;
   /**
   * Set this to allow the issuer will expose a CRL endpoint in the Gateway
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#create_private_crl PkiCertIssuer#create_private_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#create_private_crl PkiCertIssuer#create_private_crl}
   */
   readonly createPrivateCrl?: boolean | cdktf.IResolvable;
   /**
   * Set this to allow the cert issuer will expose a public CRL endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#create_public_crl PkiCertIssuer#create_public_crl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#create_public_crl PkiCertIssuer#create_public_crl}
   */
   readonly createPublicCrl?: boolean | cdktf.IResolvable;
   /**
   * Mark key usage as critical [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#critical_key_usage PkiCertIssuer#critical_key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#critical_key_usage PkiCertIssuer#critical_key_usage}
   */
   readonly criticalKeyUsage?: string;
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#delete_protection PkiCertIssuer#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#delete_protection PkiCertIssuer#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#description PkiCertIssuer#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#description PkiCertIssuer#description}
   */
   readonly description?: string;
   /**
   * A path in Akeyless which to save generated certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#destination_path PkiCertIssuer#destination_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#destination_path PkiCertIssuer#destination_path}
   */
   readonly destinationPath?: string;
   /**
   * If set, the cert issuer will support the acme protocol
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#enable_acme PkiCertIssuer#enable_acme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#enable_acme PkiCertIssuer#enable_acme}
   */
   readonly enableAcme?: boolean | cdktf.IResolvable;
   /**
   * How many days before the expiration of the certificate would you like to be notified
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#expiration_event_in PkiCertIssuer#expiration_event_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#expiration_event_in PkiCertIssuer#expiration_event_in}
   */
   readonly expirationEventIn?: string[];
   /**
   * The GW cluster URL to issue the certificate from, required in Public CA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#gw_cluster_url PkiCertIssuer#gw_cluster_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#gw_cluster_url PkiCertIssuer#gw_cluster_url}
   */
   readonly gwClusterUrl?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#id PkiCertIssuer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#id PkiCertIssuer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -143,109 +143,109 @@ export interface PkiCertIssuerConfig extends cdktf.TerraformMetaArguments {
   /**
   * If set, the basic constraints extension will be added to certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#is_ca PkiCertIssuer#is_ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#is_ca PkiCertIssuer#is_ca}
   */
   readonly isCa?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated string or list of key usages
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#key_usage PkiCertIssuer#key_usage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#key_usage PkiCertIssuer#key_usage}
   */
   readonly keyUsage?: string;
   /**
   * A comma-separated list of localities that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#locality PkiCertIssuer#locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#locality PkiCertIssuer#locality}
   */
   readonly locality?: string;
   /**
   * PKI certificate issuer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#name PkiCertIssuer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#name PkiCertIssuer#name}
   */
   readonly name: string;
   /**
   * If set, any names are allowed for CN and SANs in the certificate and not only a valid host name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#not_enforce_hostnames PkiCertIssuer#not_enforce_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#not_enforce_hostnames PkiCertIssuer#not_enforce_hostnames}
   */
   readonly notEnforceHostnames?: boolean | cdktf.IResolvable;
   /**
   * If set, clients can request certificates without a CN
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#not_require_cn PkiCertIssuer#not_require_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#not_require_cn PkiCertIssuer#not_require_cn}
   */
   readonly notRequireCn?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of organizational units (OU) that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#organizational_units PkiCertIssuer#organizational_units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#organizational_units PkiCertIssuer#organizational_units}
   */
   readonly organizationalUnits?: string;
   /**
   * A comma-separated list of organizations (O) that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#organizations PkiCertIssuer#organizations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#organizations PkiCertIssuer#organizations}
   */
   readonly organizations?: string;
   /**
   * A comma-separated list of postal codes that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#postal_code PkiCertIssuer#postal_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#postal_code PkiCertIssuer#postal_code}
   */
   readonly postalCode?: string;
   /**
   * Whether to protect generated certificates from deletion
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#protect_certificates PkiCertIssuer#protect_certificates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#protect_certificates PkiCertIssuer#protect_certificates}
   */
   readonly protectCertificates?: boolean | cdktf.IResolvable;
   /**
   * A comma-separated list of provinces that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#province PkiCertIssuer#province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#province PkiCertIssuer#province}
   */
   readonly province?: string;
   /**
   * Number of days before expiration to renew certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#scheduled_renew PkiCertIssuer#scheduled_renew}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#scheduled_renew PkiCertIssuer#scheduled_renew}
   */
   readonly scheduledRenew?: number;
   /**
   * If set, certificates will be flagged for server auth use
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#server_flag PkiCertIssuer#server_flag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#server_flag PkiCertIssuer#server_flag}
   */
   readonly serverFlag?: boolean | cdktf.IResolvable;
   /**
   * A key to sign the certificate with, required in Private CA mode
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#signer_key_name PkiCertIssuer#signer_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#signer_key_name PkiCertIssuer#signer_key_name}
   */
   readonly signerKeyName?: string;
   /**
   * A comma-separated list of street addresses that will be set in the issued certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#street_address PkiCertIssuer#street_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#street_address PkiCertIssuer#street_address}
   */
   readonly streetAddress?: string;
   /**
   * List of the tags attached to this key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#tags PkiCertIssuer#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#tags PkiCertIssuer#tags}
   */
   readonly tags?: string[];
   /**
   * The maximum requested Time To Live for issued certificate by default in seconds, supported formats are s,m,h,d. In case of Public CA, this is based on the CA target's supported maximum TTLs
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#ttl PkiCertIssuer#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#ttl PkiCertIssuer#ttl}
   */
   readonly ttl: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer akeyless_pki_cert_issuer}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer akeyless_pki_cert_issuer}
 */
 export class PkiCertIssuer extends cdktf.TerraformResource {
 
@@ -261,7 +261,7 @@ export class PkiCertIssuer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PkiCertIssuer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PkiCertIssuer to import
-  * @param importFromId The id of the existing PkiCertIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PkiCertIssuer that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PkiCertIssuer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -273,7 +273,7 @@ export class PkiCertIssuer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/pki_cert_issuer akeyless_pki_cert_issuer} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/pki_cert_issuer akeyless_pki_cert_issuer} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -284,8 +284,8 @@ export class PkiCertIssuer extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_pki_cert_issuer',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

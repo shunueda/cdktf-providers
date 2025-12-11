@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,34 +10,34 @@ export interface RadiusServerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Customize selected radius attributes
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#attributes RadiusServer#attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#attributes RadiusServer#attributes}
   */
   readonly attributes?: RadiusServerAttributes[] | cdktf.IResolvable;
   /**
   * The time during which no properly formed response must be received from the RADIUS server
   *   - Range: `1`-`120`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#dead_criteria_time RadiusServer#dead_criteria_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#dead_criteria_time RadiusServer#dead_criteria_time}
   */
   readonly deadCriteriaTime?: number;
   /**
   * The number of times the router must fail to receive a response from the radius server to mark it as dead
   *   - Range: `1`-`100`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#dead_criteria_tries RadiusServer#dead_criteria_tries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#dead_criteria_tries RadiusServer#dead_criteria_tries}
   */
   readonly deadCriteriaTries?: number;
   /**
   * Time to stop using a server that does not respond
   *   - Range: `1`-`1440`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#deadtime RadiusServer#deadtime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#deadtime RadiusServer#deadtime}
   */
   readonly deadtime?: number;
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#device RadiusServer#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#device RadiusServer#device}
   */
   readonly device?: string;
 }
@@ -46,29 +46,29 @@ export interface RadiusServerAttributesAttribute31Parameters {
   * 
   *   - Choices: `mac`, `send`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#calling_station_id RadiusServer#calling_station_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#calling_station_id RadiusServer#calling_station_id}
   */
   readonly callingStationId: string;
   /**
   * Specify format (default format ex: 0000.4096.3e4a) ietf - format ex: 00-00-40-96-3E-4A
   *   - Choices: `ietf`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#id_mac_format RadiusServer#id_mac_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#id_mac_format RadiusServer#id_mac_format}
   */
   readonly idMacFormat?: string;
   /**
   * 
   *   - Choices: `lower-case`, `upper-case`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#id_mac_lu_case RadiusServer#id_mac_lu_case}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#id_mac_lu_case RadiusServer#id_mac_lu_case}
   */
   readonly idMacLuCase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#id_send_mac_only RadiusServer#id_send_mac_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#id_send_mac_only RadiusServer#id_send_mac_only}
   */
   readonly idSendMacOnly?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#id_send_nas_port_detail RadiusServer#id_send_nas_port_detail}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#id_send_nas_port_detail RadiusServer#id_send_nas_port_detail}
   */
   readonly idSendNasPortDetail?: boolean | cdktf.IResolvable;
 }
@@ -299,19 +299,19 @@ export interface RadiusServerAttributes {
   /**
   * Include attribute
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#access_request_include RadiusServer#access_request_include}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#access_request_include RadiusServer#access_request_include}
   */
   readonly accessRequestInclude?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#attribute_31_parameters RadiusServer#attribute_31_parameters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#attribute_31_parameters RadiusServer#attribute_31_parameters}
   */
   readonly attribute31Parameters?: RadiusServerAttributesAttribute31Parameters[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#number RadiusServer#number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#number RadiusServer#number}
   */
   readonly number: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#send_attributes RadiusServer#send_attributes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#send_attributes RadiusServer#send_attributes}
   */
   readonly sendAttributes?: string[];
 }
@@ -511,7 +511,7 @@ export class RadiusServerAttributesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server iosxe_radius_server}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server iosxe_radius_server}
 */
 export class RadiusServer extends cdktf.TerraformResource {
 
@@ -527,7 +527,7 @@ export class RadiusServer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RadiusServer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RadiusServer to import
-  * @param importFromId The id of the existing RadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RadiusServer that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RadiusServer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -539,7 +539,7 @@ export class RadiusServer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/radius_server iosxe_radius_server} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/radius_server iosxe_radius_server} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -550,8 +550,8 @@ export class RadiusServer extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_radius_server',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

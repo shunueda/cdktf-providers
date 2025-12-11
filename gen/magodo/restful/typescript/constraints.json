@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "restful": "0.24.0"
+    "restful": "0.25.0"
   }
 }

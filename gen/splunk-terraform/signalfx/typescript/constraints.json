@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "signalfx": "9.23.0"
+    "signalfx": "9.23.1"
   }
 }

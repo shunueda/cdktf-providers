@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface DfcKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * DFCKey type; options: [AES128GCM, AES256GCM, AES128SIV, AES256SIV, AES128CBC, AES256CBC, RSA1024, RSA2048, RSA3072, RSA4096]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#alg DfcKey#alg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#alg DfcKey#alg}
   */
   readonly alg: string;
   /**
   * Whether to automatically rotate every rotation_interval days, or disable existing automatic rotation [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#auto_rotate DfcKey#auto_rotate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#auto_rotate DfcKey#auto_rotate}
   */
   readonly autoRotate?: string;
   /**
   * PEM Certificate in a Base64 format. Used for updating RSA keys' certificates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#cert_data_base64 DfcKey#cert_data_base64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#cert_data_base64 DfcKey#cert_data_base64}
   */
   readonly certDataBase64?: string;
   /**
   * Common name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_common_name DfcKey#certificate_common_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_common_name DfcKey#certificate_common_name}
   */
   readonly certificateCommonName?: string;
   /**
   * Country name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_country DfcKey#certificate_country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_country DfcKey#certificate_country}
   */
   readonly certificateCountry?: string;
   /**
   * The format of the returned certificate [pem/der]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_format DfcKey#certificate_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_format DfcKey#certificate_format}
   */
   readonly certificateFormat?: string;
   /**
   * Locality for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_locality DfcKey#certificate_locality}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_locality DfcKey#certificate_locality}
   */
   readonly certificateLocality?: string;
   /**
   * Organization name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_organization DfcKey#certificate_organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_organization DfcKey#certificate_organization}
   */
   readonly certificateOrganization?: string;
   /**
   * Province name for the generated certificate. Relevant only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_province DfcKey#certificate_province}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_province DfcKey#certificate_province}
   */
   readonly certificateProvince?: string;
   /**
   * TTL in days for the generated certificate. Required only for generate-self-signed-certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#certificate_ttl DfcKey#certificate_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#certificate_ttl DfcKey#certificate_ttl}
   */
   readonly certificateTtl?: number;
   /**
   * The csr config data in base64 encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#conf_file_data DfcKey#conf_file_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#conf_file_data DfcKey#conf_file_data}
   */
   readonly confFileData?: string;
   /**
   * The customer fragment ID that will be used to create the DFC key (if empty, the key will be created independently of a customer fragment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#customer_frg_id DfcKey#customer_frg_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#customer_frg_id DfcKey#customer_frg_id}
   */
   readonly customerFrgId?: string;
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#delete_protection DfcKey#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#delete_protection DfcKey#delete_protection}
   */
   readonly deleteProtection?: boolean | cdktf.IResolvable;
   /**
   * Description of the object
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#description DfcKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#description DfcKey#description}
   */
   readonly description?: string;
   /**
   * How many days before the expiration of the certificate would you like to be notified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#expiration_event_in DfcKey#expiration_event_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#expiration_event_in DfcKey#expiration_event_in}
   */
   readonly expirationEventIn?: string[];
   /**
   * Whether to generate a self signed certificate with the key. If set, certificate-ttl must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#generate_self_signed_certificate DfcKey#generate_self_signed_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#generate_self_signed_certificate DfcKey#generate_self_signed_certificate}
   */
   readonly generateSelfSignedCertificate?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#id DfcKey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#id DfcKey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -113,37 +113,37 @@ export interface DfcKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * DFCKey name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#name DfcKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#name DfcKey#name}
   */
   readonly name: string;
   /**
   * How many days before the rotation of the item would you like to be notified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#rotation_event_in DfcKey#rotation_event_in}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#rotation_event_in DfcKey#rotation_event_in}
   */
   readonly rotationEventIn?: string[];
   /**
   * The number of days to wait between every automatic rotation (7-365)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#rotation_interval DfcKey#rotation_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#rotation_interval DfcKey#rotation_interval}
   */
   readonly rotationInterval?: string;
   /**
   * The number of fragments that the item will be split into (not includes customer fragment)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#split_level DfcKey#split_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#split_level DfcKey#split_level}
   */
   readonly splitLevel?: number;
   /**
   * List of the tags attached to this DFC key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#tags DfcKey#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#tags DfcKey#tags}
   */
   readonly tags?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key akeyless_dfc_key}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key akeyless_dfc_key}
 */
 export class DfcKey extends cdktf.TerraformResource {
 
@@ -159,7 +159,7 @@ export class DfcKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DfcKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DfcKey to import
-  * @param importFromId The id of the existing DfcKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DfcKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DfcKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -171,7 +171,7 @@ export class DfcKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/dfc_key akeyless_dfc_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/dfc_key akeyless_dfc_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -182,8 +182,8 @@ export class DfcKey extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_dfc_key',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

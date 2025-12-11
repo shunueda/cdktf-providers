@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AlertChannelSplunkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Splunk channel name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#channel AlertChannelSplunk#channel}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#channel AlertChannelSplunk#channel}
   */
   readonly channel?: string;
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#enabled AlertChannelSplunk#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#enabled AlertChannelSplunk#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The token you generate when you create a new HEC input
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#hec_token AlertChannelSplunk#hec_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#hec_token AlertChannelSplunk#hec_token}
   */
   readonly hecToken: string;
   /**
   * The hostname of the client from which you're sending data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#host AlertChannelSplunk#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#host AlertChannelSplunk#host}
   */
   readonly host: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#id AlertChannelSplunk#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#id AlertChannelSplunk#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,31 +41,31 @@ export interface AlertChannelSplunkConfig extends cdktf.TerraformMetaArguments {
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#name AlertChannelSplunk#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#name AlertChannelSplunk#name}
   */
   readonly name: string;
   /**
   * The destination port for forwarding events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#port AlertChannelSplunk#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#port AlertChannelSplunk#port}
   */
   readonly port: number;
   /**
   * Enable or Disable SSL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#ssl AlertChannelSplunk#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#ssl AlertChannelSplunk#ssl}
   */
   readonly ssl?: boolean | cdktf.IResolvable;
   /**
   * Whether to test the integration of an alert channel upon creation and modification
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#test_integration AlertChannelSplunk#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#test_integration AlertChannelSplunk#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
   /**
   * event_data block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#event_data AlertChannelSplunk#event_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#event_data AlertChannelSplunk#event_data}
   */
   readonly eventData: AlertChannelSplunkEventData;
 }
@@ -73,13 +73,13 @@ export interface AlertChannelSplunkEventData {
   /**
   * Index to store generated events
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#index AlertChannelSplunk#index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#index AlertChannelSplunk#index}
   */
   readonly index: string;
   /**
   * The Splunk source
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#source AlertChannelSplunk#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#source AlertChannelSplunk#source}
   */
   readonly source: string;
 }
@@ -186,7 +186,7 @@ export class AlertChannelSplunkEventDataOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk lacework_alert_channel_splunk}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk lacework_alert_channel_splunk}
 */
 export class AlertChannelSplunk extends cdktf.TerraformResource {
 
@@ -202,7 +202,7 @@ export class AlertChannelSplunk extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelSplunk resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelSplunk to import
-  * @param importFromId The id of the existing AlertChannelSplunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelSplunk that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelSplunk to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -214,7 +214,7 @@ export class AlertChannelSplunk extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_splunk lacework_alert_channel_splunk} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_splunk lacework_alert_channel_splunk} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -225,8 +225,8 @@ export class AlertChannelSplunk extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_splunk',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

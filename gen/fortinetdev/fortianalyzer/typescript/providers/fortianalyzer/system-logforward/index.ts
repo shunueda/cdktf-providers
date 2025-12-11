@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,228 +8,228 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLogforwardConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_archive_types SystemLogforward#agg_archive_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_archive_types SystemLogforward#agg_archive_types}
   */
   readonly aggArchiveTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_data_end_time SystemLogforward#agg_data_end_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_data_end_time SystemLogforward#agg_data_end_time}
   */
   readonly aggDataEndTime?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_data_start_time SystemLogforward#agg_data_start_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_data_start_time SystemLogforward#agg_data_start_time}
   */
   readonly aggDataStartTime?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_logtypes SystemLogforward#agg_logtypes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_logtypes SystemLogforward#agg_logtypes}
   */
   readonly aggLogtypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_password SystemLogforward#agg_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_password SystemLogforward#agg_password}
   */
   readonly aggPassword?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_schedule SystemLogforward#agg_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_schedule SystemLogforward#agg_schedule}
   */
   readonly aggSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_time SystemLogforward#agg_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_time SystemLogforward#agg_time}
   */
   readonly aggTime?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#agg_user SystemLogforward#agg_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#agg_user SystemLogforward#agg_user}
   */
   readonly aggUser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#dynamic_sort_subtable SystemLogforward#dynamic_sort_subtable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#dynamic_sort_subtable SystemLogforward#dynamic_sort_subtable}
   */
   readonly dynamicSortSubtable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fosid SystemLogforward#fosid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fosid SystemLogforward#fosid}
   */
   readonly fosid?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_archive_types SystemLogforward#fwd_archive_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_archive_types SystemLogforward#fwd_archive_types}
   */
   readonly fwdArchiveTypes?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_archives SystemLogforward#fwd_archives}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_archives SystemLogforward#fwd_archives}
   */
   readonly fwdArchives?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_compression SystemLogforward#fwd_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_compression SystemLogforward#fwd_compression}
   */
   readonly fwdCompression?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_facility SystemLogforward#fwd_facility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_facility SystemLogforward#fwd_facility}
   */
   readonly fwdFacility?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_ha_bind_vip SystemLogforward#fwd_ha_bind_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_ha_bind_vip SystemLogforward#fwd_ha_bind_vip}
   */
   readonly fwdHaBindVip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_log_source_ip SystemLogforward#fwd_log_source_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_log_source_ip SystemLogforward#fwd_log_source_ip}
   */
   readonly fwdLogSourceIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_max_delay SystemLogforward#fwd_max_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_max_delay SystemLogforward#fwd_max_delay}
   */
   readonly fwdMaxDelay?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_output_plugin_id SystemLogforward#fwd_output_plugin_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_output_plugin_id SystemLogforward#fwd_output_plugin_id}
   */
   readonly fwdOutputPluginId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_reliable SystemLogforward#fwd_reliable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_reliable SystemLogforward#fwd_reliable}
   */
   readonly fwdReliable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_secure SystemLogforward#fwd_secure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_secure SystemLogforward#fwd_secure}
   */
   readonly fwdSecure?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_server_type SystemLogforward#fwd_server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_server_type SystemLogforward#fwd_server_type}
   */
   readonly fwdServerType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_syslog_decode_b64 SystemLogforward#fwd_syslog_decode_b64}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_syslog_decode_b64 SystemLogforward#fwd_syslog_decode_b64}
   */
   readonly fwdSyslogDecodeB64?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_syslog_enrich_cve SystemLogforward#fwd_syslog_enrich_cve}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_syslog_enrich_cve SystemLogforward#fwd_syslog_enrich_cve}
   */
   readonly fwdSyslogEnrichCve?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_syslog_format SystemLogforward#fwd_syslog_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_syslog_format SystemLogforward#fwd_syslog_format}
   */
   readonly fwdSyslogFormat?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#fwd_syslog_transparent SystemLogforward#fwd_syslog_transparent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#fwd_syslog_transparent SystemLogforward#fwd_syslog_transparent}
   */
   readonly fwdSyslogTransparent?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#id SystemLogforward#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#id SystemLogforward#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_field_exclusion_status SystemLogforward#log_field_exclusion_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_field_exclusion_status SystemLogforward#log_field_exclusion_status}
   */
   readonly logFieldExclusionStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_filter_logic SystemLogforward#log_filter_logic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_filter_logic SystemLogforward#log_filter_logic}
   */
   readonly logFilterLogic?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_filter_status SystemLogforward#log_filter_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_filter_status SystemLogforward#log_filter_status}
   */
   readonly logFilterStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_masking_custom_priority SystemLogforward#log_masking_custom_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_masking_custom_priority SystemLogforward#log_masking_custom_priority}
   */
   readonly logMaskingCustomPriority?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_masking_fields SystemLogforward#log_masking_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_masking_fields SystemLogforward#log_masking_fields}
   */
   readonly logMaskingFields?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_masking_key SystemLogforward#log_masking_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_masking_key SystemLogforward#log_masking_key}
   */
   readonly logMaskingKey?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_masking_status SystemLogforward#log_masking_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_masking_status SystemLogforward#log_masking_status}
   */
   readonly logMaskingStatus?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#mode SystemLogforward#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#mode SystemLogforward#mode}
   */
   readonly mode?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#pcapurl_domain_ip SystemLogforward#pcapurl_domain_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#pcapurl_domain_ip SystemLogforward#pcapurl_domain_ip}
   */
   readonly pcapurlDomainIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#pcapurl_enrich SystemLogforward#pcapurl_enrich}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#pcapurl_enrich SystemLogforward#pcapurl_enrich}
   */
   readonly pcapurlEnrich?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#peer_cert_cn SystemLogforward#peer_cert_cn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#peer_cert_cn SystemLogforward#peer_cert_cn}
   */
   readonly peerCertCn?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#proxy_service SystemLogforward#proxy_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#proxy_service SystemLogforward#proxy_service}
   */
   readonly proxyService?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#proxy_service_priority SystemLogforward#proxy_service_priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#proxy_service_priority SystemLogforward#proxy_service_priority}
   */
   readonly proxyServicePriority?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#server_addr SystemLogforward#server_addr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#server_addr SystemLogforward#server_addr}
   */
   readonly serverAddr?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#server_device SystemLogforward#server_device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#server_device SystemLogforward#server_device}
   */
   readonly serverDevice?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#server_name SystemLogforward#server_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#server_name SystemLogforward#server_name}
   */
   readonly serverName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#server_port SystemLogforward#server_port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#server_port SystemLogforward#server_port}
   */
   readonly serverPort?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#signature SystemLogforward#signature}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#signature SystemLogforward#signature}
   */
   readonly signature?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#sync_metadata SystemLogforward#sync_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#sync_metadata SystemLogforward#sync_metadata}
   */
   readonly syncMetadata?: string[];
   /**
   * device_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#device_filter SystemLogforward#device_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#device_filter SystemLogforward#device_filter}
   */
   readonly deviceFilter?: SystemLogforwardDeviceFilter[] | cdktf.IResolvable;
   /**
   * log_field_exclusion block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_field_exclusion SystemLogforward#log_field_exclusion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_field_exclusion SystemLogforward#log_field_exclusion}
   */
   readonly logFieldExclusion?: SystemLogforwardLogFieldExclusion[] | cdktf.IResolvable;
   /**
   * log_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_filter SystemLogforward#log_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_filter SystemLogforward#log_filter}
   */
   readonly logFilter?: SystemLogforwardLogFilter[] | cdktf.IResolvable;
   /**
   * log_masking_custom block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_masking_custom SystemLogforward#log_masking_custom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_masking_custom SystemLogforward#log_masking_custom}
   */
   readonly logMaskingCustom?: SystemLogforwardLogMaskingCustom[] | cdktf.IResolvable;
 }
 export interface SystemLogforwardDeviceFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#action SystemLogforward#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#action SystemLogforward#action}
   */
   readonly action?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#adom SystemLogforward#adom}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#adom SystemLogforward#adom}
   */
   readonly adom?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#device SystemLogforward#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#device SystemLogforward#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#id SystemLogforward#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#id SystemLogforward#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -435,22 +435,22 @@ export class SystemLogforwardDeviceFilterList extends cdktf.ComplexList {
 }
 export interface SystemLogforwardLogFieldExclusion {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#dev_type SystemLogforward#dev_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#dev_type SystemLogforward#dev_type}
   */
   readonly devType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#field_list SystemLogforward#field_list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#field_list SystemLogforward#field_list}
   */
   readonly fieldList?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#id SystemLogforward#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#id SystemLogforward#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#log_type SystemLogforward#log_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#log_type SystemLogforward#log_type}
   */
   readonly logType?: string;
 }
@@ -653,22 +653,22 @@ export class SystemLogforwardLogFieldExclusionList extends cdktf.ComplexList {
 }
 export interface SystemLogforwardLogFilter {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#field SystemLogforward#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#field SystemLogforward#field}
   */
   readonly field?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#id SystemLogforward#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#id SystemLogforward#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#oper SystemLogforward#oper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#oper SystemLogforward#oper}
   */
   readonly oper?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#value SystemLogforward#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#value SystemLogforward#value}
   */
   readonly value?: string;
 }
@@ -871,15 +871,15 @@ export class SystemLogforwardLogFilterList extends cdktf.ComplexList {
 }
 export interface SystemLogforwardLogMaskingCustom {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#field_name SystemLogforward#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#field_name SystemLogforward#field_name}
   */
   readonly fieldName?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#field_type SystemLogforward#field_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#field_type SystemLogforward#field_type}
   */
   readonly fieldType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#id SystemLogforward#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#id SystemLogforward#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1056,7 +1056,7 @@ export class SystemLogforwardLogMaskingCustomList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward fortianalyzer_system_logforward}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward fortianalyzer_system_logforward}
 */
 export class SystemLogforward extends cdktf.TerraformResource {
 
@@ -1072,7 +1072,7 @@ export class SystemLogforward extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLogforward resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLogforward to import
-  * @param importFromId The id of the existing SystemLogforward that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLogforward that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLogforward to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1084,7 +1084,7 @@ export class SystemLogforward extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_logforward fortianalyzer_system_logforward} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_logforward fortianalyzer_system_logforward} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1095,8 +1095,8 @@ export class SystemLogforward extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_logforward',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

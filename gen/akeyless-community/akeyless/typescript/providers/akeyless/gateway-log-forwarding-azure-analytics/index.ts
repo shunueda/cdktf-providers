@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface GatewayLogForwardingAzureAnalyticsConfig extends cdktf.Terrafor
   /**
   * Enable Log Forwarding [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#enable GatewayLogForwardingAzureAnalytics#enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#enable GatewayLogForwardingAzureAnalytics#enable}
   */
   readonly enable?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#id GatewayLogForwardingAzureAnalytics#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#id GatewayLogForwardingAzureAnalytics#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface GatewayLogForwardingAzureAnalyticsConfig extends cdktf.Terrafor
   /**
   * Logs format [text/json]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#output_format GatewayLogForwardingAzureAnalytics#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#output_format GatewayLogForwardingAzureAnalytics#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Pull interval in seconds
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#pull_interval GatewayLogForwardingAzureAnalytics#pull_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#pull_interval GatewayLogForwardingAzureAnalytics#pull_interval}
   */
   readonly pullInterval?: string;
   /**
   * Azure workspace id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#workspace_id GatewayLogForwardingAzureAnalytics#workspace_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#workspace_id GatewayLogForwardingAzureAnalytics#workspace_id}
   */
   readonly workspaceId?: string;
   /**
   * Azure workspace key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#workspace_key GatewayLogForwardingAzureAnalytics#workspace_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#workspace_key GatewayLogForwardingAzureAnalytics#workspace_key}
   */
   readonly workspaceKey?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics akeyless_gateway_log_forwarding_azure_analytics}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics akeyless_gateway_log_forwarding_azure_analytics}
 */
 export class GatewayLogForwardingAzureAnalytics extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class GatewayLogForwardingAzureAnalytics extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a GatewayLogForwardingAzureAnalytics resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayLogForwardingAzureAnalytics to import
-  * @param importFromId The id of the existing GatewayLogForwardingAzureAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayLogForwardingAzureAnalytics that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayLogForwardingAzureAnalytics to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class GatewayLogForwardingAzureAnalytics extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_log_forwarding_azure_analytics akeyless_gateway_log_forwarding_azure_analytics} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_log_forwarding_azure_analytics akeyless_gateway_log_forwarding_azure_analytics} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class GatewayLogForwardingAzureAnalytics extends cdktf.TerraformResource 
       terraformResourceType: 'akeyless_gateway_log_forwarding_azure_analytics',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

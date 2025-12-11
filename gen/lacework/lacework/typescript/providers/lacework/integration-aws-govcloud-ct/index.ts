@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,40 +10,40 @@ export interface IntegrationAwsGovcloudCtConfig extends cdktf.TerraformMetaArgum
   /**
   * The AWS Account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#account_id IntegrationAwsGovcloudCt#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#account_id IntegrationAwsGovcloudCt#account_id}
   */
   readonly accountId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#enabled IntegrationAwsGovcloudCt#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#enabled IntegrationAwsGovcloudCt#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#id IntegrationAwsGovcloudCt#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#id IntegrationAwsGovcloudCt#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#name IntegrationAwsGovcloudCt#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#name IntegrationAwsGovcloudCt#name}
   */
   readonly name: string;
   /**
   * The SQS Queue URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#queue_url IntegrationAwsGovcloudCt#queue_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#queue_url IntegrationAwsGovcloudCt#queue_url}
   */
   readonly queueUrl: string;
   /**
   * The number of attempts to create the external integration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#retries IntegrationAwsGovcloudCt#retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#retries IntegrationAwsGovcloudCt#retries}
   */
   readonly retries?: number;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#credentials IntegrationAwsGovcloudCt#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#credentials IntegrationAwsGovcloudCt#credentials}
   */
   readonly credentials: IntegrationAwsGovcloudCtCredentials;
 }
@@ -51,13 +51,13 @@ export interface IntegrationAwsGovcloudCtCredentials {
   /**
   * The AWS access key ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#access_key_id IntegrationAwsGovcloudCt#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#access_key_id IntegrationAwsGovcloudCt#access_key_id}
   */
   readonly accessKeyId: string;
   /**
   * The AWS secret key for the specified AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#secret_access_key IntegrationAwsGovcloudCt#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#secret_access_key IntegrationAwsGovcloudCt#secret_access_key}
   */
   readonly secretAccessKey: string;
 }
@@ -164,7 +164,7 @@ export class IntegrationAwsGovcloudCtCredentialsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct lacework_integration_aws_govcloud_ct}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct lacework_integration_aws_govcloud_ct}
 */
 export class IntegrationAwsGovcloudCt extends cdktf.TerraformResource {
 
@@ -180,7 +180,7 @@ export class IntegrationAwsGovcloudCt extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationAwsGovcloudCt resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationAwsGovcloudCt to import
-  * @param importFromId The id of the existing IntegrationAwsGovcloudCt that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationAwsGovcloudCt that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationAwsGovcloudCt to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -192,7 +192,7 @@ export class IntegrationAwsGovcloudCt extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/integration_aws_govcloud_ct lacework_integration_aws_govcloud_ct} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/integration_aws_govcloud_ct lacework_integration_aws_govcloud_ct} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -203,8 +203,8 @@ export class IntegrationAwsGovcloudCt extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_integration_aws_govcloud_ct',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

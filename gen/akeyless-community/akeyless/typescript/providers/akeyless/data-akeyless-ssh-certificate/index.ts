@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataAkeylessSshCertificateConfig extends cdktf.TerraformMetaArg
   /**
   * The name of the SSH certificate issuer
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#cert_issuer_name DataAkeylessSshCertificate#cert_issuer_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#cert_issuer_name DataAkeylessSshCertificate#cert_issuer_name}
   */
   readonly certIssuerName: string;
   /**
   * The username to sign in the SSH certificate (use a comma-separated list for more than one username)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#cert_username DataAkeylessSshCertificate#cert_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#cert_username DataAkeylessSshCertificate#cert_username}
   */
   readonly certUsername: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#id DataAkeylessSshCertificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#id DataAkeylessSshCertificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface DataAkeylessSshCertificateConfig extends cdktf.TerraformMetaArg
   /**
   * Set this option to output legacy ('ssh-rsa-cert-v01@openssh.com') signing algorithm name in the certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#legacy_signing_alg_name DataAkeylessSshCertificate#legacy_signing_alg_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#legacy_signing_alg_name DataAkeylessSshCertificate#legacy_signing_alg_name}
   */
   readonly legacySigningAlgName?: boolean | cdktf.IResolvable;
   /**
   * SSH public key file contents
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#public_key_data DataAkeylessSshCertificate#public_key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#public_key_data DataAkeylessSshCertificate#public_key_data}
   */
   readonly publicKeyData: string;
   /**
   * Updated certificate lifetime in seconds (must be less than the Certificate Issuer default TTL)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#ttl DataAkeylessSshCertificate#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#ttl DataAkeylessSshCertificate#ttl}
   */
   readonly ttl?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate akeyless_ssh_certificate}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate akeyless_ssh_certificate}
 */
 export class DataAkeylessSshCertificate extends cdktf.TerraformDataSource {
 
@@ -63,7 +63,7 @@ export class DataAkeylessSshCertificate extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAkeylessSshCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAkeylessSshCertificate to import
-  * @param importFromId The id of the existing DataAkeylessSshCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAkeylessSshCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAkeylessSshCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class DataAkeylessSshCertificate extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/data-sources/ssh_certificate akeyless_ssh_certificate} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/data-sources/ssh_certificate akeyless_ssh_certificate} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class DataAkeylessSshCertificate extends cdktf.TerraformDataSource {
       terraformResourceType: 'akeyless_ssh_certificate',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

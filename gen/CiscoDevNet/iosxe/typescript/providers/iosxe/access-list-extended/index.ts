@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended
+// https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,15 +10,15 @@ export interface AccessListExtendedConfig extends cdktf.TerraformMetaArguments {
   /**
   * A device name from the provider configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#device AccessListExtended#device}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#device AccessListExtended#device}
   */
   readonly device?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#entries AccessListExtended#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#entries AccessListExtended#entries}
   */
   readonly entries?: AccessListExtendedEntries[] | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#name AccessListExtended#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#name AccessListExtended#name}
   */
   readonly name: string;
 }
@@ -27,281 +27,281 @@ export interface AccessListExtendedEntries {
   * 
   *   - Choices: `deny`, `permit`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#ace_rule_action AccessListExtended#ace_rule_action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#ace_rule_action AccessListExtended#ace_rule_action}
   */
   readonly aceRuleAction?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#ace_rule_protocol AccessListExtended#ace_rule_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#ace_rule_protocol AccessListExtended#ace_rule_protocol}
   */
   readonly aceRuleProtocol?: string;
   /**
   * Match on the ACK bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#ack AccessListExtended#ack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#ack AccessListExtended#ack}
   */
   readonly ack?: boolean | cdktf.IResolvable;
   /**
   * Any destination host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_any AccessListExtended#destination_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_any AccessListExtended#destination_any}
   */
   readonly destinationAny?: boolean | cdktf.IResolvable;
   /**
   * A single destination host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_host AccessListExtended#destination_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_host AccessListExtended#destination_host}
   */
   readonly destinationHost?: string;
   /**
   * Destination network object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_object_group AccessListExtended#destination_object_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_object_group AccessListExtended#destination_object_group}
   */
   readonly destinationObjectGroup?: string;
   /**
   * Match only packets on a given port number up to 10 ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal AccessListExtended#destination_port_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal AccessListExtended#destination_port_equal}
   */
   readonly destinationPortEqual?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_10 AccessListExtended#destination_port_equal_10}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_10 AccessListExtended#destination_port_equal_10}
   */
   readonly destinationPortEqual10?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_2 AccessListExtended#destination_port_equal_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_2 AccessListExtended#destination_port_equal_2}
   */
   readonly destinationPortEqual2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_3 AccessListExtended#destination_port_equal_3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_3 AccessListExtended#destination_port_equal_3}
   */
   readonly destinationPortEqual3?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_4 AccessListExtended#destination_port_equal_4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_4 AccessListExtended#destination_port_equal_4}
   */
   readonly destinationPortEqual4?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_5 AccessListExtended#destination_port_equal_5}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_5 AccessListExtended#destination_port_equal_5}
   */
   readonly destinationPortEqual5?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_6 AccessListExtended#destination_port_equal_6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_6 AccessListExtended#destination_port_equal_6}
   */
   readonly destinationPortEqual6?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_7 AccessListExtended#destination_port_equal_7}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_7 AccessListExtended#destination_port_equal_7}
   */
   readonly destinationPortEqual7?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_8 AccessListExtended#destination_port_equal_8}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_8 AccessListExtended#destination_port_equal_8}
   */
   readonly destinationPortEqual8?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_equal_9 AccessListExtended#destination_port_equal_9}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_equal_9 AccessListExtended#destination_port_equal_9}
   */
   readonly destinationPortEqual9?: string;
   /**
   * Match only packets with a greater port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_greater_than AccessListExtended#destination_port_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_greater_than AccessListExtended#destination_port_greater_than}
   */
   readonly destinationPortGreaterThan?: string;
   /**
   * Match only packets with a lower port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_lesser_than AccessListExtended#destination_port_lesser_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_lesser_than AccessListExtended#destination_port_lesser_than}
   */
   readonly destinationPortLesserThan?: string;
   /**
   * Match only packets in the range of port numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_range_from AccessListExtended#destination_port_range_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_range_from AccessListExtended#destination_port_range_from}
   */
   readonly destinationPortRangeFrom?: string;
   /**
   * Match only packets in the range of port numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_port_range_to AccessListExtended#destination_port_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_port_range_to AccessListExtended#destination_port_range_to}
   */
   readonly destinationPortRangeTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_prefix AccessListExtended#destination_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_prefix AccessListExtended#destination_prefix}
   */
   readonly destinationPrefix?: string;
   /**
   * Destination wildcard bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#destination_prefix_mask AccessListExtended#destination_prefix_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#destination_prefix_mask AccessListExtended#destination_prefix_mask}
   */
   readonly destinationPrefixMask?: string;
   /**
   * Match packets with given dscp value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#dscp AccessListExtended#dscp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#dscp AccessListExtended#dscp}
   */
   readonly dscp?: string;
   /**
   * Match established connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#established AccessListExtended#established}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#established AccessListExtended#established}
   */
   readonly established?: boolean | cdktf.IResolvable;
   /**
   * Match on the FIN bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#fin AccessListExtended#fin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#fin AccessListExtended#fin}
   */
   readonly fin?: boolean | cdktf.IResolvable;
   /**
   * Check non-initial fragments
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#fragments AccessListExtended#fragments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#fragments AccessListExtended#fragments}
   */
   readonly fragments?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#icmp_msg_code AccessListExtended#icmp_msg_code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#icmp_msg_code AccessListExtended#icmp_msg_code}
   */
   readonly icmpMsgCode?: number;
   /**
   * 
   *   - Range: `0`-`255`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#icmp_msg_type AccessListExtended#icmp_msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#icmp_msg_type AccessListExtended#icmp_msg_type}
   */
   readonly icmpMsgType?: number;
   /**
   * 
   *   - Choices: `administratively-prohibited`, `alternate-address`, `conversion-error`, `dod-host-prohibited`, `dod-net-prohibited`, `echo`, `echo-reply`, `general-parameter-problem`, `host-isolated`, `host-precedence-unreachable`, `host-redirect`, `host-tos-redirect`, `host-tos-unreachable`, `host-unknown`, `host-unreachable`, `information-reply`, `information-request`, `mask-reply`, `mask-request`, `mobile-redirect`, `net-redirect`, `net-tos-redirect`, `net-tos-unreachable`, `net-unreachable`, `network-unknown`, `no-room-for-option`, `option-missing`, `packet-too-big`, `parameter-problem`, `port-unreachable`, `precedence-unreachable`, `protocol-unreachable`, `reassembly-timeout`, `redirect`, `router-advertisement`, `router-solicitation`, `source-quench`, `source-route-failed`, `time-exceeded`, `timestamp-reply`, `timestamp-request`, `traceroute`, `ttl-exceeded`, `unreachable`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#icmp_named_msg_type AccessListExtended#icmp_named_msg_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#icmp_named_msg_type AccessListExtended#icmp_named_msg_type}
   */
   readonly icmpNamedMsgType?: string;
   /**
   * Log matches against this entry
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#log AccessListExtended#log}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#log AccessListExtended#log}
   */
   readonly log?: boolean | cdktf.IResolvable;
   /**
   * Log matches against this entry, including input interface
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#log_input AccessListExtended#log_input}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#log_input AccessListExtended#log_input}
   */
   readonly logInput?: boolean | cdktf.IResolvable;
   /**
   * Match packets with given precedence value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#precedence AccessListExtended#precedence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#precedence AccessListExtended#precedence}
   */
   readonly precedence?: string;
   /**
   * Match on the PSH bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#psh AccessListExtended#psh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#psh AccessListExtended#psh}
   */
   readonly psh?: boolean | cdktf.IResolvable;
   /**
   * Access list entry comment
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#remark AccessListExtended#remark}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#remark AccessListExtended#remark}
   */
   readonly remark?: string;
   /**
   * Match on the RST bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#rst AccessListExtended#rst}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#rst AccessListExtended#rst}
   */
   readonly rst?: boolean | cdktf.IResolvable;
   /**
   * 
   *   - Range: `1`-`2147483647`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#sequence AccessListExtended#sequence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#sequence AccessListExtended#sequence}
   */
   readonly sequence: number;
   /**
   * Service object group name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#service_object_group AccessListExtended#service_object_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#service_object_group AccessListExtended#service_object_group}
   */
   readonly serviceObjectGroup?: string;
   /**
   * Any source host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_any AccessListExtended#source_any}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_any AccessListExtended#source_any}
   */
   readonly sourceAny?: boolean | cdktf.IResolvable;
   /**
   * A single source host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_host AccessListExtended#source_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_host AccessListExtended#source_host}
   */
   readonly sourceHost?: string;
   /**
   * Source network object group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_object_group AccessListExtended#source_object_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_object_group AccessListExtended#source_object_group}
   */
   readonly sourceObjectGroup?: string;
   /**
   * Match only packets on a given port number up to 10 ports
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_port_equal AccessListExtended#source_port_equal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_port_equal AccessListExtended#source_port_equal}
   */
   readonly sourcePortEqual?: string;
   /**
   * Match only packets with a greater port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_port_greater_than AccessListExtended#source_port_greater_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_port_greater_than AccessListExtended#source_port_greater_than}
   */
   readonly sourcePortGreaterThan?: string;
   /**
   * Match only packets with a lower port number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_port_lesser_than AccessListExtended#source_port_lesser_than}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_port_lesser_than AccessListExtended#source_port_lesser_than}
   */
   readonly sourcePortLesserThan?: string;
   /**
   * Match only packets in the range of port numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_port_range_from AccessListExtended#source_port_range_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_port_range_from AccessListExtended#source_port_range_from}
   */
   readonly sourcePortRangeFrom?: string;
   /**
   * Match only packets in the range of port numbers
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_port_range_to AccessListExtended#source_port_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_port_range_to AccessListExtended#source_port_range_to}
   */
   readonly sourcePortRangeTo?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_prefix AccessListExtended#source_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_prefix AccessListExtended#source_prefix}
   */
   readonly sourcePrefix?: string;
   /**
   * Source wildcard bits
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#source_prefix_mask AccessListExtended#source_prefix_mask}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#source_prefix_mask AccessListExtended#source_prefix_mask}
   */
   readonly sourcePrefixMask?: string;
   /**
   * Match on the SYN bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#syn AccessListExtended#syn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#syn AccessListExtended#syn}
   */
   readonly syn?: boolean | cdktf.IResolvable;
   /**
   * Match packets with given TOS value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#tos AccessListExtended#tos}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#tos AccessListExtended#tos}
   */
   readonly tos?: string;
   /**
   * Match on the URG bit
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#urg AccessListExtended#urg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#urg AccessListExtended#urg}
   */
   readonly urg?: boolean | cdktf.IResolvable;
 }
@@ -1835,7 +1835,7 @@ export class AccessListExtendedEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended iosxe_access_list_extended}
+* Represents a {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended iosxe_access_list_extended}
 */
 export class AccessListExtended extends cdktf.TerraformResource {
 
@@ -1851,7 +1851,7 @@ export class AccessListExtended extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessListExtended resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessListExtended to import
-  * @param importFromId The id of the existing AccessListExtended that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessListExtended that should be imported. Refer to the {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessListExtended to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1863,7 +1863,7 @@ export class AccessListExtended extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.12.0/docs/resources/access_list_extended iosxe_access_list_extended} Resource
+  * Create a new {@link https://registry.terraform.io/providers/ciscodevnet/iosxe/0.13.0/docs/resources/access_list_extended iosxe_access_list_extended} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1874,8 +1874,8 @@ export class AccessListExtended extends cdktf.TerraformResource {
       terraformResourceType: 'iosxe_access_list_extended',
       terraformGeneratorMetadata: {
         providerName: 'iosxe',
-        providerVersion: '0.12.0',
-        providerVersionConstraint: '0.12.0'
+        providerVersion: '0.13.0',
+        providerVersionConstraint: '0.13.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

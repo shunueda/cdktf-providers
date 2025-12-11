@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting
+// https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,104 +8,104 @@ import * as cdktf from 'cdktf';
 
 export interface SystemLocallogDiskSettingConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#diskfull SystemLocallogDiskSetting#diskfull}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#diskfull SystemLocallogDiskSetting#diskfull}
   */
   readonly diskfull?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#id SystemLocallogDiskSetting#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#id SystemLocallogDiskSetting#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#log_disk_full_percentage SystemLocallogDiskSetting#log_disk_full_percentage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#log_disk_full_percentage SystemLocallogDiskSetting#log_disk_full_percentage}
   */
   readonly logDiskFullPercentage?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#log_disk_quota SystemLocallogDiskSetting#log_disk_quota}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#log_disk_quota SystemLocallogDiskSetting#log_disk_quota}
   */
   readonly logDiskQuota?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#max_log_file_num SystemLocallogDiskSetting#max_log_file_num}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#max_log_file_num SystemLocallogDiskSetting#max_log_file_num}
   */
   readonly maxLogFileNum?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#max_log_file_size SystemLocallogDiskSetting#max_log_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#max_log_file_size SystemLocallogDiskSetting#max_log_file_size}
   */
   readonly maxLogFileSize?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#roll_day SystemLocallogDiskSetting#roll_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#roll_day SystemLocallogDiskSetting#roll_day}
   */
   readonly rollDay?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#roll_schedule SystemLocallogDiskSetting#roll_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#roll_schedule SystemLocallogDiskSetting#roll_schedule}
   */
   readonly rollSchedule?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#roll_time SystemLocallogDiskSetting#roll_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#roll_time SystemLocallogDiskSetting#roll_time}
   */
   readonly rollTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#server_type SystemLocallogDiskSetting#server_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#server_type SystemLocallogDiskSetting#server_type}
   */
   readonly serverType?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#severity SystemLocallogDiskSetting#severity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#severity SystemLocallogDiskSetting#severity}
   */
   readonly severity?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#status SystemLocallogDiskSetting#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#status SystemLocallogDiskSetting#status}
   */
   readonly status?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#upload SystemLocallogDiskSetting#upload}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#upload SystemLocallogDiskSetting#upload}
   */
   readonly upload?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#upload_delete_files SystemLocallogDiskSetting#upload_delete_files}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#upload_delete_files SystemLocallogDiskSetting#upload_delete_files}
   */
   readonly uploadDeleteFiles?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#upload_time SystemLocallogDiskSetting#upload_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#upload_time SystemLocallogDiskSetting#upload_time}
   */
   readonly uploadTime?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploaddir SystemLocallogDiskSetting#uploaddir}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploaddir SystemLocallogDiskSetting#uploaddir}
   */
   readonly uploaddir?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploadip SystemLocallogDiskSetting#uploadip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploadip SystemLocallogDiskSetting#uploadip}
   */
   readonly uploadip?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploadpass SystemLocallogDiskSetting#uploadpass}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploadpass SystemLocallogDiskSetting#uploadpass}
   */
   readonly uploadpass?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploadport SystemLocallogDiskSetting#uploadport}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploadport SystemLocallogDiskSetting#uploadport}
   */
   readonly uploadport?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploadsched SystemLocallogDiskSetting#uploadsched}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploadsched SystemLocallogDiskSetting#uploadsched}
   */
   readonly uploadsched?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploadtype SystemLocallogDiskSetting#uploadtype}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploadtype SystemLocallogDiskSetting#uploadtype}
   */
   readonly uploadtype?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploaduser SystemLocallogDiskSetting#uploaduser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploaduser SystemLocallogDiskSetting#uploaduser}
   */
   readonly uploaduser?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#uploadzip SystemLocallogDiskSetting#uploadzip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#uploadzip SystemLocallogDiskSetting#uploadzip}
   */
   readonly uploadzip?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting fortianalyzer_system_locallog_disk_setting}
+* Represents a {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting fortianalyzer_system_locallog_disk_setting}
 */
 export class SystemLocallogDiskSetting extends cdktf.TerraformResource {
 
@@ -121,7 +121,7 @@ export class SystemLocallogDiskSetting extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SystemLocallogDiskSetting resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SystemLocallogDiskSetting to import
-  * @param importFromId The id of the existing SystemLocallogDiskSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SystemLocallogDiskSetting that should be imported. Refer to the {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SystemLocallogDiskSetting to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -133,7 +133,7 @@ export class SystemLocallogDiskSetting extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.1/docs/resources/system_locallog_disk_setting fortianalyzer_system_locallog_disk_setting} Resource
+  * Create a new {@link https://registry.terraform.io/providers/fortinetdev/fortianalyzer/1.5.2/docs/resources/system_locallog_disk_setting fortianalyzer_system_locallog_disk_setting} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -144,8 +144,8 @@ export class SystemLocallogDiskSetting extends cdktf.TerraformResource {
       terraformResourceType: 'fortianalyzer_system_locallog_disk_setting',
       terraformGeneratorMetadata: {
         providerName: 'fortianalyzer',
-        providerVersion: '1.5.1',
-        providerVersionConstraint: '1.5.1'
+        providerVersion: '1.5.2',
+        providerVersionConstraint: '1.5.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

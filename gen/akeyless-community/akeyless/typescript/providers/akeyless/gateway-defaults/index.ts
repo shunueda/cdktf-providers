@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface GatewayDefaultsConfig extends cdktf.TerraformMetaArguments {
   /**
   * Default Certificate access-id for UI login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#cert_access_id GatewayDefaults#cert_access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#cert_access_id GatewayDefaults#cert_access_id}
   */
   readonly certAccessId?: string;
   /**
   * Trigger an event when Gateway status is changed [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#event_on_status_change GatewayDefaults#event_on_status_change}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#event_on_status_change GatewayDefaults#event_on_status_change}
   */
   readonly eventOnStatusChange?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#id GatewayDefaults#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#id GatewayDefaults#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface GatewayDefaultsConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the gateway default encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#key GatewayDefaults#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#key GatewayDefaults#key}
   */
   readonly key?: string;
   /**
   * Default OIDC access-id for UI login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#oidc_access_id GatewayDefaults#oidc_access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#oidc_access_id GatewayDefaults#oidc_access_id}
   */
   readonly oidcAccessId?: string;
   /**
   * Default SAML access-id for UI login
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#saml_access_id GatewayDefaults#saml_access_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#saml_access_id GatewayDefaults#saml_access_id}
   */
   readonly samlAccessId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults akeyless_gateway_defaults}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults akeyless_gateway_defaults}
 */
 export class GatewayDefaults extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class GatewayDefaults extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GatewayDefaults resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GatewayDefaults to import
-  * @param importFromId The id of the existing GatewayDefaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GatewayDefaults that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GatewayDefaults to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class GatewayDefaults extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/gateway_defaults akeyless_gateway_defaults} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/gateway_defaults akeyless_gateway_defaults} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class GatewayDefaults extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_gateway_defaults',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

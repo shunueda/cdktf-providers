@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp
+// https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface ProducerGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Protection from accidental deletion of this item, [true/false]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#delete_protection ProducerGcp#delete_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#delete_protection ProducerGcp#delete_protection}
   */
   readonly deleteProtection?: string;
   /**
   * Credentials type, options are [token, key]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#gcp_cred_type ProducerGcp#gcp_cred_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#gcp_cred_type ProducerGcp#gcp_cred_type}
   */
   readonly gcpCredType?: string;
   /**
   * Base64-encoded service account private key text
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#gcp_key ProducerGcp#gcp_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#gcp_key ProducerGcp#gcp_key}
   */
   readonly gcpKey?: string;
   /**
   * Service account key algorithm, e.g. KEY_ALG_RSA_1024
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#gcp_key_algo ProducerGcp#gcp_key_algo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#gcp_key_algo ProducerGcp#gcp_key_algo}
   */
   readonly gcpKeyAlgo?: string;
   /**
   * GCP service account email
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#gcp_sa_email ProducerGcp#gcp_sa_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#gcp_sa_email ProducerGcp#gcp_sa_email}
   */
   readonly gcpSaEmail?: string;
   /**
   * Access token scopes list, e.g. scope1,scope2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#gcp_token_scopes ProducerGcp#gcp_token_scopes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#gcp_token_scopes ProducerGcp#gcp_token_scopes}
   */
   readonly gcpTokenScopes?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#id ProducerGcp#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#id ProducerGcp#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,49 +53,49 @@ export interface ProducerGcpConfig extends cdktf.TerraformMetaArguments {
   /**
   * Producer name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#name ProducerGcp#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#name ProducerGcp#name}
   */
   readonly name: string;
   /**
   * Dynamic producer encryption key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#producer_encryption_key_name ProducerGcp#producer_encryption_key_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#producer_encryption_key_name ProducerGcp#producer_encryption_key_name}
   */
   readonly producerEncryptionKeyName?: string;
   /**
   * Role binding definitions in json format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#role_binding ProducerGcp#role_binding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#role_binding ProducerGcp#role_binding}
   */
   readonly roleBinding?: string;
   /**
   * The type of the gcp dynamic secret. Options[fixed, dynamic]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#service_account_type ProducerGcp#service_account_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#service_account_type ProducerGcp#service_account_type}
   */
   readonly serviceAccountType?: string;
   /**
   * List of the tags attached to this secret. To specify multiple tags use argument multiple times: --tag Tag1 --tag Tag2
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#tags ProducerGcp#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#tags ProducerGcp#tags}
   */
   readonly tags?: string[];
   /**
   * Name of existing target to use in producer creation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#target_name ProducerGcp#target_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#target_name ProducerGcp#target_name}
   */
   readonly targetName?: string;
   /**
   * User TTL (<=60m for access token)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#user_ttl ProducerGcp#user_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#user_ttl ProducerGcp#user_ttl}
   */
   readonly userTtl?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp akeyless_producer_gcp}
+* Represents a {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp akeyless_producer_gcp}
 */
 export class ProducerGcp extends cdktf.TerraformResource {
 
@@ -111,7 +111,7 @@ export class ProducerGcp extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ProducerGcp resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ProducerGcp to import
-  * @param importFromId The id of the existing ProducerGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ProducerGcp that should be imported. Refer to the {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ProducerGcp to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -123,7 +123,7 @@ export class ProducerGcp extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.1/docs/resources/producer_gcp akeyless_producer_gcp} Resource
+  * Create a new {@link https://registry.terraform.io/providers/akeyless-community/akeyless/1.11.2/docs/resources/producer_gcp akeyless_producer_gcp} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -134,8 +134,8 @@ export class ProducerGcp extends cdktf.TerraformResource {
       terraformResourceType: 'akeyless_producer_gcp',
       terraformGeneratorMetadata: {
         providerName: 'akeyless',
-        providerVersion: '1.11.1',
-        providerVersionConstraint: '1.11.1'
+        providerVersion: '1.11.2',
+        providerVersionConstraint: '1.11.2'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

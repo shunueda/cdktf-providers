@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,54 +8,54 @@ import * as cdktf from 'cdktf';
 
 export interface RepositoryPolicyMaxFileSizeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#blocking RepositoryPolicyMaxFileSize#blocking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#blocking RepositoryPolicyMaxFileSize#blocking}
   */
   readonly blocking?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#enabled RepositoryPolicyMaxFileSize#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#enabled RepositoryPolicyMaxFileSize#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#id RepositoryPolicyMaxFileSize#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#id RepositoryPolicyMaxFileSize#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#max_file_size RepositoryPolicyMaxFileSize#max_file_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#max_file_size RepositoryPolicyMaxFileSize#max_file_size}
   */
   readonly maxFileSize: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#project_id RepositoryPolicyMaxFileSize#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#project_id RepositoryPolicyMaxFileSize#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#repository_ids RepositoryPolicyMaxFileSize#repository_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#repository_ids RepositoryPolicyMaxFileSize#repository_ids}
   */
   readonly repositoryIds?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#timeouts RepositoryPolicyMaxFileSize#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#timeouts RepositoryPolicyMaxFileSize#timeouts}
   */
   readonly timeouts?: RepositoryPolicyMaxFileSizeTimeouts;
 }
 export interface RepositoryPolicyMaxFileSizeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#create RepositoryPolicyMaxFileSize#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#create RepositoryPolicyMaxFileSize#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#delete RepositoryPolicyMaxFileSize#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#delete RepositoryPolicyMaxFileSize#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#read RepositoryPolicyMaxFileSize#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#read RepositoryPolicyMaxFileSize#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#update RepositoryPolicyMaxFileSize#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#update RepositoryPolicyMaxFileSize#update}
   */
   readonly update?: string;
 }
@@ -236,7 +236,7 @@ export class RepositoryPolicyMaxFileSizeTimeoutsOutputReference extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size azuredevops_repository_policy_max_file_size}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size azuredevops_repository_policy_max_file_size}
 */
 export class RepositoryPolicyMaxFileSize extends cdktf.TerraformResource {
 
@@ -252,7 +252,7 @@ export class RepositoryPolicyMaxFileSize extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryPolicyMaxFileSize resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryPolicyMaxFileSize to import
-  * @param importFromId The id of the existing RepositoryPolicyMaxFileSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryPolicyMaxFileSize that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryPolicyMaxFileSize to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -264,7 +264,7 @@ export class RepositoryPolicyMaxFileSize extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/repository_policy_max_file_size azuredevops_repository_policy_max_file_size} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/repository_policy_max_file_size azuredevops_repository_policy_max_file_size} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -275,8 +275,8 @@ export class RepositoryPolicyMaxFileSize extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_repository_policy_max_file_size',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

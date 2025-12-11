@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,26 +8,26 @@ import * as cdktf from 'cdktf';
 
 export interface DataAzuredevopsDescriptorConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor#id DataAzuredevopsDescriptor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor#id DataAzuredevopsDescriptor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor#storage_key DataAzuredevopsDescriptor#storage_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor#storage_key DataAzuredevopsDescriptor#storage_key}
   */
   readonly storageKey: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor#timeouts DataAzuredevopsDescriptor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor#timeouts DataAzuredevopsDescriptor#timeouts}
   */
   readonly timeouts?: DataAzuredevopsDescriptorTimeouts;
 }
 export interface DataAzuredevopsDescriptorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor#read DataAzuredevopsDescriptor#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor#read DataAzuredevopsDescriptor#read}
   */
   readonly read?: string;
 }
@@ -121,7 +121,7 @@ export class DataAzuredevopsDescriptorTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor azuredevops_descriptor}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor azuredevops_descriptor}
 */
 export class DataAzuredevopsDescriptor extends cdktf.TerraformDataSource {
 
@@ -137,7 +137,7 @@ export class DataAzuredevopsDescriptor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataAzuredevopsDescriptor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataAzuredevopsDescriptor to import
-  * @param importFromId The id of the existing DataAzuredevopsDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataAzuredevopsDescriptor that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataAzuredevopsDescriptor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -149,7 +149,7 @@ export class DataAzuredevopsDescriptor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/data-sources/descriptor azuredevops_descriptor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/data-sources/descriptor azuredevops_descriptor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -160,8 +160,8 @@ export class DataAzuredevopsDescriptor extends cdktf.TerraformDataSource {
       terraformResourceType: 'azuredevops_descriptor',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

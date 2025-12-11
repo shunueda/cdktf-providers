@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog
+// https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface AlertChannelDatadogConfig extends cdktf.TerraformMetaArguments 
   /**
   * The Datadog api key required to submit metrics and events to Datadog
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#api_key AlertChannelDatadog#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#api_key AlertChannelDatadog#api_key}
   */
   readonly apiKey: string;
   /**
   * The level of detail of logs or event stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#datadog_service AlertChannelDatadog#datadog_service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#datadog_service AlertChannelDatadog#datadog_service}
   */
   readonly datadogService?: string;
   /**
   * Where to store your logs, either the US or Europe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#datadog_site AlertChannelDatadog#datadog_site}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#datadog_site AlertChannelDatadog#datadog_site}
   */
   readonly datadogSite?: string;
   /**
   * The state of the external integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#enabled AlertChannelDatadog#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#enabled AlertChannelDatadog#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#id AlertChannelDatadog#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#id AlertChannelDatadog#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface AlertChannelDatadogConfig extends cdktf.TerraformMetaArguments 
   /**
   * The integration name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#name AlertChannelDatadog#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#name AlertChannelDatadog#name}
   */
   readonly name: string;
   /**
   * Whether to test the integration of an alert channel upon creation and modifications
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#test_integration AlertChannelDatadog#test_integration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#test_integration AlertChannelDatadog#test_integration}
   */
   readonly testIntegration?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog lacework_alert_channel_datadog}
+* Represents a {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog lacework_alert_channel_datadog}
 */
 export class AlertChannelDatadog extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class AlertChannelDatadog extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AlertChannelDatadog resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AlertChannelDatadog to import
-  * @param importFromId The id of the existing AlertChannelDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AlertChannelDatadog that should be imported. Refer to the {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AlertChannelDatadog to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class AlertChannelDatadog extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.10/docs/resources/alert_channel_datadog lacework_alert_channel_datadog} Resource
+  * Create a new {@link https://registry.terraform.io/providers/lacework/lacework/2.0.11/docs/resources/alert_channel_datadog lacework_alert_channel_datadog} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class AlertChannelDatadog extends cdktf.TerraformResource {
       terraformResourceType: 'lacework_alert_channel_datadog',
       terraformGeneratorMetadata: {
         providerName: 'lacework',
-        providerVersion: '2.0.10',
-        providerVersionConstraint: '2.0.10'
+        providerVersion: '2.0.11',
+        providerVersionConstraint: '2.0.11'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

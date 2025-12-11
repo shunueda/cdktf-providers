@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,68 +10,68 @@ export interface ServiceendpointAzurecrConfig extends cdktf.TerraformMetaArgumen
   /**
   * The AzureContainerRegistry registry which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#azurecr_name ServiceendpointAzurecr#azurecr_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#azurecr_name ServiceendpointAzurecr#azurecr_name}
   */
   readonly azurecrName: string;
   /**
   * The service principal tenant id which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#azurecr_spn_tenantid ServiceendpointAzurecr#azurecr_spn_tenantid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#azurecr_spn_tenantid ServiceendpointAzurecr#azurecr_spn_tenantid}
   */
   readonly azurecrSpnTenantid: string;
   /**
   * The Azure subscription Id which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#azurecr_subscription_id ServiceendpointAzurecr#azurecr_subscription_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#azurecr_subscription_id ServiceendpointAzurecr#azurecr_subscription_id}
   */
   readonly azurecrSubscriptionId: string;
   /**
   * The Azure subscription name which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#azurecr_subscription_name ServiceendpointAzurecr#azurecr_subscription_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#azurecr_subscription_name ServiceendpointAzurecr#azurecr_subscription_name}
   */
   readonly azurecrSubscriptionName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#description ServiceendpointAzurecr#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#description ServiceendpointAzurecr#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#id ServiceendpointAzurecr#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#id ServiceendpointAzurecr#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#project_id ServiceendpointAzurecr#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#project_id ServiceendpointAzurecr#project_id}
   */
   readonly projectId: string;
   /**
   * Scope Resource Group
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#resource_group ServiceendpointAzurecr#resource_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#resource_group ServiceendpointAzurecr#resource_group}
   */
   readonly resourceGroup?: string;
   /**
   * The AzureCR Service Endpoint Authentication Scheme, this can be 'WorkloadIdentityFederation', 'ManagedServiceIdentity' or 'ServicePrincipal'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#service_endpoint_authentication_scheme ServiceendpointAzurecr#service_endpoint_authentication_scheme}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#service_endpoint_authentication_scheme ServiceendpointAzurecr#service_endpoint_authentication_scheme}
   */
   readonly serviceEndpointAuthenticationScheme?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#service_endpoint_name ServiceendpointAzurecr#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#service_endpoint_name ServiceendpointAzurecr#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
   * credentials block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#credentials ServiceendpointAzurecr#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#credentials ServiceendpointAzurecr#credentials}
   */
   readonly credentials?: ServiceendpointAzurecrCredentials;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#timeouts ServiceendpointAzurecr#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#timeouts ServiceendpointAzurecr#timeouts}
   */
   readonly timeouts?: ServiceendpointAzurecrTimeouts;
 }
@@ -79,7 +79,7 @@ export interface ServiceendpointAzurecrCredentials {
   /**
   * The service principal id which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#serviceprincipalid ServiceendpointAzurecr#serviceprincipalid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#serviceprincipalid ServiceendpointAzurecr#serviceprincipalid}
   */
   readonly serviceprincipalid: string;
 }
@@ -160,19 +160,19 @@ export class ServiceendpointAzurecrCredentialsOutputReference extends cdktf.Comp
 }
 export interface ServiceendpointAzurecrTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#create ServiceendpointAzurecr#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#create ServiceendpointAzurecr#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#delete ServiceendpointAzurecr#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#delete ServiceendpointAzurecr#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#read ServiceendpointAzurecr#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#read ServiceendpointAzurecr#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#update ServiceendpointAzurecr#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#update ServiceendpointAzurecr#update}
   */
   readonly update?: string;
 }
@@ -353,7 +353,7 @@ export class ServiceendpointAzurecrTimeoutsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr azuredevops_serviceendpoint_azurecr}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr azuredevops_serviceendpoint_azurecr}
 */
 export class ServiceendpointAzurecr extends cdktf.TerraformResource {
 
@@ -369,7 +369,7 @@ export class ServiceendpointAzurecr extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointAzurecr resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointAzurecr to import
-  * @param importFromId The id of the existing ServiceendpointAzurecr that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointAzurecr that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointAzurecr to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -381,7 +381,7 @@ export class ServiceendpointAzurecr extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_azurecr azuredevops_serviceendpoint_azurecr} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_azurecr azuredevops_serviceendpoint_azurecr} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -392,8 +392,8 @@ export class ServiceendpointAzurecr extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_azurecr',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

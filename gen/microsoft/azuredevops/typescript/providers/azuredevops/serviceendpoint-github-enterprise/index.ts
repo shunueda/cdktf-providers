@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise
+// https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,50 +8,50 @@ import * as cdktf from 'cdktf';
 
 export interface ServiceendpointGithubEnterpriseConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#description ServiceendpointGithubEnterprise#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#description ServiceendpointGithubEnterprise#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#id ServiceendpointGithubEnterprise#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#id ServiceendpointGithubEnterprise#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#project_id ServiceendpointGithubEnterprise#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#project_id ServiceendpointGithubEnterprise#project_id}
   */
   readonly projectId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#service_endpoint_name ServiceendpointGithubEnterprise#service_endpoint_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#service_endpoint_name ServiceendpointGithubEnterprise#service_endpoint_name}
   */
   readonly serviceEndpointName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#url ServiceendpointGithubEnterprise#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#url ServiceendpointGithubEnterprise#url}
   */
   readonly url?: string;
   /**
   * auth_oauth block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#auth_oauth ServiceendpointGithubEnterprise#auth_oauth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#auth_oauth ServiceendpointGithubEnterprise#auth_oauth}
   */
   readonly authOauth?: ServiceendpointGithubEnterpriseAuthOauth;
   /**
   * auth_personal block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#auth_personal ServiceendpointGithubEnterprise#auth_personal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#auth_personal ServiceendpointGithubEnterprise#auth_personal}
   */
   readonly authPersonal?: ServiceendpointGithubEnterpriseAuthPersonal;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#timeouts ServiceendpointGithubEnterprise#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#timeouts ServiceendpointGithubEnterprise#timeouts}
   */
   readonly timeouts?: ServiceendpointGithubEnterpriseTimeouts;
 }
 export interface ServiceendpointGithubEnterpriseAuthOauth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#oauth_configuration_id ServiceendpointGithubEnterprise#oauth_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#oauth_configuration_id ServiceendpointGithubEnterprise#oauth_configuration_id}
   */
   readonly oauthConfigurationId: string;
 }
@@ -134,7 +134,7 @@ export interface ServiceendpointGithubEnterpriseAuthPersonal {
   /**
   * The GitHub personal access token which should be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#personal_access_token ServiceendpointGithubEnterprise#personal_access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#personal_access_token ServiceendpointGithubEnterprise#personal_access_token}
   */
   readonly personalAccessToken: string;
 }
@@ -215,19 +215,19 @@ export class ServiceendpointGithubEnterpriseAuthPersonalOutputReference extends 
 }
 export interface ServiceendpointGithubEnterpriseTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#create ServiceendpointGithubEnterprise#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#create ServiceendpointGithubEnterprise#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#delete ServiceendpointGithubEnterprise#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#delete ServiceendpointGithubEnterprise#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#read ServiceendpointGithubEnterprise#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#read ServiceendpointGithubEnterprise#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#update ServiceendpointGithubEnterprise#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#update ServiceendpointGithubEnterprise#update}
   */
   readonly update?: string;
 }
@@ -408,7 +408,7 @@ export class ServiceendpointGithubEnterpriseTimeoutsOutputReference extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise azuredevops_serviceendpoint_github_enterprise}
+* Represents a {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise azuredevops_serviceendpoint_github_enterprise}
 */
 export class ServiceendpointGithubEnterprise extends cdktf.TerraformResource {
 
@@ -424,7 +424,7 @@ export class ServiceendpointGithubEnterprise extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ServiceendpointGithubEnterprise resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ServiceendpointGithubEnterprise to import
-  * @param importFromId The id of the existing ServiceendpointGithubEnterprise that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ServiceendpointGithubEnterprise that should be imported. Refer to the {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ServiceendpointGithubEnterprise to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -436,7 +436,7 @@ export class ServiceendpointGithubEnterprise extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.11.2/docs/resources/serviceendpoint_github_enterprise azuredevops_serviceendpoint_github_enterprise} Resource
+  * Create a new {@link https://registry.terraform.io/providers/microsoft/azuredevops/1.12.0/docs/resources/serviceendpoint_github_enterprise azuredevops_serviceendpoint_github_enterprise} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -447,8 +447,8 @@ export class ServiceendpointGithubEnterprise extends cdktf.TerraformResource {
       terraformResourceType: 'azuredevops_serviceendpoint_github_enterprise',
       terraformGeneratorMetadata: {
         providerName: 'azuredevops',
-        providerVersion: '1.11.2',
-        providerVersionConstraint: '1.11.2'
+        providerVersion: '1.12.0',
+        providerVersionConstraint: '1.12.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
