@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DcBgpStaticAnnounceConfig extends cdktf.TerraformMetaArguments 
   /**
   * Direct Connect BGP ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#dc_bgp_id DcBgpStaticAnnounce#dc_bgp_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#dc_bgp_id DcBgpStaticAnnounce#dc_bgp_id}
   */
   readonly dcBgpId: string;
   /**
   * Description of the BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#description DcBgpStaticAnnounce#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#description DcBgpStaticAnnounce#description}
   */
   readonly description?: string;
   /**
   * Enable or disable item. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#enabled DcBgpStaticAnnounce#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#enabled DcBgpStaticAnnounce#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP address of gateway. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#gateway DcBgpStaticAnnounce#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#gateway DcBgpStaticAnnounce#gateway}
   */
   readonly gateway: string;
   /**
   * Name of the BGP neighbor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#name DcBgpStaticAnnounce#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#name DcBgpStaticAnnounce#name}
   */
   readonly name?: string;
   /**
   * Subnet in CIDR notation. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#network DcBgpStaticAnnounce#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#network DcBgpStaticAnnounce#network}
   */
   readonly network: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new bgp_static_announce.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#region DcBgpStaticAnnounce#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#region DcBgpStaticAnnounce#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce vkcs_dc_bgp_static_announce}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce vkcs_dc_bgp_static_announce}
 */
 export class DcBgpStaticAnnounce extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class DcBgpStaticAnnounce extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcBgpStaticAnnounce resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcBgpStaticAnnounce to import
-  * @param importFromId The id of the existing DcBgpStaticAnnounce that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcBgpStaticAnnounce that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcBgpStaticAnnounce to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DcBgpStaticAnnounce extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_static_announce vkcs_dc_bgp_static_announce} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_static_announce vkcs_dc_bgp_static_announce} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DcBgpStaticAnnounce extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_bgp_static_announce',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

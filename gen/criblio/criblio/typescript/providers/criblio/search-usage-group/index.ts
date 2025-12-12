@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group
+// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,21 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface SearchUsageGroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#coordinator_heap_memory_limit SearchUsageGroup#coordinator_heap_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#coordinator_heap_memory_limit SearchUsageGroup#coordinator_heap_memory_limit}
   */
   readonly coordinatorHeapMemoryLimit?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#description SearchUsageGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#description SearchUsageGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#enabled SearchUsageGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#enabled SearchUsageGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#id SearchUsageGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#id SearchUsageGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,11 +31,11 @@ export interface SearchUsageGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Parsed as JSON.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#rules SearchUsageGroup#rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#rules SearchUsageGroup#rules}
   */
   readonly rules: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#users_count SearchUsageGroup#users_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#users_count SearchUsageGroup#users_count}
   */
   readonly usersCount?: number;
 }
@@ -141,7 +141,7 @@ export class SearchUsageGroupItemsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group criblio_search_usage_group}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group criblio_search_usage_group}
 */
 export class SearchUsageGroup extends cdktf.TerraformResource {
 
@@ -157,7 +157,7 @@ export class SearchUsageGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchUsageGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchUsageGroup to import
-  * @param importFromId The id of the existing SearchUsageGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchUsageGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchUsageGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -169,7 +169,7 @@ export class SearchUsageGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_usage_group criblio_search_usage_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_usage_group criblio_search_usage_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -180,8 +180,8 @@ export class SearchUsageGroup extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_usage_group',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.48',
-        providerVersionConstraint: '1.20.48'
+        providerVersion: '1.20.59',
+        providerVersionConstraint: '1.20.59'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

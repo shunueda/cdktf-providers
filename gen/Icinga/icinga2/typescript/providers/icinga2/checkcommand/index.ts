@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand
+// https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,15 +8,15 @@ import * as cdktf from 'cdktf';
 
 export interface CheckcommandConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand#arguments Checkcommand#arguments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand#arguments Checkcommand#arguments}
   */
   readonly arguments?: { [key: string]: string };
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand#command Checkcommand#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand#command Checkcommand#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand#id Checkcommand#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand#id Checkcommand#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,17 +25,17 @@ export interface CheckcommandConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand#name Checkcommand#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand#name Checkcommand#name}
   */
   readonly name: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand#templates Checkcommand#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand#templates Checkcommand#templates}
   */
   readonly templates: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand icinga2_checkcommand}
+* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand icinga2_checkcommand}
 */
 export class Checkcommand extends cdktf.TerraformResource {
 
@@ -51,7 +51,7 @@ export class Checkcommand extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Checkcommand resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Checkcommand to import
-  * @param importFromId The id of the existing Checkcommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Checkcommand that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Checkcommand to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -63,7 +63,7 @@ export class Checkcommand extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/checkcommand icinga2_checkcommand} Resource
+  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/checkcommand icinga2_checkcommand} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -74,8 +74,8 @@ export class Checkcommand extends cdktf.TerraformResource {
       terraformResourceType: 'icinga2_checkcommand',
       terraformGeneratorMetadata: {
         providerName: 'icinga2',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

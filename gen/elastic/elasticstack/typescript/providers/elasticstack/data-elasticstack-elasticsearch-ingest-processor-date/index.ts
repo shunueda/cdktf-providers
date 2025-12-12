@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface DataElasticstackElasticsearchIngestProcessorDateConfig extends 
   /**
   * Description of the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#description DataElasticstackElasticsearchIngestProcessorDate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#description DataElasticstackElasticsearchIngestProcessorDate#description}
   */
   readonly description?: string;
   /**
   * The field to get the date from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#field DataElasticstackElasticsearchIngestProcessorDate#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#field DataElasticstackElasticsearchIngestProcessorDate#field}
   */
   readonly field: string;
   /**
   * An array of the expected date formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#formats DataElasticstackElasticsearchIngestProcessorDate#formats}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#formats DataElasticstackElasticsearchIngestProcessorDate#formats}
   */
   readonly formats: string[];
   /**
   * Conditionally execute the processor
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#if DataElasticstackElasticsearchIngestProcessorDate#if}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#if DataElasticstackElasticsearchIngestProcessorDate#if}
   */
   readonly if?: string;
   /**
   * Ignore failures for the processor. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#ignore_failure DataElasticstackElasticsearchIngestProcessorDate#ignore_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#ignore_failure DataElasticstackElasticsearchIngestProcessorDate#ignore_failure}
   */
   readonly ignoreFailure?: boolean | cdktf.IResolvable;
   /**
   * The locale to use when parsing the date, relevant when parsing month names or week days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#locale DataElasticstackElasticsearchIngestProcessorDate#locale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#locale DataElasticstackElasticsearchIngestProcessorDate#locale}
   */
   readonly locale?: string;
   /**
   * Handle failures for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#on_failure DataElasticstackElasticsearchIngestProcessorDate#on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#on_failure DataElasticstackElasticsearchIngestProcessorDate#on_failure}
   */
   readonly onFailure?: string[];
   /**
   * The format to use when writing the date to `target_field`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#output_format DataElasticstackElasticsearchIngestProcessorDate#output_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#output_format DataElasticstackElasticsearchIngestProcessorDate#output_format}
   */
   readonly outputFormat?: string;
   /**
   * Identifier for the processor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#tag DataElasticstackElasticsearchIngestProcessorDate#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#tag DataElasticstackElasticsearchIngestProcessorDate#tag}
   */
   readonly tag?: string;
   /**
   * The field that will hold the parsed date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#target_field DataElasticstackElasticsearchIngestProcessorDate#target_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#target_field DataElasticstackElasticsearchIngestProcessorDate#target_field}
   */
   readonly targetField?: string;
   /**
   * The timezone to use when parsing the date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#timezone DataElasticstackElasticsearchIngestProcessorDate#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#timezone DataElasticstackElasticsearchIngestProcessorDate#timezone}
   */
   readonly timezone?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date elasticstack_elasticsearch_ingest_processor_date}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date elasticstack_elasticsearch_ingest_processor_date}
 */
 export class DataElasticstackElasticsearchIngestProcessorDate extends cdktf.TerraformDataSource {
 
@@ -92,7 +92,7 @@ export class DataElasticstackElasticsearchIngestProcessorDate extends cdktf.Terr
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIngestProcessorDate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIngestProcessorDate to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorDate that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIngestProcessorDate that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIngestProcessorDate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -104,7 +104,7 @@ export class DataElasticstackElasticsearchIngestProcessorDate extends cdktf.Terr
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_ingest_processor_date elasticstack_elasticsearch_ingest_processor_date} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_ingest_processor_date elasticstack_elasticsearch_ingest_processor_date} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -115,8 +115,8 @@ export class DataElasticstackElasticsearchIngestProcessorDate extends cdktf.Terr
       terraformResourceType: 'elasticstack_elasticsearch_ingest_processor_date',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification
+// https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,44 +8,44 @@ import * as cdktf from 'cdktf';
 
 export interface NotificationConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#command Notification#command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#command Notification#command}
   */
   readonly command: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#hostname Notification#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#hostname Notification#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#id Notification#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#id Notification#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#interval Notification#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#interval Notification#interval}
   */
   readonly interval?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#servicename Notification#servicename}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#servicename Notification#servicename}
   */
   readonly servicename?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#templates Notification#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#templates Notification#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#users Notification#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#users Notification#users}
   */
   readonly users?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#vars Notification#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#vars Notification#vars}
   */
   readonly vars?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification icinga2_notification}
+* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification icinga2_notification}
 */
 export class Notification extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class Notification extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Notification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Notification to import
-  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Notification that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Notification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class Notification extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/notification icinga2_notification} Resource
+  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/notification icinga2_notification} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class Notification extends cdktf.TerraformResource {
       terraformResourceType: 'icinga2_notification',
       terraformGeneratorMetadata: {
         providerName: 'icinga2',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

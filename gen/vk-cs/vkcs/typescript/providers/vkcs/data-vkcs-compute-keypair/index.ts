@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface DataVkcsComputeKeypairConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair#id DataVkcsComputeKeypair#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair#id DataVkcsComputeKeypair#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,19 +17,19 @@ export interface DataVkcsComputeKeypairConfig extends cdktf.TerraformMetaArgumen
   /**
   * The unique name of the keypair.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair#name DataVkcsComputeKeypair#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair#name DataVkcsComputeKeypair#name}
   */
   readonly name: string;
   /**
   * The region in which to obtain the Compute client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair#region DataVkcsComputeKeypair#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair#region DataVkcsComputeKeypair#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair vkcs_compute_keypair}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair vkcs_compute_keypair}
 */
 export class DataVkcsComputeKeypair extends cdktf.TerraformDataSource {
 
@@ -45,7 +45,7 @@ export class DataVkcsComputeKeypair extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsComputeKeypair resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsComputeKeypair to import
-  * @param importFromId The id of the existing DataVkcsComputeKeypair that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsComputeKeypair that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsComputeKeypair to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +57,7 @@ export class DataVkcsComputeKeypair extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_keypair vkcs_compute_keypair} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_keypair vkcs_compute_keypair} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +68,8 @@ export class DataVkcsComputeKeypair extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_compute_keypair',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

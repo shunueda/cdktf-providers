@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker
+// https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface HarnessDockerConfig extends cdktf.TerraformMetaArguments {
   /**
   * Environment variables to set on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#envs HarnessDocker#envs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#envs HarnessDocker#envs}
   */
   readonly envs?: { [key: string]: string };
   /**
   * The full image reference to use for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#image HarnessDocker#image}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#image HarnessDocker#image}
   */
   readonly image?: string;
   /**
   * The inventory this harness belongs to. This is received as a direct input from a data.imagetest_inventory data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#inventory HarnessDocker#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#inventory HarnessDocker#inventory}
   */
   readonly inventory: HarnessDockerInventory;
   /**
   * A list of keyrings to add to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#keyrings HarnessDocker#keyrings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#keyrings HarnessDocker#keyrings}
   */
   readonly keyrings?: string[];
   /**
   * The list of layers to add to the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#layers HarnessDocker#layers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#layers HarnessDocker#layers}
   */
   readonly layers?: HarnessDockerLayers[] | cdktf.IResolvable;
   /**
   * The list of mounts to create on the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#mounts HarnessDocker#mounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#mounts HarnessDocker#mounts}
   */
   readonly mounts?: HarnessDockerMounts[] | cdktf.IResolvable;
   /**
   * The name of the harness. This must be unique within the scope of the provided inventory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#name HarnessDocker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#name HarnessDocker#name}
   */
   readonly name: string;
   /**
   * A map of existing networks to attach the container to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#networks HarnessDocker#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#networks HarnessDocker#networks}
   */
   readonly networks?: { [key: string]: HarnessDockerNetworks } | cdktf.IResolvable;
   /**
   * A list of packages to install in the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#packages HarnessDocker#packages}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#packages HarnessDocker#packages}
   */
   readonly packages?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#privileged HarnessDocker#privileged}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#privileged HarnessDocker#privileged}
   */
   readonly privileged?: boolean | cdktf.IResolvable;
   /**
   * A map of registries containing configuration for optional auth, tls, and mirror configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#registries HarnessDocker#registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#registries HarnessDocker#registries}
   */
   readonly registries?: { [key: string]: HarnessDockerRegistries } | cdktf.IResolvable;
   /**
   * A list of repositories to use for the container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#repositories HarnessDocker#repositories}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#repositories HarnessDocker#repositories}
   */
   readonly repositories?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#resources HarnessDocker#resources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#resources HarnessDocker#resources}
   */
   readonly resources?: HarnessDockerResources;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#timeouts HarnessDocker#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#timeouts HarnessDocker#timeouts}
   */
   readonly timeouts?: HarnessDockerTimeouts;
   /**
   * The volumes this harness should mount. This is received as a mapping from imagetest_container_volume resources to destination folders.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#volumes HarnessDocker#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#volumes HarnessDocker#volumes}
   */
   readonly volumes?: HarnessDockerVolumes[] | cdktf.IResolvable;
 }
 export interface HarnessDockerInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#seed HarnessDocker#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#seed HarnessDocker#seed}
   */
   readonly seed: string;
 }
@@ -187,13 +187,13 @@ export interface HarnessDockerLayers {
   /**
   * The relative or absolute path on the host to the source directory to create a layer from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#source HarnessDocker#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#source HarnessDocker#source}
   */
   readonly source: string;
   /**
   * The absolute path on the container to root the source directory in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#target HarnessDocker#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#target HarnessDocker#target}
   */
   readonly target: string;
 }
@@ -334,19 +334,19 @@ export interface HarnessDockerMounts {
   /**
   * The absolute path on the container to mount the source directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#destination HarnessDocker#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#destination HarnessDocker#destination}
   */
   readonly destination: string;
   /**
   * Whether the mount should be read-only.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#read_only HarnessDocker#read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#read_only HarnessDocker#read_only}
   */
   readonly readOnly?: boolean | cdktf.IResolvable;
   /**
   * The relative or absolute path on the host to the source directory to mount.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#source HarnessDocker#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#source HarnessDocker#source}
   */
   readonly source: string;
 }
@@ -516,7 +516,7 @@ export interface HarnessDockerNetworks {
   /**
   * The name of the existing network to attach the container to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#name HarnessDocker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#name HarnessDocker#name}
   */
   readonly name: string;
 }
@@ -627,15 +627,15 @@ export class HarnessDockerNetworksMap extends cdktf.ComplexMap {
 }
 export interface HarnessDockerRegistriesAuth {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#auth HarnessDocker#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#auth HarnessDocker#auth}
   */
   readonly auth?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#password HarnessDocker#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#password HarnessDocker#password}
   */
   readonly password?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#username HarnessDocker#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#username HarnessDocker#username}
   */
   readonly username?: string;
 }
@@ -787,7 +787,7 @@ export class HarnessDockerRegistriesAuthOutputReference extends cdktf.ComplexObj
 }
 export interface HarnessDockerRegistries {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#auth HarnessDocker#auth}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#auth HarnessDocker#auth}
   */
   readonly auth?: HarnessDockerRegistriesAuth;
 }
@@ -903,13 +903,13 @@ export interface HarnessDockerResourcesCpu {
   /**
   * Unused.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#limit HarnessDocker#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#limit HarnessDocker#limit}
   */
   readonly limit?: string;
   /**
   * Quantity of CPUs requested for the harness container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#request HarnessDocker#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#request HarnessDocker#request}
   */
   readonly request?: string;
 }
@@ -1034,13 +1034,13 @@ export interface HarnessDockerResourcesMemory {
   /**
   * Limit of memory the harness container can consume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#limit HarnessDocker#limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#limit HarnessDocker#limit}
   */
   readonly limit?: string;
   /**
   * Amount of memory requested for the harness container
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#request HarnessDocker#request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#request HarnessDocker#request}
   */
   readonly request?: string;
 }
@@ -1163,11 +1163,11 @@ export class HarnessDockerResourcesMemoryOutputReference extends cdktf.ComplexOb
 }
 export interface HarnessDockerResources {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#cpu HarnessDocker#cpu}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#cpu HarnessDocker#cpu}
   */
   readonly cpu?: HarnessDockerResourcesCpu;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#memory HarnessDocker#memory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#memory HarnessDocker#memory}
   */
   readonly memory?: HarnessDockerResourcesMemory;
 }
@@ -1292,7 +1292,7 @@ export interface HarnessDockerTimeouts {
   /**
   * The maximum time to wait for the k3s harness to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#create HarnessDocker#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#create HarnessDocker#create}
   */
   readonly create?: string;
 }
@@ -1386,7 +1386,7 @@ export class HarnessDockerTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 export interface HarnessDockerVolumesSourceInventory {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#seed HarnessDocker#seed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#seed HarnessDocker#seed}
   */
   readonly seed: string;
 }
@@ -1477,18 +1477,18 @@ export class HarnessDockerVolumesSourceInventoryOutputReference extends cdktf.Co
 }
 export interface HarnessDockerVolumesSource {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#id HarnessDocker#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#id HarnessDocker#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#inventory HarnessDocker#inventory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#inventory HarnessDocker#inventory}
   */
   readonly inventory: HarnessDockerVolumesSourceInventory;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#name HarnessDocker#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#name HarnessDocker#name}
   */
   readonly name: string;
 }
@@ -1631,11 +1631,11 @@ export class HarnessDockerVolumesSourceOutputReference extends cdktf.ComplexObje
 }
 export interface HarnessDockerVolumes {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#destination HarnessDocker#destination}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#destination HarnessDocker#destination}
   */
   readonly destination: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#source HarnessDocker#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#source HarnessDocker#source}
   */
   readonly source: HarnessDockerVolumesSource;
 }
@@ -1774,7 +1774,7 @@ export class HarnessDockerVolumesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker imagetest_harness_docker}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker imagetest_harness_docker}
 */
 export class HarnessDocker extends cdktf.TerraformResource {
 
@@ -1790,7 +1790,7 @@ export class HarnessDocker extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a HarnessDocker resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the HarnessDocker to import
-  * @param importFromId The id of the existing HarnessDocker that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing HarnessDocker that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the HarnessDocker to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1802,7 +1802,7 @@ export class HarnessDocker extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.107/docs/resources/harness_docker imagetest_harness_docker} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/imagetest/0.0.108/docs/resources/harness_docker imagetest_harness_docker} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1813,8 +1813,8 @@ export class HarnessDocker extends cdktf.TerraformResource {
       terraformResourceType: 'imagetest_harness_docker',
       terraformGeneratorMetadata: {
         providerName: 'imagetest',
-        providerVersion: '0.0.107',
-        providerVersionConstraint: '0.0.107'
+        providerVersion: '0.0.108',
+        providerVersionConstraint: '0.0.108'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

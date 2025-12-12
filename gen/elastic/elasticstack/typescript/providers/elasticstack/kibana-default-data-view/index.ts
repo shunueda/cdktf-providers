@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface KibanaDefaultDataViewConfig extends cdktf.TerraformMetaArgument
   /**
   * The data view identifier to set as default. NOTE: The API does not validate whether it is a valid identifier. Leave this unset (or explicitly `null`) to unset the default data view.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view#data_view_id KibanaDefaultDataView#data_view_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view#data_view_id KibanaDefaultDataView#data_view_id}
   */
   readonly dataViewId?: string;
   /**
   * Update an existing default data view identifier. If set to false and a default data view already exists, the operation will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view#force KibanaDefaultDataView#force}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view#force KibanaDefaultDataView#force}
   */
   readonly force?: boolean | cdktf.IResolvable;
   /**
   * If set to true, the default data view will not be unset when the resource is destroyed. The existing default data view will remain unchanged.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view#skip_delete KibanaDefaultDataView#skip_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view#skip_delete KibanaDefaultDataView#skip_delete}
   */
   readonly skipDelete?: boolean | cdktf.IResolvable;
   /**
   * The Kibana space ID to set the default data view in. Defaults to `default`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view#space_id KibanaDefaultDataView#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view#space_id KibanaDefaultDataView#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view elasticstack_kibana_default_data_view}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view elasticstack_kibana_default_data_view}
 */
 export class KibanaDefaultDataView extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class KibanaDefaultDataView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaDefaultDataView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaDefaultDataView to import
-  * @param importFromId The id of the existing KibanaDefaultDataView that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaDefaultDataView that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaDefaultDataView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class KibanaDefaultDataView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_default_data_view elasticstack_kibana_default_data_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_default_data_view elasticstack_kibana_default_data_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class KibanaDefaultDataView extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_default_data_view',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

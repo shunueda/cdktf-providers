@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface CdnOriginGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#name CdnOriginGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#name CdnOriginGroup#name}
   */
   readonly name: string;
   /**
   * List of origin sources in the origin group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#origins CdnOriginGroup#origins}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#origins CdnOriginGroup#origins}
   */
   readonly origins: CdnOriginGroupOrigins[] | cdktf.IResolvable;
   /**
   * The region in which to obtain the CDN client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#region CdnOriginGroup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#region CdnOriginGroup#region}
   */
   readonly region?: string;
   /**
   * Defines whether to use the next origin from the origin group if origin responds with 4XX or 5XX codes. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#use_next CdnOriginGroup#use_next}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#use_next CdnOriginGroup#use_next}
   */
   readonly useNext?: boolean | cdktf.IResolvable;
 }
@@ -36,19 +36,19 @@ export interface CdnOriginGroupOrigins {
   /**
   * Defines whether the origin is a backup, meaning that it will not be used until one of active origins become unavailable. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#backup CdnOriginGroup#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#backup CdnOriginGroup#backup}
   */
   readonly backup?: boolean | cdktf.IResolvable;
   /**
   * Enables or disables an origin source in the origin group. Enabled by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#enabled CdnOriginGroup#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#enabled CdnOriginGroup#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * IP address or domain name of the origin and the port, if custom port is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#source CdnOriginGroup#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#source CdnOriginGroup#source}
   */
   readonly source: string;
 }
@@ -219,7 +219,7 @@ export class CdnOriginGroupOriginsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group vkcs_cdn_origin_group}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group vkcs_cdn_origin_group}
 */
 export class CdnOriginGroup extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class CdnOriginGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnOriginGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnOriginGroup to import
-  * @param importFromId The id of the existing CdnOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnOriginGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnOriginGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class CdnOriginGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_origin_group vkcs_cdn_origin_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_origin_group vkcs_cdn_origin_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class CdnOriginGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_cdn_origin_group',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * API LoadBalancer fip. IP address field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#api_lb_fip KubernetesCluster#api_lb_fip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#api_lb_fip KubernetesCluster#api_lb_fip}
   */
   readonly apiLbFip?: string;
   /**
   * API LoadBalancer vip. IP address field. The field is read-only, the value set in this field will be ignored. The ability to set this field will be removed in future versions of the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#api_lb_vip KubernetesCluster#api_lb_vip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#api_lb_vip KubernetesCluster#api_lb_vip}
   */
   readonly apiLbVip?: string;
   /**
   * Availability zone of the cluster, set this argument only for cluster with type `standard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#availability_zone KubernetesCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#availability_zone KubernetesCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * Availability zones of the regional cluster, set this argument only for cluster with type `regional`. If you do not set this argument, the availability zones will be selected automatically._new_since_v0.8.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#availability_zones KubernetesCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#availability_zones KubernetesCluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * The UUID of the Kubernetes cluster template. It can be obtained using the vkcs_kubernetes_clustertemplate data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#cluster_template_id KubernetesCluster#cluster_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#cluster_template_id KubernetesCluster#cluster_template_id}
   */
   readonly clusterTemplateId: string;
   /**
   * Type of the kubernetes cluster, may be `standard` or `regional`. Default type is `standard`._new_since_v0.8.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#cluster_type KubernetesCluster#cluster_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#cluster_type KubernetesCluster#cluster_type}
   */
   readonly clusterType?: string;
   /**
   * Custom DNS cluster domain. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#dns_domain KubernetesCluster#dns_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#dns_domain KubernetesCluster#dns_domain}
   */
   readonly dnsDomain?: string;
   /**
   * ID of external network, it should be specified if cloud deployment doesn't have a public external network. Changing this creates new cluster._new_since_v0.12.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#external_network_id KubernetesCluster#external_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#external_network_id KubernetesCluster#external_network_id}
   */
   readonly externalNetworkId?: string;
   /**
   * Floating ip is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#floating_ip_enabled KubernetesCluster#floating_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#floating_ip_enabled KubernetesCluster#floating_ip_enabled}
   */
   readonly floatingIpEnabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#id KubernetesCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -71,19 +71,19 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Floating IP created for ingress service. **Deprecated** This argument is deprecated as Ingress controller is not currently installed by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#ingress_floating_ip KubernetesCluster#ingress_floating_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#ingress_floating_ip KubernetesCluster#ingress_floating_ip}
   */
   readonly ingressFloatingIp?: string;
   /**
   * Addresses of registries from which you can download images without checking certificates. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#insecure_registries KubernetesCluster#insecure_registries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#insecure_registries KubernetesCluster#insecure_registries}
   */
   readonly insecureRegistries?: string[];
   /**
   * The name of the Compute service SSH keypair. Changing this creates a new cluster. **Deprecated** This argument is deprecated, please do not use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#keypair KubernetesCluster#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#keypair KubernetesCluster#keypair}
   */
   readonly keypair?: string;
   /**
@@ -98,93 +98,93 @@ export interface KubernetesClusterConfig extends cdktf.TerraformMetaArguments {
   *   * `cluster_node_volume_type` to set master vm volume type. Default ceph-ssd.
   * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#labels KubernetesCluster#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * The UUID of the load balancer's subnet. Changing this creates new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#loadbalancer_subnet_id KubernetesCluster#loadbalancer_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#loadbalancer_subnet_id KubernetesCluster#loadbalancer_subnet_id}
   */
   readonly loadbalancerSubnetId?: string;
   /**
   * The number of master nodes for the cluster. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#master_count KubernetesCluster#master_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#master_count KubernetesCluster#master_count}
   */
   readonly masterCount?: number;
   /**
   * The UUID of a flavor for the master nodes. If master_flavor is not present, value from cluster_template will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#master_flavor KubernetesCluster#master_flavor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#master_flavor KubernetesCluster#master_flavor}
   */
   readonly masterFlavor?: string;
   /**
   * The name of the cluster. Changing this creates a new cluster. Should match the pattern `^[a-zA-Z][a-zA-Z0-9_.-]*$`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#name KubernetesCluster#name}
   */
   readonly name: string;
   /**
   * UUID of the cluster's network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#network_id KubernetesCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#network_id KubernetesCluster#network_id}
   */
   readonly networkId: string;
   /**
   * Network cidr of k8s virtual network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#pods_network_cidr KubernetesCluster#pods_network_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#pods_network_cidr KubernetesCluster#pods_network_cidr}
   */
   readonly podsNetworkCidr?: string;
   /**
   * Region to use for the cluster. Default is a region configured for provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#region KubernetesCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#region KubernetesCluster#region}
   */
   readonly region?: string;
   /**
   * Docker registry access password.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#registry_auth_password KubernetesCluster#registry_auth_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#registry_auth_password KubernetesCluster#registry_auth_password}
   */
   readonly registryAuthPassword?: string;
   /**
   * Current state of a cluster. Changing this to `RUNNING` or `SHUTOFF` will turn cluster on/off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#status KubernetesCluster#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#status KubernetesCluster#status}
   */
   readonly status?: string;
   /**
   * UUID of the cluster's subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#subnet_id KubernetesCluster#subnet_id}
   */
   readonly subnetId: string;
   /**
   * Enables syncing of security policies of cluster. Default value is false._new_since_v0.7.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#sync_security_policy KubernetesCluster#sync_security_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#sync_security_policy KubernetesCluster#sync_security_policy}
   */
   readonly syncSecurityPolicy?: boolean | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#timeouts KubernetesCluster#timeouts}
   */
   readonly timeouts?: KubernetesClusterTimeouts;
 }
 export interface KubernetesClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#create KubernetesCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#create KubernetesCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#delete KubernetesCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#delete KubernetesCluster#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#update KubernetesCluster#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#update KubernetesCluster#update}
   */
   readonly update?: string;
 }
@@ -336,7 +336,7 @@ export class KubernetesClusterTimeoutsOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster vkcs_kubernetes_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster vkcs_kubernetes_cluster}
 */
 export class KubernetesCluster extends cdktf.TerraformResource {
 
@@ -352,7 +352,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesCluster to import
-  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -364,7 +364,7 @@ export class KubernetesCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_cluster vkcs_kubernetes_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_cluster vkcs_kubernetes_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -375,8 +375,8 @@ export class KubernetesCluster extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_kubernetes_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

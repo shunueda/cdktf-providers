@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate
+// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Optionally, drag/drop or upload all CA certificates in PEM/Base64 format. Or, paste certificate contents here. Certificates can be used for client and/or server authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#ca Certificate#ca}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#ca Certificate#ca}
   */
   readonly ca?: string;
   /**
   * Drag/drop or upload host certificate in PEM/Base64 format, or paste its contents here
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#cert Certificate#cert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#cert Certificate#cert}
   */
   readonly cert: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#description Certificate#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#description Certificate#description}
   */
   readonly description?: string;
   /**
   * Unique ID to PATCH
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#id Certificate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#id Certificate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,21 +35,21 @@ export interface CertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * List of configurations that reference this certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#in_use Certificate#in_use}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#in_use Certificate#in_use}
   */
   readonly inUse?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#passphrase Certificate#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#passphrase Certificate#passphrase}
   */
   readonly passphrase?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#priv_key Certificate#priv_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#priv_key Certificate#priv_key}
   */
   readonly privKey: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate criblio_certificate}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate criblio_certificate}
 */
 export class Certificate extends cdktf.TerraformResource {
 
@@ -65,7 +65,7 @@ export class Certificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Certificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Certificate to import
-  * @param importFromId The id of the existing Certificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Certificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Certificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -77,7 +77,7 @@ export class Certificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/certificate criblio_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/certificate criblio_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -88,8 +88,8 @@ export class Certificate extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_certificate',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.48',
-        providerVersionConstraint: '1.20.48'
+        providerVersion: '1.20.59',
+        providerVersionConstraint: '1.20.59'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

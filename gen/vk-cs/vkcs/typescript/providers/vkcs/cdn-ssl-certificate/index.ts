@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CdnSslCertificateConfig extends cdktf.TerraformMetaArguments {
   /**
   * Public part of the SSL certificate. All chain of the SSL certificate should be added.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate#certificate CdnSslCertificate#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate#certificate CdnSslCertificate#certificate}
   */
   readonly certificate: string;
   /**
   * SSL certificate name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate#name CdnSslCertificate#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate#name CdnSslCertificate#name}
   */
   readonly name: string;
   /**
   * Private key of the SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate#private_key CdnSslCertificate#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate#private_key CdnSslCertificate#private_key}
   */
   readonly privateKey: string;
   /**
   * The region in which to obtain the CDN client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate#region CdnSslCertificate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate#region CdnSslCertificate#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate vkcs_cdn_ssl_certificate}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate vkcs_cdn_ssl_certificate}
 */
 export class CdnSslCertificate extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class CdnSslCertificate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnSslCertificate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnSslCertificate to import
-  * @param importFromId The id of the existing CdnSslCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnSslCertificate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnSslCertificate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CdnSslCertificate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_ssl_certificate vkcs_cdn_ssl_certificate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_ssl_certificate vkcs_cdn_ssl_certificate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CdnSslCertificate extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_cdn_ssl_certificate',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

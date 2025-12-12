@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,73 +10,73 @@ export interface FleetOutputConfig extends cdktf.TerraformMetaArguments {
   /**
   * Fingerprint of the Elasticsearch CA certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#ca_sha256 FleetOutput#ca_sha256}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#ca_sha256 FleetOutput#ca_sha256}
   */
   readonly caSha256?: string;
   /**
   * Fingerprint of trusted CA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#ca_trusted_fingerprint FleetOutput#ca_trusted_fingerprint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#ca_trusted_fingerprint FleetOutput#ca_trusted_fingerprint}
   */
   readonly caTrustedFingerprint?: string;
   /**
   * Advanced YAML configuration. YAML settings here will be added to the output section of each agent policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#config_yaml FleetOutput#config_yaml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#config_yaml FleetOutput#config_yaml}
   */
   readonly configYaml?: string;
   /**
   * Make this output the default for agent integrations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#default_integrations FleetOutput#default_integrations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#default_integrations FleetOutput#default_integrations}
   */
   readonly defaultIntegrations?: boolean | cdktf.IResolvable;
   /**
   * Make this output the default for agent monitoring.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#default_monitoring FleetOutput#default_monitoring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#default_monitoring FleetOutput#default_monitoring}
   */
   readonly defaultMonitoring?: boolean | cdktf.IResolvable;
   /**
   * A list of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#hosts FleetOutput#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#hosts FleetOutput#hosts}
   */
   readonly hosts: string[];
   /**
   * Kafka-specific configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#kafka FleetOutput#kafka}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#kafka FleetOutput#kafka}
   */
   readonly kafka?: FleetOutputKafka;
   /**
   * The name of the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#name FleetOutput#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#name FleetOutput#name}
   */
   readonly name: string;
   /**
   * Unique identifier of the output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#output_id FleetOutput#output_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#output_id FleetOutput#output_id}
   */
   readonly outputId?: string;
   /**
   * The Kibana space IDs where this output is available. When set, the output will be created and managed within the specified space. Note: The order of space IDs does not matter as this is a set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#space_ids FleetOutput#space_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#space_ids FleetOutput#space_ids}
   */
   readonly spaceIds?: string[];
   /**
   * SSL configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#ssl FleetOutput#ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#ssl FleetOutput#ssl}
   */
   readonly ssl?: FleetOutputSsl;
   /**
   * The output type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#type FleetOutput#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#type FleetOutput#type}
   */
   readonly type: string;
 }
@@ -84,13 +84,13 @@ export interface FleetOutputKafkaHash {
   /**
   * Hash field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#hash FleetOutput#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#hash FleetOutput#hash}
   */
   readonly hash?: string;
   /**
   * Use random hash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#random FleetOutput#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#random FleetOutput#random}
   */
   readonly random?: boolean | cdktf.IResolvable;
 }
@@ -215,13 +215,13 @@ export interface FleetOutputKafkaHeaders {
   /**
   * Header key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#key FleetOutput#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#key FleetOutput#key}
   */
   readonly key: string;
   /**
   * Header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#value FleetOutput#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#value FleetOutput#value}
   */
   readonly value: string;
 }
@@ -362,7 +362,7 @@ export interface FleetOutputKafkaRandom {
   /**
   * Number of events to group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#group_events FleetOutput#group_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#group_events FleetOutput#group_events}
   */
   readonly groupEvents?: number;
 }
@@ -458,7 +458,7 @@ export interface FleetOutputKafkaRoundRobin {
   /**
   * Number of events to group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#group_events FleetOutput#group_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#group_events FleetOutput#group_events}
   */
   readonly groupEvents?: number;
 }
@@ -554,7 +554,7 @@ export interface FleetOutputKafkaSasl {
   /**
   * SASL mechanism.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#mechanism FleetOutput#mechanism}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#mechanism FleetOutput#mechanism}
   */
   readonly mechanism?: string;
 }
@@ -650,115 +650,115 @@ export interface FleetOutputKafka {
   /**
   * Authentication type for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#auth_type FleetOutput#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#auth_type FleetOutput#auth_type}
   */
   readonly authType?: string;
   /**
   * Kafka broker timeout.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#broker_timeout FleetOutput#broker_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#broker_timeout FleetOutput#broker_timeout}
   */
   readonly brokerTimeout?: number;
   /**
   * Kafka client ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#client_id FleetOutput#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#client_id FleetOutput#client_id}
   */
   readonly clientId?: string;
   /**
   * Compression type for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#compression FleetOutput#compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#compression FleetOutput#compression}
   */
   readonly compression?: string;
   /**
   * Compression level for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#compression_level FleetOutput#compression_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#compression_level FleetOutput#compression_level}
   */
   readonly compressionLevel?: number;
   /**
   * Connection type for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#connection_type FleetOutput#connection_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#connection_type FleetOutput#connection_type}
   */
   readonly connectionType?: string;
   /**
   * Hash configuration for Kafka partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#hash FleetOutput#hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#hash FleetOutput#hash}
   */
   readonly hash?: FleetOutputKafkaHash;
   /**
   * Headers for Kafka messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#headers FleetOutput#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#headers FleetOutput#headers}
   */
   readonly headers?: FleetOutputKafkaHeaders[] | cdktf.IResolvable;
   /**
   * Key field for Kafka messages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#key FleetOutput#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#key FleetOutput#key}
   */
   readonly key?: string;
   /**
   * Partition strategy for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#partition FleetOutput#partition}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#partition FleetOutput#partition}
   */
   readonly partition?: string;
   /**
   * Password for Kafka authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#password FleetOutput#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#password FleetOutput#password}
   */
   readonly password?: string;
   /**
   * Random configuration for Kafka partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#random FleetOutput#random}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#random FleetOutput#random}
   */
   readonly random?: FleetOutputKafkaRandom;
   /**
   * Number of acknowledgments required for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#required_acks FleetOutput#required_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#required_acks FleetOutput#required_acks}
   */
   readonly requiredAcks?: number;
   /**
   * Round robin configuration for Kafka partition.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#round_robin FleetOutput#round_robin}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#round_robin FleetOutput#round_robin}
   */
   readonly roundRobin?: FleetOutputKafkaRoundRobin;
   /**
   * SASL configuration for Kafka authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#sasl FleetOutput#sasl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#sasl FleetOutput#sasl}
   */
   readonly sasl?: FleetOutputKafkaSasl;
   /**
   * Timeout for Kafka output.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#timeout FleetOutput#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#timeout FleetOutput#timeout}
   */
   readonly timeout?: number;
   /**
   * Kafka topic.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#topic FleetOutput#topic}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#topic FleetOutput#topic}
   */
   readonly topic?: string;
   /**
   * Username for Kafka authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#username FleetOutput#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#username FleetOutput#username}
   */
   readonly username?: string;
   /**
   * Kafka version.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#version FleetOutput#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#version FleetOutput#version}
   */
   readonly version?: string;
 }
@@ -1376,19 +1376,19 @@ export interface FleetOutputSsl {
   /**
   * Client SSL certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#certificate FleetOutput#certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#certificate FleetOutput#certificate}
   */
   readonly certificate: string;
   /**
   * Server SSL certificate authorities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#certificate_authorities FleetOutput#certificate_authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#certificate_authorities FleetOutput#certificate_authorities}
   */
   readonly certificateAuthorities?: string[];
   /**
   * Client SSL certificate key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#key FleetOutput#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#key FleetOutput#key}
   */
   readonly key: string;
 }
@@ -1534,7 +1534,7 @@ export class FleetOutputSslOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output elasticstack_fleet_output}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output elasticstack_fleet_output}
 */
 export class FleetOutput extends cdktf.TerraformResource {
 
@@ -1550,7 +1550,7 @@ export class FleetOutput extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetOutput resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetOutput to import
-  * @param importFromId The id of the existing FleetOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetOutput that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetOutput to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1562,7 +1562,7 @@ export class FleetOutput extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_output elasticstack_fleet_output} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_output elasticstack_fleet_output} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1573,8 +1573,8 @@ export class FleetOutput extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_fleet_output',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

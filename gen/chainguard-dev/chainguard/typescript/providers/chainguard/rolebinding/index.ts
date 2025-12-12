@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface RolebindingConfig extends cdktf.TerraformMetaArguments {
   /**
   * The id of the IAM group to grant the identity access to with the role's capabilities.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding#group Rolebinding#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding#group Rolebinding#group}
   */
   readonly group: string;
   /**
   * The id of an identity to grant role's capabilities to at the scope of the IAM group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding#identity Rolebinding#identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding#identity Rolebinding#identity}
   */
   readonly identity: string;
   /**
   * The role to grant identity at the scope of the IAM group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding#role Rolebinding#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding#role Rolebinding#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding chainguard_rolebinding}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding chainguard_rolebinding}
 */
 export class Rolebinding extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Rolebinding extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Rolebinding resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Rolebinding to import
-  * @param importFromId The id of the existing Rolebinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Rolebinding that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Rolebinding to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Rolebinding extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/rolebinding chainguard_rolebinding} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/rolebinding chainguard_rolebinding} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Rolebinding extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_rolebinding',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.42',
-        providerVersionConstraint: '0.1.42'
+        providerVersion: '0.1.43',
+        providerVersionConstraint: '0.1.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,91 +10,91 @@ export interface ElasticsearchMlDatafeedConfig extends cdktf.TerraformMetaArgume
   /**
   * If set, the datafeed performs aggregation searches. Support for aggregations is limited and should be used only with low cardinality data. This should be a JSON object representing the aggregations to be performed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#aggregations ElasticsearchMlDatafeed#aggregations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#aggregations ElasticsearchMlDatafeed#aggregations}
   */
   readonly aggregations?: string;
   /**
   * Datafeeds might search over long time periods, for several months or years. This search is split into time chunks in order to ensure the load on Elasticsearch is managed. Chunking configuration controls how the size of these time chunks are calculated; it is an advanced configuration option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#chunking_config ElasticsearchMlDatafeed#chunking_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#chunking_config ElasticsearchMlDatafeed#chunking_config}
   */
   readonly chunkingConfig?: ElasticsearchMlDatafeedChunkingConfig;
   /**
   * A numerical character string that uniquely identifies the datafeed. This identifier can contain lowercase alphanumeric characters (a-z and 0-9), hyphens, and underscores. It must start and end with alphanumeric characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#datafeed_id ElasticsearchMlDatafeed#datafeed_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#datafeed_id ElasticsearchMlDatafeed#datafeed_id}
   */
   readonly datafeedId: string;
   /**
   * Specifies whether the datafeed checks for missing data and the size of the window. The datafeed can optionally search over indices that have already been read in an effort to determine whether any data has subsequently been added to the index. If missing data is found, it is a good indication that the `query_delay` is set too low and the data is being indexed after the datafeed has passed that moment in time. This check runs only on real-time datafeeds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#delayed_data_check_config ElasticsearchMlDatafeed#delayed_data_check_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#delayed_data_check_config ElasticsearchMlDatafeed#delayed_data_check_config}
   */
   readonly delayedDataCheckConfig?: ElasticsearchMlDatafeedDelayedDataCheckConfig;
   /**
   * The interval at which scheduled queries are made while the datafeed runs in real time. The default value is either the bucket span for short bucket spans, or, for longer bucket spans, a sensible fraction of the bucket span. When `frequency` is shorter than the bucket span, interim results for the last (partial) bucket are written then eventually overwritten by the full bucket results. If the datafeed uses aggregations, this value must be divisible by the interval of the date histogram aggregation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#frequency ElasticsearchMlDatafeed#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#frequency ElasticsearchMlDatafeed#frequency}
   */
   readonly frequency?: string;
   /**
   * An array of index names. Wildcards are supported. If any of the indices are in remote clusters, the machine learning nodes must have the `remote_cluster_client` role.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#indices ElasticsearchMlDatafeed#indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#indices ElasticsearchMlDatafeed#indices}
   */
   readonly indices: string[];
   /**
   * Specifies index expansion options that are used during search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#indices_options ElasticsearchMlDatafeed#indices_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#indices_options ElasticsearchMlDatafeed#indices_options}
   */
   readonly indicesOptions?: ElasticsearchMlDatafeedIndicesOptions;
   /**
   * Identifier for the anomaly detection job. The job must exist before creating the datafeed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#job_id ElasticsearchMlDatafeed#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#job_id ElasticsearchMlDatafeed#job_id}
   */
   readonly jobId: string;
   /**
   * If a real-time datafeed has never seen any data (including during any initial training period), it automatically stops and closes the associated job after this many real-time searches return no documents. In other words, it stops after `frequency` times `max_empty_searches` of real-time operation. If not set, a datafeed with no end time that sees no data remains started until it is explicitly stopped.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#max_empty_searches ElasticsearchMlDatafeed#max_empty_searches}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#max_empty_searches ElasticsearchMlDatafeed#max_empty_searches}
   */
   readonly maxEmptySearches?: number;
   /**
   * The Elasticsearch query domain-specific language (DSL). This value corresponds to the query object in an Elasticsearch search POST body. All the options that are supported by Elasticsearch can be used, as this object is passed verbatim to Elasticsearch. By default uses `{"match_all": {"boost": 1}}`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#query ElasticsearchMlDatafeed#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#query ElasticsearchMlDatafeed#query}
   */
   readonly query?: string;
   /**
   * The number of seconds behind real time that data is queried. For example, if data from 10:04 a.m. might not be searchable in Elasticsearch until 10:06 a.m., set this property to 120 seconds. The default value is randomly selected between `60s` and `120s`. This randomness improves the query performance when there are multiple jobs running on the same node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#query_delay ElasticsearchMlDatafeed#query_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#query_delay ElasticsearchMlDatafeed#query_delay}
   */
   readonly queryDelay?: string;
   /**
   * Specifies runtime fields for the datafeed search. This should be a JSON object representing the runtime field mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#runtime_mappings ElasticsearchMlDatafeed#runtime_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#runtime_mappings ElasticsearchMlDatafeed#runtime_mappings}
   */
   readonly runtimeMappings?: string;
   /**
   * Specifies scripts that evaluate custom expressions and returns script fields to the datafeed. The detector configuration objects in a job can contain functions that use these script fields. This should be a JSON object representing the script fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#script_fields ElasticsearchMlDatafeed#script_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#script_fields ElasticsearchMlDatafeed#script_fields}
   */
   readonly scriptFields?: string;
   /**
   * The size parameter that is used in Elasticsearch searches when the datafeed does not use aggregations. The maximum value is the value of `index.max_result_window`, which is 10,000 by default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#scroll_size ElasticsearchMlDatafeed#scroll_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#scroll_size ElasticsearchMlDatafeed#scroll_size}
   */
   readonly scrollSize?: number;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#elasticsearch_connection ElasticsearchMlDatafeed#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#elasticsearch_connection ElasticsearchMlDatafeed#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchMlDatafeedElasticsearchConnection[] | cdktf.IResolvable;
 }
@@ -102,13 +102,13 @@ export interface ElasticsearchMlDatafeedChunkingConfig {
   /**
   * The chunking mode. Can be `auto`, `manual`, or `off`. In `auto` mode, the chunk size is dynamically calculated. In `manual` mode, chunking is applied according to the specified `time_span`. In `off` mode, no chunking is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#mode ElasticsearchMlDatafeed#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#mode ElasticsearchMlDatafeed#mode}
   */
   readonly mode: string;
   /**
   * The time span for each chunk. Only applicable and required when mode is `manual`. Must be a valid duration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#time_span ElasticsearchMlDatafeed#time_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#time_span ElasticsearchMlDatafeed#time_span}
   */
   readonly timeSpan?: string;
 }
@@ -230,13 +230,13 @@ export interface ElasticsearchMlDatafeedDelayedDataCheckConfig {
   /**
   * The window of time that is searched for late data. This window of time ends with the latest finalized bucket. It defaults to null, which causes an appropriate `check_window` to be calculated when the real-time datafeed runs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#check_window ElasticsearchMlDatafeed#check_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#check_window ElasticsearchMlDatafeed#check_window}
   */
   readonly checkWindow?: string;
   /**
   * Specifies whether the datafeed periodically checks for delayed data.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#enabled ElasticsearchMlDatafeed#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#enabled ElasticsearchMlDatafeed#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
 }
@@ -358,25 +358,25 @@ export interface ElasticsearchMlDatafeedIndicesOptions {
   /**
   * If true, wildcard indices expressions that resolve into no concrete indices are ignored. This includes the `_all` string or when no indices are specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#allow_no_indices ElasticsearchMlDatafeed#allow_no_indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#allow_no_indices ElasticsearchMlDatafeed#allow_no_indices}
   */
   readonly allowNoIndices?: boolean | cdktf.IResolvable;
   /**
   * Type of index that wildcard patterns can match. If the request can target data streams, this argument determines whether wildcard expressions match hidden data streams. Supports comma-separated values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#expand_wildcards ElasticsearchMlDatafeed#expand_wildcards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#expand_wildcards ElasticsearchMlDatafeed#expand_wildcards}
   */
   readonly expandWildcards?: string[];
   /**
   * If true, concrete, expanded, or aliased indices are ignored when frozen. This setting is deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#ignore_throttled ElasticsearchMlDatafeed#ignore_throttled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#ignore_throttled ElasticsearchMlDatafeed#ignore_throttled}
   */
   readonly ignoreThrottled?: boolean | cdktf.IResolvable;
   /**
   * If true, unavailable indices (missing or closed) are ignored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#ignore_unavailable ElasticsearchMlDatafeed#ignore_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#ignore_unavailable ElasticsearchMlDatafeed#ignore_unavailable}
   */
   readonly ignoreUnavailable?: boolean | cdktf.IResolvable;
 }
@@ -559,85 +559,85 @@ export interface ElasticsearchMlDatafeedElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#api_key ElasticsearchMlDatafeed#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#api_key ElasticsearchMlDatafeed#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#bearer_token ElasticsearchMlDatafeed#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#bearer_token ElasticsearchMlDatafeed#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#ca_data ElasticsearchMlDatafeed#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#ca_data ElasticsearchMlDatafeed#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#ca_file ElasticsearchMlDatafeed#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#ca_file ElasticsearchMlDatafeed#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#cert_data ElasticsearchMlDatafeed#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#cert_data ElasticsearchMlDatafeed#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#cert_file ElasticsearchMlDatafeed#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#cert_file ElasticsearchMlDatafeed#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#endpoints ElasticsearchMlDatafeed#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#endpoints ElasticsearchMlDatafeed#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#es_client_authentication ElasticsearchMlDatafeed#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#es_client_authentication ElasticsearchMlDatafeed#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#headers ElasticsearchMlDatafeed#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#headers ElasticsearchMlDatafeed#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#insecure ElasticsearchMlDatafeed#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#insecure ElasticsearchMlDatafeed#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#key_data ElasticsearchMlDatafeed#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#key_data ElasticsearchMlDatafeed#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#key_file ElasticsearchMlDatafeed#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#key_file ElasticsearchMlDatafeed#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#password ElasticsearchMlDatafeed#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#password ElasticsearchMlDatafeed#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#username ElasticsearchMlDatafeed#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#username ElasticsearchMlDatafeed#username}
   */
   readonly username?: string;
 }
@@ -1130,7 +1130,7 @@ export class ElasticsearchMlDatafeedElasticsearchConnectionList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed elasticstack_elasticsearch_ml_datafeed}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed elasticstack_elasticsearch_ml_datafeed}
 */
 export class ElasticsearchMlDatafeed extends cdktf.TerraformResource {
 
@@ -1146,7 +1146,7 @@ export class ElasticsearchMlDatafeed extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchMlDatafeed resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchMlDatafeed to import
-  * @param importFromId The id of the existing ElasticsearchMlDatafeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchMlDatafeed that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchMlDatafeed to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1158,7 +1158,7 @@ export class ElasticsearchMlDatafeed extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_datafeed elasticstack_elasticsearch_ml_datafeed} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_datafeed elasticstack_elasticsearch_ml_datafeed} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1169,8 +1169,8 @@ export class ElasticsearchMlDatafeed extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_ml_datafeed',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

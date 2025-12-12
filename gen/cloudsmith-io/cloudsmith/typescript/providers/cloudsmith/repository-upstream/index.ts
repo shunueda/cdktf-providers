@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,77 +10,77 @@ export interface RepositoryUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * The X.509 Certificate (PEM encoded) to use for mTLS authentication against the upstream (Docker only). Use the file() function to read this from a file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#auth_certificate RepositoryUpstream#auth_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#auth_certificate RepositoryUpstream#auth_certificate}
   */
   readonly authCertificate?: string;
   /**
   * The Certificate private key (PEM encoded) to use for mTLS authentication against the upstream (Docker only). Use the file() function to read this from a file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#auth_certificate_key RepositoryUpstream#auth_certificate_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#auth_certificate_key RepositoryUpstream#auth_certificate_key}
   */
   readonly authCertificateKey?: string;
   /**
   * The authentication mode to use when accessing this upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#auth_mode RepositoryUpstream#auth_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#auth_mode RepositoryUpstream#auth_mode}
   */
   readonly authMode?: string;
   /**
   * Secret to provide with requests to upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#auth_secret RepositoryUpstream#auth_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#auth_secret RepositoryUpstream#auth_secret}
   */
   readonly authSecret?: string;
   /**
   * Username to provide with requests to upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#auth_username RepositoryUpstream#auth_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#auth_username RepositoryUpstream#auth_username}
   */
   readonly authUsername?: string;
   /**
   * (deb only) The component to fetch from the upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#component RepositoryUpstream#component}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#component RepositoryUpstream#component}
   */
   readonly component?: string;
   /**
   * (rpm only) The distribution version that packages found on this upstream will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#distro_version RepositoryUpstream#distro_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#distro_version RepositoryUpstream#distro_version}
   */
   readonly distroVersion?: string;
   /**
   * (deb only) The distribution versions that packages found on this upstream will be associated with.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#distro_versions RepositoryUpstream#distro_versions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#distro_versions RepositoryUpstream#distro_versions}
   */
   readonly distroVersions?: string[];
   /**
   * The key for extra header #1 to send to upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#extra_header_1 RepositoryUpstream#extra_header_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#extra_header_1 RepositoryUpstream#extra_header_1}
   */
   readonly extraHeader1?: string;
   /**
   * The key for extra header #2 to send to upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#extra_header_2 RepositoryUpstream#extra_header_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#extra_header_2 RepositoryUpstream#extra_header_2}
   */
   readonly extraHeader2?: string;
   /**
   * The value for extra header #1 to send to upstream. This is stored as plaintext, and is NOT encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#extra_value_1 RepositoryUpstream#extra_value_1}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#extra_value_1 RepositoryUpstream#extra_value_1}
   */
   readonly extraValue1?: string;
   /**
   * The value for extra header #2 to send to upstream. This is stored as plaintext, and is NOT encrypted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#extra_value_2 RepositoryUpstream#extra_value_2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#extra_value_2 RepositoryUpstream#extra_value_2}
   */
   readonly extraValue2?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#id RepositoryUpstream#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#id RepositoryUpstream#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -89,73 +89,73 @@ export interface RepositoryUpstreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * (deb/rpm only) When true, source packages will be available from this upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#include_sources RepositoryUpstream#include_sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#include_sources RepositoryUpstream#include_sources}
   */
   readonly includeSources?: boolean | cdktf.IResolvable;
   /**
   * Whether or not this upstream is active and ready for requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#is_active RepositoryUpstream#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#is_active RepositoryUpstream#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * The mode that this upstream should operate in. Upstream sources can be used to proxy resolved packages, as well as operate in a proxy/cache or cache only mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#mode RepositoryUpstream#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#mode RepositoryUpstream#mode}
   */
   readonly mode?: string;
   /**
   * A descriptive name for this upstream source. A shortened version of this name will be used for tagging cached packages retrieved from this upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#name RepositoryUpstream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#name RepositoryUpstream#name}
   */
   readonly name: string;
   /**
   * The Organization to which the Upstream belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#namespace RepositoryUpstream#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#namespace RepositoryUpstream#namespace}
   */
   readonly namespace: string;
   /**
   * Upstream sources are selected for resolving requests by sequential order (1..n), followed by creation date.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#priority RepositoryUpstream#priority}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#priority RepositoryUpstream#priority}
   */
   readonly priority?: number;
   /**
   * The Repository to which the Upstream belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#repository RepositoryUpstream#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#repository RepositoryUpstream#repository}
   */
   readonly repository: string;
   /**
   * (deb only) The distribution to fetch from the upstream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#upstream_distribution RepositoryUpstream#upstream_distribution}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#upstream_distribution RepositoryUpstream#upstream_distribution}
   */
   readonly upstreamDistribution?: string;
   /**
   * The type of Upstream (docker, nuget, python, ...)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#upstream_type RepositoryUpstream#upstream_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#upstream_type RepositoryUpstream#upstream_type}
   */
   readonly upstreamType: string;
   /**
   * The URL for this upstream source. This must be a fully qualified URL including any path elements required to reach the root of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#upstream_url RepositoryUpstream#upstream_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#upstream_url RepositoryUpstream#upstream_url}
   */
   readonly upstreamUrl: string;
   /**
   * If enabled, SSL certificates are verified when requests are made to this upstream. It's recommended to leave this enabled for all public sources to help mitigate Man-In-The-Middle (MITM) attacks. Please note this only applies to HTTPS upstreams.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#verify_ssl RepositoryUpstream#verify_ssl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#verify_ssl RepositoryUpstream#verify_ssl}
   */
   readonly verifySsl?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream cloudsmith_repository_upstream}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream cloudsmith_repository_upstream}
 */
 export class RepositoryUpstream extends cdktf.TerraformResource {
 
@@ -171,7 +171,7 @@ export class RepositoryUpstream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryUpstream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryUpstream to import
-  * @param importFromId The id of the existing RepositoryUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryUpstream that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryUpstream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -183,7 +183,7 @@ export class RepositoryUpstream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_upstream cloudsmith_repository_upstream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_upstream cloudsmith_repository_upstream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -194,8 +194,8 @@ export class RepositoryUpstream extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_repository_upstream',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface SharedfilesystemShareConfig extends cdktf.TerraformMetaArgument
   /**
   * The share availability zone. Changing this creates a new share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#availability_zone SharedfilesystemShare#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#availability_zone SharedfilesystemShare#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The human-readable description for the share. Changing this updates the description of the existing share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#description SharedfilesystemShare#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#description SharedfilesystemShare#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#id SharedfilesystemShare#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#id SharedfilesystemShare#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,63 +29,63 @@ export interface SharedfilesystemShareConfig extends cdktf.TerraformMetaArgument
   /**
   * The name of the share. Changing this updates the name of the existing share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#name SharedfilesystemShare#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#name SharedfilesystemShare#name}
   */
   readonly name: string;
   /**
   * The region in which to obtain the Shared File System client. A Shared File System client is needed to create a share. Changing this creates a new share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#region SharedfilesystemShare#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#region SharedfilesystemShare#region}
   */
   readonly region?: string;
   /**
   * The UUID of the share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#share_network_id SharedfilesystemShare#share_network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#share_network_id SharedfilesystemShare#share_network_id}
   */
   readonly shareNetworkId: string;
   /**
   * The share protocol - can either be NFS, CIFS, CEPHFS, GLUSTERFS, HDFS or MAPRFS. Changing this creates a new share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#share_proto SharedfilesystemShare#share_proto}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#share_proto SharedfilesystemShare#share_proto}
   */
   readonly shareProto: string;
   /**
   * The share type name. If you omit this parameter, the default share type is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#share_type SharedfilesystemShare#share_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#share_type SharedfilesystemShare#share_type}
   */
   readonly shareType?: string;
   /**
   * The share size, in GBs. The requested share size cannot be greater than the allowed GB quota. Changing this resizes the existing share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#size SharedfilesystemShare#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#size SharedfilesystemShare#size}
   */
   readonly size: number;
   /**
   * The UUID of the share's base snapshot. Changing this creates a new share.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#snapshot_id SharedfilesystemShare#snapshot_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#snapshot_id SharedfilesystemShare#snapshot_id}
   */
   readonly snapshotId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#timeouts SharedfilesystemShare#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#timeouts SharedfilesystemShare#timeouts}
   */
   readonly timeouts?: SharedfilesystemShareTimeouts;
 }
 export interface SharedfilesystemShareTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#create SharedfilesystemShare#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#create SharedfilesystemShare#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#delete SharedfilesystemShare#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#delete SharedfilesystemShare#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#update SharedfilesystemShare#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#update SharedfilesystemShare#update}
   */
   readonly update?: string;
 }
@@ -237,7 +237,7 @@ export class SharedfilesystemShareTimeoutsOutputReference extends cdktf.ComplexO
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share vkcs_sharedfilesystem_share}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share vkcs_sharedfilesystem_share}
 */
 export class SharedfilesystemShare extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class SharedfilesystemShare extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SharedfilesystemShare resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SharedfilesystemShare to import
-  * @param importFromId The id of the existing SharedfilesystemShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SharedfilesystemShare that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SharedfilesystemShare to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class SharedfilesystemShare extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_share vkcs_sharedfilesystem_share} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_share vkcs_sharedfilesystem_share} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class SharedfilesystemShare extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_sharedfilesystem_share',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

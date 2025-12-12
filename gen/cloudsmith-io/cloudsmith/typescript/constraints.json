@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "cloudsmith": "0.0.66"
+    "cloudsmith": "0.0.67"
   }
 }

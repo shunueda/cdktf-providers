@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,35 +10,41 @@ export interface NetworkingSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * CIDR representing IP range for this subnet, based on IP version. You can omit this option if you are creating a subnet from a subnet pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#cidr NetworkingSubnet#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#cidr NetworkingSubnet#cidr}
   */
   readonly cidr?: string;
   /**
   * Human-readable description of the subnet. Changing this updates the name of the existing subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#description NetworkingSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#description NetworkingSubnet#description}
   */
   readonly description?: string;
   /**
   * An array of DNS name server names used by hosts in this subnet. Changing this updates the DNS name servers for the existing subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#dns_nameservers NetworkingSubnet#dns_nameservers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#dns_nameservers NetworkingSubnet#dns_nameservers}
   */
   readonly dnsNameservers?: string[];
   /**
   * The administrative state of the network. Acceptable values are "true" and "false". Changing this value enables or disables the DHCP capabilities of the existing subnet. Defaults to true.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#enable_dhcp NetworkingSubnet#enable_dhcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#enable_dhcp NetworkingSubnet#enable_dhcp}
   */
   readonly enableDhcp?: boolean | cdktf.IResolvable;
   /**
+  * Option to control private DNS in a subnet. Enabled by default._new_since_v0.13.1_.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#enable_private_dns NetworkingSubnet#enable_private_dns}
+  */
+  readonly enablePrivateDns?: boolean | cdktf.IResolvable;
+  /**
   * Default gateway used by devices in this subnet. Leaving this blank and not setting `no_gateway` will cause a default value. For the Sprut SDN, this field cannot be changed after creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#gateway_ip NetworkingSubnet#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#gateway_ip NetworkingSubnet#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#id NetworkingSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#id NetworkingSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -47,67 +53,67 @@ export interface NetworkingSubnetConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the subnet. Changing this updates the name of the existing subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#name NetworkingSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#name NetworkingSubnet#name}
   */
   readonly name?: string;
   /**
   * The UUID of the parent network. Changing this creates a new subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#network_id NetworkingSubnet#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#network_id NetworkingSubnet#network_id}
   */
   readonly networkId: string;
   /**
   * Do not set a gateway IP on this subnet. Changing this removes or adds a default gateway IP of the existing subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#no_gateway NetworkingSubnet#no_gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#no_gateway NetworkingSubnet#no_gateway}
   */
   readonly noGateway?: boolean | cdktf.IResolvable;
   /**
   * The prefix length to use when creating a subnet from a subnet pool. The default subnet pool prefix length that was defined when creating the subnet pool will be used if not provided. Changing this creates a new subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#prefix_length NetworkingSubnet#prefix_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#prefix_length NetworkingSubnet#prefix_length}
   */
   readonly prefixLength?: number;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create a subnet. If omitted, the `region` argument of the provider is used. Changing this creates a new subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#region NetworkingSubnet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#region NetworkingSubnet#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#sdn NetworkingSubnet#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#sdn NetworkingSubnet#sdn}
   */
   readonly sdn?: string;
   /**
   * The ID of the subnetpool associated with the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#subnetpool_id NetworkingSubnet#subnetpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#subnetpool_id NetworkingSubnet#subnetpool_id}
   */
   readonly subnetpoolId?: string;
   /**
   * A set of string tags for the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#tags NetworkingSubnet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#tags NetworkingSubnet#tags}
   */
   readonly tags?: string[];
   /**
   * Map of additional options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#value_specs NetworkingSubnet#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#value_specs NetworkingSubnet#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * allocation_pool block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#allocation_pool NetworkingSubnet#allocation_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#allocation_pool NetworkingSubnet#allocation_pool}
   */
   readonly allocationPool?: NetworkingSubnetAllocationPool[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#timeouts NetworkingSubnet#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#timeouts NetworkingSubnet#timeouts}
   */
   readonly timeouts?: NetworkingSubnetTimeouts;
 }
@@ -115,13 +121,13 @@ export interface NetworkingSubnetAllocationPool {
   /**
   * The ending address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#end NetworkingSubnet#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#end NetworkingSubnet#end}
   */
   readonly end: string;
   /**
   * The starting address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#start NetworkingSubnet#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#start NetworkingSubnet#start}
   */
   readonly start: string;
 }
@@ -260,11 +266,11 @@ export class NetworkingSubnetAllocationPoolList extends cdktf.ComplexList {
 }
 export interface NetworkingSubnetTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#create NetworkingSubnet#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#create NetworkingSubnet#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#delete NetworkingSubnet#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#delete NetworkingSubnet#delete}
   */
   readonly delete?: string;
 }
@@ -387,7 +393,7 @@ export class NetworkingSubnetTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet vkcs_networking_subnet}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet vkcs_networking_subnet}
 */
 export class NetworkingSubnet extends cdktf.TerraformResource {
 
@@ -403,7 +409,7 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingSubnet to import
-  * @param importFromId The id of the existing NetworkingSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -415,7 +421,7 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_subnet vkcs_networking_subnet} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_subnet vkcs_networking_subnet} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -426,8 +432,8 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_subnet',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -441,6 +447,7 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
     this._description = config.description;
     this._dnsNameservers = config.dnsNameservers;
     this._enableDhcp = config.enableDhcp;
+    this._enablePrivateDns = config.enablePrivateDns;
     this._gatewayIp = config.gatewayIp;
     this._id = config.id;
     this._name = config.name;
@@ -527,6 +534,22 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get enableDhcpInput() {
     return this._enableDhcp;
+  }
+
+  // enable_private_dns - computed: true, optional: true, required: false
+  private _enablePrivateDns?: boolean | cdktf.IResolvable; 
+  public get enablePrivateDns() {
+    return this.getBooleanAttribute('enable_private_dns');
+  }
+  public set enablePrivateDns(value: boolean | cdktf.IResolvable) {
+    this._enablePrivateDns = value;
+  }
+  public resetEnablePrivateDns() {
+    this._enablePrivateDns = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get enablePrivateDnsInput() {
+    return this._enablePrivateDns;
   }
 
   // gateway_ip - computed: true, optional: true, required: false
@@ -744,6 +767,7 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
       description: cdktf.stringToTerraform(this._description),
       dns_nameservers: cdktf.listMapper(cdktf.stringToTerraform, false)(this._dnsNameservers),
       enable_dhcp: cdktf.booleanToTerraform(this._enableDhcp),
+      enable_private_dns: cdktf.booleanToTerraform(this._enablePrivateDns),
       gateway_ip: cdktf.stringToTerraform(this._gatewayIp),
       id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
@@ -782,6 +806,12 @@ export class NetworkingSubnet extends cdktf.TerraformResource {
       },
       enable_dhcp: {
         value: cdktf.booleanToHclTerraform(this._enableDhcp),
+        isBlock: false,
+        type: "simple",
+        storageClassType: "boolean",
+      },
+      enable_private_dns: {
+        value: cdktf.booleanToHclTerraform(this._enablePrivateDns),
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",

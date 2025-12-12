@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface KeymanagerContainerConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#id KeymanagerContainer#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#id KeymanagerContainer#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,37 +17,37 @@ export interface KeymanagerContainerConfig extends cdktf.TerraformMetaArguments 
   /**
   * Human-readable name for the Container. Does not have to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#name KeymanagerContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#name KeymanagerContainer#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the KeyManager client. A KeyManager client is needed to create a container. If omitted, the `region` argument of the provider is used. Changing this creates a new container.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#region KeymanagerContainer#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#region KeymanagerContainer#region}
   */
   readonly region?: string;
   /**
   * Used to indicate the type of container. Must be one of `generic`, `rsa` or `certificate`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#type KeymanagerContainer#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#type KeymanagerContainer#type}
   */
   readonly type: string;
   /**
   * acl block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#acl KeymanagerContainer#acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#acl KeymanagerContainer#acl}
   */
   readonly acl?: KeymanagerContainerAcl;
   /**
   * secret_refs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#secret_refs KeymanagerContainer#secret_refs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#secret_refs KeymanagerContainer#secret_refs}
   */
   readonly secretRefs?: KeymanagerContainerSecretRefs[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#timeouts KeymanagerContainer#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#timeouts KeymanagerContainer#timeouts}
   */
   readonly timeouts?: KeymanagerContainerTimeouts;
 }
@@ -135,13 +135,13 @@ export interface KeymanagerContainerAclRead {
   /**
   * Whether the container is accessible project wide. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#project_access KeymanagerContainer#project_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#project_access KeymanagerContainer#project_access}
   */
   readonly projectAccess?: boolean | cdktf.IResolvable;
   /**
   * The list of user IDs, which are allowed to access the container, when `project_access` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#users KeymanagerContainer#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#users KeymanagerContainer#users}
   */
   readonly users?: string[];
 }
@@ -266,7 +266,7 @@ export interface KeymanagerContainerAcl {
   /**
   * read block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#read KeymanagerContainer#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#read KeymanagerContainer#read}
   */
   readonly read?: KeymanagerContainerAclRead;
 }
@@ -352,13 +352,13 @@ export interface KeymanagerContainerSecretRefs {
   /**
   * The name of the secret reference. The reference names must correspond the container type, more details are available [here](https://docs.openstack.org/barbican/stein/api/reference/containers.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#name KeymanagerContainer#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#name KeymanagerContainer#name}
   */
   readonly name?: string;
   /**
   * The secret reference / where to find the secret, URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#secret_ref KeymanagerContainer#secret_ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#secret_ref KeymanagerContainer#secret_ref}
   */
   readonly secretRef: string;
 }
@@ -500,15 +500,15 @@ export class KeymanagerContainerSecretRefsList extends cdktf.ComplexList {
 }
 export interface KeymanagerContainerTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#create KeymanagerContainer#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#create KeymanagerContainer#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#delete KeymanagerContainer#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#delete KeymanagerContainer#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#update KeymanagerContainer#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#update KeymanagerContainer#update}
   */
   readonly update?: string;
 }
@@ -660,7 +660,7 @@ export class KeymanagerContainerTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container vkcs_keymanager_container}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container vkcs_keymanager_container}
 */
 export class KeymanagerContainer extends cdktf.TerraformResource {
 
@@ -676,7 +676,7 @@ export class KeymanagerContainer extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KeymanagerContainer resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KeymanagerContainer to import
-  * @param importFromId The id of the existing KeymanagerContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KeymanagerContainer that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KeymanagerContainer to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -688,7 +688,7 @@ export class KeymanagerContainer extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/keymanager_container vkcs_keymanager_container} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/keymanager_container vkcs_keymanager_container} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -699,8 +699,8 @@ export class KeymanagerContainer extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_keymanager_container',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

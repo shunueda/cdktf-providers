@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_install_prebuilt_rules
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_install_prebuilt_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface KibanaInstallPrebuiltRulesConfig extends cdktf.TerraformMetaArg
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_install_prebuilt_rules#space_id KibanaInstallPrebuiltRules#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_install_prebuilt_rules#space_id KibanaInstallPrebuiltRules#space_id}
   */
   readonly spaceId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_install_prebuilt_rules elasticstack_kibana_install_prebuilt_rules}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_install_prebuilt_rules elasticstack_kibana_install_prebuilt_rules}
 */
 export class KibanaInstallPrebuiltRules extends cdktf.TerraformResource {
 
@@ -32,7 +32,7 @@ export class KibanaInstallPrebuiltRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaInstallPrebuiltRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaInstallPrebuiltRules to import
-  * @param importFromId The id of the existing KibanaInstallPrebuiltRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_install_prebuilt_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaInstallPrebuiltRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_install_prebuilt_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaInstallPrebuiltRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class KibanaInstallPrebuiltRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_install_prebuilt_rules elasticstack_kibana_install_prebuilt_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_install_prebuilt_rules elasticstack_kibana_install_prebuilt_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class KibanaInstallPrebuiltRules extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_install_prebuilt_rules',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface KibanaSecurityExceptionListConfig extends cdktf.TerraformMetaAr
   /**
   * Describes the exception list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#description KibanaSecurityExceptionList#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#description KibanaSecurityExceptionList#description}
   */
   readonly description: string;
   /**
   * The exception list's human readable string identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#list_id KibanaSecurityExceptionList#list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#list_id KibanaSecurityExceptionList#list_id}
   */
   readonly listId?: string;
   /**
   * Placeholder for metadata about the list container as JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#meta KibanaSecurityExceptionList#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#meta KibanaSecurityExceptionList#meta}
   */
   readonly meta?: string;
   /**
   * The name of the exception list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#name KibanaSecurityExceptionList#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#name KibanaSecurityExceptionList#name}
   */
   readonly name: string;
   /**
   * Determines whether the exception list is available in all Kibana spaces or just the space in which it is created. Can be `single` (default) or `agnostic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#namespace_type KibanaSecurityExceptionList#namespace_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#namespace_type KibanaSecurityExceptionList#namespace_type}
   */
   readonly namespaceType?: string;
   /**
   * Array of OS types for which the exceptions apply. Valid values: `linux`, `macos`, `windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#os_types KibanaSecurityExceptionList#os_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#os_types KibanaSecurityExceptionList#os_types}
   */
   readonly osTypes?: string[];
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#space_id KibanaSecurityExceptionList#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#space_id KibanaSecurityExceptionList#space_id}
   */
   readonly spaceId?: string;
   /**
   * String array containing words and phrases to help categorize exception containers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#tags KibanaSecurityExceptionList#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#tags KibanaSecurityExceptionList#tags}
   */
   readonly tags?: string[];
   /**
   * The type of exception list. Can be one of: `detection`, `endpoint`, `endpoint_trusted_apps`, `endpoint_events`, `endpoint_host_isolation_exceptions`, `endpoint_blocklists`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#type KibanaSecurityExceptionList#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#type KibanaSecurityExceptionList#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list elasticstack_kibana_security_exception_list}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list elasticstack_kibana_security_exception_list}
 */
 export class KibanaSecurityExceptionList extends cdktf.TerraformResource {
 
@@ -80,7 +80,7 @@ export class KibanaSecurityExceptionList extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSecurityExceptionList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSecurityExceptionList to import
-  * @param importFromId The id of the existing KibanaSecurityExceptionList that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSecurityExceptionList that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSecurityExceptionList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -92,7 +92,7 @@ export class KibanaSecurityExceptionList extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_list elasticstack_kibana_security_exception_list} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_list elasticstack_kibana_security_exception_list} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -103,8 +103,8 @@ export class KibanaSecurityExceptionList extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_security_exception_list',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

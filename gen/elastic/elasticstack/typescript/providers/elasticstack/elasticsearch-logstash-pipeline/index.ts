@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,127 +10,127 @@ export interface ElasticsearchLogstashPipelineConfig extends cdktf.TerraformMeta
   /**
   * Description of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#description ElasticsearchLogstashPipeline#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#description ElasticsearchLogstashPipeline#description}
   */
   readonly description?: string;
   /**
   * Configuration for the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline ElasticsearchLogstashPipeline#pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline ElasticsearchLogstashPipeline#pipeline}
   */
   readonly pipeline: string;
   /**
   * Time in milliseconds to wait for each event before sending an undersized batch to pipeline workers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_batch_delay ElasticsearchLogstashPipeline#pipeline_batch_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_batch_delay ElasticsearchLogstashPipeline#pipeline_batch_delay}
   */
   readonly pipelineBatchDelay?: number;
   /**
   * The maximum number of events an individual worker thread collects before executing filters and outputs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_batch_size ElasticsearchLogstashPipeline#pipeline_batch_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_batch_size ElasticsearchLogstashPipeline#pipeline_batch_size}
   */
   readonly pipelineBatchSize?: number;
   /**
   * Sets the pipeline default value for ecs_compatibility, a setting that is available to plugins that implement an ECS compatibility mode for use with the Elastic Common Schema.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_ecs_compatibility ElasticsearchLogstashPipeline#pipeline_ecs_compatibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_ecs_compatibility ElasticsearchLogstashPipeline#pipeline_ecs_compatibility}
   */
   readonly pipelineEcsCompatibility?: string;
   /**
   * Identifier for the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_id ElasticsearchLogstashPipeline#pipeline_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_id ElasticsearchLogstashPipeline#pipeline_id}
   */
   readonly pipelineId: string;
   /**
   * Optional JSON metadata about the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_metadata ElasticsearchLogstashPipeline#pipeline_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_metadata ElasticsearchLogstashPipeline#pipeline_metadata}
   */
   readonly pipelineMetadata?: string;
   /**
   * Set the pipeline event ordering.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_ordered ElasticsearchLogstashPipeline#pipeline_ordered}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_ordered ElasticsearchLogstashPipeline#pipeline_ordered}
   */
   readonly pipelineOrdered?: string;
   /**
   * (Beta) Load Java plugins in independent classloaders to isolate their dependencies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_plugin_classloaders ElasticsearchLogstashPipeline#pipeline_plugin_classloaders}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_plugin_classloaders ElasticsearchLogstashPipeline#pipeline_plugin_classloaders}
   */
   readonly pipelinePluginClassloaders?: boolean | cdktf.IResolvable;
   /**
   * Forces Logstash to exit during shutdown even if there are still inflight events in memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_unsafe_shutdown ElasticsearchLogstashPipeline#pipeline_unsafe_shutdown}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_unsafe_shutdown ElasticsearchLogstashPipeline#pipeline_unsafe_shutdown}
   */
   readonly pipelineUnsafeShutdown?: boolean | cdktf.IResolvable;
   /**
   * The number of parallel workers used to run the filter and output stages of the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#pipeline_workers ElasticsearchLogstashPipeline#pipeline_workers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#pipeline_workers ElasticsearchLogstashPipeline#pipeline_workers}
   */
   readonly pipelineWorkers?: number;
   /**
   * The maximum number of ACKed events before forcing a checkpoint when persistent queues are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_checkpoint_acks ElasticsearchLogstashPipeline#queue_checkpoint_acks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_checkpoint_acks ElasticsearchLogstashPipeline#queue_checkpoint_acks}
   */
   readonly queueCheckpointAcks?: number;
   /**
   * When enabled, Logstash will retry four times per attempted checkpoint write for any checkpoint writes that fail. Any subsequent errors are not retried.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_checkpoint_retry ElasticsearchLogstashPipeline#queue_checkpoint_retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_checkpoint_retry ElasticsearchLogstashPipeline#queue_checkpoint_retry}
   */
   readonly queueCheckpointRetry?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of written events before forcing a checkpoint when persistent queues are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_checkpoint_writes ElasticsearchLogstashPipeline#queue_checkpoint_writes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_checkpoint_writes ElasticsearchLogstashPipeline#queue_checkpoint_writes}
   */
   readonly queueCheckpointWrites?: number;
   /**
   * When enabled, Logstash waits until the persistent queue is drained before shutting down.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_drain ElasticsearchLogstashPipeline#queue_drain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_drain ElasticsearchLogstashPipeline#queue_drain}
   */
   readonly queueDrain?: boolean | cdktf.IResolvable;
   /**
   * Units for the total capacity of the queue when persistent queues are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_max_bytes ElasticsearchLogstashPipeline#queue_max_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_max_bytes ElasticsearchLogstashPipeline#queue_max_bytes}
   */
   readonly queueMaxBytes?: string;
   /**
   * The maximum number of unread events in the queue when persistent queues are enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_max_events ElasticsearchLogstashPipeline#queue_max_events}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_max_events ElasticsearchLogstashPipeline#queue_max_events}
   */
   readonly queueMaxEvents?: number;
   /**
   * The size of the page data files used when persistent queues are enabled. The queue data consists of append-only data files separated into pages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_page_capacity ElasticsearchLogstashPipeline#queue_page_capacity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_page_capacity ElasticsearchLogstashPipeline#queue_page_capacity}
   */
   readonly queuePageCapacity?: string;
   /**
   * The internal queueing model for event buffering. Options are memory for in-memory queueing, or persisted for disk-based acknowledged queueing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#queue_type ElasticsearchLogstashPipeline#queue_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#queue_type ElasticsearchLogstashPipeline#queue_type}
   */
   readonly queueType?: string;
   /**
   * User who last updated the pipeline.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#username ElasticsearchLogstashPipeline#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#username ElasticsearchLogstashPipeline#username}
   */
   readonly username?: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#elasticsearch_connection ElasticsearchLogstashPipeline#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#elasticsearch_connection ElasticsearchLogstashPipeline#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchLogstashPipelineElasticsearchConnection;
 }
@@ -138,85 +138,85 @@ export interface ElasticsearchLogstashPipelineElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#api_key ElasticsearchLogstashPipeline#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#api_key ElasticsearchLogstashPipeline#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#bearer_token ElasticsearchLogstashPipeline#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#bearer_token ElasticsearchLogstashPipeline#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#ca_data ElasticsearchLogstashPipeline#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#ca_data ElasticsearchLogstashPipeline#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#ca_file ElasticsearchLogstashPipeline#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#ca_file ElasticsearchLogstashPipeline#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#cert_data ElasticsearchLogstashPipeline#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#cert_data ElasticsearchLogstashPipeline#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#cert_file ElasticsearchLogstashPipeline#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#cert_file ElasticsearchLogstashPipeline#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#endpoints ElasticsearchLogstashPipeline#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#endpoints ElasticsearchLogstashPipeline#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#es_client_authentication ElasticsearchLogstashPipeline#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#es_client_authentication ElasticsearchLogstashPipeline#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#headers ElasticsearchLogstashPipeline#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#headers ElasticsearchLogstashPipeline#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#insecure ElasticsearchLogstashPipeline#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#insecure ElasticsearchLogstashPipeline#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#key_data ElasticsearchLogstashPipeline#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#key_data ElasticsearchLogstashPipeline#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#key_file ElasticsearchLogstashPipeline#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#key_file ElasticsearchLogstashPipeline#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#password ElasticsearchLogstashPipeline#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#password ElasticsearchLogstashPipeline#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#username ElasticsearchLogstashPipeline#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#username ElasticsearchLogstashPipeline#username}
   */
   readonly username?: string;
 }
@@ -677,7 +677,7 @@ export class ElasticsearchLogstashPipelineElasticsearchConnectionOutputReference
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline elasticstack_elasticsearch_logstash_pipeline}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline elasticstack_elasticsearch_logstash_pipeline}
 */
 export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
 
@@ -693,7 +693,7 @@ export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchLogstashPipeline resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchLogstashPipeline to import
-  * @param importFromId The id of the existing ElasticsearchLogstashPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchLogstashPipeline that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchLogstashPipeline to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -705,7 +705,7 @@ export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_logstash_pipeline elasticstack_elasticsearch_logstash_pipeline} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_logstash_pipeline elasticstack_elasticsearch_logstash_pipeline} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -716,8 +716,8 @@ export class ElasticsearchLogstashPipeline extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_logstash_pipeline',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

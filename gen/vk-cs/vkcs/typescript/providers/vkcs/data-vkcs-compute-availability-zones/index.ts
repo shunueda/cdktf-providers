@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_availability_zones
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_availability_zones
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsComputeAvailabilityZonesConfig extends cdktf.TerraformM
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_availability_zones#region DataVkcsComputeAvailabilityZones#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_availability_zones#region DataVkcsComputeAvailabilityZones#region}
   */
   readonly region?: string;
   /**
   * The `state` of the availability zones to match, default ("available").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_availability_zones#state DataVkcsComputeAvailabilityZones#state}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_availability_zones#state DataVkcsComputeAvailabilityZones#state}
   */
   readonly state?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_availability_zones vkcs_compute_availability_zones}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_availability_zones vkcs_compute_availability_zones}
 */
 export class DataVkcsComputeAvailabilityZones extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataVkcsComputeAvailabilityZones extends cdktf.TerraformDataSource 
   * Generates CDKTF code for importing a DataVkcsComputeAvailabilityZones resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsComputeAvailabilityZones to import
-  * @param importFromId The id of the existing DataVkcsComputeAvailabilityZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_availability_zones#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsComputeAvailabilityZones that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_availability_zones#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsComputeAvailabilityZones to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataVkcsComputeAvailabilityZones extends cdktf.TerraformDataSource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_availability_zones vkcs_compute_availability_zones} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_availability_zones vkcs_compute_availability_zones} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataVkcsComputeAvailabilityZones extends cdktf.TerraformDataSource 
       terraformResourceType: 'vkcs_compute_availability_zones',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

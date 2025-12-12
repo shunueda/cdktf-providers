@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup
+// https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/hostgroup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,28 +8,21 @@ import * as cdktf from 'cdktf';
 
 export interface HostgroupConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Display name of Host Group
+  * Display name of HostGroup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup#display_name Hostgroup#display_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/hostgroup#display_name Hostgroup#display_name}
   */
   readonly displayName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup#id Hostgroup#id}
+  * Name of the HostGroup
   *
-  * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
-  * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
-  */
-  readonly id?: string;
-  /**
-  * name
-  *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup#name Hostgroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/hostgroup#name Hostgroup#name}
   */
   readonly name: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup icinga2_hostgroup}
+* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/hostgroup icinga2_hostgroup}
 */
 export class Hostgroup extends cdktf.TerraformResource {
 
@@ -45,7 +38,7 @@ export class Hostgroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Hostgroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Hostgroup to import
-  * @param importFromId The id of the existing Hostgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Hostgroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/hostgroup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Hostgroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -57,7 +50,7 @@ export class Hostgroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/hostgroup icinga2_hostgroup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/hostgroup icinga2_hostgroup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -68,8 +61,8 @@ export class Hostgroup extends cdktf.TerraformResource {
       terraformResourceType: 'icinga2_hostgroup',
       terraformGeneratorMetadata: {
         providerName: 'icinga2',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -80,7 +73,6 @@ export class Hostgroup extends cdktf.TerraformResource {
       forEach: config.forEach
     });
     this._displayName = config.displayName;
-    this._id = config.id;
     this._name = config.name;
   }
 
@@ -101,20 +93,14 @@ export class Hostgroup extends cdktf.TerraformResource {
     return this._displayName;
   }
 
-  // id - computed: true, optional: true, required: false
-  private _id?: string; 
+  // id - computed: true, optional: false, required: false
   public get id() {
     return this.getStringAttribute('id');
   }
-  public set id(value: string) {
-    this._id = value;
-  }
-  public resetId() {
-    this._id = undefined;
-  }
-  // Temporarily expose input value. Use with caution.
-  public get idInput() {
-    return this._id;
+
+  // last_updated - computed: true, optional: false, required: false
+  public get lastUpdated() {
+    return this.getStringAttribute('last_updated');
   }
 
   // name - computed: false, optional: false, required: true
@@ -137,7 +123,6 @@ export class Hostgroup extends cdktf.TerraformResource {
   protected synthesizeAttributes(): { [name: string]: any } {
     return {
       display_name: cdktf.stringToTerraform(this._displayName),
-      id: cdktf.stringToTerraform(this._id),
       name: cdktf.stringToTerraform(this._name),
     };
   }
@@ -146,12 +131,6 @@ export class Hostgroup extends cdktf.TerraformResource {
     const attrs = {
       display_name: {
         value: cdktf.stringToHclTerraform(this._displayName),
-        isBlock: false,
-        type: "simple",
-        storageClassType: "string",
-      },
-      id: {
-        value: cdktf.stringToHclTerraform(this._id),
         isBlock: false,
         type: "simple",
         storageClassType: "string",

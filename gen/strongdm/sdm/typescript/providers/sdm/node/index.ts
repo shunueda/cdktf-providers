@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node
+// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NodeConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#id Node#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#id Node#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,35 +17,35 @@ export interface NodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * gateway block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#gateway Node#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#gateway Node#gateway}
   */
   readonly gateway?: NodeGateway;
   /**
   * proxy_cluster block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#proxy_cluster Node#proxy_cluster}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#proxy_cluster Node#proxy_cluster}
   */
   readonly proxyCluster?: NodeProxyCluster;
   /**
   * relay block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#relay Node#relay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#relay Node#relay}
   */
   readonly relay?: NodeRelay;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#timeouts Node#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#timeouts Node#timeouts}
   */
   readonly timeouts?: NodeTimeouts;
 }
 export interface NodeGatewayMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#cron_schedule Node#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#cron_schedule Node#cron_schedule}
   */
   readonly cronSchedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#require_idleness Node#require_idleness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#require_idleness Node#require_idleness}
   */
   readonly requireIdleness: boolean | cdktf.IResolvable;
 }
@@ -186,37 +186,37 @@ export interface NodeGateway {
   /**
   * The hostname/port tuple which the gateway daemon will bind to. If not provided on create, set to "0.0.0.0:listen_address_port".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#bind_address Node#bind_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#bind_address Node#bind_address}
   */
   readonly bindAddress?: string;
   /**
   * GatewayFilter can be used to restrict the peering between relays and gateways. Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#gateway_filter Node#gateway_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#gateway_filter Node#gateway_filter}
   */
   readonly gatewayFilter?: string;
   /**
   * The public hostname/port tuple at which the gateway will be accessible to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#listen_address Node#listen_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#listen_address Node#listen_address}
   */
   readonly listenAddress: string;
   /**
   * Unique human-readable name of the Gateway. Node names must include only letters, numbers, and hyphens (no spaces, underscores, or other special characters). Generated if not provided on create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#name Node#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#name Node#name}
   */
   readonly name?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#tags Node#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#tags Node#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#maintenance_window Node#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#maintenance_window Node#maintenance_window}
   */
   readonly maintenanceWindow?: NodeGatewayMaintenanceWindow[] | cdktf.IResolvable;
 }
@@ -462,11 +462,11 @@ export class NodeGatewayOutputReference extends cdktf.ComplexObject {
 }
 export interface NodeProxyClusterMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#cron_schedule Node#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#cron_schedule Node#cron_schedule}
   */
   readonly cronSchedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#require_idleness Node#require_idleness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#require_idleness Node#require_idleness}
   */
   readonly requireIdleness: boolean | cdktf.IResolvable;
 }
@@ -607,25 +607,25 @@ export interface NodeProxyCluster {
   /**
   * The public hostname/port tuple at which the proxy cluster will be accessible to clients.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#address Node#address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#address Node#address}
   */
   readonly address: string;
   /**
   * Unique human-readable name of the proxy cluster. Names must include only letters, numbers, and hyphens (no spaces, underscores, or other special characters). Generated if not provided on create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#name Node#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#name Node#name}
   */
   readonly name?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#tags Node#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#tags Node#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#maintenance_window Node#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#maintenance_window Node#maintenance_window}
   */
   readonly maintenanceWindow?: NodeProxyClusterMaintenanceWindow[] | cdktf.IResolvable;
 }
@@ -793,11 +793,11 @@ export class NodeProxyClusterOutputReference extends cdktf.ComplexObject {
 }
 export interface NodeRelayMaintenanceWindow {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#cron_schedule Node#cron_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#cron_schedule Node#cron_schedule}
   */
   readonly cronSchedule: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#require_idleness Node#require_idleness}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#require_idleness Node#require_idleness}
   */
   readonly requireIdleness: boolean | cdktf.IResolvable;
 }
@@ -938,25 +938,25 @@ export interface NodeRelay {
   /**
   * GatewayFilter can be used to restrict the peering between relays and gateways. Deprecated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#gateway_filter Node#gateway_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#gateway_filter Node#gateway_filter}
   */
   readonly gatewayFilter?: string;
   /**
   * Unique human-readable name of the Relay. Node names must include only letters, numbers, and hyphens (no spaces, underscores, or other special characters). Generated if not provided on create.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#name Node#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#name Node#name}
   */
   readonly name?: string;
   /**
   * Tags is a map of key, value pairs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#tags Node#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#tags Node#tags}
   */
   readonly tags?: { [key: string]: string };
   /**
   * maintenance_window block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#maintenance_window Node#maintenance_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#maintenance_window Node#maintenance_window}
   */
   readonly maintenanceWindow?: NodeRelayMaintenanceWindow[] | cdktf.IResolvable;
 }
@@ -1147,23 +1147,23 @@ export class NodeRelayOutputReference extends cdktf.ComplexObject {
 }
 export interface NodeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#create Node#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#create Node#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#default Node#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#default Node#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#delete Node#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#delete Node#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#read Node#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#read Node#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#update Node#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#update Node#update}
   */
   readonly update?: string;
 }
@@ -1373,7 +1373,7 @@ export class NodeTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node sdm_node}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node sdm_node}
 */
 export class Node extends cdktf.TerraformResource {
 
@@ -1389,7 +1389,7 @@ export class Node extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Node resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Node to import
-  * @param importFromId The id of the existing Node that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Node that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Node to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1401,7 +1401,7 @@ export class Node extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/node sdm_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/node sdm_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1412,8 +1412,8 @@ export class Node extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_node',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.35.0',
-        providerVersionConstraint: '15.35.0'
+        providerVersion: '15.39.0',
+        providerVersionConstraint: '15.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

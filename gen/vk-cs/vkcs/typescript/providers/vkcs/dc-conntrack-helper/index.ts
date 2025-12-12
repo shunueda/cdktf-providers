@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DcConntrackHelperConfig extends cdktf.TerraformMetaArguments {
   /**
   * Direct Connect Router ID. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#dc_router_id DcConntrackHelper#dc_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#dc_router_id DcConntrackHelper#dc_router_id}
   */
   readonly dcRouterId: string;
   /**
   * Description of the conntrack helper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#description DcConntrackHelper#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#description DcConntrackHelper#description}
   */
   readonly description?: string;
   /**
   * Helper type. Must be one of: "ftp".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#helper DcConntrackHelper#helper}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#helper DcConntrackHelper#helper}
   */
   readonly helper: string;
   /**
   * Name of the conntrack helper
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#name DcConntrackHelper#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#name DcConntrackHelper#name}
   */
   readonly name?: string;
   /**
   * Network port for conntrack target rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#port DcConntrackHelper#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#port DcConntrackHelper#port}
   */
   readonly port: number;
   /**
   * Protocol. Must be one of: "tcp".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#protocol DcConntrackHelper#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#protocol DcConntrackHelper#protocol}
   */
   readonly protocol: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new conntrack_helper.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#region DcConntrackHelper#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#region DcConntrackHelper#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper vkcs_dc_conntrack_helper}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper vkcs_dc_conntrack_helper}
 */
 export class DcConntrackHelper extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class DcConntrackHelper extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcConntrackHelper resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcConntrackHelper to import
-  * @param importFromId The id of the existing DcConntrackHelper that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcConntrackHelper that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcConntrackHelper to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DcConntrackHelper extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_conntrack_helper vkcs_dc_conntrack_helper} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_conntrack_helper vkcs_dc_conntrack_helper} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DcConntrackHelper extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_conntrack_helper',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

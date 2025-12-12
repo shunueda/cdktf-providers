@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface IntegrationMetricPrometheusConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#id IntegrationMetricPrometheus#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#id IntegrationMetricPrometheus#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,55 +17,55 @@ export interface IntegrationMetricPrometheusConfig extends cdktf.TerraformMetaAr
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#instance_id IntegrationMetricPrometheus#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#instance_id IntegrationMetricPrometheus#instance_id}
   */
   readonly instanceId: number;
   /**
   * List of metrics to include. If not specified, default metrics are used. See https://www.cloudamqp.com/docs/monitoring_metrics_splunk_v2.html#metrics-filtering for more information
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#metrics_filter IntegrationMetricPrometheus#metrics_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#metrics_filter IntegrationMetricPrometheus#metrics_filter}
   */
   readonly metricsFilter?: string[];
   /**
   * azure_monitor block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#azure_monitor IntegrationMetricPrometheus#azure_monitor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#azure_monitor IntegrationMetricPrometheus#azure_monitor}
   */
   readonly azureMonitor?: IntegrationMetricPrometheusAzureMonitor;
   /**
   * cloudwatch_v3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#cloudwatch_v3 IntegrationMetricPrometheus#cloudwatch_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#cloudwatch_v3 IntegrationMetricPrometheus#cloudwatch_v3}
   */
   readonly cloudwatchV3?: IntegrationMetricPrometheusCloudwatchV3;
   /**
   * datadog_v3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#datadog_v3 IntegrationMetricPrometheus#datadog_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#datadog_v3 IntegrationMetricPrometheus#datadog_v3}
   */
   readonly datadogV3?: IntegrationMetricPrometheusDatadogV3;
   /**
   * dynatrace block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#dynatrace IntegrationMetricPrometheus#dynatrace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#dynatrace IntegrationMetricPrometheus#dynatrace}
   */
   readonly dynatrace?: IntegrationMetricPrometheusDynatrace;
   /**
   * newrelic_v3 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#newrelic_v3 IntegrationMetricPrometheus#newrelic_v3}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#newrelic_v3 IntegrationMetricPrometheus#newrelic_v3}
   */
   readonly newrelicV3?: IntegrationMetricPrometheusNewrelicV3;
   /**
   * splunk_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#splunk_v2 IntegrationMetricPrometheus#splunk_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#splunk_v2 IntegrationMetricPrometheus#splunk_v2}
   */
   readonly splunkV2?: IntegrationMetricPrometheusSplunkV2;
   /**
   * stackdriver_v2 block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#stackdriver_v2 IntegrationMetricPrometheus#stackdriver_v2}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#stackdriver_v2 IntegrationMetricPrometheus#stackdriver_v2}
   */
   readonly stackdriverV2?: IntegrationMetricPrometheusStackdriverV2;
 }
@@ -73,7 +73,7 @@ export interface IntegrationMetricPrometheusAzureMonitor {
   /**
   * Azure Application Insights Connection String
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#connection_string IntegrationMetricPrometheus#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#connection_string IntegrationMetricPrometheus#connection_string}
   */
   readonly connectionString: string;
 }
@@ -156,25 +156,25 @@ export interface IntegrationMetricPrometheusCloudwatchV3 {
   /**
   * External identifier that matches the role you created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#iam_external_id IntegrationMetricPrometheus#iam_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#iam_external_id IntegrationMetricPrometheus#iam_external_id}
   */
   readonly iamExternalId: string;
   /**
   * AWS IAM role ARN with PutMetricData permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#iam_role IntegrationMetricPrometheus#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#iam_role IntegrationMetricPrometheus#iam_role}
   */
   readonly iamRole: string;
   /**
   * AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#region IntegrationMetricPrometheus#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#region IntegrationMetricPrometheus#region}
   */
   readonly region: string;
   /**
   * tags. E.g. env=prod,service=web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
   */
   readonly tags?: string;
 }
@@ -336,25 +336,25 @@ export class IntegrationMetricPrometheusCloudwatchV3OutputReference extends cdkt
 }
 export interface IntegrationMetricPrometheusDatadogV3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#api_key IntegrationMetricPrometheus#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#api_key IntegrationMetricPrometheus#api_key}
   */
   readonly apiKey: string;
   /**
   * Enable metric name transformation to match Datadog's RabbitMQ dashboard format
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#rabbitmq_dashboard_metrics_format IntegrationMetricPrometheus#rabbitmq_dashboard_metrics_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#rabbitmq_dashboard_metrics_format IntegrationMetricPrometheus#rabbitmq_dashboard_metrics_format}
   */
   readonly rabbitmqDashboardMetricsFormat?: boolean | cdktf.IResolvable;
   /**
   * Datadog region; us1, us3, us5, or eu1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#region IntegrationMetricPrometheus#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#region IntegrationMetricPrometheus#region}
   */
   readonly region: string;
   /**
   * tags. E.g. env=prod,service=web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
   */
   readonly tags?: string;
 }
@@ -521,19 +521,19 @@ export interface IntegrationMetricPrometheusDynatrace {
   /**
   * Dynatrace access token with 'Ingest metrics' permission
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#access_token IntegrationMetricPrometheus#access_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#access_token IntegrationMetricPrometheus#access_token}
   */
   readonly accessToken: string;
   /**
   * Dynatrace environment ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#environment_id IntegrationMetricPrometheus#environment_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#environment_id IntegrationMetricPrometheus#environment_id}
   */
   readonly environmentId: string;
   /**
   * tags. E.g. env=prod,service=web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
   */
   readonly tags?: string;
 }
@@ -669,19 +669,19 @@ export class IntegrationMetricPrometheusDynatraceOutputReference extends cdktf.C
 }
 export interface IntegrationMetricPrometheusNewrelicV3 {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#api_key IntegrationMetricPrometheus#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#api_key IntegrationMetricPrometheus#api_key}
   */
   readonly apiKey: string;
   /**
   * New Relic region; eu or us
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#region IntegrationMetricPrometheus#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#region IntegrationMetricPrometheus#region}
   */
   readonly region: string;
   /**
   * tags. E.g. env=prod,service=web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
   */
   readonly tags?: string;
 }
@@ -819,19 +819,19 @@ export interface IntegrationMetricPrometheusSplunkV2 {
   /**
   * Splunk HEC endpoint. E.g. https://your-instance-id.splunkcloud.com:8088/services/collector
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#endpoint IntegrationMetricPrometheus#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#endpoint IntegrationMetricPrometheus#endpoint}
   */
   readonly endpoint: string;
   /**
   * tags. E.g. env=prod,service=web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
   */
   readonly tags?: string;
   /**
   * Splunk HEC token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#token IntegrationMetricPrometheus#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#token IntegrationMetricPrometheus#token}
   */
   readonly token: string;
 }
@@ -969,13 +969,13 @@ export interface IntegrationMetricPrometheusStackdriverV2 {
   /**
   * Base64-encoded Google service account key JSON file
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#credentials_file IntegrationMetricPrometheus#credentials_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#credentials_file IntegrationMetricPrometheus#credentials_file}
   */
   readonly credentialsFile: string;
   /**
   * tags. E.g. env=prod,service=web
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#tags IntegrationMetricPrometheus#tags}
   */
   readonly tags?: string;
 }
@@ -1105,7 +1105,7 @@ export class IntegrationMetricPrometheusStackdriverV2OutputReference extends cdk
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus cloudamqp_integration_metric_prometheus}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus cloudamqp_integration_metric_prometheus}
 */
 export class IntegrationMetricPrometheus extends cdktf.TerraformResource {
 
@@ -1121,7 +1121,7 @@ export class IntegrationMetricPrometheus extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationMetricPrometheus resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationMetricPrometheus to import
-  * @param importFromId The id of the existing IntegrationMetricPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationMetricPrometheus that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationMetricPrometheus to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1133,7 +1133,7 @@ export class IntegrationMetricPrometheus extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric_prometheus cloudamqp_integration_metric_prometheus} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric_prometheus cloudamqp_integration_metric_prometheus} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1144,8 +1144,8 @@ export class IntegrationMetricPrometheus extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_integration_metric_prometheus',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVercelSharedEnvironmentVariableConfig extends cdktf.Terrafo
   /**
   * The ID of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable#id DataVercelSharedEnvironmentVariable#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable#id DataVercelSharedEnvironmentVariable#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,25 +19,25 @@ export interface DataVercelSharedEnvironmentVariableConfig extends cdktf.Terrafo
   /**
   * The name of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable#key DataVercelSharedEnvironmentVariable#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable#key DataVercelSharedEnvironmentVariable#key}
   */
   readonly key?: string;
   /**
   * The environments that the Environment Variable should be present on. Valid targets are either `production`, `preview`, or `development`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable#target DataVercelSharedEnvironmentVariable#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable#target DataVercelSharedEnvironmentVariable#target}
   */
   readonly target?: string[];
   /**
   * The ID of the Vercel team. Shared environment variables require a team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable#team_id DataVercelSharedEnvironmentVariable#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable#team_id DataVercelSharedEnvironmentVariable#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable vercel_shared_environment_variable}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable vercel_shared_environment_variable}
 */
 export class DataVercelSharedEnvironmentVariable extends cdktf.TerraformDataSource {
 
@@ -53,7 +53,7 @@ export class DataVercelSharedEnvironmentVariable extends cdktf.TerraformDataSour
   * Generates CDKTF code for importing a DataVercelSharedEnvironmentVariable resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelSharedEnvironmentVariable to import
-  * @param importFromId The id of the existing DataVercelSharedEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelSharedEnvironmentVariable that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelSharedEnvironmentVariable to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -65,7 +65,7 @@ export class DataVercelSharedEnvironmentVariable extends cdktf.TerraformDataSour
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/shared_environment_variable vercel_shared_environment_variable} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/shared_environment_variable vercel_shared_environment_variable} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -76,8 +76,8 @@ export class DataVercelSharedEnvironmentVariable extends cdktf.TerraformDataSour
       terraformResourceType: 'vercel_shared_environment_variable',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

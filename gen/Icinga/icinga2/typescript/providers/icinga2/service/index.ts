@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service
+// https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * CheckCommand
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#check_command Service#check_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#check_command Service#check_command}
   */
   readonly checkCommand: string;
   /**
   * Hostname
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#hostname Service#hostname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#hostname Service#hostname}
   */
   readonly hostname: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#id Service#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#id Service#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,23 +29,23 @@ export interface ServiceConfig extends cdktf.TerraformMetaArguments {
   /**
   * ServiceName
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#name Service#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#name Service#name}
   */
   readonly name: string;
   /**
   * Templates
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#templates Service#templates}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#templates Service#templates}
   */
   readonly templates?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#vars Service#vars}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#vars Service#vars}
   */
   readonly vars?: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service icinga2_service}
+* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service icinga2_service}
 */
 export class Service extends cdktf.TerraformResource {
 
@@ -61,7 +61,7 @@ export class Service extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Service resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Service to import
-  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Service that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Service to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -73,7 +73,7 @@ export class Service extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs/resources/service icinga2_service} Resource
+  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs/resources/service icinga2_service} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -84,8 +84,8 @@ export class Service extends cdktf.TerraformResource {
       terraformResourceType: 'icinga2_service',
       terraformGeneratorMetadata: {
         providerName: 'icinga2',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,3 +1,3 @@
 # `data_criblio_grok`
 
-Refer to the Terraform Registry for docs: [`data_criblio_grok`](https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/grok).
+Refer to the Terraform Registry for docs: [`data_criblio_grok`](https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/grok).

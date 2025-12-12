@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface IntegrationMetricConfig extends cdktf.TerraformMetaArguments {
   /**
   * AWS access key identifier. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#access_key_id IntegrationMetric#access_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#access_key_id IntegrationMetric#access_key_id}
   */
   readonly accessKeyId?: string;
   /**
   * The API key for the integration service. (Librato, Data Dog, New Relic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#api_key IntegrationMetric#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#api_key IntegrationMetric#api_key}
   */
   readonly apiKey?: string;
   /**
   * The client email. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#client_email IntegrationMetric#client_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#client_email IntegrationMetric#client_email}
   */
   readonly clientEmail?: string;
   /**
   * Base64Encoded credentials. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#credentials IntegrationMetric#credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#credentials IntegrationMetric#credentials}
   */
   readonly credentials?: string;
   /**
   * The email address registred for the integration service. (Librato)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#email IntegrationMetric#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#email IntegrationMetric#email}
   */
   readonly email?: string;
   /**
   * External identifier that match the role you created. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#iam_external_id IntegrationMetric#iam_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#iam_external_id IntegrationMetric#iam_external_id}
   */
   readonly iamExternalId?: string;
   /**
   * The ARN of the role to be assumed when publishing metrics. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#iam_role IntegrationMetric#iam_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#iam_role IntegrationMetric#iam_role}
   */
   readonly iamRole?: string;
   /**
   * (optional) Include Auto-Delete queues
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#include_ad_queues IntegrationMetric#include_ad_queues}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#include_ad_queues IntegrationMetric#include_ad_queues}
   */
   readonly includeAdQueues?: boolean | cdktf.IResolvable;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#instance_id IntegrationMetric#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#instance_id IntegrationMetric#instance_id}
   */
   readonly instanceId: number;
   /**
   * The name of log integration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#name IntegrationMetric#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#name IntegrationMetric#name}
   */
   readonly name: string;
   /**
   * The private key. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#private_key IntegrationMetric#private_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#private_key IntegrationMetric#private_key}
   */
   readonly privateKey?: string;
   /**
   * Private key identifier. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#private_key_id IntegrationMetric#private_key_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#private_key_id IntegrationMetric#private_key_id}
   */
   readonly privateKeyId?: string;
   /**
   * Project ID. (Stackdriver)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#project_id IntegrationMetric#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#project_id IntegrationMetric#project_id}
   */
   readonly projectId?: string;
   /**
   * (optional) allowlist using regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#queue_allowlist IntegrationMetric#queue_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#queue_allowlist IntegrationMetric#queue_allowlist}
   */
   readonly queueAllowlist?: string;
   /**
   * AWS region for Cloudwatch and [US/EU] for Data dog/New relic. (Cloudwatch, Data Dog, New Relic)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#region IntegrationMetric#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#region IntegrationMetric#region}
   */
   readonly region?: string;
   /**
   * AWS secret key. (Cloudwatch)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#secret_access_key IntegrationMetric#secret_access_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#secret_access_key IntegrationMetric#secret_access_key}
   */
   readonly secretAccessKey?: string;
   /**
   * (optional) tags. E.g. env=prod,region=europe
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#tags IntegrationMetric#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#tags IntegrationMetric#tags}
   */
   readonly tags?: string;
   /**
   * (optional) allowlist using regular expression
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#vhost_allowlist IntegrationMetric#vhost_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#vhost_allowlist IntegrationMetric#vhost_allowlist}
   */
   readonly vhostAllowlist?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric cloudamqp_integration_metric}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric cloudamqp_integration_metric}
 */
 export class IntegrationMetric extends cdktf.TerraformResource {
 
@@ -134,7 +134,7 @@ export class IntegrationMetric extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a IntegrationMetric resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the IntegrationMetric to import
-  * @param importFromId The id of the existing IntegrationMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing IntegrationMetric that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the IntegrationMetric to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -146,7 +146,7 @@ export class IntegrationMetric extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_metric cloudamqp_integration_metric} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_metric cloudamqp_integration_metric} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -157,8 +157,8 @@ export class IntegrationMetric extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_integration_metric',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

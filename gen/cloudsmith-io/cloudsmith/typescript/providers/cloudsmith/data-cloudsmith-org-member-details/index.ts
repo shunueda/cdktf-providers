@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,24 +8,24 @@ import * as cdktf from 'cdktf';
 
 export interface DataCloudsmithOrgMemberDetailsConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details#id DataCloudsmithOrgMemberDetails#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details#id DataCloudsmithOrgMemberDetails#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details#member DataCloudsmithOrgMemberDetails#member}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details#member DataCloudsmithOrgMemberDetails#member}
   */
   readonly member: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details#organization DataCloudsmithOrgMemberDetails#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details#organization DataCloudsmithOrgMemberDetails#organization}
   */
   readonly organization: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details cloudsmith_org_member_details}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details cloudsmith_org_member_details}
 */
 export class DataCloudsmithOrgMemberDetails extends cdktf.TerraformDataSource {
 
@@ -41,7 +41,7 @@ export class DataCloudsmithOrgMemberDetails extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudsmithOrgMemberDetails resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudsmithOrgMemberDetails to import
-  * @param importFromId The id of the existing DataCloudsmithOrgMemberDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudsmithOrgMemberDetails that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudsmithOrgMemberDetails to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -53,7 +53,7 @@ export class DataCloudsmithOrgMemberDetails extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/org_member_details cloudsmith_org_member_details} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/org_member_details cloudsmith_org_member_details} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -64,8 +64,8 @@ export class DataCloudsmithOrgMemberDetails extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudsmith_org_member_details',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

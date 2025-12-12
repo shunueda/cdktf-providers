@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,241 +10,247 @@ export interface ProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * Automatically assign custom production domains after each Production deployment via merge to the production branch or Vercel CLI deploy with --prod. Defaults to `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#auto_assign_custom_domains Project#auto_assign_custom_domains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#auto_assign_custom_domains Project#auto_assign_custom_domains}
   */
   readonly autoAssignCustomDomains?: boolean | cdktf.IResolvable;
   /**
   * Vercel provides a set of Environment Variables that are automatically populated by the System, such as the URL of the Deployment or the name of the Git branch deployed. To expose them to your Deployments, enable this field
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#automatically_expose_system_environment_variables Project#automatically_expose_system_environment_variables}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#automatically_expose_system_environment_variables Project#automatically_expose_system_environment_variables}
   */
   readonly automaticallyExposeSystemEnvironmentVariables?: boolean | cdktf.IResolvable;
   /**
   * The build command for this project. If omitted, this value will be automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#build_command Project#build_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#build_command Project#build_command}
   */
   readonly buildCommand?: string;
   /**
   * The build machine type to use for this project. Must be one of "enhanced" or "turbo".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#build_machine_type Project#build_machine_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#build_machine_type Project#build_machine_type}
   */
   readonly buildMachineType?: string;
   /**
   * Allows Vercel Customer Support to inspect all Deployments' source code in this project to assist with debugging.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#customer_success_code_visibility Project#customer_success_code_visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#customer_success_code_visibility Project#customer_success_code_visibility}
   */
   readonly customerSuccessCodeVisibility?: boolean | cdktf.IResolvable;
   /**
   * The dev command for this project. If omitted, this value will be automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#dev_command Project#dev_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#dev_command Project#dev_command}
   */
   readonly devCommand?: string;
   /**
   * If no index file is present within a directory, the directory contents will be displayed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#directory_listing Project#directory_listing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#directory_listing Project#directory_listing}
   */
   readonly directoryListing?: boolean | cdktf.IResolvable;
   /**
   * When enabled, Vercel will automatically deploy all projects that are affected by a change to this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#enable_affected_projects_deployments Project#enable_affected_projects_deployments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#enable_affected_projects_deployments Project#enable_affected_projects_deployments}
   */
   readonly enableAffectedProjectsDeployments?: boolean | cdktf.IResolvable;
   /**
   * Enables the Vercel Toolbar on your preview deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#enable_preview_feedback Project#enable_preview_feedback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#enable_preview_feedback Project#enable_preview_feedback}
   */
   readonly enablePreviewFeedback?: boolean | cdktf.IResolvable;
   /**
   * Enables the Vercel Toolbar on your production deployments: one of on, off or default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#enable_production_feedback Project#enable_production_feedback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#enable_production_feedback Project#enable_production_feedback}
   */
   readonly enableProductionFeedback?: boolean | cdktf.IResolvable;
   /**
   * A set of Environment Variables that should be configured for the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#environment Project#environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#environment Project#environment}
   */
   readonly environment?: ProjectEnvironment[] | cdktf.IResolvable;
   /**
   * The framework that is being used for this project. If omitted, no framework is selected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#framework Project#framework}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#framework Project#framework}
   */
   readonly framework?: string;
   /**
   * Automatically failover Serverless Functions to the nearest region. You can customize regions through vercel.json. A new Deployment is required for your changes to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#function_failover Project#function_failover}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#function_failover Project#function_failover}
   */
   readonly functionFailover?: boolean | cdktf.IResolvable;
   /**
   * Configuration for Git Comments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#git_comments Project#git_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#git_comments Project#git_comments}
   */
   readonly gitComments?: ProjectGitComments;
   /**
   * Ensures that pull requests targeting your Git repository must be authorized by a member of your Team before deploying if your Project has Environment Variables or if the pull request includes a change to vercel.json. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#git_fork_protection Project#git_fork_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#git_fork_protection Project#git_fork_protection}
   */
   readonly gitForkProtection?: boolean | cdktf.IResolvable;
   /**
   * Enables Git LFS support. Git LFS replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server like GitHub.com or GitHub Enterprise.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#git_lfs Project#git_lfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#git_lfs Project#git_lfs}
   */
   readonly gitLfs?: boolean | cdktf.IResolvable;
   /**
+  * Git provider options
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#git_provider_options Project#git_provider_options}
+  */
+  readonly gitProviderOptions?: ProjectGitProviderOptions;
+  /**
   * The Git Repository that will be connected to the project. When this is defined, any pushes to the specified connected Git Repository will be automatically deployed. This requires the corresponding Vercel for [Github](https://vercel.com/docs/concepts/git/vercel-for-github), [Gitlab](https://vercel.com/docs/concepts/git/vercel-for-gitlab) or [Bitbucket](https://vercel.com/docs/concepts/git/vercel-for-bitbucket) plugins to be installed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#git_repository Project#git_repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#git_repository Project#git_repository}
   */
   readonly gitRepository?: ProjectGitRepository;
   /**
   * When a commit is pushed to the Git repository that is connected with your Project, its SHA will determine if a new Build has to be issued. If the SHA was deployed before, no new Build will be issued. You can customize this behavior with a command that exits with code 1 (new Build needed) or code 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#ignore_command Project#ignore_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#ignore_command Project#ignore_command}
   */
   readonly ignoreCommand?: string;
   /**
   * The install command for this project. If omitted, this value will be automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#install_command Project#install_command}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#install_command Project#install_command}
   */
   readonly installCommand?: string;
   /**
   * The desired name for the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * The version of Node.js that is used in the Build Step and for Serverless Functions. A new Deployment is required for your changes to take effect.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#node_version Project#node_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#node_version Project#node_version}
   */
   readonly nodeVersion?: string;
   /**
   * Configuration for OpenID Connect (OIDC) tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#oidc_token_config Project#oidc_token_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#oidc_token_config Project#oidc_token_config}
   */
   readonly oidcTokenConfig?: ProjectOidcTokenConfig;
   /**
   * Instantly scale build capacity to skip the queue, even if all build slots are in use. You can also choose a larger build machine; charges apply per minute if it exceeds your team's default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#on_demand_concurrent_builds Project#on_demand_concurrent_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#on_demand_concurrent_builds Project#on_demand_concurrent_builds}
   */
   readonly onDemandConcurrentBuilds?: boolean | cdktf.IResolvable;
   /**
   * Disable Deployment Protection for CORS preflight `OPTIONS` requests for a list of paths.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#options_allowlist Project#options_allowlist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#options_allowlist Project#options_allowlist}
   */
   readonly optionsAllowlist?: ProjectOptionsAllowlistStruct;
   /**
   * The output directory of the project. If omitted, this value will be automatically detected.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#output_directory Project#output_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#output_directory Project#output_directory}
   */
   readonly outputDirectory?: string;
   /**
   * Ensures visitors of your Preview Deployments must enter a password in order to gain access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#password_protection Project#password_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#password_protection Project#password_protection}
   */
   readonly passwordProtection?: ProjectPasswordProtection;
   /**
   * Enables the Vercel Toolbar on your preview deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#preview_comments Project#preview_comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#preview_comments Project#preview_comments}
   */
   readonly previewComments?: boolean | cdktf.IResolvable;
   /**
   * The preview deployment suffix to apply to preview deployment URLs for this project. If not set, Vercel's default suffix will be used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#preview_deployment_suffix Project#preview_deployment_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#preview_deployment_suffix Project#preview_deployment_suffix}
   */
   readonly previewDeploymentSuffix?: string;
   /**
   * Disable creation of Preview Deployments for this project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#preview_deployments_disabled Project#preview_deployments_disabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#preview_deployments_disabled Project#preview_deployments_disabled}
   */
   readonly previewDeploymentsDisabled?: boolean | cdktf.IResolvable;
   /**
   * If enabled, builds for the Production environment will be prioritized over Preview environments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#prioritise_production_builds Project#prioritise_production_builds}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#prioritise_production_builds Project#prioritise_production_builds}
   */
   readonly prioritiseProductionBuilds?: boolean | cdktf.IResolvable;
   /**
   * Allow automation services to bypass Deployment Protection on this project when using an HTTP header named `x-vercel-protection-bypass` with a value of the `protection_bypass_for_automation_secret` field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#protection_bypass_for_automation Project#protection_bypass_for_automation}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#protection_bypass_for_automation Project#protection_bypass_for_automation}
   */
   readonly protectionBypassForAutomation?: boolean | cdktf.IResolvable;
   /**
   * If `protection_bypass_for_automation` is enabled, optionally set this value to specify a 32 character secret, otherwise a secret will be generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#protection_bypass_for_automation_secret Project#protection_bypass_for_automation_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#protection_bypass_for_automation_secret Project#protection_bypass_for_automation_secret}
   */
   readonly protectionBypassForAutomationSecret?: string;
   /**
   * By default, visitors to the `/_logs` and `/_src` paths of your Production and Preview Deployments must log in with Vercel (requires being a member of your team) to see the Source, Logs and Deployment Status of your project. Setting `public_source` to `true` disables this behaviour, meaning the Source, Logs and Deployment Status can be publicly viewed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#public_source Project#public_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#public_source Project#public_source}
   */
   readonly publicSource?: boolean | cdktf.IResolvable;
   /**
   * Resource Configuration for the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#resource_config Project#resource_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#resource_config Project#resource_config}
   */
   readonly resourceConfig?: ProjectResourceConfig;
   /**
   * The name of a directory or relative path to the source code of your project. If omitted, it will default to the project root.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#root_directory Project#root_directory}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#root_directory Project#root_directory}
   */
   readonly rootDirectory?: string;
   /**
   * The region on Vercel's network to which your Serverless Functions are deployed. It should be close to any data source your Serverless Function might depend on. A new Deployment is required for your changes to take effect. Please see [Vercel's documentation](https://vercel.com/docs/concepts/edge-network/regions) for a full list of regions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#serverless_function_region Project#serverless_function_region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#serverless_function_region Project#serverless_function_region}
   */
   readonly serverlessFunctionRegion?: string;
   /**
   * Ensures that outdated clients always fetch the correct version for a given deployment. This value defines how long Vercel keeps Skew Protection active.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#skew_protection Project#skew_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#skew_protection Project#skew_protection}
   */
   readonly skewProtection?: string;
   /**
   * The team ID to add the project to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#team_id Project#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#team_id Project#team_id}
   */
   readonly teamId?: string;
   /**
   * Ensures only visitors from an allowed IP address can access your deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#trusted_ips Project#trusted_ips}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#trusted_ips Project#trusted_ips}
   */
   readonly trustedIps?: ProjectTrustedIps;
   /**
   * Ensures visitors to your Preview Deployments are logged into Vercel and have a minimum of Viewer access on your team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#vercel_authentication Project#vercel_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#vercel_authentication Project#vercel_authentication}
   */
   readonly vercelAuthentication?: ProjectVercelAuthentication;
 }
@@ -252,43 +258,43 @@ export interface ProjectEnvironment {
   /**
   * A comment explaining what the environment variable is for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#comment Project#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#comment Project#comment}
   */
   readonly comment?: string;
   /**
   * The IDs of Custom Environments that the Environment Variable should be present on. At least one of `target` or `custom_environment_ids` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#custom_environment_ids Project#custom_environment_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#custom_environment_ids Project#custom_environment_ids}
   */
   readonly customEnvironmentIds?: string[];
   /**
   * The git branch of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#git_branch Project#git_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#git_branch Project#git_branch}
   */
   readonly gitBranch?: string;
   /**
   * The name of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#key Project#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#key Project#key}
   */
   readonly key: string;
   /**
   * Whether the Environment Variable is sensitive or not. (May be affected by a [team-wide environment variable policy](https://vercel.com/docs/projects/environment-variables/sensitive-environment-variables#environment-variables-policy))
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#sensitive Project#sensitive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#sensitive Project#sensitive}
   */
   readonly sensitive?: boolean | cdktf.IResolvable;
   /**
   * The environments that the Environment Variable should be present on. Valid targets are either `production`, `preview`, or `development`. At least one of `target` or `custom_environment_ids` must be set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#target Project#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#target Project#target}
   */
   readonly target?: string[];
   /**
   * The value of the Environment Variable.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#value Project#value}
   */
   readonly value: string;
 }
@@ -579,13 +585,13 @@ export interface ProjectGitComments {
   /**
   * Whether Commit comments are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#on_commit Project#on_commit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#on_commit Project#on_commit}
   */
   readonly onCommit: boolean | cdktf.IResolvable;
   /**
   * Whether Pull Request comments are enabled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#on_pull_request Project#on_pull_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#on_pull_request Project#on_pull_request}
   */
   readonly onPullRequest: boolean | cdktf.IResolvable;
 }
@@ -700,17 +706,183 @@ export class ProjectGitCommentsOutputReference extends cdktf.ComplexObject {
     return this._onPullRequest;
   }
 }
+export interface ProjectGitProviderOptions {
+  /**
+  * Whether to create deployments
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#create_deployments Project#create_deployments}
+  */
+  readonly createDeployments?: boolean | cdktf.IResolvable;
+  /**
+  * Whether to enable repository dispatch events
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#repository_dispatch_events Project#repository_dispatch_events}
+  */
+  readonly repositoryDispatchEvents?: boolean | cdktf.IResolvable;
+  /**
+  * Whether to require verified commits
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#require_verified_commits Project#require_verified_commits}
+  */
+  readonly requireVerifiedCommits?: boolean | cdktf.IResolvable;
+}
+
+export function projectGitProviderOptionsToTerraform(struct?: ProjectGitProviderOptions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    create_deployments: cdktf.booleanToTerraform(struct!.createDeployments),
+    repository_dispatch_events: cdktf.booleanToTerraform(struct!.repositoryDispatchEvents),
+    require_verified_commits: cdktf.booleanToTerraform(struct!.requireVerifiedCommits),
+  }
+}
+
+
+export function projectGitProviderOptionsToHclTerraform(struct?: ProjectGitProviderOptions | cdktf.IResolvable): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    create_deployments: {
+      value: cdktf.booleanToHclTerraform(struct!.createDeployments),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    repository_dispatch_events: {
+      value: cdktf.booleanToHclTerraform(struct!.repositoryDispatchEvents),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+    require_verified_commits: {
+      value: cdktf.booleanToHclTerraform(struct!.requireVerifiedCommits),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "boolean",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class ProjectGitProviderOptionsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+  private resolvableValue?: cdktf.IResolvable;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): ProjectGitProviderOptions | cdktf.IResolvable | undefined {
+    if (this.resolvableValue) {
+      return this.resolvableValue;
+    }
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._createDeployments !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.createDeployments = this._createDeployments;
+    }
+    if (this._repositoryDispatchEvents !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.repositoryDispatchEvents = this._repositoryDispatchEvents;
+    }
+    if (this._requireVerifiedCommits !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.requireVerifiedCommits = this._requireVerifiedCommits;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: ProjectGitProviderOptions | cdktf.IResolvable | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this.resolvableValue = undefined;
+      this._createDeployments = undefined;
+      this._repositoryDispatchEvents = undefined;
+      this._requireVerifiedCommits = undefined;
+    }
+    else if (cdktf.Tokenization.isResolvable(value)) {
+      this.isEmptyObject = false;
+      this.resolvableValue = value;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this.resolvableValue = undefined;
+      this._createDeployments = value.createDeployments;
+      this._repositoryDispatchEvents = value.repositoryDispatchEvents;
+      this._requireVerifiedCommits = value.requireVerifiedCommits;
+    }
+  }
+
+  // create_deployments - computed: true, optional: true, required: false
+  private _createDeployments?: boolean | cdktf.IResolvable; 
+  public get createDeployments() {
+    return this.getBooleanAttribute('create_deployments');
+  }
+  public set createDeployments(value: boolean | cdktf.IResolvable) {
+    this._createDeployments = value;
+  }
+  public resetCreateDeployments() {
+    this._createDeployments = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get createDeploymentsInput() {
+    return this._createDeployments;
+  }
+
+  // repository_dispatch_events - computed: true, optional: true, required: false
+  private _repositoryDispatchEvents?: boolean | cdktf.IResolvable; 
+  public get repositoryDispatchEvents() {
+    return this.getBooleanAttribute('repository_dispatch_events');
+  }
+  public set repositoryDispatchEvents(value: boolean | cdktf.IResolvable) {
+    this._repositoryDispatchEvents = value;
+  }
+  public resetRepositoryDispatchEvents() {
+    this._repositoryDispatchEvents = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get repositoryDispatchEventsInput() {
+    return this._repositoryDispatchEvents;
+  }
+
+  // require_verified_commits - computed: true, optional: true, required: false
+  private _requireVerifiedCommits?: boolean | cdktf.IResolvable; 
+  public get requireVerifiedCommits() {
+    return this.getBooleanAttribute('require_verified_commits');
+  }
+  public set requireVerifiedCommits(value: boolean | cdktf.IResolvable) {
+    this._requireVerifiedCommits = value;
+  }
+  public resetRequireVerifiedCommits() {
+    this._requireVerifiedCommits = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get requireVerifiedCommitsInput() {
+    return this._requireVerifiedCommits;
+  }
+}
 export interface ProjectGitRepositoryDeployHooks {
   /**
   * The name of the deploy hook.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#name Project#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#name Project#name}
   */
   readonly name: string;
   /**
   * The branch or commit hash that should be deployed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#ref Project#ref}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#ref Project#ref}
   */
   readonly ref: string;
 }
@@ -861,25 +1033,25 @@ export interface ProjectGitRepository {
   /**
   * Deploy hooks are unique URLs that allow you to trigger a deployment of a given branch. See https://vercel.com/docs/deployments/deploy-hooks for full information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#deploy_hooks Project#deploy_hooks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#deploy_hooks Project#deploy_hooks}
   */
   readonly deployHooks?: ProjectGitRepositoryDeployHooks[] | cdktf.IResolvable;
   /**
   * By default, every commit pushed to the main branch will trigger a Production Deployment instead of the usual Preview Deployment. You can switch to a different branch here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#production_branch Project#production_branch}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#production_branch Project#production_branch}
   */
   readonly productionBranch?: string;
   /**
   * The name of the git repository. For example: `vercel/next.js`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#repo Project#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#repo Project#repo}
   */
   readonly repo: string;
   /**
   * The git provider of the repository. Must be either `github`, `gitlab`, or `bitbucket`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#type Project#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#type Project#type}
   */
   readonly type: string;
 }
@@ -1056,7 +1228,7 @@ export interface ProjectOidcTokenConfig {
   /**
   * Configures the URL of the `iss` claim. `team` = `https://oidc.vercel.com/[team_slug]` `global` = `https://oidc.vercel.com`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#issuer_mode Project#issuer_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#issuer_mode Project#issuer_mode}
   */
   readonly issuerMode?: string;
 }
@@ -1152,7 +1324,7 @@ export interface ProjectOptionsAllowlistPaths {
   /**
   * The path prefix to compare with the incoming request path.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#value Project#value}
   */
   readonly value: string;
 }
@@ -1267,7 +1439,7 @@ export interface ProjectOptionsAllowlistStruct {
   /**
   * The allowed paths for the OPTIONS Allowlist. Incoming requests will bypass Deployment Protection if they have the method `OPTIONS` and **start with** one of the path values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#paths Project#paths}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#paths Project#paths}
   */
   readonly paths: ProjectOptionsAllowlistPaths[] | cdktf.IResolvable;
 }
@@ -1360,13 +1532,13 @@ export interface ProjectPasswordProtection {
   /**
   * The deployment environment to protect. Must be one of `standard_protection_new` (Standard Protection), `standard_protection` (Legacy Standard Protection), `all_deployments`, or `only_preview_deployments`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#deployment_type Project#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#deployment_type Project#deployment_type}
   */
   readonly deploymentType: string;
   /**
   * The password that visitors must enter to gain access to your Preview Deployments. Drift detection is not possible for this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#password Project#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#password Project#password}
   */
   readonly password: string;
 }
@@ -1485,25 +1657,25 @@ export interface ProjectResourceConfig {
   /**
   * Enable fluid compute for your Vercel Functions to automatically manage concurrency and optimize performance. Vercel will handle the defaults to ensure the best experience for your workload.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#fluid Project#fluid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#fluid Project#fluid}
   */
   readonly fluid?: boolean | cdktf.IResolvable;
   /**
   * The amount of CPU available to your Serverless Functions. Should be one of 'standard_legacy' (0.6vCPU), 'standard' (1vCPU) or 'performance' (1.7vCPUs).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#function_default_cpu_type Project#function_default_cpu_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#function_default_cpu_type Project#function_default_cpu_type}
   */
   readonly functionDefaultCpuType?: string;
   /**
   * The default regions for Serverless Functions. Must be an array of valid region identifiers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#function_default_regions Project#function_default_regions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#function_default_regions Project#function_default_regions}
   */
   readonly functionDefaultRegions?: string[];
   /**
   * The default timeout for Serverless Functions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#function_default_timeout Project#function_default_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#function_default_timeout Project#function_default_timeout}
   */
   readonly functionDefaultTimeout?: number;
 }
@@ -1686,13 +1858,13 @@ export interface ProjectTrustedIpsAddresses {
   /**
   * A description for the value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#note Project#note}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#note Project#note}
   */
   readonly note?: string;
   /**
   * The address or CIDR range that can access deployments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#value Project#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#value Project#value}
   */
   readonly value: string;
 }
@@ -1836,19 +2008,19 @@ export interface ProjectTrustedIps {
   /**
   * The allowed IP addressses and CIDR ranges with optional descriptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#addresses Project#addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#addresses Project#addresses}
   */
   readonly addresses: ProjectTrustedIpsAddresses[] | cdktf.IResolvable;
   /**
   * The deployment environment to protect. Must be one of `standard_protection_new` (Standard Protection), `standard_protection` (Legacy Standard Protection), `all_deployments`, `only_production_deployments`, or `only_preview_deployments`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#deployment_type Project#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#deployment_type Project#deployment_type}
   */
   readonly deploymentType: string;
   /**
   * Whether or not Trusted IPs is optional to access a deployment. Must be either `trusted_ip_required` or `trusted_ip_optional`. `trusted_ip_optional` is only available with Standalone Trusted IPs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#protection_mode Project#protection_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#protection_mode Project#protection_mode}
   */
   readonly protectionMode?: string;
 }
@@ -1996,7 +2168,7 @@ export interface ProjectVercelAuthentication {
   /**
   * The deployment environment to protect. The default value is `standard_protection_new` (Standard Protection). Must be one of `standard_protection_new` (Standard Protection), `standard_protection` (Legacy Standard Protection), `all_deployments`, `only_preview_deployments`, or `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#deployment_type Project#deployment_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#deployment_type Project#deployment_type}
   */
   readonly deploymentType?: string;
 }
@@ -2090,7 +2262,7 @@ export class ProjectVercelAuthenticationOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project vercel_project}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project vercel_project}
 */
 export class Project extends cdktf.TerraformResource {
 
@@ -2106,7 +2278,7 @@ export class Project extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Project resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Project to import
-  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Project that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Project to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2118,7 +2290,7 @@ export class Project extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/project vercel_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/project vercel_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2129,8 +2301,8 @@ export class Project extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_project',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -2156,6 +2328,7 @@ export class Project extends cdktf.TerraformResource {
     this._gitComments.internalValue = config.gitComments;
     this._gitForkProtection = config.gitForkProtection;
     this._gitLfs = config.gitLfs;
+    this._gitProviderOptions.internalValue = config.gitProviderOptions;
     this._gitRepository.internalValue = config.gitRepository;
     this._ignoreCommand = config.ignoreCommand;
     this._installCommand = config.installCommand;
@@ -2440,6 +2613,22 @@ export class Project extends cdktf.TerraformResource {
   // Temporarily expose input value. Use with caution.
   public get gitLfsInput() {
     return this._gitLfs;
+  }
+
+  // git_provider_options - computed: true, optional: true, required: false
+  private _gitProviderOptions = new ProjectGitProviderOptionsOutputReference(this, "git_provider_options");
+  public get gitProviderOptions() {
+    return this._gitProviderOptions;
+  }
+  public putGitProviderOptions(value: ProjectGitProviderOptions) {
+    this._gitProviderOptions.internalValue = value;
+  }
+  public resetGitProviderOptions() {
+    this._gitProviderOptions.internalValue = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get gitProviderOptionsInput() {
+    return this._gitProviderOptions.internalValue;
   }
 
   // git_repository - computed: false, optional: true, required: false
@@ -2850,6 +3039,7 @@ export class Project extends cdktf.TerraformResource {
       git_comments: projectGitCommentsToTerraform(this._gitComments.internalValue),
       git_fork_protection: cdktf.booleanToTerraform(this._gitForkProtection),
       git_lfs: cdktf.booleanToTerraform(this._gitLfs),
+      git_provider_options: projectGitProviderOptionsToTerraform(this._gitProviderOptions.internalValue),
       git_repository: projectGitRepositoryToTerraform(this._gitRepository.internalValue),
       ignore_command: cdktf.stringToTerraform(this._ignoreCommand),
       install_command: cdktf.stringToTerraform(this._installCommand),
@@ -2974,6 +3164,12 @@ export class Project extends cdktf.TerraformResource {
         isBlock: false,
         type: "simple",
         storageClassType: "boolean",
+      },
+      git_provider_options: {
+        value: projectGitProviderOptionsToHclTerraform(this._gitProviderOptions.internalValue),
+        isBlock: true,
+        type: "struct",
+        storageClassType: "ProjectGitProviderOptions",
       },
       git_repository: {
         value: projectGitRepositoryToHclTerraform(this._gitRepository.internalValue),

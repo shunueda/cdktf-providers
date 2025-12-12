@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface OidcConfig extends cdktf.TerraformMetaArguments {
   /**
   * The claims associated with these provider settings
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#claims Oidc#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#claims Oidc#claims}
   */
   readonly claims: { [key: string]: string };
   /**
   * Whether the provider settings should be used for incoming OIDC requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#enabled Oidc#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#enabled Oidc#enabled}
   */
   readonly enabled: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#id Oidc#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#id Oidc#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface OidcConfig extends cdktf.TerraformMetaArguments {
   /**
   * The claim key whose values dynamically map to service accounts (dynamic providers only). Mutually exclusive with service_accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#mapping_claim Oidc#mapping_claim}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#mapping_claim Oidc#mapping_claim}
   */
   readonly mappingClaim?: string;
   /**
   * The name of the provider settings are being configured for
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#name Oidc#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#name Oidc#name}
   */
   readonly name: string;
   /**
   * Namespace to which this OIDC config belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#namespace Oidc#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#namespace Oidc#namespace}
   */
   readonly namespace: string;
   /**
   * The URL from the provider that serves as the base for the OpenID configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#provider_url Oidc#provider_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#provider_url Oidc#provider_url}
   */
   readonly providerUrl: string;
   /**
   * The service accounts associated with these provider settings (static providers only). Mutually exclusive with mapping_claim/dynamic_mappings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#service_accounts Oidc#service_accounts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#service_accounts Oidc#service_accounts}
   */
   readonly serviceAccounts?: string[];
   /**
   * dynamic_mappings block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#dynamic_mappings Oidc#dynamic_mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#dynamic_mappings Oidc#dynamic_mappings}
   */
   readonly dynamicMappings?: OidcDynamicMappings[] | cdktf.IResolvable;
 }
@@ -67,13 +67,13 @@ export interface OidcDynamicMappings {
   /**
   * The value of the mapping claim.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#claim_value Oidc#claim_value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#claim_value Oidc#claim_value}
   */
   readonly claimValue: string;
   /**
   * Service account slug mapped to the claim value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#service_account Oidc#service_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#service_account Oidc#service_account}
   */
   readonly serviceAccount: string;
 }
@@ -212,7 +212,7 @@ export class OidcDynamicMappingsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc cloudsmith_oidc}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc cloudsmith_oidc}
 */
 export class Oidc extends cdktf.TerraformResource {
 
@@ -228,7 +228,7 @@ export class Oidc extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Oidc resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Oidc to import
-  * @param importFromId The id of the existing Oidc that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Oidc that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Oidc to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -240,7 +240,7 @@ export class Oidc extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/oidc cloudsmith_oidc} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/oidc cloudsmith_oidc} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -251,8 +251,8 @@ export class Oidc extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_oidc',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

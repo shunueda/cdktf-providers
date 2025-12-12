@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CustomEnvironmentConfig extends cdktf.TerraformMetaArguments {
   /**
   * The branch tracking configuration for the environment. When enabled, each qualifying merge will generate a deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#branch_tracking CustomEnvironment#branch_tracking}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#branch_tracking CustomEnvironment#branch_tracking}
   */
   readonly branchTracking?: CustomEnvironmentBranchTracking;
   /**
   * A description of what the environment is.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#description CustomEnvironment#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#description CustomEnvironment#description}
   */
   readonly description?: string;
   /**
   * The name of the environment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#name CustomEnvironment#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#name CustomEnvironment#name}
   */
   readonly name: string;
   /**
   * The ID of the existing Vercel Project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#project_id CustomEnvironment#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#project_id CustomEnvironment#project_id}
   */
   readonly projectId: string;
   /**
   * The team ID to add the project to. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#team_id CustomEnvironment#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#team_id CustomEnvironment#team_id}
   */
   readonly teamId?: string;
 }
@@ -42,13 +42,13 @@ export interface CustomEnvironmentBranchTracking {
   /**
   * The pattern of the branch name to track.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#pattern CustomEnvironment#pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#pattern CustomEnvironment#pattern}
   */
   readonly pattern: string;
   /**
   * How a branch name should be matched against the pattern. Must be one of 'startsWith', 'endsWith' or 'equals'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#type CustomEnvironment#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#type CustomEnvironment#type}
   */
   readonly type: string;
 }
@@ -165,7 +165,7 @@ export class CustomEnvironmentBranchTrackingOutputReference extends cdktf.Comple
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment vercel_custom_environment}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment vercel_custom_environment}
 */
 export class CustomEnvironment extends cdktf.TerraformResource {
 
@@ -181,7 +181,7 @@ export class CustomEnvironment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CustomEnvironment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CustomEnvironment to import
-  * @param importFromId The id of the existing CustomEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CustomEnvironment that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CustomEnvironment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -193,7 +193,7 @@ export class CustomEnvironment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/custom_environment vercel_custom_environment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/custom_environment vercel_custom_environment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -204,8 +204,8 @@ export class CustomEnvironment extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_custom_environment',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

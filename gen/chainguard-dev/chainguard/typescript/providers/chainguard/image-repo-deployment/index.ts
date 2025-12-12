@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface ImageRepoDeploymentConfig extends cdktf.TerraformMetaArguments 
   /**
   * List of Helm charts for this deployment.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment#charts ImageRepoDeployment#charts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#charts ImageRepoDeployment#charts}
   */
   readonly charts: ImageRepoDeploymentCharts[] | cdktf.IResolvable;
   /**
   * The UIDP of the repository this deployment belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment#id ImageRepoDeployment#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#id ImageRepoDeployment#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,21 +25,27 @@ export interface ImageRepoDeploymentConfig extends cdktf.TerraformMetaArguments 
   /**
   * If true, deployment errors (like permission denied) will be logged as warnings instead of blocking the operation. Useful to prevent deployment failures from blocking image builds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment#ignore_errors ImageRepoDeployment#ignore_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#ignore_errors ImageRepoDeployment#ignore_errors}
   */
   readonly ignoreErrors?: boolean | cdktf.IResolvable;
 }
 export interface ImageRepoDeploymentCharts {
   /**
+  * Chart name or path within the repository.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#chart ImageRepoDeployment#chart}
+  */
+  readonly chart?: string;
+  /**
   * Repository URL of the chart (e.g., 'oci://ghcr.io/stefanprodan/charts/podinfo' or 'https://kyverno.github.io/kyverno/').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment#repo ImageRepoDeployment#repo}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#repo ImageRepoDeployment#repo}
   */
   readonly repo: string;
   /**
   * Link to the Helm chart source code (e.g., 'https://github.com/kyverno/kyverno').
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment#source ImageRepoDeployment#source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#source ImageRepoDeployment#source}
   */
   readonly source?: string;
 }
@@ -50,6 +56,7 @@ export function imageRepoDeploymentChartsToTerraform(struct?: ImageRepoDeploymen
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   return {
+    chart: cdktf.stringToTerraform(struct!.chart),
     repo: cdktf.stringToTerraform(struct!.repo),
     source: cdktf.stringToTerraform(struct!.source),
   }
@@ -62,6 +69,12 @@ export function imageRepoDeploymentChartsToHclTerraform(struct?: ImageRepoDeploy
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
   }
   const attrs = {
+    chart: {
+      value: cdktf.stringToHclTerraform(struct!.chart),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
     repo: {
       value: cdktf.stringToHclTerraform(struct!.repo),
       isBlock: false,
@@ -100,6 +113,10 @@ export class ImageRepoDeploymentChartsOutputReference extends cdktf.ComplexObjec
     }
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
+    if (this._chart !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.chart = this._chart;
+    }
     if (this._repo !== undefined) {
       hasAnyValues = true;
       internalValueResult.repo = this._repo;
@@ -115,6 +132,7 @@ export class ImageRepoDeploymentChartsOutputReference extends cdktf.ComplexObjec
     if (value === undefined) {
       this.isEmptyObject = false;
       this.resolvableValue = undefined;
+      this._chart = undefined;
       this._repo = undefined;
       this._source = undefined;
     }
@@ -125,9 +143,26 @@ export class ImageRepoDeploymentChartsOutputReference extends cdktf.ComplexObjec
     else {
       this.isEmptyObject = Object.keys(value).length === 0;
       this.resolvableValue = undefined;
+      this._chart = value.chart;
       this._repo = value.repo;
       this._source = value.source;
     }
+  }
+
+  // chart - computed: false, optional: true, required: false
+  private _chart?: string; 
+  public get chart() {
+    return this.getStringAttribute('chart');
+  }
+  public set chart(value: string) {
+    this._chart = value;
+  }
+  public resetChart() {
+    this._chart = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get chartInput() {
+    return this._chart;
   }
 
   // repo - computed: false, optional: false, required: true
@@ -181,7 +216,7 @@ export class ImageRepoDeploymentChartsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment chainguard_image_repo_deployment}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment chainguard_image_repo_deployment}
 */
 export class ImageRepoDeployment extends cdktf.TerraformResource {
 
@@ -197,7 +232,7 @@ export class ImageRepoDeployment extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImageRepoDeployment resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImageRepoDeployment to import
-  * @param importFromId The id of the existing ImageRepoDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImageRepoDeployment that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImageRepoDeployment to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -209,7 +244,7 @@ export class ImageRepoDeployment extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/image_repo_deployment chainguard_image_repo_deployment} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/image_repo_deployment chainguard_image_repo_deployment} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -220,8 +255,8 @@ export class ImageRepoDeployment extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_image_repo_deployment',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.42',
-        providerVersionConstraint: '0.1.42'
+        providerVersion: '0.1.43',
+        providerVersionConstraint: '0.1.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface CdnResourceConfig extends cdktf.TerraformMetaArguments {
   /**
   * Enables or disables a CDN resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#active CdnResource#active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#active CdnResource#active}
   */
   readonly active?: boolean | cdktf.IResolvable;
   /**
   * Delivery domain that will be used for content delivery through a CDN. Use `secondary_hostnames` to add extra domains. _note_ Delivery domains should be added to your DNS settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#cname CdnResource#cname}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#cname CdnResource#cname}
   */
   readonly cname: string;
   /**
   * Options that configure a CDN resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#options CdnResource#options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#options CdnResource#options}
   */
   readonly options?: CdnResourceOptions;
   /**
   * Origin group ID with which the CDN resource is associated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#origin_group CdnResource#origin_group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#origin_group CdnResource#origin_group}
   */
   readonly originGroup: number;
   /**
   * Protocol used by CDN servers to request content from an origin source. If protocol is not specified, HTTP is used to connect to an origin server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#origin_protocol CdnResource#origin_protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#origin_protocol CdnResource#origin_protocol}
   */
   readonly originProtocol?: string;
   /**
   * The region in which to obtain the CDN client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#region CdnResource#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#region CdnResource#region}
   */
   readonly region?: string;
   /**
   * Additional delivery domains (CNAMEs) that will be used to deliver content via the CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#secondary_hostnames CdnResource#secondary_hostnames}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#secondary_hostnames CdnResource#secondary_hostnames}
   */
   readonly secondaryHostnames?: string[];
   /**
   * Use this attribute to configure origin shielding.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#shielding CdnResource#shielding}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#shielding CdnResource#shielding}
   */
   readonly shielding?: CdnResourceShielding;
   /**
   * SSL certificate settings for content delivery over HTTPS protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#ssl_certificate CdnResource#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#ssl_certificate CdnResource#ssl_certificate}
   */
   readonly sslCertificate?: CdnResourceSslCertificate;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#timeouts CdnResource#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#timeouts CdnResource#timeouts}
   */
   readonly timeouts?: CdnResourceTimeouts;
 }
@@ -70,13 +70,13 @@ export interface CdnResourceOptionsAllowedHttpMethods {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of HTTP methods.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -201,13 +201,13 @@ export interface CdnResourceOptionsBrotliCompression {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of content types to be compressed. It's required to specify text/html here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -332,13 +332,13 @@ export interface CdnResourceOptionsBrowserCacheSettings {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Cache expiration time. Use '0s' to disable caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string;
 }
@@ -463,7 +463,7 @@ export interface CdnResourceOptionsCors {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
@@ -473,7 +473,7 @@ export interface CdnResourceOptionsCors {
   * *["domain.com", "second.dom.com"] - adds "$http_origin" as the header value if the origin matches one of the listed domains, content will be uploaded only for requests from the domains specified in the field.
   * * ["$http_origin"] - adds "$http_origin" as the header value, content will be uploaded for requests from any domain, and the domain from which the request was sent will be added to the header in the response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -598,19 +598,19 @@ export interface CdnResourceOptionsCountryAcl {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of countries according to ISO-3166-1. The meaning of the argument depends on `policy_type` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues?: string[];
   /**
   * The type of CDN resource access policy. Must be one of following: "allow", "deny".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType?: string;
 }
@@ -767,26 +767,26 @@ export interface CdnResourceOptionsEdgeCacheSettings {
   * * Use `any` key to specify caching time for all response codes.
   * * Use `0s` value to disable caching for a specific response code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#custom_values CdnResource#custom_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#custom_values CdnResource#custom_values}
   */
   readonly customValues?: { [key: string]: string };
   /**
   * Enables content caching according to the origin cache settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#default CdnResource#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#default CdnResource#default}
   */
   readonly default?: string;
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Caching time. The value is applied to the following response codes: 200, 206, 301, 302.
   * Responses with codes 4xx, 5xx will not be cached. Use `0s` to disable caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string;
 }
@@ -969,19 +969,19 @@ export interface CdnResourceOptionsForceReturn {
   /**
   * URL for redirection or text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#body CdnResource#body}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#body CdnResource#body}
   */
   readonly body?: string;
   /**
   * Status code value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#code CdnResource#code}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#code CdnResource#code}
   */
   readonly code?: number;
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -1135,13 +1135,13 @@ export interface CdnResourceOptionsGzipCompression {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of content types to be compressed. It's required to specify text/html here.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -1266,13 +1266,13 @@ export interface CdnResourceOptionsHostHeader {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Host Header value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string;
 }
@@ -1397,19 +1397,19 @@ export interface CdnResourceOptionsIpAddressAcl {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of IP addresses with a subnet mask. The meaning of the argument depends on `policy_type` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues?: string[];
   /**
   * The type of CDN resource access policy. Must be one of following: "allow", "deny".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType?: string;
 }
@@ -1563,13 +1563,13 @@ export interface CdnResourceOptionsQueryParamsBlacklistStruct {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of query parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -1694,13 +1694,13 @@ export interface CdnResourceOptionsQueryParamsWhitelistStruct {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of query parameters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -1825,19 +1825,19 @@ export interface CdnResourceOptionsReferrerAcl {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * List of domain names or wildcard domains, without protocol. The meaning of the argument depends on `policy_type` value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#excepted_values CdnResource#excepted_values}
   */
   readonly exceptedValues?: string[];
   /**
   * The type of CDN resource access policy. Must be one of following: "allow", "deny".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#policy_type CdnResource#policy_type}
   */
   readonly policyType?: string;
 }
@@ -1991,19 +1991,19 @@ export interface CdnResourceOptionsSecureKey {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Secure key generated on your side which will be used for the URL signing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#key CdnResource#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#key CdnResource#key}
   */
   readonly key?: string;
   /**
   * Type of the URL signing. Choose one of the values: 0 — to include the end user's IP address to secure token generation, 2 — to exclude the end user's IP address from the secure token generation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#type CdnResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#type CdnResource#type}
   */
   readonly type?: number;
 }
@@ -2157,13 +2157,13 @@ export interface CdnResourceOptionsStale {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * The list of errors to which the option is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: string[];
 }
@@ -2288,13 +2288,13 @@ export interface CdnResourceOptionsStaticHeaders {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A map of static headers in the format "header_name": "header_value".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2419,13 +2419,13 @@ export interface CdnResourceOptionsStaticRequestHeaders {
   /**
   * Controls the option state.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * A map of static headers in the format "header_name": "header_value".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#value CdnResource#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#value CdnResource#value}
   */
   readonly value?: { [key: string]: string };
 }
@@ -2550,142 +2550,142 @@ export interface CdnResourceOptions {
   /**
   * HTTP methods allowed for content requests from the CDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#allowed_http_methods CdnResource#allowed_http_methods}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#allowed_http_methods CdnResource#allowed_http_methods}
   */
   readonly allowedHttpMethods?: CdnResourceOptionsAllowedHttpMethods;
   /**
   * Compresses content with Brotli on the CDN side. CDN servers will request only uncompressed content from the origin.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#brotli_compression CdnResource#brotli_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#brotli_compression CdnResource#brotli_compression}
   */
   readonly brotliCompression?: CdnResourceOptionsBrotliCompression;
   /**
   * Cache settings for users browsers.
   * Cache expiration time is applied to the following response codes: 200, 201, 204, 206, 301, 302, 303, 304, 307, 308. Responses with other codes will not be cached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#browser_cache_settings CdnResource#browser_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#browser_cache_settings CdnResource#browser_cache_settings}
   */
   readonly browserCacheSettings?: CdnResourceOptionsBrowserCacheSettings;
   /**
   * Enables or disables CORS (Cross-Origin Resource Sharing) header support.
   * CORS header support allows the CDN to add the Access-Control-Allow-Origin header to a response to a browser.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#cors CdnResource#cors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#cors CdnResource#cors}
   */
   readonly cors?: CdnResourceOptionsCors;
   /**
   * Use this option to control access to the content for specified countries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#country_acl CdnResource#country_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#country_acl CdnResource#country_acl}
   */
   readonly countryAcl?: CdnResourceOptionsCountryAcl;
   /**
   * Cache settings for CDN servers.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#edge_cache_settings CdnResource#edge_cache_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#edge_cache_settings CdnResource#edge_cache_settings}
   */
   readonly edgeCacheSettings?: CdnResourceOptionsEdgeCacheSettings;
   /**
   * If enabled, CDN servers request and cache compressed content from the origin. The origin server should support compression. CDN servers will not decompress your content even if a user browser does not accept compression. Conflicts with `gzip_on` if both enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#fetch_compressed CdnResource#fetch_compressed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#fetch_compressed CdnResource#fetch_compressed}
   */
   readonly fetchCompressed?: boolean | cdktf.IResolvable;
   /**
   * Allows to apply custom HTTP code to the CDN content.
   * Specify HTTP-code you need and text or URL if you're going to set up redirection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#force_return CdnResource#force_return}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#force_return CdnResource#force_return}
   */
   readonly forceReturn?: CdnResourceOptionsForceReturn;
   /**
   * Forwards the Host header from a end-user request to an origin server. Conflicts with `host_header` if both enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#forward_host_header CdnResource#forward_host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#forward_host_header CdnResource#forward_host_header}
   */
   readonly forwardHostHeader?: boolean | cdktf.IResolvable;
   /**
   * Compresses content with GZip on the CDN side. CDN servers will request only uncompressed content from the origin. Conflicts with `fetch_compressed`, `slice` and `gzip_on` if any of them are enabled simultaneously. `application/wasm` value is not supported when the shielded option is disabled, compression in this case is performed on the origin shielding, so it must be active for the MIME type to be compressed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#gzip_compression CdnResource#gzip_compression}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#gzip_compression CdnResource#gzip_compression}
   */
   readonly gzipCompression?: CdnResourceOptionsGzipCompression;
   /**
   * Enables content compression using gzip on the CDN side. CDN servers will request only uncompressed content from the origin. Conflicts with `fetch_compressed`, `slice` and `gzip_compression` if any of them are enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#gzip_on CdnResource#gzip_on}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#gzip_on CdnResource#gzip_on}
   */
   readonly gzipOn?: boolean | cdktf.IResolvable;
   /**
   * Use this option to specify the Host header that CDN servers use when request content from an origin server. If the option is not set, the header value is equal to the first CNAME. Conflicts with `forward_host_header` if both enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#host_header CdnResource#host_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#host_header CdnResource#host_header}
   */
   readonly hostHeader?: CdnResourceOptionsHostHeader;
   /**
   * Defines whether the files with the Set-Cookies header are cached as one file or as different ones.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#ignore_cookie CdnResource#ignore_cookie}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#ignore_cookie CdnResource#ignore_cookie}
   */
   readonly ignoreCookie?: boolean | cdktf.IResolvable;
   /**
   * Allows to specify how a file with different query strings is cached: either as one object (option is enabled) or as different objects (option is disabled.). `ignore_query_string`, `query_params_whitelist` and `query_params_blacklist` options cannot be enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#ignore_query_string CdnResource#ignore_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#ignore_query_string CdnResource#ignore_query_string}
   */
   readonly ignoreQueryString?: boolean | cdktf.IResolvable;
   /**
   * The option allows to control access to the CDN Resource content for specific IP addresses.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#ip_address_acl CdnResource#ip_address_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#ip_address_acl CdnResource#ip_address_acl}
   */
   readonly ipAddressAcl?: CdnResourceOptionsIpAddressAcl;
   /**
   * Use this option to specify query parameters, so files with these query strings will be cached as one object, and files with other parameters will be cached as different objects. `ignore_query_string`, `query_params_whitelist` and `query_params_blacklist` options cannot be enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#query_params_blacklist CdnResource#query_params_blacklist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#query_params_blacklist CdnResource#query_params_blacklist}
   */
   readonly queryParamsBlacklist?: CdnResourceOptionsQueryParamsBlacklistStruct;
   /**
   * Use this option to specify query parameters, so files with these query strings will be cached as different objects, and files with other parameters will be cached as one object. `ignore_query_string`, `query_params_whitelist` and `query_params_blacklist` options cannot be enabled simultaneously.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#query_params_whitelist CdnResource#query_params_whitelist}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#query_params_whitelist CdnResource#query_params_whitelist}
   */
   readonly queryParamsWhitelist?: CdnResourceOptionsQueryParamsWhitelistStruct;
   /**
   * Use this option to control access to the CDN resource content for specified domain names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#referrer_acl CdnResource#referrer_acl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#referrer_acl CdnResource#referrer_acl}
   */
   readonly referrerAcl?: CdnResourceOptionsReferrerAcl;
   /**
   * Configures access with tokenized URLs. This makes impossible to access content without a valid (unexpired) token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#secure_key CdnResource#secure_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#secure_key CdnResource#secure_key}
   */
   readonly secureKey?: CdnResourceOptionsSecureKey;
   /**
   * If enabled, CDN servers request and cache files larger than 10 MB in parts. Origins must support HTTP Range requests.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#slice CdnResource#slice}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#slice CdnResource#slice}
   */
   readonly slice?: boolean | cdktf.IResolvable;
   /**
   * If enabled, CDN serves stale cached content in case of origin unavailability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#stale CdnResource#stale}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#stale CdnResource#stale}
   */
   readonly stale?: CdnResourceOptionsStale;
   /**
   * Custom HTTP Headers that a CDN server adds to a response.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#static_headers CdnResource#static_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#static_headers CdnResource#static_headers}
   */
   readonly staticHeaders?: CdnResourceOptionsStaticHeaders;
   /**
   * Custom HTTP Headers for a CDN server to add to a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#static_request_headers CdnResource#static_request_headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#static_request_headers CdnResource#static_request_headers}
   */
   readonly staticRequestHeaders?: CdnResourceOptionsStaticRequestHeaders;
 }
@@ -3419,13 +3419,13 @@ export interface CdnResourceShielding {
   /**
   * Defines whether origin shielding feature is enabled for the resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#enabled CdnResource#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#enabled CdnResource#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * ID of the origin shielding point of presence.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#pop_id CdnResource#pop_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#pop_id CdnResource#pop_id}
   */
   readonly popId?: number;
 }
@@ -3550,7 +3550,7 @@ export interface CdnResourceSslCertificate {
   /**
   * ID of the SSL certificate linked to the CDN resource. Must be configured when `type` is "own".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#id CdnResource#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#id CdnResource#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3559,7 +3559,7 @@ export interface CdnResourceSslCertificate {
   /**
   * Type of the SSL certificate. Must be one of following: "not_used", "own", "lets_encrypt".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#type CdnResource#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#type CdnResource#type}
   */
   readonly type?: string;
 }
@@ -3687,11 +3687,11 @@ export class CdnResourceSslCertificateOutputReference extends cdktf.ComplexObjec
 }
 export interface CdnResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#create CdnResource#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#create CdnResource#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#update CdnResource#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#update CdnResource#update}
   */
   readonly update?: string;
 }
@@ -3814,7 +3814,7 @@ export class CdnResourceTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource vkcs_cdn_resource}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource vkcs_cdn_resource}
 */
 export class CdnResource extends cdktf.TerraformResource {
 
@@ -3830,7 +3830,7 @@ export class CdnResource extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CdnResource resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CdnResource to import
-  * @param importFromId The id of the existing CdnResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CdnResource that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CdnResource to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3842,7 +3842,7 @@ export class CdnResource extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/cdn_resource vkcs_cdn_resource} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/cdn_resource vkcs_cdn_resource} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3853,8 +3853,8 @@ export class CdnResource extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_cdn_resource',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface KibanaSyntheticsParameterConfig extends cdktf.TerraformMetaArgu
   /**
   * A description of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter#description KibanaSyntheticsParameter#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter#description KibanaSyntheticsParameter#description}
   */
   readonly description?: string;
   /**
   * The key of the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter#key KibanaSyntheticsParameter#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter#key KibanaSyntheticsParameter#key}
   */
   readonly key: string;
   /**
   * Whether the parameter should be shared across spaces.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter#share_across_spaces KibanaSyntheticsParameter#share_across_spaces}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter#share_across_spaces KibanaSyntheticsParameter#share_across_spaces}
   */
   readonly shareAcrossSpaces?: boolean | cdktf.IResolvable;
   /**
   * An array of tags to categorize the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter#tags KibanaSyntheticsParameter#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter#tags KibanaSyntheticsParameter#tags}
   */
   readonly tags?: string[];
   /**
   * The value associated with the parameter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter#value KibanaSyntheticsParameter#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter#value KibanaSyntheticsParameter#value}
   */
   readonly value: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter elasticstack_kibana_synthetics_parameter}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter elasticstack_kibana_synthetics_parameter}
 */
 export class KibanaSyntheticsParameter extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class KibanaSyntheticsParameter extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSyntheticsParameter resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSyntheticsParameter to import
-  * @param importFromId The id of the existing KibanaSyntheticsParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSyntheticsParameter that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSyntheticsParameter to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class KibanaSyntheticsParameter extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_parameter elasticstack_kibana_synthetics_parameter} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_parameter elasticstack_kibana_synthetics_parameter} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class KibanaSyntheticsParameter extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_synthetics_parameter',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

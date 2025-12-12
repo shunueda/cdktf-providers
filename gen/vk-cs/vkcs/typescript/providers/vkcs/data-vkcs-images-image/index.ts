@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVkcsImagesImageConfig extends cdktf.TerraformMetaArguments 
   /**
   * Search for an image that is available for virtual machine creation._new_since_v0.4.2_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#default DataVkcsImagesImage#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#default DataVkcsImagesImage#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * The UUID of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#id DataVkcsImagesImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#id DataVkcsImagesImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,67 +25,67 @@ export interface DataVkcsImagesImageConfig extends cdktf.TerraformMetaArguments 
   /**
   * Status for adding a new member (tenant) to an image member list.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#member_status DataVkcsImagesImage#member_status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#member_status DataVkcsImagesImage#member_status}
   */
   readonly memberStatus?: string;
   /**
   * If more than one result is returned, use the most recent image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#most_recent DataVkcsImagesImage#most_recent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#most_recent DataVkcsImagesImage#most_recent}
   */
   readonly mostRecent?: boolean | cdktf.IResolvable;
   /**
   * The name of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#name DataVkcsImagesImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#name DataVkcsImagesImage#name}
   */
   readonly name?: string;
   /**
   * The owner (UUID) of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#owner DataVkcsImagesImage#owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#owner DataVkcsImagesImage#owner}
   */
   readonly owner?: string;
   /**
   * A map of key/value pairs to match an image with. All specified properties must be matched. Unlike other options filtering by `properties` does by client on the result of search query. Filtering is applied if server response contains at least 2 images. In case there is only one image the `properties` ignores.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#properties DataVkcsImagesImage#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#properties DataVkcsImagesImage#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * The region in which to obtain the Image client. An Image client is needed to create an Image that can be used with a compute instance. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#region DataVkcsImagesImage#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#region DataVkcsImagesImage#region}
   */
   readonly region?: string;
   /**
   * The maximum size (in bytes) of the image to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#size_max DataVkcsImagesImage#size_max}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#size_max DataVkcsImagesImage#size_max}
   */
   readonly sizeMax?: number;
   /**
   * The minimum size (in bytes) of the image to return.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#size_min DataVkcsImagesImage#size_min}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#size_min DataVkcsImagesImage#size_min}
   */
   readonly sizeMin?: number;
   /**
   * Search for images with a specific tag.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#tag DataVkcsImagesImage#tag}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#tag DataVkcsImagesImage#tag}
   */
   readonly tag?: string;
   /**
   * The visibility of the image. Must be one of "public", "private", "community", or "shared".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#visibility DataVkcsImagesImage#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#visibility DataVkcsImagesImage#visibility}
   */
   readonly visibility?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image vkcs_images_image}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image vkcs_images_image}
 */
 export class DataVkcsImagesImage extends cdktf.TerraformDataSource {
 
@@ -101,7 +101,7 @@ export class DataVkcsImagesImage extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsImagesImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsImagesImage to import
-  * @param importFromId The id of the existing DataVkcsImagesImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsImagesImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsImagesImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class DataVkcsImagesImage extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/images_image vkcs_images_image} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/images_image vkcs_images_image} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class DataVkcsImagesImage extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_images_image',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

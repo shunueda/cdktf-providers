@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface KibanaMaintenanceWindowConfig extends cdktf.TerraformMetaArgume
   /**
   * A set schedule over which the maintenance window applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#custom_schedule KibanaMaintenanceWindow#custom_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#custom_schedule KibanaMaintenanceWindow#custom_schedule}
   */
   readonly customSchedule: KibanaMaintenanceWindowCustomSchedule;
   /**
   * Whether the current maintenance window is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#enabled KibanaMaintenanceWindow#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#enabled KibanaMaintenanceWindow#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * An object that narrows the scope of what is affected by this maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#scope KibanaMaintenanceWindow#scope}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#scope KibanaMaintenanceWindow#scope}
   */
   readonly scope?: KibanaMaintenanceWindowScope;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#space_id KibanaMaintenanceWindow#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#space_id KibanaMaintenanceWindow#space_id}
   */
   readonly spaceId?: string;
   /**
   * The name of the maintenance window.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#title KibanaMaintenanceWindow#title}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#title KibanaMaintenanceWindow#title}
   */
   readonly title: string;
 }
@@ -42,37 +42,37 @@ export interface KibanaMaintenanceWindowCustomScheduleRecurring {
   /**
   * The end date and time of the schedule, provided in ISO 8601 format and set to the UTC timezone. For example: `2025-03-12T12:00:00.000Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#end KibanaMaintenanceWindow#end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#end KibanaMaintenanceWindow#end}
   */
   readonly end?: string;
   /**
   * The duration of the schedule. It allows values in `<integer><unit>` format. `<unit>` is one of `d`, `h`, `m`, or `s` for days, hours, minutes, seconds. For example: `1d`, `5h`, `30m`, `5000s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#every KibanaMaintenanceWindow#every}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#every KibanaMaintenanceWindow#every}
   */
   readonly every?: string;
   /**
   * The total number of recurrences of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#occurrences KibanaMaintenanceWindow#occurrences}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#occurrences KibanaMaintenanceWindow#occurrences}
   */
   readonly occurrences?: number;
   /**
   * The specific months for a recurring schedule. Valid values are 1-12.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#on_month KibanaMaintenanceWindow#on_month}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#on_month KibanaMaintenanceWindow#on_month}
   */
   readonly onMonth?: number[];
   /**
   * The specific days of the month for a recurring schedule. Valid values are 1-31.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#on_month_day KibanaMaintenanceWindow#on_month_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#on_month_day KibanaMaintenanceWindow#on_month_day}
   */
   readonly onMonthDay?: number[];
   /**
   * The specific days of the week (`[MO,TU,WE,TH,FR,SA,SU]`) or nth day of month (`[+1MO, -3FR, +2WE, -4SA, -5SU]`) for a recurring schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#on_week_day KibanaMaintenanceWindow#on_week_day}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#on_week_day KibanaMaintenanceWindow#on_week_day}
   */
   readonly onWeekDay?: string[];
 }
@@ -313,25 +313,25 @@ export interface KibanaMaintenanceWindowCustomSchedule {
   /**
   * The duration of the schedule. It allows values in `<integer><unit>` format. `<unit>` is one of `d`, `h`, `m`, or `s` for days, hours, minutes, seconds. For example: `1d`, `5h`, `30m`, `5000s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#duration KibanaMaintenanceWindow#duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#duration KibanaMaintenanceWindow#duration}
   */
   readonly duration: string;
   /**
   * A set schedule over which the maintenance window applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#recurring KibanaMaintenanceWindow#recurring}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#recurring KibanaMaintenanceWindow#recurring}
   */
   readonly recurring: KibanaMaintenanceWindowCustomScheduleRecurring;
   /**
   * The start date and time of the schedule, provided in ISO 8601 format and set to the UTC timezone. For example: `2025-03-12T12:00:00.000Z`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#start KibanaMaintenanceWindow#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#start KibanaMaintenanceWindow#start}
   */
   readonly start: string;
   /**
   * The timezone of the schedule. The default timezone is UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#timezone KibanaMaintenanceWindow#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#timezone KibanaMaintenanceWindow#timezone}
   */
   readonly timezone?: string;
 }
@@ -505,7 +505,7 @@ export interface KibanaMaintenanceWindowScopeAlerting {
   /**
   * A filter written in Kibana Query Language (KQL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#kql KibanaMaintenanceWindow#kql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#kql KibanaMaintenanceWindow#kql}
   */
   readonly kql: string;
 }
@@ -598,7 +598,7 @@ export interface KibanaMaintenanceWindowScope {
   /**
   * A set schedule over which the maintenance window applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#alerting KibanaMaintenanceWindow#alerting}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#alerting KibanaMaintenanceWindow#alerting}
   */
   readonly alerting: KibanaMaintenanceWindowScopeAlerting;
 }
@@ -689,7 +689,7 @@ export class KibanaMaintenanceWindowScopeOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window elasticstack_kibana_maintenance_window}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window elasticstack_kibana_maintenance_window}
 */
 export class KibanaMaintenanceWindow extends cdktf.TerraformResource {
 
@@ -705,7 +705,7 @@ export class KibanaMaintenanceWindow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaMaintenanceWindow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaMaintenanceWindow to import
-  * @param importFromId The id of the existing KibanaMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaMaintenanceWindow that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaMaintenanceWindow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -717,7 +717,7 @@ export class KibanaMaintenanceWindow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_maintenance_window elasticstack_kibana_maintenance_window} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_maintenance_window elasticstack_kibana_maintenance_window} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -728,8 +728,8 @@ export class KibanaMaintenanceWindow extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_maintenance_window',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

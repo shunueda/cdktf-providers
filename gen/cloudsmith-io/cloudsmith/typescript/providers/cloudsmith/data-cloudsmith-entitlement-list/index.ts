@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DataCloudsmithEntitlementListConfig extends cdktf.TerraformMeta
   /**
   * If true, only include active tokens
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#active_token DataCloudsmithEntitlementList#active_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#active_token DataCloudsmithEntitlementList#active_token}
   */
   readonly activeToken?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#id DataCloudsmithEntitlementList#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#id DataCloudsmithEntitlementList#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,25 +23,25 @@ export interface DataCloudsmithEntitlementListConfig extends cdktf.TerraformMeta
   /**
   * The namespace slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#namespace DataCloudsmithEntitlementList#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#namespace DataCloudsmithEntitlementList#namespace}
   */
   readonly namespace: string;
   /**
   * A search term for querying names of entitlements.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#query DataCloudsmithEntitlementList#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#query DataCloudsmithEntitlementList#query}
   */
   readonly query?: string[];
   /**
   * The repository slug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#repository DataCloudsmithEntitlementList#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#repository DataCloudsmithEntitlementList#repository}
   */
   readonly repository: string;
   /**
   * Show entitlement token strings in results.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#show_token DataCloudsmithEntitlementList#show_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#show_token DataCloudsmithEntitlementList#show_token}
   */
   readonly showToken?: boolean | cdktf.IResolvable;
 }
@@ -293,7 +293,7 @@ export class DataCloudsmithEntitlementListEntitlementTokensList extends cdktf.Co
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list cloudsmith_entitlement_list}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list cloudsmith_entitlement_list}
 */
 export class DataCloudsmithEntitlementList extends cdktf.TerraformDataSource {
 
@@ -309,7 +309,7 @@ export class DataCloudsmithEntitlementList extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCloudsmithEntitlementList resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCloudsmithEntitlementList to import
-  * @param importFromId The id of the existing DataCloudsmithEntitlementList that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCloudsmithEntitlementList that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCloudsmithEntitlementList to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -321,7 +321,7 @@ export class DataCloudsmithEntitlementList extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/data-sources/entitlement_list cloudsmith_entitlement_list} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/data-sources/entitlement_list cloudsmith_entitlement_list} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -332,8 +332,8 @@ export class DataCloudsmithEntitlementList extends cdktf.TerraformDataSource {
       terraformResourceType: 'cloudsmith_entitlement_list',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

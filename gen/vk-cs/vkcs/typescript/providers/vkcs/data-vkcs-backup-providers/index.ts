@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_providers
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_providers
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVkcsBackupProvidersConfig extends cdktf.TerraformMetaArgume
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_providers#region DataVkcsBackupProviders#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_providers#region DataVkcsBackupProviders#region}
   */
   readonly region?: string;
 }
@@ -18,7 +18,7 @@ export interface DataVkcsBackupProvidersProviders {
   /**
   * Name of the backup provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_providers#name DataVkcsBackupProviders#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_providers#name DataVkcsBackupProviders#name}
   */
   readonly name: string;
 }
@@ -126,7 +126,7 @@ export class DataVkcsBackupProvidersProvidersList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_providers vkcs_backup_providers}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_providers vkcs_backup_providers}
 */
 export class DataVkcsBackupProviders extends cdktf.TerraformDataSource {
 
@@ -142,7 +142,7 @@ export class DataVkcsBackupProviders extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsBackupProviders resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsBackupProviders to import
-  * @param importFromId The id of the existing DataVkcsBackupProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_providers#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsBackupProviders that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_providers#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsBackupProviders to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -154,7 +154,7 @@ export class DataVkcsBackupProviders extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_providers vkcs_backup_providers} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_providers vkcs_backup_providers} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -165,8 +165,8 @@ export class DataVkcsBackupProviders extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_backup_providers',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

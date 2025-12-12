@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface AccountAssociationsConfig extends cdktf.TerraformMetaArguments 
   /**
   * Description of the account association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#description AccountAssociations#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#description AccountAssociations#description}
   */
   readonly description?: string;
   /**
   * The UIDP of the IAM group to associate to cloud accounts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#group AccountAssociations#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#group AccountAssociations#group}
   */
   readonly group: string;
   /**
   * Name of the account association.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#name AccountAssociations#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#name AccountAssociations#name}
   */
   readonly name: string;
   /**
   * amazon block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#amazon AccountAssociations#amazon}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#amazon AccountAssociations#amazon}
   */
   readonly amazon?: AccountAssociationsAmazon;
   /**
   * azure block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#azure AccountAssociations#azure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#azure AccountAssociations#azure}
   */
   readonly azure?: AccountAssociationsAzure;
   /**
   * chainguard block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#chainguard AccountAssociations#chainguard}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#chainguard AccountAssociations#chainguard}
   */
   readonly chainguard?: AccountAssociationsChainguard;
   /**
   * google block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#google AccountAssociations#google}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#google AccountAssociations#google}
   */
   readonly google?: AccountAssociationsGoogle;
 }
@@ -54,7 +54,7 @@ export interface AccountAssociationsAmazon {
   /**
   * AWS account ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#account AccountAssociations#account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#account AccountAssociations#account}
   */
   readonly account?: string;
 }
@@ -150,13 +150,13 @@ export interface AccountAssociationsAzure {
   /**
   * Azure compoment name to client id mapping
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#client_ids AccountAssociations#client_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#client_ids AccountAssociations#client_ids}
   */
   readonly clientIds?: { [key: string]: string };
   /**
   * Azure tenant id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#tenant_id AccountAssociations#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#tenant_id AccountAssociations#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -281,7 +281,7 @@ export interface AccountAssociationsChainguard {
   /**
   * A map of service bindings where the key is the service name and the value is the Id of the service principal identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#service_bindings AccountAssociations#service_bindings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#service_bindings AccountAssociations#service_bindings}
   */
   readonly serviceBindings?: { [key: string]: string };
 }
@@ -377,13 +377,13 @@ export interface AccountAssociationsGoogle {
   /**
   * GCP project id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#project_id AccountAssociations#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#project_id AccountAssociations#project_id}
   */
   readonly projectId?: string;
   /**
   * GCP project number
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#project_number AccountAssociations#project_number}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#project_number AccountAssociations#project_number}
   */
   readonly projectNumber?: string;
 }
@@ -506,7 +506,7 @@ export class AccountAssociationsGoogleOutputReference extends cdktf.ComplexObjec
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations chainguard_account_associations}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations chainguard_account_associations}
 */
 export class AccountAssociations extends cdktf.TerraformResource {
 
@@ -522,7 +522,7 @@ export class AccountAssociations extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccountAssociations resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccountAssociations to import
-  * @param importFromId The id of the existing AccountAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccountAssociations that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccountAssociations to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -534,7 +534,7 @@ export class AccountAssociations extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/account_associations chainguard_account_associations} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/account_associations chainguard_account_associations} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -545,8 +545,8 @@ export class AccountAssociations extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_account_associations',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.42',
-        providerVersionConstraint: '0.1.42'
+        providerVersion: '0.1.43',
+        providerVersionConstraint: '0.1.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

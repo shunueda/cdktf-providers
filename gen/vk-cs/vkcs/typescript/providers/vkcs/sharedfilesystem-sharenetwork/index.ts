@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface SharedfilesystemSharenetworkConfig extends cdktf.TerraformMetaA
   /**
   * The human-readable description for the share network. Changing this updates the description of the existing share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#description SharedfilesystemSharenetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#description SharedfilesystemSharenetwork#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#id SharedfilesystemSharenetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#id SharedfilesystemSharenetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,51 +23,51 @@ export interface SharedfilesystemSharenetworkConfig extends cdktf.TerraformMetaA
   /**
   * The name for the share network. Changing this updates the name of the existing share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#name SharedfilesystemSharenetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#name SharedfilesystemSharenetwork#name}
   */
   readonly name?: string;
   /**
   * The UUID of a neutron network when setting up or updating a share network. Changing this updates the existing share network if it's not used by shares.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#neutron_net_id SharedfilesystemSharenetwork#neutron_net_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#neutron_net_id SharedfilesystemSharenetwork#neutron_net_id}
   */
   readonly neutronNetId: string;
   /**
   * The UUID of the neutron subnet when setting up or updating a share network. Changing this updates the existing share network if it's not used by shares.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#neutron_subnet_id SharedfilesystemSharenetwork#neutron_subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#neutron_subnet_id SharedfilesystemSharenetwork#neutron_subnet_id}
   */
   readonly neutronSubnetId: string;
   /**
   * The region in which to obtain the Shared File System client. A Shared File System client is needed to create a share network. If omitted, the `region` argument of the provider is used. Changing this creates a new share network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#region SharedfilesystemSharenetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#region SharedfilesystemSharenetwork#region}
   */
   readonly region?: string;
   /**
   * The list of security service IDs to associate with the share network. The security service must be specified by ID and not name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#security_service_ids SharedfilesystemSharenetwork#security_service_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#security_service_ids SharedfilesystemSharenetwork#security_service_ids}
   */
   readonly securityServiceIds?: string[];
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#timeouts SharedfilesystemSharenetwork#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#timeouts SharedfilesystemSharenetwork#timeouts}
   */
   readonly timeouts?: SharedfilesystemSharenetworkTimeouts;
 }
 export interface SharedfilesystemSharenetworkTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#create SharedfilesystemSharenetwork#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#create SharedfilesystemSharenetwork#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#delete SharedfilesystemSharenetwork#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#delete SharedfilesystemSharenetwork#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#update SharedfilesystemSharenetwork#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#update SharedfilesystemSharenetwork#update}
   */
   readonly update?: string;
 }
@@ -219,7 +219,7 @@ export class SharedfilesystemSharenetworkTimeoutsOutputReference extends cdktf.C
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork}
 */
 export class SharedfilesystemSharenetwork extends cdktf.TerraformResource {
 
@@ -235,7 +235,7 @@ export class SharedfilesystemSharenetwork extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SharedfilesystemSharenetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SharedfilesystemSharenetwork to import
-  * @param importFromId The id of the existing SharedfilesystemSharenetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SharedfilesystemSharenetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SharedfilesystemSharenetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -247,7 +247,7 @@ export class SharedfilesystemSharenetwork extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/sharedfilesystem_sharenetwork vkcs_sharedfilesystem_sharenetwork} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -258,8 +258,8 @@ export class SharedfilesystemSharenetwork extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_sharedfilesystem_sharenetwork',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

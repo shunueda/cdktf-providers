@@ -1,3 +1,3 @@
 # `cloudamqp_integration_log`
 
-Refer to the Terraform Registry for docs: [`cloudamqp_integration_log`](https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/integration_log).
+Refer to the Terraform Registry for docs: [`cloudamqp_integration_log`](https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/integration_log).

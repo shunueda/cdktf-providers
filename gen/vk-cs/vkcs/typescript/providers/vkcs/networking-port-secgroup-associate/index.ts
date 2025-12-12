@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkingPortSecgroupAssociateConfig extends cdktf.TerraformMe
   /**
   * Whether to replace or append the list of security groups, specified in the `security_group_ids`. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#enforce NetworkingPortSecgroupAssociate#enforce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#enforce NetworkingPortSecgroupAssociate#enforce}
   */
   readonly enforce?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#id NetworkingPortSecgroupAssociate#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#id NetworkingPortSecgroupAssociate#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface NetworkingPortSecgroupAssociateConfig extends cdktf.TerraformMe
   /**
   * An UUID of the port to apply security groups to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#port_id NetworkingPortSecgroupAssociate#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#port_id NetworkingPortSecgroupAssociate#port_id}
   */
   readonly portId: string;
   /**
   * The region in which to obtain the networking client. A networking client is needed to manage a port. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#region NetworkingPortSecgroupAssociate#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#region NetworkingPortSecgroupAssociate#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#sdn NetworkingPortSecgroupAssociate#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#sdn NetworkingPortSecgroupAssociate#sdn}
   */
   readonly sdn?: string;
   /**
   * A list of security group IDs to apply to the port. The security groups must be specified by ID and not name (as opposed to how they are configured with the Compute Instance).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#security_group_ids NetworkingPortSecgroupAssociate#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#security_group_ids NetworkingPortSecgroupAssociate#security_group_ids}
   */
   readonly securityGroupIds: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate vkcs_networking_port_secgroup_associate}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate vkcs_networking_port_secgroup_associate}
 */
 export class NetworkingPortSecgroupAssociate extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class NetworkingPortSecgroupAssociate extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingPortSecgroupAssociate resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingPortSecgroupAssociate to import
-  * @param importFromId The id of the existing NetworkingPortSecgroupAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingPortSecgroupAssociate that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingPortSecgroupAssociate to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class NetworkingPortSecgroupAssociate extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port_secgroup_associate vkcs_networking_port_secgroup_associate} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port_secgroup_associate vkcs_networking_port_secgroup_associate} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class NetworkingPortSecgroupAssociate extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_port_secgroup_associate',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

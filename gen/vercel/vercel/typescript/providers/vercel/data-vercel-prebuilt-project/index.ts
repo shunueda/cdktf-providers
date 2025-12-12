@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/prebuilt_project
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/prebuilt_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelPrebuiltProjectConfig extends cdktf.TerraformMetaArgu
   /**
   * The path to the project. Note that this path is relative to the root of your terraform files. This should be the directory that contains the `.vercel/output` directory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/prebuilt_project#path DataVercelPrebuiltProject#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/prebuilt_project#path DataVercelPrebuiltProject#path}
   */
   readonly path: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/prebuilt_project vercel_prebuilt_project}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/prebuilt_project vercel_prebuilt_project}
 */
 export class DataVercelPrebuiltProject extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataVercelPrebuiltProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelPrebuiltProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelPrebuiltProject to import
-  * @param importFromId The id of the existing DataVercelPrebuiltProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/prebuilt_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelPrebuiltProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/prebuilt_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelPrebuiltProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataVercelPrebuiltProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/prebuilt_project vercel_prebuilt_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/prebuilt_project vercel_prebuilt_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataVercelPrebuiltProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_prebuilt_project',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

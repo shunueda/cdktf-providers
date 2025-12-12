@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataVkcsNetworkingSubnetConfig extends cdktf.TerraformMetaArgum
   /**
   * The CIDR of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#cidr DataVkcsNetworkingSubnet#cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#cidr DataVkcsNetworkingSubnet#cidr}
   */
   readonly cidr?: string;
   /**
   * Human-readable description of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#description DataVkcsNetworkingSubnet#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#description DataVkcsNetworkingSubnet#description}
   */
   readonly description?: string;
   /**
   * If the subnet has DHCP enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#dhcp_enabled DataVkcsNetworkingSubnet#dhcp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#dhcp_enabled DataVkcsNetworkingSubnet#dhcp_enabled}
   */
   readonly dhcpEnabled?: boolean | cdktf.IResolvable;
   /**
   * The IP of the subnet's gateway.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#gateway_ip DataVkcsNetworkingSubnet#gateway_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#gateway_ip DataVkcsNetworkingSubnet#gateway_ip}
   */
   readonly gatewayIp?: string;
   /**
   * The ID of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#id DataVkcsNetworkingSubnet#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#id DataVkcsNetworkingSubnet#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -43,49 +43,49 @@ export interface DataVkcsNetworkingSubnetConfig extends cdktf.TerraformMetaArgum
   /**
   * The name of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#name DataVkcsNetworkingSubnet#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#name DataVkcsNetworkingSubnet#name}
   */
   readonly name?: string;
   /**
   * The ID of the network the subnet belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#network_id DataVkcsNetworkingSubnet#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#network_id DataVkcsNetworkingSubnet#network_id}
   */
   readonly networkId?: string;
   /**
   * The region in which to obtain the Network client. A Network client is needed to retrieve subnet ids. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#region DataVkcsNetworkingSubnet#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#region DataVkcsNetworkingSubnet#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#sdn DataVkcsNetworkingSubnet#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#sdn DataVkcsNetworkingSubnet#sdn}
   */
   readonly sdn?: string;
   /**
   * The ID of the subnet. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#subnet_id DataVkcsNetworkingSubnet#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#subnet_id DataVkcsNetworkingSubnet#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The ID of the subnetpool associated with the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#subnetpool_id DataVkcsNetworkingSubnet#subnetpool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#subnetpool_id DataVkcsNetworkingSubnet#subnetpool_id}
   */
   readonly subnetpoolId?: string;
   /**
   * The list of subnet tags to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#tags DataVkcsNetworkingSubnet#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#tags DataVkcsNetworkingSubnet#tags}
   */
   readonly tags?: string[];
   /**
   * The owner of the subnet.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#tenant_id DataVkcsNetworkingSubnet#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#tenant_id DataVkcsNetworkingSubnet#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -251,7 +251,7 @@ export class DataVkcsNetworkingSubnetHostRoutesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet vkcs_networking_subnet}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet vkcs_networking_subnet}
 */
 export class DataVkcsNetworkingSubnet extends cdktf.TerraformDataSource {
 
@@ -267,7 +267,7 @@ export class DataVkcsNetworkingSubnet extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsNetworkingSubnet resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsNetworkingSubnet to import
-  * @param importFromId The id of the existing DataVkcsNetworkingSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsNetworkingSubnet that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsNetworkingSubnet to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -279,7 +279,7 @@ export class DataVkcsNetworkingSubnet extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_subnet vkcs_networking_subnet} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_subnet vkcs_networking_subnet} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -290,8 +290,8 @@ export class DataVkcsNetworkingSubnet extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_networking_subnet',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -387,6 +387,11 @@ export class DataVkcsNetworkingSubnet extends cdktf.TerraformDataSource {
   // enable_dhcp - computed: true, optional: false, required: false
   public get enableDhcp() {
     return this.getBooleanAttribute('enable_dhcp');
+  }
+
+  // enable_private_dns - computed: true, optional: false, required: false
+  public get enablePrivateDns() {
+    return this.getBooleanAttribute('enable_private_dns');
   }
 
   // gateway_ip - computed: true, optional: true, required: false

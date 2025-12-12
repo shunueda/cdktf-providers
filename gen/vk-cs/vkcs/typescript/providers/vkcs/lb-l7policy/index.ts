@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface LbL7PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The L7 Policy action - can either be REDIRECT\_TO\_POOL, REDIRECT\_TO\_URL or REJECT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#action LbL7Policy#action}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#action LbL7Policy#action}
   */
   readonly action: string;
   /**
   * The administrative state of the L7 Policy. A valid value is true (UP) or false (DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#admin_state_up LbL7Policy#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#admin_state_up LbL7Policy#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description for the L7 Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#description LbL7Policy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#description LbL7Policy#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#id LbL7Policy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#id LbL7Policy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,57 +35,57 @@ export interface LbL7PolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The Listener on which the L7 Policy will be associated with. Changing this creates a new L7 Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#listener_id LbL7Policy#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#listener_id LbL7Policy#listener_id}
   */
   readonly listenerId: string;
   /**
   * Human-readable name for the L7 Policy. Does not have to be unique.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#name LbL7Policy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#name LbL7Policy#name}
   */
   readonly name?: string;
   /**
   * The position of this policy on the listener. Positions start at 1.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#position LbL7Policy#position}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#position LbL7Policy#position}
   */
   readonly position?: number;
   /**
   * Requests matching this policy will be redirected to the pool with this ID. Only valid if action is REDIRECT\_TO\_POOL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#redirect_pool_id LbL7Policy#redirect_pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#redirect_pool_id LbL7Policy#redirect_pool_id}
   */
   readonly redirectPoolId?: string;
   /**
   * Requests matching this policy will be redirected to this URL. Only valid if action is REDIRECT\_TO\_URL.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#redirect_url LbL7Policy#redirect_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#redirect_url LbL7Policy#redirect_url}
   */
   readonly redirectUrl?: string;
   /**
   * The region in which to obtain the Loadbalancer client. If omitted, the `region` argument of the provider is used. Changing this creates a new L7 Policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#region LbL7Policy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#region LbL7Policy#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#timeouts LbL7Policy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#timeouts LbL7Policy#timeouts}
   */
   readonly timeouts?: LbL7PolicyTimeouts;
 }
 export interface LbL7PolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#create LbL7Policy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#create LbL7Policy#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#delete LbL7Policy#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#delete LbL7Policy#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#update LbL7Policy#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#update LbL7Policy#update}
   */
   readonly update?: string;
 }
@@ -237,7 +237,7 @@ export class LbL7PolicyTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy vkcs_lb_l7policy}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy vkcs_lb_l7policy}
 */
 export class LbL7Policy extends cdktf.TerraformResource {
 
@@ -253,7 +253,7 @@ export class LbL7Policy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbL7Policy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbL7Policy to import
-  * @param importFromId The id of the existing LbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbL7Policy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbL7Policy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -265,7 +265,7 @@ export class LbL7Policy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7policy vkcs_lb_l7policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7policy vkcs_lb_l7policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -276,8 +276,8 @@ export class LbL7Policy extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_lb_l7policy',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

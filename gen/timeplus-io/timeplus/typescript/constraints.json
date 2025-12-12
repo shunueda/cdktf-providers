@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "timeplus": "0.1.6"
+    "timeplus": "0.2.0"
   }
 }

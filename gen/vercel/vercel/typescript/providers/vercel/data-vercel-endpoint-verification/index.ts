@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/endpoint_verification
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/endpoint_verification
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelEndpointVerificationConfig extends cdktf.TerraformMet
   /**
   * The ID of the team the Edge Config should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/endpoint_verification#team_id DataVercelEndpointVerification#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/endpoint_verification#team_id DataVercelEndpointVerification#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/endpoint_verification vercel_endpoint_verification}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/endpoint_verification vercel_endpoint_verification}
 */
 export class DataVercelEndpointVerification extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataVercelEndpointVerification extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelEndpointVerification resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelEndpointVerification to import
-  * @param importFromId The id of the existing DataVercelEndpointVerification that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/endpoint_verification#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelEndpointVerification that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/endpoint_verification#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelEndpointVerification to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataVercelEndpointVerification extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/endpoint_verification vercel_endpoint_verification} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/endpoint_verification vercel_endpoint_verification} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataVercelEndpointVerification extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_endpoint_verification',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

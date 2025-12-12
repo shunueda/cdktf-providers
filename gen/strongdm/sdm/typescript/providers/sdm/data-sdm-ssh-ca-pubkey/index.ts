@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey
+// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataSdmSshCaPubkeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique identifier of the SSH CA Public Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey#id DataSdmSshCaPubkey#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey#id DataSdmSshCaPubkey#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,19 +19,19 @@ export interface DataSdmSshCaPubkeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The SSH Certificate Authority Public Key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey#public_key DataSdmSshCaPubkey#public_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey#public_key DataSdmSshCaPubkey#public_key}
   */
   readonly publicKey?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey#timeouts DataSdmSshCaPubkey#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey#timeouts DataSdmSshCaPubkey#timeouts}
   */
   readonly timeouts?: DataSdmSshCaPubkeyTimeouts;
 }
 export interface DataSdmSshCaPubkeyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey#default DataSdmSshCaPubkey#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey#default DataSdmSshCaPubkey#default}
   */
   readonly default?: string;
 }
@@ -125,7 +125,7 @@ export class DataSdmSshCaPubkeyTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey sdm_ssh_ca_pubkey}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey sdm_ssh_ca_pubkey}
 */
 export class DataSdmSshCaPubkey extends cdktf.TerraformDataSource {
 
@@ -141,7 +141,7 @@ export class DataSdmSshCaPubkey extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmSshCaPubkey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmSshCaPubkey to import
-  * @param importFromId The id of the existing DataSdmSshCaPubkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmSshCaPubkey that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmSshCaPubkey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -153,7 +153,7 @@ export class DataSdmSshCaPubkey extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/ssh_ca_pubkey sdm_ssh_ca_pubkey} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/ssh_ca_pubkey sdm_ssh_ca_pubkey} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -164,8 +164,8 @@ export class DataSdmSshCaPubkey extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_ssh_ca_pubkey',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.35.0',
-        providerVersionConstraint: '15.35.0'
+        providerVersion: '15.39.0',
+        providerVersionConstraint: '15.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

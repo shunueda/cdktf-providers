@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface DataVkcsComputeFlavorConfig extends cdktf.TerraformMetaArgument
   /**
   * The exact amount of disk (in gigabytes). Don't set disk, when min_disk is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#disk DataVkcsComputeFlavor#disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#disk DataVkcsComputeFlavor#disk}
   */
   readonly disk?: number;
   /**
   * Key/Value pairs of metadata for the flavor. Be careful when using it, there is no validation applied to this field. When searching for a suitable flavor, it checks all required extra specs in a flavor metadata. See https://cloud.vk.com/docs/base/iaas/concepts/vm-concept
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#extra_specs DataVkcsComputeFlavor#extra_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#extra_specs DataVkcsComputeFlavor#extra_specs}
   */
   readonly extraSpecs?: { [key: string]: string };
   /**
   * The ID of the flavor. Conflicts with the `name`, `min_ram` and `min_disk`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#flavor_id DataVkcsComputeFlavor#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#flavor_id DataVkcsComputeFlavor#flavor_id}
   */
   readonly flavorId?: string;
   /**
   * The flavor visibility.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#is_public DataVkcsComputeFlavor#is_public}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#is_public DataVkcsComputeFlavor#is_public}
   */
   readonly isPublic?: boolean | cdktf.IResolvable;
   /**
   * The minimum amount of disk (in gigabytes). Conflicts with the `flavor_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#min_disk DataVkcsComputeFlavor#min_disk}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#min_disk DataVkcsComputeFlavor#min_disk}
   */
   readonly minDisk?: number;
   /**
   * The minimum amount of RAM (in megabytes). Conflicts with the `flavor_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#min_ram DataVkcsComputeFlavor#min_ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#min_ram DataVkcsComputeFlavor#min_ram}
   */
   readonly minRam?: number;
   /**
   * The name of the flavor. Conflicts with the `flavor_id`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#name DataVkcsComputeFlavor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#name DataVkcsComputeFlavor#name}
   */
   readonly name?: string;
   /**
   * The exact amount of RAM (in megabytes). Don't set ram, when min_ram is set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#ram DataVkcsComputeFlavor#ram}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#ram DataVkcsComputeFlavor#ram}
   */
   readonly ram?: number;
   /**
   * The region in which to obtain the Compute client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#region DataVkcsComputeFlavor#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#region DataVkcsComputeFlavor#region}
   */
   readonly region?: string;
   /**
   * The `rx_tx_factor` of the flavor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#rx_tx_factor DataVkcsComputeFlavor#rx_tx_factor}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#rx_tx_factor DataVkcsComputeFlavor#rx_tx_factor}
   */
   readonly rxTxFactor?: number;
   /**
   * The amount of swap (in gigabytes).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#swap DataVkcsComputeFlavor#swap}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#swap DataVkcsComputeFlavor#swap}
   */
   readonly swap?: number;
   /**
   * The amount of VCPUs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#vcpus DataVkcsComputeFlavor#vcpus}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#vcpus DataVkcsComputeFlavor#vcpus}
   */
   readonly vcpus?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor vkcs_compute_flavor}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor vkcs_compute_flavor}
 */
 export class DataVkcsComputeFlavor extends cdktf.TerraformDataSource {
 
@@ -98,7 +98,7 @@ export class DataVkcsComputeFlavor extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsComputeFlavor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsComputeFlavor to import
-  * @param importFromId The id of the existing DataVkcsComputeFlavor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsComputeFlavor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsComputeFlavor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -110,7 +110,7 @@ export class DataVkcsComputeFlavor extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/compute_flavor vkcs_compute_flavor} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/compute_flavor vkcs_compute_flavor} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -121,8 +121,8 @@ export class DataVkcsComputeFlavor extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_compute_flavor',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface ElasticsearchIndexAliasAConfig extends cdktf.TerraformMetaArgum
   /**
   * The alias name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#name ElasticsearchIndexAliasA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#name ElasticsearchIndexAliasA#name}
   */
   readonly name: string;
   /**
   * Set of read indices for the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#read_indices ElasticsearchIndexAliasA#read_indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#read_indices ElasticsearchIndexAliasA#read_indices}
   */
   readonly readIndices?: ElasticsearchIndexAliasReadIndices[] | cdktf.IResolvable;
   /**
   * The write index for the alias. Only one write index is allowed per alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#write_index ElasticsearchIndexAliasA#write_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#write_index ElasticsearchIndexAliasA#write_index}
   */
   readonly writeIndex?: ElasticsearchIndexAliasWriteIndex;
 }
@@ -30,37 +30,37 @@ export interface ElasticsearchIndexAliasReadIndices {
   /**
   * Query used to limit documents the alias can access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#filter ElasticsearchIndexAliasA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#filter ElasticsearchIndexAliasA#filter}
   */
   readonly filter?: string;
   /**
   * Value used to route indexing operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#index_routing ElasticsearchIndexAliasA#index_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#index_routing ElasticsearchIndexAliasA#index_routing}
   */
   readonly indexRouting?: string;
   /**
   * If true, the alias is hidden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#is_hidden ElasticsearchIndexAliasA#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#is_hidden ElasticsearchIndexAliasA#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
   * Name of the read index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#name ElasticsearchIndexAliasA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#name ElasticsearchIndexAliasA#name}
   */
   readonly name: string;
   /**
   * Value used to route indexing and search operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#routing ElasticsearchIndexAliasA#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#routing ElasticsearchIndexAliasA#routing}
   */
   readonly routing?: string;
   /**
   * Value used to route search operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#search_routing ElasticsearchIndexAliasA#search_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#search_routing ElasticsearchIndexAliasA#search_routing}
   */
   readonly searchRouting?: string;
 }
@@ -320,37 +320,37 @@ export interface ElasticsearchIndexAliasWriteIndex {
   /**
   * Query used to limit documents the alias can access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#filter ElasticsearchIndexAliasA#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#filter ElasticsearchIndexAliasA#filter}
   */
   readonly filter?: string;
   /**
   * Value used to route indexing operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#index_routing ElasticsearchIndexAliasA#index_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#index_routing ElasticsearchIndexAliasA#index_routing}
   */
   readonly indexRouting?: string;
   /**
   * If true, the alias is hidden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#is_hidden ElasticsearchIndexAliasA#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#is_hidden ElasticsearchIndexAliasA#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
   * Name of the write index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#name ElasticsearchIndexAliasA#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#name ElasticsearchIndexAliasA#name}
   */
   readonly name: string;
   /**
   * Value used to route indexing and search operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#routing ElasticsearchIndexAliasA#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#routing ElasticsearchIndexAliasA#routing}
   */
   readonly routing?: string;
   /**
   * Value used to route search operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#search_routing ElasticsearchIndexAliasA#search_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#search_routing ElasticsearchIndexAliasA#search_routing}
   */
   readonly searchRouting?: string;
 }
@@ -586,7 +586,7 @@ export class ElasticsearchIndexAliasWriteIndexOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias elasticstack_elasticsearch_index_alias}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias elasticstack_elasticsearch_index_alias}
 */
 export class ElasticsearchIndexAliasA extends cdktf.TerraformResource {
 
@@ -602,7 +602,7 @@ export class ElasticsearchIndexAliasA extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchIndexAliasA resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchIndexAliasA to import
-  * @param importFromId The id of the existing ElasticsearchIndexAliasA that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchIndexAliasA that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchIndexAliasA to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -614,7 +614,7 @@ export class ElasticsearchIndexAliasA extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_index_alias elasticstack_elasticsearch_index_alias} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_index_alias elasticstack_elasticsearch_index_alias} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -625,8 +625,8 @@ export class ElasticsearchIndexAliasA extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_index_alias',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

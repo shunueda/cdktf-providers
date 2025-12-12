@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVkcsNetworkingNetworkConfig extends cdktf.TerraformMetaArgu
   /**
   * Human-readable description of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#description DataVkcsNetworkingNetwork#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#description DataVkcsNetworkingNetwork#description}
   */
   readonly description?: string;
   /**
   * The external routing facility of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#external DataVkcsNetworkingNetwork#external}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#external DataVkcsNetworkingNetwork#external}
   */
   readonly external?: boolean | cdktf.IResolvable;
   /**
   * The ID of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#id DataVkcsNetworkingNetwork#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#id DataVkcsNetworkingNetwork#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -31,61 +31,61 @@ export interface DataVkcsNetworkingNetworkConfig extends cdktf.TerraformMetaArgu
   /**
   * The CIDR of a subnet within the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#matching_subnet_cidr DataVkcsNetworkingNetwork#matching_subnet_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#matching_subnet_cidr DataVkcsNetworkingNetwork#matching_subnet_cidr}
   */
   readonly matchingSubnetCidr?: string;
   /**
   * The name of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#name DataVkcsNetworkingNetwork#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#name DataVkcsNetworkingNetwork#name}
   */
   readonly name?: string;
   /**
   * The ID of the network. **Deprecated** This argument is deprecated, please, use the `id` attribute instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#network_id DataVkcsNetworkingNetwork#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#network_id DataVkcsNetworkingNetwork#network_id}
   */
   readonly networkId?: string;
   /**
   * The region in which to obtain the Network client. A Network client is needed to retrieve networks ids. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#region DataVkcsNetworkingNetwork#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#region DataVkcsNetworkingNetwork#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#sdn DataVkcsNetworkingNetwork#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#sdn DataVkcsNetworkingNetwork#sdn}
   */
   readonly sdn?: string;
   /**
   * The status of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#status DataVkcsNetworkingNetwork#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#status DataVkcsNetworkingNetwork#status}
   */
   readonly status?: string;
   /**
   * The list of network tags to filter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#tags DataVkcsNetworkingNetwork#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#tags DataVkcsNetworkingNetwork#tags}
   */
   readonly tags?: string[];
   /**
   * The owner of the network.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#tenant_id DataVkcsNetworkingNetwork#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#tenant_id DataVkcsNetworkingNetwork#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Specifies whether VKCS services access is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#vkcs_services_access DataVkcsNetworkingNetwork#vkcs_services_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#vkcs_services_access DataVkcsNetworkingNetwork#vkcs_services_access}
   */
   readonly vkcsServicesAccess?: boolean | cdktf.IResolvable;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network vkcs_networking_network}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network vkcs_networking_network}
 */
 export class DataVkcsNetworkingNetwork extends cdktf.TerraformDataSource {
 
@@ -101,7 +101,7 @@ export class DataVkcsNetworkingNetwork extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsNetworkingNetwork resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsNetworkingNetwork to import
-  * @param importFromId The id of the existing DataVkcsNetworkingNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsNetworkingNetwork that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsNetworkingNetwork to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -113,7 +113,7 @@ export class DataVkcsNetworkingNetwork extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/networking_network vkcs_networking_network} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/networking_network vkcs_networking_network} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -124,8 +124,8 @@ export class DataVkcsNetworkingNetwork extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_networking_network',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

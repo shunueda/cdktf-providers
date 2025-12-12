@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface VpnaasIkePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The authentication hash algorithm. Valid values are sha1, sha256, sha384, sha512. Default is sha1. Changing this updates the algorithm of the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#auth_algorithm VpnaasIkePolicy#auth_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#auth_algorithm VpnaasIkePolicy#auth_algorithm}
   */
   readonly authAlgorithm?: string;
   /**
   * The human-readable description for the policy. Changing this updates the description of the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#description VpnaasIkePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#description VpnaasIkePolicy#description}
   */
   readonly description?: string;
   /**
   * The encryption algorithm. Valid values are 3des, aes-128, aes-192 and so on. The default value is aes-128. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#encryption_algorithm VpnaasIkePolicy#encryption_algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#encryption_algorithm VpnaasIkePolicy#encryption_algorithm}
   */
   readonly encryptionAlgorithm?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#id VpnaasIkePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#id VpnaasIkePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,49 +35,49 @@ export interface VpnaasIkePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The IKE mode. A valid value is v1 or v2. Default is v1. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#ike_version VpnaasIkePolicy#ike_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#ike_version VpnaasIkePolicy#ike_version}
   */
   readonly ikeVersion?: string;
   /**
   * The name of the policy. Changing this updates the name of the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#name VpnaasIkePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#name VpnaasIkePolicy#name}
   */
   readonly name?: string;
   /**
   * The perfect forward secrecy mode. Valid values are Group2, Group5 and Group14. Default is Group5. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#pfs VpnaasIkePolicy#pfs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#pfs VpnaasIkePolicy#pfs}
   */
   readonly pfs?: string;
   /**
   * The IKE mode. A valid value is main, which is the default. Changing this updates the existing policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#phase1_negotiation_mode VpnaasIkePolicy#phase1_negotiation_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#phase1_negotiation_mode VpnaasIkePolicy#phase1_negotiation_mode}
   */
   readonly phase1NegotiationMode?: string;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create a VPN service. If omitted, the `region` argument of the provider is used. Changing this creates a new service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#region VpnaasIkePolicy#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#region VpnaasIkePolicy#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN._new_since_v0.5.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#sdn VpnaasIkePolicy#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#sdn VpnaasIkePolicy#sdn}
   */
   readonly sdn?: string;
   /**
   * lifetime block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#lifetime VpnaasIkePolicy#lifetime}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#lifetime VpnaasIkePolicy#lifetime}
   */
   readonly lifetime?: VpnaasIkePolicyLifetime[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#timeouts VpnaasIkePolicy#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#timeouts VpnaasIkePolicy#timeouts}
   */
   readonly timeouts?: VpnaasIkePolicyTimeouts;
 }
@@ -85,13 +85,13 @@ export interface VpnaasIkePolicyLifetime {
   /**
   * The units for the lifetime of the security association. Can be either seconds or kilobytes. Default is seconds.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#units VpnaasIkePolicy#units}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#units VpnaasIkePolicy#units}
   */
   readonly units?: string;
   /**
   * The value for the lifetime of the security association. Must be a positive integer. Default is 3600.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#value VpnaasIkePolicy#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#value VpnaasIkePolicy#value}
   */
   readonly value?: number;
 }
@@ -236,7 +236,7 @@ export class VpnaasIkePolicyLifetimeList extends cdktf.ComplexList {
 }
 export interface VpnaasIkePolicyTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#create VpnaasIkePolicy#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#create VpnaasIkePolicy#create}
   */
   readonly create?: string;
 }
@@ -330,7 +330,7 @@ export class VpnaasIkePolicyTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy vkcs_vpnaas_ike_policy}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy vkcs_vpnaas_ike_policy}
 */
 export class VpnaasIkePolicy extends cdktf.TerraformResource {
 
@@ -346,7 +346,7 @@ export class VpnaasIkePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a VpnaasIkePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the VpnaasIkePolicy to import
-  * @param importFromId The id of the existing VpnaasIkePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing VpnaasIkePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the VpnaasIkePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -358,7 +358,7 @@ export class VpnaasIkePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/vpnaas_ike_policy vkcs_vpnaas_ike_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/vpnaas_ike_policy vkcs_vpnaas_ike_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -369,8 +369,8 @@ export class VpnaasIkePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_vpnaas_ike_policy',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,21 +10,161 @@ export interface DataVkcsBackupPlanConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the instance that should be included in backup plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan#instance_id DataVkcsBackupPlan#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan#instance_id DataVkcsBackupPlan#instance_id}
   */
   readonly instanceId?: string;
   /**
   * Name of the backup plan
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan#name DataVkcsBackupPlan#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan#name DataVkcsBackupPlan#name}
   */
   readonly name?: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan#region DataVkcsBackupPlan#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan#region DataVkcsBackupPlan#region}
   */
   readonly region?: string;
+}
+export interface DataVkcsBackupPlanBackupTargets {
+  /**
+  * ID of the instance for which specific volumes are backed up.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan#instance_id DataVkcsBackupPlan#instance_id}
+  */
+  readonly instanceId: string;
+  /**
+  * List of volume IDs to back up for the instance. If no list is specified, backups will be created for all disks.
+  *
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan#volume_ids DataVkcsBackupPlan#volume_ids}
+  */
+  readonly volumeIds?: string[];
+}
+
+export function dataVkcsBackupPlanBackupTargetsToTerraform(struct?: DataVkcsBackupPlanBackupTargets): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+    instance_id: cdktf.stringToTerraform(struct!.instanceId),
+    volume_ids: cdktf.listMapper(cdktf.stringToTerraform, false)(struct!.volumeIds),
+  }
+}
+
+
+export function dataVkcsBackupPlanBackupTargetsToHclTerraform(struct?: DataVkcsBackupPlanBackupTargets): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+    instance_id: {
+      value: cdktf.stringToHclTerraform(struct!.instanceId),
+      isBlock: false,
+      type: "simple",
+      storageClassType: "string",
+    },
+    volume_ids: {
+      value: cdktf.listMapperHcl(cdktf.stringToHclTerraform, false)(struct!.volumeIds),
+      isBlock: false,
+      type: "set",
+      storageClassType: "stringList",
+    },
+  };
+
+  // remove undefined attributes
+  return Object.fromEntries(Object.entries(attrs).filter(([_, value]) => value !== undefined && value.value !== undefined));
+}
+
+export class DataVkcsBackupPlanBackupTargetsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataVkcsBackupPlanBackupTargets | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    if (this._instanceId !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.instanceId = this._instanceId;
+    }
+    if (this._volumeIds !== undefined) {
+      hasAnyValues = true;
+      internalValueResult.volumeIds = this._volumeIds;
+    }
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataVkcsBackupPlanBackupTargets | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+      this._instanceId = undefined;
+      this._volumeIds = undefined;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+      this._instanceId = value.instanceId;
+      this._volumeIds = value.volumeIds;
+    }
+  }
+
+  // instance_id - computed: true, optional: false, required: true
+  private _instanceId?: string; 
+  public get instanceId() {
+    return this.getStringAttribute('instance_id');
+  }
+  public set instanceId(value: string) {
+    this._instanceId = value;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get instanceIdInput() {
+    return this._instanceId;
+  }
+
+  // volume_ids - computed: true, optional: true, required: false
+  private _volumeIds?: string[]; 
+  public get volumeIds() {
+    return cdktf.Fn.tolist(this.getListAttribute('volume_ids'));
+  }
+  public set volumeIds(value: string[]) {
+    this._volumeIds = value;
+  }
+  public resetVolumeIds() {
+    this._volumeIds = undefined;
+  }
+  // Temporarily expose input value. Use with caution.
+  public get volumeIdsInput() {
+    return this._volumeIds;
+  }
+}
+
+export class DataVkcsBackupPlanBackupTargetsList extends cdktf.ComplexList {
+  public internalValue? : DataVkcsBackupPlanBackupTargets[] | cdktf.IResolvable
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataVkcsBackupPlanBackupTargetsOutputReference {
+    return new DataVkcsBackupPlanBackupTargetsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
 }
 export interface DataVkcsBackupPlanFullRetention {
 }
@@ -210,7 +350,7 @@ export class DataVkcsBackupPlanScheduleOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan vkcs_backup_plan}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan vkcs_backup_plan}
 */
 export class DataVkcsBackupPlan extends cdktf.TerraformDataSource {
 
@@ -226,7 +366,7 @@ export class DataVkcsBackupPlan extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsBackupPlan resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsBackupPlan to import
-  * @param importFromId The id of the existing DataVkcsBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsBackupPlan that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsBackupPlan to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -238,7 +378,7 @@ export class DataVkcsBackupPlan extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/backup_plan vkcs_backup_plan} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/backup_plan vkcs_backup_plan} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -249,8 +389,8 @@ export class DataVkcsBackupPlan extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_backup_plan',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -268,6 +408,12 @@ export class DataVkcsBackupPlan extends cdktf.TerraformDataSource {
   // ==========
   // ATTRIBUTES
   // ==========
+
+  // backup_targets - computed: true, optional: false, required: false
+  private _backupTargets = new DataVkcsBackupPlanBackupTargetsList(this, "backup_targets", false);
+  public get backupTargets() {
+    return this._backupTargets;
+  }
 
   // full_retention - computed: true, optional: false, required: false
   private _fullRetention = new DataVkcsBackupPlanFullRetentionOutputReference(this, "full_retention");

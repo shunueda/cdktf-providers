@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view
+// https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface ViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * A detailed text describes the view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view#description View#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view#description View#description}
   */
   readonly description?: string;
   /**
   * The view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view#name View#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view#name View#name}
   */
   readonly name: string;
   /**
   * The query SQL of the view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view#query View#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view#query View#query}
   */
   readonly query: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view timeplus_view}
+* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view timeplus_view}
 */
 export class View extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class View extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a View resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the View to import
-  * @param importFromId The id of the existing View that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing View that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the View to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class View extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/view timeplus_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/view timeplus_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class View extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_view',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

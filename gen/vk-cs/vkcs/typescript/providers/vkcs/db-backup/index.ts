@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface DbBackupConfig extends cdktf.TerraformMetaArguments {
   /**
   * Prefix of S3 bucket ([prefix] - [project_id]) to store backup data. Default: databasebackups
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#container_prefix DbBackup#container_prefix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#container_prefix DbBackup#container_prefix}
   */
   readonly containerPrefix?: string;
   /**
   * ID of the instance or cluster, to create backup of.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#dbms_id DbBackup#dbms_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#dbms_id DbBackup#dbms_id}
   */
   readonly dbmsId: string;
   /**
   * The description of the backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#description DbBackup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#description DbBackup#description}
   */
   readonly description?: string;
   /**
   * The name of the backup. Changing this creates a new backup
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#name DbBackup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#name DbBackup#name}
   */
   readonly name: string;
   /**
   * The region in which to obtain the service client. If omitted, the `region` argument of the provider is used. Changing this creates a new backup._new_since_v0.4.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#region DbBackup#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#region DbBackup#region}
   */
   readonly region?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#timeouts DbBackup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#timeouts DbBackup#timeouts}
   */
   readonly timeouts?: DbBackupTimeouts;
 }
@@ -128,13 +128,13 @@ export interface DbBackupTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#create DbBackup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#create DbBackup#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#delete DbBackup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#delete DbBackup#delete}
   */
   readonly delete?: string;
 }
@@ -257,7 +257,7 @@ export class DbBackupTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup vkcs_db_backup}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup vkcs_db_backup}
 */
 export class DbBackup extends cdktf.TerraformResource {
 
@@ -273,7 +273,7 @@ export class DbBackup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbBackup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbBackup to import
-  * @param importFromId The id of the existing DbBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbBackup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbBackup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -285,7 +285,7 @@ export class DbBackup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_backup vkcs_db_backup} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_backup vkcs_db_backup} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -296,8 +296,8 @@ export class DbBackup extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_db_backup',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

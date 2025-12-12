@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataElasticstackElasticsearchSnapshotRepositoryConfig extends c
   /**
   * Name of the snapshot repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#name DataElasticstackElasticsearchSnapshotRepository#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#name DataElasticstackElasticsearchSnapshotRepository#name}
   */
   readonly name: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#elasticsearch_connection DataElasticstackElasticsearchSnapshotRepository#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#elasticsearch_connection DataElasticstackElasticsearchSnapshotRepository#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: DataElasticstackElasticsearchSnapshotRepositoryElasticsearchConnection;
 }
@@ -714,85 +714,85 @@ export interface DataElasticstackElasticsearchSnapshotRepositoryElasticsearchCon
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#api_key DataElasticstackElasticsearchSnapshotRepository#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#api_key DataElasticstackElasticsearchSnapshotRepository#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#bearer_token DataElasticstackElasticsearchSnapshotRepository#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#bearer_token DataElasticstackElasticsearchSnapshotRepository#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#ca_data DataElasticstackElasticsearchSnapshotRepository#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#ca_data DataElasticstackElasticsearchSnapshotRepository#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#ca_file DataElasticstackElasticsearchSnapshotRepository#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#ca_file DataElasticstackElasticsearchSnapshotRepository#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#cert_data DataElasticstackElasticsearchSnapshotRepository#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#cert_data DataElasticstackElasticsearchSnapshotRepository#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#cert_file DataElasticstackElasticsearchSnapshotRepository#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#cert_file DataElasticstackElasticsearchSnapshotRepository#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#endpoints DataElasticstackElasticsearchSnapshotRepository#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#endpoints DataElasticstackElasticsearchSnapshotRepository#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#es_client_authentication DataElasticstackElasticsearchSnapshotRepository#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#es_client_authentication DataElasticstackElasticsearchSnapshotRepository#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#headers DataElasticstackElasticsearchSnapshotRepository#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#headers DataElasticstackElasticsearchSnapshotRepository#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#insecure DataElasticstackElasticsearchSnapshotRepository#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#insecure DataElasticstackElasticsearchSnapshotRepository#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#key_data DataElasticstackElasticsearchSnapshotRepository#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#key_data DataElasticstackElasticsearchSnapshotRepository#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#key_file DataElasticstackElasticsearchSnapshotRepository#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#key_file DataElasticstackElasticsearchSnapshotRepository#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#password DataElasticstackElasticsearchSnapshotRepository#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#password DataElasticstackElasticsearchSnapshotRepository#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#username DataElasticstackElasticsearchSnapshotRepository#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#username DataElasticstackElasticsearchSnapshotRepository#username}
   */
   readonly username?: string;
 }
@@ -1253,7 +1253,7 @@ export class DataElasticstackElasticsearchSnapshotRepositoryElasticsearchConnect
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository}
 */
 export class DataElasticstackElasticsearchSnapshotRepository extends cdktf.TerraformDataSource {
 
@@ -1269,7 +1269,7 @@ export class DataElasticstackElasticsearchSnapshotRepository extends cdktf.Terra
   * Generates CDKTF code for importing a DataElasticstackElasticsearchSnapshotRepository resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchSnapshotRepository to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchSnapshotRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchSnapshotRepository that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchSnapshotRepository to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1281,7 +1281,7 @@ export class DataElasticstackElasticsearchSnapshotRepository extends cdktf.Terra
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_snapshot_repository elasticstack_elasticsearch_snapshot_repository} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1292,8 +1292,8 @@ export class DataElasticstackElasticsearchSnapshotRepository extends cdktf.Terra
       terraformResourceType: 'elasticstack_elasticsearch_snapshot_repository',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

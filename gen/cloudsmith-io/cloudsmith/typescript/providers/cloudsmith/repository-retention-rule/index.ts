@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RepositoryRetentionRuleConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#id RepositoryRetentionRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#id RepositoryRetentionRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,67 +17,67 @@ export interface RepositoryRetentionRuleConfig extends cdktf.TerraformMetaArgume
   /**
   * The namespace of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#namespace RepositoryRetentionRule#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#namespace RepositoryRetentionRule#namespace}
   */
   readonly namespace: string;
   /**
   * The name of the repository.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#repository RepositoryRetentionRule#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#repository RepositoryRetentionRule#repository}
   */
   readonly repository: string;
   /**
   * The maximum number of packages to retain. Must be between 0 and 10000.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_count_limit RepositoryRetentionRule#retention_count_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_count_limit RepositoryRetentionRule#retention_count_limit}
   */
   readonly retentionCountLimit?: number;
   /**
   * The number of days of packages to retain. Must be between 0 and 180. Defaults to 28 days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_days_limit RepositoryRetentionRule#retention_days_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_days_limit RepositoryRetentionRule#retention_days_limit}
   */
   readonly retentionDaysLimit?: number;
   /**
   * If true, the retention lifecycle rules will be activated for the repository and settings will be updated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_enabled RepositoryRetentionRule#retention_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_enabled RepositoryRetentionRule#retention_enabled}
   */
   readonly retentionEnabled: boolean | cdktf.IResolvable;
   /**
   * If true, retention will apply to packages by package formats rather than across all package formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_group_by_format RepositoryRetentionRule#retention_group_by_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_group_by_format RepositoryRetentionRule#retention_group_by_format}
   */
   readonly retentionGroupByFormat?: boolean | cdktf.IResolvable;
   /**
   * If true, retention will apply to groups of packages by name rather than all packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_group_by_name RepositoryRetentionRule#retention_group_by_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_group_by_name RepositoryRetentionRule#retention_group_by_name}
   */
   readonly retentionGroupByName?: boolean | cdktf.IResolvable;
   /**
   * If true, retention will apply to packages by package type rather than across all package types for one or more formats.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_group_by_package_type RepositoryRetentionRule#retention_group_by_package_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_group_by_package_type RepositoryRetentionRule#retention_group_by_package_type}
   */
   readonly retentionGroupByPackageType?: boolean | cdktf.IResolvable;
   /**
   * A package search expression which, if provided, filters the packages to be deleted.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_package_query_string RepositoryRetentionRule#retention_package_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_package_query_string RepositoryRetentionRule#retention_package_query_string}
   */
   readonly retentionPackageQueryString?: string;
   /**
   * The maximum total size (in bytes) of packages to retain. Must be between 0 and 21474836480 (21.47 GB / 21474.83 MB).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#retention_size_limit RepositoryRetentionRule#retention_size_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#retention_size_limit RepositoryRetentionRule#retention_size_limit}
   */
   readonly retentionSizeLimit?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule cloudsmith_repository_retention_rule}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule cloudsmith_repository_retention_rule}
 */
 export class RepositoryRetentionRule extends cdktf.TerraformResource {
 
@@ -93,7 +93,7 @@ export class RepositoryRetentionRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryRetentionRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryRetentionRule to import
-  * @param importFromId The id of the existing RepositoryRetentionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryRetentionRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryRetentionRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -105,7 +105,7 @@ export class RepositoryRetentionRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_retention_rule cloudsmith_repository_retention_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_retention_rule cloudsmith_repository_retention_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -116,8 +116,8 @@ export class RepositoryRetentionRule extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_repository_retention_rule',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

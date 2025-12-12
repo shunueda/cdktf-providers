@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,41 +10,41 @@ export interface NetworkingPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Administrative up/down status for the port (must be `true` or `false` if provided). Changing this updates the `admin_state_up` of an existing port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#admin_state_up NetworkingPort#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#admin_state_up NetworkingPort#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description of the port. Changing this updates the `description` of an existing port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#description NetworkingPort#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#description NetworkingPort#description}
   */
   readonly description?: string;
   /**
   * The ID of the device attached to the port. Changing this creates a new port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#device_id NetworkingPort#device_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#device_id NetworkingPort#device_id}
   */
   readonly deviceId?: string;
   /**
   * The device owner of the port. Changing this creates a new port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#device_owner NetworkingPort#device_owner}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#device_owner NetworkingPort#device_owner}
   */
   readonly deviceOwner?: string;
   /**
   * The port DNS name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#dns_name NetworkingPort#dns_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#dns_name NetworkingPort#dns_name}
   */
   readonly dnsName?: string;
   /**
   * Always set this argument to `true`. It brings consistent behavior of managing of security groups of the port. See description of `security_group_ids` argument. _note_ This argument is introduced to seamless migration to the consistent behavior and will get `true` by default in new major version of the provider._new_since_v0.8.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#full_security_groups_control NetworkingPort#full_security_groups_control}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#full_security_groups_control NetworkingPort#full_security_groups_control}
   */
   readonly fullSecurityGroupsControl?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#id NetworkingPort#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#id NetworkingPort#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -53,91 +53,91 @@ export interface NetworkingPortConfig extends cdktf.TerraformMetaArguments {
   /**
   * Specify a specific MAC address for the port. Changing this creates a new port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
   */
   readonly macAddress?: string;
   /**
   * A unique name for the port. Changing this updates the `name` of an existing port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#name NetworkingPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#name NetworkingPort#name}
   */
   readonly name?: string;
   /**
   * The ID of the network to attach the port to. Changing this creates a new port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#network_id NetworkingPort#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#network_id NetworkingPort#network_id}
   */
   readonly networkId: string;
   /**
   * (Conflicts with `fixed_ip`) Create a port with no fixed IP address. This will also remove any fixed IPs previously set on a port. `true` is the only valid value for this argument.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#no_fixed_ip NetworkingPort#no_fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#no_fixed_ip NetworkingPort#no_fixed_ip}
   */
   readonly noFixedIp?: boolean | cdktf.IResolvable;
   /**
   * If set to `true`, then no security groups are applied to the port. If set to `false` and no `security_group_ids` are specified, then the port will yield to the default behavior of the Networking service, which is to usually apply the "default" security group. **Deprecated** Configure `full_security_groups_control = true` and `security_group_ids = []` instead.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#no_security_groups NetworkingPort#no_security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#no_security_groups NetworkingPort#no_security_groups}
   */
   readonly noSecurityGroups?: boolean | cdktf.IResolvable;
   /**
   * Whether to explicitly enable or disable port security on the port. Port Security is usually enabled by default, so omitting argument will usually result in a value of `true`. Setting this explicitly to `false` will disable port security. In order to disable port security, the port must not have any security groups. Valid values are `true` and `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#port_security_enabled NetworkingPort#port_security_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#port_security_enabled NetworkingPort#port_security_enabled}
   */
   readonly portSecurityEnabled?: boolean | cdktf.IResolvable;
   /**
   * The region in which to obtain the Networking client. A Networking client is needed to create a port. If omitted, the `region` argument of the provider is used. Changing this creates a new port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#region NetworkingPort#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#region NetworkingPort#region}
   */
   readonly region?: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#sdn NetworkingPort#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#sdn NetworkingPort#sdn}
   */
   readonly sdn?: string;
   /**
   * A list of security group IDs to apply to the port. The security groups must be specified by ID and not name. If the list is empty then no one security group is attached to the port. If the argument is absent then `vkcs_networking_port` resource does not control security groups of the port and just reads them from Networking service. The last case yields to the default behavior of the Networking service, which adds the "default" security group. _note_ This behavior is actual with `full_security_groups_control` = true only and introduced in 0.8.0 version of the provider. Legacy behavior is still supported but deprecated and too confusing to be described.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#security_group_ids NetworkingPort#security_group_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#security_group_ids NetworkingPort#security_group_ids}
   */
   readonly securityGroupIds?: string[];
   /**
   * A set of string tags for the port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#tags NetworkingPort#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#tags NetworkingPort#tags}
   */
   readonly tags?: string[];
   /**
   * Map of additional options.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#value_specs NetworkingPort#value_specs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#value_specs NetworkingPort#value_specs}
   */
   readonly valueSpecs?: { [key: string]: string };
   /**
   * allowed_address_pairs block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#allowed_address_pairs NetworkingPort#allowed_address_pairs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#allowed_address_pairs NetworkingPort#allowed_address_pairs}
   */
   readonly allowedAddressPairs?: NetworkingPortAllowedAddressPairs[] | cdktf.IResolvable;
   /**
   * extra_dhcp_option block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#extra_dhcp_option NetworkingPort#extra_dhcp_option}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#extra_dhcp_option NetworkingPort#extra_dhcp_option}
   */
   readonly extraDhcpOption?: NetworkingPortExtraDhcpOption[] | cdktf.IResolvable;
   /**
   * fixed_ip block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#fixed_ip NetworkingPort#fixed_ip}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#fixed_ip NetworkingPort#fixed_ip}
   */
   readonly fixedIp?: NetworkingPortFixedIp[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#timeouts NetworkingPort#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#timeouts NetworkingPort#timeouts}
   */
   readonly timeouts?: NetworkingPortTimeouts;
 }
@@ -145,13 +145,13 @@ export interface NetworkingPortAllowedAddressPairs {
   /**
   * The additional IP address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
   */
   readonly ipAddress: string;
   /**
   * The additional MAC address.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#mac_address NetworkingPort#mac_address}
   */
   readonly macAddress?: string;
 }
@@ -295,13 +295,13 @@ export interface NetworkingPortExtraDhcpOption {
   /**
   * Name of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#name NetworkingPort#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#name NetworkingPort#name}
   */
   readonly name: string;
   /**
   * Value of the DHCP option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#value NetworkingPort#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#value NetworkingPort#value}
   */
   readonly value: string;
 }
@@ -442,13 +442,13 @@ export interface NetworkingPortFixedIp {
   /**
   * IP address desired in the subnet for this port. If you don't specify `ip_address`, an available IP address from the specified subnet will be allocated to this port. This field will not be populated if it is left blank or omitted. To retrieve the assigned IP address, use the `all_fixed_ips` attribute.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#ip_address NetworkingPort#ip_address}
   */
   readonly ipAddress?: string;
   /**
   * Subnet in which to allocate IP address for this port.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#subnet_id NetworkingPort#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#subnet_id NetworkingPort#subnet_id}
   */
   readonly subnetId: string;
 }
@@ -590,11 +590,11 @@ export class NetworkingPortFixedIpList extends cdktf.ComplexList {
 }
 export interface NetworkingPortTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#create NetworkingPort#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#create NetworkingPort#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#delete NetworkingPort#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#delete NetworkingPort#delete}
   */
   readonly delete?: string;
 }
@@ -717,7 +717,7 @@ export class NetworkingPortTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port vkcs_networking_port}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port vkcs_networking_port}
 */
 export class NetworkingPort extends cdktf.TerraformResource {
 
@@ -733,7 +733,7 @@ export class NetworkingPort extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingPort resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingPort to import
-  * @param importFromId The id of the existing NetworkingPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingPort that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingPort to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -745,7 +745,7 @@ export class NetworkingPort extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_port vkcs_networking_port} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_port vkcs_networking_port} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -756,8 +756,8 @@ export class NetworkingPort extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_port',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

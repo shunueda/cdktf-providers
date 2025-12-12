@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface DcStaticRouteConfig extends cdktf.TerraformMetaArguments {
   /**
   * Direct Connect Router ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#dc_router_id DcStaticRoute#dc_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#dc_router_id DcStaticRoute#dc_router_id}
   */
   readonly dcRouterId: string;
   /**
   * Description of the static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#description DcStaticRoute#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#description DcStaticRoute#description}
   */
   readonly description?: string;
   /**
   * IP address of gateway. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#gateway DcStaticRoute#gateway}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#gateway DcStaticRoute#gateway}
   */
   readonly gateway: string;
   /**
   * Metric to use for route. Default is 1
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#metric DcStaticRoute#metric}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#metric DcStaticRoute#metric}
   */
   readonly metric?: number;
   /**
   * Name of the static route
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#name DcStaticRoute#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#name DcStaticRoute#name}
   */
   readonly name?: string;
   /**
   * Subnet in CIDR notation. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#network DcStaticRoute#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#network DcStaticRoute#network}
   */
   readonly network: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new static_route.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#region DcStaticRoute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#region DcStaticRoute#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route vkcs_dc_static_route}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route vkcs_dc_static_route}
 */
 export class DcStaticRoute extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class DcStaticRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcStaticRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcStaticRoute to import
-  * @param importFromId The id of the existing DcStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcStaticRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcStaticRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class DcStaticRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_static_route vkcs_dc_static_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_static_route vkcs_dc_static_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class DcStaticRoute extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_static_route',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

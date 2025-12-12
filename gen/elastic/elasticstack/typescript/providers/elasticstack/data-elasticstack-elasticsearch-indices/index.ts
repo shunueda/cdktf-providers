@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataElasticstackElasticsearchIndicesConfig extends cdktf.Terraf
   /**
   * Comma-separated list of data streams, indices, and aliases used to limit the request. Supports wildcards (*). To target all data streams and indices, omit this attribute or use * or _all. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#target DataElasticstackElasticsearchIndices#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#target DataElasticstackElasticsearchIndices#target}
   */
   readonly target?: string;
 }
@@ -18,43 +18,43 @@ export interface DataElasticstackElasticsearchIndicesIndicesAlias {
   /**
   * Query used to limit documents the alias can access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#filter DataElasticstackElasticsearchIndices#filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#filter DataElasticstackElasticsearchIndices#filter}
   */
   readonly filter?: string;
   /**
   * Value used to route indexing operations to a specific shard. If specified, this overwrites the `routing` value for indexing operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#index_routing DataElasticstackElasticsearchIndices#index_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#index_routing DataElasticstackElasticsearchIndices#index_routing}
   */
   readonly indexRouting?: string;
   /**
   * If true, the alias is hidden.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#is_hidden DataElasticstackElasticsearchIndices#is_hidden}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#is_hidden DataElasticstackElasticsearchIndices#is_hidden}
   */
   readonly isHidden?: boolean | cdktf.IResolvable;
   /**
   * If true, the index is the write index for the alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#is_write_index DataElasticstackElasticsearchIndices#is_write_index}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#is_write_index DataElasticstackElasticsearchIndices#is_write_index}
   */
   readonly isWriteIndex?: boolean | cdktf.IResolvable;
   /**
   * Index alias name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#name DataElasticstackElasticsearchIndices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#name DataElasticstackElasticsearchIndices#name}
   */
   readonly name: string;
   /**
   * Value used to route indexing and search operations to a specific shard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#routing DataElasticstackElasticsearchIndices#routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#routing DataElasticstackElasticsearchIndices#routing}
   */
   readonly routing?: string;
   /**
   * Value used to route search operations to a specific shard. If specified, this overwrites the routing value for search operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_routing DataElasticstackElasticsearchIndices#search_routing}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_routing DataElasticstackElasticsearchIndices#search_routing}
   */
   readonly searchRouting?: string;
 }
@@ -343,163 +343,163 @@ export interface DataElasticstackElasticsearchIndicesIndices {
   /**
   * Aliases for the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#alias DataElasticstackElasticsearchIndices#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#alias DataElasticstackElasticsearchIndices#alias}
   */
   readonly alias?: DataElasticstackElasticsearchIndicesIndicesAlias[] | cdktf.IResolvable;
   /**
   * A JSON string describing the analyzers applied to the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#analysis_analyzer DataElasticstackElasticsearchIndices#analysis_analyzer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#analysis_analyzer DataElasticstackElasticsearchIndices#analysis_analyzer}
   */
   readonly analysisAnalyzer?: string;
   /**
   * A JSON string describing the char_filters applied to the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#analysis_char_filter DataElasticstackElasticsearchIndices#analysis_char_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#analysis_char_filter DataElasticstackElasticsearchIndices#analysis_char_filter}
   */
   readonly analysisCharFilter?: string;
   /**
   * A JSON string describing the filters applied to the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#analysis_filter DataElasticstackElasticsearchIndices#analysis_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#analysis_filter DataElasticstackElasticsearchIndices#analysis_filter}
   */
   readonly analysisFilter?: string;
   /**
   * A JSON string describing the normalizers applied to the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#analysis_normalizer DataElasticstackElasticsearchIndices#analysis_normalizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#analysis_normalizer DataElasticstackElasticsearchIndices#analysis_normalizer}
   */
   readonly analysisNormalizer?: string;
   /**
   * A JSON string describing the tokenizers applied to the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#analysis_tokenizer DataElasticstackElasticsearchIndices#analysis_tokenizer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#analysis_tokenizer DataElasticstackElasticsearchIndices#analysis_tokenizer}
   */
   readonly analysisTokenizer?: string;
   /**
   * The maximum number of tokens that can be produced using _analyze API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#analyze_max_token_count DataElasticstackElasticsearchIndices#analyze_max_token_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#analyze_max_token_count DataElasticstackElasticsearchIndices#analyze_max_token_count}
   */
   readonly analyzeMaxTokenCount?: number;
   /**
   * Set the number of replicas to the node count in the cluster. Set to a dash delimited lower and upper bound (e.g. 0-5) or use all for the upper bound (e.g. 0-all)
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#auto_expand_replicas DataElasticstackElasticsearchIndices#auto_expand_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#auto_expand_replicas DataElasticstackElasticsearchIndices#auto_expand_replicas}
   */
   readonly autoExpandReplicas?: string;
   /**
   * Set to `true` to disable index metadata reads and writes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#blocks_metadata DataElasticstackElasticsearchIndices#blocks_metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#blocks_metadata DataElasticstackElasticsearchIndices#blocks_metadata}
   */
   readonly blocksMetadata?: boolean | cdktf.IResolvable;
   /**
   * Set to `true` to disable read operations against the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#blocks_read DataElasticstackElasticsearchIndices#blocks_read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#blocks_read DataElasticstackElasticsearchIndices#blocks_read}
   */
   readonly blocksRead?: boolean | cdktf.IResolvable;
   /**
   * Set to `true` to make the index and index metadata read only, `false` to allow writes and metadata changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#blocks_read_only DataElasticstackElasticsearchIndices#blocks_read_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#blocks_read_only DataElasticstackElasticsearchIndices#blocks_read_only}
   */
   readonly blocksReadOnly?: boolean | cdktf.IResolvable;
   /**
   * Identical to `index.blocks.read_only` but allows deleting the index to free up resources.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#blocks_read_only_allow_delete DataElasticstackElasticsearchIndices#blocks_read_only_allow_delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#blocks_read_only_allow_delete DataElasticstackElasticsearchIndices#blocks_read_only_allow_delete}
   */
   readonly blocksReadOnlyAllowDelete?: boolean | cdktf.IResolvable;
   /**
   * Set to `true` to disable data write operations against the index. This setting does not affect metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#blocks_write DataElasticstackElasticsearchIndices#blocks_write}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#blocks_write DataElasticstackElasticsearchIndices#blocks_write}
   */
   readonly blocksWrite?: boolean | cdktf.IResolvable;
   /**
   * The `default` value compresses stored data with LZ4 compression, but this can be set to `best_compression` which uses DEFLATE for a higher compression ratio. This can be set only on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#codec DataElasticstackElasticsearchIndices#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#codec DataElasticstackElasticsearchIndices#codec}
   */
   readonly codec?: string;
   /**
   * The default ingest node pipeline for this index. Index requests will fail if the default pipeline is set and the pipeline does not exist.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#default_pipeline DataElasticstackElasticsearchIndices#default_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#default_pipeline DataElasticstackElasticsearchIndices#default_pipeline}
   */
   readonly defaultPipeline?: string;
   /**
   * Whether to allow Terraform to destroy the index. Unless this field is set to false in Terraform state, a terraform destroy or terraform apply command that deletes the instance will fail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#deletion_protection DataElasticstackElasticsearchIndices#deletion_protection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#deletion_protection DataElasticstackElasticsearchIndices#deletion_protection}
   */
   readonly deletionProtection?: boolean | cdktf.IResolvable;
   /**
   * Final ingest pipeline for the index. Indexing requests will fail if the final pipeline is set and the pipeline does not exist. The final pipeline always runs after the request pipeline (if specified) and the default pipeline (if it exists). The special pipeline name _none indicates no ingest pipeline will run.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#final_pipeline DataElasticstackElasticsearchIndices#final_pipeline}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#final_pipeline DataElasticstackElasticsearchIndices#final_pipeline}
   */
   readonly finalPipeline?: string;
   /**
   * The length of time that a deleted document's version number remains available for further versioned operations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#gc_deletes DataElasticstackElasticsearchIndices#gc_deletes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#gc_deletes DataElasticstackElasticsearchIndices#gc_deletes}
   */
   readonly gcDeletes?: string;
   /**
   * The maximum number of characters that will be analyzed for a highlight request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#highlight_max_analyzed_offset DataElasticstackElasticsearchIndices#highlight_max_analyzed_offset}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#highlight_max_analyzed_offset DataElasticstackElasticsearchIndices#highlight_max_analyzed_offset}
   */
   readonly highlightMaxAnalyzedOffset?: number;
   /**
   * Set which logging level to use for the search slow log, can be: `warn`, `info`, `debug`, `trace`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#indexing_slowlog_level DataElasticstackElasticsearchIndices#indexing_slowlog_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#indexing_slowlog_level DataElasticstackElasticsearchIndices#indexing_slowlog_level}
   */
   readonly indexingSlowlogLevel?: string;
   /**
   * Set the number of characters of the `_source` to include in the slowlog lines, `false` or `0` will skip logging the source entirely and setting it to `true` will log the entire source regardless of size. The original `_source` is reformatted by default to make sure that it fits on a single log line.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#indexing_slowlog_source DataElasticstackElasticsearchIndices#indexing_slowlog_source}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#indexing_slowlog_source DataElasticstackElasticsearchIndices#indexing_slowlog_source}
   */
   readonly indexingSlowlogSource?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches for indexing queries, in time units, e.g. `2s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_debug DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_debug DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_debug}
   */
   readonly indexingSlowlogThresholdIndexDebug?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches for indexing queries, in time units, e.g. `5s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_info DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_info DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_info}
   */
   readonly indexingSlowlogThresholdIndexInfo?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches for indexing queries, in time units, e.g. `500ms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_trace DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_trace DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_trace}
   */
   readonly indexingSlowlogThresholdIndexTrace?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches for indexing queries, in time units, e.g. `10s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_warn DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#indexing_slowlog_threshold_index_warn DataElasticstackElasticsearchIndices#indexing_slowlog_threshold_index_warn}
   */
   readonly indexingSlowlogThresholdIndexWarn?: string;
   /**
   * Indicates whether cached filters are pre-loaded for nested queries. This can be set only on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#load_fixed_bitset_filters_eagerly DataElasticstackElasticsearchIndices#load_fixed_bitset_filters_eagerly}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#load_fixed_bitset_filters_eagerly DataElasticstackElasticsearchIndices#load_fixed_bitset_filters_eagerly}
   */
   readonly loadFixedBitsetFiltersEagerly?: boolean | cdktf.IResolvable;
   /**
   * Set index level coercion setting that is applied to all mapping types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#mapping_coerce DataElasticstackElasticsearchIndices#mapping_coerce}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#mapping_coerce DataElasticstackElasticsearchIndices#mapping_coerce}
   */
   readonly mappingCoerce?: boolean | cdktf.IResolvable;
   /**
@@ -510,223 +510,223 @@ export interface DataElasticstackElasticsearchIndicesIndices {
   * 							- Removing field will be ignored by default same as elasticsearch. You need to recreate the index to remove field completely.
   * 							
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#mappings DataElasticstackElasticsearchIndices#mappings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#mappings DataElasticstackElasticsearchIndices#mappings}
   */
   readonly mappings?: string;
   /**
   * Period to wait for a connection to the master node. If no response is received before the timeout expires, the request fails and returns an error. Defaults to `30s`. This value is ignored when running against Serverless projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#master_timeout DataElasticstackElasticsearchIndices#master_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#master_timeout DataElasticstackElasticsearchIndices#master_timeout}
   */
   readonly masterTimeout?: string;
   /**
   * The maximum number of `docvalue_fields` that are allowed in a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_docvalue_fields_search DataElasticstackElasticsearchIndices#max_docvalue_fields_search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_docvalue_fields_search DataElasticstackElasticsearchIndices#max_docvalue_fields_search}
   */
   readonly maxDocvalueFieldsSearch?: number;
   /**
   * The maximum value of `from + size` for inner hits definition and top hits aggregations to this index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_inner_result_window DataElasticstackElasticsearchIndices#max_inner_result_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_inner_result_window DataElasticstackElasticsearchIndices#max_inner_result_window}
   */
   readonly maxInnerResultWindow?: number;
   /**
   * The maximum allowed difference between min_gram and max_gram for NGramTokenizer and NGramTokenFilter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_ngram_diff DataElasticstackElasticsearchIndices#max_ngram_diff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_ngram_diff DataElasticstackElasticsearchIndices#max_ngram_diff}
   */
   readonly maxNgramDiff?: number;
   /**
   * Maximum number of refresh listeners available on each shard of the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_refresh_listeners DataElasticstackElasticsearchIndices#max_refresh_listeners}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_refresh_listeners DataElasticstackElasticsearchIndices#max_refresh_listeners}
   */
   readonly maxRefreshListeners?: number;
   /**
   * The maximum length of regex that can be used in Regexp Query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_regex_length DataElasticstackElasticsearchIndices#max_regex_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_regex_length DataElasticstackElasticsearchIndices#max_regex_length}
   */
   readonly maxRegexLength?: number;
   /**
   * The maximum value of `window_size` for `rescore` requests in searches of this index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_rescore_window DataElasticstackElasticsearchIndices#max_rescore_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_rescore_window DataElasticstackElasticsearchIndices#max_rescore_window}
   */
   readonly maxRescoreWindow?: number;
   /**
   * The maximum value of `from + size` for searches to this index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_result_window DataElasticstackElasticsearchIndices#max_result_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_result_window DataElasticstackElasticsearchIndices#max_result_window}
   */
   readonly maxResultWindow?: number;
   /**
   * The maximum number of `script_fields` that are allowed in a query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_script_fields DataElasticstackElasticsearchIndices#max_script_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_script_fields DataElasticstackElasticsearchIndices#max_script_fields}
   */
   readonly maxScriptFields?: number;
   /**
   * The maximum allowed difference between max_shingle_size and min_shingle_size for ShingleTokenFilter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_shingle_diff DataElasticstackElasticsearchIndices#max_shingle_diff}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_shingle_diff DataElasticstackElasticsearchIndices#max_shingle_diff}
   */
   readonly maxShingleDiff?: number;
   /**
   * The maximum number of terms that can be used in Terms Query.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#max_terms_count DataElasticstackElasticsearchIndices#max_terms_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#max_terms_count DataElasticstackElasticsearchIndices#max_terms_count}
   */
   readonly maxTermsCount?: number;
   /**
   * Name of the index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#name DataElasticstackElasticsearchIndices#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#name DataElasticstackElasticsearchIndices#name}
   */
   readonly name: string;
   /**
   * Number of shard replicas.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#number_of_replicas DataElasticstackElasticsearchIndices#number_of_replicas}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#number_of_replicas DataElasticstackElasticsearchIndices#number_of_replicas}
   */
   readonly numberOfReplicas?: number;
   /**
   * Value used with number_of_shards to route documents to a primary shard. This can be set only on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#number_of_routing_shards DataElasticstackElasticsearchIndices#number_of_routing_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#number_of_routing_shards DataElasticstackElasticsearchIndices#number_of_routing_shards}
   */
   readonly numberOfRoutingShards?: number;
   /**
   * Number of shards for the index. This can be set only on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#number_of_shards DataElasticstackElasticsearchIndices#number_of_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#number_of_shards DataElasticstackElasticsearchIndices#number_of_shards}
   */
   readonly numberOfShards?: number;
   /**
   * Wildcard (*) patterns matching one or more fields. Defaults to '*', which matches all fields eligible for term-level queries, excluding metadata fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#query_default_field DataElasticstackElasticsearchIndices#query_default_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#query_default_field DataElasticstackElasticsearchIndices#query_default_field}
   */
   readonly queryDefaultField?: string[];
   /**
   * How often to perform a refresh operation, which makes recent changes to the index visible to search. Can be set to `-1` to disable refresh.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#refresh_interval DataElasticstackElasticsearchIndices#refresh_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#refresh_interval DataElasticstackElasticsearchIndices#refresh_interval}
   */
   readonly refreshInterval?: string;
   /**
   * Controls shard allocation for this index. It can be set to: `all` , `primaries` , `new_primaries` , `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#routing_allocation_enable DataElasticstackElasticsearchIndices#routing_allocation_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#routing_allocation_enable DataElasticstackElasticsearchIndices#routing_allocation_enable}
   */
   readonly routingAllocationEnable?: string;
   /**
   * The number of shards a custom routing value can go to. This can be set only on creation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#routing_partition_size DataElasticstackElasticsearchIndices#routing_partition_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#routing_partition_size DataElasticstackElasticsearchIndices#routing_partition_size}
   */
   readonly routingPartitionSize?: number;
   /**
   * Enables shard rebalancing for this index. It can be set to: `all`, `primaries` , `replicas` , `none`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#routing_rebalance_enable DataElasticstackElasticsearchIndices#routing_rebalance_enable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#routing_rebalance_enable DataElasticstackElasticsearchIndices#routing_rebalance_enable}
   */
   readonly routingRebalanceEnable?: string;
   /**
   * How long a shard can not receive a search or get request until it’s considered search idle.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_idle_after DataElasticstackElasticsearchIndices#search_idle_after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_idle_after DataElasticstackElasticsearchIndices#search_idle_after}
   */
   readonly searchIdleAfter?: string;
   /**
   * Set which logging level to use for the search slow log, can be: `warn`, `info`, `debug`, `trace`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_level DataElasticstackElasticsearchIndices#search_slowlog_level}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_level DataElasticstackElasticsearchIndices#search_slowlog_level}
   */
   readonly searchSlowlogLevel?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the fetch phase, in time units, e.g. `2s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_debug DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_debug DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_debug}
   */
   readonly searchSlowlogThresholdFetchDebug?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the fetch phase, in time units, e.g. `5s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_info DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_info DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_info}
   */
   readonly searchSlowlogThresholdFetchInfo?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the fetch phase, in time units, e.g. `500ms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_trace DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_trace DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_trace}
   */
   readonly searchSlowlogThresholdFetchTrace?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the fetch phase, in time units, e.g. `10s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_warn DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_fetch_warn DataElasticstackElasticsearchIndices#search_slowlog_threshold_fetch_warn}
   */
   readonly searchSlowlogThresholdFetchWarn?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the query phase, in time units, e.g. `2s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_debug DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_debug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_debug DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_debug}
   */
   readonly searchSlowlogThresholdQueryDebug?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the query phase, in time units, e.g. `5s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_info DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_info}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_info DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_info}
   */
   readonly searchSlowlogThresholdQueryInfo?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the query phase, in time units, e.g. `500ms`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_trace DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_trace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_trace DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_trace}
   */
   readonly searchSlowlogThresholdQueryTrace?: string;
   /**
   * Set the cutoff for shard level slow search logging of slow searches in the query phase, in time units, e.g. `10s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_warn DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#search_slowlog_threshold_query_warn DataElasticstackElasticsearchIndices#search_slowlog_threshold_query_warn}
   */
   readonly searchSlowlogThresholdQueryWarn?: string;
   /**
   * Whether or not shards should be checked for corruption before opening. When corruption is detected, it will prevent the shard from being opened. Accepts `false`, `true`, `checksum`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#shard_check_on_startup DataElasticstackElasticsearchIndices#shard_check_on_startup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#shard_check_on_startup DataElasticstackElasticsearchIndices#shard_check_on_startup}
   */
   readonly shardCheckOnStartup?: string;
   /**
   * The field to sort shards in this index by.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#sort_field DataElasticstackElasticsearchIndices#sort_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#sort_field DataElasticstackElasticsearchIndices#sort_field}
   */
   readonly sortField?: string[];
   /**
   * The direction to sort shards in. Accepts `asc`, `desc`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#sort_order DataElasticstackElasticsearchIndices#sort_order}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#sort_order DataElasticstackElasticsearchIndices#sort_order}
   */
   readonly sortOrder?: string[];
   /**
   * Period to wait for a response. If no response is received before the timeout expires, the request fails and returns an error. Defaults to `30s`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#timeout DataElasticstackElasticsearchIndices#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#timeout DataElasticstackElasticsearchIndices#timeout}
   */
   readonly timeout?: string;
   /**
   * Time to delay the allocation of replica shards which become unassigned because a node has left, in time units, e.g. `10s`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#unassigned_node_left_delayed_timeout DataElasticstackElasticsearchIndices#unassigned_node_left_delayed_timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#unassigned_node_left_delayed_timeout DataElasticstackElasticsearchIndices#unassigned_node_left_delayed_timeout}
   */
   readonly unassignedNodeLeftDelayedTimeout?: string;
   /**
   * The number of shard copies that must be active before proceeding with the operation. Set to `all` or any positive integer up to the total number of shards in the index (number_of_replicas+1). Default: `1`, the primary shard. This value is ignored when running against Serverless projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#wait_for_active_shards DataElasticstackElasticsearchIndices#wait_for_active_shards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#wait_for_active_shards DataElasticstackElasticsearchIndices#wait_for_active_shards}
   */
   readonly waitForActiveShards?: string;
 }
@@ -2666,7 +2666,7 @@ export class DataElasticstackElasticsearchIndicesIndicesList extends cdktf.Compl
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices elasticstack_elasticsearch_indices}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices elasticstack_elasticsearch_indices}
 */
 export class DataElasticstackElasticsearchIndices extends cdktf.TerraformDataSource {
 
@@ -2682,7 +2682,7 @@ export class DataElasticstackElasticsearchIndices extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataElasticstackElasticsearchIndices resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataElasticstackElasticsearchIndices to import
-  * @param importFromId The id of the existing DataElasticstackElasticsearchIndices that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataElasticstackElasticsearchIndices that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataElasticstackElasticsearchIndices to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2694,7 +2694,7 @@ export class DataElasticstackElasticsearchIndices extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/data-sources/elasticsearch_indices elasticstack_elasticsearch_indices} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/data-sources/elasticsearch_indices elasticstack_elasticsearch_indices} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2705,8 +2705,8 @@ export class DataElasticstackElasticsearchIndices extends cdktf.TerraformDataSou
       terraformResourceType: 'elasticstack_elasticsearch_indices',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

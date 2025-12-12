@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface EdgeConfigTokenConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Edge Config store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token#edge_config_id EdgeConfigToken#edge_config_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token#edge_config_id EdgeConfigToken#edge_config_id}
   */
   readonly edgeConfigId: string;
   /**
   * The label of the Edge Config Token.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token#label EdgeConfigToken#label}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token#label EdgeConfigToken#label}
   */
   readonly label: string;
   /**
   * The ID of the team the Edge Config should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token#team_id EdgeConfigToken#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token#team_id EdgeConfigToken#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token vercel_edge_config_token}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token vercel_edge_config_token}
 */
 export class EdgeConfigToken extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class EdgeConfigToken extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a EdgeConfigToken resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the EdgeConfigToken to import
-  * @param importFromId The id of the existing EdgeConfigToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing EdgeConfigToken that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the EdgeConfigToken to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class EdgeConfigToken extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/edge_config_token vercel_edge_config_token} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/edge_config_token vercel_edge_config_token} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class EdgeConfigToken extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_edge_config_token',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project_deployment_retention
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/project_deployment_retention
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,19 +10,19 @@ export interface DataVercelProjectDeploymentRetentionConfig extends cdktf.Terraf
   /**
   * The ID of the Project for the retention policy
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project_deployment_retention#project_id DataVercelProjectDeploymentRetention#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/project_deployment_retention#project_id DataVercelProjectDeploymentRetention#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the Vercel team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project_deployment_retention#team_id DataVercelProjectDeploymentRetention#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/project_deployment_retention#team_id DataVercelProjectDeploymentRetention#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project_deployment_retention vercel_project_deployment_retention}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/project_deployment_retention vercel_project_deployment_retention}
 */
 export class DataVercelProjectDeploymentRetention extends cdktf.TerraformDataSource {
 
@@ -38,7 +38,7 @@ export class DataVercelProjectDeploymentRetention extends cdktf.TerraformDataSou
   * Generates CDKTF code for importing a DataVercelProjectDeploymentRetention resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelProjectDeploymentRetention to import
-  * @param importFromId The id of the existing DataVercelProjectDeploymentRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project_deployment_retention#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelProjectDeploymentRetention that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/project_deployment_retention#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelProjectDeploymentRetention to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -50,7 +50,7 @@ export class DataVercelProjectDeploymentRetention extends cdktf.TerraformDataSou
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/project_deployment_retention vercel_project_deployment_retention} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/project_deployment_retention vercel_project_deployment_retention} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -61,8 +61,8 @@ export class DataVercelProjectDeploymentRetention extends cdktf.TerraformDataSou
       terraformResourceType: 'vercel_project_deployment_retention',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

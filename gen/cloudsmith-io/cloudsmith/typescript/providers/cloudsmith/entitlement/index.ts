@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface EntitlementConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#id Entitlement#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#id Entitlement#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,73 +17,73 @@ export interface EntitlementConfig extends cdktf.TerraformMetaArguments {
   /**
   * If enabled, the token will allow downloads based on configured restrictions (if any).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#is_active Entitlement#is_active}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#is_active Entitlement#is_active}
   */
   readonly isActive?: boolean | cdktf.IResolvable;
   /**
   * The starting date/time the token is allowed to be used from.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#limit_date_range_from Entitlement#limit_date_range_from}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#limit_date_range_from Entitlement#limit_date_range_from}
   */
   readonly limitDateRangeFrom?: string;
   /**
   * The ending date/time the token is allowed to be used until.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#limit_date_range_to Entitlement#limit_date_range_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#limit_date_range_to Entitlement#limit_date_range_to}
   */
   readonly limitDateRangeTo?: string;
   /**
   * The maximum number of unique clients allowed for the token. Please note that since clients are calculated asynchronously (after the download happens), the limit may not be imposed immediately but at a later point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#limit_num_clients Entitlement#limit_num_clients}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#limit_num_clients Entitlement#limit_num_clients}
   */
   readonly limitNumClients?: number;
   /**
   * The maximum number of downloads allowed for the token. Please note that since downloads are calculated asynchronously (after the download happens), the limit may not be imposed immediately but at a later point.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#limit_num_downloads Entitlement#limit_num_downloads}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#limit_num_downloads Entitlement#limit_num_downloads}
   */
   readonly limitNumDownloads?: number;
   /**
   * The package-based search query to apply to restrict downloads to. This uses the same syntax as the standard search used for repositories, and also supports boolean logic operators such as OR/AND/NOT and parentheses for grouping. This will still allow access to non-package files, such as metadata.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#limit_package_query Entitlement#limit_package_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#limit_package_query Entitlement#limit_package_query}
   */
   readonly limitPackageQuery?: string;
   /**
   * The path-based search query to apply to restrict downloads to. This supports boolean logic operators such as OR/AND/NOT and parentheses for grouping. The path evaluated does not include the domain name, the namespace, the entitlement code used, the package format, etc. and it always starts with a forward slash.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#limit_path_query Entitlement#limit_path_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#limit_path_query Entitlement#limit_path_query}
   */
   readonly limitPathQuery?: string;
   /**
   * A descriptive name for the entitlement.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#name Entitlement#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#name Entitlement#name}
   */
   readonly name: string;
   /**
   * Namespace to which this entitlement belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#namespace Entitlement#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#namespace Entitlement#namespace}
   */
   readonly namespace: string;
   /**
   * Repository to which this entitlement belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#repository Entitlement#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#repository Entitlement#repository}
   */
   readonly repository: string;
   /**
   * The literal value of the token to be created.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#token Entitlement#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#token Entitlement#token}
   */
   readonly token?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement cloudsmith_entitlement}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement cloudsmith_entitlement}
 */
 export class Entitlement extends cdktf.TerraformResource {
 
@@ -99,7 +99,7 @@ export class Entitlement extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Entitlement resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Entitlement to import
-  * @param importFromId The id of the existing Entitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Entitlement that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Entitlement to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -111,7 +111,7 @@ export class Entitlement extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/entitlement cloudsmith_entitlement} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/entitlement cloudsmith_entitlement} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -122,8 +122,8 @@ export class Entitlement extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_entitlement',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVercelAccessGroupProjectConfig extends cdktf.TerraformMetaA
   /**
   * The Access Group ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project#access_group_id DataVercelAccessGroupProject#access_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project#access_group_id DataVercelAccessGroupProject#access_group_id}
   */
   readonly accessGroupId: string;
   /**
   * The Project ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project#project_id DataVercelAccessGroupProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project#project_id DataVercelAccessGroupProject#project_id}
   */
   readonly projectId: string;
   /**
   * The ID of the team the Access Group Project should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project#team_id DataVercelAccessGroupProject#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project#team_id DataVercelAccessGroupProject#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project vercel_access_group_project}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project vercel_access_group_project}
 */
 export class DataVercelAccessGroupProject extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataVercelAccessGroupProject extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelAccessGroupProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelAccessGroupProject to import
-  * @param importFromId The id of the existing DataVercelAccessGroupProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelAccessGroupProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelAccessGroupProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataVercelAccessGroupProject extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/access_group_project vercel_access_group_project} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/access_group_project vercel_access_group_project} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataVercelAccessGroupProject extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_access_group_project',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

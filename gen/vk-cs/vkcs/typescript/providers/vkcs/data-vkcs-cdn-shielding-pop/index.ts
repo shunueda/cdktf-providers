@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface DataVkcsCdnShieldingPopConfig extends cdktf.TerraformMetaArgume
   /**
   * City of origin shielding location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop#city DataVkcsCdnShieldingPop#city}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop#city DataVkcsCdnShieldingPop#city}
   */
   readonly city?: string;
   /**
   * Country of origin shielding location.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop#country DataVkcsCdnShieldingPop#country}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop#country DataVkcsCdnShieldingPop#country}
   */
   readonly country?: string;
   /**
   * Name of origin shielding location datacenter.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop#datacenter DataVkcsCdnShieldingPop#datacenter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop#datacenter DataVkcsCdnShieldingPop#datacenter}
   */
   readonly datacenter?: string;
   /**
   * The region in which to obtain the CDN client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop#region DataVkcsCdnShieldingPop#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop#region DataVkcsCdnShieldingPop#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop vkcs_cdn_shielding_pop}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop vkcs_cdn_shielding_pop}
 */
 export class DataVkcsCdnShieldingPop extends cdktf.TerraformDataSource {
 
@@ -50,7 +50,7 @@ export class DataVkcsCdnShieldingPop extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsCdnShieldingPop resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsCdnShieldingPop to import
-  * @param importFromId The id of the existing DataVkcsCdnShieldingPop that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsCdnShieldingPop that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsCdnShieldingPop to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class DataVkcsCdnShieldingPop extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/cdn_shielding_pop vkcs_cdn_shielding_pop} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/cdn_shielding_pop vkcs_cdn_shielding_pop} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class DataVkcsCdnShieldingPop extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_cdn_shielding_pop',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

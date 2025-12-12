@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs
+// https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -9,42 +9,38 @@ import * as cdktf from 'cdktf';
 export interface Icinga2ProviderConfig {
   /**
   * The password for authenticating to the Icinga2 server.
-  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs#api_password Icinga2Provider#api_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs#api_password Icinga2Provider#api_password}
   */
-  readonly apiPassword: string;
+  readonly apiPassword?: string;
   /**
   * The address of the Icinga2 server.
-  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs#api_url Icinga2Provider#api_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs#api_url Icinga2Provider#api_url}
   */
-  readonly apiUrl: string;
+  readonly apiUrl?: string;
   /**
   * The user to authenticate to the Icinga2 Server as.
-  * 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs#api_user Icinga2Provider#api_user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs#api_user Icinga2Provider#api_user}
   */
-  readonly apiUser: string;
+  readonly apiUser?: string;
   /**
-  * Disable TLS verify when connecting to Icinga2 Server
-  * 
+  * Disable TLS verify when connecting to Icinga2 Server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs#insecure_skip_tls_verify Icinga2Provider#insecure_skip_tls_verify}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs#insecure_skip_tls_verify Icinga2Provider#insecure_skip_tls_verify}
   */
   readonly insecureSkipTlsVerify?: boolean | cdktf.IResolvable;
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs#alias Icinga2Provider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs#alias Icinga2Provider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs icinga2}
+* Represents a {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs icinga2}
 */
 export class Icinga2Provider extends cdktf.TerraformProvider {
 
@@ -60,7 +56,7 @@ export class Icinga2Provider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a Icinga2Provider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Icinga2Provider to import
-  * @param importFromId The id of the existing Icinga2Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Icinga2Provider that should be imported. Refer to the {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Icinga2Provider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -72,19 +68,19 @@ export class Icinga2Provider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.5.0/docs icinga2} Resource
+  * Create a new {@link https://registry.terraform.io/providers/icinga/icinga2/0.6.0/docs icinga2} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
-  * @param options Icinga2ProviderConfig
+  * @param options Icinga2ProviderConfig = {}
   */
-  public constructor(scope: Construct, id: string, config: Icinga2ProviderConfig) {
+  public constructor(scope: Construct, id: string, config: Icinga2ProviderConfig = {}) {
     super(scope, id, {
       terraformResourceType: 'icinga2',
       terraformGeneratorMetadata: {
         providerName: 'icinga2',
-        providerVersion: '0.5.0',
-        providerVersionConstraint: '0.5.0'
+        providerVersion: '0.6.0',
+        providerVersionConstraint: '0.6.0'
       },
       terraformProviderSource: 'Icinga/icinga2'
     });
@@ -99,7 +95,7 @@ export class Icinga2Provider extends cdktf.TerraformProvider {
   // ATTRIBUTES
   // ==========
 
-  // api_password - computed: false, optional: false, required: true
+  // api_password - computed: false, optional: true, required: false
   private _apiPassword?: string; 
   public get apiPassword() {
     return this._apiPassword;
@@ -107,12 +103,15 @@ export class Icinga2Provider extends cdktf.TerraformProvider {
   public set apiPassword(value: string | undefined) {
     this._apiPassword = value;
   }
+  public resetApiPassword() {
+    this._apiPassword = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get apiPasswordInput() {
     return this._apiPassword;
   }
 
-  // api_url - computed: false, optional: false, required: true
+  // api_url - computed: false, optional: true, required: false
   private _apiUrl?: string; 
   public get apiUrl() {
     return this._apiUrl;
@@ -120,18 +119,24 @@ export class Icinga2Provider extends cdktf.TerraformProvider {
   public set apiUrl(value: string | undefined) {
     this._apiUrl = value;
   }
+  public resetApiUrl() {
+    this._apiUrl = undefined;
+  }
   // Temporarily expose input value. Use with caution.
   public get apiUrlInput() {
     return this._apiUrl;
   }
 
-  // api_user - computed: false, optional: false, required: true
+  // api_user - computed: false, optional: true, required: false
   private _apiUser?: string; 
   public get apiUser() {
     return this._apiUser;
   }
   public set apiUser(value: string | undefined) {
     this._apiUser = value;
+  }
+  public resetApiUser() {
+    this._apiUser = undefined;
   }
   // Temporarily expose input value. Use with caution.
   public get apiUserInput() {

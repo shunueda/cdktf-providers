@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface ImagesImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * The format of archived image file. Use this to unzip image file when downloading an archive. Currently only "tar" format is supported._new_since_v0.4.2_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#archiving_format ImagesImage#archiving_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#archiving_format ImagesImage#archiving_format}
   */
   readonly archivingFormat?: string;
   /**
   * The format of compressed image. Use this attribute to decompress image when downloading it from source. Must be one of "auto", "bzip2", "gzip", "xz". If set to "auto", response Content-Type header will be used to detect compression format._new_since_v0.4.2_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#compression_format ImagesImage#compression_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#compression_format ImagesImage#compression_format}
   */
   readonly compressionFormat?: string;
   /**
   * The container format. Must be one of "bare".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#container_format ImagesImage#container_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#container_format ImagesImage#container_format}
   */
   readonly containerFormat: string;
   /**
   * The disk format. Must be one of "raw", "iso".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#disk_format ImagesImage#disk_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#disk_format ImagesImage#disk_format}
   */
   readonly diskFormat: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#id ImagesImage#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#id ImagesImage#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,97 +41,97 @@ export interface ImagesImageConfig extends cdktf.TerraformMetaArguments {
   /**
   * This is the directory where the images will be downloaded. Images will be stored with a filename corresponding to the url's md5 hash. Defaults to "$HOME/.terraform/image_cache"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#image_cache_path ImagesImage#image_cache_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#image_cache_path ImagesImage#image_cache_path}
   */
   readonly imageCachePath?: string;
   /**
   * The password of basic auth to download `image_source_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#image_source_password ImagesImage#image_source_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#image_source_password ImagesImage#image_source_password}
   */
   readonly imageSourcePassword?: string;
   /**
   * This is the url of the raw image. The image will be downloaded in the `image_cache_path` before being uploaded to VKCS. Conflicts with `local_file_path`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#image_source_url ImagesImage#image_source_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#image_source_url ImagesImage#image_source_url}
   */
   readonly imageSourceUrl?: string;
   /**
   * The username of basic auth to download `image_source_url`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#image_source_username ImagesImage#image_source_username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#image_source_username ImagesImage#image_source_username}
   */
   readonly imageSourceUsername?: string;
   /**
   * This is the filepath of the raw image file that will be uploaded to VKCS. Conflicts with `image_source_url`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#local_file_path ImagesImage#local_file_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#local_file_path ImagesImage#local_file_path}
   */
   readonly localFilePath?: string;
   /**
   * Amount of disk space (in GB) required to boot VM. Defaults to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#min_disk_gb ImagesImage#min_disk_gb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#min_disk_gb ImagesImage#min_disk_gb}
   */
   readonly minDiskGb?: number;
   /**
   * Amount of ram (in MB) required to boot VM. Defauts to 0.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#min_ram_mb ImagesImage#min_ram_mb}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#min_ram_mb ImagesImage#min_ram_mb}
   */
   readonly minRamMb?: number;
   /**
   * The name of the image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#name ImagesImage#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#name ImagesImage#name}
   */
   readonly name: string;
   /**
   * A map of key/value pairs to set freeform information about an image. See the "Notes" section for further information about properties.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#properties ImagesImage#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#properties ImagesImage#properties}
   */
   readonly properties?: { [key: string]: string };
   /**
   * If true, image will not be deletable. Defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#protected ImagesImage#protected}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#protected ImagesImage#protected}
   */
   readonly protected?: boolean | cdktf.IResolvable;
   /**
   * The region in which to obtain the Image client. An Image client is needed to create an Image that can be used with a compute instance. If omitted, the `region` argument of the provider is used. Changing this creates a new Image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#region ImagesImage#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#region ImagesImage#region}
   */
   readonly region?: string;
   /**
   * The tags of the image. It must be a list of strings. At this time, it is not possible to delete all tags of an image.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#tags ImagesImage#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#tags ImagesImage#tags}
   */
   readonly tags?: string[];
   /**
   * If false, the checksum will not be verified once the image is finished uploading.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#verify_checksum ImagesImage#verify_checksum}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#verify_checksum ImagesImage#verify_checksum}
   */
   readonly verifyChecksum?: boolean | cdktf.IResolvable;
   /**
   * The visibility of the image. Must be one of "private", "community", or "shared". The ability to set the visibility depends upon the configuration of the VKCS cloud.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#visibility ImagesImage#visibility}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#visibility ImagesImage#visibility}
   */
   readonly visibility?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#timeouts ImagesImage#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#timeouts ImagesImage#timeouts}
   */
   readonly timeouts?: ImagesImageTimeouts;
 }
 export interface ImagesImageTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#create ImagesImage#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#create ImagesImage#create}
   */
   readonly create?: string;
 }
@@ -225,7 +225,7 @@ export class ImagesImageTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image vkcs_images_image}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image vkcs_images_image}
 */
 export class ImagesImage extends cdktf.TerraformResource {
 
@@ -241,7 +241,7 @@ export class ImagesImage extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ImagesImage resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ImagesImage to import
-  * @param importFromId The id of the existing ImagesImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ImagesImage that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ImagesImage to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -253,7 +253,7 @@ export class ImagesImage extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/images_image vkcs_images_image} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/images_image vkcs_images_image} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -264,8 +264,8 @@ export class ImagesImage extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_images_image',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

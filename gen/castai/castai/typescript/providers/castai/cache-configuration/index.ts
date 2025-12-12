@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration
+// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CacheConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the cache group this configuration belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#cache_group_id CacheConfiguration#cache_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#cache_group_id CacheConfiguration#cache_group_id}
   */
   readonly cacheGroupId: string;
   /**
   * Logical database name to cache.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#database_name CacheConfiguration#database_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#database_name CacheConfiguration#database_name}
   */
   readonly databaseName: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#id CacheConfiguration#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#id CacheConfiguration#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface CacheConfigurationConfig extends cdktf.TerraformMetaArguments {
   /**
   * Caching mode for this database. Valid values: Auto, DontCache, Manual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#mode CacheConfiguration#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#mode CacheConfiguration#mode}
   */
   readonly mode: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#timeouts CacheConfiguration#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#timeouts CacheConfiguration#timeouts}
   */
   readonly timeouts?: CacheConfigurationTimeouts;
 }
 export interface CacheConfigurationTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#create CacheConfiguration#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#create CacheConfiguration#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#delete CacheConfiguration#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#delete CacheConfiguration#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#read CacheConfiguration#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#read CacheConfiguration#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#update CacheConfiguration#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#update CacheConfiguration#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class CacheConfigurationTimeoutsOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration castai_cache_configuration}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration castai_cache_configuration}
 */
 export class CacheConfiguration extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class CacheConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CacheConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CacheConfiguration to import
-  * @param importFromId The id of the existing CacheConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CacheConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CacheConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class CacheConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_configuration castai_cache_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_configuration castai_cache_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class CacheConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'castai_cache_configuration',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

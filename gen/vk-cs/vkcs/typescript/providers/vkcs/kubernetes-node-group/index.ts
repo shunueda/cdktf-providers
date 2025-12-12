@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface KubernetesNodeGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * Determines whether the autoscaling is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#autoscaling_enabled KubernetesNodeGroup#autoscaling_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#autoscaling_enabled KubernetesNodeGroup#autoscaling_enabled}
   */
   readonly autoscalingEnabled?: boolean | cdktf.IResolvable;
   /**
   * The list of availability zones of the node group. By default, a node group is created at cluster's zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#availability_zones KubernetesNodeGroup#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#availability_zones KubernetesNodeGroup#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * The UUID of the existing cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#cluster_id KubernetesNodeGroup#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#cluster_id KubernetesNodeGroup#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The flavor UUID of this node group. _note_ Starting with v0.5.1, changing this attribute does not force the resource to be recreated, which requires an in-place update and may not be provided in custom deployments. In this case, contact support for clarification.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#flavor_id KubernetesNodeGroup#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#flavor_id KubernetesNodeGroup#flavor_id}
   */
   readonly flavorId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#id KubernetesNodeGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#id KubernetesNodeGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,71 +41,71 @@ export interface KubernetesNodeGroupConfig extends cdktf.TerraformMetaArguments 
   /**
   * The maximum number of nodes that can fail during an upgrade. The default value is 25 percent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#max_node_unavailable KubernetesNodeGroup#max_node_unavailable}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#max_node_unavailable KubernetesNodeGroup#max_node_unavailable}
   */
   readonly maxNodeUnavailable?: number;
   /**
   * The maximum allowed nodes for this node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#max_nodes KubernetesNodeGroup#max_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#max_nodes KubernetesNodeGroup#max_nodes}
   */
   readonly maxNodes?: number;
   /**
   * The minimum allowed nodes for this node group. Default to 0 if not set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#min_nodes KubernetesNodeGroup#min_nodes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#min_nodes KubernetesNodeGroup#min_nodes}
   */
   readonly minNodes?: number;
   /**
   * The name of node group to create. Changing this will force to create a new node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#name KubernetesNodeGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#name KubernetesNodeGroup#name}
   */
   readonly name: string;
   /**
   * The node count for this node group. Should be greater than 0. If `autoscaling_enabled` parameter is set, this attribute will be ignored during update.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#node_count KubernetesNodeGroup#node_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#node_count KubernetesNodeGroup#node_count}
   */
   readonly nodeCount: number;
   /**
   * The size in GB for volume to load nodes from. Changing this will force to create a new node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#volume_size KubernetesNodeGroup#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#volume_size KubernetesNodeGroup#volume_size}
   */
   readonly volumeSize?: number;
   /**
   * The volume type to load nodes from. Changing this will force to create a new node group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#volume_type KubernetesNodeGroup#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#volume_type KubernetesNodeGroup#volume_type}
   */
   readonly volumeType?: string;
   /**
   * labels block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#labels KubernetesNodeGroup#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#labels KubernetesNodeGroup#labels}
   */
   readonly labels?: KubernetesNodeGroupLabels[] | cdktf.IResolvable;
   /**
   * taints block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#taints KubernetesNodeGroup#taints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#taints KubernetesNodeGroup#taints}
   */
   readonly taints?: KubernetesNodeGroupTaints[] | cdktf.IResolvable;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#timeouts KubernetesNodeGroup#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#timeouts KubernetesNodeGroup#timeouts}
   */
   readonly timeouts?: KubernetesNodeGroupTimeouts;
 }
 export interface KubernetesNodeGroupLabels {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#key KubernetesNodeGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#key KubernetesNodeGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#value KubernetesNodeGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#value KubernetesNodeGroup#value}
   */
   readonly value?: string;
 }
@@ -247,15 +247,15 @@ export class KubernetesNodeGroupLabelsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupTaints {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#effect KubernetesNodeGroup#effect}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#effect KubernetesNodeGroup#effect}
   */
   readonly effect: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#key KubernetesNodeGroup#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#key KubernetesNodeGroup#key}
   */
   readonly key: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#value KubernetesNodeGroup#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#value KubernetesNodeGroup#value}
   */
   readonly value: string;
 }
@@ -420,15 +420,15 @@ export class KubernetesNodeGroupTaintsList extends cdktf.ComplexList {
 }
 export interface KubernetesNodeGroupTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#create KubernetesNodeGroup#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#create KubernetesNodeGroup#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#delete KubernetesNodeGroup#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#delete KubernetesNodeGroup#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#update KubernetesNodeGroup#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#update KubernetesNodeGroup#update}
   */
   readonly update?: string;
 }
@@ -580,7 +580,7 @@ export class KubernetesNodeGroupTimeoutsOutputReference extends cdktf.ComplexObj
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group vkcs_kubernetes_node_group}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group vkcs_kubernetes_node_group}
 */
 export class KubernetesNodeGroup extends cdktf.TerraformResource {
 
@@ -596,7 +596,7 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KubernetesNodeGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KubernetesNodeGroup to import
-  * @param importFromId The id of the existing KubernetesNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KubernetesNodeGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KubernetesNodeGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -608,7 +608,7 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/kubernetes_node_group vkcs_kubernetes_node_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/kubernetes_node_group vkcs_kubernetes_node_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -619,8 +619,8 @@ export class KubernetesNodeGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_kubernetes_node_group',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

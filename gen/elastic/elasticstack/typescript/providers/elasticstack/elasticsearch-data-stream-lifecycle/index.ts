@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface ElasticsearchDataStreamLifecycleConfig extends cdktf.TerraformM
   /**
   * Every document added to this data stream will be stored at least for this time frame. When empty, every document in this data stream will be stored indefinitely
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#data_retention ElasticsearchDataStreamLifecycle#data_retention}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#data_retention ElasticsearchDataStreamLifecycle#data_retention}
   */
   readonly dataRetention?: string;
   /**
   * Downsampling configuration objects, each defining an after interval representing when the backing index is meant to be downsampled and a fixed_interval representing the downsampling interval.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#downsampling ElasticsearchDataStreamLifecycle#downsampling}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#downsampling ElasticsearchDataStreamLifecycle#downsampling}
   */
   readonly downsampling?: ElasticsearchDataStreamLifecycleDownsampling[] | cdktf.IResolvable;
   /**
   * Data stream lifecycle on/off.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#enabled ElasticsearchDataStreamLifecycle#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#enabled ElasticsearchDataStreamLifecycle#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Determines how wildcard patterns in the `indices` parameter match data streams and indices. Supports comma-separated values, such as `closed,hidden`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#expand_wildcards ElasticsearchDataStreamLifecycle#expand_wildcards}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#expand_wildcards ElasticsearchDataStreamLifecycle#expand_wildcards}
   */
   readonly expandWildcards?: string;
   /**
   * Name of the data stream. Supports wildcards.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#name ElasticsearchDataStreamLifecycle#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#name ElasticsearchDataStreamLifecycle#name}
   */
   readonly name: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#elasticsearch_connection ElasticsearchDataStreamLifecycle#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#elasticsearch_connection ElasticsearchDataStreamLifecycle#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchDataStreamLifecycleElasticsearchConnection[] | cdktf.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface ElasticsearchDataStreamLifecycleDownsampling {
   /**
   * Interval representing when the backing index is meant to be downsampled
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#after ElasticsearchDataStreamLifecycle#after}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#after ElasticsearchDataStreamLifecycle#after}
   */
   readonly after: string;
   /**
   * The interval at which to aggregate the original time series index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#fixed_interval ElasticsearchDataStreamLifecycle#fixed_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#fixed_interval ElasticsearchDataStreamLifecycle#fixed_interval}
   */
   readonly fixedInterval: string;
 }
@@ -195,85 +195,85 @@ export interface ElasticsearchDataStreamLifecycleElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#api_key ElasticsearchDataStreamLifecycle#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#api_key ElasticsearchDataStreamLifecycle#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#bearer_token ElasticsearchDataStreamLifecycle#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#bearer_token ElasticsearchDataStreamLifecycle#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#ca_data ElasticsearchDataStreamLifecycle#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#ca_data ElasticsearchDataStreamLifecycle#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#ca_file ElasticsearchDataStreamLifecycle#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#ca_file ElasticsearchDataStreamLifecycle#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#cert_data ElasticsearchDataStreamLifecycle#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#cert_data ElasticsearchDataStreamLifecycle#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#cert_file ElasticsearchDataStreamLifecycle#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#cert_file ElasticsearchDataStreamLifecycle#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#endpoints ElasticsearchDataStreamLifecycle#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#endpoints ElasticsearchDataStreamLifecycle#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#es_client_authentication ElasticsearchDataStreamLifecycle#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#es_client_authentication ElasticsearchDataStreamLifecycle#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#headers ElasticsearchDataStreamLifecycle#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#headers ElasticsearchDataStreamLifecycle#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#insecure ElasticsearchDataStreamLifecycle#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#insecure ElasticsearchDataStreamLifecycle#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#key_data ElasticsearchDataStreamLifecycle#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#key_data ElasticsearchDataStreamLifecycle#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#key_file ElasticsearchDataStreamLifecycle#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#key_file ElasticsearchDataStreamLifecycle#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#password ElasticsearchDataStreamLifecycle#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#password ElasticsearchDataStreamLifecycle#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#username ElasticsearchDataStreamLifecycle#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#username ElasticsearchDataStreamLifecycle#username}
   */
   readonly username?: string;
 }
@@ -766,7 +766,7 @@ export class ElasticsearchDataStreamLifecycleElasticsearchConnectionList extends
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle elasticstack_elasticsearch_data_stream_lifecycle}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle elasticstack_elasticsearch_data_stream_lifecycle}
 */
 export class ElasticsearchDataStreamLifecycle extends cdktf.TerraformResource {
 
@@ -782,7 +782,7 @@ export class ElasticsearchDataStreamLifecycle extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchDataStreamLifecycle resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchDataStreamLifecycle to import
-  * @param importFromId The id of the existing ElasticsearchDataStreamLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchDataStreamLifecycle that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchDataStreamLifecycle to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -794,7 +794,7 @@ export class ElasticsearchDataStreamLifecycle extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_data_stream_lifecycle elasticstack_elasticsearch_data_stream_lifecycle} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_data_stream_lifecycle elasticstack_elasticsearch_data_stream_lifecycle} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -805,8 +805,8 @@ export class ElasticsearchDataStreamLifecycle extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_data_stream_lifecycle',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard
+// https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DashboardConfig extends cdktf.TerraformMetaArguments {
   /**
   * A detailed text describes the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard#description Dashboard#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard#description Dashboard#description}
   */
   readonly description?: string;
   /**
   * The human-friendly name for the dashboard
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard#name Dashboard#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard#name Dashboard#name}
   */
   readonly name: string;
   /**
   * A list of panels defined in a JSON array. The best way to generate such array is to copy it directly from the Timeplus console UI.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard#panels Dashboard#panels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard#panels Dashboard#panels}
   */
   readonly panels: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard timeplus_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard timeplus_dashboard}
 */
 export class Dashboard extends cdktf.TerraformResource {
 
@@ -44,7 +44,7 @@ export class Dashboard extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Dashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Dashboard to import
-  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Dashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Dashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class Dashboard extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/dashboard timeplus_dashboard} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/dashboard timeplus_dashboard} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class Dashboard extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

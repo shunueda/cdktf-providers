@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,7 +10,7 @@ export interface DataVkcsDbDatastoreConfig extends cdktf.TerraformMetaArguments 
   /**
   * The id of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore#id DataVkcsDbDatastore#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore#id DataVkcsDbDatastore#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -19,13 +19,13 @@ export interface DataVkcsDbDatastoreConfig extends cdktf.TerraformMetaArguments 
   /**
   * The name of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore#name DataVkcsDbDatastore#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore#name DataVkcsDbDatastore#name}
   */
   readonly name?: string;
   /**
   * The region to obtain the service client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore#region DataVkcsDbDatastore#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore#region DataVkcsDbDatastore#region}
   */
   readonly region?: string;
 }
@@ -111,7 +111,7 @@ export class DataVkcsDbDatastoreVersionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore vkcs_db_datastore}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore vkcs_db_datastore}
 */
 export class DataVkcsDbDatastore extends cdktf.TerraformDataSource {
 
@@ -127,7 +127,7 @@ export class DataVkcsDbDatastore extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsDbDatastore resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsDbDatastore to import
-  * @param importFromId The id of the existing DataVkcsDbDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsDbDatastore that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsDbDatastore to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -139,7 +139,7 @@ export class DataVkcsDbDatastore extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/db_datastore vkcs_db_datastore} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/db_datastore vkcs_db_datastore} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -150,8 +150,8 @@ export class DataVkcsDbDatastore extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_db_datastore',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

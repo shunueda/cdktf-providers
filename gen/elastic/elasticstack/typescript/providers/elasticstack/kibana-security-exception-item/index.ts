@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,79 +10,79 @@ export interface KibanaSecurityExceptionItemConfig extends cdktf.TerraformMetaAr
   /**
   * Array of comments about the exception item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#comments KibanaSecurityExceptionItem#comments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#comments KibanaSecurityExceptionItem#comments}
   */
   readonly comments?: KibanaSecurityExceptionItemComments[] | cdktf.IResolvable;
   /**
   * Describes the exception item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#description KibanaSecurityExceptionItem#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#description KibanaSecurityExceptionItem#description}
   */
   readonly description: string;
   /**
   * The exception item entries. This defines the conditions under which the exception applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#entries KibanaSecurityExceptionItem#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#entries KibanaSecurityExceptionItem#entries}
   */
   readonly entries: KibanaSecurityExceptionItemEntries[] | cdktf.IResolvable;
   /**
   * The exception item's expiration date in RFC3339 format. This field is only available for regular exception items, not endpoint exceptions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#expire_time KibanaSecurityExceptionItem#expire_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#expire_time KibanaSecurityExceptionItem#expire_time}
   */
   readonly expireTime?: string;
   /**
   * The exception item's human readable string identifier.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#item_id KibanaSecurityExceptionItem#item_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#item_id KibanaSecurityExceptionItem#item_id}
   */
   readonly itemId?: string;
   /**
   * The exception list's identifier that this item belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#list_id KibanaSecurityExceptionItem#list_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#list_id KibanaSecurityExceptionItem#list_id}
   */
   readonly listId: string;
   /**
   * Placeholder for metadata about the exception item as JSON string.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#meta KibanaSecurityExceptionItem#meta}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#meta KibanaSecurityExceptionItem#meta}
   */
   readonly meta?: string;
   /**
   * The name of the exception item.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#name KibanaSecurityExceptionItem#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#name KibanaSecurityExceptionItem#name}
   */
   readonly name: string;
   /**
   * Determines whether the exception item is available in all Kibana spaces or just the space in which it is created. Can be `single` (default) or `agnostic`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#namespace_type KibanaSecurityExceptionItem#namespace_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#namespace_type KibanaSecurityExceptionItem#namespace_type}
   */
   readonly namespaceType?: string;
   /**
   * Array of OS types for which the exceptions apply. Valid values: `linux`, `macos`, `windows`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#os_types KibanaSecurityExceptionItem#os_types}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#os_types KibanaSecurityExceptionItem#os_types}
   */
   readonly osTypes?: string[];
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#space_id KibanaSecurityExceptionItem#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#space_id KibanaSecurityExceptionItem#space_id}
   */
   readonly spaceId?: string;
   /**
   * String array containing words and phrases to help categorize exception items.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#tags KibanaSecurityExceptionItem#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#tags KibanaSecurityExceptionItem#tags}
   */
   readonly tags?: string[];
   /**
   * The type of exception item. Must be `simple`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
   */
   readonly type: string;
 }
@@ -90,7 +90,7 @@ export interface KibanaSecurityExceptionItemComments {
   /**
   * The comment text.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#comment KibanaSecurityExceptionItem#comment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#comment KibanaSecurityExceptionItem#comment}
   */
   readonly comment: string;
 }
@@ -210,31 +210,31 @@ export interface KibanaSecurityExceptionItemEntriesEntries {
   /**
   * The field name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#field KibanaSecurityExceptionItem#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#field KibanaSecurityExceptionItem#field}
   */
   readonly field: string;
   /**
   * The operator to use. Valid values: `included`, `excluded`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#operator KibanaSecurityExceptionItem#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#operator KibanaSecurityExceptionItem#operator}
   */
   readonly operator: string;
   /**
   * The type of nested entry. Valid values: `match`, `match_any`, `exists`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
   */
   readonly type: string;
   /**
   * The value to match (for `match` type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#value KibanaSecurityExceptionItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#value KibanaSecurityExceptionItem#value}
   */
   readonly value?: string;
   /**
   * Array of values to match (for `match_any` type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#values KibanaSecurityExceptionItem#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#values KibanaSecurityExceptionItem#values}
   */
   readonly values?: string[];
 }
@@ -459,7 +459,7 @@ export interface KibanaSecurityExceptionItemEntriesListStruct {
   /**
   * The value list ID.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#id KibanaSecurityExceptionItem#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#id KibanaSecurityExceptionItem#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -468,7 +468,7 @@ export interface KibanaSecurityExceptionItemEntriesListStruct {
   /**
   * The value list type (e.g., `keyword`, `ip`, `ip_range`).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
   */
   readonly type: string;
 }
@@ -587,43 +587,43 @@ export interface KibanaSecurityExceptionItemEntries {
   /**
   * Nested entries (for `nested` type). Only `match`, `match_any`, and `exists` entry types are allowed as nested entries.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#entries KibanaSecurityExceptionItem#entries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#entries KibanaSecurityExceptionItem#entries}
   */
   readonly entries?: KibanaSecurityExceptionItemEntriesEntries[] | cdktf.IResolvable;
   /**
   * The field name. Required for all entry types.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#field KibanaSecurityExceptionItem#field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#field KibanaSecurityExceptionItem#field}
   */
   readonly field: string;
   /**
   * Value list reference (for `list` type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#list KibanaSecurityExceptionItem#list}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#list KibanaSecurityExceptionItem#list}
   */
   readonly list?: KibanaSecurityExceptionItemEntriesListStruct;
   /**
   * The operator to use. Valid values: `included`, `excluded`. Note: The operator field is not supported for nested entry types and will be ignored if specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#operator KibanaSecurityExceptionItem#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#operator KibanaSecurityExceptionItem#operator}
   */
   readonly operator?: string;
   /**
   * The type of entry. Valid values: `match`, `match_any`, `list`, `exists`, `nested`, `wildcard`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#type KibanaSecurityExceptionItem#type}
   */
   readonly type: string;
   /**
   * The value to match (for `match` and `wildcard` types).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#value KibanaSecurityExceptionItem#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#value KibanaSecurityExceptionItem#value}
   */
   readonly value?: string;
   /**
   * Array of values to match (for `match_any` type).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#values KibanaSecurityExceptionItem#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#values KibanaSecurityExceptionItem#values}
   */
   readonly values?: string[];
 }
@@ -907,7 +907,7 @@ export class KibanaSecurityExceptionItemEntriesList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item elasticstack_kibana_security_exception_item}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item elasticstack_kibana_security_exception_item}
 */
 export class KibanaSecurityExceptionItem extends cdktf.TerraformResource {
 
@@ -923,7 +923,7 @@ export class KibanaSecurityExceptionItem extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSecurityExceptionItem resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSecurityExceptionItem to import
-  * @param importFromId The id of the existing KibanaSecurityExceptionItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSecurityExceptionItem that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSecurityExceptionItem to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -935,7 +935,7 @@ export class KibanaSecurityExceptionItem extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_security_exception_item elasticstack_kibana_security_exception_item} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_security_exception_item elasticstack_kibana_security_exception_item} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -946,8 +946,8 @@ export class KibanaSecurityExceptionItem extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_security_exception_item',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

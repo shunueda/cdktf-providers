@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider
+// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,91 +8,91 @@ import * as cdktf from 'cdktf';
 
 export interface SearchDatasetProviderConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_aws_provider SearchDatasetProvider#api_aws_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_aws_provider SearchDatasetProvider#api_aws_provider}
   */
   readonly apiAwsProvider?: SearchDatasetProviderApiAwsProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_azure_data_explorer_provider SearchDatasetProvider#api_azure_data_explorer_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_azure_data_explorer_provider SearchDatasetProvider#api_azure_data_explorer_provider}
   */
   readonly apiAzureDataExplorerProvider?: SearchDatasetProviderApiAzureDataExplorerProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_azure_provider SearchDatasetProvider#api_azure_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_azure_provider SearchDatasetProvider#api_azure_provider}
   */
   readonly apiAzureProvider?: SearchDatasetProviderApiAzureProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_elastic_search_provider SearchDatasetProvider#api_elastic_search_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_elastic_search_provider SearchDatasetProvider#api_elastic_search_provider}
   */
   readonly apiElasticSearchProvider?: SearchDatasetProviderApiElasticSearchProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_gcp_provider SearchDatasetProvider#api_gcp_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_gcp_provider SearchDatasetProvider#api_gcp_provider}
   */
   readonly apiGcpProvider?: SearchDatasetProviderApiGcpProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_google_workspace_provider SearchDatasetProvider#api_google_workspace_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_google_workspace_provider SearchDatasetProvider#api_google_workspace_provider}
   */
   readonly apiGoogleWorkspaceProvider?: SearchDatasetProviderApiGoogleWorkspaceProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_ms_graph_provider SearchDatasetProvider#api_ms_graph_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_ms_graph_provider SearchDatasetProvider#api_ms_graph_provider}
   */
   readonly apiMsGraphProvider?: SearchDatasetProviderApiMsGraphProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_okta_provider SearchDatasetProvider#api_okta_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_okta_provider SearchDatasetProvider#api_okta_provider}
   */
   readonly apiOktaProvider?: SearchDatasetProviderApiOktaProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_open_search_provider SearchDatasetProvider#api_open_search_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_open_search_provider SearchDatasetProvider#api_open_search_provider}
   */
   readonly apiOpenSearchProvider?: SearchDatasetProviderApiOpenSearchProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_tailscale_provider SearchDatasetProvider#api_tailscale_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_tailscale_provider SearchDatasetProvider#api_tailscale_provider}
   */
   readonly apiTailscaleProvider?: SearchDatasetProviderApiTailscaleProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_zoom_provider SearchDatasetProvider#api_zoom_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_zoom_provider SearchDatasetProvider#api_zoom_provider}
   */
   readonly apiZoomProvider?: SearchDatasetProviderApiZoomProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#apihttp_provider SearchDatasetProvider#apihttp_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#apihttp_provider SearchDatasetProvider#apihttp_provider}
   */
   readonly apihttpProvider?: SearchDatasetProviderApihttpProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#aws_security_lake_provider SearchDatasetProvider#aws_security_lake_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#aws_security_lake_provider SearchDatasetProvider#aws_security_lake_provider}
   */
   readonly awsSecurityLakeProvider?: SearchDatasetProviderAwsSecurityLakeProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#azure_blob_provider SearchDatasetProvider#azure_blob_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#azure_blob_provider SearchDatasetProvider#azure_blob_provider}
   */
   readonly azureBlobProvider?: SearchDatasetProviderAzureBlobProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#click_house_provider SearchDatasetProvider#click_house_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#click_house_provider SearchDatasetProvider#click_house_provider}
   */
   readonly clickHouseProvider?: SearchDatasetProviderClickHouseProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#cribl_leader_provider SearchDatasetProvider#cribl_leader_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#cribl_leader_provider SearchDatasetProvider#cribl_leader_provider}
   */
   readonly criblLeaderProvider?: SearchDatasetProviderCriblLeaderProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#edge_provider SearchDatasetProvider#edge_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#edge_provider SearchDatasetProvider#edge_provider}
   */
   readonly edgeProvider?: SearchDatasetProviderEdgeProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#gcs_provider SearchDatasetProvider#gcs_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#gcs_provider SearchDatasetProvider#gcs_provider}
   */
   readonly gcsProvider?: SearchDatasetProviderGcsProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#meta_provider SearchDatasetProvider#meta_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#meta_provider SearchDatasetProvider#meta_provider}
   */
   readonly metaProvider?: SearchDatasetProviderMetaProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#prometheus_provider SearchDatasetProvider#prometheus_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#prometheus_provider SearchDatasetProvider#prometheus_provider}
   */
   readonly prometheusProvider?: SearchDatasetProviderPrometheusProvider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#s3_provider SearchDatasetProvider#s3_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#s3_provider SearchDatasetProvider#s3_provider}
   */
   readonly s3Provider?: SearchDatasetProviderS3Provider;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#snowflake_provider SearchDatasetProvider#snowflake_provider}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#snowflake_provider SearchDatasetProvider#snowflake_provider}
   */
   readonly snowflakeProvider?: SearchDatasetProviderSnowflakeProvider;
 }
@@ -100,31 +100,31 @@ export interface SearchDatasetProviderApiAwsProviderAccountConfigs {
   /**
   * ARN of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID for role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
   * AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * Account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -358,19 +358,19 @@ export interface SearchDatasetProviderApiAwsProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiAwsProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -379,7 +379,7 @@ export interface SearchDatasetProviderApiAwsProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -562,25 +562,25 @@ export interface SearchDatasetProviderApiAzureDataExplorerProvider {
   /**
   * The Client ID (also known as Secret ID) of the authorized application. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The Client Secret of the authorized application. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -589,13 +589,13 @@ export interface SearchDatasetProviderApiAzureDataExplorerProvider {
   /**
   * The Tenant ID of the authorized application. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -836,25 +836,25 @@ export interface SearchDatasetProviderApiAzureProviderAccountConfigs {
   /**
   * The clientId of the service principal. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * The client secret of the service principal. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * The ID of your Azure tenant. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -1059,19 +1059,19 @@ export interface SearchDatasetProviderApiAzureProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiAzureProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1080,7 +1080,7 @@ export interface SearchDatasetProviderApiAzureProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -1263,19 +1263,19 @@ export interface SearchDatasetProviderApiElasticSearchProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Elasticsearch API endpoint URL. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1284,19 +1284,19 @@ export interface SearchDatasetProviderApiElasticSearchProvider {
   /**
   * Elasticsearch password for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * Elasticsearch username for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -1537,13 +1537,13 @@ export interface SearchDatasetProviderApiGcpProviderAccountConfigs {
   /**
   * Account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * JSON blob downloaded from the Google Cloud Console, containing creds for a service account. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
 }
@@ -1690,19 +1690,19 @@ export interface SearchDatasetProviderApiGcpProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiGcpProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -1711,7 +1711,7 @@ export interface SearchDatasetProviderApiGcpProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -1894,19 +1894,19 @@ export interface SearchDatasetProviderApiGoogleWorkspaceProviderAccountConfigs {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * Contents of Google Cloud service account credentials (JSON keys) file. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * Email matching Google service account of the authorized principal whose role this integration is assuming. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#subject SearchDatasetProvider#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#subject SearchDatasetProvider#subject}
   */
   readonly subject?: string;
 }
@@ -2082,19 +2082,19 @@ export interface SearchDatasetProviderApiGoogleWorkspaceProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiGoogleWorkspaceProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2103,7 +2103,7 @@ export interface SearchDatasetProviderApiGoogleWorkspaceProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -2286,25 +2286,25 @@ export interface SearchDatasetProviderApiMsGraphProviderAccountConfigs {
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Azure account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
 }
@@ -2509,19 +2509,19 @@ export interface SearchDatasetProviderApiMsGraphProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiMsGraphProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2530,7 +2530,7 @@ export interface SearchDatasetProviderApiMsGraphProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -2713,19 +2713,19 @@ export interface SearchDatasetProviderApiOktaProviderAccountConfigs {
   /**
   * API token for authorizing requests. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#api_token SearchDatasetProvider#api_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#api_token SearchDatasetProvider#api_token}
   */
   readonly apiToken?: string;
   /**
   * URL for the subdomain of your organization. Example: subdomain.okta.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#domain_endpoint SearchDatasetProvider#domain_endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#domain_endpoint SearchDatasetProvider#domain_endpoint}
   */
   readonly domainEndpoint?: string;
   /**
   * Okta account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -2901,19 +2901,19 @@ export interface SearchDatasetProviderApiOktaProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiOktaProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -2922,7 +2922,7 @@ export interface SearchDatasetProviderApiOktaProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -3105,19 +3105,19 @@ export interface SearchDatasetProviderApiOpenSearchProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * OpenSearch API endpoint URL. Example: https://opensearch.mycompany.com. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3126,19 +3126,19 @@ export interface SearchDatasetProviderApiOpenSearchProvider {
   /**
   * OpenSearch password for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * OpenSearch username for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -3379,19 +3379,19 @@ export interface SearchDatasetProviderApiTailscaleProviderAccountConfigs {
   /**
   * Client ID string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Tailscale account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -3567,19 +3567,19 @@ export interface SearchDatasetProviderApiTailscaleProvider {
   /**
   * A list of account configuration. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiTailscaleProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -3588,7 +3588,7 @@ export interface SearchDatasetProviderApiTailscaleProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -3771,25 +3771,25 @@ export interface SearchDatasetProviderApiZoomProviderAccountConfigs {
   /**
   * Zoom account ID. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_id SearchDatasetProvider#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_id SearchDatasetProvider#account_id}
   */
   readonly accountId?: string;
   /**
   * Client ID string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Client secret string. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Zoom account name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
 }
@@ -3994,19 +3994,19 @@ export interface SearchDatasetProviderApiZoomProvider {
   /**
   * A list of account configurations. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_configs SearchDatasetProvider#account_configs}
   */
   readonly accountConfigs?: SearchDatasetProviderApiZoomProviderAccountConfigs[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4015,7 +4015,7 @@ export interface SearchDatasetProviderApiZoomProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -4198,13 +4198,13 @@ export interface SearchDatasetProviderApihttpProviderAvailableEndpointsHeaders {
   /**
   * Header name. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * Header value. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#value SearchDatasetProvider#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#value SearchDatasetProvider#value}
   */
   readonly value?: string;
 }
@@ -4351,31 +4351,31 @@ export interface SearchDatasetProviderApihttpProviderAvailableEndpoints {
   /**
   * Within the response JSON, name of the field or array element to pull results from
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#data_field SearchDatasetProvider#data_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#data_field SearchDatasetProvider#data_field}
   */
   readonly dataField?: string;
   /**
   * Optional headers for the endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#headers SearchDatasetProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#headers SearchDatasetProvider#headers}
   */
   readonly headers?: SearchDatasetProviderApihttpProviderAvailableEndpointsHeaders[] | cdktf.IResolvable;
   /**
   * Method for the endpoint. Default: "GET"; must be one of ["GET", "POST"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#method SearchDatasetProvider#method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#method SearchDatasetProvider#method}
   */
   readonly method?: string;
   /**
   * Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#name SearchDatasetProvider#name}
   */
   readonly name?: string;
   /**
   * The URL for this endpoint. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#url SearchDatasetProvider#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#url SearchDatasetProvider#url}
   */
   readonly url?: string;
 }
@@ -4609,25 +4609,25 @@ export interface SearchDatasetProviderApihttpProvider {
   /**
   * The authentication method for API calls. Default: "none"; must be one of ["none", "basic", "login", "oauth"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * A list of the available endpoints for this provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#available_endpoints SearchDatasetProvider#available_endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#available_endpoints SearchDatasetProvider#available_endpoints}
   */
   readonly availableEndpoints?: SearchDatasetProviderApihttpProviderAvailableEndpoints[] | cdktf.IResolvable;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4636,7 +4636,7 @@ export interface SearchDatasetProviderApihttpProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -4848,13 +4848,13 @@ export interface SearchDatasetProviderAwsSecurityLakeProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -4863,7 +4863,7 @@ export interface SearchDatasetProviderAwsSecurityLakeProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -5017,13 +5017,13 @@ export interface SearchDatasetProviderAzureBlobProviderSasConfigs {
   /**
   * Container-specific Blob SAS URL. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#blob_sas_url SearchDatasetProvider#blob_sas_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#blob_sas_url SearchDatasetProvider#blob_sas_url}
   */
   readonly blobSasUrl?: string;
   /**
   * Name of the Azure Blob Storage container. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#container_name SearchDatasetProvider#container_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#container_name SearchDatasetProvider#container_name}
   */
   readonly containerName?: string;
 }
@@ -5170,37 +5170,37 @@ export interface SearchDatasetProviderAzureBlobProvider {
   /**
   * Azure Storage authentication method. Default: "connection_string"; must be one of ["connection_string", "blob_sas_url", "client_secret"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#authentication_method SearchDatasetProvider#authentication_method}
   */
   readonly authenticationMethod?: string;
   /**
   * Azure AD application client ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_id SearchDatasetProvider#client_id}
   */
   readonly clientId?: string;
   /**
   * Azure AD application client secret
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#client_secret SearchDatasetProvider#client_secret}
   */
   readonly clientSecret?: string;
   /**
   * Storage account connection string
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#connection_string SearchDatasetProvider#connection_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#connection_string SearchDatasetProvider#connection_string}
   */
   readonly connectionString?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5209,31 +5209,31 @@ export interface SearchDatasetProviderAzureBlobProvider {
   /**
   * Primary region in which the storage account is located. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#location SearchDatasetProvider#location}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#location SearchDatasetProvider#location}
   */
   readonly location?: string;
   /**
   * A list of container-specific SAS configurations
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#sas_configs SearchDatasetProvider#sas_configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#sas_configs SearchDatasetProvider#sas_configs}
   */
   readonly sasConfigs?: SearchDatasetProviderAzureBlobProviderSasConfigs[] | cdktf.IResolvable;
   /**
   * The name of your Azure storage account
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#storage_account_name SearchDatasetProvider#storage_account_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#storage_account_name SearchDatasetProvider#storage_account_name}
   */
   readonly storageAccountName?: string;
   /**
   * Azure AD tenant ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#tenant_id SearchDatasetProvider#tenant_id}
   */
   readonly tenantId?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -5619,19 +5619,19 @@ export interface SearchDatasetProviderClickHouseProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * URL to ClickHouse server with HTTP interface enabled. Ideally should be HTTPS over port 8443. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5640,19 +5640,19 @@ export interface SearchDatasetProviderClickHouseProvider {
   /**
   * The ClickHouse user password for authentication
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * The ClickHouse username for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -5893,13 +5893,13 @@ export interface SearchDatasetProviderCriblLeaderProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -5908,7 +5908,7 @@ export interface SearchDatasetProviderCriblLeaderProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6062,13 +6062,13 @@ export interface SearchDatasetProviderEdgeProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6077,7 +6077,7 @@ export interface SearchDatasetProviderEdgeProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6231,19 +6231,19 @@ export interface SearchDatasetProviderGcsProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Google Cloud Storage service endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6252,13 +6252,13 @@ export interface SearchDatasetProviderGcsProvider {
   /**
   * Contents of Google Cloud service account credentials (JSON keys) file. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#service_account_credentials SearchDatasetProvider#service_account_credentials}
   */
   readonly serviceAccountCredentials?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6470,13 +6470,13 @@ export interface SearchDatasetProviderMetaProvider {
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6485,7 +6485,7 @@ export interface SearchDatasetProviderMetaProvider {
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -6639,25 +6639,25 @@ export interface SearchDatasetProviderPrometheusProvider {
   /**
   * Default: "none"; must be one of ["none", "basic", "token"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#auth_type SearchDatasetProvider#auth_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#auth_type SearchDatasetProvider#auth_type}
   */
   readonly authType?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Prometheus API endpoint URL. Example: https://prometheus.goats.biz. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -6666,31 +6666,31 @@ export interface SearchDatasetProviderPrometheusProvider {
   /**
   * Maximum number of concurrent API requests. Default: 3
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * Basic auth password
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#password SearchDatasetProvider#password}
   */
   readonly password?: string;
   /**
   * Bearer token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#token SearchDatasetProvider#token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#token SearchDatasetProvider#token}
   */
   readonly token?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * Basic auth username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -7018,73 +7018,73 @@ export interface SearchDatasetProviderS3Provider {
   /**
   * ARN of the role to assume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#assume_role_arn SearchDatasetProvider#assume_role_arn}
   */
   readonly assumeRoleArn?: string;
   /**
   * External ID for role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#assume_role_external_id SearchDatasetProvider#assume_role_external_id}
   */
   readonly assumeRoleExternalId?: string;
   /**
   * AWS access key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#aws_api_key SearchDatasetProvider#aws_api_key}
   */
   readonly awsApiKey?: string;
   /**
   * AWS authentication method. must be one of ["auto", "manual"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#aws_authentication_method SearchDatasetProvider#aws_authentication_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#aws_authentication_method SearchDatasetProvider#aws_authentication_method}
   */
   readonly awsAuthenticationMethod?: string;
   /**
   * AWS secret key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#aws_secret_key SearchDatasetProvider#aws_secret_key}
   */
   readonly awsSecretKey?: string;
   /**
   * S3 bucket name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#bucket SearchDatasetProvider#bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#bucket SearchDatasetProvider#bucket}
   */
   readonly bucket?: string;
   /**
   * Suggested bucket path
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#bucket_path_suggestion SearchDatasetProvider#bucket_path_suggestion}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#bucket_path_suggestion SearchDatasetProvider#bucket_path_suggestion}
   */
   readonly bucketPathSuggestion?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Whether to enable ABAC source-ip tagging
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#enable_abac_tagging SearchDatasetProvider#enable_abac_tagging}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#enable_abac_tagging SearchDatasetProvider#enable_abac_tagging}
   */
   readonly enableAbacTagging?: boolean | cdktf.IResolvable;
   /**
   * Whether to enable role assumption
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#enable_assume_role SearchDatasetProvider#enable_assume_role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#enable_assume_role SearchDatasetProvider#enable_assume_role}
   */
   readonly enableAssumeRole?: boolean | cdktf.IResolvable;
   /**
   * S3 endpoint URL
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7093,37 +7093,37 @@ export interface SearchDatasetProviderS3Provider {
   /**
   * AWS region
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#region SearchDatasetProvider#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#region SearchDatasetProvider#region}
   */
   readonly region?: string;
   /**
   * Whether to reject unauthorized requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#reject_unauthorized SearchDatasetProvider#reject_unauthorized}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#reject_unauthorized SearchDatasetProvider#reject_unauthorized}
   */
   readonly rejectUnauthorized?: boolean | cdktf.IResolvable;
   /**
   * Reuse existing S3 connections
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#reuse_connections SearchDatasetProvider#reuse_connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#reuse_connections SearchDatasetProvider#reuse_connections}
   */
   readonly reuseConnections?: boolean | cdktf.IResolvable;
   /**
   * AWS session token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#session_token SearchDatasetProvider#session_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#session_token SearchDatasetProvider#session_token}
   */
   readonly sessionToken?: string;
   /**
   * AWS signature version. Not Null; must be one of ["v2", "v4"]
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#signature_version SearchDatasetProvider#signature_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#signature_version SearchDatasetProvider#signature_version}
   */
   readonly signatureVersion?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
 }
@@ -7712,25 +7712,25 @@ export interface SearchDatasetProviderSnowflakeProvider {
   /**
   * The Snowflake account identifier, in the format <orgname>-<account_name>. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#account_identifier SearchDatasetProvider#account_identifier}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#account_identifier SearchDatasetProvider#account_identifier}
   */
   readonly accountIdentifier?: string;
   /**
   * Description of the provider
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#description SearchDatasetProvider#description}
   */
   readonly description?: string;
   /**
   * Optional endpoint to override default REST API endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#endpoint SearchDatasetProvider#endpoint}
   */
   readonly endpoint?: string;
   /**
   * Unique identifier for the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#id SearchDatasetProvider#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -7739,31 +7739,31 @@ export interface SearchDatasetProviderSnowflakeProvider {
   /**
   * Total number of concurrent executors for processing Snowflake partitions
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#max_concurrency SearchDatasetProvider#max_concurrency}
   */
   readonly maxConcurrency?: number;
   /**
   * The key password for the private key
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#passphrase SearchDatasetProvider#passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#passphrase SearchDatasetProvider#passphrase}
   */
   readonly passphrase?: string;
   /**
   * The private key string out of the key file, from the pair of keys generated for authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#priv_key SearchDatasetProvider#priv_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#priv_key SearchDatasetProvider#priv_key}
   */
   readonly privKey?: string;
   /**
   * Type of the provider. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#type SearchDatasetProvider#type}
   */
   readonly type?: string;
   /**
   * The Snowflake user for key pair authentication. Not Null
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#username SearchDatasetProvider#username}
   */
   readonly username?: string;
 }
@@ -8089,7 +8089,7 @@ export class SearchDatasetProviderSnowflakeProviderOutputReference extends cdktf
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider criblio_search_dataset_provider}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider criblio_search_dataset_provider}
 */
 export class SearchDatasetProvider extends cdktf.TerraformResource {
 
@@ -8105,7 +8105,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a SearchDatasetProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the SearchDatasetProvider to import
-  * @param importFromId The id of the existing SearchDatasetProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing SearchDatasetProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the SearchDatasetProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -8117,7 +8117,7 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/resources/search_dataset_provider criblio_search_dataset_provider} Resource
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/resources/search_dataset_provider criblio_search_dataset_provider} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -8128,8 +8128,8 @@ export class SearchDatasetProvider extends cdktf.TerraformResource {
       terraformResourceType: 'criblio_search_dataset_provider',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.48',
-        providerVersionConstraint: '1.20.48'
+        providerVersion: '1.20.59',
+        providerVersionConstraint: '1.20.59'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

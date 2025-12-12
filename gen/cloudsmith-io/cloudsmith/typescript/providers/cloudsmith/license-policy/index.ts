@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LicensePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Allow unknown licenses within the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#allow_unknown_licenses LicensePolicy#allow_unknown_licenses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#allow_unknown_licenses LicensePolicy#allow_unknown_licenses}
   */
   readonly allowUnknownLicenses?: boolean | cdktf.IResolvable;
   /**
   * The description of the license policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#description LicensePolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#description LicensePolicy#description}
   */
   readonly description: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#id LicensePolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#id LicensePolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,37 +29,37 @@ export interface LicensePolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the license policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#name LicensePolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#name LicensePolicy#name}
   */
   readonly name: string;
   /**
   * On violation of the license policy, quarantine violating packages.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#on_violation_quarantine LicensePolicy#on_violation_quarantine}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#on_violation_quarantine LicensePolicy#on_violation_quarantine}
   */
   readonly onViolationQuarantine?: boolean | cdktf.IResolvable;
   /**
   * Organization to which this policy belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#organization LicensePolicy#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#organization LicensePolicy#organization}
   */
   readonly organization: string;
   /**
   * A search / filter string of packages to include in the policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#package_query_string LicensePolicy#package_query_string}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#package_query_string LicensePolicy#package_query_string}
   */
   readonly packageQueryString?: string;
   /**
   * The licenses to deny.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#spdx_identifiers LicensePolicy#spdx_identifiers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#spdx_identifiers LicensePolicy#spdx_identifiers}
   */
   readonly spdxIdentifiers: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy cloudsmith_license_policy}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy cloudsmith_license_policy}
 */
 export class LicensePolicy extends cdktf.TerraformResource {
 
@@ -75,7 +75,7 @@ export class LicensePolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LicensePolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LicensePolicy to import
-  * @param importFromId The id of the existing LicensePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LicensePolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LicensePolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -87,7 +87,7 @@ export class LicensePolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/license_policy cloudsmith_license_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/license_policy cloudsmith_license_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -98,8 +98,8 @@ export class LicensePolicy extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_license_policy',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

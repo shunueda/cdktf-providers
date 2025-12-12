@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars
+// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioPackVarsConfig extends cdktf.TerraformMetaArguments 
   /**
   * The consumer group to which this instance belongs. Defaults to 'Cribl'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars#group_id DataCriblioPackVars#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars#group_id DataCriblioPackVars#group_id}
   */
   readonly groupId: string;
   /**
   * Unique ID to GET for pack
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars#id DataCriblioPackVars#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars#id DataCriblioPackVars#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataCriblioPackVarsConfig extends cdktf.TerraformMetaArguments 
   /**
   * pack ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars#pack DataCriblioPackVars#pack}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars#pack DataCriblioPackVars#pack}
   */
   readonly pack: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars criblio_pack_vars}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars criblio_pack_vars}
 */
 export class DataCriblioPackVars extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataCriblioPackVars extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioPackVars resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioPackVars to import
-  * @param importFromId The id of the existing DataCriblioPackVars that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioPackVars that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioPackVars to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataCriblioPackVars extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/pack_vars criblio_pack_vars} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/pack_vars criblio_pack_vars} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataCriblioPackVars extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_pack_vars',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.48',
-        providerVersionConstraint: '1.20.48'
+        providerVersion: '1.20.59',
+        providerVersionConstraint: '1.20.59'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

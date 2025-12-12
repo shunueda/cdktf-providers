@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface TeamConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The `avatar` should be a the 'file' attribute from a vercel_file data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#avatar TeamConfig#avatar}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#avatar TeamConfig#avatar}
   */
   readonly avatar?: { [key: string]: string };
   /**
   * A description of the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#description TeamConfig#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#description TeamConfig#description}
   */
   readonly description?: string;
   /**
   * Hostname that'll be matched with emails on sign-up to automatically join the Team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#email_domain TeamConfig#email_domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#email_domain TeamConfig#email_domain}
   */
   readonly emailDomain?: string;
   /**
   * Enables the Vercel Toolbar on your preview deployments: one of on, off or default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#enable_preview_feedback TeamConfig#enable_preview_feedback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#enable_preview_feedback TeamConfig#enable_preview_feedback}
   */
   readonly enablePreviewFeedback?: string;
   /**
   * Enables the Vercel Toolbar on your production deployments: one of on, off or default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#enable_production_feedback TeamConfig#enable_production_feedback}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#enable_production_feedback TeamConfig#enable_production_feedback}
   */
   readonly enableProductionFeedback?: string;
   /**
   * Indicates if ip addresses should be accessible in o11y tooling.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#hide_ip_addresses TeamConfig#hide_ip_addresses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#hide_ip_addresses TeamConfig#hide_ip_addresses}
   */
   readonly hideIpAddresses?: boolean | cdktf.IResolvable;
   /**
   * Indicates if ip addresses should be accessible in log drains.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#hide_ip_addresses_in_log_drains TeamConfig#hide_ip_addresses_in_log_drains}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#hide_ip_addresses_in_log_drains TeamConfig#hide_ip_addresses_in_log_drains}
   */
   readonly hideIpAddressesInLogDrains?: boolean | cdktf.IResolvable;
   /**
   * The ID of the existing Vercel Team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#id TeamConfig#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#id TeamConfig#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -61,37 +61,37 @@ export interface TeamConfigConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#name TeamConfig#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#name TeamConfig#name}
   */
   readonly name?: string;
   /**
   * The hostname that is used as the preview deployment suffix.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#preview_deployment_suffix TeamConfig#preview_deployment_suffix}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#preview_deployment_suffix TeamConfig#preview_deployment_suffix}
   */
   readonly previewDeploymentSuffix?: string;
   /**
   * Configuration for Remote Caching.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#remote_caching TeamConfig#remote_caching}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#remote_caching TeamConfig#remote_caching}
   */
   readonly remoteCaching?: TeamConfigRemoteCaching;
   /**
   * Configuration for SAML authentication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#saml TeamConfig#saml}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#saml TeamConfig#saml}
   */
   readonly saml?: TeamConfigSaml;
   /**
   * Ensures that all environment variables created by members of this team will be created as Sensitive Environment Variables which can only be decrypted by Vercel's deployment system.: one of on, off or default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#sensitive_environment_variable_policy TeamConfig#sensitive_environment_variable_policy}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#sensitive_environment_variable_policy TeamConfig#sensitive_environment_variable_policy}
   */
   readonly sensitiveEnvironmentVariablePolicy?: string;
   /**
   * The slug of the team. Will be used in the URL of the team's dashboard.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#slug TeamConfig#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#slug TeamConfig#slug}
   */
   readonly slug?: string;
 }
@@ -99,7 +99,7 @@ export interface TeamConfigRemoteCaching {
   /**
   * Indicates if Remote Caching is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#enabled TeamConfig#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#enabled TeamConfig#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -195,13 +195,13 @@ export interface TeamConfigSamlRoles {
   /**
   * The access group id to assign to the user.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#access_group_id TeamConfig#access_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#access_group_id TeamConfig#access_group_id}
   */
   readonly accessGroupId?: string;
   /**
   * The team level role to assign to the user. One of 'MEMBER', 'OWNER', 'VIEWER', 'DEVELOPER', 'BILLING' or 'CONTRIBUTOR'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#role TeamConfig#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#role TeamConfig#role}
   */
   readonly role?: string;
 }
@@ -346,13 +346,13 @@ export interface TeamConfigSaml {
   /**
   * Indicates if SAML is enforced for the team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#enforced TeamConfig#enforced}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#enforced TeamConfig#enforced}
   */
   readonly enforced?: boolean | cdktf.IResolvable;
   /**
   * Directory groups to role or access group mappings. For each directory group, specify either a role or access group id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#roles TeamConfig#roles}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#roles TeamConfig#roles}
   */
   readonly roles?: { [key: string]: TeamConfigSamlRoles } | cdktf.IResolvable;
 }
@@ -475,7 +475,7 @@ export class TeamConfigSamlOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config vercel_team_config}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config vercel_team_config}
 */
 export class TeamConfig extends cdktf.TerraformResource {
 
@@ -491,7 +491,7 @@ export class TeamConfig extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a TeamConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the TeamConfig to import
-  * @param importFromId The id of the existing TeamConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing TeamConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the TeamConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -503,7 +503,7 @@ export class TeamConfig extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/team_config vercel_team_config} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/team_config vercel_team_config} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -514,8 +514,8 @@ export class TeamConfig extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_team_config',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

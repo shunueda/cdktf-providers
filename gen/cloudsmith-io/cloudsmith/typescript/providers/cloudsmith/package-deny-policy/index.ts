@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PackageDenyPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * Description of the package deny policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#description PackageDenyPolicy#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#description PackageDenyPolicy#description}
   */
   readonly description?: string;
   /**
   * Is the package deny policy enabled?.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#enabled PackageDenyPolicy#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#enabled PackageDenyPolicy#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#id PackageDenyPolicy#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#id PackageDenyPolicy#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,25 +29,25 @@ export interface PackageDenyPolicyConfig extends cdktf.TerraformMetaArguments {
   /**
   * A descriptive name for the package deny policy.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#name PackageDenyPolicy#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#name PackageDenyPolicy#name}
   */
   readonly name?: string;
   /**
   * Namespace to which this package deny policy belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#namespace PackageDenyPolicy#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#namespace PackageDenyPolicy#namespace}
   */
   readonly namespace: string;
   /**
   * The query to match the packages to be blocked.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#package_query PackageDenyPolicy#package_query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#package_query PackageDenyPolicy#package_query}
   */
   readonly packageQuery: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy cloudsmith_package_deny_policy}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy cloudsmith_package_deny_policy}
 */
 export class PackageDenyPolicy extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class PackageDenyPolicy extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PackageDenyPolicy resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PackageDenyPolicy to import
-  * @param importFromId The id of the existing PackageDenyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PackageDenyPolicy that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PackageDenyPolicy to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class PackageDenyPolicy extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/package_deny_policy cloudsmith_package_deny_policy} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/package_deny_policy cloudsmith_package_deny_policy} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class PackageDenyPolicy extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_package_deny_policy',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

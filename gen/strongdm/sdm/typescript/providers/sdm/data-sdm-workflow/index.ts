@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow
+// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface DataSdmWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * Fixed Duration of access requests bound to this workflow. If fixed duration is provided, max duration must be empty. If neither max nor fixed duration are provided, requests that bind to this workflow will use the organization-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#access_request_fixed_duration DataSdmWorkflow#access_request_fixed_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#access_request_fixed_duration DataSdmWorkflow#access_request_fixed_duration}
   */
   readonly accessRequestFixedDuration?: string;
   /**
   * Maximum Duration of access requests bound to this workflow. If max duration is provided, fixed duration must be empty. If neither max nor fixed duration are provided, requests that bind to this workflow will use the organization-level settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#access_request_max_duration DataSdmWorkflow#access_request_max_duration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#access_request_max_duration DataSdmWorkflow#access_request_max_duration}
   */
   readonly accessRequestMaxDuration?: string;
   /**
   * Optional approval flow ID identifies an approval flow that linked to the workflow
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#approval_flow_id DataSdmWorkflow#approval_flow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#approval_flow_id DataSdmWorkflow#approval_flow_id}
   */
   readonly approvalFlowId?: string;
   /**
   * Optional auto grant setting to automatically approve requests or not, defaults to false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#auto_grant DataSdmWorkflow#auto_grant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#auto_grant DataSdmWorkflow#auto_grant}
   */
   readonly autoGrant?: boolean | cdktf.IResolvable;
   /**
   * Optional description of the Workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#description DataSdmWorkflow#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#description DataSdmWorkflow#description}
   */
   readonly description?: string;
   /**
   * Optional enabled state for workflow. This setting may be overridden by the system if the workflow doesn't meet the requirements to be enabled or if other conditions prevent enabling the workflow. The requirements to enable a workflow are that the workflow must be either set up for with auto grant enabled or have one or more WorkflowApprovers created for the workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#enabled DataSdmWorkflow#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#enabled DataSdmWorkflow#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the Workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#id DataSdmWorkflow#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#id DataSdmWorkflow#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -55,19 +55,19 @@ export interface DataSdmWorkflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * Unique human-readable name of the Workflow.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#name DataSdmWorkflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#name DataSdmWorkflow#name}
   */
   readonly name?: string;
   /**
   * Optional weight for workflow to specify it's priority in matching a request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#weight DataSdmWorkflow#weight}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#weight DataSdmWorkflow#weight}
   */
   readonly weight?: number;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#timeouts DataSdmWorkflow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#timeouts DataSdmWorkflow#timeouts}
   */
   readonly timeouts?: DataSdmWorkflowTimeouts;
 }
@@ -193,7 +193,7 @@ export class DataSdmWorkflowWorkflowsList extends cdktf.ComplexList {
 }
 export interface DataSdmWorkflowTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#default DataSdmWorkflow#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#default DataSdmWorkflow#default}
   */
   readonly default?: string;
 }
@@ -287,7 +287,7 @@ export class DataSdmWorkflowTimeoutsOutputReference extends cdktf.ComplexObject 
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow sdm_workflow}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow sdm_workflow}
 */
 export class DataSdmWorkflow extends cdktf.TerraformDataSource {
 
@@ -303,7 +303,7 @@ export class DataSdmWorkflow extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataSdmWorkflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataSdmWorkflow to import
-  * @param importFromId The id of the existing DataSdmWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataSdmWorkflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataSdmWorkflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -315,7 +315,7 @@ export class DataSdmWorkflow extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/workflow sdm_workflow} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/workflow sdm_workflow} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -326,8 +326,8 @@ export class DataSdmWorkflow extends cdktf.TerraformDataSource {
       terraformResourceType: 'sdm_workflow',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.35.0',
-        providerVersionConstraint: '15.35.0'
+        providerVersion: '15.39.0',
+        providerVersionConstraint: '15.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

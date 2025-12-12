@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface GroupInviteConfig extends cdktf.TerraformMetaArguments {
   /**
   * The email address of the identity that is allowed to accept this invite code.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite#email GroupInvite#email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite#email GroupInvite#email}
   */
   readonly email?: string;
   /**
   * The RFC3339 encoded date and time at which this invitation will no longer be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite#expiration GroupInvite#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite#expiration GroupInvite#expiration}
   */
   readonly expiration: string;
   /**
   * The Group to which this invite code grants access.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite#group GroupInvite#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite#group GroupInvite#group}
   */
   readonly group: string;
   /**
   * The role that this invite code grants.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite#role GroupInvite#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite#role GroupInvite#role}
   */
   readonly role: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite chainguard_group_invite}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite chainguard_group_invite}
 */
 export class GroupInvite extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class GroupInvite extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a GroupInvite resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the GroupInvite to import
-  * @param importFromId The id of the existing GroupInvite that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing GroupInvite that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the GroupInvite to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class GroupInvite extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/group_invite chainguard_group_invite} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/group_invite chainguard_group_invite} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class GroupInvite extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_group_invite',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.42',
-        providerVersionConstraint: '0.1.42'
+        providerVersion: '0.1.43',
+        providerVersionConstraint: '0.1.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

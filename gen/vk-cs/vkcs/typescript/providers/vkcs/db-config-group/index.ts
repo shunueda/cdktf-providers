@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface DbConfigGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The description of the config group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#description DbConfigGroup#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#description DbConfigGroup#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#id DbConfigGroup#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#id DbConfigGroup#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,19 +23,19 @@ export interface DbConfigGroupConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the config group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#name DbConfigGroup#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#name DbConfigGroup#name}
   */
   readonly name: string;
   /**
   * Map of configuration parameters in format "key": "value".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#values DbConfigGroup#values}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#values DbConfigGroup#values}
   */
   readonly values: { [key: string]: string };
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#datastore DbConfigGroup#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#datastore DbConfigGroup#datastore}
   */
   readonly datastore: DbConfigGroupDatastore;
 }
@@ -43,13 +43,13 @@ export interface DbConfigGroupDatastore {
   /**
   * Type of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#type DbConfigGroup#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#type DbConfigGroup#type}
   */
   readonly type: string;
   /**
   * Version of the datastore.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#version DbConfigGroup#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#version DbConfigGroup#version}
   */
   readonly version: string;
 }
@@ -156,7 +156,7 @@ export class DbConfigGroupDatastoreOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group vkcs_db_config_group}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group vkcs_db_config_group}
 */
 export class DbConfigGroup extends cdktf.TerraformResource {
 
@@ -172,7 +172,7 @@ export class DbConfigGroup extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbConfigGroup resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbConfigGroup to import
-  * @param importFromId The id of the existing DbConfigGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbConfigGroup that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbConfigGroup to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -184,7 +184,7 @@ export class DbConfigGroup extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_config_group vkcs_db_config_group} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_config_group vkcs_db_config_group} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -195,8 +195,8 @@ export class DbConfigGroup extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_db_config_group',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

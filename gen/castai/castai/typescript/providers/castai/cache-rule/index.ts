@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule
+// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface CacheRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * ID of the cache configuration this rule belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#cache_configuration_id CacheRule#cache_configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#cache_configuration_id CacheRule#cache_configuration_id}
   */
   readonly cacheConfigurationId: string;
   /**
   * ID of the cache group this rule belongs to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#cache_group_id CacheRule#cache_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#cache_group_id CacheRule#cache_group_id}
   */
   readonly cacheGroupId: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#id CacheRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#id CacheRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface CacheRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * TTL in seconds. Required when mode is Manual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#manual_ttl CacheRule#manual_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#manual_ttl CacheRule#manual_ttl}
   */
   readonly manualTtl?: number;
   /**
   * TTL mode for queries matching this rule. Valid values: Auto, DontCache, Manual.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#mode CacheRule#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#mode CacheRule#mode}
   */
   readonly mode: string;
   /**
   * Database table name to apply this rule to. Either table or template_hash must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#table CacheRule#table}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#table CacheRule#table}
   */
   readonly table?: string;
   /**
   * Hash of the query template. Either table or template_hash must be specified.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#template_hash CacheRule#template_hash}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#template_hash CacheRule#template_hash}
   */
   readonly templateHash?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#timeouts CacheRule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#timeouts CacheRule#timeouts}
   */
   readonly timeouts?: CacheRuleTimeouts;
 }
 export interface CacheRuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#create CacheRule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#create CacheRule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#delete CacheRule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#delete CacheRule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#read CacheRule#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#read CacheRule#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#update CacheRule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#update CacheRule#update}
   */
   readonly update?: string;
 }
@@ -252,7 +252,7 @@ export class CacheRuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule castai_cache_rule}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule castai_cache_rule}
 */
 export class CacheRule extends cdktf.TerraformResource {
 
@@ -268,7 +268,7 @@ export class CacheRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a CacheRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CacheRule to import
-  * @param importFromId The id of the existing CacheRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CacheRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CacheRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -280,7 +280,7 @@ export class CacheRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/cache_rule castai_cache_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/cache_rule castai_cache_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -291,8 +291,8 @@ export class CacheRule extends cdktf.TerraformResource {
       terraformResourceType: 'castai_cache_rule',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

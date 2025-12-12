@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface KibanaImportSavedObjectsConfig extends cdktf.TerraformMetaArgum
   /**
   * The contents of the exported saved objects file.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects#file_contents KibanaImportSavedObjects#file_contents}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects#file_contents KibanaImportSavedObjects#file_contents}
   */
   readonly fileContents: string;
   /**
   * If set to true, errors during the import process will not fail the configuration application
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects#ignore_import_errors KibanaImportSavedObjects#ignore_import_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects#ignore_import_errors KibanaImportSavedObjects#ignore_import_errors}
   */
   readonly ignoreImportErrors?: boolean | cdktf.IResolvable;
   /**
   * Overwrites saved objects when they already exist. When used, potential conflict errors are automatically resolved by overwriting the destination object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects#overwrite KibanaImportSavedObjects#overwrite}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects#overwrite KibanaImportSavedObjects#overwrite}
   */
   readonly overwrite?: boolean | cdktf.IResolvable;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects#space_id KibanaImportSavedObjects#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects#space_id KibanaImportSavedObjects#space_id}
   */
   readonly spaceId?: string;
 }
@@ -394,7 +394,7 @@ export class KibanaImportSavedObjectsSuccessResultsList extends cdktf.ComplexLis
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects elasticstack_kibana_import_saved_objects}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects elasticstack_kibana_import_saved_objects}
 */
 export class KibanaImportSavedObjects extends cdktf.TerraformResource {
 
@@ -410,7 +410,7 @@ export class KibanaImportSavedObjects extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaImportSavedObjects resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaImportSavedObjects to import
-  * @param importFromId The id of the existing KibanaImportSavedObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaImportSavedObjects that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaImportSavedObjects to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -422,7 +422,7 @@ export class KibanaImportSavedObjects extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_import_saved_objects elasticstack_kibana_import_saved_objects} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_import_saved_objects elasticstack_kibana_import_saved_objects} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -433,8 +433,8 @@ export class KibanaImportSavedObjects extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_import_saved_objects',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

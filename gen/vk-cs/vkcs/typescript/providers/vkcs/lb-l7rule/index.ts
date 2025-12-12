@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LbL7RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The administrative state of the L7 Rule. A valid value is true (UP) or false (DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#admin_state_up LbL7Rule#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#admin_state_up LbL7Rule#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * The comparison type for the L7 rule - can either be CONTAINS, STARTS\_WITH, ENDS_WITH, EQUAL_TO or REGEX
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#compare_type LbL7Rule#compare_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#compare_type LbL7Rule#compare_type}
   */
   readonly compareType: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#id LbL7Rule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#id LbL7Rule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,57 +29,57 @@ export interface LbL7RuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * When true the logic of the rule is inverted. For example, with invert true, equal to would become not equal to. Default is false.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#invert LbL7Rule#invert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#invert LbL7Rule#invert}
   */
   readonly invert?: boolean | cdktf.IResolvable;
   /**
   * The key to use for the comparison. For example, the name of the cookie to evaluate. Valid when `type` is set to COOKIE or HEADER.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#key LbL7Rule#key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#key LbL7Rule#key}
   */
   readonly key?: string;
   /**
   * The ID of the L7 Policy to query. Changing this creates a new L7 Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#l7policy_id LbL7Rule#l7policy_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#l7policy_id LbL7Rule#l7policy_id}
   */
   readonly l7PolicyId: string;
   /**
   * The region in which to obtain the Loadbalancer client. If omitted, the `region` argument of the provider is used. Changing this creates a new L7 Rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#region LbL7Rule#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#region LbL7Rule#region}
   */
   readonly region?: string;
   /**
   * The L7 Rule type - can either be COOKIE, FILE\_TYPE, HEADER, HOST\_NAME or PATH.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#type LbL7Rule#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#type LbL7Rule#type}
   */
   readonly type: string;
   /**
   * The value to use for the comparison. For example, the file type to compare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#value LbL7Rule#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#value LbL7Rule#value}
   */
   readonly value: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#timeouts LbL7Rule#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#timeouts LbL7Rule#timeouts}
   */
   readonly timeouts?: LbL7RuleTimeouts;
 }
 export interface LbL7RuleTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#create LbL7Rule#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#create LbL7Rule#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#delete LbL7Rule#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#delete LbL7Rule#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#update LbL7Rule#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#update LbL7Rule#update}
   */
   readonly update?: string;
 }
@@ -231,7 +231,7 @@ export class LbL7RuleTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule vkcs_lb_l7rule}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule vkcs_lb_l7rule}
 */
 export class LbL7Rule extends cdktf.TerraformResource {
 
@@ -247,7 +247,7 @@ export class LbL7Rule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbL7Rule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbL7Rule to import
-  * @param importFromId The id of the existing LbL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbL7Rule that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbL7Rule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -259,7 +259,7 @@ export class LbL7Rule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_l7rule vkcs_lb_l7rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_l7rule vkcs_lb_l7rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -270,8 +270,8 @@ export class LbL7Rule extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_lb_l7rule',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

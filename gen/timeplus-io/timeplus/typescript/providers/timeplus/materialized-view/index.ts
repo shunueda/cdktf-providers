@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view
+// https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface MaterializedViewConfig extends cdktf.TerraformMetaArguments {
   /**
   * A detailed text describes the view
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#description MaterializedView#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#description MaterializedView#description}
   */
   readonly description?: string;
   /**
   * A SQL expression defines the maximum age of historical data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#history_ttl MaterializedView#history_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#history_ttl MaterializedView#history_ttl}
   */
   readonly historyTtl?: string;
   /**
   * The view name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#name MaterializedView#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#name MaterializedView#name}
   */
   readonly name: string;
   /**
   * The query SQL of the view. Changing the SQL will lead to a recreation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#query MaterializedView#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#query MaterializedView#query}
   */
   readonly query: string;
   /**
   * The retention size threadhold in bytes indicates how many data could be kept in the streaming store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#retention_bytes MaterializedView#retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#retention_bytes MaterializedView#retention_bytes}
   */
   readonly retentionBytes?: number;
   /**
   * The retention period threadhold in millisecond indicates how long data could be kept in the streaming store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#retention_ms MaterializedView#retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#retention_ms MaterializedView#retention_ms}
   */
   readonly retentionMs?: number;
   /**
   * The optional stream name that the materialized view writes data to
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#target_stream MaterializedView#target_stream}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#target_stream MaterializedView#target_stream}
   */
   readonly targetStream?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view timeplus_materialized_view}
+* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view timeplus_materialized_view}
 */
 export class MaterializedView extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class MaterializedView extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MaterializedView resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MaterializedView to import
-  * @param importFromId The id of the existing MaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MaterializedView that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MaterializedView to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class MaterializedView extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/materialized_view timeplus_materialized_view} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/materialized_view timeplus_materialized_view} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class MaterializedView extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_materialized_view',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver
+// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface WorkflowApproverConfig extends cdktf.TerraformMetaArguments {
   /**
   * The approver account id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#account_id WorkflowApprover#account_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#account_id WorkflowApprover#account_id}
   */
   readonly accountId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#id WorkflowApprover#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#id WorkflowApprover#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,37 +23,37 @@ export interface WorkflowApproverConfig extends cdktf.TerraformMetaArguments {
   /**
   * The approver role id
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#role_id WorkflowApprover#role_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#role_id WorkflowApprover#role_id}
   */
   readonly roleId?: string;
   /**
   * The workflow id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#workflow_id WorkflowApprover#workflow_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#workflow_id WorkflowApprover#workflow_id}
   */
   readonly workflowId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#timeouts WorkflowApprover#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#timeouts WorkflowApprover#timeouts}
   */
   readonly timeouts?: WorkflowApproverTimeouts;
 }
 export interface WorkflowApproverTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#create WorkflowApprover#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#create WorkflowApprover#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#default WorkflowApprover#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#default WorkflowApprover#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#delete WorkflowApprover#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#delete WorkflowApprover#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#read WorkflowApprover#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#read WorkflowApprover#read}
   */
   readonly read?: string;
 }
@@ -234,7 +234,7 @@ export class WorkflowApproverTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver sdm_workflow_approver}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver sdm_workflow_approver}
 */
 export class WorkflowApprover extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class WorkflowApprover extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a WorkflowApprover resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the WorkflowApprover to import
-  * @param importFromId The id of the existing WorkflowApprover that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing WorkflowApprover that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the WorkflowApprover to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class WorkflowApprover extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/workflow_approver sdm_workflow_approver} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/workflow_approver sdm_workflow_approver} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class WorkflowApprover extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_workflow_approver',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.35.0',
-        providerVersionConstraint: '15.35.0'
+        providerVersion: '15.39.0',
+        providerVersionConstraint: '15.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface DcBgpInstanceConfig extends cdktf.TerraformMetaArguments {
   /**
   * BGP Autonomous System Number (integer representation supports only). Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#asn DcBgpInstance#asn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#asn DcBgpInstance#asn}
   */
   readonly asn: number;
   /**
   * BGP Router ID (IP address that represent BGP router in BGP network). Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#bgp_router_id DcBgpInstance#bgp_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#bgp_router_id DcBgpInstance#bgp_router_id}
   */
   readonly bgpRouterId: string;
   /**
   * Direct Connect Router ID to attach. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#dc_router_id DcBgpInstance#dc_router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#dc_router_id DcBgpInstance#dc_router_id}
   */
   readonly dcRouterId: string;
   /**
   * Description of the router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#description DcBgpInstance#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#description DcBgpInstance#description}
   */
   readonly description?: string;
   /**
   * Enable BGP ECMP behaviour on router. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#ecmp_enabled DcBgpInstance#ecmp_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#ecmp_enabled DcBgpInstance#ecmp_enabled}
   */
   readonly ecmpEnabled?: boolean | cdktf.IResolvable;
   /**
   * Enable or disable item. Default is true
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#enabled DcBgpInstance#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#enabled DcBgpInstance#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP Graceful Restart feature. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#graceful_restart DcBgpInstance#graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#graceful_restart DcBgpInstance#graceful_restart}
   */
   readonly gracefulRestart?: boolean | cdktf.IResolvable;
   /**
   * Enable BGP Long Lived Graceful Restart feature. Default is false
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#long_lived_graceful_restart DcBgpInstance#long_lived_graceful_restart}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#long_lived_graceful_restart DcBgpInstance#long_lived_graceful_restart}
   */
   readonly longLivedGracefulRestart?: boolean | cdktf.IResolvable;
   /**
   * Name of the router
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#name DcBgpInstance#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#name DcBgpInstance#name}
   */
   readonly name?: string;
   /**
   * The `region` to fetch availability zones from, defaults to the provider's `region`. Changing this creates a new bgp_instance.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#region DcBgpInstance#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#region DcBgpInstance#region}
   */
   readonly region?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance vkcs_dc_bgp_instance}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance vkcs_dc_bgp_instance}
 */
 export class DcBgpInstance extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class DcBgpInstance extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DcBgpInstance resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DcBgpInstance to import
-  * @param importFromId The id of the existing DcBgpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DcBgpInstance that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DcBgpInstance to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class DcBgpInstance extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dc_bgp_instance vkcs_dc_bgp_instance} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dc_bgp_instance vkcs_dc_bgp_instance} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class DcBgpInstance extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dc_bgp_instance',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

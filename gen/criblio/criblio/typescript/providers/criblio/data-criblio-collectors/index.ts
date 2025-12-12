@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/collectors
+// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/collectors
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataCriblioCollectorsConfig extends cdktf.TerraformMetaArgument
   /**
   * The consumer group to which this instance belongs. Defaults to 'default'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/collectors#group_id DataCriblioCollectors#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/collectors#group_id DataCriblioCollectors#group_id}
   */
   readonly groupId: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/collectors criblio_collectors}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/collectors criblio_collectors}
 */
 export class DataCriblioCollectors extends cdktf.TerraformDataSource {
 
@@ -32,7 +32,7 @@ export class DataCriblioCollectors extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioCollectors resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioCollectors to import
-  * @param importFromId The id of the existing DataCriblioCollectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/collectors#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioCollectors that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/collectors#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioCollectors to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -44,7 +44,7 @@ export class DataCriblioCollectors extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/collectors criblio_collectors} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/collectors criblio_collectors} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -55,8 +55,8 @@ export class DataCriblioCollectors extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_collectors',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.48',
-        providerVersionConstraint: '1.20.48'
+        providerVersion: '1.20.59',
+        providerVersionConstraint: '1.20.59'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

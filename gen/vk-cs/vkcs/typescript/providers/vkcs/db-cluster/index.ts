@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,47 +10,47 @@ export interface DbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * The name of the availability zone of the cluster. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#availability_zone DbCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#availability_zone DbCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * The names of availability zones for the cluster. Changing this creates a new cluster. __note__ Only available in multi-AZ configurations_new_since_v0.9.3_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#availability_zones DbCluster#availability_zones}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#availability_zones DbCluster#availability_zones}
   */
   readonly availabilityZones?: string[];
   /**
   * Enable cloud monitoring for the cluster._new_since_v0.2.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#cloud_monitoring_enabled DbCluster#cloud_monitoring_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#cloud_monitoring_enabled DbCluster#cloud_monitoring_enabled}
   */
   readonly cloudMonitoringEnabled?: boolean | cdktf.IResolvable;
   /**
   * The number of instances in the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#cluster_size DbCluster#cluster_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#cluster_size DbCluster#cluster_size}
   */
   readonly clusterSize: number;
   /**
   * The id of the configuration attached to cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#configuration_id DbCluster#configuration_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#configuration_id DbCluster#configuration_id}
   */
   readonly configurationId?: string;
   /**
   * The ID of flavor for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#flavor_id DbCluster#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#flavor_id DbCluster#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Indicates whether floating ip is created for cluster. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#floating_ip_enabled DbCluster#floating_ip_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#floating_ip_enabled DbCluster#floating_ip_enabled}
   */
   readonly floatingIpEnabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#id DbCluster#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#id DbCluster#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -59,109 +59,109 @@ export interface DbClusterConfig extends cdktf.TerraformMetaArguments {
   /**
   * Name of the keypair to be attached to cluster. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#keypair DbCluster#keypair}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#keypair DbCluster#keypair}
   */
   readonly keypair?: string;
   /**
   * The name of the cluster. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#name DbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#name DbCluster#name}
   */
   readonly name: string;
   /**
   * Region to create resource in.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#region DbCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#region DbCluster#region}
   */
   readonly region?: string;
   /**
   * Indicates whether root user is enabled for the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#root_enabled DbCluster#root_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#root_enabled DbCluster#root_enabled}
   */
   readonly rootEnabled?: boolean | cdktf.IResolvable;
   /**
   * Password for the root user of the cluster. When enabling root, password is autogenerated, use this field to obtain it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#root_password DbCluster#root_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#root_password DbCluster#root_password}
   */
   readonly rootPassword?: string;
   /**
   * Used only for shrinking cluster. List of IDs of instances that should remain after shrink. If no options are supplied, shrink operation will choose first non-leader instance to delete.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#shrink_options DbCluster#shrink_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#shrink_options DbCluster#shrink_options}
   */
   readonly shrinkOptions?: string[];
   /**
   * Size of the cluster instance volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#volume_size DbCluster#volume_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#volume_size DbCluster#volume_size}
   */
   readonly volumeSize: number;
   /**
   * The type of the cluster instance volume. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#volume_type DbCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#volume_type DbCluster#volume_type}
   */
   readonly volumeType: string;
   /**
   * backup_schedule block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#backup_schedule DbCluster#backup_schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#backup_schedule DbCluster#backup_schedule}
   */
   readonly backupSchedule?: DbClusterBackupSchedule;
   /**
   * capabilities block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#capabilities DbCluster#capabilities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#capabilities DbCluster#capabilities}
   */
   readonly capabilities?: DbClusterCapabilities[] | cdktf.IResolvable;
   /**
   * datastore block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#datastore DbCluster#datastore}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#datastore DbCluster#datastore}
   */
   readonly datastore: DbClusterDatastore;
   /**
   * disk_autoexpand block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#disk_autoexpand DbCluster#disk_autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#disk_autoexpand DbCluster#disk_autoexpand}
   */
   readonly diskAutoexpand?: DbClusterDiskAutoexpand;
   /**
   * network block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#network DbCluster#network}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#network DbCluster#network}
   */
   readonly network?: DbClusterNetwork[] | cdktf.IResolvable;
   /**
   * restore_point block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#restore_point DbCluster#restore_point}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#restore_point DbCluster#restore_point}
   */
   readonly restorePoint?: DbClusterRestorePoint;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#timeouts DbCluster#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#timeouts DbCluster#timeouts}
   */
   readonly timeouts?: DbClusterTimeouts;
   /**
   * vendor_options block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#vendor_options DbCluster#vendor_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#vendor_options DbCluster#vendor_options}
   */
   readonly vendorOptions?: DbClusterVendorOptions;
   /**
   * wal_disk_autoexpand block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#wal_disk_autoexpand DbCluster#wal_disk_autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#wal_disk_autoexpand DbCluster#wal_disk_autoexpand}
   */
   readonly walDiskAutoexpand?: DbClusterWalDiskAutoexpand;
   /**
   * wal_volume block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#wal_volume DbCluster#wal_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#wal_volume DbCluster#wal_volume}
   */
   readonly walVolume?: DbClusterWalVolume[] | cdktf.IResolvable;
 }
@@ -254,31 +254,31 @@ export interface DbClusterBackupSchedule {
   /**
   * Time interval between backups, specified in hours. Available values: 3, 6, 8, 12, 24.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#interval_hours DbCluster#interval_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#interval_hours DbCluster#interval_hours}
   */
   readonly intervalHours: number;
   /**
   * Number of backups to be stored.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#keep_count DbCluster#keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#keep_count DbCluster#keep_count}
   */
   readonly keepCount: number;
   /**
   * Name of the schedule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#name DbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#name DbCluster#name}
   */
   readonly name: string;
   /**
   * Hours part of timestamp of initial backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#start_hours DbCluster#start_hours}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#start_hours DbCluster#start_hours}
   */
   readonly startHours: number;
   /**
   * Minutes part of timestamp of initial backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#start_minutes DbCluster#start_minutes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#start_minutes DbCluster#start_minutes}
   */
   readonly startMinutes: number;
 }
@@ -465,13 +465,13 @@ export interface DbClusterCapabilities {
   /**
   * The name of the capability to apply.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#name DbCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#name DbCluster#name}
   */
   readonly name: string;
   /**
   * Map of key-value settings of the capability.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#settings DbCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#settings DbCluster#settings}
   */
   readonly settings?: { [key: string]: string };
 }
@@ -615,13 +615,13 @@ export interface DbClusterDatastore {
   /**
   * Type of the datastore. Changing this creates a new cluster. Must be one of: `galera_mysql`, `postgresql`, `postgresql_multiaz`, `tarantool`, `postgrespro_enterprise`, `postgrespro_enterprise_1c`. The following datastores may not be available: `postgrespro_enterprise`, `postgrespro_enterprise_1c`, please contact support for details.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#type DbCluster#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#type DbCluster#type}
   */
   readonly type: string;
   /**
   * Version of the datastore. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#version DbCluster#version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#version DbCluster#version}
   */
   readonly version: string;
 }
@@ -730,13 +730,13 @@ export interface DbClusterDiskAutoexpand {
   /**
   * Indicates whether autoresize is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#autoexpand DbCluster#autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#autoexpand DbCluster#autoexpand}
   */
   readonly autoexpand?: boolean | cdktf.IResolvable;
   /**
   * Maximum disk size for autoresize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#max_disk_size DbCluster#max_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#max_disk_size DbCluster#max_disk_size}
   */
   readonly maxDiskSize?: number;
 }
@@ -851,25 +851,25 @@ export interface DbClusterNetwork {
   /**
   * The port id of the network. Changing this creates a new cluster. **Deprecated** This argument is deprecated, please do not use it.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#port DbCluster#port}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#port DbCluster#port}
   */
   readonly port?: string;
   /**
   * An array of one or more security group IDs to associate with the cluster instances. Changing this creates a new cluster._new_since_v0.2.0_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#security_groups DbCluster#security_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#security_groups DbCluster#security_groups}
   */
   readonly securityGroups?: string[];
   /**
   * The id of the subnet. Changing this creates a new cluster._new_since_v0.1.15_.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#subnet_id DbCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#subnet_id DbCluster#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * The id of the network. Changing this creates a new cluster. _note_ Although this argument is marked as optional, it is actually required at the moment. Not setting a value for it may cause an error.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#uuid DbCluster#uuid}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#uuid DbCluster#uuid}
   */
   readonly uuid?: string;
 }
@@ -1074,13 +1074,13 @@ export interface DbClusterRestorePoint {
   /**
   * ID of the backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#backup_id DbCluster#backup_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#backup_id DbCluster#backup_id}
   */
   readonly backupId: string;
   /**
   * Used only for restoring from PITR backups. Timestamp of needed backup in format "2021-10-06 01:02:00". You can specify "latest" to use most recent backup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#target DbCluster#target}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#target DbCluster#target}
   */
   readonly target?: string;
 }
@@ -1190,11 +1190,11 @@ export class DbClusterRestorePointOutputReference extends cdktf.ComplexObject {
 }
 export interface DbClusterTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#create DbCluster#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#create DbCluster#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#delete DbCluster#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#delete DbCluster#delete}
   */
   readonly delete?: string;
 }
@@ -1319,7 +1319,7 @@ export interface DbClusterVendorOptions {
   /**
   * Boolean to confirm autorestart of the cluster's instances if it is required to apply configuration group changes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#restart_confirmed DbCluster#restart_confirmed}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#restart_confirmed DbCluster#restart_confirmed}
   */
   readonly restartConfirmed?: boolean | cdktf.IResolvable;
 }
@@ -1405,13 +1405,13 @@ export interface DbClusterWalDiskAutoexpand {
   /**
   * Indicates whether wal volume autoresize is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#autoexpand DbCluster#autoexpand}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#autoexpand DbCluster#autoexpand}
   */
   readonly autoexpand?: boolean | cdktf.IResolvable;
   /**
   * Maximum disk size for wal volume autoresize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#max_disk_size DbCluster#max_disk_size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#max_disk_size DbCluster#max_disk_size}
   */
   readonly maxDiskSize?: number;
 }
@@ -1526,13 +1526,13 @@ export interface DbClusterWalVolume {
   /**
   * Size of the instance wal volume.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#size DbCluster#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#size DbCluster#size}
   */
   readonly size: number;
   /**
   * The type of the cluster wal volume. Changing this creates a new cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#volume_type DbCluster#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#volume_type DbCluster#volume_type}
   */
   readonly volumeType: string;
 }
@@ -1671,7 +1671,7 @@ export class DbClusterWalVolumeList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster vkcs_db_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster vkcs_db_cluster}
 */
 export class DbCluster extends cdktf.TerraformResource {
 
@@ -1687,7 +1687,7 @@ export class DbCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DbCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DbCluster to import
-  * @param importFromId The id of the existing DbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DbCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DbCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1699,7 +1699,7 @@ export class DbCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/db_cluster vkcs_db_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/db_cluster vkcs_db_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1710,8 +1710,8 @@ export class DbCluster extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_db_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

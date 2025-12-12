@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface NetworkingRouterRouteConfig extends cdktf.TerraformMetaArgument
   /**
   * CIDR block to match on the packet’s destination IP. Changing this creates a new routing entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#destination_cidr NetworkingRouterRoute#destination_cidr}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#destination_cidr NetworkingRouterRoute#destination_cidr}
   */
   readonly destinationCidr: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#id NetworkingRouterRoute#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#id NetworkingRouterRoute#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface NetworkingRouterRouteConfig extends cdktf.TerraformMetaArgument
   /**
   * IP address of the next hop gateway. Changing this creates a new routing entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#next_hop NetworkingRouterRoute#next_hop}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#next_hop NetworkingRouterRoute#next_hop}
   */
   readonly nextHop: string;
   /**
   * The region in which to obtain the networking client. A networking client is needed to configure a routing entry on a router. If omitted, the `region` argument of the provider is used. Changing this creates a new routing entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#region NetworkingRouterRoute#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#region NetworkingRouterRoute#region}
   */
   readonly region?: string;
   /**
   * ID of the router this routing entry belongs to. Changing this creates a new routing entry.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#router_id NetworkingRouterRoute#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#router_id NetworkingRouterRoute#router_id}
   */
   readonly routerId: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#sdn NetworkingRouterRoute#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#sdn NetworkingRouterRoute#sdn}
   */
   readonly sdn?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route vkcs_networking_router_route}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route vkcs_networking_router_route}
 */
 export class NetworkingRouterRoute extends cdktf.TerraformResource {
 
@@ -63,7 +63,7 @@ export class NetworkingRouterRoute extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingRouterRoute resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingRouterRoute to import
-  * @param importFromId The id of the existing NetworkingRouterRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingRouterRoute that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingRouterRoute to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -75,7 +75,7 @@ export class NetworkingRouterRoute extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_route vkcs_networking_router_route} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_route vkcs_networking_router_route} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -86,8 +86,8 @@ export class NetworkingRouterRoute extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_router_route',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

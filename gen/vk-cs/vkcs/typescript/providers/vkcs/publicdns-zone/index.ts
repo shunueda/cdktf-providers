@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface PublicdnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The admin email of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#admin_email PublicdnsZone#admin_email}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#admin_email PublicdnsZone#admin_email}
   */
   readonly adminEmail?: string;
   /**
   * The expire time of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#expire PublicdnsZone#expire}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#expire PublicdnsZone#expire}
   */
   readonly expire?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#id PublicdnsZone#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#id PublicdnsZone#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,53 +29,53 @@ export interface PublicdnsZoneConfig extends cdktf.TerraformMetaArguments {
   /**
   * The primary DNS of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#primary_dns PublicdnsZone#primary_dns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#primary_dns PublicdnsZone#primary_dns}
   */
   readonly primaryDns?: string;
   /**
   * The refresh time of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#refresh PublicdnsZone#refresh}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#refresh PublicdnsZone#refresh}
   */
   readonly refresh?: number;
   /**
   * The region in which to obtain the V2 Public DNS client. If omitted, the `region` argument of the provider is used. Changing this creates a new zone.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#region PublicdnsZone#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#region PublicdnsZone#region}
   */
   readonly region?: string;
   /**
   * The retry time of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#retry PublicdnsZone#retry}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#retry PublicdnsZone#retry}
   */
   readonly retry?: number;
   /**
   * The TTL (time to live) of the zone SOA.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#ttl PublicdnsZone#ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#ttl PublicdnsZone#ttl}
   */
   readonly ttl?: number;
   /**
   * The name of the zone. **Changes this creates a new zone**.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#zone PublicdnsZone#zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#zone PublicdnsZone#zone}
   */
   readonly zone: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#timeouts PublicdnsZone#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#timeouts PublicdnsZone#timeouts}
   */
   readonly timeouts?: PublicdnsZoneTimeouts;
 }
 export interface PublicdnsZoneTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#create PublicdnsZone#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#create PublicdnsZone#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#delete PublicdnsZone#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#delete PublicdnsZone#delete}
   */
   readonly delete?: string;
 }
@@ -198,7 +198,7 @@ export class PublicdnsZoneTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone vkcs_publicdns_zone}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone vkcs_publicdns_zone}
 */
 export class PublicdnsZone extends cdktf.TerraformResource {
 
@@ -214,7 +214,7 @@ export class PublicdnsZone extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PublicdnsZone resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PublicdnsZone to import
-  * @param importFromId The id of the existing PublicdnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PublicdnsZone that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PublicdnsZone to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -226,7 +226,7 @@ export class PublicdnsZone extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/publicdns_zone vkcs_publicdns_zone} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/publicdns_zone vkcs_publicdns_zone} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -237,8 +237,8 @@ export class PublicdnsZone extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_publicdns_zone',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,25 +10,25 @@ export interface DataVercelDomainConfigConfig extends cdktf.TerraformMetaArgumen
   /**
   * The domain name to get configuration for.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config#domain DataVercelDomainConfig#domain}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config#domain DataVercelDomainConfig#domain}
   */
   readonly domain: string;
   /**
   * The project ID or name associated with the domain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config#project_id_or_name DataVercelDomainConfig#project_id_or_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config#project_id_or_name DataVercelDomainConfig#project_id_or_name}
   */
   readonly projectIdOrName: string;
   /**
   * The ID of the team the domain config exists under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config#team_id DataVercelDomainConfig#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config#team_id DataVercelDomainConfig#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config vercel_domain_config}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config vercel_domain_config}
 */
 export class DataVercelDomainConfig extends cdktf.TerraformDataSource {
 
@@ -44,7 +44,7 @@ export class DataVercelDomainConfig extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelDomainConfig resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelDomainConfig to import
-  * @param importFromId The id of the existing DataVercelDomainConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelDomainConfig that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelDomainConfig to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -56,7 +56,7 @@ export class DataVercelDomainConfig extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/domain_config vercel_domain_config} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/domain_config vercel_domain_config} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -67,8 +67,8 @@ export class DataVercelDomainConfig extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_domain_config',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

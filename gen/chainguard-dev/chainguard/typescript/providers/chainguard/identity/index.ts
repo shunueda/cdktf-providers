@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface IdentityConfig extends cdktf.TerraformMetaArguments {
   /**
   * A longer description of the purpose of this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#description Identity#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#description Identity#description}
   */
   readonly description?: string;
   /**
   * The name of this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#name Identity#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#name Identity#name}
   */
   readonly name: string;
   /**
   * The id of the group containing this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#parent_id Identity#parent_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#parent_id Identity#parent_id}
   */
   readonly parentId: string;
   /**
   * An identity that may be assumed by a particular Chainguard service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#service_principal Identity#service_principal}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#service_principal Identity#service_principal}
   */
   readonly servicePrincipal?: string;
   /**
   * aws_identity block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#aws_identity Identity#aws_identity}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#aws_identity Identity#aws_identity}
   */
   readonly awsIdentity?: IdentityAwsIdentity;
   /**
   * claim_match block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#claim_match Identity#claim_match}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#claim_match Identity#claim_match}
   */
   readonly claimMatch?: IdentityClaimMatch;
   /**
   * static block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#static Identity#static}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#static Identity#static}
   */
   readonly static?: IdentityStatic;
 }
@@ -54,31 +54,31 @@ export interface IdentityAwsIdentity {
   /**
   * AWS Account ID of AWS user
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#aws_account Identity#aws_account}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#aws_account Identity#aws_account}
   */
   readonly awsAccount?: string;
   /**
   * The exact Arn that must appear in GetCallerIdentity to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#aws_arn Identity#aws_arn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#aws_arn Identity#aws_arn}
   */
   readonly awsArn?: string;
   /**
   * A pattern for matching acceptable Arn that must appear in GetCallerIdentity response to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#aws_arn_pattern Identity#aws_arn_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#aws_arn_pattern Identity#aws_arn_pattern}
   */
   readonly awsArnPattern?: string;
   /**
   * The exact UserId that must appear in GetCallerIdentity to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#aws_user_id Identity#aws_user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#aws_user_id Identity#aws_user_id}
   */
   readonly awsUserId?: string;
   /**
   * A pattern for matching acceptable UserID that must appear in GetCallerIdentity response to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#aws_user_id_pattern Identity#aws_user_id_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#aws_user_id_pattern Identity#aws_user_id_pattern}
   */
   readonly awsUserIdPattern?: string;
 }
@@ -290,49 +290,49 @@ export interface IdentityClaimMatch {
   /**
   * The exact audience that must appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#audience Identity#audience}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#audience Identity#audience}
   */
   readonly audience?: string;
   /**
   * A pattern for matching acceptable audiences that appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#audience_pattern Identity#audience_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#audience_pattern Identity#audience_pattern}
   */
   readonly audiencePattern?: string;
   /**
   * The custom claim patterns for matching acceptable custom claims that appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#claim_patterns Identity#claim_patterns}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#claim_patterns Identity#claim_patterns}
   */
   readonly claimPatterns?: { [key: string]: string };
   /**
   * The exact custom claims that appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#claims Identity#claims}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#claims Identity#claims}
   */
   readonly claims?: { [key: string]: string };
   /**
   * The exact issuer that must appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#issuer Identity#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#issuer Identity#issuer}
   */
   readonly issuer?: string;
   /**
   * A pattern for matching acceptable issuers that appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#issuer_pattern Identity#issuer_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#issuer_pattern Identity#issuer_pattern}
   */
   readonly issuerPattern?: string;
   /**
   * The exact subject that must appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#subject Identity#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#subject Identity#subject}
   */
   readonly subject?: string;
   /**
   * A pattern for matching acceptable subjects that appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#subject_pattern Identity#subject_pattern}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#subject_pattern Identity#subject_pattern}
   */
   readonly subjectPattern?: string;
 }
@@ -631,25 +631,25 @@ export interface IdentityStatic {
   /**
   * The RFC3339 encoded date and time at which this identity will no longer be valid.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#expiration Identity#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#expiration Identity#expiration}
   */
   readonly expiration?: string;
   /**
   * The exact issuer that must appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#issuer Identity#issuer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#issuer Identity#issuer}
   */
   readonly issuer?: string;
   /**
   * The JSON web key set (JWKS) of the OIDC issuer that should be used to verify tokens.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#issuer_keys Identity#issuer_keys}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#issuer_keys Identity#issuer_keys}
   */
   readonly issuerKeys?: string;
   /**
   * The exact subject that must appear in tokens to assume this identity.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#subject Identity#subject}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#subject Identity#subject}
   */
   readonly subject?: string;
 }
@@ -830,7 +830,7 @@ export class IdentityStaticOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity chainguard_identity}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity chainguard_identity}
 */
 export class Identity extends cdktf.TerraformResource {
 
@@ -846,7 +846,7 @@ export class Identity extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Identity resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Identity to import
-  * @param importFromId The id of the existing Identity that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Identity that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Identity to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -858,7 +858,7 @@ export class Identity extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/resources/identity chainguard_identity} Resource
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/resources/identity chainguard_identity} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -869,8 +869,8 @@ export class Identity extends cdktf.TerraformResource {
       terraformResourceType: 'chainguard_identity',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.42',
-        providerVersionConstraint: '0.1.42'
+        providerVersion: '0.1.43',
+        providerVersionConstraint: '0.1.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "chainguard": "0.1.42"
+    "chainguard": "0.1.43"
   }
 }

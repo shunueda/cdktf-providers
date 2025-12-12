@@ -1,3 +1,3 @@
 # `cloudsmith_saml`
 
-Refer to the Terraform Registry for docs: [`cloudsmith_saml`](https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/saml).
+Refer to the Terraform Registry for docs: [`cloudsmith_saml`](https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/saml).

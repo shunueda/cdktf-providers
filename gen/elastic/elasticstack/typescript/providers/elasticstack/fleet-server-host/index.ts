@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface FleetServerHostConfig extends cdktf.TerraformMetaArguments {
   /**
   * Set as default.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host#default FleetServerHost#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host#default FleetServerHost#default}
   */
   readonly default?: boolean | cdktf.IResolvable;
   /**
   * Unique identifier of the Fleet server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host#host_id FleetServerHost#host_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host#host_id FleetServerHost#host_id}
   */
   readonly hostId?: string;
   /**
   * A list of hosts.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host#hosts FleetServerHost#hosts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host#hosts FleetServerHost#hosts}
   */
   readonly hosts: string[];
   /**
   * The name of the Fleet server host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host#name FleetServerHost#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host#name FleetServerHost#name}
   */
   readonly name: string;
   /**
   * The Kibana space IDs where this server host is available. When set, the server host will be created and managed within the specified space. Note: The order of space IDs does not matter as this is a set.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host#space_ids FleetServerHost#space_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host#space_ids FleetServerHost#space_ids}
   */
   readonly spaceIds?: string[];
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host elasticstack_fleet_server_host}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host elasticstack_fleet_server_host}
 */
 export class FleetServerHost extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class FleetServerHost extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a FleetServerHost resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the FleetServerHost to import
-  * @param importFromId The id of the existing FleetServerHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing FleetServerHost that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the FleetServerHost to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class FleetServerHost extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/fleet_server_host elasticstack_fleet_server_host} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/fleet_server_host elasticstack_fleet_server_host} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class FleetServerHost extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_fleet_server_host',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

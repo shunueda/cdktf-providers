@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface ApmAgentConfigurationConfig extends cdktf.TerraformMetaArgument
   /**
   * The agent name is used by the UI to determine which settings to display.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration#agent_name ApmAgentConfiguration#agent_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration#agent_name ApmAgentConfiguration#agent_name}
   */
   readonly agentName?: string;
   /**
   * The environment of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration#service_environment ApmAgentConfiguration#service_environment}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration#service_environment ApmAgentConfiguration#service_environment}
   */
   readonly serviceEnvironment?: string;
   /**
   * The name of the service.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration#service_name ApmAgentConfiguration#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration#service_name ApmAgentConfiguration#service_name}
   */
   readonly serviceName: string;
   /**
   * Agent configuration settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration#settings ApmAgentConfiguration#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration#settings ApmAgentConfiguration#settings}
   */
   readonly settings: { [key: string]: string };
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration elasticstack_apm_agent_configuration}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration elasticstack_apm_agent_configuration}
 */
 export class ApmAgentConfiguration extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class ApmAgentConfiguration extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApmAgentConfiguration resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApmAgentConfiguration to import
-  * @param importFromId The id of the existing ApmAgentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApmAgentConfiguration that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApmAgentConfiguration to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class ApmAgentConfiguration extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/apm_agent_configuration elasticstack_apm_agent_configuration} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/apm_agent_configuration elasticstack_apm_agent_configuration} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class ApmAgentConfiguration extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_apm_agent_configuration',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

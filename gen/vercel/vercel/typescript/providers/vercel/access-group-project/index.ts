@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface AccessGroupProjectConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the Access Group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project#access_group_id AccessGroupProject#access_group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project#access_group_id AccessGroupProject#access_group_id}
   */
   readonly accessGroupId: string;
   /**
   * The Project ID to assign to the access group.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project#project_id AccessGroupProject#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project#project_id AccessGroupProject#project_id}
   */
   readonly projectId: string;
   /**
   * The project role to assign to the access group. Must be either `ADMIN`, `PROJECT_DEVELOPER`, or `PROJECT_VIEWER`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project#role AccessGroupProject#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project#role AccessGroupProject#role}
   */
   readonly role: string;
   /**
   * The ID of the team the access group project should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project#team_id AccessGroupProject#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project#team_id AccessGroupProject#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project vercel_access_group_project}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project vercel_access_group_project}
 */
 export class AccessGroupProject extends cdktf.TerraformResource {
 
@@ -50,7 +50,7 @@ export class AccessGroupProject extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a AccessGroupProject resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the AccessGroupProject to import
-  * @param importFromId The id of the existing AccessGroupProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing AccessGroupProject that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the AccessGroupProject to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class AccessGroupProject extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/access_group_project vercel_access_group_project} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/access_group_project vercel_access_group_project} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class AccessGroupProject extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_access_group_project',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

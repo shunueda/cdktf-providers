@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelLogDrainConfig extends cdktf.TerraformMetaArguments {
   /**
   * Logs will be sent as POST requests to this URL. The endpoint will be verified, and must return a `200` status code and an `x-vercel-verify` header taken from the endpoint_verification data source. The value the `x-vercel-verify` header should be can be read from the `vercel_endpoint_verification_code` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain#endpoint DataVercelLogDrain#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain#endpoint DataVercelLogDrain#endpoint}
   */
   readonly endpoint: string;
   /**
   * The ID of the Log Drain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain#id DataVercelLogDrain#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain#id DataVercelLogDrain#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -25,13 +25,13 @@ export interface DataVercelLogDrainConfig extends cdktf.TerraformMetaArguments {
   /**
   * The ID of the team the Log Drain should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain#team_id DataVercelLogDrain#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain#team_id DataVercelLogDrain#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain vercel_log_drain}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain vercel_log_drain}
 */
 export class DataVercelLogDrain extends cdktf.TerraformDataSource {
 
@@ -47,7 +47,7 @@ export class DataVercelLogDrain extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelLogDrain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelLogDrain to import
-  * @param importFromId The id of the existing DataVercelLogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelLogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelLogDrain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -59,7 +59,7 @@ export class DataVercelLogDrain extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/log_drain vercel_log_drain} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/log_drain vercel_log_drain} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -70,8 +70,8 @@ export class DataVercelLogDrain extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_log_drain',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

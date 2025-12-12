@@ -1,3 +1,3 @@
 # `castai_reservations`
 
-Refer to the Terraform Registry for docs: [`castai_reservations`](https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/reservations).
+Refer to the Terraform Registry for docs: [`castai_reservations`](https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/reservations).

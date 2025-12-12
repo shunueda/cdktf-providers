@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface RepositoryPrivilegesConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#id RepositoryPrivileges#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#id RepositoryPrivileges#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,41 +17,41 @@ export interface RepositoryPrivilegesConfig extends cdktf.TerraformMetaArguments
   /**
   * Organization to which this repository belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#organization RepositoryPrivileges#organization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#organization RepositoryPrivileges#organization}
   */
   readonly organization: string;
   /**
   * Repository to which these privileges belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#repository RepositoryPrivileges#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#repository RepositoryPrivileges#repository}
   */
   readonly repository: string;
   /**
   * service block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#service RepositoryPrivileges#service}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#service RepositoryPrivileges#service}
   */
   readonly service?: RepositoryPrivilegesService[] | cdktf.IResolvable;
   /**
   * team block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#team RepositoryPrivileges#team}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#team RepositoryPrivileges#team}
   */
   readonly team?: RepositoryPrivilegesTeam[] | cdktf.IResolvable;
   /**
   * user block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#user RepositoryPrivileges#user}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#user RepositoryPrivileges#user}
   */
   readonly user?: RepositoryPrivilegesUser[] | cdktf.IResolvable;
 }
 export interface RepositoryPrivilegesService {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#privilege RepositoryPrivileges#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#privilege RepositoryPrivileges#privilege}
   */
   readonly privilege: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#slug RepositoryPrivileges#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#slug RepositoryPrivileges#slug}
   */
   readonly slug: string;
 }
@@ -190,11 +190,11 @@ export class RepositoryPrivilegesServiceList extends cdktf.ComplexList {
 }
 export interface RepositoryPrivilegesTeam {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#privilege RepositoryPrivileges#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#privilege RepositoryPrivileges#privilege}
   */
   readonly privilege: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#slug RepositoryPrivileges#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#slug RepositoryPrivileges#slug}
   */
   readonly slug: string;
 }
@@ -333,11 +333,11 @@ export class RepositoryPrivilegesTeamList extends cdktf.ComplexList {
 }
 export interface RepositoryPrivilegesUser {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#privilege RepositoryPrivileges#privilege}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#privilege RepositoryPrivileges#privilege}
   */
   readonly privilege: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#slug RepositoryPrivileges#slug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#slug RepositoryPrivileges#slug}
   */
   readonly slug: string;
 }
@@ -476,7 +476,7 @@ export class RepositoryPrivilegesUserList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges cloudsmith_repository_privileges}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges cloudsmith_repository_privileges}
 */
 export class RepositoryPrivileges extends cdktf.TerraformResource {
 
@@ -492,7 +492,7 @@ export class RepositoryPrivileges extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryPrivileges resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryPrivileges to import
-  * @param importFromId The id of the existing RepositoryPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryPrivileges that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryPrivileges to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -504,7 +504,7 @@ export class RepositoryPrivileges extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_privileges cloudsmith_repository_privileges} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_privileges cloudsmith_repository_privileges} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -515,8 +515,8 @@ export class RepositoryPrivileges extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_repository_privileges',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

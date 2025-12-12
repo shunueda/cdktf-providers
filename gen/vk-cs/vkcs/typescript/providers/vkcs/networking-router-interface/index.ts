@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -8,7 +8,7 @@ import * as cdktf from 'cdktf';
 
 export interface NetworkingRouterInterfaceConfig extends cdktf.TerraformMetaArguments {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#id NetworkingRouterInterface#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#id NetworkingRouterInterface#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -17,47 +17,47 @@ export interface NetworkingRouterInterfaceConfig extends cdktf.TerraformMetaArgu
   /**
   * ID of the port this interface connects to. Changing this creates a new router interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#port_id NetworkingRouterInterface#port_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#port_id NetworkingRouterInterface#port_id}
   */
   readonly portId?: string;
   /**
   * The region in which to obtain the networking client. A networking client is needed to create a router. If omitted, the `region` argument of the provider is used. Changing this creates a new router interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#region NetworkingRouterInterface#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#region NetworkingRouterInterface#region}
   */
   readonly region?: string;
   /**
   * ID of the router this interface belongs to. Changing this creates a new router interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#router_id NetworkingRouterInterface#router_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#router_id NetworkingRouterInterface#router_id}
   */
   readonly routerId: string;
   /**
   * SDN to use for this resource. Must be one of following: "neutron", "sprut". Default value is project's default SDN.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#sdn NetworkingRouterInterface#sdn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#sdn NetworkingRouterInterface#sdn}
   */
   readonly sdn?: string;
   /**
   * ID of the subnet this interface connects to. Changing this creates a new router interface.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#subnet_id NetworkingRouterInterface#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#subnet_id NetworkingRouterInterface#subnet_id}
   */
   readonly subnetId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#timeouts NetworkingRouterInterface#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#timeouts NetworkingRouterInterface#timeouts}
   */
   readonly timeouts?: NetworkingRouterInterfaceTimeouts;
 }
 export interface NetworkingRouterInterfaceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#create NetworkingRouterInterface#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#create NetworkingRouterInterface#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#delete NetworkingRouterInterface#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#delete NetworkingRouterInterface#delete}
   */
   readonly delete?: string;
 }
@@ -180,7 +180,7 @@ export class NetworkingRouterInterfaceTimeoutsOutputReference extends cdktf.Comp
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface vkcs_networking_router_interface}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface vkcs_networking_router_interface}
 */
 export class NetworkingRouterInterface extends cdktf.TerraformResource {
 
@@ -196,7 +196,7 @@ export class NetworkingRouterInterface extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a NetworkingRouterInterface resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the NetworkingRouterInterface to import
-  * @param importFromId The id of the existing NetworkingRouterInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing NetworkingRouterInterface that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the NetworkingRouterInterface to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -208,7 +208,7 @@ export class NetworkingRouterInterface extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/networking_router_interface vkcs_networking_router_interface} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/networking_router_interface vkcs_networking_router_interface} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -219,8 +219,8 @@ export class NetworkingRouterInterface extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_networking_router_interface',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

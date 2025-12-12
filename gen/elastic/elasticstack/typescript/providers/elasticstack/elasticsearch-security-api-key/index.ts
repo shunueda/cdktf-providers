@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface ElasticsearchSecurityApiKeyConfig extends cdktf.TerraformMetaAr
   /**
   * Access configuration for cross-cluster API keys. Only applicable when type is 'cross_cluster'.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#access ElasticsearchSecurityApiKey#access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#access ElasticsearchSecurityApiKey#access}
   */
   readonly access?: ElasticsearchSecurityApiKeyAccess;
   /**
   * Expiration time for the API key. By default, API keys never expire.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#expiration ElasticsearchSecurityApiKey#expiration}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#expiration ElasticsearchSecurityApiKey#expiration}
   */
   readonly expiration?: string;
   /**
   * Arbitrary metadata that you want to associate with the API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#metadata ElasticsearchSecurityApiKey#metadata}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#metadata ElasticsearchSecurityApiKey#metadata}
   */
   readonly metadata?: string;
   /**
   * Specifies the name for this API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#name ElasticsearchSecurityApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#name ElasticsearchSecurityApiKey#name}
   */
   readonly name: string;
   /**
   * Role descriptors for this API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#role_descriptors ElasticsearchSecurityApiKey#role_descriptors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#role_descriptors ElasticsearchSecurityApiKey#role_descriptors}
   */
   readonly roleDescriptors?: string;
   /**
   * The type of API key. Valid values are 'rest' (default) and 'cross_cluster'. Cross-cluster API keys are used for cross-cluster search and replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#type ElasticsearchSecurityApiKey#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#type ElasticsearchSecurityApiKey#type}
   */
   readonly type?: string;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#elasticsearch_connection ElasticsearchSecurityApiKey#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#elasticsearch_connection ElasticsearchSecurityApiKey#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchSecurityApiKeyElasticsearchConnection[] | cdktf.IResolvable;
 }
@@ -54,7 +54,7 @@ export interface ElasticsearchSecurityApiKeyAccessReplication {
   /**
   * A list of index patterns for replication.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#names ElasticsearchSecurityApiKey#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#names ElasticsearchSecurityApiKey#names}
   */
   readonly names: string[];
 }
@@ -169,25 +169,25 @@ export interface ElasticsearchSecurityApiKeyAccessSearch {
   /**
   * Whether to allow access to restricted indices.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#allow_restricted_indices ElasticsearchSecurityApiKey#allow_restricted_indices}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#allow_restricted_indices ElasticsearchSecurityApiKey#allow_restricted_indices}
   */
   readonly allowRestrictedIndices?: boolean | cdktf.IResolvable;
   /**
   * Field-level security configuration in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#field_security ElasticsearchSecurityApiKey#field_security}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#field_security ElasticsearchSecurityApiKey#field_security}
   */
   readonly fieldSecurity?: string;
   /**
   * A list of index patterns for search.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#names ElasticsearchSecurityApiKey#names}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#names ElasticsearchSecurityApiKey#names}
   */
   readonly names: string[];
   /**
   * Query to filter documents for search operations in JSON format.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#query ElasticsearchSecurityApiKey#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#query ElasticsearchSecurityApiKey#query}
   */
   readonly query?: string;
 }
@@ -389,13 +389,13 @@ export interface ElasticsearchSecurityApiKeyAccess {
   /**
   * A list of replication configurations for which the cross-cluster API key will have replication privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#replication ElasticsearchSecurityApiKey#replication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#replication ElasticsearchSecurityApiKey#replication}
   */
   readonly replication?: ElasticsearchSecurityApiKeyAccessReplication[] | cdktf.IResolvable;
   /**
   * A list of search configurations for which the cross-cluster API key will have search privileges.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#search ElasticsearchSecurityApiKey#search}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#search ElasticsearchSecurityApiKey#search}
   */
   readonly search?: ElasticsearchSecurityApiKeyAccessSearch[] | cdktf.IResolvable;
 }
@@ -520,85 +520,85 @@ export interface ElasticsearchSecurityApiKeyElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#api_key ElasticsearchSecurityApiKey#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#api_key ElasticsearchSecurityApiKey#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#bearer_token ElasticsearchSecurityApiKey#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#bearer_token ElasticsearchSecurityApiKey#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#ca_data ElasticsearchSecurityApiKey#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#ca_data ElasticsearchSecurityApiKey#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#ca_file ElasticsearchSecurityApiKey#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#ca_file ElasticsearchSecurityApiKey#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#cert_data ElasticsearchSecurityApiKey#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#cert_data ElasticsearchSecurityApiKey#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#cert_file ElasticsearchSecurityApiKey#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#cert_file ElasticsearchSecurityApiKey#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#endpoints ElasticsearchSecurityApiKey#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#endpoints ElasticsearchSecurityApiKey#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#es_client_authentication ElasticsearchSecurityApiKey#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#es_client_authentication ElasticsearchSecurityApiKey#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#headers ElasticsearchSecurityApiKey#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#headers ElasticsearchSecurityApiKey#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#insecure ElasticsearchSecurityApiKey#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#insecure ElasticsearchSecurityApiKey#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#key_data ElasticsearchSecurityApiKey#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#key_data ElasticsearchSecurityApiKey#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#key_file ElasticsearchSecurityApiKey#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#key_file ElasticsearchSecurityApiKey#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#password ElasticsearchSecurityApiKey#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#password ElasticsearchSecurityApiKey#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#username ElasticsearchSecurityApiKey#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#username ElasticsearchSecurityApiKey#username}
   */
   readonly username?: string;
 }
@@ -1091,7 +1091,7 @@ export class ElasticsearchSecurityApiKeyElasticsearchConnectionList extends cdkt
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key elasticstack_elasticsearch_security_api_key}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key elasticstack_elasticsearch_security_api_key}
 */
 export class ElasticsearchSecurityApiKey extends cdktf.TerraformResource {
 
@@ -1107,7 +1107,7 @@ export class ElasticsearchSecurityApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ElasticsearchSecurityApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchSecurityApiKey to import
-  * @param importFromId The id of the existing ElasticsearchSecurityApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchSecurityApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchSecurityApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1119,7 +1119,7 @@ export class ElasticsearchSecurityApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_security_api_key elasticstack_elasticsearch_security_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_security_api_key elasticstack_elasticsearch_security_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1130,8 +1130,8 @@ export class ElasticsearchSecurityApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_elasticsearch_security_api_key',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

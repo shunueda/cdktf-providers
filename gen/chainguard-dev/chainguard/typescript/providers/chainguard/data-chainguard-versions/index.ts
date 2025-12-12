@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/versions
+// https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/data-sources/versions
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataChainguardVersionsConfig extends cdktf.TerraformMetaArgumen
   /**
   * The name of the package to lookup.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/versions#package DataChainguardVersions#package}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/data-sources/versions#package DataChainguardVersions#package}
   */
   readonly package: string;
   /**
   * A package variant (e.g. fips).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/versions#variant DataChainguardVersions#variant}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/data-sources/versions#variant DataChainguardVersions#variant}
   */
   readonly variant?: string;
 }
@@ -401,7 +401,7 @@ export class DataChainguardVersionsVersionsOutputReference extends cdktf.Complex
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/versions chainguard_versions}
+* Represents a {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/data-sources/versions chainguard_versions}
 */
 export class DataChainguardVersions extends cdktf.TerraformDataSource {
 
@@ -417,7 +417,7 @@ export class DataChainguardVersions extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataChainguardVersions resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataChainguardVersions to import
-  * @param importFromId The id of the existing DataChainguardVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/versions#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataChainguardVersions that should be imported. Refer to the {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/data-sources/versions#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataChainguardVersions to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -429,7 +429,7 @@ export class DataChainguardVersions extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.42/docs/data-sources/versions chainguard_versions} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/chainguard-dev/chainguard/0.1.43/docs/data-sources/versions chainguard_versions} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -440,8 +440,8 @@ export class DataChainguardVersions extends cdktf.TerraformDataSource {
       terraformResourceType: 'chainguard_versions',
       terraformGeneratorMetadata: {
         providerName: 'chainguard',
-        providerVersion: '0.1.42',
-        providerVersionConstraint: '0.1.42'
+        providerVersion: '0.1.43',
+        providerVersionConstraint: '0.1.43'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

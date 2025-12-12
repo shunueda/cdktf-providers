@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,13 +10,13 @@ export interface DataVercelTeamMemberConfig extends cdktf.TerraformMetaArguments
   /**
   * The ID of the existing Vercel Team.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member#team_id DataVercelTeamMember#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member#team_id DataVercelTeamMember#team_id}
   */
   readonly teamId: string;
   /**
   * The ID of the existing Vercel Team Member.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member#user_id DataVercelTeamMember#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member#user_id DataVercelTeamMember#user_id}
   */
   readonly userId: string;
 }
@@ -24,13 +24,13 @@ export interface DataVercelTeamMemberProjects {
   /**
   * The ID of the project that the user should be granted access to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member#project_id DataVercelTeamMember#project_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member#project_id DataVercelTeamMember#project_id}
   */
   readonly projectId: string;
   /**
   * The role that the user should have in the project.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member#role DataVercelTeamMember#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member#role DataVercelTeamMember#role}
   */
   readonly role: string;
 }
@@ -159,7 +159,7 @@ export class DataVercelTeamMemberProjectsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member vercel_team_member}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member vercel_team_member}
 */
 export class DataVercelTeamMember extends cdktf.TerraformDataSource {
 
@@ -175,7 +175,7 @@ export class DataVercelTeamMember extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVercelTeamMember resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVercelTeamMember to import
-  * @param importFromId The id of the existing DataVercelTeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVercelTeamMember that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVercelTeamMember to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -187,7 +187,7 @@ export class DataVercelTeamMember extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/data-sources/team_member vercel_team_member} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/data-sources/team_member vercel_team_member} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -198,8 +198,8 @@ export class DataVercelTeamMember extends cdktf.TerraformDataSource {
       terraformResourceType: 'vercel_team_member',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

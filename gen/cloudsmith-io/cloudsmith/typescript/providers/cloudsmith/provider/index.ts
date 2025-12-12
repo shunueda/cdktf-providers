@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,31 +10,31 @@ export interface CloudsmithProviderConfig {
   /**
   * The API host to connect to (mostly useful for testing).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs#api_host CloudsmithProvider#api_host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs#api_host CloudsmithProvider#api_host}
   */
   readonly apiHost?: string;
   /**
   * The API key for authenticating with the Cloudsmith API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs#api_key CloudsmithProvider#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs#api_key CloudsmithProvider#api_key}
   */
   readonly apiKey: string;
   /**
   * Additional HTTP headers to include in API requests
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs#headers CloudsmithProvider#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs#headers CloudsmithProvider#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Alias name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs#alias CloudsmithProvider#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs#alias CloudsmithProvider#alias}
   */
   readonly alias?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs cloudsmith}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs cloudsmith}
 */
 export class CloudsmithProvider extends cdktf.TerraformProvider {
 
@@ -50,7 +50,7 @@ export class CloudsmithProvider extends cdktf.TerraformProvider {
   * Generates CDKTF code for importing a CloudsmithProvider resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the CloudsmithProvider to import
-  * @param importFromId The id of the existing CloudsmithProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing CloudsmithProvider that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the CloudsmithProvider to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -62,7 +62,7 @@ export class CloudsmithProvider extends cdktf.TerraformProvider {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs cloudsmith} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs cloudsmith} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -73,8 +73,8 @@ export class CloudsmithProvider extends cdktf.TerraformProvider {
       terraformResourceType: 'cloudsmith',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       terraformProviderSource: 'cloudsmith-io/cloudsmith'
     });

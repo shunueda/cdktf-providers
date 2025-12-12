@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink
+// https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface SinkConfig extends cdktf.TerraformMetaArguments {
   /**
   * A detailed text describes the sink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink#description Sink#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink#description Sink#description}
   */
   readonly description?: string;
   /**
   * The human-friendly name for the sink
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink#name Sink#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink#name Sink#name}
   */
   readonly name: string;
   /**
   * A JSON object defines the configurations for the specific sink type. The properites could contain sensitive information like password, secret, etc.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink#properties Sink#properties}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink#properties Sink#properties}
   */
   readonly properties: string;
   /**
   * The query the sink uses to generate data
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink#query Sink#query}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink#query Sink#query}
   */
   readonly query: string;
   /**
   * The type of the sink, refer to the Timeplus document for supported sink types
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink#type Sink#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink#type Sink#type}
   */
   readonly type: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink timeplus_sink}
+* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink timeplus_sink}
 */
 export class Sink extends cdktf.TerraformResource {
 
@@ -56,7 +56,7 @@ export class Sink extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Sink resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Sink to import
-  * @param importFromId The id of the existing Sink that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Sink that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Sink to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -68,7 +68,7 @@ export class Sink extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/sink timeplus_sink} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/sink timeplus_sink} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -79,8 +79,8 @@ export class Sink extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_sink',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

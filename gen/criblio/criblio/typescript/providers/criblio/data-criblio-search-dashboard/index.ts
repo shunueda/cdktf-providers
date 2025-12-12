@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/search_dashboard
+// https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface DataCriblioSearchDashboardConfig extends cdktf.TerraformMetaArg
   /**
   * Unique ID to GET
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/search_dashboard#id DataCriblioSearchDashboard#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard#id DataCriblioSearchDashboard#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
   */
   readonly id: string;
 }
-export interface DataCriblioSearchDashboardElementsElementLayout {
+export interface DataCriblioSearchDashboardElementsDashboardElementConfig {
 }
 
-export function dataCriblioSearchDashboardElementsElementLayoutToTerraform(struct?: DataCriblioSearchDashboardElementsElementLayout): any {
+export function dataCriblioSearchDashboardElementsDashboardElementConfigToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -30,7 +30,7 @@ export function dataCriblioSearchDashboardElementsElementLayoutToTerraform(struc
 }
 
 
-export function dataCriblioSearchDashboardElementsElementLayoutToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementLayout): any {
+export function dataCriblioSearchDashboardElementsDashboardElementConfigToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementConfig): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -40,7 +40,7 @@ export function dataCriblioSearchDashboardElementsElementLayoutToHclTerraform(st
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementLayoutOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementConfigOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -51,13 +51,67 @@ export class DataCriblioSearchDashboardElementsElementLayoutOutputReference exte
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementLayout | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementConfig | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementLayout | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // markdown - computed: true, optional: false, required: false
+  public get markdown() {
+    return this.getStringAttribute('markdown');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementLayout {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementLayoutToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementLayout): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementLayoutToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementLayout): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementLayoutOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementLayout | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementLayout | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -86,10 +140,10 @@ export class DataCriblioSearchDashboardElementsElementLayoutOutputReference exte
     return this.getNumberAttribute('y');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliest {
+export interface DataCriblioSearchDashboardElementsDashboardElementSearch {
 }
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliestToTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliest): any {
+export function dataCriblioSearchDashboardElementsDashboardElementSearchToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementSearch): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -99,7 +153,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInline
 }
 
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliestToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliest): any {
+export function dataCriblioSearchDashboardElementsDashboardElementSearchToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementSearch): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -109,7 +163,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInline
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliestOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementSearchOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -120,13 +174,239 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEar
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliest | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementSearch | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliest | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementSearch | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // alias - computed: true, optional: false, required: false
+  public get alias() {
+    return this.getStringAttribute('alias');
+  }
+
+  // local_id - computed: true, optional: false, required: false
+  public get localId() {
+    return this.getStringAttribute('local_id');
+  }
+
+  // query - computed: true, optional: false, required: false
+  public get query() {
+    return this.getStringAttribute('query');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementTitleAction {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementTitleActionToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementTitleAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementTitleActionToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementTitleAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementTitleActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementTitleAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementTitleAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // open_in_new_tab - computed: true, optional: false, required: false
+  public get openInNewTab() {
+    return this.getBooleanAttribute('open_in_new_tab');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElement {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElement): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElement): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElement | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElement | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // config - computed: true, optional: false, required: false
+  private _config = new DataCriblioSearchDashboardElementsDashboardElementConfigOutputReference(this, "config");
+  public get config() {
+    return this._config;
+  }
+
+  // hide_panel - computed: true, optional: false, required: false
+  public get hidePanel() {
+    return this.getBooleanAttribute('hide_panel');
+  }
+
+  // horizontal_chart - computed: true, optional: false, required: false
+  public get horizontalChart() {
+    return this.getBooleanAttribute('horizontal_chart');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // layout - computed: true, optional: false, required: false
+  private _layout = new DataCriblioSearchDashboardElementsDashboardElementLayoutOutputReference(this, "layout");
+  public get layout() {
+    return this._layout;
+  }
+
+  // search - computed: true, optional: false, required: false
+  private _search = new DataCriblioSearchDashboardElementsDashboardElementSearchOutputReference(this, "search");
+  public get search() {
+    return this._search;
+  }
+
+  // title_action - computed: true, optional: false, required: false
+  private _titleAction = new DataCriblioSearchDashboardElementsDashboardElementTitleActionOutputReference(this, "title_action");
+  public get titleAction() {
+    return this._titleAction;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+
+  // variant - computed: true, optional: false, required: false
+  public get variant() {
+    return this.getStringAttribute('variant');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliest {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliestToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliestToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliest | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -145,10 +425,10 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEar
     return this.getStringAttribute('str');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatest {
+export interface DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatest {
 }
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatestToTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatest): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatestToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatest): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -158,7 +438,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInline
 }
 
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatestToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatest): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatestToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatest): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -168,7 +448,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInline
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatestOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatestOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -179,13 +459,13 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLat
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatest | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatest | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatest | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatest | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -204,10 +484,10 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLat
     return this.getStringAttribute('str');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementSearchSearchQueryInline {
+export interface DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValue {
 }
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInlineToTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryInline): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValue): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -217,7 +497,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInline
 }
 
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInlineToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryInline): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValue): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -227,7 +507,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryInline
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -238,13 +518,13 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineOut
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementSearchSearchQueryInline | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValue | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementSearchSearchQueryInline | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValue | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -254,13 +534,386 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineOut
   }
 
   // earliest - computed: true, optional: false, required: false
-  private _earliest = new DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineEarliestOutputReference(this, "earliest");
+  private _earliest = new DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueEarliestOutputReference(this, "earliest");
   public get earliest() {
     return this._earliest;
   }
 
   // latest - computed: true, optional: false, required: false
-  private _latest = new DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineLatestOutputReference(this, "latest");
+  private _latest = new DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueLatestOutputReference(this, "latest");
+  public get latest() {
+    return this._latest;
+  }
+
+  // timezone - computed: true, optional: false, required: false
+  public get timezone() {
+    return this.getStringAttribute('timezone');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValue {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValue): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValue): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValue | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValue | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default_value - computed: true, optional: false, required: false
+  private _defaultValue = new DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueDefaultValueOutputReference(this, "default_value");
+  public get defaultValue() {
+    return this._defaultValue;
+  }
+
+  // number - computed: true, optional: false, required: false
+  public get number() {
+    return this.getNumberAttribute('number');
+  }
+
+  // str - computed: true, optional: false, required: false
+  public get str() {
+    return this.getStringAttribute('str');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputConfig {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputConfigToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputConfig): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputConfigOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputConfig | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputConfig | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // default_value - computed: true, optional: false, required: false
+  private _defaultValue = new DataCriblioSearchDashboardElementsDashboardElementInputConfigDefaultValueOutputReference(this, "default_value");
+  public get defaultValue() {
+    return this._defaultValue;
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputLayout {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputLayoutToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputLayout): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputLayoutToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputLayout): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputLayoutOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputLayout | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputLayout | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // h - computed: true, optional: false, required: false
+  public get h() {
+    return this.getNumberAttribute('h');
+  }
+
+  // w - computed: true, optional: false, required: false
+  public get w() {
+    return this.getNumberAttribute('w');
+  }
+
+  // x - computed: true, optional: false, required: false
+  public get x() {
+    return this.getNumberAttribute('x');
+  }
+
+  // y - computed: true, optional: false, required: false
+  public get y() {
+    return this.getNumberAttribute('y');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliest {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliestToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliestToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // number - computed: true, optional: false, required: false
+  public get number() {
+    return this.getNumberAttribute('number');
+  }
+
+  // str - computed: true, optional: false, required: false
+  public get str() {
+    return this.getStringAttribute('str');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatest {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatestToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatestToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // number - computed: true, optional: false, required: false
+  public get number() {
+    return this.getNumberAttribute('number');
+  }
+
+  // str - computed: true, optional: false, required: false
+  public get str() {
+    return this.getStringAttribute('str');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInline {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInline): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInline): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInline | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInline | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // earliest - computed: true, optional: false, required: false
+  private _earliest = new DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineEarliestOutputReference(this, "earliest");
+  public get earliest() {
+    return this._earliest;
+  }
+
+  // latest - computed: true, optional: false, required: false
+  private _latest = new DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineLatestOutputReference(this, "latest");
   public get latest() {
     return this._latest;
   }
@@ -290,10 +943,10 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineOut
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementSearchSearchQuerySaved {
+export interface DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySaved {
 }
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQuerySavedToTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQuerySaved): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySavedToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySaved): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -303,7 +956,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQuerySavedT
 }
 
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQuerySavedToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQuerySaved): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySavedToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySaved): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -313,7 +966,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQuerySavedT
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementSearchSearchQuerySavedOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySavedOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -324,13 +977,13 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQuerySavedOutp
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementSearchSearchQuerySaved | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySaved | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementSearchSearchQuerySaved | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySaved | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -359,10 +1012,10 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQuerySavedOutp
     return this.getStringAttribute('type');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementSearchSearchQueryValues {
+export interface DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValues {
 }
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryValuesToTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryValues): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValuesToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValues): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -372,7 +1025,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryValues
 }
 
 
-export function dataCriblioSearchDashboardElementsElementSearchSearchQueryValuesToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementSearchSearchQueryValues): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValuesToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValues): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -382,7 +1035,7 @@ export function dataCriblioSearchDashboardElementsElementSearchSearchQueryValues
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementSearchSearchQueryValuesOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValuesOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -393,13 +1046,13 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryValuesOut
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementSearchSearchQueryValues | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValues | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementSearchSearchQueryValues | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValues | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -418,10 +1071,10 @@ export class DataCriblioSearchDashboardElementsElementSearchSearchQueryValuesOut
     return this.getListAttribute('values');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementSearch {
+export interface DataCriblioSearchDashboardElementsDashboardElementInputSearch {
 }
 
-export function dataCriblioSearchDashboardElementsElementSearchToTerraform(struct?: DataCriblioSearchDashboardElementsElementSearch): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearch): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -431,7 +1084,7 @@ export function dataCriblioSearchDashboardElementsElementSearchToTerraform(struc
 }
 
 
-export function dataCriblioSearchDashboardElementsElementSearchToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementSearch): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputSearchToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputSearch): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -441,7 +1094,7 @@ export function dataCriblioSearchDashboardElementsElementSearchToHclTerraform(st
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementSearchOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementInputSearchOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -452,13 +1105,13 @@ export class DataCriblioSearchDashboardElementsElementSearchOutputReference exte
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementSearch | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputSearch | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementSearch | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputSearch | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -468,27 +1121,27 @@ export class DataCriblioSearchDashboardElementsElementSearchOutputReference exte
   }
 
   // search_query_inline - computed: true, optional: false, required: false
-  private _searchQueryInline = new DataCriblioSearchDashboardElementsElementSearchSearchQueryInlineOutputReference(this, "search_query_inline");
+  private _searchQueryInline = new DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryInlineOutputReference(this, "search_query_inline");
   public get searchQueryInline() {
     return this._searchQueryInline;
   }
 
   // search_query_saved - computed: true, optional: false, required: false
-  private _searchQuerySaved = new DataCriblioSearchDashboardElementsElementSearchSearchQuerySavedOutputReference(this, "search_query_saved");
+  private _searchQuerySaved = new DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQuerySavedOutputReference(this, "search_query_saved");
   public get searchQuerySaved() {
     return this._searchQuerySaved;
   }
 
   // search_query_values - computed: true, optional: false, required: false
-  private _searchQueryValues = new DataCriblioSearchDashboardElementsElementSearchSearchQueryValuesOutputReference(this, "search_query_values");
+  private _searchQueryValues = new DataCriblioSearchDashboardElementsDashboardElementInputSearchSearchQueryValuesOutputReference(this, "search_query_values");
   public get searchQueryValues() {
     return this._searchQueryValues;
   }
 }
-export interface DataCriblioSearchDashboardElementsElement {
+export interface DataCriblioSearchDashboardElementsDashboardElementInputTitleAction {
 }
 
-export function dataCriblioSearchDashboardElementsElementToTerraform(struct?: DataCriblioSearchDashboardElementsElement): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputTitleActionToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputTitleAction): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -498,7 +1151,7 @@ export function dataCriblioSearchDashboardElementsElementToTerraform(struct?: Da
 }
 
 
-export function dataCriblioSearchDashboardElementsElementToHclTerraform(struct?: DataCriblioSearchDashboardElementsElement): any {
+export function dataCriblioSearchDashboardElementsDashboardElementInputTitleActionToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInputTitleAction): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -508,7 +1161,7 @@ export function dataCriblioSearchDashboardElementsElementToHclTerraform(struct?:
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementInputTitleActionOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -519,13 +1172,77 @@ export class DataCriblioSearchDashboardElementsElementOutputReference extends cd
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElement | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInputTitleAction | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElement | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInputTitleAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // open_in_new_tab - computed: true, optional: false, required: false
+  public get openInNewTab() {
+    return this.getBooleanAttribute('open_in_new_tab');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementInput {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInput): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementInputToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementInput): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementInputOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementInput | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementInput | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -535,19 +1252,9 @@ export class DataCriblioSearchDashboardElementsElementOutputReference extends cd
   }
 
   // config - computed: true, optional: false, required: false
-  private _config = new cdktf.StringMap(this, "config");
+  private _config = new DataCriblioSearchDashboardElementsDashboardElementInputConfigOutputReference(this, "config");
   public get config() {
     return this._config;
-  }
-
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
-  }
-
-  // empty - computed: true, optional: false, required: false
-  public get empty() {
-    return this.getBooleanAttribute('empty');
   }
 
   // hide_panel - computed: true, optional: false, required: false
@@ -565,24 +1272,19 @@ export class DataCriblioSearchDashboardElementsElementOutputReference extends cd
     return this.getStringAttribute('id');
   }
 
-  // index - computed: true, optional: false, required: false
-  public get index() {
-    return this.getNumberAttribute('index');
-  }
-
   // input_id - computed: true, optional: false, required: false
   public get inputId() {
     return this.getStringAttribute('input_id');
   }
 
   // layout - computed: true, optional: false, required: false
-  private _layout = new DataCriblioSearchDashboardElementsElementLayoutOutputReference(this, "layout");
+  private _layout = new DataCriblioSearchDashboardElementsDashboardElementInputLayoutOutputReference(this, "layout");
   public get layout() {
     return this._layout;
   }
 
   // search - computed: true, optional: false, required: false
-  private _search = new DataCriblioSearchDashboardElementsElementSearchOutputReference(this, "search");
+  private _search = new DataCriblioSearchDashboardElementsDashboardElementInputSearchOutputReference(this, "search");
   public get search() {
     return this._search;
   }
@@ -592,26 +1294,21 @@ export class DataCriblioSearchDashboardElementsElementOutputReference extends cd
     return this.getStringAttribute('title');
   }
 
+  // title_action - computed: true, optional: false, required: false
+  private _titleAction = new DataCriblioSearchDashboardElementsDashboardElementInputTitleActionOutputReference(this, "title_action");
+  public get titleAction() {
+    return this._titleAction;
+  }
+
   // type - computed: true, optional: false, required: false
   public get type() {
     return this.getStringAttribute('type');
   }
-
-  // value - computed: true, optional: false, required: false
-  private _value = new cdktf.StringMap(this, "value");
-  public get value() {
-    return this._value;
-  }
-
-  // variant - computed: true, optional: false, required: false
-  public get variant() {
-    return this.getStringAttribute('variant');
-  }
 }
-export interface DataCriblioSearchDashboardElementsElementMarkdownLayout {
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationLayout {
 }
 
-export function dataCriblioSearchDashboardElementsElementMarkdownLayoutToTerraform(struct?: DataCriblioSearchDashboardElementsElementMarkdownLayout): any {
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationLayoutToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationLayout): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -621,7 +1318,7 @@ export function dataCriblioSearchDashboardElementsElementMarkdownLayoutToTerrafo
 }
 
 
-export function dataCriblioSearchDashboardElementsElementMarkdownLayoutToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementMarkdownLayout): any {
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationLayoutToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationLayout): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -631,7 +1328,7 @@ export function dataCriblioSearchDashboardElementsElementMarkdownLayoutToHclTerr
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementMarkdownLayoutOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationLayoutOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -642,13 +1339,13 @@ export class DataCriblioSearchDashboardElementsElementMarkdownLayoutOutputRefere
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementMarkdownLayout | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationLayout | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementMarkdownLayout | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationLayout | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -677,10 +1374,10 @@ export class DataCriblioSearchDashboardElementsElementMarkdownLayoutOutputRefere
     return this.getNumberAttribute('y');
   }
 }
-export interface DataCriblioSearchDashboardElementsElementMarkdown {
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliest {
 }
 
-export function dataCriblioSearchDashboardElementsElementMarkdownToTerraform(struct?: DataCriblioSearchDashboardElementsElementMarkdown): any {
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliestToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliest): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -690,7 +1387,7 @@ export function dataCriblioSearchDashboardElementsElementMarkdownToTerraform(str
 }
 
 
-export function dataCriblioSearchDashboardElementsElementMarkdownToHclTerraform(struct?: DataCriblioSearchDashboardElementsElementMarkdown): any {
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliestToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliest): any {
   if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
   if (cdktf.isComplexElement(struct)) {
     throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
@@ -700,7 +1397,7 @@ export function dataCriblioSearchDashboardElementsElementMarkdownToHclTerraform(
   return attrs;
 }
 
-export class DataCriblioSearchDashboardElementsElementMarkdownOutputReference extends cdktf.ComplexObject {
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliestOutputReference extends cdktf.ComplexObject {
   private isEmptyObject = false;
 
   /**
@@ -711,13 +1408,13 @@ export class DataCriblioSearchDashboardElementsElementMarkdownOutputReference ex
     super(terraformResource, terraformAttribute, false);
   }
 
-  public get internalValue(): DataCriblioSearchDashboardElementsElementMarkdown | undefined {
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliest | undefined {
     let hasAnyValues = this.isEmptyObject;
     const internalValueResult: any = {};
     return hasAnyValues ? internalValueResult : undefined;
   }
 
-  public set internalValue(value: DataCriblioSearchDashboardElementsElementMarkdown | undefined) {
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliest | undefined) {
     if (value === undefined) {
       this.isEmptyObject = false;
     }
@@ -726,40 +1423,277 @@ export class DataCriblioSearchDashboardElementsElementMarkdownOutputReference ex
     }
   }
 
-  // description - computed: true, optional: false, required: false
-  public get description() {
-    return this.getStringAttribute('description');
+  // number - computed: true, optional: false, required: false
+  public get number() {
+    return this.getNumberAttribute('number');
   }
 
-  // empty - computed: true, optional: false, required: false
-  public get empty() {
-    return this.getBooleanAttribute('empty');
+  // str - computed: true, optional: false, required: false
+  public get str() {
+    return this.getStringAttribute('str');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatest {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatestToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatestToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatest): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatestOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
   }
 
-  // hide_panel - computed: true, optional: false, required: false
-  public get hidePanel() {
-    return this.getBooleanAttribute('hide_panel');
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatest | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
   }
 
-  // id - computed: true, optional: false, required: false
-  public get id() {
-    return this.getStringAttribute('id');
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatest | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
   }
 
-  // index - computed: true, optional: false, required: false
-  public get index() {
-    return this.getNumberAttribute('index');
+  // number - computed: true, optional: false, required: false
+  public get number() {
+    return this.getNumberAttribute('number');
   }
 
-  // layout - computed: true, optional: false, required: false
-  private _layout = new DataCriblioSearchDashboardElementsElementMarkdownLayoutOutputReference(this, "layout");
-  public get layout() {
-    return this._layout;
+  // str - computed: true, optional: false, required: false
+  public get str() {
+    return this.getStringAttribute('str');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInline {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInline): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInline): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
   }
 
-  // title - computed: true, optional: false, required: false
-  public get title() {
-    return this.getStringAttribute('title');
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInline | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInline | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // earliest - computed: true, optional: false, required: false
+  private _earliest = new DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineEarliestOutputReference(this, "earliest");
+  public get earliest() {
+    return this._earliest;
+  }
+
+  // latest - computed: true, optional: false, required: false
+  private _latest = new DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineLatestOutputReference(this, "latest");
+  public get latest() {
+    return this._latest;
+  }
+
+  // parent_search_id - computed: true, optional: false, required: false
+  public get parentSearchId() {
+    return this.getStringAttribute('parent_search_id');
+  }
+
+  // query - computed: true, optional: false, required: false
+  public get query() {
+    return this.getStringAttribute('query');
+  }
+
+  // sample_rate - computed: true, optional: false, required: false
+  public get sampleRate() {
+    return this.getNumberAttribute('sample_rate');
+  }
+
+  // timezone - computed: true, optional: false, required: false
+  public get timezone() {
+    return this.getStringAttribute('timezone');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySaved {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySavedToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySaved): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySavedToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySaved): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySavedOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySaved | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySaved | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // query - computed: true, optional: false, required: false
+  public get query() {
+    return this.getStringAttribute('query');
+  }
+
+  // query_id - computed: true, optional: false, required: false
+  public get queryId() {
+    return this.getStringAttribute('query_id');
+  }
+
+  // run_mode - computed: true, optional: false, required: false
+  public get runMode() {
+    return this.getStringAttribute('run_mode');
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValues {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValuesToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValues): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValuesToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValues): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValuesOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValues | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValues | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
   }
 
   // type - computed: true, optional: false, required: false
@@ -767,14 +1701,238 @@ export class DataCriblioSearchDashboardElementsElementMarkdownOutputReference ex
     return this.getStringAttribute('type');
   }
 
-  // value - computed: true, optional: false, required: false
-  public get value() {
-    return this.getStringAttribute('value');
+  // values - computed: true, optional: false, required: false
+  public get values() {
+    return this.getListAttribute('values');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationSearch {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationSearchToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearch): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
   }
 
-  // variant - computed: true, optional: false, required: false
-  public get variant() {
-    return this.getStringAttribute('variant');
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationSearch | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationSearch | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // search_query_inline - computed: true, optional: false, required: false
+  private _searchQueryInline = new DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryInlineOutputReference(this, "search_query_inline");
+  public get searchQueryInline() {
+    return this._searchQueryInline;
+  }
+
+  // search_query_saved - computed: true, optional: false, required: false
+  private _searchQuerySaved = new DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQuerySavedOutputReference(this, "search_query_saved");
+  public get searchQuerySaved() {
+    return this._searchQuerySaved;
+  }
+
+  // search_query_values - computed: true, optional: false, required: false
+  private _searchQueryValues = new DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchSearchQueryValuesOutputReference(this, "search_query_values");
+  public get searchQueryValues() {
+    return this._searchQueryValues;
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleAction {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationTitleActionToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationTitleActionToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // open_in_new_tab - computed: true, optional: false, required: false
+  public get openInNewTab() {
+    return this.getBooleanAttribute('open_in_new_tab');
+  }
+
+  // url - computed: true, optional: false, required: false
+  public get url() {
+    return this.getStringAttribute('url');
+  }
+}
+export interface DataCriblioSearchDashboardElementsDashboardElementVisualization {
+}
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationToTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualization): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardElementsDashboardElementVisualizationToHclTerraform(struct?: DataCriblioSearchDashboardElementsDashboardElementVisualization): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardElementsDashboardElementVisualizationOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardElementsDashboardElementVisualization | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardElementsDashboardElementVisualization | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // config - computed: true, optional: false, required: false
+  private _config = new cdktf.StringMap(this, "config");
+  public get config() {
+    return this._config;
+  }
+
+  // hide_panel - computed: true, optional: false, required: false
+  public get hidePanel() {
+    return this.getBooleanAttribute('hide_panel');
+  }
+
+  // horizontal_chart - computed: true, optional: false, required: false
+  public get horizontalChart() {
+    return this.getBooleanAttribute('horizontal_chart');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // layout - computed: true, optional: false, required: false
+  private _layout = new DataCriblioSearchDashboardElementsDashboardElementVisualizationLayoutOutputReference(this, "layout");
+  public get layout() {
+    return this._layout;
+  }
+
+  // search - computed: true, optional: false, required: false
+  private _search = new DataCriblioSearchDashboardElementsDashboardElementVisualizationSearchOutputReference(this, "search");
+  public get search() {
+    return this._search;
+  }
+
+  // title - computed: true, optional: false, required: false
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+
+  // title_action - computed: true, optional: false, required: false
+  private _titleAction = new DataCriblioSearchDashboardElementsDashboardElementVisualizationTitleActionOutputReference(this, "title_action");
+  public get titleAction() {
+    return this._titleAction;
+  }
+
+  // type - computed: true, optional: false, required: false
+  public get type() {
+    return this.getStringAttribute('type');
   }
 }
 export interface DataCriblioSearchDashboardElements {
@@ -828,16 +1986,22 @@ export class DataCriblioSearchDashboardElementsOutputReference extends cdktf.Com
     }
   }
 
-  // element - computed: true, optional: false, required: false
-  private _element = new DataCriblioSearchDashboardElementsElementOutputReference(this, "element");
-  public get element() {
-    return this._element;
+  // dashboard_element - computed: true, optional: false, required: false
+  private _dashboardElement = new DataCriblioSearchDashboardElementsDashboardElementOutputReference(this, "dashboard_element");
+  public get dashboardElement() {
+    return this._dashboardElement;
   }
 
-  // element_markdown - computed: true, optional: false, required: false
-  private _elementMarkdown = new DataCriblioSearchDashboardElementsElementMarkdownOutputReference(this, "element_markdown");
-  public get elementMarkdown() {
-    return this._elementMarkdown;
+  // dashboard_element_input - computed: true, optional: false, required: false
+  private _dashboardElementInput = new DataCriblioSearchDashboardElementsDashboardElementInputOutputReference(this, "dashboard_element_input");
+  public get dashboardElementInput() {
+    return this._dashboardElementInput;
+  }
+
+  // dashboard_element_visualization - computed: true, optional: false, required: false
+  private _dashboardElementVisualization = new DataCriblioSearchDashboardElementsDashboardElementVisualizationOutputReference(this, "dashboard_element_visualization");
+  public get dashboardElementVisualization() {
+    return this._dashboardElementVisualization;
   }
 }
 
@@ -857,6 +2021,160 @@ export class DataCriblioSearchDashboardElementsList extends cdktf.ComplexList {
   */
   public get(index: number): DataCriblioSearchDashboardElementsOutputReference {
     return new DataCriblioSearchDashboardElementsOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
+export interface DataCriblioSearchDashboardGroupsAction {
+}
+
+export function dataCriblioSearchDashboardGroupsActionToTerraform(struct?: DataCriblioSearchDashboardGroupsAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardGroupsActionToHclTerraform(struct?: DataCriblioSearchDashboardGroupsAction): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardGroupsActionOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string) {
+    super(terraformResource, terraformAttribute, false);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardGroupsAction | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardGroupsAction | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // label - computed: true, optional: false, required: false
+  public get label() {
+    return this.getStringAttribute('label');
+  }
+
+  // params - computed: true, optional: false, required: false
+  private _params = new cdktf.StringMap(this, "params");
+  public get params() {
+    return this._params;
+  }
+
+  // target - computed: true, optional: false, required: false
+  public get target() {
+    return this.getStringAttribute('target');
+  }
+}
+export interface DataCriblioSearchDashboardGroups {
+}
+
+export function dataCriblioSearchDashboardGroupsToTerraform(struct?: DataCriblioSearchDashboardGroups): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataCriblioSearchDashboardGroupsToHclTerraform(struct?: DataCriblioSearchDashboardGroups): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataCriblioSearchDashboardGroupsOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectKey the key of this item in the map
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectKey: string) {
+    super(terraformResource, terraformAttribute, false, complexObjectKey);
+  }
+
+  public get internalValue(): DataCriblioSearchDashboardGroups | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataCriblioSearchDashboardGroups | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // action - computed: true, optional: false, required: false
+  private _action = new DataCriblioSearchDashboardGroupsActionOutputReference(this, "action");
+  public get action() {
+    return this._action;
+  }
+
+  // collapsed - computed: true, optional: false, required: false
+  public get collapsed() {
+    return this.getBooleanAttribute('collapsed');
+  }
+
+  // input_id - computed: true, optional: false, required: false
+  public get inputId() {
+    return this.getStringAttribute('input_id');
+  }
+
+  // title - computed: true, optional: false, required: false
+  public get title() {
+    return this.getStringAttribute('title');
+  }
+}
+
+export class DataCriblioSearchDashboardGroupsMap extends cdktf.ComplexMap {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string) {
+    super(terraformResource, terraformAttribute)
+  }
+
+  /**
+  * @param key the key of the item to return
+  */
+  public get(key: string): DataCriblioSearchDashboardGroupsOutputReference {
+    return new DataCriblioSearchDashboardGroupsOutputReference(this.terraformResource, this.terraformAttribute, key);
   }
 }
 export interface DataCriblioSearchDashboardScheduleNotifications {
@@ -990,7 +2308,7 @@ export class DataCriblioSearchDashboardScheduleOutputReference extends cdktf.Com
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/search_dashboard criblio_search_dashboard}
+* Represents a {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard criblio_search_dashboard}
 */
 export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
 
@@ -1006,7 +2324,7 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataCriblioSearchDashboard resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataCriblioSearchDashboard to import
-  * @param importFromId The id of the existing DataCriblioSearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/search_dashboard#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataCriblioSearchDashboard that should be imported. Refer to the {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataCriblioSearchDashboard to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1018,7 +2336,7 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.48/docs/data-sources/search_dashboard criblio_search_dashboard} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/criblio/criblio/1.20.59/docs/data-sources/search_dashboard criblio_search_dashboard} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1029,8 +2347,8 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
       terraformResourceType: 'criblio_search_dashboard',
       terraformGeneratorMetadata: {
         providerName: 'criblio',
-        providerVersion: '1.20.48',
-        providerVersionConstraint: '1.20.48'
+        providerVersion: '1.20.59',
+        providerVersionConstraint: '1.20.59'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
@@ -1052,40 +2370,21 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
     return this.getNumberAttribute('cache_ttl_seconds');
   }
 
-  // category - computed: true, optional: false, required: false
-  public get category() {
-    return this.getStringAttribute('category');
-  }
-
-  // created - computed: true, optional: false, required: false
-  public get created() {
-    return this.getNumberAttribute('created');
-  }
-
-  // created_by - computed: true, optional: false, required: false
-  public get createdBy() {
-    return this.getStringAttribute('created_by');
-  }
-
   // description - computed: true, optional: false, required: false
   public get description() {
     return this.getStringAttribute('description');
-  }
-
-  // display_created_by - computed: true, optional: false, required: false
-  public get displayCreatedBy() {
-    return this.getStringAttribute('display_created_by');
-  }
-
-  // display_modified_by - computed: true, optional: false, required: false
-  public get displayModifiedBy() {
-    return this.getStringAttribute('display_modified_by');
   }
 
   // elements - computed: true, optional: false, required: false
   private _elements = new DataCriblioSearchDashboardElementsList(this, "elements", false);
   public get elements() {
     return this._elements;
+  }
+
+  // groups - computed: true, optional: false, required: false
+  private _groups = new DataCriblioSearchDashboardGroupsMap(this, "groups");
+  public get groups() {
+    return this._groups;
   }
 
   // id - computed: false, optional: false, required: true
@@ -1101,34 +2400,14 @@ export class DataCriblioSearchDashboard extends cdktf.TerraformDataSource {
     return this._id;
   }
 
-  // modified - computed: true, optional: false, required: false
-  public get modified() {
-    return this.getNumberAttribute('modified');
-  }
-
-  // modified_by - computed: true, optional: false, required: false
-  public get modifiedBy() {
-    return this.getStringAttribute('modified_by');
-  }
-
   // name - computed: true, optional: false, required: false
   public get name() {
     return this.getStringAttribute('name');
   }
 
-  // pack_id - computed: true, optional: false, required: false
-  public get packId() {
-    return this.getStringAttribute('pack_id');
-  }
-
   // refresh_rate - computed: true, optional: false, required: false
   public get refreshRate() {
     return this.getNumberAttribute('refresh_rate');
-  }
-
-  // resolved_dataset_ids - computed: true, optional: false, required: false
-  public get resolvedDatasetIds() {
-    return this.getListAttribute('resolved_dataset_ids');
   }
 
   // schedule - computed: true, optional: false, required: false

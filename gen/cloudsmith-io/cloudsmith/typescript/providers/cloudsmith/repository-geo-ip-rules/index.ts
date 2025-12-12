@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules
+// https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface RepositoryGeoIpRulesConfig extends cdktf.TerraformMetaArguments
   /**
   * The list of IP Addresses for which to allow access, expressed in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#cidr_allow RepositoryGeoIpRules#cidr_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#cidr_allow RepositoryGeoIpRules#cidr_allow}
   */
   readonly cidrAllow?: string[];
   /**
   * The list of IP Addresses for which to deny access, expressed in CIDR notation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#cidr_deny RepositoryGeoIpRules#cidr_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#cidr_deny RepositoryGeoIpRules#cidr_deny}
   */
   readonly cidrDeny?: string[];
   /**
   * The list of countries for which to allow access, expressed in ISO 3166-1 country codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#country_code_allow RepositoryGeoIpRules#country_code_allow}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#country_code_allow RepositoryGeoIpRules#country_code_allow}
   */
   readonly countryCodeAllow?: string[];
   /**
   * The list of countries for which to deny access, expressed in ISO 3166-1 country codes.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#country_code_deny RepositoryGeoIpRules#country_code_deny}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#country_code_deny RepositoryGeoIpRules#country_code_deny}
   */
   readonly countryCodeDeny?: string[];
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#id RepositoryGeoIpRules#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#id RepositoryGeoIpRules#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,19 +41,19 @@ export interface RepositoryGeoIpRulesConfig extends cdktf.TerraformMetaArguments
   /**
   * Organization to which the Repository belongs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#namespace RepositoryGeoIpRules#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#namespace RepositoryGeoIpRules#namespace}
   */
   readonly namespace: string;
   /**
   * Repository to which these Geo/IP rules belong.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#repository RepositoryGeoIpRules#repository}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#repository RepositoryGeoIpRules#repository}
   */
   readonly repository: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules cloudsmith_repository_geo_ip_rules}
+* Represents a {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules cloudsmith_repository_geo_ip_rules}
 */
 export class RepositoryGeoIpRules extends cdktf.TerraformResource {
 
@@ -69,7 +69,7 @@ export class RepositoryGeoIpRules extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RepositoryGeoIpRules resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RepositoryGeoIpRules to import
-  * @param importFromId The id of the existing RepositoryGeoIpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RepositoryGeoIpRules that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RepositoryGeoIpRules to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -81,7 +81,7 @@ export class RepositoryGeoIpRules extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.66/docs/resources/repository_geo_ip_rules cloudsmith_repository_geo_ip_rules} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudsmith-io/cloudsmith/0.0.67/docs/resources/repository_geo_ip_rules cloudsmith_repository_geo_ip_rules} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -92,8 +92,8 @@ export class RepositoryGeoIpRules extends cdktf.TerraformResource {
       terraformResourceType: 'cloudsmith_repository_geo_ip_rules',
       terraformGeneratorMetadata: {
         providerName: 'cloudsmith',
-        providerVersion: '0.0.66',
-        providerVersionConstraint: '0.0.66'
+        providerVersion: '0.0.67',
+        providerVersionConstraint: '0.0.67'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

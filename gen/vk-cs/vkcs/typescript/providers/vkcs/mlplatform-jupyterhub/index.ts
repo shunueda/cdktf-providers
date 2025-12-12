@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,71 +10,71 @@ export interface MlplatformJupyterhubConfig extends cdktf.TerraformMetaArguments
   /**
   * JupyterHub admin name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#admin_name MlplatformJupyterhub#admin_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#admin_name MlplatformJupyterhub#admin_name}
   */
   readonly adminName?: string;
   /**
   * JupyterHub admin password. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#admin_password MlplatformJupyterhub#admin_password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#admin_password MlplatformJupyterhub#admin_password}
   */
   readonly adminPassword?: string;
   /**
   * The availability zone in which to create the resource. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#availability_zone MlplatformJupyterhub#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#availability_zone MlplatformJupyterhub#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Instance's boot volume configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#boot_volume MlplatformJupyterhub#boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#boot_volume MlplatformJupyterhub#boot_volume}
   */
   readonly bootVolume: MlplatformJupyterhubBootVolume;
   /**
   * Instance's data volumes configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#data_volumes MlplatformJupyterhub#data_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#data_volumes MlplatformJupyterhub#data_volumes}
   */
   readonly dataVolumes: MlplatformJupyterhubDataVolumes[] | cdktf.IResolvable;
   /**
   * Domain name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#domain_name MlplatformJupyterhub#domain_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#domain_name MlplatformJupyterhub#domain_name}
   */
   readonly domainName?: string;
   /**
   * Flavor ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#flavor_id MlplatformJupyterhub#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#flavor_id MlplatformJupyterhub#flavor_id}
   */
   readonly flavorId: string;
   /**
   * Instance name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#name MlplatformJupyterhub#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#name MlplatformJupyterhub#name}
   */
   readonly name: string;
   /**
   * Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#networks MlplatformJupyterhub#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#networks MlplatformJupyterhub#networks}
   */
   readonly networks: MlplatformJupyterhubNetworks[] | cdktf.IResolvable;
   /**
   * The `region` in which ML Platform client is obtained, defaults to the provider's `region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#region MlplatformJupyterhub#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#region MlplatformJupyterhub#region}
   */
   readonly region?: string;
   /**
   * Connect specified s3 bucket to instance as volume. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#s3fs_bucket MlplatformJupyterhub#s3fs_bucket}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#s3fs_bucket MlplatformJupyterhub#s3fs_bucket}
   */
   readonly s3FsBucket?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#timeouts MlplatformJupyterhub#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#timeouts MlplatformJupyterhub#timeouts}
   */
   readonly timeouts?: MlplatformJupyterhubTimeouts;
 }
@@ -82,13 +82,13 @@ export interface MlplatformJupyterhubBootVolume {
   /**
   * Size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#size MlplatformJupyterhub#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#size MlplatformJupyterhub#size}
   */
   readonly size?: number;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#volume_type MlplatformJupyterhub#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#volume_type MlplatformJupyterhub#volume_type}
   */
   readonly volumeType: string;
 }
@@ -220,13 +220,13 @@ export interface MlplatformJupyterhubDataVolumes {
   /**
   * Size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#size MlplatformJupyterhub#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#size MlplatformJupyterhub#size}
   */
   readonly size: number;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#volume_type MlplatformJupyterhub#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#volume_type MlplatformJupyterhub#volume_type}
   */
   readonly volumeType: string;
 }
@@ -377,13 +377,13 @@ export interface MlplatformJupyterhubNetworks {
   /**
   * ID of the ip pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#ip_pool MlplatformJupyterhub#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#ip_pool MlplatformJupyterhub#ip_pool}
   */
   readonly ipPool?: string;
   /**
   * ID of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#network_id MlplatformJupyterhub#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#network_id MlplatformJupyterhub#network_id}
   */
   readonly networkId: string;
 }
@@ -527,19 +527,19 @@ export interface MlplatformJupyterhubTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#create MlplatformJupyterhub#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#create MlplatformJupyterhub#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#delete MlplatformJupyterhub#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#delete MlplatformJupyterhub#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#update MlplatformJupyterhub#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#update MlplatformJupyterhub#update}
   */
   readonly update?: string;
 }
@@ -691,7 +691,7 @@ export class MlplatformJupyterhubTimeoutsOutputReference extends cdktf.ComplexOb
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub vkcs_mlplatform_jupyterhub}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub vkcs_mlplatform_jupyterhub}
 */
 export class MlplatformJupyterhub extends cdktf.TerraformResource {
 
@@ -707,7 +707,7 @@ export class MlplatformJupyterhub extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MlplatformJupyterhub resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MlplatformJupyterhub to import
-  * @param importFromId The id of the existing MlplatformJupyterhub that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MlplatformJupyterhub that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MlplatformJupyterhub to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -719,7 +719,7 @@ export class MlplatformJupyterhub extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_jupyterhub vkcs_mlplatform_jupyterhub} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_jupyterhub vkcs_mlplatform_jupyterhub} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -730,8 +730,8 @@ export class MlplatformJupyterhub extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_mlplatform_jupyterhub',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

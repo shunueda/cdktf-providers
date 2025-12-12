@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,61 +10,61 @@ export interface DataVkcsKeymanagerSecretConfig extends cdktf.TerraformMetaArgum
   /**
   * Select the Secret with an ACL that contains the user. Project scope is ignored. Defaults to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#acl_only DataVkcsKeymanagerSecret#acl_only}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#acl_only DataVkcsKeymanagerSecret#acl_only}
   */
   readonly aclOnly?: boolean | cdktf.IResolvable;
   /**
   * The Secret algorithm.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#algorithm DataVkcsKeymanagerSecret#algorithm}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#algorithm DataVkcsKeymanagerSecret#algorithm}
   */
   readonly algorithm?: string;
   /**
   * The Secret bit length.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#bit_length DataVkcsKeymanagerSecret#bit_length}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#bit_length DataVkcsKeymanagerSecret#bit_length}
   */
   readonly bitLength?: number;
   /**
   * Date filter to select the Secret with created matching the specified criteria. See Date Filters below for more detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#created_at_filter DataVkcsKeymanagerSecret#created_at_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#created_at_filter DataVkcsKeymanagerSecret#created_at_filter}
   */
   readonly createdAtFilter?: string;
   /**
   * Date filter to select the Secret with expiration matching the specified criteria. See Date Filters below for more detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#expiration_filter DataVkcsKeymanagerSecret#expiration_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#expiration_filter DataVkcsKeymanagerSecret#expiration_filter}
   */
   readonly expirationFilter?: string;
   /**
   * The Secret mode.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#mode DataVkcsKeymanagerSecret#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#mode DataVkcsKeymanagerSecret#mode}
   */
   readonly mode?: string;
   /**
   * The Secret name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#name DataVkcsKeymanagerSecret#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#name DataVkcsKeymanagerSecret#name}
   */
   readonly name?: string;
   /**
   * The region in which to obtain the service client. If omitted, the `region` argument of the provider is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#region DataVkcsKeymanagerSecret#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#region DataVkcsKeymanagerSecret#region}
   */
   readonly region?: string;
   /**
   * The Secret type. For more information see [Secret types](https://docs.openstack.org/barbican/latest/api/reference/secret_types.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#secret_type DataVkcsKeymanagerSecret#secret_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#secret_type DataVkcsKeymanagerSecret#secret_type}
   */
   readonly secretType?: string;
   /**
   * Date filter to select the Secret with updated matching the specified criteria. See Date Filters below for more detail.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#updated_at_filter DataVkcsKeymanagerSecret#updated_at_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#updated_at_filter DataVkcsKeymanagerSecret#updated_at_filter}
   */
   readonly updatedAtFilter?: string;
 }
@@ -72,13 +72,13 @@ export interface DataVkcsKeymanagerSecretAclRead {
   /**
   * Whether the container is accessible project wide. Defaults to `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#project_access DataVkcsKeymanagerSecret#project_access}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#project_access DataVkcsKeymanagerSecret#project_access}
   */
   readonly projectAccess?: boolean | cdktf.IResolvable;
   /**
   * The list of user IDs, which are allowed to access the container, when `project_access` is set to `false`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#users DataVkcsKeymanagerSecret#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#users DataVkcsKeymanagerSecret#users}
   */
   readonly users?: string[];
 }
@@ -299,7 +299,7 @@ export class DataVkcsKeymanagerSecretAclList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret vkcs_keymanager_secret}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret vkcs_keymanager_secret}
 */
 export class DataVkcsKeymanagerSecret extends cdktf.TerraformDataSource {
 
@@ -315,7 +315,7 @@ export class DataVkcsKeymanagerSecret extends cdktf.TerraformDataSource {
   * Generates CDKTF code for importing a DataVkcsKeymanagerSecret resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataVkcsKeymanagerSecret to import
-  * @param importFromId The id of the existing DataVkcsKeymanagerSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataVkcsKeymanagerSecret that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataVkcsKeymanagerSecret to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -327,7 +327,7 @@ export class DataVkcsKeymanagerSecret extends cdktf.TerraformDataSource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/data-sources/keymanager_secret vkcs_keymanager_secret} Data Source
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/data-sources/keymanager_secret vkcs_keymanager_secret} Data Source
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -338,8 +338,8 @@ export class DataVkcsKeymanagerSecret extends cdktf.TerraformDataSource {
       terraformResourceType: 'vkcs_keymanager_secret',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

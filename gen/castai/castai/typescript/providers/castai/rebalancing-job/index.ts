@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job
+// https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface RebalancingJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * CAST AI cluster id.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#cluster_id RebalancingJob#cluster_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#cluster_id RebalancingJob#cluster_id}
   */
   readonly clusterId: string;
   /**
   * The job will only be executed if it's enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#enabled RebalancingJob#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#enabled RebalancingJob#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#id RebalancingJob#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#id RebalancingJob#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,31 +29,31 @@ export interface RebalancingJobConfig extends cdktf.TerraformMetaArguments {
   /**
   * Rebalancing schedule of this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#rebalancing_schedule_id RebalancingJob#rebalancing_schedule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#rebalancing_schedule_id RebalancingJob#rebalancing_schedule_id}
   */
   readonly rebalancingScheduleId: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#timeouts RebalancingJob#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#timeouts RebalancingJob#timeouts}
   */
   readonly timeouts?: RebalancingJobTimeouts;
 }
 export interface RebalancingJobTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#create RebalancingJob#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#create RebalancingJob#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#delete RebalancingJob#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#delete RebalancingJob#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#read RebalancingJob#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#read RebalancingJob#read}
   */
   readonly read?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#update RebalancingJob#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#update RebalancingJob#update}
   */
   readonly update?: string;
 }
@@ -234,7 +234,7 @@ export class RebalancingJobTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job castai_rebalancing_job}
+* Represents a {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job castai_rebalancing_job}
 */
 export class RebalancingJob extends cdktf.TerraformResource {
 
@@ -250,7 +250,7 @@ export class RebalancingJob extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RebalancingJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RebalancingJob to import
-  * @param importFromId The id of the existing RebalancingJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RebalancingJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RebalancingJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -262,7 +262,7 @@ export class RebalancingJob extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.4.0/docs/resources/rebalancing_job castai_rebalancing_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/castai/castai/8.5.0/docs/resources/rebalancing_job castai_rebalancing_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -273,8 +273,8 @@ export class RebalancingJob extends cdktf.TerraformResource {
       terraformResourceType: 'castai_rebalancing_job',
       terraformGeneratorMetadata: {
         providerName: 'castai',
-        providerVersion: '8.4.0',
-        providerVersionConstraint: '8.4.0'
+        providerVersion: '8.5.0',
+        providerVersionConstraint: '8.5.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

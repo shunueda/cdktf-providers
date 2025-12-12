@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain
+// https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,67 +10,67 @@ export interface LogDrainConfig extends cdktf.TerraformMetaArguments {
   /**
   * The format log data should be delivered in. Can be `json` or `ndjson`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#delivery_format LogDrain#delivery_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#delivery_format LogDrain#delivery_format}
   */
   readonly deliveryFormat: string;
   /**
   * Logs will be sent as POST requests to this URL. The endpoint will be verified, and must return a `200` status code and an `x-vercel-verify` header taken from the endpoint_verification data source. The value the `x-vercel-verify` header should be can be read from the `vercel_endpoint_verification_code` data source.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#endpoint LogDrain#endpoint}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#endpoint LogDrain#endpoint}
   */
   readonly endpoint: string;
   /**
   * Logs from the selected environments will be forwarded to your webhook. At least one must be present.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#environments LogDrain#environments}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#environments LogDrain#environments}
   */
   readonly environments: string[];
   /**
   * Custom headers to include in requests to the log drain endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#headers LogDrain#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#headers LogDrain#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * A human-readable name for the log drain.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#name LogDrain#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#name LogDrain#name}
   */
   readonly name: string;
   /**
   * A list of project IDs that the log drain should be associated with. Logs from these projects will be sent log events to the specified endpoint. If omitted, logs will be sent for all projects.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#project_ids LogDrain#project_ids}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#project_ids LogDrain#project_ids}
   */
   readonly projectIds?: string[];
   /**
   * A ratio of logs matching the sampling rate will be sent to your log drain. Should be a value between 0 and 1. If unspecified, all logs are sent.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#sampling_rate LogDrain#sampling_rate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#sampling_rate LogDrain#sampling_rate}
   */
   readonly samplingRate?: number;
   /**
   * A custom secret to be used for signing log events. You can use this secret to verify that log events are coming from Vercel and are not tampered with. See https://vercel.com/docs/observability/log-drains/log-drains-reference#secure-log-drains for full info.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#secret LogDrain#secret}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#secret LogDrain#secret}
   */
   readonly secret?: string;
   /**
   * A set of sources that the log drain should send logs for. Valid values are `static`, `edge`, `external`, `build`, `lambda`, `firewall`, and `redirect`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#sources LogDrain#sources}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#sources LogDrain#sources}
   */
   readonly sources: string[];
   /**
   * The ID of the team the Log Drain should exist under. Required when configuring a team resource if a default team has not been set in the provider.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#team_id LogDrain#team_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#team_id LogDrain#team_id}
   */
   readonly teamId?: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain vercel_log_drain}
+* Represents a {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain vercel_log_drain}
 */
 export class LogDrain extends cdktf.TerraformResource {
 
@@ -86,7 +86,7 @@ export class LogDrain extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LogDrain resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LogDrain to import
-  * @param importFromId The id of the existing LogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LogDrain that should be imported. Refer to the {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LogDrain to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -98,7 +98,7 @@ export class LogDrain extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.1.0/docs/resources/log_drain vercel_log_drain} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vercel/vercel/4.2.0/docs/resources/log_drain vercel_log_drain} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -109,8 +109,8 @@ export class LogDrain extends cdktf.TerraformResource {
       terraformResourceType: 'vercel_log_drain',
       terraformGeneratorMetadata: {
         providerName: 'vercel',
-        providerVersion: '4.1.0',
-        providerVersionConstraint: '4.1.0'
+        providerVersion: '4.2.0',
+        providerVersionConstraint: '4.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

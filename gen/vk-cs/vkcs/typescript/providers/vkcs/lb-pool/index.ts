@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,17 +10,17 @@ export interface LbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The administrative state of the pool. A valid value is true (UP) or false (DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#admin_state_up LbPool#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#admin_state_up LbPool#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * Human-readable description for the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#description LbPool#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#description LbPool#description}
   */
   readonly description?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#id LbPool#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#id LbPool#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -29,49 +29,49 @@ export interface LbPoolConfig extends cdktf.TerraformMetaArguments {
   /**
   * The load balancing algorithm to distribute traffic to the pool's members. Must be one of ROUND_ROBIN, LEAST_CONNECTIONS, SOURCE_IP, or SOURCE_IP_PORT.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#lb_method LbPool#lb_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#lb_method LbPool#lb_method}
   */
   readonly lbMethod: string;
   /**
   * The Listener on which the members of the pool will be associated with. Changing this creates a new pool. _note_ One of LoadbalancerID or ListenerID must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#listener_id LbPool#listener_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#listener_id LbPool#listener_id}
   */
   readonly listenerId?: string;
   /**
   * The load balancer on which to provision this pool. Changing this creates a new pool. _note_ One of LoadbalancerID or ListenerID must be provided.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#loadbalancer_id LbPool#loadbalancer_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#loadbalancer_id LbPool#loadbalancer_id}
   */
   readonly loadbalancerId?: string;
   /**
   * Human-readable name for the pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#name LbPool#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#name LbPool#name}
   */
   readonly name?: string;
   /**
   * The protocol - can either be TCP, HTTP, HTTPS, PROXY, or UDP. Changing this creates a new pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#protocol LbPool#protocol}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#protocol LbPool#protocol}
   */
   readonly protocol: string;
   /**
   * The region in which to obtain the Loadbalancer client. If omitted, the `region` argument of the provider is used. Changing this creates a new pool.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#region LbPool#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#region LbPool#region}
   */
   readonly region?: string;
   /**
   * persistence block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#persistence LbPool#persistence}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#persistence LbPool#persistence}
   */
   readonly persistence?: LbPoolPersistence;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#timeouts LbPool#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#timeouts LbPool#timeouts}
   */
   readonly timeouts?: LbPoolTimeouts;
 }
@@ -79,13 +79,13 @@ export interface LbPoolPersistence {
   /**
   * The name of the cookie if persistence mode is set appropriately. Required if `type = APP_COOKIE`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#cookie_name LbPool#cookie_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#cookie_name LbPool#cookie_name}
   */
   readonly cookieName?: string;
   /**
   * The type of persistence mode. The current specification supports SOURCE_IP, HTTP_COOKIE, and APP_COOKIE.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#type LbPool#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#type LbPool#type}
   */
   readonly type: string;
 }
@@ -195,15 +195,15 @@ export class LbPoolPersistenceOutputReference extends cdktf.ComplexObject {
 }
 export interface LbPoolTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#create LbPool#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#create LbPool#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#delete LbPool#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#delete LbPool#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#update LbPool#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#update LbPool#update}
   */
   readonly update?: string;
 }
@@ -355,7 +355,7 @@ export class LbPoolTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool vkcs_lb_pool}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool vkcs_lb_pool}
 */
 export class LbPool extends cdktf.TerraformResource {
 
@@ -371,7 +371,7 @@ export class LbPool extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbPool resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbPool to import
-  * @param importFromId The id of the existing LbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbPool that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbPool to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -383,7 +383,7 @@ export class LbPool extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_pool vkcs_lb_pool} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_pool vkcs_lb_pool} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -394,8 +394,8 @@ export class LbPool extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_lb_pool',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream
+// https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,43 +10,43 @@ export interface StreamConfig extends cdktf.TerraformMetaArguments {
   /**
   * A detailed text describes the stream
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#description Stream#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#description Stream#description}
   */
   readonly description?: string;
   /**
   * A SQL expression defines the maximum age of data that are persisted in the historical store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#history_ttl Stream#history_ttl}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#history_ttl Stream#history_ttl}
   */
   readonly historyTtl?: string;
   /**
   * The stream mode. Options: append, changelog, changelog_kv, versioned_kv. Default: "append"
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#mode Stream#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#mode Stream#mode}
   */
   readonly mode?: string;
   /**
   * The stream name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#name Stream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#name Stream#name}
   */
   readonly name: string;
   /**
   * The retention size threadhold in bytes indicates how many data could be kept in the streaming store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#retention_bytes Stream#retention_bytes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#retention_bytes Stream#retention_bytes}
   */
   readonly retentionBytes?: number;
   /**
   * The retention period threadhold in millisecond indicates how long data could be kept in the streaming store
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#retention_ms Stream#retention_ms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#retention_ms Stream#retention_ms}
   */
   readonly retentionMs?: number;
   /**
   * column block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#column Stream#column}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#column Stream#column}
   */
   readonly column?: StreamColumn[] | cdktf.IResolvable;
 }
@@ -54,37 +54,37 @@ export interface StreamColumn {
   /**
   * The codec for value encoding
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#codec Stream#codec}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#codec Stream#codec}
   */
   readonly codec?: string;
   /**
   * The default value for the column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#default Stream#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#default Stream#default}
   */
   readonly default?: string;
   /**
   * The column name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#name Stream#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#name Stream#name}
   */
   readonly name: string;
   /**
   * If set to `true`, this column will be used as the primary key, or part of the combined primary key if multiple columns are marked as primary keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#primary_key Stream#primary_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#primary_key Stream#primary_key}
   */
   readonly primaryKey?: boolean | cdktf.IResolvable;
   /**
   * The type name of the column
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#type Stream#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#type Stream#type}
   */
   readonly type: string;
   /**
   * If set to `true`, this column will be used as the event time column (by default ingest time will be used as event time). Only one column can be marked as the event time column in a stream.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#use_as_event_time Stream#use_as_event_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#use_as_event_time Stream#use_as_event_time}
   */
   readonly useAsEventTime?: boolean | cdktf.IResolvable;
 }
@@ -339,7 +339,7 @@ export class StreamColumnList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream timeplus_stream}
+* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream timeplus_stream}
 */
 export class Stream extends cdktf.TerraformResource {
 
@@ -355,7 +355,7 @@ export class Stream extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Stream resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Stream to import
-  * @param importFromId The id of the existing Stream that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Stream that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Stream to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -367,7 +367,7 @@ export class Stream extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/stream timeplus_stream} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/stream timeplus_stream} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -378,8 +378,8 @@ export class Stream extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_stream',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

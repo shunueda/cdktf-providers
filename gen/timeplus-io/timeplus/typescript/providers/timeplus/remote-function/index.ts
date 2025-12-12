@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function
+// https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,37 +10,37 @@ export interface RemoteFunctionConfig extends cdktf.TerraformMetaArguments {
   /**
   * The HTTP header and its value to be used as an authentication means to call the function. The remote function can use this information to determine if it's a valid call
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#auth_header RemoteFunction#auth_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#auth_header RemoteFunction#auth_header}
   */
   readonly authHeader?: RemoteFunctionAuthHeader;
   /**
   * A detailed text describes the remote function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#description RemoteFunction#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#description RemoteFunction#description}
   */
   readonly description?: string;
   /**
   * The remote function name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#name RemoteFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#name RemoteFunction#name}
   */
   readonly name: string;
   /**
   * The type of the function's return value
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#return_type RemoteFunction#return_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#return_type RemoteFunction#return_type}
   */
   readonly returnType: string;
   /**
   * The HTTP endpoint to be used to call the function
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#url RemoteFunction#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#url RemoteFunction#url}
   */
   readonly url: string;
   /**
   * arg block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#arg RemoteFunction#arg}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#arg RemoteFunction#arg}
   */
   readonly arg?: RemoteFunctionArg[] | cdktf.IResolvable;
 }
@@ -48,13 +48,13 @@ export interface RemoteFunctionAuthHeader {
   /**
   * The HTTP header name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#name RemoteFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#name RemoteFunction#name}
   */
   readonly name: string;
   /**
   * The value for the header
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#value RemoteFunction#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#value RemoteFunction#value}
   */
   readonly value: string;
 }
@@ -173,13 +173,13 @@ export interface RemoteFunctionArg {
   /**
   * The argument name
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#name RemoteFunction#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#name RemoteFunction#name}
   */
   readonly name: string;
   /**
   * The argument type
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#type RemoteFunction#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#type RemoteFunction#type}
   */
   readonly type: string;
 }
@@ -318,7 +318,7 @@ export class RemoteFunctionArgList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function timeplus_remote_function}
+* Represents a {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function timeplus_remote_function}
 */
 export class RemoteFunction extends cdktf.TerraformResource {
 
@@ -334,7 +334,7 @@ export class RemoteFunction extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a RemoteFunction resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the RemoteFunction to import
-  * @param importFromId The id of the existing RemoteFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing RemoteFunction that should be imported. Refer to the {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the RemoteFunction to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -346,7 +346,7 @@ export class RemoteFunction extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.1.6/docs/resources/remote_function timeplus_remote_function} Resource
+  * Create a new {@link https://registry.terraform.io/providers/timeplus-io/timeplus/0.2.0/docs/resources/remote_function timeplus_remote_function} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -357,8 +357,8 @@ export class RemoteFunction extends cdktf.TerraformResource {
       terraformResourceType: 'timeplus_remote_function',
       terraformGeneratorMetadata: {
         providerName: 'timeplus',
-        providerVersion: '0.1.6',
-        providerVersionConstraint: '0.1.6'
+        providerVersion: '0.2.0',
+        providerVersionConstraint: '0.2.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

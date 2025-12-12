@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook
+// https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface WebhookConfig extends cdktf.TerraformMetaArguments {
   /**
   * How many times the request will be made if previous call fails
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#concurrency Webhook#concurrency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#concurrency Webhook#concurrency}
   */
   readonly concurrency: number;
   /**
   * Instance identifier
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#instance_id Webhook#instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#instance_id Webhook#instance_id}
   */
   readonly instanceId: number;
   /**
   * The queue that should be forwarded, must be a durable queue!
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#queue Webhook#queue}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#queue Webhook#queue}
   */
   readonly queue: string;
   /**
   * Configurable sleep time in seconds between retries for webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#sleep Webhook#sleep}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#sleep Webhook#sleep}
   */
   readonly sleep?: number;
   /**
   * Configurable timeout time in seconds for webhook
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#timeout Webhook#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#timeout Webhook#timeout}
   */
   readonly timeout?: number;
   /**
   * The name of the virtual host
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#vhost Webhook#vhost}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#vhost Webhook#vhost}
   */
   readonly vhost: string;
   /**
   * A POST request will be made for each message in the queue to this endpoint
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#webhook_uri Webhook#webhook_uri}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#webhook_uri Webhook#webhook_uri}
   */
   readonly webhookUri: string;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook cloudamqp_webhook}
+* Represents a {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook cloudamqp_webhook}
 */
 export class Webhook extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class Webhook extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a Webhook resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the Webhook to import
-  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing Webhook that should be imported. Refer to the {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the Webhook to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class Webhook extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.39.0/docs/resources/webhook cloudamqp_webhook} Resource
+  * Create a new {@link https://registry.terraform.io/providers/cloudamqp/cloudamqp/1.40.0/docs/resources/webhook cloudamqp_webhook} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class Webhook extends cdktf.TerraformResource {
       terraformResourceType: 'cloudamqp_webhook',
       terraformGeneratorMetadata: {
         providerName: 'cloudamqp',
-        providerVersion: '1.39.0',
-        providerVersionConstraint: '1.39.0'
+        providerVersion: '1.40.0',
+        providerVersionConstraint: '1.40.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

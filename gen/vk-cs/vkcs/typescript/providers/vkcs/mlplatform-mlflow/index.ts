@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,59 +10,59 @@ export interface MlplatformMlflowConfig extends cdktf.TerraformMetaArguments {
   /**
   * The availability zone in which to create the resource. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#availability_zone MlplatformMlflow#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#availability_zone MlplatformMlflow#availability_zone}
   */
   readonly availabilityZone: string;
   /**
   * Instance's boot volume configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#boot_volume MlplatformMlflow#boot_volume}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#boot_volume MlplatformMlflow#boot_volume}
   */
   readonly bootVolume: MlplatformMlflowBootVolume;
   /**
   * Instance's data volumes configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#data_volumes MlplatformMlflow#data_volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#data_volumes MlplatformMlflow#data_volumes}
   */
   readonly dataVolumes?: MlplatformMlflowDataVolumes[] | cdktf.IResolvable;
   /**
   * Controls whether demo mode is enabled. If true, data will be stored on mlflow virtual machine. If false, s3 bucket will be used alongside dbaas postgres database.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#demo_mode MlplatformMlflow#demo_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#demo_mode MlplatformMlflow#demo_mode}
   */
   readonly demoMode?: boolean | cdktf.IResolvable;
   /**
   * Flavor ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#flavor_id MlplatformMlflow#flavor_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#flavor_id MlplatformMlflow#flavor_id}
   */
   readonly flavorId: string;
   /**
   * JupyterHub instance ID
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#jh_instance_id MlplatformMlflow#jh_instance_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#jh_instance_id MlplatformMlflow#jh_instance_id}
   */
   readonly jhInstanceId: string;
   /**
   * Instance name. Changing this creates a new resource
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#name MlplatformMlflow#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#name MlplatformMlflow#name}
   */
   readonly name: string;
   /**
   * Network configuration
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#networks MlplatformMlflow#networks}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#networks MlplatformMlflow#networks}
   */
   readonly networks: MlplatformMlflowNetworks[] | cdktf.IResolvable;
   /**
   * The `region` in which ML Platform client is obtained, defaults to the provider's `region`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#region MlplatformMlflow#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#region MlplatformMlflow#region}
   */
   readonly region?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#timeouts MlplatformMlflow#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#timeouts MlplatformMlflow#timeouts}
   */
   readonly timeouts?: MlplatformMlflowTimeouts;
 }
@@ -70,13 +70,13 @@ export interface MlplatformMlflowBootVolume {
   /**
   * Size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#size MlplatformMlflow#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#size MlplatformMlflow#size}
   */
   readonly size?: number;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#volume_type MlplatformMlflow#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#volume_type MlplatformMlflow#volume_type}
   */
   readonly volumeType: string;
 }
@@ -208,13 +208,13 @@ export interface MlplatformMlflowDataVolumes {
   /**
   * Size of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#size MlplatformMlflow#size}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#size MlplatformMlflow#size}
   */
   readonly size: number;
   /**
   * Type of the volume
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#volume_type MlplatformMlflow#volume_type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#volume_type MlplatformMlflow#volume_type}
   */
   readonly volumeType: string;
 }
@@ -365,13 +365,13 @@ export interface MlplatformMlflowNetworks {
   /**
   * ID of the ip pool
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#ip_pool MlplatformMlflow#ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#ip_pool MlplatformMlflow#ip_pool}
   */
   readonly ipPool?: string;
   /**
   * ID of the network
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#network_id MlplatformMlflow#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#network_id MlplatformMlflow#network_id}
   */
   readonly networkId: string;
 }
@@ -515,19 +515,19 @@ export interface MlplatformMlflowTimeouts {
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#create MlplatformMlflow#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#create MlplatformMlflow#create}
   */
   readonly create?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours). Setting a timeout for a Delete operation is only applicable if changes are saved into state before the destroy operation occurs.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#delete MlplatformMlflow#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#delete MlplatformMlflow#delete}
   */
   readonly delete?: string;
   /**
   * A string that can be [parsed as a duration](https://pkg.go.dev/time#ParseDuration) consisting of numbers and unit suffixes, such as "30s" or "2h45m". Valid time units are "s" (seconds), "m" (minutes), "h" (hours).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#update MlplatformMlflow#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#update MlplatformMlflow#update}
   */
   readonly update?: string;
 }
@@ -679,7 +679,7 @@ export class MlplatformMlflowTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow vkcs_mlplatform_mlflow}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow vkcs_mlplatform_mlflow}
 */
 export class MlplatformMlflow extends cdktf.TerraformResource {
 
@@ -695,7 +695,7 @@ export class MlplatformMlflow extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a MlplatformMlflow resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the MlplatformMlflow to import
-  * @param importFromId The id of the existing MlplatformMlflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing MlplatformMlflow that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the MlplatformMlflow to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -707,7 +707,7 @@ export class MlplatformMlflow extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/mlplatform_mlflow vkcs_mlplatform_mlflow} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/mlplatform_mlflow vkcs_mlplatform_mlflow} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -718,8 +718,8 @@ export class MlplatformMlflow extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_mlplatform_mlflow',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,29 +10,29 @@ export interface LbMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * The administrative state of the monitor. A valid value is true (UP) or false (DOWN).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#admin_state_up LbMonitor#admin_state_up}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#admin_state_up LbMonitor#admin_state_up}
   */
   readonly adminStateUp?: boolean | cdktf.IResolvable;
   /**
   * The time, in seconds, between sending probes to members.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#delay LbMonitor#delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#delay LbMonitor#delay}
   */
   readonly delay: number;
   /**
   * Required for HTTP(S) types. Expected HTTP codes for a passing HTTP(S) monitor. You can either specify a single status like "200", or a range like "200-202".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#expected_codes LbMonitor#expected_codes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#expected_codes LbMonitor#expected_codes}
   */
   readonly expectedCodes?: string;
   /**
   * Required for HTTP(S) types. The HTTP method used for requests by the monitor. If this attribute is not specified, it defaults to "GET".
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#http_method LbMonitor#http_method}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#http_method LbMonitor#http_method}
   */
   readonly httpMethod?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#id LbMonitor#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#id LbMonitor#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -41,69 +41,69 @@ export interface LbMonitorConfig extends cdktf.TerraformMetaArguments {
   /**
   * Number of permissible ping failures before changing the member's status to INACTIVE. Must be a number between 1 and 10.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#max_retries LbMonitor#max_retries}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#max_retries LbMonitor#max_retries}
   */
   readonly maxRetries: number;
   /**
   * Number of permissible ping failures befor changing the member's status to ERROR. Must be a number between 1 and 10. Changing this updates the max_retries_down of the existing monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#max_retries_down LbMonitor#max_retries_down}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#max_retries_down LbMonitor#max_retries_down}
   */
   readonly maxRetriesDown?: number;
   /**
   * The Name of the Monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#name LbMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#name LbMonitor#name}
   */
   readonly name?: string;
   /**
   * The id of the pool that this monitor will be assigned to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#pool_id LbMonitor#pool_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#pool_id LbMonitor#pool_id}
   */
   readonly poolId: string;
   /**
   * The region in which to obtain the Loadbalancer client. If omitted, the `region` argument of the provider is used. Changing this creates a new monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#region LbMonitor#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#region LbMonitor#region}
   */
   readonly region?: string;
   /**
   * Maximum number of seconds for a monitor to wait for a ping reply before it times out. The value must be less than the delay value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#timeout LbMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#timeout LbMonitor#timeout}
   */
   readonly timeout: number;
   /**
   * The type of probe, which is PING, TCP, HTTP, HTTPS, TLS-HELLO or UDP-CONNECT, that is sent by the load balancer to verify the member state. Changing this creates a new monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#type LbMonitor#type}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#type LbMonitor#type}
   */
   readonly type: string;
   /**
   * Required for HTTP(S) types. URI path that will be accessed if monitor type is HTTP or HTTPS.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#url_path LbMonitor#url_path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#url_path LbMonitor#url_path}
   */
   readonly urlPath?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#timeouts LbMonitor#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#timeouts LbMonitor#timeouts}
   */
   readonly timeouts?: LbMonitorTimeouts;
 }
 export interface LbMonitorTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#create LbMonitor#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#create LbMonitor#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#delete LbMonitor#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#delete LbMonitor#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#update LbMonitor#update}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#update LbMonitor#update}
   */
   readonly update?: string;
 }
@@ -255,7 +255,7 @@ export class LbMonitorTimeoutsOutputReference extends cdktf.ComplexObject {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor vkcs_lb_monitor}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor vkcs_lb_monitor}
 */
 export class LbMonitor extends cdktf.TerraformResource {
 
@@ -271,7 +271,7 @@ export class LbMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a LbMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the LbMonitor to import
-  * @param importFromId The id of the existing LbMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing LbMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the LbMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -283,7 +283,7 @@ export class LbMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/lb_monitor vkcs_lb_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/lb_monitor vkcs_lb_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -294,8 +294,8 @@ export class LbMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_lb_monitor',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

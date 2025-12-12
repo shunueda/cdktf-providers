@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,115 +10,115 @@ export interface KibanaSyntheticsMonitorConfig extends cdktf.TerraformMetaArgume
   /**
   * Alert configuration. Default: `{ status: { enabled: true }, tls: { enabled: true } }`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#alert KibanaSyntheticsMonitor#alert}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#alert KibanaSyntheticsMonitor#alert}
   */
   readonly alert?: KibanaSyntheticsMonitorAlert;
   /**
   * Browser Monitor specific fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#browser KibanaSyntheticsMonitor#browser}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#browser KibanaSyntheticsMonitor#browser}
   */
   readonly browser?: KibanaSyntheticsMonitorBrowser;
   /**
   * Whether the monitor is enabled. Default: `true`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#enabled KibanaSyntheticsMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#enabled KibanaSyntheticsMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * HTTP Monitor specific fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#http KibanaSyntheticsMonitor#http}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#http KibanaSyntheticsMonitor#http}
   */
   readonly http?: KibanaSyntheticsMonitorHttp;
   /**
   * ICMP Monitor specific fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#icmp KibanaSyntheticsMonitor#icmp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#icmp KibanaSyntheticsMonitor#icmp}
   */
   readonly icmp?: KibanaSyntheticsMonitorIcmp;
   /**
   * Key-value pairs of labels to associate with the monitor. Labels can be used for filtering and grouping monitors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#labels KibanaSyntheticsMonitor#labels}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#labels KibanaSyntheticsMonitor#labels}
   */
   readonly labels?: { [key: string]: string };
   /**
   * Where to deploy the monitor. Monitors can be deployed in multiple locations so that you can detect differences in availability and response times across those locations.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#locations KibanaSyntheticsMonitor#locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#locations KibanaSyntheticsMonitor#locations}
   */
   readonly locations?: string[];
   /**
   * The monitor's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#name KibanaSyntheticsMonitor#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#name KibanaSyntheticsMonitor#name}
   */
   readonly name: string;
   /**
   * The data stream namespace. Note: if you change its value, kibana creates new datastream. A user needs permissions for new/old datastream in update case to be able to see full monitor history. The `namespace` field should be lowercase and not contain spaces. The namespace must not include any of the following characters: *, \, /, ?, ", <, >, |, whitespace, ,, #, :, or -. Default: `default`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#namespace KibanaSyntheticsMonitor#namespace}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#namespace KibanaSyntheticsMonitor#namespace}
   */
   readonly namespace?: string;
   /**
   * Monitor parameters. Raw JSON object, use `jsonencode` function to represent JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#params KibanaSyntheticsMonitor#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#params KibanaSyntheticsMonitor#params}
   */
   readonly params?: string;
   /**
   * These Private Locations refer to locations hosted and managed by you, whereas locations are hosted by Elastic. You can specify a Private Location using the location's name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#private_locations KibanaSyntheticsMonitor#private_locations}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#private_locations KibanaSyntheticsMonitor#private_locations}
   */
   readonly privateLocations?: string[];
   /**
   * Enable or disable retesting when a monitor fails. By default, monitors are automatically retested if the monitor goes from "up" to "down". If the result of the retest is also "down", an error will be created, and if configured, an alert sent. Then the monitor will resume running according to the defined schedule. Using retest_on_failure can reduce noise related to transient problems. Default: `true`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#retest_on_failure KibanaSyntheticsMonitor#retest_on_failure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#retest_on_failure KibanaSyntheticsMonitor#retest_on_failure}
   */
   readonly retestOnFailure?: boolean | cdktf.IResolvable;
   /**
   * The monitor's schedule in minutes. Supported values are 1, 3, 5, 10, 15, 30, 60, 120 and 240.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#schedule KibanaSyntheticsMonitor#schedule}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#schedule KibanaSyntheticsMonitor#schedule}
   */
   readonly schedule?: number;
   /**
   * The APM service name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#service_name KibanaSyntheticsMonitor#service_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#service_name KibanaSyntheticsMonitor#service_name}
   */
   readonly serviceName?: string;
   /**
   * Kibana space. The space ID that is part of the Kibana URL when inside the space. Space IDs are limited to lowercase alphanumeric, underscore, and hyphen characters (a-z, 0-9, _, and -). You are cannot change the ID with the update operation.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#space_id KibanaSyntheticsMonitor#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#space_id KibanaSyntheticsMonitor#space_id}
   */
   readonly spaceId?: string;
   /**
   * An array of tags.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#tags KibanaSyntheticsMonitor#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#tags KibanaSyntheticsMonitor#tags}
   */
   readonly tags?: string[];
   /**
   * TCP Monitor specific fields
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#tcp KibanaSyntheticsMonitor#tcp}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#tcp KibanaSyntheticsMonitor#tcp}
   */
   readonly tcp?: KibanaSyntheticsMonitorTcp;
   /**
   * The monitor timeout in seconds, monitor will fail if it doesn't complete within this time. Default: `16`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#timeout KibanaSyntheticsMonitor#timeout}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#timeout KibanaSyntheticsMonitor#timeout}
   */
   readonly timeout?: number;
 }
 export interface KibanaSyntheticsMonitorAlertStatus {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#enabled KibanaSyntheticsMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#enabled KibanaSyntheticsMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -212,7 +212,7 @@ export class KibanaSyntheticsMonitorAlertStatusOutputReference extends cdktf.Com
 }
 export interface KibanaSyntheticsMonitorAlertTls {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#enabled KibanaSyntheticsMonitor#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#enabled KibanaSyntheticsMonitor#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
 }
@@ -306,11 +306,11 @@ export class KibanaSyntheticsMonitorAlertTlsOutputReference extends cdktf.Comple
 }
 export interface KibanaSyntheticsMonitorAlert {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#status KibanaSyntheticsMonitor#status}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#status KibanaSyntheticsMonitor#status}
   */
   readonly status?: KibanaSyntheticsMonitorAlertStatus;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#tls KibanaSyntheticsMonitor#tls}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#tls KibanaSyntheticsMonitor#tls}
   */
   readonly tls?: KibanaSyntheticsMonitorAlertTls;
 }
@@ -435,31 +435,31 @@ export interface KibanaSyntheticsMonitorBrowser {
   /**
   * Whether to ignore HTTPS errors.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ignore_https_errors KibanaSyntheticsMonitor#ignore_https_errors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ignore_https_errors KibanaSyntheticsMonitor#ignore_https_errors}
   */
   readonly ignoreHttpsErrors?: boolean | cdktf.IResolvable;
   /**
   * The inline script.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#inline_script KibanaSyntheticsMonitor#inline_script}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#inline_script KibanaSyntheticsMonitor#inline_script}
   */
   readonly inlineScript: string;
   /**
   * Playwright options.. Raw JSON object, use `jsonencode` function to represent JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#playwright_options KibanaSyntheticsMonitor#playwright_options}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#playwright_options KibanaSyntheticsMonitor#playwright_options}
   */
   readonly playwrightOptions?: string;
   /**
   * Controls the behavior of the screenshots feature.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#screenshots KibanaSyntheticsMonitor#screenshots}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#screenshots KibanaSyntheticsMonitor#screenshots}
   */
   readonly screenshots?: string;
   /**
   * Synthetics agent CLI arguments.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#synthetics_args KibanaSyntheticsMonitor#synthetics_args}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#synthetics_args KibanaSyntheticsMonitor#synthetics_args}
   */
   readonly syntheticsArgs?: string[];
 }
@@ -668,103 +668,103 @@ export interface KibanaSyntheticsMonitorHttp {
   /**
   * The check request settings.. Raw JSON object, use `jsonencode` function to represent JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#check KibanaSyntheticsMonitor#check}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#check KibanaSyntheticsMonitor#check}
   */
   readonly check?: string;
   /**
   * Whether to ping using the ipv4 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ipv4 KibanaSyntheticsMonitor#ipv4}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ipv4 KibanaSyntheticsMonitor#ipv4}
   */
   readonly ipv4?: boolean | cdktf.IResolvable;
   /**
   * Whether to ping using the ipv6 protocol.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ipv6 KibanaSyntheticsMonitor#ipv6}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ipv6 KibanaSyntheticsMonitor#ipv6}
   */
   readonly ipv6?: boolean | cdktf.IResolvable;
   /**
   * The maximum number of redirects to follow. Default: `0`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#max_redirects KibanaSyntheticsMonitor#max_redirects}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#max_redirects KibanaSyntheticsMonitor#max_redirects}
   */
   readonly maxRedirects?: number;
   /**
   * The mode of the monitor. Can be "all" or "any". If you're using a DNS-load balancer and want to ping every IP address for the specified hostname, you should use all.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#mode KibanaSyntheticsMonitor#mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#mode KibanaSyntheticsMonitor#mode}
   */
   readonly mode?: string;
   /**
   * The password for authenticating with the server. The credentials are passed with the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#password KibanaSyntheticsMonitor#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#password KibanaSyntheticsMonitor#password}
   */
   readonly password?: string;
   /**
   * Additional headers to send to proxies during CONNECT requests.. Raw JSON object, use `jsonencode` function to represent JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#proxy_header KibanaSyntheticsMonitor#proxy_header}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#proxy_header KibanaSyntheticsMonitor#proxy_header}
   */
   readonly proxyHeader?: string;
   /**
   * The URL of the proxy to use for this monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#proxy_url KibanaSyntheticsMonitor#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#proxy_url KibanaSyntheticsMonitor#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   * Controls the indexing of the HTTP response body contents to the `http.response.body.contents` field.. Raw JSON object, use `jsonencode` function to represent JSON
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#response KibanaSyntheticsMonitor#response}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#response KibanaSyntheticsMonitor#response}
   */
   readonly response?: string;
   /**
   * Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_certificate KibanaSyntheticsMonitor#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_certificate KibanaSyntheticsMonitor#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * The list of root certificates for verifications is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_certificate_authorities KibanaSyntheticsMonitor#ssl_certificate_authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_certificate_authorities KibanaSyntheticsMonitor#ssl_certificate_authorities}
   */
   readonly sslCertificateAuthorities?: string[];
   /**
   * Certificate key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_key KibanaSyntheticsMonitor#ssl_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_key KibanaSyntheticsMonitor#ssl_key}
   */
   readonly sslKey?: string;
   /**
   * Key passphrase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_key_passphrase KibanaSyntheticsMonitor#ssl_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_key_passphrase KibanaSyntheticsMonitor#ssl_key_passphrase}
   */
   readonly sslKeyPassphrase?: string;
   /**
   * List of allowed SSL/TLS versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_supported_protocols KibanaSyntheticsMonitor#ssl_supported_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_supported_protocols KibanaSyntheticsMonitor#ssl_supported_protocols}
   */
   readonly sslSupportedProtocols?: string[];
   /**
   * Controls the verification of server certificates. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_verification_mode KibanaSyntheticsMonitor#ssl_verification_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_verification_mode KibanaSyntheticsMonitor#ssl_verification_mode}
   */
   readonly sslVerificationMode?: string;
   /**
   * URL to monitor.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#url KibanaSyntheticsMonitor#url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#url KibanaSyntheticsMonitor#url}
   */
   readonly url: string;
   /**
   * The username for authenticating with the server. The credentials are passed with the request.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#username KibanaSyntheticsMonitor#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#username KibanaSyntheticsMonitor#username}
   */
   readonly username?: string;
 }
@@ -1321,13 +1321,13 @@ export interface KibanaSyntheticsMonitorIcmp {
   /**
   * Host to ping; it can be an IP address or a hostname.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#host KibanaSyntheticsMonitor#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#host KibanaSyntheticsMonitor#host}
   */
   readonly host: string;
   /**
   *  Wait time in seconds. Default: `1`
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#wait KibanaSyntheticsMonitor#wait}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#wait KibanaSyntheticsMonitor#wait}
   */
   readonly wait?: number;
 }
@@ -1449,67 +1449,67 @@ export interface KibanaSyntheticsMonitorTcp {
   /**
   * The expected answer. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#check_receive KibanaSyntheticsMonitor#check_receive}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#check_receive KibanaSyntheticsMonitor#check_receive}
   */
   readonly checkReceive?: string;
   /**
   * An optional payload string to send to the remote host.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#check_send KibanaSyntheticsMonitor#check_send}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#check_send KibanaSyntheticsMonitor#check_send}
   */
   readonly checkSend?: string;
   /**
   * The host to monitor; it can be an IP address or a hostname. The host can include the port using a colon (e.g., "example.com:9200").
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#host KibanaSyntheticsMonitor#host}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#host KibanaSyntheticsMonitor#host}
   */
   readonly host: string;
   /**
   * The URL of the SOCKS5 proxy to use when connecting to the server. The value must be a URL with a scheme of `socks5://`. If the SOCKS5 proxy server requires client authentication, then a username and password can be embedded in the URL. When using a proxy, hostnames are resolved on the proxy server instead of on the client. You can change this behavior by setting the `proxy_use_local_resolver` option.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#proxy_url KibanaSyntheticsMonitor#proxy_url}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#proxy_url KibanaSyntheticsMonitor#proxy_url}
   */
   readonly proxyUrl?: string;
   /**
   *  A Boolean value that determines whether hostnames are resolved locally instead of being resolved on the proxy server. The default value is false, which means that name resolution occurs on the proxy server.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#proxy_use_local_resolver KibanaSyntheticsMonitor#proxy_use_local_resolver}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#proxy_use_local_resolver KibanaSyntheticsMonitor#proxy_use_local_resolver}
   */
   readonly proxyUseLocalResolver?: boolean | cdktf.IResolvable;
   /**
   * Certificate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_certificate KibanaSyntheticsMonitor#ssl_certificate}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_certificate KibanaSyntheticsMonitor#ssl_certificate}
   */
   readonly sslCertificate?: string;
   /**
   * The list of root certificates for verifications is required.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_certificate_authorities KibanaSyntheticsMonitor#ssl_certificate_authorities}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_certificate_authorities KibanaSyntheticsMonitor#ssl_certificate_authorities}
   */
   readonly sslCertificateAuthorities?: string[];
   /**
   * Certificate key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_key KibanaSyntheticsMonitor#ssl_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_key KibanaSyntheticsMonitor#ssl_key}
   */
   readonly sslKey?: string;
   /**
   * Key passphrase.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_key_passphrase KibanaSyntheticsMonitor#ssl_key_passphrase}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_key_passphrase KibanaSyntheticsMonitor#ssl_key_passphrase}
   */
   readonly sslKeyPassphrase?: string;
   /**
   * List of allowed SSL/TLS versions.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_supported_protocols KibanaSyntheticsMonitor#ssl_supported_protocols}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_supported_protocols KibanaSyntheticsMonitor#ssl_supported_protocols}
   */
   readonly sslSupportedProtocols?: string[];
   /**
   * Controls the verification of server certificates. 
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#ssl_verification_mode KibanaSyntheticsMonitor#ssl_verification_mode}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#ssl_verification_mode KibanaSyntheticsMonitor#ssl_verification_mode}
   */
   readonly sslVerificationMode?: string;
 }
@@ -1890,7 +1890,7 @@ export class KibanaSyntheticsMonitorTcpOutputReference extends cdktf.ComplexObje
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor elasticstack_kibana_synthetics_monitor}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor elasticstack_kibana_synthetics_monitor}
 */
 export class KibanaSyntheticsMonitor extends cdktf.TerraformResource {
 
@@ -1906,7 +1906,7 @@ export class KibanaSyntheticsMonitor extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaSyntheticsMonitor resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaSyntheticsMonitor to import
-  * @param importFromId The id of the existing KibanaSyntheticsMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaSyntheticsMonitor that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaSyntheticsMonitor to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -1918,7 +1918,7 @@ export class KibanaSyntheticsMonitor extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_synthetics_monitor elasticstack_kibana_synthetics_monitor} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_synthetics_monitor elasticstack_kibana_synthetics_monitor} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -1929,8 +1929,8 @@ export class KibanaSyntheticsMonitor extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_synthetics_monitor',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

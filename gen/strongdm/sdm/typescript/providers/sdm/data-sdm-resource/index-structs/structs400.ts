@@ -81,6 +81,7 @@ DataSdmResourceResourcesMtlsPostgresList,
 DataSdmResourceResourcesMysqlList,
 DataSdmResourceResourcesNeptuneList,
 DataSdmResourceResourcesNeptuneIamList,
+DataSdmResourceResourcesOktaGroupsList,
 DataSdmResourceResourcesOracleList,
 DataSdmResourceResourcesOracleNneList,
 DataSdmResourceResourcesPostgresList,
@@ -97,8 +98,163 @@ DataSdmResourceResourcesRedshiftIamList,
 DataSdmResourceResourcesRedshiftServerlessIamList,
 DataSdmResourceResourcesSingleStoreList,
 DataSdmResourceResourcesSnowflakeList,
-DataSdmResourceResourcesSnowsightList,
-DataSdmResourceResourcesSqlServerList } from './structs0'
+DataSdmResourceResourcesSnowsightList } from './structs0'
+export interface DataSdmResourceResourcesSqlServer {
+}
+
+export function dataSdmResourceResourcesSqlServerToTerraform(struct?: DataSdmResourceResourcesSqlServer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  return {
+  }
+}
+
+
+export function dataSdmResourceResourcesSqlServerToHclTerraform(struct?: DataSdmResourceResourcesSqlServer): any {
+  if (!cdktf.canInspect(struct) || cdktf.Tokenization.isResolvable(struct)) { return struct; }
+  if (cdktf.isComplexElement(struct)) {
+    throw new Error("A complex element was used as configuration, this is not supported: https://cdk.tf/complex-object-as-configuration");
+  }
+  const attrs = {
+  };
+  return attrs;
+}
+
+export class DataSdmResourceResourcesSqlServerOutputReference extends cdktf.ComplexObject {
+  private isEmptyObject = false;
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param complexObjectIndex the index of this item in the list
+  * @param complexObjectIsFromSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  public constructor(terraformResource: cdktf.IInterpolatingParent, terraformAttribute: string, complexObjectIndex: number, complexObjectIsFromSet: boolean) {
+    super(terraformResource, terraformAttribute, complexObjectIsFromSet, complexObjectIndex);
+  }
+
+  public get internalValue(): DataSdmResourceResourcesSqlServer | undefined {
+    let hasAnyValues = this.isEmptyObject;
+    const internalValueResult: any = {};
+    return hasAnyValues ? internalValueResult : undefined;
+  }
+
+  public set internalValue(value: DataSdmResourceResourcesSqlServer | undefined) {
+    if (value === undefined) {
+      this.isEmptyObject = false;
+    }
+    else {
+      this.isEmptyObject = Object.keys(value).length === 0;
+    }
+  }
+
+  // allow_deprecated_encryption - computed: true, optional: false, required: false
+  public get allowDeprecatedEncryption() {
+    return this.getBooleanAttribute('allow_deprecated_encryption');
+  }
+
+  // bind_interface - computed: true, optional: false, required: false
+  public get bindInterface() {
+    return this.getStringAttribute('bind_interface');
+  }
+
+  // database - computed: true, optional: false, required: false
+  public get database() {
+    return this.getStringAttribute('database');
+  }
+
+  // egress_filter - computed: true, optional: false, required: false
+  public get egressFilter() {
+    return this.getStringAttribute('egress_filter');
+  }
+
+  // hostname - computed: true, optional: false, required: false
+  public get hostname() {
+    return this.getStringAttribute('hostname');
+  }
+
+  // id - computed: true, optional: false, required: false
+  public get id() {
+    return this.getStringAttribute('id');
+  }
+
+  // name - computed: true, optional: false, required: false
+  public get name() {
+    return this.getStringAttribute('name');
+  }
+
+  // override_database - computed: true, optional: false, required: false
+  public get overrideDatabase() {
+    return this.getBooleanAttribute('override_database');
+  }
+
+  // password - computed: true, optional: false, required: false
+  public get password() {
+    return this.getStringAttribute('password');
+  }
+
+  // port - computed: true, optional: false, required: false
+  public get port() {
+    return this.getNumberAttribute('port');
+  }
+
+  // port_override - computed: true, optional: false, required: false
+  public get portOverride() {
+    return this.getNumberAttribute('port_override');
+  }
+
+  // proxy_cluster_id - computed: true, optional: false, required: false
+  public get proxyClusterId() {
+    return this.getStringAttribute('proxy_cluster_id');
+  }
+
+  // schema - computed: true, optional: false, required: false
+  public get schema() {
+    return this.getStringAttribute('schema');
+  }
+
+  // secret_store_id - computed: true, optional: false, required: false
+  public get secretStoreId() {
+    return this.getStringAttribute('secret_store_id');
+  }
+
+  // subdomain - computed: true, optional: false, required: false
+  public get subdomain() {
+    return this.getStringAttribute('subdomain');
+  }
+
+  // tags - computed: true, optional: false, required: false
+  private _tags = new cdktf.StringMap(this, "tags");
+  public get tags() {
+    return this._tags;
+  }
+
+  // username - computed: true, optional: false, required: false
+  public get username() {
+    return this.getStringAttribute('username');
+  }
+}
+
+export class DataSdmResourceResourcesSqlServerList extends cdktf.ComplexList {
+
+  /**
+  * @param terraformResource The parent resource
+  * @param terraformAttribute The attribute on the parent resource this class is referencing
+  * @param wrapsSet whether the list is wrapping a set (will add tolist() to be able to access an item via an index)
+  */
+  constructor(protected terraformResource: cdktf.IInterpolatingParent, protected terraformAttribute: string, protected wrapsSet: boolean) {
+    super(terraformResource, terraformAttribute, wrapsSet)
+  }
+
+  /**
+  * @param index the index of the item to return
+  */
+  public get(index: number): DataSdmResourceResourcesSqlServerOutputReference {
+    return new DataSdmResourceResourcesSqlServerOutputReference(this.terraformResource, this.terraformAttribute, index, this.wrapsSet);
+  }
+}
 export interface DataSdmResourceResourcesSqlServerAzureAd {
 }
 
@@ -2273,6 +2429,12 @@ export class DataSdmResourceResourcesOutputReference extends cdktf.ComplexObject
     return this._neptuneIam;
   }
 
+  // okta_groups - computed: true, optional: false, required: false
+  private _oktaGroups = new DataSdmResourceResourcesOktaGroupsList(this, "okta_groups", false);
+  public get oktaGroups() {
+    return this._oktaGroups;
+  }
+
   // oracle - computed: true, optional: false, required: false
   private _oracle = new DataSdmResourceResourcesOracleList(this, "oracle", false);
   public get oracle() {
@@ -2468,7 +2630,7 @@ export class DataSdmResourceResourcesList extends cdktf.ComplexList {
 }
 export interface DataSdmResourceTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/data-sources/resource#default DataSdmResource#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/data-sources/resource#default DataSdmResource#default}
   */
   readonly default?: string;
 }

@@ -1,6 +1,6 @@
 {
   "cdktf": "0.21.0",
   "providers": {
-    "cloudamqp": "1.39.0"
+    "cloudamqp": "1.40.0"
   }
 }

@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,23 +10,23 @@ export interface KibanaAlertingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * A number that indicates how many consecutive runs need to meet the rule conditions for an alert to occur.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#alert_delay KibanaAlertingRule#alert_delay}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#alert_delay KibanaAlertingRule#alert_delay}
   */
   readonly alertDelay?: number;
   /**
   * The name of the application or feature that owns the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#consumer KibanaAlertingRule#consumer}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#consumer KibanaAlertingRule#consumer}
   */
   readonly consumer: string;
   /**
   * Indicates if you want to run the rule on an interval basis.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#enabled KibanaAlertingRule#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#enabled KibanaAlertingRule#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#id KibanaAlertingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#id KibanaAlertingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -35,61 +35,61 @@ export interface KibanaAlertingRuleConfig extends cdktf.TerraformMetaArguments {
   /**
   * The check interval, which specifies how frequently the rule conditions are checked. The interval must be specified in seconds, minutes, hours or days.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#interval KibanaAlertingRule#interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#interval KibanaAlertingRule#interval}
   */
   readonly interval: string;
   /**
   * The name of the rule. While this name does not have to be unique, a distinctive name can help you identify a rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#name KibanaAlertingRule#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#name KibanaAlertingRule#name}
   */
   readonly name: string;
   /**
   * Required until v8.6.0. Deprecated in v8.13.0. Use the `notify_when` property in the action `frequency` object instead. Defines how often alerts generate actions. Valid values include: `onActionGroupChange`: Actions run when the alert status changes; `onActiveAlert`: Actions run when the alert becomes active and at each check interval while the rule conditions are met; `onThrottleInterval`: Actions run when the alert becomes active and at the interval specified in the throttle property while the rule conditions are met. NOTE: This is a rule level property; if you update the rule in Kibana, it is automatically changed to use action-specific `notify_when` values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#notify_when KibanaAlertingRule#notify_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#notify_when KibanaAlertingRule#notify_when}
   */
   readonly notifyWhen?: string;
   /**
   * The rule parameters, which differ for each rule type.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#params KibanaAlertingRule#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#params KibanaAlertingRule#params}
   */
   readonly params: string;
   /**
   * The identifier for the rule. Until Kibana version 8.17.0 this should be a UUID v1 or v4, for later versions any format can be used. If it is omitted, an ID is randomly generated.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#rule_id KibanaAlertingRule#rule_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#rule_id KibanaAlertingRule#rule_id}
   */
   readonly ruleId?: string;
   /**
   * The ID of the rule type that you want to call when the rule is scheduled to run. For more information about the valid values, list the rule types using [Get rule types API](https://www.elastic.co/guide/en/kibana/master/list-rule-types-api.html) or refer to the [Rule types documentation](https://www.elastic.co/guide/en/kibana/master/rule-types.html).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#rule_type_id KibanaAlertingRule#rule_type_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#rule_type_id KibanaAlertingRule#rule_type_id}
   */
   readonly ruleTypeId: string;
   /**
   * An identifier for the space. If space_id is not provided, the default space is used.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#space_id KibanaAlertingRule#space_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#space_id KibanaAlertingRule#space_id}
   */
   readonly spaceId?: string;
   /**
   * A list of tag names that are applied to the rule.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#tags KibanaAlertingRule#tags}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#tags KibanaAlertingRule#tags}
   */
   readonly tags?: string[];
   /**
   * Deprecated in 8.13.0. Defines how often an alert generates repeated actions. This custom action interval must be specified in seconds, minutes, hours, or days. For example, 10m or 1h. This property is applicable only if `notify_when` is `onThrottleInterval`. NOTE: This is a rule level property; if you update the rule in Kibana, it is automatically changed to use action-specific `throttle` values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#throttle KibanaAlertingRule#throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#throttle KibanaAlertingRule#throttle}
   */
   readonly throttle?: string;
   /**
   * actions block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#actions KibanaAlertingRule#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#actions KibanaAlertingRule#actions}
   */
   readonly actions?: KibanaAlertingRuleActions[] | cdktf.IResolvable;
 }
@@ -97,25 +97,25 @@ export interface KibanaAlertingRuleActionsAlertsFilterTimeframe {
   /**
   * Defines the days of the week that the action can run, represented as an array of numbers. For example, 1 represents Monday. An empty array is equivalent to specifying all the days of the week.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#days KibanaAlertingRule#days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#days KibanaAlertingRule#days}
   */
   readonly days: number[];
   /**
   * Defines the range of time in a day that the action can run. The end of the time frame in 24-hour notation (hh:mm).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#hours_end KibanaAlertingRule#hours_end}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#hours_end KibanaAlertingRule#hours_end}
   */
   readonly hoursEnd: string;
   /**
   * Defines the range of time in a day that the action can run. The start of the time frame in 24-hour notation (hh:mm).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#hours_start KibanaAlertingRule#hours_start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#hours_start KibanaAlertingRule#hours_start}
   */
   readonly hoursStart: string;
   /**
   * The ISO time zone for the hours values. Values such as UTC and UTC+1 also work but lack built-in daylight savings time support and are not recommended.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#timezone KibanaAlertingRule#timezone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#timezone KibanaAlertingRule#timezone}
   */
   readonly timezone: string;
 }
@@ -276,13 +276,13 @@ export interface KibanaAlertingRuleActionsAlertsFilter {
   /**
   * Defines a query filter that determines whether the action runs. Written in Kibana Query Language (KQL).
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#kql KibanaAlertingRule#kql}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#kql KibanaAlertingRule#kql}
   */
   readonly kql?: string;
   /**
   * timeframe block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#timeframe KibanaAlertingRule#timeframe}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#timeframe KibanaAlertingRule#timeframe}
   */
   readonly timeframe?: KibanaAlertingRuleActionsAlertsFilterTimeframe;
 }
@@ -397,19 +397,19 @@ export interface KibanaAlertingRuleActionsFrequency {
   /**
   * Defines how often alerts generate actions. Valid values include: `onActionGroupChange`: Actions run when the alert status changes; `onActiveAlert`: Actions run when the alert becomes active and at each check interval while the rule conditions are met; `onThrottleInterval`: Actions run when the alert becomes active and at the interval specified in the throttle property while the rule conditions are met. NOTE: This is a rule level property; if you update the rule in Kibana, it is automatically changed to use action-specific `notify_when` values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#notify_when KibanaAlertingRule#notify_when}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#notify_when KibanaAlertingRule#notify_when}
   */
   readonly notifyWhen: string;
   /**
   * Indicates whether the action is a summary.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#summary KibanaAlertingRule#summary}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#summary KibanaAlertingRule#summary}
   */
   readonly summary: boolean | cdktf.IResolvable;
   /**
   * Defines how often an alert generates repeated actions. This custom action interval must be specified in seconds, minutes, hours, or days. For example, 10m or 1h. This property is applicable only if `notify_when` is `onThrottleInterval`. NOTE: This is a rule level property; if you update the rule in Kibana, it is automatically changed to use action-specific `throttle` values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#throttle KibanaAlertingRule#throttle}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#throttle KibanaAlertingRule#throttle}
   */
   readonly throttle?: string;
 }
@@ -547,13 +547,13 @@ export interface KibanaAlertingRuleActions {
   /**
   * The group name, which affects when the action runs (for example, when the threshold is met or when the alert is recovered). Each rule type has a list of valid action group names.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#group KibanaAlertingRule#group}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#group KibanaAlertingRule#group}
   */
   readonly group?: string;
   /**
   * The identifier for the connector saved object.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#id KibanaAlertingRule#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#id KibanaAlertingRule#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -562,19 +562,19 @@ export interface KibanaAlertingRuleActions {
   /**
   * The parameters for the action, which are sent to the connector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#params KibanaAlertingRule#params}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#params KibanaAlertingRule#params}
   */
   readonly params: string;
   /**
   * alerts_filter block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#alerts_filter KibanaAlertingRule#alerts_filter}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#alerts_filter KibanaAlertingRule#alerts_filter}
   */
   readonly alertsFilter?: KibanaAlertingRuleActionsAlertsFilter;
   /**
   * frequency block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#frequency KibanaAlertingRule#frequency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#frequency KibanaAlertingRule#frequency}
   */
   readonly frequency?: KibanaAlertingRuleActionsFrequency;
 }
@@ -800,7 +800,7 @@ export class KibanaAlertingRuleActionsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule elasticstack_kibana_alerting_rule}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule elasticstack_kibana_alerting_rule}
 */
 export class KibanaAlertingRule extends cdktf.TerraformResource {
 
@@ -816,7 +816,7 @@ export class KibanaAlertingRule extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a KibanaAlertingRule resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the KibanaAlertingRule to import
-  * @param importFromId The id of the existing KibanaAlertingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing KibanaAlertingRule that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the KibanaAlertingRule to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -828,7 +828,7 @@ export class KibanaAlertingRule extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/kibana_alerting_rule elasticstack_kibana_alerting_rule} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/kibana_alerting_rule elasticstack_kibana_alerting_rule} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -839,8 +839,8 @@ export class KibanaAlertingRule extends cdktf.TerraformResource {
       terraformResourceType: 'elasticstack_kibana_alerting_rule',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

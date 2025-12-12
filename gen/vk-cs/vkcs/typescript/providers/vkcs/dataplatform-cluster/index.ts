@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster
+// https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,101 +10,101 @@ export interface DataplatformClusterConfig extends cdktf.TerraformMetaArguments 
   /**
   * Availability zone to create cluster in. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#availability_zone DataplatformCluster#availability_zone}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#availability_zone DataplatformCluster#availability_zone}
   */
   readonly availabilityZone?: string;
   /**
   * ID of the cluster template. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#cluster_template_id DataplatformCluster#cluster_template_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#cluster_template_id DataplatformCluster#cluster_template_id}
   */
   readonly clusterTemplateId?: string;
   /**
   * Product configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#configs DataplatformCluster#configs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#configs DataplatformCluster#configs}
   */
   readonly configs: DataplatformClusterConfigs;
   /**
   * Cluster description.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#description DataplatformCluster#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#description DataplatformCluster#description}
   */
   readonly description?: string;
   /**
   * Floating IP pool ID. Use `auto` for autoselect. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#floating_ip_pool DataplatformCluster#floating_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#floating_ip_pool DataplatformCluster#floating_ip_pool}
   */
   readonly floatingIpPool?: string;
   /**
   * Enables multi az support. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#multiaz DataplatformCluster#multiaz}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#multiaz DataplatformCluster#multiaz}
   */
   readonly multiaz?: boolean | cdktf.IResolvable;
   /**
   * Name of the cluster.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
   */
   readonly name: string;
   /**
   * ID of the cluster network. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#network_id DataplatformCluster#network_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#network_id DataplatformCluster#network_id}
   */
   readonly networkId: string;
   /**
   * Cluster pod groups. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#pod_groups DataplatformCluster#pod_groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#pod_groups DataplatformCluster#pod_groups}
   */
   readonly podGroups?: DataplatformClusterPodGroups[] | cdktf.IResolvable;
   /**
   * Name of the product.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#product_name DataplatformCluster#product_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#product_name DataplatformCluster#product_name}
   */
   readonly productName: string;
   /**
   * Version of the product. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#product_version DataplatformCluster#product_version}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#product_version DataplatformCluster#product_version}
   */
   readonly productVersion: string;
   /**
   * The region in which to obtain the Data platform client. If omitted, the `region` argument of the provider is used. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#region DataplatformCluster#region}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#region DataplatformCluster#region}
   */
   readonly region?: string;
   /**
   * ID of the cluster stack. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#stack_id DataplatformCluster#stack_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#stack_id DataplatformCluster#stack_id}
   */
   readonly stackId?: string;
   /**
   * ID of the cluster subnet. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#subnet_id DataplatformCluster#subnet_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#subnet_id DataplatformCluster#subnet_id}
   */
   readonly subnetId?: string;
 }
 export interface DataplatformClusterConfigsMaintenanceBackupDifferential {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#keep_count DataplatformCluster#keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#keep_count DataplatformCluster#keep_count}
   */
   readonly keepCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#keep_time DataplatformCluster#keep_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#keep_time DataplatformCluster#keep_time}
   */
   readonly keepTime?: number;
   /**
-  * Differential backup schedule. Changing this creates a new resource.
+  * Differential backup schedule. Defined in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
   */
   readonly start: string;
 }
@@ -258,17 +258,17 @@ export class DataplatformClusterConfigsMaintenanceBackupDifferentialOutputRefere
 }
 export interface DataplatformClusterConfigsMaintenanceBackupFull {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#keep_count DataplatformCluster#keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#keep_count DataplatformCluster#keep_count}
   */
   readonly keepCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#keep_time DataplatformCluster#keep_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#keep_time DataplatformCluster#keep_time}
   */
   readonly keepTime?: number;
   /**
-  * Full backup schedule. Changing this creates a new resource.
+  * Full backup schedule. Defined in UTC. _note_ `configs.maintenance.backup.full.start` must be equal to `configs.maintenance.start`.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
   */
   readonly start: string;
 }
@@ -422,17 +422,17 @@ export class DataplatformClusterConfigsMaintenanceBackupFullOutputReference exte
 }
 export interface DataplatformClusterConfigsMaintenanceBackupIncremental {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#keep_count DataplatformCluster#keep_count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#keep_count DataplatformCluster#keep_count}
   */
   readonly keepCount?: number;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#keep_time DataplatformCluster#keep_time}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#keep_time DataplatformCluster#keep_time}
   */
   readonly keepTime?: number;
   /**
-  * Incremental backup schedule. Changing this creates a new resource.
+  * Incremental backup schedule. Defined in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
   */
   readonly start: string;
 }
@@ -586,21 +586,21 @@ export class DataplatformClusterConfigsMaintenanceBackupIncrementalOutputReferen
 }
 export interface DataplatformClusterConfigsMaintenanceBackup {
   /**
-  * Differential backup settings. Changing this creates a new resource.
+  * Differential backup settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#differential DataplatformCluster#differential}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#differential DataplatformCluster#differential}
   */
   readonly differential?: DataplatformClusterConfigsMaintenanceBackupDifferential;
   /**
-  * Full backup settings. Changing this creates a new resource.
+  * Full backup settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#full DataplatformCluster#full}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#full DataplatformCluster#full}
   */
   readonly full?: DataplatformClusterConfigsMaintenanceBackupFull;
   /**
-  * Incremental backup settings. Changing this creates a new resource.
+  * Incremental backup settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#incremental DataplatformCluster#incremental}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#incremental DataplatformCluster#incremental}
   */
   readonly incremental?: DataplatformClusterConfigsMaintenanceBackupIncremental;
 }
@@ -752,15 +752,15 @@ export class DataplatformClusterConfigsMaintenanceBackupOutputReference extends 
 }
 export interface DataplatformClusterConfigsMaintenanceCrontabsSettings {
   /**
-  * Setting alias. Changing this creates a new resource.
+  * Setting alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#alias DataplatformCluster#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#alias DataplatformCluster#alias}
   */
   readonly alias: string;
   /**
-  * Setting value. Changing this creates a new resource.
+  * Setting value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#value DataplatformCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#value DataplatformCluster#value}
   */
   readonly value: string;
 }
@@ -899,21 +899,21 @@ export class DataplatformClusterConfigsMaintenanceCrontabsSettingsList extends c
 }
 export interface DataplatformClusterConfigsMaintenanceCrontabs {
   /**
-  * Cron tab name. Changing this creates a new resource.
+  * Cron tab name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
   */
   readonly name: string;
   /**
-  * Additional cron settings. Changing this creates a new resource.
+  * Additional cron settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#settings DataplatformCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#settings DataplatformCluster#settings}
   */
   readonly settings?: DataplatformClusterConfigsMaintenanceCrontabsSettings[] | cdktf.IResolvable;
   /**
-  * Cron tab schedule. Changing this creates a new resource.
+  * Cron tab schedule. Defined in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
   */
   readonly start?: string;
 }
@@ -1094,21 +1094,21 @@ export class DataplatformClusterConfigsMaintenanceCrontabsList extends cdktf.Com
 }
 export interface DataplatformClusterConfigsMaintenance {
   /**
-  * Backup settings. Changing this creates a new resource.
+  * Backup settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#backup DataplatformCluster#backup}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#backup DataplatformCluster#backup}
   */
   readonly backup?: DataplatformClusterConfigsMaintenanceBackup;
   /**
-  * Cron tabs settings. Changing this creates a new resource.
+  * Cron tabs settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#crontabs DataplatformCluster#crontabs}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#crontabs DataplatformCluster#crontabs}
   */
   readonly crontabs?: DataplatformClusterConfigsMaintenanceCrontabs[] | cdktf.IResolvable;
   /**
-  * Maintenance cron schedule. Changing this creates a new resource.
+  * Maintenance cron schedule. Defined in UTC.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#start DataplatformCluster#start}
   */
   readonly start?: string;
 }
@@ -1262,13 +1262,13 @@ export interface DataplatformClusterConfigsSettings {
   /**
   * Setting alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#alias DataplatformCluster#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#alias DataplatformCluster#alias}
   */
   readonly alias: string;
   /**
   * Setting value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#value DataplatformCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#value DataplatformCluster#value}
   */
   readonly value: string;
 }
@@ -1409,19 +1409,19 @@ export interface DataplatformClusterConfigsUsers {
   /**
   * Password. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#password DataplatformCluster#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#password DataplatformCluster#password}
   */
   readonly password: string;
   /**
   * User role. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#role DataplatformCluster#role}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#role DataplatformCluster#role}
   */
   readonly role?: string;
   /**
   * Username
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#username DataplatformCluster#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#username DataplatformCluster#username}
   */
   readonly username: string;
 }
@@ -1599,15 +1599,15 @@ export class DataplatformClusterConfigsUsersList extends cdktf.ComplexList {
 }
 export interface DataplatformClusterConfigsWarehousesConnectionsSettings {
   /**
-  * Setting alias. Changing this creates a new resource.
+  * Setting alias.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#alias DataplatformCluster#alias}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#alias DataplatformCluster#alias}
   */
   readonly alias: string;
   /**
-  * Setting value. Changing this creates a new resource.
+  * Setting value.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#value DataplatformCluster#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#value DataplatformCluster#value}
   */
   readonly value: string;
 }
@@ -1736,21 +1736,21 @@ export class DataplatformClusterConfigsWarehousesConnectionsSettingsList extends
 }
 export interface DataplatformClusterConfigsWarehousesConnections {
   /**
-  * Connection name. Changing this creates a new resource.
+  * Connection name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
   */
   readonly name: string;
   /**
-  * Connection plug. Changing this creates a new resource.
+  * Connection plug.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#plug DataplatformCluster#plug}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#plug DataplatformCluster#plug}
   */
   readonly plug: string;
   /**
-  * Additional warehouse settings. Changing this creates a new resource.
+  * Additional warehouse settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#settings DataplatformCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#settings DataplatformCluster#settings}
   */
   readonly settings: DataplatformClusterConfigsWarehousesConnectionsSettings[] | cdktf.IResolvable;
 }
@@ -1925,15 +1925,15 @@ export class DataplatformClusterConfigsWarehousesConnectionsList extends cdktf.C
 }
 export interface DataplatformClusterConfigsWarehouses {
   /**
-  * Warehouse connections. Changing this creates a new resource.
+  * Warehouse connections.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#connections DataplatformCluster#connections}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#connections DataplatformCluster#connections}
   */
   readonly connections?: DataplatformClusterConfigsWarehousesConnections[] | cdktf.IResolvable;
   /**
   * Warehouse name. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
   */
   readonly name?: string;
 }
@@ -2083,27 +2083,27 @@ export class DataplatformClusterConfigsWarehousesList extends cdktf.ComplexList 
 }
 export interface DataplatformClusterConfigs {
   /**
-  * Maintenance settings. Changing this creates a new resource.
+  * Maintenance settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#maintenance DataplatformCluster#maintenance}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#maintenance DataplatformCluster#maintenance}
   */
   readonly maintenance: DataplatformClusterConfigsMaintenance;
   /**
   * Additional common settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#settings DataplatformCluster#settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#settings DataplatformCluster#settings}
   */
   readonly settings?: DataplatformClusterConfigsSettings[] | cdktf.IResolvable;
   /**
   * Users settings.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#users DataplatformCluster#users}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#users DataplatformCluster#users}
   */
   readonly users?: DataplatformClusterConfigsUsers[] | cdktf.IResolvable;
   /**
   * Warehouses settings. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#warehouses DataplatformCluster#warehouses}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#warehouses DataplatformCluster#warehouses}
   */
   readonly warehouses?: DataplatformClusterConfigsWarehouses[] | cdktf.IResolvable;
 }
@@ -2428,13 +2428,13 @@ export interface DataplatformClusterPodGroupsResource {
   /**
   * Resource request settings. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#cpu_request DataplatformCluster#cpu_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#cpu_request DataplatformCluster#cpu_request}
   */
   readonly cpuRequest?: string;
   /**
   * RAM request settings. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#ram_request DataplatformCluster#ram_request}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#ram_request DataplatformCluster#ram_request}
   */
   readonly ramRequest?: string;
 }
@@ -2569,19 +2569,19 @@ export interface DataplatformClusterPodGroupsVolumes {
   /**
   * Volume count. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#count DataplatformCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#count DataplatformCluster#count}
   */
   readonly count: number;
   /**
   * Storage size. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#storage DataplatformCluster#storage}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#storage DataplatformCluster#storage}
   */
   readonly storage: string;
   /**
   * Storage class name. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#storage_class_name DataplatformCluster#storage_class_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#storage_class_name DataplatformCluster#storage_class_name}
   */
   readonly storageClassName: string;
 }
@@ -2746,31 +2746,31 @@ export interface DataplatformClusterPodGroups {
   /**
   * Pod count.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#count DataplatformCluster#count}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#count DataplatformCluster#count}
   */
   readonly count?: number;
   /**
   * Floating IP pool ID. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#floating_ip_pool DataplatformCluster#floating_ip_pool}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#floating_ip_pool DataplatformCluster#floating_ip_pool}
   */
   readonly floatingIpPool?: string;
   /**
   * Pod group name.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#name DataplatformCluster#name}
   */
   readonly name: string;
   /**
   * Resource request settings. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#resource DataplatformCluster#resource}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#resource DataplatformCluster#resource}
   */
   readonly resource?: DataplatformClusterPodGroupsResource;
   /**
   * Volumes settings. Changing this creates a new resource.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#volumes DataplatformCluster#volumes}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#volumes DataplatformCluster#volumes}
   */
   readonly volumes?: { [key: string]: DataplatformClusterPodGroupsVolumes } | cdktf.IResolvable;
 }
@@ -3014,7 +3014,7 @@ export class DataplatformClusterPodGroupsList extends cdktf.ComplexList {
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster vkcs_dataplatform_cluster}
+* Represents a {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster vkcs_dataplatform_cluster}
 */
 export class DataplatformCluster extends cdktf.TerraformResource {
 
@@ -3030,7 +3030,7 @@ export class DataplatformCluster extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a DataplatformCluster resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the DataplatformCluster to import
-  * @param importFromId The id of the existing DataplatformCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing DataplatformCluster that should be imported. Refer to the {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the DataplatformCluster to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -3042,7 +3042,7 @@ export class DataplatformCluster extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.0/docs/resources/dataplatform_cluster vkcs_dataplatform_cluster} Resource
+  * Create a new {@link https://registry.terraform.io/providers/vk-cs/vkcs/0.13.1/docs/resources/dataplatform_cluster vkcs_dataplatform_cluster} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -3053,8 +3053,8 @@ export class DataplatformCluster extends cdktf.TerraformResource {
       terraformResourceType: 'vkcs_dataplatform_cluster',
       terraformGeneratorMetadata: {
         providerName: 'vkcs',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

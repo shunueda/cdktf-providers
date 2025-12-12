@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job
+// https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,97 +10,97 @@ export interface ElasticsearchMlAnomalyDetectionJobConfig extends cdktf.Terrafor
   /**
   * Advanced configuration option. Specifies whether this job can open when there is insufficient machine learning node capacity for it to be immediately assigned to a node.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#allow_lazy_open ElasticsearchMlAnomalyDetectionJob#allow_lazy_open}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#allow_lazy_open ElasticsearchMlAnomalyDetectionJob#allow_lazy_open}
   */
   readonly allowLazyOpen?: boolean | cdktf.IResolvable;
   /**
   * Specifies how to analyze the data. After you create a job, you cannot change the analysis configuration; all the properties are informational.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#analysis_config ElasticsearchMlAnomalyDetectionJob#analysis_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#analysis_config ElasticsearchMlAnomalyDetectionJob#analysis_config}
   */
   readonly analysisConfig: ElasticsearchMlAnomalyDetectionJobAnalysisConfig;
   /**
   * Limits can be applied for the resources required to hold the mathematical models in memory.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#analysis_limits ElasticsearchMlAnomalyDetectionJob#analysis_limits}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#analysis_limits ElasticsearchMlAnomalyDetectionJob#analysis_limits}
   */
   readonly analysisLimits?: ElasticsearchMlAnomalyDetectionJobAnalysisLimits;
   /**
   * Advanced configuration option. The time between each periodic persistence of the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#background_persist_interval ElasticsearchMlAnomalyDetectionJob#background_persist_interval}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#background_persist_interval ElasticsearchMlAnomalyDetectionJob#background_persist_interval}
   */
   readonly backgroundPersistInterval?: string;
   /**
   * Advanced configuration option. Contains custom meta data about the job. For example, it can contain custom URL information.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#custom_settings ElasticsearchMlAnomalyDetectionJob#custom_settings}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#custom_settings ElasticsearchMlAnomalyDetectionJob#custom_settings}
   */
   readonly customSettings?: string;
   /**
   * Advanced configuration option, which affects the automatic removal of old model snapshots for this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#daily_model_snapshot_retention_after_days ElasticsearchMlAnomalyDetectionJob#daily_model_snapshot_retention_after_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#daily_model_snapshot_retention_after_days ElasticsearchMlAnomalyDetectionJob#daily_model_snapshot_retention_after_days}
   */
   readonly dailyModelSnapshotRetentionAfterDays?: number;
   /**
   * Defines the format of the input data when you send data to the job by using the post data API.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#data_description ElasticsearchMlAnomalyDetectionJob#data_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#data_description ElasticsearchMlAnomalyDetectionJob#data_description}
   */
   readonly dataDescription: ElasticsearchMlAnomalyDetectionJobDataDescription;
   /**
   * A description of the job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#description ElasticsearchMlAnomalyDetectionJob#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#description ElasticsearchMlAnomalyDetectionJob#description}
   */
   readonly description?: string;
   /**
   * A set of job groups. A job can belong to no groups or many.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#groups ElasticsearchMlAnomalyDetectionJob#groups}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#groups ElasticsearchMlAnomalyDetectionJob#groups}
   */
   readonly groups?: string[];
   /**
   * The identifier for the anomaly detection job. This identifier can contain lowercase alphanumeric characters (a-z and 0-9), hyphens, and underscores. It must start and end with alphanumeric characters.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#job_id ElasticsearchMlAnomalyDetectionJob#job_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#job_id ElasticsearchMlAnomalyDetectionJob#job_id}
   */
   readonly jobId: string;
   /**
   * This advanced configuration option stores model information along with the results. It provides a more detailed view into anomaly detection.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#model_plot_config ElasticsearchMlAnomalyDetectionJob#model_plot_config}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#model_plot_config ElasticsearchMlAnomalyDetectionJob#model_plot_config}
   */
   readonly modelPlotConfig?: ElasticsearchMlAnomalyDetectionJobModelPlotConfig;
   /**
   * Advanced configuration option, which affects the automatic removal of old model snapshots for this job.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#model_snapshot_retention_days ElasticsearchMlAnomalyDetectionJob#model_snapshot_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#model_snapshot_retention_days ElasticsearchMlAnomalyDetectionJob#model_snapshot_retention_days}
   */
   readonly modelSnapshotRetentionDays?: number;
   /**
   * Advanced configuration option. The period over which adjustments to the score are applied, as new data is seen.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#renormalization_window_days ElasticsearchMlAnomalyDetectionJob#renormalization_window_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#renormalization_window_days ElasticsearchMlAnomalyDetectionJob#renormalization_window_days}
   */
   readonly renormalizationWindowDays?: number;
   /**
   * A text string that affects the name of the machine learning results index.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#results_index_name ElasticsearchMlAnomalyDetectionJob#results_index_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#results_index_name ElasticsearchMlAnomalyDetectionJob#results_index_name}
   */
   readonly resultsIndexName?: string;
   /**
   * Advanced configuration option. The period of time (in days) that results are retained.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#results_retention_days ElasticsearchMlAnomalyDetectionJob#results_retention_days}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#results_retention_days ElasticsearchMlAnomalyDetectionJob#results_retention_days}
   */
   readonly resultsRetentionDays?: number;
   /**
   * elasticsearch_connection block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#elasticsearch_connection ElasticsearchMlAnomalyDetectionJob#elasticsearch_connection}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#elasticsearch_connection ElasticsearchMlAnomalyDetectionJob#elasticsearch_connection}
   */
   readonly elasticsearchConnection?: ElasticsearchMlAnomalyDetectionJobElasticsearchConnection[] | cdktf.IResolvable;
 }
@@ -108,19 +108,19 @@ export interface ElasticsearchMlAnomalyDetectionJobAnalysisConfigDetectorsCustom
   /**
   * Specifies the result property to which the condition applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#applies_to ElasticsearchMlAnomalyDetectionJob#applies_to}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#applies_to ElasticsearchMlAnomalyDetectionJob#applies_to}
   */
   readonly appliesTo: string;
   /**
   * Specifies the condition operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#operator ElasticsearchMlAnomalyDetectionJob#operator}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#operator ElasticsearchMlAnomalyDetectionJob#operator}
   */
   readonly operator: string;
   /**
   * The value that is compared against the applies_to field using the operator.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#value ElasticsearchMlAnomalyDetectionJob#value}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#value ElasticsearchMlAnomalyDetectionJob#value}
   */
   readonly value: number;
 }
@@ -287,13 +287,13 @@ export interface ElasticsearchMlAnomalyDetectionJobAnalysisConfigDetectorsCustom
   /**
   * The set of actions to be triggered when the rule applies. If more than one action is specified the effects of all actions are combined.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#actions ElasticsearchMlAnomalyDetectionJob#actions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#actions ElasticsearchMlAnomalyDetectionJob#actions}
   */
   readonly actions?: string[];
   /**
   * An array of numeric conditions when the rule applies.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#conditions ElasticsearchMlAnomalyDetectionJob#conditions}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#conditions ElasticsearchMlAnomalyDetectionJob#conditions}
   */
   readonly conditions?: ElasticsearchMlAnomalyDetectionJobAnalysisConfigDetectorsCustomRulesConditions[] | cdktf.IResolvable;
 }
@@ -440,55 +440,55 @@ export interface ElasticsearchMlAnomalyDetectionJobAnalysisConfigDetectors {
   /**
   * The field used to split the data. In particular, this property is used for analyzing the splits with respect to their own history. It is used for finding unusual values in the context of the split.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#by_field_name ElasticsearchMlAnomalyDetectionJob#by_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#by_field_name ElasticsearchMlAnomalyDetectionJob#by_field_name}
   */
   readonly byFieldName?: string;
   /**
   * Custom rules enable you to customize the way detectors operate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#custom_rules ElasticsearchMlAnomalyDetectionJob#custom_rules}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#custom_rules ElasticsearchMlAnomalyDetectionJob#custom_rules}
   */
   readonly customRules?: ElasticsearchMlAnomalyDetectionJobAnalysisConfigDetectorsCustomRules[] | cdktf.IResolvable;
   /**
   * A description of the detector.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#detector_description ElasticsearchMlAnomalyDetectionJob#detector_description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#detector_description ElasticsearchMlAnomalyDetectionJob#detector_description}
   */
   readonly detectorDescription?: string;
   /**
   * Contains one of the following values: all, none, by, or over.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#exclude_frequent ElasticsearchMlAnomalyDetectionJob#exclude_frequent}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#exclude_frequent ElasticsearchMlAnomalyDetectionJob#exclude_frequent}
   */
   readonly excludeFrequent?: string;
   /**
   * The field that the detector function analyzes. Some functions require a field. Functions that don't require a field are count, rare, and freq_rare.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#field_name ElasticsearchMlAnomalyDetectionJob#field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#field_name ElasticsearchMlAnomalyDetectionJob#field_name}
   */
   readonly fieldName?: string;
   /**
   * The analysis function that is used. For example, count, rare, mean, min, max, sum.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#function ElasticsearchMlAnomalyDetectionJob#function}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#function ElasticsearchMlAnomalyDetectionJob#function}
   */
   readonly function: string;
   /**
   * The field used to split the data. In particular, this property is used for analyzing the splits with respect to the history of all splits. It is used for finding unusual values in the population of all splits.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#over_field_name ElasticsearchMlAnomalyDetectionJob#over_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#over_field_name ElasticsearchMlAnomalyDetectionJob#over_field_name}
   */
   readonly overFieldName?: string;
   /**
   * The field used to segment the analysis. When you use this property, you have completely independent baselines for each value of this field.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#partition_field_name ElasticsearchMlAnomalyDetectionJob#partition_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#partition_field_name ElasticsearchMlAnomalyDetectionJob#partition_field_name}
   */
   readonly partitionFieldName?: string;
   /**
   * Defines whether a new series is used as the null series when there is no value for the by or partition fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#use_null ElasticsearchMlAnomalyDetectionJob#use_null}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#use_null ElasticsearchMlAnomalyDetectionJob#use_null}
   */
   readonly useNull?: boolean | cdktf.IResolvable;
 }
@@ -835,13 +835,13 @@ export interface ElasticsearchMlAnomalyDetectionJobAnalysisConfigPerPartitionCat
   /**
   * To enable this setting, you must also set the partition_field_name property to the same value in every detector that uses the keyword mlcategory. Otherwise, job creation fails.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#enabled ElasticsearchMlAnomalyDetectionJob#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#enabled ElasticsearchMlAnomalyDetectionJob#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * This setting can be set to true only if per-partition categorization is enabled.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#stop_on_warn ElasticsearchMlAnomalyDetectionJob#stop_on_warn}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#stop_on_warn ElasticsearchMlAnomalyDetectionJob#stop_on_warn}
   */
   readonly stopOnWarn?: boolean | cdktf.IResolvable;
 }
@@ -966,61 +966,61 @@ export interface ElasticsearchMlAnomalyDetectionJobAnalysisConfig {
   /**
   * The size of the interval that the analysis is aggregated into, typically between 15m and 1h. If the anomaly detector is expecting to see data at near real-time frequency, then the bucket_span should be set to a value around 10 times the time between ingested documents. For example, if data comes every second, bucket_span should be 10s; if data comes every 5 minutes, bucket_span should be 50m. For sparse or batch data, use larger bucket_span values.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#bucket_span ElasticsearchMlAnomalyDetectionJob#bucket_span}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#bucket_span ElasticsearchMlAnomalyDetectionJob#bucket_span}
   */
   readonly bucketSpan?: string;
   /**
   * For categorization jobs only. The name of the field to categorize.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#categorization_field_name ElasticsearchMlAnomalyDetectionJob#categorization_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#categorization_field_name ElasticsearchMlAnomalyDetectionJob#categorization_field_name}
   */
   readonly categorizationFieldName?: string;
   /**
   * For categorization jobs only. An array of regular expressions. A categorization message is matched against each regex in the order they are listed in the array.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#categorization_filters ElasticsearchMlAnomalyDetectionJob#categorization_filters}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#categorization_filters ElasticsearchMlAnomalyDetectionJob#categorization_filters}
   */
   readonly categorizationFilters?: string[];
   /**
   * Detector configuration objects. Detectors identify the anomaly detection functions and the fields on which they operate.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#detectors ElasticsearchMlAnomalyDetectionJob#detectors}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#detectors ElasticsearchMlAnomalyDetectionJob#detectors}
   */
   readonly detectors: ElasticsearchMlAnomalyDetectionJobAnalysisConfigDetectors[] | cdktf.IResolvable;
   /**
   * A comma separated list of influencer field names. Typically these can be the by, over, or partition fields that are used in the detector configuration.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#influencers ElasticsearchMlAnomalyDetectionJob#influencers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#influencers ElasticsearchMlAnomalyDetectionJob#influencers}
   */
   readonly influencers?: string[];
   /**
   * The size of the window in which to expect data that is out of time order. If you specify a non-zero value, it must be greater than or equal to one second.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#latency ElasticsearchMlAnomalyDetectionJob#latency}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#latency ElasticsearchMlAnomalyDetectionJob#latency}
   */
   readonly latency?: string;
   /**
   * Advanced configuration option. The time interval (in days) between pruning the model.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#model_prune_window ElasticsearchMlAnomalyDetectionJob#model_prune_window}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#model_prune_window ElasticsearchMlAnomalyDetectionJob#model_prune_window}
   */
   readonly modelPruneWindow?: string;
   /**
   * This functionality is reserved for internal use. It is not supported for use in customer environments and is not subject to the support SLA of official GA features.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#multivariate_by_fields ElasticsearchMlAnomalyDetectionJob#multivariate_by_fields}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#multivariate_by_fields ElasticsearchMlAnomalyDetectionJob#multivariate_by_fields}
   */
   readonly multivariateByFields?: boolean | cdktf.IResolvable;
   /**
   * Settings related to how categorization interacts with partition fields.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#per_partition_categorization ElasticsearchMlAnomalyDetectionJob#per_partition_categorization}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#per_partition_categorization ElasticsearchMlAnomalyDetectionJob#per_partition_categorization}
   */
   readonly perPartitionCategorization?: ElasticsearchMlAnomalyDetectionJobAnalysisConfigPerPartitionCategorization;
   /**
   * If this property is specified, the data that is fed to the job is expected to be pre-summarized.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#summary_count_field_name ElasticsearchMlAnomalyDetectionJob#summary_count_field_name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#summary_count_field_name ElasticsearchMlAnomalyDetectionJob#summary_count_field_name}
   */
   readonly summaryCountFieldName?: string;
 }
@@ -1374,13 +1374,13 @@ export interface ElasticsearchMlAnomalyDetectionJobAnalysisLimits {
   /**
   * The maximum number of examples stored per category in memory and in the results data store.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#categorization_examples_limit ElasticsearchMlAnomalyDetectionJob#categorization_examples_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#categorization_examples_limit ElasticsearchMlAnomalyDetectionJob#categorization_examples_limit}
   */
   readonly categorizationExamplesLimit?: number;
   /**
   * The approximate maximum amount of memory resources that are required for analytical processing.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#model_memory_limit ElasticsearchMlAnomalyDetectionJob#model_memory_limit}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#model_memory_limit ElasticsearchMlAnomalyDetectionJob#model_memory_limit}
   */
   readonly modelMemoryLimit?: string;
 }
@@ -1505,13 +1505,13 @@ export interface ElasticsearchMlAnomalyDetectionJobDataDescription {
   /**
   * The name of the field that contains the timestamp.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#time_field ElasticsearchMlAnomalyDetectionJob#time_field}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#time_field ElasticsearchMlAnomalyDetectionJob#time_field}
   */
   readonly timeField?: string;
   /**
   * The time format, which can be epoch, epoch_ms, or a custom pattern.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#time_format ElasticsearchMlAnomalyDetectionJob#time_format}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#time_format ElasticsearchMlAnomalyDetectionJob#time_format}
   */
   readonly timeFormat?: string;
 }
@@ -1636,19 +1636,19 @@ export interface ElasticsearchMlAnomalyDetectionJobModelPlotConfig {
   /**
   * If true, enables calculation and storage of the model change annotations for each entity that is being analyzed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#annotations_enabled ElasticsearchMlAnomalyDetectionJob#annotations_enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#annotations_enabled ElasticsearchMlAnomalyDetectionJob#annotations_enabled}
   */
   readonly annotationsEnabled?: boolean | cdktf.IResolvable;
   /**
   * If true, enables calculation and storage of the model bounds for each entity that is being analyzed.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#enabled ElasticsearchMlAnomalyDetectionJob#enabled}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#enabled ElasticsearchMlAnomalyDetectionJob#enabled}
   */
   readonly enabled?: boolean | cdktf.IResolvable;
   /**
   * Limits data collection to this comma separated list of partition or by field values. If terms are not specified or it is an empty string, no filtering is applied.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#terms ElasticsearchMlAnomalyDetectionJob#terms}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#terms ElasticsearchMlAnomalyDetectionJob#terms}
   */
   readonly terms?: string;
 }
@@ -1802,85 +1802,85 @@ export interface ElasticsearchMlAnomalyDetectionJobElasticsearchConnection {
   /**
   * API Key to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#api_key ElasticsearchMlAnomalyDetectionJob#api_key}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#api_key ElasticsearchMlAnomalyDetectionJob#api_key}
   */
   readonly apiKey?: string;
   /**
   * Bearer Token to use for authentication to Elasticsearch
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#bearer_token ElasticsearchMlAnomalyDetectionJob#bearer_token}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#bearer_token ElasticsearchMlAnomalyDetectionJob#bearer_token}
   */
   readonly bearerToken?: string;
   /**
   * PEM-encoded custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#ca_data ElasticsearchMlAnomalyDetectionJob#ca_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#ca_data ElasticsearchMlAnomalyDetectionJob#ca_data}
   */
   readonly caData?: string;
   /**
   * Path to a custom Certificate Authority certificate
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#ca_file ElasticsearchMlAnomalyDetectionJob#ca_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#ca_file ElasticsearchMlAnomalyDetectionJob#ca_file}
   */
   readonly caFile?: string;
   /**
   * PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#cert_data ElasticsearchMlAnomalyDetectionJob#cert_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#cert_data ElasticsearchMlAnomalyDetectionJob#cert_data}
   */
   readonly certData?: string;
   /**
   * Path to a file containing the PEM encoded certificate for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#cert_file ElasticsearchMlAnomalyDetectionJob#cert_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#cert_file ElasticsearchMlAnomalyDetectionJob#cert_file}
   */
   readonly certFile?: string;
   /**
   * A list of endpoints where the terraform provider will point to, this must include the http(s) schema and port number.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#endpoints ElasticsearchMlAnomalyDetectionJob#endpoints}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#endpoints ElasticsearchMlAnomalyDetectionJob#endpoints}
   */
   readonly endpoints?: string[];
   /**
   * ES Client Authentication field to be used with the JWT token
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#es_client_authentication ElasticsearchMlAnomalyDetectionJob#es_client_authentication}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#es_client_authentication ElasticsearchMlAnomalyDetectionJob#es_client_authentication}
   */
   readonly esClientAuthentication?: string;
   /**
   * A list of headers to be sent with each request to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#headers ElasticsearchMlAnomalyDetectionJob#headers}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#headers ElasticsearchMlAnomalyDetectionJob#headers}
   */
   readonly headers?: { [key: string]: string };
   /**
   * Disable TLS certificate validation
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#insecure ElasticsearchMlAnomalyDetectionJob#insecure}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#insecure ElasticsearchMlAnomalyDetectionJob#insecure}
   */
   readonly insecure?: boolean | cdktf.IResolvable;
   /**
   * PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#key_data ElasticsearchMlAnomalyDetectionJob#key_data}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#key_data ElasticsearchMlAnomalyDetectionJob#key_data}
   */
   readonly keyData?: string;
   /**
   * Path to a file containing the PEM encoded private key for client auth
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#key_file ElasticsearchMlAnomalyDetectionJob#key_file}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#key_file ElasticsearchMlAnomalyDetectionJob#key_file}
   */
   readonly keyFile?: string;
   /**
   * Password to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#password ElasticsearchMlAnomalyDetectionJob#password}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#password ElasticsearchMlAnomalyDetectionJob#password}
   */
   readonly password?: string;
   /**
   * Username to use for API authentication to Elasticsearch.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#username ElasticsearchMlAnomalyDetectionJob#username}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#username ElasticsearchMlAnomalyDetectionJob#username}
   */
   readonly username?: string;
 }
@@ -2373,7 +2373,7 @@ export class ElasticsearchMlAnomalyDetectionJobElasticsearchConnectionList exten
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job elasticstack_elasticsearch_ml_anomaly_detection_job}
+* Represents a {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job elasticstack_elasticsearch_ml_anomaly_detection_job}
 */
 export class ElasticsearchMlAnomalyDetectionJob extends cdktf.TerraformResource {
 
@@ -2389,7 +2389,7 @@ export class ElasticsearchMlAnomalyDetectionJob extends cdktf.TerraformResource 
   * Generates CDKTF code for importing a ElasticsearchMlAnomalyDetectionJob resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ElasticsearchMlAnomalyDetectionJob to import
-  * @param importFromId The id of the existing ElasticsearchMlAnomalyDetectionJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ElasticsearchMlAnomalyDetectionJob that should be imported. Refer to the {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ElasticsearchMlAnomalyDetectionJob to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -2401,7 +2401,7 @@ export class ElasticsearchMlAnomalyDetectionJob extends cdktf.TerraformResource 
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.0/docs/resources/elasticsearch_ml_anomaly_detection_job elasticstack_elasticsearch_ml_anomaly_detection_job} Resource
+  * Create a new {@link https://registry.terraform.io/providers/elastic/elasticstack/0.13.1/docs/resources/elasticsearch_ml_anomaly_detection_job elasticstack_elasticsearch_ml_anomaly_detection_job} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -2412,8 +2412,8 @@ export class ElasticsearchMlAnomalyDetectionJob extends cdktf.TerraformResource 
       terraformResourceType: 'elasticstack_elasticsearch_ml_anomaly_detection_job',
       terraformGeneratorMetadata: {
         providerName: 'elasticstack',
-        providerVersion: '0.13.0',
-        providerVersionConstraint: '0.13.0'
+        providerVersion: '0.13.1',
+        providerVersionConstraint: '0.13.1'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

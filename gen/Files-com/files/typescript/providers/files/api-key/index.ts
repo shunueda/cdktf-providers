@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key
+// https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,49 +10,49 @@ export interface ApiKeyConfig extends cdktf.TerraformMetaArguments {
   /**
   * If `true`, this API key will be usable with AWS-compatible endpoints, such as our Inbound S3-compatible endpoint.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#aws_style_credentials ApiKey#aws_style_credentials}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#aws_style_credentials ApiKey#aws_style_credentials}
   */
   readonly awsStyleCredentials?: boolean | cdktf.IResolvable;
   /**
   * User-supplied description of API key.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#description ApiKey#description}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#description ApiKey#description}
   */
   readonly description?: string;
   /**
   * API Key expiration date
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#expires_at ApiKey#expires_at}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#expires_at ApiKey#expires_at}
   */
   readonly expiresAt?: string;
   /**
   * Internal name for the API Key.  For your use.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#name ApiKey#name}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#name ApiKey#name}
   */
   readonly name: string;
   /**
   * Folder path restriction for `office_integration` permission set API keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#path ApiKey#path}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#path ApiKey#path}
   */
   readonly path?: string;
   /**
   * Permissions for this API Key. It must be full for site-wide API Keys.  Keys with the `desktop_app` permission set only have the ability to do the functions provided in our Desktop App (File and Share Link operations). Keys with the `office_integration` permission set are auto generated, and automatically expire, to allow users to interact with office integration platforms. Additional permission sets may become available in the future, such as for a Site Admin to give a key with no administrator privileges.  If you have ideas for permission sets, please let us know.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#permission_set ApiKey#permission_set}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#permission_set ApiKey#permission_set}
   */
   readonly permissionSet?: string;
   /**
   * User ID for the owner of this API Key.  May be blank for Site-wide API Keys.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#user_id ApiKey#user_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#user_id ApiKey#user_id}
   */
   readonly userId?: number;
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key files_api_key}
+* Represents a {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key files_api_key}
 */
 export class ApiKey extends cdktf.TerraformResource {
 
@@ -68,7 +68,7 @@ export class ApiKey extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a ApiKey resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the ApiKey to import
-  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing ApiKey that should be imported. Refer to the {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the ApiKey to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -80,7 +80,7 @@ export class ApiKey extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.409/docs/resources/api_key files_api_key} Resource
+  * Create a new {@link https://registry.terraform.io/providers/files-com/files/0.1.411/docs/resources/api_key files_api_key} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -91,8 +91,8 @@ export class ApiKey extends cdktf.TerraformResource {
       terraformResourceType: 'files_api_key',
       terraformGeneratorMetadata: {
         providerName: 'files',
-        providerVersion: '0.1.409',
-        providerVersionConstraint: '0.1.409'
+        providerVersion: '0.1.411',
+        providerVersionConstraint: '0.1.411'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,

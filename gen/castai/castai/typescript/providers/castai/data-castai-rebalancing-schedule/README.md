@@ -1,3 +1,3 @@
 # `data_castai_rebalancing_schedule`
 
-Refer to the Terraform Registry for docs: [`data_castai_rebalancing_schedule`](https://registry.terraform.io/providers/castai/castai/8.4.0/docs/data-sources/rebalancing_schedule).
+Refer to the Terraform Registry for docs: [`data_castai_rebalancing_schedule`](https://registry.terraform.io/providers/castai/castai/8.5.0/docs/data-sources/rebalancing_schedule).

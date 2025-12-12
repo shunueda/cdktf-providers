@@ -1,4 +1,4 @@
-// https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node
+// https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node
 // generated from terraform resource schema
 
 import { Construct } from 'constructs';
@@ -10,11 +10,11 @@ export interface PeeringGroupNodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Peering Group ID to which the node will be attached to.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#group_id PeeringGroupNode#group_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#group_id PeeringGroupNode#group_id}
   */
   readonly groupId?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#id PeeringGroupNode#id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#id PeeringGroupNode#id}
   *
   * Please be aware that the id field is automatically added to all resources in Terraform providers using a Terraform provider SDK version below 2.
   * If you experience problems setting this value it might not be settable. Please take a look at the provider documentation to ensure it should be settable.
@@ -23,31 +23,31 @@ export interface PeeringGroupNodeConfig extends cdktf.TerraformMetaArguments {
   /**
   * Node ID to be attached.
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#node_id PeeringGroupNode#node_id}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#node_id PeeringGroupNode#node_id}
   */
   readonly nodeId?: string;
   /**
   * timeouts block
   *
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#timeouts PeeringGroupNode#timeouts}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#timeouts PeeringGroupNode#timeouts}
   */
   readonly timeouts?: PeeringGroupNodeTimeouts;
 }
 export interface PeeringGroupNodeTimeouts {
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#create PeeringGroupNode#create}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#create PeeringGroupNode#create}
   */
   readonly create?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#default PeeringGroupNode#default}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#default PeeringGroupNode#default}
   */
   readonly default?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#delete PeeringGroupNode#delete}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#delete PeeringGroupNode#delete}
   */
   readonly delete?: string;
   /**
-  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#read PeeringGroupNode#read}
+  * Docs at Terraform Registry: {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#read PeeringGroupNode#read}
   */
   readonly read?: string;
 }
@@ -228,7 +228,7 @@ export class PeeringGroupNodeTimeoutsOutputReference extends cdktf.ComplexObject
 }
 
 /**
-* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node sdm_peering_group_node}
+* Represents a {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node sdm_peering_group_node}
 */
 export class PeeringGroupNode extends cdktf.TerraformResource {
 
@@ -244,7 +244,7 @@ export class PeeringGroupNode extends cdktf.TerraformResource {
   * Generates CDKTF code for importing a PeeringGroupNode resource upon running "cdktf plan <stack-name>"
   * @param scope The scope in which to define this construct
   * @param importToId The construct id used in the generated config for the PeeringGroupNode to import
-  * @param importFromId The id of the existing PeeringGroupNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node#import import section} in the documentation of this resource for the id to use
+  * @param importFromId The id of the existing PeeringGroupNode that should be imported. Refer to the {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node#import import section} in the documentation of this resource for the id to use
   * @param provider? Optional instance of the provider where the PeeringGroupNode to import is found
   */
   public static generateConfigForImport(scope: Construct, importToId: string, importFromId: string, provider?: cdktf.TerraformProvider) {
@@ -256,7 +256,7 @@ export class PeeringGroupNode extends cdktf.TerraformResource {
   // ===========
 
   /**
-  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.35.0/docs/resources/peering_group_node sdm_peering_group_node} Resource
+  * Create a new {@link https://registry.terraform.io/providers/strongdm/sdm/15.39.0/docs/resources/peering_group_node sdm_peering_group_node} Resource
   *
   * @param scope The scope in which to define this construct
   * @param id The scoped construct ID. Must be unique amongst siblings in the same scope
@@ -267,8 +267,8 @@ export class PeeringGroupNode extends cdktf.TerraformResource {
       terraformResourceType: 'sdm_peering_group_node',
       terraformGeneratorMetadata: {
         providerName: 'sdm',
-        providerVersion: '15.35.0',
-        providerVersionConstraint: '15.35.0'
+        providerVersion: '15.39.0',
+        providerVersionConstraint: '15.39.0'
       },
       provider: config.provider,
       dependsOn: config.dependsOn,
